@@ -2,8 +2,9 @@
   "status": "succeeded",
   "url": "https://diandian-classic-motion-lab.expert-eagle-6942.chatgpt.site",
   "project_id": "appgprj_6ae75a729d0481919ec16ab35d702896",
-  "deployment_id": "appgdep_6ae76780e41c819186318feb3d68867d",
-  "version_id": "appgprj_6ae75a729d0481919ec16ab35d702896~appgver_9197ccefe0348191be337554c960c1d0",
-  "source_commit": "12f87d6e83c56c17fe88e616943d560699854ad4",
-  "access": "owner-private"
+  "deployment_id": "appgdep_6ae7c0f42d488191b838603c0c9200a8",
+  "version_id": "appgprj_6ae75a729d0481919ec16ab35d702896~appgver_a6698728eb808191819b0b7410bae46a",
+  "source_commit": "e64eeace48a8bd36714a3c905f73a2c6cd168fd2",
+  "access": "owner-private",
+  "revision": 3
 }

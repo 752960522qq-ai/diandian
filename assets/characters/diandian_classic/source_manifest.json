@@ -12,16 +12,32 @@
     "facial_joint_count": 246
   },
   "retarget": {
-    "body_bones_mapped": 52,
+    "motion_revision": 3,
+    "body_bones_mapped": 65,
     "fps": 30,
     "clips": [
       "Idle",
       "Walk",
       "Run"
     ],
-    "head_stress": "Authored diagnostic; not a donor clip",
-    "motion_revision": 2,
-    "motion_tuning": "Natural head/neck follow; 14mm Walk pelvis range and support-preserving leg IK."
+    "Idle": "Uploaded girl_Idle.fbx",
+    "Walk": "Uploaded girl Walk.fbx",
+    "Run": "hero_13 XiaQing R23",
+    "head_stress": "Authored diagnostic",
+    "upper_arm_length_factor": 0.95,
+    "root_motion": "Linear horizontal travel removed; pelvis lateral and fore-aft sway preserved"
   },
-  "classic_geometry_preserved": true
+  "classic_geometry_preserved": true,
+  "uploaded_motion_sources": {
+    "Idle": {
+      "filename": "girl_Idle.fbx",
+      "sha256": "5f900522d98df6506cf2d961171b78e760d57371b68f9968a07a3b3df8d5a4fd",
+      "type": "user original FBX"
+    },
+    "Walk": {
+      "filename": "girl Walk.fbx",
+      "sha256": "b1a12ee4fc28fd000e31ef4e9f1f461dad4229c65ab297af7a659e3aabcfd655",
+      "type": "user original FBX"
+    }
+  }
 }

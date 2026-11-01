@@ -1,0 +1,72 @@
+{
+  "upper_arm_factor": 0.95,
+  "method": "Shoulder fixed; elbow and complete downstream chain translated inward; skin shortened only along shoulder-elbow axis with shoulder/elbow blending; cross-section coordinates preserved.",
+  "bone_sides": [
+    {
+      "side": "Left",
+      "factor": 0.95,
+      "shoulder_joint_shift_m": 0.0,
+      "upper_arm_joint_length_before_m": 0.15607615873419775,
+      "upper_arm_joint_length_after_m": 0.14827236131058147,
+      "upper_arm_length_ratio": 0.9500000673587413,
+      "downstream_world_translation_m": [
+        -0.004099557176232338,
+        0.0027330436278134584,
+        0.0060517373494803905
+      ],
+      "downstream_bones_translated": 22,
+      "max_forearm_hand_finger_bone_length_change_m": 8.277068710982327e-09,
+      "max_downstream_rest_rotation_change_degrees": 0.0
+    },
+    {
+      "side": "Right",
+      "factor": 0.95,
+      "shoulder_joint_shift_m": 0.0,
+      "upper_arm_joint_length_before_m": 0.15607592825465944,
+      "upper_arm_joint_length_after_m": 0.14827214382522202,
+      "upper_arm_length_ratio": 0.9500000767786275,
+      "downstream_world_translation_m": [
+        0.004099550656974316,
+        0.002733033848926425,
+        0.0060517312958836555
+      ],
+      "downstream_bones_translated": 22,
+      "max_forearm_hand_finger_bone_length_change_m": 5.889585284746257e-09,
+      "max_downstream_rest_rotation_change_degrees": 0.0
+    }
+  ],
+  "meshes": [
+    {
+      "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+      "vertices": 107452,
+      "sides": {
+        "Left": {
+          "changed_vertices": 21185,
+          "longitudinal_only_perpendicular_error_m": 1.1406325468715177e-09,
+          "rigid_forearm_hand_vertices": 12518,
+          "forearm_hand_translation_error_m": 4.656612873077393e-10,
+          "maximum_shift_m": 0.007803807700123558
+        },
+        "Right": {
+          "changed_vertices": 21063,
+          "longitudinal_only_perpendicular_error_m": 6.984919309616089e-10,
+          "rigid_forearm_hand_vertices": 12525,
+          "forearm_hand_translation_error_m": 6.585445079827193e-10,
+          "maximum_shift_m": 0.007803795987343127
+        }
+      }
+    }
+  ],
+  "uv_modified": false,
+  "skin_weights_modified": false,
+  "face_vertices_modified": false,
+  "checks": {
+    "uv_and_weights_unchanged": true,
+    "face_max_vertex_change_m": 0.0,
+    "face_roi": "Original rest world z>0.86 and abs(x)<0.09; this covers the entire head and upper neck, excluding shoulder/coat collar."
+  },
+  "previews": [
+    "upper_arm_front.png",
+    "upper_arm_side.png"
+  ]
+}

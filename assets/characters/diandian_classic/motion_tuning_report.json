@@ -1,21 +1,340 @@
 {
-  "revision": 2,
+  "revision": 3,
+  "upper_arms": {
+    "upper_arm_factor": 0.95,
+    "method": "Shoulder fixed; elbow and complete downstream chain translated inward; skin shortened only along shoulder-elbow axis with shoulder/elbow blending; cross-section coordinates preserved.",
+    "bone_sides": [
+      {
+        "side": "Left",
+        "factor": 0.95,
+        "shoulder_joint_shift_m": 0.0,
+        "upper_arm_joint_length_before_m": 0.15607615873419775,
+        "upper_arm_joint_length_after_m": 0.14827236131058147,
+        "upper_arm_length_ratio": 0.9500000673587413,
+        "downstream_world_translation_m": [
+          -0.004099557176232338,
+          0.0027330436278134584,
+          0.0060517373494803905
+        ],
+        "downstream_bones_translated": 22,
+        "max_forearm_hand_finger_bone_length_change_m": 8.277068710982327e-09,
+        "max_downstream_rest_rotation_change_degrees": 0.0
+      },
+      {
+        "side": "Right",
+        "factor": 0.95,
+        "shoulder_joint_shift_m": 0.0,
+        "upper_arm_joint_length_before_m": 0.15607592825465944,
+        "upper_arm_joint_length_after_m": 0.14827214382522202,
+        "upper_arm_length_ratio": 0.9500000767786275,
+        "downstream_world_translation_m": [
+          0.004099550656974316,
+          0.002733033848926425,
+          0.0060517312958836555
+        ],
+        "downstream_bones_translated": 22,
+        "max_forearm_hand_finger_bone_length_change_m": 5.889585284746257e-09,
+        "max_downstream_rest_rotation_change_degrees": 0.0
+      }
+    ],
+    "meshes": [
+      {
+        "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+        "vertices": 107452,
+        "sides": {
+          "Left": {
+            "changed_vertices": 21185,
+            "longitudinal_only_perpendicular_error_m": 1.1406325468715177e-09,
+            "rigid_forearm_hand_vertices": 12518,
+            "forearm_hand_translation_error_m": 4.656612873077393e-10,
+            "maximum_shift_m": 0.007803807700123558
+          },
+          "Right": {
+            "changed_vertices": 21063,
+            "longitudinal_only_perpendicular_error_m": 6.984919309616089e-10,
+            "rigid_forearm_hand_vertices": 12525,
+            "forearm_hand_translation_error_m": 6.585445079827193e-10,
+            "maximum_shift_m": 0.007803795987343127
+          }
+        }
+      }
+    ],
+    "uv_modified": false,
+    "skin_weights_modified": false,
+    "face_vertices_modified": false,
+    "checks": {
+      "uv_and_weights_unchanged": true,
+      "face_max_vertex_change_m": 0.0,
+      "face_roi": "Original rest world z>0.86 and abs(x)<0.09; this covers the entire head and upper neck, excluding shoulder/coat collar."
+    },
+    "previews": [
+      "upper_arm_front.png",
+      "upper_arm_side.png"
+    ]
+  },
+  "raw_motion_adaptation": {
+    "Idle": {
+      "source_path": "/workspace/attachments/4e44a0fe-8e13-446d-9375-532d0e38f3b0/girl_Idle.fbx",
+      "source_fps": 30.0,
+      "source_frame_range": [
+        1.0,
+        251.0
+      ],
+      "duration_seconds": 8.333333333333334,
+      "target_fps": 30,
+      "baked_samples": 251,
+      "mapped_body_bones": 65,
+      "translation_leg_ratio": 0.5762220750662473,
+      "removed_horizontal_travel_source_m": [
+        3.3527612686157227e-08,
+        -9.313225746154785e-09,
+        0.0
+      ],
+      "pelvis_translation_range_m": [
+        [
+          -0.0015496390406042337,
+          0.0038773410487920046
+        ],
+        [
+          -0.003461256856098771,
+          0.000287114322418347
+        ],
+        [
+          -3.7436606362462044e-05,
+          0.0006113501149229705
+        ]
+      ],
+      "chest_world_rotation_range_deg": [
+        3.0410195315950577,
+        0.6243561297673281,
+        0.425830545042825
+      ],
+      "body_motion_preserved": "Original source hips rotation, spine, clavicle, arms and hand motion baked without rigid body stabilization."
+    },
+    "Walk": {
+      "source_path": "/workspace/attachments/a4f2927d-606d-4ca9-a66e-6d2b0c7a53be/girl Walk.fbx",
+      "source_fps": 30.0,
+      "source_frame_range": [
+        1.0,
+        36.0
+      ],
+      "duration_seconds": 1.1666666666666667,
+      "target_fps": 30,
+      "baked_samples": 36,
+      "mapped_body_bones": 65,
+      "translation_leg_ratio": 0.5762220750662473,
+      "removed_horizontal_travel_source_m": [
+        3.5390257835388184e-07,
+        -1.4855308532714844,
+        0.0
+      ],
+      "pelvis_translation_range_m": [
+        [
+          -0.0009120494360104203,
+          0.02876311168074608
+        ],
+        [
+          -0.02641223557293415,
+          0.0007607679581269622
+        ],
+        [
+          -0.02972971461713314,
+          0.0005368203273974359
+        ]
+      ],
+      "chest_world_rotation_range_deg": [
+        4.648078839873197,
+        5.44452702858599,
+        16.554560010244394
+      ],
+      "body_motion_preserved": "Original source hips rotation, spine, clavicle, arms and hand motion baked without rigid body stabilization."
+    }
+  },
+  "initial_floor_alignment": {
+    "method": "Actual deformed rest-sole vertices; one constant world-Z pelvis offset per action.",
+    "rest_sole_threshold_z_m": 0.035,
+    "sole_vertex_counts": {
+      "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f": 3986
+    },
+    "actions": [
+      {
+        "action": "Idle",
+        "sample_count": 51,
+        "sample_frames": [
+          0.0,
+          5.0,
+          10.0,
+          15.0,
+          20.0,
+          25.0,
+          30.0,
+          35.0,
+          40.0,
+          45.0,
+          50.0,
+          55.0,
+          60.0,
+          65.0,
+          70.0,
+          75.0,
+          80.0,
+          85.0,
+          90.0,
+          95.0,
+          100.0,
+          105.0,
+          110.0,
+          115.0,
+          120.0,
+          125.0,
+          130.0,
+          135.0,
+          140.0,
+          145.0,
+          150.0,
+          155.0,
+          160.0,
+          165.0,
+          170.0,
+          175.0,
+          180.0,
+          185.0,
+          190.0,
+          195.0,
+          200.0,
+          205.0,
+          210.0,
+          215.0,
+          220.0,
+          225.0,
+          230.0,
+          235.0,
+          240.0,
+          245.0,
+          250.0
+        ],
+        "lowest_shoe_vertex_z_before_m": 0.016368187219978084,
+        "support_gap_range_before_m": [
+          0.016368187219978084,
+          0.01649785234746761
+        ],
+        "constant_world_z_offset_m": -0.016368187219978084,
+        "constant_hips_local_offset": [
+          -7.154761227923245e-10,
+          -0.016368186101317406,
+          -1.4837345796436807e-09
+        ],
+        "support_gap_range_after_m": [
+          0.0,
+          0.0001296651274895269
+        ],
+        "sampled_max_penetration_before_m": 0.0,
+        "sampled_max_penetration_after_m": 0.0,
+        "flight_height_range_preserved_m": 0.0001296651274895269
+      },
+      {
+        "action": "Walk",
+        "sample_count": 19,
+        "sample_frames": [
+          0.0,
+          2.0,
+          4.0,
+          6.0,
+          8.0,
+          10.0,
+          12.0,
+          14.0,
+          16.0,
+          18.0,
+          20.0,
+          22.0,
+          24.0,
+          26.0,
+          28.0,
+          30.0,
+          32.0,
+          34.0,
+          35.0
+        ],
+        "lowest_shoe_vertex_z_before_m": 0.013344100820650736,
+        "support_gap_range_before_m": [
+          0.013344100820650736,
+          0.019459363444467997
+        ],
+        "constant_world_z_offset_m": -0.013344100820650736,
+        "constant_hips_local_offset": [
+          -5.832890836998672e-10,
+          -0.01334409974515438,
+          -1.2096087464996685e-09
+        ],
+        "support_gap_range_after_m": [
+          0.0,
+          0.0061152626238172615
+        ],
+        "sampled_max_penetration_before_m": 0.0,
+        "sampled_max_penetration_after_m": 0.0,
+        "flight_height_range_preserved_m": 0.0061152626238172615
+      }
+    ]
+  },
+  "foot_contact": {
+    "Idle": {
+      "action": "Idle",
+      "method": "Dual flat-sole planted Idle stance",
+      "frames": 251,
+      "hips_peak_to_peak_before_m": 0.000648796558380127,
+      "hips_peak_to_peak_after_m": 0.00064257158051928,
+      "hips_baseline_shift_m": 0.0,
+      "max_ankle_goal_error_m": 1.65303854140146e-07,
+      "knee_angle_range_degrees": [
+        150.2779450620256,
+        164.89480943304136
+      ],
+      "preserved_root_horizontal_sway": true,
+      "fixed_ankle_goals": {
+        "Left": [
+          0.13147485256195068,
+          0.04055913910269737,
+          0.0761348083615303
+        ],
+        "Right": [
+          0.01035634521394968,
+          0.10901001840829849,
+          0.07613477110862732
+        ]
+      }
+    },
+    "Walk": {
+      "action": "Walk",
+      "method": "Support-leg IK with preserved shoulder/hip sway and at most 16mm smooth pelvis cycle",
+      "frames": 36,
+      "hips_peak_to_peak_before_m": 0.03026658296585083,
+      "hips_peak_to_peak_after_m": 0.016000000000000014,
+      "hips_baseline_shift_m": -0.016154964520390114,
+      "max_ankle_goal_error_m": 1.4812421315961363e-07,
+      "knee_angle_range_degrees": [
+        105.46894663483134,
+        166.0550400069731
+      ],
+      "preserved_root_horizontal_sway": true
+    }
+  },
   "head_neck": {
     "Idle": {
       "original_head_mean_rotation_deg": [
-        3.093137506915346,
-        0.9993245185612306,
-        1.762889252861732
+        3.0931176276497667,
+        0.9992101871709402,
+        1.763076784670018
       ],
       "new_head_mean_rotation_deg": [
-        0.7499999999999999,
-        1.9142963489058541e-16,
-        -4.0651464522455574e-16
+        0.7499999999999998,
+        -4.134721085902572e-17,
+        3.431023362628769e-16
       ],
       "new_head_rotation_range_deg": [
-        2.2968893004720616,
-        1.1134078229701714,
-        3.0140777987880916
+        2.3006267989715483,
+        1.1153053120918244,
+        3.0159036371326646
       ],
       "neck_extra_forward_tilt_deg": 1.3,
       "head_follow_lag_ms": 60.00000000000001,
@@ -23,80 +342,23 @@
     },
     "Walk": {
       "original_head_mean_rotation_deg": [
-        -15.72238981325396,
-        3.218502538218772,
-        -1.8988370192248318
+        -15.72558282911681,
+        3.2180835964931367,
+        -1.8946718999281258
       ],
       "new_head_mean_rotation_deg": [
-        0.4000000000000005,
-        -1.4198904827962128e-17,
-        -6.531496220862579e-16
+        0.3999999999999999,
+        -1.419890482796213e-16,
+        -1.7038685793554555e-17
       ],
       "new_head_rotation_range_deg": [
-        5.314458610632004,
-        3.677509507745066,
-        14.61512043752836
+        5.417408119362935,
+        3.7617075897692818,
+        14.700267915906617
       ],
       "neck_extra_forward_tilt_deg": 1.8,
       "head_follow_lag_ms": 40.0,
       "loop_closed": true
-    },
-    "Run": {
-      "original_head_mean_rotation_deg": [
-        -10.274994651021858,
-        0.1847904878502173,
-        2.062162641380218
-      ],
-      "new_head_mean_rotation_deg": [
-        1.4,
-        -1.9878466759146982e-17,
-        7.951386703658792e-16
-      ],
-      "new_head_rotation_range_deg": [
-        2.715911083903437,
-        1.2570155437745596,
-        18.934293973420704
-      ],
-      "neck_extra_forward_tilt_deg": 4.0,
-      "head_follow_lag_ms": 33.333333333333336,
-      "loop_closed": true
     }
-  },
-  "walk": {
-    "action": "Walk",
-    "frames": 36,
-    "fps": 30,
-    "method": "Periodic pelvis low-pass and 14mm amplitude; two-bone IK preserves original ankle world positions and foot rotations.",
-    "hips_world_z_range_before_m": [
-      0.557854175567627,
-      0.6080099940299988
-    ],
-    "hips_world_z_range_after_m": [
-      0.5698716640472412,
-      0.5838716626167297
-    ],
-    "hips_peak_to_peak_before_m": 0.050155818462371826,
-    "hips_peak_to_peak_after_m": 0.013999998569488525,
-    "bounce_reduction_fraction": 0.7208699010665796,
-    "mean_height_before_m": 0.5873376658984593,
-    "mean_height_after_m": 0.5776100358420437,
-    "mean_height_adjustment_m": -0.009727630056415526,
-    "max_ankle_goal_error_m": 1.2036781326982014e-07,
-    "max_foot_world_angle_error_degrees": 0.0,
-    "max_reach_excess_m": 0.0,
-    "knee_interior_angle_range_degrees": [
-      101.98317325229368,
-      167.7145164280977
-    ],
-    "foot_goal_stride_scale": 1.0,
-    "root_cycle_endpoint_error_m": 5.960464477539063e-08,
-    "mesh_weights_and_rest_skeleton_modified": false,
-    "shoe_support_range_m": [
-      -0.00023199494242236962,
-      7.896456566818063e-05
-    ]
-  },
-  "face_binding_preserved": true,
-  "head_stress_preserved": true,
-  "measured_head_height_range_m": 0.013992488384246826
+  }
 }
