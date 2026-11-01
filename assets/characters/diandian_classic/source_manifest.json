@@ -1,0 +1,25 @@
+{
+  "original_model": {
+    "file": "diandian_classic.glb",
+    "sha256": "9027c8fa18a36e494aeae1deeed6de9846421b721559f3b1706930c44eeb96f2",
+    "provided_by": "user upload"
+  },
+  "donor": {
+    "hero_13_delivery": "delivery/character-r23-20261029/xiaqing-recovery/site/assets/vest_xiaqing.glb.part001..004",
+    "manifest": "delivery/character-r23-20261029/manifest.json",
+    "sha256": "cc6004e63ca4f862cf2a5c8c4d66f2b7fc4ea1d68fe86381505e559c9d41bbaa",
+    "joint_count": 437,
+    "facial_joint_count": 246
+  },
+  "retarget": {
+    "body_bones_mapped": 52,
+    "fps": 30,
+    "clips": [
+      "Idle",
+      "Walk",
+      "Run"
+    ],
+    "head_stress": "Authored diagnostic; not a donor clip"
+  },
+  "classic_geometry_preserved": true
+}

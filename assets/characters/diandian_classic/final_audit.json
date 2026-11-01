@@ -1,0 +1,198 @@
+{
+  "passed": true,
+  "failures": [],
+  "body_skeleton": {
+    "original_bones": 65,
+    "preserved_original_bones": 65,
+    "total_fixed_bones": 312,
+    "original_bone_rest_matrix_max_error": 0.0,
+    "armature_world_matrix_max_error": 0.0
+  },
+  "geometry": [
+    {
+      "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+      "vertices_before": 107452,
+      "vertices_fixed": 107452,
+      "triangles_before": 50206,
+      "triangles_fixed": 50206,
+      "vertex_coordinate_max_error": 0.0,
+      "uv_layers_equal": true,
+      "uv_max_error": 0.0,
+      "loop_vertex_indices_equal": true,
+      "triangle_count_equal": true,
+      "chin_roi_vertices": 4676
+    }
+  ],
+  "export_glb": {
+    "bones": 312,
+    "clips": [
+      "HeadStress",
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "transplanted_face_bones": 246,
+    "facial_bones_not_under_head": [],
+    "jaw_control_under_head": true
+  },
+  "chin_test": {
+    "roi_original_rest_world": "0.875<=z<=0.906, y<0.07, abs(x)<0.05; Icosphere excluded",
+    "frames": "HeadStress frames 0..120 every 10 frames",
+    "expected": "HeadPoseWorld * inverse(HeadRestWorld) * originalRestWorldPoint",
+    "before": {
+      "vertex_samples_per_frame": 4676,
+      "total_vertex_frame_samples": 60788,
+      "max_offset_m": 0.030957873063778618,
+      "mean_offset_m": 0.015601196046258621,
+      "frames": [
+        {
+          "frame": 0,
+          "max_offset_m": 0.005361352898514807,
+          "mean_offset_m": 0.002586121086913164
+        },
+        {
+          "frame": 10,
+          "max_offset_m": 0.023670326815305558,
+          "mean_offset_m": 0.017546347701631923
+        },
+        {
+          "frame": 20,
+          "max_offset_m": 0.030784618495442808,
+          "mean_offset_m": 0.023510548920464044
+        },
+        {
+          "frame": 30,
+          "max_offset_m": 0.030592966067846363,
+          "mean_offset_m": 0.02310936303251602
+        },
+        {
+          "frame": 40,
+          "max_offset_m": 0.02826284822451731,
+          "mean_offset_m": 0.020892798612674412
+        },
+        {
+          "frame": 50,
+          "max_offset_m": 0.019612309759171973,
+          "mean_offset_m": 0.014334803084904684
+        },
+        {
+          "frame": 60,
+          "max_offset_m": 0.005361352898514807,
+          "mean_offset_m": 0.002586121086913164
+        },
+        {
+          "frame": 70,
+          "max_offset_m": 0.0229664010761238,
+          "mean_offset_m": 0.01689085888754483
+        },
+        {
+          "frame": 80,
+          "max_offset_m": 0.030957873063778618,
+          "mean_offset_m": 0.022793544088640122
+        },
+        {
+          "frame": 90,
+          "max_offset_m": 0.030493989174602304,
+          "mean_offset_m": 0.022318275712166658
+        },
+        {
+          "frame": 100,
+          "max_offset_m": 0.027699314958747466,
+          "mean_offset_m": 0.020111108773276182
+        },
+        {
+          "frame": 110,
+          "max_offset_m": 0.019183163886925113,
+          "mean_offset_m": 0.013549536526803673
+        },
+        {
+          "frame": 120,
+          "max_offset_m": 0.005361352898514807,
+          "mean_offset_m": 0.002586121086913164
+        }
+      ]
+    },
+    "fixed": {
+      "vertex_samples_per_frame": 4676,
+      "total_vertex_frame_samples": 60788,
+      "max_offset_m": 1.8198064009787816e-07,
+      "mean_offset_m": 4.14988455412995e-08,
+      "frames": [
+        {
+          "frame": 0,
+          "max_offset_m": 1.3734010946038349e-07,
+          "mean_offset_m": 4.159969931658949e-08
+        },
+        {
+          "frame": 10,
+          "max_offset_m": 1.2078166067096962e-07,
+          "mean_offset_m": 3.9882489555481275e-08
+        },
+        {
+          "frame": 20,
+          "max_offset_m": 1.2913397688149233e-07,
+          "mean_offset_m": 3.9635040540212464e-08
+        },
+        {
+          "frame": 30,
+          "max_offset_m": 1.5318725689622167e-07,
+          "mean_offset_m": 3.92809377042019e-08
+        },
+        {
+          "frame": 40,
+          "max_offset_m": 1.2297808587434833e-07,
+          "mean_offset_m": 4.410989983454554e-08
+        },
+        {
+          "frame": 50,
+          "max_offset_m": 1.8198064009787816e-07,
+          "mean_offset_m": 3.895683860730926e-08
+        },
+        {
+          "frame": 60,
+          "max_offset_m": 1.3734010946038349e-07,
+          "mean_offset_m": 4.159969931658949e-08
+        },
+        {
+          "frame": 70,
+          "max_offset_m": 1.1800521870416524e-07,
+          "mean_offset_m": 4.118611303458982e-08
+        },
+        {
+          "frame": 80,
+          "max_offset_m": 1.1881938540276105e-07,
+          "mean_offset_m": 3.617128776455324e-08
+        },
+        {
+          "frame": 90,
+          "max_offset_m": 1.5933446460241603e-07,
+          "mean_offset_m": 4.829299826847111e-08
+        },
+        {
+          "frame": 100,
+          "max_offset_m": 1.3041376201424887e-07,
+          "mean_offset_m": 4.445867189409318e-08
+        },
+        {
+          "frame": 110,
+          "max_offset_m": 1.2846783034036344e-07,
+          "mean_offset_m": 4.271161688366729e-08
+        },
+        {
+          "frame": 120,
+          "max_offset_m": 1.3734010946038349e-07,
+          "mean_offset_m": 4.159969931658949e-08
+        }
+      ]
+    },
+    "maximum_offset_reduction_ratio": 170116.29944332512,
+    "mean_offset_reduction_ratio": 375942.89293499425
+  },
+  "walk_grounding_review": {
+    "source_normalized_support_gap_max_m": 0.03048757091164589,
+    "target_normalized_support_gap_max_m_before_additional_walk_fit": 0.042075,
+    "source_sole_vertices": 2392,
+    "cause": "The source Walk already has a 30.49 mm sole-support height range; target proportions and shoe shape increase it to about 42.08 mm after constant grounding.",
+    "recommendation": "Use a Walk-only smooth support-height curve; preserve Run flight and leave rest skeleton, geometry and face binding untouched."
+  }
+}

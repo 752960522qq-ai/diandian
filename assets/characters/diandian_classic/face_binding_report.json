@@ -1,0 +1,2476 @@
+{
+  "source": "hero_13 delivery/character-r23-20261029/xiaqing-recovery/site/assets/vest_xiaqing.glb",
+  "face_bones": [
+    {
+      "source_bone": "cheek_bottom_00_L",
+      "target_bone": "XQ_cheek_bottom_00_L",
+      "head_world": [
+        0.025146497413516045,
+        0.04137152433395386,
+        0.9072266221046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "cheek_bottom_00_R",
+      "target_bone": "XQ_cheek_bottom_00_R",
+      "head_world": [
+        -0.02514646016061306,
+        0.04137151315808296,
+        0.9072267413139343
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "cheek_bottom_01_L",
+      "target_bone": "XQ_cheek_bottom_01_L",
+      "head_world": [
+        0.030517593026161194,
+        0.04527777060866356,
+        0.9155274629592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "cheek_bottom_01_R",
+      "target_bone": "XQ_cheek_bottom_01_R",
+      "head_world": [
+        -0.02954099327325821,
+        0.04674260690808296,
+        0.9106447100639343
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "cheek_bottom_02_L",
+      "target_bone": "XQ_cheek_bottom_02_L",
+      "head_world": [
+        0.034912124276161194,
+        0.05211370438337326,
+        0.9213867783546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "cheek_bottom_02_R",
+      "target_bone": "XQ_cheek_bottom_02_R",
+      "head_world": [
+        -0.03491207957267761,
+        0.052113696932792664,
+        0.9213868379592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "cheek_lower_01_L",
+      "target_bone": "XQ_cheek_lower_01_L",
+      "head_world": [
+        0.030517593026161194,
+        0.04527777060866356,
+        0.9155274629592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "cheek_lower_01_R",
+      "target_bone": "XQ_cheek_lower_01_R",
+      "head_world": [
+        -0.03051755204796791,
+        0.045277759432792664,
+        0.9155274629592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "cheek_lower_02_L",
+      "target_bone": "XQ_cheek_lower_02_L",
+      "head_world": [
+        0.033935561776161194,
+        0.04918402060866356,
+        0.9228516817092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "cheek_lower_02_R",
+      "target_bone": "XQ_cheek_lower_02_R",
+      "head_world": [
+        -0.03393552079796791,
+        0.049184009432792664,
+        0.9228517413139343
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "cheek_middle_00_L",
+      "target_bone": "XQ_cheek_middle_00_L",
+      "head_world": [
+        0.027099624276161194,
+        0.04088323935866356,
+        0.9150392413139343
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "cheek_middle_00_R",
+      "target_bone": "XQ_cheek_middle_00_R",
+      "head_world": [
+        -0.02514645829796791,
+        0.040394946932792664,
+        0.9121095538139343
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "cheek_upper_00_L",
+      "target_bone": "XQ_cheek_upper_00_L",
+      "head_world": [
+        0.010986349545419216,
+        0.03307073190808296,
+        0.9199219346046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "cheek_upper_00_R",
+      "target_bone": "XQ_cheek_upper_00_R",
+      "head_world": [
+        -0.01293942704796791,
+        0.034047290682792664,
+        0.9184571504592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "cheek_upper_01_L",
+      "target_bone": "XQ_cheek_upper_01_L",
+      "head_world": [
+        0.020751971751451492,
+        0.03697698563337326,
+        0.9160157442092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "cheek_upper_01_R",
+      "target_bone": "XQ_cheek_upper_01_R",
+      "head_world": [
+        -0.02075192704796791,
+        0.036976978182792664,
+        0.9160157442092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "cheek_upper_02_L",
+      "target_bone": "XQ_cheek_upper_02_L",
+      "head_world": [
+        0.027587905526161194,
+        0.04039495810866356,
+        0.9204102158546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "cheek_upper_02_R",
+      "target_bone": "XQ_cheek_upper_02_R",
+      "head_world": [
+        -0.02905270829796791,
+        0.042348068207502365,
+        0.9179688692092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "cheek_upper_03_L",
+      "target_bone": "XQ_cheek_upper_03_L",
+      "head_world": [
+        0.031494155526161194,
+        0.044301215559244156,
+        0.9208985567092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "cheek_upper_03_R",
+      "target_bone": "XQ_cheek_upper_03_R",
+      "head_world": [
+        -0.03149411082267761,
+        0.04430120065808296,
+        0.9208985567092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "cheek_upper_04_L",
+      "target_bone": "XQ_cheek_upper_04_L",
+      "head_world": [
+        0.031982436776161194,
+        0.04625433310866356,
+        0.9282227158546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "cheek_upper_04_R",
+      "target_bone": "XQ_cheek_upper_04_R",
+      "head_world": [
+        -0.03198239207267761,
+        0.046254318207502365,
+        0.9282228350639343
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "chin_bottom_00_L",
+      "target_bone": "XQ_chin_bottom_00_L",
+      "head_world": [
+        0.00952149834483862,
+        0.03746526688337326,
+        0.8828125596046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "chin_bottom_00_R",
+      "target_bone": "XQ_chin_bottom_00_R",
+      "head_world": [
+        -0.007568340748548508,
+        0.03600042313337326,
+        0.8818359971046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "chin_bottom_01_L",
+      "target_bone": "XQ_chin_bottom_01_L",
+      "head_world": [
+        0.019775405526161194,
+        0.04283636435866356,
+        0.8891602754592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "chin_bottom_01_R",
+      "target_bone": "XQ_chin_bottom_01_R",
+      "head_world": [
+        -0.016845684498548508,
+        0.04088323563337326,
+        0.8872071504592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "chin_bottom_02_L",
+      "target_bone": "XQ_chin_bottom_02_L",
+      "head_world": [
+        0.024658212438225746,
+        0.05016058310866356,
+        0.8911133408546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "chin_bottom_02_R",
+      "target_bone": "XQ_chin_bottom_02_R",
+      "head_world": [
+        -0.021240215748548508,
+        0.044789478182792664,
+        0.8896484971046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "chin_bottom_03_L",
+      "target_bone": "XQ_chin_bottom_03_L",
+      "head_world": [
+        0.027587901800870895,
+        0.05162543058395386,
+        0.8955078721046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "chin_bottom_03_R",
+      "target_bone": "XQ_chin_bottom_03_R",
+      "head_world": [
+        -0.02758787013590336,
+        0.051625411957502365,
+        0.8955079317092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "chin_M",
+      "target_bone": "XQ_chin_M",
+      "head_world": [
+        0.000244158785790205,
+        0.03355901315808296,
+        0.8813477158546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "chin_middle_00_L",
+      "target_bone": "XQ_chin_middle_00_L",
+      "head_world": [
+        0.026123058050870895,
+        0.04674261808395386,
+        0.8969727158546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "chin_middle_00_R",
+      "target_bone": "XQ_chin_middle_00_R",
+      "head_world": [
+        -0.02465818077325821,
+        0.04430120065808296,
+        0.8959962129592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "chin_middle_01_L",
+      "target_bone": "XQ_chin_middle_01_L",
+      "head_world": [
+        0.028076183050870895,
+        0.04967230558395386,
+        0.8984375596046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "chin_middle_01_R",
+      "target_bone": "XQ_chin_middle_01_R",
+      "head_world": [
+        -0.02758787013590336,
+        0.051625411957502365,
+        0.8955079317092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "chin_middle_02_L",
+      "target_bone": "XQ_chin_middle_02_L",
+      "head_world": [
+        0.030517587438225746,
+        0.05504339188337326,
+        0.9023438096046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "chin_middle_02_R",
+      "target_bone": "XQ_chin_middle_02_R",
+      "head_world": [
+        -0.03051755763590336,
+        0.055043380707502365,
+        0.9023438692092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "chin_upper_00_L",
+      "target_bone": "XQ_chin_upper_00_L",
+      "head_world": [
+        0.026123059913516045,
+        0.044789496809244156,
+        0.8994141221046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "chin_upper_00_R",
+      "target_bone": "XQ_chin_upper_00_R",
+      "head_world": [
+        -0.02612302452325821,
+        0.04478948190808296,
+        0.8994141817092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "chin_upper_01_L",
+      "target_bone": "XQ_chin_upper_01_L",
+      "head_world": [
+        0.029052745550870895,
+        0.05016058310866356,
+        0.9028320908546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "chin_upper_01_R",
+      "target_bone": "XQ_chin_upper_01_R",
+      "head_world": [
+        -0.02905271202325821,
+        0.05016057565808296,
+        0.9028321504592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "chin_upper_02_L",
+      "target_bone": "XQ_chin_upper_02_L",
+      "head_world": [
+        0.0324707105755806,
+        0.05650824308395386,
+        0.9106446504592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "chin_upper_02_R",
+      "target_bone": "XQ_chin_upper_02_R",
+      "head_world": [
+        -0.03247068077325821,
+        0.056508228182792664,
+        0.9106446504592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyeblow_M",
+      "target_bone": "XQ_eyeblow_M",
+      "head_world": [
+        0.0002441673132125288,
+        0.02818792127072811,
+        0.9365234971046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyebrow_bottom_00_L",
+      "target_bone": "XQ_eyebrow_bottom_00_L",
+      "head_world": [
+        0.010498070158064365,
+        0.03160589560866356,
+        0.9375001788139343
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyebrow_bottom_00_R",
+      "target_bone": "XQ_eyebrow_bottom_00_R",
+      "head_world": [
+        -0.012451143004000187,
+        0.03160589188337326,
+        0.9389650225639343
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyebrow_bottom_01_L",
+      "target_bone": "XQ_eyebrow_bottom_01_L",
+      "head_world": [
+        0.02026369236409664,
+        0.03209416940808296,
+        0.9404297471046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyebrow_bottom_01_R",
+      "target_bone": "XQ_eyebrow_bottom_01_R",
+      "head_world": [
+        -0.02124020643532276,
+        0.032582443207502365,
+        0.9404298663139343
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyebrow_bottom_02_L",
+      "target_bone": "XQ_eyebrow_bottom_02_L",
+      "head_world": [
+        0.02709962986409664,
+        0.03502386435866356,
+        0.9443361163139343
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyebrow_bottom_02_R",
+      "target_bone": "XQ_eyebrow_bottom_02_R",
+      "head_world": [
+        -0.02856442518532276,
+        0.036976974457502365,
+        0.9433595538139343
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyebrow_bottom_03_L",
+      "target_bone": "XQ_eyebrow_bottom_03_L",
+      "head_world": [
+        0.031005876138806343,
+        0.04185980185866356,
+        0.9404297471046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyebrow_bottom_03_R",
+      "target_bone": "XQ_eyebrow_bottom_03_R",
+      "head_world": [
+        -0.03100583143532276,
+        0.041859786957502365,
+        0.9404298663139343
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyebrow_top_00_L",
+      "target_bone": "XQ_eyebrow_top_00_L",
+      "head_world": [
+        0.010498073883354664,
+        0.02623479999601841,
+        0.9462891817092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyebrow_top_00_R",
+      "target_bone": "XQ_eyebrow_top_00_R",
+      "head_world": [
+        -0.010498016141355038,
+        0.02623479627072811,
+        0.9462891817092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyebrow_top_01_L",
+      "target_bone": "XQ_eyebrow_top_01_L",
+      "head_world": [
+        0.02172853611409664,
+        0.03062933124601841,
+        0.9477539658546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyebrow_top_01_R",
+      "target_bone": "XQ_eyebrow_top_01_R",
+      "head_world": [
+        -0.021728485822677612,
+        0.030629325658082962,
+        0.9477540850639343
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyebrow_top_02_L",
+      "target_bone": "XQ_eyebrow_top_02_L",
+      "head_world": [
+        0.029052753001451492,
+        0.03795354813337326,
+        0.9462891817092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyebrow_top_02_R",
+      "target_bone": "XQ_eyebrow_top_02_R",
+      "head_world": [
+        -0.02807614393532276,
+        0.037953540682792664,
+        0.9497071504592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyebrow_top_03_L",
+      "target_bone": "XQ_eyebrow_top_03_L",
+      "head_world": [
+        0.031005876138806343,
+        0.04185980185866356,
+        0.9438477754592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyebrow_top_03_R",
+      "target_bone": "XQ_eyebrow_top_03_R",
+      "head_world": [
+        -0.031005829572677612,
+        0.041859786957502365,
+        0.9438477754592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "EyeCorner_L",
+      "target_bone": "XQ_EyeCorner_L",
+      "head_world": [
+        0.03198244050145149,
+        0.04430120810866356,
+        0.9379884600639343
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "EyeCorner_R",
+      "target_bone": "XQ_EyeCorner_R",
+      "head_world": [
+        -0.03198239207267761,
+        0.044301196932792664,
+        0.9379885196685791
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_01_L",
+      "target_bone": "XQ_eyelid_01_L",
+      "head_world": [
+        0.01831056736409664,
+        0.03453557938337326,
+        0.9360352754592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_01_R",
+      "target_bone": "XQ_eyelid_01_R",
+      "head_world": [
+        -0.01684567518532276,
+        0.033559005707502365,
+        0.9365235567092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_02_L",
+      "target_bone": "XQ_eyelid_02_L",
+      "head_world": [
+        0.02172853611409664,
+        0.03453557938337326,
+        0.9375001192092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_02_R",
+      "target_bone": "XQ_eyelid_02_R",
+      "head_world": [
+        -0.02221677079796791,
+        0.034047290682792664,
+        0.9384767413139343
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_03_L",
+      "target_bone": "XQ_eyelid_03_L",
+      "head_world": [
+        0.02709962986409664,
+        0.03648870065808296,
+        0.9389649629592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_03_R",
+      "target_bone": "XQ_eyelid_03_R",
+      "head_world": [
+        -0.02709958143532276,
+        0.036488696932792664,
+        0.9389650821685791
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_04_L",
+      "target_bone": "XQ_eyelid_04_L",
+      "head_world": [
+        0.029052751138806343,
+        0.03990667685866356,
+        0.9365235567092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_04_R",
+      "target_bone": "XQ_eyelid_04_R",
+      "head_world": [
+        -0.02905270643532276,
+        0.039906665682792664,
+        0.9365236163139343
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_lower_U_04_L",
+      "target_bone": "XQ_eyelid_lower_U_04_L",
+      "head_world": [
+        0.029541028663516045,
+        0.04137151688337326,
+        0.9355469346046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_lower_U_04_R",
+      "target_bone": "XQ_eyelid_lower_U_04_R",
+      "head_world": [
+        -0.029540985822677612,
+        0.041371505707502365,
+        0.9355469942092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_bottom_L",
+      "target_bone": "XQ_eyelid_bottom_L",
+      "head_world": [
+        0.024658219888806343,
+        0.03844182938337326,
+        0.9179688096046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_bottom_R",
+      "target_bone": "XQ_eyelid_bottom_R",
+      "head_world": [
+        -0.02465817518532276,
+        0.038441818207502365,
+        0.9179688692092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_lower_00_L",
+      "target_bone": "XQ_eyelid_lower_00_L",
+      "head_world": [
+        0.010009788908064365,
+        0.03551214188337326,
+        0.9306641817092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_lower_00_R",
+      "target_bone": "XQ_eyelid_lower_00_R",
+      "head_world": [
+        -0.01098630204796791,
+        0.035023849457502365,
+        0.9301759004592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_lower_01_L",
+      "target_bone": "XQ_eyelid_lower_01_L",
+      "head_world": [
+        0.015869159251451492,
+        0.03551214188337326,
+        0.9257813692092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_lower_01_R",
+      "target_bone": "XQ_eyelid_lower_01_R",
+      "head_world": [
+        -0.01586911641061306,
+        0.035512130707502365,
+        0.9257813692092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_lower_02_L",
+      "target_bone": "XQ_eyelid_lower_02_L",
+      "head_world": [
+        0.022705096751451492,
+        0.03746526315808296,
+        0.9257813692092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_lower_02_R",
+      "target_bone": "XQ_eyelid_lower_02_R",
+      "head_world": [
+        -0.02270505204796791,
+        0.037465259432792664,
+        0.9257813692092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_lower_03_L",
+      "target_bone": "XQ_eyelid_lower_03_L",
+      "head_world": [
+        0.027587907388806343,
+        0.04039495065808296,
+        0.9248047471046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_lower_03_R",
+      "target_bone": "XQ_eyelid_lower_03_R",
+      "head_world": [
+        -0.02709958143532276,
+        0.04039495065808296,
+        0.9248048663139343
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_upper_00_L",
+      "target_bone": "XQ_eyelid_upper_00_L",
+      "head_world": [
+        0.01684572361409664,
+        0.03355901688337326,
+        0.9365234971046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_upper_00_R",
+      "target_bone": "XQ_eyelid_upper_00_R",
+      "head_world": [
+        -0.01684567518532276,
+        0.033559005707502365,
+        0.9375001192092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_upper_01_L",
+      "target_bone": "XQ_eyelid_upper_01_L",
+      "head_world": [
+        0.02270509861409664,
+        0.03404729440808296,
+        0.9384766221046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_upper_01_R",
+      "target_bone": "XQ_eyelid_upper_01_R",
+      "head_world": [
+        -0.02319333329796791,
+        0.033559009432792664,
+        0.9399415850639343
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_upper_02_L",
+      "target_bone": "XQ_eyelid_upper_02_L",
+      "head_world": [
+        0.02709962986409664,
+        0.03648870065808296,
+        0.9389649629592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_upper_02_R",
+      "target_bone": "XQ_eyelid_upper_02_R",
+      "head_world": [
+        -0.02709958143532276,
+        0.036488696932792664,
+        0.9389650821685791
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_upper_03_L",
+      "target_bone": "XQ_eyelid_upper_03_L",
+      "head_world": [
+        0.029052751138806343,
+        0.03990667685866356,
+        0.9365235567092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_upper_03_R",
+      "target_bone": "XQ_eyelid_upper_03_R",
+      "head_world": [
+        -0.02905270643532276,
+        0.039906665682792664,
+        0.9365236163139343
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "forehead_bottom_M",
+      "target_bone": "XQ_forehead_bottom_M",
+      "head_world": [
+        0.0002441692922729999,
+        0.02525823563337326,
+        0.9462891817092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "forehead_middle_00_L",
+      "target_bone": "XQ_forehead_middle_00_L",
+      "head_world": [
+        0.010498076677322388,
+        0.02965277060866356,
+        0.9648439288139343
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "forehead_middle_00_R",
+      "target_bone": "XQ_forehead_middle_00_R",
+      "head_world": [
+        -0.013915983960032463,
+        0.031117605045437813,
+        0.9648438096046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "forehead_middle_01_L",
+      "target_bone": "XQ_forehead_middle_01_L",
+      "head_world": [
+        0.02221682108938694,
+        0.03648870438337326,
+        0.9628907442092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "forehead_middle_01_R",
+      "target_bone": "XQ_forehead_middle_01_R",
+      "head_world": [
+        -0.022216767072677612,
+        0.036488696932792664,
+        0.9628908634185791
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "forehead_middle_02_L",
+      "target_bone": "XQ_forehead_middle_02_L",
+      "head_world": [
+        0.027099628001451492,
+        0.04088323935866356,
+        0.9565430879592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "forehead_middle_02_R",
+      "target_bone": "XQ_forehead_middle_02_R",
+      "head_world": [
+        -0.02856442518532276,
+        0.04283635690808296,
+        0.9550783038139343
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "forehead_middle_M",
+      "target_bone": "XQ_forehead_middle_M",
+      "head_world": [
+        0.00024417086387984455,
+        0.02818792313337326,
+        0.9648438692092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "jaw_middle_00_L",
+      "target_bone": "XQ_jaw_middle_00_L",
+      "head_world": [
+        0.01391602959483862,
+        0.04332464933395386,
+        0.8813477754592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "jaw_middle_00_R",
+      "target_bone": "XQ_jaw_middle_00_R",
+      "head_world": [
+        -0.010986309498548508,
+        0.04088323563337326,
+        0.8793945908546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "jaw_middle_01_L",
+      "target_bone": "XQ_jaw_middle_01_L",
+      "head_world": [
+        0.021240245550870895,
+        0.04918402060866356,
+        0.8862305283546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "jaw_middle_01_R",
+      "target_bone": "XQ_jaw_middle_01_R",
+      "head_world": [
+        -0.021240215748548508,
+        0.04918401315808296,
+        0.8862305283546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "jaw_middle_02_L",
+      "target_bone": "XQ_jaw_middle_02_L",
+      "head_world": [
+        0.026611339300870895,
+        0.05309027060866356,
+        0.8920899629592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "jaw_middle_02_R",
+      "target_bone": "XQ_jaw_middle_02_R",
+      "head_world": [
+        -0.02319333888590336,
+        0.052601974457502365,
+        0.8876953721046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "jaw_middle_M",
+      "target_bone": "XQ_jaw_middle_M",
+      "head_world": [
+        0.003173843491822481,
+        0.03893011063337326,
+        0.8745118379592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "lowerlip_bottom_00_L",
+      "target_bone": "XQ_lowerlip_bottom_00_L",
+      "head_world": [
+        0.00659181596711278,
+        0.03014105185866356,
+        0.8925781846046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "lowerlip_middle_00_L",
+      "target_bone": "XQ_lowerlip_middle_00_L",
+      "head_world": [
+        0.006103535648435354,
+        0.02965276688337326,
+        0.8959961533546448
+      ],
+      "source_parent": "lowerlip_bottom_00_L"
+    },
+    {
+      "source_bone": "lowerlip_top_00_L",
+      "target_bone": "XQ_lowerlip_top_00_L",
+      "head_world": [
+        0.006591816432774067,
+        0.02916448749601841,
+        0.8969727158546448
+      ],
+      "source_parent": "lowerlip_bottom_00_L"
+    },
+    {
+      "source_bone": "lowerlip_inner_00_L",
+      "target_bone": "XQ_lowerlip_inner_00_L",
+      "head_world": [
+        0.005615253001451492,
+        0.03258245065808296,
+        0.8959961533546448
+      ],
+      "source_parent": "lowerlip_bottom_00_L"
+    },
+    {
+      "source_bone": "lowerlip_bottom_00_R",
+      "target_bone": "XQ_lowerlip_bottom_00_R",
+      "head_world": [
+        -0.006103494204580784,
+        0.03014104813337326,
+        0.8935548067092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "lowerlip_middle_00_R",
+      "target_bone": "XQ_lowerlip_middle_00_R",
+      "head_world": [
+        -0.006103493273258209,
+        0.02965276688337326,
+        0.8959962129592896
+      ],
+      "source_parent": "lowerlip_bottom_00_R"
+    },
+    {
+      "source_bone": "lowerlip_top_00_R",
+      "target_bone": "XQ_lowerlip_top_00_R",
+      "head_world": [
+        -0.006591774057596922,
+        0.02916448377072811,
+        0.8969728350639343
+      ],
+      "source_parent": "lowerlip_bottom_00_R"
+    },
+    {
+      "source_bone": "lowerlip_inner_00_R",
+      "target_bone": "XQ_lowerlip_inner_00_R",
+      "head_world": [
+        -0.006103494670242071,
+        0.033070728182792664,
+        0.8959961533546448
+      ],
+      "source_parent": "lowerlip_bottom_00_R"
+    },
+    {
+      "source_bone": "lowerlip_bottom_01_L",
+      "target_bone": "XQ_lowerlip_bottom_01_L",
+      "head_world": [
+        0.012939469888806343,
+        0.03355901688337326,
+        0.8955078721046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "lowerlip_middle_01_L",
+      "target_bone": "XQ_lowerlip_middle_01_L",
+      "head_world": [
+        0.012451188638806343,
+        0.03258245065808296,
+        0.8964844346046448
+      ],
+      "source_parent": "lowerlip_bottom_01_L"
+    },
+    {
+      "source_bone": "lowerlip_top_01_L",
+      "target_bone": "XQ_lowerlip_top_01_L",
+      "head_world": [
+        0.012939470820128918,
+        0.03258245438337326,
+        0.8969727158546448
+      ],
+      "source_parent": "lowerlip_bottom_01_L"
+    },
+    {
+      "source_bone": "lowerlip_inner_01_L",
+      "target_bone": "XQ_lowerlip_inner_01_L",
+      "head_world": [
+        0.011962908320128918,
+        0.03502386063337326,
+        0.8950195908546448
+      ],
+      "source_parent": "lowerlip_bottom_01_L"
+    },
+    {
+      "source_bone": "lowerlip_bottom_01_R",
+      "target_bone": "XQ_lowerlip_bottom_01_R",
+      "head_world": [
+        -0.011474588885903358,
+        0.032582446932792664,
+        0.8955079317092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "lowerlip_middle_01_R",
+      "target_bone": "XQ_lowerlip_middle_01_R",
+      "head_world": [
+        -0.01147458702325821,
+        0.03209416940808296,
+        0.8959961533546448
+      ],
+      "source_parent": "lowerlip_bottom_01_R"
+    },
+    {
+      "source_bone": "lowerlip_top_01_R",
+      "target_bone": "XQ_lowerlip_top_01_R",
+      "head_world": [
+        -0.01245114952325821,
+        0.032582446932792664,
+        0.8964844346046448
+      ],
+      "source_parent": "lowerlip_bottom_01_R"
+    },
+    {
+      "source_bone": "lowerlip_inner_01_R",
+      "target_bone": "XQ_lowerlip_inner_01_R",
+      "head_world": [
+        -0.01196286827325821,
+        0.035023853182792664,
+        0.8950195908546448
+      ],
+      "source_parent": "lowerlip_bottom_01_R"
+    },
+    {
+      "source_bone": "lowerlip_bottom_02_L",
+      "target_bone": "XQ_lowerlip_bottom_02_L",
+      "head_world": [
+        0.015869155526161194,
+        0.03502385690808296,
+        0.8959962725639343
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "lowerlip_top_02_L",
+      "target_bone": "XQ_lowerlip_top_02_L",
+      "head_world": [
+        0.014404314570128918,
+        0.03404729813337326,
+        0.8969727158546448
+      ],
+      "source_parent": "lowerlip_bottom_02_L"
+    },
+    {
+      "source_bone": "lowerlip_middle_02_L",
+      "target_bone": "XQ_lowerlip_middle_02_L",
+      "head_world": [
+        0.014892594888806343,
+        0.03453557938337326,
+        0.8955078721046448
+      ],
+      "source_parent": "lowerlip_bottom_02_L"
+    },
+    {
+      "source_bone": "lowerlip_bottom_03_R",
+      "target_bone": "XQ_lowerlip_bottom_03_R",
+      "head_world": [
+        -0.01586911827325821,
+        0.035023853182792664,
+        0.8959961533546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "lowerlip_inner_02_R",
+      "target_bone": "XQ_lowerlip_inner_02_R",
+      "head_world": [
+        -0.01782224513590336,
+        0.03746526315808296,
+        0.8940430879592896
+      ],
+      "source_parent": "lowerlip_bottom_03_R"
+    },
+    {
+      "source_bone": "lowerlip_bottom_M",
+      "target_bone": "XQ_lowerlip_bottom_M",
+      "head_world": [
+        0.00024416143423877656,
+        0.02867620624601841,
+        0.8930665254592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "lowerlip_middle_M",
+      "target_bone": "XQ_lowerlip_middle_M",
+      "head_world": [
+        0.00024416192900389433,
+        0.02818792499601841,
+        0.8959962129592896
+      ],
+      "source_parent": "lowerlip_bottom_M"
+    },
+    {
+      "source_bone": "lowerlip_top_M",
+      "target_bone": "XQ_lowerlip_top_M",
+      "head_world": [
+        0.00024416192900389433,
+        0.02818792499601841,
+        0.8959962129592896
+      ],
+      "source_parent": "lowerlip_bottom_M"
+    },
+    {
+      "source_bone": "lowerlip_inner_M",
+      "target_bone": "XQ_lowerlip_inner_M",
+      "head_world": [
+        0.0002441610558889806,
+        0.03160588815808296,
+        0.8959961533546448
+      ],
+      "source_parent": "lowerlip_bottom_M"
+    },
+    {
+      "source_bone": "mouth_00_L",
+      "target_bone": "XQ_mouth_00_L",
+      "head_world": [
+        0.003662131493911147,
+        0.02818792685866356,
+        0.9047852754592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "mouth_00_R",
+      "target_bone": "XQ_mouth_00_R",
+      "head_world": [
+        -0.004150366876274347,
+        0.02818792313337326,
+        0.9038086533546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "mouth_01_L",
+      "target_bone": "XQ_mouth_01_L",
+      "head_world": [
+        0.010986346751451492,
+        0.03209417313337326,
+        0.9038086533546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "mouth_01_R",
+      "target_bone": "XQ_mouth_01_R",
+      "head_world": [
+        -0.00952146202325821,
+        0.03062933124601841,
+        0.9023438692092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "mouth_02_L",
+      "target_bone": "XQ_mouth_02_L",
+      "head_world": [
+        0.016357438638806343,
+        0.03453557565808296,
+        0.9008790254592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "mouth_02_R",
+      "target_bone": "XQ_mouth_02_R",
+      "head_world": [
+        -0.014892556704580784,
+        0.033559009432792664,
+        0.8989258408546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "mouth_03_L",
+      "target_bone": "XQ_mouth_03_L",
+      "head_world": [
+        0.017334001138806343,
+        0.03551214188337326,
+        0.8989258408546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "mouth_03_R",
+      "target_bone": "XQ_mouth_03_R",
+      "head_world": [
+        -0.01635739579796791,
+        0.035023853182792664,
+        0.8979492783546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "mouth_bottom_00_L",
+      "target_bone": "XQ_mouth_bottom_00_L",
+      "head_world": [
+        0.00756837660446763,
+        0.03404729440808296,
+        0.8876953721046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "mouth_bottom_00_R",
+      "target_bone": "XQ_mouth_bottom_00_R",
+      "head_world": [
+        -0.0056152138859033585,
+        0.032582446932792664,
+        0.8881836533546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "mouth_bottom_01_L",
+      "target_bone": "XQ_mouth_bottom_01_L",
+      "head_world": [
+        0.017333997413516045,
+        0.03941838815808296,
+        0.8896484971046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "mouth_bottom_01_R",
+      "target_bone": "XQ_mouth_bottom_01_R",
+      "head_world": [
+        -0.014404277317225933,
+        0.03795354440808296,
+        0.8886719346046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "mouth_bottom_02_L",
+      "target_bone": "XQ_mouth_bottom_02_L",
+      "head_world": [
+        0.021240247413516045,
+        0.04185980185866356,
+        0.8920899033546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "mouth_bottom_02_R",
+      "target_bone": "XQ_mouth_bottom_02_R",
+      "head_world": [
+        -0.01977537013590336,
+        0.040394943207502365,
+        0.8920899629592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "mouth_bottom_M",
+      "target_bone": "XQ_mouth_bottom_M",
+      "head_world": [
+        0.0002441590477246791,
+        0.03355901315808296,
+        0.8837891817092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "mouth_lower_00_L",
+      "target_bone": "XQ_mouth_lower_00_L",
+      "head_world": [
+        0.007080096751451492,
+        0.03209416940808296,
+        0.8891602158546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "mouth_lower_00_R",
+      "target_bone": "XQ_mouth_lower_00_R",
+      "head_world": [
+        -0.005615214351564646,
+        0.03160589188337326,
+        0.8886719346046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "mouth_lower_01_L",
+      "target_bone": "XQ_mouth_lower_01_L",
+      "head_world": [
+        0.014404312707483768,
+        0.03697698190808296,
+        0.8911133408546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "mouth_lower_01_R",
+      "target_bone": "XQ_mouth_lower_01_R",
+      "head_world": [
+        -0.013427712954580784,
+        0.036000415682792664,
+        0.8916016817092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "mouth_lower_02_L",
+      "target_bone": "XQ_mouth_lower_02_L",
+      "head_world": [
+        0.019287122413516045,
+        0.03844182938337326,
+        0.8940430879592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "mouth_lower_02_R",
+      "target_bone": "XQ_mouth_lower_02_R",
+      "head_world": [
+        -0.01684568263590336,
+        0.037953540682792664,
+        0.8920899033546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "mouth_lower_M",
+      "target_bone": "XQ_mouth_lower_M",
+      "head_world": [
+        0.0002441605320200324,
+        0.03014104999601841,
+        0.8886719942092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "Nasolabialfold_lower_00_L",
+      "target_bone": "XQ_Nasolabialfold_lower_00_L",
+      "head_world": [
+        0.016845721751451492,
+        0.03502386808395386,
+        0.9077149629592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "Nasolabialfold_lower_00_R",
+      "target_bone": "XQ_Nasolabialfold_lower_00_R",
+      "head_world": [
+        -0.01586911641061306,
+        0.034535571932792664,
+        0.9062500596046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "Nasolabialfold_lower_01_L",
+      "target_bone": "XQ_Nasolabialfold_lower_01_L",
+      "head_world": [
+        0.018798843026161194,
+        0.03648870438337326,
+        0.9023438096046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "Nasolabialfold_lower_01_R",
+      "target_bone": "XQ_Nasolabialfold_lower_01_R",
+      "head_world": [
+        -0.01831052079796791,
+        0.036000415682792664,
+        0.8999024629592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "Nasolabialfold_lower_02_L",
+      "target_bone": "XQ_Nasolabialfold_lower_02_L",
+      "head_world": [
+        0.021728530526161194,
+        0.03893011435866356,
+        0.8994141221046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "Nasolabialfold_lower_02_R",
+      "target_bone": "XQ_Nasolabialfold_lower_02_R",
+      "head_world": [
+        -0.01928708702325821,
+        0.036976978182792664,
+        0.8979493379592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "Nasolabialfold_lower_03_L",
+      "target_bone": "XQ_Nasolabialfold_lower_03_L",
+      "head_world": [
+        0.021728530526161194,
+        0.03893011435866356,
+        0.8994141221046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "Nasolabialfold_lower_03_R",
+      "target_bone": "XQ_Nasolabialfold_lower_03_R",
+      "head_world": [
+        -0.01928708702325821,
+        0.036976978182792664,
+        0.8979493379592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "Nasolabialfold_lower_04_L",
+      "target_bone": "XQ_Nasolabialfold_lower_04_L",
+      "head_world": [
+        0.020263684913516045,
+        0.03941839188337326,
+        0.8945313692092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "Nasolabialfold_lower_04_R",
+      "target_bone": "XQ_Nasolabialfold_lower_04_R",
+      "head_world": [
+        -0.01928708888590336,
+        0.038441818207502365,
+        0.8940432071685791
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "Nasolabialfold_upper_00_L",
+      "target_bone": "XQ_Nasolabialfold_upper_00_L",
+      "head_world": [
+        0.01977541111409664,
+        0.03648870810866356,
+        0.9135743379592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "Nasolabialfold_upper_00_R",
+      "target_bone": "XQ_Nasolabialfold_upper_00_R",
+      "head_world": [
+        -0.01831052079796791,
+        0.036000415682792664,
+        0.9116212129592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "Nasolabialfold_upper_02_L",
+      "target_bone": "XQ_Nasolabialfold_upper_02_L",
+      "head_world": [
+        0.022216811776161194,
+        0.03844183310866356,
+        0.9072266221046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "Nasolabialfold_upper_02_R",
+      "target_bone": "XQ_Nasolabialfold_upper_02_R",
+      "head_world": [
+        -0.02124021016061306,
+        0.037953536957502365,
+        0.9057618379592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "Nasolabialfold_upper_03_L",
+      "target_bone": "XQ_Nasolabialfold_upper_03_L",
+      "head_world": [
+        0.022216809913516045,
+        0.03893011063337326,
+        0.9028320908546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "Nasolabialfold_upper_03_R",
+      "target_bone": "XQ_Nasolabialfold_upper_03_R",
+      "head_world": [
+        -0.02221677452325821,
+        0.038930099457502365,
+        0.9028322100639343
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "Nasolabialfold_upper_04_L",
+      "target_bone": "XQ_Nasolabialfold_upper_04_L",
+      "head_world": [
+        0.023193374276161194,
+        0.04137152060866356,
+        0.8974610567092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "Nasolabialfold_upper_04_R",
+      "target_bone": "XQ_Nasolabialfold_upper_04_R",
+      "head_world": [
+        -0.021728496998548508,
+        0.03990666940808296,
+        0.8969727754592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "Nasolabialfold_upper_05_L",
+      "target_bone": "XQ_Nasolabialfold_upper_05_L",
+      "head_world": [
+        0.023193370550870895,
+        0.04234807938337326,
+        0.8950195908546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "Nasolabialfold_upper_05_R",
+      "target_bone": "XQ_Nasolabialfold_upper_05_R",
+      "head_world": [
+        -0.021728496998548508,
+        0.040883228182792664,
+        0.8945313692092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "nose_00_M",
+      "target_bone": "XQ_nose_00_M",
+      "head_world": [
+        0.0002441665274091065,
+        0.02867620624601841,
+        0.9316408038139343
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "nose_01_M",
+      "target_bone": "XQ_nose_01_M",
+      "head_world": [
+        0.0002441664400976151,
+        0.02379339374601841,
+        0.9213867783546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "nose_02_M",
+      "target_bone": "XQ_nose_02_M",
+      "head_world": [
+        0.0002441667893435806,
+        0.01793401502072811,
+        0.9121094942092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "nose_03_M",
+      "target_bone": "XQ_nose_03_M",
+      "head_world": [
+        0.0002441659744363278,
+        0.01939885877072811,
+        0.9086915254592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "nose_04_M",
+      "target_bone": "XQ_nose_04_M",
+      "head_world": [
+        0.00024416373344138265,
+        0.02623479999601841,
+        0.9057617783546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "nose_lower_00_L",
+      "target_bone": "XQ_nose_lower_00_L",
+      "head_world": [
+        0.004638695623725653,
+        0.02769964374601841,
+        0.9213868379592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "nose_lower_00_R",
+      "target_bone": "XQ_nose_lower_00_R",
+      "head_world": [
+        -0.004638646263629198,
+        0.02769964002072811,
+        0.9213867783546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "nose_lower_01_L",
+      "target_bone": "XQ_nose_lower_01_L",
+      "head_world": [
+        0.00854494422674179,
+        0.03111761063337326,
+        0.9179688096046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "nose_lower_01_R",
+      "target_bone": "XQ_nose_lower_01_R",
+      "head_world": [
+        -0.00854489579796791,
+        0.03111761063337326,
+        0.9179688096046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "nose_lower_02_L",
+      "target_bone": "XQ_nose_lower_02_L",
+      "head_world": [
+        0.011962912045419216,
+        0.03307073190808296,
+        0.9145508408546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "nose_lower_02_R",
+      "target_bone": "XQ_nose_lower_02_R",
+      "head_world": [
+        -0.011962865479290485,
+        0.033070728182792664,
+        0.9145508408546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "nose_lower_03_L",
+      "target_bone": "XQ_nose_lower_03_L",
+      "head_world": [
+        0.00854494422674179,
+        0.02867620624601841,
+        0.9106445908546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "nose_lower_03_R",
+      "target_bone": "XQ_nose_lower_03_R",
+      "head_world": [
+        -0.008544896729290485,
+        0.02867620438337326,
+        0.9106445908546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "nose_lower_04_L",
+      "target_bone": "XQ_nose_lower_04_L",
+      "head_world": [
+        0.008544943295419216,
+        0.03062933124601841,
+        0.9086914658546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "nose_lower_04_R",
+      "target_bone": "XQ_nose_lower_04_R",
+      "head_world": [
+        -0.00805661641061306,
+        0.03062932938337326,
+        0.9077149033546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "nose_upper_00_L",
+      "target_bone": "XQ_nose_upper_00_L",
+      "head_world": [
+        0.00512697733938694,
+        0.03062932752072811,
+        0.9277344346046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "nose_upper_00_R",
+      "target_bone": "XQ_nose_upper_00_R",
+      "head_world": [
+        -0.005126927513629198,
+        0.03062932752072811,
+        0.9277344942092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "nose_upper_01_L",
+      "target_bone": "XQ_nose_upper_01_L",
+      "head_world": [
+        0.007568381726741791,
+        0.03160589188337326,
+        0.9233399033546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "nose_upper_01_R",
+      "target_bone": "XQ_nose_upper_01_R",
+      "head_world": [
+        -0.009521457366645336,
+        0.033070728182792664,
+        0.9233399033546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "upperlip_bottom_L",
+      "target_bone": "XQ_upperlip_bottom_L",
+      "head_world": [
+        0.016845719888806343,
+        0.03551213815808296,
+        0.8964844346046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "upperlip_bottom_R",
+      "target_bone": "XQ_upperlip_bottom_R",
+      "head_world": [
+        -0.01586911827325821,
+        0.035023853182792664,
+        0.8959961533546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "upperlip_top_00_L",
+      "target_bone": "XQ_upperlip_top_00_L",
+      "head_world": [
+        0.004638692829757929,
+        0.02721136249601841,
+        0.9008789658546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "upperlip_middle_00_L",
+      "target_bone": "XQ_upperlip_middle_00_L",
+      "head_world": [
+        0.004638692829757929,
+        0.027211366221308708,
+        0.8984375596046448
+      ],
+      "source_parent": "upperlip_top_00_L"
+    },
+    {
+      "source_bone": "upperlip_top_00_R",
+      "target_bone": "XQ_upperlip_top_00_R",
+      "head_world": [
+        -0.004638648591935635,
+        0.02721136249601841,
+        0.9008789658546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "upperlip_middle_00_R",
+      "target_bone": "XQ_upperlip_middle_00_R",
+      "head_world": [
+        -0.004638649057596922,
+        0.02721136063337326,
+        0.8984375596046448
+      ],
+      "source_parent": "upperlip_top_00_R"
+    },
+    {
+      "source_bone": "upperlip_top_01_L",
+      "target_bone": "XQ_upperlip_top_01_L",
+      "head_world": [
+        0.010986346751451492,
+        0.03062933124601841,
+        0.8994141221046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "upperlip_middle00_01_L",
+      "target_bone": "XQ_upperlip_middle00_01_L",
+      "head_world": [
+        0.010498065501451492,
+        0.03014105185866356,
+        0.8984375596046448
+      ],
+      "source_parent": "upperlip_top_01_L"
+    },
+    {
+      "source_bone": "upperlip_top_01_R",
+      "target_bone": "XQ_upperlip_top_01_R",
+      "head_world": [
+        -0.010986304841935635,
+        0.03062932752072811,
+        0.8994141221046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "upperlip_middle00_01_R",
+      "target_bone": "XQ_upperlip_middle00_01_R",
+      "head_world": [
+        -0.01049802452325821,
+        0.03014104627072811,
+        0.8984375596046448
+      ],
+      "source_parent": "upperlip_top_01_R"
+    },
+    {
+      "source_bone": "upperlip_top_02_L",
+      "target_bone": "XQ_upperlip_top_02_L",
+      "head_world": [
+        0.014892593026161194,
+        0.03355901315808296,
+        0.8989258408546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "upperlip_middle00_02_L",
+      "target_bone": "XQ_upperlip_middle00_02_L",
+      "head_world": [
+        0.013916034251451492,
+        0.03307073190808296,
+        0.8979492783546448
+      ],
+      "source_parent": "upperlip_top_02_L"
+    },
+    {
+      "source_bone": "upperlip_inner_00_L",
+      "target_bone": "XQ_upperlip_inner_00_L",
+      "head_world": [
+        0.015380874276161194,
+        0.03453557565808296,
+        0.8974609971046448
+      ],
+      "source_parent": "upperlip_top_02_L"
+    },
+    {
+      "source_bone": "upperlip_top_02_R",
+      "target_bone": "XQ_upperlip_top_02_R",
+      "head_world": [
+        -0.013915994204580784,
+        0.033070728182792664,
+        0.8979492783546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "upperlip_middle00_02_R",
+      "target_bone": "XQ_upperlip_middle00_02_R",
+      "head_world": [
+        -0.01293943077325821,
+        0.032582446932792664,
+        0.8969727158546448
+      ],
+      "source_parent": "upperlip_top_02_R"
+    },
+    {
+      "source_bone": "upperlip_inner_00_R",
+      "target_bone": "XQ_upperlip_inner_00_R",
+      "head_world": [
+        -0.014404275454580784,
+        0.03404729440808296,
+        0.8969727158546448
+      ],
+      "source_parent": "upperlip_top_02_R"
+    },
+    {
+      "source_bone": "upperlip_top_03_L",
+      "target_bone": "XQ_upperlip_top_03_L",
+      "head_world": [
+        0.016845719888806343,
+        0.03551213815808296,
+        0.8964844346046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "upperlip_inner_01_L",
+      "target_bone": "XQ_upperlip_inner_01_L",
+      "head_world": [
+        0.016357438638806343,
+        0.03502385690808296,
+        0.8979492783546448
+      ],
+      "source_parent": "upperlip_top_03_L"
+    },
+    {
+      "source_bone": "upperlip_top_03_R",
+      "target_bone": "XQ_upperlip_top_03_R",
+      "head_world": [
+        -0.01538083702325821,
+        0.03453557565808296,
+        0.8974609971046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "upperlip_inner_01_R",
+      "target_bone": "XQ_upperlip_inner_01_R",
+      "head_world": [
+        -0.01684568263590336,
+        0.03551213815808296,
+        0.8964845538139343
+      ],
+      "source_parent": "upperlip_top_03_R"
+    },
+    {
+      "source_bone": "upperlip_top_M",
+      "target_bone": "XQ_upperlip_top_M",
+      "head_world": [
+        0.0002441629476379603,
+        0.02623479999601841,
+        0.8999024033546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "upperlip_middle_M",
+      "target_bone": "XQ_upperlip_middle_M",
+      "head_world": [
+        0.0002441627439111471,
+        0.02623479999601841,
+        0.8984375596046448
+      ],
+      "source_parent": "upperlip_top_M"
+    },
+    {
+      "source_bone": "jaw_back_00_L",
+      "target_bone": "XQ_jaw_back_00_L",
+      "head_world": [
+        0.01440430711954832,
+        0.05504339188337326,
+        0.8784180283546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "jaw_back_00_R",
+      "target_bone": "XQ_jaw_back_00_R",
+      "head_world": [
+        -0.00805662665516138,
+        0.05553166940808296,
+        0.8754883408546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "jaw_back_01_L",
+      "target_bone": "XQ_jaw_back_01_L",
+      "head_world": [
+        0.020751960575580597,
+        0.05846136808395386,
+        0.8842774033546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "jaw_back_01_R",
+      "target_bone": "XQ_jaw_back_01_R",
+      "head_world": [
+        -0.020751938223838806,
+        0.05846135690808296,
+        0.8842774033546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "jaw_back_02_L",
+      "target_bone": "XQ_jaw_back_02_L",
+      "head_world": [
+        0.026611335575580597,
+        0.06236761808395386,
+        0.8906251192092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "jaw_back_02_R",
+      "target_bone": "XQ_jaw_back_02_R",
+      "head_world": [
+        -0.023681627586483955,
+        0.06236761063337326,
+        0.8867188096046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "jaw_back_M",
+      "target_bone": "XQ_jaw_back_M",
+      "head_world": [
+        0.0026855587493628263,
+        0.05406682565808296,
+        0.8740234971046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_lower_U_01_L",
+      "target_bone": "XQ_eyelid_lower_U_01_L",
+      "head_world": [
+        0.01782228611409664,
+        0.03453557565808296,
+        0.9291993379592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_lower_U_02_L",
+      "target_bone": "XQ_eyelid_lower_U_02_L",
+      "head_world": [
+        0.021728534251451492,
+        0.03600041940808296,
+        0.9291992783546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_lower_U_03_L",
+      "target_bone": "XQ_eyelid_lower_U_03_L",
+      "head_world": [
+        0.024658221751451492,
+        0.03795354440808296,
+        0.9311524629592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_lower_U_01_R",
+      "target_bone": "XQ_eyelid_lower_U_01_R",
+      "head_world": [
+        -0.01928708143532276,
+        0.034535571932792664,
+        0.9296876788139343
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_lower_U_02_R",
+      "target_bone": "XQ_eyelid_lower_U_02_R",
+      "head_world": [
+        -0.02172848954796791,
+        0.036000415682792664,
+        0.9291993379592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_lower_U_03_R",
+      "target_bone": "XQ_eyelid_lower_U_03_R",
+      "head_world": [
+        -0.02465817518532276,
+        0.037953536957502365,
+        0.9311524629592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_00_L",
+      "target_bone": "XQ_eyelid_00_L",
+      "head_world": [
+        0.01391603797674179,
+        0.03502385690808296,
+        0.9335938096046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_lower_U_00_L",
+      "target_bone": "XQ_eyelid_lower_U_00_L",
+      "head_world": [
+        0.014404318295419216,
+        0.03453557565808296,
+        0.9296876192092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_lower_U_00_R",
+      "target_bone": "XQ_eyelid_lower_U_00_R",
+      "head_world": [
+        -0.01440427079796791,
+        0.034535568207502365,
+        0.9306641817092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "eyelid_00_R",
+      "target_bone": "XQ_eyelid_00_R",
+      "head_world": [
+        -0.01293942704796791,
+        0.035512134432792664,
+        0.9335938692092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "nose_top_00_L",
+      "target_bone": "XQ_nose_top_00_L",
+      "head_world": [
+        0.005126977805048227,
+        0.03160589188337326,
+        0.9326173067092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "nose_top_00_R",
+      "target_bone": "XQ_nose_top_00_R",
+      "head_world": [
+        -0.0070800515823066235,
+        0.03258245065808296,
+        0.9345704317092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "lowerlip_bottom_02_R",
+      "target_bone": "XQ_lowerlip_bottom_02_R",
+      "head_world": [
+        -0.014892554841935635,
+        0.034535571932792664,
+        0.8955078721046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "lowerlip_middle_02_R",
+      "target_bone": "XQ_lowerlip_middle_02_R",
+      "head_world": [
+        -0.014892554841935635,
+        0.034535571932792664,
+        0.8955078721046448
+      ],
+      "source_parent": "lowerlip_bottom_02_R"
+    },
+    {
+      "source_bone": "lowerlip_top_02_R",
+      "target_bone": "XQ_lowerlip_top_02_R",
+      "head_world": [
+        -0.013915994204580784,
+        0.033559009432792664,
+        0.8959961533546448
+      ],
+      "source_parent": "lowerlip_bottom_02_R"
+    },
+    {
+      "source_bone": "mouth_04_L",
+      "target_bone": "XQ_mouth_04_L",
+      "head_world": [
+        0.019287124276161194,
+        0.03697698563337326,
+        0.8979492783546448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "mouth_04_R",
+      "target_bone": "XQ_mouth_04_R",
+      "head_world": [
+        -0.01782224327325821,
+        0.036000415682792664,
+        0.8969728350639343
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "cheek_upper_05_L",
+      "target_bone": "XQ_cheek_upper_05_L",
+      "head_world": [
+        0.033935561776161194,
+        0.05113714560866356,
+        0.9326173067092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "cheek_upper_05_R",
+      "target_bone": "XQ_cheek_upper_05_R",
+      "head_world": [
+        -0.03491207957267761,
+        0.052113693207502365,
+        0.9296876788139343
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "jointEyeRight",
+      "target_bone": "XQ_jointEyeRight",
+      "head_world": [
+        -0.02416989579796791,
+        0.038930099457502365,
+        0.9331055879592896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "jointEyeLeft",
+      "target_bone": "XQ_jointEyeLeft",
+      "head_world": [
+        0.022705096751451492,
+        0.04137151688337326,
+        0.9316407442092896
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "lowerlip_bottom_03_L",
+      "target_bone": "XQ_lowerlip_bottom_03_L",
+      "head_world": [
+        0.016845719888806343,
+        0.03551213815808296,
+        0.8964844346046448
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "lowerlip_inner_02_L",
+      "target_bone": "XQ_lowerlip_inner_02_L",
+      "head_world": [
+        0.017822280526161194,
+        0.03746526688337326,
+        0.8940430283546448
+      ],
+      "source_parent": "lowerlip_bottom_03_L"
+    },
+    {
+      "source_bone": "Teeth",
+      "target_bone": "XQ_Teeth",
+      "head_world": [
+        -4.9241531087318435e-05,
+        0.0719769224524498,
+        0.9371742010116577
+      ],
+      "source_parent": "head"
+    },
+    {
+      "source_bone": "Tongue_01",
+      "target_bone": "XQ_Tongue_01",
+      "head_world": [
+        0.0018392098136246204,
+        0.048798397183418274,
+        0.8981947898864746
+      ],
+      "source_parent": "Teeth"
+    },
+    {
+      "source_bone": "Tongue_02",
+      "target_bone": "XQ_Tongue_02",
+      "head_world": [
+        0.0018392098136246204,
+        0.04044131562113762,
+        0.8973851203918457
+      ],
+      "source_parent": "Tongue_01"
+    }
+  ],
+  "method": "原面部骨骼层级移植并贴合点点脸部表面，重绘局部面部与头颈过渡权重；头部区域不再混入躯干骨权重。",
+  "statistics": {
+    "reweighted_vertices": 19887,
+    "head_owned_vertices": 19559,
+    "face_bones_with_nonzero_weights": 243,
+    "transferred_face_bones": 246,
+    "original_chin_body_weight_mean": 0.3941896847770037
+  },
+  "controls": {
+    "jaw": "DD_Jaw_CTRL"
+  }
+}
