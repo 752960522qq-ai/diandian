@@ -1,0 +1,58 @@
+{
+  "clip": "Idle",
+  "source_stage": "base_shortened.blend; current upper arms additionally shortened 2%",
+  "upper_arm_adjustments_degrees": {
+    "Left": {
+      "outward": 5.5,
+      "forward": 0
+    },
+    "Right": {
+      "outward": 10,
+      "forward": 3
+    }
+  },
+  "preserved": "All forearm/wrist/finger, torso/head/leg/root motion curves, mesh and rest skeleton unchanged by this pose edit",
+  "sample_frames": [
+    0,
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90,
+    100,
+    110,
+    120,
+    130,
+    140,
+    150,
+    160,
+    170,
+    180,
+    190,
+    200,
+    210,
+    220,
+    230,
+    240,
+    250
+  ],
+  "geometry_method": "Deduplicated real hand/forearm mesh vertices queried against lower-body/thigh/side-pouch triangle BVH, with three-axis ray parity for negative near-boundary normal projections. Normal projections at an open pouch edge are not used alone as inside tests.",
+  "minimum_mesh_surface_gap_m": {
+    "Left": 0.004486368037760258,
+    "Right": 0.004181315656751394
+  },
+  "inside_surface_vertex_samples": {
+    "Left": 0,
+    "Right": 0
+  },
+  "pouch_boundary_normal_false_positives": 183,
+  "visual_review": [
+    "idle_clearance_front.png",
+    "idle_clearance_side.png"
+  ],
+  "visual_result": "Relaxed asymmetric Idle stance; hands clear thighs and side pouch, no A-pose or wrist/finger concealment adjustment."
+}

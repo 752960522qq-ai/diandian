@@ -12,7 +12,7 @@
     "facial_joint_count": 246
   },
   "retarget": {
-    "motion_revision": 3,
+    "motion_revision": 4,
     "body_bones_mapped": 65,
     "fps": 30,
     "clips": [
@@ -24,7 +24,7 @@
     "Walk": "Uploaded girl Walk.fbx",
     "Run": "hero_13 XiaQing R23",
     "head_stress": "Authored diagnostic",
-    "upper_arm_length_factor": 0.95,
+    "upper_arm_length_factor": 0.931,
     "root_motion": "Linear horizontal travel removed; pelvis lateral and fore-aft sway preserved"
   },
   "classic_geometry_preserved": true,
@@ -39,5 +39,13 @@
       "sha256": "b1a12ee4fc28fd000e31ef4e9f1f461dad4229c65ab297af7a659e3aabcfd655",
       "type": "user original FBX"
     }
+  },
+  "appearance_revision": 4,
+  "upper_arm_current_adjustment_factor": 0.98,
+  "hair_source": {
+    "filename": "brown bob wig 3d model.glb.glb",
+    "sha256": "408d5736dc2defed6d4e93af42ab768e82aaf182dcab685cd8a0cf59764c0361",
+    "colour": "black-brown",
+    "head_weight": 1
   }
 }

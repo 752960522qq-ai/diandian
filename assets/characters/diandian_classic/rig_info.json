@@ -88,7 +88,7 @@
       }
     }
   },
-  "locomotion_revision": 3,
+  "locomotion_revision": 4,
   "motion_tuning": {
     "revision": 3,
     "upper_arms": {
@@ -453,7 +453,7 @@
       }
     }
   },
-  "upper_arm_length_factor": 0.95,
+  "upper_arm_length_factor": 0.931,
   "source_motions": {
     "Idle": {
       "filename": "girl_Idle.fbx",
@@ -552,5 +552,229 @@
         0.016000032424926758
       ]
     }
+  },
+  "appearance_revision": 4,
+  "upper_arm_factor_from_previous": 0.98,
+  "appearance": {
+    "revision": 4,
+    "upper_arms": {
+      "upper_arm_factor": 0.98,
+      "method": "Shoulder fixed; elbow and complete downstream chain translated inward; skin shortened only along shoulder-elbow axis with shoulder/elbow blending; cross-section coordinates preserved.",
+      "bone_sides": [
+        {
+          "side": "Left",
+          "factor": 0.98,
+          "shoulder_joint_shift_m": 0.0,
+          "upper_arm_joint_length_before_m": 0.14827236131058147,
+          "upper_arm_joint_length_after_m": 0.14530691016248976,
+          "upper_arm_length_ratio": 0.9799999735494865,
+          "downstream_world_translation_m": [
+            -0.0015578315360471606,
+            0.0010385565692558885,
+            0.002299660351127386
+          ],
+          "downstream_bones_translated": 22,
+          "max_forearm_hand_finger_bone_length_change_m": 4.878297057975267e-09,
+          "max_downstream_rest_rotation_change_degrees": 0.0
+        },
+        {
+          "side": "Right",
+          "factor": 0.98,
+          "shoulder_joint_shift_m": 0.0,
+          "upper_arm_joint_length_before_m": 0.14827214382522202,
+          "upper_arm_joint_length_after_m": 0.14530669304565927,
+          "upper_arm_length_ratio": 0.9799999466989677,
+          "downstream_world_translation_m": [
+            0.001557829207740724,
+            0.00103855284396559,
+            0.0022996580228209496
+          ],
+          "downstream_bones_translated": 22,
+          "max_forearm_hand_finger_bone_length_change_m": 0.0,
+          "max_downstream_rest_rotation_change_degrees": 0.0
+        }
+      ],
+      "meshes": [
+        {
+          "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+          "vertices": 107452,
+          "sides": {
+            "Left": {
+              "changed_vertices": 21185,
+              "longitudinal_only_perpendicular_error_m": 2.8515813671787943e-10,
+              "rigid_forearm_hand_vertices": 12518,
+              "forearm_hand_translation_error_m": 2.3283064365386963e-10,
+              "maximum_shift_m": 0.0029654472965679928
+            },
+            "Right": {
+              "changed_vertices": 21063,
+              "longitudinal_only_perpendicular_error_m": 3.4924596548080444e-10,
+              "rigid_forearm_hand_vertices": 12525,
+              "forearm_hand_translation_error_m": 0.0,
+              "maximum_shift_m": 0.0029654427727792546
+            }
+          }
+        }
+      ],
+      "uv_modified": false,
+      "skin_weights_modified": false,
+      "face_vertices_modified": false,
+      "cumulative_factor_from_original": 0.9309999999999999,
+      "factor_from_previous": 0.98
+    },
+    "hair": {
+      "source_file": "brown bob wig 3d model.glb.glb",
+      "mesh": "Diandian_BlackBrown_Bob",
+      "vertices": 21430,
+      "triangles": 25628,
+      "native_front_axis": "-X; rotated +90deg about Blender Z to face -Y",
+      "fit_scale_xyz": [
+        0.184,
+        0.184,
+        0.147
+      ],
+      "fit_translation": [
+        0,
+        0.078,
+        0.866
+      ],
+      "crown_vertices_pushed_clear": 908,
+      "crown_maximum_adjustment_m": 0.028398988865692285,
+      "crown_clearance_m": 0.0035,
+      "fit_bounds_world": [
+        [
+          -0.07573828101158142,
+          0.005692621693015099,
+          0.8659999966621399
+        ],
+        [
+          0.07573828101158142,
+          0.15030737221240997,
+          1.0130000114440918
+        ]
+      ],
+      "basecolor_encoded_rgb_median": [
+        0.14204412698745728,
+        0.10659560561180115,
+        0.09463079273700714
+      ],
+      "basecolor_texture_px": [
+        2048,
+        2048
+      ],
+      "normal_texture_px": [
+        4096,
+        4096
+      ],
+      "roughness": 0.64,
+      "head_binding_weight": 1.0,
+      "uv_topology_preserved": true,
+      "readme": "Use attach_hair.py to load this hair-only blend, add Head vertex group and Armature modifier against the current character. Hair fit coordinates are Blender world rest coordinates.",
+      "export_glb_check": {
+        "mesh_count": 1,
+        "base_color_factor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "roughness": 0.6399999856948853,
+        "embedded_basecolor_rgb_median_8bit": [
+          36.0,
+          27.0,
+          24.0
+        ],
+        "file_bytes": 9713608
+      },
+      "source_sha256": "408d5736dc2defed6d4e93af42ab768e82aaf182dcab685cd8a0cf59764c0361"
+    },
+    "idle_arms": {
+      "clip": "Idle",
+      "sides": {
+        "Left": {
+          "upper_arm_abduction_degrees": 5.5,
+          "world_axis": "Y",
+          "upper_arm_forward_degrees": 0.0,
+          "forearm_hand_finger_curves_modified": false
+        },
+        "Right": {
+          "upper_arm_abduction_degrees": 10.0,
+          "world_axis": "Y",
+          "upper_arm_forward_degrees": 3.0,
+          "forearm_hand_finger_curves_modified": false
+        }
+      },
+      "body_head_legs_curves_modified": false,
+      "rest_geometry_modified": false
+    },
+    "idle_clearance": {
+      "clip": "Idle",
+      "source_stage": "base_shortened.blend; current upper arms additionally shortened 2%",
+      "upper_arm_adjustments_degrees": {
+        "Left": {
+          "outward": 5.5,
+          "forward": 0
+        },
+        "Right": {
+          "outward": 10,
+          "forward": 3
+        }
+      },
+      "preserved": "All forearm/wrist/finger, torso/head/leg/root motion curves, mesh and rest skeleton unchanged by this pose edit",
+      "sample_frames": [
+        0,
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100,
+        110,
+        120,
+        130,
+        140,
+        150,
+        160,
+        170,
+        180,
+        190,
+        200,
+        210,
+        220,
+        230,
+        240,
+        250
+      ],
+      "geometry_method": "Deduplicated real hand/forearm mesh vertices queried against lower-body/thigh/side-pouch triangle BVH, with three-axis ray parity for negative near-boundary normal projections. Normal projections at an open pouch edge are not used alone as inside tests.",
+      "minimum_mesh_surface_gap_m": {
+        "Left": 0.004486368037760258,
+        "Right": 0.004181315656751394
+      },
+      "inside_surface_vertex_samples": {
+        "Left": 0,
+        "Right": 0
+      },
+      "pouch_boundary_normal_false_positives": 183,
+      "visual_review": [
+        "idle_clearance_front.png",
+        "idle_clearance_side.png"
+      ],
+      "visual_result": "Relaxed asymmetric Idle stance; hands clear thighs and side pouch, no A-pose or wrist/finger concealment adjustment."
+    }
+  },
+  "web_texture_optimization": {
+    "hair_normal_texture_px": [
+      2048,
+      2048
+    ],
+    "native_download_hair_normal_px": [
+      4096,
+      4096
+    ],
+    "geometry_and_colour_textures_unchanged": true
   }
 }
