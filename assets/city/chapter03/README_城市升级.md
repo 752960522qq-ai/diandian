@@ -13,6 +13,12 @@
 
 场景实例展开约 494.6 万三角面；同款建筑保留共享网格。GLB 内有 305 张内嵌图像，无外部贴图路径；Blender 工程中使用的 310 张图像均已打包。它是高细节源场景，运行时分块和 LOD 可在接入关卡时继续制作。
 
+## 预览图
+
+- [修改后总览](city_after_overview.png) · [修改前总览](city_before_overview.png)
+- [修改后俯视](city_after_top.png) · [修改前俯视](city_before_top.png)
+- [街角建筑近景](city_detail_corner.png) · [沿街近景](city_detail_street.png)
+
 ## 素材选择
 
 | 素材 | 复用数 | 源素材三角面 | 原贴图最高尺寸 |
