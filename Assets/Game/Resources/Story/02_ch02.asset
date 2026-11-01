@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c01c93896e4dd82ce8f80140196f3df, type: 3}
+  m_Name: ch02
+  m_EditorClassIdentifier:
+  Id: "ch02"
+  Order: 2
+  Title: "第二章：临时编制"
+  DayLabel: "第2—3天"
+  Summary: "林叙、点点在地下营地共同入队。短训练引入95-1式与92式，随后保护中继车和伤员，认识知更与阿栓。"
+  OpeningLines:
+  - "周铎：芯片的事先谈清楚。点点，你怎么想？"
+  - "点点：我和他一起入队，芯片不拆。"
+  - "沈岚：先校准动作，再去靶场。95-1和92式都放在整备台上。"
+  ClosingLines:
+  - "知更：我叫知更。下次找通信站，别再敲仓库门。"
+  - "点点：我记着了。"
+  - "林叙：今天可以一起吃饭吧？"
+  Objectives:
+  - Id: "briefing"
+    Description: "确认共同入队与任务简报"
+    InteractionLine: "点点：这一次，也先听我把话说完。"
+    Kind: 1
+    RequiredCount: 1
+  - Id: "hostile"
+    Description: "完成靶场短射击"
+    InteractionLine: "沈岚：够了，准星不是拿来跟着枪口晃的。"
+    Kind: 3
+    RequiredCount: 4
+  - Id: "relay_cart"
+    Description: "与点点协作推动中继车"
+    InteractionLine: "点点：一、二。你扶住右边。"
+    Kind: 2
+    RequiredCount: 1
+  - Id: "camp_table"
+    Description: "回到营地饭桌"
+    InteractionLine: "阿栓：给你们留了两个位置。"
+    Kind: 0
+    RequiredCount: 1
+  Stage: 0
+  EnemyCount: 4
+  PrimaryWeaponId: "qbz951"

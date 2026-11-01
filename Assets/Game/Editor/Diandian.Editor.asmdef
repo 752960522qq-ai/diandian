@@ -1,0 +1,7 @@
+{
+  "name": "Diandian.Editor",
+  "rootNamespace": "Diandian.Editor",
+  "references": ["Diandian.Runtime"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}

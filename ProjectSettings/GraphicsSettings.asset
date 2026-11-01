@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!30 &1
+GraphicsSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 16
+  m_CustomRenderPipeline: {fileID: 0}
+  m_AlwaysIncludedShaders:
+  - {fileID: 46, guid: 0000000000000000f0000000000000000, type: 0}
+  m_PreloadedShaders: []
+  m_SpritesDefaultMaterial: {fileID: 10754, guid: 0000000000000000f0000000000000000, type: 0}
+  m_LightmapStripping: 0
+  m_FogStripping: 0
+  m_InstancingStripping: 0

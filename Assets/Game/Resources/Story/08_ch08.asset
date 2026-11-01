@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c01c93896e4dd82ce8f80140196f3df, type: 3}
+  m_Name: ch08
+  m_EditorClassIdentifier:
+  Id: "ch08"
+  Order: 8
+  Title: "第八章：再往前一点"
+  DayLabel: "第14天 · 黎明"
+  Summary: "共同管理层在统一作战授时后触发维护锁，知更与阿栓停止动作但核心仍有供电。人类小队继续推进，林叙接替更多已学会的实体操作。"
+  OpeningLines:
+  - "知更：前方转角的情况是——"
+  - "陆川：知更？她的核心灯还亮着。"
+  - "沈岚：停止的是管理控制，不是供电。点点，你别接基地内网。"
+  - "点点：我在。林叙，我们先把通道打开。"
+  ClosingLines:
+  - "周铎：外围小组还在推进，别把火力都压在两个人身上。"
+  - "沈岚：归档区失联了，后方已经派人去找。"
+  - "点点：先往前一点。你看着路，我跟得上。"
+  Objectives:
+  - Id: "locked_team"
+    Description: "检查被维护锁定的友方机体"
+    InteractionLine: "点点：知更，听见了吗？……核心还在供电。"
+    Kind: 1
+    RequiredCount: 1
+  - Id: "manual_passage"
+    Description: "手动开启突入通道"
+    InteractionLine: "林叙：这次我来开。你不用再撑着。"
+    Kind: 1
+    RequiredCount: 1
+  - Id: "hostile"
+    Description: "掩护突入小队穿过封锁线"
+    InteractionLine: "周铎：侧翼交给我们，你们进维护层。"
+    Kind: 3
+    RequiredCount: 6
+  - Id: "central_edge"
+    Description: "抵达中枢边缘"
+    InteractionLine: "沈岚：备用节点开始汇聚授权，情况变了。"
+    Kind: 0
+    RequiredCount: 1
+  Stage: 3
+  EnemyCount: 6
+  PrimaryWeaponId: "qbz951"

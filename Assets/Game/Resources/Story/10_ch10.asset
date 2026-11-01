@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c01c93896e4dd82ce8f80140196f3df, type: 3}
+  m_Name: ch10
+  m_EditorClassIdentifier:
+  Id: "ch10"
+  Order: 10
+  Title: "第十章：靠一下"
+  DayLabel: "第14天 · 清晨"
+  Summary: "没有隐藏倒计时，也没有能改变结局的药品门槛。林叙接替开门与看路，陪点点经过战术、日常和关系记忆的逐步消退；她在他的怀中真正死亡。"
+  OpeningLines:
+  - "点点：你走那么快，赶着下班啊？"
+  - "林叙：我看看前面。看完就回来。"
+  - "沈岚：救援队在绕路。我还在试，你们先到安全停靠点。"
+  ClosingLines:
+  - "点点：小叙。你先别走。"
+  - "林叙：不走。我记着。"
+  - "点点：你为什么难过？"
+  - "林叙：我快要失去一个很重要的人。"
+  - "点点：那你……先陪着她呀。"
+  - "林叙：我陪着呢。"
+  - "林叙：点点，我们回家。"
+  - "旁白：散热声渐渐停下。她没有再回应。"
+  Objectives:
+  - Id: "escape_wheel"
+    Description: "手动打开撤离门"
+    InteractionLine: "点点：这个我抬不了了。旁边有个手轮，你来。"
+    Kind: 1
+    RequiredCount: 1
+  - Id: "hostile"
+    Description: "为安全停靠点清出短通路"
+    InteractionLine: "林叙：没事了。我回来接你。"
+    Kind: 3
+    RequiredCount: 2
+  - Id: "emergency_power"
+    Description: "连接应急电源，等待救援路线更新"
+    InteractionLine: "沈岚：电源在供电。损坏的存储与冷却，仍然无法恢复。"
+    Kind: 1
+    RequiredCount: 1
+  - Id: "steady_hand"
+    Description: "接住点点的右手，调整支撑"
+    InteractionLine: "点点：你手在抖。我没问你有没有事。"
+    Kind: 1
+    RequiredCount: 1
+  - Id: "stay_here"
+    Description: "留在点点身边"
+    InteractionLine: "林叙：累了就靠着。别硬撑。"
+    Kind: 0
+    RequiredCount: 1
+  Stage: 5
+  EnemyCount: 2
+  PrimaryWeaponId: "qbz951"

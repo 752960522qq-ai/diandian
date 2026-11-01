@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c01c93896e4dd82ce8f80140196f3df, type: 3}
+  m_Name: prologue
+  m_EditorClassIdentifier:
+  Id: "prologue"
+  Order: 0
+  Title: "序章：再改五分钟"
+  DayLabel: "两年前的梦中回忆 → 第1天清晨"
+  Summary: "从林叙梦中的《等灯的人》开场：掩护最后一位路人过桥，回到两年前的创作日常。熟悉的声音将他带回被占领的城市。"
+  OpeningLines:
+  - "点点：还有一个，桥那边。"
+  - "林叙：看见了。这次不会把他落下。"
+  - "点点：这里是《等灯的人》的测试关卡。试着移动、瞄准，再把桥上的火力清掉。"
+  ClosingLines:
+  - "林叙：都到这儿了，总不能让他卡着。"
+  - "点点：那先存一下。你别又改完没存。"
+  - "林叙：再改五分钟。"
+  - "点点：用户，醒醒。楼下开始巡检了。"
+  Objectives:
+  - Id: "hostile"
+    Description: "清除桥头的训练目标"
+    InteractionLine: "点点：桥上安静了，去接最后一个路人。"
+    Kind: 3
+    RequiredCount: 3
+  - Id: "bridge"
+    Description: "走到桥边，确认路人通路"
+    InteractionLine: "林叙：这次总算过去了。"
+    Kind: 0
+    RequiredCount: 1
+  - Id: "save_game"
+    Description: "保存《等灯的人》工程"
+    InteractionLine: "点点：已保存。这回真的只改五分钟？"
+    Kind: 1
+    RequiredCount: 1
+  - Id: "doorway"
+    Description: "在巡检敲门声中走向门口"
+    InteractionLine: "广播：配电检查，请打开房门。"
+    Kind: 0
+    RequiredCount: 1
+  Stage: 0
+  EnemyCount: 3
+  PrimaryWeaponId: "type56"

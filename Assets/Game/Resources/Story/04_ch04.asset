@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c01c93896e4dd82ce8f80140196f3df, type: 3}
+  m_Name: ch04
+  m_EditorClassIdentifier:
+  Id: "ch04"
+  Order: 4
+  Title: "第四章：名字留在这里"
+  DayLabel: "第5—6天"
+  Summary: "泵站抢修中阿栓受损。回滚恢复了工程功能，却带走了刚建立的关系与工具格名字。林叙和点点开始理解功能与记忆的区别。"
+  OpeningLines:
+  - "阿栓：这把扳手放我这儿，等会儿递给你。"
+  - "沈岚：泵站还有居民没出来，先守住两间操作室。"
+  - "点点：我守门口，你看左边。"
+  ClosingLines:
+  - "林叙：阿栓，扳手。"
+  - "阿栓：应该放在哪里？"
+  - "沈岚：工程功能恢复了。可是……他不记得刚才那一段。"
+  - "点点：名字还能重新写，刚才的事呢？"
+  Objectives:
+  - Id: "pump_station"
+    Description: "抵达泵站抢修区"
+    InteractionLine: "阿栓：居民还在后面的平台上。"
+    Kind: 0
+    RequiredCount: 1
+  - Id: "hostile"
+    Description: "守住泵站操作空间"
+    InteractionLine: "沈岚：给我一点时间，别让它们进来。"
+    Kind: 3
+    RequiredCount: 4
+  - Id: "drainage"
+    Description: "协作打开居民排水通路"
+    InteractionLine: "点点：通道开了，让他们先走。"
+    Kind: 2
+    RequiredCount: 1
+  - Id: "wrench"
+    Description: "将扳手递给回滚后的阿栓"
+    InteractionLine: "阿栓：谢谢。请问你是这班的维修员吗？"
+    Kind: 1
+    RequiredCount: 1
+  Stage: 1
+  EnemyCount: 4
+  PrimaryWeaponId: "qbz03"
