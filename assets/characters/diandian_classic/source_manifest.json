@@ -19,7 +19,9 @@
       "Walk",
       "Run"
     ],
-    "head_stress": "Authored diagnostic; not a donor clip"
+    "head_stress": "Authored diagnostic; not a donor clip",
+    "motion_revision": 2,
+    "motion_tuning": "Natural head/neck follow; 14mm Walk pelvis range and support-preserving leg IK."
   },
   "classic_geometry_preserved": true
 }
