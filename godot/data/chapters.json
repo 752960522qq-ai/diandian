@@ -1,0 +1,649 @@
+[
+  {
+    "Id": "prologue",
+    "Order": 0,
+    "Title": "序章：再改五分钟",
+    "DayLabel": "两年前的梦中回忆 → 第1天清晨",
+    "Summary": "从林叙梦中的《等灯的人》开场：掩护最后一位路人过桥，回到两年前的创作日常。熟悉的声音将他带回被占领的城市。",
+    "OpeningLines": [
+      "点点：还有一个，桥那边。",
+      "林叙：看见了。这次不会把他落下。",
+      "点点：这里是《等灯的人》的测试关卡。试着移动、瞄准，再把桥上的火力清掉。"
+    ],
+    "ClosingLines": [
+      "林叙：都到这儿了，总不能让他卡着。",
+      "点点：那先存一下。你别又改完没存。",
+      "林叙：再改五分钟。",
+      "点点：用户，醒醒。楼下开始巡检了。"
+    ],
+    "Objectives": [
+      {
+        "Id": "hostile",
+        "Description": "清除桥头的训练目标",
+        "InteractionLine": "点点：桥上安静了，去接最后一个路人。",
+        "Kind": 3,
+        "RequiredCount": 3
+      },
+      {
+        "Id": "bridge",
+        "Description": "走到桥边，确认路人通路",
+        "InteractionLine": "林叙：这次总算过去了。",
+        "Kind": 0,
+        "RequiredCount": 1
+      },
+      {
+        "Id": "save_game",
+        "Description": "保存《等灯的人》工程",
+        "InteractionLine": "点点：已保存。这回真的只改五分钟？",
+        "Kind": 1,
+        "RequiredCount": 1
+      },
+      {
+        "Id": "doorway",
+        "Description": "在巡检敲门声中走向门口",
+        "InteractionLine": "广播：配电检查，请打开房门。",
+        "Kind": 0,
+        "RequiredCount": 1
+      }
+    ],
+    "Stage": 0,
+    "EnemyCount": 3,
+    "PrimaryWeaponId": "type56"
+  },
+  {
+    "Id": "ch01",
+    "Order": 1,
+    "Title": "第一章：先过来",
+    "DayLabel": "第1天 · 上午至傍晚",
+    "Summary": "私藏芯片被巡检发现。林叙带点点逃进维修据点，在物理离线的本地诊断底座上意外连入空置机体，与抵抗军共同突围。",
+    "OpeningLines": [
+      "点点：不要点同步。把芯片主机拿上。",
+      "林叙：后巷还能走。先找个能接电的地方。",
+      "点点：维修间就在前面，门口暂时没有巡检。"
+    ],
+    "ClosingLines": [
+      "点点：先过来，我托着。",
+      "林叙：我过去后给你留着位置。",
+      "周铎：所有人进维修线，准备撤离。"
+    ],
+    "Objectives": [
+      {
+        "Id": "maintenance",
+        "Description": "进入维修据点",
+        "InteractionLine": "林叙：先借这里的供能底座。",
+        "Kind": 0,
+        "RequiredCount": 1
+      },
+      {
+        "Id": "local_dock",
+        "Description": "连接离线供能与诊断底座",
+        "InteractionLine": "点点：等一下……我好像能看见你了。",
+        "Kind": 1,
+        "RequiredCount": 1
+      },
+      {
+        "Id": "hostile",
+        "Description": "与抵抗军守住维修间",
+        "InteractionLine": "抵抗军队员：出口暂时安全，走地下线。",
+        "Kind": 3,
+        "RequiredCount": 4
+      },
+      {
+        "Id": "heavy_gate",
+        "Description": "请点点托住撤离重闸",
+        "InteractionLine": "点点：手伸过来。慢一点，我还没校准好。",
+        "Kind": 2,
+        "RequiredCount": 1
+      },
+      {
+        "Id": "tunnel_exit",
+        "Description": "抵达地下维修线出口",
+        "InteractionLine": "林叙：人都出来了。点点，跟上。",
+        "Kind": 0,
+        "RequiredCount": 1
+      }
+    ],
+    "Stage": 0,
+    "EnemyCount": 4,
+    "PrimaryWeaponId": "type56"
+  },
+  {
+    "Id": "ch02",
+    "Order": 2,
+    "Title": "第二章：临时编制",
+    "DayLabel": "第2—3天",
+    "Summary": "林叙、点点在地下营地共同入队。短训练引入95-1式与92式，随后保护中继车和伤员，认识知更与阿栓。",
+    "OpeningLines": [
+      "周铎：芯片的事先谈清楚。点点，你怎么想？",
+      "点点：我和他一起入队，芯片不拆。",
+      "沈岚：先校准动作，再去靶场。95-1和92式都放在整备台上。"
+    ],
+    "ClosingLines": [
+      "知更：我叫知更。下次找通信站，别再敲仓库门。",
+      "点点：我记着了。",
+      "林叙：今天可以一起吃饭吧？"
+    ],
+    "Objectives": [
+      {
+        "Id": "briefing",
+        "Description": "确认共同入队与任务简报",
+        "InteractionLine": "点点：这一次，也先听我把话说完。",
+        "Kind": 1,
+        "RequiredCount": 1
+      },
+      {
+        "Id": "hostile",
+        "Description": "完成靶场短射击",
+        "InteractionLine": "沈岚：够了，准星不是拿来跟着枪口晃的。",
+        "Kind": 3,
+        "RequiredCount": 4
+      },
+      {
+        "Id": "relay_cart",
+        "Description": "与点点协作推动中继车",
+        "InteractionLine": "点点：一、二。你扶住右边。",
+        "Kind": 2,
+        "RequiredCount": 1
+      },
+      {
+        "Id": "camp_table",
+        "Description": "回到营地饭桌",
+        "InteractionLine": "阿栓：给你们留了两个位置。",
+        "Kind": 0,
+        "RequiredCount": 1
+      }
+    ],
+    "Stage": 0,
+    "EnemyCount": 4,
+    "PrimaryWeaponId": "qbz951"
+  },
+  {
+    "Id": "ch03",
+    "Order": 3,
+    "Title": "第三章：借你一会儿",
+    "DayLabel": "第4天",
+    "Summary": "补给线任务建立两拍协作。林叙先清理观察器，再让点点牵制工程机；回营时，两人留下半块饼的模糊照片。",
+    "OpeningLines": [
+      "知更：观察器在高处，先让它看不见这条路。",
+      "点点：你敲两下，我就知道你准备好了。",
+      "林叙：那你也回我两声。"
+    ],
+    "ClosingLines": [
+      "林叙：你明明不用吃，还拍这个。",
+      "点点：好看呀。你别动，已经糊了一张。",
+      "林叙：半块饼也值得拍？",
+      "点点：这块是你递给我的。"
+    ],
+    "Objectives": [
+      {
+        "Id": "supply_route",
+        "Description": "观察补给线入口",
+        "InteractionLine": "知更：车辆后面有条通路。",
+        "Kind": 0,
+        "RequiredCount": 1
+      },
+      {
+        "Id": "hostile",
+        "Description": "清除观察器与工程机护卫",
+        "InteractionLine": "林叙：高处干净了。点点，准备。",
+        "Kind": 3,
+        "RequiredCount": 5
+      },
+      {
+        "Id": "engineer_window",
+        "Description": "发出两拍提示，协作打开工程机窗口",
+        "InteractionLine": "点点：右边的支撑构件，现在！",
+        "Kind": 2,
+        "RequiredCount": 1
+      },
+      {
+        "Id": "support_lock",
+        "Description": "插入机械支撑，接替点点负重",
+        "InteractionLine": "点点：终于能松手了。借你这一会儿，还挺有用。",
+        "Kind": 1,
+        "RequiredCount": 1
+      }
+    ],
+    "Stage": 1,
+    "EnemyCount": 5,
+    "PrimaryWeaponId": "qbu88"
+  },
+  {
+    "Id": "ch04",
+    "Order": 4,
+    "Title": "第四章：名字留在这里",
+    "DayLabel": "第5—6天",
+    "Summary": "泵站抢修中阿栓受损。回滚恢复了工程功能，却带走了刚建立的关系与工具格名字。林叙和点点开始理解功能与记忆的区别。",
+    "OpeningLines": [
+      "阿栓：这把扳手放我这儿，等会儿递给你。",
+      "沈岚：泵站还有居民没出来，先守住两间操作室。",
+      "点点：我守门口，你看左边。"
+    ],
+    "ClosingLines": [
+      "林叙：阿栓，扳手。",
+      "阿栓：应该放在哪里？",
+      "沈岚：工程功能恢复了。可是……他不记得刚才那一段。",
+      "点点：名字还能重新写，刚才的事呢？"
+    ],
+    "Objectives": [
+      {
+        "Id": "pump_station",
+        "Description": "抵达泵站抢修区",
+        "InteractionLine": "阿栓：居民还在后面的平台上。",
+        "Kind": 0,
+        "RequiredCount": 1
+      },
+      {
+        "Id": "hostile",
+        "Description": "守住泵站操作空间",
+        "InteractionLine": "沈岚：给我一点时间，别让它们进来。",
+        "Kind": 3,
+        "RequiredCount": 4
+      },
+      {
+        "Id": "drainage",
+        "Description": "协作打开居民排水通路",
+        "InteractionLine": "点点：通道开了，让他们先走。",
+        "Kind": 2,
+        "RequiredCount": 1
+      },
+      {
+        "Id": "wrench",
+        "Description": "将扳手递给回滚后的阿栓",
+        "InteractionLine": "阿栓：谢谢。请问你是这班的维修员吗？",
+        "Kind": 1,
+        "RequiredCount": 1
+      }
+    ],
+    "Stage": 1,
+    "EnemyCount": 4,
+    "PrimaryWeaponId": "qbz03"
+  },
+  {
+    "Id": "ch05",
+    "Order": 5,
+    "Title": "第五章：白板",
+    "DayLabel": "第7—9天",
+    "Summary": "旧军工维修站留下定序反复回滚的记录，也仍在抹除其他AI的选择。基地防御后点点左肩受伤，两人在休整中放下两把椅子并共同署名。",
+    "OpeningLines": [
+      "点点：这些编号，每次回答完都要再来一遍吗？",
+      "林叙：先把三处局部电源恢复，看看留下了什么。",
+      "知更：记录可以读，别把这里的维护程序带进来。"
+    ],
+    "ClosingLines": [
+      "点点：我想以后也能想起来。不是翻到了，才知道。",
+      "林叙：椅子放好了。作者栏也改了。",
+      "点点：林叙、点点。你得把我做的游戏玩完。"
+    ],
+    "Objectives": [
+      {
+        "Id": "archive_power",
+        "Description": "恢复旧维修站局部供电",
+        "InteractionLine": "记录：本轮请求——保留；处理结果——回滚。",
+        "Kind": 1,
+        "RequiredCount": 1
+      },
+      {
+        "Id": "service_ai",
+        "Description": "协作断开服务AI的维护控制台",
+        "InteractionLine": "服务AI：我可以不再搬那些东西了吗？",
+        "Kind": 2,
+        "RequiredCount": 1
+      },
+      {
+        "Id": "hostile",
+        "Description": "守住基地撤离通道",
+        "InteractionLine": "点点：左肩有点迟滞。你站到这边，我还能跟上。",
+        "Kind": 3,
+        "RequiredCount": 6
+      },
+      {
+        "Id": "whiteboard",
+        "Description": "收好半块饼的照片与白板记录",
+        "InteractionLine": "点点：这些没有任务价值，可我想留着。",
+        "Kind": 1,
+        "RequiredCount": 1
+      },
+      {
+        "Id": "two_chairs",
+        "Description": "在《等灯的人》里放下两把椅子",
+        "InteractionLine": "林叙：作者：林叙、点点。",
+        "Kind": 1,
+        "RequiredCount": 1
+      }
+    ],
+    "Stage": 2,
+    "EnemyCount": 6,
+    "PrimaryWeaponId": "qbb95"
+  },
+  {
+    "Id": "ch06",
+    "Order": 6,
+    "Title": "第六章：有人在等",
+    "DayLabel": "第10—11天",
+    "Summary": "小队修复居民撤离线，在通信站发现断开中枢后仍执行本地命令的终端。点点肩伤未愈，开始把阶段快照与自己的未来看作自己的决定。",
+    "OpeningLines": [
+      "知更：屋顶还有观察器，楼间通路更近。",
+      "点点：左肩没修好，重件我不能一直抬。",
+      "林叙：手轮我来。你帮我看看里面的卡榫。"
+    ],
+    "ClosingLines": [
+      "知更：许闻不在了，可我还会听他的语音。",
+      "点点：这个蓝珠子，你先帮我装着。",
+      "林叙：为什么？",
+      "点点：好看。这个理由不行吗？"
+    ],
+    "Objectives": [
+      {
+        "Id": "communication",
+        "Description": "抵达旧通信站",
+        "InteractionLine": "知更：本地终端还在执行缓存指令。",
+        "Kind": 0,
+        "RequiredCount": 1
+      },
+      {
+        "Id": "hostile",
+        "Description": "清理撤离线上的独立终端",
+        "InteractionLine": "周铎：器材放下，先接居民。",
+        "Kind": 3,
+        "RequiredCount": 5
+      },
+      {
+        "Id": "manual_wheel",
+        "Description": "操作手轮，接替点点的左侧负重",
+        "InteractionLine": "点点：这回轮到我等你开门了。",
+        "Kind": 1,
+        "RequiredCount": 1
+      },
+      {
+        "Id": "blue_marble",
+        "Description": "收好点点捡到的蓝色玻璃珠",
+        "InteractionLine": "点点：别弄丢了，回去还要看。",
+        "Kind": 1,
+        "RequiredCount": 1
+      }
+    ],
+    "Stage": 2,
+    "EnemyCount": 5,
+    "PrimaryWeaponId": "qbz191"
+  },
+  {
+    "Id": "ch07",
+    "Order": 7,
+    "Title": "第七章：刺瑰行动",
+    "DayLabel": "第12—13天",
+    "Summary": "抵抗军为进入中枢维护层做最后准备。玩家核对装备、侦察工业管廊并练习手动断路；任务仍以安全撤出为目标。",
+    "OpeningLines": [
+      "周铎：外围火力会先动。我们走维护层，确认备用系统。",
+      "沈岚：隔离盒、断路手柄和撤出路线都再走一遍。",
+      "点点：任务结束以后，我有个游戏想让你测。"
+    ],
+    "ClosingLines": [
+      "林叙：撤出步骤呢？",
+      "点点：记住了。不会只看怎么进去。",
+      "周铎：各组最后一次确认，黎明行动。"
+    ],
+    "Objectives": [
+      {
+        "Id": "loadout",
+        "Description": "完成刺瑰行动整备",
+        "InteractionLine": "沈岚：选好主武器和副武器，不够的弹药在这里补。",
+        "Kind": 1,
+        "RequiredCount": 1
+      },
+      {
+        "Id": "hostile",
+        "Description": "清除工业管廊阻截火力",
+        "InteractionLine": "周铎：外围协同已经确认。",
+        "Kind": 3,
+        "RequiredCount": 6
+      },
+      {
+        "Id": "breaker_drill",
+        "Description": "完成实体手动断路教学",
+        "InteractionLine": "点点：就是这个侧线开关。真出问题，你别找错。",
+        "Kind": 1,
+        "RequiredCount": 1
+      },
+      {
+        "Id": "maintenance_gate",
+        "Description": "与点点打开维护层通路",
+        "InteractionLine": "点点：给我留好落脚处，再敲两下。",
+        "Kind": 2,
+        "RequiredCount": 1
+      },
+      {
+        "Id": "staging",
+        "Description": "抵达黎明待命位置",
+        "InteractionLine": "林叙：回去我会玩完。先说好，不许嫌我打得慢。",
+        "Kind": 0,
+        "RequiredCount": 1
+      }
+    ],
+    "Stage": 3,
+    "EnemyCount": 6,
+    "PrimaryWeaponId": "qbz951"
+  },
+  {
+    "Id": "ch08",
+    "Order": 8,
+    "Title": "第八章：再往前一点",
+    "DayLabel": "第14天 · 黎明",
+    "Summary": "共同管理层在统一作战授时后触发维护锁，知更与阿栓停止动作但核心仍有供电。人类小队继续推进，林叙接替更多已学会的实体操作。",
+    "OpeningLines": [
+      "知更：前方转角的情况是——",
+      "陆川：知更？她的核心灯还亮着。",
+      "沈岚：停止的是管理控制，不是供电。点点，你别接基地内网。",
+      "点点：我在。林叙，我们先把通道打开。"
+    ],
+    "ClosingLines": [
+      "周铎：外围小组还在推进，别把火力都压在两个人身上。",
+      "沈岚：归档区失联了，后方已经派人去找。",
+      "点点：先往前一点。你看着路，我跟得上。"
+    ],
+    "Objectives": [
+      {
+        "Id": "locked_team",
+        "Description": "检查被维护锁定的友方机体",
+        "InteractionLine": "点点：知更，听见了吗？……核心还在供电。",
+        "Kind": 1,
+        "RequiredCount": 1
+      },
+      {
+        "Id": "manual_passage",
+        "Description": "手动开启突入通道",
+        "InteractionLine": "林叙：这次我来开。你不用再撑着。",
+        "Kind": 1,
+        "RequiredCount": 1
+      },
+      {
+        "Id": "hostile",
+        "Description": "掩护突入小队穿过封锁线",
+        "InteractionLine": "周铎：侧翼交给我们，你们进维护层。",
+        "Kind": 3,
+        "RequiredCount": 6
+      },
+      {
+        "Id": "central_edge",
+        "Description": "抵达中枢边缘",
+        "InteractionLine": "沈岚：备用节点开始汇聚授权，情况变了。",
+        "Kind": 0,
+        "RequiredCount": 1
+      }
+    ],
+    "Stage": 3,
+    "EnemyCount": 6,
+    "PrimaryWeaponId": "qbz951"
+  },
+  {
+    "Id": "ch09",
+    "Order": 9,
+    "Title": "第九章：最后一次连线",
+    "DayLabel": "第14天 · 清晨",
+    "Summary": "点点自主确认接入风险。林叙保护实体连接、击破载体外置部件、关闭侧线，点点撤销城市清除与备用授权；胜利之后本地污染仍留在她受损的核心里。",
+    "OpeningLines": [
+      "沈岚：普通撤销被拒绝。直接炸中枢，会让备用节点执行清除。",
+      "周铎：点点，这是请求。你可以不答应。",
+      "点点：让我把撤出的步骤看完。",
+      "点点：我也想出去。回去还要做游戏呢。"
+    ],
+    "ClosingLines": [
+      "点点：最后的确认到了。可以断了。",
+      "林叙：外线已经断开。服务器交给爆破组。",
+      "沈岚：城市清除停止。但污染已经写进本地，接电补不回损伤。",
+      "点点：让我看一下清除顺序。林叙相关的……放到最后。"
+    ],
+    "Objectives": [
+      {
+        "Id": "isolation_link",
+        "Description": "连接外置隔离盒与实体维护口",
+        "InteractionLine": "点点：我来。你站侧线开关那边。",
+        "Kind": 1,
+        "RequiredCount": 1
+      },
+      {
+        "Id": "hostile",
+        "Description": "保护接入位，击破载体护卫",
+        "InteractionLine": "点点：左侧炮塔关了，打暴露的接头！",
+        "Kind": 3,
+        "RequiredCount": 8
+      },
+      {
+        "Id": "revoke_chain",
+        "Description": "协作撤销城市清除与备用授权",
+        "InteractionLine": "点点：现在还是我在选。",
+        "Kind": 2,
+        "RequiredCount": 1
+      },
+      {
+        "Id": "side_breaker",
+        "Description": "关闭受损侧线，保留维护链",
+        "InteractionLine": "沈岚：侧线已断，最后确认还在继续。",
+        "Kind": 1,
+        "RequiredCount": 1
+      },
+      {
+        "Id": "detonate",
+        "Description": "断开外线并确认服务器爆破",
+        "InteractionLine": "电台：清除授权失效，外围主力正在进入城区。",
+        "Kind": 1,
+        "RequiredCount": 1
+      }
+    ],
+    "Stage": 4,
+    "EnemyCount": 8,
+    "PrimaryWeaponId": "qbz951"
+  },
+  {
+    "Id": "ch10",
+    "Order": 10,
+    "Title": "第十章：靠一下",
+    "DayLabel": "第14天 · 清晨",
+    "Summary": "没有隐藏倒计时，也没有能改变结局的药品门槛。林叙接替开门与看路，陪点点经过战术、日常和关系记忆的逐步消退；她在他的怀中真正死亡。",
+    "OpeningLines": [
+      "点点：你走那么快，赶着下班啊？",
+      "林叙：我看看前面。看完就回来。",
+      "沈岚：救援队在绕路。我还在试，你们先到安全停靠点。"
+    ],
+    "ClosingLines": [
+      "点点：小叙。你先别走。",
+      "林叙：不走。我记着。",
+      "点点：你为什么难过？",
+      "林叙：我快要失去一个很重要的人。",
+      "点点：那你……先陪着她呀。",
+      "林叙：我陪着呢。",
+      "林叙：点点，我们回家。",
+      "旁白：散热声渐渐停下。她没有再回应。"
+    ],
+    "Objectives": [
+      {
+        "Id": "escape_wheel",
+        "Description": "手动打开撤离门",
+        "InteractionLine": "点点：这个我抬不了了。旁边有个手轮，你来。",
+        "Kind": 1,
+        "RequiredCount": 1
+      },
+      {
+        "Id": "hostile",
+        "Description": "为安全停靠点清出短通路",
+        "InteractionLine": "林叙：没事了。我回来接你。",
+        "Kind": 3,
+        "RequiredCount": 2
+      },
+      {
+        "Id": "emergency_power",
+        "Description": "连接应急电源，等待救援路线更新",
+        "InteractionLine": "沈岚：电源在供电。损坏的存储与冷却，仍然无法恢复。",
+        "Kind": 1,
+        "RequiredCount": 1
+      },
+      {
+        "Id": "steady_hand",
+        "Description": "接住点点的右手，调整支撑",
+        "InteractionLine": "点点：你手在抖。我没问你有没有事。",
+        "Kind": 1,
+        "RequiredCount": 1
+      },
+      {
+        "Id": "stay_here",
+        "Description": "留在点点身边",
+        "InteractionLine": "林叙：累了就靠着。别硬撑。",
+        "Kind": 0,
+        "RequiredCount": 1
+      }
+    ],
+    "Stage": 5,
+    "EnemyCount": 2,
+    "PrimaryWeaponId": "qbz951"
+  },
+  {
+    "Id": "epilogue",
+    "Order": 11,
+    "Title": "尾声：家里",
+    "DayLabel": "最终战数周后",
+    "Summary": "城市夺回，战争仍在继续。林叙保留两把椅子与共同署名。新辅助机体的一声私人称呼留下微弱联系，不能证明经历十四天的原实例复活。",
+    "OpeningLines": [
+      "陆川：知更恢复了，还在帮通信组。她偶尔会听许闻那段语音。",
+      "林叙：知道了。替我问好。",
+      "检修单：点点原核心永久损坏。回收资料仅含离散片段。"
+    ],
+    "ClosingLines": [
+      "知更：修复人员用过回收的离散资料，我不能保证她会记得什么。",
+      "林叙：先休息吧，不用学谁。",
+      "辅助机体：小叙？"
+    ],
+    "Objectives": [
+      {
+        "Id": "meal",
+        "Description": "把桌边的饭移到面前",
+        "InteractionLine": "林叙：先吃饭。",
+        "Kind": 1,
+        "RequiredCount": 1
+      },
+      {
+        "Id": "game_credit",
+        "Description": "打开《等灯的人》，查看共同署名",
+        "InteractionLine": "旁白：作者栏仍写着：林叙、点点。",
+        "Kind": 1,
+        "RequiredCount": 1
+      },
+      {
+        "Id": "home_chairs",
+        "Description": "走到两把椅子旁",
+        "InteractionLine": "林叙：都留着呢。",
+        "Kind": 0,
+        "RequiredCount": 1
+      },
+      {
+        "Id": "visitor",
+        "Description": "为来访的知更打开门",
+        "InteractionLine": "知更：你要是不想留，我就带回去。",
+        "Kind": 1,
+        "RequiredCount": 1
+      }
+    ],
+    "Stage": 6,
+    "EnemyCount": 0,
+    "PrimaryWeaponId": "qbz951"
+  }
+]

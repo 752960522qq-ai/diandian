@@ -1,0 +1,12 @@
+; Godot 4 project
+config_version=5
+[application]
+config/name="点点滴滴：刺瑰行动"
+run/main_scene="res://godot/scenes/main.tscn"
+[display]
+window/size/viewport_width=1600
+window/size/viewport_height=900
+window/stretch/mode="canvas_items"
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
