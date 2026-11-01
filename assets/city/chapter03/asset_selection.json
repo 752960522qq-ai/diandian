@@ -1436,9 +1436,9 @@
   "scope": "当前场景及本次hero_13复用来源；原city.glb保留的背景建筑不计入复用次数。",
   "corner_classification_evidence": {
     "hero_13_documents": [
-      "design/city/source_descriptors.json",
-      "delivery/city_v13/building_registry.csv",
-      "delivery/city_updates/v17_20261029/arcade_asset_pool.json"
+      "design/city/v13/source_descriptors.json",
+      "design/city/v13/building_registry.csv",
+      "delivery/city_updates/v17_20261029/metadata/arcade_asset_pool.json"
     ],
     "additional_named_corner_candidates_found": 0,
     "shared_row_name_note": "M19_Expanded_Corner_Frontage 是整排分组名称，未把其中各独立 Connected_Arcade/Shop 型号视为转角楼。"
