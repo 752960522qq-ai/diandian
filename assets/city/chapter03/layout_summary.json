@@ -1,10 +1,24 @@
 {
-  "expanded_triangles": 3021414,
+  "expanded_triangles": 3909320,
   "textures": {
-    "count": 110,
+    "count": 147,
     "missing": 0,
-    "packed": 110
+    "packed": 147
   },
   "unchanged_protected_meshes": 2276,
-  "original_transform_max_error": 0
+  "original_transform_max_error": 0,
+  "replacement_instances": 126,
+  "used_model_types": 47,
+  "max_instances_per_model": 3,
+  "instance_count_histogram": {
+    "2": 5,
+    "3": 37,
+    "1": 5
+  },
+  "replacement_envelope_max_overflow": 1.1920928955078125e-07,
+  "exported_glb_instance_roots": 126,
+  "s_source_markers_in_export": 0,
+  "excluded_corner_sources_in_export": 0,
+  "original_texture_payloads_preserved": true,
+  "preview_texture_limit_px": 1024
 }

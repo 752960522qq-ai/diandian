@@ -1,76 +1,1369 @@
 {
-  "rule": "仅复用不带 Sxx-Bxx 来源编号的 hero_13 模型；禁用来源不能通过移除标记重新使用。",
+  "rule": "使用全部非转角楼型；每款不同模型最多3处；带 Sxx-Bxx 编号的来源及衍生件禁止复用。",
   "confirmed_by_user": "2026-11-01",
+  "counting_policy": "同款模型由文件及归一化几何指纹归类，改名、旋转和统一缩放不另算一款。",
+  "rules": {
+    "max_instances_per_type": 3,
+    "exclude_corner_buildings": true,
+    "exclude_s_markers": true,
+    "max_axis_scale_ratio": 2.6
+  },
   "allowed_sources": [
     {
-      "label": "沿街商住楼58",
-      "hero_13_relative_path": "delivery/city_updates/v18_20261030/sources/urban_facade_58.glb",
-      "sha256": "cca470cf0cbc2ff26395f109d27e9b6d7dfeb19441a174571e9b407022b3383e",
-      "instances": 7,
-      "s_marker_present": false
-    },
-    {
-      "label": "旧街住宅59",
-      "hero_13_relative_path": "delivery/city_updates/v18_20261030/sources/historic_building_59.glb",
-      "sha256": "b95c832434d15b7a715b8bc2b012ca18d8f6ca933abf325ec969216f6fed243b",
-      "instances": 16,
-      "s_marker_present": false
-    },
-    {
-      "label": "三层商住楼60",
-      "hero_13_relative_path": "delivery/city_updates/v18_20261030/sources/three_story_60.glb",
-      "sha256": "5cbda342cbe5c34d7b993bc71e86f99055cf3c883a38befaf2769b42e88f9c54",
-      "instances": 18,
-      "s_marker_present": false
-    },
-    {
-      "label": "街角楼57",
-      "hero_13_relative_path": "delivery/city_updates/v18_20261030/sources/historic_facade_57b.glb",
-      "sha256": "1f83e4ebbfb93d118cec9f3e1e7cae5d33a3e8b2c5159615b9e3085e97abea58",
-      "instances": 26,
-      "s_marker_present": false
-    },
-    {
-      "label": "城市办公楼62",
-      "hero_13_relative_path": "delivery/city_updates/v18_20261030/sources/city_building_62.glb",
-      "sha256": "abb0d53ee7f83cf26cd55e029e6eba8a1c4861510e5241f89444df019baedf6d",
-      "instances": 10,
-      "s_marker_present": false
-    },
-    {
-      "label": "低层店面楼61",
-      "hero_13_relative_path": "delivery/city_updates/v18_20261030/sources/historic_storefront_61.glb",
-      "sha256": "67211a00aae4893d1b6b71fbb262a0cdfabd32831946e68664807a242c61399b",
-      "instances": 23,
-      "s_marker_present": false
-    },
-    {
-      "label": "办公楼51",
-      "hero_13_relative_path": "delivery/city_updates/v16_20261029/sources/04-office-building-3d-model-51.glb",
-      "sha256": "0c597b7f06286bf3f907caa64609e1b21186a369cd84fd67c985442e0c7f8772",
-      "instances": 0,
-      "s_marker_present": false
-    },
-    {
-      "label": "酒店楼52",
-      "hero_13_relative_path": "delivery/city_updates/v16_20261029/sources/03-hotel-building-3d-model-52.glb",
-      "sha256": "7226222a4b6d84d2683c7041073ea7661be3da3863f91536c84adf41b795198b",
-      "instances": 0,
-      "s_marker_present": false
-    },
-    {
-      "label": "黄色公寓54",
-      "hero_13_relative_path": "delivery/city_updates/v16_20261029/sources/01-apartment-building-54.glb",
+      "label": "01-apartment-building-54",
       "sha256": "560a781538c4c36e76404127f2bb32bbe4baf90a6b37bb4cdd5b87caf8fb8bb5",
-      "instances": 15,
-      "s_marker_present": false
+      "geometry_signature": "ea1ac6add267f1f342d295f931cc7190a7ecb9d180f02eff2f85ce19290bde35",
+      "type_id": "type_ea1ac6add267f1f3",
+      "tris": 23183,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.4380340576171875,
+        0.982269287109375,
+        0.4573822021484375
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.4380340576171875,
+        0.4573822021484375,
+        0.982269287109375
+      ],
+      "source_filename": "01-apartment-building-54.glb",
+      "instances": 1,
+      "hero_13_relative_path": "delivery/city_updates/v16_20261029/sources/01-apartment-building-54.glb"
     },
     {
-      "label": "粉色公寓53",
-      "hero_13_relative_path": "delivery/city_updates/v16_20261029/sources/02-pink-high-rise-building-3d-model-53.glb",
+      "label": "02-pink-high-rise-building-3d-model-53",
       "sha256": "d54c9946edfcd1b1a1119119f5b139f6d1305e51bd0fb0b69e9da7e9500484e9",
-      "instances": 11,
-      "s_marker_present": false
+      "geometry_signature": "80129f087926d37e67e6847412efcd11e3f6d8d026a6555bf0c990ffcf66c115",
+      "type_id": "type_80129f087926d37e",
+      "tris": 22017,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.4079132378101349,
+        0.98223876953125,
+        0.3556976318359375
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.4079132378101349,
+        0.3556976318359375,
+        0.98223876953125
+      ],
+      "source_filename": "02-pink-high-rise-building-3d-model-53.glb",
+      "instances": 0,
+      "hero_13_relative_path": "delivery/city_updates/v16_20261029/sources/02-pink-high-rise-building-3d-model-53.glb"
+    },
+    {
+      "label": "03-hotel-building-3d-model-52",
+      "sha256": "7226222a4b6d84d2683c7041073ea7661be3da3863f91536c84adf41b795198b",
+      "geometry_signature": "af76891d382e1380d10a9b37feb228729b80eb34b01355ea27a3424326ddc9f9",
+      "type_id": "type_af76891d382e1380",
+      "tris": 23374,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.98590087890625,
+        0.49383544921875,
+        0.587799072265625
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.98590087890625,
+        0.587799072265625,
+        0.49383544921875
+      ],
+      "source_filename": "03-hotel-building-3d-model-52.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_updates/v16_20261029/sources/03-hotel-building-3d-model-52.glb"
+    },
+    {
+      "label": "04-office-building-3d-model-51",
+      "sha256": "0c597b7f06286bf3f907caa64609e1b21186a369cd84fd67c985442e0c7f8772",
+      "geometry_signature": "622b67d4153317632266a4313d92d26dea08b424535aac49e4532827d80ca40a",
+      "type_id": "type_622b67d415331763",
+      "tris": 22639,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.986175537109375,
+        0.722503662109375,
+        0.803253173828125
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.986175537109375,
+        0.803253173828125,
+        0.722503662109375
+      ],
+      "source_filename": "04-office-building-3d-model-51.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_updates/v16_20261029/sources/04-office-building-3d-model-51.glb"
+    },
+    {
+      "label": "05-apartment-building-50",
+      "sha256": "43d67c4995e8d27edd7fe1a339ebfc28fd3f63a31af98bfc7ead56d67150cd06",
+      "geometry_signature": "09edfedc9d5e2576ea37168c08e1d366c8b6a7d127a16019c3542bd170531ebd",
+      "type_id": "type_09edfedc9d5e2576",
+      "tris": 22709,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.5074462890625,
+        0.98199462890625,
+        0.347259521484375
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.5074462890625,
+        0.347259521484375,
+        0.98199462890625
+      ],
+      "source_filename": "05-apartment-building-50.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_updates/v16_20261029/sources/05-apartment-building-50.glb"
+    },
+    {
+      "label": "01-modern-storefront-building-3d-model-57",
+      "sha256": "c0e6ccdfeb734b9ec9b886db1d31919d9fdd5e2df154aabcf3571bae0b80422c",
+      "geometry_signature": "6eacc576969bfb124e5a691017829748d336bf91013f3c9f62c69f5fbe314cb6",
+      "type_id": "type_6eacc576969bfb12",
+      "tris": 13012,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.965484619140625,
+        0.446563720703125,
+        0.98590087890625
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.965484619140625,
+        0.98590087890625,
+        0.446563720703125
+      ],
+      "source_filename": "01-modern-storefront-building-3d-model-57.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_updates/v17_20261029/sources/01-modern-storefront-building-3d-model-57.glb"
+    },
+    {
+      "label": "02-building-3d-model-56",
+      "sha256": "308ecd2f6189fa2cb128c170e9ccccb9eed1abda3e1e313f4ed8460e74523573",
+      "geometry_signature": "41f8c9f9bf949991f9c87c637340774a323495d6d64ab36660a3c2979ba8d4d9",
+      "type_id": "type_41f8c9f9bf949991",
+      "tris": 13467,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.9814757108688354,
+        0.5626220107078552,
+        0.768157958984375
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.9814757108688354,
+        0.768157958984375,
+        0.5626220107078552
+      ],
+      "source_filename": "02-building-3d-model-56.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_updates/v17_20261029/sources/02-building-3d-model-56.glb"
+    },
+    {
+      "label": "architectural_facade_66",
+      "sha256": "19dc48ce44bc8b0c95e5504539e27e2c6b50e15280581e1a8ca593fb393f594c",
+      "geometry_signature": "db12ee1b087ac057709da7ea353963427ea124125a52f57e66cb20d06cda1563",
+      "type_id": "type_db12ee1b087ac057",
+      "tris": 22940,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.73089599609375,
+        0.980804443359375,
+        0.535552978515625
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.73089599609375,
+        0.535552978515625,
+        0.980804443359375
+      ],
+      "source_filename": "architectural_facade_66.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_updates/v18_20261030/sources/architectural_facade_66.glb"
+    },
+    {
+      "label": "city_building_62",
+      "sha256": "abb0d53ee7f83cf26cd55e029e6eba8a1c4861510e5241f89444df019baedf6d",
+      "geometry_signature": "043dc244ffd6407f4c0a0503e5e49fddeaed81e643d8490ab545b3ead6bacde4",
+      "type_id": "type_043dc244ffd6407f",
+      "tris": 22362,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.9794312119483948,
+        0.4738006591796875,
+        0.44276440143585205
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.9794312119483948,
+        0.44276440143585205,
+        0.4738006591796875
+      ],
+      "source_filename": "city_building_62.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_updates/v18_20261030/sources/city_building_62.glb"
+    },
+    {
+      "label": "historic_building_59",
+      "sha256": "b95c832434d15b7a715b8bc2b012ca18d8f6ca933abf325ec969216f6fed243b",
+      "geometry_signature": "6f075581d2d7e055c318c0a0ef1fae0f62a5574acf0e0fd9ea0a5938a75b4844",
+      "type_id": "type_6f075581d2d7e055",
+      "tris": 23279,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.7725830078125,
+        0.978515625,
+        0.57568359375
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.7725830078125,
+        0.57568359375,
+        0.978515625
+      ],
+      "source_filename": "historic_building_59.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_updates/v18_20261030/sources/historic_building_59.glb"
+    },
+    {
+      "label": "historic_storefront_61",
+      "sha256": "67211a00aae4893d1b6b71fbb262a0cdfabd32831946e68664807a242c61399b",
+      "geometry_signature": "920b745dda391fd4609fffaf632bd869b51fe9b0106fbe2addae8f08e74450da",
+      "type_id": "type_920b745dda391fd4",
+      "tris": 22029,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.9772033095359802,
+        0.5385741591453552,
+        0.7276611328125
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.9772033095359802,
+        0.7276611328125,
+        0.5385741591453552
+      ],
+      "source_filename": "historic_storefront_61.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_updates/v18_20261030/sources/historic_storefront_61.glb"
+    },
+    {
+      "label": "police_headquarters_65",
+      "sha256": "6d74b7e8d225d09ff9e4a347db8a7fc7364a1db3b12ff5d2f2925bb7a0a0970a",
+      "geometry_signature": "036397834983f3276b4fcccd8de6076e4c116f7dd7dde4ffcf8e1ba94c9ed968",
+      "type_id": "type_036397834983f327",
+      "tris": 21123,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.978607177734375,
+        0.3854065537452698,
+        0.60821533203125
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.978607177734375,
+        0.60821533203125,
+        0.3854065537452698
+      ],
+      "source_filename": "police_headquarters_65.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_updates/v18_20261030/sources/police_headquarters_65.glb"
+    },
+    {
+      "label": "shopping_mall_64",
+      "sha256": "30ed456bd59d99cda708616fc059f10c7f7fc08e2aa8d2c33ce690283d5ca246",
+      "geometry_signature": "896d28bd7d27afc99ef7464508ad7dec6cc4688671b795e03a4a62e938766d56",
+      "type_id": "type_896d28bd7d27afc9",
+      "tris": 44824,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.98065185546875,
+        0.3545379638671875,
+        0.67059326171875
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.98065185546875,
+        0.67059326171875,
+        0.3545379638671875
+      ],
+      "source_filename": "shopping_mall_64.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_updates/v18_20261030/sources/shopping_mall_64.glb"
+    },
+    {
+      "label": "three_story_60",
+      "sha256": "5cbda342cbe5c34d7b993bc71e86f99055cf3c883a38befaf2769b42e88f9c54",
+      "geometry_signature": "6457faa6fe141fdfb879bd1dbe5b352251606574534298df28e599ebdf356d58",
+      "type_id": "type_6457faa6fe141fdf",
+      "tris": 21978,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.98095703125,
+        0.4904937744140625,
+        0.42880260944366455
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.98095703125,
+        0.42880260944366455,
+        0.4904937744140625
+      ],
+      "source_filename": "three_story_60.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_updates/v18_20261030/sources/three_story_60.glb"
+    },
+    {
+      "label": "urban_building_63",
+      "sha256": "30ecf753600a53c397bd0c3e1f674c825952cdd503e4be94552b8dd34dd6d588",
+      "geometry_signature": "fa83366dc657755d060d45bdedc03a98cd6d5d4389666d1d068c849601653984",
+      "type_id": "type_fa83366dc657755d",
+      "tris": 21219,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.9783935546875,
+        0.4487152099609375,
+        0.554290771484375
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.9783935546875,
+        0.554290771484375,
+        0.4487152099609375
+      ],
+      "source_filename": "urban_building_63.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_updates/v18_20261030/sources/urban_building_63.glb"
+    },
+    {
+      "label": "urban_facade_58",
+      "sha256": "cca470cf0cbc2ff26395f109d27e9b6d7dfeb19441a174571e9b407022b3383e",
+      "geometry_signature": "71289f837a3f853bede62b8a45a5852ce77ca0c52b9de0443edad35cf4c206ac",
+      "type_id": "type_71289f837a3f853b",
+      "tris": 22652,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.98468017578125,
+        0.44647216796875,
+        0.4403533935546875
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.98468017578125,
+        0.4403533935546875,
+        0.44647216796875
+      ],
+      "source_filename": "urban_facade_58.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_updates/v18_20261030/sources/urban_facade_58.glb"
+    },
+    {
+      "label": "apartment+building+11",
+      "sha256": "4d95e8ee0a606775e16bf90a1ee4c42016d5614a52b05b7f747917bdeda77287",
+      "geometry_signature": "6a26ebf75e642daf2ec21d86cc76f7821d56af2f42f83bc5e040e1920e7a598c",
+      "type_id": "type_6a26ebf75e642daf",
+      "tris": 41858,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.9849854707717896,
+        0.3153839111328125,
+        0.2750548720359802
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.9849854707717896,
+        0.2750548720359802,
+        0.3153839111328125
+      ],
+      "source_filename": "apartment+building+11.glb",
+      "instances": 2,
+      "hero_13_relative_path": "delivery/city_v13",
+      "archive_member": "huizhou_city_v13/source/buildings/apartment+building+11.glb",
+      "provenance_evidence": "delivery/city_v13/manifest.json"
+    },
+    {
+      "label": "apartment+building+2",
+      "sha256": "8927541ff0b267741f85b54ff1e71d67ac8ffe25e40f3233f663d841f77daf6f",
+      "geometry_signature": "4e68940a5b81c1d54ddcd1b336bea1e9391dc648fe80dbed434803ce2b81e896",
+      "type_id": "type_4e68940a5b81c1d5",
+      "tris": 22295,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.7898255586624146,
+        0.97894287109375,
+        0.5269775986671448
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.7898255586624146,
+        0.5269775986671448,
+        0.97894287109375
+      ],
+      "source_filename": "apartment+building+2.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_v13",
+      "archive_member": "huizhou_city_v13/source/buildings/apartment+building+2.glb",
+      "provenance_evidence": "delivery/city_v13/manifest.json"
+    },
+    {
+      "label": "apartment+building+3",
+      "sha256": "d6b8b9dda1aea0c45b2125d5e0b4cae58fb9fd37ad489558607abc236ac233ea",
+      "geometry_signature": "8c53902c10b5942ddf1a939453c9cc475604e88df5edfb1546d08e0fb137d90d",
+      "type_id": "type_8c53902c10b5942d",
+      "tris": 22788,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.7965699434280396,
+        0.979248046875,
+        0.4289703965187073
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.7965699434280396,
+        0.4289703965187073,
+        0.979248046875
+      ],
+      "source_filename": "apartment+building+3.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_v13",
+      "archive_member": "huizhou_city_v13/source/buildings/apartment+building+3.glb",
+      "provenance_evidence": "delivery/city_v13/manifest.json"
+    },
+    {
+      "label": "apartment_14",
+      "sha256": "24e2de2f232f57274d31ac4d9fe73a261f94b7cc59a634610709e96e46fa1a63",
+      "geometry_signature": "0f46227c1de50ee3c961939e9e84bc3f19257b28bc371cf7be707b2bcb1a61fc",
+      "type_id": "type_0f46227c1de50ee3",
+      "tris": 14194,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.7888489365577698,
+        0.977264404296875,
+        0.65655517578125
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.7888489365577698,
+        0.65655517578125,
+        0.977264404296875
+      ],
+      "source_filename": "apartment_14.glb",
+      "instances": 2,
+      "hero_13_relative_path": "delivery/city_v13",
+      "archive_member": "huizhou_city_v13/source/buildings/apartment_14.glb",
+      "provenance_evidence": "delivery/city_v13/manifest.json"
+    },
+    {
+      "label": "apartment_building_18",
+      "sha256": "8ff88fa72d20145fe2ced17d6915ffbf1574a114d03a64182a85fba3eb4c24ef",
+      "geometry_signature": "0a37abfa37a48461db7a92604a4e5d19b3d7fea1abcec7926a100481ed68786c",
+      "type_id": "type_0a37abfa37a48461",
+      "tris": 10373,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.7717589735984802,
+        0.973175048828125,
+        0.683074951171875
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.7717589735984802,
+        0.683074951171875,
+        0.973175048828125
+      ],
+      "source_filename": "apartment_building_18.glb",
+      "instances": 2,
+      "hero_13_relative_path": "delivery/city_v13",
+      "archive_member": "huizhou_city_v13/source/buildings/apartment_building_18.glb",
+      "provenance_evidence": "delivery/city_v13/manifest.json"
+    },
+    {
+      "label": "cbd_office_27",
+      "sha256": "b64bd367ec174c12e8525a0d16b58c2c00b19f0719e2f4625fd22f8072b3e6c9",
+      "geometry_signature": "2c71713157c3a7ee472077f624350fc920ccf990a0ce8e861ed1c697648afba4",
+      "type_id": "type_2c71713157c3a7ee",
+      "tris": 24342,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.81298828125,
+        0.98260498046875,
+        0.6739501953125
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.81298828125,
+        0.6739501953125,
+        0.98260498046875
+      ],
+      "source_filename": "cbd_office_27.glb",
+      "instances": 2,
+      "hero_13_relative_path": "delivery/city_v13",
+      "archive_member": "huizhou_city_v13/source/buildings/cbd_office_27.glb",
+      "provenance_evidence": "delivery/city_v13/manifest.json"
+    },
+    {
+      "label": "cbd_office_28",
+      "sha256": "d5f1aceaf7aa7d22da1e5fb9a7641980e0914bf978731a1bf872ab6794866490",
+      "geometry_signature": "75db267c762848ddfe36d42da56ca585850c644c9cac263405f1c80a9ba8c144",
+      "type_id": "type_75db267c762848dd",
+      "tris": 26914,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.98638916015625,
+        0.58929443359375,
+        0.5357362031936646
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.98638916015625,
+        0.5357362031936646,
+        0.58929443359375
+      ],
+      "source_filename": "cbd_office_28.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_v13",
+      "archive_member": "huizhou_city_v13/source/buildings/cbd_office_28.glb",
+      "provenance_evidence": "delivery/city_v13/manifest.json"
+    },
+    {
+      "label": "cbd_office_29",
+      "sha256": "4a0857acfb7774add4b1f870f65f5bb47b935b30ca7b5e4f581f90094917f306",
+      "geometry_signature": "4123ef4d2616ee05427dde7f59bad97d6868524b25d524261b000e08ec1793e3",
+      "type_id": "type_4123ef4d2616ee05",
+      "tris": 26108,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.98406982421875,
+        0.4777984321117401,
+        0.4241485595703125
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.98406982421875,
+        0.4241485595703125,
+        0.4777984321117401
+      ],
+      "source_filename": "cbd_office_29.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_v13",
+      "archive_member": "huizhou_city_v13/source/buildings/cbd_office_29.glb",
+      "provenance_evidence": "delivery/city_v13/manifest.json"
+    },
+    {
+      "label": "cbd_office_30",
+      "sha256": "eee8fa2e5a1d5880520c9e34b059efcae549243417ead2adbadd6bd6223e6251",
+      "geometry_signature": "dd6107c820e4cbdb927214a0e9ae940e52bff63b135a9a6da30458b09df4ebe1",
+      "type_id": "type_dd6107c820e4cbdb",
+      "tris": 27685,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.609771728515625,
+        0.98077392578125,
+        0.573974609375
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.609771728515625,
+        0.573974609375,
+        0.98077392578125
+      ],
+      "source_filename": "cbd_office_30.glb",
+      "instances": 1,
+      "hero_13_relative_path": "delivery/city_v13",
+      "archive_member": "huizhou_city_v13/source/buildings/cbd_office_30.glb",
+      "provenance_evidence": "delivery/city_v13/manifest.json"
+    },
+    {
+      "label": "city+street+building+9",
+      "sha256": "1bfbbde6e6d8c562f4ffd7a7e5fd768aa2227e43003fc2d7d39e6fce3d326a0b",
+      "geometry_signature": "deca777b81fd5a7a9d1c64596be927b94954c3ddb46b625acfeaf6f4ce1b359c",
+      "type_id": "type_deca777b81fd5a7a",
+      "tris": 41559,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.9848939180374146,
+        0.335357666015625,
+        0.3069000244140625
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.9848939180374146,
+        0.3069000244140625,
+        0.335357666015625
+      ],
+      "source_filename": "city+street+building+9.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_v13",
+      "archive_member": "huizhou_city_v13/source/buildings/city+street+building+9.glb",
+      "provenance_evidence": "delivery/city_v13/manifest.json"
+    },
+    {
+      "label": "concrete_apartment_28",
+      "sha256": "65790d3d04a471493571064aeeb35206b4bc87728e0782ffec2be358e539a61c",
+      "geometry_signature": "9b4f83e301f2d3f18aae3b6da4b4af61634acf6d536ec66495626c078f1610ac",
+      "type_id": "type_9b4f83e301f2d3f1",
+      "tris": 9130,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.979827880859375,
+        0.8787842392921448,
+        0.7277833223342896
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.979827880859375,
+        0.7277833223342896,
+        0.8787842392921448
+      ],
+      "source_filename": "concrete_apartment_28.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_v13",
+      "archive_member": "huizhou_city_v13/source/buildings/concrete_apartment_28.glb",
+      "provenance_evidence": "delivery/city_v13/manifest.json"
+    },
+    {
+      "label": "glass_office_22",
+      "sha256": "94a54b203c8ce2d3404db746b4a7168bdf602488a647c8214ee58d98dc2c2037",
+      "geometry_signature": "4b7413a5942dfa828f9522007533b2c28dec51ba8f6a0ae111f4959e349fc5bf",
+      "type_id": "type_4b7413a5942dfa82",
+      "tris": 21923,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.456390380859375,
+        0.979583740234375,
+        0.274658203125
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.456390380859375,
+        0.274658203125,
+        0.979583740234375
+      ],
+      "source_filename": "glass_office_22.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_v13",
+      "archive_member": "huizhou_city_v13/source/buildings/glass_office_22.glb",
+      "provenance_evidence": "delivery/city_v13/manifest.json"
+    },
+    {
+      "label": "glass_skyscraper_23",
+      "sha256": "8008b0830b25e9a455a93f1e4add247d144a903fdfd464f1758cda732f3cada8",
+      "geometry_signature": "1842ecfaed1c65cf8955b552057f5797c8b0aade09e532ba4fda712705473841",
+      "type_id": "type_1842ecfaed1c65cf",
+      "tris": 23202,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.50421142578125,
+        0.975372314453125,
+        0.2819367051124573
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.50421142578125,
+        0.2819367051124573,
+        0.975372314453125
+      ],
+      "source_filename": "glass_skyscraper_23.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_v13",
+      "archive_member": "huizhou_city_v13/source/buildings/glass_skyscraper_23.glb",
+      "provenance_evidence": "delivery/city_v13/manifest.json"
+    },
+    {
+      "label": "high_rise_25",
+      "sha256": "baf62b812847281a7e6d848a48090344a52b8f16f92bae3e6f5d5ac4a3d9565c",
+      "geometry_signature": "18944e8bb7b8cc270a49fab00edee179ac679795bf7eeabf796eb3297bacf22f",
+      "type_id": "type_18944e8bb7b8cc27",
+      "tris": 119479,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.4318389892578125,
+        0.978912353515625,
+        0.3704681396484375
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.4318389892578125,
+        0.3704681396484375,
+        0.978912353515625
+      ],
+      "source_filename": "high_rise_25.glb",
+      "instances": 0,
+      "hero_13_relative_path": "delivery/city_v13",
+      "archive_member": "huizhou_city_v13/source/buildings/high_rise_25.glb",
+      "provenance_evidence": "delivery/city_v13/manifest.json"
+    },
+    {
+      "label": "historic_building_facade_15",
+      "sha256": "0e77902424843daaa34673b46affb4f91f624ffb8f1f024433b8d8d6f26705ac",
+      "geometry_signature": "9115b0927d690c96a5e2933bfa7a384bd2f6a25ad129a1378f4e9343140d9977",
+      "type_id": "type_9115b0927d690c96",
+      "tris": 20217,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.9801331162452698,
+        0.481781005859375,
+        0.4924164116382599
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.9801331162452698,
+        0.4924164116382599,
+        0.481781005859375
+      ],
+      "source_filename": "historic_building_facade_15.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_v13",
+      "archive_member": "huizhou_city_v13/source/buildings/historic_building_facade_15.glb",
+      "provenance_evidence": "delivery/city_v13/manifest.json"
+    },
+    {
+      "label": "modern_glass_2",
+      "sha256": "e103bef8b31a72029811ff6446e161af5eb165a52c66757dd93f014db89f113e",
+      "geometry_signature": "208ddf75cd4ffa4261d37dff83002f87e8c84fed725b40a2092dbfb69a51db91",
+      "type_id": "type_208ddf75cd4ffa42",
+      "tris": 53119,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.5736389756202698,
+        0.979156494140625,
+        0.3340606689453125
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.5736389756202698,
+        0.3340606689453125,
+        0.979156494140625
+      ],
+      "source_filename": "modern_glass_2.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_v13",
+      "archive_member": "huizhou_city_v13/source/buildings/modern_glass_2.glb",
+      "provenance_evidence": "delivery/city_v13/manifest.json"
+    },
+    {
+      "label": "modern_glass_24",
+      "sha256": "fdbcdb57f18d7e7950ff8a0ad167ef853b84e053d798466e0c02b94be6debbd9",
+      "geometry_signature": "04d2029b2aa69a0150444ad7e086aa96694c2a537cdda02fae73e2af245fcd98",
+      "type_id": "type_04d2029b2aa69a01",
+      "tris": 20157,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.4888763427734375,
+        0.977569580078125,
+        0.2811737060546875
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.4888763427734375,
+        0.2811737060546875,
+        0.977569580078125
+      ],
+      "source_filename": "modern_glass_24.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_v13",
+      "archive_member": "huizhou_city_v13/source/buildings/modern_glass_24.glb",
+      "provenance_evidence": "delivery/city_v13/manifest.json"
+    },
+    {
+      "label": "modern_glass_office_21",
+      "sha256": "ac94ebd49315efbec91902b8e99973b1de599c9232efba4791b468914a356c8a",
+      "geometry_signature": "171cf144fa080bf4ce8848678768c5bda9449f62842e64fa4c9b0d60996bbec4",
+      "type_id": "type_171cf144fa080bf4",
+      "tris": 20203,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.439697265625,
+        0.978546142578125,
+        0.2980346977710724
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.439697265625,
+        0.2980346977710724,
+        0.978546142578125
+      ],
+      "source_filename": "modern_glass_office_21.glb",
+      "instances": 2,
+      "hero_13_relative_path": "delivery/city_v13",
+      "archive_member": "huizhou_city_v13/source/buildings/modern_glass_office_21.glb",
+      "provenance_evidence": "delivery/city_v13/manifest.json"
+    },
+    {
+      "label": "modern_office_complex_26",
+      "sha256": "85557d35e23ab05af5595f0bde585c359c358bfc83e315ca208597fbee34cb58",
+      "geometry_signature": "b01ea56a22902272311f8693b1179997e164646918a12c7a40aba012c266eb91",
+      "type_id": "type_b01ea56a22902272",
+      "tris": 109807,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.98272705078125,
+        0.61376953125,
+        0.7768555879592896
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.98272705078125,
+        0.7768555879592896,
+        0.61376953125
+      ],
+      "source_filename": "modern_office_complex_26.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_v13",
+      "archive_member": "huizhou_city_v13/source/buildings/modern_office_complex_26.glb",
+      "provenance_evidence": "delivery/city_v13/manifest.json"
+    },
+    {
+      "label": "office_building_1",
+      "sha256": "d8e80b756b71e376b4faa46a5abdb69b2d00bf95af28ebeea22b0d6a38353ca7",
+      "geometry_signature": "4eda9285b8d1cbc52f29ab01b7ab483660b5499565a71db1375dd03413e2e0f7",
+      "type_id": "type_4eda9285b8d1cbc5",
+      "tris": 25960,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.8437501192092896,
+        0.980377197265625,
+        0.8539735078811646
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.8437501192092896,
+        0.8539735078811646,
+        0.980377197265625
+      ],
+      "source_filename": "office_building_1.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_v13",
+      "archive_member": "huizhou_city_v13/source/buildings/office_building_1.glb",
+      "provenance_evidence": "delivery/city_v13/manifest.json"
+    },
+    {
+      "label": "office_building_26",
+      "sha256": "f80b6178bf7758b01c682fd2576ab06e3ef17624eceb153a29146e4e107789e0",
+      "geometry_signature": "01a9b46b36b51e753fc6b694af72dac64371f034618b710c81603c1671b8d73e",
+      "type_id": "type_01a9b46b36b51e75",
+      "tris": 118372,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.53118896484375,
+        0.98126220703125,
+        0.3769072890281677
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.53118896484375,
+        0.3769072890281677,
+        0.98126220703125
+      ],
+      "source_filename": "office_building_26.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_v13",
+      "archive_member": "huizhou_city_v13/source/buildings/office_building_26.glb",
+      "provenance_evidence": "delivery/city_v13/manifest.json"
+    },
+    {
+      "label": "old+building+facade+6",
+      "sha256": "9a2d3d290754ffc18c0aec3706af16525ec5fb5472ec553e83482968649edf0a",
+      "geometry_signature": "840bdd77e7832cd8d30664ae1a71fe941d27281ccab9a9b6e85f8c5396c0f6b4",
+      "type_id": "type_840bdd77e7832cd8",
+      "tris": 13198,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.9783631563186646,
+        0.872833251953125,
+        0.705718994140625
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.9783631563186646,
+        0.705718994140625,
+        0.872833251953125
+      ],
+      "source_filename": "old+building+facade+6.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_v13",
+      "archive_member": "huizhou_city_v13/source/buildings/old+building+facade+6.glb",
+      "provenance_evidence": "delivery/city_v13/manifest.json"
+    },
+    {
+      "label": "old+urban+building+8",
+      "sha256": "77aeeed33433a7498d233d7ccd91200a7bc43f1c9e5416feab0bc9e0ed179124",
+      "geometry_signature": "747ddbad8c8234306e64b258b46ce7f62f436c9759055e2b3eb019d9f5a547d3",
+      "type_id": "type_747ddbad8c823430",
+      "tris": 41189,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.9788208603858948,
+        0.639068603515625,
+        0.4932709336280823
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.9788208603858948,
+        0.4932709336280823,
+        0.639068603515625
+      ],
+      "source_filename": "old+urban+building+8.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_v13",
+      "archive_member": "huizhou_city_v13/source/buildings/old+urban+building+8.glb",
+      "provenance_evidence": "delivery/city_v13/manifest.json"
+    },
+    {
+      "label": "old_apartment_13",
+      "sha256": "58d904b63c64a0907184cb9fe0e97262cd86ea578529b926911b7df7dbeeeb4f",
+      "geometry_signature": "3f5c6c207c4784829a0ad6f2318d06cdcc7a53cf35b7434e0013b0ffa1301a7b",
+      "type_id": "type_3f5c6c207c478482",
+      "tris": 14463,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.9794921875,
+        0.9672241806983948,
+        0.618255615234375
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.9794921875,
+        0.618255615234375,
+        0.9672241806983948
+      ],
+      "source_filename": "old_apartment_13.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_v13",
+      "archive_member": "huizhou_city_v13/source/buildings/old_apartment_13.glb",
+      "provenance_evidence": "delivery/city_v13/manifest.json"
+    },
+    {
+      "label": "old_building_17",
+      "sha256": "a213a01d97a3b2dc856b7dbd18f8b585dbed5cb325795cc88ffb477b38f26403",
+      "geometry_signature": "2b6947f2070ec4ba438bb22a2f7c97a3fd362634e401581457d4ace8987cfe33",
+      "type_id": "type_2b6947f2070ec4ba",
+      "tris": 10526,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.56365966796875,
+        0.975799560546875,
+        0.4652099609375
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.56365966796875,
+        0.4652099609375,
+        0.975799560546875
+      ],
+      "source_filename": "old_building_17.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_v13",
+      "archive_member": "huizhou_city_v13/source/buildings/old_building_17.glb",
+      "provenance_evidence": "delivery/city_v13/manifest.json"
+    },
+    {
+      "label": "old_italian_townhouse_19",
+      "sha256": "127ce06c392370336f018048851245d24437ef3ce264779945824159a6d4cdc9",
+      "geometry_signature": "2eeca2cc15c1b21014263116a52eda10bab6735e17b6c0ceec4a991e7610c492",
+      "type_id": "type_2eeca2cc15c1b210",
+      "tris": 10633,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.6048280000686646,
+        0.982269287109375,
+        0.5932007431983948
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.6048280000686646,
+        0.5932007431983948,
+        0.982269287109375
+      ],
+      "source_filename": "old_italian_townhouse_19.glb",
+      "instances": 1,
+      "hero_13_relative_path": "delivery/city_v13",
+      "archive_member": "huizhou_city_v13/source/buildings/old_italian_townhouse_19.glb",
+      "provenance_evidence": "delivery/city_v13/manifest.json"
+    },
+    {
+      "label": "rusty_apartment_27",
+      "sha256": "af64f0de1e49c42bb0f987e3f213bb289149b7b4fa722711d9edb23441b80173",
+      "geometry_signature": "8e93263c8ccce1750977ca47c77aa47e0abf6e908f2e53150bf0fee0e1a6a556",
+      "type_id": "type_8e93263c8ccce175",
+      "tris": 10502,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.7157287001609802,
+        0.976165771484375,
+        0.627471923828125
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.7157287001609802,
+        0.627471923828125,
+        0.976165771484375
+      ],
+      "source_filename": "rusty_apartment_27.glb",
+      "instances": 1,
+      "hero_13_relative_path": "delivery/city_v13",
+      "archive_member": "huizhou_city_v13/source/buildings/rusty_apartment_27.glb",
+      "provenance_evidence": "delivery/city_v13/manifest.json"
+    },
+    {
+      "label": "skyscraper_26",
+      "sha256": "51060e3d283b32b37e6bb997b817146698b6441f9bad8ab1de089673b66ff1ac",
+      "geometry_signature": "68a2c443e6eb8ba0e04b30af9506c9509abe405721b70b41d24aef29961158e8",
+      "type_id": "type_68a2c443e6eb8ba0",
+      "tris": 113784,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.578033447265625,
+        0.98077392578125,
+        0.441253662109375
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.578033447265625,
+        0.441253662109375,
+        0.98077392578125
+      ],
+      "source_filename": "skyscraper_26.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_v13",
+      "archive_member": "huizhou_city_v13/source/buildings/skyscraper_26.glb",
+      "provenance_evidence": "delivery/city_v13/manifest.json"
+    },
+    {
+      "label": "storefront+building+7",
+      "sha256": "8a93d1ff3e846eecbced409a4ac7bd9d12490f3647434d9848dedd101b1a1bc6",
+      "geometry_signature": "fdc761ff194e7eaefa679fb9040212d46d3c96a89546967d2e4185785969a82a",
+      "type_id": "type_fdc761ff194e7eae",
+      "tris": 34164,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.9867249727249146,
+        0.3182830810546875,
+        0.2752838730812073
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.9867249727249146,
+        0.2752838730812073,
+        0.3182830810546875
+      ],
+      "source_filename": "storefront+building+7.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_v13",
+      "archive_member": "huizhou_city_v13/source/buildings/storefront+building+7.glb",
+      "provenance_evidence": "delivery/city_v13/manifest.json"
+    },
+    {
+      "label": "storefront_12",
+      "sha256": "38fe4f8c6a717235b2886cd09c700140889362a28ee8899384604b4e0d75dc63",
+      "geometry_signature": "965af900ea16554d0e45b3dd073e1b7a4180c42b4d65029b441d617ffe34e855",
+      "type_id": "type_965af900ea16554d",
+      "tris": 18373,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.9817811250686646,
+        0.4611968994140625,
+        0.25555428862571716
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.9817811250686646,
+        0.25555428862571716,
+        0.4611968994140625
+      ],
+      "source_filename": "storefront_12.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_v13",
+      "archive_member": "huizhou_city_v13/source/buildings/storefront_12.glb",
+      "provenance_evidence": "delivery/city_v13/manifest.json"
+    },
+    {
+      "label": "urban+building+facade+5",
+      "sha256": "6e0ab44dc26b0930ce435f291b9deb21f0de6bde5953a2c197e08109dcfe2346",
+      "geometry_signature": "0e833f862ba50110a6afc41397fc7c41511163260dc94ab76c7bec8a885570da",
+      "type_id": "type_0e833f862ba50110",
+      "tris": 12838,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.7797852754592896,
+        0.978485107421875,
+        0.7208863496780396
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.7797852754592896,
+        0.7208863496780396,
+        0.978485107421875
+      ],
+      "source_filename": "urban+building+facade+5.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_v13",
+      "archive_member": "huizhou_city_v13/source/buildings/urban+building+facade+5.glb",
+      "provenance_evidence": "delivery/city_v13/manifest.json"
+    },
+    {
+      "label": "urban_building_facade_20",
+      "sha256": "038e8796c6667f4b610be47e0c381691ecaba8625c30acada7de2b8bedd3d634",
+      "geometry_signature": "bf1b7a0b15acb833f21358640d65a6e73754402eeda059f31acb666b57071c9e",
+      "type_id": "type_bf1b7a0b15acb833",
+      "tris": 10527,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.56719970703125,
+        0.9769287109375,
+        0.5020142793655396
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.56719970703125,
+        0.5020142793655396,
+        0.9769287109375
+      ],
+      "source_filename": "urban_building_facade_20.glb",
+      "instances": 1,
+      "hero_13_relative_path": "delivery/city_v13",
+      "archive_member": "huizhou_city_v13/source/buildings/urban_building_facade_20.glb",
+      "provenance_evidence": "delivery/city_v13/manifest.json"
+    },
+    {
+      "label": "urban_shopfront_13",
+      "sha256": "be44c539e10ca93dc68d37c3aa7e06cfb1c1f090b47c2b0166fd70c855b729fe",
+      "geometry_signature": "ce35176351ea49ea1beffd0f81d938cff09c91700774655f61c26003ac8d39a6",
+      "type_id": "type_ce35176351ea49ea",
+      "tris": 18162,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.9776612520217896,
+        0.456787109375,
+        0.2556000053882599
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.9776612520217896,
+        0.2556000053882599,
+        0.456787109375
+      ],
+      "source_filename": "urban_shopfront_13.glb",
+      "instances": 3,
+      "hero_13_relative_path": "delivery/city_v13",
+      "archive_member": "huizhou_city_v13/source/buildings/urban_shopfront_13.glb",
+      "provenance_evidence": "delivery/city_v13/manifest.json"
+    }
+  ],
+  "used_source_types": 47,
+  "current_replacement_instances": 126,
+  "excluded_corner_sources": [
+    {
+      "reason": "转角楼",
+      "evidence": "previous catalog: 街角楼57",
+      "source_filename": "historic_facade_57b.glb",
+      "hero_13_relative_path": "delivery/city_updates/v18_20261030/sources/historic_facade_57b.glb"
+    },
+    {
+      "reason": "转角楼",
+      "evidence": "v13 source_descriptors: OLDTOWN_Corner_Shop_10",
+      "source_filename": "urban+building+facade+10.glb",
+      "archive_member": "huizhou_city_v13/source/buildings/urban+building+facade+10.glb"
     }
   ],
   "excluded_previous_sources": [
@@ -139,7 +1432,15 @@
       "reason": "用户指定带此编号的模型禁用"
     }
   ],
-  "excluded_previous_instances": 123,
   "current_glb_s_marker_count": 0,
-  "scope": "当前场景及本次复用来源；历史Git/LFS对象不在普通提交清理范围内。"
+  "scope": "当前场景及本次hero_13复用来源；原city.glb保留的背景建筑不计入复用次数。",
+  "corner_classification_evidence": {
+    "hero_13_documents": [
+      "design/city/source_descriptors.json",
+      "delivery/city_v13/building_registry.csv",
+      "delivery/city_updates/v17_20261029/arcade_asset_pool.json"
+    ],
+    "additional_named_corner_candidates_found": 0,
+    "shared_row_name_note": "M19_Expanded_Corner_Frontage 是整排分组名称，未把其中各独立 Connected_Arcade/Shop 型号视为转角楼。"
+  }
 }

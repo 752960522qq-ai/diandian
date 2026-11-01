@@ -26,6 +26,7 @@ WASD 移动，鼠标观察，右键瞄准，左键射击，Shift 冲刺，Ctrl �
 - `godot/scripts/projectile.gd`：榴弹飞行和范围伤害。
 - `godot/data/`：原 Unity 工程迁移的章节和武器数据。
 - `Docs/Design/`：完整剧情方案。
+- `assets/city/chapter03/`：城市美术资产，47款未标记楼体替换126处，每款最多3处，排除转角楼；[场景、预览与用量说明](assets/city/chapter03/README_城市升级.md)。
 
 原 Unity 版本保留在 Git 历史的 `fb04302` 提交中。中文字体为 Noto Sans SC 400 静态子集，许可见 `godot/assets/OFL.txt`。
 

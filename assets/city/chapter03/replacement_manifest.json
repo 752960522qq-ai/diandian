@@ -4,116 +4,1238 @@
   "original_triangles": 204218,
   "replaced_building_components": 126,
   "old_polygons_removed": 6933,
+  "rules": {
+    "max_instances_per_type": 3,
+    "exclude_corner_buildings": true,
+    "exclude_s_markers": true,
+    "max_axis_scale_ratio": 2.6
+  },
+  "used_source_types": 47,
   "sources": [
     {
-      "path": "/workspace/hero_13/delivery/city_updates/v18_20261030/sources/urban_facade_58.glb",
-      "label": "沿街商住楼58",
-      "tris": 22652,
-      "texture_size": [
-        2048,
-        2048
-      ],
-      "sha256": "cca470cf0cbc2ff26395f109d27e9b6d7dfeb19441a174571e9b407022b3383e",
-      "s_marker_present": false
-    },
-    {
-      "path": "/workspace/hero_13/delivery/city_updates/v18_20261030/sources/historic_building_59.glb",
-      "label": "旧街住宅59",
-      "tris": 23279,
-      "texture_size": [
-        2048,
-        2048
-      ],
-      "sha256": "b95c832434d15b7a715b8bc2b012ca18d8f6ca933abf325ec969216f6fed243b",
-      "s_marker_present": false
-    },
-    {
-      "path": "/workspace/hero_13/delivery/city_updates/v18_20261030/sources/three_story_60.glb",
-      "label": "三层商住楼60",
-      "tris": 21978,
-      "texture_size": [
-        2048,
-        2048
-      ],
-      "sha256": "5cbda342cbe5c34d7b993bc71e86f99055cf3c883a38befaf2769b42e88f9c54",
-      "s_marker_present": false
-    },
-    {
-      "path": "/workspace/hero_13/delivery/city_updates/v18_20261030/sources/historic_facade_57b.glb",
-      "label": "街角楼57",
-      "tris": 22203,
-      "texture_size": [
-        2048,
-        2048
-      ],
-      "sha256": "1f83e4ebbfb93d118cec9f3e1e7cae5d33a3e8b2c5159615b9e3085e97abea58",
-      "s_marker_present": false
-    },
-    {
-      "path": "/workspace/hero_13/delivery/city_updates/v18_20261030/sources/city_building_62.glb",
-      "label": "城市办公楼62",
-      "tris": 22362,
-      "texture_size": [
-        2048,
-        2048
-      ],
-      "sha256": "abb0d53ee7f83cf26cd55e029e6eba8a1c4861510e5241f89444df019baedf6d",
-      "s_marker_present": false
-    },
-    {
-      "path": "/workspace/hero_13/delivery/city_updates/v18_20261030/sources/historic_storefront_61.glb",
-      "label": "低层店面楼61",
-      "tris": 22029,
-      "texture_size": [
-        2048,
-        2048
-      ],
-      "sha256": "67211a00aae4893d1b6b71fbb262a0cdfabd32831946e68664807a242c61399b",
-      "s_marker_present": false
-    },
-    {
-      "path": "/workspace/hero_13/delivery/city_updates/v16_20261029/sources/04-office-building-3d-model-51.glb",
-      "label": "办公楼51",
-      "tris": 22639,
-      "texture_size": [
-        4096,
-        4096
-      ],
-      "sha256": "0c597b7f06286bf3f907caa64609e1b21186a369cd84fd67c985442e0c7f8772",
-      "s_marker_present": false
-    },
-    {
-      "path": "/workspace/hero_13/delivery/city_updates/v16_20261029/sources/03-hotel-building-3d-model-52.glb",
-      "label": "酒店楼52",
-      "tris": 23374,
-      "texture_size": [
-        4096,
-        4096
-      ],
-      "sha256": "7226222a4b6d84d2683c7041073ea7661be3da3863f91536c84adf41b795198b",
-      "s_marker_present": false
-    },
-    {
       "path": "/workspace/hero_13/delivery/city_updates/v16_20261029/sources/01-apartment-building-54.glb",
-      "label": "黄色公寓54",
+      "label": "01-apartment-building-54",
+      "sha256": "560a781538c4c36e76404127f2bb32bbe4baf90a6b37bb4cdd5b87caf8fb8bb5",
+      "geometry_signature": "ea1ac6add267f1f342d295f931cc7190a7ecb9d180f02eff2f85ce19290bde35",
+      "type_id": "type_ea1ac6add267f1f3",
       "tris": 23183,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.4380340576171875,
+        0.982269287109375,
+        0.4573822021484375
+      ],
       "texture_size": [
         4096,
         4096
       ],
-      "sha256": "560a781538c4c36e76404127f2bb32bbe4baf90a6b37bb4cdd5b87caf8fb8bb5",
-      "s_marker_present": false
+      "dims": [
+        0.4380340576171875,
+        0.4573822021484375,
+        0.982269287109375
+      ],
+      "hero_13_relative_path": "delivery/city_updates/v16_20261029/sources/01-apartment-building-54.glb"
     },
     {
       "path": "/workspace/hero_13/delivery/city_updates/v16_20261029/sources/02-pink-high-rise-building-3d-model-53.glb",
-      "label": "粉色公寓53",
+      "label": "02-pink-high-rise-building-3d-model-53",
+      "sha256": "d54c9946edfcd1b1a1119119f5b139f6d1305e51bd0fb0b69e9da7e9500484e9",
+      "geometry_signature": "80129f087926d37e67e6847412efcd11e3f6d8d026a6555bf0c990ffcf66c115",
+      "type_id": "type_80129f087926d37e",
       "tris": 22017,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.4079132378101349,
+        0.98223876953125,
+        0.3556976318359375
+      ],
       "texture_size": [
         4096,
         4096
       ],
-      "sha256": "d54c9946edfcd1b1a1119119f5b139f6d1305e51bd0fb0b69e9da7e9500484e9",
-      "s_marker_present": false
+      "dims": [
+        0.4079132378101349,
+        0.3556976318359375,
+        0.98223876953125
+      ],
+      "hero_13_relative_path": "delivery/city_updates/v16_20261029/sources/02-pink-high-rise-building-3d-model-53.glb"
+    },
+    {
+      "path": "/workspace/hero_13/delivery/city_updates/v16_20261029/sources/03-hotel-building-3d-model-52.glb",
+      "label": "03-hotel-building-3d-model-52",
+      "sha256": "7226222a4b6d84d2683c7041073ea7661be3da3863f91536c84adf41b795198b",
+      "geometry_signature": "af76891d382e1380d10a9b37feb228729b80eb34b01355ea27a3424326ddc9f9",
+      "type_id": "type_af76891d382e1380",
+      "tris": 23374,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.98590087890625,
+        0.49383544921875,
+        0.587799072265625
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.98590087890625,
+        0.587799072265625,
+        0.49383544921875
+      ],
+      "hero_13_relative_path": "delivery/city_updates/v16_20261029/sources/03-hotel-building-3d-model-52.glb"
+    },
+    {
+      "path": "/workspace/hero_13/delivery/city_updates/v16_20261029/sources/04-office-building-3d-model-51.glb",
+      "label": "04-office-building-3d-model-51",
+      "sha256": "0c597b7f06286bf3f907caa64609e1b21186a369cd84fd67c985442e0c7f8772",
+      "geometry_signature": "622b67d4153317632266a4313d92d26dea08b424535aac49e4532827d80ca40a",
+      "type_id": "type_622b67d415331763",
+      "tris": 22639,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.986175537109375,
+        0.722503662109375,
+        0.803253173828125
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.986175537109375,
+        0.803253173828125,
+        0.722503662109375
+      ],
+      "hero_13_relative_path": "delivery/city_updates/v16_20261029/sources/04-office-building-3d-model-51.glb"
+    },
+    {
+      "path": "/workspace/hero_13/delivery/city_updates/v16_20261029/sources/05-apartment-building-50.glb",
+      "label": "05-apartment-building-50",
+      "sha256": "43d67c4995e8d27edd7fe1a339ebfc28fd3f63a31af98bfc7ead56d67150cd06",
+      "geometry_signature": "09edfedc9d5e2576ea37168c08e1d366c8b6a7d127a16019c3542bd170531ebd",
+      "type_id": "type_09edfedc9d5e2576",
+      "tris": 22709,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.5074462890625,
+        0.98199462890625,
+        0.347259521484375
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.5074462890625,
+        0.347259521484375,
+        0.98199462890625
+      ],
+      "hero_13_relative_path": "delivery/city_updates/v16_20261029/sources/05-apartment-building-50.glb"
+    },
+    {
+      "path": "/workspace/hero_13/delivery/city_updates/v17_20261029/sources/01-modern-storefront-building-3d-model-57.glb",
+      "label": "01-modern-storefront-building-3d-model-57",
+      "sha256": "c0e6ccdfeb734b9ec9b886db1d31919d9fdd5e2df154aabcf3571bae0b80422c",
+      "geometry_signature": "6eacc576969bfb124e5a691017829748d336bf91013f3c9f62c69f5fbe314cb6",
+      "type_id": "type_6eacc576969bfb12",
+      "tris": 13012,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.965484619140625,
+        0.446563720703125,
+        0.98590087890625
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.965484619140625,
+        0.98590087890625,
+        0.446563720703125
+      ],
+      "hero_13_relative_path": "delivery/city_updates/v17_20261029/sources/01-modern-storefront-building-3d-model-57.glb"
+    },
+    {
+      "path": "/workspace/hero_13/delivery/city_updates/v17_20261029/sources/02-building-3d-model-56.glb",
+      "label": "02-building-3d-model-56",
+      "sha256": "308ecd2f6189fa2cb128c170e9ccccb9eed1abda3e1e313f4ed8460e74523573",
+      "geometry_signature": "41f8c9f9bf949991f9c87c637340774a323495d6d64ab36660a3c2979ba8d4d9",
+      "type_id": "type_41f8c9f9bf949991",
+      "tris": 13467,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.9814757108688354,
+        0.5626220107078552,
+        0.768157958984375
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.9814757108688354,
+        0.768157958984375,
+        0.5626220107078552
+      ],
+      "hero_13_relative_path": "delivery/city_updates/v17_20261029/sources/02-building-3d-model-56.glb"
+    },
+    {
+      "path": "/workspace/hero_13/delivery/city_updates/v18_20261030/sources/architectural_facade_66.glb",
+      "label": "architectural_facade_66",
+      "sha256": "19dc48ce44bc8b0c95e5504539e27e2c6b50e15280581e1a8ca593fb393f594c",
+      "geometry_signature": "db12ee1b087ac057709da7ea353963427ea124125a52f57e66cb20d06cda1563",
+      "type_id": "type_db12ee1b087ac057",
+      "tris": 22940,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.73089599609375,
+        0.980804443359375,
+        0.535552978515625
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.73089599609375,
+        0.535552978515625,
+        0.980804443359375
+      ],
+      "hero_13_relative_path": "delivery/city_updates/v18_20261030/sources/architectural_facade_66.glb"
+    },
+    {
+      "path": "/workspace/hero_13/delivery/city_updates/v18_20261030/sources/city_building_62.glb",
+      "label": "city_building_62",
+      "sha256": "abb0d53ee7f83cf26cd55e029e6eba8a1c4861510e5241f89444df019baedf6d",
+      "geometry_signature": "043dc244ffd6407f4c0a0503e5e49fddeaed81e643d8490ab545b3ead6bacde4",
+      "type_id": "type_043dc244ffd6407f",
+      "tris": 22362,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.9794312119483948,
+        0.4738006591796875,
+        0.44276440143585205
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.9794312119483948,
+        0.44276440143585205,
+        0.4738006591796875
+      ],
+      "hero_13_relative_path": "delivery/city_updates/v18_20261030/sources/city_building_62.glb"
+    },
+    {
+      "path": "/workspace/hero_13/delivery/city_updates/v18_20261030/sources/historic_building_59.glb",
+      "label": "historic_building_59",
+      "sha256": "b95c832434d15b7a715b8bc2b012ca18d8f6ca933abf325ec969216f6fed243b",
+      "geometry_signature": "6f075581d2d7e055c318c0a0ef1fae0f62a5574acf0e0fd9ea0a5938a75b4844",
+      "type_id": "type_6f075581d2d7e055",
+      "tris": 23279,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.7725830078125,
+        0.978515625,
+        0.57568359375
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.7725830078125,
+        0.57568359375,
+        0.978515625
+      ],
+      "hero_13_relative_path": "delivery/city_updates/v18_20261030/sources/historic_building_59.glb"
+    },
+    {
+      "path": "/workspace/hero_13/delivery/city_updates/v18_20261030/sources/historic_storefront_61.glb",
+      "label": "historic_storefront_61",
+      "sha256": "67211a00aae4893d1b6b71fbb262a0cdfabd32831946e68664807a242c61399b",
+      "geometry_signature": "920b745dda391fd4609fffaf632bd869b51fe9b0106fbe2addae8f08e74450da",
+      "type_id": "type_920b745dda391fd4",
+      "tris": 22029,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.9772033095359802,
+        0.5385741591453552,
+        0.7276611328125
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.9772033095359802,
+        0.7276611328125,
+        0.5385741591453552
+      ],
+      "hero_13_relative_path": "delivery/city_updates/v18_20261030/sources/historic_storefront_61.glb"
+    },
+    {
+      "path": "/workspace/hero_13/delivery/city_updates/v18_20261030/sources/police_headquarters_65.glb",
+      "label": "police_headquarters_65",
+      "sha256": "6d74b7e8d225d09ff9e4a347db8a7fc7364a1db3b12ff5d2f2925bb7a0a0970a",
+      "geometry_signature": "036397834983f3276b4fcccd8de6076e4c116f7dd7dde4ffcf8e1ba94c9ed968",
+      "type_id": "type_036397834983f327",
+      "tris": 21123,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.978607177734375,
+        0.3854065537452698,
+        0.60821533203125
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.978607177734375,
+        0.60821533203125,
+        0.3854065537452698
+      ],
+      "hero_13_relative_path": "delivery/city_updates/v18_20261030/sources/police_headquarters_65.glb"
+    },
+    {
+      "path": "/workspace/hero_13/delivery/city_updates/v18_20261030/sources/shopping_mall_64.glb",
+      "label": "shopping_mall_64",
+      "sha256": "30ed456bd59d99cda708616fc059f10c7f7fc08e2aa8d2c33ce690283d5ca246",
+      "geometry_signature": "896d28bd7d27afc99ef7464508ad7dec6cc4688671b795e03a4a62e938766d56",
+      "type_id": "type_896d28bd7d27afc9",
+      "tris": 44824,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.98065185546875,
+        0.3545379638671875,
+        0.67059326171875
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.98065185546875,
+        0.67059326171875,
+        0.3545379638671875
+      ],
+      "hero_13_relative_path": "delivery/city_updates/v18_20261030/sources/shopping_mall_64.glb"
+    },
+    {
+      "path": "/workspace/hero_13/delivery/city_updates/v18_20261030/sources/three_story_60.glb",
+      "label": "three_story_60",
+      "sha256": "5cbda342cbe5c34d7b993bc71e86f99055cf3c883a38befaf2769b42e88f9c54",
+      "geometry_signature": "6457faa6fe141fdfb879bd1dbe5b352251606574534298df28e599ebdf356d58",
+      "type_id": "type_6457faa6fe141fdf",
+      "tris": 21978,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.98095703125,
+        0.4904937744140625,
+        0.42880260944366455
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.98095703125,
+        0.42880260944366455,
+        0.4904937744140625
+      ],
+      "hero_13_relative_path": "delivery/city_updates/v18_20261030/sources/three_story_60.glb"
+    },
+    {
+      "path": "/workspace/hero_13/delivery/city_updates/v18_20261030/sources/urban_building_63.glb",
+      "label": "urban_building_63",
+      "sha256": "30ecf753600a53c397bd0c3e1f674c825952cdd503e4be94552b8dd34dd6d588",
+      "geometry_signature": "fa83366dc657755d060d45bdedc03a98cd6d5d4389666d1d068c849601653984",
+      "type_id": "type_fa83366dc657755d",
+      "tris": 21219,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.9783935546875,
+        0.4487152099609375,
+        0.554290771484375
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.9783935546875,
+        0.554290771484375,
+        0.4487152099609375
+      ],
+      "hero_13_relative_path": "delivery/city_updates/v18_20261030/sources/urban_building_63.glb"
+    },
+    {
+      "path": "/workspace/hero_13/delivery/city_updates/v18_20261030/sources/urban_facade_58.glb",
+      "label": "urban_facade_58",
+      "sha256": "cca470cf0cbc2ff26395f109d27e9b6d7dfeb19441a174571e9b407022b3383e",
+      "geometry_signature": "71289f837a3f853bede62b8a45a5852ce77ca0c52b9de0443edad35cf4c206ac",
+      "type_id": "type_71289f837a3f853b",
+      "tris": 22652,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.98468017578125,
+        0.44647216796875,
+        0.4403533935546875
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.98468017578125,
+        0.4403533935546875,
+        0.44647216796875
+      ],
+      "hero_13_relative_path": "delivery/city_updates/v18_20261030/sources/urban_facade_58.glb"
+    },
+    {
+      "path": "/workspace/work/city_cap3/sources/apartment+building+11.glb",
+      "label": "apartment+building+11",
+      "sha256": "4d95e8ee0a606775e16bf90a1ee4c42016d5614a52b05b7f747917bdeda77287",
+      "geometry_signature": "6a26ebf75e642daf2ec21d86cc76f7821d56af2f42f83bc5e040e1920e7a598c",
+      "type_id": "type_6a26ebf75e642daf",
+      "tris": 41858,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.9849854707717896,
+        0.3153839111328125,
+        0.2750548720359802
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.9849854707717896,
+        0.2750548720359802,
+        0.3153839111328125
+      ],
+      "hero_13_relative_path": "huizhou_city_v13/source/buildings/apartment+building+11.glb"
+    },
+    {
+      "path": "/workspace/work/city_cap3/sources/apartment+building+2.glb",
+      "label": "apartment+building+2",
+      "sha256": "8927541ff0b267741f85b54ff1e71d67ac8ffe25e40f3233f663d841f77daf6f",
+      "geometry_signature": "4e68940a5b81c1d54ddcd1b336bea1e9391dc648fe80dbed434803ce2b81e896",
+      "type_id": "type_4e68940a5b81c1d5",
+      "tris": 22295,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.7898255586624146,
+        0.97894287109375,
+        0.5269775986671448
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.7898255586624146,
+        0.5269775986671448,
+        0.97894287109375
+      ],
+      "hero_13_relative_path": "huizhou_city_v13/source/buildings/apartment+building+2.glb"
+    },
+    {
+      "path": "/workspace/work/city_cap3/sources/apartment+building+3.glb",
+      "label": "apartment+building+3",
+      "sha256": "d6b8b9dda1aea0c45b2125d5e0b4cae58fb9fd37ad489558607abc236ac233ea",
+      "geometry_signature": "8c53902c10b5942ddf1a939453c9cc475604e88df5edfb1546d08e0fb137d90d",
+      "type_id": "type_8c53902c10b5942d",
+      "tris": 22788,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.7965699434280396,
+        0.979248046875,
+        0.4289703965187073
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.7965699434280396,
+        0.4289703965187073,
+        0.979248046875
+      ],
+      "hero_13_relative_path": "huizhou_city_v13/source/buildings/apartment+building+3.glb"
+    },
+    {
+      "path": "/workspace/work/city_cap3/sources/apartment_14.glb",
+      "label": "apartment_14",
+      "sha256": "24e2de2f232f57274d31ac4d9fe73a261f94b7cc59a634610709e96e46fa1a63",
+      "geometry_signature": "0f46227c1de50ee3c961939e9e84bc3f19257b28bc371cf7be707b2bcb1a61fc",
+      "type_id": "type_0f46227c1de50ee3",
+      "tris": 14194,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.7888489365577698,
+        0.977264404296875,
+        0.65655517578125
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.7888489365577698,
+        0.65655517578125,
+        0.977264404296875
+      ],
+      "hero_13_relative_path": "huizhou_city_v13/source/buildings/apartment_14.glb"
+    },
+    {
+      "path": "/workspace/work/city_cap3/sources/apartment_building_18.glb",
+      "label": "apartment_building_18",
+      "sha256": "8ff88fa72d20145fe2ced17d6915ffbf1574a114d03a64182a85fba3eb4c24ef",
+      "geometry_signature": "0a37abfa37a48461db7a92604a4e5d19b3d7fea1abcec7926a100481ed68786c",
+      "type_id": "type_0a37abfa37a48461",
+      "tris": 10373,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.7717589735984802,
+        0.973175048828125,
+        0.683074951171875
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.7717589735984802,
+        0.683074951171875,
+        0.973175048828125
+      ],
+      "hero_13_relative_path": "huizhou_city_v13/source/buildings/apartment_building_18.glb"
+    },
+    {
+      "path": "/workspace/work/city_cap3/sources/cbd_office_27.glb",
+      "label": "cbd_office_27",
+      "sha256": "b64bd367ec174c12e8525a0d16b58c2c00b19f0719e2f4625fd22f8072b3e6c9",
+      "geometry_signature": "2c71713157c3a7ee472077f624350fc920ccf990a0ce8e861ed1c697648afba4",
+      "type_id": "type_2c71713157c3a7ee",
+      "tris": 24342,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.81298828125,
+        0.98260498046875,
+        0.6739501953125
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.81298828125,
+        0.6739501953125,
+        0.98260498046875
+      ],
+      "hero_13_relative_path": "huizhou_city_v13/source/buildings/cbd_office_27.glb"
+    },
+    {
+      "path": "/workspace/work/city_cap3/sources/cbd_office_28.glb",
+      "label": "cbd_office_28",
+      "sha256": "d5f1aceaf7aa7d22da1e5fb9a7641980e0914bf978731a1bf872ab6794866490",
+      "geometry_signature": "75db267c762848ddfe36d42da56ca585850c644c9cac263405f1c80a9ba8c144",
+      "type_id": "type_75db267c762848dd",
+      "tris": 26914,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.98638916015625,
+        0.58929443359375,
+        0.5357362031936646
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.98638916015625,
+        0.5357362031936646,
+        0.58929443359375
+      ],
+      "hero_13_relative_path": "huizhou_city_v13/source/buildings/cbd_office_28.glb"
+    },
+    {
+      "path": "/workspace/work/city_cap3/sources/cbd_office_29.glb",
+      "label": "cbd_office_29",
+      "sha256": "4a0857acfb7774add4b1f870f65f5bb47b935b30ca7b5e4f581f90094917f306",
+      "geometry_signature": "4123ef4d2616ee05427dde7f59bad97d6868524b25d524261b000e08ec1793e3",
+      "type_id": "type_4123ef4d2616ee05",
+      "tris": 26108,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.98406982421875,
+        0.4777984321117401,
+        0.4241485595703125
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.98406982421875,
+        0.4241485595703125,
+        0.4777984321117401
+      ],
+      "hero_13_relative_path": "huizhou_city_v13/source/buildings/cbd_office_29.glb"
+    },
+    {
+      "path": "/workspace/work/city_cap3/sources/cbd_office_30.glb",
+      "label": "cbd_office_30",
+      "sha256": "eee8fa2e5a1d5880520c9e34b059efcae549243417ead2adbadd6bd6223e6251",
+      "geometry_signature": "dd6107c820e4cbdb927214a0e9ae940e52bff63b135a9a6da30458b09df4ebe1",
+      "type_id": "type_dd6107c820e4cbdb",
+      "tris": 27685,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.609771728515625,
+        0.98077392578125,
+        0.573974609375
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.609771728515625,
+        0.573974609375,
+        0.98077392578125
+      ],
+      "hero_13_relative_path": "huizhou_city_v13/source/buildings/cbd_office_30.glb"
+    },
+    {
+      "path": "/workspace/work/city_cap3/sources/city+street+building+9.glb",
+      "label": "city+street+building+9",
+      "sha256": "1bfbbde6e6d8c562f4ffd7a7e5fd768aa2227e43003fc2d7d39e6fce3d326a0b",
+      "geometry_signature": "deca777b81fd5a7a9d1c64596be927b94954c3ddb46b625acfeaf6f4ce1b359c",
+      "type_id": "type_deca777b81fd5a7a",
+      "tris": 41559,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.9848939180374146,
+        0.335357666015625,
+        0.3069000244140625
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.9848939180374146,
+        0.3069000244140625,
+        0.335357666015625
+      ],
+      "hero_13_relative_path": "huizhou_city_v13/source/buildings/city+street+building+9.glb"
+    },
+    {
+      "path": "/workspace/work/city_cap3/sources/concrete_apartment_28.glb",
+      "label": "concrete_apartment_28",
+      "sha256": "65790d3d04a471493571064aeeb35206b4bc87728e0782ffec2be358e539a61c",
+      "geometry_signature": "9b4f83e301f2d3f18aae3b6da4b4af61634acf6d536ec66495626c078f1610ac",
+      "type_id": "type_9b4f83e301f2d3f1",
+      "tris": 9130,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.979827880859375,
+        0.8787842392921448,
+        0.7277833223342896
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.979827880859375,
+        0.7277833223342896,
+        0.8787842392921448
+      ],
+      "hero_13_relative_path": "huizhou_city_v13/source/buildings/concrete_apartment_28.glb"
+    },
+    {
+      "path": "/workspace/work/city_cap3/sources/glass_office_22.glb",
+      "label": "glass_office_22",
+      "sha256": "94a54b203c8ce2d3404db746b4a7168bdf602488a647c8214ee58d98dc2c2037",
+      "geometry_signature": "4b7413a5942dfa828f9522007533b2c28dec51ba8f6a0ae111f4959e349fc5bf",
+      "type_id": "type_4b7413a5942dfa82",
+      "tris": 21923,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.456390380859375,
+        0.979583740234375,
+        0.274658203125
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.456390380859375,
+        0.274658203125,
+        0.979583740234375
+      ],
+      "hero_13_relative_path": "huizhou_city_v13/source/buildings/glass_office_22.glb"
+    },
+    {
+      "path": "/workspace/work/city_cap3/sources/glass_skyscraper_23.glb",
+      "label": "glass_skyscraper_23",
+      "sha256": "8008b0830b25e9a455a93f1e4add247d144a903fdfd464f1758cda732f3cada8",
+      "geometry_signature": "1842ecfaed1c65cf8955b552057f5797c8b0aade09e532ba4fda712705473841",
+      "type_id": "type_1842ecfaed1c65cf",
+      "tris": 23202,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.50421142578125,
+        0.975372314453125,
+        0.2819367051124573
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.50421142578125,
+        0.2819367051124573,
+        0.975372314453125
+      ],
+      "hero_13_relative_path": "huizhou_city_v13/source/buildings/glass_skyscraper_23.glb"
+    },
+    {
+      "path": "/workspace/work/city_cap3/sources/high_rise_25.glb",
+      "label": "high_rise_25",
+      "sha256": "baf62b812847281a7e6d848a48090344a52b8f16f92bae3e6f5d5ac4a3d9565c",
+      "geometry_signature": "18944e8bb7b8cc270a49fab00edee179ac679795bf7eeabf796eb3297bacf22f",
+      "type_id": "type_18944e8bb7b8cc27",
+      "tris": 119479,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.4318389892578125,
+        0.978912353515625,
+        0.3704681396484375
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.4318389892578125,
+        0.3704681396484375,
+        0.978912353515625
+      ],
+      "hero_13_relative_path": "huizhou_city_v13/source/buildings/high_rise_25.glb"
+    },
+    {
+      "path": "/workspace/work/city_cap3/sources/historic_building_facade_15.glb",
+      "label": "historic_building_facade_15",
+      "sha256": "0e77902424843daaa34673b46affb4f91f624ffb8f1f024433b8d8d6f26705ac",
+      "geometry_signature": "9115b0927d690c96a5e2933bfa7a384bd2f6a25ad129a1378f4e9343140d9977",
+      "type_id": "type_9115b0927d690c96",
+      "tris": 20217,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.9801331162452698,
+        0.481781005859375,
+        0.4924164116382599
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.9801331162452698,
+        0.4924164116382599,
+        0.481781005859375
+      ],
+      "hero_13_relative_path": "huizhou_city_v13/source/buildings/historic_building_facade_15.glb"
+    },
+    {
+      "path": "/workspace/work/city_cap3/sources/modern_glass_2.glb",
+      "label": "modern_glass_2",
+      "sha256": "e103bef8b31a72029811ff6446e161af5eb165a52c66757dd93f014db89f113e",
+      "geometry_signature": "208ddf75cd4ffa4261d37dff83002f87e8c84fed725b40a2092dbfb69a51db91",
+      "type_id": "type_208ddf75cd4ffa42",
+      "tris": 53119,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.5736389756202698,
+        0.979156494140625,
+        0.3340606689453125
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.5736389756202698,
+        0.3340606689453125,
+        0.979156494140625
+      ],
+      "hero_13_relative_path": "huizhou_city_v13/source/buildings/modern_glass_2.glb"
+    },
+    {
+      "path": "/workspace/work/city_cap3/sources/modern_glass_24.glb",
+      "label": "modern_glass_24",
+      "sha256": "fdbcdb57f18d7e7950ff8a0ad167ef853b84e053d798466e0c02b94be6debbd9",
+      "geometry_signature": "04d2029b2aa69a0150444ad7e086aa96694c2a537cdda02fae73e2af245fcd98",
+      "type_id": "type_04d2029b2aa69a01",
+      "tris": 20157,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.4888763427734375,
+        0.977569580078125,
+        0.2811737060546875
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.4888763427734375,
+        0.2811737060546875,
+        0.977569580078125
+      ],
+      "hero_13_relative_path": "huizhou_city_v13/source/buildings/modern_glass_24.glb"
+    },
+    {
+      "path": "/workspace/work/city_cap3/sources/modern_glass_office_21.glb",
+      "label": "modern_glass_office_21",
+      "sha256": "ac94ebd49315efbec91902b8e99973b1de599c9232efba4791b468914a356c8a",
+      "geometry_signature": "171cf144fa080bf4ce8848678768c5bda9449f62842e64fa4c9b0d60996bbec4",
+      "type_id": "type_171cf144fa080bf4",
+      "tris": 20203,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.439697265625,
+        0.978546142578125,
+        0.2980346977710724
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.439697265625,
+        0.2980346977710724,
+        0.978546142578125
+      ],
+      "hero_13_relative_path": "huizhou_city_v13/source/buildings/modern_glass_office_21.glb"
+    },
+    {
+      "path": "/workspace/work/city_cap3/sources/modern_office_complex_26.glb",
+      "label": "modern_office_complex_26",
+      "sha256": "85557d35e23ab05af5595f0bde585c359c358bfc83e315ca208597fbee34cb58",
+      "geometry_signature": "b01ea56a22902272311f8693b1179997e164646918a12c7a40aba012c266eb91",
+      "type_id": "type_b01ea56a22902272",
+      "tris": 109807,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.98272705078125,
+        0.61376953125,
+        0.7768555879592896
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.98272705078125,
+        0.7768555879592896,
+        0.61376953125
+      ],
+      "hero_13_relative_path": "huizhou_city_v13/source/buildings/modern_office_complex_26.glb"
+    },
+    {
+      "path": "/workspace/work/city_cap3/sources/office_building_1.glb",
+      "label": "office_building_1",
+      "sha256": "d8e80b756b71e376b4faa46a5abdb69b2d00bf95af28ebeea22b0d6a38353ca7",
+      "geometry_signature": "4eda9285b8d1cbc52f29ab01b7ab483660b5499565a71db1375dd03413e2e0f7",
+      "type_id": "type_4eda9285b8d1cbc5",
+      "tris": 25960,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.8437501192092896,
+        0.980377197265625,
+        0.8539735078811646
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.8437501192092896,
+        0.8539735078811646,
+        0.980377197265625
+      ],
+      "hero_13_relative_path": "huizhou_city_v13/source/buildings/office_building_1.glb"
+    },
+    {
+      "path": "/workspace/work/city_cap3/sources/office_building_26.glb",
+      "label": "office_building_26",
+      "sha256": "f80b6178bf7758b01c682fd2576ab06e3ef17624eceb153a29146e4e107789e0",
+      "geometry_signature": "01a9b46b36b51e753fc6b694af72dac64371f034618b710c81603c1671b8d73e",
+      "type_id": "type_01a9b46b36b51e75",
+      "tris": 118372,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.53118896484375,
+        0.98126220703125,
+        0.3769072890281677
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.53118896484375,
+        0.3769072890281677,
+        0.98126220703125
+      ],
+      "hero_13_relative_path": "huizhou_city_v13/source/buildings/office_building_26.glb"
+    },
+    {
+      "path": "/workspace/work/city_cap3/sources/old+building+facade+6.glb",
+      "label": "old+building+facade+6",
+      "sha256": "9a2d3d290754ffc18c0aec3706af16525ec5fb5472ec553e83482968649edf0a",
+      "geometry_signature": "840bdd77e7832cd8d30664ae1a71fe941d27281ccab9a9b6e85f8c5396c0f6b4",
+      "type_id": "type_840bdd77e7832cd8",
+      "tris": 13198,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.9783631563186646,
+        0.872833251953125,
+        0.705718994140625
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.9783631563186646,
+        0.705718994140625,
+        0.872833251953125
+      ],
+      "hero_13_relative_path": "huizhou_city_v13/source/buildings/old+building+facade+6.glb"
+    },
+    {
+      "path": "/workspace/work/city_cap3/sources/old+urban+building+8.glb",
+      "label": "old+urban+building+8",
+      "sha256": "77aeeed33433a7498d233d7ccd91200a7bc43f1c9e5416feab0bc9e0ed179124",
+      "geometry_signature": "747ddbad8c8234306e64b258b46ce7f62f436c9759055e2b3eb019d9f5a547d3",
+      "type_id": "type_747ddbad8c823430",
+      "tris": 41189,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.9788208603858948,
+        0.639068603515625,
+        0.4932709336280823
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.9788208603858948,
+        0.4932709336280823,
+        0.639068603515625
+      ],
+      "hero_13_relative_path": "huizhou_city_v13/source/buildings/old+urban+building+8.glb"
+    },
+    {
+      "path": "/workspace/work/city_cap3/sources/old_apartment_13.glb",
+      "label": "old_apartment_13",
+      "sha256": "58d904b63c64a0907184cb9fe0e97262cd86ea578529b926911b7df7dbeeeb4f",
+      "geometry_signature": "3f5c6c207c4784829a0ad6f2318d06cdcc7a53cf35b7434e0013b0ffa1301a7b",
+      "type_id": "type_3f5c6c207c478482",
+      "tris": 14463,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.9794921875,
+        0.9672241806983948,
+        0.618255615234375
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.9794921875,
+        0.618255615234375,
+        0.9672241806983948
+      ],
+      "hero_13_relative_path": "huizhou_city_v13/source/buildings/old_apartment_13.glb"
+    },
+    {
+      "path": "/workspace/work/city_cap3/sources/old_building_17.glb",
+      "label": "old_building_17",
+      "sha256": "a213a01d97a3b2dc856b7dbd18f8b585dbed5cb325795cc88ffb477b38f26403",
+      "geometry_signature": "2b6947f2070ec4ba438bb22a2f7c97a3fd362634e401581457d4ace8987cfe33",
+      "type_id": "type_2b6947f2070ec4ba",
+      "tris": 10526,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.56365966796875,
+        0.975799560546875,
+        0.4652099609375
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.56365966796875,
+        0.4652099609375,
+        0.975799560546875
+      ],
+      "hero_13_relative_path": "huizhou_city_v13/source/buildings/old_building_17.glb"
+    },
+    {
+      "path": "/workspace/work/city_cap3/sources/old_italian_townhouse_19.glb",
+      "label": "old_italian_townhouse_19",
+      "sha256": "127ce06c392370336f018048851245d24437ef3ce264779945824159a6d4cdc9",
+      "geometry_signature": "2eeca2cc15c1b21014263116a52eda10bab6735e17b6c0ceec4a991e7610c492",
+      "type_id": "type_2eeca2cc15c1b210",
+      "tris": 10633,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.6048280000686646,
+        0.982269287109375,
+        0.5932007431983948
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.6048280000686646,
+        0.5932007431983948,
+        0.982269287109375
+      ],
+      "hero_13_relative_path": "huizhou_city_v13/source/buildings/old_italian_townhouse_19.glb"
+    },
+    {
+      "path": "/workspace/work/city_cap3/sources/rusty_apartment_27.glb",
+      "label": "rusty_apartment_27",
+      "sha256": "af64f0de1e49c42bb0f987e3f213bb289149b7b4fa722711d9edb23441b80173",
+      "geometry_signature": "8e93263c8ccce1750977ca47c77aa47e0abf6e908f2e53150bf0fee0e1a6a556",
+      "type_id": "type_8e93263c8ccce175",
+      "tris": 10502,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.7157287001609802,
+        0.976165771484375,
+        0.627471923828125
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.7157287001609802,
+        0.627471923828125,
+        0.976165771484375
+      ],
+      "hero_13_relative_path": "huizhou_city_v13/source/buildings/rusty_apartment_27.glb"
+    },
+    {
+      "path": "/workspace/work/city_cap3/sources/skyscraper_26.glb",
+      "label": "skyscraper_26",
+      "sha256": "51060e3d283b32b37e6bb997b817146698b6441f9bad8ab1de089673b66ff1ac",
+      "geometry_signature": "68a2c443e6eb8ba0e04b30af9506c9509abe405721b70b41d24aef29961158e8",
+      "type_id": "type_68a2c443e6eb8ba0",
+      "tris": 113784,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.578033447265625,
+        0.98077392578125,
+        0.441253662109375
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.578033447265625,
+        0.441253662109375,
+        0.98077392578125
+      ],
+      "hero_13_relative_path": "huizhou_city_v13/source/buildings/skyscraper_26.glb"
+    },
+    {
+      "path": "/workspace/work/city_cap3/sources/storefront+building+7.glb",
+      "label": "storefront+building+7",
+      "sha256": "8a93d1ff3e846eecbced409a4ac7bd9d12490f3647434d9848dedd101b1a1bc6",
+      "geometry_signature": "fdc761ff194e7eaefa679fb9040212d46d3c96a89546967d2e4185785969a82a",
+      "type_id": "type_fdc761ff194e7eae",
+      "tris": 34164,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.9867249727249146,
+        0.3182830810546875,
+        0.2752838730812073
+      ],
+      "texture_size": [
+        4096,
+        4096
+      ],
+      "dims": [
+        0.9867249727249146,
+        0.2752838730812073,
+        0.3182830810546875
+      ],
+      "hero_13_relative_path": "huizhou_city_v13/source/buildings/storefront+building+7.glb"
+    },
+    {
+      "path": "/workspace/work/city_cap3/sources/storefront_12.glb",
+      "label": "storefront_12",
+      "sha256": "38fe4f8c6a717235b2886cd09c700140889362a28ee8899384604b4e0d75dc63",
+      "geometry_signature": "965af900ea16554d0e45b3dd073e1b7a4180c42b4d65029b441d617ffe34e855",
+      "type_id": "type_965af900ea16554d",
+      "tris": 18373,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.9817811250686646,
+        0.4611968994140625,
+        0.25555428862571716
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.9817811250686646,
+        0.25555428862571716,
+        0.4611968994140625
+      ],
+      "hero_13_relative_path": "huizhou_city_v13/source/buildings/storefront_12.glb"
+    },
+    {
+      "path": "/workspace/work/city_cap3/sources/urban+building+facade+5.glb",
+      "label": "urban+building+facade+5",
+      "sha256": "6e0ab44dc26b0930ce435f291b9deb21f0de6bde5953a2c197e08109dcfe2346",
+      "geometry_signature": "0e833f862ba50110a6afc41397fc7c41511163260dc94ab76c7bec8a885570da",
+      "type_id": "type_0e833f862ba50110",
+      "tris": 12838,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.7797852754592896,
+        0.978485107421875,
+        0.7208863496780396
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.7797852754592896,
+        0.7208863496780396,
+        0.978485107421875
+      ],
+      "hero_13_relative_path": "huizhou_city_v13/source/buildings/urban+building+facade+5.glb"
+    },
+    {
+      "path": "/workspace/work/city_cap3/sources/urban_building_facade_20.glb",
+      "label": "urban_building_facade_20",
+      "sha256": "038e8796c6667f4b610be47e0c381691ecaba8625c30acada7de2b8bedd3d634",
+      "geometry_signature": "bf1b7a0b15acb833f21358640d65a6e73754402eeda059f31acb666b57071c9e",
+      "type_id": "type_bf1b7a0b15acb833",
+      "tris": 10527,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.56719970703125,
+        0.9769287109375,
+        0.5020142793655396
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.56719970703125,
+        0.5020142793655396,
+        0.9769287109375
+      ],
+      "hero_13_relative_path": "huizhou_city_v13/source/buildings/urban_building_facade_20.glb"
+    },
+    {
+      "path": "/workspace/work/city_cap3/sources/urban_shopfront_13.glb",
+      "label": "urban_shopfront_13",
+      "sha256": "be44c539e10ca93dc68d37c3aa7e06cfb1c1f090b47c2b0166fd70c855b729fe",
+      "geometry_signature": "ce35176351ea49ea1beffd0f81d938cff09c91700774655f61c26003ac8d39a6",
+      "type_id": "type_ce35176351ea49ea",
+      "tris": 18162,
+      "s_marker_present": false,
+      "corner": false,
+      "raw_gltf_dims": [
+        0.9776612520217896,
+        0.456787109375,
+        0.2556000053882599
+      ],
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "dims": [
+        0.9776612520217896,
+        0.2556000053882599,
+        0.456787109375
+      ],
+      "hero_13_relative_path": "huizhou_city_v13/source/buildings/urban_shopfront_13.glb"
     }
   ],
   "replacements": [
@@ -165,8 +1287,11 @@
         ]
       ],
       "replacement_id": 1,
-      "source_index": 1,
-      "source_label": "旧街住宅59"
+      "source_index": 20,
+      "source_label": "apartment_building_18",
+      "model_type_id": "type_0a37abfa37a48461",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.1970211228673433
     },
     {
       "object": "Object_6203",
@@ -216,8 +1341,11 @@
         ]
       ],
       "replacement_id": 2,
-      "source_index": 3,
-      "source_label": "街角楼57"
+      "source_index": 17,
+      "source_label": "apartment+building+2",
+      "model_type_id": "type_4e68940a5b81c1d5",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.334416412174645
     },
     {
       "object": "Object_5543",
@@ -267,8 +1395,11 @@
         ]
       ],
       "replacement_id": 3,
-      "source_index": 1,
-      "source_label": "旧街住宅59"
+      "source_index": 46,
+      "source_label": "urban+building+facade+5",
+      "model_type_id": "type_0e833f862ba50110",
+      "source_turn_rad": 4.71238898038469,
+      "shape_distortion": 1.0826218426287204
     },
     {
       "object": "Object_5387",
@@ -318,8 +1449,11 @@
         ]
       ],
       "replacement_id": 4,
-      "source_index": 9,
-      "source_label": "粉色公寓53"
+      "source_index": 31,
+      "source_label": "modern_glass_2",
+      "model_type_id": "type_208ddf75cd4ffa42",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.741143817604147
     },
     {
       "object": "Object_6524",
@@ -369,8 +1503,11 @@
         ]
       ],
       "replacement_id": 5,
-      "source_index": 4,
-      "source_label": "城市办公楼62"
+      "source_index": 30,
+      "source_label": "historic_building_facade_15",
+      "model_type_id": "type_9115b0927d690c96",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.0473729882372926
     },
     {
       "object": "Object_5075",
@@ -420,8 +1557,11 @@
         ]
       ],
       "replacement_id": 6,
-      "source_index": 8,
-      "source_label": "黄色公寓54"
+      "source_index": 41,
+      "source_label": "old_italian_townhouse_19",
+      "model_type_id": "type_2eeca2cc15c1b210",
+      "source_turn_rad": 4.71238898038469,
+      "shape_distortion": 1.3594673062561902
     },
     {
       "object": "Object_5993",
@@ -471,8 +1611,11 @@
         ]
       ],
       "replacement_id": 7,
-      "source_index": 8,
-      "source_label": "黄色公寓54"
+      "source_index": 18,
+      "source_label": "apartment+building+3",
+      "model_type_id": "type_8c53902c10b5942d",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.1219207220330842
     },
     {
       "object": "Object_6290",
@@ -522,8 +1665,11 @@
         ]
       ],
       "replacement_id": 8,
-      "source_index": 3,
-      "source_label": "街角楼57"
+      "source_index": 40,
+      "source_label": "old_building_17",
+      "model_type_id": "type_2b6947f2070ec4ba",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.7068690621166882
     },
     {
       "object": "Object_6458",
@@ -573,8 +1719,11 @@
         ]
       ],
       "replacement_id": 9,
-      "source_index": 3,
-      "source_label": "街角楼57"
+      "source_index": 40,
+      "source_label": "old_building_17",
+      "model_type_id": "type_2b6947f2070ec4ba",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.7016543328257694
     },
     {
       "object": "Object_4769",
@@ -624,8 +1773,11 @@
         ]
       ],
       "replacement_id": 10,
-      "source_index": 1,
-      "source_label": "旧街住宅59"
+      "source_index": 35,
+      "source_label": "office_building_1",
+      "model_type_id": "type_4eda9285b8d1cbc5",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.2094934255143581
     },
     {
       "object": "Object_2900",
@@ -675,8 +1827,11 @@
         ]
       ],
       "replacement_id": 11,
-      "source_index": 2,
-      "source_label": "三层商住楼60"
+      "source_index": 8,
+      "source_label": "city_building_62",
+      "model_type_id": "type_043dc244ffd6407f",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.197332599164365
     },
     {
       "object": "Object_3245",
@@ -726,8 +1881,11 @@
         ]
       ],
       "replacement_id": 12,
-      "source_index": 2,
-      "source_label": "三层商住楼60"
+      "source_index": 15,
+      "source_label": "urban_facade_58",
+      "model_type_id": "type_71289f837a3f853b",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.134448410398817
     },
     {
       "object": "Object_3404",
@@ -777,8 +1935,11 @@
         ]
       ],
       "replacement_id": 13,
-      "source_index": 2,
-      "source_label": "三层商住楼60"
+      "source_index": 15,
+      "source_label": "urban_facade_58",
+      "model_type_id": "type_71289f837a3f853b",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.1344471972066985
     },
     {
       "object": "Object_5804",
@@ -828,8 +1989,11 @@
         ]
       ],
       "replacement_id": 14,
-      "source_index": 3,
-      "source_label": "街角楼57"
+      "source_index": 45,
+      "source_label": "storefront_12",
+      "model_type_id": "type_965af900ea16554d",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.706147886610919
     },
     {
       "object": "Object_4958",
@@ -879,8 +2043,11 @@
         ]
       ],
       "replacement_id": 15,
-      "source_index": 9,
-      "source_label": "粉色公寓53"
+      "source_index": 33,
+      "source_label": "modern_glass_office_21",
+      "model_type_id": "type_171cf144fa080bf4",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.7095625134990116
     },
     {
       "object": "Object_6305",
@@ -930,8 +2097,11 @@
         ]
       ],
       "replacement_id": 16,
-      "source_index": 9,
-      "source_label": "粉色公寓53"
+      "source_index": 28,
+      "source_label": "glass_skyscraper_23",
+      "model_type_id": "type_1842ecfaed1c65cf",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.4859875382472822
     },
     {
       "object": "Object_5885",
@@ -981,8 +2151,11 @@
         ]
       ],
       "replacement_id": 17,
-      "source_index": 8,
-      "source_label": "黄色公寓54"
+      "source_index": 43,
+      "source_label": "skyscraper_26",
+      "model_type_id": "type_68a2c443e6eb8ba0",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.4887452396197411
     },
     {
       "object": "Object_5285",
@@ -1032,8 +2205,11 @@
         ]
       ],
       "replacement_id": 18,
-      "source_index": 1,
-      "source_label": "旧街住宅59"
+      "source_index": 21,
+      "source_label": "cbd_office_27",
+      "model_type_id": "type_2c71713157c3a7ee",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.2175600160892943
     },
     {
       "object": "Object_6092",
@@ -1083,8 +2259,11 @@
         ]
       ],
       "replacement_id": 19,
-      "source_index": 9,
-      "source_label": "粉色公寓53"
+      "source_index": 36,
+      "source_label": "office_building_26",
+      "model_type_id": "type_01a9b46b36b51e75",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.4407072171271516
     },
     {
       "object": "Object_5282",
@@ -1134,8 +2313,11 @@
         ]
       ],
       "replacement_id": 20,
-      "source_index": 1,
-      "source_label": "旧街住宅59"
+      "source_index": 35,
+      "source_label": "office_building_1",
+      "model_type_id": "type_4eda9285b8d1cbc5",
+      "source_turn_rad": 4.71238898038469,
+      "shape_distortion": 1.1182613927516536
     },
     {
       "object": "Object_5291",
@@ -1185,8 +2367,11 @@
         ]
       ],
       "replacement_id": 21,
-      "source_index": 8,
-      "source_label": "黄色公寓54"
+      "source_index": 43,
+      "source_label": "skyscraper_26",
+      "model_type_id": "type_68a2c443e6eb8ba0",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.040901624944657
     },
     {
       "object": "Object_5630",
@@ -1236,8 +2421,11 @@
         ]
       ],
       "replacement_id": 22,
-      "source_index": 3,
-      "source_label": "街角楼57"
+      "source_index": 36,
+      "source_label": "office_building_26",
+      "model_type_id": "type_01a9b46b36b51e75",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.959756404294984
     },
     {
       "object": "Object_7361",
@@ -1287,8 +2475,11 @@
         ]
       ],
       "replacement_id": 23,
-      "source_index": 1,
-      "source_label": "旧街住宅59"
+      "source_index": 20,
+      "source_label": "apartment_building_18",
+      "model_type_id": "type_0a37abfa37a48461",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.1510318482685897
     },
     {
       "object": "Object_5537",
@@ -1338,8 +2529,11 @@
         ]
       ],
       "replacement_id": 24,
-      "source_index": 4,
-      "source_label": "城市办公楼62"
+      "source_index": 38,
+      "source_label": "old+urban+building+8",
+      "model_type_id": "type_747ddbad8c823430",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.0688464449554365
     },
     {
       "object": "Object_1832",
@@ -1389,8 +2583,11 @@
         ]
       ],
       "replacement_id": 25,
-      "source_index": 3,
-      "source_label": "街角楼57"
+      "source_index": 37,
+      "source_label": "old+building+facade+6",
+      "model_type_id": "type_840bdd77e7832cd8",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.2702045857405233
     },
     {
       "object": "Object_3836",
@@ -1440,8 +2637,11 @@
         ]
       ],
       "replacement_id": 26,
-      "source_index": 1,
-      "source_label": "旧街住宅59"
+      "source_index": 46,
+      "source_label": "urban+building+facade+5",
+      "model_type_id": "type_0e833f862ba50110",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.104168816980254
     },
     {
       "object": "Object_1319",
@@ -1491,8 +2691,11 @@
         ]
       ],
       "replacement_id": 27,
-      "source_index": 1,
-      "source_label": "旧街住宅59"
+      "source_index": 46,
+      "source_label": "urban+building+facade+5",
+      "model_type_id": "type_0e833f862ba50110",
+      "source_turn_rad": 4.71238898038469,
+      "shape_distortion": 1.0138923869210867
     },
     {
       "object": "Object_4859",
@@ -1542,8 +2745,11 @@
         ]
       ],
       "replacement_id": 28,
-      "source_index": 2,
-      "source_label": "三层商住楼60"
+      "source_index": 13,
+      "source_label": "three_story_60",
+      "model_type_id": "type_6457faa6fe141fdf",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.1866494385958501
     },
     {
       "object": "Object_6203",
@@ -1593,8 +2799,11 @@
         ]
       ],
       "replacement_id": 29,
-      "source_index": 9,
-      "source_label": "粉色公寓53"
+      "source_index": 27,
+      "source_label": "glass_office_22",
+      "model_type_id": "type_4b7413a5942dfa82",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.9710434239039927
     },
     {
       "object": "Object_7073",
@@ -1644,8 +2853,11 @@
         ]
       ],
       "replacement_id": 30,
-      "source_index": 3,
-      "source_label": "街角楼57"
+      "source_index": 7,
+      "source_label": "architectural_facade_66",
+      "model_type_id": "type_db12ee1b087ac057",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.4093271081445433
     },
     {
       "object": "Object_6761",
@@ -1695,8 +2907,11 @@
         ]
       ],
       "replacement_id": 31,
-      "source_index": 3,
-      "source_label": "街角楼57"
+      "source_index": 40,
+      "source_label": "old_building_17",
+      "model_type_id": "type_2b6947f2070ec4ba",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 2.0066630223425985
     },
     {
       "object": "Object_2039",
@@ -1746,8 +2961,11 @@
         ]
       ],
       "replacement_id": 32,
-      "source_index": 2,
-      "source_label": "三层商住楼60"
+      "source_index": 22,
+      "source_label": "cbd_office_28",
+      "model_type_id": "type_75db267c762848dd",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.0455753504860203
     },
     {
       "object": "Object_5837",
@@ -1797,8 +3015,11 @@
         ]
       ],
       "replacement_id": 33,
-      "source_index": 5,
-      "source_label": "低层店面楼61"
+      "source_index": 12,
+      "source_label": "shopping_mall_64",
+      "model_type_id": "type_896d28bd7d27afc9",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.2074904746433552
     },
     {
       "object": "Object_6320",
@@ -1848,8 +3069,11 @@
         ]
       ],
       "replacement_id": 34,
-      "source_index": 0,
-      "source_label": "沿街商住楼58"
+      "source_index": 15,
+      "source_label": "urban_facade_58",
+      "model_type_id": "type_71289f837a3f853b",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.0348911816045823
     },
     {
       "object": "Object_2570",
@@ -1899,8 +3123,11 @@
         ]
       ],
       "replacement_id": 35,
-      "source_index": 2,
-      "source_label": "三层商住楼60"
+      "source_index": 26,
+      "source_label": "concrete_apartment_28",
+      "model_type_id": "type_9b4f83e301f2d3f1",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.3417539708314254
     },
     {
       "object": "Object_5054",
@@ -1950,8 +3177,11 @@
         ]
       ],
       "replacement_id": 36,
-      "source_index": 8,
-      "source_label": "黄色公寓54"
+      "source_index": 31,
+      "source_label": "modern_glass_2",
+      "model_type_id": "type_208ddf75cd4ffa42",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.0686900328227071
     },
     {
       "object": "Object_3836",
@@ -2001,8 +3231,11 @@
         ]
       ],
       "replacement_id": 37,
-      "source_index": 3,
-      "source_label": "街角楼57"
+      "source_index": 37,
+      "source_label": "old+building+facade+6",
+      "model_type_id": "type_840bdd77e7832cd8",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.2272008931432412
     },
     {
       "object": "Object_5693",
@@ -2052,8 +3285,11 @@
         ]
       ],
       "replacement_id": 38,
-      "source_index": 1,
-      "source_label": "旧街住宅59"
+      "source_index": 7,
+      "source_label": "architectural_facade_66",
+      "model_type_id": "type_db12ee1b087ac057",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.426020041855971
     },
     {
       "object": "Object_3404",
@@ -2103,8 +3339,11 @@
         ]
       ],
       "replacement_id": 39,
-      "source_index": 4,
-      "source_label": "城市办公楼62"
+      "source_index": 13,
+      "source_label": "three_story_60",
+      "model_type_id": "type_6457faa6fe141fdf",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.188834212269287
     },
     {
       "object": "Object_4868",
@@ -2154,8 +3393,11 @@
         ]
       ],
       "replacement_id": 40,
-      "source_index": 2,
-      "source_label": "三层商住楼60"
+      "source_index": 13,
+      "source_label": "three_story_60",
+      "model_type_id": "type_6457faa6fe141fdf",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.0865011891423921
     },
     {
       "object": "Object_1544",
@@ -2205,8 +3447,11 @@
         ]
       ],
       "replacement_id": 41,
-      "source_index": 2,
-      "source_label": "三层商住楼60"
+      "source_index": 37,
+      "source_label": "old+building+facade+6",
+      "model_type_id": "type_840bdd77e7832cd8",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.257951516761271
     },
     {
       "object": "Object_6524",
@@ -2256,8 +3501,11 @@
         ]
       ],
       "replacement_id": 42,
-      "source_index": 1,
-      "source_label": "旧街住宅59"
+      "source_index": 7,
+      "source_label": "architectural_facade_66",
+      "model_type_id": "type_db12ee1b087ac057",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.0762048411182605
     },
     {
       "object": "Object_4634",
@@ -2307,8 +3555,11 @@
         ]
       ],
       "replacement_id": 43,
-      "source_index": 1,
-      "source_label": "旧街住宅59"
+      "source_index": 9,
+      "source_label": "historic_building_59",
+      "model_type_id": "type_6f075581d2d7e055",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.1247805538758116
     },
     {
       "object": "Object_2192",
@@ -2358,8 +3609,11 @@
         ]
       ],
       "replacement_id": 44,
-      "source_index": 4,
-      "source_label": "城市办公楼62"
+      "source_index": 26,
+      "source_label": "concrete_apartment_28",
+      "model_type_id": "type_9b4f83e301f2d3f1",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.1730407432227623
     },
     {
       "object": "Object_6215",
@@ -2409,8 +3663,11 @@
         ]
       ],
       "replacement_id": 45,
-      "source_index": 5,
-      "source_label": "低层店面楼61"
+      "source_index": 12,
+      "source_label": "shopping_mall_64",
+      "model_type_id": "type_896d28bd7d27afc9",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.0800923686382637
     },
     {
       "object": "Object_5141",
@@ -2460,8 +3717,11 @@
         ]
       ],
       "replacement_id": 46,
-      "source_index": 2,
-      "source_label": "三层商住楼60"
+      "source_index": 38,
+      "source_label": "old+urban+building+8",
+      "model_type_id": "type_747ddbad8c823430",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.0451801461101198
     },
     {
       "object": "Object_4796",
@@ -2511,8 +3771,11 @@
         ]
       ],
       "replacement_id": 47,
-      "source_index": 9,
-      "source_label": "粉色公寓53"
+      "source_index": 28,
+      "source_label": "glass_skyscraper_23",
+      "model_type_id": "type_1842ecfaed1c65cf",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 2.0729052909917813
     },
     {
       "object": "Object_5141",
@@ -2562,8 +3825,11 @@
         ]
       ],
       "replacement_id": 48,
-      "source_index": 0,
-      "source_label": "沿街商住楼58"
+      "source_index": 3,
+      "source_label": "04-office-building-3d-model-51",
+      "model_type_id": "type_622b67d415331763",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.1629412206416943
     },
     {
       "object": "Object_4496",
@@ -2613,8 +3879,11 @@
         ]
       ],
       "replacement_id": 49,
-      "source_index": 4,
-      "source_label": "城市办公楼62"
+      "source_index": 3,
+      "source_label": "04-office-building-3d-model-51",
+      "model_type_id": "type_622b67d415331763",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.1804912293643524
     },
     {
       "object": "Object_2381",
@@ -2664,8 +3933,11 @@
         ]
       ],
       "replacement_id": 50,
-      "source_index": 1,
-      "source_label": "旧街住宅59"
+      "source_index": 26,
+      "source_label": "concrete_apartment_28",
+      "model_type_id": "type_9b4f83e301f2d3f1",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.0995248979616665
     },
     {
       "object": "Object_2444",
@@ -2715,8 +3987,11 @@
         ]
       ],
       "replacement_id": 51,
-      "source_index": 5,
-      "source_label": "低层店面楼61"
+      "source_index": 10,
+      "source_label": "historic_storefront_61",
+      "model_type_id": "type_920b745dda391fd4",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.0351960680225951
     },
     {
       "object": "Object_4088",
@@ -2766,8 +4041,11 @@
         ]
       ],
       "replacement_id": 52,
-      "source_index": 3,
-      "source_label": "街角楼57"
+      "source_index": 18,
+      "source_label": "apartment+building+3",
+      "model_type_id": "type_8c53902c10b5942d",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.1250390520593434
     },
     {
       "object": "Object_5033",
@@ -2817,8 +4095,11 @@
         ]
       ],
       "replacement_id": 53,
-      "source_index": 2,
-      "source_label": "三层商住楼60"
+      "source_index": 16,
+      "source_label": "apartment+building+11",
+      "model_type_id": "type_6a26ebf75e642daf",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.7359984570540397
     },
     {
       "object": "Object_3593",
@@ -2868,8 +4149,11 @@
         ]
       ],
       "replacement_id": 54,
-      "source_index": 4,
-      "source_label": "城市办公楼62"
+      "source_index": 2,
+      "source_label": "03-hotel-building-3d-model-52",
+      "model_type_id": "type_af76891d382e1380",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.1033166563630032
     },
     {
       "object": "Object_5627",
@@ -2919,8 +4203,11 @@
         ]
       ],
       "replacement_id": 55,
-      "source_index": 8,
-      "source_label": "黄色公寓54"
+      "source_index": 47,
+      "source_label": "urban_building_facade_20",
+      "model_type_id": "type_bf1b7a0b15acb833",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.0596109854125382
     },
     {
       "object": "Object_4493",
@@ -2970,8 +4257,11 @@
         ]
       ],
       "replacement_id": 56,
-      "source_index": 3,
-      "source_label": "街角楼57"
+      "source_index": 38,
+      "source_label": "old+urban+building+8",
+      "model_type_id": "type_747ddbad8c823430",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.1757109215609647
     },
     {
       "object": "Object_6203",
@@ -3021,8 +4311,11 @@
         ]
       ],
       "replacement_id": 57,
-      "source_index": 8,
-      "source_label": "黄色公寓54"
+      "source_index": 18,
+      "source_label": "apartment+building+3",
+      "model_type_id": "type_8c53902c10b5942d",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.0855914076321944
     },
     {
       "object": "Object_7235",
@@ -3072,8 +4365,11 @@
         ]
       ],
       "replacement_id": 58,
-      "source_index": 1,
-      "source_label": "旧街住宅59"
+      "source_index": 42,
+      "source_label": "rusty_apartment_27",
+      "model_type_id": "type_8e93263c8ccce175",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.1766039667903996
     },
     {
       "object": "Object_6452",
@@ -3123,8 +4419,11 @@
         ]
       ],
       "replacement_id": 59,
-      "source_index": 8,
-      "source_label": "黄色公寓54"
+      "source_index": 31,
+      "source_label": "modern_glass_2",
+      "model_type_id": "type_208ddf75cd4ffa42",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.376059355432805
     },
     {
       "object": "Object_4958",
@@ -3174,8 +4473,11 @@
         ]
       ],
       "replacement_id": 60,
-      "source_index": 8,
-      "source_label": "黄色公寓54"
+      "source_index": 32,
+      "source_label": "modern_glass_24",
+      "model_type_id": "type_04d2029b2aa69a01",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.725428384156809
     },
     {
       "object": "Object_1238",
@@ -3225,8 +4527,11 @@
         ]
       ],
       "replacement_id": 61,
-      "source_index": 5,
-      "source_label": "低层店面楼61"
+      "source_index": 14,
+      "source_label": "urban_building_63",
+      "model_type_id": "type_fa83366dc657755d",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.1710449766604478
     },
     {
       "object": "Object_7364",
@@ -3276,8 +4581,11 @@
         ]
       ],
       "replacement_id": 62,
-      "source_index": 3,
-      "source_label": "街角楼57"
+      "source_index": 9,
+      "source_label": "historic_building_59",
+      "model_type_id": "type_6f075581d2d7e055",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.554645446183274
     },
     {
       "object": "Object_5801",
@@ -3327,8 +4635,11 @@
         ]
       ],
       "replacement_id": 63,
-      "source_index": 3,
-      "source_label": "街角楼57"
+      "source_index": 23,
+      "source_label": "cbd_office_29",
+      "model_type_id": "type_4123ef4d2616ee05",
+      "source_turn_rad": 4.71238898038469,
+      "shape_distortion": 1.3294978252825074
     },
     {
       "object": "Object_5456",
@@ -3378,8 +4689,11 @@
         ]
       ],
       "replacement_id": 64,
-      "source_index": 9,
-      "source_label": "粉色公寓53"
+      "source_index": 4,
+      "source_label": "05-apartment-building-50",
+      "model_type_id": "type_09edfedc9d5e2576",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.5500119393104759
     },
     {
       "object": "Object_1337",
@@ -3429,8 +4743,11 @@
         ]
       ],
       "replacement_id": 65,
-      "source_index": 2,
-      "source_label": "三层商住楼60"
+      "source_index": 23,
+      "source_label": "cbd_office_29",
+      "model_type_id": "type_4123ef4d2616ee05",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.0981960926687513
     },
     {
       "object": "Object_3455",
@@ -3480,8 +4797,11 @@
         ]
       ],
       "replacement_id": 66,
-      "source_index": 5,
-      "source_label": "低层店面楼61"
+      "source_index": 11,
+      "source_label": "police_headquarters_65",
+      "model_type_id": "type_036397834983f327",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.0849820446380658
     },
     {
       "object": "Object_5459",
@@ -3531,8 +4851,11 @@
         ]
       ],
       "replacement_id": 67,
-      "source_index": 8,
-      "source_label": "黄色公寓54"
+      "source_index": 27,
+      "source_label": "glass_office_22",
+      "model_type_id": "type_4b7413a5942dfa82",
+      "source_turn_rad": 4.71238898038469,
+      "shape_distortion": 1.2207780012009548
     },
     {
       "object": "Object_7367",
@@ -3582,8 +4905,11 @@
         ]
       ],
       "replacement_id": 68,
-      "source_index": 8,
-      "source_label": "黄色公寓54"
+      "source_index": 4,
+      "source_label": "05-apartment-building-50",
+      "model_type_id": "type_09edfedc9d5e2576",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.3758872218537463
     },
     {
       "object": "Object_6389",
@@ -3633,8 +4959,11 @@
         ]
       ],
       "replacement_id": 69,
-      "source_index": 8,
-      "source_label": "黄色公寓54"
+      "source_index": 28,
+      "source_label": "glass_skyscraper_23",
+      "model_type_id": "type_1842ecfaed1c65cf",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.8607109926449161
     },
     {
       "object": "Object_1874",
@@ -3684,8 +5013,11 @@
         ]
       ],
       "replacement_id": 70,
-      "source_index": 5,
-      "source_label": "低层店面楼61"
+      "source_index": 10,
+      "source_label": "historic_storefront_61",
+      "model_type_id": "type_920b745dda391fd4",
+      "source_turn_rad": 4.71238898038469,
+      "shape_distortion": 1.2608203542761338
     },
     {
       "object": "Object_6017",
@@ -3735,8 +5067,11 @@
         ]
       ],
       "replacement_id": 71,
-      "source_index": 0,
-      "source_label": "沿街商住楼58"
+      "source_index": 34,
+      "source_label": "modern_office_complex_26",
+      "model_type_id": "type_b01ea56a22902272",
+      "source_turn_rad": 4.71238898038469,
+      "shape_distortion": 1.2588710546829336
     },
     {
       "object": "Object_2252",
@@ -3786,8 +5121,11 @@
         ]
       ],
       "replacement_id": 72,
-      "source_index": 5,
-      "source_label": "低层店面楼61"
+      "source_index": 6,
+      "source_label": "02-building-3d-model-56",
+      "model_type_id": "type_41f8c9f9bf949991",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.2272767342290654
     },
     {
       "object": "Object_5627",
@@ -3837,8 +5175,11 @@
         ]
       ],
       "replacement_id": 73,
-      "source_index": 3,
-      "source_label": "街角楼57"
+      "source_index": 0,
+      "source_label": "01-apartment-building-54",
+      "model_type_id": "type_ea1ac6add267f1f3",
+      "source_turn_rad": 4.71238898038469,
+      "shape_distortion": 2.251011279369629
     },
     {
       "object": "Object_2087",
@@ -3888,8 +5229,11 @@
         ]
       ],
       "replacement_id": 74,
-      "source_index": 5,
-      "source_label": "低层店面楼61"
+      "source_index": 6,
+      "source_label": "02-building-3d-model-56",
+      "model_type_id": "type_41f8c9f9bf949991",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.247677083387377
     },
     {
       "object": "Object_1592",
@@ -3939,8 +5283,11 @@
         ]
       ],
       "replacement_id": 75,
-      "source_index": 2,
-      "source_label": "三层商住楼60"
+      "source_index": 25,
+      "source_label": "city+street+building+9",
+      "model_type_id": "type_deca777b81fd5a7a",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.4777684720599609
     },
     {
       "object": "Object_6920",
@@ -3990,8 +5337,11 @@
         ]
       ],
       "replacement_id": 76,
-      "source_index": 3,
-      "source_label": "街角楼57"
+      "source_index": 39,
+      "source_label": "old_apartment_13",
+      "model_type_id": "type_3f5c6c207c478482",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.292015711647625
     },
     {
       "object": "Object_3761",
@@ -4041,8 +5391,11 @@
         ]
       ],
       "replacement_id": 77,
-      "source_index": 3,
-      "source_label": "街角楼57"
+      "source_index": 48,
+      "source_label": "urban_shopfront_13",
+      "model_type_id": "type_ce35176351ea49ea",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.1771434421734877
     },
     {
       "object": "Object_4100",
@@ -4092,8 +5445,11 @@
         ]
       ],
       "replacement_id": 78,
-      "source_index": 8,
-      "source_label": "黄色公寓54"
+      "source_index": 32,
+      "source_label": "modern_glass_24",
+      "model_type_id": "type_04d2029b2aa69a01",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.8224227203545822
     },
     {
       "object": "Object_5048",
@@ -4143,8 +5499,11 @@
         ]
       ],
       "replacement_id": 79,
-      "source_index": 3,
-      "source_label": "街角楼57"
+      "source_index": 17,
+      "source_label": "apartment+building+2",
+      "model_type_id": "type_4e68940a5b81c1d5",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.376950594470507
     },
     {
       "object": "Object_4775",
@@ -4194,8 +5553,11 @@
         ]
       ],
       "replacement_id": 80,
-      "source_index": 9,
-      "source_label": "粉色公寓53"
+      "source_index": 27,
+      "source_label": "glass_office_22",
+      "model_type_id": "type_4b7413a5942dfa82",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.650656173677366
     },
     {
       "object": "Object_7223",
@@ -4245,8 +5607,11 @@
         ]
       ],
       "replacement_id": 81,
-      "source_index": 5,
-      "source_label": "低层店面楼61"
+      "source_index": 16,
+      "source_label": "apartment+building+11",
+      "model_type_id": "type_6a26ebf75e642daf",
+      "source_turn_rad": 0,
+      "shape_distortion": 2.1499829526491867
     },
     {
       "object": "Object_4085",
@@ -4296,8 +5661,11 @@
         ]
       ],
       "replacement_id": 82,
-      "source_index": 5,
-      "source_label": "低层店面楼61"
+      "source_index": 12,
+      "source_label": "shopping_mall_64",
+      "model_type_id": "type_896d28bd7d27afc9",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.3844584851605255
     },
     {
       "object": "Object_6527",
@@ -4347,8 +5715,11 @@
         ]
       ],
       "replacement_id": 83,
-      "source_index": 9,
-      "source_label": "粉色公寓53"
+      "source_index": 4,
+      "source_label": "05-apartment-building-50",
+      "model_type_id": "type_09edfedc9d5e2576",
+      "source_turn_rad": 4.71238898038469,
+      "shape_distortion": 1.7983355706177875
     },
     {
       "object": "Object_4505",
@@ -4398,8 +5769,11 @@
         ]
       ],
       "replacement_id": 84,
-      "source_index": 9,
-      "source_label": "粉色公寓53"
+      "source_index": 33,
+      "source_label": "modern_glass_office_21",
+      "model_type_id": "type_171cf144fa080bf4",
+      "source_turn_rad": 1.5707963267948966,
+      "shape_distortion": 1.4052444690029369
     },
     {
       "object": "Object_6917",
@@ -4449,8 +5823,11 @@
         ]
       ],
       "replacement_id": 85,
-      "source_index": 1,
-      "source_label": "旧街住宅59"
+      "source_index": 9,
+      "source_label": "historic_building_59",
+      "model_type_id": "type_6f075581d2d7e055",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.1056930754014949
     },
     {
       "object": "Object_4700",
@@ -4500,8 +5877,11 @@
         ]
       ],
       "replacement_id": 86,
-      "source_index": 0,
-      "source_label": "沿街商住楼58"
+      "source_index": 3,
+      "source_label": "04-office-building-3d-model-51",
+      "model_type_id": "type_622b67d415331763",
+      "source_turn_rad": 1.5707963267948966,
+      "shape_distortion": 1.0926073505801026
     },
     {
       "object": "Object_5051",
@@ -4551,8 +5931,11 @@
         ]
       ],
       "replacement_id": 87,
-      "source_index": 8,
-      "source_label": "黄色公寓54"
+      "source_index": 36,
+      "source_label": "office_building_26",
+      "model_type_id": "type_01a9b46b36b51e75",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.5188511510110714
     },
     {
       "object": "Object_3128",
@@ -4602,8 +5985,11 @@
         ]
       ],
       "replacement_id": 88,
-      "source_index": 5,
-      "source_label": "低层店面楼61"
+      "source_index": 34,
+      "source_label": "modern_office_complex_26",
+      "model_type_id": "type_b01ea56a22902272",
+      "source_turn_rad": 1.5707963267948966,
+      "shape_distortion": 1.1376434495892647
     },
     {
       "object": "Object_3293",
@@ -4653,8 +6039,11 @@
         ]
       ],
       "replacement_id": 89,
-      "source_index": 5,
-      "source_label": "低层店面楼61"
+      "source_index": 34,
+      "source_label": "modern_office_complex_26",
+      "model_type_id": "type_b01ea56a22902272",
+      "source_turn_rad": 4.71238898038469,
+      "shape_distortion": 1.1376417716235336
     },
     {
       "object": "Object_4700",
@@ -4704,8 +6093,11 @@
         ]
       ],
       "replacement_id": 90,
-      "source_index": 2,
-      "source_label": "三层商住楼60"
+      "source_index": 44,
+      "source_label": "storefront+building+7",
+      "model_type_id": "type_fdc761ff194e7eae",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.491728792036209
     },
     {
       "object": "Object_3677",
@@ -4755,8 +6147,11 @@
         ]
       ],
       "replacement_id": 91,
-      "source_index": 2,
-      "source_label": "三层商住楼60"
+      "source_index": 25,
+      "source_label": "city+street+building+9",
+      "model_type_id": "type_deca777b81fd5a7a",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.3857818615587427
     },
     {
       "object": "Object_4295",
@@ -4806,8 +6201,11 @@
         ]
       ],
       "replacement_id": 92,
-      "source_index": 2,
-      "source_label": "三层商住楼60"
+      "source_index": 23,
+      "source_label": "cbd_office_29",
+      "model_type_id": "type_4123ef4d2616ee05",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.2120857649072345
     },
     {
       "object": "Object_3842",
@@ -4857,8 +6255,11 @@
         ]
       ],
       "replacement_id": 93,
-      "source_index": 8,
-      "source_label": "黄色公寓54"
+      "source_index": 32,
+      "source_label": "modern_glass_24",
+      "model_type_id": "type_04d2029b2aa69a01",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.5809554217006565
     },
     {
       "object": "Object_7214",
@@ -4908,8 +6309,11 @@
         ]
       ],
       "replacement_id": 94,
-      "source_index": 5,
-      "source_label": "低层店面楼61"
+      "source_index": 25,
+      "source_label": "city+street+building+9",
+      "model_type_id": "type_deca777b81fd5a7a",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.5670654254161707
     },
     {
       "object": "Object_2612",
@@ -4959,8 +6363,11 @@
         ]
       ],
       "replacement_id": 95,
-      "source_index": 5,
-      "source_label": "低层店面楼61"
+      "source_index": 14,
+      "source_label": "urban_building_63",
+      "model_type_id": "type_fa83366dc657755d",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.2076415401433735
     },
     {
       "object": "Object_2438",
@@ -5010,8 +6417,11 @@
         ]
       ],
       "replacement_id": 96,
-      "source_index": 5,
-      "source_label": "低层店面楼61"
+      "source_index": 2,
+      "source_label": "03-hotel-building-3d-model-52",
+      "model_type_id": "type_af76891d382e1380",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.1475357742709371
     },
     {
       "object": "Object_3581",
@@ -5061,8 +6471,11 @@
         ]
       ],
       "replacement_id": 97,
-      "source_index": 5,
-      "source_label": "低层店面楼61"
+      "source_index": 10,
+      "source_label": "historic_storefront_61",
+      "model_type_id": "type_920b745dda391fd4",
+      "source_turn_rad": 1.5707963267948966,
+      "shape_distortion": 1.0268908841635367
     },
     {
       "object": "Object_4769",
@@ -5112,8 +6525,11 @@
         ]
       ],
       "replacement_id": 98,
-      "source_index": 9,
-      "source_label": "粉色公寓53"
+      "source_index": 43,
+      "source_label": "skyscraper_26",
+      "model_type_id": "type_68a2c443e6eb8ba0",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.3950043038612727
     },
     {
       "object": "Object_6914",
@@ -5164,7 +6580,10 @@
       ],
       "replacement_id": 99,
       "source_index": 5,
-      "source_label": "低层店面楼61"
+      "source_label": "01-modern-storefront-building-3d-model-57",
+      "model_type_id": "type_6eacc576969bfb12",
+      "source_turn_rad": 4.71238898038469,
+      "shape_distortion": 1.0195285313285556
     },
     {
       "object": "Object_4487",
@@ -5215,7 +6634,10 @@
       ],
       "replacement_id": 100,
       "source_index": 5,
-      "source_label": "低层店面楼61"
+      "source_label": "01-modern-storefront-building-3d-model-57",
+      "model_type_id": "type_6eacc576969bfb12",
+      "source_turn_rad": 1.5707963267948966,
+      "shape_distortion": 1.0195329049597432
     },
     {
       "object": "Object_6917",
@@ -5265,8 +6687,11 @@
         ]
       ],
       "replacement_id": 101,
-      "source_index": 2,
-      "source_label": "三层商住楼60"
+      "source_index": 35,
+      "source_label": "office_building_1",
+      "model_type_id": "type_4eda9285b8d1cbc5",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.628043988681214
     },
     {
       "object": "Object_1595",
@@ -5316,8 +6741,11 @@
         ]
       ],
       "replacement_id": 102,
-      "source_index": 0,
-      "source_label": "沿街商住楼58"
+      "source_index": 2,
+      "source_label": "03-hotel-building-3d-model-52",
+      "model_type_id": "type_af76891d382e1380",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.177936485145015
     },
     {
       "object": "Object_2447",
@@ -5367,8 +6795,11 @@
         ]
       ],
       "replacement_id": 103,
-      "source_index": 5,
-      "source_label": "低层店面楼61"
+      "source_index": 11,
+      "source_label": "police_headquarters_65",
+      "model_type_id": "type_036397834983f327",
+      "source_turn_rad": 1.5707963267948966,
+      "shape_distortion": 1.1159959788874698
     },
     {
       "object": "Object_3788",
@@ -5418,8 +6849,11 @@
         ]
       ],
       "replacement_id": 104,
-      "source_index": 3,
-      "source_label": "街角楼57"
+      "source_index": 48,
+      "source_label": "urban_shopfront_13",
+      "model_type_id": "type_ce35176351ea49ea",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.3800534291064244
     },
     {
       "object": "Object_4631",
@@ -5470,7 +6904,10 @@
       ],
       "replacement_id": 105,
       "source_index": 5,
-      "source_label": "低层店面楼61"
+      "source_label": "01-modern-storefront-building-3d-model-57",
+      "model_type_id": "type_6eacc576969bfb12",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.1894134853388076
     },
     {
       "object": "Object_3749",
@@ -5520,8 +6957,11 @@
         ]
       ],
       "replacement_id": 106,
-      "source_index": 0,
-      "source_label": "沿街商住楼58"
+      "source_index": 30,
+      "source_label": "historic_building_facade_15",
+      "model_type_id": "type_9115b0927d690c96",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.0132171408598014
     },
     {
       "object": "Object_2087",
@@ -5571,8 +7011,11 @@
         ]
       ],
       "replacement_id": 107,
-      "source_index": 4,
-      "source_label": "城市办公楼62"
+      "source_index": 22,
+      "source_label": "cbd_office_28",
+      "model_type_id": "type_75db267c762848dd",
+      "source_turn_rad": 1.5707963267948966,
+      "shape_distortion": 1.0386498180214332
     },
     {
       "object": "Object_7217",
@@ -5622,8 +7065,11 @@
         ]
       ],
       "replacement_id": 108,
-      "source_index": 3,
-      "source_label": "街角楼57"
+      "source_index": 45,
+      "source_label": "storefront_12",
+      "model_type_id": "type_965af900ea16554d",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.74127574709623
     },
     {
       "object": "Object_3581",
@@ -5673,8 +7119,11 @@
         ]
       ],
       "replacement_id": 109,
-      "source_index": 4,
-      "source_label": "城市办公楼62"
+      "source_index": 8,
+      "source_label": "city_building_62",
+      "model_type_id": "type_043dc244ffd6407f",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.101836522598181
     },
     {
       "object": "Object_2810",
@@ -5724,8 +7173,11 @@
         ]
       ],
       "replacement_id": 110,
-      "source_index": 4,
-      "source_label": "城市办公楼62"
+      "source_index": 30,
+      "source_label": "historic_building_facade_15",
+      "model_type_id": "type_9115b0927d690c96",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.0093668602698709
     },
     {
       "object": "Object_2612",
@@ -5775,8 +7227,11 @@
         ]
       ],
       "replacement_id": 111,
-      "source_index": 0,
-      "source_label": "沿街商住楼58"
+      "source_index": 8,
+      "source_label": "city_building_62",
+      "model_type_id": "type_043dc244ffd6407f",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.1018570158079812
     },
     {
       "object": "Object_4076",
@@ -5826,8 +7281,11 @@
         ]
       ],
       "replacement_id": 112,
-      "source_index": 5,
-      "source_label": "低层店面楼61"
+      "source_index": 6,
+      "source_label": "02-building-3d-model-56",
+      "model_type_id": "type_41f8c9f9bf949991",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.327740225950228
     },
     {
       "object": "Object_1874",
@@ -5877,8 +7335,11 @@
         ]
       ],
       "replacement_id": 113,
-      "source_index": 4,
-      "source_label": "城市办公楼62"
+      "source_index": 22,
+      "source_label": "cbd_office_28",
+      "model_type_id": "type_75db267c762848dd",
+      "source_turn_rad": 1.5707963267948966,
+      "shape_distortion": 1.055920150564796
     },
     {
       "object": "Object_5288",
@@ -5928,8 +7389,11 @@
         ]
       ],
       "replacement_id": 114,
-      "source_index": 3,
-      "source_label": "街角楼57"
+      "source_index": 45,
+      "source_label": "storefront_12",
+      "model_type_id": "type_965af900ea16554d",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.8704865635646704
     },
     {
       "object": "Object_6758",
@@ -5979,8 +7443,11 @@
         ]
       ],
       "replacement_id": 115,
-      "source_index": 1,
-      "source_label": "旧街住宅59"
+      "source_index": 24,
+      "source_label": "cbd_office_30",
+      "model_type_id": "type_dd6107c820e4cbdb",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.0653625718956043
     },
     {
       "object": "Object_5033",
@@ -6030,8 +7497,11 @@
         ]
       ],
       "replacement_id": 116,
-      "source_index": 2,
-      "source_label": "三层商住楼60"
+      "source_index": 44,
+      "source_label": "storefront+building+7",
+      "model_type_id": "type_fdc761ff194e7eae",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.217034154448895
     },
     {
       "object": "Object_5447",
@@ -6081,8 +7551,11 @@
         ]
       ],
       "replacement_id": 117,
-      "source_index": 2,
-      "source_label": "三层商住楼60"
+      "source_index": 44,
+      "source_label": "storefront+building+7",
+      "model_type_id": "type_fdc761ff194e7eae",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.1666399742907039
     },
     {
       "object": "Object_3248",
@@ -6132,8 +7605,11 @@
         ]
       ],
       "replacement_id": 118,
-      "source_index": 5,
-      "source_label": "低层店面楼61"
+      "source_index": 11,
+      "source_label": "police_headquarters_65",
+      "model_type_id": "type_036397834983f327",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.06690390280023
     },
     {
       "object": "Object_2384",
@@ -6183,8 +7659,11 @@
         ]
       ],
       "replacement_id": 119,
-      "source_index": 5,
-      "source_label": "低层店面楼61"
+      "source_index": 14,
+      "source_label": "urban_building_63",
+      "model_type_id": "type_fa83366dc657755d",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.259001098264651
     },
     {
       "object": "Object_4301",
@@ -6234,8 +7713,11 @@
         ]
       ],
       "replacement_id": 120,
-      "source_index": 1,
-      "source_label": "旧街住宅59"
+      "source_index": 19,
+      "source_label": "apartment_14",
+      "model_type_id": "type_0f46227c1de50ee3",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.248294548186125
     },
     {
       "object": "Object_4499",
@@ -6285,8 +7767,11 @@
         ]
       ],
       "replacement_id": 121,
-      "source_index": 3,
-      "source_label": "街角楼57"
+      "source_index": 17,
+      "source_label": "apartment+building+2",
+      "model_type_id": "type_4e68940a5b81c1d5",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.3111401275422048
     },
     {
       "object": "Object_1316",
@@ -6336,8 +7821,11 @@
         ]
       ],
       "replacement_id": 122,
-      "source_index": 3,
-      "source_label": "街角楼57"
+      "source_index": 48,
+      "source_label": "urban_shopfront_13",
+      "model_type_id": "type_ce35176351ea49ea",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.2336446793391147
     },
     {
       "object": "Object_7064",
@@ -6387,8 +7875,11 @@
         ]
       ],
       "replacement_id": 123,
-      "source_index": 3,
-      "source_label": "街角楼57"
+      "source_index": 21,
+      "source_label": "cbd_office_27",
+      "model_type_id": "type_2c71713157c3a7ee",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.6051533868451853
     },
     {
       "object": "Object_4493",
@@ -6438,8 +7929,11 @@
         ]
       ],
       "replacement_id": 124,
-      "source_index": 3,
-      "source_label": "街角楼57"
+      "source_index": 19,
+      "source_label": "apartment_14",
+      "model_type_id": "type_0f46227c1de50ee3",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.6125720585741652
     },
     {
       "object": "Object_7214",
@@ -6489,8 +7983,11 @@
         ]
       ],
       "replacement_id": 125,
-      "source_index": 3,
-      "source_label": "街角楼57"
+      "source_index": 39,
+      "source_label": "old_apartment_13",
+      "model_type_id": "type_3f5c6c207c478482",
+      "source_turn_rad": 0,
+      "shape_distortion": 1.223985912756225
     },
     {
       "object": "Object_4076",
@@ -6540,8 +8037,11 @@
         ]
       ],
       "replacement_id": 126,
-      "source_index": 3,
-      "source_label": "街角楼57"
+      "source_index": 39,
+      "source_label": "old_apartment_13",
+      "model_type_id": "type_3f5c6c207c478482",
+      "source_turn_rad": 3.141592653589793,
+      "shape_distortion": 1.223991813289674
     }
   ]
 }
