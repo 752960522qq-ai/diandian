@@ -1,0 +1,145 @@
+{
+  "rule": "仅复用不带 Sxx-Bxx 来源编号的 hero_13 模型；禁用来源不能通过移除标记重新使用。",
+  "confirmed_by_user": "2026-11-01",
+  "allowed_sources": [
+    {
+      "label": "沿街商住楼58",
+      "hero_13_relative_path": "delivery/city_updates/v18_20261030/sources/urban_facade_58.glb",
+      "sha256": "cca470cf0cbc2ff26395f109d27e9b6d7dfeb19441a174571e9b407022b3383e",
+      "instances": 7,
+      "s_marker_present": false
+    },
+    {
+      "label": "旧街住宅59",
+      "hero_13_relative_path": "delivery/city_updates/v18_20261030/sources/historic_building_59.glb",
+      "sha256": "b95c832434d15b7a715b8bc2b012ca18d8f6ca933abf325ec969216f6fed243b",
+      "instances": 16,
+      "s_marker_present": false
+    },
+    {
+      "label": "三层商住楼60",
+      "hero_13_relative_path": "delivery/city_updates/v18_20261030/sources/three_story_60.glb",
+      "sha256": "5cbda342cbe5c34d7b993bc71e86f99055cf3c883a38befaf2769b42e88f9c54",
+      "instances": 18,
+      "s_marker_present": false
+    },
+    {
+      "label": "街角楼57",
+      "hero_13_relative_path": "delivery/city_updates/v18_20261030/sources/historic_facade_57b.glb",
+      "sha256": "1f83e4ebbfb93d118cec9f3e1e7cae5d33a3e8b2c5159615b9e3085e97abea58",
+      "instances": 26,
+      "s_marker_present": false
+    },
+    {
+      "label": "城市办公楼62",
+      "hero_13_relative_path": "delivery/city_updates/v18_20261030/sources/city_building_62.glb",
+      "sha256": "abb0d53ee7f83cf26cd55e029e6eba8a1c4861510e5241f89444df019baedf6d",
+      "instances": 10,
+      "s_marker_present": false
+    },
+    {
+      "label": "低层店面楼61",
+      "hero_13_relative_path": "delivery/city_updates/v18_20261030/sources/historic_storefront_61.glb",
+      "sha256": "67211a00aae4893d1b6b71fbb262a0cdfabd32831946e68664807a242c61399b",
+      "instances": 23,
+      "s_marker_present": false
+    },
+    {
+      "label": "办公楼51",
+      "hero_13_relative_path": "delivery/city_updates/v16_20261029/sources/04-office-building-3d-model-51.glb",
+      "sha256": "0c597b7f06286bf3f907caa64609e1b21186a369cd84fd67c985442e0c7f8772",
+      "instances": 0,
+      "s_marker_present": false
+    },
+    {
+      "label": "酒店楼52",
+      "hero_13_relative_path": "delivery/city_updates/v16_20261029/sources/03-hotel-building-3d-model-52.glb",
+      "sha256": "7226222a4b6d84d2683c7041073ea7661be3da3863f91536c84adf41b795198b",
+      "instances": 0,
+      "s_marker_present": false
+    },
+    {
+      "label": "黄色公寓54",
+      "hero_13_relative_path": "delivery/city_updates/v16_20261029/sources/01-apartment-building-54.glb",
+      "sha256": "560a781538c4c36e76404127f2bb32bbe4baf90a6b37bb4cdd5b87caf8fb8bb5",
+      "instances": 15,
+      "s_marker_present": false
+    },
+    {
+      "label": "粉色公寓53",
+      "hero_13_relative_path": "delivery/city_updates/v16_20261029/sources/02-pink-high-rise-building-3d-model-53.glb",
+      "sha256": "d54c9946edfcd1b1a1119119f5b139f6d1305e51bd0fb0b69e9da7e9500484e9",
+      "instances": 11,
+      "s_marker_present": false
+    }
+  ],
+  "excluded_previous_sources": [
+    {
+      "source_filename": "S02-B01_Raohe_terraced_05.glb",
+      "model_ids": [
+        "S02-B01"
+      ],
+      "previous_instances": 6,
+      "reason": "用户指定带此编号的模型禁用"
+    },
+    {
+      "source_filename": "S02-B02_Raohe_terraced_04.glb",
+      "model_ids": [
+        "S02-B02"
+      ],
+      "previous_instances": 3,
+      "reason": "用户指定带此编号的模型禁用"
+    },
+    {
+      "source_filename": "S02-B03_Raohe_lowrise_01.glb",
+      "model_ids": [
+        "S02-B03"
+      ],
+      "previous_instances": 55,
+      "reason": "用户指定带此编号的模型禁用"
+    },
+    {
+      "source_filename": "S02-B04_Raohe_corner.glb",
+      "model_ids": [
+        "S02-B04"
+      ],
+      "previous_instances": 8,
+      "reason": "用户指定带此编号的模型禁用"
+    },
+    {
+      "source_filename": "S03-B05_Low_office.glb",
+      "model_ids": [
+        "S03-B05"
+      ],
+      "previous_instances": 21,
+      "reason": "用户指定带此编号的模型禁用"
+    },
+    {
+      "source_filename": "S02-B05_Pitched_roof_house.glb",
+      "model_ids": [
+        "S02-B05"
+      ],
+      "previous_instances": 7,
+      "reason": "用户指定带此编号的模型禁用"
+    },
+    {
+      "source_filename": "S03-B02_Slim_office.glb",
+      "model_ids": [
+        "S03-B02"
+      ],
+      "previous_instances": 12,
+      "reason": "用户指定带此编号的模型禁用"
+    },
+    {
+      "source_filename": "S03-B03_Twin_office.glb",
+      "model_ids": [
+        "S03-B03"
+      ],
+      "previous_instances": 11,
+      "reason": "用户指定带此编号的模型禁用"
+    }
+  ],
+  "excluded_previous_instances": 123,
+  "current_glb_s_marker_count": 0,
+  "scope": "当前场景及本次复用来源；历史Git/LFS对象不在普通提交清理范围内。"
+}

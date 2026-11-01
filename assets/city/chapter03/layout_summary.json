@@ -1,11 +1,10 @@
 {
-  "expanded_triangles": 4946377,
+  "expanded_triangles": 3021414,
   "textures": {
-    "count": 310,
+    "count": 110,
     "missing": 0,
-    "packed": 310
+    "packed": 110
   },
   "unchanged_protected_meshes": 2276,
-  "original_transform_max_error": 0,
-  "notes": "Original visible mesh transforms retained; non-building material meshes, props, background and instanced infrastructure retained. Building centers/heights/axes recorded in replacement_manifest.json."
+  "original_transform_max_error": 0
 }

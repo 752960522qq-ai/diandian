@@ -6,94 +6,114 @@
   "old_polygons_removed": 6933,
   "sources": [
     {
-      "path": "/workspace/work/city_upgrade/high_detail_sources/S02-B01_Raohe_terraced_05.glb",
-      "label": "亚洲白色沿街楼（封闭侧背+空调雨棚）",
-      "tris": 37562,
+      "path": "/workspace/hero_13/delivery/city_updates/v18_20261030/sources/urban_facade_58.glb",
+      "label": "沿街商住楼58",
+      "tris": 22652,
       "texture_size": [
         2048,
         2048
-      ]
+      ],
+      "sha256": "cca470cf0cbc2ff26395f109d27e9b6d7dfeb19441a174571e9b407022b3383e",
+      "s_marker_present": false
     },
     {
-      "path": "/workspace/work/city_upgrade/high_detail_sources/S02-B02_Raohe_terraced_04.glb",
-      "label": "亚洲绿色沿街楼（中高宽体）",
-      "tris": 41335,
+      "path": "/workspace/hero_13/delivery/city_updates/v18_20261030/sources/historic_building_59.glb",
+      "label": "旧街住宅59",
+      "tris": 23279,
       "texture_size": [
         2048,
         2048
-      ]
+      ],
+      "sha256": "b95c832434d15b7a715b8bc2b012ca18d8f6ca933abf325ec969216f6fed243b",
+      "s_marker_present": false
     },
     {
-      "path": "/workspace/work/city_upgrade/high_detail_sources/S02-B03_Raohe_lowrise_01.glb",
-      "label": "亚洲低层商住楼（宽矮）",
-      "tris": 30725,
+      "path": "/workspace/hero_13/delivery/city_updates/v18_20261030/sources/three_story_60.glb",
+      "label": "三层商住楼60",
+      "tris": 21978,
       "texture_size": [
         2048,
         2048
-      ]
+      ],
+      "sha256": "5cbda342cbe5c34d7b993bc71e86f99055cf3c883a38befaf2769b42e88f9c54",
+      "s_marker_present": false
     },
     {
-      "path": "/workspace/work/city_upgrade/high_detail_sources/S02-B04_Raohe_corner.glb",
-      "label": "亚洲转角商住楼（近景最高模）",
-      "tris": 144000,
+      "path": "/workspace/hero_13/delivery/city_updates/v18_20261030/sources/historic_facade_57b.glb",
+      "label": "街角楼57",
+      "tris": 22203,
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "sha256": "1f83e4ebbfb93d118cec9f3e1e7cae5d33a3e8b2c5159615b9e3085e97abea58",
+      "s_marker_present": false
+    },
+    {
+      "path": "/workspace/hero_13/delivery/city_updates/v18_20261030/sources/city_building_62.glb",
+      "label": "城市办公楼62",
+      "tris": 22362,
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "sha256": "abb0d53ee7f83cf26cd55e029e6eba8a1c4861510e5241f89444df019baedf6d",
+      "s_marker_present": false
+    },
+    {
+      "path": "/workspace/hero_13/delivery/city_updates/v18_20261030/sources/historic_storefront_61.glb",
+      "label": "低层店面楼61",
+      "tris": 22029,
+      "texture_size": [
+        2048,
+        2048
+      ],
+      "sha256": "67211a00aae4893d1b6b71fbb262a0cdfabd32831946e68664807a242c61399b",
+      "s_marker_present": false
+    },
+    {
+      "path": "/workspace/hero_13/delivery/city_updates/v16_20261029/sources/04-office-building-3d-model-51.glb",
+      "label": "办公楼51",
+      "tris": 22639,
       "texture_size": [
         4096,
         4096
-      ]
+      ],
+      "sha256": "0c597b7f06286bf3f907caa64609e1b21186a369cd84fd67c985442e0c7f8772",
+      "s_marker_present": false
     },
     {
-      "path": "/workspace/work/city_upgrade/high_detail_sources/S03-B05_Low_office.glb",
-      "label": "低层办公楼（细节丰富宽体）",
-      "tris": 57588,
+      "path": "/workspace/hero_13/delivery/city_updates/v16_20261029/sources/03-hotel-building-3d-model-52.glb",
+      "label": "酒店楼52",
+      "tris": 23374,
       "texture_size": [
-        2048,
-        2048
-      ]
-    },
-    {
-      "path": "/workspace/work/city_upgrade/high_detail_sources/S02-B05_Pitched_roof_house.glb",
-      "label": "亚洲双层坡顶屋（封闭小体量）",
-      "tris": 2523,
-      "texture_size": [
-        2048,
-        2048
-      ]
-    },
-    {
-      "path": "/workspace/work/city_upgrade/high_detail_sources/S03-B02_Slim_office.glb",
-      "label": "窄体写字楼（完整高楼）",
-      "tris": 15806,
-      "texture_size": [
-        2048,
-        2048
-      ]
-    },
-    {
-      "path": "/workspace/work/city_upgrade/high_detail_sources/S03-B03_Twin_office.glb",
-      "label": "玻璃写字楼（完整高楼）",
-      "tris": 6722,
-      "texture_size": [
-        2048,
-        2048
-      ]
+        4096,
+        4096
+      ],
+      "sha256": "7226222a4b6d84d2683c7041073ea7661be3da3863f91536c84adf41b795198b",
+      "s_marker_present": false
     },
     {
       "path": "/workspace/hero_13/delivery/city_updates/v16_20261029/sources/01-apartment-building-54.glb",
-      "label": "黄色多层公寓（高层）",
+      "label": "黄色公寓54",
       "tris": 23183,
       "texture_size": [
         4096,
         4096
-      ]
+      ],
+      "sha256": "560a781538c4c36e76404127f2bb32bbe4baf90a6b37bb4cdd5b87caf8fb8bb5",
+      "s_marker_present": false
     },
     {
       "path": "/workspace/hero_13/delivery/city_updates/v16_20261029/sources/02-pink-high-rise-building-3d-model-53.glb",
-      "label": "粉色高层公寓",
+      "label": "粉色公寓53",
       "tris": 22017,
       "texture_size": [
         4096,
         4096
-      ]
+      ],
+      "sha256": "d54c9946edfcd1b1a1119119f5b139f6d1305e51bd0fb0b69e9da7e9500484e9",
+      "s_marker_present": false
     }
   ],
   "replacements": [
@@ -145,8 +165,8 @@
         ]
       ],
       "replacement_id": 1,
-      "source_index": 0,
-      "source_label": "亚洲白色沿街楼（封闭侧背+空调雨棚）"
+      "source_index": 1,
+      "source_label": "旧街住宅59"
     },
     {
       "object": "Object_6203",
@@ -196,8 +216,8 @@
         ]
       ],
       "replacement_id": 2,
-      "source_index": 4,
-      "source_label": "低层办公楼（细节丰富宽体）"
+      "source_index": 3,
+      "source_label": "街角楼57"
     },
     {
       "object": "Object_5543",
@@ -247,8 +267,8 @@
         ]
       ],
       "replacement_id": 3,
-      "source_index": 0,
-      "source_label": "亚洲白色沿街楼（封闭侧背+空调雨棚）"
+      "source_index": 1,
+      "source_label": "旧街住宅59"
     },
     {
       "object": "Object_5387",
@@ -298,8 +318,8 @@
         ]
       ],
       "replacement_id": 4,
-      "source_index": 6,
-      "source_label": "窄体写字楼（完整高楼）"
+      "source_index": 9,
+      "source_label": "粉色公寓53"
     },
     {
       "object": "Object_6524",
@@ -349,8 +369,8 @@
         ]
       ],
       "replacement_id": 5,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 4,
+      "source_label": "城市办公楼62"
     },
     {
       "object": "Object_5075",
@@ -400,8 +420,8 @@
         ]
       ],
       "replacement_id": 6,
-      "source_index": 7,
-      "source_label": "玻璃写字楼（完整高楼）"
+      "source_index": 8,
+      "source_label": "黄色公寓54"
     },
     {
       "object": "Object_5993",
@@ -451,8 +471,8 @@
         ]
       ],
       "replacement_id": 7,
-      "source_index": 7,
-      "source_label": "玻璃写字楼（完整高楼）"
+      "source_index": 8,
+      "source_label": "黄色公寓54"
     },
     {
       "object": "Object_6290",
@@ -502,8 +522,8 @@
         ]
       ],
       "replacement_id": 8,
-      "source_index": 4,
-      "source_label": "低层办公楼（细节丰富宽体）"
+      "source_index": 3,
+      "source_label": "街角楼57"
     },
     {
       "object": "Object_6458",
@@ -553,8 +573,8 @@
         ]
       ],
       "replacement_id": 9,
-      "source_index": 4,
-      "source_label": "低层办公楼（细节丰富宽体）"
+      "source_index": 3,
+      "source_label": "街角楼57"
     },
     {
       "object": "Object_4769",
@@ -604,8 +624,8 @@
         ]
       ],
       "replacement_id": 10,
-      "source_index": 3,
-      "source_label": "亚洲转角商住楼（近景最高模）"
+      "source_index": 1,
+      "source_label": "旧街住宅59"
     },
     {
       "object": "Object_2900",
@@ -655,8 +675,8 @@
         ]
       ],
       "replacement_id": 11,
-      "source_index": 5,
-      "source_label": "亚洲双层坡顶屋（封闭小体量）"
+      "source_index": 2,
+      "source_label": "三层商住楼60"
     },
     {
       "object": "Object_3245",
@@ -706,8 +726,8 @@
         ]
       ],
       "replacement_id": 12,
-      "source_index": 5,
-      "source_label": "亚洲双层坡顶屋（封闭小体量）"
+      "source_index": 2,
+      "source_label": "三层商住楼60"
     },
     {
       "object": "Object_3404",
@@ -757,8 +777,8 @@
         ]
       ],
       "replacement_id": 13,
-      "source_index": 5,
-      "source_label": "亚洲双层坡顶屋（封闭小体量）"
+      "source_index": 2,
+      "source_label": "三层商住楼60"
     },
     {
       "object": "Object_5804",
@@ -808,8 +828,8 @@
         ]
       ],
       "replacement_id": 14,
-      "source_index": 4,
-      "source_label": "低层办公楼（细节丰富宽体）"
+      "source_index": 3,
+      "source_label": "街角楼57"
     },
     {
       "object": "Object_4958",
@@ -859,8 +879,8 @@
         ]
       ],
       "replacement_id": 15,
-      "source_index": 7,
-      "source_label": "玻璃写字楼（完整高楼）"
+      "source_index": 9,
+      "source_label": "粉色公寓53"
     },
     {
       "object": "Object_6305",
@@ -910,8 +930,8 @@
         ]
       ],
       "replacement_id": 16,
-      "source_index": 7,
-      "source_label": "玻璃写字楼（完整高楼）"
+      "source_index": 9,
+      "source_label": "粉色公寓53"
     },
     {
       "object": "Object_5885",
@@ -961,8 +981,8 @@
         ]
       ],
       "replacement_id": 17,
-      "source_index": 6,
-      "source_label": "窄体写字楼（完整高楼）"
+      "source_index": 8,
+      "source_label": "黄色公寓54"
     },
     {
       "object": "Object_5285",
@@ -1012,8 +1032,8 @@
         ]
       ],
       "replacement_id": 18,
-      "source_index": 3,
-      "source_label": "亚洲转角商住楼（近景最高模）"
+      "source_index": 1,
+      "source_label": "旧街住宅59"
     },
     {
       "object": "Object_6092",
@@ -1063,8 +1083,8 @@
         ]
       ],
       "replacement_id": 19,
-      "source_index": 6,
-      "source_label": "窄体写字楼（完整高楼）"
+      "source_index": 9,
+      "source_label": "粉色公寓53"
     },
     {
       "object": "Object_5282",
@@ -1114,8 +1134,8 @@
         ]
       ],
       "replacement_id": 20,
-      "source_index": 0,
-      "source_label": "亚洲白色沿街楼（封闭侧背+空调雨棚）"
+      "source_index": 1,
+      "source_label": "旧街住宅59"
     },
     {
       "object": "Object_5291",
@@ -1165,8 +1185,8 @@
         ]
       ],
       "replacement_id": 21,
-      "source_index": 7,
-      "source_label": "玻璃写字楼（完整高楼）"
+      "source_index": 8,
+      "source_label": "黄色公寓54"
     },
     {
       "object": "Object_5630",
@@ -1216,8 +1236,8 @@
         ]
       ],
       "replacement_id": 22,
-      "source_index": 4,
-      "source_label": "低层办公楼（细节丰富宽体）"
+      "source_index": 3,
+      "source_label": "街角楼57"
     },
     {
       "object": "Object_7361",
@@ -1267,8 +1287,8 @@
         ]
       ],
       "replacement_id": 23,
-      "source_index": 0,
-      "source_label": "亚洲白色沿街楼（封闭侧背+空调雨棚）"
+      "source_index": 1,
+      "source_label": "旧街住宅59"
     },
     {
       "object": "Object_5537",
@@ -1318,8 +1338,8 @@
         ]
       ],
       "replacement_id": 24,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 4,
+      "source_label": "城市办公楼62"
     },
     {
       "object": "Object_1832",
@@ -1369,8 +1389,8 @@
         ]
       ],
       "replacement_id": 25,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 3,
+      "source_label": "街角楼57"
     },
     {
       "object": "Object_3836",
@@ -1420,8 +1440,8 @@
         ]
       ],
       "replacement_id": 26,
-      "source_index": 0,
-      "source_label": "亚洲白色沿街楼（封闭侧背+空调雨棚）"
+      "source_index": 1,
+      "source_label": "旧街住宅59"
     },
     {
       "object": "Object_1319",
@@ -1471,8 +1491,8 @@
         ]
       ],
       "replacement_id": 27,
-      "source_index": 0,
-      "source_label": "亚洲白色沿街楼（封闭侧背+空调雨棚）"
+      "source_index": 1,
+      "source_label": "旧街住宅59"
     },
     {
       "object": "Object_4859",
@@ -1523,7 +1543,7 @@
       ],
       "replacement_id": 28,
       "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_label": "三层商住楼60"
     },
     {
       "object": "Object_6203",
@@ -1573,8 +1593,8 @@
         ]
       ],
       "replacement_id": 29,
-      "source_index": 6,
-      "source_label": "窄体写字楼（完整高楼）"
+      "source_index": 9,
+      "source_label": "粉色公寓53"
     },
     {
       "object": "Object_7073",
@@ -1624,8 +1644,8 @@
         ]
       ],
       "replacement_id": 30,
-      "source_index": 4,
-      "source_label": "低层办公楼（细节丰富宽体）"
+      "source_index": 3,
+      "source_label": "街角楼57"
     },
     {
       "object": "Object_6761",
@@ -1675,8 +1695,8 @@
         ]
       ],
       "replacement_id": 31,
-      "source_index": 4,
-      "source_label": "低层办公楼（细节丰富宽体）"
+      "source_index": 3,
+      "source_label": "街角楼57"
     },
     {
       "object": "Object_2039",
@@ -1727,7 +1747,7 @@
       ],
       "replacement_id": 32,
       "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_label": "三层商住楼60"
     },
     {
       "object": "Object_5837",
@@ -1777,8 +1797,8 @@
         ]
       ],
       "replacement_id": 33,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 5,
+      "source_label": "低层店面楼61"
     },
     {
       "object": "Object_6320",
@@ -1828,8 +1848,8 @@
         ]
       ],
       "replacement_id": 34,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 0,
+      "source_label": "沿街商住楼58"
     },
     {
       "object": "Object_2570",
@@ -1880,7 +1900,7 @@
       ],
       "replacement_id": 35,
       "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_label": "三层商住楼60"
     },
     {
       "object": "Object_5054",
@@ -1930,8 +1950,8 @@
         ]
       ],
       "replacement_id": 36,
-      "source_index": 7,
-      "source_label": "玻璃写字楼（完整高楼）"
+      "source_index": 8,
+      "source_label": "黄色公寓54"
     },
     {
       "object": "Object_3836",
@@ -1982,7 +2002,7 @@
       ],
       "replacement_id": 37,
       "source_index": 3,
-      "source_label": "亚洲转角商住楼（近景最高模）"
+      "source_label": "街角楼57"
     },
     {
       "object": "Object_5693",
@@ -2032,8 +2052,8 @@
         ]
       ],
       "replacement_id": 38,
-      "source_index": 4,
-      "source_label": "低层办公楼（细节丰富宽体）"
+      "source_index": 1,
+      "source_label": "旧街住宅59"
     },
     {
       "object": "Object_3404",
@@ -2083,8 +2103,8 @@
         ]
       ],
       "replacement_id": 39,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 4,
+      "source_label": "城市办公楼62"
     },
     {
       "object": "Object_4868",
@@ -2135,7 +2155,7 @@
       ],
       "replacement_id": 40,
       "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_label": "三层商住楼60"
     },
     {
       "object": "Object_1544",
@@ -2186,7 +2206,7 @@
       ],
       "replacement_id": 41,
       "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_label": "三层商住楼60"
     },
     {
       "object": "Object_6524",
@@ -2236,8 +2256,8 @@
         ]
       ],
       "replacement_id": 42,
-      "source_index": 4,
-      "source_label": "低层办公楼（细节丰富宽体）"
+      "source_index": 1,
+      "source_label": "旧街住宅59"
     },
     {
       "object": "Object_4634",
@@ -2287,8 +2307,8 @@
         ]
       ],
       "replacement_id": 43,
-      "source_index": 4,
-      "source_label": "低层办公楼（细节丰富宽体）"
+      "source_index": 1,
+      "source_label": "旧街住宅59"
     },
     {
       "object": "Object_2192",
@@ -2338,8 +2358,8 @@
         ]
       ],
       "replacement_id": 44,
-      "source_index": 1,
-      "source_label": "亚洲绿色沿街楼（中高宽体）"
+      "source_index": 4,
+      "source_label": "城市办公楼62"
     },
     {
       "object": "Object_6215",
@@ -2389,8 +2409,8 @@
         ]
       ],
       "replacement_id": 45,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 5,
+      "source_label": "低层店面楼61"
     },
     {
       "object": "Object_5141",
@@ -2441,7 +2461,7 @@
       ],
       "replacement_id": 46,
       "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_label": "三层商住楼60"
     },
     {
       "object": "Object_4796",
@@ -2491,8 +2511,8 @@
         ]
       ],
       "replacement_id": 47,
-      "source_index": 6,
-      "source_label": "窄体写字楼（完整高楼）"
+      "source_index": 9,
+      "source_label": "粉色公寓53"
     },
     {
       "object": "Object_5141",
@@ -2542,8 +2562,8 @@
         ]
       ],
       "replacement_id": 48,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 0,
+      "source_label": "沿街商住楼58"
     },
     {
       "object": "Object_4496",
@@ -2593,8 +2613,8 @@
         ]
       ],
       "replacement_id": 49,
-      "source_index": 1,
-      "source_label": "亚洲绿色沿街楼（中高宽体）"
+      "source_index": 4,
+      "source_label": "城市办公楼62"
     },
     {
       "object": "Object_2381",
@@ -2645,7 +2665,7 @@
       ],
       "replacement_id": 50,
       "source_index": 1,
-      "source_label": "亚洲绿色沿街楼（中高宽体）"
+      "source_label": "旧街住宅59"
     },
     {
       "object": "Object_2444",
@@ -2695,8 +2715,8 @@
         ]
       ],
       "replacement_id": 51,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 5,
+      "source_label": "低层店面楼61"
     },
     {
       "object": "Object_4088",
@@ -2746,8 +2766,8 @@
         ]
       ],
       "replacement_id": 52,
-      "source_index": 4,
-      "source_label": "低层办公楼（细节丰富宽体）"
+      "source_index": 3,
+      "source_label": "街角楼57"
     },
     {
       "object": "Object_5033",
@@ -2797,8 +2817,8 @@
         ]
       ],
       "replacement_id": 53,
-      "source_index": 5,
-      "source_label": "亚洲双层坡顶屋（封闭小体量）"
+      "source_index": 2,
+      "source_label": "三层商住楼60"
     },
     {
       "object": "Object_3593",
@@ -2848,8 +2868,8 @@
         ]
       ],
       "replacement_id": 54,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 4,
+      "source_label": "城市办公楼62"
     },
     {
       "object": "Object_5627",
@@ -2899,8 +2919,8 @@
         ]
       ],
       "replacement_id": 55,
-      "source_index": 6,
-      "source_label": "窄体写字楼（完整高楼）"
+      "source_index": 8,
+      "source_label": "黄色公寓54"
     },
     {
       "object": "Object_4493",
@@ -2950,8 +2970,8 @@
         ]
       ],
       "replacement_id": 56,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 3,
+      "source_label": "街角楼57"
     },
     {
       "object": "Object_6203",
@@ -3001,8 +3021,8 @@
         ]
       ],
       "replacement_id": 57,
-      "source_index": 6,
-      "source_label": "窄体写字楼（完整高楼）"
+      "source_index": 8,
+      "source_label": "黄色公寓54"
     },
     {
       "object": "Object_7235",
@@ -3052,8 +3072,8 @@
         ]
       ],
       "replacement_id": 58,
-      "source_index": 4,
-      "source_label": "低层办公楼（细节丰富宽体）"
+      "source_index": 1,
+      "source_label": "旧街住宅59"
     },
     {
       "object": "Object_6452",
@@ -3103,8 +3123,8 @@
         ]
       ],
       "replacement_id": 59,
-      "source_index": 7,
-      "source_label": "玻璃写字楼（完整高楼）"
+      "source_index": 8,
+      "source_label": "黄色公寓54"
     },
     {
       "object": "Object_4958",
@@ -3154,8 +3174,8 @@
         ]
       ],
       "replacement_id": 60,
-      "source_index": 7,
-      "source_label": "玻璃写字楼（完整高楼）"
+      "source_index": 8,
+      "source_label": "黄色公寓54"
     },
     {
       "object": "Object_1238",
@@ -3205,8 +3225,8 @@
         ]
       ],
       "replacement_id": 61,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 5,
+      "source_label": "低层店面楼61"
     },
     {
       "object": "Object_7364",
@@ -3256,8 +3276,8 @@
         ]
       ],
       "replacement_id": 62,
-      "source_index": 4,
-      "source_label": "低层办公楼（细节丰富宽体）"
+      "source_index": 3,
+      "source_label": "街角楼57"
     },
     {
       "object": "Object_5801",
@@ -3307,8 +3327,8 @@
         ]
       ],
       "replacement_id": 63,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 3,
+      "source_label": "街角楼57"
     },
     {
       "object": "Object_5456",
@@ -3358,8 +3378,8 @@
         ]
       ],
       "replacement_id": 64,
-      "source_index": 6,
-      "source_label": "窄体写字楼（完整高楼）"
+      "source_index": 9,
+      "source_label": "粉色公寓53"
     },
     {
       "object": "Object_1337",
@@ -3410,7 +3430,7 @@
       ],
       "replacement_id": 65,
       "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_label": "三层商住楼60"
     },
     {
       "object": "Object_3455",
@@ -3460,8 +3480,8 @@
         ]
       ],
       "replacement_id": 66,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 5,
+      "source_label": "低层店面楼61"
     },
     {
       "object": "Object_5459",
@@ -3512,7 +3532,7 @@
       ],
       "replacement_id": 67,
       "source_index": 8,
-      "source_label": "黄色多层公寓（高层）"
+      "source_label": "黄色公寓54"
     },
     {
       "object": "Object_7367",
@@ -3562,8 +3582,8 @@
         ]
       ],
       "replacement_id": 68,
-      "source_index": 6,
-      "source_label": "窄体写字楼（完整高楼）"
+      "source_index": 8,
+      "source_label": "黄色公寓54"
     },
     {
       "object": "Object_6389",
@@ -3613,8 +3633,8 @@
         ]
       ],
       "replacement_id": 69,
-      "source_index": 7,
-      "source_label": "玻璃写字楼（完整高楼）"
+      "source_index": 8,
+      "source_label": "黄色公寓54"
     },
     {
       "object": "Object_1874",
@@ -3664,8 +3684,8 @@
         ]
       ],
       "replacement_id": 70,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 5,
+      "source_label": "低层店面楼61"
     },
     {
       "object": "Object_6017",
@@ -3715,8 +3735,8 @@
         ]
       ],
       "replacement_id": 71,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 0,
+      "source_label": "沿街商住楼58"
     },
     {
       "object": "Object_2252",
@@ -3766,8 +3786,8 @@
         ]
       ],
       "replacement_id": 72,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 5,
+      "source_label": "低层店面楼61"
     },
     {
       "object": "Object_5627",
@@ -3817,8 +3837,8 @@
         ]
       ],
       "replacement_id": 73,
-      "source_index": 4,
-      "source_label": "低层办公楼（细节丰富宽体）"
+      "source_index": 3,
+      "source_label": "街角楼57"
     },
     {
       "object": "Object_2087",
@@ -3868,8 +3888,8 @@
         ]
       ],
       "replacement_id": 74,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 5,
+      "source_label": "低层店面楼61"
     },
     {
       "object": "Object_1592",
@@ -3920,7 +3940,7 @@
       ],
       "replacement_id": 75,
       "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_label": "三层商住楼60"
     },
     {
       "object": "Object_6920",
@@ -3971,7 +3991,7 @@
       ],
       "replacement_id": 76,
       "source_index": 3,
-      "source_label": "亚洲转角商住楼（近景最高模）"
+      "source_label": "街角楼57"
     },
     {
       "object": "Object_3761",
@@ -4021,8 +4041,8 @@
         ]
       ],
       "replacement_id": 77,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 3,
+      "source_label": "街角楼57"
     },
     {
       "object": "Object_4100",
@@ -4072,8 +4092,8 @@
         ]
       ],
       "replacement_id": 78,
-      "source_index": 6,
-      "source_label": "窄体写字楼（完整高楼）"
+      "source_index": 8,
+      "source_label": "黄色公寓54"
     },
     {
       "object": "Object_5048",
@@ -4123,8 +4143,8 @@
         ]
       ],
       "replacement_id": 79,
-      "source_index": 4,
-      "source_label": "低层办公楼（细节丰富宽体）"
+      "source_index": 3,
+      "source_label": "街角楼57"
     },
     {
       "object": "Object_4775",
@@ -4175,7 +4195,7 @@
       ],
       "replacement_id": 80,
       "source_index": 9,
-      "source_label": "粉色高层公寓"
+      "source_label": "粉色公寓53"
     },
     {
       "object": "Object_7223",
@@ -4226,7 +4246,7 @@
       ],
       "replacement_id": 81,
       "source_index": 5,
-      "source_label": "亚洲双层坡顶屋（封闭小体量）"
+      "source_label": "低层店面楼61"
     },
     {
       "object": "Object_4085",
@@ -4277,7 +4297,7 @@
       ],
       "replacement_id": 82,
       "source_index": 5,
-      "source_label": "亚洲双层坡顶屋（封闭小体量）"
+      "source_label": "低层店面楼61"
     },
     {
       "object": "Object_6527",
@@ -4327,8 +4347,8 @@
         ]
       ],
       "replacement_id": 83,
-      "source_index": 6,
-      "source_label": "窄体写字楼（完整高楼）"
+      "source_index": 9,
+      "source_label": "粉色公寓53"
     },
     {
       "object": "Object_4505",
@@ -4379,7 +4399,7 @@
       ],
       "replacement_id": 84,
       "source_index": 9,
-      "source_label": "粉色高层公寓"
+      "source_label": "粉色公寓53"
     },
     {
       "object": "Object_6917",
@@ -4429,8 +4449,8 @@
         ]
       ],
       "replacement_id": 85,
-      "source_index": 4,
-      "source_label": "低层办公楼（细节丰富宽体）"
+      "source_index": 1,
+      "source_label": "旧街住宅59"
     },
     {
       "object": "Object_4700",
@@ -4480,8 +4500,8 @@
         ]
       ],
       "replacement_id": 86,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 0,
+      "source_label": "沿街商住楼58"
     },
     {
       "object": "Object_5051",
@@ -4531,8 +4551,8 @@
         ]
       ],
       "replacement_id": 87,
-      "source_index": 7,
-      "source_label": "玻璃写字楼（完整高楼）"
+      "source_index": 8,
+      "source_label": "黄色公寓54"
     },
     {
       "object": "Object_3128",
@@ -4582,8 +4602,8 @@
         ]
       ],
       "replacement_id": 88,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 5,
+      "source_label": "低层店面楼61"
     },
     {
       "object": "Object_3293",
@@ -4633,8 +4653,8 @@
         ]
       ],
       "replacement_id": 89,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 5,
+      "source_label": "低层店面楼61"
     },
     {
       "object": "Object_4700",
@@ -4685,7 +4705,7 @@
       ],
       "replacement_id": 90,
       "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_label": "三层商住楼60"
     },
     {
       "object": "Object_3677",
@@ -4736,7 +4756,7 @@
       ],
       "replacement_id": 91,
       "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_label": "三层商住楼60"
     },
     {
       "object": "Object_4295",
@@ -4787,7 +4807,7 @@
       ],
       "replacement_id": 92,
       "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_label": "三层商住楼60"
     },
     {
       "object": "Object_3842",
@@ -4837,8 +4857,8 @@
         ]
       ],
       "replacement_id": 93,
-      "source_index": 7,
-      "source_label": "玻璃写字楼（完整高楼）"
+      "source_index": 8,
+      "source_label": "黄色公寓54"
     },
     {
       "object": "Object_7214",
@@ -4889,7 +4909,7 @@
       ],
       "replacement_id": 94,
       "source_index": 5,
-      "source_label": "亚洲双层坡顶屋（封闭小体量）"
+      "source_label": "低层店面楼61"
     },
     {
       "object": "Object_2612",
@@ -4939,8 +4959,8 @@
         ]
       ],
       "replacement_id": 95,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 5,
+      "source_label": "低层店面楼61"
     },
     {
       "object": "Object_2438",
@@ -4990,8 +5010,8 @@
         ]
       ],
       "replacement_id": 96,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 5,
+      "source_label": "低层店面楼61"
     },
     {
       "object": "Object_3581",
@@ -5041,8 +5061,8 @@
         ]
       ],
       "replacement_id": 97,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 5,
+      "source_label": "低层店面楼61"
     },
     {
       "object": "Object_4769",
@@ -5092,8 +5112,8 @@
         ]
       ],
       "replacement_id": 98,
-      "source_index": 6,
-      "source_label": "窄体写字楼（完整高楼）"
+      "source_index": 9,
+      "source_label": "粉色公寓53"
     },
     {
       "object": "Object_6914",
@@ -5143,8 +5163,8 @@
         ]
       ],
       "replacement_id": 99,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 5,
+      "source_label": "低层店面楼61"
     },
     {
       "object": "Object_4487",
@@ -5194,8 +5214,8 @@
         ]
       ],
       "replacement_id": 100,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 5,
+      "source_label": "低层店面楼61"
     },
     {
       "object": "Object_6917",
@@ -5246,7 +5266,7 @@
       ],
       "replacement_id": 101,
       "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_label": "三层商住楼60"
     },
     {
       "object": "Object_1595",
@@ -5296,8 +5316,8 @@
         ]
       ],
       "replacement_id": 102,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 0,
+      "source_label": "沿街商住楼58"
     },
     {
       "object": "Object_2447",
@@ -5347,8 +5367,8 @@
         ]
       ],
       "replacement_id": 103,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 5,
+      "source_label": "低层店面楼61"
     },
     {
       "object": "Object_3788",
@@ -5398,8 +5418,8 @@
         ]
       ],
       "replacement_id": 104,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 3,
+      "source_label": "街角楼57"
     },
     {
       "object": "Object_4631",
@@ -5449,8 +5469,8 @@
         ]
       ],
       "replacement_id": 105,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 5,
+      "source_label": "低层店面楼61"
     },
     {
       "object": "Object_3749",
@@ -5500,8 +5520,8 @@
         ]
       ],
       "replacement_id": 106,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 0,
+      "source_label": "沿街商住楼58"
     },
     {
       "object": "Object_2087",
@@ -5551,8 +5571,8 @@
         ]
       ],
       "replacement_id": 107,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 4,
+      "source_label": "城市办公楼62"
     },
     {
       "object": "Object_7217",
@@ -5602,8 +5622,8 @@
         ]
       ],
       "replacement_id": 108,
-      "source_index": 4,
-      "source_label": "低层办公楼（细节丰富宽体）"
+      "source_index": 3,
+      "source_label": "街角楼57"
     },
     {
       "object": "Object_3581",
@@ -5653,8 +5673,8 @@
         ]
       ],
       "replacement_id": 109,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 4,
+      "source_label": "城市办公楼62"
     },
     {
       "object": "Object_2810",
@@ -5704,8 +5724,8 @@
         ]
       ],
       "replacement_id": 110,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 4,
+      "source_label": "城市办公楼62"
     },
     {
       "object": "Object_2612",
@@ -5755,8 +5775,8 @@
         ]
       ],
       "replacement_id": 111,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 0,
+      "source_label": "沿街商住楼58"
     },
     {
       "object": "Object_4076",
@@ -5806,8 +5826,8 @@
         ]
       ],
       "replacement_id": 112,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 5,
+      "source_label": "低层店面楼61"
     },
     {
       "object": "Object_1874",
@@ -5857,8 +5877,8 @@
         ]
       ],
       "replacement_id": 113,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 4,
+      "source_label": "城市办公楼62"
     },
     {
       "object": "Object_5288",
@@ -5908,8 +5928,8 @@
         ]
       ],
       "replacement_id": 114,
-      "source_index": 4,
-      "source_label": "低层办公楼（细节丰富宽体）"
+      "source_index": 3,
+      "source_label": "街角楼57"
     },
     {
       "object": "Object_6758",
@@ -5959,8 +5979,8 @@
         ]
       ],
       "replacement_id": 115,
-      "source_index": 4,
-      "source_label": "低层办公楼（细节丰富宽体）"
+      "source_index": 1,
+      "source_label": "旧街住宅59"
     },
     {
       "object": "Object_5033",
@@ -6011,7 +6031,7 @@
       ],
       "replacement_id": 116,
       "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_label": "三层商住楼60"
     },
     {
       "object": "Object_5447",
@@ -6062,7 +6082,7 @@
       ],
       "replacement_id": 117,
       "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_label": "三层商住楼60"
     },
     {
       "object": "Object_3248",
@@ -6112,8 +6132,8 @@
         ]
       ],
       "replacement_id": 118,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 5,
+      "source_label": "低层店面楼61"
     },
     {
       "object": "Object_2384",
@@ -6163,8 +6183,8 @@
         ]
       ],
       "replacement_id": 119,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 5,
+      "source_label": "低层店面楼61"
     },
     {
       "object": "Object_4301",
@@ -6214,8 +6234,8 @@
         ]
       ],
       "replacement_id": 120,
-      "source_index": 4,
-      "source_label": "低层办公楼（细节丰富宽体）"
+      "source_index": 1,
+      "source_label": "旧街住宅59"
     },
     {
       "object": "Object_4499",
@@ -6265,8 +6285,8 @@
         ]
       ],
       "replacement_id": 121,
-      "source_index": 4,
-      "source_label": "低层办公楼（细节丰富宽体）"
+      "source_index": 3,
+      "source_label": "街角楼57"
     },
     {
       "object": "Object_1316",
@@ -6316,8 +6336,8 @@
         ]
       ],
       "replacement_id": 122,
-      "source_index": 2,
-      "source_label": "亚洲低层商住楼（宽矮）"
+      "source_index": 3,
+      "source_label": "街角楼57"
     },
     {
       "object": "Object_7064",
@@ -6368,7 +6388,7 @@
       ],
       "replacement_id": 123,
       "source_index": 3,
-      "source_label": "亚洲转角商住楼（近景最高模）"
+      "source_label": "街角楼57"
     },
     {
       "object": "Object_4493",
@@ -6419,7 +6439,7 @@
       ],
       "replacement_id": 124,
       "source_index": 3,
-      "source_label": "亚洲转角商住楼（近景最高模）"
+      "source_label": "街角楼57"
     },
     {
       "object": "Object_7214",
@@ -6470,7 +6490,7 @@
       ],
       "replacement_id": 125,
       "source_index": 3,
-      "source_label": "亚洲转角商住楼（近景最高模）"
+      "source_label": "街角楼57"
     },
     {
       "object": "Object_4076",
@@ -6521,7 +6541,7 @@
       ],
       "replacement_id": 126,
       "source_index": 3,
-      "source_label": "亚洲转角商住楼（近景最高模）"
+      "source_label": "街角楼57"
     }
   ]
 }
