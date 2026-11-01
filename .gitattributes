@@ -1,0 +1,2 @@
+assets/city/chapter03/*.glb filter=lfs diff=lfs merge=lfs -text
+assets/city/chapter03/*.blend filter=lfs diff=lfs merge=lfs -text
