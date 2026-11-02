@@ -6,3 +6,6 @@ assets/characters/diandian_classic/source_animations/*.fbx filter=lfs diff=lfs m
 assets/characters/diandian_classic/source_hair/*.glb filter=lfs diff=lfs merge=lfs -text
 assets/characters/diandian_classic/source_head/*.glb filter=lfs diff=lfs merge=lfs -text
 assets/characters/zhigeng_head2/*.glb filter=lfs diff=lfs merge=lfs -text
+assets/characters/zhigeng/*.glb filter=lfs diff=lfs merge=lfs -text
+assets/characters/zhigeng/*.blend filter=lfs diff=lfs merge=lfs -text
+assets/characters/zhigeng/source/*.glb filter=lfs diff=lfs merge=lfs -text

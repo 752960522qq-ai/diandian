@@ -1,0 +1,18 @@
+{
+  "head_source": "../zhigeng_head2/zhigeng_head2_cleaned.glb",
+  "head_uniform_scale_xyz": [
+    0.125,
+    0.125,
+    0.125
+  ],
+  "source_files": [
+    {
+      "filename": "zhigeng.glb",
+      "sha256": "5471f03a4ba75404198cdc38dd39cb29fa99479841c13920b566a59d83269bd4"
+    },
+    {
+      "filename": "zhi geng brown hair.glb",
+      "sha256": "86813053d3f82615eef3a42b22b20fdff5ec1ccfec1241704f99411704bb2a81"
+    }
+  ]
+}
