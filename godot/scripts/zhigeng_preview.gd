@@ -1,12 +1,20 @@
 extends Node3D
 
 const MODEL := "res://assets/characters/zhigeng/zhigeng_character_animated.glb"
+const MOTION_LABELS := {
+	"Idle": "待机", "Walk": "走路", "Run": "跑步", "HeadStress": "转头",
+	"FiringRifle": "步枪射击", "WomanIdle": "女性待机", "StandingIdle": "站立待机",
+	"Talking": "交谈", "RifleRun": "持步枪跑", "RifleAimingIdle": "步枪瞄准",
+	"RifleIdle": "持步枪待机", "Reloading": "换弹", "PistolIdle": "持手枪待机"
+}
 const PONYTAIL := preload("res://godot/scripts/zhigeng_ponytail_physics.gd")
 @export_file("*.glb") var model_path := MODEL
 var skeleton: Skeleton3D
 var animation: AnimationPlayer
 var ponytail
 var camera: Camera3D
+var controls_panel: PanelContainer
+var motion_grid: GridContainer
 var yaw := 0.0
 var pitch := -0.04
 var camera_distance := 1.7
@@ -21,8 +29,8 @@ func _ready() -> void:
 	skeleton = model.find_children("*", "Skeleton3D", true, false)[0]
 	animation = model.find_children("*", "AnimationPlayer", true, false)[0]
 	animation.callback_mode_process = AnimationMixer.ANIMATION_CALLBACK_MODE_PROCESS_PHYSICS
-	for name in ["Idle", "Walk", "Run", "HeadStress"]:
-		animation.get_animation(name).loop_mode = Animation.LOOP_LINEAR
+	for name in animation.get_animation_list():
+		animation.get_animation(name).loop_mode = Animation.LOOP_NONE if name.get_file() in ["Reloading", "Talking"] else Animation.LOOP_LINEAR
 	animation.play("Idle")
 	animation.advance(0)
 	ponytail = PONYTAIL.new()
@@ -71,27 +79,49 @@ func build_stage() -> void:
 func build_controls() -> void:
 	var layer := CanvasLayer.new()
 	add_child(layer)
-	var panel := PanelContainer.new()
-	panel.position = Vector2(20, 20)
-	layer.add_child(panel)
-	var buttons := HBoxContainer.new()
-	buttons.add_theme_constant_override("separation", 10)
-	panel.add_child(buttons)
-	for item in [["待机", "Idle"], ["走路", "Walk"], ["跑步", "Run"], ["转头", "HeadStress"]]:
+	controls_panel = PanelContainer.new()
+	layer.add_child(controls_panel)
+	var layout := VBoxContainer.new()
+	layout.add_theme_constant_override("separation", 8)
+	controls_panel.add_child(layout)
+	var scroll := ScrollContainer.new()
+	scroll.size_flags_vertical = Control.SIZE_EXPAND_FILL
+	scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
+	layout.add_child(scroll)
+	motion_grid = GridContainer.new()
+	motion_grid.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	motion_grid.add_theme_constant_override("h_separation", 6)
+	motion_grid.add_theme_constant_override("v_separation", 6)
+	scroll.add_child(motion_grid)
+	for name in animation.get_animation_list():
+		if name == "RESET":
+			continue
 		var button := Button.new()
-		button.text = item[0]
-		button.pressed.connect(play_motion.bind(item[1]))
-		buttons.add_child(button)
+		button.text = MOTION_LABELS.get(name.get_file(), name.get_file())
+		button.custom_minimum_size.y = 40
+		button.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		button.pressed.connect(play_motion.bind(name))
+		motion_grid.add_child(button)
+	var options := HBoxContainer.new()
+	layout.add_child(options)
 	var toggle := CheckButton.new()
 	toggle.text = "马尾物理"
 	toggle.button_pressed = true
 	toggle.toggled.connect(ponytail.set_simulation_enabled)
-	buttons.add_child(toggle)
+	options.add_child(toggle)
 	for item in [["正面", 0.0], ["背面", PI]]:
 		var button := Button.new()
 		button.text = item[0]
 		button.pressed.connect(func(): yaw = item[1]; update_camera())
-		buttons.add_child(button)
+		options.add_child(button)
+	get_viewport().size_changed.connect(resize_controls)
+	resize_controls()
+
+func resize_controls() -> void:
+	var viewport_size := get_viewport().get_visible_rect().size
+	controls_panel.position = Vector2(12, 12)
+	controls_panel.size = Vector2(minf(viewport_size.x - 24, 560), minf(viewport_size.y * 0.45, 300))
+	motion_grid.columns = 2 if viewport_size.x < 420 else 4
 
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseMotion and Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT):

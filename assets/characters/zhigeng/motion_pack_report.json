@@ -1,0 +1,1075 @@
+{
+  "character": "Zhigeng",
+  "bones": 315,
+  "geometry_weights_rest_identical": true,
+  "source_retarget": {
+    "NewIdle": {
+      "source_path": "/workspace/attachments/de82a766-6c80-41b0-beeb-c6c86574d090/woman_idle.fbx",
+      "source_fps": 30.0,
+      "source_frame_range": [
+        1.0,
+        251.0
+      ],
+      "duration_seconds": 8.333333333333334,
+      "target_fps": 30,
+      "baked_samples": 251,
+      "mapped_body_bones": 65,
+      "translation_leg_ratio": 0.5601220372330082,
+      "removed_horizontal_travel_source_m": [
+        3.3527612686157227e-08,
+        -9.313225746154785e-09,
+        0.0
+      ],
+      "pelvis_translation_range_m": [
+        [
+          -0.0015063410392031074,
+          0.0037690054159611464
+        ],
+        [
+          -0.003364546922966838,
+          0.0002790921425912529
+        ],
+        [
+          -3.639060378191061e-05,
+          0.0005942685529589653
+        ]
+      ],
+      "chest_world_rotation_range_deg": [
+        3.0410121677973585,
+        0.6243407618416955,
+        0.42582862405212096
+      ],
+      "body_motion_preserved": "Original source hips rotation, spine, clavicle, arms and hand motion baked without rigid body stabilization."
+    },
+    "StandingIdle": {
+      "source_path": "/workspace/attachments/6173d59b-6fea-4212-bca3-c7ff8b80b72e/woman_Standing Idle.fbx",
+      "source_fps": 30.0,
+      "source_frame_range": [
+        1.0,
+        181.0
+      ],
+      "duration_seconds": 6.0,
+      "target_fps": 30,
+      "baked_samples": 181,
+      "mapped_body_bones": 65,
+      "translation_leg_ratio": 0.5601220372330082,
+      "removed_horizontal_travel_source_m": [
+        -4.842877388000488e-08,
+        2.7939677238464355e-09,
+        0.0
+      ],
+      "pelvis_translation_range_m": [
+        [
+          -0.0035790842957794666,
+          0.0026095968205481768
+        ],
+        [
+          -0.002652533818036318,
+          0.0024883875157684088
+        ],
+        [
+          -0.00017460812523495406,
+          0.00011958819959545508
+        ]
+      ],
+      "chest_world_rotation_range_deg": [
+        1.0949830574510635,
+        0.33993125791554146,
+        2.9349249225567804
+      ],
+      "body_motion_preserved": "Original source hips rotation, spine, clavicle, arms and hand motion baked without rigid body stabilization."
+    },
+    "Talking": {
+      "source_path": "/workspace/attachments/048df1ec-f7cc-4ed6-baa8-da6aa8acb9c1/Talking.fbx",
+      "source_fps": 30.0,
+      "source_frame_range": [
+        1.0,
+        119.0
+      ],
+      "duration_seconds": 3.933333333333333,
+      "target_fps": 30,
+      "baked_samples": 119,
+      "mapped_body_bones": 65,
+      "translation_leg_ratio": 0.5601220372330082,
+      "removed_horizontal_travel_source_m": [
+        -2.0023435354232788e-08,
+        -5.587935447692871e-09,
+        0.0
+      ],
+      "pelvis_translation_range_m": [
+        [
+          -0.044660914689302444,
+          0.027121543884277344
+        ],
+        [
+          -0.007011538837105036,
+          0.005657767411321402
+        ],
+        [
+          -0.0006044846377335489,
+          0.005241648759692907
+        ]
+      ],
+      "chest_world_rotation_range_deg": [
+        17.33073587733547,
+        8.158954928518806,
+        8.672500363708522
+      ],
+      "body_motion_preserved": "Original source hips rotation, spine, clavicle, arms and hand motion baked without rigid body stabilization."
+    },
+    "RifleIdle": {
+      "source_path": "/workspace/attachments/5dc90eef-07bf-4e13-8523-53d307280f71/Rifle Idle.fbx",
+      "source_fps": 30.0,
+      "source_frame_range": [
+        1.0,
+        258.0
+      ],
+      "duration_seconds": 8.566666666666666,
+      "target_fps": 30,
+      "baked_samples": 258,
+      "mapped_body_bones": 65,
+      "translation_leg_ratio": 0.5601220372330082,
+      "removed_horizontal_travel_source_m": [
+        -3.220047801733017e-06,
+        -1.9414350390434265e-05,
+        0.0
+      ],
+      "pelvis_translation_range_m": [
+        [
+          -0.0009021472651511431,
+          0.041782196611166
+        ],
+        [
+          -0.026364952325820923,
+          0.0
+        ],
+        [
+          -0.00046653419849462807,
+          0.0023153771180659533
+        ]
+      ],
+      "chest_world_rotation_range_deg": [
+        1.1112375202935187,
+        1.516977093908231,
+        3.7903508342572825
+      ],
+      "body_motion_preserved": "Original source hips rotation, spine, clavicle, arms and hand motion baked without rigid body stabilization."
+    },
+    "RifleAimingIdle": {
+      "source_path": "/workspace/attachments/85f616c1-78cb-4363-90da-75719d28a679/Rifle Aiming Idle.fbx",
+      "source_fps": 30.0,
+      "source_frame_range": [
+        1.0,
+        94.0
+      ],
+      "duration_seconds": 3.1,
+      "target_fps": 30,
+      "baked_samples": 94,
+      "mapped_body_bones": 65,
+      "translation_leg_ratio": 0.5601220372330082,
+      "removed_horizontal_travel_source_m": [
+        1.2051314115524292e-06,
+        1.1064112186431885e-06,
+        0.0
+      ],
+      "pelvis_translation_range_m": [
+        [
+          -0.0009604970691725612,
+          0.00033815152710303664
+        ],
+        [
+          -0.00037421126035042107,
+          0.001312123378738761
+        ],
+        [
+          -9.948990191332996e-05,
+          0.0014277802547439933
+        ]
+      ],
+      "chest_world_rotation_range_deg": [
+        3.5579599443282395,
+        1.053843707502166,
+        0.15776370944895451
+      ],
+      "body_motion_preserved": "Original source hips rotation, spine, clavicle, arms and hand motion baked without rigid body stabilization."
+    },
+    "FiringRifle": {
+      "source_path": "/workspace/attachments/d0c5e989-7a33-4f5f-9393-d8fcbe1244e5/Firing Rifle.fbx",
+      "source_fps": 30.0,
+      "source_frame_range": [
+        1.0,
+        9.0
+      ],
+      "duration_seconds": 0.26666666666666666,
+      "target_fps": 30,
+      "baked_samples": 9,
+      "mapped_body_bones": 65,
+      "translation_leg_ratio": 0.5601220372330082,
+      "removed_horizontal_travel_source_m": [
+        4.980713129043579e-06,
+        -4.186760634183884e-06,
+        0.0
+      ],
+      "pelvis_translation_range_m": [
+        [
+          -0.0019779219292104244,
+          0.0
+        ],
+        [
+          -0.00023318800958804786,
+          0.004585816990584135
+        ],
+        [
+          -0.00010710188507800922,
+          0.00020331997075118124
+        ]
+      ],
+      "chest_world_rotation_range_deg": [
+        1.5439403562192873,
+        1.3187690562842274,
+        1.3998028741645083
+      ],
+      "body_motion_preserved": "Original source hips rotation, spine, clavicle, arms and hand motion baked without rigid body stabilization."
+    },
+    "RifleRun": {
+      "source_path": "/workspace/attachments/7a56a006-7fb6-4a07-990e-798c1595e198/Rifle Run.fbx",
+      "source_fps": 30.0,
+      "source_frame_range": [
+        1.0,
+        21.0
+      ],
+      "duration_seconds": 0.6666666666666666,
+      "target_fps": 30,
+      "baked_samples": 21,
+      "mapped_body_bones": 65,
+      "translation_leg_ratio": 0.5601220372330082,
+      "removed_horizontal_travel_source_m": [
+        4.706112667918205e-05,
+        -2.890933036804199,
+        0.0
+      ],
+      "pelvis_translation_range_m": [
+        [
+          -0.005050688050687313,
+          0.015321061946451664
+        ],
+        [
+          0.0,
+          0.03911930322647095
+        ],
+        [
+          0.0,
+          0.02210872620344162
+        ]
+      ],
+      "chest_world_rotation_range_deg": [
+        4.961456243286432,
+        22.883543068772436,
+        42.594102975595234
+      ],
+      "body_motion_preserved": "Original source hips rotation, spine, clavicle, arms and hand motion baked without rigid body stabilization."
+    },
+    "Reloading": {
+      "source_path": "/workspace/attachments/ee4da540-fa38-4bf2-aebb-9997bb32865c/Reloading.fbx",
+      "source_fps": 30.0,
+      "source_frame_range": [
+        1.0,
+        100.0
+      ],
+      "duration_seconds": 3.3,
+      "target_fps": 30,
+      "baked_samples": 100,
+      "mapped_body_bones": 65,
+      "translation_leg_ratio": 0.5601220372330082,
+      "removed_horizontal_travel_source_m": [
+        -2.5457702577114105e-06,
+        1.955311745405197e-06,
+        0.0
+      ],
+      "pelvis_translation_range_m": [
+        [
+          -0.018592962995171547,
+          0.004633397329598665
+        ],
+        [
+          -0.026474449783563614,
+          0.010401186533272266
+        ],
+        [
+          -0.007083614356815815,
+          0.0032592625357210636
+        ]
+      ],
+      "chest_world_rotation_range_deg": [
+        30.104427383602967,
+        19.014845028856218,
+        45.506705572624156
+      ],
+      "body_motion_preserved": "Original source hips rotation, spine, clavicle, arms and hand motion baked without rigid body stabilization."
+    },
+    "PistolIdle": {
+      "source_path": "/workspace/attachments/a99a66ac-49a7-4762-a3b7-9d9f8d94ca23/Pistol Idle.fbx",
+      "source_fps": 30.0,
+      "source_frame_range": [
+        1.0,
+        41.0
+      ],
+      "duration_seconds": 1.3333333333333333,
+      "target_fps": 30,
+      "baked_samples": 41,
+      "mapped_body_bones": 65,
+      "translation_leg_ratio": 0.5601220372330082,
+      "removed_horizontal_travel_source_m": [
+        -3.725290298461914e-09,
+        -1.955777406692505e-08,
+        0.0
+      ],
+      "pelvis_translation_range_m": [
+        [
+          -0.0013116606278344989,
+          0.0005544103914871812
+        ],
+        [
+          -4.161847027717158e-05,
+          0.0026309352833777666
+        ],
+        [
+          -0.002721215831115842,
+          0.00165033049415797
+        ]
+      ],
+      "chest_world_rotation_range_deg": [
+        0.7645372247453773,
+        0.5563423866728104,
+        0.839894701858128
+      ],
+      "body_motion_preserved": "Original source hips rotation, spine, clavicle, arms and hand motion baked without rigid body stabilization."
+    }
+  },
+  "contact": {
+    "NewIdle": {
+      "action": "Idle",
+      "method": "Dual flat-sole planted Idle stance",
+      "frames": 251,
+      "hips_peak_to_peak_before_m": 0.0006306767463684082,
+      "hips_peak_to_peak_after_m": 0.0006246197142570908,
+      "hips_baseline_shift_m": -0.013806089641501873,
+      "max_ankle_goal_error_m": 7.011325167071098e-07,
+      "knee_angle_range_degrees": [
+        151.1207221037135,
+        165.51306449633256
+      ],
+      "preserved_root_horizontal_sway": true,
+      "fixed_ankle_goals": {
+        "Left": [
+          0.13066639006137848,
+          -0.02860761433839798,
+          0.0761350765824318
+        ],
+        "Right": [
+          0.008336979895830154,
+          0.03959614038467407,
+          0.07613486051559448
+        ]
+      }
+    },
+    "StandingIdle": {
+      "action": "Idle.001",
+      "method": "Support-leg IK with preserved shoulder/hip sway and at most 16mm smooth pelvis cycle",
+      "frames": 181,
+      "hips_peak_to_peak_before_m": 0.00029414892196655273,
+      "hips_peak_to_peak_after_m": 0.00029186357899424475,
+      "hips_baseline_shift_m": -0.006114914562867391,
+      "max_ankle_goal_error_m": 8.631908406612979e-07,
+      "knee_angle_range_degrees": [
+        158.40162179667703,
+        165.48093528647684
+      ],
+      "preserved_root_horizontal_sway": true
+    }
+  },
+  "ground": {
+    "method": "Actual deformed rest-sole vertices; one constant world-Z pelvis offset per action.",
+    "rest_sole_threshold_z_m": 0.035,
+    "sole_vertex_counts": {
+      "Zhigeng_Body": 7582
+    },
+    "actions": [
+      {
+        "action": "Idle",
+        "sample_count": 51,
+        "sample_frames": [
+          0.0,
+          5.0,
+          10.0,
+          15.0,
+          20.0,
+          25.0,
+          30.0,
+          35.0,
+          40.0,
+          45.0,
+          50.0,
+          55.0,
+          60.0,
+          65.0,
+          70.0,
+          75.0,
+          80.0,
+          85.0,
+          90.0,
+          95.0,
+          100.0,
+          105.0,
+          110.0,
+          115.0,
+          120.0,
+          125.0,
+          130.0,
+          135.0,
+          140.0,
+          145.0,
+          150.0,
+          155.0,
+          160.0,
+          165.0,
+          170.0,
+          175.0,
+          180.0,
+          185.0,
+          190.0,
+          195.0,
+          200.0,
+          205.0,
+          210.0,
+          215.0,
+          220.0,
+          225.0,
+          230.0,
+          235.0,
+          240.0,
+          245.0,
+          250.0
+        ],
+        "lowest_shoe_vertex_z_before_m": -3.1651831733354253e-05,
+        "support_gap_range_before_m": [
+          -3.1651831733354253e-05,
+          -3.073768387538418e-05
+        ],
+        "constant_world_z_offset_m": 3.1651831733354253e-05,
+        "constant_hips_local_offset": [
+          1.383545079718107e-12,
+          3.165183443343267e-05,
+          2.869157602475303e-12
+        ],
+        "support_gap_range_after_m": [
+          0.0,
+          9.141478579700744e-07
+        ],
+        "sampled_max_penetration_before_m": 3.1651831733354253e-05,
+        "sampled_max_penetration_after_m": 0.0,
+        "flight_height_range_preserved_m": 9.141478579700744e-07
+      },
+      {
+        "action": "StandingIdle",
+        "sample_count": 46,
+        "sample_frames": [
+          0.0,
+          4.0,
+          8.0,
+          12.0,
+          16.0,
+          20.0,
+          24.0,
+          28.0,
+          32.0,
+          36.0,
+          40.0,
+          44.0,
+          48.0,
+          52.0,
+          56.0,
+          60.0,
+          64.0,
+          68.0,
+          72.0,
+          76.0,
+          80.0,
+          84.0,
+          88.0,
+          92.0,
+          96.0,
+          100.0,
+          104.0,
+          108.0,
+          112.0,
+          116.0,
+          120.0,
+          124.0,
+          128.0,
+          132.0,
+          136.0,
+          140.0,
+          144.0,
+          148.0,
+          152.0,
+          156.0,
+          160.0,
+          164.0,
+          168.0,
+          172.0,
+          176.0,
+          180.0
+        ],
+        "lowest_shoe_vertex_z_before_m": -2.9147220020450704e-07,
+        "support_gap_range_before_m": [
+          -2.9147220020450704e-07,
+          -9.697682968712686e-08
+        ],
+        "constant_world_z_offset_m": 0.0,
+        "constant_hips_local_offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "support_gap_range_after_m": [
+          -2.9147220020450704e-07,
+          -9.697682968712686e-08
+        ],
+        "sampled_max_penetration_before_m": 2.9147220020450704e-07,
+        "sampled_max_penetration_after_m": 2.9147220020450704e-07,
+        "flight_height_range_preserved_m": 1.9449537051738018e-07
+      },
+      {
+        "action": "Talking",
+        "sample_count": 60,
+        "sample_frames": [
+          0.0,
+          2.0,
+          4.0,
+          6.0,
+          8.0,
+          10.0,
+          12.0,
+          14.0,
+          16.0,
+          18.0,
+          20.0,
+          22.0,
+          24.0,
+          26.0,
+          28.0,
+          30.0,
+          32.0,
+          34.0,
+          36.0,
+          38.0,
+          40.0,
+          42.0,
+          44.0,
+          46.0,
+          48.0,
+          50.0,
+          52.0,
+          54.0,
+          56.0,
+          58.0,
+          60.0,
+          62.0,
+          64.0,
+          66.0,
+          68.0,
+          70.0,
+          72.0,
+          74.0,
+          76.0,
+          78.0,
+          80.0,
+          82.0,
+          84.0,
+          86.0,
+          88.0,
+          90.0,
+          92.0,
+          94.0,
+          96.0,
+          98.0,
+          100.0,
+          102.0,
+          104.0,
+          106.0,
+          108.0,
+          110.0,
+          112.0,
+          114.0,
+          116.0,
+          118.0
+        ],
+        "lowest_shoe_vertex_z_before_m": 0.01618061241352406,
+        "support_gap_range_before_m": [
+          0.01618061241352406,
+          0.017030427578102227
+        ],
+        "constant_world_z_offset_m": -0.01618061241352406,
+        "constant_hips_local_offset": [
+          -7.072768481997116e-10,
+          -0.01618061400949955,
+          -1.466731180954639e-09
+        ],
+        "support_gap_range_after_m": [
+          0.0,
+          0.0008498151645781674
+        ],
+        "sampled_max_penetration_before_m": 0.0,
+        "sampled_max_penetration_after_m": 0.0,
+        "flight_height_range_preserved_m": 0.0008498151645781674
+      },
+      {
+        "action": "RifleIdle",
+        "sample_count": 53,
+        "sample_frames": [
+          0.0,
+          5.0,
+          10.0,
+          15.0,
+          20.0,
+          25.0,
+          30.0,
+          35.0,
+          40.0,
+          45.0,
+          50.0,
+          55.0,
+          60.0,
+          65.0,
+          70.0,
+          75.0,
+          80.0,
+          85.0,
+          90.0,
+          95.0,
+          100.0,
+          105.0,
+          110.0,
+          115.0,
+          120.0,
+          125.0,
+          130.0,
+          135.0,
+          140.0,
+          145.0,
+          150.0,
+          155.0,
+          160.0,
+          165.0,
+          170.0,
+          175.0,
+          180.0,
+          185.0,
+          190.0,
+          195.0,
+          200.0,
+          205.0,
+          210.0,
+          215.0,
+          220.0,
+          225.0,
+          230.0,
+          235.0,
+          240.0,
+          245.0,
+          250.0,
+          255.0,
+          257.0
+        ],
+        "lowest_shoe_vertex_z_before_m": 0.012270231164732573,
+        "support_gap_range_before_m": [
+          0.012270231164732573,
+          0.01262467681163864
+        ],
+        "constant_world_z_offset_m": -0.012270231164732573,
+        "constant_hips_local_offset": [
+          -5.363486876852619e-10,
+          -0.012270232662558556,
+          -1.1122650578343496e-09
+        ],
+        "support_gap_range_after_m": [
+          0.0,
+          0.000354445646906067
+        ],
+        "sampled_max_penetration_before_m": 0.0,
+        "sampled_max_penetration_after_m": 0.0,
+        "flight_height_range_preserved_m": 0.000354445646906067
+      },
+      {
+        "action": "RifleAimingIdle",
+        "sample_count": 48,
+        "sample_frames": [
+          0.0,
+          2.0,
+          4.0,
+          6.0,
+          8.0,
+          10.0,
+          12.0,
+          14.0,
+          16.0,
+          18.0,
+          20.0,
+          22.0,
+          24.0,
+          26.0,
+          28.0,
+          30.0,
+          32.0,
+          34.0,
+          36.0,
+          38.0,
+          40.0,
+          42.0,
+          44.0,
+          46.0,
+          48.0,
+          50.0,
+          52.0,
+          54.0,
+          56.0,
+          58.0,
+          60.0,
+          62.0,
+          64.0,
+          66.0,
+          68.0,
+          70.0,
+          72.0,
+          74.0,
+          76.0,
+          78.0,
+          80.0,
+          82.0,
+          84.0,
+          86.0,
+          88.0,
+          90.0,
+          92.0,
+          93.0
+        ],
+        "lowest_shoe_vertex_z_before_m": 0.02336447556981216,
+        "support_gap_range_before_m": [
+          0.02336447556981216,
+          0.023517072779680143
+        ],
+        "constant_world_z_offset_m": -0.02336447556981216,
+        "constant_hips_local_offset": [
+          -1.0212933831965643e-09,
+          -0.02336447685956955,
+          -2.1179300535578705e-09
+        ],
+        "support_gap_range_after_m": [
+          0.0,
+          0.00015259720986798495
+        ],
+        "sampled_max_penetration_before_m": 0.0,
+        "sampled_max_penetration_after_m": 0.0,
+        "flight_height_range_preserved_m": 0.00015259720986798495
+      },
+      {
+        "action": "FiringRifle",
+        "sample_count": 5,
+        "sample_frames": [
+          0.0,
+          2.0,
+          4.0,
+          6.0,
+          8.0
+        ],
+        "lowest_shoe_vertex_z_before_m": 0.024035733824899496,
+        "support_gap_range_before_m": [
+          0.024035733824899496,
+          0.024222735961402207
+        ],
+        "constant_world_z_offset_m": -0.024035733824899496,
+        "constant_hips_local_offset": [
+          -1.0506350234251727e-09,
+          -0.024035736918449402,
+          -2.1787778248238965e-09
+        ],
+        "support_gap_range_after_m": [
+          0.0,
+          0.00018700213650271053
+        ],
+        "sampled_max_penetration_before_m": 0.0,
+        "sampled_max_penetration_after_m": 0.0,
+        "flight_height_range_preserved_m": 0.00018700213650271053
+      },
+      {
+        "action": "RifleRun",
+        "sample_count": 11,
+        "sample_frames": [
+          0.0,
+          2.0,
+          4.0,
+          6.0,
+          8.0,
+          10.0,
+          12.0,
+          14.0,
+          16.0,
+          18.0,
+          20.0
+        ],
+        "lowest_shoe_vertex_z_before_m": 0.05183674107354128,
+        "support_gap_range_before_m": [
+          0.05183674107354128,
+          0.08700532007700963
+        ],
+        "constant_world_z_offset_m": -0.05183674107354128,
+        "constant_hips_local_offset": [
+          -2.2658552811805066e-09,
+          -0.05183674767613411,
+          -4.698867961394626e-09
+        ],
+        "support_gap_range_after_m": [
+          0.0,
+          0.03516857900346835
+        ],
+        "sampled_max_penetration_before_m": 0.0,
+        "sampled_max_penetration_after_m": 0.0,
+        "flight_height_range_preserved_m": 0.03516857900346835
+      },
+      {
+        "action": "Reloading",
+        "sample_count": 51,
+        "sample_frames": [
+          0.0,
+          2.0,
+          4.0,
+          6.0,
+          8.0,
+          10.0,
+          12.0,
+          14.0,
+          16.0,
+          18.0,
+          20.0,
+          22.0,
+          24.0,
+          26.0,
+          28.0,
+          30.0,
+          32.0,
+          34.0,
+          36.0,
+          38.0,
+          40.0,
+          42.0,
+          44.0,
+          46.0,
+          48.0,
+          50.0,
+          52.0,
+          54.0,
+          56.0,
+          58.0,
+          60.0,
+          62.0,
+          64.0,
+          66.0,
+          68.0,
+          70.0,
+          72.0,
+          74.0,
+          76.0,
+          78.0,
+          80.0,
+          82.0,
+          84.0,
+          86.0,
+          88.0,
+          90.0,
+          92.0,
+          94.0,
+          96.0,
+          98.0,
+          99.0
+        ],
+        "lowest_shoe_vertex_z_before_m": 0.023494670747425735,
+        "support_gap_range_before_m": [
+          0.023494670747425735,
+          0.02513217685618626
+        ],
+        "constant_world_z_offset_m": -0.023494670747425735,
+        "constant_hips_local_offset": [
+          -1.0269843864207928e-09,
+          -0.023494673892855644,
+          -2.1297319463542408e-09
+        ],
+        "support_gap_range_after_m": [
+          0.0,
+          0.0016375061087605253
+        ],
+        "sampled_max_penetration_before_m": 0.0,
+        "sampled_max_penetration_after_m": 0.0,
+        "flight_height_range_preserved_m": 0.0016375061087605253
+      },
+      {
+        "action": "PistolIdle",
+        "sample_count": 21,
+        "sample_frames": [
+          0.0,
+          2.0,
+          4.0,
+          6.0,
+          8.0,
+          10.0,
+          12.0,
+          14.0,
+          16.0,
+          18.0,
+          20.0,
+          22.0,
+          24.0,
+          26.0,
+          28.0,
+          30.0,
+          32.0,
+          34.0,
+          36.0,
+          38.0,
+          40.0
+        ],
+        "lowest_shoe_vertex_z_before_m": 0.02562839207617831,
+        "support_gap_range_before_m": [
+          0.02562839207617831,
+          0.025779065177318206
+        ],
+        "constant_world_z_offset_m": -0.02562839207617831,
+        "constant_hips_local_offset": [
+          -1.1202523353404104e-09,
+          -0.02562839537858963,
+          -2.323148340366288e-09
+        ],
+        "support_gap_range_after_m": [
+          0.0,
+          0.00015067310113989554
+        ],
+        "sampled_max_penetration_before_m": 0.0,
+        "sampled_max_penetration_after_m": 0.0,
+        "flight_height_range_preserved_m": 0.00015067310113989554
+      }
+    ]
+  },
+  "ponytail": {
+    "Idle": {
+      "frames": 251,
+      "min_joint_clearance": 0.0014999291826434842
+    },
+    "StandingIdle": {
+      "frames": 181,
+      "min_joint_clearance": 0.0014999314928951547
+    },
+    "Talking": {
+      "frames": 119,
+      "min_joint_clearance": 0.0014998959362545784
+    },
+    "RifleIdle": {
+      "frames": 258,
+      "min_joint_clearance": 0.001499929129534245
+    },
+    "RifleAimingIdle": {
+      "frames": 94,
+      "min_joint_clearance": 0.0014999103155853045
+    },
+    "FiringRifle": {
+      "frames": 9,
+      "min_joint_clearance": 0.0014999295012988918
+    },
+    "RifleRun": {
+      "frames": 21,
+      "min_joint_clearance": 0.001499847001032676
+    },
+    "Reloading": {
+      "frames": 100,
+      "min_joint_clearance": 0.0014998658764066204
+    },
+    "PistolIdle": {
+      "frames": 41,
+      "min_joint_clearance": 0.001499928364221876
+    }
+  },
+  "clips": [
+    {
+      "name": "Idle",
+      "label": "待机 · 新",
+      "duration": 8.333333333333334,
+      "loop": true
+    },
+    {
+      "name": "Walk",
+      "label": "走路",
+      "duration": 1.1666666666666667,
+      "loop": true
+    },
+    {
+      "name": "Run",
+      "label": "跑步",
+      "duration": 0.6666666666666666,
+      "loop": true
+    },
+    {
+      "name": "HeadStress",
+      "label": "大幅转头",
+      "duration": 4.0,
+      "loop": true
+    },
+    {
+      "name": "StandingIdle",
+      "label": "站立待机",
+      "duration": 6.0,
+      "loop": true
+    },
+    {
+      "name": "Talking",
+      "label": "说话手势",
+      "duration": 3.933333333333333,
+      "loop": false
+    },
+    {
+      "name": "RifleIdle",
+      "label": "持步枪待机",
+      "duration": 8.566666666666666,
+      "loop": true
+    },
+    {
+      "name": "RifleAimingIdle",
+      "label": "步枪瞄准",
+      "duration": 3.1,
+      "loop": true
+    },
+    {
+      "name": "FiringRifle",
+      "label": "步枪射击",
+      "duration": 0.26666666666666666,
+      "loop": true
+    },
+    {
+      "name": "RifleRun",
+      "label": "持步枪跑步",
+      "duration": 0.6666666666666666,
+      "loop": true
+    },
+    {
+      "name": "Reloading",
+      "label": "换弹",
+      "duration": 3.3,
+      "loop": false
+    },
+    {
+      "name": "PistolIdle",
+      "label": "持手枪待机",
+      "duration": 1.3333333333333333,
+      "loop": true
+    }
+  ],
+  "walk_note": "User confirmed woman_idle replaces Idle; existing Walk retained."
+}

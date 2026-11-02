@@ -26,6 +26,69 @@
       "name": "HeadStress",
       "label": "大幅扭转",
       "duration": 4
+    },
+    {
+      "name": "WomanIdle",
+      "label": "女性待机",
+      "duration": 8.333333333333334,
+      "source": "woman_idle.fbx",
+      "loop": true
+    },
+    {
+      "name": "StandingIdle",
+      "label": "站立待机",
+      "duration": 6.0,
+      "source": "woman_Standing Idle.fbx",
+      "loop": true
+    },
+    {
+      "name": "Talking",
+      "label": "说话手势",
+      "duration": 3.933333333333333,
+      "source": "Talking.fbx",
+      "loop": false
+    },
+    {
+      "name": "RifleIdle",
+      "label": "步枪待机",
+      "duration": 8.566666666666666,
+      "source": "Rifle Idle.fbx",
+      "loop": true
+    },
+    {
+      "name": "RifleAimingIdle",
+      "label": "步枪瞄准",
+      "duration": 3.1,
+      "source": "Rifle Aiming Idle.fbx",
+      "loop": true
+    },
+    {
+      "name": "FiringRifle",
+      "label": "步枪射击",
+      "duration": 0.26666666666666666,
+      "source": "Firing Rifle.fbx",
+      "loop": true
+    },
+    {
+      "name": "RifleRun",
+      "label": "持枪跑步",
+      "duration": 0.6666666666666666,
+      "source": "Rifle Run.fbx",
+      "loop": true
+    },
+    {
+      "name": "Reloading",
+      "label": "换弹",
+      "duration": 3.3,
+      "source": "Reloading.fbx",
+      "loop": false
+    },
+    {
+      "name": "PistolIdle",
+      "label": "手枪待机",
+      "duration": 1.3333333333333333,
+      "source": "Pistol Idle.fbx",
+      "loop": true
     }
   ],
   "face_controls": [
@@ -1791,5 +1854,6 @@
       "neck_auto_recalculated": true
     },
     "source_sha256": "10f360b0c16b8b9ec0db757a1816be869c929245c0be658b13080a51a8da5d69"
-  }
+  },
+  "motion_pack_revision": 1
 }

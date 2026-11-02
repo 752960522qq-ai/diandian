@@ -1,0 +1,45 @@
+{
+  "diandian": {
+    "motions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "HeadStress",
+      "WomanIdle",
+      "StandingIdle",
+      "Talking",
+      "RifleIdle",
+      "RifleAimingIdle",
+      "FiringRifle",
+      "RifleRun",
+      "Reloading",
+      "PistolIdle"
+    ],
+    "bones": 312,
+    "compareDisabled": true,
+    "onceStops": true,
+    "mobileOverflow": false,
+    "errors": []
+  },
+  "zhigeng": {
+    "motions": [
+      "Idle",
+      "Walk",
+      "Run",
+      "HeadStress",
+      "StandingIdle",
+      "Talking",
+      "RifleIdle",
+      "RifleAimingIdle",
+      "FiringRifle",
+      "RifleRun",
+      "Reloading",
+      "PistolIdle"
+    ],
+    "bones": 315,
+    "compareDisabled": true,
+    "onceStops": true,
+    "mobileOverflow": false,
+    "errors": []
+  }
+}

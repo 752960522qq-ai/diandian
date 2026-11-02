@@ -1,8 +1,8 @@
 {
   "title": "知更 · 面部骨骼与动作适配",
   "donor": "hero_13 夏晴 R23，经点点已拟合面部骨架迁移",
-  "appearance_revision": 3,
-  "facial_revision": 1,
+  "appearance_revision": 4,
+  "facial_revision": 2,
   "body_bones_preserved": 65,
   "ponytail_bones": 3,
   "transferred_face_bones": 246,
@@ -11,19 +11,75 @@
   "motions": [
     {
       "name": "Idle",
-      "duration": 8.333333333333334
+      "label": "待机 · 新",
+      "duration": 8.333333333333334,
+      "loop": true
     },
     {
       "name": "Walk",
-      "duration": 1.1666666666666667
+      "label": "走路",
+      "duration": 1.1666666666666667,
+      "loop": true
     },
     {
       "name": "Run",
-      "duration": 0.6666666666666666
+      "label": "跑步",
+      "duration": 0.6666666666666666,
+      "loop": true
     },
     {
       "name": "HeadStress",
-      "duration": 4.0
+      "label": "大幅转头",
+      "duration": 4.0,
+      "loop": true
+    },
+    {
+      "name": "StandingIdle",
+      "label": "站立待机",
+      "duration": 6.0,
+      "loop": true
+    },
+    {
+      "name": "Talking",
+      "label": "说话手势",
+      "duration": 3.933333333333333,
+      "loop": false
+    },
+    {
+      "name": "RifleIdle",
+      "label": "持步枪待机",
+      "duration": 8.566666666666666,
+      "loop": true
+    },
+    {
+      "name": "RifleAimingIdle",
+      "label": "步枪瞄准",
+      "duration": 3.1,
+      "loop": true
+    },
+    {
+      "name": "FiringRifle",
+      "label": "步枪射击",
+      "duration": 0.26666666666666666,
+      "loop": true
+    },
+    {
+      "name": "RifleRun",
+      "label": "持步枪跑步",
+      "duration": 0.6666666666666666,
+      "loop": true
+    },
+    {
+      "name": "Reloading",
+      "label": "换弹",
+      "duration": 3.3,
+      "loop": false
+    },
+    {
+      "name": "PistolIdle",
+      "label": "持手枪待机",
+      "duration": 1.3333333333333333,
+      "loop": true
     }
   ],
   "face_controls": [
@@ -182,7 +238,7 @@
     0.125
   ],
   "comparison_mode": "facial_binding",
-  "compare": "相同头形、发型和动作，对照面部骨骼适配前后的表现。",
+  "compare": "上一版保留原四动作，本次版引入用户动作包。",
   "face_binding_summary": {
     "facial_bones_with_direct_weights": 243,
     "all_mesh_positions_identical": true,
@@ -201,5 +257,8 @@
       "left_shoulder",
       "right_shoulder"
     ]
-  }
+  },
+  "motion_revision": 1,
+  "walk_replacement_pending": false,
+  "walk_policy": "User confirmed: replace Idle with woman_idle; keep existing Walk"
 }

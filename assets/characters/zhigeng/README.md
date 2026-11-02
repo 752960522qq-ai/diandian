@@ -1,25 +1,18 @@
-# 知更 · 马尾物理与发型修整
+# 知更 · 十二段动作与面部微调
 
-新保存的[概念图脸部微调 v4 与前后对照](concept_face_v4_review.md)提供独立 GLB 和 Blender 文件，尚未部署网站。下方在线预览与默认文件仍为马尾物理修整版。
+当前完整交付采用概念图脸部微调 v4，并引入用户上传的动作包。默认待机换成 `woman_idle.fbx`；按用户确认，走路保留现版。另一段女性站立待机保存为 StandingIdle。
 
-耳机与麦克风已删除；头发内露出的耳部已隐藏，保留脸型与其余头部比例。沿用夏晴来源面部骨架和原有待机、走路、跑步、转头四段动作。
+- 在线测试：<https://zhigeng-motion-lab.expert-eagle-6942.chatgpt.site>
+- `zhigeng_character_animated.glb`：315 骨骼、十二段动作、内嵌贴图。
+- `zhigeng_character_animated.blend`：同版可编辑工程。
+- `zhigeng_godot_physics_demo.zip`：Godot 4.6.3 独立测试工程，动态列出全部动作。
+- [动作包来源、列表与下载](../../animations/character_motion_pack/README.md)
+- [脸部前后对照](concept_face_v4_review.md)
 
-马尾重新贴合静止骨链，三节马尾骨接入Godot 4.6.3自带SpringBoneSimulator3D，通过颈部、背部和双肩四个胶囊碰撞体滑动避碰。碰撞半径按发束厚度配置，四段GLB动作也已烘焙马尾避碰修正。网页提供对应的实时弹簧与胶囊预览，含物理开关。
+待机和跑步等循环播放，Talking、Reloading 单次播放。保留夏晴来源面部骨架、脸部控制与头发绑定；耳机和麦克风已删除，穿出发型的耳部已隐藏。
 
-## 使用
+马尾使用 Godot 4.6.3 自带 SpringBoneSimulator3D，搭配颈部、背部与双肩的四个 SpringBoneCollisionCapsule3D。新动作也烘焙了三节马尾的基础避碰姿势；实时摆动由 Godot 场景或网页对应组件提供。GLB 本身保存模型、绑定和烘焙动作。
 
-- 在线预览：<https://zhigeng-motion-lab.expert-eagle-6942.chatgpt.site>
-- `zhigeng_character_animated.glb`：角色与四段动作，315根骨骼，贴图内嵌。
-- `zhigeng_character_animated.blend`：可编辑绑定、动作与材质。
-- `zhigeng_godot_physics_demo.zip`：解压后用Godot 4.6.3打开project.godot，直接运行，可切换动作、马尾物理和视角。
-- 仓库工程预览场景：`godot/scenes/zhigeng_preview.tscn`，配置位于`ponytail_physics.json`。
+配置为 `ponytail_physics.json`，预览场景为 `godot/scenes/zhigeng_preview.tscn`。`motion_pack_report.json` 记录本轮动作来源、比例换算与落地处理。
 
-GLB保存网格、骨骼与烘焙动作，运行时物理由Godot场景中的组件提供。角色在示例中保持Skeleton3D缩放为1。
-
-## 组件来源
-
-- [Godot SpringBoneSimulator3D](https://docs.godotengine.org/en/stable/classes/class_springbonesimulator3d.html)：MIT，内置骨链弹簧。
-- [Godot SpringBoneCollisionCapsule3D](https://docs.godotengine.org/en/stable/classes/class_springbonecollisioncapsule3d.html)：随身体骨骼移动的碰撞胶囊。
-- 也调研了[Godot VRM](https://github.com/V-Sekai/godot-vrm)，本角色为普通GLB，因此采用Godot原生组件。
-
-`godot_physics_report.json`与`web_spring_surface_report.json`记录四段动作中实际马尾蒙皮顶点的抽样间隙；角色面部控制和315骨架继续保留。
+组件文档：[SpringBoneSimulator3D](https://docs.godotengine.org/en/stable/classes/class_springbonesimulator3d.html)、[SpringBoneCollisionCapsule3D](https://docs.godotengine.org/en/stable/classes/class_springbonecollisioncapsule3d.html)，Godot 内置，MIT。

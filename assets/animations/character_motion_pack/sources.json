@@ -1,0 +1,47 @@
+[
+  {
+    "clip": "WomanIdle",
+    "file": "source/woman_idle.fbx",
+    "sha256": "85da29910fb09758c9702662e31c757b57cebfb51881acbf59ce9a17a12cb2b4"
+  },
+  {
+    "clip": "StandingIdle",
+    "file": "source/woman_Standing Idle.fbx",
+    "sha256": "0c7e34fdda63dc2c3ad198d6be144bdb7f53016f79307cb9e934e5f34dde3bca"
+  },
+  {
+    "clip": "Talking",
+    "file": "source/Talking.fbx",
+    "sha256": "4f33eb3b5fe7cc662f0e6baa7dc93b9d6053c6e55ba7903e99481c85bf2c9504"
+  },
+  {
+    "clip": "RifleIdle",
+    "file": "source/Rifle Idle.fbx",
+    "sha256": "6ee4a5adf3e0b52b4b30058bea5174c30c3549ff86eadc7f84c294f416cdd9a0"
+  },
+  {
+    "clip": "RifleAimingIdle",
+    "file": "source/Rifle Aiming Idle.fbx",
+    "sha256": "9e3c0e23e151b9e01e35e04e752a6ddcf294d05e9dc436b20e523f85ca01b0c7"
+  },
+  {
+    "clip": "FiringRifle",
+    "file": "source/Firing Rifle.fbx",
+    "sha256": "5b4af2eb76d631a4e34ba36fbcf0ea2ac5ca076cea8e55c7e9875cd0c9da4666"
+  },
+  {
+    "clip": "RifleRun",
+    "file": "source/Rifle Run.fbx",
+    "sha256": "9ab37847d5d1a0048f85460ab03ad4d10ea13da3d1468e9483fb439c0201c9b7"
+  },
+  {
+    "clip": "Reloading",
+    "file": "source/Reloading.fbx",
+    "sha256": "d6f293a51f35d5f4dedf567d913fac2ba1349dc7a9cbfc131efdf5cf3578d235"
+  },
+  {
+    "clip": "PistolIdle",
+    "file": "source/Pistol Idle.fbx",
+    "sha256": "7e0044a07c2d255a8b1a36c3b2495da7f9c5b093fed159f8048146771d4ce755"
+  }
+]
