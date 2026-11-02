@@ -1442,5 +1442,18 @@
     ],
     "additional_named_corner_candidates_found": 0,
     "shared_row_name_note": "M19_Expanded_Corner_Frontage 是整排分组名称，未把其中各独立 Connected_Arcade/Shop 型号视为转角楼。"
+  },
+  "derived_asset_update": {
+    "date": "2026-11-02",
+    "operation": "局部结构修复、保守减面与无损贴图熵编码优化",
+    "source_type_ids_and_usage_counts_preserved": true,
+    "source_geometry_fingerprints_describe_original_inputs": true,
+    "structural_repairs": [
+      "apartment_building_18",
+      "old_building_17",
+      "historic_building_59",
+      "old_apartment_13"
+    ],
+    "report": "optimization_report.json"
   }
 }
