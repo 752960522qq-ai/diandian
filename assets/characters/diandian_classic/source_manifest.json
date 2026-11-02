@@ -41,7 +41,7 @@
       "type": "user original FBX"
     }
   },
-  "appearance_revision": 5,
+  "appearance_revision": 6,
   "upper_arm_current_adjustment_factor": 1.0,
   "hair_source": {
     "filename": "brown bob wig 3d model.glb.glb",
@@ -86,7 +86,17 @@
   "upper_arm_length_factor_from_original": 0.931,
   "comparison_model": {
     "file": "diandian_classic_before.glb",
-    "revision": 4,
-    "skin": "Complete previous corrected v4 avatar"
-  }
+    "revision": 5,
+    "skin": "Complete previous v5 avatar"
+  },
+  "head_fit_uniform_scale_xyz": [
+    0.125,
+    0.125,
+    0.125
+  ],
+  "geometry_changes_revision6": [
+    "Restore exact original head proportions at uniform scale",
+    "Adapt hair and facial joints to the restored head",
+    "Blend neck bridge into the restored head cross-section"
+  ]
 }

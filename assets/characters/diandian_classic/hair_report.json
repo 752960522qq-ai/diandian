@@ -1,5 +1,5 @@
 {
-  "revision": 5,
+  "revision": 6,
   "source_file": "brown bob wig 3d model.glb.glb",
   "source_sha256": "408d5736dc2defed6d4e93af42ab768e82aaf182dcab685cd8a0cf59764c0361",
   "mesh": "Diandian_BlackBrown_Bob",
@@ -95,5 +95,15 @@
     "web_bytes": 15442740,
     "native_bytes": 26821592,
     "geometry_preserved": true
-  }
+  },
+  "head_proportion_revision6": [
+    0.8333333134651184,
+    0.9469696879386902,
+    1.0
+  ],
+  "current_bounds_size_m": [
+    0.11865663900971413,
+    0.12904953211545944,
+    0.1470000147819519
+  ]
 }

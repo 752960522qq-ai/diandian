@@ -1,11 +1,153 @@
 {
-  "revision": 5,
-  "browser": {
-    "revision": 5,
-    "loadedVersions": [
-      "fixed",
-      "before"
+  "revision": 6,
+  "proportion_correction": {
+    "revision": 6,
+    "head_uniform_scale_xyz": [
+      0.125,
+      0.125,
+      0.125
     ],
+    "previous_scale_xyz": [
+      0.15,
+      0.132,
+      0.125
+    ],
+    "fit_translation": [
+      0.0012000000569969416,
+      0.07729999721050262,
+      0.875
+    ],
+    "corrective_xy_factors": [
+      0.8333333134651184,
+      0.9469696879386902,
+      1.0
+    ],
+    "head_vertices": 24508,
+    "source_world_bounds": {
+      "min": [
+        -0.400146484375,
+        -0.454345703125,
+        0.0
+      ],
+      "max": [
+        0.400146484375,
+        0.454345703125,
+        0.99951171875
+      ],
+      "size": [
+        0.80029296875,
+        0.90869140625,
+        0.99951171875
+      ]
+    },
+    "head_bounds_before": {
+      "min": [
+        -0.05882197245955467,
+        0.017326366156339645,
+        0.875
+      ],
+      "max": [
+        0.061221975833177567,
+        0.1372736245393753,
+        0.99993896484375
+      ],
+      "size": [
+        0.12004394829273224,
+        0.11994725838303566,
+        0.12493896484375
+      ]
+    },
+    "head_bounds_after": {
+      "min": [
+        -0.04881830886006355,
+        0.020506788045167923,
+        0.875
+      ],
+      "max": [
+        0.05121831223368645,
+        0.13409319519996643,
+        0.99993896484375
+      ],
+      "size": [
+        0.10003662109375,
+        0.11358640715479851,
+        0.12493896484375
+      ]
+    },
+    "source_uniform_fit_bounds": {
+      "min": [
+        -0.04881830886006355,
+        0.020506784319877625,
+        0.875
+      ],
+      "max": [
+        0.05121831223368645,
+        0.13409321010112762,
+        0.99993896484375
+      ],
+      "size": [
+        0.10003662109375,
+        0.11358642578125,
+        0.12493896484375
+      ]
+    },
+    "source_position_error_max_m": 1.5359765015432458e-08,
+    "source_position_error_mean_m": 1.51057670470624e-09,
+    "head_height_preserved": true,
+    "face_shape_method": "Exact inverse of revision5 nonuniform XY scale; one uniform source scale, no sculpting",
+    "hair_bounds_before": {
+      "min": [
+        -0.07112201303243637,
+        0.011861938051879406,
+        0.8660001158714294
+      ],
+      "max": [
+        0.07126595824956894,
+        0.14813823997974396,
+        1.0130001306533813
+      ],
+      "size": [
+        0.1423879712820053,
+        0.13627630192786455,
+        0.1470000147819519
+      ]
+    },
+    "hair_bounds_after": {
+      "min": [
+        -0.05906834080815315,
+        0.015332140028476715,
+        0.8660001158714294
+      ],
+      "max": [
+        0.059588298201560974,
+        0.14438167214393616,
+        1.0130001306533813
+      ],
+      "size": [
+        0.11865663900971413,
+        0.12904953211545944,
+        0.1470000147819519
+      ]
+    },
+    "neck_shared_bottom_vertices": 39,
+    "neck_bridge_rows": 9,
+    "neck_blend": "Shared skin-port row fixed; smoothstep blend to corrected head cross-section at top",
+    "facial_bones_repositioned": 247,
+    "body_rest_bones_preserved": 65,
+    "body_rest_matrix_max_difference": 0.0,
+    "body_skin_weights_identical": true,
+    "action_curves_identical": true,
+    "split_normals": {
+      "head_inverse_transpose_applied": true,
+      "hair_inverse_transpose_applied": true,
+      "neck_auto_recalculated": true
+    },
+    "source_sha256": "10f360b0c16b8b9ec0db757a1816be869c929245c0be658b13080a51a8da5d69"
+  },
+  "retained_motion_revision": 5,
+  "retained_body_and_hand_binding_revision": 5,
+  "browser": {
+    "appearance_revision": 6,
     "clips": [
       "Idle",
       "Walk",
@@ -13,243 +155,14 @@
       "HeadStress"
     ],
     "bones": 312,
+    "loadedVersions": [
+      "fixed",
+      "before"
+    ],
     "errors": [],
     "mobile": {
-      "scroll": 390,
-      "width": 390
-    },
-    "skeleton": true
-  },
-  "head_replacement": {
-    "revision": 5,
-    "source": {
-      "filename": "diandian head.glb",
-      "relative_path": "source_head/diandian head.glb",
-      "sha256": "10f360b0c16b8b9ec0db757a1816be869c929245c0be658b13080a51a8da5d69",
-      "provided_by": "user upload"
-    },
-    "source_head_vertices": 41631,
-    "fitted_head_vertices_after_coincident_weld": 24508,
-    "fit_scale_xyz": [
-      0.15,
-      0.132,
-      0.125
-    ],
-    "fit_translation": [
-      0.0012,
-      0.0773,
-      0.875
-    ],
-    "old_head_faces_removed": 9588,
-    "neck_transition": "Continuous 39-column 9-ring bridge shares the original skin-port vertices; no overlapping lower tube border",
-    "neck_transition_vertices": 312,
-    "facial_bones_refitted": 246,
-    "facial_bone_max_reposition_m": 0.01020425771982287,
-    "new_head_binding": "Fitted XQ/Head-subtree weights, max4 influences, no torso/Neck influences on face",
-    "texture_seam": "Continuous 512x128 PNG longitudinal gradient sampled from the original skin port; no angular height steps",
-    "final_body_vertices": 109741,
-    "final_body_polygons": 87480,
-    "neck_skin_port_vertices": 39
-  },
-  "hair_fit": {
-    "width_factor_requested": 0.94,
-    "depth_factor_requested": 0.97,
-    "rest_bounds_size_before_m": [
-      0.15147656202316284,
-      0.14461474167183042,
-      0.1470000147819519
-    ],
-    "rest_bounds_size_after_m": [
-      0.1423879712820053,
-      0.13627630192786455,
-      0.1470000147819519
-    ],
-    "fringe_vertices_adjusted": 7521,
-    "maximum_fringe_inward_step_m": 0.004,
-    "scalp_projection_gap_m": 0.0045,
-    "scalp_gap_vertices_adjusted": 5775,
-    "clearance_method": "Smoothed cylindrical head cross-sections; no tangential nearest-face snapping",
-    "maximum_total_displacement_m": 0.03289620798304247,
-    "uv_material_and_colour_preserved": true
-  },
-  "hand_binding_and_poses": {
-    "method": "Anatomical flexion axes replace incompatible terminal-joint roll; distal digits use their own continuous phalanx weights",
-    "weights": {
-      "Left": {
-        "reweighted_vertices": 11242,
-        "distal_digit_owned_vertices": 6381
-      },
-      "Right": {
-        "reweighted_vertices": 11218,
-        "distal_digit_owned_vertices": 6974
-      }
-    },
-    "actions": {
-      "Idle": {
-        "modified_finger_bones": 40,
-        "max_added_flexion_degrees": 9.299919185649188,
-        "wrist_forearm_upperarm_and_body_curves_modified": false,
-        "pose": "Relaxed hand with gentle cycle motion"
-      },
-      "Walk": {
-        "modified_finger_bones": 40,
-        "max_added_flexion_degrees": 13.199949112642958,
-        "wrist_forearm_upperarm_and_body_curves_modified": false,
-        "pose": "Relaxed hand with gentle cycle motion"
-      },
-      "Run": {
-        "modified_finger_bones": 40,
-        "max_added_flexion_degrees": 29.496662025235686,
-        "wrist_forearm_upperarm_and_body_curves_modified": false,
-        "pose": "Natural loose half-grip with gentle cycle motion"
-      },
-      "HeadStress": {
-        "modified_finger_bones": 40,
-        "max_added_flexion_degrees": 10.199999723857335,
-        "wrist_forearm_upperarm_and_body_curves_modified": false,
-        "pose": "Relaxed hand with gentle cycle motion"
-      }
-    },
-    "portable_four_influence_weights": {
-      "vertices_capped": 0,
-      "maximum_discarded_weight": 0.0
+      "width": 390,
+      "scroll": 390
     }
-  },
-  "idle_clearance": {
-    "revision": 5,
-    "clip": "Idle",
-    "upper_arm_adjustments_degrees_retained_from_revision4": {
-      "Left": {
-        "outward": 5.5,
-        "forward": 0
-      },
-      "Right": {
-        "outward": 10,
-        "forward": 3
-      }
-    },
-    "minimum_mesh_surface_gap_m": {
-      "Left": 0.010249348357319832,
-      "Right": 0.009951653890311718
-    },
-    "inside_surface_vertex_samples": {
-      "Left": 0,
-      "Right": 0
-    },
-    "method": "Evaluated hand mesh against lower-body and side-pouch triangles; ray parity resolves open-edge normal-projection false positives.",
-    "detail": {
-      "Left": {
-        "min_signed_m": 0.010249348408706282,
-        "penetrating_vertices": 0,
-        "normal_edge_false_positives": 0,
-        "min_surface_distance_m": 0.010249348357319832,
-        "near_vertices": 6109,
-        "max_estimated_required_deg": 0,
-        "closest": {
-          "frame": 10,
-          "vertex": 12323,
-          "position": [
-            0.1162281185388565,
-            0.07058197259902954,
-            0.46779030561447144
-          ],
-          "normal": [
-            0.8495640754699707,
-            0.5271991491317749,
-            0.017380421981215477
-          ],
-          "distance": 0.010249348357319832
-        }
-      },
-      "Right": {
-        "min_signed_m": 9.048220817930996e-06,
-        "penetrating_vertices": 0,
-        "normal_edge_false_positives": 249,
-        "min_surface_distance_m": 0.009951653890311718,
-        "near_vertices": 11724,
-        "max_estimated_required_deg": 1.6780392419839096,
-        "closest": {
-          "frame": 210,
-          "vertex": 2474,
-          "position": [
-            -0.12458855658769608,
-            0.03044821321964264,
-            0.4540477693080902
-          ],
-          "normal": [
-            0.26244014501571655,
-            -0.9626023769378662,
-            0.06724367290735245
-          ],
-          "distance": 0.013473588973283768
-        }
-      }
-    },
-    "hand_pose_revision": 5
-  },
-  "retained_body_motion": {
-    "source_revision": 4,
-    "lower_body_actions_and_foot_binding_preserved": true,
-    "upper_arm_length_factor_from_initial": 0.931
-  },
-  "web_texture_optimization": {
-    "textures": [
-      {
-        "image": "brown_bob_wig_3d_model.glb_normal",
-        "source_px": [
-          4096,
-          4096
-        ],
-        "web_px": [
-          2048,
-          2048
-        ],
-        "source_bytes": 5690150,
-        "web_bytes": 1358675
-      },
-      {
-        "image": "diandian_black_brown_final",
-        "source_px": [
-          2048,
-          2048
-        ],
-        "web_px": [
-          2048,
-          2048
-        ],
-        "source_bytes": 3181904,
-        "web_bytes": 626939
-      },
-      {
-        "image": "diandian_classic_basecolor",
-        "source_px": [
-          4096,
-          4096
-        ],
-        "web_px": [
-          2048,
-          2048
-        ],
-        "source_bytes": 3977570,
-        "web_bytes": 1574909
-      },
-      {
-        "image": "diandian_head_basecolor",
-        "source_px": [
-          4096,
-          4096
-        ],
-        "web_px": [
-          2048,
-          2048
-        ],
-        "source_bytes": 3397542,
-        "web_bytes": 1307798
-      }
-    ],
-    "web_bytes": 15442740,
-    "native_bytes": 26821592,
-    "geometry_preserved": true
-  },
-  "comparison_mode": "previous_revision"
+  }
 }
