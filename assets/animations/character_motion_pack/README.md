@@ -1,11 +1,11 @@
 # 角色动作包
 
-本轮上传九个 FBX，均为 65 骨 Mixamo、30fps。点点保留原四段动作并加入九段，共十三段。知更将 woman_Standing Idle 作为默认 Idle，保留现版 Walk，并加入其余八段，共十二段。新动作已适配各自身体比例和原有手部绑定。
+上传的九个 FBX 均为 65 骨 Mixamo、30fps。当前两人各保留十一段动作：点点沿用自己的默认 Idle，知更默认使用 standing_idle（来源 woman_Standing Idle，导出名 Idle）；多余的普通女性/站立待机已移除。持枪待机、瞄准待机及现版 Walk 保留。动作已适配各自身体比例和手部绑定。
 
 | 来源 | 导入名 | 点点 | 知更 |
 | --- | --- | --- | --- |
-| woman_idle.fbx | WomanIdle | 新增可选待机 | 可选待机 |
-| woman_Standing Idle.fbx | StandingIdle / Idle | 新增 | 当前默认 Idle |
+| woman_idle.fbx | WomanIdle | 已从成品移除 | 已从成品移除 |
+| woman_Standing Idle.fbx | StandingIdle / Idle | 已移除多余 StandingIdle | 默认 standing_idle，导出名 Idle |
 | Talking.fbx | Talking | 新增说话手势 | 新增说话手势 |
 | Rifle Idle.fbx | RifleIdle | 新增 | 新增 |
 | Rifle Aiming Idle.fbx | RifleAimingIdle | 新增 | 新增 |

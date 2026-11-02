@@ -28,20 +28,6 @@
       "duration": 4
     },
     {
-      "name": "WomanIdle",
-      "label": "女性待机",
-      "duration": 8.333333333333334,
-      "source": "woman_idle.fbx",
-      "loop": true
-    },
-    {
-      "name": "StandingIdle",
-      "label": "站立待机",
-      "duration": 6.0,
-      "source": "woman_Standing Idle.fbx",
-      "loop": true
-    },
-    {
       "name": "Talking",
       "label": "说话手势",
       "duration": 3.933333333333333,
@@ -1858,5 +1844,8 @@
   "motion_pack_revision": 2,
   "finger_revision": 4,
   "left_hand_skin_revision": 4,
-  "hands_skin_revision": 4
+  "hands_skin_revision": 4,
+  "idle_selection_revision": 1,
+  "default_motion": "Idle",
+  "default_motion_source": "girl_Idle.fbx"
 }

@@ -1,0 +1,164 @@
+{
+  "unit": "metre",
+  "forward": "-Z",
+  "up": "Y",
+  "weapons": {
+    "qsz92": {
+      "display_name": "QSZ-92",
+      "source_file": "qsz-92_type_92.glb",
+      "source_forward_axis": "-X",
+      "uniform_scale": 0.18999721978202722,
+      "target_length_mm": 190,
+      "measured_length_mm": 189.9999976158142,
+      "size_m_xyz": [
+        0.030203094705939293,
+        0.13572289049625397,
+        0.1899999976158142
+      ],
+      "bounds_min_m_xyz": [
+        -0.015101549215614796,
+        -0.06786144524812698,
+        -0.0949999988079071
+      ],
+      "bounds_max_m_xyz": [
+        0.015101545490324497,
+        0.06786144524812698,
+        0.0949999988079071
+      ],
+      "forward_axis": "-Z",
+      "up_axis": "Y",
+      "pivot": "bounding_box_center",
+      "mesh_objects": 69,
+      "vertices": 1862,
+      "triangles": 1818,
+      "materials_and_uv_preserved": true,
+      "output_sha256": "22c8b97ae5a2b3636d8f1d0d4703d5cfd3a780572e3027c975bf6d6e2de60221",
+      "output_bytes": 430152,
+      "reimported_length_m": 0.1899999976158142,
+      "length_error_mm": 2.384185791015625e-06,
+      "reimported_bounds_center_m": [
+        -1.862645149230957e-09,
+        0.0,
+        0.0
+      ]
+    },
+    "qbz95": {
+      "display_name": "QBZ-95",
+      "source_file": "qbz95.glb",
+      "source_forward_axis": "-Y",
+      "uniform_scale": 0.758781437983768,
+      "target_length_mm": 746,
+      "measured_length_mm": 745.9999918937683,
+      "size_m_xyz": [
+        0.087115079164505,
+        0.33868253231048584,
+        0.7459999918937683
+      ],
+      "bounds_min_m_xyz": [
+        -0.043557558208703995,
+        -0.16934126615524292,
+        -0.37299999594688416
+      ],
+      "bounds_max_m_xyz": [
+        0.04355752095580101,
+        0.16934126615524292,
+        0.37299999594688416
+      ],
+      "forward_axis": "-Z",
+      "up_axis": "Y",
+      "pivot": "bounding_box_center",
+      "mesh_objects": 29,
+      "vertices": 7919,
+      "triangles": 8906,
+      "materials_and_uv_preserved": true,
+      "output_sha256": "bf7bfff81bcb5d348580d0d8f2fbec6cb4cf4586bc739d18609630f41271a4b9",
+      "output_bytes": 1051444,
+      "reimported_length_m": 0.7459999918937683,
+      "length_error_mm": 8.106231689453125e-06,
+      "reimported_bounds_center_m": [
+        -1.862645149230957e-08,
+        0.0,
+        0.0
+      ]
+    },
+    "type56_1": {
+      "display_name": "56-1",
+      "source_file": "type56.glb",
+      "source_forward_axis": "-X",
+      "uniform_scale": 0.883973953488372,
+      "target_length_mm": 870,
+      "measured_length_mm": 870.0000047683716,
+      "size_m_xyz": [
+        0.09320125728845596,
+        0.2870325446128845,
+        0.8700000047683716
+      ],
+      "bounds_min_m_xyz": [
+        -0.04660063236951828,
+        -0.14351627230644226,
+        -0.4350000023841858
+      ],
+      "bounds_max_m_xyz": [
+        0.04660062491893768,
+        0.14351627230644226,
+        0.4350000023841858
+      ],
+      "forward_axis": "-Z",
+      "up_axis": "Y",
+      "pivot": "bounding_box_center",
+      "mesh_objects": 1,
+      "vertices": 10027,
+      "triangles": 13974,
+      "materials_and_uv_preserved": true,
+      "stock_note": "Uploaded type56 already has an extended metal underfolding stock; retained its geometry and named the game asset 56-1. Length is measured with stock extended.",
+      "output_sha256": "de85d5c568928ec684191027a8d02f5212a2d25bf6bd239a8a911887e62c5981",
+      "output_bytes": 1237656,
+      "reimported_length_m": 0.8700000047683716,
+      "length_error_mm": 4.76837158203125e-06,
+      "reimported_bounds_center_m": [
+        -3.725290298461914e-09,
+        0.0,
+        0.0
+      ]
+    },
+    "hanyang88": {
+      "display_name": "汉阳造",
+      "source_file": "hanyang_type_88.glb",
+      "source_forward_axis": "+X",
+      "uniform_scale": 1.2524461839530332,
+      "target_length_mm": 1250,
+      "measured_length_mm": 1250.0,
+      "size_m_xyz": [
+        0.0952339619398117,
+        0.1981409341096878,
+        1.25
+      ],
+      "bounds_min_m_xyz": [
+        -0.04761699587106705,
+        -0.0990704670548439,
+        -0.625
+      ],
+      "bounds_max_m_xyz": [
+        0.04761696234345436,
+        0.0990704670548439,
+        0.625
+      ],
+      "forward_axis": "-Z",
+      "up_axis": "Y",
+      "pivot": "bounding_box_center",
+      "mesh_objects": 4,
+      "vertices": 18176,
+      "triangles": 17353,
+      "materials_and_uv_preserved": true,
+      "output_sha256": "111b03c5709651fde259b68db1ba95469296b34a66292c3e92ad7f128ba32b02",
+      "output_bytes": 2760604,
+      "reimported_length_m": 1.25,
+      "length_error_mm": 0.0,
+      "reimported_bounds_center_m": [
+        -1.6763806343078613e-08,
+        0.0,
+        0.0
+      ]
+    }
+  }
+}

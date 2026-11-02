@@ -3,6 +3,7 @@ const PlayerScript = preload("res://godot/scripts/player.gd")
 const EnemyScript = preload("res://godot/scripts/enemy.gd")
 const ProjectileScript = preload("res://godot/scripts/projectile.gd")
 const SAVE = "user://checkpoint.json"
+const WEAPON_ID_ALIASES = {"qbu201": "qbu85"}
 var weapons: Array
 var chapters: Array
 var chapter_index := 0
@@ -410,7 +411,7 @@ func show_pause():
 
 func show_armory():
  set_mode("armory")
- panel("抵抗军军械库", "手枪装备副武器槽，其余装备主武器槽；各枪弹药独立。")
+ panel("抵抗军军械库", "手枪装备副武器槽，其余装备主武器槽；各枪弹药独立。\n狙击枪序列：汉阳造 → QBU85 → QBU88；10式归入重型武器。")
  var names := ["手枪", "步枪", "狙击枪", "冲锋枪", "霰弹枪", "重型武器"]
  for category in 6:
   var heading := label(names[category], 24)
@@ -475,6 +476,6 @@ func load_checkpoint():
  for i in chapters.size():
   if chapters[i].Id == data.chapter_id:
    start_chapter(i, int(data.objective_index), int(data.progress), false)
-   slots = [data.primary, data.sidearm]
+   slots = [WEAPON_ID_ALIASES.get(data.primary, data.primary), WEAPON_ID_ALIASES.get(data.sidearm, data.sidearm)]
    if objective_index >= chapters[chapter_index].Objectives.size(): show_chapter_complete()
    return

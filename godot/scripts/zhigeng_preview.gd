@@ -1,9 +1,10 @@
 extends Node3D
 
 const MODEL := "res://assets/characters/zhigeng/zhigeng_character_animated.glb"
+const DEFAULT_MOTION := "Idle" # standing_idle source, exported with the common Idle name.
 const MOTION_LABELS := {
-	"Idle": "待机", "Walk": "走路", "Run": "跑步", "HeadStress": "转头",
-	"FiringRifle": "步枪射击", "WomanIdle": "女性待机", "StandingIdle": "站立待机",
+	"Idle": "站立待机", "Walk": "走路", "Run": "跑步", "HeadStress": "转头",
+	"FiringRifle": "步枪射击",
 	"Talking": "交谈", "RifleRun": "持步枪跑", "RifleAimingIdle": "步枪瞄准",
 	"RifleIdle": "持步枪待机", "Reloading": "换弹", "PistolIdle": "持手枪待机"
 }
@@ -31,7 +32,7 @@ func _ready() -> void:
 	animation.callback_mode_process = AnimationMixer.ANIMATION_CALLBACK_MODE_PROCESS_PHYSICS
 	for name in animation.get_animation_list():
 		animation.get_animation(name).loop_mode = Animation.LOOP_NONE if name.get_file() in ["Reloading", "Talking"] else Animation.LOOP_LINEAR
-	animation.play("Idle")
+	animation.play(DEFAULT_MOTION)
 	animation.advance(0)
 	ponytail = PONYTAIL.new()
 	add_child(ponytail)

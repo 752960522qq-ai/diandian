@@ -11,3 +11,5 @@ assets/characters/zhigeng/*.blend filter=lfs diff=lfs merge=lfs -text
 assets/characters/zhigeng/source/*.glb filter=lfs diff=lfs merge=lfs -text
 assets/characters/zhigeng/*.zip filter=lfs diff=lfs merge=lfs -text
 assets/animations/character_motion_pack/source/*.fbx filter=lfs diff=lfs merge=lfs -text
+assets/weapons/*.glb filter=lfs diff=lfs merge=lfs -text
+assets/weapons/source/*.glb filter=lfs diff=lfs merge=lfs -text

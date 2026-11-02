@@ -11,10 +11,11 @@
   "motions": [
     {
       "name": "Idle",
-      "label": "待机 · 站立",
+      "label": "站立待机",
       "duration": 6,
       "loop": true,
-      "source": "woman_Standing Idle.fbx"
+      "source": "woman_Standing Idle.fbx",
+      "source_action": "standing_idle"
     },
     {
       "name": "Walk",
@@ -33,13 +34,6 @@
       "label": "大幅转头",
       "duration": 4.0,
       "loop": true
-    },
-    {
-      "name": "WomanIdle",
-      "label": "女性待机",
-      "duration": 8.333333333333334,
-      "loop": true,
-      "source": "woman_idle.fbx"
     },
     {
       "name": "Talking",
@@ -267,5 +261,8 @@
   "head_uniform_scale": 1.04,
   "mouth_width_factor": 0.92,
   "default_idle_source": "woman_Standing Idle.fbx",
-  "idle_clearance_revision": 3
+  "idle_clearance_revision": 3,
+  "idle_selection_revision": 1,
+  "default_motion": "Idle",
+  "default_motion_source": "standing_idle"
 }

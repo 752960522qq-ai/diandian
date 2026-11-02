@@ -15,7 +15,10 @@
     "Pellets": 1,
     "Explosive": 0,
     "ProjectileSpeed": 0,
-    "BlastRadius": 0
+    "BlastRadius": 0,
+    "AssetId": "qsz92",
+    "ModelPath": "res://assets/weapons/qsz92.glb",
+    "LengthMm": 190
   },
   {
     "Id": "type54",
@@ -55,7 +58,7 @@
   },
   {
     "Id": "type56",
-    "DisplayName": "56式冲锋枪（木托）",
+    "DisplayName": "56-1式冲锋枪",
     "Order": 3,
     "Category": 1,
     "FireMode": 1,
@@ -69,11 +72,14 @@
     "Pellets": 1,
     "Explosive": 0,
     "ProjectileSpeed": 0,
-    "BlastRadius": 0
+    "BlastRadius": 0,
+    "AssetId": "type56_1",
+    "ModelPath": "res://assets/weapons/type56_1.glb",
+    "LengthMm": 870
   },
   {
     "Id": "qbz951",
-    "DisplayName": "95-1式自动步枪",
+    "DisplayName": "QBZ95式自动步枪",
     "Order": 4,
     "Category": 1,
     "FireMode": 1,
@@ -87,7 +93,10 @@
     "Pellets": 1,
     "Explosive": 0,
     "ProjectileSpeed": 0,
-    "BlastRadius": 0
+    "BlastRadius": 0,
+    "AssetId": "qbz95",
+    "ModelPath": "res://assets/weapons/qbz95.glb",
+    "LengthMm": 746
   },
   {
     "Id": "qbz03",
@@ -126,8 +135,8 @@
     "BlastRadius": 0
   },
   {
-    "Id": "qbu88",
-    "DisplayName": "88式狙击步枪",
+    "Id": "hanyang88",
+    "DisplayName": "汉阳造（汉阳八八式）",
     "Order": 7,
     "Category": 2,
     "FireMode": 0,
@@ -141,11 +150,17 @@
     "Pellets": 1,
     "Explosive": 0,
     "ProjectileSpeed": 0,
-    "BlastRadius": 0
+    "BlastRadius": 0,
+    "FamilyId": "sniper",
+    "FamilyOrder": 0,
+    "NextWeaponId": "qbu85",
+    "AssetId": "hanyang88",
+    "ModelPath": "res://assets/weapons/hanyang88.glb",
+    "LengthMm": 1250
   },
   {
-    "Id": "qbu201",
-    "DisplayName": "201式狙击步枪",
+    "Id": "qbu85",
+    "DisplayName": "QBU85式狙击步枪",
     "Order": 8,
     "Category": 2,
     "FireMode": 0,
@@ -159,25 +174,31 @@
     "Pellets": 1,
     "Explosive": 0,
     "ProjectileSpeed": 0,
-    "BlastRadius": 0
+    "BlastRadius": 0,
+    "FamilyId": "sniper",
+    "FamilyOrder": 1,
+    "NextWeaponId": "qbu88"
   },
   {
-    "Id": "qbu10",
-    "DisplayName": "10式大口径狙击步枪",
+    "Id": "qbu88",
+    "DisplayName": "QBU88式狙击步枪",
     "Order": 9,
     "Category": 2,
     "FireMode": 0,
-    "Damage": 185,
-    "ShotsPerSecond": 0.65,
-    "ReloadSeconds": 3.5,
-    "Range": 700,
-    "SpreadDegrees": 0.65,
-    "MagazineSize": 5,
-    "ReserveAmmo": 25,
+    "Damage": 92,
+    "ShotsPerSecond": 1.5,
+    "ReloadSeconds": 2.7,
+    "Range": 450,
+    "SpreadDegrees": 0.8,
+    "MagazineSize": 10,
+    "ReserveAmmo": 50,
     "Pellets": 1,
     "Explosive": 0,
     "ProjectileSpeed": 0,
-    "BlastRadius": 0
+    "BlastRadius": 0,
+    "FamilyId": "sniper",
+    "FamilyOrder": 2,
+    "NextWeaponId": ""
   },
   {
     "Id": "type79",
@@ -306,9 +327,27 @@
     "BlastRadius": 0
   },
   {
+    "Id": "qbu10",
+    "DisplayName": "10式大口径狙击步枪",
+    "Order": 17,
+    "Category": 5,
+    "FireMode": 0,
+    "Damage": 185,
+    "ShotsPerSecond": 0.65,
+    "ReloadSeconds": 3.5,
+    "Range": 700,
+    "SpreadDegrees": 0.65,
+    "MagazineSize": 5,
+    "ReserveAmmo": 25,
+    "Pellets": 1,
+    "Explosive": 0,
+    "ProjectileSpeed": 0,
+    "BlastRadius": 0
+  },
+  {
     "Id": "qlz87",
     "DisplayName": "QLZ87式35毫米自动榴弹发射器",
-    "Order": 17,
+    "Order": 18,
     "Category": 5,
     "FireMode": 1,
     "Damage": 165,

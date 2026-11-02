@@ -1,0 +1,26 @@
+[
+  {
+    "asset_id": "qsz92",
+    "file": "qsz-92_type_92.glb",
+    "sha256": "6ecb85374f9a75667ddf3e48cd33dfe1e7f1b73e197312b0bb0de816af593faf",
+    "bytes": 435240
+  },
+  {
+    "asset_id": "qbz95",
+    "file": "qbz95.glb",
+    "sha256": "fe78925e34b39044ab9bcd435a304cc0e35c9c66c0ab801ff3c895833183bf39",
+    "bytes": 1113408
+  },
+  {
+    "asset_id": "type56_1",
+    "file": "type56.glb",
+    "sha256": "37439c823af472b6949ed71110ead8e37699621e71e16ca7ef57dcec7bbe9ec1",
+    "bytes": 1321332
+  },
+  {
+    "asset_id": "hanyang88",
+    "file": "hanyang_type_88.glb",
+    "sha256": "7550f795e31e703850da7f8c7cc9ecb72272fc90006c233f7b474012a47bce54",
+    "bytes": 2862280
+  }
+]

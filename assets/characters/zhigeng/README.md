@@ -1,9 +1,9 @@
-# 知更 · 十二段动作与面部微调
+# 知更 · 十一段动作与面部微调
 
-当前完整交付采用头部比例微调 v5，并引入用户上传的动作包。默认待机使用 `woman_Standing Idle.fbx`（Idle）；`woman_idle.fbx` 作为 WomanIdle 保留，走路保持现版。头部连同发型等比放大 4%，嘴部相对脸宽收 8%，唇部高度轻收 5%。
+当前完整交付采用头部比例微调 v5，并引入用户上传的动作包。默认待机为用户指定的 **standing_idle**，来源是 `woman_Standing Idle.fbx`，导出时统一命名为 `Idle`，长6秒。多余的 `WomanIdle` 已移除；持枪待机、瞄准待机及现版走路保留。头部连同发型等比放大 4%，嘴部相对脸宽收 8%，唇部高度轻收 5%。
 
 - 在线测试：<https://zhigeng-motion-lab.expert-eagle-6942.chatgpt.site>
-- `zhigeng_character_animated.glb`：315 骨骼、十二段动作、内嵌贴图。
+- `zhigeng_character_animated.glb`：315 骨骼、十一段动作、内嵌贴图。
 - `zhigeng_character_animated.blend`：同版可编辑工程。
 - `zhigeng_godot_physics_demo.zip`：Godot 4.6.3 独立测试工程，动态列出全部动作。
 - [动作包来源、列表与下载](../../animations/character_motion_pack/README.md)

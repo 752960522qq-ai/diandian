@@ -1,0 +1,26 @@
+{
+  "character": "diandian",
+  "removed_actions": [
+    "StandingIdle",
+    "WomanIdle"
+  ],
+  "default_action": "Idle",
+  "default_source": "girl_Idle.fbx",
+  "default_duration_seconds": 8.333333333333334,
+  "retained_action_count": 11,
+  "retained_action_names": [
+    "Idle",
+    "Walk",
+    "Run",
+    "HeadStress",
+    "Talking",
+    "RifleIdle",
+    "RifleAimingIdle",
+    "FiringRifle",
+    "RifleRun",
+    "Reloading",
+    "PistolIdle"
+  ],
+  "retained_animation_curves_unchanged": true,
+  "total_bones": 312
+}
