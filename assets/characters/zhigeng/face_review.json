@@ -1,0 +1,274 @@
+{
+  "bone_count": 315,
+  "raw_head_geometry_hash": "5efd2748e581a15bf205075b1d2e49aec0eec066950dde0c65f24fc6a8c58109",
+  "controls": {
+    "jaw": {
+      "meshes": {
+        "Zhigeng_Clean_Head": {
+          "maximum_displacement_m": 0.0029288929753198568,
+          "mean_displacement_m": 0.00027156101137077994,
+          "vertices_moved_gt_1um": 10471
+        },
+        "Zhigeng_Fine_Eyelashes": {
+          "maximum_displacement_m": 0.0,
+          "mean_displacement_m": 0.0,
+          "vertices_moved_gt_1um": 0
+        }
+      },
+      "translation_basis": []
+    },
+    "brow": {
+      "meshes": {
+        "Zhigeng_Clean_Head": {
+          "maximum_displacement_m": 0.000960041623091021,
+          "mean_displacement_m": 3.5995974741804704e-05,
+          "vertices_moved_gt_1um": 2036
+        },
+        "Zhigeng_Fine_Eyelashes": {
+          "maximum_displacement_m": 0.0,
+          "mean_displacement_m": 0.0,
+          "vertices_moved_gt_1um": 0
+        }
+      },
+      "translation_basis": [
+        {
+          "name": "XQ_eyebrow_bottom_00_L",
+          "pose_offset_world": [
+            8.904963253602866e-18,
+            -1.2379188000774587e-17,
+            0.0012000000569969416
+          ],
+          "web_parent_offset_world": [
+            -0.0001972780009964481,
+            -0.0011675676796585321,
+            -0.00019459468603599817
+          ],
+          "basis_difference_m": 0.001829488331383299
+        },
+        {
+          "name": "XQ_eyebrow_bottom_00_R",
+          "pose_offset_world": [
+            1.534054091582873e-17,
+            -1.6435726392487712e-17,
+            0.0012000000569969416
+          ],
+          "web_parent_offset_world": [
+            -0.00019727811741176993,
+            -0.001167567796073854,
+            -0.00019459474424365908
+          ],
+          "basis_difference_m": 0.001829488406147085
+        },
+        {
+          "name": "XQ_eyebrow_bottom_01_L",
+          "pose_offset_world": [
+            2.8648983616745387e-17,
+            4.232298059140638e-17,
+            0.0012000000569969416
+          ],
+          "web_parent_offset_world": [
+            -0.00019727772451005876,
+            -0.0011675679124891758,
+            -0.00019459478789940476
+          ],
+          "basis_difference_m": 0.0018294884255662495
+        },
+        {
+          "name": "XQ_eyebrow_bottom_01_R",
+          "pose_offset_world": [
+            9.19282210677132e-19,
+            -1.7397825126031814e-17,
+            0.0012000000569969416
+          ],
+          "web_parent_offset_world": [
+            -0.00019727781182155013,
+            -0.001167567796073854,
+            -0.00019459477334748954
+          ],
+          "basis_difference_m": 0.0018294883731345044
+        },
+        {
+          "name": "XQ_eyebrow_bottom_02_L",
+          "pose_offset_world": [
+            -6.617286081746611e-18,
+            1.521547782465561e-17,
+            0.0012000000569969416
+          ],
+          "web_parent_offset_world": [
+            -0.00019727859762497246,
+            -0.0011675675632432103,
+            -0.00019459467148408294
+          ],
+          "basis_difference_m": 0.0018294883022545504
+        },
+        {
+          "name": "XQ_eyebrow_bottom_02_R",
+          "pose_offset_world": [
+            1.2480104035506056e-17,
+            -8.538237692111157e-17,
+            0.0012000000569969416
+          ],
+          "web_parent_offset_world": [
+            -0.00019727901963051409,
+            -0.0011675676796585321,
+            -0.00019459471513982862
+          ],
+          "basis_difference_m": 0.001829488441101581
+        },
+        {
+          "name": "XQ_eyebrow_bottom_03_L",
+          "pose_offset_world": [
+            1.909464387761899e-17,
+            -2.08340525045853e-17,
+            0.0012000000569969416
+          ],
+          "web_parent_offset_world": [
+            -0.00019727878679987043,
+            -0.0011675676796585321,
+            -0.00019459472969174385
+          ],
+          "basis_difference_m": 0.0018294884158566672
+        },
+        {
+          "name": "XQ_eyebrow_bottom_03_R",
+          "pose_offset_world": [
+            -1.6428670541862635e-17,
+            3.779641336022225e-18,
+            0.0012000000569969416
+          ],
+          "web_parent_offset_world": [
+            -0.00019727837934624404,
+            -0.0011675676796585321,
+            -0.00019459472969174385
+          ],
+          "basis_difference_m": 0.0018294883721635463
+        },
+        {
+          "name": "XQ_eyebrow_top_00_L",
+          "pose_offset_world": [
+            -2.0043605328674526e-17,
+            1.6501313543257042e-17,
+            0.0012000000569969416
+          ],
+          "web_parent_offset_world": [
+            -0.00019727775361388922,
+            -0.001167567796073854,
+            -0.00019459468603599817
+          ],
+          "basis_difference_m": 0.0018294883663377967
+        },
+        {
+          "name": "XQ_eyebrow_top_00_R",
+          "pose_offset_world": [
+            3.56656788203469e-17,
+            9.395651756052998e-18,
+            0.0012000000569969416
+          ],
+          "web_parent_offset_world": [
+            -0.00019727824837900698,
+            -0.001167567796073854,
+            -0.00019459478789940476
+          ],
+          "basis_difference_m": 0.0018294884197405002
+        },
+        {
+          "name": "XQ_eyebrow_top_01_L",
+          "pose_offset_world": [
+            9.19282210677132e-19,
+            -1.7397825126031814e-17,
+            0.0012000000569969416
+          ],
+          "web_parent_offset_world": [
+            -0.00019727781182155013,
+            -0.001167567796073854,
+            -0.00019459477334748954
+          ],
+          "basis_difference_m": 0.0018294883731345044
+        },
+        {
+          "name": "XQ_eyebrow_top_01_R",
+          "pose_offset_world": [
+            1.103648196069891e-17,
+            -8.297624086809282e-18,
+            0.0012000000569969416
+          ],
+          "web_parent_offset_world": [
+            -0.00019727798644453287,
+            -0.0011675676796585321,
+            -0.0001945947587955743
+          ],
+          "basis_difference_m": 0.0018294883294413824
+        },
+        {
+          "name": "XQ_eyebrow_top_02_L",
+          "pose_offset_world": [
+            3.164823463874426e-17,
+            2.453902093798991e-17,
+            0.0012000000569969416
+          ],
+          "web_parent_offset_world": [
+            -0.00019727775361388922,
+            -0.0011675679124891758,
+            -0.00019459477334748954
+          ],
+          "basis_difference_m": 0.0018294884284791241
+        },
+        {
+          "name": "XQ_eyebrow_top_02_R",
+          "pose_offset_world": [
+            2.8648983616745387e-17,
+            4.232298059140638e-17,
+            0.0012000000569969416
+          ],
+          "web_parent_offset_world": [
+            -0.00019727772451005876,
+            -0.0011675679124891758,
+            -0.00019459478789940476
+          ],
+          "basis_difference_m": 0.0018294884255662495
+        },
+        {
+          "name": "XQ_eyebrow_top_03_L",
+          "pose_offset_world": [
+            1.103648196069891e-17,
+            -8.297624086809282e-18,
+            0.0012000000569969416
+          ],
+          "web_parent_offset_world": [
+            -0.00019727798644453287,
+            -0.0011675676796585321,
+            -0.0001945947587955743
+          ],
+          "basis_difference_m": 0.0018294883294413824
+        },
+        {
+          "name": "XQ_eyebrow_top_03_R",
+          "pose_offset_world": [
+            6.3800440646215025e-18,
+            -6.634233358136598e-18,
+            0.0012000000569969416
+          ],
+          "web_parent_offset_world": [
+            -0.00019727804465219378,
+            -0.001167567796073854,
+            -0.00019459474424365908
+          ],
+          "basis_difference_m": 0.0018294883983794189
+        }
+      ]
+    }
+  },
+  "geometry_preserved_against_graft_report": true,
+  "source_asset_modified": false,
+  "web_translation_correction": {
+    "file": "face_controls_web.json",
+    "space": "glTF parent-node local space",
+    "maximum_world_delta_error_m": 5.4623806104304324e-12,
+    "reason": "Blender PoseBone.location is in own rest basis; Three.js bone.position is in parent-node basis"
+  },
+  "visual_review": {
+    "neutral": "Original head proportions and facial shape preserved; no rest drift visible",
+    "controls": "Small jaw motion and brow lift are smooth; no lip/chin tearing or eyelash jumps visible",
+    "source_asset_modified": false
+  }
+}

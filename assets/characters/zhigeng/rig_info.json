@@ -1,0 +1,193 @@
+{
+  "title": "知更 · 面部骨骼与动作适配",
+  "donor": "hero_13 夏晴 R23，经点点已拟合面部骨架迁移",
+  "appearance_revision": 2,
+  "facial_revision": 1,
+  "body_bones_preserved": 65,
+  "ponytail_bones": 3,
+  "transferred_face_bones": 246,
+  "total_bones": 315,
+  "fps": 30,
+  "motions": [
+    {
+      "name": "Idle",
+      "duration": 8.333333333333334
+    },
+    {
+      "name": "Walk",
+      "duration": 1.1666666666666667
+    },
+    {
+      "name": "Run",
+      "duration": 0.6666666666666666
+    },
+    {
+      "name": "HeadStress",
+      "duration": 4.0
+    }
+  ],
+  "face_controls": [
+    {
+      "id": "jaw",
+      "label": "下颌微动",
+      "type": "bone",
+      "bones": [
+        {
+          "name": "DD_Jaw_CTRL",
+          "axis": "x",
+          "radians": 0.055
+        }
+      ]
+    },
+    {
+      "id": "brow",
+      "label": "轻抬眉",
+      "type": "bone",
+      "bones": [
+        {
+          "name": "XQ_eyebrow_bottom_00_L",
+          "translation": [
+            -0.0001945943949976936,
+            0.001183672808110714,
+            3.243267929065041e-05
+          ]
+        },
+        {
+          "name": "XQ_eyebrow_bottom_00_R",
+          "translation": [
+            -0.0001945943949976936,
+            0.001183672808110714,
+            3.243267929065041e-05
+          ]
+        },
+        {
+          "name": "XQ_eyebrow_bottom_01_L",
+          "translation": [
+            -0.0001945943949976936,
+            0.001183672808110714,
+            3.243267929065041e-05
+          ]
+        },
+        {
+          "name": "XQ_eyebrow_bottom_01_R",
+          "translation": [
+            -0.0001945943949976936,
+            0.001183672808110714,
+            3.243267929065041e-05
+          ]
+        },
+        {
+          "name": "XQ_eyebrow_bottom_02_L",
+          "translation": [
+            -0.0001945943949976936,
+            0.001183672808110714,
+            3.243267929065041e-05
+          ]
+        },
+        {
+          "name": "XQ_eyebrow_bottom_02_R",
+          "translation": [
+            -0.0001945943949976936,
+            0.001183672808110714,
+            3.243267929065041e-05
+          ]
+        },
+        {
+          "name": "XQ_eyebrow_bottom_03_L",
+          "translation": [
+            -0.0001945943949976936,
+            0.001183672808110714,
+            3.243267929065041e-05
+          ]
+        },
+        {
+          "name": "XQ_eyebrow_bottom_03_R",
+          "translation": [
+            -0.0001945943949976936,
+            0.001183672808110714,
+            3.243267929065041e-05
+          ]
+        },
+        {
+          "name": "XQ_eyebrow_top_00_L",
+          "translation": [
+            -0.0001945943949976936,
+            0.001183672808110714,
+            3.243267929065041e-05
+          ]
+        },
+        {
+          "name": "XQ_eyebrow_top_00_R",
+          "translation": [
+            -0.0001945943949976936,
+            0.001183672808110714,
+            3.243267929065041e-05
+          ]
+        },
+        {
+          "name": "XQ_eyebrow_top_01_L",
+          "translation": [
+            -0.0001945943949976936,
+            0.001183672808110714,
+            3.243267929065041e-05
+          ]
+        },
+        {
+          "name": "XQ_eyebrow_top_01_R",
+          "translation": [
+            -0.0001945943949976936,
+            0.001183672808110714,
+            3.243267929065041e-05
+          ]
+        },
+        {
+          "name": "XQ_eyebrow_top_02_L",
+          "translation": [
+            -0.0001945943949976936,
+            0.001183672808110714,
+            3.243267929065041e-05
+          ]
+        },
+        {
+          "name": "XQ_eyebrow_top_02_R",
+          "translation": [
+            -0.0001945943949976936,
+            0.001183672808110714,
+            3.243267929065041e-05
+          ]
+        },
+        {
+          "name": "XQ_eyebrow_top_03_L",
+          "translation": [
+            -0.0001945943949976936,
+            0.001183672808110714,
+            3.243267929065041e-05
+          ]
+        },
+        {
+          "name": "XQ_eyebrow_top_03_R",
+          "translation": [
+            -0.0001945943949976936,
+            0.001183672808110714,
+            3.243267929065041e-05
+          ]
+        }
+      ]
+    }
+  ],
+  "head_shape_preserved": true,
+  "head_uniform_scale_xyz": [
+    0.125,
+    0.125,
+    0.125
+  ],
+  "comparison_mode": "facial_binding",
+  "compare": "相同头形、发型和动作，对照面部骨骼适配前后的表现。",
+  "face_binding_summary": {
+    "facial_bones_with_direct_weights": 243,
+    "all_mesh_positions_identical": true,
+    "body_and_hair_weights_identical": true,
+    "action_curves_identical": true
+  },
+  "ponytail_body_collision_deferred": true
+}

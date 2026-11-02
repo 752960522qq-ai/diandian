@@ -1,0 +1,26 @@
+{
+  "bones": 315,
+  "clips": [
+    "Idle",
+    "Walk",
+    "Run",
+    "HeadStress"
+  ],
+  "loadedVersions": [
+    "fixed",
+    "before"
+  ],
+  "faceControls": [
+    "jaw",
+    "brow"
+  ],
+  "maximumFaceMovement": 0.0028828557692485014,
+  "browWorldUp": 0.0020825778816662144,
+  "resetError": 0,
+  "beforeDisabled": true,
+  "mobile": {
+    "width": 390,
+    "scroll": 390
+  },
+  "errors": []
+}

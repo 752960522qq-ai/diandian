@@ -1,0 +1,68 @@
+{
+  "fixed": {
+    "textures": [
+      {
+        "image": "zhigeng_basecolor",
+        "source_px": [
+          4096,
+          4096
+        ],
+        "web_px": [
+          2048,
+          2048
+        ],
+        "source_bytes": 3813122,
+        "web_bytes": 1488805
+      },
+      {
+        "image": "bald_head_2_basecolor",
+        "source_px": [
+          4096,
+          4096
+        ],
+        "web_px": [
+          2048,
+          2048
+        ],
+        "source_bytes": 3349897,
+        "web_bytes": 1276106
+      }
+    ],
+    "web_bytes": 15884040,
+    "native_bytes": 20282152,
+    "geometry_bones_and_animations_preserved": true
+  },
+  "before": {
+    "textures": [
+      {
+        "image": "zhigeng_basecolor",
+        "source_px": [
+          4096,
+          4096
+        ],
+        "web_px": [
+          2048,
+          2048
+        ],
+        "source_bytes": 3813122,
+        "web_bytes": 1488805
+      },
+      {
+        "image": "bald_head_2_basecolor",
+        "source_px": [
+          4096,
+          4096
+        ],
+        "web_px": [
+          2048,
+          2048
+        ],
+        "source_bytes": 3349897,
+        "web_bytes": 1276106
+      }
+    ],
+    "web_bytes": 14513944,
+    "native_bytes": 18912056,
+    "geometry_bones_and_animations_preserved": true
+  }
+}
