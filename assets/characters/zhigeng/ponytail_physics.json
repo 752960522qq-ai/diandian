@@ -5,7 +5,7 @@
   "settings": {
     "root_bone": "ZG_Ponytail_01",
     "end_bone": "ZG_Ponytail_03",
-    "end_bone_length": 0.02686,
+    "end_bone_length": 0.027934399999999998,
     "stiffness": 0.55,
     "drag": 0.45,
     "gravity": 0.08,
@@ -15,9 +15,9 @@
       0
     ],
     "joint_radii": [
-      0.027,
-      0.03,
-      0.02
+      0.02808,
+      0.0312,
+      0.020800000000000003
     ],
     "collision_padding": 0.0015
   },

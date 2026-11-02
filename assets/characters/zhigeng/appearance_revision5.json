@@ -1,0 +1,38 @@
+{
+  "head_uniform_scale": 1.04,
+  "mouth_width_relative_to_face": 0.92,
+  "lip_height_factor": 0.95,
+  "meshes": {
+    "Zhigeng_Clean_Head": {
+      "vertices": 17222,
+      "max_displacement": 0.0050305015801750804
+    },
+    "Zhigeng_Fine_Eyelashes": {
+      "vertices": 6720,
+      "max_displacement": 0.003416090013806459
+    },
+    "Zhigeng_Brown_Ponytail": {
+      "vertices": 46853,
+      "max_displacement": 0.005363854317716537
+    },
+    "Zhigeng_Hair_Scalp_Liner": {
+      "vertices": 2073,
+      "max_displacement": 0.005035160458603766
+    }
+  },
+  "head_branch_bones": 252,
+  "pony_capsule_joint_clearance": {
+    "FiringRifle": 0.0014999821488746873,
+    "HeadStress": 0.001499144510818829,
+    "Idle": 0.0014999656080708218,
+    "PistolIdle": 0.001499976711125811,
+    "Reloading": 0.0014999585757567019,
+    "RifleAimingIdle": 0.0014999798891888738,
+    "RifleIdle": 0.001499947099227683,
+    "RifleRun": 0.0014999282962771116,
+    "Run": 0.0014999371912432363,
+    "StandingIdle": 0.0014999654773586585,
+    "Talking": 0.0014999458966755558,
+    "Walk": 0.0014999728364524234
+  }
+}

@@ -1,7 +1,7 @@
 {
   "title": "知更 · 面部骨骼与动作适配",
   "donor": "hero_13 夏晴 R23，经点点已拟合面部骨架迁移",
-  "appearance_revision": 4,
+  "appearance_revision": 5,
   "facial_revision": 2,
   "body_bones_preserved": 65,
   "ponytail_bones": 3,
@@ -11,9 +11,10 @@
   "motions": [
     {
       "name": "Idle",
-      "label": "待机 · 新",
-      "duration": 8.333333333333334,
-      "loop": true
+      "label": "待机 · 站立",
+      "duration": 6,
+      "loop": true,
+      "source": "woman_Standing Idle.fbx"
     },
     {
       "name": "Walk",
@@ -34,10 +35,11 @@
       "loop": true
     },
     {
-      "name": "StandingIdle",
-      "label": "站立待机",
-      "duration": 6.0,
-      "loop": true
+      "name": "WomanIdle",
+      "label": "女性待机",
+      "duration": 8.333333333333334,
+      "loop": true,
+      "source": "woman_idle.fbx"
     },
     {
       "name": "Talking",
@@ -260,5 +262,9 @@
   },
   "motion_revision": 1,
   "walk_replacement_pending": false,
-  "walk_policy": "User confirmed: replace Idle with woman_idle; keep existing Walk"
+  "walk_policy": "User confirmed: replace Idle with woman_idle; keep existing Walk",
+  "finger_revision": 2,
+  "head_uniform_scale": 1.04,
+  "mouth_width_factor": 0.92,
+  "default_idle_source": "woman_Standing Idle.fbx"
 }

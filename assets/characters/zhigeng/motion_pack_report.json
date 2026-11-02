@@ -1071,5 +1071,12 @@
       "loop": true
     }
   ],
-  "walk_note": "User confirmed woman_idle replaces Idle; existing Walk retained."
+  "walk_note": "User confirmed woman_idle replaces Idle; existing Walk retained.",
+  "finger_revision": 2,
+  "finger_fix_report": "finger_revision2.json",
+  "default_idle_source": "woman_Standing Idle.fbx",
+  "clip_aliases": {
+    "Idle": "original StandingIdle",
+    "WomanIdle": "original Idle"
+  }
 }

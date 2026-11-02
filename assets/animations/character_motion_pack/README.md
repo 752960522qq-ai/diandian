@@ -1,11 +1,11 @@
 # 角色动作包
 
-本轮上传九个 FBX，均为 65 骨 Mixamo、30fps。点点保留原四段动作并加入九段，共十三段。知更将 woman_idle 作为默认 Idle，保留现版 Walk，并加入其余八段，共十二段。新动作已适配各自身体比例和原有手部绑定。
+本轮上传九个 FBX，均为 65 骨 Mixamo、30fps。点点保留原四段动作并加入九段，共十三段。知更将 woman_Standing Idle 作为默认 Idle，保留现版 Walk，并加入其余八段，共十二段。新动作已适配各自身体比例和原有手部绑定。
 
 | 来源 | 导入名 | 点点 | 知更 |
 | --- | --- | --- | --- |
-| woman_idle.fbx | WomanIdle / Idle | 新增可选待机 | 替换默认 Idle |
-| woman_Standing Idle.fbx | StandingIdle | 新增 | 新增 |
+| woman_idle.fbx | WomanIdle | 新增可选待机 | 可选待机 |
+| woman_Standing Idle.fbx | StandingIdle / Idle | 新增 | 当前默认 Idle |
 | Talking.fbx | Talking | 新增说话手势 | 新增说话手势 |
 | Rifle Idle.fbx | RifleIdle | 新增 | 新增 |
 | Rifle Aiming Idle.fbx | RifleAimingIdle | 新增 | 新增 |
@@ -24,3 +24,5 @@ Talking 和 Reloading 单次播放，其余循环。FBX 的线性水平位移从
 - [知更 GLB](https://github.com/752960522qq-ai/diandian/raw/refs/heads/main/assets/characters/zhigeng/zhigeng_character_animated.glb?download=1)
 
 同目录 `source/` 保留上传的原始 FBX；`sources.json` 记录文件与 SHA256。各角色目录内 `motion_pack_report.json` 记录适配结果，`motion_*_preview.png` 为本轮代表姿势。
+
+手指修订2：补全第3节→指尖的方向校准，消除末节异常反折。两人新增动作均已修复，原有手势节奏保留。后续导入脚本位于 `tools/blender/retarget_uploaded_motion.py`。

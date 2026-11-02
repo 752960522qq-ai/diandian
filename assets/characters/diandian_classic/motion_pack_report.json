@@ -1039,5 +1039,7 @@
       "curves": 263
     }
   ],
-  "weapons": "No gun mesh was supplied; animations preserve the source grip and action timing."
+  "weapons": "No gun mesh was supplied; animations preserve the source grip and action timing.",
+  "finger_revision": 2,
+  "finger_fix_report": "finger_revision2.json"
 }
