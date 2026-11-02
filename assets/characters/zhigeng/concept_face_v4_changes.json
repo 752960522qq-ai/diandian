@@ -1,0 +1,38 @@
+{
+  "revision": 4,
+  "source": "/workspace/diandian/assets/characters/zhigeng/zhigeng_character_animated.blend",
+  "intent": "Subtle facial fit to Zhigeng concept sheet, without overall head rescaling",
+  "changes": {
+    "upper_eyelid_max_drop": 0.00028,
+    "outer_brow_max_drop": 0.00044,
+    "lower_lip_max_inward": 0.0004,
+    "lower_lip_max_raise": 0.0002,
+    "sub_cheek_max_inward_x": 0.00032,
+    "sub_cheek_max_inward_y": 0.00032,
+    "skin_tint": [
+      0.955,
+      0.975,
+      0.985
+    ],
+    "lip_tint_at_mask_center": [
+      0.82,
+      0.895,
+      0.935
+    ]
+  },
+  "geometry": {
+    "Zhigeng_Clean_Head": {
+      "changed_vertices": 5740,
+      "maximum_local_displacement": 0.0004466846604536165
+    },
+    "Zhigeng_Fine_Eyelashes": {
+      "changed_vertices": 5312,
+      "maximum_local_displacement": 0.0002798693935186209
+    }
+  },
+  "facial_rest_joints_adjusted": 119,
+  "original_texture_pixels_modified": false,
+  "uniform_head_scale_changed": false,
+  "nose_and_eye_spacing_changed": false,
+  "website_deployed": false
+}

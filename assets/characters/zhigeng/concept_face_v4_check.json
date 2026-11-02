@@ -1,0 +1,432 @@
+{
+  "baseline": "/workspace/diandian/assets/characters/zhigeng/zhigeng_character_animated.blend",
+  "candidate": "/workspace/work/zhigeng_character/revision4/delivery/zhigeng_concept_face_v4.blend",
+  "mesh_names_identical": true,
+  "mesh_comparison": {
+    "Zhigeng_Body": {
+      "vertex_count_before": 95501,
+      "vertex_count_after": 95501,
+      "topology_identical": true,
+      "weights_identical": true,
+      "max_displacement": 0.0,
+      "mean_displacement": 0.0,
+      "vertices_moved_over_1um": 0,
+      "bbox_before": [
+        [
+          -0.2658691108226776,
+          0.26586928963661194
+        ],
+        [
+          -0.0837399810552597,
+          0.08374007046222687
+        ],
+        [
+          -1.5738217484795314e-07,
+          0.877441942691803
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.2658691108226776,
+          0.26586928963661194
+        ],
+        [
+          -0.0837399810552597,
+          0.08374007046222687
+        ],
+        [
+          -1.5738217484795314e-07,
+          0.877441942691803
+        ]
+      ],
+      "object_transform_identical": true,
+      "color_attributes_after": []
+    },
+    "Zhigeng_Fine_Eyelashes": {
+      "vertex_count_before": 6720,
+      "vertex_count_after": 6720,
+      "topology_identical": true,
+      "weights_identical": true,
+      "max_displacement": 0.000279843807220459,
+      "mean_displacement": 0.00010893287225848153,
+      "vertices_moved_over_1um": 4934,
+      "bbox_before": [
+        [
+          -0.028695514425635338,
+          0.02685009501874447
+        ],
+        [
+          -0.042776480317115784,
+          -0.033202920109033585
+        ],
+        [
+          0.9386869072914124,
+          0.9463658332824707
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.028695514425635338,
+          0.02685009501874447
+        ],
+        [
+          -0.042776480317115784,
+          -0.033202920109033585
+        ],
+        [
+          0.9386869072914124,
+          0.9461885094642639
+        ]
+      ],
+      "object_transform_identical": true,
+      "color_attributes_after": []
+    },
+    "Zhigeng_Clean_Head": {
+      "vertex_count_before": 17222,
+      "vertex_count_after": 17222,
+      "topology_identical": true,
+      "weights_identical": true,
+      "max_displacement": 0.00044667138635049125,
+      "mean_displacement": 3.241423445736671e-05,
+      "vertices_moved_over_1um": 5116,
+      "bbox_before": [
+        [
+          -0.04251084849238396,
+          0.04055799916386604
+        ],
+        [
+          -0.057586655020713806,
+          0.058563247323036194
+        ],
+        [
+          0.8460001349449158,
+          0.9999390840530396
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.04251084849238396,
+          0.04055799916386604
+        ],
+        [
+          -0.057586655020713806,
+          0.058563247323036194
+        ],
+        [
+          0.8460001349449158,
+          0.9999390840530396
+        ]
+      ],
+      "object_transform_identical": true,
+      "color_attributes_after": [
+        "ConceptFaceTint"
+      ]
+    },
+    "Zhigeng_Brown_Ponytail": {
+      "vertex_count_before": 46853,
+      "vertex_count_after": 46853,
+      "topology_identical": true,
+      "weights_identical": true,
+      "max_displacement": 0.0,
+      "mean_displacement": 0.0,
+      "vertices_moved_over_1um": 0,
+      "bbox_before": [
+        [
+          -0.055463194847106934,
+          0.0535103976726532
+        ],
+        [
+          -0.06824357062578201,
+          0.10121996700763702
+        ],
+        [
+          0.8031600117683411,
+          1.007938027381897
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.055463194847106934,
+          0.0535103976726532
+        ],
+        [
+          -0.06824357062578201,
+          0.10121996700763702
+        ],
+        [
+          0.8031600117683411,
+          1.007938027381897
+        ]
+      ],
+      "object_transform_identical": true,
+      "color_attributes_after": []
+    },
+    "Zhigeng_Hair_Scalp_Liner": {
+      "vertex_count_before": 2073,
+      "vertex_count_after": 2073,
+      "topology_identical": true,
+      "weights_identical": true,
+      "max_displacement": 0.0,
+      "mean_displacement": 0.0,
+      "vertices_moved_over_1um": 0,
+      "bbox_before": [
+        [
+          -0.04331410676240921,
+          0.041361257433891296
+        ],
+        [
+          0.004206418059766293,
+          0.05941324681043625
+        ],
+        [
+          0.9068604707717896,
+          0.9999390840530396
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.04331410676240921,
+          0.041361257433891296
+        ],
+        [
+          0.004206418059766293,
+          0.05941324681043625
+        ],
+        [
+          0.9068604707717896,
+          0.9999390840530396
+        ]
+      ],
+      "object_transform_identical": true,
+      "color_attributes_after": []
+    }
+  },
+  "bone_count_before": 315,
+  "bone_count_after": 315,
+  "hierarchy_identical": true,
+  "body_and_ponytail_rest_matrix_max_difference": 0.0,
+  "facial_rest_bones_changed": {
+    "XQ_chin_upper_00_L": 2.5331974029541016e-07,
+    "XQ_chin_upper_00_R": 2.5331974029541016e-07,
+    "XQ_chin_upper_01_L": 1.1175870895385742e-06,
+    "XQ_chin_upper_01_R": 1.1175870895385742e-06,
+    "XQ_chin_upper_02_R": 1.3075768947601318e-06,
+    "XQ_lowerlip_bottom_00_L": 0.0003018714487552643,
+    "XQ_lowerlip_middle_00_L": 0.00023135915398597717,
+    "XQ_lowerlip_top_00_L": 0.00023135915398597717,
+    "XQ_lowerlip_inner_00_L": 0.00032816827297210693,
+    "XQ_lowerlip_bottom_00_R": 6.4067542552948e-05,
+    "XQ_lowerlip_middle_00_R": 0.00019288435578346252,
+    "XQ_lowerlip_top_00_R": 5.981326103210449e-05,
+    "XQ_lowerlip_inner_00_R": 0.0002734176814556122,
+    "XQ_lowerlip_bottom_01_L": 0.00013316422700881958,
+    "XQ_lowerlip_middle_01_L": 0.00011162832379341125,
+    "XQ_lowerlip_top_01_L": 0.00011162832379341125,
+    "XQ_lowerlip_inner_01_L": 0.00014108791947364807,
+    "XQ_lowerlip_bottom_01_R": 6.926432251930237e-05,
+    "XQ_lowerlip_middle_01_R": 0.00011162832379341125,
+    "XQ_lowerlip_top_01_R": 6.926432251930237e-05,
+    "XQ_lowerlip_inner_01_R": 0.00014070048928260803,
+    "XQ_lowerlip_bottom_02_L": 3.76775860786438e-05,
+    "XQ_lowerlip_top_02_L": 3.1635165214538574e-05,
+    "XQ_lowerlip_middle_02_L": 3.76775860786438e-05,
+    "XQ_lowerlip_bottom_03_R": 9.950250387191772e-06,
+    "XQ_lowerlip_bottom_M": 0.0003306753933429718,
+    "XQ_lowerlip_middle_M": 0.0002877563238143921,
+    "XQ_lowerlip_top_M": 0.0002877563238143921,
+    "XQ_lowerlip_inner_M": 0.00039190053939819336,
+    "XQ_mouth_lower_01_L": 2.644956111907959e-07,
+    "XQ_mouth_lower_01_R": 3.76775860786438e-05,
+    "XQ_lowerlip_bottom_02_R": 3.76775860786438e-05,
+    "XQ_lowerlip_middle_02_R": 3.76775860786438e-05,
+    "XQ_lowerlip_top_02_R": 3.30023467540741e-05,
+    "XQ_lowerlip_bottom_03_L": 9.950250387191772e-06,
+    "XQ_Tongue_02": 4.85740602016449e-05,
+    "XQ_cheek_bottom_01_L": 0.0003152191638946533,
+    "XQ_cheek_bottom_01_R": 8.895248174667358e-05,
+    "XQ_cheek_bottom_02_R": 1.0289251804351807e-05,
+    "XQ_cheek_lower_01_L": 0.0003152191638946533,
+    "XQ_cheek_lower_01_R": 0.00030218251049518585,
+    "XQ_cheek_lower_02_R": 1.095607876777649e-05,
+    "XQ_cheek_middle_00_L": 0.00029822811484336853,
+    "XQ_cheek_upper_01_L": 4.6662986278533936e-05,
+    "XQ_cheek_upper_01_R": 7.588416337966919e-05,
+    "XQ_cheek_upper_02_L": 6.874650716781616e-05,
+    "XQ_cheek_upper_02_R": 0.00015563704073429108,
+    "XQ_cheek_upper_03_R": 9.325891733169556e-05,
+    "XQ_eyebrow_bottom_00_R": 7.271766662597656e-06,
+    "XQ_eyebrow_bottom_01_L": 0.0001767873764038086,
+    "XQ_eyebrow_bottom_01_R": 0.00021702051162719727,
+    "XQ_eyebrow_bottom_02_L": 0.00011539459228515625,
+    "XQ_eyebrow_bottom_02_R": 7.933378219604492e-05,
+    "XQ_eyebrow_bottom_03_L": 5.173683166503906e-05,
+    "XQ_eyebrow_bottom_03_R": 4.112720489501953e-05,
+    "XQ_eyebrow_top_01_L": 0.00014466047286987305,
+    "XQ_eyebrow_top_01_R": 0.0001423358917236328,
+    "XQ_eyebrow_top_02_L": 0.0002765655517578125,
+    "XQ_eyebrow_top_02_R": 0.0001024007797241211,
+    "XQ_eyebrow_top_03_L": 0.00014954805374145508,
+    "XQ_eyebrow_top_03_R": 9.077787399291992e-05,
+    "XQ_EyeCorner_L": 3.463029861450195e-05,
+    "XQ_EyeCorner_R": 3.5703182220458984e-05,
+    "XQ_eyelid_01_L": 0.0001856088638305664,
+    "XQ_eyelid_01_R": 0.0001830458641052246,
+    "XQ_eyelid_02_L": 0.0002734065055847168,
+    "XQ_eyelid_02_R": 0.00026166439056396484,
+    "XQ_eyelid_03_L": 0.00020372867584228516,
+    "XQ_eyelid_03_R": 0.00017088651657104492,
+    "XQ_eyelid_04_L": 0.0001201629638671875,
+    "XQ_eyelid_04_R": 8.547306060791016e-05,
+    "XQ_eyelid_lower_U_04_L": 7.849931716918945e-05,
+    "XQ_eyelid_lower_U_04_R": 7.444620132446289e-05,
+    "XQ_eyelid_bottom_L": 0.00010214187204837799,
+    "XQ_eyelid_bottom_R": 0.00011618994176387787,
+    "XQ_eyelid_upper_00_L": 0.00018298625946044922,
+    "XQ_eyelid_upper_00_R": 0.00023740530014038086,
+    "XQ_eyelid_upper_01_L": 0.0002734065055847168,
+    "XQ_eyelid_upper_01_R": 0.00021702051162719727,
+    "XQ_eyelid_upper_02_L": 0.00020372867584228516,
+    "XQ_eyelid_upper_02_R": 0.00017088651657104492,
+    "XQ_eyelid_upper_03_L": 0.0001201629638671875,
+    "XQ_eyelid_upper_03_R": 8.547306060791016e-05,
+    "XQ_mouth_02_R": 3.30023467540741e-05,
+    "XQ_mouth_03_L": 1.2796372175216675e-05,
+    "XQ_mouth_03_R": 9.94652509689331e-06,
+    "XQ_Nasolabialfold_upper_03_L": 2.8368085622787476e-06,
+    "XQ_Nasolabialfold_upper_03_R": 2.689659595489502e-06,
+    "XQ_upperlip_bottom_L": 9.950250387191772e-06,
+    "XQ_upperlip_bottom_R": 9.94652509689331e-06,
+    "XQ_upperlip_middle_00_L": 7.348135113716125e-05,
+    "XQ_upperlip_top_00_R": 6.537511944770813e-05,
+    "XQ_upperlip_middle_00_R": 6.537511944770813e-05,
+    "XQ_upperlip_top_01_L": 0.00015239417552947998,
+    "XQ_upperlip_middle00_01_L": 4.704669117927551e-05,
+    "XQ_upperlip_top_01_R": 3.534182906150818e-05,
+    "XQ_upperlip_middle00_01_R": 3.534182906150818e-05,
+    "XQ_upperlip_top_02_L": 4.846230149269104e-05,
+    "XQ_upperlip_middle00_02_L": 6.744638085365295e-05,
+    "XQ_upperlip_inner_00_L": 3.162771463394165e-05,
+    "XQ_upperlip_top_02_R": 3.30023467540741e-05,
+    "XQ_upperlip_middle00_02_R": 6.926432251930237e-05,
+    "XQ_upperlip_inner_00_R": 3.30023467540741e-05,
+    "XQ_upperlip_top_03_L": 9.950250387191772e-06,
+    "XQ_upperlip_inner_01_L": 3.1635165214538574e-05,
+    "XQ_upperlip_top_03_R": 9.94652509689331e-06,
+    "XQ_upperlip_inner_01_R": 1.7881393432617188e-07,
+    "XQ_upperlip_top_M": 8.752569556236267e-05,
+    "XQ_upperlip_middle_M": 8.752569556236267e-05,
+    "XQ_eyelid_00_L": 4.410743713378906e-06,
+    "XQ_eyelid_00_R": 4.106760025024414e-05,
+    "XQ_cheek_upper_05_L": 4.172325134277344e-06,
+    "XQ_jointEyeRight": 9.834766387939453e-06
+  },
+  "actions_identical": true,
+  "actions_after": {
+    "HeadStress": {
+      "digest": "5e1f16e7df2ca5bf7e9b64fec91280f7ed486f9bc4e05ab590cfd344e2990370",
+      "frame_range": [
+        0.0,
+        120.0
+      ],
+      "curve_count": 263
+    },
+    "Idle": {
+      "digest": "210d66a7881cf56ec515b8282f475e4e3963d0f8146fe727491e1c4700f56054",
+      "frame_range": [
+        0.0,
+        250.0
+      ],
+      "curve_count": 275
+    },
+    "Run": {
+      "digest": "6ed17112ae17b44f06e019463b25c7b6a287483cbc127c2d3affd71fdd2fd48a",
+      "frame_range": [
+        0.0,
+        20.0
+      ],
+      "curve_count": 263
+    },
+    "Walk": {
+      "digest": "c1a9324e094816bdf976871eab807ea3975911cdb05b987f044cfec3ac5872be",
+      "frame_range": [
+        0.0,
+        35.0
+      ],
+      "curve_count": 275
+    }
+  },
+  "glb": {
+    "header_valid": true,
+    "bytes": 19978796,
+    "skin_joint_counts": [
+      315
+    ],
+    "animations": [
+      "HeadStress",
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "head_color_primitives": [
+      {
+        "mesh": "Zhigeng_Head2_CleanSkin_Cleaned",
+        "primitive": 0,
+        "has_COLOR_0": true,
+        "material": "tripo_8b6d109b_620e_4a23_b4c8_2ed90378a5d4",
+        "base_color_texture": {
+          "index": 2
+        },
+        "base_color_factor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "vertex_count": 24711,
+        "component_type": 5126,
+        "minimum": [
+          0.7867435216903687,
+          0.8748342990875244,
+          0.922359824180603
+        ],
+        "maximum": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "nonwhite_vertices": 24704,
+        "all_finite": true
+      },
+      {
+        "mesh": "Zhigeng_Head2_CleanSkin_Cleaned",
+        "primitive": 1,
+        "has_COLOR_0": true,
+        "material": "Zhigeng_Neck_Skin",
+        "base_color_texture": {
+          "index": 3
+        },
+        "base_color_factor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "vertex_count": 768,
+        "component_type": 5126,
+        "minimum": [
+          0.9549999833106995,
+          0.9750000238418579,
+          0.9850000143051147
+        ],
+        "maximum": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "nonwhite_vertices": 287,
+        "all_finite": true
+      }
+    ]
+  },
+  "issues": []
+}
