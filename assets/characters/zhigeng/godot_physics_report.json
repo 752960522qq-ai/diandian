@@ -1,0 +1,149 @@
+{
+  "bones": 315,
+  "colliders": 4,
+  "collision_padding": 0.0015,
+  "component": "SpringBoneSimulator3D",
+  "godot": "4.6.3-stable (official)",
+  "joints": 3,
+  "motions": {
+    "HeadStress": {
+      "callbacks": 241,
+      "maximum_overlap": 0.0,
+      "minimum_particle_clearance": 0.000285813391208652,
+      "minimum_sampled_surface_clearance": 0.00086705456674099,
+      "sampled_surface_points": 39360,
+      "settled_minimum_clearance": 0.00130896854400635,
+      "worst_surface": {
+        "bones": [
+          "ZG_Ponytail_01",
+          "mixamorig_Head",
+          "mixamorig_Hips",
+          "mixamorig_Hips"
+        ],
+        "collider": "left_shoulder",
+        "frame": 24,
+        "rest_world": [
+          0.00347776105627418,
+          0.873497605323792,
+          -0.056671030819416
+        ],
+        "weights": [
+          0.82183563709259,
+          0.178149074316025,
+          0.0,
+          0.0
+        ],
+        "world": [
+          0.0227686371654272,
+          0.847328424453735,
+          -0.0151771763339639
+        ]
+      }
+    },
+    "Idle": {
+      "callbacks": 501,
+      "maximum_overlap": 0.0,
+      "minimum_particle_clearance": 0.00149886476993561,
+      "minimum_sampled_surface_clearance": 0.00377847164869308,
+      "sampled_surface_points": 81600,
+      "settled_minimum_clearance": 0.00149893927574158,
+      "worst_surface": {
+        "bones": [
+          "ZG_Ponytail_01",
+          "ZG_Ponytail_02",
+          "mixamorig_Head",
+          "mixamorig_Hips"
+        ],
+        "collider": "upper_back",
+        "frame": 438,
+        "rest_world": [
+          -0.000755207322072238,
+          0.855373203754425,
+          -0.0534090846776962
+        ],
+        "weights": [
+          0.549385845661163,
+          0.428717494010925,
+          0.0218814369291067,
+          0.0
+        ],
+        "world": [
+          -0.0122310956940055,
+          0.839302241802216,
+          -0.0628848597407341
+        ]
+      }
+    },
+    "Run": {
+      "callbacks": 42,
+      "maximum_overlap": 0.000197356760501859,
+      "minimum_particle_clearance": -0.000197356760501859,
+      "minimum_sampled_surface_clearance": 0.00291027784347534,
+      "sampled_surface_points": 7680,
+      "settled_minimum_clearance": -0.000197356760501859,
+      "worst_surface": {
+        "bones": [
+          "ZG_Ponytail_01",
+          "ZG_Ponytail_02",
+          "mixamorig_Head",
+          "mixamorig_Hips"
+        ],
+        "collider": "upper_back",
+        "frame": 18,
+        "rest_world": [
+          -0.00211471598595381,
+          0.856060862541199,
+          -0.0532553307712078
+        ],
+        "weights": [
+          0.570901036262512,
+          0.404882878065109,
+          0.0242008082568645,
+          0.0
+        ],
+        "world": [
+          -0.00461130915209651,
+          0.82234138250351,
+          0.00855641439557076
+        ]
+      }
+    },
+    "Walk": {
+      "callbacks": 71,
+      "maximum_overlap": 0.0,
+      "minimum_particle_clearance": 0.00133823770284653,
+      "minimum_sampled_surface_clearance": 0.00358046501874924,
+      "sampled_surface_points": 12480,
+      "settled_minimum_clearance": 0.00141453164815903,
+      "worst_surface": {
+        "bones": [
+          "ZG_Ponytail_01",
+          "ZG_Ponytail_02",
+          "mixamorig_Head",
+          "mixamorig_Hips"
+        ],
+        "collider": "upper_back",
+        "frame": 60,
+        "rest_world": [
+          -0.000755207322072238,
+          0.855373203754425,
+          -0.0534090846776962
+        ],
+        "weights": [
+          0.549385845661163,
+          0.428717494010925,
+          0.0218814369291067,
+          0.0
+        ],
+        "world": [
+          0.00425470666959882,
+          0.817619144916534,
+          -0.0564135201275349
+        ]
+      }
+    }
+  },
+  "particle_clearance_uses_nominal_mesh_envelope": true,
+  "rest_skin_world_max_error": 0.0000265175513050053,
+  "surface_filter": "sum pony weights >0.65; rest world Y<0.878; every 13th vertex and every 6th physics callback"
+}

@@ -1,7 +1,7 @@
 {
   "title": "知更 · 面部骨骼与动作适配",
   "donor": "hero_13 夏晴 R23，经点点已拟合面部骨架迁移",
-  "appearance_revision": 2,
+  "appearance_revision": 3,
   "facial_revision": 1,
   "body_bones_preserved": 65,
   "ponytail_bones": 3,
@@ -189,5 +189,17 @@
     "body_and_hair_weights_identical": true,
     "action_curves_identical": true
   },
-  "ponytail_body_collision_deferred": true
+  "ponytail_body_collision_deferred": false,
+  "headset_removed": true,
+  "ears_hidden_under_hair": true,
+  "ponytail_physics": {
+    "godot_component": "SpringBoneSimulator3D",
+    "runtime_body_collisions": true,
+    "colliders": [
+      "neck",
+      "upper_back",
+      "left_shoulder",
+      "right_shoulder"
+    ]
+  }
 }

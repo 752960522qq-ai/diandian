@@ -1,0 +1,36 @@
+{
+  "revision": 3,
+  "bones": 315,
+  "contacts": {
+    "Idle": {
+      "active": true,
+      "updates": 35,
+      "collisionCorrections": 1614,
+      "minJointClearance": 0.004125607108789661
+    },
+    "Walk": {
+      "active": true,
+      "updates": 38,
+      "collisionCorrections": 1627,
+      "minJointClearance": 0.0046162771217415355
+    },
+    "Run": {
+      "active": true,
+      "updates": 40,
+      "collisionCorrections": 1638,
+      "minJointClearance": 0.010194638828138591
+    },
+    "HeadStress": {
+      "active": true,
+      "updates": 42,
+      "collisionCorrections": 1732,
+      "minJointClearance": 0.0026043241153345456
+    }
+  },
+  "physicsDisabledWorks": true,
+  "mobile": {
+    "width": 390,
+    "scroll": 390
+  },
+  "errors": []
+}

@@ -1,0 +1,38 @@
+{
+  "removed_gear_components": [
+    {
+      "vertices_after_positional_weld": 538,
+      "faces": 1072
+    },
+    {
+      "vertices_after_positional_weld": 125,
+      "faces": 244
+    }
+  ],
+  "body_cleanup": {
+    "removed_faces": 1316,
+    "retained_faces": 45103,
+    "new_hidden_cap_faces": 0,
+    "position_max_difference": 0.0,
+    "skin_weight_max_difference": 0.0,
+    "retained_vertices": 95501,
+    "mapping_file": "Zhigeng_Body_vertex_mapping.json"
+  },
+  "ear_cleanup": {
+    "removed_faces": 12009,
+    "retained_faces": 32836,
+    "new_hidden_cap_faces": 4,
+    "position_max_difference": 0.0,
+    "skin_weight_max_difference": 0.0,
+    "retained_vertices": 17222,
+    "mapping_file": "Zhigeng_Clean_Head_vertex_mapping.json"
+  },
+  "ears_method": "Remove source-ear faces identified from source UV-island geometry; close ear-base openings inside the hair with skin caps. Facial vertices retain original coordinates.",
+  "head_shape_outside_removed_ears_preserved": true,
+  "bone_count": 315,
+  "bone_rest_matrix_max_difference": 0.0,
+  "action_curves_identical": true,
+  "hair_positions_identical": true,
+  "hair_skin_weights_identical": true,
+  "head_source_vertex_mapping_file": "Zhigeng_Clean_Head_vertex_mapping.json"
+}

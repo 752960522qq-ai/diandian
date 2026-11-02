@@ -1,21 +1,23 @@
-# 知更 · 头发、身体与动作适配
+# 知更 · 马尾物理与发型修整
 
-沿用已清理眼部的head2，以XYZ一致的0.125比例整体缩放适配身体，保持原始脸型与五官比例。棕色头发匹配头围并补齐后脑覆盖；原身体的旧头和皮肤颈已移除，黑高领、衣服与耳麦保留。
+耳机与麦克风已删除；头发内露出的耳部已隐藏，保留脸型与其余头部比例。沿用夏晴来源面部骨架和原有待机、走路、跑步、转头四段动作。
 
-共315根骨骼：身体65根、马尾3根、夏晴来源的246根面部骨骼及下颌控制骨。面部骨骼和蒙皮按知更五官重新适配，细睫毛跟随眼睑骨骼，接颈使用Neck/Head平滑权重。马尾随动作轻微摆动，依用户要求暂不处理马尾与身体的穿模。
+马尾重新贴合静止骨链，三节马尾骨接入Godot 4.6.3自带SpringBoneSimulator3D，通过颈部、背部和双肩四个胶囊碰撞体滑动避碰。碰撞半径按发束厚度配置，四段GLB动作也已烘焙马尾避碰修正。网页提供对应的实时弹簧与胶囊预览，含物理开关。
 
-GLB内嵌四段30fps动作：Idle（待机）、Walk（走路）、Run（跑步）、HeadStress（大幅转头）。待机双臂微展，避开工装裤与腿包；待机和走路处理脚底接地，跑步保留腾空。
+## 使用
 
-- `zhigeng_character_animated.glb`：完整角色、骨骼、动作和内嵌贴图。
-- `zhigeng_character_animated.blend`：可编辑角色源文件。
-- `zhigeng_head_front.png`、`zhigeng_idle.png`、`zhigeng_walk.png`、`zhigeng_run.png`、`zhigeng_head_turn.png`：头部与动作预览。
-- `source/`：此次上传的原始身体与棕色头发。
-- `adaptation_report.json`、`source_manifest.json`：适配和来源记录。
+- 在线预览：<https://zhigeng-motion-lab.expert-eagle-6942.chatgpt.site>
+- `zhigeng_character_animated.glb`：角色与四段动作，315根骨骼，贴图内嵌。
+- `zhigeng_character_animated.blend`：可编辑绑定、动作与材质。
+- `zhigeng_godot_physics_demo.zip`：解压后用Godot 4.6.3打开project.godot，直接运行，可切换动作、马尾物理和视角。
+- 仓库工程预览场景：`godot/scenes/zhigeng_preview.tscn`，配置位于`ponytail_physics.json`。
 
-## 面部骨骼与在线测试
+GLB保存网格、骨骼与烘焙动作，运行时物理由Godot场景中的组件提供。角色在示例中保持Skeleton3D缩放为1。
 
-在线测试：<https://zhigeng-motion-lab.expert-eagle-6942.chatgpt.site>
+## 组件来源
 
-面部骨架沿用点点的夏晴R23迁移流程，保留原头模比例与所有顶点位置。新脸权重仅属于Head及其面部子骨骼，身体、马尾骨骼与四段动作保持。网页提供下颌微动、轻抬眉、面部重置、适配前后对照、全身/头部/脚部/左右手特写和骨骼显示。
+- [Godot SpringBoneSimulator3D](https://docs.godotengine.org/en/stable/classes/class_springbonesimulator3d.html)：MIT，内置骨链弹簧。
+- [Godot SpringBoneCollisionCapsule3D](https://docs.godotengine.org/en/stable/classes/class_springbonecollisioncapsule3d.html)：随身体骨骼移动的碰撞胶囊。
+- 也调研了[Godot VRM](https://github.com/V-Sekai/godot-vrm)，本角色为普通GLB，因此采用Godot原生组件。
 
-`face_controls.json` 使用Blender姿态骨骼坐标，`face_controls_web.json` 与 `rig_info.json` 使用网页关节坐标。`zhigeng_before_face.glb` 保留上一次身体与头发适配后的68骨版本。下载版保留高分辨率贴图，网页使用2K贴图，几何、骨骼与动作相同。
+`godot_physics_report.json`与`web_spring_surface_report.json`记录四段动作中实际马尾蒙皮顶点的抽样间隙；角色面部控制和315骨架继续保留。

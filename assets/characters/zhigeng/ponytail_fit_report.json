@@ -1,0 +1,39 @@
+{
+  "rest_tail_max_rearward_offset": 0.032,
+  "head_and_face_geometry_modified": false,
+  "body_and_face_bones_modified": false,
+  "ponytail_bones_adjusted": [
+    "ZG_Ponytail_01",
+    "ZG_Ponytail_02",
+    "ZG_Ponytail_03"
+  ],
+  "collider_basis_max_error": 3.165236478236097e-07,
+  "baked_clip_collisions": {
+    "Idle": {
+      "frames": 251,
+      "minimum_joint_clearance_m": 0.0014999150290310077,
+      "maximum_additional_turn_degrees": 19.909938251337348
+    },
+    "Walk": {
+      "frames": 36,
+      "minimum_joint_clearance_m": 0.0014999089280802215,
+      "maximum_additional_turn_degrees": 23.113206472066825
+    },
+    "Run": {
+      "frames": 21,
+      "minimum_joint_clearance_m": 0.001499870608371024,
+      "maximum_additional_turn_degrees": 38.49244631295564
+    },
+    "HeadStress": {
+      "frames": 121,
+      "minimum_joint_clearance_m": 0.0014995255633064933,
+      "maximum_additional_turn_degrees": 113.22885432447706
+    }
+  },
+  "inner_scalp_liner": {
+    "vertices": 2073,
+    "faces": 3698,
+    "material": "Dark brown inner hair-root cover over the hidden ear caps",
+    "original_head_vertices_untouched": true
+  }
+}

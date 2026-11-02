@@ -28,8 +28,8 @@
         "web_bytes": 1276106
       }
     ],
-    "web_bytes": 15884040,
-    "native_bytes": 20282152,
+    "web_bytes": 15274028,
+    "native_bytes": 19672144,
     "geometry_bones_and_animations_preserved": true
   },
   "before": {
@@ -61,8 +61,8 @@
         "web_bytes": 1276106
       }
     ],
-    "web_bytes": 14513944,
-    "native_bytes": 18912056,
+    "web_bytes": 15884040,
+    "native_bytes": 20282152,
     "geometry_bones_and_animations_preserved": true
   }
 }

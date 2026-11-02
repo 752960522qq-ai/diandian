@@ -2,10 +2,11 @@
   "status": "succeeded",
   "url": "https://zhigeng-motion-lab.expert-eagle-6942.chatgpt.site",
   "project_id": "appgprj_6ae8624b35f881918d161516efa53f28",
-  "deployment_id": "appgdep_6ae87193f3548191a5dd0db7c8374406",
-  "version_id": "appgprj_6ae8624b35f881918d161516efa53f28~appgver_d34993d19ebc8191ae366d7c1c892db9",
-  "source_commit": "f66ab295c742736f9e80180a771e430fd276c32e",
+  "deployment_id": "appgdep_6ae87e3ebc808191bd9f2c8eb7192813",
+  "version_id": "appgprj_6ae8624b35f881918d161516efa53f28~appgver_872e7bff85408191bfcfdfadf81c8ea2",
+  "source_commit": "b86450d78359a790ae8ccac1932f8a67410de40f",
   "access": "owner-private",
-  "facial_revision": 1,
-  "updated_at": "2026-11-02T11:19:14.952746+00:00"
+  "appearance_revision": 3,
+  "physics_component": "SpringBoneSimulator3D",
+  "updated_at": "2026-11-02T12:13:13.620094+00:00"
 }

@@ -26,7 +26,7 @@
     "maximum_radial_step": 0.053367788841580874,
     "scalp_gap_target": 0.0022
   },
-  "ponytail_body_collision_deferred": true,
+  "ponytail_body_collision_deferred": false,
   "character": "Zhigeng",
   "total_bones": 315,
   "body_bones": 65,
@@ -2492,6 +2492,566 @@
     "browWorldUp": 0.0020825778816662144,
     "resetError": 0,
     "beforeDisabled": true,
+    "mobile": {
+      "width": 390,
+      "scroll": 390
+    },
+    "errors": []
+  },
+  "appearance_revision": 3,
+  "cleanup": {
+    "removed_gear_components": [
+      {
+        "vertices_after_positional_weld": 538,
+        "faces": 1072
+      },
+      {
+        "vertices_after_positional_weld": 125,
+        "faces": 244
+      }
+    ],
+    "body_cleanup": {
+      "removed_faces": 1316,
+      "retained_faces": 45103,
+      "new_hidden_cap_faces": 0,
+      "position_max_difference": 0.0,
+      "skin_weight_max_difference": 0.0,
+      "retained_vertices": 95501,
+      "mapping_file": "Zhigeng_Body_vertex_mapping.json"
+    },
+    "ear_cleanup": {
+      "removed_faces": 12009,
+      "retained_faces": 32836,
+      "new_hidden_cap_faces": 4,
+      "position_max_difference": 0.0,
+      "skin_weight_max_difference": 0.0,
+      "retained_vertices": 17222,
+      "mapping_file": "Zhigeng_Clean_Head_vertex_mapping.json"
+    },
+    "ears_method": "Remove source-ear faces identified from source UV-island geometry; close ear-base openings inside the hair with skin caps. Facial vertices retain original coordinates.",
+    "head_shape_outside_removed_ears_preserved": true,
+    "bone_count": 315,
+    "bone_rest_matrix_max_difference": 0.0,
+    "action_curves_identical": true,
+    "hair_positions_identical": true,
+    "hair_skin_weights_identical": true,
+    "head_source_vertex_mapping_file": "Zhigeng_Clean_Head_vertex_mapping.json"
+  },
+  "ponytail_fit": {
+    "rest_tail_max_rearward_offset": 0.032,
+    "head_and_face_geometry_modified": false,
+    "body_and_face_bones_modified": false,
+    "ponytail_bones_adjusted": [
+      "ZG_Ponytail_01",
+      "ZG_Ponytail_02",
+      "ZG_Ponytail_03"
+    ],
+    "collider_basis_max_error": 3.165236478236097e-07,
+    "baked_clip_collisions": {
+      "Idle": {
+        "frames": 251,
+        "minimum_joint_clearance_m": 0.0014999150290310077,
+        "maximum_additional_turn_degrees": 19.909938251337348
+      },
+      "Walk": {
+        "frames": 36,
+        "minimum_joint_clearance_m": 0.0014999089280802215,
+        "maximum_additional_turn_degrees": 23.113206472066825
+      },
+      "Run": {
+        "frames": 21,
+        "minimum_joint_clearance_m": 0.001499870608371024,
+        "maximum_additional_turn_degrees": 38.49244631295564
+      },
+      "HeadStress": {
+        "frames": 121,
+        "minimum_joint_clearance_m": 0.0014995255633064933,
+        "maximum_additional_turn_degrees": 113.22885432447706
+      }
+    },
+    "inner_scalp_liner": {
+      "vertices": 2073,
+      "faces": 3698,
+      "material": "Dark brown inner hair-root cover over the hidden ear caps",
+      "original_head_vertices_untouched": true
+    }
+  },
+  "runtime_physics_config": {
+    "component": "SpringBoneSimulator3D",
+    "godot_tested_version": "4.6.3",
+    "coordinate_space": "bone_local_gltf_y_up",
+    "settings": {
+      "root_bone": "ZG_Ponytail_01",
+      "end_bone": "ZG_Ponytail_03",
+      "end_bone_length": 0.02686,
+      "stiffness": 0.55,
+      "drag": 0.45,
+      "gravity": 0.08,
+      "gravity_direction": [
+        0,
+        -1,
+        0
+      ],
+      "joint_radii": [
+        0.027,
+        0.03,
+        0.02
+      ],
+      "collision_padding": 0.0015
+    },
+    "colliders": [
+      {
+        "name": "neck",
+        "bone": "mixamorig:Neck",
+        "a": [
+          0.00039980104563705845,
+          0.012035807638983135,
+          -6.436218370068204e-05
+        ],
+        "b": [
+          0.00039980419123630925,
+          0.04244962598197738,
+          -6.435509333693734e-05
+        ],
+        "radius": 0.024,
+        "rest_world_a": [
+          0.00195,
+          0.861,
+          -0.023
+        ],
+        "rest_world_b": [
+          0.00195,
+          0.891,
+          -0.018
+        ]
+      },
+      {
+        "name": "upper_back",
+        "bone": "mixamorig:Spine2",
+        "a": [
+          0.0011035760802713321,
+          -0.03625752942801006,
+          7.450861219605447e-05
+        ],
+        "b": [
+          -0.0005351609152964997,
+          0.06105797513855459,
+          -3.281902143531151e-05
+        ],
+        "radius": 0.04,
+        "rest_world_a": [
+          0.00195,
+          0.735,
+          -0.018
+        ],
+        "rest_world_b": [
+          0.00195,
+          0.832,
+          -0.026
+        ]
+      },
+      {
+        "name": "left_shoulder",
+        "bone": "mixamorig:LeftShoulder",
+        "a": [
+          -0.002001202615182407,
+          -0.011193239833963593,
+          -0.004860876468737398
+        ],
+        "b": [
+          0.0073459555272800655,
+          0.05789633973789873,
+          -0.011513736073107128
+        ],
+        "radius": 0.027,
+        "rest_world_a": [
+          0.025,
+          0.831,
+          -0.029
+        ],
+        "rest_world_b": [
+          0.092,
+          0.811,
+          -0.033
+        ]
+      },
+      {
+        "name": "right_shoulder",
+        "bone": "mixamorig:RightShoulder",
+        "a": [
+          0.004879141558955278,
+          -0.011285192641469693,
+          0.0020196122505196654
+        ],
+        "b": [
+          0.01153201990640474,
+          0.05780439640811414,
+          -0.00732753246298556
+        ],
+        "radius": 0.027,
+        "rest_world_a": [
+          -0.021,
+          0.831,
+          -0.029
+        ],
+        "rest_world_b": [
+          -0.088,
+          0.811,
+          -0.033
+        ]
+      }
+    ],
+    "research_sources": [
+      {
+        "name": "Godot SpringBoneSimulator3D",
+        "url": "https://docs.godotengine.org/en/stable/classes/class_springbonesimulator3d.html",
+        "source": "https://github.com/godotengine/godot/blob/4.6/doc/classes/SpringBoneSimulator3D.xml",
+        "license": "MIT",
+        "choice": "Built into the installed Godot 4.6.3; hair/tail chains and per-joint collision radii."
+      },
+      {
+        "name": "Godot capsule collisions",
+        "url": "https://docs.godotengine.org/en/stable/classes/class_springbonecollisioncapsule3d.html",
+        "source": "https://github.com/godotengine/godot/blob/4.6/doc/classes/SpringBoneCollisionCapsule3D.xml",
+        "license": "MIT",
+        "choice": "Native capsule contacts attached to neck, upper back and shoulders."
+      },
+      {
+        "name": "Godot VRM addon",
+        "url": "https://github.com/V-Sekai/godot-vrm",
+        "choice": "Also implements VRMC_springBone, but adds a VRM import pipeline; native simulator suits this plain GLB without conversion."
+      }
+    ]
+  },
+  "godot_physics": {
+    "bones": 315,
+    "colliders": 4,
+    "collision_padding": 0.0015,
+    "component": "SpringBoneSimulator3D",
+    "godot": "4.6.3-stable (official)",
+    "joints": 3,
+    "motions": {
+      "HeadStress": {
+        "callbacks": 241,
+        "maximum_overlap": 0.0,
+        "minimum_particle_clearance": 0.000285813391208652,
+        "minimum_sampled_surface_clearance": 0.00086705456674099,
+        "sampled_surface_points": 39360,
+        "settled_minimum_clearance": 0.00130896854400635,
+        "worst_surface": {
+          "bones": [
+            "ZG_Ponytail_01",
+            "mixamorig_Head",
+            "mixamorig_Hips",
+            "mixamorig_Hips"
+          ],
+          "collider": "left_shoulder",
+          "frame": 24,
+          "rest_world": [
+            0.00347776105627418,
+            0.873497605323792,
+            -0.056671030819416
+          ],
+          "weights": [
+            0.82183563709259,
+            0.178149074316025,
+            0.0,
+            0.0
+          ],
+          "world": [
+            0.0227686371654272,
+            0.847328424453735,
+            -0.0151771763339639
+          ]
+        }
+      },
+      "Idle": {
+        "callbacks": 501,
+        "maximum_overlap": 0.0,
+        "minimum_particle_clearance": 0.00149886476993561,
+        "minimum_sampled_surface_clearance": 0.00377847164869308,
+        "sampled_surface_points": 81600,
+        "settled_minimum_clearance": 0.00149893927574158,
+        "worst_surface": {
+          "bones": [
+            "ZG_Ponytail_01",
+            "ZG_Ponytail_02",
+            "mixamorig_Head",
+            "mixamorig_Hips"
+          ],
+          "collider": "upper_back",
+          "frame": 438,
+          "rest_world": [
+            -0.000755207322072238,
+            0.855373203754425,
+            -0.0534090846776962
+          ],
+          "weights": [
+            0.549385845661163,
+            0.428717494010925,
+            0.0218814369291067,
+            0.0
+          ],
+          "world": [
+            -0.0122310956940055,
+            0.839302241802216,
+            -0.0628848597407341
+          ]
+        }
+      },
+      "Run": {
+        "callbacks": 42,
+        "maximum_overlap": 0.000197356760501859,
+        "minimum_particle_clearance": -0.000197356760501859,
+        "minimum_sampled_surface_clearance": 0.00291027784347534,
+        "sampled_surface_points": 7680,
+        "settled_minimum_clearance": -0.000197356760501859,
+        "worst_surface": {
+          "bones": [
+            "ZG_Ponytail_01",
+            "ZG_Ponytail_02",
+            "mixamorig_Head",
+            "mixamorig_Hips"
+          ],
+          "collider": "upper_back",
+          "frame": 18,
+          "rest_world": [
+            -0.00211471598595381,
+            0.856060862541199,
+            -0.0532553307712078
+          ],
+          "weights": [
+            0.570901036262512,
+            0.404882878065109,
+            0.0242008082568645,
+            0.0
+          ],
+          "world": [
+            -0.00461130915209651,
+            0.82234138250351,
+            0.00855641439557076
+          ]
+        }
+      },
+      "Walk": {
+        "callbacks": 71,
+        "maximum_overlap": 0.0,
+        "minimum_particle_clearance": 0.00133823770284653,
+        "minimum_sampled_surface_clearance": 0.00358046501874924,
+        "sampled_surface_points": 12480,
+        "settled_minimum_clearance": 0.00141453164815903,
+        "worst_surface": {
+          "bones": [
+            "ZG_Ponytail_01",
+            "ZG_Ponytail_02",
+            "mixamorig_Head",
+            "mixamorig_Hips"
+          ],
+          "collider": "upper_back",
+          "frame": 60,
+          "rest_world": [
+            -0.000755207322072238,
+            0.855373203754425,
+            -0.0534090846776962
+          ],
+          "weights": [
+            0.549385845661163,
+            0.428717494010925,
+            0.0218814369291067,
+            0.0
+          ],
+          "world": [
+            0.00425470666959882,
+            0.817619144916534,
+            -0.0564135201275349
+          ]
+        }
+      }
+    },
+    "particle_clearance_uses_nominal_mesh_envelope": true,
+    "rest_skin_world_max_error": 2.65175513050053e-05,
+    "surface_filter": "sum pony weights >0.65; rest world Y<0.878; every 13th vertex and every 6th physics callback"
+  },
+  "web_physics": [
+    {
+      "clip": "HeadStress",
+      "frames": 241,
+      "min": 0.002599426514476831,
+      "segmentMin": -0.00029216669967102593,
+      "segmentWorst": {
+        "t": 0.4666666666666666,
+        "k": 0,
+        "ratio": 0.65,
+        "collider": "mixamorig:LeftShoulder",
+        "origin": [
+          0.03323628007860178,
+          1.4770598406849256,
+          -0.007081358893890763
+        ],
+        "tail": [
+          0.05788990225857346,
+          1.5211566713216285,
+          -0.03897331207643669
+        ]
+      },
+      "surfaceMin": 0.00638193324572052,
+      "surfaceWorst": {
+        "time": 0.6333333333333336,
+        "index": 20727,
+        "collider": "mixamorig:LeftShoulder",
+        "point": [
+          0.05154004268154594,
+          1.4725143038018773,
+          -0.023848865848028908
+        ]
+      },
+      "active": true,
+      "updates": 241,
+      "collisionCorrections": 3399,
+      "minJointClearance": 0.018288220498286697
+    },
+    {
+      "clip": "Idle",
+      "frames": 500,
+      "min": 0.002599489468018863,
+      "segmentMin": 0.00474756706643327,
+      "segmentWorst": {
+        "t": 1.100000000000001,
+        "k": 0,
+        "ratio": 0.65,
+        "collider": "mixamorig:Spine2",
+        "origin": [
+          -0.012840902610051035,
+          1.5127662786636706,
+          -0.09634126580325104
+        ],
+        "tail": [
+          -0.017844359599967035,
+          1.4753601995476333,
+          -0.14265727277929602
+        ]
+      },
+      "surfaceMin": 0.00831735855797254,
+      "surfaceWorst": {
+        "time": 0.9000000000000011,
+        "index": 19404,
+        "collider": "mixamorig:Spine2",
+        "point": [
+          -0.018864167007611492,
+          1.459380941345753,
+          -0.10061427928370731
+        ]
+      },
+      "active": true,
+      "updates": 500,
+      "collisionCorrections": 7234,
+      "minJointClearance": 0.004924270638605822
+    },
+    {
+      "clip": "Run",
+      "frames": 41,
+      "min": 0.0025994787234811037,
+      "segmentMin": 0.011092037823867612,
+      "segmentWorst": {
+        "t": 0.13333333333333333,
+        "k": 0,
+        "ratio": 0.65,
+        "collider": "mixamorig:Spine2",
+        "origin": [
+          0.013979107638531654,
+          1.5729781399004363,
+          0.04250503477381122
+        ],
+        "tail": [
+          0.016160373094527645,
+          1.5614329461914542,
+          -0.016072885290487532
+        ]
+      },
+      "surfaceMin": 0.017061451121948748,
+      "surfaceWorst": {
+        "time": 0.09999999999999999,
+        "index": 28520,
+        "collider": "mixamorig:Spine2",
+        "point": [
+          0.019812841301436682,
+          1.4973186604497593,
+          0.007896926724188924
+        ]
+      },
+      "active": true,
+      "updates": 41,
+      "collisionCorrections": 337,
+      "minJointClearance": 0.02899918645751791
+    },
+    {
+      "clip": "Walk",
+      "frames": 70,
+      "min": 0.0025994966850129905,
+      "segmentMin": 0.006303849647213464,
+      "segmentWorst": {
+        "t": 0.4666666666666666,
+        "k": 0,
+        "ratio": 0.65,
+        "collider": "mixamorig:Spine2",
+        "origin": [
+          0.019294725104553698,
+          1.4796729809976683,
+          -0.07814305009604164
+        ],
+        "tail": [
+          0.004584951677689637,
+          1.4449215791232979,
+          -0.12446129328442297
+        ]
+      },
+      "surfaceMin": 0.00989490152329961,
+      "surfaceWorst": {
+        "time": 0.49999999999999994,
+        "index": 19404,
+        "collider": "mixamorig:Spine2",
+        "point": [
+          0.009973854838231008,
+          1.4300047016147885,
+          -0.0874941642459106
+        ]
+      },
+      "active": true,
+      "updates": 70,
+      "collisionCorrections": 412,
+      "minJointClearance": 0.0025994977751747014
+    }
+  ],
+  "website_review": {
+    "revision": 3,
+    "bones": 315,
+    "contacts": {
+      "Idle": {
+        "active": true,
+        "updates": 35,
+        "collisionCorrections": 1614,
+        "minJointClearance": 0.004125607108789661
+      },
+      "Walk": {
+        "active": true,
+        "updates": 38,
+        "collisionCorrections": 1627,
+        "minJointClearance": 0.0046162771217415355
+      },
+      "Run": {
+        "active": true,
+        "updates": 40,
+        "collisionCorrections": 1638,
+        "minJointClearance": 0.010194638828138591
+      },
+      "HeadStress": {
+        "active": true,
+        "updates": 42,
+        "collisionCorrections": 1732,
+        "minJointClearance": 0.0026043241153345456
+      }
+    },
+    "physicsDisabledWorks": true,
     "mobile": {
       "width": 390,
       "scroll": 390
