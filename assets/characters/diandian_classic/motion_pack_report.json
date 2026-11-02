@@ -1,7 +1,7 @@
 {
   "character": "Diandian",
   "bone_count": 312,
-  "skin_geometry_rest_preserved": true,
+  "skin_geometry_rest_preserved": false,
   "original_four_actions_identical": true,
   "new_actions": {
     "WomanIdle": {
@@ -1040,6 +1040,9 @@
     }
   ],
   "weapons": "No gun mesh was supplied; animations preserve the source grip and action timing.",
-  "finger_revision": 2,
-  "finger_fix_report": "finger_revision2.json"
+  "finger_revision": 3,
+  "finger_fix_report": "finger_revision2.json",
+  "left_hand_skin_revision": 3,
+  "skin_change_note": "Revision3 corrects only 1046 local left ring-finger skin weights; geometry and rest are preserved.",
+  "left_hand_fix_report": "left_hand_report.json"
 }
