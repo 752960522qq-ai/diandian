@@ -1,0 +1,139 @@
+{
+  "revision": 5,
+  "head": {
+    "source_head_vertices": 41631,
+    "fitted_head_vertices_after_coincident_weld": 24508,
+    "fit_scale_xyz": [
+      0.15,
+      0.132,
+      0.125
+    ],
+    "fit_translation": [
+      0.0012,
+      0.0773,
+      0.875
+    ],
+    "old_head_faces_removed": 9588,
+    "neck_transition": "Continuous 39-column 9-ring bridge shares the original skin-port vertices; no overlapping lower tube border",
+    "neck_transition_vertices": 312,
+    "facial_bones_refitted": 246,
+    "facial_bone_max_reposition_m": 0.01020425771982287,
+    "new_head_binding": "Fitted XQ/Head-subtree weights, max4 influences, no torso/Neck influences on face",
+    "texture_seam": "Continuous 512x128 PNG longitudinal gradient sampled from the original skin port; no angular height steps",
+    "final_body_vertices": 109741,
+    "final_body_polygons": 87480,
+    "neck_skin_port_vertices": 39
+  },
+  "hair": {
+    "width_factor_requested": 0.94,
+    "depth_factor_requested": 0.97,
+    "rest_bounds_size_before_m": [
+      0.15147656202316284,
+      0.14461474167183042,
+      0.1470000147819519
+    ],
+    "rest_bounds_size_after_m": [
+      0.1423879712820053,
+      0.13627630192786455,
+      0.1470000147819519
+    ],
+    "fringe_vertices_adjusted": 7521,
+    "maximum_fringe_inward_step_m": 0.004,
+    "scalp_projection_gap_m": 0.0045,
+    "scalp_gap_vertices_adjusted": 5775,
+    "clearance_method": "Smoothed cylindrical head cross-sections; no tangential nearest-face snapping",
+    "maximum_total_displacement_m": 0.03289620798304247,
+    "uv_material_and_colour_preserved": true
+  },
+  "hands": {
+    "method": "Anatomical flexion axes replace incompatible terminal-joint roll; distal digits use their own continuous phalanx weights",
+    "weights": {
+      "Left": {
+        "reweighted_vertices": 11242,
+        "distal_digit_owned_vertices": 6381
+      },
+      "Right": {
+        "reweighted_vertices": 11218,
+        "distal_digit_owned_vertices": 6974
+      }
+    },
+    "actions": {
+      "Idle": {
+        "modified_finger_bones": 40,
+        "max_added_flexion_degrees": 9.299919185649188,
+        "wrist_forearm_upperarm_and_body_curves_modified": false,
+        "pose": "Relaxed hand with gentle cycle motion"
+      },
+      "Walk": {
+        "modified_finger_bones": 40,
+        "max_added_flexion_degrees": 13.199949112642958,
+        "wrist_forearm_upperarm_and_body_curves_modified": false,
+        "pose": "Relaxed hand with gentle cycle motion"
+      },
+      "Run": {
+        "modified_finger_bones": 40,
+        "max_added_flexion_degrees": 29.496662025235686,
+        "wrist_forearm_upperarm_and_body_curves_modified": false,
+        "pose": "Natural loose half-grip with gentle cycle motion"
+      },
+      "HeadStress": {
+        "modified_finger_bones": 40,
+        "max_added_flexion_degrees": 10.199999723857335,
+        "wrist_forearm_upperarm_and_body_curves_modified": false,
+        "pose": "Relaxed hand with gentle cycle motion"
+      }
+    },
+    "portable_four_influence_weights": {
+      "vertices_capped": 0,
+      "maximum_discarded_weight": 0.0
+    }
+  },
+  "hand_contact": {
+    "Left": {
+      "min_signed_m": 0.010249348408706282,
+      "penetrating_vertices": 0,
+      "normal_edge_false_positives": 0,
+      "min_surface_distance_m": 0.010249348357319832,
+      "near_vertices": 6109,
+      "max_estimated_required_deg": 0,
+      "closest": {
+        "frame": 10,
+        "vertex": 12323,
+        "position": [
+          0.1162281185388565,
+          0.07058197259902954,
+          0.46779030561447144
+        ],
+        "normal": [
+          0.8495640754699707,
+          0.5271991491317749,
+          0.017380421981215477
+        ],
+        "distance": 0.010249348357319832
+      }
+    },
+    "Right": {
+      "min_signed_m": 9.048220817930996e-06,
+      "penetrating_vertices": 0,
+      "normal_edge_false_positives": 249,
+      "min_surface_distance_m": 0.009951653890311718,
+      "near_vertices": 11724,
+      "max_estimated_required_deg": 1.6780392419839096,
+      "closest": {
+        "frame": 210,
+        "vertex": 2474,
+        "position": [
+          -0.12458855658769608,
+          0.03044821321964264,
+          0.4540477693080902
+        ],
+        "normal": [
+          0.26244014501571655,
+          -0.9626023769378662,
+          0.06724367290735245
+        ],
+        "distance": 0.013473588973283768
+      }
+    }
+  }
+}

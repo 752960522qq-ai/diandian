@@ -1,0 +1,92 @@
+{
+  "revision": 5,
+  "method": "Anatomical flexion axes replace incompatible terminal-joint roll; distal digits use their own continuous phalanx weights",
+  "weights": {
+    "Left": {
+      "reweighted_vertices": 11242,
+      "distal_digit_owned_vertices": 6381
+    },
+    "Right": {
+      "reweighted_vertices": 11218,
+      "distal_digit_owned_vertices": 6974
+    }
+  },
+  "actions": {
+    "Idle": {
+      "modified_finger_bones": 40,
+      "max_added_flexion_degrees": 9.299919185649188,
+      "wrist_forearm_upperarm_and_body_curves_modified": false,
+      "pose": "Relaxed hand with gentle cycle motion"
+    },
+    "Walk": {
+      "modified_finger_bones": 40,
+      "max_added_flexion_degrees": 13.199949112642958,
+      "wrist_forearm_upperarm_and_body_curves_modified": false,
+      "pose": "Relaxed hand with gentle cycle motion"
+    },
+    "Run": {
+      "modified_finger_bones": 40,
+      "max_added_flexion_degrees": 29.496662025235686,
+      "wrist_forearm_upperarm_and_body_curves_modified": false,
+      "pose": "Natural loose half-grip with gentle cycle motion"
+    },
+    "HeadStress": {
+      "modified_finger_bones": 40,
+      "max_added_flexion_degrees": 10.199999723857335,
+      "wrist_forearm_upperarm_and_body_curves_modified": false,
+      "pose": "Relaxed hand with gentle cycle motion"
+    }
+  },
+  "portable_four_influence_weights": {
+    "vertices_capped": 0,
+    "maximum_discarded_weight": 0.0
+  },
+  "idle_surface_contact": {
+    "Left": {
+      "min_signed_m": 0.010249348408706282,
+      "penetrating_vertices": 0,
+      "normal_edge_false_positives": 0,
+      "min_surface_distance_m": 0.010249348357319832,
+      "near_vertices": 6109,
+      "max_estimated_required_deg": 0,
+      "closest": {
+        "frame": 10,
+        "vertex": 12323,
+        "position": [
+          0.1162281185388565,
+          0.07058197259902954,
+          0.46779030561447144
+        ],
+        "normal": [
+          0.8495640754699707,
+          0.5271991491317749,
+          0.017380421981215477
+        ],
+        "distance": 0.010249348357319832
+      }
+    },
+    "Right": {
+      "min_signed_m": 9.048220817930996e-06,
+      "penetrating_vertices": 0,
+      "normal_edge_false_positives": 249,
+      "min_surface_distance_m": 0.009951653890311718,
+      "near_vertices": 11724,
+      "max_estimated_required_deg": 1.6780392419839096,
+      "closest": {
+        "frame": 210,
+        "vertex": 2474,
+        "position": [
+          -0.12458855658769608,
+          0.03044821321964264,
+          0.4540477693080902
+        ],
+        "normal": [
+          0.26244014501571655,
+          -0.9626023769378662,
+          0.06724367290735245
+        ],
+        "distance": 0.013473588973283768
+      }
+    }
+  }
+}

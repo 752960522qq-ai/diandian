@@ -1,0 +1,31 @@
+{
+  "revision": 5,
+  "source": {
+    "filename": "diandian head.glb",
+    "relative_path": "source_head/diandian head.glb",
+    "sha256": "10f360b0c16b8b9ec0db757a1816be869c929245c0be658b13080a51a8da5d69",
+    "provided_by": "user upload"
+  },
+  "source_head_vertices": 41631,
+  "fitted_head_vertices_after_coincident_weld": 24508,
+  "fit_scale_xyz": [
+    0.15,
+    0.132,
+    0.125
+  ],
+  "fit_translation": [
+    0.0012,
+    0.0773,
+    0.875
+  ],
+  "old_head_faces_removed": 9588,
+  "neck_transition": "Continuous 39-column 9-ring bridge shares the original skin-port vertices; no overlapping lower tube border",
+  "neck_transition_vertices": 312,
+  "facial_bones_refitted": 246,
+  "facial_bone_max_reposition_m": 0.01020425771982287,
+  "new_head_binding": "Fitted XQ/Head-subtree weights, max4 influences, no torso/Neck influences on face",
+  "texture_seam": "Continuous 512x128 PNG longitudinal gradient sampled from the original skin port; no angular height steps",
+  "final_body_vertices": 109741,
+  "final_body_polygons": 87480,
+  "neck_skin_port_vertices": 39
+}

@@ -61,5 +61,8 @@
   "skin_weights_modified": false,
   "face_vertices_modified": false,
   "cumulative_factor_from_original": 0.9309999999999999,
-  "factor_from_previous": 0.98
+  "factor_from_previous": 0.98,
+  "measurement_revision": 4,
+  "retained_in_revision": 5,
+  "revision5_length_change": false
 }

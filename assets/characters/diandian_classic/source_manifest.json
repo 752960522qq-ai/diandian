@@ -12,7 +12,7 @@
     "facial_joint_count": 246
   },
   "retarget": {
-    "motion_revision": 4,
+    "motion_revision": 5,
     "body_bones_mapped": 65,
     "fps": 30,
     "clips": [
@@ -25,9 +25,10 @@
     "Run": "hero_13 XiaQing R23",
     "head_stress": "Authored diagnostic",
     "upper_arm_length_factor": 0.931,
-    "root_motion": "Linear horizontal travel removed; pelvis lateral and fore-aft sway preserved"
+    "root_motion": "Linear horizontal travel removed; pelvis lateral and fore-aft sway preserved",
+    "finger_pose_source_revision5": "Anatomical per-action adaptation of the original finger curves"
   },
-  "classic_geometry_preserved": true,
+  "classic_geometry_preserved": false,
   "uploaded_motion_sources": {
     "Idle": {
       "filename": "girl_Idle.fbx",
@@ -40,12 +41,52 @@
       "type": "user original FBX"
     }
   },
-  "appearance_revision": 4,
-  "upper_arm_current_adjustment_factor": 0.98,
+  "appearance_revision": 5,
+  "upper_arm_current_adjustment_factor": 1.0,
   "hair_source": {
     "filename": "brown bob wig 3d model.glb.glb",
     "sha256": "408d5736dc2defed6d4e93af42ab768e82aaf182dcab685cd8a0cf59764c0361",
     "colour": "black-brown",
-    "head_weight": 1
+    "head_weight": 1,
+    "revision5_fit": {
+      "width_factor_requested": 0.94,
+      "depth_factor_requested": 0.97,
+      "rest_bounds_size_before_m": [
+        0.15147656202316284,
+        0.14461474167183042,
+        0.1470000147819519
+      ],
+      "rest_bounds_size_after_m": [
+        0.1423879712820053,
+        0.13627630192786455,
+        0.1470000147819519
+      ],
+      "fringe_vertices_adjusted": 7521,
+      "maximum_fringe_inward_step_m": 0.004,
+      "scalp_projection_gap_m": 0.0045,
+      "scalp_gap_vertices_adjusted": 5775,
+      "clearance_method": "Smoothed cylindrical head cross-sections; no tangential nearest-face snapping",
+      "maximum_total_displacement_m": 0.03289620798304247,
+      "uv_material_and_colour_preserved": true
+    }
+  },
+  "head_source": {
+    "filename": "diandian head.glb",
+    "relative_path": "source_head/diandian head.glb",
+    "sha256": "10f360b0c16b8b9ec0db757a1816be869c929245c0be658b13080a51a8da5d69",
+    "provided_by": "user upload"
+  },
+  "geometry_changes_revision5": [
+    "Original low-detail head removed",
+    "User high-detail head fitted and bound",
+    "Neck transition adapted",
+    "Hair narrowed and fringe moved inward"
+  ],
+  "body_geometry_below_neck_preserved_from_revision4": true,
+  "upper_arm_length_factor_from_original": 0.931,
+  "comparison_model": {
+    "file": "diandian_classic_before.glb",
+    "revision": 4,
+    "skin": "Complete previous corrected v4 avatar"
   }
 }

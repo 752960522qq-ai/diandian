@@ -1,39 +1,12 @@
 {
+  "revision": 5,
   "source_file": "brown bob wig 3d model.glb.glb",
+  "source_sha256": "408d5736dc2defed6d4e93af42ab768e82aaf182dcab685cd8a0cf59764c0361",
   "mesh": "Diandian_BlackBrown_Bob",
   "vertices": 21430,
   "triangles": 25628,
-  "native_front_axis": "-X; rotated +90deg about Blender Z to face -Y",
-  "fit_scale_xyz": [
-    0.184,
-    0.184,
-    0.147
-  ],
-  "fit_translation": [
-    0,
-    0.078,
-    0.866
-  ],
-  "crown_vertices_pushed_clear": 908,
-  "crown_maximum_adjustment_m": 0.028398988865692285,
-  "crown_clearance_m": 0.0035,
-  "fit_bounds_world": [
-    [
-      -0.07573828101158142,
-      0.005692621693015099,
-      0.8659999966621399
-    ],
-    [
-      0.07573828101158142,
-      0.15030737221240997,
-      1.0130000114440918
-    ]
-  ],
-  "basecolor_encoded_rgb_median": [
-    0.14204412698745728,
-    0.10659560561180115,
-    0.09463079273700714
-  ],
+  "head_binding_weight": 1.0,
+  "colour": "black-brown; median encoded RGB #241B18",
   "basecolor_texture_px": [
     2048,
     2048
@@ -42,25 +15,85 @@
     4096,
     4096
   ],
-  "roughness": 0.64,
-  "head_binding_weight": 1.0,
-  "uv_topology_preserved": true,
-  "readme": "Use attach_hair.py to load this hair-only blend, add Head vertex group and Armature modifier against the current character. Hair fit coordinates are Blender world rest coordinates.",
-  "export_glb_check": {
-    "mesh_count": 1,
-    "base_color_factor": [
-      1,
-      1,
-      1,
-      1
+  "revision5_fit": {
+    "width_factor_requested": 0.94,
+    "depth_factor_requested": 0.97,
+    "rest_bounds_size_before_m": [
+      0.15147656202316284,
+      0.14461474167183042,
+      0.1470000147819519
     ],
-    "roughness": 0.6399999856948853,
-    "embedded_basecolor_rgb_median_8bit": [
-      36.0,
-      27.0,
-      24.0
+    "rest_bounds_size_after_m": [
+      0.1423879712820053,
+      0.13627630192786455,
+      0.1470000147819519
     ],
-    "file_bytes": 9713608
+    "fringe_vertices_adjusted": 7521,
+    "maximum_fringe_inward_step_m": 0.004,
+    "scalp_projection_gap_m": 0.0045,
+    "scalp_gap_vertices_adjusted": 5775,
+    "clearance_method": "Smoothed cylindrical head cross-sections; no tangential nearest-face snapping",
+    "maximum_total_displacement_m": 0.03289620798304247,
+    "uv_material_and_colour_preserved": true
   },
-  "source_sha256": "408d5736dc2defed6d4e93af42ab768e82aaf182dcab685cd8a0cf59764c0361"
+  "uv_topology_material_and_colour_preserved": true,
+  "web_texture_optimization": {
+    "textures": [
+      {
+        "image": "brown_bob_wig_3d_model.glb_normal",
+        "source_px": [
+          4096,
+          4096
+        ],
+        "web_px": [
+          2048,
+          2048
+        ],
+        "source_bytes": 5690150,
+        "web_bytes": 1358675
+      },
+      {
+        "image": "diandian_black_brown_final",
+        "source_px": [
+          2048,
+          2048
+        ],
+        "web_px": [
+          2048,
+          2048
+        ],
+        "source_bytes": 3181904,
+        "web_bytes": 626939
+      },
+      {
+        "image": "diandian_classic_basecolor",
+        "source_px": [
+          4096,
+          4096
+        ],
+        "web_px": [
+          2048,
+          2048
+        ],
+        "source_bytes": 3977570,
+        "web_bytes": 1574909
+      },
+      {
+        "image": "diandian_head_basecolor",
+        "source_px": [
+          4096,
+          4096
+        ],
+        "web_px": [
+          2048,
+          2048
+        ],
+        "source_bytes": 3397542,
+        "web_bytes": 1307798
+      }
+    ],
+    "web_bytes": 15442740,
+    "native_bytes": 26821592,
+    "geometry_preserved": true
+  }
 }

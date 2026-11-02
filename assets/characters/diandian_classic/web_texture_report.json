@@ -1,0 +1,59 @@
+{
+  "textures": [
+    {
+      "image": "brown_bob_wig_3d_model.glb_normal",
+      "source_px": [
+        4096,
+        4096
+      ],
+      "web_px": [
+        2048,
+        2048
+      ],
+      "source_bytes": 5690150,
+      "web_bytes": 1358675
+    },
+    {
+      "image": "diandian_black_brown_final",
+      "source_px": [
+        2048,
+        2048
+      ],
+      "web_px": [
+        2048,
+        2048
+      ],
+      "source_bytes": 3181904,
+      "web_bytes": 626939
+    },
+    {
+      "image": "diandian_classic_basecolor",
+      "source_px": [
+        4096,
+        4096
+      ],
+      "web_px": [
+        2048,
+        2048
+      ],
+      "source_bytes": 3977570,
+      "web_bytes": 1574909
+    },
+    {
+      "image": "diandian_head_basecolor",
+      "source_px": [
+        4096,
+        4096
+      ],
+      "web_px": [
+        2048,
+        2048
+      ],
+      "source_bytes": 3397542,
+      "web_bytes": 1307798
+    }
+  ],
+  "web_bytes": 15442740,
+  "native_bytes": 26821592,
+  "geometry_preserved": true
+}

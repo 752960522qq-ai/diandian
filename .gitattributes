@@ -4,3 +4,4 @@ assets/characters/diandian_classic/*.glb filter=lfs diff=lfs merge=lfs -text
 assets/characters/diandian_classic/*.blend filter=lfs diff=lfs merge=lfs -text
 assets/characters/diandian_classic/source_animations/*.fbx filter=lfs diff=lfs merge=lfs -text
 assets/characters/diandian_classic/source_hair/*.glb filter=lfs diff=lfs merge=lfs -text
+assets/characters/diandian_classic/source_head/*.glb filter=lfs diff=lfs merge=lfs -text

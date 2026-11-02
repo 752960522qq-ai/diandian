@@ -1,5 +1,5 @@
 {
-  "title": "点点经典形象 · 面部绑定与动作适配",
+  "title": "点点经典形象 · 高精度头部与手部适配",
   "donor": "hero_13 夏晴 R23",
   "source_sha256": "cc6004e63ca4f862cf2a5c8c4d66f2b7fc4ea1d68fe86381505e559c9d41bbaa",
   "body_bones_preserved": 65,
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "compare": "两版本使用相同的身体动作与时间；修复前保留原始权重。",
+  "compare": "上一版v4与本次v5，按同一动作与时间比较头型、发型和手部。",
   "ground_motion": {
     "method": "Both idle boots planted flat, walk supporting legs adapted locally; original pelvis side sway preserved.",
     "foot_contact": {
@@ -88,369 +88,414 @@
       }
     }
   },
-  "locomotion_revision": 4,
+  "locomotion_revision": 5,
   "motion_tuning": {
-    "revision": 3,
-    "upper_arms": {
-      "upper_arm_factor": 0.95,
-      "method": "Shoulder fixed; elbow and complete downstream chain translated inward; skin shortened only along shoulder-elbow axis with shoulder/elbow blending; cross-section coordinates preserved.",
-      "bone_sides": [
-        {
-          "side": "Left",
-          "factor": 0.95,
-          "shoulder_joint_shift_m": 0.0,
-          "upper_arm_joint_length_before_m": 0.15607615873419775,
-          "upper_arm_joint_length_after_m": 0.14827236131058147,
-          "upper_arm_length_ratio": 0.9500000673587413,
-          "downstream_world_translation_m": [
-            -0.004099557176232338,
-            0.0027330436278134584,
-            0.0060517373494803905
-          ],
-          "downstream_bones_translated": 22,
-          "max_forearm_hand_finger_bone_length_change_m": 8.277068710982327e-09,
-          "max_downstream_rest_rotation_change_degrees": 0.0
+    "revision": 5,
+    "finger_actions": {
+      "Idle": {
+        "modified_finger_bones": 40,
+        "max_added_flexion_degrees": 9.299919185649188,
+        "wrist_forearm_upperarm_and_body_curves_modified": false,
+        "pose": "Relaxed hand with gentle cycle motion"
+      },
+      "Walk": {
+        "modified_finger_bones": 40,
+        "max_added_flexion_degrees": 13.199949112642958,
+        "wrist_forearm_upperarm_and_body_curves_modified": false,
+        "pose": "Relaxed hand with gentle cycle motion"
+      },
+      "Run": {
+        "modified_finger_bones": 40,
+        "max_added_flexion_degrees": 29.496662025235686,
+        "wrist_forearm_upperarm_and_body_curves_modified": false,
+        "pose": "Natural loose half-grip with gentle cycle motion"
+      },
+      "HeadStress": {
+        "modified_finger_bones": 40,
+        "max_added_flexion_degrees": 10.199999723857335,
+        "wrist_forearm_upperarm_and_body_curves_modified": false,
+        "pose": "Relaxed hand with gentle cycle motion"
+      }
+    },
+    "finger_weight_adaptation": {
+      "Left": {
+        "reweighted_vertices": 11242,
+        "distal_digit_owned_vertices": 6381
+      },
+      "Right": {
+        "reweighted_vertices": 11218,
+        "distal_digit_owned_vertices": 6974
+      }
+    },
+    "retained_body_motion": {
+      "source_revision": 4,
+      "torso_pelvis_leg_foot_and_wrist_curves_changed_in_revision5": false,
+      "upper_arm_length_factor_from_original": 0.931,
+      "upper_arm_length_changed_in_revision5": false,
+      "forearm_hand_and_finger_rest_segment_lengths_changed_in_revision5": false,
+      "motion_and_contact_records": {
+        "raw_motion_adaptation": {
+          "Idle": {
+            "source_path": "/workspace/attachments/4e44a0fe-8e13-446d-9375-532d0e38f3b0/girl_Idle.fbx",
+            "source_fps": 30.0,
+            "source_frame_range": [
+              1.0,
+              251.0
+            ],
+            "duration_seconds": 8.333333333333334,
+            "target_fps": 30,
+            "baked_samples": 251,
+            "mapped_body_bones": 65,
+            "translation_leg_ratio": 0.5762220750662473,
+            "removed_horizontal_travel_source_m": [
+              3.3527612686157227e-08,
+              -9.313225746154785e-09,
+              0.0
+            ],
+            "pelvis_translation_range_m": [
+              [
+                -0.0015496390406042337,
+                0.0038773410487920046
+              ],
+              [
+                -0.003461256856098771,
+                0.000287114322418347
+              ],
+              [
+                -3.7436606362462044e-05,
+                0.0006113501149229705
+              ]
+            ],
+            "chest_world_rotation_range_deg": [
+              3.0410195315950577,
+              0.6243561297673281,
+              0.425830545042825
+            ],
+            "body_motion_preserved": "Original hips, spine, clavicle, arm and wrist motion retained; finger curves replaced by revision5 hand adaptation."
+          },
+          "Walk": {
+            "source_path": "/workspace/attachments/a4f2927d-606d-4ca9-a66e-6d2b0c7a53be/girl Walk.fbx",
+            "source_fps": 30.0,
+            "source_frame_range": [
+              1.0,
+              36.0
+            ],
+            "duration_seconds": 1.1666666666666667,
+            "target_fps": 30,
+            "baked_samples": 36,
+            "mapped_body_bones": 65,
+            "translation_leg_ratio": 0.5762220750662473,
+            "removed_horizontal_travel_source_m": [
+              3.5390257835388184e-07,
+              -1.4855308532714844,
+              0.0
+            ],
+            "pelvis_translation_range_m": [
+              [
+                -0.0009120494360104203,
+                0.02876311168074608
+              ],
+              [
+                -0.02641223557293415,
+                0.0007607679581269622
+              ],
+              [
+                -0.02972971461713314,
+                0.0005368203273974359
+              ]
+            ],
+            "chest_world_rotation_range_deg": [
+              4.648078839873197,
+              5.44452702858599,
+              16.554560010244394
+            ],
+            "body_motion_preserved": "Original hips, spine, clavicle, arm and wrist motion retained; finger curves replaced by revision5 hand adaptation."
+          }
         },
-        {
-          "side": "Right",
-          "factor": 0.95,
-          "shoulder_joint_shift_m": 0.0,
-          "upper_arm_joint_length_before_m": 0.15607592825465944,
-          "upper_arm_joint_length_after_m": 0.14827214382522202,
-          "upper_arm_length_ratio": 0.9500000767786275,
-          "downstream_world_translation_m": [
-            0.004099550656974316,
-            0.002733033848926425,
-            0.0060517312958836555
-          ],
-          "downstream_bones_translated": 22,
-          "max_forearm_hand_finger_bone_length_change_m": 5.889585284746257e-09,
-          "max_downstream_rest_rotation_change_degrees": 0.0
-        }
-      ],
-      "meshes": [
-        {
-          "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
-          "vertices": 107452,
-          "sides": {
-            "Left": {
-              "changed_vertices": 21185,
-              "longitudinal_only_perpendicular_error_m": 1.1406325468715177e-09,
-              "rigid_forearm_hand_vertices": 12518,
-              "forearm_hand_translation_error_m": 4.656612873077393e-10,
-              "maximum_shift_m": 0.007803807700123558
+        "initial_floor_alignment": {
+          "method": "Actual deformed rest-sole vertices; one constant world-Z pelvis offset per action.",
+          "rest_sole_threshold_z_m": 0.035,
+          "sole_vertex_counts": {
+            "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f": 3986
+          },
+          "actions": [
+            {
+              "action": "Idle",
+              "sample_count": 51,
+              "sample_frames": [
+                0.0,
+                5.0,
+                10.0,
+                15.0,
+                20.0,
+                25.0,
+                30.0,
+                35.0,
+                40.0,
+                45.0,
+                50.0,
+                55.0,
+                60.0,
+                65.0,
+                70.0,
+                75.0,
+                80.0,
+                85.0,
+                90.0,
+                95.0,
+                100.0,
+                105.0,
+                110.0,
+                115.0,
+                120.0,
+                125.0,
+                130.0,
+                135.0,
+                140.0,
+                145.0,
+                150.0,
+                155.0,
+                160.0,
+                165.0,
+                170.0,
+                175.0,
+                180.0,
+                185.0,
+                190.0,
+                195.0,
+                200.0,
+                205.0,
+                210.0,
+                215.0,
+                220.0,
+                225.0,
+                230.0,
+                235.0,
+                240.0,
+                245.0,
+                250.0
+              ],
+              "lowest_shoe_vertex_z_before_m": 0.016368187219978084,
+              "support_gap_range_before_m": [
+                0.016368187219978084,
+                0.01649785234746761
+              ],
+              "constant_world_z_offset_m": -0.016368187219978084,
+              "constant_hips_local_offset": [
+                -7.154761227923245e-10,
+                -0.016368186101317406,
+                -1.4837345796436807e-09
+              ],
+              "support_gap_range_after_m": [
+                0.0,
+                0.0001296651274895269
+              ],
+              "sampled_max_penetration_before_m": 0.0,
+              "sampled_max_penetration_after_m": 0.0,
+              "flight_height_range_preserved_m": 0.0001296651274895269
             },
-            "Right": {
-              "changed_vertices": 21063,
-              "longitudinal_only_perpendicular_error_m": 6.984919309616089e-10,
-              "rigid_forearm_hand_vertices": 12525,
-              "forearm_hand_translation_error_m": 6.585445079827193e-10,
-              "maximum_shift_m": 0.007803795987343127
+            {
+              "action": "Walk",
+              "sample_count": 19,
+              "sample_frames": [
+                0.0,
+                2.0,
+                4.0,
+                6.0,
+                8.0,
+                10.0,
+                12.0,
+                14.0,
+                16.0,
+                18.0,
+                20.0,
+                22.0,
+                24.0,
+                26.0,
+                28.0,
+                30.0,
+                32.0,
+                34.0,
+                35.0
+              ],
+              "lowest_shoe_vertex_z_before_m": 0.013344100820650736,
+              "support_gap_range_before_m": [
+                0.013344100820650736,
+                0.019459363444467997
+              ],
+              "constant_world_z_offset_m": -0.013344100820650736,
+              "constant_hips_local_offset": [
+                -5.832890836998672e-10,
+                -0.01334409974515438,
+                -1.2096087464996685e-09
+              ],
+              "support_gap_range_after_m": [
+                0.0,
+                0.0061152626238172615
+              ],
+              "sampled_max_penetration_before_m": 0.0,
+              "sampled_max_penetration_after_m": 0.0,
+              "flight_height_range_preserved_m": 0.0061152626238172615
             }
+          ]
+        },
+        "foot_contact": {
+          "Idle": {
+            "action": "Idle",
+            "method": "Dual flat-sole planted Idle stance",
+            "frames": 251,
+            "hips_peak_to_peak_before_m": 0.000648796558380127,
+            "hips_peak_to_peak_after_m": 0.00064257158051928,
+            "hips_baseline_shift_m": 0.0,
+            "max_ankle_goal_error_m": 1.65303854140146e-07,
+            "knee_angle_range_degrees": [
+              150.2779450620256,
+              164.89480943304136
+            ],
+            "preserved_root_horizontal_sway": true,
+            "fixed_ankle_goals": {
+              "Left": [
+                0.13147485256195068,
+                0.04055913910269737,
+                0.0761348083615303
+              ],
+              "Right": [
+                0.01035634521394968,
+                0.10901001840829849,
+                0.07613477110862732
+              ]
+            }
+          },
+          "Walk": {
+            "action": "Walk",
+            "method": "Support-leg IK with preserved shoulder/hip sway and at most 16mm smooth pelvis cycle",
+            "frames": 36,
+            "hips_peak_to_peak_before_m": 0.03026658296585083,
+            "hips_peak_to_peak_after_m": 0.016000000000000014,
+            "hips_baseline_shift_m": -0.016154964520390114,
+            "max_ankle_goal_error_m": 1.4812421315961363e-07,
+            "knee_angle_range_degrees": [
+              105.46894663483134,
+              166.0550400069731
+            ],
+            "preserved_root_horizontal_sway": true
+          }
+        },
+        "head_neck": {
+          "Idle": {
+            "original_head_mean_rotation_deg": [
+              3.0931176276497667,
+              0.9992101871709402,
+              1.763076784670018
+            ],
+            "new_head_mean_rotation_deg": [
+              0.7499999999999998,
+              -4.134721085902572e-17,
+              3.431023362628769e-16
+            ],
+            "new_head_rotation_range_deg": [
+              2.3006267989715483,
+              1.1153053120918244,
+              3.0159036371326646
+            ],
+            "neck_extra_forward_tilt_deg": 1.3,
+            "head_follow_lag_ms": 60.00000000000001,
+            "loop_closed": true
+          },
+          "Walk": {
+            "original_head_mean_rotation_deg": [
+              -15.72558282911681,
+              3.2180835964931367,
+              -1.8946718999281258
+            ],
+            "new_head_mean_rotation_deg": [
+              0.3999999999999999,
+              -1.419890482796213e-16,
+              -1.7038685793554555e-17
+            ],
+            "new_head_rotation_range_deg": [
+              5.417408119362935,
+              3.7617075897692818,
+              14.700267915906617
+            ],
+            "neck_extra_forward_tilt_deg": 1.8,
+            "head_follow_lag_ms": 40.0,
+            "loop_closed": true
           }
         }
-      ],
-      "uv_modified": false,
-      "skin_weights_modified": false,
-      "face_vertices_modified": false,
-      "checks": {
-        "uv_and_weights_unchanged": true,
-        "face_max_vertex_change_m": 0.0,
-        "face_roi": "Original rest world z>0.86 and abs(x)<0.09; this covers the entire head and upper neck, excluding shoulder/coat collar."
-      },
-      "previews": [
-        "upper_arm_front.png",
-        "upper_arm_side.png"
-      ]
-    },
-    "raw_motion_adaptation": {
-      "Idle": {
-        "source_path": "/workspace/attachments/4e44a0fe-8e13-446d-9375-532d0e38f3b0/girl_Idle.fbx",
-        "source_fps": 30.0,
-        "source_frame_range": [
-          1.0,
-          251.0
-        ],
-        "duration_seconds": 8.333333333333334,
-        "target_fps": 30,
-        "baked_samples": 251,
-        "mapped_body_bones": 65,
-        "translation_leg_ratio": 0.5762220750662473,
-        "removed_horizontal_travel_source_m": [
-          3.3527612686157227e-08,
-          -9.313225746154785e-09,
-          0.0
-        ],
-        "pelvis_translation_range_m": [
-          [
-            -0.0015496390406042337,
-            0.0038773410487920046
-          ],
-          [
-            -0.003461256856098771,
-            0.000287114322418347
-          ],
-          [
-            -3.7436606362462044e-05,
-            0.0006113501149229705
-          ]
-        ],
-        "chest_world_rotation_range_deg": [
-          3.0410195315950577,
-          0.6243561297673281,
-          0.425830545042825
-        ],
-        "body_motion_preserved": "Original source hips rotation, spine, clavicle, arms and hand motion baked without rigid body stabilization."
-      },
-      "Walk": {
-        "source_path": "/workspace/attachments/a4f2927d-606d-4ca9-a66e-6d2b0c7a53be/girl Walk.fbx",
-        "source_fps": 30.0,
-        "source_frame_range": [
-          1.0,
-          36.0
-        ],
-        "duration_seconds": 1.1666666666666667,
-        "target_fps": 30,
-        "baked_samples": 36,
-        "mapped_body_bones": 65,
-        "translation_leg_ratio": 0.5762220750662473,
-        "removed_horizontal_travel_source_m": [
-          3.5390257835388184e-07,
-          -1.4855308532714844,
-          0.0
-        ],
-        "pelvis_translation_range_m": [
-          [
-            -0.0009120494360104203,
-            0.02876311168074608
-          ],
-          [
-            -0.02641223557293415,
-            0.0007607679581269622
-          ],
-          [
-            -0.02972971461713314,
-            0.0005368203273974359
-          ]
-        ],
-        "chest_world_rotation_range_deg": [
-          4.648078839873197,
-          5.44452702858599,
-          16.554560010244394
-        ],
-        "body_motion_preserved": "Original source hips rotation, spine, clavicle, arms and hand motion baked without rigid body stabilization."
       }
     },
-    "initial_floor_alignment": {
-      "method": "Actual deformed rest-sole vertices; one constant world-Z pelvis offset per action.",
-      "rest_sole_threshold_z_m": 0.035,
-      "sole_vertex_counts": {
-        "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f": 3986
-      },
-      "actions": [
-        {
-          "action": "Idle",
-          "sample_count": 51,
-          "sample_frames": [
-            0.0,
-            5.0,
-            10.0,
-            15.0,
-            20.0,
-            25.0,
-            30.0,
-            35.0,
-            40.0,
-            45.0,
-            50.0,
-            55.0,
-            60.0,
-            65.0,
-            70.0,
-            75.0,
-            80.0,
-            85.0,
-            90.0,
-            95.0,
-            100.0,
-            105.0,
-            110.0,
-            115.0,
-            120.0,
-            125.0,
-            130.0,
-            135.0,
-            140.0,
-            145.0,
-            150.0,
-            155.0,
-            160.0,
-            165.0,
-            170.0,
-            175.0,
-            180.0,
-            185.0,
-            190.0,
-            195.0,
-            200.0,
-            205.0,
-            210.0,
-            215.0,
-            220.0,
-            225.0,
-            230.0,
-            235.0,
-            240.0,
-            245.0,
-            250.0
-          ],
-          "lowest_shoe_vertex_z_before_m": 0.016368187219978084,
-          "support_gap_range_before_m": [
-            0.016368187219978084,
-            0.01649785234746761
-          ],
-          "constant_world_z_offset_m": -0.016368187219978084,
-          "constant_hips_local_offset": [
-            -7.154761227923245e-10,
-            -0.016368186101317406,
-            -1.4837345796436807e-09
-          ],
-          "support_gap_range_after_m": [
-            0.0,
-            0.0001296651274895269
-          ],
-          "sampled_max_penetration_before_m": 0.0,
-          "sampled_max_penetration_after_m": 0.0,
-          "flight_height_range_preserved_m": 0.0001296651274895269
+    "idle_clearance": {
+      "revision": 5,
+      "clip": "Idle",
+      "upper_arm_adjustments_degrees_retained_from_revision4": {
+        "Left": {
+          "outward": 5.5,
+          "forward": 0
         },
-        {
-          "action": "Walk",
-          "sample_count": 19,
-          "sample_frames": [
-            0.0,
-            2.0,
-            4.0,
-            6.0,
-            8.0,
-            10.0,
-            12.0,
-            14.0,
-            16.0,
-            18.0,
-            20.0,
-            22.0,
-            24.0,
-            26.0,
-            28.0,
-            30.0,
-            32.0,
-            34.0,
-            35.0
-          ],
-          "lowest_shoe_vertex_z_before_m": 0.013344100820650736,
-          "support_gap_range_before_m": [
-            0.013344100820650736,
-            0.019459363444467997
-          ],
-          "constant_world_z_offset_m": -0.013344100820650736,
-          "constant_hips_local_offset": [
-            -5.832890836998672e-10,
-            -0.01334409974515438,
-            -1.2096087464996685e-09
-          ],
-          "support_gap_range_after_m": [
-            0.0,
-            0.0061152626238172615
-          ],
-          "sampled_max_penetration_before_m": 0.0,
-          "sampled_max_penetration_after_m": 0.0,
-          "flight_height_range_preserved_m": 0.0061152626238172615
-        }
-      ]
-    },
-    "foot_contact": {
-      "Idle": {
-        "action": "Idle",
-        "method": "Dual flat-sole planted Idle stance",
-        "frames": 251,
-        "hips_peak_to_peak_before_m": 0.000648796558380127,
-        "hips_peak_to_peak_after_m": 0.00064257158051928,
-        "hips_baseline_shift_m": 0.0,
-        "max_ankle_goal_error_m": 1.65303854140146e-07,
-        "knee_angle_range_degrees": [
-          150.2779450620256,
-          164.89480943304136
-        ],
-        "preserved_root_horizontal_sway": true,
-        "fixed_ankle_goals": {
-          "Left": [
-            0.13147485256195068,
-            0.04055913910269737,
-            0.0761348083615303
-          ],
-          "Right": [
-            0.01035634521394968,
-            0.10901001840829849,
-            0.07613477110862732
-          ]
+        "Right": {
+          "outward": 10,
+          "forward": 3
         }
       },
-      "Walk": {
-        "action": "Walk",
-        "method": "Support-leg IK with preserved shoulder/hip sway and at most 16mm smooth pelvis cycle",
-        "frames": 36,
-        "hips_peak_to_peak_before_m": 0.03026658296585083,
-        "hips_peak_to_peak_after_m": 0.016000000000000014,
-        "hips_baseline_shift_m": -0.016154964520390114,
-        "max_ankle_goal_error_m": 1.4812421315961363e-07,
-        "knee_angle_range_degrees": [
-          105.46894663483134,
-          166.0550400069731
-        ],
-        "preserved_root_horizontal_sway": true
-      }
-    },
-    "head_neck": {
-      "Idle": {
-        "original_head_mean_rotation_deg": [
-          3.0931176276497667,
-          0.9992101871709402,
-          1.763076784670018
-        ],
-        "new_head_mean_rotation_deg": [
-          0.7499999999999998,
-          -4.134721085902572e-17,
-          3.431023362628769e-16
-        ],
-        "new_head_rotation_range_deg": [
-          2.3006267989715483,
-          1.1153053120918244,
-          3.0159036371326646
-        ],
-        "neck_extra_forward_tilt_deg": 1.3,
-        "head_follow_lag_ms": 60.00000000000001,
-        "loop_closed": true
+      "minimum_mesh_surface_gap_m": {
+        "Left": 0.010249348357319832,
+        "Right": 0.009951653890311718
       },
-      "Walk": {
-        "original_head_mean_rotation_deg": [
-          -15.72558282911681,
-          3.2180835964931367,
-          -1.8946718999281258
-        ],
-        "new_head_mean_rotation_deg": [
-          0.3999999999999999,
-          -1.419890482796213e-16,
-          -1.7038685793554555e-17
-        ],
-        "new_head_rotation_range_deg": [
-          5.417408119362935,
-          3.7617075897692818,
-          14.700267915906617
-        ],
-        "neck_extra_forward_tilt_deg": 1.8,
-        "head_follow_lag_ms": 40.0,
-        "loop_closed": true
-      }
+      "inside_surface_vertex_samples": {
+        "Left": 0,
+        "Right": 0
+      },
+      "method": "Evaluated hand mesh against lower-body and side-pouch triangles; ray parity resolves open-edge normal-projection false positives.",
+      "detail": {
+        "Left": {
+          "min_signed_m": 0.010249348408706282,
+          "penetrating_vertices": 0,
+          "normal_edge_false_positives": 0,
+          "min_surface_distance_m": 0.010249348357319832,
+          "near_vertices": 6109,
+          "max_estimated_required_deg": 0,
+          "closest": {
+            "frame": 10,
+            "vertex": 12323,
+            "position": [
+              0.1162281185388565,
+              0.07058197259902954,
+              0.46779030561447144
+            ],
+            "normal": [
+              0.8495640754699707,
+              0.5271991491317749,
+              0.017380421981215477
+            ],
+            "distance": 0.010249348357319832
+          }
+        },
+        "Right": {
+          "min_signed_m": 9.048220817930996e-06,
+          "penetrating_vertices": 0,
+          "normal_edge_false_positives": 249,
+          "min_surface_distance_m": 0.009951653890311718,
+          "near_vertices": 11724,
+          "max_estimated_required_deg": 1.6780392419839096,
+          "closest": {
+            "frame": 210,
+            "vertex": 2474,
+            "position": [
+              -0.12458855658769608,
+              0.03044821321964264,
+              0.4540477693080902
+            ],
+            "normal": [
+              0.26244014501571655,
+              -0.9626023769378662,
+              0.06724367290735245
+            ],
+            "distance": 0.013473588973283768
+          }
+        }
+      },
+      "hand_pose_revision": 5
     }
   },
   "upper_arm_length_factor": 0.931,
@@ -553,111 +598,50 @@
       ]
     }
   },
-  "appearance_revision": 4,
-  "upper_arm_factor_from_previous": 0.98,
+  "appearance_revision": 5,
+  "upper_arm_factor_from_previous": 1.0,
   "appearance": {
-    "revision": 4,
-    "upper_arms": {
-      "upper_arm_factor": 0.98,
-      "method": "Shoulder fixed; elbow and complete downstream chain translated inward; skin shortened only along shoulder-elbow axis with shoulder/elbow blending; cross-section coordinates preserved.",
-      "bone_sides": [
-        {
-          "side": "Left",
-          "factor": 0.98,
-          "shoulder_joint_shift_m": 0.0,
-          "upper_arm_joint_length_before_m": 0.14827236131058147,
-          "upper_arm_joint_length_after_m": 0.14530691016248976,
-          "upper_arm_length_ratio": 0.9799999735494865,
-          "downstream_world_translation_m": [
-            -0.0015578315360471606,
-            0.0010385565692558885,
-            0.002299660351127386
-          ],
-          "downstream_bones_translated": 22,
-          "max_forearm_hand_finger_bone_length_change_m": 4.878297057975267e-09,
-          "max_downstream_rest_rotation_change_degrees": 0.0
-        },
-        {
-          "side": "Right",
-          "factor": 0.98,
-          "shoulder_joint_shift_m": 0.0,
-          "upper_arm_joint_length_before_m": 0.14827214382522202,
-          "upper_arm_joint_length_after_m": 0.14530669304565927,
-          "upper_arm_length_ratio": 0.9799999466989677,
-          "downstream_world_translation_m": [
-            0.001557829207740724,
-            0.00103855284396559,
-            0.0022996580228209496
-          ],
-          "downstream_bones_translated": 22,
-          "max_forearm_hand_finger_bone_length_change_m": 0.0,
-          "max_downstream_rest_rotation_change_degrees": 0.0
-        }
+    "revision": 5,
+    "head_replacement": {
+      "revision": 5,
+      "source": {
+        "filename": "diandian head.glb",
+        "relative_path": "source_head/diandian head.glb",
+        "sha256": "10f360b0c16b8b9ec0db757a1816be869c929245c0be658b13080a51a8da5d69",
+        "provided_by": "user upload"
+      },
+      "source_head_vertices": 41631,
+      "fitted_head_vertices_after_coincident_weld": 24508,
+      "fit_scale_xyz": [
+        0.15,
+        0.132,
+        0.125
       ],
-      "meshes": [
-        {
-          "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
-          "vertices": 107452,
-          "sides": {
-            "Left": {
-              "changed_vertices": 21185,
-              "longitudinal_only_perpendicular_error_m": 2.8515813671787943e-10,
-              "rigid_forearm_hand_vertices": 12518,
-              "forearm_hand_translation_error_m": 2.3283064365386963e-10,
-              "maximum_shift_m": 0.0029654472965679928
-            },
-            "Right": {
-              "changed_vertices": 21063,
-              "longitudinal_only_perpendicular_error_m": 3.4924596548080444e-10,
-              "rigid_forearm_hand_vertices": 12525,
-              "forearm_hand_translation_error_m": 0.0,
-              "maximum_shift_m": 0.0029654427727792546
-            }
-          }
-        }
+      "fit_translation": [
+        0.0012,
+        0.0773,
+        0.875
       ],
-      "uv_modified": false,
-      "skin_weights_modified": false,
-      "face_vertices_modified": false,
-      "cumulative_factor_from_original": 0.9309999999999999,
-      "factor_from_previous": 0.98
+      "old_head_faces_removed": 9588,
+      "neck_transition": "Continuous 39-column 9-ring bridge shares the original skin-port vertices; no overlapping lower tube border",
+      "neck_transition_vertices": 312,
+      "facial_bones_refitted": 246,
+      "facial_bone_max_reposition_m": 0.01020425771982287,
+      "new_head_binding": "Fitted XQ/Head-subtree weights, max4 influences, no torso/Neck influences on face",
+      "texture_seam": "Continuous 512x128 PNG longitudinal gradient sampled from the original skin port; no angular height steps",
+      "final_body_vertices": 109741,
+      "final_body_polygons": 87480,
+      "neck_skin_port_vertices": 39
     },
     "hair": {
+      "revision": 5,
       "source_file": "brown bob wig 3d model.glb.glb",
+      "source_sha256": "408d5736dc2defed6d4e93af42ab768e82aaf182dcab685cd8a0cf59764c0361",
       "mesh": "Diandian_BlackBrown_Bob",
       "vertices": 21430,
       "triangles": 25628,
-      "native_front_axis": "-X; rotated +90deg about Blender Z to face -Y",
-      "fit_scale_xyz": [
-        0.184,
-        0.184,
-        0.147
-      ],
-      "fit_translation": [
-        0,
-        0.078,
-        0.866
-      ],
-      "crown_vertices_pushed_clear": 908,
-      "crown_maximum_adjustment_m": 0.028398988865692285,
-      "crown_clearance_m": 0.0035,
-      "fit_bounds_world": [
-        [
-          -0.07573828101158142,
-          0.005692621693015099,
-          0.8659999966621399
-        ],
-        [
-          0.07573828101158142,
-          0.15030737221240997,
-          1.0130000114440918
-        ]
-      ],
-      "basecolor_encoded_rgb_median": [
-        0.14204412698745728,
-        0.10659560561180115,
-        0.09463079273700714
-      ],
+      "head_binding_weight": 1.0,
+      "colour": "black-brown; median encoded RGB #241B18",
       "basecolor_texture_px": [
         2048,
         2048
@@ -666,51 +650,137 @@
         4096,
         4096
       ],
-      "roughness": 0.64,
-      "head_binding_weight": 1.0,
-      "uv_topology_preserved": true,
-      "readme": "Use attach_hair.py to load this hair-only blend, add Head vertex group and Armature modifier against the current character. Hair fit coordinates are Blender world rest coordinates.",
-      "export_glb_check": {
-        "mesh_count": 1,
-        "base_color_factor": [
-          1,
-          1,
-          1,
-          1
+      "revision5_fit": {
+        "width_factor_requested": 0.94,
+        "depth_factor_requested": 0.97,
+        "rest_bounds_size_before_m": [
+          0.15147656202316284,
+          0.14461474167183042,
+          0.1470000147819519
         ],
-        "roughness": 0.6399999856948853,
-        "embedded_basecolor_rgb_median_8bit": [
-          36.0,
-          27.0,
-          24.0
+        "rest_bounds_size_after_m": [
+          0.1423879712820053,
+          0.13627630192786455,
+          0.1470000147819519
         ],
-        "file_bytes": 9713608
+        "fringe_vertices_adjusted": 7521,
+        "maximum_fringe_inward_step_m": 0.004,
+        "scalp_projection_gap_m": 0.0045,
+        "scalp_gap_vertices_adjusted": 5775,
+        "clearance_method": "Smoothed cylindrical head cross-sections; no tangential nearest-face snapping",
+        "maximum_total_displacement_m": 0.03289620798304247,
+        "uv_material_and_colour_preserved": true
       },
-      "source_sha256": "408d5736dc2defed6d4e93af42ab768e82aaf182dcab685cd8a0cf59764c0361"
+      "uv_topology_material_and_colour_preserved": true,
+      "web_texture_optimization": {
+        "textures": [
+          {
+            "image": "brown_bob_wig_3d_model.glb_normal",
+            "source_px": [
+              4096,
+              4096
+            ],
+            "web_px": [
+              2048,
+              2048
+            ],
+            "source_bytes": 5690150,
+            "web_bytes": 1358675
+          },
+          {
+            "image": "diandian_black_brown_final",
+            "source_px": [
+              2048,
+              2048
+            ],
+            "web_px": [
+              2048,
+              2048
+            ],
+            "source_bytes": 3181904,
+            "web_bytes": 626939
+          },
+          {
+            "image": "diandian_classic_basecolor",
+            "source_px": [
+              4096,
+              4096
+            ],
+            "web_px": [
+              2048,
+              2048
+            ],
+            "source_bytes": 3977570,
+            "web_bytes": 1574909
+          },
+          {
+            "image": "diandian_head_basecolor",
+            "source_px": [
+              4096,
+              4096
+            ],
+            "web_px": [
+              2048,
+              2048
+            ],
+            "source_bytes": 3397542,
+            "web_bytes": 1307798
+          }
+        ],
+        "web_bytes": 15442740,
+        "native_bytes": 26821592,
+        "geometry_preserved": true
+      }
     },
-    "idle_arms": {
-      "clip": "Idle",
-      "sides": {
+    "upper_arm_length_factor_from_original": 0.931,
+    "upper_arm_length_changed_in_revision5": false,
+    "hand_binding_and_poses": {
+      "method": "Anatomical flexion axes replace incompatible terminal-joint roll; distal digits use their own continuous phalanx weights",
+      "weights": {
         "Left": {
-          "upper_arm_abduction_degrees": 5.5,
-          "world_axis": "Y",
-          "upper_arm_forward_degrees": 0.0,
-          "forearm_hand_finger_curves_modified": false
+          "reweighted_vertices": 11242,
+          "distal_digit_owned_vertices": 6381
         },
         "Right": {
-          "upper_arm_abduction_degrees": 10.0,
-          "world_axis": "Y",
-          "upper_arm_forward_degrees": 3.0,
-          "forearm_hand_finger_curves_modified": false
+          "reweighted_vertices": 11218,
+          "distal_digit_owned_vertices": 6974
         }
       },
-      "body_head_legs_curves_modified": false,
-      "rest_geometry_modified": false
+      "actions": {
+        "Idle": {
+          "modified_finger_bones": 40,
+          "max_added_flexion_degrees": 9.299919185649188,
+          "wrist_forearm_upperarm_and_body_curves_modified": false,
+          "pose": "Relaxed hand with gentle cycle motion"
+        },
+        "Walk": {
+          "modified_finger_bones": 40,
+          "max_added_flexion_degrees": 13.199949112642958,
+          "wrist_forearm_upperarm_and_body_curves_modified": false,
+          "pose": "Relaxed hand with gentle cycle motion"
+        },
+        "Run": {
+          "modified_finger_bones": 40,
+          "max_added_flexion_degrees": 29.496662025235686,
+          "wrist_forearm_upperarm_and_body_curves_modified": false,
+          "pose": "Natural loose half-grip with gentle cycle motion"
+        },
+        "HeadStress": {
+          "modified_finger_bones": 40,
+          "max_added_flexion_degrees": 10.199999723857335,
+          "wrist_forearm_upperarm_and_body_curves_modified": false,
+          "pose": "Relaxed hand with gentle cycle motion"
+        }
+      },
+      "portable_four_influence_weights": {
+        "vertices_capped": 0,
+        "maximum_discarded_weight": 0.0
+      }
     },
     "idle_clearance": {
+      "revision": 5,
       "clip": "Idle",
-      "source_stage": "base_shortened.blend; current upper arms additionally shortened 2%",
-      "upper_arm_adjustments_degrees": {
+      "upper_arm_adjustments_degrees_retained_from_revision4": {
         "Left": {
           "outward": 5.5,
           "forward": 0
@@ -720,61 +790,269 @@
           "forward": 3
         }
       },
-      "preserved": "All forearm/wrist/finger, torso/head/leg/root motion curves, mesh and rest skeleton unchanged by this pose edit",
-      "sample_frames": [
-        0,
-        10,
-        20,
-        30,
-        40,
-        50,
-        60,
-        70,
-        80,
-        90,
-        100,
-        110,
-        120,
-        130,
-        140,
-        150,
-        160,
-        170,
-        180,
-        190,
-        200,
-        210,
-        220,
-        230,
-        240,
-        250
-      ],
-      "geometry_method": "Deduplicated real hand/forearm mesh vertices queried against lower-body/thigh/side-pouch triangle BVH, with three-axis ray parity for negative near-boundary normal projections. Normal projections at an open pouch edge are not used alone as inside tests.",
       "minimum_mesh_surface_gap_m": {
-        "Left": 0.004486368037760258,
-        "Right": 0.004181315656751394
+        "Left": 0.010249348357319832,
+        "Right": 0.009951653890311718
       },
       "inside_surface_vertex_samples": {
         "Left": 0,
         "Right": 0
       },
-      "pouch_boundary_normal_false_positives": 183,
-      "visual_review": [
-        "idle_clearance_front.png",
-        "idle_clearance_side.png"
-      ],
-      "visual_result": "Relaxed asymmetric Idle stance; hands clear thighs and side pouch, no A-pose or wrist/finger concealment adjustment."
+      "method": "Evaluated hand mesh against lower-body and side-pouch triangles; ray parity resolves open-edge normal-projection false positives.",
+      "detail": {
+        "Left": {
+          "min_signed_m": 0.010249348408706282,
+          "penetrating_vertices": 0,
+          "normal_edge_false_positives": 0,
+          "min_surface_distance_m": 0.010249348357319832,
+          "near_vertices": 6109,
+          "max_estimated_required_deg": 0,
+          "closest": {
+            "frame": 10,
+            "vertex": 12323,
+            "position": [
+              0.1162281185388565,
+              0.07058197259902954,
+              0.46779030561447144
+            ],
+            "normal": [
+              0.8495640754699707,
+              0.5271991491317749,
+              0.017380421981215477
+            ],
+            "distance": 0.010249348357319832
+          }
+        },
+        "Right": {
+          "min_signed_m": 9.048220817930996e-06,
+          "penetrating_vertices": 0,
+          "normal_edge_false_positives": 249,
+          "min_surface_distance_m": 0.009951653890311718,
+          "near_vertices": 11724,
+          "max_estimated_required_deg": 1.6780392419839096,
+          "closest": {
+            "frame": 210,
+            "vertex": 2474,
+            "position": [
+              -0.12458855658769608,
+              0.03044821321964264,
+              0.4540477693080902
+            ],
+            "normal": [
+              0.26244014501571655,
+              -0.9626023769378662,
+              0.06724367290735245
+            ],
+            "distance": 0.013473588973283768
+          }
+        }
+      },
+      "hand_pose_revision": 5
     }
   },
   "web_texture_optimization": {
-    "hair_normal_texture_px": [
-      2048,
-      2048
+    "textures": [
+      {
+        "image": "brown_bob_wig_3d_model.glb_normal",
+        "source_px": [
+          4096,
+          4096
+        ],
+        "web_px": [
+          2048,
+          2048
+        ],
+        "source_bytes": 5690150,
+        "web_bytes": 1358675
+      },
+      {
+        "image": "diandian_black_brown_final",
+        "source_px": [
+          2048,
+          2048
+        ],
+        "web_px": [
+          2048,
+          2048
+        ],
+        "source_bytes": 3181904,
+        "web_bytes": 626939
+      },
+      {
+        "image": "diandian_classic_basecolor",
+        "source_px": [
+          4096,
+          4096
+        ],
+        "web_px": [
+          2048,
+          2048
+        ],
+        "source_bytes": 3977570,
+        "web_bytes": 1574909
+      },
+      {
+        "image": "diandian_head_basecolor",
+        "source_px": [
+          4096,
+          4096
+        ],
+        "web_px": [
+          2048,
+          2048
+        ],
+        "source_bytes": 3397542,
+        "web_bytes": 1307798
+      }
     ],
-    "native_download_hair_normal_px": [
-      4096,
-      4096
-    ],
-    "geometry_and_colour_textures_unchanged": true
+    "web_bytes": 15442740,
+    "native_bytes": 26821592,
+    "geometry_preserved": true
+  },
+  "head_hair_hands": {
+    "revision": 5,
+    "head": {
+      "source_head_vertices": 41631,
+      "fitted_head_vertices_after_coincident_weld": 24508,
+      "fit_scale_xyz": [
+        0.15,
+        0.132,
+        0.125
+      ],
+      "fit_translation": [
+        0.0012,
+        0.0773,
+        0.875
+      ],
+      "old_head_faces_removed": 9588,
+      "neck_transition": "Continuous 39-column 9-ring bridge shares the original skin-port vertices; no overlapping lower tube border",
+      "neck_transition_vertices": 312,
+      "facial_bones_refitted": 246,
+      "facial_bone_max_reposition_m": 0.01020425771982287,
+      "new_head_binding": "Fitted XQ/Head-subtree weights, max4 influences, no torso/Neck influences on face",
+      "texture_seam": "Continuous 512x128 PNG longitudinal gradient sampled from the original skin port; no angular height steps",
+      "final_body_vertices": 109741,
+      "final_body_polygons": 87480,
+      "neck_skin_port_vertices": 39
+    },
+    "hair": {
+      "width_factor_requested": 0.94,
+      "depth_factor_requested": 0.97,
+      "rest_bounds_size_before_m": [
+        0.15147656202316284,
+        0.14461474167183042,
+        0.1470000147819519
+      ],
+      "rest_bounds_size_after_m": [
+        0.1423879712820053,
+        0.13627630192786455,
+        0.1470000147819519
+      ],
+      "fringe_vertices_adjusted": 7521,
+      "maximum_fringe_inward_step_m": 0.004,
+      "scalp_projection_gap_m": 0.0045,
+      "scalp_gap_vertices_adjusted": 5775,
+      "clearance_method": "Smoothed cylindrical head cross-sections; no tangential nearest-face snapping",
+      "maximum_total_displacement_m": 0.03289620798304247,
+      "uv_material_and_colour_preserved": true
+    },
+    "hands": {
+      "method": "Anatomical flexion axes replace incompatible terminal-joint roll; distal digits use their own continuous phalanx weights",
+      "weights": {
+        "Left": {
+          "reweighted_vertices": 11242,
+          "distal_digit_owned_vertices": 6381
+        },
+        "Right": {
+          "reweighted_vertices": 11218,
+          "distal_digit_owned_vertices": 6974
+        }
+      },
+      "actions": {
+        "Idle": {
+          "modified_finger_bones": 40,
+          "max_added_flexion_degrees": 9.299919185649188,
+          "wrist_forearm_upperarm_and_body_curves_modified": false,
+          "pose": "Relaxed hand with gentle cycle motion"
+        },
+        "Walk": {
+          "modified_finger_bones": 40,
+          "max_added_flexion_degrees": 13.199949112642958,
+          "wrist_forearm_upperarm_and_body_curves_modified": false,
+          "pose": "Relaxed hand with gentle cycle motion"
+        },
+        "Run": {
+          "modified_finger_bones": 40,
+          "max_added_flexion_degrees": 29.496662025235686,
+          "wrist_forearm_upperarm_and_body_curves_modified": false,
+          "pose": "Natural loose half-grip with gentle cycle motion"
+        },
+        "HeadStress": {
+          "modified_finger_bones": 40,
+          "max_added_flexion_degrees": 10.199999723857335,
+          "wrist_forearm_upperarm_and_body_curves_modified": false,
+          "pose": "Relaxed hand with gentle cycle motion"
+        }
+      },
+      "portable_four_influence_weights": {
+        "vertices_capped": 0,
+        "maximum_discarded_weight": 0.0
+      }
+    },
+    "hand_contact": {
+      "Left": {
+        "min_signed_m": 0.010249348408706282,
+        "penetrating_vertices": 0,
+        "normal_edge_false_positives": 0,
+        "min_surface_distance_m": 0.010249348357319832,
+        "near_vertices": 6109,
+        "max_estimated_required_deg": 0,
+        "closest": {
+          "frame": 10,
+          "vertex": 12323,
+          "position": [
+            0.1162281185388565,
+            0.07058197259902954,
+            0.46779030561447144
+          ],
+          "normal": [
+            0.8495640754699707,
+            0.5271991491317749,
+            0.017380421981215477
+          ],
+          "distance": 0.010249348357319832
+        }
+      },
+      "Right": {
+        "min_signed_m": 9.048220817930996e-06,
+        "penetrating_vertices": 0,
+        "normal_edge_false_positives": 249,
+        "min_surface_distance_m": 0.009951653890311718,
+        "near_vertices": 11724,
+        "max_estimated_required_deg": 1.6780392419839096,
+        "closest": {
+          "frame": 210,
+          "vertex": 2474,
+          "position": [
+            -0.12458855658769608,
+            0.03044821321964264,
+            0.4540477693080902
+          ],
+          "normal": [
+            0.26244014501571655,
+            -0.9626023769378662,
+            0.06724367290735245
+          ],
+          "distance": 0.013473588973283768
+        }
+      }
+    }
+  },
+  "comparison_mode": "previous_revision",
+  "head_source": {
+    "filename": "diandian head.glb",
+    "relative_path": "source_head/diandian head.glb",
+    "sha256": "10f360b0c16b8b9ec0db757a1816be869c929245c0be658b13080a51a8da5d69",
+    "provided_by": "user upload"
   }
 }
