@@ -19,4 +19,14 @@
 
 `source/` 归档原始上传文件，`source/sources.json` 记录 SHA-256；`dimensions.json` 记录缩放系数、统一坐标系与最终 GLB 重新导入后的尺寸。
 
-当前交付为可导入的独立枪械资产，角色挂枪与握持适配另行接入。角色握持时，应使用项目的挂点偏移将枪体对齐手掌，避免额外缩放改变上述实际尺寸。
+四把枪已接入点点和知更的人物持枪预览。右手挂接握把，左臂跟随各枪护木支撑点；手枪使用双手握持，换弹时左手按原动作释放，普通待机与走跑隐藏武器。枪体保持表中实际长度。适配以原动作的自然姿态为主，肩膀纠正上限 8°，托枪手与指节只做适度混合修正，允许轻微穿模。
+
+共享适配数据在 `character_attachment.json`，包含每个角色、枪械与动作的掌心挂点、手腕朝向及握持指节参数。Godot 组件为 `godot/scripts/character_weapon_attachment.gd`；两个预览入口分别是 `godot/scenes/diandian_preview.tscn` 和 `godot/scenes/zhigeng_preview.tscn`。
+
+[点点持枪预览](https://diandian-classic-motion-lab.expert-eagle-6942.chatgpt.site) · [知更持枪预览](https://zhigeng-motion-lab.expert-eagle-6942.chatgpt.site)
+
+| 点点 · QBZ95 | 点点 · QSZ92 |
+| --- | --- |
+| ![点点持 QBZ95](character_previews/diandian_qbz95.png) | ![点点持 QSZ92](character_previews/diandian_qsz92.png) |
+| **知更 · 56-1** | **知更 · 汉阳造** |
+| ![知更持 56-1](character_previews/zhigeng_type56_1.png) | ![知更持汉阳造](character_previews/zhigeng_hanyang88.png) |

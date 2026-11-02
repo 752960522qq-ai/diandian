@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://godot/scripts/zhigeng_preview.gd" id="1"]
+
+[node name="DiandianPreview" type="Node3D"]
+script = ExtResource("1")
+model_path = "res://assets/characters/diandian_classic/diandian_classic_fixed.glb"
+character_id = "diandian"
