@@ -266,5 +266,6 @@
   "finger_revision": 2,
   "head_uniform_scale": 1.04,
   "mouth_width_factor": 0.92,
-  "default_idle_source": "woman_Standing Idle.fbx"
+  "default_idle_source": "woman_Standing Idle.fbx",
+  "idle_clearance_revision": 3
 }

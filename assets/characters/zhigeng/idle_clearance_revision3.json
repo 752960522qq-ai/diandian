@@ -1,0 +1,25 @@
+{
+  "clip": "Idle",
+  "source": "woman_Standing Idle.fbx",
+  "upper_arm_outward_degrees": {
+    "Left": 3.5,
+    "Right": 3.5
+  },
+  "sampled_frames": 181,
+  "actual_skin_clearance": {
+    "Left": {
+      "min_signed": 0.0042890428740065545,
+      "min_distance": 0.009377678856253624,
+      "worst_frame": 19,
+      "penetrating_samples": 0
+    },
+    "Right": {
+      "min_signed": 0.001150503332610242,
+      "min_distance": 0.004971257410943508,
+      "worst_frame": 56,
+      "penetrating_samples": 0
+    }
+  },
+  "other_action_curves_and_all_non_upperarm_curves_identical": true,
+  "geometry_weights_and_skeleton_not_edited": true
+}

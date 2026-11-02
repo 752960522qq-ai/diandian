@@ -18,3 +18,5 @@
 组件文档：[SpringBoneSimulator3D](https://docs.godotengine.org/en/stable/classes/class_springbonesimulator3d.html)、[SpringBoneCollisionCapsule3D](https://docs.godotengine.org/en/stable/classes/class_springbonecollisioncapsule3d.html)，Godot 内置，MIT。
 
 本轮已修复新增动作手指末节的方向补偿，原第1、2节及手腕动作保留。详见 [头部与手指前后对照](revision5_review.md)。
+
+站立待机间距修订3：双大臂轻微外展3.5°，保留手指、手腕和身体摆动；整段6秒待机按实际手套与裤腿/侧袋表面检查。前后图见 `idle_revision3_*`，记录见 `idle_clearance_revision3.json`。
