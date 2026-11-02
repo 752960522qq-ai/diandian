@@ -1,4 +1,4 @@
-左手修订3：修复无名指尖误绑手腕所造成的薄片与拉扯，仅调整局部蒙皮过渡。详见[左手前后对照](left_hand_revision3_review.md)。
+当前为双手修订4：重建左右手连续蒙皮，统一独立指尖与手套的绑定，修正无名指关节与13段动作中的手指姿态。详见[双手前后对照与下载](hands_revision4_review.md)。
 
 当前动作包已扩展为 **13 段**，原待机、走路、跑步与转头保留；新增本轮上传的九段动作。详见[动作包与下载](../../animations/character_motion_pack/README.md)。
 
@@ -8,11 +8,11 @@
 
 头发、246根面部骨骼与下颌控制骨同步适配新头围，接颈以平滑过渡连接原身体。沿用已经修好的手指权重、四段动作及大臂比例。
 
-- `diandian_classic_fixed.glb`、`diandian_classic_fixed.blend`：本次v6模型与可编辑源文件，包含Idle、Walk、Run、HeadStress。
+- `diandian_classic_fixed.glb`、`diandian_classic_fixed.blend`：当前完整模型与可编辑源文件，头部沿用v6比例，包含13段动作与双手修订4。
 - `diandian_classic_before.glb`：上一版v5，供头部比例对照。
 - `proportion_report.json`：原始几何等比还原、头发与骨骼适配记录。
 - `source_head/`、`source_hair/`、`source_animations/`：上传的原始素材。
 
 在线查看：<https://diandian-classic-motion-lab.expert-eagle-6942.chatgpt.site>
 
-下载模型保留高分辨率贴图；网页使用2K贴图，几何、骨骼和动作相同。未重新生成的手部和脚部近景保留自v5，相关几何和动作没有改动。
+下载模型保留高分辨率贴图；网页使用2K贴图，几何、骨骼和动作相同。当前手部近景以 `hands4_*` 图片为准；其余旧近景保留作历史记录。

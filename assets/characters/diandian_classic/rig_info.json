@@ -1856,6 +1856,7 @@
     "source_sha256": "10f360b0c16b8b9ec0db757a1816be869c929245c0be658b13080a51a8da5d69"
   },
   "motion_pack_revision": 2,
-  "finger_revision": 3,
-  "left_hand_skin_revision": 3
+  "finger_revision": 4,
+  "left_hand_skin_revision": 4,
+  "hands_skin_revision": 4
 }
