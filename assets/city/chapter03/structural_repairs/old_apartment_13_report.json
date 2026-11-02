@@ -1,0 +1,159 @@
+{
+  "source": "old_apartment_13",
+  "source_mesh": "meshes[0].059",
+  "repaired_mesh": "old_apartment_13_structural_repair",
+  "front_regions": [
+    [
+      "upper_left_grille",
+      -0.386,
+      -0.26,
+      0.664,
+      0.763,
+      "grille"
+    ],
+    [
+      "middle_left_grille",
+      -0.393,
+      -0.115,
+      0.429,
+      0.552,
+      "grille"
+    ],
+    [
+      "upper_left_balcony",
+      -0.246,
+      -0.052,
+      0.602,
+      0.71,
+      "rail"
+    ],
+    [
+      "upper_right_balcony",
+      0.078,
+      0.307,
+      0.602,
+      0.68,
+      "rail"
+    ],
+    [
+      "middle_right_balcony",
+      0.08,
+      0.306,
+      0.347,
+      0.426,
+      "rail"
+    ],
+    [
+      "ground_left_grille",
+      -0.25,
+      -0.169,
+      0.153,
+      0.233,
+      "grille"
+    ],
+    [
+      "ground_right_grille",
+      0.218,
+      0.292,
+      0.153,
+      0.233,
+      "grille"
+    ],
+    [
+      "middle_right_small",
+      0.314,
+      0.393,
+      0.438,
+      0.519,
+      "grille"
+    ]
+  ],
+  "side_regions": [
+    [
+      "side_upper",
+      0.052,
+      0.147,
+      0.674,
+      0.798,
+      "grille"
+    ],
+    [
+      "side_middle",
+      0.052,
+      0.147,
+      0.43,
+      0.551,
+      "grille"
+    ],
+    [
+      "side_ground",
+      0.05,
+      0.15,
+      0.166,
+      0.282,
+      "grille"
+    ]
+  ],
+  "balcony_window_regions": [
+    [
+      "upper_left_glazing",
+      -0.246,
+      -0.052,
+      0.602,
+      0.758,
+      "glazing"
+    ],
+    [
+      "upper_right_glazing",
+      0.078,
+      0.307,
+      0.602,
+      0.762,
+      "glazing"
+    ],
+    [
+      "middle_right_glazing",
+      0.08,
+      0.306,
+      0.347,
+      0.523,
+      "glazing"
+    ]
+  ],
+  "old_triangles": 14463,
+  "removed_malformed_triangles": 1871,
+  "new_triangles": 14186,
+  "metal_patch_uv": [
+    0.087158203125,
+    0.807373046875
+  ],
+  "pane_patch_uv": [
+    0.90185546875,
+    0.993896484375
+  ],
+  "original_texture_and_material_reused": true,
+  "outer_bounds_before": [
+    [
+      -0.48974609375,
+      -0.3091278076171875,
+      0.0
+    ],
+    [
+      0.48974609375,
+      0.3091278076171875,
+      0.9672241806983948
+    ]
+  ],
+  "outer_bounds_after": [
+    [
+      -0.48974609375,
+      -0.3091278076171875,
+      0.0
+    ],
+    [
+      0.48974609375,
+      0.3091278076171875,
+      0.9672241806983948
+    ]
+  ]
+}

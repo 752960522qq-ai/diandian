@@ -1,0 +1,760 @@
+{
+  "original": {
+    "bytes": 221360732,
+    "nodes": 2655,
+    "meshes": 2450,
+    "images": 147,
+    "image_bytes": 158050367,
+    "materials": 150,
+    "stored_triangles": 1526640,
+    "expanded_triangles": 3909320,
+    "replacement_roots": 126,
+    "source_model_types": 47
+  },
+  "candidate": {
+    "bytes": 219270448,
+    "nodes": 2655,
+    "meshes": 2450,
+    "images": 147,
+    "image_bytes": 154834078,
+    "materials": 150,
+    "stored_triangles": 1415123,
+    "expanded_triangles": 3593543,
+    "replacement_roots": 126,
+    "source_model_types": 47
+  },
+  "missing_nodes": [],
+  "added_nodes": [],
+  "duplicate_node_names": {
+    "original": 0,
+    "candidate": 0
+  },
+  "hierarchy_differences": [],
+  "transform_differences": [],
+  "max_transform_error": 0.0,
+  "node_metadata_differences": [],
+  "protected_geometry_changed": [],
+  "protected_attributes_changed": [],
+  "protected_attributes_changed_at_1e6": [],
+  "protected_geometry_unchanged": 2403,
+  "protected_material_bindings_changed": [],
+  "replacement_bounds_differences": [],
+  "material_differences": [],
+  "visibility_differences": [],
+  "image_payload_multiset_exact": false,
+  "image_name_or_payload_differences": [
+    {
+      "name": "apartment_building_18_basecolor",
+      "before": {
+        "name": "apartment_building_18_basecolor",
+        "sha256": "5614caf7930d9ba21de84188bd04ebf272c1e23a0d4de39ff6d8aad364698be1",
+        "bytes": 1305024,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "apartment_building_18_basecolor",
+        "sha256": "07fdc5258f101ec117d2cf6b74471d4aec84c3c75c3d5e6766c91ddf57f0456a",
+        "bytes": 1284332,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "apartment_building_3d_model_14_basecolor",
+      "before": {
+        "name": "apartment_building_3d_model_14_basecolor",
+        "sha256": "ea476c508e4c41e86d5be84c3024eac1161d44f133febc1e378f8a6b80c63cab",
+        "bytes": 1298810,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "apartment_building_3d_model_14_basecolor",
+        "sha256": "3af8a312ad2df58ab5848003fdd3bd3a023bf7ff4c2484f7df746fbe1542141d",
+        "bytes": 1279259,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "apartment_building_50_basecolor",
+      "before": {
+        "name": "apartment_building_50_basecolor",
+        "sha256": "3815efe3199fe6768e3906dff74ff4bcec14d35c533b38b8abb742e678b62a22",
+        "bytes": 4556254,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "apartment_building_50_basecolor",
+        "sha256": "83984f09d69c4a5682318c20dc934700c2deeb1e2ea50ac0b7e8f1fd03e81344",
+        "bytes": 4433127,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "apartment_building_54_basecolor",
+      "before": {
+        "name": "apartment_building_54_basecolor",
+        "sha256": "35efebef5ab4418ce4c54d2b84ca81fa2ecc99b1d91b665257a76cf4439fdc6a",
+        "bytes": 4478249,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "apartment_building_54_basecolor",
+        "sha256": "6ff1c7ac3a0255643be95c8a5c113acd2a0d67d6cac49cdb56a75954ba3de7af",
+        "bytes": 4364296,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "architectural_facade_66_basecolor",
+      "before": {
+        "name": "architectural_facade_66_basecolor",
+        "sha256": "4626c3c5c7d8019cc2bfeccb5e8fc11fa559bae34eb19bc7405fa5beb3696ba1",
+        "bytes": 4226841,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "architectural_facade_66_basecolor",
+        "sha256": "c862b6ea6d6d74dc06c9ca32ea58f2932da024c5747d9f364f0cc9b2365aaf15",
+        "bytes": 4150868,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "building_3d_model_56_basecolor",
+      "before": {
+        "name": "building_3d_model_56_basecolor",
+        "sha256": "b5b6348e1facf0b8d4b61da6ff5c8db206f747308367a2a2a8e270ef788d9f61",
+        "bytes": 1158608,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "building_3d_model_56_basecolor",
+        "sha256": "3c630071bd609849a0f6754f6fe84f411be0c26b9eb7de22e68650e080552a52",
+        "bytes": 1145422,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "city_building_62_basecolor",
+      "before": {
+        "name": "city_building_62_basecolor",
+        "sha256": "688e2e94e566836fe29c9f845bda9f7212831e5f8e71b8459440672d3b86d316",
+        "bytes": 1180183,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "city_building_62_basecolor",
+        "sha256": "40f104d0e0fba0af8b8932e5c70b17dfdc2d6cce0ec77ce9acaa370a80a3d97d",
+        "bytes": 1166512,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "concrete_apartment_building_28_basecolor",
+      "before": {
+        "name": "concrete_apartment_building_28_basecolor",
+        "sha256": "1b8db8eb898fa16bab966ecf5fe0e4fac8e300daf50febc7c188276ecffb6e19",
+        "bytes": 1147266,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "concrete_apartment_building_28_basecolor",
+        "sha256": "3370bda58d9466a3ba361a563f23e9145725e26817b9e3f9e0596044deb2e2ad",
+        "bytes": 1134843,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "glass_office_building_22_basecolor",
+      "before": {
+        "name": "glass_office_building_22_basecolor",
+        "sha256": "aee2abbea8ac76fdcad087c86890f8417539cc2eb68e35c5aabc65e5d8aaa82a",
+        "bytes": 4707183,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "glass_office_building_22_basecolor",
+        "sha256": "37989a4d0491110d12e76a15f178f838c42eb8fa6cc565964af1bfd78cfa52f5",
+        "bytes": 4587436,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "glass_skyscraper_23_basecolor",
+      "before": {
+        "name": "glass_skyscraper_23_basecolor",
+        "sha256": "0a0ea8106afe687a35b3ba9882f1455d93e63d9ed84654bade43b4272e26c033",
+        "bytes": 4864097,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "glass_skyscraper_23_basecolor",
+        "sha256": "adfbe75307a6ea97a3733590bbf28f66d170c0e5709318fbdedd6f64eb0bc21a",
+        "bytes": 4747714,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "historic_building_59_basecolor",
+      "before": {
+        "name": "historic_building_59_basecolor",
+        "sha256": "d6cfb0521a4fd20f90f65503ae1356b9eb6fd84e64e52d2fb0b7a962eb246580",
+        "bytes": 1614554,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "historic_building_59_basecolor",
+        "sha256": "299766cf42ee6dbdd8a2463deb6706da8e57443337cf54054d5f9016296c8df9",
+        "bytes": 1579942,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "historic_building_facade_15_basecolor",
+      "before": {
+        "name": "historic_building_facade_15_basecolor",
+        "sha256": "f071a062d42c81c840e21fd8f84e556dc7daecb1128c1129ce5d2af441ffdae7",
+        "bytes": 4928897,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "historic_building_facade_15_basecolor",
+        "sha256": "6baf253ebfea1aedd1d827d34cb44fc25fbfd10afb81aabd6a87347f0a131b61",
+        "bytes": 4837594,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "historic_storefront_building_61_basecolor",
+      "before": {
+        "name": "historic_storefront_building_61_basecolor",
+        "sha256": "c2d969a5d36535a6dc48ffe58170ae7b03c7a0e5abfcbee89f20922b26104c43",
+        "bytes": 1179090,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "historic_storefront_building_61_basecolor",
+        "sha256": "3a05515f89cc3f1c8ae9e743cd5dce4f6955a4a05e9314516448954d80d9a241",
+        "bytes": 1162757,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "hotel_building_3d_model_52_basecolor",
+      "before": {
+        "name": "hotel_building_3d_model_52_basecolor",
+        "sha256": "674749eb6258211a447a0632722871b3a46143f14f1eb7457de627914c15aabe",
+        "bytes": 4530444,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "hotel_building_3d_model_52_basecolor",
+        "sha256": "1a3981748cc912a0437b503f0d9cf4203818fa54322c835b2ded2af8247b4cff",
+        "bytes": 4459081,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "modern_glass_building_24_basecolor",
+      "before": {
+        "name": "modern_glass_building_24_basecolor",
+        "sha256": "0da1341b16556c2d8c2280fdff3449fa9319eba54dd4f8b02e460732b1f696bb",
+        "bytes": 4723663,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "modern_glass_building_24_basecolor",
+        "sha256": "c2d968edbda3351d631c3956f5462084cbe09cc24714bf49090ea594f82811e1",
+        "bytes": 4602495,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "modern_glass_office_building_21_basecolor",
+      "before": {
+        "name": "modern_glass_office_building_21_basecolor",
+        "sha256": "3fe688fed7222bb6b9f0f253874c44f7cace815fb4fde6ea3a9506411e5cf5a2",
+        "bytes": 4489732,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "modern_glass_office_building_21_basecolor",
+        "sha256": "04b99decb1658deee5783ad81a78e7afe38945a6112539575b5e8bb1c7961907",
+        "bytes": 4386686,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "modern_office_building_26_basecolor",
+      "before": {
+        "name": "modern_office_building_26_basecolor",
+        "sha256": "aeb1c338844e6368ba4c64a5672baa8acb81b5322d4574a1d396a2c6e33831bd",
+        "bytes": 4460982,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "modern_office_building_26_basecolor",
+        "sha256": "b1f9899197b8981fd6d704810a345a702660f6d956e999bc86b6e2aa76667632",
+        "bytes": 4384384,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "modern_office_building_3d_model27_basecolor",
+      "before": {
+        "name": "modern_office_building_3d_model27_basecolor",
+        "sha256": "b81029e4e82ee5259224564c6c71a347a0fda12fd1e48533cb6d1dec091322a0",
+        "bytes": 4311183,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "modern_office_building_3d_model27_basecolor",
+        "sha256": "ca233688feb9de23480edb0517efa10307edc246a9841625ff5503c89c260f19",
+        "bytes": 4199008,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "modern_office_building_3d_model_28_basecolor",
+      "before": {
+        "name": "modern_office_building_3d_model_28_basecolor",
+        "sha256": "f98a39191eaea80e715459e774328b84330525ebf2daebab2c10abacd225238a",
+        "bytes": 4870467,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "modern_office_building_3d_model_28_basecolor",
+        "sha256": "de83390a466cc75a775c3360e375e3ecfbf62496e41f20d035ae2f9898c90ee7",
+        "bytes": 4776989,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "modern_office_building_3d_model_30_basecolor",
+      "before": {
+        "name": "modern_office_building_3d_model_30_basecolor",
+        "sha256": "0833d4dc41446f2081a1940dabd228c21cb86981d449a56f8ecbb2f01534154b",
+        "bytes": 5217939,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "modern_office_building_3d_model_30_basecolor",
+        "sha256": "a9a9cb7792b4b9e09adb9e7a4d4809ab63e80552df18e58345dff26cfba091d9",
+        "bytes": 5105877,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "modern_storefront_building_3d_model_57_basecolor",
+      "before": {
+        "name": "modern_storefront_building_3d_model_57_basecolor",
+        "sha256": "6c9fa4bfcb63a072bc8ea95345a2552be5416a16370bbe6127a724830998dba7",
+        "bytes": 832374,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "modern_storefront_building_3d_model_57_basecolor",
+        "sha256": "fa2edecc244f2787d372afd8a9f84a272ce4a3945c91c65a1d88af7d747580b0",
+        "bytes": 824016,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "office_building_3d_model26_basecolor",
+      "before": {
+        "name": "office_building_3d_model26_basecolor",
+        "sha256": "67ce9fa2b508250be533be870ff5b600184e62c9ca05e7ba63c728fba7fc4f4b",
+        "bytes": 5249501,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "office_building_3d_model26_basecolor",
+        "sha256": "031752d680f2ea570328e070289b9dd69f4d0540df00d7c584337dbe4692f5f6",
+        "bytes": 5124358,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "office_building_3d_model_29_basecolor",
+      "before": {
+        "name": "office_building_3d_model_29_basecolor",
+        "sha256": "e3bd1f71fc567dd0172d37c375ed16b5735f8decf88e120deeecd8254b981437",
+        "bytes": 4396464,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "office_building_3d_model_29_basecolor",
+        "sha256": "bca999b6007e095df32e0e60c0ded1e159079c2648318e8be954378027e78251",
+        "bytes": 4311954,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "office_building_3d_model_51_basecolor",
+      "before": {
+        "name": "office_building_3d_model_51_basecolor",
+        "sha256": "440e26049eea03587cae55e127942c15d377b880c360df100318dcd6e932e2f8",
+        "bytes": 4551714,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "office_building_3d_model_51_basecolor",
+        "sha256": "8b715c16f56e62ab924290c189df607880e57eaa00fd729facbd5f1a233dfa24",
+        "bytes": 4477474,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "old_apartment_building_3d_model_13_basecolor",
+      "before": {
+        "name": "old_apartment_building_3d_model_13_basecolor",
+        "sha256": "c6c8d797607ebcdc6fe620ab1c6f1a735117fbe7c2d6d197baf93444a88d2f14",
+        "bytes": 1526608,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "old_apartment_building_3d_model_13_basecolor",
+        "sha256": "0205750c50538a7fa1f2eefb003e12c9eb2b5cbee3b43af16b3994c290fa874c",
+        "bytes": 1496354,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "old_building_17_basecolor",
+      "before": {
+        "name": "old_building_17_basecolor",
+        "sha256": "82eca6b64d4e0d8763c0dbb678f907964974017eb5392030578928ef27e2538b",
+        "bytes": 1373360,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "old_building_17_basecolor",
+        "sha256": "bec8f498b8d3e0c079fabc6d1b26e24ca430de6441da557cafaf8dcee2a8a881",
+        "bytes": 1353984,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "old_italian_townhouse_19_basecolor",
+      "before": {
+        "name": "old_italian_townhouse_19_basecolor",
+        "sha256": "04f46e1d2436f1ae4c4682535ba985d173aa46b4dbdd4bba9d8888cdd4093d76",
+        "bytes": 1477404,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "old_italian_townhouse_19_basecolor",
+        "sha256": "0ac7f05b782e715fffde510237b7ea8d791b188bea5b9dc2567ca56ca60ccf10",
+        "bytes": 1453865,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "police_headquarters_65_basecolor",
+      "before": {
+        "name": "police_headquarters_65_basecolor",
+        "sha256": "112aad1a644db4ee5f3bf32509047edbf772dac81628f53268de1d67e683fb80",
+        "bytes": 4424914,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "police_headquarters_65_basecolor",
+        "sha256": "26edbf6bf6101c1186d83aab76259c22acd201d69e5256153081b62a4cf0807e",
+        "bytes": 4361578,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "rusty_apartment_building_27_basecolor",
+      "before": {
+        "name": "rusty_apartment_building_27_basecolor",
+        "sha256": "706d2696f24a4b8839758f6deca9e2a3811964dda06a7432dba81409b539a931",
+        "bytes": 1263674,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "rusty_apartment_building_27_basecolor",
+        "sha256": "7363debf2fa59ff07cfae310a677e0d2410b007bddb043d4bfd265104a2e1d61",
+        "bytes": 1246178,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "shopping_mall_64_basecolor",
+      "before": {
+        "name": "shopping_mall_64_basecolor",
+        "sha256": "18c496d35f9ce3bd630350c3e167109cdac902c70efde5a5144d01653cc5613a",
+        "bytes": 4458899,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "shopping_mall_64_basecolor",
+        "sha256": "46125fe9b0f8c47cb069e99e64f2fabbb76e2a92648d5b7d2ddaf53e8007188f",
+        "bytes": 4377395,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "skyscraper_3d_model26_basecolor",
+      "before": {
+        "name": "skyscraper_3d_model26_basecolor",
+        "sha256": "406923aca12f17bb4168b48b1a1eca08d858ed408860b2f3028eb75ea8be0bb1",
+        "bytes": 5001165,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "skyscraper_3d_model26_basecolor",
+        "sha256": "fdcfcbff2bb45305975607e887d6317dad45af46d3258bc01b15c5302c89a0b8",
+        "bytes": 4892517,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "three-story_building60_basecolor",
+      "before": {
+        "name": "three-story_building60_basecolor",
+        "sha256": "aa4146c8ac650a6fe5187bcc5e1fd18edd83e79d17a211d5fea4a4becd673320",
+        "bytes": 1160417,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "three-story_building60_basecolor",
+        "sha256": "935155122d9afd5681e66315042ed447a816b2e3646e0384b7f45b01994e1b8a",
+        "bytes": 1146378,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "tripo_image_13fadb60-c10b-4bf8-b725-92868f585fa7_0",
+      "before": {
+        "name": "tripo_image_13fadb60-c10b-4bf8-b725-92868f585fa7_0",
+        "sha256": "2fdd584789de38d4a74eaf6d49c818400a89fd0b7a29b8acd990aa743ea53896",
+        "bytes": 5323698,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "tripo_image_13fadb60-c10b-4bf8-b725-92868f585fa7_0",
+        "sha256": "e228d7c136baa918b67822e18011ee4c7f665b63f2a2f394c95fa2e1699653ae",
+        "bytes": 5200001,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "tripo_image_17b22713-3349-45b1-bdbe-725f91aad2a8_0",
+      "before": {
+        "name": "tripo_image_17b22713-3349-45b1-bdbe-725f91aad2a8_0",
+        "sha256": "9569aeb67206d33fe19f775a128b93b2fa43f04d13c93ab4bc545c9e8a16b472",
+        "bytes": 1495462,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "tripo_image_17b22713-3349-45b1-bdbe-725f91aad2a8_0",
+        "sha256": "556d7af580a780e9c7620fbbba833b1716b836e4cc648b7426897953232aa138",
+        "bytes": 1469896,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "tripo_image_39fec72d-a1fb-4610-be2d-b5ea651c4816_0",
+      "before": {
+        "name": "tripo_image_39fec72d-a1fb-4610-be2d-b5ea651c4816_0",
+        "sha256": "091be03f12bd3b670b1b7e824282b2a4171620d3f26a65e8e201efd32b592e83",
+        "bytes": 5413627,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "tripo_image_39fec72d-a1fb-4610-be2d-b5ea651c4816_0",
+        "sha256": "7dd84bb7c88ece9d3d23ac27dd21e1f9343c06cea934ab4e68248e311454efb0",
+        "bytes": 5296501,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "tripo_image_488004c8-2bf4-48a1-bfc7-42691d7b6e1e_0",
+      "before": {
+        "name": "tripo_image_488004c8-2bf4-48a1-bfc7-42691d7b6e1e_0",
+        "sha256": "11abb6fa62ccea0adcad8a33dfc1ecc35e44fdce6757b1b06fc4fb9a82d8433e",
+        "bytes": 4510361,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "tripo_image_488004c8-2bf4-48a1-bfc7-42691d7b6e1e_0",
+        "sha256": "397a8f9006f12be4750ea8c32c15682b9535301cfbbf897f473a2ddfff9caf1d",
+        "bytes": 4397387,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "tripo_image_5966475a-cb78-4604-8f8e-a2bfd0dd51cb_0",
+      "before": {
+        "name": "tripo_image_5966475a-cb78-4604-8f8e-a2bfd0dd51cb_0",
+        "sha256": "1d5096f168f7540674a4c8109ab5ac7e507f99392cdf187dd45739cfb72525d6",
+        "bytes": 4288916,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "tripo_image_5966475a-cb78-4604-8f8e-a2bfd0dd51cb_0",
+        "sha256": "ab493f6a5d7eddfbdd0464ec87b9fddaefddacf10e81b4a1ac0a31bb81a20c8f",
+        "bytes": 4218337,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "tripo_image_6ce8624b-08eb-4996-9cf7-88a5592c98ca_0",
+      "before": {
+        "name": "tripo_image_6ce8624b-08eb-4996-9cf7-88a5592c98ca_0",
+        "sha256": "fcefb9fdd25f9ce9c27a1ee047fe625c60a8f9690adb84c6481edea5e61574b7",
+        "bytes": 1623674,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "tripo_image_6ce8624b-08eb-4996-9cf7-88a5592c98ca_0",
+        "sha256": "0e45f30e5c3eaacf7882d37ac74cb656037226471e5d4497c9f772643286b738",
+        "bytes": 1584064,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "tripo_image_8160b9ba-9750-469d-8fb5-173d616d091f_0",
+      "before": {
+        "name": "tripo_image_8160b9ba-9750-469d-8fb5-173d616d091f_0",
+        "sha256": "a1877c442f7b1239f8d7782e881ff60572c1868c2e5e4a2ed0ff41914b95c114",
+        "bytes": 5589953,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "tripo_image_8160b9ba-9750-469d-8fb5-173d616d091f_0",
+        "sha256": "2ae4707ca99034e58171dbaeadbdc3b21ef91ba41f450c48fa74ae8b5c2e52c4",
+        "bytes": 5464955,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "tripo_image_8b3895ce-bcb3-44e7-aa81-b731e595b955_0",
+      "before": {
+        "name": "tripo_image_8b3895ce-bcb3-44e7-aa81-b731e595b955_0",
+        "sha256": "295b4abb0582d9d3a83e492d938fe4d0da79b5628e33ff4aae9a6f86ee7fd4c9",
+        "bytes": 1594422,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "tripo_image_8b3895ce-bcb3-44e7-aa81-b731e595b955_0",
+        "sha256": "e52229ddc13f9a0fb51789f52b1c61c970f525cba8a1a70f25a1a9d40ed4e461",
+        "bytes": 1560849,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "tripo_image_8dec47c9-25a1-4d84-b846-f0addfb0c20b_0",
+      "before": {
+        "name": "tripo_image_8dec47c9-25a1-4d84-b846-f0addfb0c20b_0",
+        "sha256": "d7296350e795150c9120801156f43c6cedb118b5b76499fe3f7a41a1f3e6985e",
+        "bytes": 1655336,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "tripo_image_8dec47c9-25a1-4d84-b846-f0addfb0c20b_0",
+        "sha256": "56a6e49372fd73703283547a68065aa69fac611a759c118213d2a2c457c87023",
+        "bytes": 1617975,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "tripo_image_984f9dfd-0155-4009-8dbb-5105d372428a_0",
+      "before": {
+        "name": "tripo_image_984f9dfd-0155-4009-8dbb-5105d372428a_0",
+        "sha256": "ef67ee0d1fc1e2ad0cfa168fac8cda31b2d1cbf5031a32884c32e7d843b37089",
+        "bytes": 5957925,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "tripo_image_984f9dfd-0155-4009-8dbb-5105d372428a_0",
+        "sha256": "cdbf704eae236e70d1df41b675a8f0e67a5eb5741ead2f9698e6b524c70d3a7b",
+        "bytes": 5823688,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "tripo_image_f343ca5c-1910-41ba-9e12-070a8843c574_0",
+      "before": {
+        "name": "tripo_image_f343ca5c-1910-41ba-9e12-070a8843c574_0",
+        "sha256": "cc6defe3ac8a2197152335645f124f8052d042307e135616b5263fbc05cc0b1a",
+        "bytes": 5016602,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "tripo_image_f343ca5c-1910-41ba-9e12-070a8843c574_0",
+        "sha256": "0a901185a7db2be629dfce5e4038629364a5be52d96be30166c14edc92c1be55",
+        "bytes": 4912567,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "tripo_image_fb5616da-4e46-441d-9ff1-5251ec41dba2_0",
+      "before": {
+        "name": "tripo_image_fb5616da-4e46-441d-9ff1-5251ec41dba2_0",
+        "sha256": "1e9f108a1351cead711db72d036548ff364ddad32228fa3d49cd9326f785518a",
+        "bytes": 5645213,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "tripo_image_fb5616da-4e46-441d-9ff1-5251ec41dba2_0",
+        "sha256": "c3a026d7d33f0df62d5603eea04e0872f7dbe59a6b0f0f6b09dabfe1bd6770a2",
+        "bytes": 5510270,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "urban_building_63_basecolor",
+      "before": {
+        "name": "urban_building_63_basecolor",
+        "sha256": "a990cbc373501ce5662d0b53679a74933a9f088b7899034a8ba1494b9653616d",
+        "bytes": 1118086,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "urban_building_63_basecolor",
+        "sha256": "543dd46a597e47f86d22aac27f96c7a5797a9711ecc7cf68d55d360cd72a9806",
+        "bytes": 1100928,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "urban_building_facade_20_basecolor",
+      "before": {
+        "name": "urban_building_facade_20_basecolor",
+        "sha256": "198b4424dac9ad5a0c78e62ef4182976161c4d7e0fb0b2fb6720bc2f19ced04b",
+        "bytes": 1273498,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "urban_building_facade_20_basecolor",
+        "sha256": "0149f17d559220fdbd3f31e6c86076e3afd6eff71e14e4b6c45710ec47258089",
+        "bytes": 1257396,
+        "mime": "image/jpeg"
+      }
+    },
+    {
+      "name": "urban_building_facade_58_basecolor",
+      "before": {
+        "name": "urban_building_facade_58_basecolor",
+        "sha256": "772604a2187955866262ce61305638f08cb47cde5882588eedae109c00e97e33",
+        "bytes": 1045844,
+        "mime": "image/jpeg"
+      },
+      "after": {
+        "name": "urban_building_facade_58_basecolor",
+        "sha256": "950766d833cd0e876cf35fb0865da79768a0fe7ddc66aec301964935bb2059db",
+        "bytes": 1032801,
+        "mime": "image/jpeg"
+      }
+    }
+  ],
+  "image_pixels_exact": true,
+  "image_pixel_differences": [],
+  "scene_roots_exact": true,
+  "replacement_roots_exact": true,
+  "max_instances_per_source": 3,
+  "prohibited_source_markers": [],
+  "excluded_corner_sources": [],
+  "pass_invariants": true
+}
