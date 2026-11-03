@@ -1,4 +1,4 @@
-# 汉阳造专用步枪动作
+# 汉阳造备选步枪动作（归档）
 
 来源：用户上传 Human Soldier Animations FREE，作者 Kevin Iglesias，包内女性 Rifle 动作组。
 
@@ -8,7 +8,7 @@
 | HanyangFire | HumanF@Rifle_Aim01_Shoot01 | 步枪射击 |
 | HanyangReload | HumanF@Rifle_Reload01 | 换弹 |
 
-`diandian_rifle.glb` 和 `zhigeng_rifle.glb` 是对应现有人物骨架的独立动画库。Godot 与网页预览仅在装备汉阳造时使用这三段动作；换弹单次播放，持枪跑步沿用原动作。
+`diandian_rifle.glb` 和 `zhigeng_rifle.glb` 保留为备选动画库。当前 Godot 与网页预览已按最新要求切回原通用步枪动作组，此库不再自动加载。
 
 重定向脚本：`tools/blender/retarget_soldier_rifle.py`。源文件使用 B-* 骨架，经骨名、解剖朝向、胸椎和手掌轴适配后，烘焙到现有 Mixamo 骨架，保留人物模型、蒙皮与面部绑定。
 

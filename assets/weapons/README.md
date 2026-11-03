@@ -19,9 +19,9 @@
 
 `source/` 归档原始上传文件，`source/sources.json` 记录 SHA-256；`dimensions.json` 记录缩放系数、统一坐标系与最终 GLB 重新导入后的尺寸。
 
-四把枪已接入点点和知更的人物持枪预览。右手挂接握把，左臂跟随各枪护木支撑点；手枪使用双手握持，换弹时左手按原动作释放，普通待机与走跑隐藏武器。枪体保持表中实际长度。适配以原动作的自然姿态为主，肩膀纠正上限 8°，托枪手与指节只做适度混合修正，允许轻微穿模。
+四把枪已接入点点和知更的人物持枪预览。右手挂接握把，左臂跟随各枪护木支撑点；手枪使用双手握持，换弹时左手按原动作释放，普通待机与走跑隐藏武器。表中长度保留在源 GLB 中，人物预览按下表调整长枪显示比例。适配以原动作的自然姿态为主，肩膀纠正上限 8°，托枪手与指节只做适度混合修正，允许轻微穿模。
 
-汉阳造的持枪待机／瞄准、射击和换弹，使用 Human Soldier Animations FREE 的女性 `Rifle` 动作，分别适配点点和知更。动作独立存放在 `assets/animations/hanyang_rifle/`，选择汉阳造时自动使用。
+汉阳造使用角色原有的通用步枪动作组，握点与手腕朝向按枪型分别适配。
 
 共享适配数据在 `character_attachment.json`，包含每个角色、枪械与动作的掌心挂点、手腕朝向及握持指节参数。Godot 组件为 `godot/scripts/character_weapon_attachment.gd`；两个预览入口分别是 `godot/scenes/diandian_preview.tscn` 和 `godot/scenes/zhigeng_preview.tscn`。
 
@@ -32,3 +32,12 @@
 | ![点点持 QBZ95](character_previews/diandian_qbz95.png) | ![点点持 QSZ92](character_previews/diandian_qsz92.png) |
 | **知更 · 56-1** | **知更 · 汉阳造** |
 | ![知更持 56-1](character_previews/zhigeng_type56_1.png) | ![知更持汉阳造](character_previews/zhigeng_hanyang88.png) |
+
+| 人物预览比例 | QBZ95 | 56-1 | 汉阳造 | QSZ92 |
+| --- | ---: | ---: | ---: | ---: |
+| 点点 | 96% | 93% | 88% | 100% |
+| 知更 | 94% | 91% | 86% | 100% |
+
+枪体与握把、护木、扳机挂点使用相同缩放；长枪的右腕额外旋转限制在 18°–22°，换弹随原动作转枪。QSZ92 保留 190 mm，通过专用指节包握适配右手枪柄和左手支撑。
+
+[点点汉阳造](character_previews/diandian_hanyang88.png) · [知更92式](character_previews/zhigeng_qsz92.png) · [点点56-1](character_previews/diandian_type56_1.png) · [知更95式](character_previews/zhigeng_qbz95.png)

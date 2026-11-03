@@ -83,10 +83,15 @@ func _process_modification() -> void:
 	var left_offset: Vector3 = vector(mount.left_palm_offset_native) if mount.has("left_palm_offset_native") else left_palm_offset
 	var palm := right_world.origin + right_world.basis.orthonormalized() * right_offset * character_scale
 	var rotation := (right_world.basis.orthonormalized().get_rotation_quaternion() * quaternion(mount.quaternion_xyzw)).normalized()
-	var gun_transform := Transform3D(Basis(rotation), palm - rotation * vector(data.right_grip))
+	var model_scale := float(mount.get("model_scale", 1.0))
+	var gun_basis := Basis(rotation).scaled(Vector3.ONE * model_scale)
+	var gun_transform := Transform3D(gun_basis, palm - gun_basis * vector(data.right_grip))
 	models[selected_weapon].global_transform = gun_transform
-	if motion == "FiringRifle" and bool(mount.get("trigger_finger_ik", false)):
-		fit_trigger_finger(gun_transform * (vector(data.trigger) + Vector3(0.004, 0.0, 0.0)))
+	var right_finger_weight := float(mount.get("right_finger_pose_weight", character.get("finger_pose_weight", 0.6)))
+	if mount.has("right_finger_directions_weapon"):
+		fit_finger_directions("Right", mount.right_finger_directions_weapon, rotation, right_finger_weight)
+	if motion in ["FiringRifle", "PistolIdle"] and bool(mount.get("trigger_finger_ik", false)):
+		fit_trigger_finger(gun_transform * (vector(data.trigger) + Vector3(0.004, 0.0, 0.0)), right_finger_weight)
 	if motion == "Reloading":
 		last_contact_error_m = 0.0
 		return
@@ -102,25 +107,15 @@ func _process_modification() -> void:
 		arm_source.append(skeleton.get_bone_pose_rotation(bone))
 	assist_shoulder(wrist_target, float(mount.get("shoulder_assist_max_degrees", character.get("shoulder_assist_max_degrees", 8.0))))
 	solve_left_arm(wrist_target, hand_rotation)
-	var support_weight := float(character.get("support_pose_weight", 0.85))
+	var support_weight := float(mount.get("support_pose_weight", character.get("support_pose_weight", 0.85)))
 	for index in arm_bones.size():
 		var bone := arm_bones[index]
 		skeleton.set_bone_pose_rotation(bone, arm_source[index].slerp(skeleton.get_bone_pose_rotation(bone), support_weight).normalized())
 	skeleton.force_update_all_bone_transforms()
 	var finger_source: Dictionary = {}
+	var finger_weight := float(mount.get("support_finger_pose_weight", character.get("finger_pose_weight", 0.6)))
 	if mount.has("support_finger_directions_weapon"):
-		for digit in mount.support_finger_directions_weapon:
-			for segment in 3:
-				var configured_direction = mount.support_finger_directions_weapon[digit][segment]
-				if configured_direction == null:
-					continue
-				var prefix := "mixamorig_LeftHand" + str(digit)
-				var bone := skeleton.find_bone(prefix + str(segment + 1))
-				var end := skeleton.find_bone(prefix + str(segment + 2))
-				finger_source[bone] = skeleton.get_bone_pose_rotation(bone)
-				var current := world_pose(end).origin - world_pose(bone).origin
-				var desired := rotation * vector(configured_direction)
-				rotate_bone_toward(bone, current, desired)
+		fit_finger_directions("Left", mount.support_finger_directions_weapon, rotation, finger_weight)
 	else:
 		for bone_name in mount.get("support_finger_quaternion_offsets", {}):
 			var name := "mixamorig_" + str(bone_name).trim_prefix("mixamorig:").trim_prefix("mixamorig_")
@@ -128,7 +123,6 @@ func _process_modification() -> void:
 			finger_source[bone] = skeleton.get_bone_pose_rotation(bone)
 			var offset := quaternion(mount.support_finger_quaternion_offsets[bone_name])
 			skeleton.set_bone_pose_rotation(bone, (skeleton.get_bone_pose_rotation(bone) * offset).normalized())
-	var finger_weight := float(character.get("finger_pose_weight", 0.6))
 	for bone in finger_source:
 		skeleton.set_bone_pose_rotation(bone, finger_source[bone].slerp(skeleton.get_bone_pose_rotation(bone), finger_weight).normalized())
 	skeleton.force_update_all_bone_transforms()
@@ -136,7 +130,24 @@ func _process_modification() -> void:
 	var support_palm := final_hand.origin + final_hand.basis.orthonormalized() * left_offset * character_scale
 	last_contact_error_m = support_palm.distance_to(support_target)
 
-func fit_trigger_finger(target: Vector3) -> void:
+func fit_finger_directions(side: String, directions: Dictionary, weapon_rotation: Quaternion, weight: float) -> void:
+	var source: Dictionary = {}
+	for digit in directions:
+		for segment in 3:
+			var configured_direction = directions[digit][segment]
+			if configured_direction == null:
+				continue
+			var prefix := "mixamorig_" + side + "Hand" + str(digit)
+			var bone := skeleton.find_bone(prefix + str(segment + 1))
+			var end := skeleton.find_bone(prefix + str(segment + 2))
+			source[bone] = skeleton.get_bone_pose_rotation(bone)
+			var current := world_pose(end).origin - world_pose(bone).origin
+			rotate_bone_toward(bone, current, weapon_rotation * vector(configured_direction))
+	for bone in source:
+		skeleton.set_bone_pose_rotation(bone, source[bone].slerp(skeleton.get_bone_pose_rotation(bone), weight).normalized())
+	skeleton.force_update_all_bone_transforms()
+
+func fit_trigger_finger(target: Vector3, weight: float) -> void:
 	var bones: Array[int] = []
 	var points: Array[Vector3] = []
 	var lengths: Array[float] = []
@@ -159,7 +170,6 @@ func fit_trigger_finger(target: Vector3) -> void:
 	for segment in 3:
 		var current := world_pose(bones[segment + 1]).origin - world_pose(bones[segment]).origin
 		rotate_bone_toward(bones[segment], current, points[segment + 1] - points[segment])
-	var weight := float(character.get("finger_pose_weight", 0.6))
 	for segment in 3:
 		var bone := bones[segment]
 		skeleton.set_bone_pose_rotation(bone, source[segment].slerp(skeleton.get_bone_pose_rotation(bone), weight).normalized())
