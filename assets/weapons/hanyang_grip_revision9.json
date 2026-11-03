@@ -1,0 +1,206 @@
+{
+  "revision": 9,
+  "changes": {
+    "RifleAimingIdle_and_FiringRifle": "lower right elbow below shoulder and coordinate wrist orientation; maintain stock shoulder contact",
+    "RifleIdle_and_RifleRun": "right index only: continuous mild flexion replaces upward flick of distal finger"
+  },
+  "user_preference": "natural motion first; slight clipping acceptable",
+  "site_sources": [
+    {
+      "project_id": "appgprj_6ae75a729d0481919ec16ab35d702896",
+      "name": "diandian-classic-motion-lab",
+      "commit_sha": "38b8436cee793ba386c2664e335d49ba944b5f4a"
+    },
+    {
+      "project_id": "appgprj_6ae8624b35f881918d161516efa53f28",
+      "name": "zhigeng-motion-lab",
+      "commit_sha": "42d5c9abca425de42858a0ee906eba5e26a0351b"
+    }
+  ],
+  "pose_validation": [
+    {
+      "id": "diandian",
+      "poses": 605,
+      "motions": {
+        "RifleIdle": {
+          "elbowRelativeShoulderM": [
+            -0.20562815303132131,
+            -0.20282940202895072
+          ],
+          "wristDeflectionDegrees": [
+            51.847381426653826,
+            55.767371573830275
+          ],
+          "maxRightContactErrorM": 4.878699779863187e-08,
+          "maxLeftContactErrorM": 6.216014835918653e-08,
+          "maxShoulderContactErrorM": 0,
+          "maxArmLengthDeltaM": 4.460459004929085e-08
+        },
+        "RifleAimingIdle": {
+          "elbowRelativeShoulderM": [
+            -0.11194182108263018,
+            -0.1067658601584387
+          ],
+          "wristDeflectionDegrees": [
+            61.26807322029577,
+            62.033778012733606
+          ],
+          "maxRightContactErrorM": 1.5735832817972475e-07,
+          "maxLeftContactErrorM": 1.1321408495948814e-07,
+          "maxShoulderContactErrorM": 3.7853558335037716e-16,
+          "maxArmLengthDeltaM": 7.099439902624738e-08
+        },
+        "FiringRifle": {
+          "elbowRelativeShoulderM": [
+            -0.11272344469991324,
+            -0.10741877862865024
+          ],
+          "wristDeflectionDegrees": [
+            61.36992770140695,
+            62.05801495275358
+          ],
+          "maxRightContactErrorM": 1.0852321230485865e-07,
+          "maxLeftContactErrorM": 8.320319354048648e-08,
+          "maxShoulderContactErrorM": 4.449557262054371e-16,
+          "maxArmLengthDeltaM": 6.327001667028043e-08
+        },
+        "RifleRun": {
+          "elbowRelativeShoulderM": [
+            -0.20495617706580882,
+            -0.14177923624815625
+          ],
+          "wristDeflectionDegrees": [
+            33.66308242599535,
+            42.07123478340501
+          ],
+          "maxRightContactErrorM": 9.79027309372344e-08,
+          "maxLeftContactErrorM": 7.381252513005745e-08,
+          "maxShoulderContactErrorM": 0,
+          "maxArmLengthDeltaM": 7.024354806151045e-08
+        },
+        "Reloading": {
+          "elbowRelativeShoulderM": [
+            -0.1901446253719239,
+            -0.012408866055417578
+          ],
+          "wristDeflectionDegrees": [
+            28.700451633942247,
+            62.410699307593966
+          ],
+          "maxRightContactErrorM": 8.231140778441832e-08,
+          "maxLeftContactErrorM": 0,
+          "maxShoulderContactErrorM": 0,
+          "maxArmLengthDeltaM": 6.170145316897191e-08
+        }
+      },
+      "regression": {
+        "poses": 132,
+        "maxBoneDelta": 0,
+        "maxGunDelta": 0
+      }
+    },
+    {
+      "id": "zhigeng",
+      "poses": 605,
+      "motions": {
+        "RifleIdle": {
+          "elbowRelativeShoulderM": [
+            -0.2096138259377862,
+            -0.20638771467078643
+          ],
+          "wristDeflectionDegrees": [
+            50.38684865201219,
+            54.421922832699586
+          ],
+          "maxRightContactErrorM": 5.995948116460813e-08,
+          "maxLeftContactErrorM": 7.903241355584545e-08,
+          "maxShoulderContactErrorM": 0,
+          "maxArmLengthDeltaM": 6.157499563008706e-08
+        },
+        "RifleAimingIdle": {
+          "elbowRelativeShoulderM": [
+            -0.09620251700787552,
+            -0.09132987397386194
+          ],
+          "wristDeflectionDegrees": [
+            65.77774196481008,
+            66.33060630117333
+          ],
+          "maxRightContactErrorM": 8.126194224528824e-08,
+          "maxLeftContactErrorM": 8.511064933001491e-08,
+          "maxShoulderContactErrorM": 3.610892649124533e-16,
+          "maxArmLengthDeltaM": 7.854477321322939e-08
+        },
+        "FiringRifle": {
+          "elbowRelativeShoulderM": [
+            -0.09694467572535626,
+            -0.09224157113355291
+          ],
+          "wristDeflectionDegrees": [
+            65.92734367870747,
+            66.40910771268568
+          ],
+          "maxRightContactErrorM": 1.3551291773747905e-07,
+          "maxLeftContactErrorM": 7.244132914577299e-08,
+          "maxShoulderContactErrorM": 3.3335590258932494e-16,
+          "maxArmLengthDeltaM": 9.439500087138342e-08
+        },
+        "RifleRun": {
+          "elbowRelativeShoulderM": [
+            -0.2095675754127817,
+            -0.14300634764872022
+          ],
+          "wristDeflectionDegrees": [
+            37.49668522831882,
+            45.79412183232249
+          ],
+          "maxRightContactErrorM": 7.637460756861098e-08,
+          "maxLeftContactErrorM": 6.593843037057768e-08,
+          "maxShoulderContactErrorM": 0,
+          "maxArmLengthDeltaM": 4.80773670319401e-08
+        },
+        "Reloading": {
+          "elbowRelativeShoulderM": [
+            -0.20239988052655788,
+            -0.03533290291234925
+          ],
+          "wristDeflectionDegrees": [
+            24.512904157713027,
+            57.73362860439268
+          ],
+          "maxRightContactErrorM": 8.98574204353585e-08,
+          "maxLeftContactErrorM": 0,
+          "maxShoulderContactErrorM": 0,
+          "maxArmLengthDeltaM": 6.607051597495861e-08
+        }
+      },
+      "regression": {
+        "poses": 132,
+        "maxBoneDelta": 0,
+        "maxGunDelta": 0
+      }
+    }
+  ],
+  "index_scope": [
+    {
+      "id": "diandian",
+      "samples": 62,
+      "maxOtherBoneDelta": 0,
+      "maxWeaponDelta": 0,
+      "maxIndexDelta": 1.9659897000873179
+    },
+    {
+      "id": "zhigeng",
+      "samples": 62,
+      "maxOtherBoneDelta": 0,
+      "maxWeaponDelta": 0,
+      "maxIndexDelta": 1.9649324832087813
+    }
+  ],
+  "godot": {
+    "version": "4.6.3",
+    "sample_poses": 310,
+    "errors": 0
+  },
+  "measurement_scope": "bone and contact landmarks; visual pose review performed separately"
+}

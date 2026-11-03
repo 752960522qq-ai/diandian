@@ -43,3 +43,5 @@
 修订8同时用于两个网页与 Godot 预览；GLB 保存原始动画，逐枪握持约束由运行时组件应用。`hanyang_grip_revision8.json` 记录验证结果。
 
 [点点汉阳造](character_previews/diandian_hanyang88.png) · [知更92式](character_previews/zhigeng_qsz92.png) · [点点56-1](character_previews/diandian_type56_1.png) · [知更95式](character_previews/zhigeng_qbz95.png)
+
+修订9降低两人瞄准、射击时的右肘，并同步调整右腕方向，避免肘部过度上扬。待机和持枪跑步只修改右手食指，将末节上翘改为三节连续轻弯。以自然持枪为优先，允许轻微穿插。验证记录见 `hanyang_grip_revision9.json`。
