@@ -10,10 +10,16 @@ const MOTION_LABELS := {
 }
 const PONYTAIL := preload("res://godot/scripts/zhigeng_ponytail_physics.gd")
 const WEAPON_ATTACHMENT := preload("res://godot/scripts/character_weapon_attachment.gd")
+const HANYANG_LIBRARY := "hanyang"
+const HANYANG_MOTIONS := {
+	"RifleIdle": "HanyangAim", "RifleAimingIdle": "HanyangAim",
+	"FiringRifle": "HanyangFire", "Reloading": "HanyangReload"
+}
 @export_file("*.glb") var model_path := MODEL
 @export_enum("zhigeng", "diandian") var character_id := "zhigeng"
 var skeleton: Skeleton3D
 var animation: AnimationPlayer
+var motion_names: PackedStringArray
 var ponytail
 var weapon_attachment
 var weapon_choice: OptionButton
@@ -36,14 +42,19 @@ func _ready() -> void:
 	skeleton = model.find_children("*", "Skeleton3D", true, false)[0]
 	animation = model.find_children("*", "AnimationPlayer", true, false)[0]
 	animation.callback_mode_process = AnimationMixer.ANIMATION_CALLBACK_MODE_PROCESS_PHYSICS
-	for name in animation.get_animation_list():
+	motion_names = animation.get_animation_list()
+	for name in motion_names:
 		animation.get_animation(name).loop_mode = Animation.LOOP_NONE if name.get_file() in ["Reloading", "Talking"] else Animation.LOOP_LINEAR
+	load_hanyang_animations()
 	animation.play("RifleIdle")
 	animation.advance(0)
 	skeleton.modifier_callback_mode_process = Skeleton3D.MODIFIER_CALLBACK_MODE_PROCESS_PHYSICS
 	weapon_attachment = WEAPON_ATTACHMENT.new()
 	skeleton.add_child(weapon_attachment)
 	weapon_attachment.configure(skeleton, self, character_id)
+	weapon_attachment.select_weapon("hanyang88")
+	animation.play(animation_for_motion("RifleIdle"), 0.0)
+	animation.advance(0)
 	if character_id == "zhigeng":
 		ponytail = PONYTAIL.new()
 		add_child(ponytail)
@@ -52,12 +63,44 @@ func _ready() -> void:
 	build_controls()
 
 func play_motion(name: String) -> void:
-	animation.play(name, 0.18)
-	animation.advance(0)
 	weapon_attachment.set_motion(name)
+	animation.play(animation_for_motion(name), 0.18)
+	animation.advance(0)
 	sync_weapon_choice()
 	if ponytail:
 		ponytail.reset_motion()
+
+func animation_for_motion(name: String) -> String:
+	var logical := name.get_file()
+	if weapon_attachment.selected_weapon == "hanyang88" and HANYANG_MOTIONS.has(logical):
+		return HANYANG_LIBRARY + "/" + HANYANG_MOTIONS[logical]
+	return name
+
+func load_hanyang_animations() -> void:
+	var document := GLTFDocument.new()
+	var state := GLTFState.new()
+	var path := "res://assets/animations/hanyang_rifle/" + character_id + "_rifle.glb"
+	var error := document.append_from_file(path, state)
+	assert(error == OK, "Cannot load Hanyang rifle animations")
+	var source := document.generate_scene(state)
+	var source_player: AnimationPlayer = source.find_children("*", "AnimationPlayer", true, false)[0]
+	var library := AnimationLibrary.new()
+	var animation_root := animation.get_node(animation.root_node)
+	var skeleton_path := str(animation_root.get_path_to(skeleton))
+	for clip_name in ["HanyangAim", "HanyangFire", "HanyangReload"]:
+		var clip: Animation = source_player.get_animation(clip_name).duplicate(true)
+		for track in range(clip.get_track_count() - 1, -1, -1):
+			var original := clip.track_get_path(track)
+			var bone_name := str(original.get_subname(0)) if original.get_subname_count() else str(original.get_name(original.get_name_count() - 1))
+			bone_name = bone_name.replace("mixamorig:", "mixamorig_")
+			if skeleton.find_bone(bone_name) < 0:
+				clip.remove_track(track)
+				continue
+			clip.track_set_path(track, NodePath(skeleton_path + ":" + bone_name))
+		clip.loop_mode = Animation.LOOP_NONE if clip_name == "HanyangReload" else Animation.LOOP_LINEAR
+		library.add_animation(clip_name, clip)
+	animation.add_animation_library(HANYANG_LIBRARY, library)
+	source.free()
 
 func build_stage() -> void:
 	var environment := WorldEnvironment.new()
@@ -126,7 +169,7 @@ func build_controls() -> void:
 	motion_grid.add_theme_constant_override("h_separation", 6)
 	motion_grid.add_theme_constant_override("v_separation", 6)
 	scroll.add_child(motion_grid)
-	for name in animation.get_animation_list():
+	for name in motion_names:
 		if name == "RESET":
 			continue
 		var button := Button.new()

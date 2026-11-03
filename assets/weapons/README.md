@@ -21,6 +21,8 @@
 
 四把枪已接入点点和知更的人物持枪预览。右手挂接握把，左臂跟随各枪护木支撑点；手枪使用双手握持，换弹时左手按原动作释放，普通待机与走跑隐藏武器。枪体保持表中实际长度。适配以原动作的自然姿态为主，肩膀纠正上限 8°，托枪手与指节只做适度混合修正，允许轻微穿模。
 
+汉阳造的持枪待机／瞄准、射击和换弹，使用 Human Soldier Animations FREE 的女性 `Rifle` 动作，分别适配点点和知更。动作独立存放在 `assets/animations/hanyang_rifle/`，选择汉阳造时自动使用。
+
 共享适配数据在 `character_attachment.json`，包含每个角色、枪械与动作的掌心挂点、手腕朝向及握持指节参数。Godot 组件为 `godot/scripts/character_weapon_attachment.gd`；两个预览入口分别是 `godot/scenes/diandian_preview.tscn` 和 `godot/scenes/zhigeng_preview.tscn`。
 
 [点点持枪预览](https://diandian-classic-motion-lab.expert-eagle-6942.chatgpt.site) · [知更持枪预览](https://zhigeng-motion-lab.expert-eagle-6942.chatgpt.site)

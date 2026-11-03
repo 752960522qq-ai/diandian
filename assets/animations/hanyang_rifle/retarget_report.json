@@ -1,0 +1,263 @@
+{
+  "diandian": {
+    "target": "assets/characters/diandian_classic/diandian_classic_fixed.glb",
+    "output": "assets/animations/hanyang_rifle/diandian_rifle.glb",
+    "skeleton_bones": 312,
+    "clips": {
+      "HanyangAim": {
+        "source_file": "HumanF@Rifle_Aim01.fbx",
+        "duration_seconds": 2.333333282470703,
+        "fps": 30,
+        "sample_count": 71,
+        "mapped_bones": 52,
+        "leg_scale": 0.6409676890114505,
+        "pelvis_translation_range": [
+          [
+            -0.002530524739995599,
+            0.0008653011755086482
+          ],
+          [
+            -0.002437376882880926,
+            0.0010957885533571243
+          ],
+          [
+            -0.004393171053379774,
+            4.700123383827304e-07
+          ]
+        ],
+        "loop": true,
+        "left_support_finger_grip_blend": 0.35,
+        "source_root_export_scale_removed": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "source_root_export_rotation_removed_xyzw": [
+          -0.7071067690849304,
+          0.0,
+          0.0,
+          0.7071067690849304
+        ],
+        "body_alignment_xyzw": [
+          -0.7252514362335205,
+          -2.2183851342560956e-06,
+          1.5891249631749815e-06,
+          0.6884840726852417
+        ]
+      },
+      "HanyangFire": {
+        "source_file": "HumanF@Rifle_Aim01_Shoot01.fbx",
+        "duration_seconds": 0.8,
+        "fps": 30,
+        "sample_count": 25,
+        "mapped_bones": 52,
+        "leg_scale": 0.6409676890114505,
+        "pelvis_translation_range": [
+          [
+            -0.009137644432485104,
+            0.0
+          ],
+          [
+            -0.001798726269043982,
+            0.014369584619998932
+          ],
+          [
+            -0.0007479413761757314,
+            9.36147480388172e-05
+          ]
+        ],
+        "loop": true,
+        "left_support_finger_grip_blend": 0.35,
+        "source_root_export_scale_removed": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "source_root_export_rotation_removed_xyzw": [
+          -0.7071067690849304,
+          0.0,
+          0.0,
+          0.7071067690849304
+        ],
+        "body_alignment_xyzw": [
+          -0.7252514362335205,
+          -2.2183851342560956e-06,
+          1.5891249631749815e-06,
+          0.6884840726852417
+        ]
+      },
+      "HanyangReload": {
+        "source_file": "HumanF@Rifle_Reload01.fbx",
+        "duration_seconds": 1.7,
+        "fps": 30,
+        "sample_count": 52,
+        "mapped_bones": 52,
+        "leg_scale": 0.6409676890114505,
+        "pelvis_translation_range": [
+          [
+            -0.008736398071050644,
+            0.0
+          ],
+          [
+            0.0,
+            0.002570335054770112
+          ],
+          [
+            -0.010023543611168861,
+            0.004921882878988981
+          ]
+        ],
+        "loop": false,
+        "left_support_finger_grip_blend": 0.0,
+        "source_root_export_scale_removed": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "source_root_export_rotation_removed_xyzw": [
+          -0.7071067690849304,
+          0.0,
+          0.0,
+          0.7071067690849304
+        ],
+        "body_alignment_xyzw": [
+          -0.7252514362335205,
+          -2.2183851342560956e-06,
+          1.5891249631749815e-06,
+          0.6884840726852417
+        ]
+      }
+    }
+  },
+  "zhigeng": {
+    "target": "assets/characters/zhigeng/zhigeng_character_animated.glb",
+    "output": "assets/animations/hanyang_rifle/zhigeng_rifle.glb",
+    "skeleton_bones": 315,
+    "clips": {
+      "HanyangAim": {
+        "source_file": "HumanF@Rifle_Aim01.fbx",
+        "duration_seconds": 2.333333282470703,
+        "fps": 30,
+        "sample_count": 71,
+        "mapped_bones": 52,
+        "leg_scale": 0.6230588655428743,
+        "pelvis_translation_range": [
+          [
+            -0.002459827810525894,
+            0.0008411219459958375
+          ],
+          [
+            -0.002332928590476513,
+            0.0010816198773682117
+          ],
+          [
+            -0.004285844508558512,
+            0.0
+          ]
+        ],
+        "loop": true,
+        "left_support_finger_grip_blend": 0.35,
+        "source_root_export_scale_removed": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "source_root_export_rotation_removed_xyzw": [
+          -0.7071067690849304,
+          0.0,
+          0.0,
+          0.7071067690849304
+        ],
+        "body_alignment_xyzw": [
+          -0.7209892868995667,
+          -1.5077371244842652e-06,
+          2.296756974828895e-06,
+          0.692946195602417
+        ]
+      },
+      "HanyangFire": {
+        "source_file": "HumanF@Rifle_Aim01_Shoot01.fbx",
+        "duration_seconds": 0.8,
+        "fps": 30,
+        "sample_count": 25,
+        "mapped_bones": 52,
+        "leg_scale": 0.6230588655428743,
+        "pelvis_translation_range": [
+          [
+            -0.00888233631849289,
+            0.0
+          ],
+          [
+            -0.0017494589556008577,
+            0.013976004905998707
+          ],
+          [
+            -0.0005545918829739094,
+            6.943046173546463e-05
+          ]
+        ],
+        "loop": true,
+        "left_support_finger_grip_blend": 0.35,
+        "source_root_export_scale_removed": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "source_root_export_rotation_removed_xyzw": [
+          -0.7071067690849304,
+          0.0,
+          0.0,
+          0.7071067690849304
+        ],
+        "body_alignment_xyzw": [
+          -0.7209892868995667,
+          -1.5077371244842652e-06,
+          2.296756974828895e-06,
+          0.692946195602417
+        ]
+      },
+      "HanyangReload": {
+        "source_file": "HumanF@Rifle_Reload01.fbx",
+        "duration_seconds": 1.7,
+        "fps": 30,
+        "sample_count": 52,
+        "mapped_bones": 52,
+        "leg_scale": 0.6230588655428743,
+        "pelvis_translation_range": [
+          [
+            -0.00849231332540512,
+            0.0
+          ],
+          [
+            0.0,
+            0.002595261437818408
+          ],
+          [
+            -0.009712688624858856,
+            0.004799052607268095
+          ]
+        ],
+        "loop": false,
+        "left_support_finger_grip_blend": 0.0,
+        "source_root_export_scale_removed": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "source_root_export_rotation_removed_xyzw": [
+          -0.7071067690849304,
+          0.0,
+          0.0,
+          0.7071067690849304
+        ],
+        "body_alignment_xyzw": [
+          -0.7209892868995667,
+          -1.5077371244842652e-06,
+          2.296756974828895e-06,
+          0.692946195602417
+        ]
+      }
+    }
+  },
+  "retarget_policy": "World-space source rotations; anatomical frame, limb directions and palm-axis calibration; spine-to-chest rotation distributed over three target spine bones. Original face, mesh, skin and rest transforms are preserved. Finger joints 1-3 use source directions; terminal joints retain their local rest transforms. Remove linear horizontal root travel, retain pelvis sway and height."
+}
