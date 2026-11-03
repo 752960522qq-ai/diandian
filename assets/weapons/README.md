@@ -45,3 +45,5 @@
 [点点汉阳造](character_previews/diandian_hanyang88.png) · [知更92式](character_previews/zhigeng_qsz92.png) · [点点56-1](character_previews/diandian_type56_1.png) · [知更95式](character_previews/zhigeng_qbz95.png)
 
 修订9降低两人瞄准、射击时的右肘，并同步调整右腕方向，避免肘部过度上扬。待机和持枪跑步只修改右手食指，将末节上翘改为三节连续轻弯。以自然持枪为优先，允许轻微穿插。验证记录见 `hanyang_grip_revision9.json`。
+
+修订10修复两人汉阳造待机左腕过度翻折：单独旋转待机托枪手方向，使手腕顺着前臂。待机右手食指恢复原动画弯曲，不再强制对准扳机；其他握持手指保留。瞄准与射击使用独立掌心目标略微下移右手，瞄准食指接近扳机高度并保持平顺，右肘与抵肩约束继续生效。跑动及其他武器沿用修订9；网页、Godot 组件和演示包同步更新。验证记录见 `hanyang_grip_revision10.json`。

@@ -1,0 +1,536 @@
+{
+  "revision": 10,
+  "changes": {
+    "RifleIdle": "rotate left support wrist 35 degrees toward forearm and retain original animated right index curl without forced target",
+    "RifleAimingIdle_and_FiringRifle": "lower right palm target only, retain low elbow and shoulder anchor; nearly level aim index; firing keeps trigger flexion"
+  },
+  "user_preference": "natural motion first; slight clipping acceptable",
+  "site_sources": [
+    {
+      "project_id": "appgprj_6ae75a729d0481919ec16ab35d702896",
+      "name": "diandian-classic-motion-lab",
+      "commit_sha": "0440be2a4059604db549b806a4b0cb85e619e0ba"
+    },
+    {
+      "project_id": "appgprj_6ae8624b35f881918d161516efa53f28",
+      "name": "zhigeng-motion-lab",
+      "commit_sha": "8ef38ffb4ddb95a36f330f6180fbaa611f751c97"
+    }
+  ],
+  "pose_validation": {
+    "summary": {
+      "passed": true,
+      "combinations": 88,
+      "totalSamples": 10648,
+      "changed": [
+        {
+          "character": "diandian",
+          "weapon": "hanyang88",
+          "motion": "FiringRifle",
+          "maxPoseDelta": 1.7540496703392519
+        },
+        {
+          "character": "diandian",
+          "weapon": "hanyang88",
+          "motion": "RifleAimingIdle",
+          "maxPoseDelta": 0.5115367539632067
+        },
+        {
+          "character": "diandian",
+          "weapon": "hanyang88",
+          "motion": "RifleIdle",
+          "maxPoseDelta": 2.0780308294181786
+        },
+        {
+          "character": "zhigeng",
+          "weapon": "hanyang88",
+          "motion": "FiringRifle",
+          "maxPoseDelta": 2.354172511494009
+        },
+        {
+          "character": "zhigeng",
+          "weapon": "hanyang88",
+          "motion": "RifleAimingIdle",
+          "maxPoseDelta": 0.5114054017193418
+        },
+        {
+          "character": "zhigeng",
+          "weapon": "hanyang88",
+          "motion": "RifleIdle",
+          "maxPoseDelta": 2.7470057275924242
+        }
+      ],
+      "maxBoneLengthDeltaM": 9.390722086055625e-08,
+      "maxLocalPositionOrScaleDelta": 0,
+      "nonFiniteCount": 0
+    },
+    "selected": [
+      {
+        "character": "diandian",
+        "weapon": "hanyang88",
+        "motion": "FiringRifle",
+        "duration": 0.2666666805744171,
+        "maxPoseDelta": 1.7540496703392519,
+        "maxBoneLengthDeltaM": 4.425528199458739e-08,
+        "maxLocalPositionOrScaleDelta": 0,
+        "leftWristDegrees": [
+          61.676804178725625,
+          65.06802448286399
+        ],
+        "rightElbowMinusShoulderM": [
+          -0.16250692399827726,
+          -0.1586659809744866
+        ],
+        "indexWeaponY": [
+          0.007836924903582785,
+          0.0347563458416451
+        ],
+        "indexMinusTriggerY": [
+          -0.005163075096417214,
+          0.021756345841645104
+        ],
+        "indexYSpreadM": [
+          0.026919335096367014,
+          0.026919420938062315
+        ],
+        "indexJointWeaponY": [
+          [
+            0.024643401681148314,
+            0.02464342856557078
+          ],
+          [
+            0.034756277427442805,
+            0.0347563458416451
+          ],
+          [
+            0.007836924903582785,
+            0.007836942331075791
+          ],
+          [
+            0.012968164329597354,
+            0.01296817002029349
+          ]
+        ],
+        "indexJointMinusTriggerY": [
+          [
+            0.011643401681148314,
+            0.01164342856557078
+          ],
+          [
+            0.021756277427442808,
+            0.021756345841645104
+          ],
+          [
+            -0.005163075096417214,
+            -0.005163057668924208
+          ],
+          [
+            -3.1835670402645747e-05,
+            -3.1829979706509207e-05
+          ]
+        ],
+        "nonFiniteCount": 0
+      },
+      {
+        "character": "diandian",
+        "weapon": "hanyang88",
+        "motion": "RifleAimingIdle",
+        "duration": 3.0999999046325684,
+        "maxPoseDelta": 0.5115367539632067,
+        "maxBoneLengthDeltaM": 6.311663025559966e-08,
+        "maxLocalPositionOrScaleDelta": 0,
+        "leftWristDegrees": [
+          61.90078213065037,
+          63.373805419720256
+        ],
+        "rightElbowMinusShoulderM": [
+          -0.1615998868903339,
+          -0.15795800097403423
+        ],
+        "indexWeaponY": [
+          0.01947672830805036,
+          0.02464322883827097
+        ],
+        "indexMinusTriggerY": [
+          0.006476728308050362,
+          0.01164322883827097
+        ],
+        "indexYSpreadM": [
+          0.00516648383008822,
+          0.005166487690763999
+        ],
+        "indexJointWeaponY": [
+          [
+            0.024643213441871925,
+            0.02464322883827097
+          ],
+          [
+            0.020889357830367494,
+            0.020889373207973128
+          ],
+          [
+            0.01947672830805036,
+            0.019476742111223855
+          ],
+          [
+            0.01947673085448942,
+            0.019476744477577412
+          ]
+        ],
+        "indexJointMinusTriggerY": [
+          [
+            0.011643213441871926,
+            0.01164322883827097
+          ],
+          [
+            0.007889357830367495,
+            0.007889373207973128
+          ],
+          [
+            0.006476728308050362,
+            0.006476742111223855
+          ],
+          [
+            0.006476730854489422,
+            0.006476744477577413
+          ]
+        ],
+        "nonFiniteCount": 0
+      },
+      {
+        "character": "diandian",
+        "weapon": "hanyang88",
+        "motion": "RifleIdle",
+        "duration": 8.566666603088379,
+        "maxPoseDelta": 2.0780308294181786,
+        "maxBoneLengthDeltaM": 2.990929784396634e-08,
+        "maxLocalPositionOrScaleDelta": 0,
+        "leftWristDegrees": [
+          16.93784021701851,
+          21.475250615043965
+        ],
+        "rightElbowMinusShoulderM": [
+          -0.20562821695363254,
+          -0.20282994214329042
+        ],
+        "indexWeaponY": null,
+        "indexMinusTriggerY": null,
+        "indexYSpreadM": null,
+        "indexJointWeaponY": null,
+        "indexJointMinusTriggerY": null,
+        "nonFiniteCount": 0
+      },
+      {
+        "character": "diandian",
+        "weapon": "hanyang88",
+        "motion": "RifleRun",
+        "duration": 0.6666666865348816,
+        "maxPoseDelta": 0,
+        "maxBoneLengthDeltaM": 6.652056061540179e-08,
+        "maxLocalPositionOrScaleDelta": 0,
+        "leftWristDegrees": [
+          6.239791226201909,
+          17.337379461651604
+        ],
+        "rightElbowMinusShoulderM": [
+          -0.20490532717451915,
+          -0.14195214050935512
+        ],
+        "indexWeaponY": null,
+        "indexMinusTriggerY": null,
+        "indexYSpreadM": null,
+        "indexJointWeaponY": null,
+        "indexJointMinusTriggerY": null,
+        "nonFiniteCount": 0
+      },
+      {
+        "character": "zhigeng",
+        "weapon": "hanyang88",
+        "motion": "FiringRifle",
+        "duration": 0.2666666805744171,
+        "maxPoseDelta": 2.354172511494009,
+        "maxBoneLengthDeltaM": 9.390722086055625e-08,
+        "maxLocalPositionOrScaleDelta": 0,
+        "leftWristDegrees": [
+          62.884403906881495,
+          66.47982542417678
+        ],
+        "rightElbowMinusShoulderM": [
+          -0.15859859840729507,
+          -0.15534050230494012
+        ],
+        "indexWeaponY": [
+          0.013019150358430483,
+          0.025567319476831774
+        ],
+        "indexMinusTriggerY": [
+          1.9150358430483974e-05,
+          0.012567319476831774
+        ],
+        "indexYSpreadM": [
+          0.0125481414704498,
+          0.012548165680353218
+        ],
+        "indexJointWeaponY": [
+          [
+            0.025567292441627913,
+            0.025567319476831774
+          ],
+          [
+            0.025082378108085567,
+            0.02508239563618697
+          ],
+          [
+            0.014292957354232746,
+            0.014292978922812116
+          ],
+          [
+            0.013019150358430483,
+            0.013019158736619518
+          ]
+        ],
+        "indexJointMinusTriggerY": [
+          [
+            0.012567292441627914,
+            0.012567319476831774
+          ],
+          [
+            0.012082378108085568,
+            0.012082395636186972
+          ],
+          [
+            0.0012929573542327464,
+            0.0012929789228121168
+          ],
+          [
+            1.9150358430483974e-05,
+            1.9158736619518876e-05
+          ]
+        ],
+        "nonFiniteCount": 0
+      },
+      {
+        "character": "zhigeng",
+        "weapon": "hanyang88",
+        "motion": "RifleAimingIdle",
+        "duration": 3.0999999046325684,
+        "maxPoseDelta": 0.5114054017193418,
+        "maxBoneLengthDeltaM": 3.3781233574337044e-08,
+        "maxLocalPositionOrScaleDelta": 0,
+        "leftWristDegrees": [
+          63.159645999637625,
+          64.50364471765444
+        ],
+        "rightElbowMinusShoulderM": [
+          -0.15817417215504936,
+          -0.1544663809773621
+        ],
+        "indexWeaponY": [
+          0.021158959328768875,
+          0.02556760696610972
+        ],
+        "indexMinusTriggerY": [
+          0.008158959328768875,
+          0.01256760696610972
+        ],
+        "indexYSpreadM": [
+          0.004408619381990327,
+          0.004408622452162888
+        ],
+        "indexJointWeaponY": [
+          [
+            0.025567578710759202,
+            0.02556760696610972
+          ],
+          [
+            0.02226708524735876,
+            0.022267112683410865
+          ],
+          [
+            0.021158959328768875,
+            0.02115898621614565
+          ],
+          [
+            0.02115896097991587,
+            0.02115898754664736
+          ]
+        ],
+        "indexJointMinusTriggerY": [
+          [
+            0.012567578710759203,
+            0.01256760696610972
+          ],
+          [
+            0.009267085247358762,
+            0.009267112683410865
+          ],
+          [
+            0.008158959328768875,
+            0.008158986216145652
+          ],
+          [
+            0.008158960979915872,
+            0.00815898754664736
+          ]
+        ],
+        "nonFiniteCount": 0
+      },
+      {
+        "character": "zhigeng",
+        "weapon": "hanyang88",
+        "motion": "RifleIdle",
+        "duration": 8.566666603088379,
+        "maxPoseDelta": 2.7470057275924242,
+        "maxBoneLengthDeltaM": 3.1782210266340094e-08,
+        "maxLocalPositionOrScaleDelta": 0,
+        "leftWristDegrees": [
+          21.590217802077436,
+          27.249793307736695
+        ],
+        "rightElbowMinusShoulderM": [
+          -0.20961375403275806,
+          -0.20638835610767203
+        ],
+        "indexWeaponY": null,
+        "indexMinusTriggerY": null,
+        "indexYSpreadM": null,
+        "indexJointWeaponY": null,
+        "indexJointMinusTriggerY": null,
+        "nonFiniteCount": 0
+      },
+      {
+        "character": "zhigeng",
+        "weapon": "hanyang88",
+        "motion": "RifleRun",
+        "duration": 0.6666666865348816,
+        "maxPoseDelta": 0,
+        "maxBoneLengthDeltaM": 5.2110991924370076e-08,
+        "maxLocalPositionOrScaleDelta": 0,
+        "leftWristDegrees": [
+          0.5045028791598161,
+          12.657754630562438
+        ],
+        "rightElbowMinusShoulderM": [
+          -0.20953574708366118,
+          -0.14318336772094753
+        ],
+        "indexWeaponY": null,
+        "indexMinusTriggerY": null,
+        "indexYSpreadM": null,
+        "indexJointWeaponY": null,
+        "indexJointMinusTriggerY": null,
+        "nonFiniteCount": 0
+      }
+    ],
+    "failures": []
+  },
+  "godot": {
+    "version": "4.6.3",
+    "sample_poses": 310,
+    "errors": 0,
+    "results": [
+      {
+        "character": "diandian",
+        "max_left_m": 2.52111618692652e-07,
+        "max_right_m": 1.59970753088601e-07,
+        "max_shoulder_m": 0.0,
+        "motion": "RifleIdle",
+        "samples": 31
+      },
+      {
+        "character": "diandian",
+        "max_left_m": 2.56369276030455e-07,
+        "max_right_m": 2.46658117930565e-07,
+        "max_shoulder_m": 1.66600049311683e-08,
+        "motion": "RifleAimingIdle",
+        "samples": 31
+      },
+      {
+        "character": "diandian",
+        "max_left_m": 2.42115220316919e-07,
+        "max_right_m": 2.5023305738614e-07,
+        "max_shoulder_m": 1.66600049311683e-08,
+        "motion": "FiringRifle",
+        "samples": 31
+      },
+      {
+        "character": "diandian",
+        "max_left_m": 2.40274005136598e-07,
+        "max_right_m": 2.42115220316919e-07,
+        "max_shoulder_m": 0.0,
+        "motion": "RifleRun",
+        "samples": 31
+      },
+      {
+        "character": "diandian",
+        "max_left_m": 0.0,
+        "max_right_m": 2.82729644141e-07,
+        "max_shoulder_m": 0.0,
+        "motion": "Reloading",
+        "samples": 31
+      },
+      {
+        "character": "zhigeng",
+        "max_left_m": 2.43030598312544e-07,
+        "max_right_m": 1.45667897299973e-07,
+        "max_shoulder_m": 0.0,
+        "motion": "RifleIdle",
+        "samples": 31
+      },
+      {
+        "character": "zhigeng",
+        "max_left_m": 2.38418579101562e-07,
+        "max_right_m": 2.39348082686774e-07,
+        "max_shoulder_m": 1.66600049311683e-08,
+        "motion": "RifleAimingIdle",
+        "samples": 31
+      },
+      {
+        "character": "zhigeng",
+        "max_left_m": 2.40274005136598e-07,
+        "max_right_m": 1.69899379898197e-07,
+        "max_shoulder_m": 1.1944189282076e-07,
+        "motion": "FiringRifle",
+        "samples": 31
+      },
+      {
+        "character": "zhigeng",
+        "max_left_m": 2.44397227788795e-07,
+        "max_right_m": 1.78813934326172e-07,
+        "max_shoulder_m": 0.0,
+        "motion": "RifleRun",
+        "samples": 31
+      },
+      {
+        "character": "zhigeng",
+        "max_left_m": 0.0,
+        "max_right_m": 2.61514315980094e-07,
+        "max_shoulder_m": 0.0,
+        "motion": "Reloading",
+        "samples": 31
+      }
+    ]
+  },
+  "visual_review": {
+    "characters": [
+      "diandian",
+      "zhigeng"
+    ],
+    "idle_times_seconds": [
+      0,
+      2.58,
+      5.7,
+      8.3
+    ],
+    "aim_time_seconds": 1.29,
+    "views": [
+      "top",
+      "front",
+      "hand_closeup",
+      "underside",
+      "mobile_side"
+    ],
+    "browser_errors": 0
+  },
+  "measurement_scope": "angles use bone axes, index height uses joint centers; visual pose review performed separately; no change to source animation GLBs"
+}

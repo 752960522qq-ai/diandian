@@ -110,7 +110,7 @@ func _process_modification() -> void:
 	if mount.has("right_hand_quaternion_weapon"):
 		var grip_rotation := (rotation * quaternion(mount.right_hand_quaternion_weapon)).normalized()
 		var contact_offset := vector(mount.right_contact_offset_native) * character_scale
-		var contact: Vector3 = gun_transform * vector(data.right_palm_surface)
+		var contact: Vector3 = gun_transform * vector(mount.get("right_palm_target_weapon", data.right_palm_surface))
 		var wrist_target: Vector3 = contact - Basis(grip_rotation) * contact_offset
 		solve_arm(right_arm, right_forearm, right_hand, wrist_target, grip_rotation, mount.get("right_elbow_lift_ratio", null))
 		var solved_hand := world_pose(right_hand)
