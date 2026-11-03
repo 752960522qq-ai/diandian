@@ -197,9 +197,9 @@
         -0.93632918
       ],
       "right_palm_surface": [
-        0.002,
-        0.032,
-        0.335
+        0.00163,
+        0.045,
+        0.35
       ],
       "left_palm_normal": [
         0,
@@ -238,6 +238,17 @@
         ],
         "body_center_x_m": -0.0216082315,
         "reason": "physical fore-end near the receiver, ahead of trigger at z=.262; keep the palm 6.1mm below wood underside"
+      },
+      "butt_contact": [
+        -0.0216082,
+        -0.035,
+        0.61766
+      ],
+      "right_palm_contact_geometry": {
+        "sample_z_m": 0.35,
+        "side_surface_x_m": 0.00163,
+        "contact_y_m": 0.045,
+        "purpose": "upper right side of wooden stock wrist; physical palm surface, with individually curled fingers"
       }
     }
   },
@@ -804,7 +815,11 @@
                 0.005768780130892992,
                 0.08109559118747711,
                 -0.9816271066665649
-              ]
+              ],
+              "shoulder_contact": true,
+              "shoulder_pocket_drop_m": -0.025,
+              "shoulder_pocket_forward_m": 0.055,
+              "right_elbow_lift_ratio": 0.45
             },
             "FiringRifle": {
               "quaternion_xyzw": [
@@ -818,7 +833,11 @@
                 0.004552742000669241,
                 0.08344286680221558,
                 -0.9816272258758545
-              ]
+              ],
+              "shoulder_contact": true,
+              "shoulder_pocket_drop_m": -0.025,
+              "shoulder_pocket_forward_m": 0.055,
+              "right_elbow_lift_ratio": 0.45
             },
             "RifleRun": {
               "quaternion_xyzw": [
@@ -869,9 +888,189 @@
             -0.5608924031257629,
             0.4579978287220001
           ],
-          "grip_axis_fit_degrees": 69.44395491453581,
           "trigger_finger_ik": true,
-          "model_scale": 0.88
+          "model_scale": 0.88,
+          "right_hand_quaternion_weapon": [
+            -0.8990694427,
+            0.0624833512,
+            -0.1322984812,
+            0.4126343143
+          ],
+          "right_contact_offset_native": [
+            -0.0136422,
+            0.04502571,
+            -0.0048396
+          ],
+          "support_pose_weight": 1,
+          "right_finger_pose_weight": 1,
+          "support_finger_pose_weight": 1,
+          "right_finger_directions_weapon": {
+            "Middle": [
+              [
+                -0.88,
+                -0.45,
+                0.16
+              ],
+              [
+                -0.91,
+                0.36,
+                0.19
+              ],
+              [
+                -0.25,
+                0.95,
+                0.18
+              ]
+            ],
+            "Ring": [
+              [
+                -0.9,
+                -0.35,
+                0.2
+              ],
+              [
+                -0.9,
+                0.35,
+                0.18
+              ],
+              [
+                -0.45,
+                0.88,
+                0.15
+              ]
+            ],
+            "Pinky": [
+              [
+                -0.94,
+                -0.15,
+                0.3
+              ],
+              [
+                -0.88,
+                0.45,
+                0.15
+              ],
+              [
+                -0.25,
+                0.95,
+                0.18
+              ]
+            ],
+            "Thumb": [
+              null,
+              [
+                -0.4,
+                -0.8,
+                0.45
+              ],
+              [
+                0.1,
+                -0.9,
+                0.42
+              ]
+            ],
+            "Index": [
+              [
+                -0.3,
+                -0.2,
+                -0.93
+              ],
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                0.3,
+                -0.954
+              ]
+            ]
+          },
+          "grip_method": "physical palm surface + two-bone right arm IK; shoulder buttpad anchor for aim/fire",
+          "support_finger_directions_weapon": {
+            "Index": [
+              [
+                1,
+                -0.05,
+                0
+              ],
+              [
+                0.45,
+                0.893,
+                0
+              ],
+              [
+                -0.4,
+                0.916,
+                0
+              ]
+            ],
+            "Middle": [
+              [
+                1,
+                -0.05,
+                0
+              ],
+              [
+                0.45,
+                0.893,
+                0
+              ],
+              [
+                -0.4,
+                0.916,
+                0
+              ]
+            ],
+            "Ring": [
+              [
+                1,
+                -0.05,
+                0
+              ],
+              [
+                0.45,
+                0.893,
+                0
+              ],
+              [
+                -0.4,
+                0.916,
+                0
+              ]
+            ],
+            "Pinky": [
+              [
+                1,
+                -0.05,
+                0
+              ],
+              [
+                0.45,
+                0.893,
+                0
+              ],
+              [
+                -0.4,
+                0.916,
+                0
+              ]
+            ],
+            "Thumb": [
+              null,
+              [
+                1,
+                0.1,
+                0.2
+              ],
+              [
+                0.25,
+                0.2,
+                -0.947
+              ]
+            ]
+          }
         }
       },
       "shoulder_assist_max_degrees": 8,
@@ -1440,7 +1639,11 @@
                 0.002253755694255233,
                 -0.08667067438364029,
                 -0.9816272258758545
-              ]
+              ],
+              "shoulder_contact": true,
+              "shoulder_pocket_drop_m": -0.025,
+              "shoulder_pocket_forward_m": 0.055,
+              "right_elbow_lift_ratio": 0.45
             },
             "FiringRifle": {
               "quaternion_xyzw": [
@@ -1454,7 +1657,11 @@
                 0.0009205393143929541,
                 -0.08483626693487167,
                 -0.9816271066665649
-              ]
+              ],
+              "shoulder_contact": true,
+              "shoulder_pocket_drop_m": -0.025,
+              "shoulder_pocket_forward_m": 0.055,
+              "right_elbow_lift_ratio": 0.45
             },
             "RifleRun": {
               "quaternion_xyzw": [
@@ -1505,9 +1712,189 @@
             -0.5809804201126099,
             0.5667615532875061
           ],
-          "grip_axis_fit_degrees": 69.44395491453581,
           "trigger_finger_ik": true,
-          "model_scale": 0.86
+          "model_scale": 0.86,
+          "right_hand_quaternion_weapon": [
+            -0.8720655525,
+            -0.1186435121,
+            0.267794149,
+            0.3920608244
+          ],
+          "right_contact_offset_native": [
+            -0.01345005,
+            0.03768316,
+            0.00932432
+          ],
+          "support_pose_weight": 1,
+          "right_finger_pose_weight": 1,
+          "support_finger_pose_weight": 1,
+          "right_finger_directions_weapon": {
+            "Middle": [
+              [
+                -0.88,
+                -0.45,
+                0.16
+              ],
+              [
+                -0.91,
+                0.36,
+                0.19
+              ],
+              [
+                -0.25,
+                0.95,
+                0.18
+              ]
+            ],
+            "Ring": [
+              [
+                -0.9,
+                -0.35,
+                0.2
+              ],
+              [
+                -0.9,
+                0.35,
+                0.18
+              ],
+              [
+                -0.45,
+                0.88,
+                0.15
+              ]
+            ],
+            "Pinky": [
+              [
+                -0.94,
+                -0.15,
+                0.3
+              ],
+              [
+                -0.88,
+                0.45,
+                0.15
+              ],
+              [
+                -0.25,
+                0.95,
+                0.18
+              ]
+            ],
+            "Thumb": [
+              null,
+              [
+                -0.4,
+                -0.8,
+                0.45
+              ],
+              [
+                0.1,
+                -0.9,
+                0.42
+              ]
+            ],
+            "Index": [
+              [
+                -0.3,
+                -0.2,
+                -0.93
+              ],
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                0.3,
+                -0.954
+              ]
+            ]
+          },
+          "grip_method": "physical palm surface + two-bone right arm IK; shoulder buttpad anchor for aim/fire",
+          "support_finger_directions_weapon": {
+            "Index": [
+              [
+                1,
+                -0.05,
+                0
+              ],
+              [
+                0.45,
+                0.893,
+                0
+              ],
+              [
+                -0.4,
+                0.916,
+                0
+              ]
+            ],
+            "Middle": [
+              [
+                1,
+                -0.05,
+                0
+              ],
+              [
+                0.45,
+                0.893,
+                0
+              ],
+              [
+                -0.4,
+                0.916,
+                0
+              ]
+            ],
+            "Ring": [
+              [
+                1,
+                -0.05,
+                0
+              ],
+              [
+                0.45,
+                0.893,
+                0
+              ],
+              [
+                -0.4,
+                0.916,
+                0
+              ]
+            ],
+            "Pinky": [
+              [
+                1,
+                -0.05,
+                0
+              ],
+              [
+                0.45,
+                0.893,
+                0
+              ],
+              [
+                -0.4,
+                0.916,
+                0
+              ]
+            ],
+            "Thumb": [
+              null,
+              [
+                1,
+                0.1,
+                0.2
+              ],
+              [
+                0.25,
+                0.2,
+                -0.947
+              ]
+            ]
+          }
         }
       },
       "shoulder_assist_max_degrees": 8,
@@ -1515,5 +1902,5 @@
       "finger_pose_weight": 0.6
     }
   },
-  "revision": 7
+  "revision": 8
 }

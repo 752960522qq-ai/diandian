@@ -1,0 +1,50 @@
+{
+  "revision": 8,
+  "characters": [
+    "diandian",
+    "zhigeng"
+  ],
+  "motions": [
+    "RifleIdle",
+    "RifleAimingIdle",
+    "FiringRifle",
+    "RifleRun",
+    "Reloading"
+  ],
+  "method": {
+    "weapon": "existing Hanyang scale and original source motion; physical stock side and buttpad landmarks",
+    "right_hand": "palm skin reference + right arm two-bone IK + per-finger stock grip",
+    "aim_fire": "shoulder-pocket butt contact; outward firing elbow to avoid excessive wrist bend",
+    "left_hand": "full support contact + fingers around fore-end; released during reload"
+  },
+  "user_preference": "natural motion takes priority; slight clipping acceptable",
+  "validation": {
+    "browser_sample_poses": 610,
+    "godot_sample_poses": 310,
+    "other_weapons_regression_poses": 242,
+    "other_weapons_max_bone_or_weapon_matrix_delta": 0,
+    "max_landmark_contact_error_m_bounded": 1e-06,
+    "bone_lengths_preserved": true,
+    "left_elbow_aim_max_degrees": {
+      "diandian": 82.74,
+      "zhigeng": 91.44
+    },
+    "right_wrist_aim_deflection_degrees_t0": {
+      "diandian": 41.86,
+      "zhigeng": 44.28
+    },
+    "measurement_scope": "bone-attached skin reference, support and butt contact landmarks; not a full mesh collision guarantee"
+  },
+  "site_sources": [
+    {
+      "project_id": "appgprj_6ae75a729d0481919ec16ab35d702896",
+      "name": "diandian-classic-motion-lab",
+      "commit_sha": "1c114d0b4ec4c713000b154f344b60ae43875397"
+    },
+    {
+      "project_id": "appgprj_6ae8624b35f881918d161516efa53f28",
+      "name": "zhigeng-motion-lab",
+      "commit_sha": "93789f340df678d97c379b319dbcb22abecc84fc"
+    }
+  ]
+}
