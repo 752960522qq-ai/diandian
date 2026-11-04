@@ -1,6 +1,6 @@
 import * as THREE from 'three';
-import { refineC96Rotation } from './c96-dynamics.js?v=type97-r21-final';
-import { prepareC96ReloadPose, applyC96ReloadSupport } from './c96-reload.js?v=type97-r21-final';
+import { refineC96Rotation } from './c96-dynamics.js?v=hawk800-r22';
+import { prepareC96ReloadPose, applyC96ReloadSupport } from './c96-reload.js?v=hawk800-r22';
 
 const RIFLE_MOTIONS = new Set(['RifleIdle', 'RifleWalk', 'RifleAimingIdle', 'FiringRifle', 'RifleRun', 'Reloading']);
 const PISTOL_MOTIONS = new Set(['PistolIdle', 'PistolAimingIdle', 'PistolWalk']);

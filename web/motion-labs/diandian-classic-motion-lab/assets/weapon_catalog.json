@@ -367,10 +367,11 @@
   },
   {
     "Id": "type97hawk",
-    "DisplayName": "97式 Hawk 泵动霰弹枪",
+    "DisplayName": "97式防暴枪",
     "Order": 19,
     "Category": 4,
     "AssetId": "type97hawk",
-    "ModelPath": "res://assets/weapons/type97hawk.glb"
+    "ModelPath": "res://assets/weapons/type97hawk.glb",
+    "LengthMm": 800
   }
 ]

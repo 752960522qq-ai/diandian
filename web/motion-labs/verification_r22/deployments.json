@@ -1,0 +1,22 @@
+[
+  {
+    "site": "diandian",
+    "source_commit": "23f3f179a9cf621e7ae9673d21c0e48420178623",
+    "project_id": "appgprj_6ae75a729d0481919ec16ab35d702896",
+    "deployment_id": "appgdep_6aeb4bbf92ec8191b4f62a85332c6232",
+    "version_id": "appgprj_6ae75a729d0481919ec16ab35d702896~appgver_4e4a3e91af908191a9d24a831d25bd6f",
+    "status": "succeeded",
+    "url": "https://diandian-classic-motion-lab.expert-eagle-6942.chatgpt.site",
+    "updated_at": "2026-11-04T15:14:42.980200+00:00"
+  },
+  {
+    "site": "zhigeng",
+    "source_commit": "aadf737254ab4ced131f75dd03141dd55655ec2b",
+    "project_id": "appgprj_6ae8624b35f881918d161516efa53f28",
+    "deployment_id": "appgdep_6aeb4b57492c8191a89a834b9b7219e5",
+    "version_id": "appgprj_6ae8624b35f881918d161516efa53f28~appgver_793c0d0d16d081918238fe7a17915f16",
+    "status": "succeeded",
+    "url": "https://zhigeng-motion-lab.expert-eagle-6942.chatgpt.site",
+    "updated_at": "2026-11-04T15:12:48.708429+00:00"
+  }
+]

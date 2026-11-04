@@ -1,0 +1,114 @@
+{
+  "characters": {
+    "diandian": {
+      "mounts": {
+        "type97hawk": {
+          "support_upper_arm_twist_weight": 0,
+          "support_forearm_twist_weight": 0.65,
+          "support_finger_pose_weight": 0,
+          "support_finger_directions_weapon": null,
+          "support_finger_max_swing_degrees": null,
+          "motions": {
+            "RifleIdle": {
+              "support_upper_arm_twist_weight": 0,
+              "support_forearm_twist_weight": 0.65,
+              "support_finger_pose_weight": 0,
+              "support_finger_directions_weapon": null,
+              "support_finger_max_swing_degrees": null
+            },
+            "RifleAimingIdle": {
+              "support_upper_arm_twist_weight": 0,
+              "support_forearm_twist_weight": 0.65,
+              "support_finger_pose_weight": 0,
+              "support_finger_directions_weapon": null,
+              "support_finger_max_swing_degrees": null
+            },
+            "FiringRifle": {
+              "support_upper_arm_twist_weight": 0,
+              "support_forearm_twist_weight": 0.65,
+              "support_finger_pose_weight": 0,
+              "support_finger_directions_weapon": null,
+              "support_finger_max_swing_degrees": null
+            },
+            "RifleRun": {
+              "support_upper_arm_twist_weight": 0,
+              "support_forearm_twist_weight": 0.65,
+              "support_finger_pose_weight": 0,
+              "support_finger_directions_weapon": null,
+              "support_finger_max_swing_degrees": null
+            },
+            "RifleWalk": {
+              "support_upper_arm_twist_weight": 0,
+              "support_forearm_twist_weight": 0.65,
+              "support_finger_pose_weight": 0,
+              "support_finger_directions_weapon": null,
+              "support_finger_max_swing_degrees": null
+            },
+            "ShotgunPump": {
+              "support_upper_arm_twist_weight": 0,
+              "support_forearm_twist_weight": 0.65,
+              "support_finger_pose_weight": 0,
+              "support_finger_directions_weapon": null,
+              "support_finger_max_swing_degrees": null
+            }
+          }
+        }
+      }
+    },
+    "zhigeng": {
+      "mounts": {
+        "type97hawk": {
+          "support_upper_arm_twist_weight": 0,
+          "support_forearm_twist_weight": 0.65,
+          "support_finger_pose_weight": 0,
+          "support_finger_directions_weapon": null,
+          "support_finger_max_swing_degrees": null,
+          "motions": {
+            "RifleIdle": {
+              "support_upper_arm_twist_weight": 0,
+              "support_forearm_twist_weight": 0.65,
+              "support_finger_pose_weight": 0,
+              "support_finger_directions_weapon": null,
+              "support_finger_max_swing_degrees": null
+            },
+            "RifleAimingIdle": {
+              "support_upper_arm_twist_weight": 0,
+              "support_forearm_twist_weight": 0.65,
+              "support_finger_pose_weight": 0,
+              "support_finger_directions_weapon": null,
+              "support_finger_max_swing_degrees": null
+            },
+            "FiringRifle": {
+              "support_upper_arm_twist_weight": 0,
+              "support_forearm_twist_weight": 0.65,
+              "support_finger_pose_weight": 0,
+              "support_finger_directions_weapon": null,
+              "support_finger_max_swing_degrees": null
+            },
+            "RifleRun": {
+              "support_upper_arm_twist_weight": 0,
+              "support_forearm_twist_weight": 0.65,
+              "support_finger_pose_weight": 0,
+              "support_finger_directions_weapon": null,
+              "support_finger_max_swing_degrees": null
+            },
+            "RifleWalk": {
+              "support_upper_arm_twist_weight": 0,
+              "support_forearm_twist_weight": 0.65,
+              "support_finger_pose_weight": 0,
+              "support_finger_directions_weapon": null,
+              "support_finger_max_swing_degrees": null
+            },
+            "ShotgunPump": {
+              "support_upper_arm_twist_weight": 0,
+              "support_forearm_twist_weight": 0.65,
+              "support_finger_pose_weight": 0,
+              "support_finger_directions_weapon": null,
+              "support_finger_max_swing_degrees": null
+            }
+          }
+        }
+      }
+    }
+  }
+}

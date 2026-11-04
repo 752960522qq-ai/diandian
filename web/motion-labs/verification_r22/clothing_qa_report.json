@@ -1,0 +1,152 @@
+{
+  "result": "Reported front-waist skin slab resolved in reproduced QBZ95 RifleRun pose. Candidate accepted after waist-focused multi-pose checks.",
+  "root_cause": "The Fix18 appended anatomical waist bridge extended 6.5 native cm down inside the trousers. Its front/lower Hips-weighted triangles crossed the clothing when the leg lifted.",
+  "fix": "Removed only the 164 redundant covered front/lower added bridge triangles. Kept all original skin/clothing geometry, 34-point original waist seam, upper bridge, and rear bridge triangles.",
+  "source_diagnosis": {
+    "exact_trigger": "QBZ95, RifleRun, t=0.38s",
+    "bridge_material_debug": "before_bridge_debug.png",
+    "screen_ray_evidence": [
+      {
+        "canvas_fraction": [
+          0.42,
+          0.66
+        ],
+        "before_material": "Anatomical_Waist_Continuous_Surface",
+        "after_material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+        "before_triangle_vertex_indices": [
+          62,
+          96,
+          63
+        ],
+        "after_original_body_triangle_vertex_indices": [
+          46907,
+          46908,
+          46909
+        ]
+      },
+      {
+        "canvas_fraction": [
+          0.43,
+          0.7
+        ],
+        "before_material": "Anatomical_Waist_Continuous_Surface",
+        "after_material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+        "before_triangle_vertex_indices": [
+          28,
+          61,
+          62
+        ],
+        "after_original_body_triangle_vertex_indices": [
+          46899,
+          46901,
+          46902
+        ]
+      },
+      {
+        "canvas_fraction": [
+          0.47,
+          0.62
+        ],
+        "before_material": "Anatomical_Waist_Continuous_Surface",
+        "after_material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+        "before_triangle_vertex_indices": [
+          128,
+          161,
+          162
+        ],
+        "after_original_body_triangle_vertex_indices": [
+          50383,
+          50384,
+          50385
+        ]
+      },
+      {
+        "canvas_fraction": [
+          0.39,
+          0.61
+        ],
+        "before_material": "Anatomical_Waist_Continuous_Surface",
+        "after_material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+        "before_triangle_vertex_indices": [
+          98,
+          131,
+          132
+        ],
+        "after_original_body_triangle_vertex_indices": [
+          49367,
+          49369,
+          49370
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "browser": "Headless Chromium + SwiftShader; real app, route-replaced candidate GLB, manual pose and camera rendering",
+    "front_and_back": [
+      "RifleRun 0.38",
+      "Walk 0.3",
+      "RifleWalk 0.6",
+      "HeadStress 1",
+      "HeadStress 2",
+      "Idle 0",
+      "RifleAimingIdle 1",
+      "Reloading 1.8"
+    ],
+    "left_and_right_oblique": [
+      "RifleRun 0.1",
+      "RifleRun 0.2",
+      "RifleRun 0.38",
+      "RifleRun 0.5",
+      "RifleRun 0.6",
+      "Walk 0.3",
+      "Walk 0.9",
+      "RifleWalk 0.6",
+      "RifleWalk 1.1",
+      "HeadStress 0.5",
+      "HeadStress 1.5",
+      "HeadStress 2.5"
+    ],
+    "observed": "Reported broad skin-over-trouser patch absent. Intended exposed midriff retained; no visible new waist opening in the checked views. Rear bridge topology unchanged; the exact reported pose rear image is pixel-identical to Fix18.",
+    "geometry_reports": [
+      "site_mesh_report.json",
+      "formal_mesh_report.json"
+    ],
+    "evidence_images": [
+      "waist_before_after.png",
+      "candidate2_contact.png",
+      "candidate2_side_contact.png"
+    ],
+    "scope": "Finite representative poses; no claim of exhaustive every-frame collision validation.",
+    "final_model_recheck": "Rendered final output for all 8 front/back poses; identical to accepted candidate. Formal high-resolution output also loaded and visually rechecked at RifleRun 0.38s and HeadStress 2s from front/back.",
+    "final_vs_candidate_max_channel_difference": {
+      "final_HeadStress_1_back.png": 0,
+      "final_Idle_0_back.png": 0,
+      "final_HeadStress_1_front.png": 0,
+      "final_RifleAimingIdle_1_front.png": 0,
+      "final_Reloading_1.8_front.png": 0,
+      "final_Walk_0.3_front.png": 0,
+      "final_RifleRun_0.38_back.png": 0,
+      "final_RifleWalk_0.6_front.png": 0,
+      "final_Idle_0_front.png": 0,
+      "final_Walk_0.3_back.png": 0,
+      "final_HeadStress_2_back.png": 0,
+      "final_RifleWalk_0.6_back.png": 0,
+      "final_HeadStress_2_front.png": 0,
+      "final_RifleAimingIdle_1_back.png": 0,
+      "final_Reloading_1.8_back.png": 0,
+      "final_RifleRun_0.38_front.png": 0
+    }
+  },
+  "outputs": {
+    "site_model": {
+      "path": "diandian_fixed_r22.glb",
+      "sha256": "ddd45865c3e46703c9e3a64c6101927ac251f443a4d69c85bf087b87c0a8f7e8"
+    },
+    "formal_model": {
+      "path": "diandian_classic_fixed_r22.glb",
+      "sha256": "0fa8c43a4f32e94397684c651ccf23143ce0c452810b44704765aa263937d200"
+    },
+    "script": "fix_waist_clothing_overlap.py"
+  },
+  "production_files_modified": false
+}

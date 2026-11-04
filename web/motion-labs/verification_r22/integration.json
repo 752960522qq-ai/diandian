@@ -1,0 +1,248 @@
+{
+  "diandian": {
+    "unrelated_pose_cases": 52,
+    "regression_failures": [],
+    "page_errors": [],
+    "physical_dimensions_m": [
+      0.05531912903930568,
+      0.23203767905567677,
+      0.8
+    ],
+    "layers": [
+      {
+        "name": "Type97Fire",
+        "baseName": "FiringRifle",
+        "leftName": "ShotgunFireLevel",
+        "leftCount": 72,
+        "otherCount": 864,
+        "nonLeftMax": 0,
+        "leftMax": 7.450580596923828e-09
+      },
+      {
+        "name": "Type97Pump",
+        "baseName": "RifleAimingIdle",
+        "leftName": "ShotgunPumpLevel",
+        "leftCount": 72,
+        "otherCount": 864,
+        "nonLeftMax": 0,
+        "leftMax": 0
+      }
+    ],
+    "motions": [
+      {
+        "motion": "RifleIdle",
+        "duration": 8.566666603088379,
+        "samples": 121,
+        "maxLeftContact": 6.070627807785378e-08,
+        "maxRightContact": 8.689494708441776e-08,
+        "maxLeftWristBend": 30.667715919648593,
+        "maxElbowStep": 0.003215554574848809,
+        "maxWristStep": 0.005355755515997915,
+        "maxQuaternionStepDegrees": 2.3726030774550604,
+        "seekAngle": 0
+      },
+      {
+        "motion": "RifleWalk",
+        "duration": 1.2999999523162842,
+        "samples": 121,
+        "maxLeftContact": 1.883811107167725e-07,
+        "maxRightContact": 7.84378119318301e-08,
+        "maxLeftWristBend": 31.580941512454743,
+        "maxElbowStep": 0.0036746752336935806,
+        "maxWristStep": 0.0038265971125764574,
+        "maxQuaternionStepDegrees": 0.888164696773704,
+        "seekAngle": 2.9802322387695312e-08
+      },
+      {
+        "motion": "RifleRun",
+        "duration": 0.6666666865348816,
+        "samples": 121,
+        "maxLeftContact": 8.567831905204211e-08,
+        "maxRightContact": 1.6489471341323266e-07,
+        "maxLeftWristBend": 33.857446684899735,
+        "maxElbowStep": 0.00721775531862021,
+        "maxWristStep": 0.007373903688365031,
+        "maxQuaternionStepDegrees": 1.1415935199112954,
+        "seekAngle": 0
+      },
+      {
+        "motion": "RifleAimingIdle",
+        "duration": 3.0999999046325684,
+        "samples": 121,
+        "maxLeftContact": 2.0912217244228728e-07,
+        "maxRightContact": 2.0243744964408548e-07,
+        "maxLeftWristBend": 13.48086105119842,
+        "maxElbowStep": 0.00036112608827978276,
+        "maxWristStep": 0.0003336119677522893,
+        "maxQuaternionStepDegrees": 0.12100438145335504,
+        "seekAngle": 0
+      },
+      {
+        "motion": "FiringRifle",
+        "duration": 0.2666666805744171,
+        "samples": 121,
+        "maxLeftContact": 8.844519648576856e-08,
+        "maxRightContact": 1.0209011028492944e-07,
+        "maxLeftWristBend": 13.059115182759296,
+        "maxElbowStep": 0.0004938215207535956,
+        "maxWristStep": 0.0005006789364971816,
+        "maxQuaternionStepDegrees": 1.3282257864832916,
+        "seekAngle": 0
+      },
+      {
+        "motion": "ShotgunPump",
+        "duration": 0.7333333492279053,
+        "samples": 121,
+        "maxLeftContact": 1.238198179764501e-07,
+        "maxRightContact": 1.853524710661246e-07,
+        "maxLeftWristBend": 14.663902777068312,
+        "maxElbowStep": 0.003726697194613813,
+        "maxWristStep": 0.0038186072173342156,
+        "maxQuaternionStepDegrees": 11.173699771475126,
+        "seekAngle": 0
+      },
+      {
+        "motion": "Reloading",
+        "duration": 3.299999952316284,
+        "samples": 121,
+        "maxLeftContact": 0,
+        "maxRightContact": 1.6759935077878138e-07,
+        "maxLeftWristBend": 45.9975831009673,
+        "maxElbowStep": 0.06251565662781085,
+        "maxWristStep": 0.06314986348280506,
+        "maxQuaternionStepDegrees": 22.38354177299807,
+        "seekAngle": 0
+      }
+    ],
+    "pump": {
+      "peak_travel_m": 0.04485557764618193,
+      "reset_on_motion": true,
+      "reset_on_weapon": true
+    },
+    "mobile_viewport": 390,
+    "mobile_document_width": 390
+  },
+  "zhigeng": {
+    "unrelated_pose_cases": 52,
+    "regression_failures": [],
+    "page_errors": [],
+    "physical_dimensions_m": [
+      0.05531912903930568,
+      0.23203767905567677,
+      0.8000000000000003
+    ],
+    "layers": [
+      {
+        "name": "Type97Fire",
+        "baseName": "FiringRifle",
+        "leftName": "ShotgunFireLevel",
+        "leftCount": 72,
+        "otherCount": 873,
+        "nonLeftMax": 0,
+        "leftMax": 5.960464477539063e-08
+      },
+      {
+        "name": "Type97Pump",
+        "baseName": "RifleAimingIdle",
+        "leftName": "ShotgunPumpLevel",
+        "leftCount": 72,
+        "otherCount": 873,
+        "nonLeftMax": 0,
+        "leftMax": 0
+      }
+    ],
+    "motions": [
+      {
+        "motion": "RifleIdle",
+        "duration": 8.566666603088379,
+        "samples": 121,
+        "maxLeftContact": 1.067692946396754e-07,
+        "maxRightContact": 1.0782813958525414e-07,
+        "maxLeftWristBend": 32.927926557501785,
+        "maxElbowStep": 0.0029836916224110365,
+        "maxWristStep": 0.004844972837019529,
+        "maxQuaternionStepDegrees": 2.4841013879777156,
+        "seekAngle": 0
+      },
+      {
+        "motion": "RifleWalk",
+        "duration": 1.2999999523162842,
+        "samples": 121,
+        "maxLeftContact": 1.590772449464717e-07,
+        "maxRightContact": 1.7368348776219167e-07,
+        "maxLeftWristBend": 33.77737022005837,
+        "maxElbowStep": 0.003489666805446982,
+        "maxWristStep": 0.003596249288605721,
+        "maxQuaternionStepDegrees": 0.8696837679272456,
+        "seekAngle": 4.2146848510894035e-08
+      },
+      {
+        "motion": "RifleRun",
+        "duration": 0.6666666865348816,
+        "samples": 121,
+        "maxLeftContact": 1.3761880892001836e-07,
+        "maxRightContact": 1.5082710329243837e-07,
+        "maxLeftWristBend": 34.918723585258824,
+        "maxElbowStep": 0.007336241199198717,
+        "maxWristStep": 0.006686862277059655,
+        "maxQuaternionStepDegrees": 1.2156518115526491,
+        "seekAngle": 0
+      },
+      {
+        "motion": "RifleAimingIdle",
+        "duration": 3.0999999046325684,
+        "samples": 121,
+        "maxLeftContact": 8.625100046391962e-08,
+        "maxRightContact": 9.05613376863965e-08,
+        "maxLeftWristBend": 16.695848850740887,
+        "maxElbowStep": 0.00040669429929891983,
+        "maxWristStep": 0.00036989182513029716,
+        "maxQuaternionStepDegrees": 0.12346598650930991,
+        "seekAngle": 2.9802322387695312e-08
+      },
+      {
+        "motion": "FiringRifle",
+        "duration": 0.2666666805744171,
+        "samples": 121,
+        "maxLeftContact": 8.632622708720228e-08,
+        "maxRightContact": 1.2699341534620052e-07,
+        "maxLeftWristBend": 15.351268436823755,
+        "maxElbowStep": 0.0005120217039914432,
+        "maxWristStep": 0.0005283916246728306,
+        "maxQuaternionStepDegrees": 1.2471043137519129,
+        "seekAngle": 0
+      },
+      {
+        "motion": "ShotgunPump",
+        "duration": 0.7333333492279053,
+        "samples": 121,
+        "maxLeftContact": 1.2890332105671613e-07,
+        "maxRightContact": 7.357998479667773e-08,
+        "maxLeftWristBend": 17.753555577605635,
+        "maxElbowStep": 0.0036690243914800197,
+        "maxWristStep": 0.0038180167324816557,
+        "maxQuaternionStepDegrees": 10.218606104594654,
+        "seekAngle": 0
+      },
+      {
+        "motion": "Reloading",
+        "duration": 3.299999952316284,
+        "samples": 121,
+        "maxLeftContact": 0,
+        "maxRightContact": 8.370515241376666e-08,
+        "maxLeftWristBend": 45.997525393598764,
+        "maxElbowStep": 0.06369691491853685,
+        "maxWristStep": 0.06182684178581894,
+        "maxQuaternionStepDegrees": 22.38354039021988,
+        "seekAngle": 5.960464477539063e-08
+      }
+    ],
+    "pump": {
+      "peak_travel_m": 0.04485557764618193,
+      "reset_on_motion": true,
+      "reset_on_weapon": true
+    },
+    "mobile_viewport": 390,
+    "mobile_document_width": 390
+  }
+}

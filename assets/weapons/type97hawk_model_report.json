@@ -2,7 +2,7 @@
   "source": "assets/weapons/source/type97_hawk_source.glb",
   "source_sha256": "dc7f2e0e0cacbc62c4d5d62ae840b71f947fa559aabb2f81cc3e4bd30ece71de",
   "output": "assets/weapons/type97hawk.glb",
-  "output_sha256": "51e11691085fdd4c3ebe9f0f9076ead19aaaed6e87eaedb00c75c4599f19ead4",
+  "output_sha256": "20ec4f85cc9eeb9037b552c9b4d70dbcaca82d8035056438301704b6b6cf30a5",
   "original_binary_bytes_preserved": true,
   "mesh_count": 68,
   "material_count": 1,
@@ -41,7 +41,7 @@
     0.28451472520828247,
     0.9809259474277496
   ],
-  "units_policy": "Source metre scale retained, no asserted real-world datasheet dimensions.",
+  "units_policy": "Metres. The raw upload is preserved. Normalize axes first, uniformly resize the complete normalized model to 0.8 m length, then multiply weapon-space X width by 0.9. This is the requested display size, not a source datasheet assertion.",
   "axes": {
     "right": [
       1,
@@ -74,44 +74,44 @@
       0,
       0
     ],
-    "suggested_visual_travel_m": 0.055,
-    "validation": "Source side silhouette compared at 0/35/55/85 mm; 55 mm remains before main receiver front, 85 mm starts receiver overlap. Fixed guide/tube remains stationary. No new mechanical detail invented."
+    "suggested_visual_travel_m": 0.04485557764618193,
+    "validation": "The normalized 55 mm visual stroke is scaled by the same uniform length factor to 44.85557764618193 mm. Runtime movement and reset are verified on the final model; fixed tube remains stationary."
   },
   "attachment_targets_weapon_m": {
     "right_grip": [
-      0,
-      -0.122,
-      0.205
+      0.0,
+      -0.09949782677880355,
+      0.16718897122667808
     ],
     "right_palm_surface": [
-      0.024,
-      -0.122,
-      0.205
+      0.017616008675591446,
+      -0.09949782677880355,
+      0.16718897122667808
     ],
     "left_grip": [
-      -0.018,
-      -0.069,
-      -0.275
+      -0.013212006506693585,
+      -0.05627336104702824,
+      -0.22427788823090966
     ],
     "left_pump_center": [
-      0,
-      -0.039,
-      -0.276
+      0.0,
+      -0.031806682330929,
+      -0.22509344418811297
     ],
     "trigger": [
-      0.011,
-      -0.072,
-      0.126
+      0.008074003976312746,
+      -0.05872002891863815,
+      0.10276005060761678
     ],
     "butt_contact": [
-      0,
-      -0.138,
-      0.489
+      0.0,
+      -0.11254672209405649,
+      0.3988068630724175
     ],
     "muzzle": [
-      0,
-      0,
-      -0.489
+      0.0,
+      0.0,
+      -0.3988068630724175
     ],
     "barrel_forward": [
       0,
@@ -134,5 +134,59 @@
       0
     ]
   },
-  "target_notes": "Targets sampled from actual component locations/silhouettes. Palm surfaces need per-character IK fit/visual review; center/proxy points are not claims of exact glove contact."
+  "target_notes": "Targets sampled from actual component locations/silhouettes. Palm surfaces need per-character IK fit/visual review; center/proxy points are not claims of exact glove contact.",
+  "revision": 22,
+  "normalization_stage_sha256": "51e11691085fdd4c3ebe9f0f9076ead19aaaed6e87eaedb00c75c4599f19ead4",
+  "normalized_dimensions_note": "Intermediate axis-normalized r21 dimensions before the r22 sizing parent.",
+  "final_bounds_m": {
+    "min": [
+      -0.02769941116555838,
+      -0.19736454164320047,
+      -0.4000616994141745
+    ],
+    "max": [
+      0.02761971787374728,
+      0.034673137412476414,
+      0.39993830058582536
+    ]
+  },
+  "final_dimensions_m": [
+    0.05531912903930567,
+    0.23203767905567688,
+    0.8
+  ],
+  "length_m": 0.8,
+  "sizing": {
+    "before_dimensions_m": [
+      0.07536662369966508,
+      0.28451472520828247,
+      0.9809259474277499
+    ],
+    "uniform_scale": 0.8155559572033078,
+    "scale_xyz": [
+      0.734000361482977,
+      0.8155559572033078,
+      0.8155559572033078
+    ],
+    "after_dimensions_m": [
+      0.05531912903930567,
+      0.23203767905567688,
+      0.8
+    ],
+    "width_multiplier_after_uniform_resize": 0.9,
+    "binary_bytes_preserved": true,
+    "root": "Type97_800mm_Width90"
+  },
+  "reproduction": [
+    {
+      "script": "tools/gltf/normalize_type97_hawk.py",
+      "input": "assets/weapons/source/type97_hawk_source.glb",
+      "output": "work/type97_axis_normalized.glb"
+    },
+    {
+      "script": "tools/gltf/resize_type97_hawk.py",
+      "input": "work/type97_axis_normalized.glb",
+      "output": "assets/weapons/type97hawk.glb"
+    }
+  ]
 }

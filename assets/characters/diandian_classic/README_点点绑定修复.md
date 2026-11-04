@@ -1,4 +1,4 @@
-当前GLB已应用修订18腰部闭合修复；历史.blend工程保留，重现方法和验证见 `../repair_r18/README.md`。
+当前GLB已应用修订22腰部穿衣修复（保留修订18腰部闭合）；历史.blend工程保留，重现方法和验证见 `../repair_r18/README.md`。
 
 当前为双手修订4：重建左右手连续蒙皮，统一独立指尖与手套的绑定，修正无名指关节与动作中的手指姿态。详见[双手前后对照与下载](hands_revision4_review.md)。
 
@@ -10,7 +10,7 @@
 
 头发、246根面部骨骼与下颌控制骨同步适配新头围，接颈以平滑过渡连接原身体。沿用已经修好的手指权重、四段动作及大臂比例。
 
-- `diandian_classic_fixed.glb`、`diandian_classic_fixed.blend`：当前完整模型与可编辑源文件，头部沿用v6比例，包含11段动作与双手修订4。
+- `diandian_classic_fixed.glb`：当前修订22完整模型，头部沿用v6比例，包含11段动作与双手修订4。`diandian_classic_fixed.blend`保留历史可编辑源文件，未回写修订18/22的GLB后处理。
 - `diandian_classic_before.glb`：上一版v5，供头部比例对照。
 - `proportion_report.json`：原始几何等比还原、头发与骨骼适配记录。
 - `source_head/`、`source_hair/`、`source_animations/`：上传的原始素材。
@@ -18,3 +18,16 @@
 在线查看：<https://diandian-classic-motion-lab.expert-eagle-6942.chatgpt.site>
 
 下载模型保留高分辨率贴图；网页使用2K贴图，几何、骨骼和动作相同。当前手部近景以 `hands4_*` 图片为准；其余旧近景保留作历史记录。
+
+
+## 修订22：腰部皮肤穿出裤子
+
+QBZ95持枪跑步0.38秒时，修订18新增腰桥的前下方会翻到裤子外面。现仅移除被裤子覆盖的164个冗余补面，保留原身体和衣服、全部顶点及权重、34点腰部中缝、上半腰桥及后背闭合。正式高分辨率GLB与网页2K GLB均已修复；贴图、骨架及动画保持原数据。
+
+重建顺序为：历史源GLB → `tools/blender/fix_character_waist.py`生成修订18腰桥 → `tools/gltf/fix_waist_clothing_overlap.py`裁掉前下方冗余面。后者需要numpy，命令格式为：
+
+```sh
+python tools/gltf/fix_waist_clothing_overlap.py path/to/diandian_fixed_r18.glb work/diandian_classic_fixed_r22.glb work/waist_formal_r22_report.json
+```
+
+先创建`work/`；勿将已修订22的GLB再次作为输入。修订18步骤和边界文件见`../repair_r18/README.md`。验证与前后对照见`../../../web/motion-labs/verification_r22/`，其中`formal_mesh_report.json`记录正式模型不变量与SHA-256。已检查报告姿态、走路、跑步和大幅扭转等代表性视角。

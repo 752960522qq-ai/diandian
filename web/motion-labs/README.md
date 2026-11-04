@@ -1,4 +1,4 @@
-# 两人动作校准室（修订21）
+# 两人动作校准室（修订22）
 
 此目录保存已部署的点点和知更完整网页工程，包含运行代码、角色、十款武器、原动作以及新增动画包。
 
@@ -37,3 +37,26 @@ M1897覆盖原瞄准、射击与装填；新增上下瞄准极限、独立平视
 56-1仅调整RifleWalk：横持姿态、枪托与胸部避让、左手护木环握和拇指限弯。原上传与规范模型、规范化脚本、共享参数分别在assets/weapons/source/type97_hawk_source.glb、assets/weapons/type97hawk.glb、tools/gltf/normalize_type97_hawk.py和assets/weapons/character_attachment_v21.json。这些是网页动作适配，未自动移植到Godot游戏逻辑。
 
 验证与截图见verification_r21：两人102项未预期改动的原武器姿态保持一致；新枪右侧与身体动画轨道精确AR，55mm机械泵移动/复位和390px手机布局通过；两人56-1行走各61帧的枪托入体采样降为0。有限采样和图检不代表对所有连续时刻的穷尽碰撞证明。
+
+## 修订22：97式尺寸、左手与点点腰部穿模
+
+97式防暴枪先按实际顶点及完整节点变换计算长度，等比缩到800mm，再将枪身X宽度额外乘0.9。最终宽×高×长为55.319×232.038×800mm；握持挂点随枪体同比变化，拉泵展示行程为44.8556mm。原始上传保存在`assets/weapons/source/type97_hawk_source.glb`；`assets/weapons/type97hawk.glb`是当前尺寸的规范模型，`type97hawk_model_report.json`分别记录原始、规范化中间值及最终尺寸。
+
+两人97式左臂此前在±180°扭转分支处出现约162°跳变，旧QBZ手指世界方向还会将指根横向折叠。现在仅对97式关闭上臂扭转分摊，保留前臂0.65分摊；取消旧世界手指方向和额外指节覆盖，沿用源动作的自然指节。基础及全部右侧/身体轨道继续使用AR，开火和拉泵仅合入霰弹枪左侧轨道。共享参数为`assets/weapons/character_attachment_v22.json`，其他九把枪的参数与动作保持。
+
+点点在QBZ95持枪跑步0.38秒出现的大片皮肤穿裤，来自修订18腰桥前下方被裤子覆盖的冗余面。这次仅移除其中164个三角形，保留原身体、衣服、顶点权重、34点腰部中缝、上半腰桥及后背闭合；正式高分辨率GLB与网页2K模型同步修复。原对照模型和历史.blend保持，当前GLB为修订22导出。
+
+模型重现需要Python 3及numpy；从仓库根目录执行（中间目录须存在）：
+
+```sh
+mkdir -p work
+python tools/gltf/normalize_type97_hawk.py assets/weapons/source/type97_hawk_source.glb work/type97_axis_normalized.glb work/type97_normalize_report.json
+python tools/gltf/resize_type97_hawk.py work/type97_axis_normalized.glb work/type97hawk_r22.glb work/type97_resize_report.json
+python tools/gltf/fix_waist_clothing_overlap.py path/to/diandian_fixed_r18.glb work/diandian_fixed_r22.glb work/waist_r22_report.json
+```
+
+腰修复输入必须是修订18腰桥模型，不能再次处理已修订22文件；若从更早角色源重建，先按`assets/characters/repair_r18/README.md`生成r18，再执行r22脚本。网页与正式模型分别使用对应r18版本，避免替换贴图规格。
+
+验证与截图见`verification_r22/`：两站104项其他武器姿态对照通过，含56-1行走；最终模型真实尺寸、泵柄移动与切换复位、混合动作轨道来源及390px手机布局通过。左手完整待机以240Hz检查，并检查行走、跑步、瞄准、开火和拉泵；点点腰部检查了报告触发姿态及走路、大幅扭转等40个视图。有限采样与图检不代表穷尽所有连续时刻的碰撞；这些网页约束未移植到Godot组件。
+
+`verification_r22/clothing_qa_report.json`中的`production_files_modified:false`记录衣物子任务交付当时的状态；其最终模型现已合入正式GLB与点点站点文件。原始验证报告保留交付时内容。

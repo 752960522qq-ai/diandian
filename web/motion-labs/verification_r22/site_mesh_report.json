@@ -1,0 +1,30 @@
+{
+  "source": "/workspace/work/sites/diandian/dist/assets/diandian_fixed.glb",
+  "output": "/workspace/work/type97_r22/clothing/diandian_fixed_r22.glb",
+  "source_sha256": "8122987fd364712e81afb534dafd04f7ceaf9f1e6b7b825457624c7d081af628",
+  "output_sha256": "ddd45865c3e46703c9e3a64c6101927ac251f443a4d69c85bf087b87c0a8f7e8",
+  "removed_bridge_triangles": 164,
+  "retained_bridge_triangles": 448,
+  "bridge_vertices_unchanged": 308,
+  "original_waist_seam_vertices_unchanged": 34,
+  "front_cut_native_z": -0.07471165060997009,
+  "invariants": {
+    "old_binary_prefix_preserved": true,
+    "all_original_mesh_primitives_preserved": true,
+    "bridge_vertex_attributes_preserved": true,
+    "original_seam_positions_weights_and_triangles_above_seam_preserved": true,
+    "rear_bridge_triangles_preserved": true,
+    "original_json_arrays_preserved": {
+      "nodes": true,
+      "skins": true,
+      "animations": true,
+      "accessors": true,
+      "bufferViews": true,
+      "materials": true,
+      "images": true,
+      "textures": true,
+      "samplers": true
+    }
+  },
+  "method": "Cull covered front/lower triangles of the appended Fix18 bridge only; no original body/clothing faces, positions, weights, materials, textures, bones or animations modified."
+}

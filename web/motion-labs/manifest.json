@@ -1,35 +1,35 @@
 {
-  "revision": 21,
+  "revision": 22,
   "deployed_sources": [
     {
       "site": "diandian",
-      "source_commit": "2aa21fae4e1045f24bcfdcf9395f4fa69105e0e6",
+      "source_commit": "23f3f179a9cf621e7ae9673d21c0e48420178623",
       "project_id": "appgprj_6ae75a729d0481919ec16ab35d702896",
-      "deployment_id": "appgdep_6aeb3f64c8848191aff1b88f7fd66110",
-      "version_id": "appgprj_6ae75a729d0481919ec16ab35d702896~appgver_dbfd81e71a10819183e4f105f6ab4055",
+      "deployment_id": "appgdep_6aeb4bbf92ec8191b4f62a85332c6232",
+      "version_id": "appgprj_6ae75a729d0481919ec16ab35d702896~appgver_4e4a3e91af908191a9d24a831d25bd6f",
       "status": "succeeded",
       "url": "https://diandian-classic-motion-lab.expert-eagle-6942.chatgpt.site",
-      "updated_at": "2026-11-04T14:21:44.313426+00:00"
+      "updated_at": "2026-11-04T15:14:42.980200+00:00"
     },
     {
       "site": "zhigeng",
-      "source_commit": "cb95d7835d92f02c37c41709fc017d0d824ae38c",
+      "source_commit": "aadf737254ab4ced131f75dd03141dd55655ec2b",
       "project_id": "appgprj_6ae8624b35f881918d161516efa53f28",
-      "deployment_id": "appgdep_6aeb3f0221c08191b03136568929c57f",
-      "version_id": "appgprj_6ae8624b35f881918d161516efa53f28~appgver_46442f7003988191bbfac02eb82faf61",
+      "deployment_id": "appgdep_6aeb4b57492c8191a89a834b9b7219e5",
+      "version_id": "appgprj_6ae8624b35f881918d161516efa53f28~appgver_793c0d0d16d081918238fe7a17915f16",
       "status": "succeeded",
       "url": "https://zhigeng-motion-lab.expert-eagle-6942.chatgpt.site",
-      "updated_at": "2026-11-04T14:20:12.553978+00:00"
+      "updated_at": "2026-11-04T15:12:48.708429+00:00"
     }
   ],
   "files": [
     {
       "path": "web/motion-labs/README.md",
-      "sha256": "9c47ef76f37964b8a5ed105d6426130d0cfd98a0237ffe664c343cffbb064bc3"
+      "sha256": "7f9a480f70ce146d38d5577e03a7bb71e52f3a5fd12f6e3372d39d4c24dcf4bf"
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/app.js",
-      "sha256": "9d2c22b6bf3367d495a597b43955d605434db33c77f6625a4126315261217333"
+      "sha256": "cca8e705b0f3c88fd3e4b9f0ed378e4158034021a8a49cccf9a07c24831a7941"
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/assets/diandian_before.glb",
@@ -37,7 +37,7 @@
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/assets/diandian_fixed.glb",
-      "sha256": "8122987fd364712e81afb534dafd04f7ceaf9f1e6b7b825457624c7d081af628"
+      "sha256": "ddd45865c3e46703c9e3a64c6101927ac251f443a4d69c85bf087b87c0a8f7e8"
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/assets/leon_pistol_animations.glb",
@@ -61,11 +61,11 @@
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/assets/weapon_attachment.json",
-      "sha256": "63e76b509d2d867ea71d693441bff96eb3ca9a3e8be297f814a3d4e8f6ce09cb"
+      "sha256": "060e73a31a1930ba95f103b9d174256cbd07e436ac84598df05d721b6d42b543"
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/assets/weapon_catalog.json",
-      "sha256": "6b646176f61ad8792d297f17bbc5baddc00ddb43f6fa6295a7ce7b5dd4e46748"
+      "sha256": "feac12cb14a7c9c835355231ea3f67138670f6d6a19fa1f5deb8d8f549b54d4d"
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/assets/weapons/c96.glb",
@@ -101,7 +101,7 @@
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/assets/weapons/type97hawk.glb",
-      "sha256": "51e11691085fdd4c3ebe9f0f9076ead19aaaed6e87eaedb00c75c4599f19ead4"
+      "sha256": "20ec4f85cc9eeb9037b552c9b4d70dbcaca82d8035056438301704b6b6cf30a5"
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/assets/weapons/winchester1897.glb",
@@ -121,7 +121,7 @@
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/index.html",
-      "sha256": "e357303f615f4598e62eeef29013fff9be4363c52a07b2d5526a50233c62ba83"
+      "sha256": "4058486d64629e64f7c718ab353ba436590d0942e47c38e022e2fc75cc25154d"
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/styles.css",
@@ -157,7 +157,7 @@
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/weapon-attachment.js",
-      "sha256": "f5fd3d98f9341122c8ba08f73cab249ef2c85853093b8747f5d503afb6fa668d"
+      "sha256": "3baf57472dacda8d6556b4cae9ae4c9400338e519d9e571334e8ba60cdcdc831"
     },
     {
       "path": "web/motion-labs/verification_r20/animation_regression.json",
@@ -220,8 +220,68 @@
       "sha256": "051e07c87cd80b167b86a99cb7768e550bff3481f27d8131b8b860ca2f73ee78"
     },
     {
+      "path": "web/motion-labs/verification_r22/FINAL_QA.md",
+      "sha256": "1fd0d58474bb1e4d0f3c70d40b3cbc353c2708f3117435d9620355b48a41da3a"
+    },
+    {
+      "path": "web/motion-labs/verification_r22/clothing_qa_report.json",
+      "sha256": "46aef36386d558e1c9c1887ef093e465da09ff586e663ab6c5064acf8d03f2da"
+    },
+    {
+      "path": "web/motion-labs/verification_r22/deployments.json",
+      "sha256": "ed4fa7a8194b0087a79a5e91ae4e8e64438deea8ab5b49576e41015d8ffdc801"
+    },
+    {
+      "path": "web/motion-labs/verification_r22/diandian_left_idle.png",
+      "sha256": "532ec7b27e64a600d551abb77ae482e33a5c4913a2c1af6454febd48193c2767"
+    },
+    {
+      "path": "web/motion-labs/verification_r22/formal_mesh_report.json",
+      "sha256": "dccce295b990d73425f464884a5970b39604c6c0d087c282e0598a16becb54e4"
+    },
+    {
+      "path": "web/motion-labs/verification_r22/integration.json",
+      "sha256": "652e0b21c965e63d4d38434eba45050d50e86d4f7569ebf9e0495426ac005925"
+    },
+    {
+      "path": "web/motion-labs/verification_r22/left_patch.json",
+      "sha256": "b1040a076b60e4497ca1b90ff306755b5247e44d4d6d291ee336a1fab6c03f0f"
+    },
+    {
+      "path": "web/motion-labs/verification_r22/left_report.md",
+      "sha256": "be819739ec3f9c0986421e26ddd5e00a360ccd1ec4fe27ee23b53007a2b94279"
+    },
+    {
+      "path": "web/motion-labs/verification_r22/left_validation.json",
+      "sha256": "5948bc9169446c001110bb478f4eeb1146bf841dfbc99ad0cce4f1213b8734f1"
+    },
+    {
+      "path": "web/motion-labs/verification_r22/site_mesh_report.json",
+      "sha256": "22c7657103c29a8659e10518aafed2125a37b887cad1e3a2b3a66e2fa4bf288c"
+    },
+    {
+      "path": "web/motion-labs/verification_r22/size_verification.json",
+      "sha256": "4e178a66a2d296cdd381ae1e1b0366da8689464ee80f31b2ee87ccb7b70dd94c"
+    },
+    {
+      "path": "web/motion-labs/verification_r22/type97_right_arm.jpg",
+      "sha256": "ab420ad5c6ae7c0321cb7cff9f0585a18e7bba3cafa9a1b63639e002e28f06cd"
+    },
+    {
+      "path": "web/motion-labs/verification_r22/waist_before_after.png",
+      "sha256": "a27830495fdadfd0866c8e04cced2e7d2df5bd38e9a67f53180164222b2a11a9"
+    },
+    {
+      "path": "web/motion-labs/verification_r22/zhigeng_left_idle.png",
+      "sha256": "35348103e136b3ea0a0ac28b9970ef06236cd8bc264f204d31a5967b1a15588f"
+    },
+    {
+      "path": "web/motion-labs/verification_r22/zhigeng_left_pump.png",
+      "sha256": "411c24bef67204a87fad14485d33ebc6b4eea86a18bccabda1b69fd7053d8195"
+    },
+    {
       "path": "web/motion-labs/zhigeng-motion-lab/app.js",
-      "sha256": "e794d190e48a5b14e40081aa7e6ed2a0f2d3c12154746f31322f73f92a42d4f2"
+      "sha256": "5f4dad97afca12a870bc3a11c671e611783c5e04fb64dd73d08d59b2a3313cd4"
     },
     {
       "path": "web/motion-labs/zhigeng-motion-lab/assets/leon_pistol_animations.glb",
@@ -249,11 +309,11 @@
     },
     {
       "path": "web/motion-labs/zhigeng-motion-lab/assets/weapon_attachment.json",
-      "sha256": "63e76b509d2d867ea71d693441bff96eb3ca9a3e8be297f814a3d4e8f6ce09cb"
+      "sha256": "060e73a31a1930ba95f103b9d174256cbd07e436ac84598df05d721b6d42b543"
     },
     {
       "path": "web/motion-labs/zhigeng-motion-lab/assets/weapon_catalog.json",
-      "sha256": "6b646176f61ad8792d297f17bbc5baddc00ddb43f6fa6295a7ce7b5dd4e46748"
+      "sha256": "feac12cb14a7c9c835355231ea3f67138670f6d6a19fa1f5deb8d8f549b54d4d"
     },
     {
       "path": "web/motion-labs/zhigeng-motion-lab/assets/weapons/c96.glb",
@@ -289,7 +349,7 @@
     },
     {
       "path": "web/motion-labs/zhigeng-motion-lab/assets/weapons/type97hawk.glb",
-      "sha256": "51e11691085fdd4c3ebe9f0f9076ead19aaaed6e87eaedb00c75c4599f19ead4"
+      "sha256": "20ec4f85cc9eeb9037b552c9b4d70dbcaca82d8035056438301704b6b6cf30a5"
     },
     {
       "path": "web/motion-labs/zhigeng-motion-lab/assets/weapons/winchester1897.glb",
@@ -317,7 +377,7 @@
     },
     {
       "path": "web/motion-labs/zhigeng-motion-lab/index.html",
-      "sha256": "23022034ceddb05a5670e6847473c56a8b3aa79489cf7b5bc4854a5400adbfc4"
+      "sha256": "16925d5c481da2ec7b7a65396a65e68f0cea6908274f2f5f9dab5c6aa68cdb8d"
     },
     {
       "path": "web/motion-labs/zhigeng-motion-lab/ponytail-physics.js",
@@ -357,7 +417,7 @@
     },
     {
       "path": "web/motion-labs/zhigeng-motion-lab/weapon-attachment.js",
-      "sha256": "f5fd3d98f9341122c8ba08f73cab249ef2c85853093b8747f5d503afb6fa668d"
+      "sha256": "3baf57472dacda8d6556b4cae9ae4c9400338e519d9e571334e8ba60cdcdc831"
     }
   ]
 }
