@@ -1,0 +1,160 @@
+{
+  "diandian": {
+    "unrelated_pose_cases": 51,
+    "unrelated_failures": 0,
+    "type97_motions": [
+      {
+        "motion": "RifleIdle",
+        "selected": "RifleIdle",
+        "clip": "RifleIdle",
+        "visible": true,
+        "duration": 8.566666603088379
+      },
+      {
+        "motion": "RifleWalk",
+        "selected": "RifleWalk",
+        "clip": "RifleWalk",
+        "visible": true,
+        "duration": 1.2999999523162842
+      },
+      {
+        "motion": "RifleRun",
+        "selected": "RifleRun",
+        "clip": "RifleRun",
+        "visible": true,
+        "duration": 0.6666666865348816
+      },
+      {
+        "motion": "RifleAimingIdle",
+        "selected": "RifleAimingIdle",
+        "clip": "RifleAimingIdle",
+        "visible": true,
+        "duration": 3.0999999046325684
+      },
+      {
+        "motion": "FiringRifle",
+        "selected": "FiringRifle",
+        "clip": "Type97Fire",
+        "visible": true,
+        "duration": 0.2666666805744171
+      },
+      {
+        "motion": "Reloading",
+        "selected": "Reloading",
+        "clip": "Reloading",
+        "visible": true,
+        "duration": 3.299999952316284
+      },
+      {
+        "motion": "ShotgunPump",
+        "selected": "ShotgunPump",
+        "clip": "Type97Pump",
+        "visible": true,
+        "duration": 0.7333333492279053
+      }
+    ],
+    "only_pump_shotgun_button_visible": true,
+    "type97_pitch_controls_hidden": true,
+    "actual_pump_nodes": [
+      {
+        "peak_delta_gun_m": [
+          1.3877787807814457e-17,
+          -4.440892098500626e-16,
+          0.05499999999999994
+        ],
+        "end_distance_from_start_m": 6.206335383118183e-17
+      }
+    ],
+    "reset_on_motion": true,
+    "reset_on_weapon": true,
+    "m1897_pitch_actual_deg": [
+      -57.66477573300248,
+      3.615432831181927e-05,
+      56.29736791340152
+    ],
+    "m1897_pump_travel_m": 0.08346782140137429,
+    "mobile_width": 390,
+    "document_width": 390,
+    "weapon_buttons": 10,
+    "page_errors": []
+  },
+  "zhigeng": {
+    "unrelated_pose_cases": 51,
+    "unrelated_failures": 0,
+    "type97_motions": [
+      {
+        "motion": "RifleIdle",
+        "selected": "RifleIdle",
+        "clip": "RifleIdle",
+        "visible": true,
+        "duration": 8.566666603088379
+      },
+      {
+        "motion": "RifleWalk",
+        "selected": "RifleWalk",
+        "clip": "RifleWalk",
+        "visible": true,
+        "duration": 1.2999999523162842
+      },
+      {
+        "motion": "RifleRun",
+        "selected": "RifleRun",
+        "clip": "RifleRun",
+        "visible": true,
+        "duration": 0.6666666865348816
+      },
+      {
+        "motion": "RifleAimingIdle",
+        "selected": "RifleAimingIdle",
+        "clip": "RifleAimingIdle",
+        "visible": true,
+        "duration": 3.0999999046325684
+      },
+      {
+        "motion": "FiringRifle",
+        "selected": "FiringRifle",
+        "clip": "Type97Fire",
+        "visible": true,
+        "duration": 0.2666666805744171
+      },
+      {
+        "motion": "Reloading",
+        "selected": "Reloading",
+        "clip": "Reloading",
+        "visible": true,
+        "duration": 3.299999952316284
+      },
+      {
+        "motion": "ShotgunPump",
+        "selected": "ShotgunPump",
+        "clip": "Type97Pump",
+        "visible": true,
+        "duration": 0.7333333492279053
+      }
+    ],
+    "only_pump_shotgun_button_visible": true,
+    "type97_pitch_controls_hidden": true,
+    "actual_pump_nodes": [
+      {
+        "peak_delta_gun_m": [
+          -2.168404344971009e-19,
+          -1.6653345369377348e-16,
+          0.05499999999999983
+        ],
+        "end_distance_from_start_m": 2.482534153247273e-16
+      }
+    ],
+    "reset_on_motion": true,
+    "reset_on_weapon": true,
+    "m1897_pitch_actual_deg": [
+      -57.6647737312089,
+      1.972949016752196e-05,
+      56.29739192434605
+    ],
+    "m1897_pump_travel_m": 0.08346782140137429,
+    "mobile_width": 390,
+    "document_width": 390,
+    "weapon_buttons": 10,
+    "page_errors": []
+  }
+}

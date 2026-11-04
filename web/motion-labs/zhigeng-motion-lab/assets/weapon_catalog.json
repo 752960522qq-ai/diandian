@@ -364,5 +364,13 @@
     "Explosive": 1,
     "ProjectileSpeed": 50,
     "BlastRadius": 5.5
+  },
+  {
+    "Id": "type97hawk",
+    "DisplayName": "97式 Hawk 泵动霰弹枪",
+    "Order": 19,
+    "Category": 4,
+    "AssetId": "type97hawk",
+    "ModelPath": "res://assets/weapons/type97hawk.glb"
   }
 ]

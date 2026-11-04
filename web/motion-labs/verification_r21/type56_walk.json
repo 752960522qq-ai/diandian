@@ -1,0 +1,60 @@
+{
+  "scope": "type56_1 RifleWalk only, both characters",
+  "patch_sha256": "d89378df63ffcf22c24c37c26978689c3ef39d3fe0e97db590b6169bc07a352b",
+  "method": "61 frames, actual stock mesh extremal vertices in gun-local z>0.205m tested along body-front rays against animated torso triangles weighted to Hips/Spine/Spine1/Spine2.",
+  "limitation": "Sampled stock vertices and visual views, not an exhaustive continuous collision proof.",
+  "characters": {
+    "diandian": {
+      "before": {
+        "frames": 61,
+        "stock_samples_per_frame": 40,
+        "inside_samples": 720,
+        "max_inside_depth_m": 0.0815622188115186,
+        "max_left_wrist_bend_deg": 4.517888983030107,
+        "max_left_palm_error_m": 7.367038365142457e-08,
+        "max_right_palm_error_m": 5.991681900950199e-08
+      },
+      "after": {
+        "frames": 61,
+        "stock_samples_per_frame": 40,
+        "inside_samples": 0,
+        "max_inside_depth_m": 0,
+        "max_left_wrist_bend_deg": 15.828676540643546,
+        "max_left_palm_error_m": 3.7060976593434594e-08,
+        "max_right_palm_error_m": 6.538113805615342e-08
+      },
+      "page_errors": [],
+      "images": [
+        "diandian_before_above.png",
+        "diandian_thumb1_above.png",
+        "diandian_thumb1_hands.png"
+      ]
+    },
+    "zhigeng": {
+      "before": {
+        "frames": 61,
+        "stock_samples_per_frame": 40,
+        "inside_samples": 737,
+        "max_inside_depth_m": 0.0781505316285106,
+        "max_left_wrist_bend_deg": 4.701420010604265,
+        "max_left_palm_error_m": 4.709181118284161e-08,
+        "max_right_palm_error_m": 7.157883241833333e-08
+      },
+      "after": {
+        "frames": 61,
+        "stock_samples_per_frame": 40,
+        "inside_samples": 0,
+        "max_inside_depth_m": 0,
+        "max_left_wrist_bend_deg": 18.37201937970816,
+        "max_left_palm_error_m": 6.04628720364728e-08,
+        "max_right_palm_error_m": 6.739767327543305e-08
+      },
+      "page_errors": [],
+      "images": [
+        "zhigeng_before_above.png",
+        "zhigeng_thumb1_above.png",
+        "zhigeng_thumb1_hands.png"
+      ]
+    }
+  }
+}

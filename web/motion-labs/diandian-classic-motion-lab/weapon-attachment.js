@@ -1,6 +1,6 @@
 import * as THREE from 'three';
-import { refineC96Rotation } from './c96-dynamics.js?v=c96-right-arm20';
-import { prepareC96ReloadPose, applyC96ReloadSupport } from './c96-reload.js?v=c96-right-arm20';
+import { refineC96Rotation } from './c96-dynamics.js?v=type97-r21-final';
+import { prepareC96ReloadPose, applyC96ReloadSupport } from './c96-reload.js?v=type97-r21-final';
 
 const RIFLE_MOTIONS = new Set(['RifleIdle', 'RifleWalk', 'RifleAimingIdle', 'FiringRifle', 'RifleRun', 'Reloading']);
 const PISTOL_MOTIONS = new Set(['PistolIdle', 'PistolAimingIdle', 'PistolWalk']);
@@ -60,6 +60,10 @@ export class WeaponAttachment {
     this.pumpParts = [];
     this.weapons.get('winchester1897')?.traverse(object => {
       if (object.name.replaceAll('_', ' ') === 'm 97 add1') this.pumpParts.push({object, rest: object.position.clone()});
+    });
+    this.type97PumpParts = [];
+    this.weapons.get('type97hawk')?.traverse(object => {
+      if (config.weapons.type97hawk.pump_node_names.includes(object.name)) this.type97PumpParts.push({object, rest:object.position.clone()});
     });
     this.state = {visible:false, selectedWeapon:this.selectedWeapon, motion:'Idle', leftContactErrorM:0, rightContactErrorM:0};
   }
@@ -279,7 +283,7 @@ export class WeaponAttachment {
   }
 
   update(motion, time = 0, animation = {}) {
-    for (const part of this.pumpParts) part.object.position.copy(part.rest);
+    for (const part of [...this.pumpParts, ...this.type97PumpParts]) part.object.position.copy(part.rest);
     const handScale = this.applyHandScale();
     this.motion = motion;
     if (PISTOL_MOTIONS.has(motion) && this.config.weapons[this.selectedWeapon].type !== 'pistol') this.selectedWeapon = this.lastPistol;
@@ -356,8 +360,8 @@ export class WeaponAttachment {
 
     const leftOffset = vector(mount.left_palm_offset_native || this.character.left_palm_offset_native).multiplyScalar(scale * handScale);
     let pumpTravel = 0;
-    const pump = data.re4_shotgun;
-    if (re4 && motion === 'ShotgunPump' && pump?.pump_times) {
+    const pump = data.re4_shotgun || data.pump_motion;
+    if ((re4 || data.hybrid_left_actions) && motion === 'ShotgunPump' && pump?.pump_times) {
       const times = pump.pump_times;
       const sample = side => {
         const values = pump.pump_travel_m[side];
@@ -366,9 +370,9 @@ export class WeaponAttachment {
         return values.at(-1);
       };
       const pitch = THREE.MathUtils.clamp(animation.aimPitch || 0, -1, 1);
-      pumpTravel = THREE.MathUtils.lerp(sample('Level'), sample(pitch < 0 ? 'Down' : 'Up'), Math.abs(pitch));
+      pumpTravel = data.hybrid_left_actions ? sample('Level') : THREE.MathUtils.lerp(sample('Level'), sample(pitch < 0 ? 'Down' : 'Up'), Math.abs(pitch));
     }
-    for (const part of this.pumpParts) {
+    for (const part of (id === 'type97hawk' ? this.type97PumpParts : this.pumpParts)) {
       // The imported model has rotated ancestors; convert gun +Z into the pump parent's frame.
       const origin = part.object.parent.worldToLocal(gun.localToWorld(new THREE.Vector3()));
       const shifted = part.object.parent.worldToLocal(gun.localToWorld(new THREE.Vector3(0, 0, pumpTravel)));

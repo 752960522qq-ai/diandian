@@ -1,7 +1,8 @@
 import * as THREE from 'three';
+import { installType97Motions } from './type97-motion.js?v=type97-r21-final';
 import { GLTFLoader } from './vendor/GLTFLoader.js';
 import { OrbitControls } from './vendor/OrbitControls.js';
-import { WeaponAttachment } from './weapon-attachment.js?v=c96-right-arm20';
+import { WeaponAttachment } from './weapon-attachment.js?v=type97-r21-final';
 
 const $ = (selector) => document.querySelector(selector);
 const motionLabels = {};
@@ -81,11 +82,12 @@ new ResizeObserver(resize).observe(stage);
 resize();
 
 const shotgunMotions = [
-  {name: 'ShotgunAimUp', label: '上瞄极限', loop: true, shotgun_only: true},
-  {name: 'ShotgunAimLevel', label: '平视瞄准', loop: true, shotgun_only: true},
-  {name: 'ShotgunAimDown', label: '下瞄极限', loop: true, shotgun_only: true},
+  {name: 'ShotgunAimUp', label: '上瞄极限', loop: true, shotgun_only: true, pitch_only: true},
+  {name: 'ShotgunAimLevel', label: '平视瞄准', loop: true, shotgun_only: true, pitch_only: true},
+  {name: 'ShotgunAimDown', label: '下瞄极限', loop: true, shotgun_only: true, pitch_only: true},
   {name: 'ShotgunPump', label: '霰弹枪拉泵', loop: false, shotgun_only: true}
 ];
+const usesPitchAim = () => isShotgun() && !weaponConfig?.weapons[state.weapon]?.hybrid_left_actions;
 const isShotgun = () => weaponConfig?.weapons[state.weapon]?.type === 'shotgun';
 function optionsFor(name) {
   const options = motionOptions[name] || {};
@@ -93,14 +95,14 @@ function optionsFor(name) {
   return isShotgun() && name === 'FiringRifle' ? {...options, loop: false} : options;
 }
 function shotgunGroup(name) {
-  if (!isShotgun()) return null;
+  if (!usesPitchAim()) return null;
   if (name === 'RifleAimingIdle' || name.startsWith('ShotgunAim')) return 'ShotgunAim';
   if (name === 'FiringRifle') return 'ShotgunFire';
   if (name === 'ShotgunPump') return 'ShotgunPump';
   return null;
 }
 function updateAimControl() {
-  $('#shotgun-aim-controls').hidden = !isShotgun();
+  $('#shotgun-aim-controls').hidden = !usesPitchAim();
   $('#aim-pitch').value = state.aimPitch;
   $('#aim-pitch').style.setProperty('--progress', `${(state.aimPitch + 1) * 50}%`);
   const calibration = weaponConfig?.weapons.winchester1897?.re4_shotgun;
@@ -117,7 +119,7 @@ function setAimPitch(value) {
   if (!Number.isFinite(pitch)) return;
   state.aimPitch = THREE.MathUtils.clamp(pitch, -1, 1);
   updateAimControl();
-  if (!state.ready || !isShotgun()) return;
+  if (!state.ready || !usesPitchAim()) return;
   if (!shotgunGroup(state.motion) || state.motion.startsWith('ShotgunAim')) {
     const time = state.time, playing = state.playing;
     setMotion('RifleAimingIdle');
@@ -212,7 +214,8 @@ function actionFor(model, name) {
   let weapon = state.weapon;
   const type = weaponConfig?.weapons[weapon]?.type;
   if (motionOptions[name]?.shotgun_only && type !== 'shotgun') return;
-  if (name === 'ShotgunPump') return model.actions.get('ShotgunPumpLevel');
+  if (motionOptions[name]?.pitch_only && !usesPitchAim()) return;
+  if (name === 'ShotgunPump') return model.actions.get(weaponConfig?.weapons[weapon]?.animation_overrides?.[name] || 'ShotgunPumpLevel');
   if (['PistolIdle', 'PistolAimingIdle', 'PistolWalk'].includes(name) && type && type !== 'pistol') weapon = state.lastPistolWeapon;
   if (['RifleIdle', 'RifleWalk', 'RifleAimingIdle', 'FiringRifle', 'RifleRun', 'Reloading'].includes(name) && type === 'pistol') weapon = state.lastRifleWeapon;
   const mapped = weaponConfig?.weapons[weapon]?.animation_overrides?.[name];
@@ -284,8 +287,8 @@ function refreshMotionLabels() {
     if (label) label.textContent = displayMotionLabel(button.dataset.motion);
     const captions = {RifleAimingIdle: '可调俯仰 · 动态混合', ShotgunAimUp: '俯仰上限 · 原始端点', ShotgunAimDown: '俯仰下限 · 原始端点', ShotgunAimLevel: '水平 0° · 独立姿态', ShotgunPump: '单次 · 拉泵及复位', FiringRifle: '单次 · 后坐力', Reloading: '完整装填'};
     const caption = button.querySelector('small');
-    if (caption) caption.textContent = isShotgun() && captions[button.dataset.motion] || button.dataset.caption;
-    button.hidden = !!motionOptions[button.dataset.motion]?.shotgun_only && !isShotgun();
+    if (caption) caption.textContent = isShotgun() && (!weaponConfig.weapons[state.weapon].hybrid_left_actions || ['FiringRifle','ShotgunPump'].includes(button.dataset.motion)) && captions[button.dataset.motion] || button.dataset.caption;
+    button.hidden = (!!motionOptions[button.dataset.motion]?.shotgun_only && !isShotgun()) || (!!motionOptions[button.dataset.motion]?.pitch_only && !usesPitchAim());
     button.disabled = !actionFor(models.get('fixed'), button.dataset.motion);
   });
   $('#current-motion').textContent = displayMotionLabel(state.motion);
@@ -308,10 +311,10 @@ function selectWeapon(id, switchMotion = true) {
 }
 
 async function equipWeapons() {
-  const config = await fetch('./assets/weapon_attachment.json?v=c96-right-arm20').then(r => r.json());
+  const config = await fetch('./assets/weapon_attachment.json?v=type97-r21-final').then(r => r.json());
   weaponConfig = config;
   const scenes = new Map(await Promise.all(Object.keys(config.weapons).map(async id => {
-    const gltf = await loader.loadAsync('./assets/weapons/' + id + '.glb?v=c96-right-arm20');
+    const gltf = await loader.loadAsync('./assets/weapons/' + id + '.glb?v=type97-r21-final');
     return [id, gltf.scene];
   })));
   models.get('fixed').weaponAttachment = new WeaponAttachment(models.get('fixed'), config, 'diandian', scenes, scene);
@@ -323,9 +326,10 @@ async function equipWeapons() {
 }
 
 async function equipMotionPack() {
-  const packs = await Promise.all(['motion_additions.glb', 'leon_pistol_animations.glb', 're4_shotgun_animations.glb'].map(file => loader.loadAsync('./assets/' + file + '?v=c96-right-arm20')));
+  const packs = await Promise.all(['motion_additions.glb', 'leon_pistol_animations.glb', 're4_shotgun_animations.glb'].map(file => loader.loadAsync('./assets/' + file + '?v=type97-r21-final')));
   const model = models.get('fixed');
   for (const pack of packs) for (const clip of pack.animations) model.actions.set(clip.name, model.mixer.clipAction(clip));
+  model.type97Composition = installType97Motions(model);
 }
 
 function setMotion(name) {
@@ -543,9 +547,9 @@ render();
 
 async function load() {
   document.querySelectorAll('[data-motion], [data-version]').forEach(button => { button.disabled = true; });
-  const info = await fetch('./assets/rig_info.json?v=c96-right-arm20').then(response => response.json());
+  const info = await fetch('./assets/rig_info.json?v=type97-r21-final').then(response => response.json());
   setMotionControls(info);
-  const fixed = await loader.loadAsync('./assets/diandian_fixed.glb?v=c96-right-arm20', event => {
+  const fixed = await loader.loadAsync('./assets/diandian_fixed.glb?v=type97-r21-final', event => {
     const ratio = event.total ? event.loaded / event.total : Math.min(.9, event.loaded / 15000000);
     progress.style.width = `${ratio * 95}%`;
     if (event.total) $('#loading-detail').textContent = `正在载入模型与动作 · ${Math.round(ratio * 100)}%`;
@@ -554,15 +558,15 @@ async function load() {
   await equipWeapons();
   await equipMotionPack();
   state.ready = true;
-  selectWeapon('winchester1897');
-  setMotion('ShotgunAimLevel');
+  selectWeapon('type97hawk');
+  setMotion('RifleIdle');
   scene.updateMatrixWorld(true);
   frameCamera(false);
   for (const button of document.querySelectorAll('[data-motion]')) button.disabled = !actionFor(models.get('fixed'), button.dataset.motion);
   $('[data-version="fixed"]').disabled = false;
   progress.style.width = '100%';
   loading.classList.add('hidden');
-  const before = await loader.loadAsync('./assets/diandian_before.glb?v=c96-right-arm20');
+  const before = await loader.loadAsync('./assets/diandian_before.glb?v=type97-r21-final');
   prepareModel(before, 'before');
   setFaceControls(info);
   updateComparisonAvailability();

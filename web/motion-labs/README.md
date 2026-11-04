@@ -1,6 +1,6 @@
-# 两人动作校准室（修订20）
+# 两人动作校准室（修订21）
 
-此目录保存已部署的点点和知更完整网页工程，包含运行代码、角色、九款武器、原动作以及新增动画包。
+此目录保存已部署的点点和知更完整网页工程，包含运行代码、角色、十款武器、原动作以及新增动画包。
 
 从仓库根目录运行 `python -m http.server 8080`，访问：
 - `/web/motion-labs/diandian-classic-motion-lab/`
@@ -27,3 +27,13 @@ M1897覆盖原瞄准、射击与装填；新增上下瞄准极限、独立平视
 修订20在C96装填时加入右肘向外引导（权重0.55），修复右臂进入胸部的问题，保持枪与握把位置。实现位于两站的 `weapon-attachment.js`、`c96-dynamics.js`、`c96-reload.js` 和 `assets/weapon_attachment.json`；共享参数归档为 `assets/weapons/character_attachment_v20.json`。这些改动属于网页运行时适配，角色GLB原始动画及Godot组件未在此轮重导出或移植。
 
 验证记录及前后图见 `verification_r20/`：92项其他武器对照通过，两人合计732帧无异常数值；各61帧、每帧12个右臂中心线点的躯干蒙皮检查中，入体样本由44/19降至0/0。采样与图检不代表已排除所有细小体表接触。
+
+## 修订21：97式Hawk与56-1行走
+
+新增上传的97式Hawk模型，保留源几何、纹理和米制比例，规范为枪口−Z、上+Y、右+X。模型包围盒长约0.981m，未将其当作实枪规格。独立护木节点提供55mm展示拉泵行程。
+
+待机、行走、跑步、瞄准和换弹沿用AR动作；开火以FiringRifle为基础，拉泵以RifleAimingIdle前0.733秒为基础。两者仅替换LeftShoulder/LeftArm/LeftForeArm/LeftHand及左指轨道，身体和全部右侧轨道保持AR源数据，随后进行枪型握持适配。生成逻辑见两站type97-motion.js。左手和真实泵柄按同一曲线同步，切换动作或武器会复位。
+
+56-1仅调整RifleWalk：横持姿态、枪托与胸部避让、左手护木环握和拇指限弯。原上传与规范模型、规范化脚本、共享参数分别在assets/weapons/source/type97_hawk_source.glb、assets/weapons/type97hawk.glb、tools/gltf/normalize_type97_hawk.py和assets/weapons/character_attachment_v21.json。这些是网页动作适配，未自动移植到Godot游戏逻辑。
+
+验证与截图见verification_r21：两人102项未预期改动的原武器姿态保持一致；新枪右侧与身体动画轨道精确AR，55mm机械泵移动/复位和390px手机布局通过；两人56-1行走各61帧的枪托入体采样降为0。有限采样和图检不代表对所有连续时刻的穷尽碰撞证明。

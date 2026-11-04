@@ -1,0 +1,114 @@
+{
+  "diandian": {
+    "meta": [
+      {
+        "name": "Type97Fire",
+        "duration": 0.2666666805744171,
+        "tracks": 936,
+        "leftArmTracks": 72,
+        "assaultRifleBase": "FiringRifle",
+        "leftArmSource": "ShotgunFireLevel",
+        "leftArmTimeScale": 0.8749999580904864,
+        "rightArmAndBodyPolicy": "unaltered assault-rifle tracks at real elapsed time"
+      },
+      {
+        "name": "Type97Pump",
+        "duration": 0.7333333492279053,
+        "tracks": 936,
+        "leftArmTracks": 72,
+        "assaultRifleBase": "RifleAimingIdle",
+        "leftArmSource": "ShotgunPumpLevel",
+        "leftArmTimeScale": 1,
+        "rightArmAndBodyPolicy": "unaltered assault-rifle tracks at real elapsed time"
+      }
+    ],
+    "report": [
+      {
+        "derivedName": "Type97Fire",
+        "baseName": "FiringRifle",
+        "leftName": "ShotgunFireLevel",
+        "duration": 0.2666666805744171,
+        "samples": 121,
+        "nonLeftTracks": 864,
+        "rightHandTracks": 63,
+        "leftLegTracks": 12,
+        "leftTracks": 72,
+        "nonLeftMaxComponentDifference": 0,
+        "leftMaxComponentDifference": 5.960464477539063e-08,
+        "nonLeftFailures": []
+      },
+      {
+        "derivedName": "Type97Pump",
+        "baseName": "RifleAimingIdle",
+        "leftName": "ShotgunPumpLevel",
+        "duration": 0.7333333492279053,
+        "samples": 121,
+        "nonLeftTracks": 864,
+        "rightHandTracks": 63,
+        "leftLegTracks": 12,
+        "leftTracks": 72,
+        "nonLeftMaxComponentDifference": 0,
+        "leftMaxComponentDifference": 0,
+        "nonLeftFailures": []
+      }
+    ],
+    "sourceClipsUnmodified": true,
+    "page_errors": []
+  },
+  "zhigeng": {
+    "meta": [
+      {
+        "name": "Type97Fire",
+        "duration": 0.2666666805744171,
+        "tracks": 945,
+        "leftArmTracks": 72,
+        "assaultRifleBase": "FiringRifle",
+        "leftArmSource": "ShotgunFireLevel",
+        "leftArmTimeScale": 0.8749999580904864,
+        "rightArmAndBodyPolicy": "unaltered assault-rifle tracks at real elapsed time"
+      },
+      {
+        "name": "Type97Pump",
+        "duration": 0.7333333492279053,
+        "tracks": 945,
+        "leftArmTracks": 72,
+        "assaultRifleBase": "RifleAimingIdle",
+        "leftArmSource": "ShotgunPumpLevel",
+        "leftArmTimeScale": 1,
+        "rightArmAndBodyPolicy": "unaltered assault-rifle tracks at real elapsed time"
+      }
+    ],
+    "report": [
+      {
+        "derivedName": "Type97Fire",
+        "baseName": "FiringRifle",
+        "leftName": "ShotgunFireLevel",
+        "duration": 0.2666666805744171,
+        "samples": 121,
+        "nonLeftTracks": 873,
+        "rightHandTracks": 63,
+        "leftLegTracks": 12,
+        "leftTracks": 72,
+        "nonLeftMaxComponentDifference": 0,
+        "leftMaxComponentDifference": 5.960464477539063e-08,
+        "nonLeftFailures": []
+      },
+      {
+        "derivedName": "Type97Pump",
+        "baseName": "RifleAimingIdle",
+        "leftName": "ShotgunPumpLevel",
+        "duration": 0.7333333492279053,
+        "samples": 121,
+        "nonLeftTracks": 873,
+        "rightHandTracks": 63,
+        "leftLegTracks": 12,
+        "leftTracks": 72,
+        "nonLeftMaxComponentDifference": 0,
+        "leftMaxComponentDifference": 0,
+        "nonLeftFailures": []
+      }
+    ],
+    "sourceClipsUnmodified": true,
+    "page_errors": []
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "source": "assets/weapons/source/type97_hawk_source.glb",
+  "source_sha256": "dc7f2e0e0cacbc62c4d5d62ae840b71f947fa559aabb2f81cc3e4bd30ece71de",
+  "output": "assets/weapons/type97hawk.glb",
+  "output_sha256": "51e11691085fdd4c3ebe9f0f9076ead19aaaed6e87eaedb00c75c4599f19ead4",
+  "original_binary_bytes_preserved": true,
+  "mesh_count": 68,
+  "material_count": 1,
+  "source_animation_count": 0,
+  "source_bounds_m": {
+    "min": [
+      -0.490538626909256,
+      0.0,
+      -0.036629024893045425
+    ],
+    "max": [
+      0.49038732051849365,
+      0.28451472520828247,
+      0.038737598806619644
+    ]
+  },
+  "source_dimensions_m": [
+    0.9809259474277496,
+    0.28451472520828247,
+    0.07536662369966507
+  ],
+  "normalized_bounds_m": {
+    "min": [
+      -0.03773759880661964,
+      -0.242,
+      -0.490538626909256
+    ],
+    "max": [
+      0.037629024893045426,
+      0.04251472520828248,
+      0.49038732051849365
+    ]
+  },
+  "normalized_dimensions_m": [
+    0.07536662369966507,
+    0.28451472520828247,
+    0.9809259474277496
+  ],
+  "units_policy": "Source metre scale retained, no asserted real-world datasheet dimensions.",
+  "axes": {
+    "right": [
+      1,
+      0,
+      0
+    ],
+    "up": [
+      0,
+      1,
+      0
+    ],
+    "forward": [
+      0,
+      0,
+      -1
+    ]
+  },
+  "normalization_root": "Type97_Hawk_Axes",
+  "pump": {
+    "group_name": "Type97_Pump_Group",
+    "foreend_mesh_name": "Type97_Pump_Foreend",
+    "original_mesh_name": "tripo_part_0",
+    "weapon_axis": [
+      0,
+      0,
+      1
+    ],
+    "parent_local_axis": [
+      1,
+      0,
+      0
+    ],
+    "suggested_visual_travel_m": 0.055,
+    "validation": "Source side silhouette compared at 0/35/55/85 mm; 55 mm remains before main receiver front, 85 mm starts receiver overlap. Fixed guide/tube remains stationary. No new mechanical detail invented."
+  },
+  "attachment_targets_weapon_m": {
+    "right_grip": [
+      0,
+      -0.122,
+      0.205
+    ],
+    "right_palm_surface": [
+      0.024,
+      -0.122,
+      0.205
+    ],
+    "left_grip": [
+      -0.018,
+      -0.069,
+      -0.275
+    ],
+    "left_pump_center": [
+      0,
+      -0.039,
+      -0.276
+    ],
+    "trigger": [
+      0.011,
+      -0.072,
+      0.126
+    ],
+    "butt_contact": [
+      0,
+      -0.138,
+      0.489
+    ],
+    "muzzle": [
+      0,
+      0,
+      -0.489
+    ],
+    "barrel_forward": [
+      0,
+      0,
+      -1
+    ],
+    "right_grip_axis": [
+      0,
+      0.98,
+      -0.2
+    ],
+    "right_palm_normal": [
+      1,
+      0,
+      0
+    ],
+    "left_palm_normal": [
+      0,
+      -1,
+      0
+    ]
+  },
+  "target_notes": "Targets sampled from actual component locations/silhouettes. Palm surfaces need per-character IK fit/visual review; center/proxy points are not claims of exact glove contact."
+}

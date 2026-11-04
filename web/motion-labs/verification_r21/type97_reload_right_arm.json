@@ -1,0 +1,12 @@
+{
+  "scope": "Final production Diandian Type97 Hawk Reloading only",
+  "right_elbow_outward_weight": 0.55,
+  "frames": 61,
+  "axis_samples_per_frame": 12,
+  "torso_triangles": 3961,
+  "inside_axis_samples": 0,
+  "max_inside_depth_m": 0,
+  "max_right_wrist_bend_deg": 44.279984525988,
+  "max_right_palm_error_m": 1.5523592271776263e-07,
+  "limitation": "Sampled arm centerlines against animated torso mesh, plus four previously captured right-side views; not exhaustive arm-surface collision proof."
+}

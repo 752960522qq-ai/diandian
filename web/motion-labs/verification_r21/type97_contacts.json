@@ -1,0 +1,155 @@
+{
+  "diandian": {
+    "motions": {
+      "RifleIdle": {
+        "samples": 61,
+        "duration": 8.566666603088379,
+        "max_palm_error_m": 9.442037790835603e-08,
+        "max_left_wrist_bend_deg": 16.44200515469736,
+        "max_right_wrist_bend_deg": 7.97911540101096
+      },
+      "RifleWalk": {
+        "samples": 61,
+        "duration": 1.2999999523162842,
+        "max_palm_error_m": 1.463237469626668e-07,
+        "max_left_wrist_bend_deg": 15.61597146712414,
+        "max_right_wrist_bend_deg": 12.394754516767936
+      },
+      "RifleRun": {
+        "samples": 61,
+        "duration": 0.6666666865348816,
+        "max_palm_error_m": 1.649154487041206e-07,
+        "max_left_wrist_bend_deg": 8.408249007492751,
+        "max_right_wrist_bend_deg": 16.985023807081348
+      },
+      "RifleAimingIdle": {
+        "samples": 61,
+        "duration": 3.0999999046325684,
+        "max_palm_error_m": 2.991324818702773e-07,
+        "max_left_wrist_bend_deg": 7.106327561159035,
+        "max_right_wrist_bend_deg": 2.9626303558343663
+      },
+      "FiringRifle": {
+        "samples": 61,
+        "duration": 0.2666666805744171,
+        "max_palm_error_m": 1.5849639995560876e-07,
+        "max_left_wrist_bend_deg": 10.859239155360854,
+        "max_right_wrist_bend_deg": 2.9039696429766932
+      },
+      "ShotgunPump": {
+        "samples": 61,
+        "duration": 0.7333333492279053,
+        "max_palm_error_m": 2.669623532640451e-07,
+        "max_left_wrist_bend_deg": 8.17715318194104,
+        "max_right_wrist_bend_deg": 2.8645482022949738
+      },
+      "Reloading": {
+        "samples": 61,
+        "duration": 3.299999952316284,
+        "max_palm_error_m": 1.5947908050978082e-07,
+        "max_left_wrist_bend_deg": 45.9975831009673,
+        "max_right_wrist_bend_deg": 44.28,
+        "validation_note": "Final right-arm outward correction additionally validated by type97_reload_right_arm.json"
+      }
+    },
+    "page_errors": [],
+    "composition": [
+      {
+        "name": "Type97Fire",
+        "duration": 0.2666666805744171,
+        "tracks": 936,
+        "leftArmTracks": 72,
+        "assaultRifleBase": "FiringRifle",
+        "leftArmSource": "ShotgunFireLevel",
+        "leftArmTimeScale": 0.8749999580904864,
+        "rightArmAndBodyPolicy": "unaltered assault-rifle tracks at real elapsed time"
+      },
+      {
+        "name": "Type97Pump",
+        "duration": 0.7333333492279053,
+        "tracks": 936,
+        "leftArmTracks": 72,
+        "assaultRifleBase": "RifleAimingIdle",
+        "leftArmSource": "ShotgunPumpLevel",
+        "leftArmTimeScale": 1,
+        "rightArmAndBodyPolicy": "unaltered assault-rifle tracks at real elapsed time"
+      }
+    ]
+  },
+  "zhigeng": {
+    "motions": {
+      "RifleIdle": {
+        "samples": 61,
+        "duration": 8.566666603088379,
+        "max_palm_error_m": 9.650136049704376e-08,
+        "max_left_wrist_bend_deg": 15.98323130230091,
+        "max_right_wrist_bend_deg": 11.314349766295717
+      },
+      "RifleWalk": {
+        "samples": 61,
+        "duration": 1.2999999523162842,
+        "max_palm_error_m": 1.4691336122218516e-07,
+        "max_left_wrist_bend_deg": 15.726143030765243,
+        "max_right_wrist_bend_deg": 14.828763615853749
+      },
+      "RifleRun": {
+        "samples": 61,
+        "duration": 0.6666666865348816,
+        "max_palm_error_m": 1.51541422234851e-07,
+        "max_left_wrist_bend_deg": 8.077964068539483,
+        "max_right_wrist_bend_deg": 18.362771808162606
+      },
+      "RifleAimingIdle": {
+        "samples": 61,
+        "duration": 3.0999999046325684,
+        "max_palm_error_m": 1.1008478622092353e-07,
+        "max_left_wrist_bend_deg": 5.350248733814114,
+        "max_right_wrist_bend_deg": 1.8234682387181975
+      },
+      "FiringRifle": {
+        "samples": 61,
+        "duration": 0.2666666805744171,
+        "max_palm_error_m": 1.2436250061919183e-07,
+        "max_left_wrist_bend_deg": 12.55072160430041,
+        "max_right_wrist_bend_deg": 2.3752852815333814
+      },
+      "ShotgunPump": {
+        "samples": 61,
+        "duration": 0.7333333492279053,
+        "max_palm_error_m": 1.62544085734146e-07,
+        "max_left_wrist_bend_deg": 9.185657918671732,
+        "max_right_wrist_bend_deg": 2.408482235573059
+      },
+      "Reloading": {
+        "samples": 61,
+        "duration": 3.299999952316284,
+        "max_palm_error_m": 7.776218819950156e-08,
+        "max_left_wrist_bend_deg": 45.997525393598764,
+        "max_right_wrist_bend_deg": 30.22500073291163
+      }
+    },
+    "page_errors": [],
+    "composition": [
+      {
+        "name": "Type97Fire",
+        "duration": 0.2666666805744171,
+        "tracks": 945,
+        "leftArmTracks": 72,
+        "assaultRifleBase": "FiringRifle",
+        "leftArmSource": "ShotgunFireLevel",
+        "leftArmTimeScale": 0.8749999580904864,
+        "rightArmAndBodyPolicy": "unaltered assault-rifle tracks at real elapsed time"
+      },
+      {
+        "name": "Type97Pump",
+        "duration": 0.7333333492279053,
+        "tracks": 945,
+        "leftArmTracks": 72,
+        "assaultRifleBase": "RifleAimingIdle",
+        "leftArmSource": "ShotgunPumpLevel",
+        "leftArmTimeScale": 1,
+        "rightArmAndBodyPolicy": "unaltered assault-rifle tracks at real elapsed time"
+      }
+    ]
+  }
+}
