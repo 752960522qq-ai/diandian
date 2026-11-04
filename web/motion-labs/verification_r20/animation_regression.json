@@ -1,0 +1,18 @@
+{
+  "diandian": {
+    "unrelated_weapon_cases": 46,
+    "unrelated_failures": 0,
+    "finite_frames": 366,
+    "max_seek_rotation_drift_rad": 5.16191365590357e-08,
+    "reload_max_right_wrist_bend_deg": 44.574752822431364,
+    "page_errors": []
+  },
+  "zhigeng": {
+    "unrelated_weapon_cases": 46,
+    "unrelated_failures": 0,
+    "finite_frames": 366,
+    "max_seek_rotation_drift_rad": 4.2146848510894035e-08,
+    "reload_max_right_wrist_bend_deg": 45.76720198879878,
+    "page_errors": []
+  }
+}

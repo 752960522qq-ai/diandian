@@ -1,0 +1,60 @@
+{
+  "scope": "Revision 20 C96 Reloading right-arm deployment validation",
+  "method": "Animated torso triangles selected by >=0.78 mean Hips/Spine/Spine1/Spine2 skin weight and >=0.4 per vertex. For 61 frames, 12 upper/forearm centerline points ray-tested against actual front/back torso skin surfaces. Actual character-right side images reviewed at phases 0,0.6,0.9.",
+  "limitation": "No centerline samples inside torso in candidate; this does not prove absence of every small arm-surface contact between samples.",
+  "verdict": "GO: outward weight 0.55 visibly expands right arm and removes observed torso crossings without moving gun",
+  "characters": {
+    "diandian": {
+      "before": {
+        "frames": 61,
+        "axis_samples_per_frame": 12,
+        "torso_triangles": 3961,
+        "inside_axis_samples": 44,
+        "max_axis_inside_depth_m": 0.03034155672401717,
+        "worst_phase": 0,
+        "max_wrist_bend_deg": 30.770382594453675,
+        "page_errors": []
+      },
+      "outward_weight_0_55": {
+        "frames": 61,
+        "axis_samples_per_frame": 12,
+        "torso_triangles": 3961,
+        "inside_axis_samples": 0,
+        "max_axis_inside_depth_m": 0,
+        "worst_phase": 0,
+        "max_wrist_bend_deg": 44.57475287535223,
+        "page_errors": []
+      },
+      "side_images": [
+        "right_side_diandian_0_0.png",
+        "right_side_diandian_0.55_0.png"
+      ]
+    },
+    "zhigeng": {
+      "before": {
+        "frames": 61,
+        "axis_samples_per_frame": 12,
+        "torso_triangles": 4018,
+        "inside_axis_samples": 19,
+        "max_axis_inside_depth_m": 0.027873875501444934,
+        "worst_phase": 0.03333333333333333,
+        "max_wrist_bend_deg": 28.154552031206006,
+        "page_errors": []
+      },
+      "outward_weight_0_55": {
+        "frames": 61,
+        "axis_samples_per_frame": 12,
+        "torso_triangles": 4018,
+        "inside_axis_samples": 0,
+        "max_axis_inside_depth_m": 0,
+        "worst_phase": 0,
+        "max_wrist_bend_deg": 45.76720198879887,
+        "page_errors": []
+      },
+      "side_images": [
+        "right_side_zhigeng_0_0.png",
+        "right_side_zhigeng_0.55_0.png"
+      ]
+    }
+  }
+}

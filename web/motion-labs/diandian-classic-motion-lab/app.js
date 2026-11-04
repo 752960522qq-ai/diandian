@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import { GLTFLoader } from './vendor/GLTFLoader.js';
 import { OrbitControls } from './vendor/OrbitControls.js';
-import { WeaponAttachment } from './weapon-attachment.js?v=motions18';
+import { WeaponAttachment } from './weapon-attachment.js?v=c96-right-arm20';
 
 const $ = (selector) => document.querySelector(selector);
 const motionLabels = {};
@@ -308,10 +308,10 @@ function selectWeapon(id, switchMotion = true) {
 }
 
 async function equipWeapons() {
-  const config = await fetch('./assets/weapon_attachment.json?v=motions18').then(r => r.json());
+  const config = await fetch('./assets/weapon_attachment.json?v=c96-right-arm20').then(r => r.json());
   weaponConfig = config;
   const scenes = new Map(await Promise.all(Object.keys(config.weapons).map(async id => {
-    const gltf = await loader.loadAsync('./assets/weapons/' + id + '.glb?v=motions18');
+    const gltf = await loader.loadAsync('./assets/weapons/' + id + '.glb?v=c96-right-arm20');
     return [id, gltf.scene];
   })));
   models.get('fixed').weaponAttachment = new WeaponAttachment(models.get('fixed'), config, 'diandian', scenes, scene);
@@ -323,7 +323,7 @@ async function equipWeapons() {
 }
 
 async function equipMotionPack() {
-  const packs = await Promise.all(['motion_additions.glb', 'leon_pistol_animations.glb', 're4_shotgun_animations.glb'].map(file => loader.loadAsync('./assets/' + file + '?v=motions18')));
+  const packs = await Promise.all(['motion_additions.glb', 'leon_pistol_animations.glb', 're4_shotgun_animations.glb'].map(file => loader.loadAsync('./assets/' + file + '?v=c96-right-arm20')));
   const model = models.get('fixed');
   for (const pack of packs) for (const clip of pack.animations) model.actions.set(clip.name, model.mixer.clipAction(clip));
 }
@@ -543,9 +543,9 @@ render();
 
 async function load() {
   document.querySelectorAll('[data-motion], [data-version]').forEach(button => { button.disabled = true; });
-  const info = await fetch('./assets/rig_info.json?v=motions18').then(response => response.json());
+  const info = await fetch('./assets/rig_info.json?v=c96-right-arm20').then(response => response.json());
   setMotionControls(info);
-  const fixed = await loader.loadAsync('./assets/diandian_fixed.glb?v=motions18', event => {
+  const fixed = await loader.loadAsync('./assets/diandian_fixed.glb?v=c96-right-arm20', event => {
     const ratio = event.total ? event.loaded / event.total : Math.min(.9, event.loaded / 15000000);
     progress.style.width = `${ratio * 95}%`;
     if (event.total) $('#loading-detail').textContent = `正在载入模型与动作 · ${Math.round(ratio * 100)}%`;
@@ -562,7 +562,7 @@ async function load() {
   $('[data-version="fixed"]').disabled = false;
   progress.style.width = '100%';
   loading.classList.add('hidden');
-  const before = await loader.loadAsync('./assets/diandian_before.glb?v=motions18');
+  const before = await loader.loadAsync('./assets/diandian_before.glb?v=c96-right-arm20');
   prepareModel(before, 'before');
   setFaceControls(info);
   updateComparisonAvailability();
