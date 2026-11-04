@@ -1,0 +1,204 @@
+{
+  "diandian": {
+    "maximumCorrections": [
+      0,
+      33.433294544447115,
+      30.000000302804807
+    ],
+    "maximumAddedAxialTwistDegrees": [
+      0,
+      1.3420448229551296e-05,
+      1.1774951215161558e-05
+    ],
+    "repeatedSeekDriftDegrees": [
+      0,
+      0,
+      0
+    ],
+    "nonfinite": 0,
+    "cases": [
+      {
+        "motion": "ShotgunAimLevel",
+        "time": 0,
+        "corrections": [
+          0,
+          33.433275637072576,
+          29.743424344548284
+        ]
+      },
+      {
+        "motion": "ShotgunAimLevel",
+        "time": 0.17777778704961142,
+        "corrections": [
+          0,
+          33.433275637072576,
+          29.743424344548284
+        ]
+      },
+      {
+        "motion": "ShotgunAimLevel",
+        "time": 0.35555557409922284,
+        "corrections": [
+          0,
+          33.433275637072576,
+          29.743424344548284
+        ]
+      },
+      {
+        "motion": "ShotgunPump",
+        "time": 0,
+        "corrections": [
+          0,
+          33.433294544447115,
+          29.743236707103076
+        ]
+      },
+      {
+        "motion": "ShotgunPump",
+        "time": 0.2444444497426351,
+        "corrections": [
+          0,
+          33.43328759244814,
+          29.74323437004254
+        ]
+      },
+      {
+        "motion": "ShotgunPump",
+        "time": 0.4888888994852702,
+        "corrections": [
+          0,
+          33.433287878066956,
+          29.74325093647169
+        ]
+      },
+      {
+        "motion": "RifleRun",
+        "time": 0,
+        "corrections": [
+          0,
+          26.507903839571686,
+          29.999999230950717
+        ]
+      },
+      {
+        "motion": "RifleRun",
+        "time": 0.22222222884496054,
+        "corrections": [
+          0,
+          26.50792266625191,
+          29.99999923608249
+        ]
+      },
+      {
+        "motion": "RifleRun",
+        "time": 0.4444444576899211,
+        "corrections": [
+          0,
+          26.507938736172807,
+          30.000000302804807
+        ]
+      }
+    ]
+  },
+  "zhigeng": {
+    "maximumCorrections": [
+      2.4148365394514667e-06,
+      35.00001011210687,
+      30.000021366557398
+    ],
+    "maximumAddedAxialTwistDegrees": [
+      0,
+      7.084150730910164e-06,
+      1.8485019907105915e-05
+    ],
+    "repeatedSeekDriftDegrees": [
+      0,
+      0,
+      0
+    ],
+    "nonfinite": 0,
+    "cases": [
+      {
+        "motion": "ShotgunAimLevel",
+        "time": 0,
+        "corrections": [
+          0,
+          15.131432631201376,
+          30.000008015399253
+        ]
+      },
+      {
+        "motion": "ShotgunAimLevel",
+        "time": 0.17777778704961142,
+        "corrections": [
+          0,
+          15.131432631201376,
+          30.000008015399253
+        ]
+      },
+      {
+        "motion": "ShotgunAimLevel",
+        "time": 0.35555557409922284,
+        "corrections": [
+          0,
+          15.131432631201376,
+          30.000008015399253
+        ]
+      },
+      {
+        "motion": "ShotgunPump",
+        "time": 0,
+        "corrections": [
+          0,
+          15.131694758215659,
+          30.000021366557398
+        ]
+      },
+      {
+        "motion": "ShotgunPump",
+        "time": 0.2444444497426351,
+        "corrections": [
+          0,
+          15.13169956799969,
+          29.999997782926574
+        ]
+      },
+      {
+        "motion": "ShotgunPump",
+        "time": 0.4888888994852702,
+        "corrections": [
+          0,
+          15.131707067791979,
+          30.0000021156602
+        ]
+      },
+      {
+        "motion": "RifleRun",
+        "time": 0,
+        "corrections": [
+          0,
+          35.00000566796936,
+          30.000005422315844
+        ]
+      },
+      {
+        "motion": "RifleRun",
+        "time": 0.22222222884496054,
+        "corrections": [
+          0,
+          35.00001011210687,
+          30.000005280875754
+        ]
+      },
+      {
+        "motion": "RifleRun",
+        "time": 0.4444444576899211,
+        "corrections": [
+          2.4148365394514667e-06,
+          35.0000050380947,
+          29.99999943954299
+        ]
+      }
+    ]
+  }
+}

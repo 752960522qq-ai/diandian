@@ -1,0 +1,28 @@
+{
+  "file": "/workspace/diandian/assets/characters/diandian_classic/diandian_classic_fixed.glb",
+  "original_sha256": "bf7b31b5a7c24591d7f38a84541b5ff4179f75965bed7af1f86e846ef7ba1c90",
+  "fixed_sha256": "cfc7643363d9b3c5c643bc8f8b0c14a8fae6c4c7085eb0eb9b5f977b26d07e6b",
+  "original_bin_prefix_preserved": true,
+  "existing_nodes_preserved": true,
+  "existing_animations_preserved": true,
+  "waist_boundary_vertices": 34,
+  "boundary_match_error_m": 1.4389461216202353e-07,
+  "new_vertices": 308,
+  "new_triangles": 612,
+  "seam_max_position_error_m": 0.0,
+  "seam_weights_copied": true,
+  "new_upper_overlap_native_m": 0.065,
+  "new_lower_overlap_native_m": 0.065,
+  "repair_strategy": "Original open waist boundary is the middle ring of a closed anatomical abdomen, extending into both jacket and trousers",
+  "original_json_arrays_preserved": {
+    "nodes": true,
+    "skins": true,
+    "animations": true,
+    "accessors": true,
+    "bufferViews": true,
+    "materials": true,
+    "images": true,
+    "textures": true,
+    "samplers": true
+  }
+}

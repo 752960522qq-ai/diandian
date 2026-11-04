@@ -16,3 +16,6 @@ assets/weapons/source/*.glb filter=lfs diff=lfs merge=lfs -text
 
 web/motion-labs/**/*.glb filter=lfs diff=lfs merge=lfs -text
 assets/animations/motion_lab_v16/**/*.glb filter=lfs diff=lfs merge=lfs -text
+
+assets/animations/re4_shotgun/**/*.glb filter=lfs diff=lfs merge=lfs -text
+assets/animations/re4_shotgun/source/*.fbx filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,28 @@
+{
+  "file": "/workspace/diandian/assets/characters/zhigeng/zhigeng_character_animated.glb",
+  "original_sha256": "eb53bbf67c3c2c1d4ee9564e78ccc04590eee49354d481b5357e53e4dc8328b4",
+  "fixed_sha256": "21d0232cef6c3e5e7c0ec89fae97421f6a6aee4eb809fa54e702a0eb43254762",
+  "original_bin_prefix_preserved": true,
+  "existing_nodes_preserved": true,
+  "existing_animations_preserved": true,
+  "waist_boundary_vertices": 19,
+  "boundary_match_error_m": 2.626858017240472e-07,
+  "new_vertices": 173,
+  "new_triangles": 342,
+  "seam_max_position_error_m": 0.0,
+  "seam_weights_copied": true,
+  "new_upper_overlap_native_m": 0.065,
+  "new_lower_overlap_native_m": 0.065,
+  "repair_strategy": "Original open waist boundary is the middle ring of a closed anatomical abdomen, extending into both jacket and trousers",
+  "original_json_arrays_preserved": {
+    "nodes": true,
+    "skins": true,
+    "animations": true,
+    "accessors": true,
+    "bufferViews": true,
+    "materials": true,
+    "images": true,
+    "textures": true,
+    "samplers": true
+  }
+}

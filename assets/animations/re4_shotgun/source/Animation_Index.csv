@@ -1,0 +1,10 @@
+﻿file,take,source_mca,source_start_0_based,source_end_0_based,export_start,export_end,duration_seconds_at_30fps,export_fps,source_fps_verified,description,editorial_trim
+RE4_Shotgun_Pump.fbx,Pump_Up_FromShot_Src7_29,ch_leon_w02_007_ueshot.mca,7,29,1,23,0.7333333333333333,30,False,从上瞄射击中裁剪：拉泵及回瞄准,True
+RE4_Shotgun_Pump.fbx,Pump_Down_FromShot_Src7_29,ch_leon_w02_009_shitashot.mca,7,29,1,23,0.7333333333333333,30,False,从下瞄射击中裁剪：拉泵及回瞄准,True
+RE4_Shotgun_Reload.fbx,Reload_SourceFull,ch_leon_w02_005_reload.mca,0,59,1,60,1.9666666666666666,30,False,完整换弹,False
+RE4_Shotgun_Aim.fbx,Aim_Up_SourceFull,ch_leon_w02_006_uetaiki.mca,0,16,1,17,0.5333333333333333,30,False,上瞄端点动作,False
+RE4_Shotgun_Aim.fbx,Aim_Down_SourceFull,ch_leon_w02_008_shitataiki.mca,0,1,1,2,0.03333333333333333,30,False,下瞄端点姿势（近静止）,False
+RE4_Shotgun_Fire.fbx,Fire_Up_FromShot_Src0_7,ch_leon_w02_007_ueshot.mca,0,7,1,8,0.23333333333333334,30,False,从上瞄射击中裁剪：开枪后坐力,True
+RE4_Shotgun_Fire.fbx,Fire_Down_FromShot_Src0_7,ch_leon_w02_009_shitashot.mca,0,7,1,8,0.23333333333333334,30,False,从下瞄射击中裁剪：开枪后坐力,True
+RE4_Shotgun_FullFireCycle_REFERENCE.fbx,FullFireCycle_Up_SourceFull,ch_leon_w02_007_ueshot.mca,0,29,1,30,0.9666666666666667,30,False,原始完整上瞄射击+拉泵循环，参考,False
+RE4_Shotgun_FullFireCycle_REFERENCE.fbx,FullFireCycle_Down_SourceFull,ch_leon_w02_009_shitashot.mca,0,29,1,30,0.9666666666666667,30,False,原始完整下瞄射击+拉泵循环，参考,False

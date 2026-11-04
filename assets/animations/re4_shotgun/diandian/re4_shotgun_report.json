@@ -1,0 +1,376 @@
+{
+  "character": "diandian",
+  "source_bones": 22,
+  "mapped_body_bones": 20,
+  "fps": 30,
+  "leg_length_ratio": 0.5854363859553016,
+  "aim_pitch_min_deg": -57.664782664317194,
+  "aim_pitch_max_deg": 56.29736500728776,
+  "level_up_weight": 0.5059585869312291,
+  "gun_axis_source": "Right hand local -X, up local +Z",
+  "quaternion_xyzw": [
+    0.6845517754554749,
+    -0.11646128445863724,
+    0.058092668652534485,
+    0.7172523736953735
+  ],
+  "fingers": "Existing RifleAimingIdle grip retained because source has no finger joints.",
+  "clips": {
+    "ShotgunAimUp": {
+      "samples": 17,
+      "duration_seconds": 0.5333333333333333,
+      "foot_joint_min_height_native": 0.06810964643955231,
+      "loop": true
+    },
+    "ShotgunAimDown": {
+      "samples": 2,
+      "duration_seconds": 0.03333333333333333,
+      "foot_joint_min_height_native": 0.06836184859275818,
+      "loop": true
+    },
+    "ShotgunAimLevel": {
+      "samples": 17,
+      "duration_seconds": 0.5333333333333333,
+      "foot_joint_min_height_native": 0.06831873953342438,
+      "loop": true
+    },
+    "ShotgunFireUp": {
+      "samples": 8,
+      "duration_seconds": 0.23333333333333334,
+      "foot_joint_min_height_native": 0.06629239022731781,
+      "loop": false
+    },
+    "ShotgunFireDown": {
+      "samples": 8,
+      "duration_seconds": 0.23333333333333334,
+      "foot_joint_min_height_native": 0.06745573878288269,
+      "loop": false
+    },
+    "ShotgunFireLevel": {
+      "samples": 8,
+      "duration_seconds": 0.23333333333333334,
+      "foot_joint_min_height_native": 0.06661823391914368,
+      "loop": false
+    },
+    "ShotgunPumpUp": {
+      "samples": 23,
+      "duration_seconds": 0.7333333333333333,
+      "foot_joint_min_height_native": 0.06673800945281982,
+      "loop": false
+    },
+    "ShotgunPumpDown": {
+      "samples": 23,
+      "duration_seconds": 0.7333333333333333,
+      "foot_joint_min_height_native": 0.06803026795387268,
+      "loop": false
+    },
+    "ShotgunPumpLevel": {
+      "samples": 23,
+      "duration_seconds": 0.7333333333333333,
+      "foot_joint_min_height_native": 0.06642806529998779,
+      "loop": false
+    },
+    "ShotgunCycleUp": {
+      "samples": 30,
+      "duration_seconds": 0.9666666666666667,
+      "foot_joint_min_height_native": 0.06629239022731781,
+      "loop": false
+    },
+    "ShotgunCycleDown": {
+      "samples": 30,
+      "duration_seconds": 0.9666666666666667,
+      "foot_joint_min_height_native": 0.06745573878288269,
+      "loop": false
+    },
+    "ShotgunCycleLevel": {
+      "samples": 30,
+      "duration_seconds": 0.9666666666666667,
+      "foot_joint_min_height_native": 0.06642806529998779,
+      "loop": false
+    },
+    "ShotgunReload": {
+      "samples": 60,
+      "duration_seconds": 1.9666666666666666,
+      "foot_joint_min_height_native": 0.06685343384742737,
+      "loop": false
+    }
+  },
+  "poses": {
+    "ShotgunAimUp": {
+      "RightHand": {
+        "world_position_blender": [
+          -0.027158042415976524,
+          0.1454777866601944,
+          0.8208930492401123
+        ],
+        "world_position_gltf": [
+          -0.027158042415976524,
+          0.8208930492401123,
+          -0.1454777866601944
+        ],
+        "world_quaternion_gltf": [
+          -0.000288449227809906,
+          -0.9531635046005249,
+          -0.26410242915153503,
+          0.14740794897079468
+        ]
+      },
+      "LeftHand": {
+        "world_position_blender": [
+          0.008955162018537521,
+          0.026935337111353874,
+          0.9870238304138184
+        ],
+        "world_position_gltf": [
+          0.008955162018537521,
+          0.9870238304138184,
+          -0.026935337111353874
+        ],
+        "world_quaternion_gltf": [
+          0.15214049816131592,
+          -0.010020598769187927,
+          0.29117119312286377,
+          0.9444427490234375
+        ]
+      },
+      "RightArm": {
+        "world_position_blender": [
+          0.004719594959169626,
+          0.22648151218891144,
+          0.6940281987190247
+        ],
+        "world_position_gltf": [
+          0.004719594959169626,
+          0.6940281987190247,
+          -0.22648151218891144
+        ],
+        "world_quaternion_gltf": [
+          0.02292090654373169,
+          0.46268603205680847,
+          0.663192868232727,
+          0.587853193283081
+        ]
+      },
+      "LeftArm": {
+        "world_position_blender": [
+          0.05902702733874321,
+          0.13016214966773987,
+          0.7929496765136719
+        ],
+        "world_position_gltf": [
+          0.05902702733874321,
+          0.7929496765136719,
+          -0.13016214966773987
+        ],
+        "world_quaternion_gltf": [
+          0.2774554491043091,
+          0.8639006614685059,
+          0.2847907245159149,
+          0.3091736435890198
+        ]
+      },
+      "Hips": {
+        "world_position_blender": [
+          0.0019522031070664525,
+          0.07223034650087357,
+          0.5536935329437256
+        ],
+        "world_position_gltf": [
+          0.0019522031070664525,
+          0.5536935329437256,
+          -0.07223034650087357
+        ],
+        "world_quaternion_gltf": [
+          -0.09683020412921906,
+          -0.982234001159668,
+          0.07625102996826172,
+          0.14151321351528168
+        ]
+      }
+    },
+    "ShotgunAimDown": {
+      "RightHand": {
+        "world_position_blender": [
+          -0.02336069755256176,
+          -0.05479121208190918,
+          0.6717017292976379
+        ],
+        "world_position_gltf": [
+          -0.02336069755256176,
+          0.6717017292976379,
+          0.05479121208190918
+        ],
+        "world_quaternion_gltf": [
+          -0.1487530767917633,
+          0.2986569106578827,
+          0.9391250610351562,
+          -0.08197928965091705
+        ]
+      },
+      "LeftHand": {
+        "world_position_blender": [
+          0.01033302117139101,
+          -0.16273300349712372,
+          0.49899306893348694
+        ],
+        "world_position_gltf": [
+          0.01033302117139101,
+          0.49899306893348694,
+          0.16273300349712372
+        ],
+        "world_quaternion_gltf": [
+          -0.9086427092552185,
+          0.26073524355888367,
+          -0.16644126176834106,
+          -0.28050464391708374
+        ]
+      },
+      "RightArm": {
+        "world_position_blender": [
+          0.010173139162361622,
+          0.0266705434769392,
+          0.7978443503379822
+        ],
+        "world_position_gltf": [
+          0.010173139162361622,
+          0.7978443503379822,
+          -0.0266705434769392
+        ],
+        "world_quaternion_gltf": [
+          -0.4900161623954773,
+          0.3064802289009094,
+          -0.763968288898468,
+          -0.2868911623954773
+        ]
+      },
+      "LeftArm": {
+        "world_position_blender": [
+          0.06170915812253952,
+          -0.07034329324960709,
+          0.6981220841407776
+        ],
+        "world_position_gltf": [
+          0.06170915812253952,
+          0.6981220841407776,
+          0.07034329324960709
+        ],
+        "world_quaternion_gltf": [
+          -0.36108240485191345,
+          -0.15020564198493958,
+          -0.9130678176879883,
+          0.11560677736997604
+        ]
+      },
+      "Hips": {
+        "world_position_blender": [
+          0.0019522031070664525,
+          0.07223034650087357,
+          0.5536935329437256
+        ],
+        "world_position_gltf": [
+          0.0019522031070664525,
+          0.5536935329437256,
+          -0.07223034650087357
+        ],
+        "world_quaternion_gltf": [
+          -0.07561635226011276,
+          -0.9667745232582092,
+          -0.08283478021621704,
+          0.22971197962760925
+        ]
+      }
+    },
+    "ShotgunAimLevel": {
+      "RightHand": {
+        "world_position_blender": [
+          -0.02633749507367611,
+          1.72806376212975e-05,
+          0.7782678604125977
+        ],
+        "world_position_gltf": [
+          -0.02633749507367611,
+          0.7782678604125977,
+          -1.72806376212975e-05
+        ],
+        "world_quaternion_gltf": [
+          0.08353830128908157,
+          -0.7162498235702515,
+          -0.6803457736968994,
+          0.13090917468070984
+        ]
+      },
+      "LeftHand": {
+        "world_position_blender": [
+          0.0031566284596920013,
+          -0.2073887288570404,
+          0.7741402387619019
+        ],
+        "world_position_gltf": [
+          0.0031566284596920013,
+          0.7741402387619019,
+          0.2073887288570404
+        ],
+        "world_quaternion_gltf": [
+          0.6172487735748291,
+          -0.15718622505664825,
+          0.2691037058830261,
+          0.7224123477935791
+        ]
+      },
+      "RightArm": {
+        "world_position_blender": [
+          0.008409962058067322,
+          0.14988332986831665,
+          0.7759808897972107
+        ],
+        "world_position_gltf": [
+          0.008409962058067322,
+          0.7759808897972107,
+          -0.14988332986831665
+        ],
+        "world_quaternion_gltf": [
+          0.28891807794570923,
+          0.09364637732505798,
+          0.8113127946853638,
+          0.4995279908180237
+        ]
+      },
+      "LeftArm": {
+        "world_position_blender": [
+          0.05996345728635788,
+          0.01076749712228775,
+          0.7770712971687317
+        ],
+        "world_position_gltf": [
+          0.05996345728635788,
+          0.7770712971687317,
+          -0.01076749712228775
+        ],
+        "world_quaternion_gltf": [
+          -0.37388330698013306,
+          -0.5990971326828003,
+          -0.6984270811080933,
+          -0.11616139113903046
+        ]
+      },
+      "Hips": {
+        "world_position_blender": [
+          0.0019522031070664525,
+          0.07223034650087357,
+          0.5536935329437256
+        ],
+        "world_position_gltf": [
+          0.0019522031070664525,
+          0.5536935329437256,
+          -0.07223034650087357
+        ],
+        "world_quaternion_gltf": [
+          -0.08671624958515167,
+          -0.9787365198135376,
+          -0.002356499433517456,
+          0.18587486445903778
+        ]
+      }
+    }
+  }
+}

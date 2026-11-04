@@ -9,3 +9,5 @@
 .motion-grid{max-height:328px;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;padding:2px}.motion-button{min-width:0}.motion-button small{max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:0 3px}@media(max-width:760px){.motion-grid{max-height:296px}}
 
 .weapon-toggle{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:3px;width:100%}.weapon-toggle button{min-width:0;white-space:nowrap}
+
+[hidden]{display:none!important}.shotgun-aim-section{grid-column:1/-1}.shotgun-aim-section output{font-size:10px;color:#ab6d5d;font-variant-numeric:tabular-nums}.shotgun-aim-section input{height:4px;background:linear-gradient(to right,#d59683 0%,#d59683 var(--progress,50%),#deded8 var(--progress,50%),#deded8 100%)}.shotgun-aim-section input::-webkit-slider-thumb{background:#bf8777}.shotgun-aim-section .range-labels{align-items:center}.shotgun-aim-section .range-labels button{font:inherit;color:#a96350;border:1px solid #dcb6a7;border-radius:4px;background:transparent;padding:5px 8px}.aim-help{font-size:9px;line-height:1.8;color:#8b8e88;margin:11px 0 0}

@@ -1,0 +1,1202 @@
+{
+  "diandian": {
+    "original_vs_fixed_rays": {
+      "before": [
+        {
+          "sx": 338,
+          "sy": 345,
+          "hits": [
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.019874391372155634,
+                1.0528280162493,
+                -0.23047154039410825
+              ],
+              "face": 22619
+            },
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.022401535124881376,
+                1.054459172671514,
+                -0.11990597019059085
+              ],
+              "face": 2930
+            }
+          ]
+        },
+        {
+          "sx": 348,
+          "sy": 339,
+          "hits": [
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.028961785890681418,
+                1.0582821273434915,
+                -0.2288599025016572
+              ],
+              "face": 22620
+            },
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.032267514210985115,
+                1.0603688683456831,
+                -0.12942706703625345
+              ],
+              "face": 2752
+            }
+          ]
+        },
+        {
+          "sx": 365,
+          "sy": 344,
+          "hits": [
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.044024122625851814,
+                1.0536564625288354,
+                -0.23521674143065005
+              ],
+              "face": 22614
+            },
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.04442028511028314,
+                1.0537793537484956,
+                -0.2274347650101076
+              ],
+              "face": 22594
+            },
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.04940243470314146,
+                1.0553248368875046,
+                -0.12956842940568267
+              ],
+              "face": 2930
+            }
+          ]
+        },
+        {
+          "sx": 345,
+          "sy": 320,
+          "hits": [
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.026815411063906412,
+                1.0762470384036271,
+                -0.20998135469460497
+              ],
+              "face": 22665
+            },
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.028521817303310205,
+                1.0785536289065452,
+                -0.15334476740100028
+              ],
+              "face": 2935
+            },
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.0406319813340194,
+                1.0949232299411598,
+                0.2485984196473401
+              ],
+              "face": 10329
+            },
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.04115242439991922,
+                1.0956267253957552,
+                0.2658722190818087
+              ],
+              "face": 6670
+            }
+          ]
+        },
+        {
+          "sx": 350,
+          "sy": 315,
+          "hits": [
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.03314612894454744,
+                1.0830899676279129,
+                -0.1616463611923116
+              ],
+              "face": 2936
+            },
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.04790631660765001,
+                1.1022782115899465,
+                0.2562086416144337
+              ],
+              "face": 10315
+            }
+          ]
+        },
+        {
+          "sx": 375,
+          "sy": 325,
+          "hits": [
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.057220448478947174,
+                1.0731684633555956,
+                -0.16650522867193565
+              ],
+              "face": 2934
+            }
+          ]
+        },
+        {
+          "sx": 390,
+          "sy": 337,
+          "hits": [
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.06857788560929033,
+                1.0605733656827858,
+                -0.20799966987395982
+              ],
+              "face": 21399
+            },
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.0733050686324339,
+                1.0619915205897288,
+                -0.14651266455516312
+              ],
+              "face": 2752
+            },
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.08079335159034354,
+                1.0642380054771017,
+                -0.049111719466420393
+              ],
+              "face": 21853
+            }
+          ]
+        },
+        {
+          "sx": 400,
+          "sy": 345,
+          "hits": [
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.07746718044137058,
+                1.0530956424079454,
+                -0.21233088973115283
+              ],
+              "face": 21399
+            },
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.09075172983013353,
+                1.0553413638522364,
+                -0.060107921642485795
+              ],
+              "face": 2743
+            }
+          ]
+        }
+      ],
+      "after": [
+        {
+          "sx": 338,
+          "sy": 345,
+          "hits": [
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.019874391372155634,
+                1.0528280162493,
+                -0.23047154039410825
+              ],
+              "face": 22619
+            },
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f_3",
+              "material": "Anatomical_Waist_Continuous_Surface",
+              "world": [
+                -0.02051344808555381,
+                1.0532404983097663,
+                -0.2025120427070276
+              ],
+              "face": 142
+            },
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.022401535124881376,
+                1.054459172671514,
+                -0.11990597019059085
+              ],
+              "face": 2930
+            }
+          ]
+        },
+        {
+          "sx": 348,
+          "sy": 339,
+          "hits": [
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.028961785890681418,
+                1.0582821273434915,
+                -0.2288599025016572
+              ],
+              "face": 22620
+            },
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f_3",
+              "material": "Anatomical_Waist_Continuous_Surface",
+              "world": [
+                -0.02978572889132881,
+                1.05880224136265,
+                -0.2040765625299331
+              ],
+              "face": 141
+            },
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.032267514210985115,
+                1.0603688683456831,
+                -0.12942706703625345
+              ],
+              "face": 2752
+            }
+          ]
+        },
+        {
+          "sx": 365,
+          "sy": 344,
+          "hits": [
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.044024122625851814,
+                1.0536564625288354,
+                -0.23521674143065005
+              ],
+              "face": 22614
+            },
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.04442028511028314,
+                1.0537793537484956,
+                -0.2274347650101076
+              ],
+              "face": 22594
+            },
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f_3",
+              "material": "Anatomical_Waist_Continuous_Surface",
+              "world": [
+                -0.04545030951429296,
+                1.0540988715228006,
+                -0.2072015881203427
+              ],
+              "face": 206
+            },
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.04940243470314146,
+                1.0553248368875046,
+                -0.12956842940568267
+              ],
+              "face": 2930
+            }
+          ]
+        },
+        {
+          "sx": 345,
+          "sy": 320,
+          "hits": [
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.026815411063906412,
+                1.0762470384036271,
+                -0.20998135469460497
+              ],
+              "face": 22665
+            },
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f_3",
+              "material": "Anatomical_Waist_Continuous_Surface",
+              "world": [
+                -0.02689269218779509,
+                1.0763515011641938,
+                -0.20741635052490726
+              ],
+              "face": 209
+            },
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.028521817303310205,
+                1.0785536289065452,
+                -0.15334476740100028
+              ],
+              "face": 2935
+            },
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.0406319813340194,
+                1.0949232299411598,
+                0.2485984196473401
+              ],
+              "face": 10329
+            },
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.04115242439991922,
+                1.0956267253957552,
+                0.2658722190818087
+              ],
+              "face": 6670
+            }
+          ]
+        },
+        {
+          "sx": 350,
+          "sy": 315,
+          "hits": [
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f_3",
+              "material": "Anatomical_Waist_Continuous_Surface",
+              "world": [
+                -0.03148855188633385,
+                1.080935117452235,
+                -0.20857170402136352
+              ],
+              "face": 276
+            },
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.03314612894454744,
+                1.0830899676279129,
+                -0.1616463611923116
+              ],
+              "face": 2936
+            },
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.04790631660765001,
+                1.1022782115899465,
+                0.2562086416144337
+              ],
+              "face": 10315
+            }
+          ]
+        },
+        {
+          "sx": 375,
+          "sy": 325,
+          "hits": [
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f_3",
+              "material": "Anatomical_Waist_Continuous_Surface",
+              "world": [
+                -0.05406187906666525,
+                1.0713375637979676,
+                -0.21803415075521412
+              ],
+              "face": 274
+            },
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.057220448478947174,
+                1.0731684633555956,
+                -0.16650522867193565
+              ],
+              "face": 2934
+            }
+          ]
+        },
+        {
+          "sx": 390,
+          "sy": 337,
+          "hits": [
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f_3",
+              "material": "Anatomical_Waist_Continuous_Surface",
+              "world": [
+                -0.06769607082895125,
+                1.0603088212486842,
+                -0.2194695346588538
+              ],
+              "face": 205
+            },
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.06857788560929033,
+                1.0605733656827858,
+                -0.20799966987395982
+              ],
+              "face": 21399
+            },
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.0733050686324339,
+                1.0619915205897288,
+                -0.14651266455516312
+              ],
+              "face": 2752
+            },
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.08079335159034354,
+                1.0642380054771017,
+                -0.049111719466420393
+              ],
+              "face": 21853
+            }
+          ]
+        },
+        {
+          "sx": 400,
+          "sy": 345,
+          "hits": [
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.07746718044137058,
+                1.0530956424079454,
+                -0.21233088973115283
+              ],
+              "face": 21399
+            },
+            {
+              "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+              "world": [
+                -0.09075172983013353,
+                1.0553413638522364,
+                -0.060107921642485795
+              ],
+              "face": 2743
+            }
+          ]
+        }
+      ],
+      "original_holes_now_closed": [
+        {
+          "screen": [
+            350,
+            315
+          ],
+          "before_hits": 2,
+          "before_first": {
+            "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+            "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+            "world": [
+              -0.03314612894454744,
+              1.0830899676279129,
+              -0.1616463611923116
+            ],
+            "face": 2936
+          },
+          "after_first": {
+            "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f_3",
+            "material": "Anatomical_Waist_Continuous_Surface",
+            "world": [
+              -0.03148855188633385,
+              1.080935117452235,
+              -0.20857170402136352
+            ],
+            "face": 276
+          }
+        },
+        {
+          "screen": [
+            375,
+            325
+          ],
+          "before_hits": 1,
+          "before_first": {
+            "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+            "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+            "world": [
+              -0.057220448478947174,
+              1.0731684633555956,
+              -0.16650522867193565
+            ],
+            "face": 2934
+          },
+          "after_first": {
+            "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f_3",
+            "material": "Anatomical_Waist_Continuous_Surface",
+            "world": [
+              -0.05406187906666525,
+              1.0713375637979676,
+              -0.21803415075521412
+            ],
+            "face": 274
+          }
+        },
+        {
+          "screen": [
+            390,
+            337
+          ],
+          "before_hits": 3,
+          "before_first": {
+            "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+            "material": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f",
+            "world": [
+              -0.06857788560929033,
+              1.0605733656827858,
+              -0.20799966987395982
+            ],
+            "face": 21399
+          },
+          "after_first": {
+            "mesh": "tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f_3",
+            "material": "Anatomical_Waist_Continuous_Surface",
+            "world": [
+              -0.06769607082895125,
+              1.0603088212486842,
+              -0.2194695346588538
+            ],
+            "face": 205
+          }
+        }
+      ]
+    },
+    "cases": [
+      {
+        "motion": "RifleRun",
+        "time": 0,
+        "back_screenshot": "waist_diandian_RifleRun_0_back.png"
+      },
+      {
+        "motion": "RifleRun",
+        "time": 0.15,
+        "back_screenshot": "waist_diandian_RifleRun_0.15_back.png"
+      },
+      {
+        "motion": "RifleRun",
+        "time": 0.3,
+        "back_screenshot": "waist_diandian_RifleRun_0.3_back.png"
+      },
+      {
+        "motion": "RifleRun",
+        "time": 0.45,
+        "back_screenshot": "waist_diandian_RifleRun_0.45_back.png"
+      },
+      {
+        "motion": "RifleRun",
+        "time": 0.6,
+        "back_screenshot": "waist_diandian_RifleRun_0.6_back.png"
+      },
+      {
+        "motion": "Idle",
+        "time": 0,
+        "back_screenshot": "waist_diandian_Idle_0_back.png"
+      },
+      {
+        "motion": "Walk",
+        "time": 0.3,
+        "back_screenshot": "waist_diandian_Walk_0.3_back.png"
+      },
+      {
+        "motion": "ShotgunAimUp",
+        "time": 0,
+        "back_screenshot": "waist_diandian_ShotgunAimUp_0_back.png"
+      },
+      {
+        "motion": "ShotgunAimDown",
+        "time": 0,
+        "back_screenshot": "waist_diandian_ShotgunAimDown_0_back.png"
+      },
+      {
+        "motion": "Reloading",
+        "time": 0.8,
+        "back_screenshot": "waist_diandian_Reloading_0.8_back.png"
+      }
+    ],
+    "page_errors": []
+  },
+  "zhigeng": {
+    "original_vs_fixed_rays": {
+      "before": [
+        {
+          "sx": 338,
+          "sy": 345,
+          "hits": []
+        },
+        {
+          "sx": 348,
+          "sy": 339,
+          "hits": []
+        },
+        {
+          "sx": 365,
+          "sy": 344,
+          "hits": [
+            {
+              "mesh": "Zhigeng_Body",
+              "material": "c31c5a81_45cd_4e88_a913_c7c7df8845a0",
+              "world": [
+                -0.06104783568505914,
+                1.058937287804344,
+                0.09918678950186535
+              ],
+              "face": 14734
+            }
+          ]
+        },
+        {
+          "sx": 345,
+          "sy": 320,
+          "hits": [
+            {
+              "mesh": "Zhigeng_Body",
+              "material": "c31c5a81_45cd_4e88_a913_c7c7df8845a0",
+              "world": [
+                -0.03144948309959592,
+                1.0825110254311796,
+                -0.05617388533966238
+              ],
+              "face": 24197
+            }
+          ]
+        },
+        {
+          "sx": 350,
+          "sy": 315,
+          "hits": [
+            {
+              "mesh": "Zhigeng_Body",
+              "material": "c31c5a81_45cd_4e88_a913_c7c7df8845a0",
+              "world": [
+                -0.03702967546436741,
+                1.0881385781036785,
+                -0.05170471417680233
+              ],
+              "face": 24209
+            },
+            {
+              "mesh": "Zhigeng_Body",
+              "material": "c31c5a81_45cd_4e88_a913_c7c7df8845a0",
+              "world": [
+                -0.05454379945160147,
+                1.1109069392870832,
+                0.44411312329810776
+              ],
+              "face": 10719
+            }
+          ]
+        },
+        {
+          "sx": 375,
+          "sy": 325,
+          "hits": [
+            {
+              "mesh": "Zhigeng_Body",
+              "material": "c31c5a81_45cd_4e88_a913_c7c7df8845a0",
+              "world": [
+                -0.06479712323487796,
+                1.077560366349711,
+                -0.04289930707002793
+              ],
+              "face": 24200
+            },
+            {
+              "mesh": "Zhigeng_Body",
+              "material": "c31c5a81_45cd_4e88_a913_c7c7df8845a0",
+              "world": [
+                -0.07320853897421428,
+                1.0824361361511574,
+                0.09432458440341933
+              ],
+              "face": 14734
+            },
+            {
+              "mesh": "Zhigeng_Body",
+              "material": "c31c5a81_45cd_4e88_a913_c7c7df8845a0",
+              "world": [
+                -0.09187716359040106,
+                1.0932576100812188,
+                0.3988846486872316
+              ],
+              "face": 21331
+            },
+            {
+              "mesh": "Zhigeng_Body",
+              "material": "c31c5a81_45cd_4e88_a913_c7c7df8845a0",
+              "world": [
+                -0.09401577589266548,
+                1.0944972802632096,
+                0.4337739837960997
+              ],
+              "face": 11558
+            }
+          ]
+        },
+        {
+          "sx": 390,
+          "sy": 337,
+          "hits": [
+            {
+              "mesh": "Zhigeng_Body",
+              "material": "c31c5a81_45cd_4e88_a913_c7c7df8845a0",
+              "world": [
+                -0.08264070631464121,
+                1.0647922118943904,
+                -0.02508296720476951
+              ],
+              "face": 14198
+            },
+            {
+              "mesh": "Zhigeng_Body",
+              "material": "c31c5a81_45cd_4e88_a913_c7c7df8845a0",
+              "world": [
+                -0.08689758643449078,
+                1.0660692759303454,
+                0.030286754950945023
+              ],
+              "face": 1155
+            }
+          ]
+        },
+        {
+          "sx": 400,
+          "sy": 345,
+          "hits": [
+            {
+              "mesh": "Zhigeng_Body",
+              "material": "c31c5a81_45cd_4e88_a913_c7c7df8845a0",
+              "world": [
+                -0.09725184872424716,
+                1.0564401934748127,
+                0.014374649202421154
+              ],
+              "face": 1154
+            }
+          ]
+        }
+      ],
+      "after": [
+        {
+          "sx": 338,
+          "sy": 345,
+          "hits": [
+            {
+              "mesh": "Zhigeng_Body_OriginalClothing_Cleaned_1",
+              "material": "Anatomical_Waist_Continuous_Surface",
+              "world": [
+                -0.023509599299335607,
+                1.0551743777295703,
+                -0.07142683356115226
+              ],
+              "face": 118
+            }
+          ]
+        },
+        {
+          "sx": 348,
+          "sy": 339,
+          "hits": [
+            {
+              "mesh": "Zhigeng_Body_OriginalClothing_Cleaned_1",
+              "material": "Anatomical_Waist_Continuous_Surface",
+              "world": [
+                -0.034300730549493404,
+                1.0616523361593662,
+                -0.06827005530883642
+              ],
+              "face": 118
+            }
+          ]
+        },
+        {
+          "sx": 365,
+          "sy": 344,
+          "hits": [
+            {
+              "mesh": "Zhigeng_Body_OriginalClothing_Cleaned_1",
+              "material": "Anatomical_Waist_Continuous_Surface",
+              "world": [
+                -0.05279019006092908,
+                1.0563757324270626,
+                -0.06302141057144485
+              ],
+              "face": 117
+            },
+            {
+              "mesh": "Zhigeng_Body_OriginalClothing_Cleaned",
+              "material": "c31c5a81_45cd_4e88_a913_c7c7df8845a0",
+              "world": [
+                -0.06104783568505914,
+                1.058937287804344,
+                0.09918678950186535
+              ],
+              "face": 14734
+            }
+          ]
+        },
+        {
+          "sx": 345,
+          "sy": 320,
+          "hits": [
+            {
+              "mesh": "Zhigeng_Body_OriginalClothing_Cleaned_1",
+              "material": "Anatomical_Waist_Continuous_Surface",
+              "world": [
+                -0.03142914548538243,
+                1.0824835345871393,
+                -0.05684890224721197
+              ],
+              "face": 156
+            },
+            {
+              "mesh": "Zhigeng_Body_OriginalClothing_Cleaned",
+              "material": "c31c5a81_45cd_4e88_a913_c7c7df8845a0",
+              "world": [
+                -0.03144948309959592,
+                1.0825110254311796,
+                -0.05617388533966238
+              ],
+              "face": 24197
+            }
+          ]
+        },
+        {
+          "sx": 350,
+          "sy": 315,
+          "hits": [
+            {
+              "mesh": "Zhigeng_Body_OriginalClothing_Cleaned_1",
+              "material": "Anatomical_Waist_Continuous_Surface",
+              "world": [
+                -0.03700834059270398,
+                1.0881108427705162,
+                -0.052308695851174335
+              ],
+              "face": 156
+            },
+            {
+              "mesh": "Zhigeng_Body_OriginalClothing_Cleaned",
+              "material": "c31c5a81_45cd_4e88_a913_c7c7df8845a0",
+              "world": [
+                -0.03702967546436741,
+                1.0881385781036785,
+                -0.05170471417680233
+              ],
+              "face": 24209
+            },
+            {
+              "mesh": "Zhigeng_Body_OriginalClothing_Cleaned",
+              "material": "c31c5a81_45cd_4e88_a913_c7c7df8845a0",
+              "world": [
+                -0.05454379945160147,
+                1.1109069392870832,
+                0.44411312329810776
+              ],
+              "face": 10719
+            }
+          ]
+        },
+        {
+          "sx": 375,
+          "sy": 325,
+          "hits": [
+            {
+              "mesh": "Zhigeng_Body_OriginalClothing_Cleaned_1",
+              "material": "Anatomical_Waist_Continuous_Surface",
+              "world": [
+                -0.06467240062108302,
+                1.0774880695125624,
+                -0.04493403260851757
+              ],
+              "face": 154
+            },
+            {
+              "mesh": "Zhigeng_Body_OriginalClothing_Cleaned",
+              "material": "c31c5a81_45cd_4e88_a913_c7c7df8845a0",
+              "world": [
+                -0.06479712323487796,
+                1.077560366349711,
+                -0.04289930707002793
+              ],
+              "face": 24200
+            },
+            {
+              "mesh": "Zhigeng_Body_OriginalClothing_Cleaned",
+              "material": "c31c5a81_45cd_4e88_a913_c7c7df8845a0",
+              "world": [
+                -0.07320853897421428,
+                1.0824361361511574,
+                0.09432458440341933
+              ],
+              "face": 14734
+            },
+            {
+              "mesh": "Zhigeng_Body_OriginalClothing_Cleaned",
+              "material": "c31c5a81_45cd_4e88_a913_c7c7df8845a0",
+              "world": [
+                -0.09187716359040106,
+                1.0932576100812188,
+                0.3988846486872316
+              ],
+              "face": 21331
+            },
+            {
+              "mesh": "Zhigeng_Body_OriginalClothing_Cleaned",
+              "material": "c31c5a81_45cd_4e88_a913_c7c7df8845a0",
+              "world": [
+                -0.09401577589266548,
+                1.0944972802632096,
+                0.4337739837960997
+              ],
+              "face": 11558
+            }
+          ]
+        },
+        {
+          "sx": 390,
+          "sy": 337,
+          "hits": [
+            {
+              "mesh": "Zhigeng_Body_OriginalClothing_Cleaned_1",
+              "material": "Anatomical_Waist_Continuous_Surface",
+              "world": [
+                -0.08214011039111038,
+                1.0646420331173312,
+                -0.031594275115213
+              ],
+              "face": 152
+            },
+            {
+              "mesh": "Zhigeng_Body_OriginalClothing_Cleaned",
+              "material": "c31c5a81_45cd_4e88_a913_c7c7df8845a0",
+              "world": [
+                -0.08264070631464121,
+                1.0647922118943904,
+                -0.02508296720476951
+              ],
+              "face": 14198
+            },
+            {
+              "mesh": "Zhigeng_Body_OriginalClothing_Cleaned",
+              "material": "c31c5a81_45cd_4e88_a913_c7c7df8845a0",
+              "world": [
+                -0.08689758643449078,
+                1.0660692759303454,
+                0.030286754950945023
+              ],
+              "face": 1155
+            }
+          ]
+        },
+        {
+          "sx": 400,
+          "sy": 345,
+          "hits": [
+            {
+              "mesh": "Zhigeng_Body_OriginalClothing_Cleaned",
+              "material": "c31c5a81_45cd_4e88_a913_c7c7df8845a0",
+              "world": [
+                -0.09725184872424716,
+                1.0564401934748127,
+                0.014374649202421154
+              ],
+              "face": 1154
+            }
+          ]
+        }
+      ],
+      "original_holes_now_closed": [
+        {
+          "screen": [
+            338,
+            345
+          ],
+          "before_hits": 0,
+          "before_first": null,
+          "after_first": {
+            "mesh": "Zhigeng_Body_OriginalClothing_Cleaned_1",
+            "material": "Anatomical_Waist_Continuous_Surface",
+            "world": [
+              -0.023509599299335607,
+              1.0551743777295703,
+              -0.07142683356115226
+            ],
+            "face": 118
+          }
+        },
+        {
+          "screen": [
+            348,
+            339
+          ],
+          "before_hits": 0,
+          "before_first": null,
+          "after_first": {
+            "mesh": "Zhigeng_Body_OriginalClothing_Cleaned_1",
+            "material": "Anatomical_Waist_Continuous_Surface",
+            "world": [
+              -0.034300730549493404,
+              1.0616523361593662,
+              -0.06827005530883642
+            ],
+            "face": 118
+          }
+        },
+        {
+          "screen": [
+            365,
+            344
+          ],
+          "before_hits": 1,
+          "before_first": {
+            "mesh": "Zhigeng_Body",
+            "material": "c31c5a81_45cd_4e88_a913_c7c7df8845a0",
+            "world": [
+              -0.06104783568505914,
+              1.058937287804344,
+              0.09918678950186535
+            ],
+            "face": 14734
+          },
+          "after_first": {
+            "mesh": "Zhigeng_Body_OriginalClothing_Cleaned_1",
+            "material": "Anatomical_Waist_Continuous_Surface",
+            "world": [
+              -0.05279019006092908,
+              1.0563757324270626,
+              -0.06302141057144485
+            ],
+            "face": 117
+          }
+        }
+      ]
+    },
+    "cases": [
+      {
+        "motion": "RifleRun",
+        "time": 0,
+        "back_screenshot": "waist_zhigeng_RifleRun_0_back.png"
+      },
+      {
+        "motion": "RifleRun",
+        "time": 0.15,
+        "back_screenshot": "waist_zhigeng_RifleRun_0.15_back.png"
+      },
+      {
+        "motion": "RifleRun",
+        "time": 0.3,
+        "back_screenshot": "waist_zhigeng_RifleRun_0.3_back.png"
+      },
+      {
+        "motion": "RifleRun",
+        "time": 0.45,
+        "back_screenshot": "waist_zhigeng_RifleRun_0.45_back.png"
+      },
+      {
+        "motion": "RifleRun",
+        "time": 0.6,
+        "back_screenshot": "waist_zhigeng_RifleRun_0.6_back.png"
+      },
+      {
+        "motion": "Idle",
+        "time": 0,
+        "back_screenshot": "waist_zhigeng_Idle_0_back.png"
+      },
+      {
+        "motion": "Walk",
+        "time": 0.3,
+        "back_screenshot": "waist_zhigeng_Walk_0.3_back.png"
+      },
+      {
+        "motion": "ShotgunAimUp",
+        "time": 0,
+        "back_screenshot": "waist_zhigeng_ShotgunAimUp_0_back.png"
+      },
+      {
+        "motion": "ShotgunAimDown",
+        "time": 0,
+        "back_screenshot": "waist_zhigeng_ShotgunAimDown_0_back.png"
+      },
+      {
+        "motion": "Reloading",
+        "time": 0.8,
+        "back_screenshot": "waist_zhigeng_Reloading_0.8_back.png"
+      }
+    ],
+    "page_errors": []
+  }
+}

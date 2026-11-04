@@ -1,0 +1,1052 @@
+{
+  "diandian": {
+    "cases": [
+      {
+        "motion": "RifleIdle",
+        "time": 0,
+        "corrections": [
+          0,
+          34.51637710381387,
+          29.999993821420233
+        ],
+        "contact": {
+          "visible": true,
+          "selectedWeapon": "winchester1897",
+          "motion": "RifleIdle",
+          "time": 0,
+          "actualClip": "HanyangIdle2",
+          "handScale": 0.9,
+          "leftContactErrorM": 3.935148788338567e-08,
+          "rightContactErrorM": 2.237712412795944e-08,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "rightPalmWorld": [
+            -0.0579460096043837,
+            1.0814720113051,
+            0.040570335493900926
+          ],
+          "rightSurfaceTargetWorld": [
+            -0.05794598879086317,
+            1.0814720050152646,
+            0.04057034078266439
+          ],
+          "pumpTravelM": 0,
+          "leftForearmTwistDegrees": -143.2329643372131,
+          "leftUpperTwistDegrees": -116.62583676883462,
+          "leftPalmWorld": [
+            0.07136567400841877,
+            0.9341044081286736,
+            0.1841234767845829
+          ],
+          "supportTargetWorld": [
+            0.07136564816192897,
+            0.9341044303759141,
+            0.18412349642023554
+          ],
+          "barrelPitchDegrees": -41.36372488698182,
+          "re4Shotgun": false,
+          "modelScale": 1,
+          "weaponPosition": [
+            0.04717796379008578,
+            1.0094830564885207,
+            0.15198288892591533
+          ],
+          "weaponQuaternion": [
+            0.12292178974088804,
+            0.8839959526851644,
+            0.3312032028287707,
+            -0.30617940440060576
+          ]
+        }
+      },
+      {
+        "motion": "RifleWalk",
+        "time": 0.3,
+        "corrections": [
+          0,
+          34.99999625321953,
+          30.000000008560754
+        ],
+        "contact": {
+          "visible": true,
+          "selectedWeapon": "winchester1897",
+          "motion": "RifleWalk",
+          "time": 0.3,
+          "actualClip": "HanyangWalk2",
+          "handScale": 0.9,
+          "leftContactErrorM": 3.8497516667272e-08,
+          "rightContactErrorM": 1.2865602381703962e-08,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "rightPalmWorld": [
+            -0.12627307718268985,
+            1.0593328231810406,
+            0.06181673414211583
+          ],
+          "rightSurfaceTargetWorld": [
+            -0.126273075158988,
+            1.0593328258896844,
+            0.06181672172875188
+          ],
+          "pumpTravelM": 0,
+          "leftForearmTwistDegrees": -104.24798910565039,
+          "leftUpperTwistDegrees": -95.3357925808256,
+          "leftPalmWorld": [
+            -0.022319453038318164,
+            0.9623153776064663,
+            0.25886361617940756
+          ],
+          "supportTargetWorld": [
+            -0.022319464503128567,
+            0.9623153550397286,
+            0.25886358717321406
+          ],
+          "barrelPitchDegrees": -27.622677912042562,
+          "re4Shotgun": false,
+          "modelScale": 1,
+          "weaponPosition": [
+            -0.04602175914466312,
+            1.0259863644364982,
+            0.2070542850053372
+          ],
+          "weaponQuaternion": [
+            0.04544756294090926,
+            0.9496078342033463,
+            0.23440714936636411,
+            -0.20305853483243974
+          ]
+        }
+      },
+      {
+        "motion": "RifleRun",
+        "time": 0.4,
+        "corrections": [
+          0,
+          26.507933834907217,
+          30.000000200497432
+        ],
+        "contact": {
+          "visible": true,
+          "selectedWeapon": "winchester1897",
+          "motion": "RifleRun",
+          "time": 0.4,
+          "actualClip": "RifleRun",
+          "handScale": 0.9,
+          "leftContactErrorM": 3.9863604720585836e-08,
+          "rightContactErrorM": 1.5668991275179514e-08,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "rightPalmWorld": [
+            -0.010864360582135142,
+            1.0916007177911655,
+            0.27265489317745206
+          ],
+          "rightSurfaceTargetWorld": [
+            -0.010864349670339696,
+            1.0916007206754452,
+            0.2726549040462578
+          ],
+          "pumpTravelM": 0,
+          "leftForearmTwistDegrees": -125.59062017482586,
+          "leftUpperTwistDegrees": -108.04332719438227,
+          "leftPalmWorld": [
+            0.24765806573532573,
+            1.1077113470908309,
+            0.317741516077235
+          ],
+          "supportTargetWorld": [
+            0.24765809736220862,
+            1.1077113677196424,
+            0.31774150329836987
+          ],
+          "barrelPitchDegrees": -0.053195041018455784,
+          "re4Shotgun": false,
+          "modelScale": 1,
+          "weaponPosition": [
+            0.15059276259531307,
+            1.137773495383939,
+            0.2937709115892352
+          ],
+          "weaponQuaternion": [
+            0.01800346564000335,
+            0.7829126569649986,
+            -0.013703829764495797,
+            -0.6217200751453514
+          ]
+        }
+      },
+      {
+        "motion": "ShotgunAimLevel",
+        "time": 0,
+        "corrections": [
+          0,
+          33.43327929681404,
+          29.743414744601726
+        ],
+        "contact": {
+          "visible": true,
+          "selectedWeapon": "winchester1897",
+          "motion": "ShotgunAimLevel",
+          "time": 0,
+          "actualClip": "ShotgunAimLevel",
+          "handScale": 0.9,
+          "leftContactErrorM": 1.6588135846063965e-07,
+          "rightContactErrorM": 7.176681966815442e-09,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "rightPalmWorld": [
+            -0.03282841399100341,
+            1.3470621928274893,
+            0.07202423106169728
+          ],
+          "rightSurfaceTargetWorld": [
+            -0.03282840937056279,
+            1.3470621894913681,
+            0.07202423542364503
+          ],
+          "pumpTravelM": 0,
+          "leftForearmTwistDegrees": -102.28165896785336,
+          "leftUpperTwistDegrees": -80.7368655275752,
+          "leftPalmWorld": [
+            -0.024527333691613376,
+            1.3618367571275254,
+            0.40417789445716024
+          ],
+          "supportTargetWorld": [
+            -0.024527392778207757,
+            1.3618366106135174,
+            0.404177843870157
+          ],
+          "barrelPitchDegrees": 3.6154328324320964e-05,
+          "re4Shotgun": true,
+          "modelScale": 1,
+          "weaponPosition": [
+            -0.023976601945728017,
+            1.394782176926651,
+            0.23416817858678035
+          ],
+          "weaponQuaternion": [
+            -0.02868945547106697,
+            0.9995625385351763,
+            -0.0002064993159231508,
+            0.0071835965866871195
+          ]
+        }
+      },
+      {
+        "motion": "ShotgunAimUp",
+        "time": 0,
+        "corrections": [
+          0,
+          33.43323489356286,
+          29.74353718231992
+        ],
+        "contact": {
+          "visible": true,
+          "selectedWeapon": "winchester1897",
+          "motion": "ShotgunAimUp",
+          "time": 0,
+          "actualClip": "ShotgunAimUp",
+          "handScale": 0.9,
+          "leftContactErrorM": 5.791144182103298e-08,
+          "rightContactErrorM": 1.4191546766899205e-08,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "rightPalmWorld": [
+            -0.03291647290374841,
+            1.475995019336669,
+            -0.2116917922870743
+          ],
+          "rightSurfaceTargetWorld": [
+            -0.032916484143423456,
+            1.4759950257964976,
+            -0.2116917980611821
+          ],
+          "pumpTravelM": 0,
+          "leftForearmTwistDegrees": -105.22408652533002,
+          "leftUpperTwistDegrees": -85.97564337336999,
+          "leftPalmWorld": [
+            -0.018077130983074674,
+            1.7601830211865148,
+            -0.03955756409558715
+          ],
+          "supportTargetWorld": [
+            -0.01807710960702254,
+            1.7601830376798009,
+            -0.03955761532810616
+          ],
+          "barrelPitchDegrees": 56.29736791340152,
+          "re4Shotgun": true,
+          "modelScale": 1,
+          "weaponPosition": [
+            -0.0199835505432328,
+            1.6370586708256787,
+            -0.16131867548170495
+          ],
+          "weaponQuaternion": [
+            -0.014572054005908368,
+            0.8816010784324209,
+            -0.4716586557350911,
+            -0.010261881845373856
+          ]
+        }
+      },
+      {
+        "motion": "ShotgunAimDown",
+        "time": 0,
+        "corrections": [
+          0,
+          33.43314945838705,
+          29.743679999246297
+        ],
+        "contact": {
+          "visible": true,
+          "selectedWeapon": "winchester1897",
+          "motion": "ShotgunAimDown",
+          "time": 0,
+          "actualClip": "ShotgunAimDown",
+          "handScale": 0.9,
+          "leftContactErrorM": 3.399397710729476e-08,
+          "rightContactErrorM": 3.007171286446338e-08,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "rightPalmWorld": [
+            -0.027188179829783832,
+            1.104363032387665,
+            0.13738137209578244
+          ],
+          "rightSurfaceTargetWorld": [
+            -0.027188151679386256,
+            1.1043630366328967,
+            0.13738138178294088
+          ],
+          "pumpTravelM": 0,
+          "leftForearmTwistDegrees": -99.4353642688672,
+          "leftUpperTwistDegrees": -78.17278901932869,
+          "leftPalmWorld": [
+            -0.016509131058001114,
+            0.8318784495924152,
+            0.32777914104897715
+          ],
+          "supportTargetWorld": [
+            -0.016509155929663136,
+            0.831878426452121,
+            0.32777913981703133
+          ],
+          "barrelPitchDegrees": -57.66477573300248,
+          "re4Shotgun": true,
+          "modelScale": 1,
+          "weaponPosition": [
+            -0.018323881189324702,
+            0.9931164712399096,
+            0.2646285286937572
+          ],
+          "weaponQuaternion": [
+            -0.03609123640257384,
+            0.8752810336280005,
+            0.48170503834218936,
+            0.02325491048752028
+          ]
+        }
+      },
+      {
+        "motion": "FiringRifle",
+        "time": 0.1,
+        "corrections": [
+          0,
+          33.43303604660837,
+          29.74389321818771
+        ],
+        "contact": {
+          "visible": true,
+          "selectedWeapon": "winchester1897",
+          "motion": "FiringRifle",
+          "time": 0.1,
+          "actualClip": "ShotgunFireLevel",
+          "handScale": 0.9,
+          "leftContactErrorM": 2.7894588646314035e-08,
+          "rightContactErrorM": 3.578866281924284e-08,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": 0.00014521225003756498,
+          "rightPalmWorld": [
+            -0.121028481578202,
+            1.142518203272501,
+            0.11287461688027665
+          ],
+          "rightSurfaceTargetWorld": [
+            -0.12102846290786569,
+            1.142518192205629,
+            0.11287458842379636
+          ],
+          "pumpTravelM": 0,
+          "leftForearmTwistDegrees": -76.69828377722035,
+          "leftUpperTwistDegrees": -31.39793225122224,
+          "leftPalmWorld": [
+            -0.14228907287076797,
+            1.0223502837560174,
+            0.422262481957273
+          ],
+          "supportTargetWorld": [
+            -0.14228908243122051,
+            1.0223503074890021,
+            0.4222624930681353
+          ],
+          "barrelPitchDegrees": -23.996673124180717,
+          "re4Shotgun": true,
+          "modelScale": 1,
+          "weaponPosition": [
+            -0.13330110950172286,
+            1.1211502232788104,
+            0.28032309408904493
+          ],
+          "weaponQuaternion": [
+            -0.09835387333779072,
+            0.97191123710642,
+            0.2021792560096808,
+            0.06956012668974798
+          ]
+        }
+      },
+      {
+        "motion": "ShotgunPump",
+        "time": 0.23,
+        "corrections": [
+          0,
+          33.43314229752709,
+          29.74351979257587
+        ],
+        "contact": {
+          "visible": true,
+          "selectedWeapon": "winchester1897",
+          "motion": "ShotgunPump",
+          "time": 0.23,
+          "actualClip": "ShotgunPumpLevel",
+          "handScale": 0.9,
+          "leftContactErrorM": 1.210740448778858e-07,
+          "rightContactErrorM": 4.62948580760039e-08,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "rightPalmWorld": [
+            -0.022471932920496915,
+            1.078405644277227,
+            -0.005608601639182573
+          ],
+          "rightSurfaceTargetWorld": [
+            -0.022471927157086735,
+            1.078405598742194,
+            -0.005608595592880378
+          ],
+          "pumpTravelM": 0.07922880057483406,
+          "leftForearmTwistDegrees": -29.13205128513175,
+          "leftUpperTwistDegrees": -31.660118399075415,
+          "leftPalmWorld": [
+            0.07225678614334075,
+            0.955136708595128,
+            0.19467549167796688
+          ],
+          "supportTargetWorld": [
+            0.07225684930740991,
+            0.955136609182424,
+            0.19467546363623012
+          ],
+          "barrelPitchDegrees": -33.35554636099102,
+          "re4Shotgun": true,
+          "modelScale": 1,
+          "weaponPosition": [
+            0.034360797801222795,
+            1.0295484199937348,
+            0.14614524277226376
+          ],
+          "weaponQuaternion": [
+            -0.16343960100261623,
+            0.924922062575965,
+            0.3194254079821501,
+            -0.12559491916381688
+          ]
+        }
+      },
+      {
+        "motion": "Reloading",
+        "time": 0.8,
+        "corrections": [
+          0,
+          33.43330361868717,
+          29.74334386244728
+        ],
+        "contact": {
+          "visible": true,
+          "selectedWeapon": "winchester1897",
+          "motion": "Reloading",
+          "time": 0.8,
+          "actualClip": "ShotgunReload",
+          "handScale": 0.9,
+          "leftContactErrorM": null,
+          "rightContactErrorM": 4.720235308007836e-08,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "rightPalmWorld": [
+            -0.059894808577745304,
+            1.2747811838908247,
+            0.05352179978102638
+          ],
+          "rightSurfaceTargetWorld": [
+            -0.05989478714004309,
+            1.274781197382757,
+            0.05352183961135182
+          ],
+          "pumpTravelM": 0,
+          "leftPalmWorld": [
+            0.05891514753520345,
+            1.0937068630531936,
+            0.10796382682428236
+          ],
+          "supportTargetWorld": [
+            -0.05927516668750364,
+            1.345512122325992,
+            0.37849870390659546
+          ],
+          "barrelPitchDegrees": 10.345960685725329,
+          "re4Shotgun": true,
+          "modelScale": 1,
+          "weaponPosition": [
+            -0.10033319524725169,
+            1.3094083391311155,
+            0.2141826817730121
+          ],
+          "weaponQuaternion": [
+            0.7635288800672813,
+            -0.6389341240658892,
+            0.038298417585701884,
+            0.08555738201808837
+          ]
+        }
+      }
+    ],
+    "page_errors": []
+  },
+  "zhigeng": {
+    "cases": [
+      {
+        "motion": "RifleIdle",
+        "time": 0,
+        "corrections": [
+          0,
+          34.999996442660944,
+          30.000000333612526
+        ],
+        "contact": {
+          "visible": true,
+          "selectedWeapon": "winchester1897",
+          "motion": "RifleIdle",
+          "time": 0,
+          "actualClip": "HanyangIdle2",
+          "handScale": 1,
+          "leftContactErrorM": 6.574373438176111e-08,
+          "rightContactErrorM": 2.7984136745626945e-08,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "rightPalmWorld": [
+            -0.08246651518476274,
+            1.0930942270355857,
+            0.15090561235874125
+          ],
+          "rightSurfaceTargetWorld": [
+            -0.08246649592374086,
+            1.09309421293846,
+            0.15090562696682097
+          ],
+          "pumpTravelM": 0,
+          "leftForearmTwistDegrees": -168.7759854707527,
+          "leftUpperTwistDegrees": -133.0238047183067,
+          "leftPalmWorld": [
+            0.07017439290378079,
+            0.9659190236779944,
+            0.29081070966805644
+          ],
+          "supportTargetWorld": [
+            0.07017441007176947,
+            0.9659189719219905,
+            0.29081067294184193
+          ],
+          "barrelPitchDegrees": -35.58407918079942,
+          "re4Shotgun": false,
+          "modelScale": 1,
+          "weaponPosition": [
+            0.03770870252109412,
+            1.0368655184072224,
+            0.2559887635304834
+          ],
+          "weaponQuaternion": [
+            0.12043070904537602,
+            0.8832434569658265,
+            0.2809211347712494,
+            -0.35561321134726975
+          ]
+        }
+      },
+      {
+        "motion": "RifleWalk",
+        "time": 0.3,
+        "corrections": [
+          0,
+          34.99999684164423,
+          29.999999871896968
+        ],
+        "contact": {
+          "visible": true,
+          "selectedWeapon": "winchester1897",
+          "motion": "RifleWalk",
+          "time": 0.3,
+          "actualClip": "HanyangWalk2",
+          "handScale": 1,
+          "leftContactErrorM": 6.952717713380694e-08,
+          "rightContactErrorM": 3.174664947470003e-08,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "rightPalmWorld": [
+            -0.14636635392002087,
+            1.0684021807814725,
+            0.16730729559818192
+          ],
+          "rightSurfaceTargetWorld": [
+            -0.14636632310523748,
+            1.068402173304644,
+            0.16730729405030817
+          ],
+          "pumpTravelM": 0,
+          "leftForearmTwistDegrees": -88.43751424504931,
+          "leftUpperTwistDegrees": -78.45257611486817,
+          "leftPalmWorld": [
+            -0.029654708934476193,
+            0.9820633295304005,
+            0.3621667396621972
+          ],
+          "supportTargetWorld": [
+            -0.029654664668302994,
+            0.982063281203794,
+            0.3621667164442435
+          ],
+          "barrelPitchDegrees": -24.90178283874929,
+          "re4Shotgun": false,
+          "modelScale": 1,
+          "weaponPosition": [
+            -0.057585572097866966,
+            1.0429576531449847,
+            0.3091408748568716
+          ],
+          "weaponQuaternion": [
+            0.04590228566940333,
+            0.9488495799546889,
+            0.21072611917372192,
+            -0.2305904540264343
+          ]
+        }
+      },
+      {
+        "motion": "RifleRun",
+        "time": 0.4,
+        "corrections": [
+          0,
+          35.000007355035784,
+          30.000002247355642
+        ],
+        "contact": {
+          "visible": true,
+          "selectedWeapon": "winchester1897",
+          "motion": "RifleRun",
+          "time": 0.4,
+          "actualClip": "RifleRun",
+          "handScale": 1,
+          "leftContactErrorM": 4.8440376629260905e-08,
+          "rightContactErrorM": 4.135473561135158e-08,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "rightPalmWorld": [
+            -0.047557772486467795,
+            1.0984986915548551,
+            0.40606495514693236
+          ],
+          "rightSurfaceTargetWorld": [
+            -0.047557762198060835,
+            1.098498653227291,
+            0.40606494351247235
+          ],
+          "pumpTravelM": 0,
+          "leftForearmTwistDegrees": -178.7411491498759,
+          "leftUpperTwistDegrees": -141.12748237525872,
+          "leftPalmWorld": [
+            0.2125143785471179,
+            1.0980030255339135,
+            0.44464529672897046
+          ],
+          "supportTargetWorld": [
+            0.21251438486299623,
+            1.0980029793763508,
+            0.4446452834602411
+          ],
+          "barrelPitchDegrees": -3.685017667711981,
+          "re4Shotgun": false,
+          "modelScale": 1,
+          "weaponPosition": [
+            0.11691965411913281,
+            1.1343395745535059,
+            0.4236381583608896
+          ],
+          "weaponQuaternion": [
+            0.037216279834943015,
+            0.7740677469316494,
+            0.0111338377866802,
+            -0.6319098901991859
+          ]
+        }
+      },
+      {
+        "motion": "ShotgunAimLevel",
+        "time": 0,
+        "corrections": [
+          0,
+          15.131413535425093,
+          30.000020996480945
+        ],
+        "contact": {
+          "visible": true,
+          "selectedWeapon": "winchester1897",
+          "motion": "ShotgunAimLevel",
+          "time": 0,
+          "actualClip": "ShotgunAimLevel",
+          "handScale": 1,
+          "leftContactErrorM": 8.177851156814898e-08,
+          "rightContactErrorM": 6.843850339643059e-08,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "rightPalmWorld": [
+            -0.043867713479646256,
+            1.3217251661994198,
+            0.17811155865242956
+          ],
+          "rightSurfaceTargetWorld": [
+            -0.04386768640205726,
+            1.3217251933797105,
+            0.17811161532574532
+          ],
+          "pumpTravelM": 0,
+          "leftForearmTwistDegrees": -98.02977177991389,
+          "leftUpperTwistDegrees": -69.06911009188528,
+          "leftPalmWorld": [
+            -0.035566660535509054,
+            1.336499582630514,
+            0.5102652461551398
+          ],
+          "supportTargetWorld": [
+            -0.03556670645336345,
+            1.3364995171661753,
+            0.5102652290175795
+          ],
+          "barrelPitchDegrees": 1.972949016752196e-05,
+          "re4Shotgun": true,
+          "modelScale": 1,
+          "weaponPosition": [
+            -0.03501589033398478,
+            1.369445132525798,
+            0.34025557332067957
+          ],
+          "weaponQuaternion": [
+            0.028689373839494683,
+            -0.999562540455837,
+            0.00020635713629729634,
+            -0.007183659436763972
+          ]
+        }
+      },
+      {
+        "motion": "ShotgunAimUp",
+        "time": 0,
+        "corrections": [
+          0,
+          15.131761503233285,
+          29.999999712488037
+        ],
+        "contact": {
+          "visible": true,
+          "selectedWeapon": "winchester1897",
+          "motion": "ShotgunAimUp",
+          "time": 0,
+          "actualClip": "ShotgunAimUp",
+          "handScale": 1,
+          "leftContactErrorM": 6.384401886972894e-08,
+          "rightContactErrorM": 1.4602636931802732e-08,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "rightPalmWorld": [
+            -0.04494679545207415,
+            1.4371714851887258,
+            -0.09044022989993483
+          ],
+          "rightSurfaceTargetWorld": [
+            -0.04494679188979106,
+            1.4371714991676598,
+            -0.09044022763353934
+          ],
+          "pumpTravelM": 0,
+          "leftForearmTwistDegrees": -100.72196750431813,
+          "leftUpperTwistDegrees": -74.41971114317082,
+          "leftPalmWorld": [
+            -0.030107377887181402,
+            1.7213596343045383,
+            0.08169384818724248
+          ],
+          "supportTargetWorld": [
+            -0.030107348551916144,
+            1.721359578581648,
+            0.08169383767722564
+          ],
+          "barrelPitchDegrees": 56.29739192434605,
+          "re4Shotgun": true,
+          "modelScale": 1,
+          "weaponPosition": [
+            -0.032013811548752026,
+            1.5982351610248415,
+            -0.04006717086056047
+          ],
+          "weaponQuaternion": [
+            0.01457186256115868,
+            -0.8816009823002624,
+            0.4716588410906421,
+            0.010261893087691737
+          ]
+        }
+      },
+      {
+        "motion": "ShotgunAimDown",
+        "time": 0,
+        "corrections": [
+          0,
+          15.131483112889326,
+          29.999989906465082
+        ],
+        "contact": {
+          "visible": true,
+          "selectedWeapon": "winchester1897",
+          "motion": "ShotgunAimDown",
+          "time": 0,
+          "actualClip": "ShotgunAimDown",
+          "handScale": 1,
+          "leftContactErrorM": 5.304310875750092e-08,
+          "rightContactErrorM": 2.551869323130668e-08,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "rightPalmWorld": [
+            -0.037837660753850776,
+            1.1046245321661772,
+            0.24967939955850624
+          ],
+          "rightSurfaceTargetWorld": [
+            -0.03783763549460759,
+            1.104624534370559,
+            0.24967940244208717
+          ],
+          "pumpTravelM": 0,
+          "leftForearmTwistDegrees": -94.91614358440178,
+          "leftUpperTwistDegrees": -66.27457739787117,
+          "leftPalmWorld": [
+            -0.027158618318774627,
+            0.832139905007093,
+            0.44007720839285125
+          ],
+          "supportTargetWorld": [
+            -0.027158605165140823,
+            0.832139926370813,
+            0.4400771616580166
+          ],
+          "barrelPitchDegrees": -57.6647737312089,
+          "re4Shotgun": true,
+          "modelScale": 1,
+          "weaponPosition": [
+            -0.028973317126485185,
+            0.9933779698314826,
+            0.376926546764157
+          ],
+          "weaponQuaternion": [
+            0.03609091957661806,
+            -0.8752810553439797,
+            -0.4817050329894347,
+            -0.02325469571270956
+          ]
+        }
+      },
+      {
+        "motion": "FiringRifle",
+        "time": 0.1,
+        "corrections": [
+          0,
+          15.131490985592741,
+          29.999982038142658
+        ],
+        "contact": {
+          "visible": true,
+          "selectedWeapon": "winchester1897",
+          "motion": "FiringRifle",
+          "time": 0.1,
+          "actualClip": "ShotgunFireLevel",
+          "handScale": 1,
+          "leftContactErrorM": 5.735484777469343e-08,
+          "rightContactErrorM": 2.4048025366557127e-08,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": 4.611336120463228e-05,
+          "rightPalmWorld": [
+            -0.1172786965330192,
+            1.135575529695997,
+            0.2214260784717299
+          ],
+          "rightSurfaceTargetWorld": [
+            -0.11727867337277763,
+            1.1355755358729185,
+            0.22142607653359261
+          ],
+          "pumpTravelM": 0,
+          "leftForearmTwistDegrees": -73.78406447481994,
+          "leftUpperTwistDegrees": -25.118461676578647,
+          "leftPalmWorld": [
+            -0.13853924950361504,
+            1.0154076573420812,
+            0.5308140119296703
+          ],
+          "supportTargetWorld": [
+            -0.13853921062396543,
+            1.0154076990015175,
+            0.5308140054148585
+          ],
+          "barrelPitchDegrees": -23.99666304947776,
+          "re4Shotgun": true,
+          "modelScale": 1,
+          "weaponPosition": [
+            -0.1295512488012949,
+            1.1142075933082887,
+            0.38887459077873615
+          ],
+          "weaponQuaternion": [
+            0.09835353000584388,
+            -0.9719112959874359,
+            -0.2021792047416687,
+            -0.0695599384519481
+          ]
+        }
+      },
+      {
+        "motion": "ShotgunPump",
+        "time": 0.23,
+        "corrections": [
+          0,
+          15.131748077266574,
+          30.00000281826277
+        ],
+        "contact": {
+          "visible": true,
+          "selectedWeapon": "winchester1897",
+          "motion": "ShotgunPump",
+          "time": 0.23,
+          "actualClip": "ShotgunPumpLevel",
+          "handScale": 1,
+          "leftContactErrorM": 6.542723362095586e-08,
+          "rightContactErrorM": 2.598287451912938e-08,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "rightPalmWorld": [
+            -0.027219633256678144,
+            1.0917951286573382,
+            0.10824063167190992
+          ],
+          "rightSurfaceTargetWorld": [
+            -0.02721962623982014,
+            1.0917951534104275,
+            0.10824062804450874
+          ],
+          "pumpTravelM": 0.07922880057483406,
+          "leftForearmTwistDegrees": -19.58136229921411,
+          "leftUpperTwistDegrees": -32.961980095065485,
+          "leftPalmWorld": [
+            0.06750910239974577,
+            0.9685261992849361,
+            0.3085246850254031
+          ],
+          "supportTargetWorld": [
+            0.06750916566504173,
+            0.968526184448525,
+            0.3085246926481409
+          ],
+          "barrelPitchDegrees": -33.355541494846065,
+          "re4Shotgun": true,
+          "modelScale": 1,
+          "weaponPosition": [
+            0.0296130966320151,
+            1.042937985644253,
+            0.2599944707267982
+          ],
+          "weaponQuaternion": [
+            0.16343976497289459,
+            -0.9249220374517968,
+            -0.31942539941478665,
+            0.12559491259731034
+          ]
+        }
+      },
+      {
+        "motion": "Reloading",
+        "time": 0.8,
+        "corrections": [
+          0,
+          15.131778656979753,
+          29.999993254304794
+        ],
+        "contact": {
+          "visible": true,
+          "selectedWeapon": "winchester1897",
+          "motion": "Reloading",
+          "time": 0.8,
+          "actualClip": "ShotgunReload",
+          "handScale": 1,
+          "leftContactErrorM": null,
+          "rightContactErrorM": 2.644703099426555e-08,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "rightPalmWorld": [
+            -0.06396796257022506,
+            1.2707800571294106,
+            0.14523209218552355
+          ],
+          "rightSurfaceTargetWorld": [
+            -0.0639679523702629,
+            1.2707800474321829,
+            0.1452320697942307
+          ],
+          "pumpTravelM": 0,
+          "leftPalmWorld": [
+            0.10049327119490621,
+            1.0881347072424001,
+            0.2262570373176026
+          ],
+          "supportTargetWorld": [
+            -0.06334829292552746,
+            1.3415107989595882,
+            0.47020897175887966
+          ],
+          "barrelPitchDegrees": 10.345931349417919,
+          "re4Shotgun": true,
+          "modelScale": 1,
+          "weaponPosition": [
+            -0.10440634105770624,
+            1.3054070863452056,
+            0.3058929390078612
+          ],
+          "weaponQuaternion": [
+            0.7635290410731126,
+            -0.6389339650124684,
+            0.03829818412755874,
+            0.08555723747264625
+          ]
+        }
+      }
+    ],
+    "page_errors": []
+  }
+}

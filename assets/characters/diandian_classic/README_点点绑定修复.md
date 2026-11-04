@@ -1,3 +1,5 @@
+当前GLB已应用修订18腰部闭合修复；历史.blend工程保留，重现方法和验证见 `../repair_r18/README.md`。
+
 当前为双手修订4：重建左右手连续蒙皮，统一独立指尖与手套的绑定，修正无名指关节与动作中的手指姿态。详见[双手前后对照与下载](hands_revision4_review.md)。
 
 当前动作包包含 **11 段**。普通待机仅保留点点自己的默认 `Idle`，移除多余的 `WomanIdle`、`StandingIdle`；走路、跑步、转头、持枪与瞄准等动作保留。详见[动作包与下载](../../animations/character_motion_pack/README.md)。
