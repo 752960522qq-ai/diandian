@@ -1,0 +1,34 @@
+{
+  "site": "https://zhigeng-motion-lab.expert-eagle-6942.chatgpt.site",
+  "method": "Authenticated HTTPS GET; SHA-256 of response bytes",
+  "files": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "sha256": "8b64bedfa6b696e88c78373411ecd62eb0496e1ba723421cae70cadaa9a02e88",
+      "bytes": 7668,
+      "matches_published_source": true
+    },
+    {
+      "path": "app.js?v=clothing-r23",
+      "status": 200,
+      "sha256": "78568c9c65a1ca22964d3eee5d974c7b36bc531d951b7101b2de59f40fea2c9b",
+      "bytes": 32712,
+      "matches_published_source": true
+    },
+    {
+      "path": "weapon-attachment.js?v=clothing-r23",
+      "status": 200,
+      "sha256": "f8ed91ba0a770e1570853fd051ce2d07ee978393e5d70745b2cec9facc0b40ef",
+      "bytes": 27720,
+      "matches_published_source": true
+    },
+    {
+      "path": "assets/weapon_attachment.json?v=clothing-r23",
+      "status": 200,
+      "sha256": "4befd6a2a4709b96952f15cc9c669d243c92e96b39c13b8449f9d3d69ec44b8e",
+      "bytes": 381107,
+      "matches_published_source": true
+    }
+  ]
+}

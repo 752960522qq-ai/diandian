@@ -1,0 +1,514 @@
+{
+  "result": "PASS",
+  "scope": "Type97 RifleIdle-only upper-arm reference correction, Diandian bridge upper-shell clothing correction; previous weapon behavior preserved",
+  "visual_result": "At the same 8.26 s cameras the protruding skin-colored jacket-side triangles are absent and the Idle elbow/sleeve transition is visibly improved. Selected 0 and 7.44 s views show the same result. Captured back and waist closure views show no newly opened background gap.",
+  "known_limits": "Existing non-Idle sleeve/vest intersections, including Walking source jagged folds, remain pre-existing. This PASS is for the limited r23 changes and regressions, not a claim that all clothing or all animation poses are natural or collision-free.",
+  "old_weapon_regressions_passed": 104,
+  "type97_non_idle_preservation_cases": 12,
+  "comparisons": [
+    "comparison_idle_8.26_before_after.jpg",
+    "comparison_diandian_8.26.jpg"
+  ],
+  "characters": {
+    "diandian": {
+      "previous_weapon_cases": 52,
+      "regression_failures": [],
+      "type97_non_idle_preservation": [
+        {
+          "case": "type97hawk/RifleWalk",
+          "maxPoseDelta": 0.0
+        },
+        {
+          "case": "type97hawk/RifleAimingIdle",
+          "maxPoseDelta": 0.0
+        },
+        {
+          "case": "type97hawk/FiringRifle",
+          "maxPoseDelta": 0.0
+        },
+        {
+          "case": "type97hawk/RifleRun",
+          "maxPoseDelta": 0.0
+        },
+        {
+          "case": "type97hawk/Reloading",
+          "maxPoseDelta": 0.0
+        },
+        {
+          "case": "type97hawk/ShotgunPump",
+          "maxPoseDelta": 0.0
+        }
+      ],
+      "page_errors": [],
+      "dimensions_m": [
+        0.05531912903930568,
+        0.23203767905567677,
+        0.8
+      ],
+      "layers": [
+        {
+          "name": "Type97Fire",
+          "baseName": "FiringRifle",
+          "leftName": "ShotgunFireLevel",
+          "leftCount": 72,
+          "otherCount": 864,
+          "nonLeftMax": 0,
+          "leftMax": 7.450580596923828e-09
+        },
+        {
+          "name": "Type97Pump",
+          "baseName": "RifleAimingIdle",
+          "leftName": "ShotgunPumpLevel",
+          "leftCount": 72,
+          "otherCount": 864,
+          "nonLeftMax": 0,
+          "leftMax": 0
+        }
+      ],
+      "pump_travel_m": 0.04485557764618193,
+      "pump_reset_motion": true,
+      "pump_reset_weapon": true,
+      "mobile": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "buttons": [
+          {
+            "id": "qsz92",
+            "disabled": false,
+            "x": 25,
+            "right": 75.328125
+          },
+          {
+            "id": "type54",
+            "disabled": false,
+            "x": 78.328125,
+            "right": 128.65625
+          },
+          {
+            "id": "c96",
+            "disabled": false,
+            "x": 131.65625,
+            "right": 181.984375
+          },
+          {
+            "id": "qcq171",
+            "disabled": false,
+            "x": 25,
+            "right": 75.328125
+          },
+          {
+            "id": "qbz95",
+            "disabled": false,
+            "x": 78.328125,
+            "right": 128.65625
+          },
+          {
+            "id": "type56_1",
+            "disabled": false,
+            "x": 131.65625,
+            "right": 181.984375
+          },
+          {
+            "id": "hanyang88",
+            "disabled": false,
+            "x": 25,
+            "right": 75.328125
+          },
+          {
+            "id": "qbu85",
+            "disabled": false,
+            "x": 78.328125,
+            "right": 128.65625
+          },
+          {
+            "id": "winchester1897",
+            "disabled": false,
+            "x": 131.65625,
+            "right": 181.984375
+          },
+          {
+            "id": "type97hawk",
+            "disabled": false,
+            "x": 25,
+            "right": 75.328125
+          }
+        ],
+        "weaponPanel": {
+          "x": 21,
+          "right": 186,
+          "width": 165
+        }
+      },
+      "motions": [
+        {
+          "motion": "RifleIdle",
+          "duration": 8.566666603088379,
+          "samples": 121,
+          "maxLeftContact": 5.9544061938490234e-08,
+          "maxRightContact": 8.689494708441776e-08,
+          "maxLeftWristBend": 30.66771607786613,
+          "maxElbowStep": 0.0032155546611798173,
+          "maxWristStep": 0.005355756681353161,
+          "maxQuaternionStepDegrees": 2.4991007939776866,
+          "seekAngle": 0
+        },
+        {
+          "motion": "RifleWalk",
+          "duration": 1.2999999523162842,
+          "samples": 121,
+          "maxLeftContact": 1.883811107167725e-07,
+          "maxRightContact": 7.84378119318301e-08,
+          "maxLeftWristBend": 31.580941512454743,
+          "maxElbowStep": 0.0036746752336935806,
+          "maxWristStep": 0.0038265971125764574,
+          "maxQuaternionStepDegrees": 0.888164696773704,
+          "seekAngle": 2.9802322387695312e-08
+        },
+        {
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "samples": 121,
+          "maxLeftContact": 8.567831905204211e-08,
+          "maxRightContact": 1.6489471341323266e-07,
+          "maxLeftWristBend": 33.857446684899735,
+          "maxElbowStep": 0.00721775531862021,
+          "maxWristStep": 0.007373903688365031,
+          "maxQuaternionStepDegrees": 1.1415935199112954,
+          "seekAngle": 0
+        },
+        {
+          "motion": "RifleAimingIdle",
+          "duration": 3.0999999046325684,
+          "samples": 121,
+          "maxLeftContact": 2.0912217244228728e-07,
+          "maxRightContact": 2.0243744964408548e-07,
+          "maxLeftWristBend": 13.48086105119842,
+          "maxElbowStep": 0.00036112608827978276,
+          "maxWristStep": 0.0003336119677522893,
+          "maxQuaternionStepDegrees": 0.12100438145335504,
+          "seekAngle": 0
+        },
+        {
+          "motion": "FiringRifle",
+          "duration": 0.2666666805744171,
+          "samples": 121,
+          "maxLeftContact": 8.844519648576856e-08,
+          "maxRightContact": 1.0209011028492944e-07,
+          "maxLeftWristBend": 13.059115182759296,
+          "maxElbowStep": 0.0004938215207535956,
+          "maxWristStep": 0.0005006789364971816,
+          "maxQuaternionStepDegrees": 1.3282257864832916,
+          "seekAngle": 0
+        },
+        {
+          "motion": "ShotgunPump",
+          "duration": 0.7333333492279053,
+          "samples": 121,
+          "maxLeftContact": 1.238198179764501e-07,
+          "maxRightContact": 1.853524710661246e-07,
+          "maxLeftWristBend": 14.663902777068312,
+          "maxElbowStep": 0.003726697194613813,
+          "maxWristStep": 0.0038186072173342156,
+          "maxQuaternionStepDegrees": 11.173699771475126,
+          "seekAngle": 0
+        },
+        {
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "samples": 121,
+          "maxLeftContact": 0,
+          "maxRightContact": 1.6759935077878138e-07,
+          "maxLeftWristBend": 45.9975831009673,
+          "maxElbowStep": 0.06251565662781085,
+          "maxWristStep": 0.06314986348280506,
+          "maxQuaternionStepDegrees": 22.38354177299807,
+          "seekAngle": 0
+        }
+      ],
+      "config_diff": [
+        {
+          "path": "/revision",
+          "before": 22,
+          "after": 23
+        },
+        {
+          "path": "/characters/zhigeng/mounts/type97hawk/motions/RifleIdle/support_upper_arm_twist_weight",
+          "before": 0,
+          "after": 0.35
+        },
+        {
+          "path": "/characters/zhigeng/mounts/type97hawk/motions/RifleIdle/support_upper_arm_twist_reference_degrees",
+          "before": null,
+          "after": 180
+        },
+        {
+          "path": "/characters/diandian/mounts/type97hawk/motions/RifleIdle/support_upper_arm_twist_weight",
+          "before": 0,
+          "after": 0.35
+        },
+        {
+          "path": "/characters/diandian/mounts/type97hawk/motions/RifleIdle/support_upper_arm_twist_reference_degrees",
+          "before": null,
+          "after": 180
+        }
+      ],
+      "production_hashes": {
+        "app.js": "d652287a44e65d2576108ae78fa002b50d2d788275bf6d3ec5f9133789e6fc94",
+        "weapon-attachment.js": "f8ed91ba0a770e1570853fd051ce2d07ee978393e5d70745b2cec9facc0b40ef",
+        "assets/weapon_attachment.json": "4befd6a2a4709b96952f15cc9c669d243c92e96b39c13b8449f9d3d69ec44b8e",
+        "assets/weapons/type97hawk.glb": "20ec4f85cc9eeb9037b552c9b4d70dbcaca82d8035056438301704b6b6cf30a5",
+        "assets/diandian_fixed.glb": "a2533218537e38f4dbd2c3462dd2c68d082442cc12d7f8c0960032859eac3f02"
+      }
+    },
+    "zhigeng": {
+      "previous_weapon_cases": 52,
+      "regression_failures": [],
+      "type97_non_idle_preservation": [
+        {
+          "case": "type97hawk/RifleWalk",
+          "maxPoseDelta": 0.0
+        },
+        {
+          "case": "type97hawk/RifleAimingIdle",
+          "maxPoseDelta": 0.0
+        },
+        {
+          "case": "type97hawk/FiringRifle",
+          "maxPoseDelta": 0.0
+        },
+        {
+          "case": "type97hawk/RifleRun",
+          "maxPoseDelta": 0.0
+        },
+        {
+          "case": "type97hawk/Reloading",
+          "maxPoseDelta": 0.0
+        },
+        {
+          "case": "type97hawk/ShotgunPump",
+          "maxPoseDelta": 0.0
+        }
+      ],
+      "page_errors": [],
+      "dimensions_m": [
+        0.05531912903930568,
+        0.23203767905567677,
+        0.8000000000000003
+      ],
+      "layers": [
+        {
+          "name": "Type97Fire",
+          "baseName": "FiringRifle",
+          "leftName": "ShotgunFireLevel",
+          "leftCount": 72,
+          "otherCount": 873,
+          "nonLeftMax": 0,
+          "leftMax": 5.960464477539063e-08
+        },
+        {
+          "name": "Type97Pump",
+          "baseName": "RifleAimingIdle",
+          "leftName": "ShotgunPumpLevel",
+          "leftCount": 72,
+          "otherCount": 873,
+          "nonLeftMax": 0,
+          "leftMax": 0
+        }
+      ],
+      "pump_travel_m": 0.04485557764618193,
+      "pump_reset_motion": true,
+      "pump_reset_weapon": true,
+      "mobile": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "buttons": [
+          {
+            "id": "qsz92",
+            "disabled": false,
+            "x": 25,
+            "right": 75.328125
+          },
+          {
+            "id": "type54",
+            "disabled": false,
+            "x": 78.328125,
+            "right": 128.65625
+          },
+          {
+            "id": "c96",
+            "disabled": false,
+            "x": 131.65625,
+            "right": 181.984375
+          },
+          {
+            "id": "qcq171",
+            "disabled": false,
+            "x": 25,
+            "right": 75.328125
+          },
+          {
+            "id": "qbz95",
+            "disabled": false,
+            "x": 78.328125,
+            "right": 128.65625
+          },
+          {
+            "id": "type56_1",
+            "disabled": false,
+            "x": 131.65625,
+            "right": 181.984375
+          },
+          {
+            "id": "hanyang88",
+            "disabled": false,
+            "x": 25,
+            "right": 75.328125
+          },
+          {
+            "id": "qbu85",
+            "disabled": false,
+            "x": 78.328125,
+            "right": 128.65625
+          },
+          {
+            "id": "winchester1897",
+            "disabled": false,
+            "x": 131.65625,
+            "right": 181.984375
+          },
+          {
+            "id": "type97hawk",
+            "disabled": false,
+            "x": 25,
+            "right": 75.328125
+          }
+        ],
+        "weaponPanel": {
+          "x": 21,
+          "right": 186,
+          "width": 165
+        }
+      },
+      "motions": [
+        {
+          "motion": "RifleIdle",
+          "duration": 8.566666603088379,
+          "samples": 121,
+          "maxLeftContact": 1.0485980931888757e-07,
+          "maxRightContact": 1.0782813958525414e-07,
+          "maxLeftWristBend": 32.92792648079319,
+          "maxElbowStep": 0.00298369134897597,
+          "maxWristStep": 0.004844972606734395,
+          "maxQuaternionStepDegrees": 2.6860159370743797,
+          "seekAngle": 0
+        },
+        {
+          "motion": "RifleWalk",
+          "duration": 1.2999999523162842,
+          "samples": 121,
+          "maxLeftContact": 1.590772449464717e-07,
+          "maxRightContact": 1.7368348776219167e-07,
+          "maxLeftWristBend": 33.77737022005837,
+          "maxElbowStep": 0.003489666805446982,
+          "maxWristStep": 0.003596249288605721,
+          "maxQuaternionStepDegrees": 0.8696837679272456,
+          "seekAngle": 4.2146848510894035e-08
+        },
+        {
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "samples": 121,
+          "maxLeftContact": 1.3761880892001836e-07,
+          "maxRightContact": 1.5082710329243837e-07,
+          "maxLeftWristBend": 34.918723585258824,
+          "maxElbowStep": 0.007336241199198717,
+          "maxWristStep": 0.006686862277059655,
+          "maxQuaternionStepDegrees": 1.2156518115526491,
+          "seekAngle": 0
+        },
+        {
+          "motion": "RifleAimingIdle",
+          "duration": 3.0999999046325684,
+          "samples": 121,
+          "maxLeftContact": 8.625100046391962e-08,
+          "maxRightContact": 9.05613376863965e-08,
+          "maxLeftWristBend": 16.695848850740887,
+          "maxElbowStep": 0.00040669429929891983,
+          "maxWristStep": 0.00036989182513029716,
+          "maxQuaternionStepDegrees": 0.12346598650930991,
+          "seekAngle": 2.9802322387695312e-08
+        },
+        {
+          "motion": "FiringRifle",
+          "duration": 0.2666666805744171,
+          "samples": 121,
+          "maxLeftContact": 8.632622708720228e-08,
+          "maxRightContact": 1.2699341534620052e-07,
+          "maxLeftWristBend": 15.351268436823755,
+          "maxElbowStep": 0.0005120217039914432,
+          "maxWristStep": 0.0005283916246728306,
+          "maxQuaternionStepDegrees": 1.2471043137519129,
+          "seekAngle": 0
+        },
+        {
+          "motion": "ShotgunPump",
+          "duration": 0.7333333492279053,
+          "samples": 121,
+          "maxLeftContact": 1.2890332105671613e-07,
+          "maxRightContact": 7.357998479667773e-08,
+          "maxLeftWristBend": 17.753555577605635,
+          "maxElbowStep": 0.0036690243914800197,
+          "maxWristStep": 0.0038180167324816557,
+          "maxQuaternionStepDegrees": 10.218606104594654,
+          "seekAngle": 0
+        },
+        {
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "samples": 121,
+          "maxLeftContact": 0,
+          "maxRightContact": 8.370515241376666e-08,
+          "maxLeftWristBend": 45.997525393598764,
+          "maxElbowStep": 0.06369691491853685,
+          "maxWristStep": 0.06182684178581894,
+          "maxQuaternionStepDegrees": 22.38354039021988,
+          "seekAngle": 5.960464477539063e-08
+        }
+      ],
+      "config_diff": [
+        {
+          "path": "/revision",
+          "before": 22,
+          "after": 23
+        },
+        {
+          "path": "/characters/zhigeng/mounts/type97hawk/motions/RifleIdle/support_upper_arm_twist_weight",
+          "before": 0,
+          "after": 0.35
+        },
+        {
+          "path": "/characters/zhigeng/mounts/type97hawk/motions/RifleIdle/support_upper_arm_twist_reference_degrees",
+          "before": null,
+          "after": 180
+        },
+        {
+          "path": "/characters/diandian/mounts/type97hawk/motions/RifleIdle/support_upper_arm_twist_weight",
+          "before": 0,
+          "after": 0.35
+        },
+        {
+          "path": "/characters/diandian/mounts/type97hawk/motions/RifleIdle/support_upper_arm_twist_reference_degrees",
+          "before": null,
+          "after": 180
+        }
+      ],
+      "production_hashes": {
+        "app.js": "78568c9c65a1ca22964d3eee5d974c7b36bc531d951b7101b2de59f40fea2c9b",
+        "weapon-attachment.js": "f8ed91ba0a770e1570853fd051ce2d07ee978393e5d70745b2cec9facc0b40ef",
+        "assets/weapon_attachment.json": "4befd6a2a4709b96952f15cc9c669d243c92e96b39c13b8449f9d3d69ec44b8e",
+        "assets/weapons/type97hawk.glb": "20ec4f85cc9eeb9037b552c9b4d70dbcaca82d8035056438301704b6b6cf30a5",
+        "assets/zhigeng_fixed.glb": "95bcd799d7966058864b34836b3c2239e077f2db4335747ecfabd529242ed923"
+      }
+    }
+  }
+}

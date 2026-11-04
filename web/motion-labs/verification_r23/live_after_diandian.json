@@ -1,0 +1,41 @@
+{
+  "site": "https://diandian-classic-motion-lab.expert-eagle-6942.chatgpt.site",
+  "method": "Authenticated HTTPS GET; SHA-256 of response bytes",
+  "files": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "sha256": "ebafcf6bf01ddbc0b31656b430b96ea830ffa137e257fabc6237d81a3eba38f3",
+      "bytes": 7327,
+      "matches_published_source": true
+    },
+    {
+      "path": "app.js?v=clothing-r23",
+      "status": 200,
+      "sha256": "d652287a44e65d2576108ae78fa002b50d2d788275bf6d3ec5f9133789e6fc94",
+      "bytes": 30621,
+      "matches_published_source": true
+    },
+    {
+      "path": "weapon-attachment.js?v=clothing-r23",
+      "status": 200,
+      "sha256": "f8ed91ba0a770e1570853fd051ce2d07ee978393e5d70745b2cec9facc0b40ef",
+      "bytes": 27720,
+      "matches_published_source": true
+    },
+    {
+      "path": "assets/weapon_attachment.json?v=clothing-r23",
+      "status": 200,
+      "sha256": "4befd6a2a4709b96952f15cc9c669d243c92e96b39c13b8449f9d3d69ec44b8e",
+      "bytes": 381107,
+      "matches_published_source": true
+    },
+    {
+      "path": "assets/diandian_fixed.glb?v=clothing-r23",
+      "status": 200,
+      "sha256": "a2533218537e38f4dbd2c3462dd2c68d082442cc12d7f8c0960032859eac3f02",
+      "bytes": 17491948,
+      "matches_published_source": true
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 import * as THREE from 'three';
-import { installType97Motions } from './type97-motion.js?v=hawk800-r22';
+import { installType97Motions } from './type97-motion.js?v=clothing-r23';
 import { GLTFLoader } from './vendor/GLTFLoader.js';
 import { OrbitControls } from './vendor/OrbitControls.js';
-import { WeaponAttachment } from './weapon-attachment.js?v=hawk800-r22';
+import { WeaponAttachment } from './weapon-attachment.js?v=clothing-r23';
 import { PonytailPhysics } from './ponytail-physics.js';
 
 const $ = (selector) => document.querySelector(selector);
@@ -312,10 +312,10 @@ function selectWeapon(id, switchMotion = true) {
 }
 
 async function equipWeapons() {
-  const config = await fetch('./assets/weapon_attachment.json?v=hawk800-r22').then(r => r.json());
+  const config = await fetch('./assets/weapon_attachment.json?v=clothing-r23').then(r => r.json());
   weaponConfig = config;
   const scenes = new Map(await Promise.all(Object.keys(config.weapons).map(async id => {
-    const gltf = await loader.loadAsync('./assets/weapons/' + id + '.glb?v=hawk800-r22');
+    const gltf = await loader.loadAsync('./assets/weapons/' + id + '.glb?v=clothing-r23');
     return [id, gltf.scene];
   })));
   models.get('fixed').weaponAttachment = new WeaponAttachment(models.get('fixed'), config, 'zhigeng', scenes, scene);
@@ -327,7 +327,7 @@ async function equipWeapons() {
 }
 
 async function equipMotionPack() {
-  const packs = await Promise.all(['motion_additions.glb', 'leon_pistol_animations.glb', 're4_shotgun_animations.glb'].map(file => loader.loadAsync('./assets/' + file + '?v=hawk800-r22')));
+  const packs = await Promise.all(['motion_additions.glb', 'leon_pistol_animations.glb', 're4_shotgun_animations.glb'].map(file => loader.loadAsync('./assets/' + file + '?v=clothing-r23')));
   const model = models.get('fixed');
   for (const pack of packs) for (const clip of pack.animations) model.actions.set(clip.name, model.mixer.clipAction(clip));
   model.type97Composition = installType97Motions(model);
@@ -592,10 +592,10 @@ render();
 
 async function load() {
   document.querySelectorAll('[data-motion], [data-version]').forEach(button => { button.disabled = true; });
-  const info = await fetch('./assets/rig_info.json?v=hawk800-r22').then(response => response.json());
+  const info = await fetch('./assets/rig_info.json?v=clothing-r23').then(response => response.json());
   setMotionControls(info);
-  const physicsConfig = await fetch('./assets/ponytail_physics.json?v=hawk800-r22').then(response => response.json());
-  const fixed = await loader.loadAsync('./assets/zhigeng_fixed.glb?v=hawk800-r22', event => {
+  const physicsConfig = await fetch('./assets/ponytail_physics.json?v=clothing-r23').then(response => response.json());
+  const fixed = await loader.loadAsync('./assets/zhigeng_fixed.glb?v=clothing-r23', event => {
     const ratio = event.total ? event.loaded / event.total : Math.min(.9, event.loaded / 15000000);
     progress.style.width = `${ratio * 95}%`;
     if (event.total) $('#loading-detail').textContent = `正在载入模型与动作 · ${Math.round(ratio * 100)}%`;
@@ -614,7 +614,7 @@ async function load() {
   $('[data-version="fixed"]').disabled = false;
   progress.style.width = '100%';
   loading.classList.add('hidden');
-  const before = await loader.loadAsync('./assets/zhigeng_before.glb?v=hawk800-r22');
+  const before = await loader.loadAsync('./assets/zhigeng_before.glb?v=clothing-r23');
   prepareModel(before, 'before');
   setFaceControls(info);
   updateComparisonAvailability();

@@ -6426,7 +6426,7 @@
                 0.045689893664955475
               ],
               "support_forearm_twist_weight": 0.65,
-              "support_upper_arm_twist_weight": 0,
+              "support_upper_arm_twist_weight": 0.35,
               "right_hand_quaternion_weapon": [
                 -0.526968685821066,
                 -0.2907161838697213,
@@ -6536,7 +6536,8 @@
                 -0.013212006506693585,
                 -0.05627336104702824,
                 -0.17126675101269462
-              ]
+              ],
+              "support_upper_arm_twist_reference_degrees": 180
             },
             "RifleAimingIdle": {
               "quaternion_xyzw": [
@@ -12928,7 +12929,7 @@
                 -0.15474583067380682
               ],
               "support_forearm_twist_weight": 0.65,
-              "support_upper_arm_twist_weight": 0,
+              "support_upper_arm_twist_weight": 0.35,
               "right_hand_quaternion_weapon": [
                 -0.6543581101460835,
                 -0.3327967516534155,
@@ -13038,7 +13039,8 @@
                 -0.013212006506693585,
                 -0.05627336104702824,
                 -0.15495563186862849
-              ]
+              ],
+              "support_upper_arm_twist_reference_degrees": 180
             },
             "RifleAimingIdle": {
               "quaternion_xyzw": [
@@ -14061,5 +14063,5 @@
       "finger_pose_weight": 0.6
     }
   },
-  "revision": 22
+  "revision": 23
 }

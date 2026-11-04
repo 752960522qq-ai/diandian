@@ -1,6 +1,6 @@
 import * as THREE from 'three';
-import { refineC96Rotation } from './c96-dynamics.js?v=hawk800-r22';
-import { prepareC96ReloadPose, applyC96ReloadSupport } from './c96-reload.js?v=hawk800-r22';
+import { refineC96Rotation } from './c96-dynamics.js?v=clothing-r23';
+import { prepareC96ReloadPose, applyC96ReloadSupport } from './c96-reload.js?v=clothing-r23';
 
 const RIFLE_MOTIONS = new Set(['RifleIdle', 'RifleWalk', 'RifleAimingIdle', 'FiringRifle', 'RifleRun', 'Reloading']);
 const PISTOL_MOTIONS = new Set(['PistolIdle', 'PistolAimingIdle', 'PistolWalk']);
@@ -143,11 +143,11 @@ export class WeaponAttachment {
     this.state.shoulderAssistDegrees = THREE.MathUtils.radToDeg(turn);
   }
 
-  solveLeftArm(target, handRotation, weight, twistWeight = 0, twistReference = 0, upperTwistWeight = .75, elbowHandWeight = 0, elbowOutwardWeight = 0) {
-    this.solveArm('Left', target, handRotation, weight, null, twistWeight, twistReference, upperTwistWeight, elbowHandWeight, elbowOutwardWeight);
+  solveLeftArm(target, handRotation, weight, twistWeight = 0, twistReference = 0, upperTwistWeight = .75, elbowHandWeight = 0, elbowOutwardWeight = 0, upperTwistReference = 0) {
+    this.solveArm('Left', target, handRotation, weight, null, twistWeight, twistReference, upperTwistWeight, elbowHandWeight, elbowOutwardWeight, upperTwistReference);
   }
 
-  solveArm(side, target, handRotation, weight = 1, elbowLift = null, twistWeight = 0, twistReference = 0, upperTwistWeight = .75, elbowHandWeight = 0, elbowOutwardWeight = 0) {
+  solveArm(side, target, handRotation, weight = 1, elbowLift = null, twistWeight = 0, twistReference = 0, upperTwistWeight = .75, elbowHandWeight = 0, elbowOutwardWeight = 0, upperTwistReference = 0) {
     const upper = this.bones[side + 'Arm'];
     const fore = this.bones[side + 'ForeArm'];
     const hand = this.bones[side + 'Hand'];
@@ -203,7 +203,7 @@ export class WeaponAttachment {
     if (twistWeight > 0) {
       this.state[side.toLowerCase() + 'ForearmTwistDegrees'] = this.distributeAxialTwist(fore, hand, hand.getWorldQuaternion(new THREE.Quaternion()), twistWeight, twistReference);
       const foreRotation = fore.getWorldQuaternion(new THREE.Quaternion());
-      this.state[side.toLowerCase() + 'UpperTwistDegrees'] = this.distributeAxialTwist(upper, fore, foreRotation, upperTwistWeight);
+      this.state[side.toLowerCase() + 'UpperTwistDegrees'] = this.distributeAxialTwist(upper, fore, foreRotation, upperTwistWeight, upperTwistReference);
     }
   }
 
@@ -390,7 +390,7 @@ export class WeaponAttachment {
         ? gunRotation.clone().multiply(quaternion(mount.left_hand_quaternion_weapon)).normalize()
         : this.bones.LeftHand.getWorldQuaternion(new THREE.Quaternion());
       const wristTarget = supportTarget.clone().sub(leftOffset.clone().applyQuaternion(leftRotation));
-      this.solveLeftArm(wristTarget, leftRotation, mount.support_pose_weight ?? this.character.support_pose_weight ?? .85, mount.support_forearm_twist_weight ?? 0, mount.support_forearm_twist_reference_degrees ?? 0, mount.support_upper_arm_twist_weight ?? .75, mount.support_elbow_from_hand_weight ?? 0, mount.support_elbow_outward_weight ?? 0);
+      this.solveLeftArm(wristTarget, leftRotation, mount.support_pose_weight ?? this.character.support_pose_weight ?? .85, mount.support_forearm_twist_weight ?? 0, mount.support_forearm_twist_reference_degrees ?? 0, mount.support_upper_arm_twist_weight ?? .75, mount.support_elbow_from_hand_weight ?? 0, mount.support_elbow_outward_weight ?? 0, mount.support_upper_arm_twist_reference_degrees ?? 0);
       const supportFingers = new Set();
       for (const [name, offset] of Object.entries(mount.support_finger_quaternion_offsets || {})) {
         const bone = this.model.bones.get(name.includes(':') ? name : 'mixamorig:' + name);

@@ -1,0 +1,9 @@
+{
+  "site": "diandian",
+  "checked_via": "Authenticated HTTPS GET of the published private Site; hashes calculated from response bytes",
+  "files": [
+    {"path":"app.js?v=hawk800-r22","status":200,"sha256":"cca8e705b0f3c88fd3e4b9f0ed378e4158034021a8a49cccf9a07c24831a7941","bytes":30613},
+    {"path":"assets/diandian_fixed.glb?v=hawk800-r22","status":200,"sha256":"ddd45865c3e46703c9e3a64c6101927ac251f443a4d69c85bf087b87c0a8f7e8","bytes":17487784}
+  ],
+  "conclusion": "Published responses match the r22 checkout. The reproduced defect is present in that release."
+}

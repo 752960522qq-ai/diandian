@@ -1,0 +1,28 @@
+{
+  "characters": {
+    "diandian": {
+      "mounts": {
+        "type97hawk": {
+          "motions": {
+            "RifleIdle": {
+              "support_upper_arm_twist_weight": 0.35,
+              "support_upper_arm_twist_reference_degrees": 180
+            }
+          }
+        }
+      }
+    },
+    "zhigeng": {
+      "mounts": {
+        "type97hawk": {
+          "motions": {
+            "RifleIdle": {
+              "support_upper_arm_twist_weight": 0.35,
+              "support_upper_arm_twist_reference_degrees": 180
+            }
+          }
+        }
+      }
+    }
+  }
+}

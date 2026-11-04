@@ -1,0 +1,34 @@
+{
+  "source": "/workspace/work/sites/diandian/dist/assets/diandian_fixed.glb",
+  "output": "/workspace/work/type97_r23/clothing/diandian_fixed_r23.glb",
+  "source_sha256": "ddd45865c3e46703c9e3a64c6101927ac251f443a4d69c85bf087b87c0a8f7e8",
+  "output_sha256": "a2533218537e38f4dbd2c3462dd2c68d082442cc12d7f8c0960032859eac3f02",
+  "bridge_vertices": 308,
+  "bridge_triangles": 448,
+  "changed_added_bridge_vertices": 137,
+  "original_waist_seam_vertices_preserved": 34,
+  "old_upper_overlap_native_m": 0.065,
+  "new_upper_overlap_native_m": 0.02,
+  "old_upper_tip_radial_factor": 0.9,
+  "new_upper_tip_radial_factor": 0.75,
+  "invariants": {
+    "original_binary_prefix_preserved": true,
+    "original_body_and_clothing_primitives_preserved": true,
+    "bridge_indices_and_topology_preserved": true,
+    "bridge_all_nonposition_attributes_preserved": true,
+    "exact_original_waist_seam_preserved": true,
+    "lower_bridge_and_bottom_cap_preserved": true,
+    "original_json_arrays_preserved": {
+      "nodes": true,
+      "skins": true,
+      "animations": true,
+      "accessors": true,
+      "bufferViews": true,
+      "materials": true,
+      "images": true,
+      "textures": true,
+      "samplers": true
+    }
+  },
+  "method": "Constrain only the covered upper half of the added bridge inside the jacket; retain the cap and all original mesh geometry, skin weights, materials, bones and animations."
+}

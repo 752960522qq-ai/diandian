@@ -1,0 +1,194 @@
+{
+  "result": "Reported skin triangle through side of jacket resolved in the exact reproduced Type97 RifleIdle 8.26s pose. Geometry repair frozen for parent integration.",
+  "root_cause": {
+    "source": "Added Fix18 anatomical waist bridge, upper cap and upper side wall, not original skin/clothing triangles or texture atlas.",
+    "exact_trigger": "type97hawk, RifleIdle, t=8.26/8.5667s; elevated character-left/front and left-side cameras",
+    "visible_patch_faces": [
+      [
+        306,
+        291,
+        290
+      ],
+      [
+        256,
+        289,
+        290
+      ]
+    ],
+    "material": "Anatomical_Waist_Continuous_Surface",
+    "native_positions_y_m": [
+      0.7176954,
+      0.7349219
+    ],
+    "weight_mismatch": "Bridge upper tip is Spine .65 / Spine1 .35; adjacent original jacket vertices78543/78545/78546 include 15.6–26.8% LeftArm and fold inward with the raised arm.",
+    "previous_fix_scope": "r22 removed front/lower bridge overlap but left its original 6.5cm upper extension and cap. That upper extension reached into the jacket side/underarm."
+  },
+  "repair": {
+    "method": "Shorten only the added bridge upper overlap from .065 to .020 native m; upper-tip radius .90 to .75 of original waist ring. Existing closed cap follows tip. No original body/clothing face removed or moved.",
+    "changed_added_bridge_vertices": 137,
+    "bridge_vertices": 308,
+    "bridge_triangles_unchanged": 448,
+    "preserved": "Exact34-point waist seam, lower bridge, bottom cap, r22 lower/front repair, all original skin/clothes geometry, weights, normals, UVs, colors, textures, bones and animations.",
+    "script": "fix_waist_bridge_upper_overlap.py",
+    "reports": [
+      "site_mesh_report.json",
+      "formal_mesh_report.json"
+    ]
+  },
+  "validation": {
+    "browser": "Real site app via Playwright Chromium/SwiftShader; local route substitution only; manual seek and camera rendering.",
+    "geometry_only_exact_trigger": [
+      "candidate_RifleIdle_8.26_front.png",
+      "candidate_RifleIdle_8.26_leftfront.png",
+      "candidate_RifleIdle_8.26_left.png",
+      "candidate_RifleIdle_8.26_rightfront.png",
+      "candidate_RifleIdle_8.26_right.png",
+      "candidate_RifleIdle_8.26_back.png"
+    ],
+    "skin_material_sweep_states": [
+      {
+        "weapon": "type97hawk",
+        "motion": "RifleIdle",
+        "time_seconds": 8.26
+      },
+      {
+        "weapon": "type97hawk",
+        "motion": "Walk",
+        "time_seconds": 0.3
+      },
+      {
+        "weapon": "type97hawk",
+        "motion": "Walk",
+        "time_seconds": 0.9
+      },
+      {
+        "weapon": "type97hawk",
+        "motion": "RifleWalk",
+        "time_seconds": 0.35
+      },
+      {
+        "weapon": "type97hawk",
+        "motion": "RifleWalk",
+        "time_seconds": 1.05
+      },
+      {
+        "weapon": "type97hawk",
+        "motion": "RifleRun",
+        "time_seconds": 0.1
+      },
+      {
+        "weapon": "type97hawk",
+        "motion": "RifleRun",
+        "time_seconds": 0.38
+      },
+      {
+        "weapon": "type97hawk",
+        "motion": "RifleRun",
+        "time_seconds": 0.6
+      },
+      {
+        "weapon": "type97hawk",
+        "motion": "HeadStress",
+        "time_seconds": 1
+      },
+      {
+        "weapon": "type97hawk",
+        "motion": "HeadStress",
+        "time_seconds": 3
+      },
+      {
+        "weapon": "type97hawk",
+        "motion": "Reloading",
+        "time_seconds": 0.8
+      },
+      {
+        "weapon": "type97hawk",
+        "motion": "Reloading",
+        "time_seconds": 1.8
+      },
+      {
+        "weapon": "type97hawk",
+        "motion": "Reloading",
+        "time_seconds": 2.8
+      },
+      {
+        "weapon": "qbz95",
+        "motion": "RifleWalk",
+        "time_seconds": 0.3
+      },
+      {
+        "weapon": "qbz95",
+        "motion": "RifleRun",
+        "time_seconds": 0.38
+      },
+      {
+        "weapon": "qbz95",
+        "motion": "HeadStress",
+        "time_seconds": 3
+      },
+      {
+        "weapon": "qbz95",
+        "motion": "Reloading",
+        "time_seconds": 1.8
+      }
+    ],
+    "sweep_views": [
+      "front",
+      "leftfront",
+      "rightfront",
+      "back"
+    ],
+    "sweep_image_count": 68,
+    "observed": "No visible bridge skin fragments on either jacket side or gray vest in checked views. Intended exposed arms/midriff retained. Front-waist slab remains absent and back waist closure retained.",
+    "final_left_arm_joint_check": {
+      "motions": [
+        "Type97 RifleIdle8.26",
+        "Type97 RifleWalk.35",
+        "Type97 RifleRun.38"
+      ],
+      "views_per_motion": [
+        "front",
+        "leftfront",
+        "left",
+        "rightfront",
+        "right",
+        "back"
+      ],
+      "site_final_model_actual_load_images": 18,
+      "formal_high_resolution_model_actual_load_images": 18,
+      "left_config": "Subtask joint-check candidate used upper twist .35 and reference180 for these3 motions. Integration subsequently retained this only for RifleIdle; RifleWalk and RifleRun reverted to r22 because their original sleeve folding became worse. Their geometry-only r22-pose checks are included in the 68-image sweep. Final integrated acceptance is recorded separately in verification_r23/FINAL_QA.md.",
+      "evidence": "formal_joint_contact.png",
+      "observed": "No recurrence of reported skin fragment with the tested upper-arm candidate, and no new waist opening in checked views. These candidate screenshots do not establish the final Walk/Run pose."
+    },
+    "geometry_evidence": {
+      "bind_space": "topology/candidate_clearance.json: all upper136 points locally inward against nearest original surface; cap locally inward25.7native mm.",
+      "reported_pose": "topology/posed_clearance_report.json: original cap locally outward40.1world mm versus candidate inward41.8world mm at RifleIdle8.26.",
+      "qualification": "Nearest-face normal dot is local evidence, not a signed distance to a closed clothing volume. Original clothing has inner faces and open boundaries. Run/Walk positive dots against inward-facing nearby jacket faces do not by themselves imply visible penetration; actual skin-material images were inspected."
+    },
+    "known_existing_visual_issue": "Raised left sleeve can fold into the vest and show a serrated brown cuff edge during RifleWalk.35. Present with r22 original geometry; distinct from the added bridge skin fragment. Original sleeve topology/weights were preserved and parent left-arm agent is assessing its pose.",
+    "scope": "Representative sampled poses and views, not proof of zero intersections on every frame or all future animations."
+  },
+  "evidence": [
+    "armpit_before_after.png",
+    "before_ray.json",
+    "after_ray.json",
+    "sweep_contact_1.png",
+    "sweep_contact_2.png",
+    "sweep_contact_3.png",
+    "sweep_contact_4.png",
+    "sweep_contact_5.png",
+    "formal_joint_contact.png"
+  ],
+  "outputs": {
+    "site_model": {
+      "path": "diandian_fixed_r23.glb",
+      "sha256": "a2533218537e38f4dbd2c3462dd2c68d082442cc12d7f8c0960032859eac3f02"
+    },
+    "formal_model": {
+      "path": "diandian_classic_fixed_r23.glb",
+      "sha256": "131335082497e258bf6b9d1180931833d28b1bcecedaca3d53810d8216c13572"
+    },
+    "script": "fix_waist_bridge_upper_overlap.py"
+  },
+  "production_modified": false
+}

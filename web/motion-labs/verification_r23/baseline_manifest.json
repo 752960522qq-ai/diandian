@@ -1,0 +1,31 @@
+{
+  "diandian": {
+    "c96-dynamics.js": "010c462cc1590ad0973100e901ffebd8369ef431ef5f1d5bd07994952bcce82c",
+    "type97-motion.js": "61cf6d31f012d813f3eb4e94f5ecff03addc9c2379efbb8e387a78e525ab3899",
+    "weapon-attachment.js": "3baf57472dacda8d6556b4cae9ae4c9400338e519d9e571334e8ba60cdcdc831",
+    "app.js": "cca8e705b0f3c88fd3e4b9f0ed378e4158034021a8a49cccf9a07c24831a7941",
+    "index.html": "4058486d64629e64f7c718ab353ba436590d0942e47c38e022e2fc75cc25154d",
+    "c96-reload.js": "559d746eef3104530a3446207e53676b10b1cf12b67a786e70aa19bbd8b6970b",
+    "styles.css": "f8077dfcb4aba825fcb33d553e042db6563c2fa21f9318d3fc7f93633bca56a0",
+    "assets/weapon_attachment.json": "060e73a31a1930ba95f103b9d174256cbd07e436ac84598df05d721b6d42b543",
+    "assets/weapon_catalog.json": "feac12cb14a7c9c835355231ea3f67138670f6d6a19fa1f5deb8d8f549b54d4d",
+    "assets/rig_info.json": "92261bc53445394be6dec438427dcba4e56b91560f4a5333f5931218c83858b7",
+    "assets/weapons/type97hawk.glb": "20ec4f85cc9eeb9037b552c9b4d70dbcaca82d8035056438301704b6b6cf30a5",
+    "assets/diandian_fixed.glb": "ddd45865c3e46703c9e3a64c6101927ac251f443a4d69c85bf087b87c0a8f7e8"
+  },
+  "zhigeng": {
+    "c96-dynamics.js": "010c462cc1590ad0973100e901ffebd8369ef431ef5f1d5bd07994952bcce82c",
+    "type97-motion.js": "61cf6d31f012d813f3eb4e94f5ecff03addc9c2379efbb8e387a78e525ab3899",
+    "weapon-attachment.js": "3baf57472dacda8d6556b4cae9ae4c9400338e519d9e571334e8ba60cdcdc831",
+    "ponytail-physics.js": "361544516e7c188da1bbc55b5fd8a3f97f1bb246744840c798da3d51e027804f",
+    "app.js": "5f4dad97afca12a870bc3a11c671e611783c5e04fb64dd73d08d59b2a3313cd4",
+    "index.html": "16925d5c481da2ec7b7a65396a65e68f0cea6908274f2f5f9dab5c6aa68cdb8d",
+    "c96-reload.js": "559d746eef3104530a3446207e53676b10b1cf12b67a786e70aa19bbd8b6970b",
+    "styles.css": "c2bcf4142d837aaec80014d19d8e38588ee3d80fa49f9a278fcdba9d3bdc9dbe",
+    "assets/weapon_attachment.json": "060e73a31a1930ba95f103b9d174256cbd07e436ac84598df05d721b6d42b543",
+    "assets/weapon_catalog.json": "feac12cb14a7c9c835355231ea3f67138670f6d6a19fa1f5deb8d8f549b54d4d",
+    "assets/rig_info.json": "5b7bcd2b00f09172de75631ffc0e359d7acca3beab982e9a097e02286799a29a",
+    "assets/weapons/type97hawk.glb": "20ec4f85cc9eeb9037b552c9b4d70dbcaca82d8035056438301704b6b6cf30a5",
+    "assets/zhigeng_fixed.glb": "95bcd799d7966058864b34836b3c2239e077f2db4335747ecfabd529242ed923"
+  }
+}

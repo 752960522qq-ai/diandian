@@ -54,3 +54,8 @@
 `type97hawk.glb`为当前800mm模型；在等比缩到800mm后，枪身X宽度再收窄10%，最终宽×高×长为55.319×232.038×800mm。原上传`source/type97_hawk_source.glb`保持原样。两阶段重现脚本为`tools/gltf/normalize_type97_hawk.py`和`tools/gltf/resize_type97_hawk.py`，完整命令及左手适配说明见`../../web/motion-labs/README.md`；`type97hawk_model_report.json`包含原始/中间/最终尺寸和输出校验值。独立护木运行时展示拉泵行程44.8556mm。
 
 `character_attachment_v22.json`归档网页两角色的完整参数。97式基础及右侧/身体使用AR动作，开火与拉泵仅混入霰弹枪左侧动作；新握持约束仍为网页运行时实现，没有更新Godot旧组件。
+
+
+## 97式左臂补充（修订23）
+
+修订23已合入最终GLB与网页源码，验收记录见下文。本轮仅对97式RifleIdle采用0.35上臂扭转分摊及180°参考；其他动作保持修订22，其他武器参考参数默认0°。模型尺寸和机械泵曲线不变，仍为800mm、等比缩放后X宽度再乘0.9、展示拉泵44.8556mm。
