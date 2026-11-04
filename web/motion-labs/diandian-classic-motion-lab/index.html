@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f4f2ee">
+  <meta name="description" content="点点经典形象的动作与面部绑定测试。切换待机、走路和跑步，近看头部运动，并对照修复前后的表现。">
+  <title>点点 · 动作校准室</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="stylesheet" href="./styles.css?v=motions16">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="点点动作校准室首页"><span class="brand-mark"><i></i><i></i></span><span>点点<span class="brand-divider">/</span><span class="brand-sub">动作校准室</span></span></a>
+    <span class="edition"><span></span>人物武器适配</span>
+  </header>
+  <main class="workspace">
+    <section class="stage-card" aria-label="点点三维动作预览">
+      <div class="stage" id="stage">
+        <canvas id="viewport" aria-label="可旋转和缩放的点点模型"></canvas>
+        <div class="stage-heading"><span class="eyebrow">DIANDIAN CLASSIC</span><h1>让每个动作<br>都自然一点。</h1></div>
+        <div class="view-tag"><span class="status-dot"></span><span id="view-tag">本次适配</span></div>
+        <div class="loading" id="loading" role="status"><div class="loading-orbit"><i></i><i></i><i></i></div><strong id="loading-title">点点准备中</strong><span id="loading-detail">正在载入模型与动作</span><div class="loading-track"><span id="loading-progress"></span></div></div>
+        <div class="stage-footnote"><span class="mouse-symbol">↔</span><span>拖动旋转 · 双指缩放</span></div>
+        <button class="stage-reset" id="reset-camera" title="重置视角" aria-label="重置视角"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3.5 10a8.5 8.5 0 1 1 1.7 7.5M3.5 4.5V10H9"/></svg></button>
+      </div>
+      <div class="transport">
+        <button id="play-toggle" class="play-button" aria-label="暂停播放"><svg id="play-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M7 5h3v14H7zm7 0h3v14h-3z"/></svg></button>
+        <div class="timeline"><div class="timeline-labels"><strong id="current-motion">待机</strong><span id="time-readout">0.00 / 0.00 s</span></div><input id="timeline" type="range" min="0" max="1" value="0" step="0.0001" aria-label="动作进度"></div>
+        <span class="loop-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 8h13l-3-3m6 11H7l3 3M4 8v7m16 1V9"/></svg>循环</span>
+      </div>
+    </section>
+    <aside class="panel">
+      <div class="panel-intro"><span class="eyebrow">MOTION STUDY / 01</span><h2>和点点动起来</h2><p>切换动作，看看头部和身体<br class="desktop-break">是否配合得恰到好处。</p></div>
+      <section class="control-section weapon-section"><div class="section-title"><h3>装配武器</h3><span id="weapon-label">QBZ95</span></div><div class="segmented weapon-toggle" role="group" aria-label="装配武器"><button data-weapon="qsz92" disabled>QSZ92</button><button data-weapon="type54" disabled>54式</button><button data-weapon="c96" disabled>C96</button><button data-weapon="qcq171" disabled>QCQ171</button><button data-weapon="qbz95" class="active" disabled>QBZ95</button><button data-weapon="type56_1" disabled>56-1</button><button data-weapon="hanyang88" disabled>汉阳造</button><button data-weapon="qbu85" disabled>QBU85</button><button data-weapon="winchester1897" disabled>M1897</button></div></section>
+      <section class="control-section"><div class="section-title"><h3>选择动作</h3><span id="motion-count">正在读取</span></div><div class="motion-grid" id="motion-buttons"></div></section>
+      <section class="control-section compare-section"><div class="section-title"><h3>版本对照</h3><span>同一动作 · 同一时刻</span></div><div class="segmented compare-toggle" role="group" aria-label="选择模型版本"><button data-version="before" aria-pressed="false">上一版</button><button data-version="fixed" class="active" aria-pressed="true">本次适配</button></div></section>
+      <section class="control-section"><div class="section-title"><h3>观察视角</h3><span id="camera-hint">全身</span></div><div class="view-controls"><div class="segmented" role="group" aria-label="镜头距离"><button data-framing="full" class="active" aria-pressed="true">全身</button><button data-framing="head" aria-pressed="false">头部</button><button data-framing="feet" aria-pressed="false">脚部</button><button data-framing="leftHand" aria-pressed="false">左手</button><button data-framing="rightHand" aria-pressed="false">右手</button></div><div class="segmented" role="group" aria-label="镜头方向"><button data-angle="front" class="active" aria-pressed="true">正面</button><button data-angle="side" aria-pressed="false">侧面</button><button data-angle="back" aria-pressed="false">背面</button></div></div></section>
+      <section class="control-section speed-section"><div class="section-title"><h3>播放速度</h3><output id="speed-label" for="speed">1.00×</output></div><input id="speed" type="range" min="0.25" max="1.5" value="1" step="0.05" aria-label="播放速度"><div class="range-labels"><span>0.25× 慢看</span><span>1.50×</span></div></section>
+      <section class="control-section skeleton-section"><label class="toggle-row" for="skeleton"><span><strong>显示骨骼</strong><small>观察头颈与身体的连接</small></span><span class="switch"><input id="skeleton" type="checkbox"><span></span></span></label></section>
+      <section class="control-section face-section" id="face-controls" hidden><div class="section-title"><h3>面部测试</h3><span>适配后</span></div><div id="face-sliders"></div></section>
+      <div class="hint-card"><span class="hint-icon">↗</span><p><strong>近一点，看得更清楚</strong><span>试试头部或手部特写与慢速播放，查看发型贴合和指节弯曲。</span></p></div>
+    </aside>
+  </main>
+  <footer><span class="footer-mark"><i></i><i></i></span><span>点点滴滴</span><span class="footer-line"></span><span>经典形象，继续出发。</span><span class="footer-right">角色动作测试</span></footer>
+  <script type="module" src="./app.js?v=motions16"></script>
+</body>
+</html>

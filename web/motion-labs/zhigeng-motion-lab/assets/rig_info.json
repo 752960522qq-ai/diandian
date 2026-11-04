@@ -1,0 +1,294 @@
+{
+  "title": "知更 · 面部骨骼与动作适配",
+  "donor": "hero_13 夏晴 R23，经点点已拟合面部骨架迁移",
+  "appearance_revision": 5,
+  "facial_revision": 2,
+  "body_bones_preserved": 65,
+  "ponytail_bones": 3,
+  "transferred_face_bones": 246,
+  "total_bones": 315,
+  "fps": 30,
+  "motions": [
+    {
+      "name": "Idle",
+      "label": "站立待机",
+      "duration": 6,
+      "loop": true,
+      "source": "woman_Standing Idle.fbx",
+      "source_action": "standing_idle"
+    },
+    {
+      "name": "Walk",
+      "label": "走路",
+      "duration": 1.1666666666666667,
+      "loop": true
+    },
+    {
+      "name": "Run",
+      "label": "跑步",
+      "duration": 0.6666666666666666,
+      "loop": true
+    },
+    {
+      "name": "HeadStress",
+      "label": "大幅转头",
+      "duration": 4.0,
+      "loop": true
+    },
+    {
+      "name": "Talking",
+      "label": "说话手势",
+      "duration": 3.933333333333333,
+      "loop": false
+    },
+    {
+      "name": "RifleIdle",
+      "label": "持步枪待机",
+      "duration": 8.566666666666666,
+      "loop": true
+    },
+    {
+      "name": "RifleWalk",
+      "label": "持枪行走",
+      "source": "Rifle Walk1.fbx",
+      "duration": 1.3,
+      "loop": true
+    },
+    {
+      "name": "RifleAimingIdle",
+      "label": "步枪瞄准",
+      "duration": 3.1,
+      "loop": true
+    },
+    {
+      "name": "FiringRifle",
+      "label": "步枪射击",
+      "duration": 0.26666666666666666,
+      "loop": true
+    },
+    {
+      "name": "RifleRun",
+      "label": "持步枪跑步",
+      "duration": 0.6666666666666666,
+      "loop": true
+    },
+    {
+      "name": "Reloading",
+      "label": "换弹",
+      "duration": 3.3,
+      "loop": false
+    },
+    {
+      "name": "PistolIdle",
+      "label": "手枪待机",
+      "duration": 0.03333333333333333,
+      "loop": true,
+      "source": "ch_leon_w01_000_taiki.mca",
+      "source_action": "Leon · 双手高位持枪",
+      "pose_hold": true
+    },
+    {
+      "name": "PistolAimingIdle",
+      "label": "手枪瞄准",
+      "duration": 1.3333333333,
+      "source": "Pistol Idle.fbx",
+      "source_action": "原手枪待机",
+      "loop": true
+    },
+    {
+      "name": "PistolWalk",
+      "label": "手枪行走",
+      "source": "ch_leon_w01_001_walk.mca",
+      "source_action": "Leon · 持枪行走",
+      "duration": 0.6666666666666666,
+      "loop": true
+    }
+  ],
+  "face_controls": [
+    {
+      "id": "jaw",
+      "label": "下颌微动",
+      "type": "bone",
+      "bones": [
+        {
+          "name": "DD_Jaw_CTRL",
+          "axis": "x",
+          "radians": 0.055
+        }
+      ]
+    },
+    {
+      "id": "brow",
+      "label": "轻抬眉",
+      "type": "bone",
+      "bones": [
+        {
+          "name": "XQ_eyebrow_bottom_00_L",
+          "translation": [
+            -0.0001945943949976936,
+            0.001183672808110714,
+            3.243267929065041e-05
+          ]
+        },
+        {
+          "name": "XQ_eyebrow_bottom_00_R",
+          "translation": [
+            -0.0001945943949976936,
+            0.001183672808110714,
+            3.243267929065041e-05
+          ]
+        },
+        {
+          "name": "XQ_eyebrow_bottom_01_L",
+          "translation": [
+            -0.0001945943949976936,
+            0.001183672808110714,
+            3.243267929065041e-05
+          ]
+        },
+        {
+          "name": "XQ_eyebrow_bottom_01_R",
+          "translation": [
+            -0.0001945943949976936,
+            0.001183672808110714,
+            3.243267929065041e-05
+          ]
+        },
+        {
+          "name": "XQ_eyebrow_bottom_02_L",
+          "translation": [
+            -0.0001945943949976936,
+            0.001183672808110714,
+            3.243267929065041e-05
+          ]
+        },
+        {
+          "name": "XQ_eyebrow_bottom_02_R",
+          "translation": [
+            -0.0001945943949976936,
+            0.001183672808110714,
+            3.243267929065041e-05
+          ]
+        },
+        {
+          "name": "XQ_eyebrow_bottom_03_L",
+          "translation": [
+            -0.0001945943949976936,
+            0.001183672808110714,
+            3.243267929065041e-05
+          ]
+        },
+        {
+          "name": "XQ_eyebrow_bottom_03_R",
+          "translation": [
+            -0.0001945943949976936,
+            0.001183672808110714,
+            3.243267929065041e-05
+          ]
+        },
+        {
+          "name": "XQ_eyebrow_top_00_L",
+          "translation": [
+            -0.0001945943949976936,
+            0.001183672808110714,
+            3.243267929065041e-05
+          ]
+        },
+        {
+          "name": "XQ_eyebrow_top_00_R",
+          "translation": [
+            -0.0001945943949976936,
+            0.001183672808110714,
+            3.243267929065041e-05
+          ]
+        },
+        {
+          "name": "XQ_eyebrow_top_01_L",
+          "translation": [
+            -0.0001945943949976936,
+            0.001183672808110714,
+            3.243267929065041e-05
+          ]
+        },
+        {
+          "name": "XQ_eyebrow_top_01_R",
+          "translation": [
+            -0.0001945943949976936,
+            0.001183672808110714,
+            3.243267929065041e-05
+          ]
+        },
+        {
+          "name": "XQ_eyebrow_top_02_L",
+          "translation": [
+            -0.0001945943949976936,
+            0.001183672808110714,
+            3.243267929065041e-05
+          ]
+        },
+        {
+          "name": "XQ_eyebrow_top_02_R",
+          "translation": [
+            -0.0001945943949976936,
+            0.001183672808110714,
+            3.243267929065041e-05
+          ]
+        },
+        {
+          "name": "XQ_eyebrow_top_03_L",
+          "translation": [
+            -0.0001945943949976936,
+            0.001183672808110714,
+            3.243267929065041e-05
+          ]
+        },
+        {
+          "name": "XQ_eyebrow_top_03_R",
+          "translation": [
+            -0.0001945943949976936,
+            0.001183672808110714,
+            3.243267929065041e-05
+          ]
+        }
+      ]
+    }
+  ],
+  "head_shape_preserved": true,
+  "head_uniform_scale_xyz": [
+    0.125,
+    0.125,
+    0.125
+  ],
+  "comparison_mode": "facial_binding",
+  "compare": "上一版保留原四动作，本次版引入用户动作包。",
+  "face_binding_summary": {
+    "facial_bones_with_direct_weights": 243,
+    "all_mesh_positions_identical": true,
+    "body_and_hair_weights_identical": true,
+    "action_curves_identical": true
+  },
+  "ponytail_body_collision_deferred": false,
+  "headset_removed": true,
+  "ears_hidden_under_hair": true,
+  "ponytail_physics": {
+    "godot_component": "SpringBoneSimulator3D",
+    "runtime_body_collisions": true,
+    "colliders": [
+      "neck",
+      "upper_back",
+      "left_shoulder",
+      "right_shoulder"
+    ]
+  },
+  "motion_revision": 1,
+  "walk_replacement_pending": false,
+  "walk_policy": "User confirmed: replace Idle with woman_idle; keep existing Walk",
+  "finger_revision": 2,
+  "head_uniform_scale": 1.04,
+  "mouth_width_factor": 0.92,
+  "default_idle_source": "woman_Standing Idle.fbx",
+  "idle_clearance_revision": 3,
+  "idle_selection_revision": 1,
+  "default_motion": "Idle",
+  "default_motion_source": "standing_idle"
+}

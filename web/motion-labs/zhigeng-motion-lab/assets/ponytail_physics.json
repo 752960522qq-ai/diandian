@@ -1,0 +1,147 @@
+{
+  "component": "SpringBoneSimulator3D",
+  "godot_tested_version": "4.6.3",
+  "coordinate_space": "bone_local_gltf_y_up",
+  "settings": {
+    "root_bone": "ZG_Ponytail_01",
+    "end_bone": "ZG_Ponytail_03",
+    "end_bone_length": 0.027934399999999998,
+    "stiffness": 0.55,
+    "drag": 0.45,
+    "gravity": 0.08,
+    "gravity_direction": [
+      0,
+      -1,
+      0
+    ],
+    "joint_radii": [
+      0.02808,
+      0.0312,
+      0.020800000000000003
+    ],
+    "collision_padding": 0.0015
+  },
+  "colliders": [
+    {
+      "name": "neck",
+      "bone": "mixamorig:Neck",
+      "a": [
+        0.00039980104563705845,
+        0.012035807638983135,
+        -6.436218370068204e-05
+      ],
+      "b": [
+        0.00039980419123630925,
+        0.04244962598197738,
+        -6.435509333693734e-05
+      ],
+      "radius": 0.024,
+      "rest_world_a": [
+        0.00195,
+        0.861,
+        -0.023
+      ],
+      "rest_world_b": [
+        0.00195,
+        0.891,
+        -0.018
+      ]
+    },
+    {
+      "name": "upper_back",
+      "bone": "mixamorig:Spine2",
+      "a": [
+        0.0011035760802713321,
+        -0.03625752942801006,
+        7.450861219605447e-05
+      ],
+      "b": [
+        -0.0005351609152964997,
+        0.06105797513855459,
+        -3.281902143531151e-05
+      ],
+      "radius": 0.04,
+      "rest_world_a": [
+        0.00195,
+        0.735,
+        -0.018
+      ],
+      "rest_world_b": [
+        0.00195,
+        0.832,
+        -0.026
+      ]
+    },
+    {
+      "name": "left_shoulder",
+      "bone": "mixamorig:LeftShoulder",
+      "a": [
+        -0.002001202615182407,
+        -0.011193239833963593,
+        -0.004860876468737398
+      ],
+      "b": [
+        0.0073459555272800655,
+        0.05789633973789873,
+        -0.011513736073107128
+      ],
+      "radius": 0.027,
+      "rest_world_a": [
+        0.025,
+        0.831,
+        -0.029
+      ],
+      "rest_world_b": [
+        0.092,
+        0.811,
+        -0.033
+      ]
+    },
+    {
+      "name": "right_shoulder",
+      "bone": "mixamorig:RightShoulder",
+      "a": [
+        0.004879141558955278,
+        -0.011285192641469693,
+        0.0020196122505196654
+      ],
+      "b": [
+        0.01153201990640474,
+        0.05780439640811414,
+        -0.00732753246298556
+      ],
+      "radius": 0.027,
+      "rest_world_a": [
+        -0.021,
+        0.831,
+        -0.029
+      ],
+      "rest_world_b": [
+        -0.088,
+        0.811,
+        -0.033
+      ]
+    }
+  ],
+  "research_sources": [
+    {
+      "name": "Godot SpringBoneSimulator3D",
+      "url": "https://docs.godotengine.org/en/stable/classes/class_springbonesimulator3d.html",
+      "source": "https://github.com/godotengine/godot/blob/4.6/doc/classes/SpringBoneSimulator3D.xml",
+      "license": "MIT",
+      "choice": "Built into the installed Godot 4.6.3; hair/tail chains and per-joint collision radii."
+    },
+    {
+      "name": "Godot capsule collisions",
+      "url": "https://docs.godotengine.org/en/stable/classes/class_springbonecollisioncapsule3d.html",
+      "source": "https://github.com/godotengine/godot/blob/4.6/doc/classes/SpringBoneCollisionCapsule3D.xml",
+      "license": "MIT",
+      "choice": "Native capsule contacts attached to neck, upper back and shoulders."
+    },
+    {
+      "name": "Godot VRM addon",
+      "url": "https://github.com/V-Sekai/godot-vrm",
+      "choice": "Also implements VRMC_springBone, but adds a VRM import pipeline; native simulator suits this plain GLB without conversion."
+    }
+  ]
+}
