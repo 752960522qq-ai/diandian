@@ -392,6 +392,15 @@ export class WeaponAttachment {
       const wristTarget = supportTarget.clone().sub(leftOffset.clone().applyQuaternion(leftRotation));
       this.solveLeftArm(wristTarget, leftRotation, mount.support_pose_weight ?? this.character.support_pose_weight ?? .85, mount.support_forearm_twist_weight ?? 0, mount.support_forearm_twist_reference_degrees ?? 0, mount.support_upper_arm_twist_weight ?? .75, mount.support_elbow_from_hand_weight ?? 0, mount.support_elbow_outward_weight ?? 0, mount.support_upper_arm_twist_reference_degrees ?? 0);
       const supportFingers = new Set();
+      // A calibrated local grip keeps the knuckles and thumb consistent across
+      // the AR base and the shotgun-only left-arm clips, including direct seeks.
+      for (const [name, rotation] of Object.entries(mount.support_finger_local_quaternions || {})) {
+        const bone = this.model.bones.get(name.includes(':') ? name : 'mixamorig:' + name);
+        this.saveBone(bone);
+        supportFingers.add(bone);
+        bone.quaternion.copy(quaternion(rotation));
+        bone.updateMatrixWorld(true);
+      }
       for (const [name, offset] of Object.entries(mount.support_finger_quaternion_offsets || {})) {
         const bone = this.model.bones.get(name.includes(':') ? name : 'mixamorig:' + name);
         this.saveBone(bone);

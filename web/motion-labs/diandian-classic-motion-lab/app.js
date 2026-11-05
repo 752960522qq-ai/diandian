@@ -2,7 +2,7 @@ import * as THREE from 'three';
 import { installType97Motions } from './type97-motion.js?v=clothing-r23';
 import { GLTFLoader } from './vendor/GLTFLoader.js';
 import { OrbitControls } from './vendor/OrbitControls.js';
-import { WeaponAttachment } from './weapon-attachment.js?v=clothing-r23';
+import { WeaponAttachment } from './weapon-attachment.js?v=type97-grip-r24';
 
 const $ = (selector) => document.querySelector(selector);
 const motionLabels = {};
@@ -311,7 +311,7 @@ function selectWeapon(id, switchMotion = true) {
 }
 
 async function equipWeapons() {
-  const config = await fetch('./assets/weapon_attachment.json?v=clothing-r23').then(r => r.json());
+  const config = await fetch('./assets/weapon_attachment.json?v=type97-run-r30').then(r => r.json());
   weaponConfig = config;
   const scenes = new Map(await Promise.all(Object.keys(config.weapons).map(async id => {
     const gltf = await loader.loadAsync('./assets/weapons/' + id + '.glb?v=clothing-r23');

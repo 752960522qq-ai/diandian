@@ -1,0 +1,141 @@
+{
+  "quaternion_xyzw": [
+    0.7223262556907992,
+    0.08693415054325511,
+    0.3467415474109171,
+    0.5919945144168708
+  ],
+  "right_hand_quaternion_offset": [
+    -0.07680778205394745,
+    -0.11655005067586899,
+    0.04640164226293564,
+    0.9891226291656494
+  ],
+  "left_hand_quaternion_weapon": [
+    0.4989621910619947,
+    0.47550875881121524,
+    -0.6085069015176647,
+    0.39325246723930707
+  ],
+  "support_forearm_twist_weight": 0.65,
+  "support_upper_arm_twist_weight": 0,
+  "right_hand_quaternion_weapon": [
+    -0.526968685821066,
+    -0.2907161838697213,
+    -0.4646407706864356,
+    0.6495360119406093
+  ],
+  "support_finger_pose_weight": 1,
+  "support_finger_directions_weapon": null,
+  "support_elbow_from_hand_weight": 0.55,
+  "right_finger_directions_weapon": {
+    "Middle": [
+      [
+        -0.9,
+        -0.05,
+        -0.43
+      ],
+      [
+        -0.8,
+        0,
+        0.6
+      ],
+      [
+        -0.15,
+        0,
+        0.99
+      ]
+    ],
+    "Ring": [
+      [
+        -0.9,
+        -0.05,
+        -0.43
+      ],
+      [
+        -0.8,
+        0,
+        0.6
+      ],
+      [
+        -0.15,
+        0,
+        0.99
+      ]
+    ],
+    "Pinky": [
+      [
+        -0.9,
+        -0.05,
+        -0.43
+      ],
+      [
+        -0.8,
+        0,
+        0.6
+      ],
+      [
+        -0.15,
+        0,
+        0.99
+      ]
+    ],
+    "Thumb": [
+      null,
+      [
+        -0.6,
+        0.25,
+        -0.76
+      ],
+      [
+        -0.2,
+        0,
+        -0.98
+      ]
+    ],
+    "Index": [
+      [
+        -0.55,
+        0.15,
+        -0.82
+      ],
+      [
+        -0.4,
+        0.05,
+        -0.915
+      ],
+      [
+        -0.05,
+        -0.02,
+        -0.998
+      ]
+    ]
+  },
+  "right_finger_pose_weight": 1,
+  "right_thumb_max_swing_degrees": [
+    0,
+    35,
+    30
+  ],
+  "support_finger_max_swing_degrees": null,
+  "support_pose_weight": 1,
+  "weapon_offset_body_m": [
+    0,
+    0,
+    0.035
+  ],
+  "left_grip": [
+    -0.025,
+    -0.045,
+    -0.225
+  ],
+  "support_upper_arm_twist_reference_degrees": 180,
+  "left_palm_offset_native": [
+    0.00077,
+    0.055,
+    -0.0033
+  ],
+  "support_elbow_outward_weight": 0.4,
+  "support_forearm_twist_reference_degrees": -90,
+  "right_elbow_outward_weight": 0.4
+}

@@ -312,7 +312,7 @@ function selectWeapon(id, switchMotion = true) {
 }
 
 async function equipWeapons() {
-  const config = await fetch('./assets/weapon_attachment.json?v=clothing-r23').then(r => r.json());
+  const config = await fetch('./assets/weapon_attachment.json?v=type97-run-r30').then(r => r.json());
   weaponConfig = config;
   const scenes = new Map(await Promise.all(Object.keys(config.weapons).map(async id => {
     const gltf = await loader.loadAsync('./assets/weapons/' + id + '.glb?v=clothing-r23');

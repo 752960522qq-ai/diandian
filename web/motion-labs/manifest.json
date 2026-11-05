@@ -1,35 +1,35 @@
 {
-  "revision": 23,
+  "revision": 30,
   "deployed_sources": [
     {
       "site": "diandian",
+      "source_commit": "20c38f3e974dad7d725d3b7b4606f359621e6ea4",
       "project_id": "appgprj_6ae75a729d0481919ec16ab35d702896",
-      "deployment_id": "appgdep_6aeb7051cf8481919632a59b4e3f129d",
-      "version_id": "appgprj_6ae75a729d0481919ec16ab35d702896~appgver_995e2c0474388191b75ca3bbd18e8b92",
+      "deployment_id": "appgdep_6aebf2470660819193f6c0e509686532",
+      "version_id": "appgprj_6ae75a729d0481919ec16ab35d702896~appgver_44f8913e5e5c8191a51c570847f592de",
       "status": "succeeded",
       "url": "https://diandian-classic-motion-lab.expert-eagle-6942.chatgpt.site",
-      "updated_at": "2026-11-04T17:50:41.687486+00:00",
-      "source_commit": "7af2979cccf206ea16ffc99fb7516c41764f7873"
+      "updated_at": "2026-11-05T03:05:01.290016+00:00"
     },
     {
       "site": "zhigeng",
+      "source_commit": "afc46e768d699df00fa4b20b5cde6c3f8974b058",
       "project_id": "appgprj_6ae8624b35f881918d161516efa53f28",
-      "deployment_id": "appgdep_6aeb6ffb7bbc8191a634479f65f3cf11",
-      "version_id": "appgprj_6ae8624b35f881918d161516efa53f28~appgver_a5407f89187881919f4fbb56410f9336",
+      "deployment_id": "appgdep_6aebf1e5e0f88191948dd2003c14990c",
+      "version_id": "appgprj_6ae8624b35f881918d161516efa53f28~appgver_0b04026c9fb88191ad4d0a2d215c5551",
       "status": "succeeded",
       "url": "https://zhigeng-motion-lab.expert-eagle-6942.chatgpt.site",
-      "updated_at": "2026-11-04T17:49:05.410898+00:00",
-      "source_commit": "8492dd237446afb1b5244c1ab8eec089d9581621"
+      "updated_at": "2026-11-05T03:03:22.775650+00:00"
     }
   ],
   "files": [
     {
       "path": "web/motion-labs/README.md",
-      "sha256": "0d61a190a4e837d97387156a6a29fc01bb7d355417112f30f4e1cbbe18f0b06d"
+      "sha256": "6b84ad16181775cab5607572fb1a45cab43145d62813edaac7363aa6456e1d9a"
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/app.js",
-      "sha256": "d652287a44e65d2576108ae78fa002b50d2d788275bf6d3ec5f9133789e6fc94"
+      "sha256": "64cdf479c34f2127d2a4f7e0d419419015c9d2cc20f199f0d43bda4d186f3da0"
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/assets/diandian_before.glb",
@@ -61,7 +61,7 @@
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/assets/weapon_attachment.json",
-      "sha256": "4befd6a2a4709b96952f15cc9c669d243c92e96b39c13b8449f9d3d69ec44b8e"
+      "sha256": "bce80fa55c8e241a95308c43c5827c032a18ea30fa643c364dc2bc513023bff9"
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/assets/weapon_catalog.json",
@@ -121,7 +121,7 @@
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/index.html",
-      "sha256": "ebafcf6bf01ddbc0b31656b430b96ea830ffa137e257fabc6237d81a3eba38f3"
+      "sha256": "fabde5de374de68c64a6dd1a287ee775926f2a66650703e050f2878a2f0b57e5"
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/styles.css",
@@ -157,7 +157,7 @@
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/weapon-attachment.js",
-      "sha256": "f8ed91ba0a770e1570853fd051ce2d07ee978393e5d70745b2cec9facc0b40ef"
+      "sha256": "fe62612ec817a153d35135222c0826fc3c74628aeb536af6013ad8a97900d67a"
     },
     {
       "path": "web/motion-labs/verification_r20/animation_regression.json",
@@ -365,7 +365,7 @@
     },
     {
       "path": "web/motion-labs/zhigeng-motion-lab/app.js",
-      "sha256": "78568c9c65a1ca22964d3eee5d974c7b36bc531d951b7101b2de59f40fea2c9b"
+      "sha256": "b8f2a40c758410fc6d0f570729e3ef8aed9a8045c3e61ae68d360ad636d7313b"
     },
     {
       "path": "web/motion-labs/zhigeng-motion-lab/assets/leon_pistol_animations.glb",
@@ -393,7 +393,7 @@
     },
     {
       "path": "web/motion-labs/zhigeng-motion-lab/assets/weapon_attachment.json",
-      "sha256": "4befd6a2a4709b96952f15cc9c669d243c92e96b39c13b8449f9d3d69ec44b8e"
+      "sha256": "b3b37939547752ae44bf157cde770b4b1561e4d57ac426ff508fca81c5888248"
     },
     {
       "path": "web/motion-labs/zhigeng-motion-lab/assets/weapon_catalog.json",
@@ -461,7 +461,7 @@
     },
     {
       "path": "web/motion-labs/zhigeng-motion-lab/index.html",
-      "sha256": "8b64bedfa6b696e88c78373411ecd62eb0496e1ba723421cae70cadaa9a02e88"
+      "sha256": "7fa43a881a6101445484319b40f28f5f0c510795ce1dfe7dd045ef82792623d5"
     },
     {
       "path": "web/motion-labs/zhigeng-motion-lab/ponytail-physics.js",
@@ -502,6 +502,378 @@
     {
       "path": "web/motion-labs/zhigeng-motion-lab/weapon-attachment.js",
       "sha256": "f8ed91ba0a770e1570853fd051ce2d07ee978393e5d70745b2cec9facc0b40ef"
+    },
+    {
+      "path": "web/motion-labs/verification_r24/README.md",
+      "sha256": "3b1e6b854811ada8a769470b7e2541992ce984bf2272ba4eae1758eb22cfb859"
+    },
+    {
+      "path": "web/motion-labs/verification_r24/diandian_full.png",
+      "sha256": "41a6ed891fe9b386257da8cac00cdb84f8d7db4c4b1434fd2887848e68bdd4e6"
+    },
+    {
+      "path": "web/motion-labs/verification_r24/diandian_left_hand.png",
+      "sha256": "7a6352577021d19ec7d5ed9b6c0038ceb0327acf15984d9386bf9e4c3e649611"
+    },
+    {
+      "path": "web/motion-labs/verification_r24/diandian_right_side.png",
+      "sha256": "3a9e2dd3d3a8e0c5de42c2b8ec7b193b4eb470d053670cdedc464b79e1c6fcf8"
+    },
+    {
+      "path": "web/motion-labs/verification_r24/type97-validation.json",
+      "sha256": "a166127e9e3a6e383386512d5f3f0781e307cda733f9f052a5ab9626026e6f6d"
+    },
+    {
+      "path": "web/motion-labs/verification_r24/deployment.json",
+      "sha256": "fe58b7102b0fd3ed37d5956b3853efe96466633205d3efd345188192df67b40f"
+    },
+    {
+      "path": "web/motion-labs/verification_r25/idle-above.png",
+      "sha256": "4c3ee67dbc4272596685748cba1c80e4449200c947ac5afe55d3a8cb980bc2ce"
+    },
+    {
+      "path": "web/motion-labs/verification_r25/idle-front.png",
+      "sha256": "fb8bc28e39f155c4dc868ce6cdec6419911324d803d117974b7f575b0db2286c"
+    },
+    {
+      "path": "web/motion-labs/verification_r25/README.md",
+      "sha256": "96acb4c15c3e52e4e98f74caeb6cd68c2e19ad4405807738c598168a67901c51"
+    },
+    {
+      "path": "web/motion-labs/verification_r25/idle-side.png",
+      "sha256": "03336c3039f7de87d9daba1250a994ecf4d30f7fa752ad3309478ac60bb2aca5"
+    },
+    {
+      "path": "web/motion-labs/verification_r25/idle-validation.json",
+      "sha256": "4d405575691e552da3efe6dc87ba6f704522c3023158f572e372f3ccec6cfee8"
+    },
+    {
+      "path": "web/motion-labs/verification_r25/deployment.json",
+      "sha256": "8d4c850d09ea05592d337e26bf917a07fd346b9d44cae35389e0efee56cc8326"
+    },
+    {
+      "path": "web/motion-labs/verification_r26/README.md",
+      "sha256": "dda5ba83111b64bffa45440ad63a0b7b5b69bb08b5a5439cca2fe4085a2d9af6"
+    },
+    {
+      "path": "web/motion-labs/verification_r26/walk-quarter.png",
+      "sha256": "f4389b526df58913fdfb6dcdd07d1efcbd660b855615ea68938cbd16c99533ce"
+    },
+    {
+      "path": "web/motion-labs/verification_r26/walk-front.png",
+      "sha256": "001a3cf60c8f36a7867c8c5354d895df771f80fd79553fa402f9da17f3daf0c9"
+    },
+    {
+      "path": "web/motion-labs/verification_r26/walk-regression.json",
+      "sha256": "738b625ff1d9f1afb36889ce01d15b98cdc6e4164643ce15bfb4be534dae9221"
+    },
+    {
+      "path": "web/motion-labs/verification_r26/approved-idle-mount.json",
+      "sha256": "8facf14495034215739529cc82ae6a9debd6d9a968b4e989f6c89ab99494036a"
+    },
+    {
+      "path": "web/motion-labs/verification_r26/idle-validation.json",
+      "sha256": "b0595938b23dd3f88cec78e1e566da31604f2e16399edd3da00541d7352f3f8b"
+    },
+    {
+      "path": "web/motion-labs/verification_r26/walk-patch.json",
+      "sha256": "93544622a2a162713b8fa79dc433faf7ab854b9e2173985ec0fb6eac5419ee92"
+    },
+    {
+      "path": "web/motion-labs/verification_r26/idle-restored.png",
+      "sha256": "3b65166df6323115e3b0fc4cce7584042e36531389395048389aa1fda6c854b6"
+    },
+    {
+      "path": "web/motion-labs/verification_r26/walk-validation.json",
+      "sha256": "7bde07af348e268a9560c33fb2d9c1ce8e085e6f7d0b0889a66ff046ae1738e2"
+    },
+    {
+      "path": "web/motion-labs/verification_r26/walk-side.png",
+      "sha256": "d23b7168f0b37659969f979345db340b1d374a00f9932f4b1a6268cbf67e9507"
+    },
+    {
+      "path": "web/motion-labs/verification_r26/deployment.json",
+      "sha256": "baef745a778c4f761df7276a2af605993c9c4f643ec05dba58d498567a864034"
+    },
+    {
+      "path": "web/motion-labs/verification_r27/after-RifleIdle-side.png",
+      "sha256": "b7aa5e3797a0efa60d5ca8f68d9b97ddf7401992cbe6bfe7e489b8463e64c20a"
+    },
+    {
+      "path": "web/motion-labs/verification_r27/before-RifleIdle-side.png",
+      "sha256": "8e8bbd9647193ff5d8df229e03889e14ecf0aa0b2201751b84269563e5e4d790"
+    },
+    {
+      "path": "web/motion-labs/verification_r27/README.md",
+      "sha256": "3646b6c2869a7ef1e74fc41041d1a58df96ee3cb3382faa116b17084ceba1401"
+    },
+    {
+      "path": "web/motion-labs/verification_r27/patch.json",
+      "sha256": "7152c4206cc991266fbe0c97beb169918c4ce7cacbcf88696c056ffa439b71ad"
+    },
+    {
+      "path": "web/motion-labs/verification_r27/before-RifleIdle-top.png",
+      "sha256": "e6f9582c7f6a22206053891f0514770b2803aae00133df56c121fa9caf3fac0f"
+    },
+    {
+      "path": "web/motion-labs/verification_r27/after-RifleWalk-top.png",
+      "sha256": "c9515d6bfecbb051bed298015ebd7fc20207b9225bebaf095150600e3c03686e"
+    },
+    {
+      "path": "web/motion-labs/verification_r27/before-RifleWalk-top.png",
+      "sha256": "3071389ae15304d6c19c8d9127fc21a8278a451e4390e917c802c6f6ec4ad600"
+    },
+    {
+      "path": "web/motion-labs/verification_r27/before-RifleWalk-side.png",
+      "sha256": "9c62ae992be7b22e8f9c34523386a832e3be68e236114b4f211338b401e0335b"
+    },
+    {
+      "path": "web/motion-labs/verification_r27/after-RifleIdle-top.png",
+      "sha256": "6850b0653fa9be640d1ba6da4e4134bb20be62db548b7925edcc6d7c555f6996"
+    },
+    {
+      "path": "web/motion-labs/verification_r27/validation.json",
+      "sha256": "26ccc6cd320a4a7329c23a42b247d6f58477c012677a3dd23c56036fe9f1adb4"
+    },
+    {
+      "path": "web/motion-labs/verification_r27/after-RifleWalk-side.png",
+      "sha256": "be4331e413c3d0c2f5bb70f937596bc041275d178e3e65c1b7dfa06e90f65b8f"
+    },
+    {
+      "path": "web/motion-labs/verification_r27/deployment.json",
+      "sha256": "21d46602d5b9a1b93058649044c2ba78584a0df4db2fa607735370a32ffa5dd8"
+    },
+    {
+      "path": "web/motion-labs/verification_r28/walk-type56_1-front.png",
+      "sha256": "10394d43591f5fb4550a8df72da89a7f36a9ecaa5c17f410d7b3c8470495f4ba"
+    },
+    {
+      "path": "web/motion-labs/verification_r28/idle-type56_1-top.png",
+      "sha256": "3e9508e21dc7bdde505dc5d027ed2b98f09bb06a767619bd238a79c4fbfccfa8"
+    },
+    {
+      "path": "web/motion-labs/verification_r28/walk-type97hawk-top.png",
+      "sha256": "afaedb12e74161fa3df07b0de9fae77d0f275283b08ac7fa445545ef30f83a12"
+    },
+    {
+      "path": "web/motion-labs/verification_r28/README.md",
+      "sha256": "0cd827873b76824e0f08158782763073ffd04c376fdd3baa733e88fbe5f858c7"
+    },
+    {
+      "path": "web/motion-labs/verification_r28/walk-type56_1-top.png",
+      "sha256": "f3abd64fe4e7e9a38173bb55a05fe0240b5abf753da5539a1a4678eab6636fe7"
+    },
+    {
+      "path": "web/motion-labs/verification_r28/idle-candidate.json",
+      "sha256": "cd5c1c58c7ea0b2b800deb272e17390f909840b6d2b4fd631a29e9cec780a782"
+    },
+    {
+      "path": "web/motion-labs/verification_r28/idle-type97hawk-front.png",
+      "sha256": "7f5ec09d3fa5451dda9e6651350a92e84f9e8f8ff217d9819dc344628fb00a6e"
+    },
+    {
+      "path": "web/motion-labs/verification_r28/idle-type97hawk-top.png",
+      "sha256": "4daaf42061b6389adb416806d69d38ab3e44b2d2382eeda328639e4810f51bc8"
+    },
+    {
+      "path": "web/motion-labs/verification_r28/idle-type56_1-front.png",
+      "sha256": "4486942da289d9199cf250a0d31a75c84e15a29eda36cf0724cebb6569d3f350"
+    },
+    {
+      "path": "web/motion-labs/verification_r28/walk-type97hawk-front.png",
+      "sha256": "7d7ed7700fa3181bd57eb803e433ad20211307cf3475c4278cb3cba6a3f59169"
+    },
+    {
+      "path": "web/motion-labs/verification_r28/idle-validation.json",
+      "sha256": "50b5e76693fcd32e27ecb525f8a64e0fe6dfcdb4541b974de23cbe39dff8d7da"
+    },
+    {
+      "path": "web/motion-labs/verification_r28/walk-patch.json",
+      "sha256": "9f9df5509c62b9155aaab496441835fb80cfc64dc1d8c2d51f4a610880ff982e"
+    },
+    {
+      "path": "web/motion-labs/verification_r28/walk-validation.json",
+      "sha256": "d67d83b8efe2c7da956f27f817b7dcf972af165acf6a8f6e0bd72076a8143bf8"
+    },
+    {
+      "path": "web/motion-labs/verification_r28/deployment.json",
+      "sha256": "30335e5552313ef4ef566d0f754e0ba13ae20a2033e96e45fa97c65e7751d4d6"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/qa-RifleIdle-front-type97hawk.png",
+      "sha256": "e86b06442a31ad22d151a0a5800c7c89655b7e3d004194aa595cd36e624f8243"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/qa-RifleWalk-top-type97hawk.png",
+      "sha256": "6bf86fd22f06f7258d43ba8122f774d6c708b0efc6dbeced815343d8520e5398"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/independent-review.md",
+      "sha256": "af07fccf66c36dda3aab272195cc27b87dd5f819f692029f88154c4a8b7096da"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/qa-RifleIdle-maxwrist-side.png",
+      "sha256": "de9534cb4d8019b5ac859241ff2799b1f7ba5f563ca4e052669ade5540e6b90e"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/qa-RifleIdle-side-type56_1.png",
+      "sha256": "2578ba4fa09d61fc9dbd957b380d24777f400cdd5fd80f3c91de272113d87da4"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/qa-RifleWalk-maxwrist-side.png",
+      "sha256": "f8fb51c5fc6131404d07a5a21e3b8fe3d15fbd9cd38262183910b8e15ee1d446"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/qa-RifleIdle-front-type56_1.png",
+      "sha256": "5322dfc2bf7b64be9c938c23203d1d3aeb3addcc76d61f0d377e08327d4fec53"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/README.md",
+      "sha256": "37bb053aedce74201f0d4a786b420cd92836e71decf755730f8d29dcbf7e3f3f"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/qa-RifleWalk-front-type56_1.png",
+      "sha256": "3631fd5b0efc19558a8d74caefc174c933508dc29b34ca3c5668e45ba7c5f825"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/qa-RifleIdle-side-type97hawk.png",
+      "sha256": "c1cc891df266713fa4110633cc5f5550fefde893711f63fef2ab2f4fb86e7a32"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/qa-RifleWalk-side-type97hawk.png",
+      "sha256": "15e4a63980d986f47594eb88d7096e3410142261b234489b36640d0b62531bde"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/qa-RifleWalk-side-type56_1.png",
+      "sha256": "3105b69697d3c744962335abff87d6015ad1614098414852aac4ba86ccfff0f8"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/qa-RifleWalk-front-type97hawk.png",
+      "sha256": "4a293bacdc5418f4945eba96a29a66ed356bdfd5b4781e6068924b3abe20e884"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/qa-RifleWalk-top-type56_1.png",
+      "sha256": "f0a57b3c282ecf6df8974bac4f064599ccd06708647c14b045541abd94011806"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/validation.json",
+      "sha256": "ad5e4a2b4db90c64ea219cfbd0f9812fd628e6a6e9d50cac9e91c6441f584b99"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/qa-RifleIdle-top-type97hawk.png",
+      "sha256": "335129e9a763430475df016811cb1093ee31bddaf504d7d17c8c3214a143d06b"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/qa-RifleIdle-top-type56_1.png",
+      "sha256": "115f481cf36969419ee23b9c3eecc3e3fc1ff3714060fb3c1eb37ea01603fa50"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/patches.json",
+      "sha256": "85813c282b0e1023764054f95a2d8aab1a9ee93d3021cae89a6d1adc058d6ebd"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/deployment.json",
+      "sha256": "c563052d0b5e5a04bcc345a402854170d10515a6839f9dfe0dea955245468b22"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/README.md",
+      "sha256": "dea31761dd5575c9a0fb9945fe2cc79115cc246e7ca5e71c3b20353b73000d8a"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/diandian/render-front-candidate-0.17.png",
+      "sha256": "6fe45bb9aeefc878b53da4ebf692c782268a83e487bfeeb4197e46439dc68462"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/diandian/render-top-candidate-0.17.png",
+      "sha256": "ec453c347e971f82b21fd43b7b224dbd6cd1ed5f1e4d59e4bdada5653d14239b"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/diandian/render-top-reference-0.17.png",
+      "sha256": "13c8c0cfd594c67c1591f2b4583e3269c5f41e79b448b6ae8a8515e06f55c7ce"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/diandian/report.md",
+      "sha256": "9664aefff067059af344f1b1fe53e9ad8ca97686e9d6f7c36c1ebb40f110c949"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/diandian/run-patch.json",
+      "sha256": "13719ef6033518a7c1f8e67d3b46634a92405a7af56651a109a790427b6a1c00"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/diandian/render-side-reference-0.17.png",
+      "sha256": "3960f16902f3c97f57ed1b6f6291801a056d5aab731ec1f8c86b90a54505e77f"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/diandian/validation.json",
+      "sha256": "f02b3363b65a1f7cd06b990d492e3b56babe317b150d7f10b64f7109c7e11576"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/diandian/render-side-candidate-0.17.png",
+      "sha256": "f9fef731e521cb7257c19b740ef1adec70f8819df28e1714e87c0f34d5c6173e"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/diandian/render-front-reference-0.17.png",
+      "sha256": "4276f80efd1754dba3fac0e6eb215ea004c43f8784c322963fe5c292e5e2fe32"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/zhigeng/front-type56_1-0.167.png",
+      "sha256": "bef7985c551217687384aec5053585bae20e33bcbbdd3dcee94ffd8d0b40b9c2"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/zhigeng/side-type97hawk-0.167.png",
+      "sha256": "6e469143b650a060940cde22079becb7e3dd2f1291406d3526851243d792eac3"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/zhigeng/side-type56_1-0.167.png",
+      "sha256": "7fb07e91b92965014ceba5a1d898265a7c4c0a1904fe6f37f992e899817bfe94"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/zhigeng/report.md",
+      "sha256": "e2385d50676f6010cfe44012c29d5a5101ea8ebe1fc5664d27bf02f35ceeb59a"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/zhigeng/front-type97hawk-0.167.png",
+      "sha256": "2f60d8fee1fb6a0e33082ebe7ccce053692583ce2074a9559ec90a1eac850e70"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/zhigeng/run-patch.json",
+      "sha256": "c44d802759546ab2daacef7fa8046702a09ab3eb8c014c72d0f358aaaa885c57"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/zhigeng/validation.json",
+      "sha256": "84161a4ebc7f0c3840bc6d9ffabdab63dd7a77ffcbb535c942441b6263c464a4"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/zhigeng/top-type56_1-0.167.png",
+      "sha256": "ef0f7593c84f30487492565494779edff867f20b04ae56bdb16e16e1ed8f9001"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/zhigeng/top-type97hawk-0.167.png",
+      "sha256": "e6d07ed6eed63bf29652d61fb5c6853c19bd5d58df872401e77d673870a39bcb"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/diandian/deployment.json",
+      "sha256": "3cfb569835dbf4bc33ac2a37ac654bfb4af3c8b6a1bbccb31e17f471580542e4"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/zhigeng/deployment.json",
+      "sha256": "26fe0b98aca2f0bfa3e71185edefefc556c3fb420c05322319b982e63eb2d41f"
     }
-  ]
+  ],
+  "source_alignment": {
+    "diandian": {
+      "runtime_revision": 30,
+      "repository_character_asset_revision": 23,
+      "hosted_character_asset_base_version": 32,
+      "note": "Web model and runtime match the deployed source; historical downloads are not included.",
+      "fixed_character_asset_matches_hosted": true
+    },
+    "zhigeng": {
+      "runtime_revision": 30,
+      "repository_character_asset_revision": 22,
+      "hosted_character_asset_base_version": 27,
+      "fixed_character_asset_matches_hosted": true,
+      "changed_this_revision": true
+    }
+  }
 }

@@ -1,0 +1,111 @@
+{
+  "sampleRateHz": 240,
+  "motions": [
+    {
+      "motion": "RifleIdle",
+      "duration": 8.566666603088379,
+      "samples": 2057,
+      "minWrist": 4.833632918394245,
+      "maxWrist": 6.130734503281437,
+      "maxContactM": 1.5601105321223682e-07,
+      "maxStepDegrees": [
+        0.03209420940882597,
+        0.06474688359654275,
+        0.03558895814889002
+      ],
+      "minTwist": -103.0705045182625,
+      "maxTwist": -88.30087891582211,
+      "maxPumpTravelM": 0
+    },
+    {
+      "motion": "RifleWalk",
+      "duration": 1.2999999523162842,
+      "samples": 313,
+      "minWrist": 15.437763578144128,
+      "maxWrist": 17.884263030743845,
+      "maxContactM": 1.981230571847911e-07,
+      "maxStepDegrees": [
+        0.16230148283874074,
+        0.223159293412161,
+        0.16828549740429122
+      ],
+      "minTwist": -108.58253033231753,
+      "maxTwist": -97.64455399619064,
+      "maxPumpTravelM": 0
+    },
+    {
+      "motion": "RifleRun",
+      "duration": 0.6666666865348816,
+      "samples": 162,
+      "minWrist": 11.105384634028843,
+      "maxWrist": 23.895300873315012,
+      "maxContactM": 6.54289884013005e-08,
+      "maxStepDegrees": [
+        1.228687254562621,
+        1.2569392726389166,
+        1.3141825134475913
+      ],
+      "minTwist": -72.63558304077799,
+      "maxTwist": -15.799882161873466,
+      "maxPumpTravelM": 0
+    },
+    {
+      "motion": "RifleAimingIdle",
+      "duration": 3.0999999046325684,
+      "samples": 745,
+      "minWrist": 15.78897433883153,
+      "maxWrist": 16.98114921889075,
+      "maxContactM": 1.8716751320227746e-07,
+      "maxStepDegrees": [
+        0.022194067581190816,
+        0.01577049997336308,
+        0.009275029099027875
+      ],
+      "minTwist": -140.41881683108699,
+      "maxTwist": -139.49710699590594,
+      "maxPumpTravelM": 0
+    },
+    {
+      "motion": "FiringRifle",
+      "duration": 0.2666666805744171,
+      "samples": 66,
+      "minWrist": 2.6558151154269427,
+      "maxWrist": 10.156749713424029,
+      "maxContactM": 1.023768689115561e-07,
+      "maxStepDegrees": [
+        1.0896176523098167,
+        1.7205157604274932,
+        0.6111479228287766
+      ],
+      "minTwist": -141.9453738906489,
+      "maxTwist": -132.6691384370563,
+      "maxPumpTravelM": 0
+    },
+    {
+      "motion": "ShotgunPump",
+      "duration": 0.7333333492279053,
+      "samples": 178,
+      "minWrist": 15.302114545297444,
+      "maxWrist": 19.347184029638427,
+      "maxContactM": 1.1471120871626923e-07,
+      "maxStepDegrees": [
+        2.7802354216303033,
+        2.403489042761762,
+        0.8599139746960528
+      ],
+      "minTwist": -140.87524195897475,
+      "maxTwist": -126.9103223422809,
+      "maxPumpTravelM": 0.04466713843421898
+    }
+  ],
+  "seekDeterministic": true,
+  "poseResetAfterWeaponSwitch": true,
+  "seekMaxDelta": 0,
+  "switchMaxDelta": 0,
+  "pumpResetM": 0,
+  "finite": true,
+  "otherWeaponCases": 66,
+  "otherWeaponsMaxComponentDelta": 1.3461454173580023e-15,
+  "rightHandAndGunMaxComponentDelta": 8.881784197001252e-16,
+  "regressionTolerance": 1e-12
+}

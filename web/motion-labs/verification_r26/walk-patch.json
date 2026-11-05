@@ -1,0 +1,22 @@
+{
+  "left_hand_quaternion_weapon": [
+    0.4989621910619947,
+    0.47550875881121524,
+    -0.6085069015176647,
+    0.39325246723930707
+  ],
+  "left_grip": [
+    -0.025,
+    -0.045,
+    -0.225
+  ],
+  "left_palm_offset_native": [
+    0.00077,
+    0.055,
+    -0.0033
+  ],
+  "support_elbow_from_hand_weight": 0.55,
+  "support_elbow_outward_weight": 0.4,
+  "right_elbow_outward_weight": 0.4,
+  "support_forearm_twist_reference_degrees": -90
+}

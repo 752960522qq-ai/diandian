@@ -1,0 +1,34 @@
+{
+  "sampleRateHz": 240,
+  "before": {
+    "samples": 2057,
+    "leftOutMin": -0.09794155625362579,
+    "leftOutMax": -0.07343001331501123,
+    "rightOutMin": 0.10601207330461924,
+    "rightOutMax": 0.11394419341189195,
+    "leftWristMax": 6.130734332817899,
+    "rightWristMax": 7.576639399791852,
+    "maxContactM": 1.5601105338840292e-07,
+    "maxBoneStepDegrees": 0.06474688359654275,
+    "maxElbowStepM": 0.00020438226357551937,
+    "twistMin": -103.0705045182625,
+    "twistMax": -88.30087891582211
+  },
+  "after": {
+    "samples": 2057,
+    "leftOutMin": 0.01202994438669874,
+    "leftOutMax": 0.0385836782055818,
+    "rightOutMin": 0.11810141398382766,
+    "rightOutMax": 0.1260650186998696,
+    "leftWristMax": 27.667404522572348,
+    "rightWristMax": 6.26746794687807,
+    "maxContactM": 1.7200249162192488e-07,
+    "maxBoneStepDegrees": 0.3284877798721036,
+    "maxElbowStepM": 0.00031246006451289527,
+    "twistMin": -41.829027175129625,
+    "twistMax": 122.17110124878394
+  },
+  "nonIdleAndOtherWeaponMaxDelta": 0,
+  "regressionCases": 42,
+  "returnToIdleMaxDelta": 0
+}

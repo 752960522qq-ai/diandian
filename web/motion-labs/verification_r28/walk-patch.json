@@ -1,0 +1,162 @@
+{
+  "right_finger_pose_weight": null,
+  "right_forearm_twist_weight": null,
+  "right_upper_arm_twist_weight": null,
+  "left_grip": [
+    -0.013,
+    -0.058,
+    -0.16
+  ],
+  "left_palm_offset_native": null,
+  "support_elbow_outward_weight": null,
+  "support_forearm_twist_reference_degrees": null,
+  "support_finger_local_quaternions": null,
+  "quaternion_xyzw": [
+    0.6876487940397421,
+    -0.08101571536771254,
+    0.22895237887801645,
+    0.6842195540360153
+  ],
+  "right_hand_quaternion_offset": [
+    0,
+    0,
+    0,
+    1
+  ],
+  "left_hand_quaternion_weapon": [
+    -0.4519999518375155,
+    -0.5322384351167286,
+    0.523204984048894,
+    -0.48854358699073747
+  ],
+  "grip_axis_fit_degrees": 29.35775348036927,
+  "trigger_finger_ik": true,
+  "model_scale": 1,
+  "right_hand_quaternion_weapon": [
+    -0.6876487940397421,
+    0.08101571536771254,
+    -0.22895237887801645,
+    0.6842195540360153
+  ],
+  "right_contact_offset_native": [
+    -0.009947519749403,
+    0.08043341338634491,
+    -0.0016717319376766682
+  ],
+  "palm_offset_native": [
+    -0.01798226099182721,
+    0.08421987173586991,
+    -0.005235298814184746
+  ],
+  "right_palm_target_weapon": [
+    0.017616008675591446,
+    -0.09949782677880355,
+    0.16718897122667808
+  ],
+  "support_pose_weight": 1,
+  "support_forearm_twist_weight": 0.75,
+  "support_upper_arm_twist_weight": 0.75,
+  "right_elbow_lift_ratio": null,
+  "weapon_offset_body_m": [
+    0,
+    0,
+    0.025
+  ],
+  "support_elbow_from_hand_weight": 0.5,
+  "support_finger_pose_weight": 1,
+  "support_finger_directions_weapon": {
+    "Index": [
+      [
+        1,
+        -0.05,
+        0
+      ],
+      [
+        0.7,
+        0.714,
+        0
+      ],
+      [
+        -0.85,
+        0.526,
+        0
+      ]
+    ],
+    "Middle": [
+      [
+        1,
+        -0.05,
+        0
+      ],
+      [
+        0.7,
+        0.714,
+        0
+      ],
+      [
+        -0.85,
+        0.526,
+        0
+      ]
+    ],
+    "Ring": [
+      [
+        1,
+        -0.05,
+        0
+      ],
+      [
+        0.7,
+        0.714,
+        0
+      ],
+      [
+        -0.85,
+        0.526,
+        0
+      ]
+    ],
+    "Pinky": [
+      [
+        1,
+        -0.05,
+        0
+      ],
+      [
+        0.7,
+        0.714,
+        0
+      ],
+      [
+        -0.85,
+        0.526,
+        0
+      ]
+    ],
+    "Thumb": [
+      null,
+      [
+        0.9,
+        0.3,
+        0.3
+      ],
+      [
+        0.85,
+        0.5,
+        0.1
+      ]
+    ]
+  },
+  "support_finger_max_swing_degrees": {
+    "Thumb": [
+      0,
+      45,
+      35
+    ]
+  },
+  "right_grip": [
+    0,
+    -0.09949782677880355,
+    0.16718897122667808
+  ]
+}
