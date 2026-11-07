@@ -1,5 +1,5 @@
 {
-  "revision": 33,
+  "revision": 36,
   "deployed_sources": [
     {
       "site": "diandian",
@@ -36,12 +36,16 @@
       "sha256": "1f412b7bcad5651af8813c6a4348347a41643f82340eb6c3741f5a8008f184a3"
     },
     {
+      "path": "assets/weapons/character_attachment_v36.json",
+      "sha256": "8b32feb753d0b7c01bacfb821bcbd0b3c1fda33c1ae94d623d7b2122df4f8125"
+    },
+    {
       "path": "web/motion-labs/README.md",
       "sha256": "75600a1b795211c7b544f0542f5618f77701a97f48f48e9ef09194e814608925"
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/app.js",
-      "sha256": "98a0e26fb420daa00b56aaf5460cfbdde59084475e7731fa9699dd2dd8cbeeca"
+      "sha256": "6a4d208260c24c3130f0745768f7556d48819d3769cb7a44afbc683c0ac79515"
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/assets/diandian_before.glb",
@@ -73,7 +77,7 @@
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/assets/weapon_attachment.json",
-      "sha256": "05dd8c9733f391ee11e00efb709d112645d806c6cc57b4a9d67db31aa3a05778"
+      "sha256": "ea2a5180a55fd362468b2835f5e072fb4ba88abcdbd79904f86397382646d452"
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/assets/weapon_catalog.json",
@@ -137,7 +141,7 @@
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/index.html",
-      "sha256": "d2540748ff43668082178f477bfd35717512e84ae8996339071cfe5ca213e443"
+      "sha256": "2894949359ec0171623fdccd1c061c4f580f2f241051e6df0df64998fc63dd68"
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/styles.css",
@@ -1581,7 +1585,7 @@
     },
     {
       "path": "web/motion-labs/zhigeng-motion-lab/app.js",
-      "sha256": "ef35b74d1a75e4ae075a6368b03d1b0a3a30f2ef1fa1403c29334424e33e97a5"
+      "sha256": "1ca381a027f54d08e32941ef355b8edcc58aa1940a822010ba6b1bfc51b0e3e8"
     },
     {
       "path": "web/motion-labs/zhigeng-motion-lab/assets/leon_pistol_animations.glb",
@@ -1609,7 +1613,7 @@
     },
     {
       "path": "web/motion-labs/zhigeng-motion-lab/assets/weapon_attachment.json",
-      "sha256": "7b05998a4d2d1f754052666a4a4ee34374aa7fa151697a37bd93b75acd1bf3ed"
+      "sha256": "2a5eccc5ed5aa240e72cc3a3e9860bd634e000d3d0dc6e3909fd9562297d283f"
     },
     {
       "path": "web/motion-labs/zhigeng-motion-lab/assets/weapon_catalog.json",
@@ -1681,7 +1685,7 @@
     },
     {
       "path": "web/motion-labs/zhigeng-motion-lab/index.html",
-      "sha256": "cb832237849011c5da2cedd7891206a423ae0eeb243838dff3fc0c8c5cf29f26"
+      "sha256": "8d0293ca80733100dfec42e503e2c6f1fd0b147c19c9d9e6cdd9c8c76b540f95"
     },
     {
       "path": "web/motion-labs/zhigeng-motion-lab/ponytail-physics.js",
@@ -1726,33 +1730,40 @@
   ],
   "source_alignment": {
     "diandian": {
-      "runtime_revision": 33,
+      "runtime_revision": 36,
       "repository_character_asset_revision": 23,
       "hosted_character_asset_base_version": 32,
-      "note": "Revision 33 deployed to Sites and synchronized to GitHub.",
+      "note": "Revision 36 production patch package. Existing deployment metadata records r33; r36 has not been deployed or live-revalidated.",
       "fixed_character_asset_matches_hosted": true,
       "hosted_runtime_revision": 33,
-      "runtime_matches_hosted": true,
+      "runtime_matches_hosted": false,
       "changed_this_revision": true
     },
     "zhigeng": {
-      "runtime_revision": 33,
+      "runtime_revision": 36,
       "repository_character_asset_revision": 22,
       "hosted_character_asset_base_version": 27,
       "fixed_character_asset_matches_hosted": true,
       "changed_this_revision": true,
       "hosted_runtime_revision": 33,
-      "runtime_matches_hosted": true,
-      "note": "Revision 33 deployed to Sites and synchronized to GitHub."
+      "runtime_matches_hosted": false,
+      "note": "Revision 36 production patch package. Existing deployment metadata records r33; r36 has not been deployed or live-revalidated."
     }
   },
   "local_changes": {
-    "runtime_revision": 33,
-    "baseline_commit": "aff56fbd32bc5fddc41d5abde063cd9bc4050bde",
-    "committed": true,
-    "pushed_to_github": true,
-    "deployed": true,
-    "verification": "web/motion-labs/verification_r33/README.md",
-    "baseline_runtime_revision": 32
+    "runtime_revision": 36,
+    "baseline_commit": "e0fc82752743ca3332a7c9816cc1425b69fe6351",
+    "baseline_runtime_revision": 33,
+    "deployed": false,
+    "delivery": "Production-only patch package; no GitHub ref update was made.",
+    "changed_production_paths": [
+      "assets/weapons/character_attachment_v36.json",
+      "web/motion-labs/diandian-classic-motion-lab/app.js",
+      "web/motion-labs/diandian-classic-motion-lab/index.html",
+      "web/motion-labs/diandian-classic-motion-lab/assets/weapon_attachment.json",
+      "web/motion-labs/zhigeng-motion-lab/app.js",
+      "web/motion-labs/zhigeng-motion-lab/index.html",
+      "web/motion-labs/zhigeng-motion-lab/assets/weapon_attachment.json"
+    ]
   }
 }
