@@ -1,8 +1,9 @@
 import * as THREE from 'three';
+import { installRocketMotions, rocketMotions, rocketLabels } from './rocket-motion.js?v=pf89-r37';
 import { installType97Motions } from './type97-motion.js?v=grip-r31';
 import { GLTFLoader } from './vendor/GLTFLoader.js';
 import { OrbitControls } from './vendor/OrbitControls.js';
-import { WeaponAttachment } from './weapon-attachment.js?v=grip-r36';
+import { WeaponAttachment } from './weapon-attachment.js?v=pf89-r37';
 
 const $ = (selector) => document.querySelector(selector);
 const motionLabels = {};
@@ -12,7 +13,15 @@ const state = { ready: false, playing: true, speed: 1, motion: 'Idle', weapon: '
 const models = new Map();
 const stage = $('#stage');
 const canvas = $('#viewport');
-const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true, powerPreference: 'high-performance' });
+const renderer = (() => {
+  try { return new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true, powerPreference: 'high-performance' }); }
+  catch (error) {
+    $('#loading-title').textContent = '当前浏览器无法显示三维画面';
+    $('#loading-detail').textContent = '请使用支持三维加速的浏览器打开此页面。';
+    $('.loading-orbit').style.display = 'none';
+    throw error;
+  }
+})();
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 renderer.outputColorSpace = THREE.SRGBColorSpace;
 renderer.toneMapping = THREE.ACESFilmicToneMapping;
@@ -91,6 +100,7 @@ const usesPitchAim = () => isShotgun() && !weaponConfig?.weapons[state.weapon]?.
 const isShotgun = () => weaponConfig?.weapons[state.weapon]?.type === 'shotgun';
 function optionsFor(name) {
   const options = motionOptions[name] || {};
+  if (state.weapon === 'pf89' && name === 'FiringRifle') return {...options, loop:false};
   // Recoil and pumping are separate one-shot clips, never loop either segment.
   return isShotgun() && name === 'FiringRifle' ? {...options, loop: false} : options;
 }
@@ -132,7 +142,7 @@ function setAimPitch(value) {
 }
 
 function setMotionControls(info) {
-  const buttons = [...info.motions, ...shotgunMotions].map(motion => {
+  const buttons = [...info.motions, ...shotgunMotions, ...rocketMotions].map(motion => {
     motionLabels[motion.name] = motion.label;
     motionOptions[motion.name] = motion;
     const button = document.createElement('button');
@@ -213,6 +223,8 @@ function actionFor(model, name) {
   if (!model) return;
   let weapon = state.weapon;
   const type = weaponConfig?.weapons[weapon]?.type;
+  if (motionOptions[name]?.rocket_only && type !== 'rocket') return;
+  if (type === 'rocket' && (model !== models.get('fixed') || (!rocketLabels[name] && !motionOptions[name]?.rocket_only))) return;
   if (motionOptions[name]?.shotgun_only && type !== 'shotgun') return;
   if (motionOptions[name]?.pitch_only && !usesPitchAim()) return;
   if (name === 'ShotgunPump') return model.actions.get(weaponConfig?.weapons[weapon]?.animation_overrides?.[name] || 'ShotgunPumpLevel');
@@ -273,6 +285,7 @@ function setActive(selector, valueKey, value) {
 
 function displayMotionLabel(name) {
   const label = motionLabels[name] || name;
+  if (state.weapon === 'pf89') return rocketLabels[name] || label;
   if (state.weapon === 'hanyang88' && ['RifleIdle', 'RifleWalk'].includes(name)) return name === 'RifleIdle' ? '汉阳造待机' : '汉阳造行走';
   const type = weaponConfig?.weapons[state.weapon]?.type;
   if (type === 'shotgun' && name === 'RifleAimingIdle') return '霰弹枪瞄准';
@@ -288,7 +301,8 @@ function refreshMotionLabels() {
     const captions = {RifleAimingIdle: '可调俯仰 · 动态混合', ShotgunAimUp: '俯仰上限 · 原始端点', ShotgunAimDown: '俯仰下限 · 原始端点', ShotgunAimLevel: '水平 0° · 独立姿态', ShotgunPump: '单次 · 拉泵及复位', FiringRifle: '单次 · 后坐力', Reloading: '完整装填'};
     const caption = button.querySelector('small');
     if (caption) caption.textContent = isShotgun() && (!weaponConfig.weapons[state.weapon].hybrid_upper_actions || ['FiringRifle','ShotgunPump'].includes(button.dataset.motion)) && captions[button.dataset.motion] || button.dataset.caption;
-    button.hidden = (!!motionOptions[button.dataset.motion]?.shotgun_only && !isShotgun()) || (!!motionOptions[button.dataset.motion]?.pitch_only && !usesPitchAim());
+    button.hidden = (!!motionOptions[button.dataset.motion]?.shotgun_only && !isShotgun()) || (!!motionOptions[button.dataset.motion]?.pitch_only && !usesPitchAim()) || (!!motionOptions[button.dataset.motion]?.rocket_only && state.weapon !== 'pf89') || (state.weapon === 'pf89' && !rocketLabels[button.dataset.motion] && !motionOptions[button.dataset.motion]?.rocket_only);
+    if (state.weapon === 'pf89' && caption) caption.textContent = optionsFor(button.dataset.motion).loop === false ? '单次动作' : '循环播放';
     button.disabled = !actionFor(models.get('fixed'), button.dataset.motion);
   });
   $('#current-motion').textContent = displayMotionLabel(state.motion);
@@ -311,7 +325,7 @@ function selectWeapon(id, switchMotion = true) {
 }
 
 async function equipWeapons() {
-  const config = await fetch('./assets/weapon_attachment.json?v=grip-r36').then(r => r.json());
+  const config = await fetch('./assets/weapon_attachment.json?v=pf89-r37').then(r => r.json());
   weaponConfig = config;
   const scenes = new Map(await Promise.all(Object.keys(config.weapons).map(async id => {
     const gltf = await loader.loadAsync('./assets/weapons/' + id + '.glb?v=clothing-r23');
@@ -326,10 +340,11 @@ async function equipWeapons() {
 }
 
 async function equipMotionPack() {
-  const packs = await Promise.all(['motion_additions.glb', 'leon_pistol_animations.glb', 're4_shotgun_animations.glb'].map(file => loader.loadAsync('./assets/' + file + '?v=clothing-r23')));
+  const packs = await Promise.all(['motion_additions.glb', 'leon_pistol_animations.glb', 're4_shotgun_animations.glb', 're4_rocket_upper.glb'].map(file => loader.loadAsync('./assets/' + file + '?v=clothing-r23')));
   const model = models.get('fixed');
   for (const pack of packs) for (const clip of pack.animations) model.actions.set(clip.name, model.mixer.clipAction(clip));
   model.type97Composition = installType97Motions(model);
+  model.rocketComposition = installRocketMotions(model);
 }
 
 function setMotion(name) {
@@ -558,7 +573,7 @@ async function load() {
   await equipWeapons();
   await equipMotionPack();
   state.ready = true;
-  selectWeapon('type97hawk');
+  selectWeapon('pf89');
   setMotion('RifleIdle');
   scene.updateMatrixWorld(true);
   frameCamera(false);

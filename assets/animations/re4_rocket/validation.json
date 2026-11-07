@@ -1,0 +1,32 @@
+{
+  "characters": {
+    "diandian": {
+      "actions": 17,
+      "sampledFrames": 527,
+      "lowerTrackMismatches": 0,
+      "runtimeLowerMismatches": 0,
+      "maxLockedLeftContactErrorM": 0.003558105733344941,
+      "maxRightContactErrorM": 9.443996109255346e-8,
+      "maxPoseDrift": 0,
+      "upperRotationChannels": 901,
+      "sourceActionCount": 13,
+      "horizontalDerivedActionCount": 4
+    },
+    "zhigeng": {
+      "actions": 17,
+      "sampledFrames": 527,
+      "lowerTrackMismatches": 0,
+      "runtimeLowerMismatches": 0,
+      "maxLockedLeftContactErrorM": 3.6163923536094703e-7,
+      "maxRightContactErrorM": 1.3062709269889815e-7,
+      "maxPoseDrift": 0,
+      "upperRotationChannels": 901,
+      "sourceActionCount": 13,
+      "horizontalDerivedActionCount": 4
+    }
+  },
+  "browserQA": {
+    "passed": false,
+    "reason": "Managed preview browser has WebGL disabled; GL_VENDOR/GL_RENDERER Disabled. CPU Three.js pose evaluation and Blender keyframe renders used."
+  }
+}

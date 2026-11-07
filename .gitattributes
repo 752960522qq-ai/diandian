@@ -19,3 +19,8 @@ assets/animations/motion_lab_v16/**/*.glb filter=lfs diff=lfs merge=lfs -text
 
 assets/animations/re4_shotgun/**/*.glb filter=lfs diff=lfs merge=lfs -text
 assets/animations/re4_shotgun/source/*.fbx filter=lfs diff=lfs merge=lfs -text
+
+# Small R37 runtime assets stay directly downloadable with source archives.
+assets/weapons/pf89.glb -filter -diff -merge -text
+web/motion-labs/*/assets/weapons/pf89.glb -filter -diff -merge -text
+web/motion-labs/*/assets/re4_rocket_upper.glb -filter -diff -merge -text

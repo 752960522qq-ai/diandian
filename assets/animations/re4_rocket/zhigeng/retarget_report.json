@@ -1,0 +1,238 @@
+{
+  "character": "zhigeng",
+  "fps": 30,
+  "source_clips": {
+    "Idle": {
+      "file": "w07_000.fbx",
+      "sha256": "ea2446ff195ef20cc0e01096a6e3c94a4e32d5436da56d0c70c3bcd0809eda7e",
+      "action": "Leon_Armature|w07_000__RocketLauncher__Infinite_Idle",
+      "frames": [
+        1,
+        2
+      ],
+      "duration": 0.03333333333333333
+    },
+    "Walk": {
+      "file": "w07_001.fbx",
+      "sha256": "e6c5cb43637ed2dd9d66ef5a0e3005d71fe4f53ca25e78c594e7c92dfb3bf91f",
+      "action": "Leon_Armature|w07_001__RocketLauncher__Infinite_Walk",
+      "frames": [
+        1,
+        19
+      ],
+      "duration": 0.6
+    },
+    "Run": {
+      "file": "w07_002.fbx",
+      "sha256": "33d64293346d3f337582ad888dc5f52ff7972468f6b8fca0363bb4585e38c6b5",
+      "action": "Leon_Armature|w07_002__RocketLauncher__Infinite_Run",
+      "frames": [
+        1,
+        14
+      ],
+      "duration": 0.43333333333333335
+    },
+    "AimUp": {
+      "file": "w07_006.fbx",
+      "sha256": "71c65ba5453e1d201ff588b56366561a99e200b1eca5a671f313d6d24e58fe87",
+      "action": "Leon_Armature|w07_006__RocketLauncher__AimUpHold",
+      "frames": [
+        1,
+        2
+      ],
+      "duration": 0.03333333333333333
+    },
+    "FireUp": {
+      "file": "w07_007.fbx",
+      "sha256": "9ee1dfa203b1b3ebe3216fc317ffd5cff7c3725748a7f328e2d7726470d77f22",
+      "action": "Leon_Armature|w07_007__RocketLauncher__LaunchUp",
+      "frames": [
+        1,
+        48
+      ],
+      "duration": 1.5666666666666667
+    },
+    "AimDown": {
+      "file": "w07_008.fbx",
+      "sha256": "e00c310ce77113591bd1d5d62aa3c9d23343cea09d915f011fd4112817a9f063",
+      "action": "Leon_Armature|w07_008__RocketLauncher__AimDownHold",
+      "frames": [
+        1,
+        2
+      ],
+      "duration": 0.03333333333333333
+    },
+    "FireDown": {
+      "file": "w07_009.fbx",
+      "sha256": "07ab8d9f41702d73479da3a5ec49ca424ce7ac00b31255fdc03707e90d640b58",
+      "action": "Leon_Armature|w07_009__RocketLauncher__LaunchDown",
+      "frames": [
+        1,
+        49
+      ],
+      "duration": 1.6
+    },
+    "RaiseUp": {
+      "file": "w07_010.fbx",
+      "sha256": "ea0d93e4a983246fd2d0c19497dbed0045bff3e8be70b5919bfdad7550975893",
+      "action": "Leon_Armature|w07_010__RocketLauncher__ReadyUp",
+      "frames": [
+        1,
+        42
+      ],
+      "duration": 1.3666666666666667
+    },
+    "RaiseDown": {
+      "file": "w07_011.fbx",
+      "sha256": "00ea9d911006832f82f79779764ca2cfb8b93c5ac099a167ea1d0d18d369638d",
+      "action": "Leon_Armature|w07_011__RocketLauncher__ReadyDown",
+      "frames": [
+        1,
+        42
+      ],
+      "duration": 1.3666666666666667
+    },
+    "RaiseInfiniteUp": {
+      "file": "w07_012.fbx",
+      "sha256": "7fc628a1c761ee2048ad64628c29dd52817d986aa77f9fe886907d0a2f5bfa3d",
+      "action": "Leon_Armature|w07_012__RocketLauncher__Infinite_ReadyUp",
+      "frames": [
+        1,
+        36
+      ],
+      "duration": 1.1666666666666667
+    },
+    "RaiseInfiniteDown": {
+      "file": "w07_013.fbx",
+      "sha256": "cefaca72659403aef059369809526549f9d122415c030fa15e1c77236dc53eeb",
+      "action": "Leon_Armature|w07_013__RocketLauncher__Infinite_ReadyDown",
+      "frames": [
+        1,
+        36
+      ],
+      "duration": 1.1666666666666667
+    },
+    "Discard": {
+      "file": "w07_014.fbx",
+      "sha256": "da44b236883400d13a920fbd577e1e6a9a0e676359914b740ef63758cf8cb223",
+      "action": "Leon_Armature|w07_014__RocketLauncher__Discard",
+      "frames": [
+        1,
+        31
+      ],
+      "duration": 1.0
+    },
+    "Draw": {
+      "file": "w07_015.fbx",
+      "sha256": "437c8be4f53101f856bf5e177cdedb52fb0d29c83c2d82d9a2f56018ad09da9b",
+      "action": "Leon_Armature|w07_015__RocketLauncher__Draw",
+      "frames": [
+        1,
+        18
+      ],
+      "duration": 0.5666666666666667
+    }
+  },
+  "source_count": 13,
+  "derived_level_count": 4,
+  "level_blend_weight": 0.49986936151982775,
+  "source_pitch_degrees": [
+    -56.178130803722716,
+    56.207502824179016
+  ],
+  "hand_to_weapon_xyzw": [
+    -0.6121031045913696,
+    -0.2434225082397461,
+    0.35536205768585205,
+    -0.6631690263748169
+  ],
+  "upper_only": true,
+  "root_and_legs": "Excluded. Runtime composition supplies original rifle clips.",
+  "clips": {
+    "RocketUpperIdle": {
+      "samples": 2,
+      "duration": 0.03333333333333333,
+      "upper_rotation_channels": 53
+    },
+    "RocketUpperWalk": {
+      "samples": 19,
+      "duration": 0.6,
+      "upper_rotation_channels": 53
+    },
+    "RocketUpperRun": {
+      "samples": 14,
+      "duration": 0.43333333333333335,
+      "upper_rotation_channels": 53
+    },
+    "RocketUpperAimUp": {
+      "samples": 2,
+      "duration": 0.03333333333333333,
+      "upper_rotation_channels": 53
+    },
+    "RocketUpperFireUp": {
+      "samples": 48,
+      "duration": 1.5666666666666667,
+      "upper_rotation_channels": 53
+    },
+    "RocketUpperAimDown": {
+      "samples": 2,
+      "duration": 0.03333333333333333,
+      "upper_rotation_channels": 53
+    },
+    "RocketUpperFireDown": {
+      "samples": 49,
+      "duration": 1.6,
+      "upper_rotation_channels": 53
+    },
+    "RocketUpperRaiseUp": {
+      "samples": 42,
+      "duration": 1.3666666666666667,
+      "upper_rotation_channels": 53
+    },
+    "RocketUpperRaiseDown": {
+      "samples": 42,
+      "duration": 1.3666666666666667,
+      "upper_rotation_channels": 53
+    },
+    "RocketUpperRaiseInfiniteUp": {
+      "samples": 36,
+      "duration": 1.1666666666666667,
+      "upper_rotation_channels": 53
+    },
+    "RocketUpperRaiseInfiniteDown": {
+      "samples": 36,
+      "duration": 1.1666666666666667,
+      "upper_rotation_channels": 53
+    },
+    "RocketUpperDiscard": {
+      "samples": 31,
+      "duration": 1.0,
+      "upper_rotation_channels": 53
+    },
+    "RocketUpperDraw": {
+      "samples": 18,
+      "duration": 0.5666666666666667,
+      "upper_rotation_channels": 53
+    },
+    "RocketUpperAimLevel": {
+      "samples": 2,
+      "duration": 0.03333333333333333,
+      "upper_rotation_channels": 53
+    },
+    "RocketUpperFireLevel": {
+      "samples": 49,
+      "duration": 1.6,
+      "upper_rotation_channels": 53
+    },
+    "RocketUpperRaiseLevel": {
+      "samples": 42,
+      "duration": 1.3666666666666667,
+      "upper_rotation_channels": 53
+    },
+    "RocketUpperRaiseInfiniteLevel": {
+      "samples": 36,
+      "duration": 1.1666666666666667,
+      "upper_rotation_channels": 53
+    }
+  }
+}

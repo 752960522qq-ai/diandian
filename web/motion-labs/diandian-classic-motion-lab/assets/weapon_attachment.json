@@ -804,6 +804,52 @@
         0.8
       ],
       "hybrid_upper_actions": true
+    },
+    "pf89": {
+      "display_name": "PF89 火箭筒",
+      "type": "rocket",
+      "model": "pf89.glb",
+      "right_grip": [
+        0.018,
+        -0.153,
+        -0.108
+      ],
+      "right_palm_surface": [
+        0.018,
+        -0.193,
+        -0.09
+      ],
+      "left_grip": [
+        -0.022,
+        -0.066,
+        -0.235
+      ],
+      "trigger": [
+        0.013,
+        -0.119,
+        -0.156
+      ],
+      "barrel_forward": [
+        0,
+        0,
+        -1
+      ],
+      "muzzle": [
+        0,
+        0,
+        -0.4906
+      ],
+      "animation_overrides": {
+        "RifleIdle": "RocketIdle",
+        "RifleWalk": "RocketWalk",
+        "RifleRun": "RocketRun",
+        "RifleAimingIdle": "RocketAimLevel",
+        "FiringRifle": "RocketFireLevel"
+      },
+      "source_animation_group": "RE4 w07",
+      "lower_body": "Original rifle hips, root and legs; no rocket lower-body channels",
+      "source_actions": 13,
+      "derived_horizontal_actions": 4
     }
   },
   "characters": {
@@ -9003,6 +9049,248 @@
               0.9920653753616248
             ]
           }
+        },
+        "pf89": {
+          "quaternion_xyzw": [
+            0.6845517754554749,
+            -0.11646109819412231,
+            0.058092523366212845,
+            0.7172523140907288
+          ],
+          "right_hand_quaternion_offset": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "left_hand_quaternion_weapon": [
+            0.22377718290684476,
+            0.8325948544576478,
+            -0.4801755961999709,
+            0.16168167805083572
+          ],
+          "trigger_finger_ik": true,
+          "model_scale": 1,
+          "right_hand_quaternion_weapon": [
+            -0.6845517754554749,
+            0.11646109819412231,
+            -0.058092523366212845,
+            0.7172523140907288
+          ],
+          "right_contact_offset_native": [
+            -0.0136422,
+            0.04502571,
+            -0.0048396
+          ],
+          "support_pose_weight": 1,
+          "right_finger_pose_weight": 1,
+          "support_finger_pose_weight": 1,
+          "right_finger_directions_weapon": {
+            "Middle": [
+              [
+                -0.91926488,
+                -0.15987215,
+                -0.35971235
+              ],
+              [
+                -0.09997876,
+                0.01999575,
+                0.99478863
+              ],
+              [
+                0.89977688,
+                0.01999504,
+                0.43589191
+              ]
+            ],
+            "Ring": [
+              [
+                -0.90912539,
+                -0.03996156,
+                -0.41460114
+              ],
+              [
+                -0.14995345,
+                0,
+                0.98869306
+              ],
+              [
+                0.84990269,
+                0,
+                0.52693967
+              ]
+            ],
+            "Pinky": [
+              [
+                -0.8,
+                0,
+                -0.6
+              ],
+              [
+                0.19996001,
+                0,
+                0.97980406
+              ],
+              [
+                0.8999568,
+                0,
+                0.43597907
+              ]
+            ],
+            "Thumb": [
+              null,
+              [
+                0.20008165,
+                0.12004899,
+                -0.97239682
+              ],
+              [
+                0.02999249,
+                0.03998998,
+                -0.99874984
+              ]
+            ],
+            "Index": [
+              [
+                -0.2,
+                -0.08,
+                -0.977
+              ],
+              [
+                -0.1,
+                -0.04,
+                -0.994
+              ],
+              [
+                -0.1,
+                0,
+                -0.995
+              ]
+            ]
+          },
+          "grip_method": "PF89 pistol grip palm contact and support hand under launch tube; source upper-body pose with two-bone arm fit",
+          "support_finger_directions_weapon": {
+            "Index": [
+              [
+                1,
+                -0.05,
+                0
+              ],
+              [
+                0.45,
+                0.893,
+                0
+              ],
+              [
+                -0.4,
+                0.916,
+                0
+              ]
+            ],
+            "Middle": [
+              [
+                1,
+                -0.05,
+                0
+              ],
+              [
+                0.45,
+                0.893,
+                0
+              ],
+              [
+                -0.4,
+                0.916,
+                0
+              ]
+            ],
+            "Ring": [
+              [
+                1,
+                -0.05,
+                0
+              ],
+              [
+                0.45,
+                0.893,
+                0
+              ],
+              [
+                -0.4,
+                0.916,
+                0
+              ]
+            ],
+            "Pinky": [
+              [
+                1,
+                -0.05,
+                0
+              ],
+              [
+                0.45,
+                0.893,
+                0
+              ],
+              [
+                -0.4,
+                0.916,
+                0
+              ]
+            ],
+            "Thumb": [
+              null,
+              [
+                1,
+                0.1,
+                0.2
+              ],
+              [
+                0.25,
+                0.2,
+                -0.947
+              ]
+            ]
+          },
+          "left_grip": [
+            -0.022,
+            -0.066,
+            -0.235
+          ],
+          "right_palm_target_weapon": [
+            0.018,
+            -0.193,
+            -0.09
+          ],
+          "right_thumb_max_swing_degrees": [
+            0,
+            35,
+            30
+          ],
+          "shoulder_contact": false,
+          "right_elbow_lift_ratio": null,
+          "support_forearm_twist_weight": 0.75,
+          "support_upper_arm_twist_weight": 0.75,
+          "weapon_offset_body_m": [
+            0.015,
+            0,
+            0
+          ],
+          "palm_offset_native": [
+            -0.0136422,
+            0.04502571,
+            -0.0048396
+          ],
+          "right_grip": [
+            0.018,
+            -0.153,
+            -0.108
+          ],
+          "left_palm_offset_native": [
+            0.00077,
+            0.055,
+            -0.0033
+          ]
         }
       },
       "shoulder_assist_max_degrees": 8,

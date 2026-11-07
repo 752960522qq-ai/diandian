@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import { rocketMotions, rocketSupportWeight, rocketCarryOffset } from './rocket-motion.js?v=pf89-r37';
 import { ChestSkinningRelief } from './chest-skinning.js?v=grip-r31';
 import { refineC96Rotation } from './c96-dynamics.js?v=clothing-r23';
 import { prepareC96ReloadPose, applyC96ReloadSupport } from './c96-reload.js?v=clothing-r23';
@@ -6,7 +7,7 @@ import { prepareC96ReloadPose, applyC96ReloadSupport } from './c96-reload.js?v=c
 const RIFLE_MOTIONS = new Set(['RifleIdle', 'RifleWalk', 'RifleAimingIdle', 'FiringRifle', 'RifleRun', 'Reloading']);
 const PISTOL_MOTIONS = new Set(['PistolIdle', 'PistolAimingIdle', 'PistolWalk']);
 const SHOTGUN_MOTIONS = new Set(['ShotgunAimUp','ShotgunAimDown','ShotgunAimLevel','ShotgunPump']);
-const ARMED_MOTIONS = new Set([...RIFLE_MOTIONS, ...PISTOL_MOTIONS, ...SHOTGUN_MOTIONS]);
+const ARMED_MOTIONS = new Set([...RIFLE_MOTIONS, ...PISTOL_MOTIONS, ...SHOTGUN_MOTIONS, ...rocketMotions.map(m => m.name)]);
 const vector = value => new THREE.Vector3().fromArray(value);
 const quaternion = value => new THREE.Quaternion().fromArray(value).normalize();
 
@@ -301,16 +302,22 @@ export class WeaponAttachment {
     this.motion = motion;
     if (PISTOL_MOTIONS.has(motion) && this.config.weapons[this.selectedWeapon].type !== 'pistol') this.selectedWeapon = this.lastPistol;
     else if (RIFLE_MOTIONS.has(motion) && this.config.weapons[this.selectedWeapon].type === 'pistol' && !this.config.weapons[this.selectedWeapon].compatible_motions?.includes(motion)) this.selectedWeapon = this.lastRifle;
-    const visible = this.model.wrapper.visible && ARMED_MOTIONS.has(motion);
+    const visible = this.model.wrapper.visible && ARMED_MOTIONS.has(motion) && !(this.selectedWeapon === 'pf89' && motion === 'RocketDiscard' && time >= .34);
     for (const [id, root] of this.weapons) root.visible = visible && id === this.selectedWeapon;
     this.state = {visible, selectedWeapon:this.selectedWeapon, motion, time, actualClip:this.config.weapons[this.selectedWeapon].animation_overrides?.[motion] || motion, handScale, leftContactErrorM:0, rightContactErrorM:0, shoulderAssistDegrees:0, triggerContactErrorM:null};
-    this.chestSkinning.setEnabled(visible && ['RifleIdle', 'RifleWalk'].includes(motion) && this.config.weapons[this.selectedWeapon].type !== 'pistol');
+    this.chestSkinning.setEnabled(visible && ['RifleIdle', 'RifleWalk'].includes(motion) && !['pistol','rocket'].includes(this.config.weapons[this.selectedWeapon].type));
     this.state.chestReliefActive = this.chestSkinning.enabled;
     if (!visible) return;
 
     const id = this.selectedWeapon;
     const data = this.config.weapons[id];
     const mount = this.mountFor(id, motion);
+    if (id === 'pf89') {
+      mount.support_pose_weight = rocketSupportWeight(motion,time);
+      mount.release_support_hand = mount.support_pose_weight === 0;
+      mount.weapon_offset_body_m = [.015,0,rocketCarryOffset(motion,time)];
+      this.state.supportWeight = mount.support_pose_weight;
+    }
     // The authored shotgun clips have their own hand-to-gun calibration.
     const actualClip = animation.activeClips?.find(c => c.weight > 0)?.name || this.state.actualClip;
     if (id === 'winchester1897' && actualClip?.startsWith('Shotgun')) {
@@ -457,7 +464,7 @@ export class WeaponAttachment {
     }
     const leftHand = this.bones.LeftHand;
     const leftPalm = leftOffset.applyQuaternion(leftHand.getWorldQuaternion(new THREE.Quaternion())).add(leftHand.getWorldPosition(new THREE.Vector3()));
-    if (['FiringRifle', 'PistolIdle', 'PistolAimingIdle'].includes(motion) && mount.trigger_finger_ik === true && data.trigger) {
+    if ((['FiringRifle', 'PistolIdle', 'PistolAimingIdle'].includes(motion) || (id === 'pf89' && motion.startsWith('RocketFire'))) && mount.trigger_finger_ik === true && data.trigger) {
       const trigger = gun.localToWorld(vector(data.trigger).add(new THREE.Vector3(.004, 0, 0)));
       this.fitTriggerFinger(trigger, mount.right_finger_pose_weight ?? this.character.finger_pose_weight ?? .6);
     }
