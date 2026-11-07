@@ -1,0 +1,2329 @@
+{
+  "baseline": false,
+  "characters": {
+    "diandian": [
+      {
+        "motion": "RifleIdle",
+        "t": 0,
+        "intersections": 0,
+        "points": [],
+        "leftError": 6.911354517199221e-8,
+        "rightError": 7.712054658346533e-8
+      },
+      {
+        "motion": "RifleIdle",
+        "t": 1.0708333253860474,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.242784027722126e-8,
+        "rightError": 7.709948922189515e-8
+      },
+      {
+        "motion": "RifleIdle",
+        "t": 2.1416666507720947,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.243091126958605e-8,
+        "rightError": 7.746273362983032e-8
+      },
+      {
+        "motion": "RifleIdle",
+        "t": 3.212499976158142,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.265136397129034e-8,
+        "rightError": 7.761259956773586e-8
+      },
+      {
+        "motion": "RifleIdle",
+        "t": 4.2833333015441895,
+        "intersections": 0,
+        "points": [],
+        "leftError": 6.762414388201747e-8,
+        "rightError": 7.86722465791352e-8
+      },
+      {
+        "motion": "RifleIdle",
+        "t": 5.354166626930237,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.913915135909486e-8,
+        "rightError": 7.629640372414553e-8
+      },
+      {
+        "motion": "RifleIdle",
+        "t": 6.424999952316284,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.222834323310342e-8,
+        "rightError": 7.73125413875435e-8
+      },
+      {
+        "motion": "RifleIdle",
+        "t": 7.4958332777023315,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.228181301728145e-8,
+        "rightError": 7.735822319211043e-8
+      },
+      {
+        "motion": "RifleIdle",
+        "t": 8.566666603088379,
+        "intersections": 0,
+        "points": [],
+        "leftError": 5.722911941400711e-8,
+        "rightError": 3.7988131358540915e-8
+      },
+      {
+        "motion": "RifleWalk",
+        "t": 0,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.5800863260162024e-9,
+        "rightError": 4.4120057949638736e-8
+      },
+      {
+        "motion": "RifleWalk",
+        "t": 0.16249999403953552,
+        "intersections": 0,
+        "points": [],
+        "leftError": 1.1020057621496411e-8,
+        "rightError": 3.518786614589117e-8
+      },
+      {
+        "motion": "RifleWalk",
+        "t": 0.32499998807907104,
+        "intersections": 0,
+        "points": [],
+        "leftError": 1.0479508723522814e-8,
+        "rightError": 3.7677674960460734e-8
+      },
+      {
+        "motion": "RifleWalk",
+        "t": 0.48749998211860657,
+        "intersections": 0,
+        "points": [],
+        "leftError": 9.048001298122032e-9,
+        "rightError": 3.8306962453598605e-8
+      },
+      {
+        "motion": "RifleWalk",
+        "t": 0.6499999761581421,
+        "intersections": 0,
+        "points": [],
+        "leftError": 2.5743609775823572e-8,
+        "rightError": 4.057957069565541e-8
+      },
+      {
+        "motion": "RifleWalk",
+        "t": 0.8124999701976776,
+        "intersections": 0,
+        "points": [],
+        "leftError": 2.256221606922212e-8,
+        "rightError": 3.1879313073217906e-8
+      },
+      {
+        "motion": "RifleWalk",
+        "t": 0.9749999642372131,
+        "intersections": 0,
+        "points": [],
+        "leftError": 1.866353632333459e-8,
+        "rightError": 3.080930007460389e-8
+      },
+      {
+        "motion": "RifleWalk",
+        "t": 1.1374999582767487,
+        "intersections": 0,
+        "points": [],
+        "leftError": 2.8095844653828715e-8,
+        "rightError": 6.233740746137803e-8
+      },
+      {
+        "motion": "RifleWalk",
+        "t": 1.2999999523162842,
+        "intersections": 0,
+        "points": [],
+        "leftError": 1.4320966378655449e-8,
+        "rightError": 5.216017142271319e-8
+      },
+      {
+        "motion": "RifleRun",
+        "t": 0,
+        "intersections": 0,
+        "points": [],
+        "leftError": 1.1627954994164678e-8,
+        "rightError": 5.195501065739376e-8
+      },
+      {
+        "motion": "RifleRun",
+        "t": 0.0833333358168602,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.1034274362088695e-8,
+        "rightError": 6.343268018166366e-8
+      },
+      {
+        "motion": "RifleRun",
+        "t": 0.1666666716337204,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.3816079142027446e-8,
+        "rightError": 6.250361369751657e-8
+      },
+      {
+        "motion": "RifleRun",
+        "t": 0.2500000074505806,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.600806433678558e-8,
+        "rightError": 5.491733127768778e-8
+      },
+      {
+        "motion": "RifleRun",
+        "t": 0.3333333432674408,
+        "intersections": 0,
+        "points": [],
+        "leftError": 2.814873539534548e-8,
+        "rightError": 4.302294763793117e-8
+      },
+      {
+        "motion": "RifleRun",
+        "t": 0.416666679084301,
+        "intersections": 0,
+        "points": [],
+        "leftError": 5.201445839239409e-8,
+        "rightError": 3.476377751325928e-8
+      },
+      {
+        "motion": "RifleRun",
+        "t": 0.5000000149011612,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.7533250281718446e-8,
+        "rightError": 2.3014308396507818e-8
+      },
+      {
+        "motion": "RifleRun",
+        "t": 0.5833333507180214,
+        "intersections": 0,
+        "points": [],
+        "leftError": 2.832400582232023e-8,
+        "rightError": 2.9228173886052206e-8
+      },
+      {
+        "motion": "RifleRun",
+        "t": 0.6666666865348816,
+        "intersections": 0,
+        "points": [],
+        "leftError": 6.267031822276254e-8,
+        "rightError": 2.9672512152427318e-8
+      },
+      {
+        "motion": "RifleAimingIdle",
+        "t": 0,
+        "intersections": 0,
+        "points": [],
+        "leftError": 1.120339573413223e-7,
+        "rightError": 1.382901955791001e-7
+      },
+      {
+        "motion": "RifleAimingIdle",
+        "t": 0.38749998807907104,
+        "intersections": 0,
+        "points": [],
+        "leftError": 1.1210782033829466e-7,
+        "rightError": 1.3839831227322118e-7
+      },
+      {
+        "motion": "RifleAimingIdle",
+        "t": 0.7749999761581421,
+        "intersections": 0,
+        "points": [],
+        "leftError": 1.1209217255997643e-7,
+        "rightError": 1.3839743337073793e-7
+      },
+      {
+        "motion": "RifleAimingIdle",
+        "t": 1.1624999642372131,
+        "intersections": 0,
+        "points": [],
+        "leftError": 1.1206606967072483e-7,
+        "rightError": 1.383664507721312e-7
+      },
+      {
+        "motion": "RifleAimingIdle",
+        "t": 1.5499999523162842,
+        "intersections": 0,
+        "points": [],
+        "leftError": 1.1205767969435572e-7,
+        "rightError": 1.3831430816094627e-7
+      },
+      {
+        "motion": "RifleAimingIdle",
+        "t": 1.9374999403953552,
+        "intersections": 0,
+        "points": [],
+        "leftError": 1.1209932619373389e-7,
+        "rightError": 1.383069662765735e-7
+      },
+      {
+        "motion": "RifleAimingIdle",
+        "t": 2.3249999284744263,
+        "intersections": 0,
+        "points": [],
+        "leftError": 1.1210472764361065e-7,
+        "rightError": 1.383022084732566e-7
+      },
+      {
+        "motion": "RifleAimingIdle",
+        "t": 2.7124999165534973,
+        "intersections": 0,
+        "points": [],
+        "leftError": 1.1265066689742066e-7,
+        "rightError": 1.393257888078843e-7
+      },
+      {
+        "motion": "RifleAimingIdle",
+        "t": 3.0999999046325684,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.727893433495626e-8,
+        "rightError": 6.268437720263034e-8
+      },
+      {
+        "motion": "FiringRifle",
+        "t": 0,
+        "intersections": 0,
+        "points": [],
+        "leftError": 2.820407870053873e-8,
+        "rightError": 1.200839005283886e-7
+      },
+      {
+        "motion": "FiringRifle",
+        "t": 0.20000000298023224,
+        "intersections": 0,
+        "points": [],
+        "leftError": 1.2884884320131209e-8,
+        "rightError": 4.7868095307775036e-8
+      },
+      {
+        "motion": "FiringRifle",
+        "t": 0.4000000059604645,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.161940020487528e-8,
+        "rightError": 7.947328760921766e-8
+      },
+      {
+        "motion": "FiringRifle",
+        "t": 0.6000000089406967,
+        "intersections": 0,
+        "points": [],
+        "leftError": 6.854836277638012e-8,
+        "rightError": 6.033378787435225e-8
+      },
+      {
+        "motion": "FiringRifle",
+        "t": 0.800000011920929,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.528112752515582e-8,
+        "rightError": 9.278956436338652e-8
+      },
+      {
+        "motion": "FiringRifle",
+        "t": 1.0000000149011612,
+        "intersections": 0,
+        "points": [],
+        "leftError": 5.095615058092999e-8,
+        "rightError": 7.803900937954647e-8
+      },
+      {
+        "motion": "FiringRifle",
+        "t": 1.2000000178813934,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.464805777132452e-8,
+        "rightError": 3.59677752492117e-8
+      },
+      {
+        "motion": "FiringRifle",
+        "t": 1.4000000208616257,
+        "intersections": 0,
+        "points": [],
+        "leftError": 5.179796910078382e-8,
+        "rightError": 6.563719120082137e-8
+      },
+      {
+        "motion": "FiringRifle",
+        "t": 1.600000023841858,
+        "intersections": 0,
+        "points": [],
+        "leftError": 6.573305777786411e-8,
+        "rightError": 9.882114805550684e-8
+      },
+      {
+        "motion": "RocketRaiseLevel",
+        "t": 0,
+        "intersections": 0,
+        "points": [],
+        "leftError": null,
+        "rightError": 5.95131050819976e-8
+      },
+      {
+        "motion": "RocketRaiseLevel",
+        "t": 0.17083333432674408,
+        "intersections": 0,
+        "points": [],
+        "leftError": null,
+        "rightError": 2.9705217709967833e-8
+      },
+      {
+        "motion": "RocketRaiseLevel",
+        "t": 0.34166666865348816,
+        "intersections": 0,
+        "points": [],
+        "leftError": 0.36226266192365236,
+        "rightError": 3.27593566563117e-8
+      },
+      {
+        "motion": "RocketRaiseLevel",
+        "t": 0.5125000029802322,
+        "intersections": 0,
+        "points": [],
+        "leftError": 0.030756975763217693,
+        "rightError": 3.742744268000559e-8
+      },
+      {
+        "motion": "RocketRaiseLevel",
+        "t": 0.6833333373069763,
+        "intersections": 0,
+        "points": [],
+        "leftError": 5.3255684046190125e-8,
+        "rightError": 3.668428240197632e-8
+      },
+      {
+        "motion": "RocketRaiseLevel",
+        "t": 0.8541666716337204,
+        "intersections": 0,
+        "points": [],
+        "leftError": 5.521472695055855e-8,
+        "rightError": 5.219970689305361e-8
+      },
+      {
+        "motion": "RocketRaiseLevel",
+        "t": 1.0250000059604645,
+        "intersections": 0,
+        "points": [],
+        "leftError": 5.6789587110834207e-8,
+        "rightError": 6.219705518094582e-8
+      },
+      {
+        "motion": "RocketRaiseLevel",
+        "t": 1.1958333402872086,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.142274071228153e-8,
+        "rightError": 7.634092601742158e-8
+      },
+      {
+        "motion": "RocketRaiseLevel",
+        "t": 1.3666666746139526,
+        "intersections": 0,
+        "points": [],
+        "leftError": 6.186748390398182e-8,
+        "rightError": 1.1802153914212811e-7
+      },
+      {
+        "motion": "RocketRaiseInfiniteLevel",
+        "t": 0,
+        "intersections": 0,
+        "points": [],
+        "leftError": 5.754339251794728e-8,
+        "rightError": 6.727659777677433e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteLevel",
+        "t": 0.1458333283662796,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.710452863853581e-8,
+        "rightError": 2.6657446311554218e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteLevel",
+        "t": 0.2916666567325592,
+        "intersections": 0,
+        "points": [],
+        "leftError": 6.411406264989077e-8,
+        "rightError": 3.025711133467047e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteLevel",
+        "t": 0.4374999850988388,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.3238719359536406e-8,
+        "rightError": 5.6901162235819174e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteLevel",
+        "t": 0.5833333134651184,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.460444032898995e-8,
+        "rightError": 3.889445473323521e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteLevel",
+        "t": 0.729166641831398,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.248246930959009e-8,
+        "rightError": 4.300511999862572e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteLevel",
+        "t": 0.8749999701976776,
+        "intersections": 0,
+        "points": [],
+        "leftError": 5.396693175071685e-8,
+        "rightError": 5.011313246035189e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteLevel",
+        "t": 1.0208332985639572,
+        "intersections": 0,
+        "points": [],
+        "leftError": 5.211429403360157e-8,
+        "rightError": 5.2983535807691715e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteLevel",
+        "t": 1.1666666269302368,
+        "intersections": 0,
+        "points": [],
+        "leftError": 6.044322226790612e-8,
+        "rightError": 1.243186864981496e-7
+      },
+      {
+        "motion": "RocketAimUp",
+        "t": 0,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.157080500255555e-8,
+        "rightError": 1.6348804765540723e-7
+      },
+      {
+        "motion": "RocketAimUp",
+        "t": 0.38749998807907104,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.1800094252186074e-8,
+        "rightError": 1.6413559610518564e-7
+      },
+      {
+        "motion": "RocketAimUp",
+        "t": 0.7749999761581421,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.178741771627076e-8,
+        "rightError": 1.640640601463788e-7
+      },
+      {
+        "motion": "RocketAimUp",
+        "t": 1.1624999642372131,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.1844219337542525e-8,
+        "rightError": 1.64210471978648e-7
+      },
+      {
+        "motion": "RocketAimUp",
+        "t": 1.5499999523162842,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.160273845532907e-8,
+        "rightError": 1.6349798404860087e-7
+      },
+      {
+        "motion": "RocketAimUp",
+        "t": 1.9374999403953552,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.170976080941955e-8,
+        "rightError": 1.6396915350023495e-7
+      },
+      {
+        "motion": "RocketAimUp",
+        "t": 2.3249999284744263,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.170242904316188e-8,
+        "rightError": 1.6398807826565014e-7
+      },
+      {
+        "motion": "RocketAimUp",
+        "t": 2.7124999165534973,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.193083515096099e-8,
+        "rightError": 1.6423927235608513e-7
+      },
+      {
+        "motion": "RocketAimUp",
+        "t": 3.0999999046325684,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.9348925501113555e-8,
+        "rightError": 6.50172114026762e-8
+      },
+      {
+        "motion": "RocketFireUp",
+        "t": 0,
+        "intersections": 0,
+        "points": [],
+        "leftError": 2.7546857379143755e-8,
+        "rightError": 6.268486116058867e-8
+      },
+      {
+        "motion": "RocketFireUp",
+        "t": 0.19583334028720856,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.087846428107975e-8,
+        "rightError": 2.262333427984239e-8
+      },
+      {
+        "motion": "RocketFireUp",
+        "t": 0.3916666805744171,
+        "intersections": 0,
+        "points": [],
+        "leftError": 8.867226403426056e-8,
+        "rightError": 6.917709043367509e-8
+      },
+      {
+        "motion": "RocketFireUp",
+        "t": 0.5875000208616257,
+        "intersections": 0,
+        "points": [],
+        "leftError": 6.495409817393223e-8,
+        "rightError": 6.975770154929095e-8
+      },
+      {
+        "motion": "RocketFireUp",
+        "t": 0.7833333611488342,
+        "intersections": 0,
+        "points": [],
+        "leftError": 6.664094127804151e-8,
+        "rightError": 6.413947202003463e-8
+      },
+      {
+        "motion": "RocketFireUp",
+        "t": 0.9791667014360428,
+        "intersections": 0,
+        "points": [],
+        "leftError": 6.234589972361358e-8,
+        "rightError": 6.282207848415565e-8
+      },
+      {
+        "motion": "RocketFireUp",
+        "t": 1.1750000417232513,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.724832658547843e-8,
+        "rightError": 5.194749920755228e-8
+      },
+      {
+        "motion": "RocketFireUp",
+        "t": 1.37083338201046,
+        "intersections": 0,
+        "points": [],
+        "leftError": 6.035748169889015e-8,
+        "rightError": 7.469222481178208e-8
+      },
+      {
+        "motion": "RocketFireUp",
+        "t": 1.5666667222976685,
+        "intersections": 0,
+        "points": [],
+        "leftError": 5.984613150884664e-8,
+        "rightError": 8.379318365228492e-8
+      },
+      {
+        "motion": "RocketRaiseUp",
+        "t": 0,
+        "intersections": 0,
+        "points": [],
+        "leftError": null,
+        "rightError": 4.8050937500107325e-8
+      },
+      {
+        "motion": "RocketRaiseUp",
+        "t": 0.17083333432674408,
+        "intersections": 0,
+        "points": [],
+        "leftError": null,
+        "rightError": 3.6623070652091205e-8
+      },
+      {
+        "motion": "RocketRaiseUp",
+        "t": 0.34166666865348816,
+        "intersections": 0,
+        "points": [],
+        "leftError": 0.24480077452539187,
+        "rightError": 1.3466280432236163e-8
+      },
+      {
+        "motion": "RocketRaiseUp",
+        "t": 0.5125000029802322,
+        "intersections": 0,
+        "points": [],
+        "leftError": 0.029004859961405605,
+        "rightError": 2.9577019869541088e-8
+      },
+      {
+        "motion": "RocketRaiseUp",
+        "t": 0.6833333373069763,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.2368271066798537e-8,
+        "rightError": 1.141150532328886e-7
+      },
+      {
+        "motion": "RocketRaiseUp",
+        "t": 0.8541666716337204,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.272903883107771e-8,
+        "rightError": 5.713586343075278e-8
+      },
+      {
+        "motion": "RocketRaiseUp",
+        "t": 1.0250000059604645,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.437573944157898e-8,
+        "rightError": 6.696307340433442e-8
+      },
+      {
+        "motion": "RocketRaiseUp",
+        "t": 1.1958333402872086,
+        "intersections": 0,
+        "points": [],
+        "leftError": 5.2047942531335237e-8,
+        "rightError": 6.963898100136083e-8
+      },
+      {
+        "motion": "RocketRaiseUp",
+        "t": 1.3666666746139526,
+        "intersections": 0,
+        "points": [],
+        "leftError": 5.8268288714454075e-8,
+        "rightError": 8.315684904108858e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteUp",
+        "t": 0,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.653037900247001e-8,
+        "rightError": 6.890414795611506e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteUp",
+        "t": 0.1458333283662796,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.3293102095395417e-8,
+        "rightError": 3.2960217292167086e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteUp",
+        "t": 0.2916666567325592,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.804775859949257e-8,
+        "rightError": 3.4520143321171584e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteUp",
+        "t": 0.4374999850988388,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.701537868104555e-8,
+        "rightError": 4.669351975044347e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteUp",
+        "t": 0.5833333134651184,
+        "intersections": 0,
+        "points": [],
+        "leftError": 5.921265549453141e-8,
+        "rightError": 7.629339105118528e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteUp",
+        "t": 0.729166641831398,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.015533397546056e-8,
+        "rightError": 8.617802267609609e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteUp",
+        "t": 0.8749999701976776,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.326285546961109e-8,
+        "rightError": 7.730637112525543e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteUp",
+        "t": 1.0208332985639572,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.6109189683030226e-8,
+        "rightError": 5.1790676470350195e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteUp",
+        "t": 1.1666666269302368,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.267632884296329e-8,
+        "rightError": 9.428723837207964e-8
+      },
+      {
+        "motion": "RocketAimDown",
+        "t": 0,
+        "intersections": 0,
+        "points": [],
+        "leftError": 9.153282048528673e-8,
+        "rightError": 7.433121953215382e-8
+      },
+      {
+        "motion": "RocketAimDown",
+        "t": 0.38749998807907104,
+        "intersections": 0,
+        "points": [],
+        "leftError": 9.159193338258011e-8,
+        "rightError": 7.434868181063954e-8
+      },
+      {
+        "motion": "RocketAimDown",
+        "t": 0.7749999761581421,
+        "intersections": 0,
+        "points": [],
+        "leftError": 9.17058356732464e-8,
+        "rightError": 7.438904302353374e-8
+      },
+      {
+        "motion": "RocketAimDown",
+        "t": 1.1624999642372131,
+        "intersections": 0,
+        "points": [],
+        "leftError": 9.16989334581944e-8,
+        "rightError": 7.43776327106617e-8
+      },
+      {
+        "motion": "RocketAimDown",
+        "t": 1.5499999523162842,
+        "intersections": 0,
+        "points": [],
+        "leftError": 9.173180627493034e-8,
+        "rightError": 7.439772691501414e-8
+      },
+      {
+        "motion": "RocketAimDown",
+        "t": 1.9374999403953552,
+        "intersections": 0,
+        "points": [],
+        "leftError": 9.17133480480863e-8,
+        "rightError": 7.440942737274791e-8
+      },
+      {
+        "motion": "RocketAimDown",
+        "t": 2.3249999284744263,
+        "intersections": 0,
+        "points": [],
+        "leftError": 9.153648843363925e-8,
+        "rightError": 7.433916021789608e-8
+      },
+      {
+        "motion": "RocketAimDown",
+        "t": 2.7124999165534973,
+        "intersections": 0,
+        "points": [],
+        "leftError": 9.183398142901161e-8,
+        "rightError": 7.447550550191627e-8
+      },
+      {
+        "motion": "RocketAimDown",
+        "t": 3.0999999046325684,
+        "intersections": 0,
+        "points": [],
+        "leftError": 5.397854350152897e-8,
+        "rightError": 6.732156371606127e-8
+      },
+      {
+        "motion": "RocketFireDown",
+        "t": 0,
+        "intersections": 0,
+        "points": [],
+        "leftError": 1.1906939713522679e-7,
+        "rightError": 9.241678555076586e-8
+      },
+      {
+        "motion": "RocketFireDown",
+        "t": 0.20000000298023224,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.384470166510581e-8,
+        "rightError": 8.472359491870348e-8
+      },
+      {
+        "motion": "RocketFireDown",
+        "t": 0.4000000059604645,
+        "intersections": 0,
+        "points": [],
+        "leftError": 5.1222609903590554e-8,
+        "rightError": 7.010139519217869e-8
+      },
+      {
+        "motion": "RocketFireDown",
+        "t": 0.6000000089406967,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.241113930541984e-8,
+        "rightError": 7.645720693851988e-8
+      },
+      {
+        "motion": "RocketFireDown",
+        "t": 0.800000011920929,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.164964486357128e-8,
+        "rightError": 8.66550797359111e-8
+      },
+      {
+        "motion": "RocketFireDown",
+        "t": 1.0000000149011612,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.13400521096351e-8,
+        "rightError": 7.547782659367774e-8
+      },
+      {
+        "motion": "RocketFireDown",
+        "t": 1.2000000178813934,
+        "intersections": 0,
+        "points": [],
+        "leftError": 0.0006011214568196798,
+        "rightError": 3.166281039567657e-8
+      },
+      {
+        "motion": "RocketFireDown",
+        "t": 1.4000000208616257,
+        "intersections": 0,
+        "points": [],
+        "leftError": 6.28289903989733e-8,
+        "rightError": 6.163638096258424e-8
+      },
+      {
+        "motion": "RocketFireDown",
+        "t": 1.600000023841858,
+        "intersections": 0,
+        "points": [],
+        "leftError": 5.984165890802761e-8,
+        "rightError": 1.2516391875009356e-7
+      },
+      {
+        "motion": "RocketRaiseDown",
+        "t": 0,
+        "intersections": 0,
+        "points": [],
+        "leftError": null,
+        "rightError": 6.890414795611506e-8
+      },
+      {
+        "motion": "RocketRaiseDown",
+        "t": 0.17083333432674408,
+        "intersections": 0,
+        "points": [],
+        "leftError": null,
+        "rightError": 5.424626832320726e-8
+      },
+      {
+        "motion": "RocketRaiseDown",
+        "t": 0.34166666865348816,
+        "intersections": 0,
+        "points": [],
+        "leftError": 0.4813267516103761,
+        "rightError": 5.110378866753643e-8
+      },
+      {
+        "motion": "RocketRaiseDown",
+        "t": 0.5125000029802322,
+        "intersections": 0,
+        "points": [],
+        "leftError": 0.032645320904535154,
+        "rightError": 3.715443493953095e-8
+      },
+      {
+        "motion": "RocketRaiseDown",
+        "t": 0.6833333373069763,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.774743874501875e-8,
+        "rightError": 8.360768322767565e-8
+      },
+      {
+        "motion": "RocketRaiseDown",
+        "t": 0.8541666716337204,
+        "intersections": 0,
+        "points": [],
+        "leftError": 6.40362115017536e-8,
+        "rightError": 8.238406920561828e-8
+      },
+      {
+        "motion": "RocketRaiseDown",
+        "t": 1.0250000059604645,
+        "intersections": 0,
+        "points": [],
+        "leftError": 6.324745575803274e-8,
+        "rightError": 8.163857161183436e-8
+      },
+      {
+        "motion": "RocketRaiseDown",
+        "t": 1.1958333402872086,
+        "intersections": 0,
+        "points": [],
+        "leftError": 6.945688064871482e-8,
+        "rightError": 7.65197374663091e-8
+      },
+      {
+        "motion": "RocketRaiseDown",
+        "t": 1.3666666746139526,
+        "intersections": 0,
+        "points": [],
+        "leftError": 6.757396368562116e-8,
+        "rightError": 7.059318318920591e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteDown",
+        "t": 0,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.653037900247001e-8,
+        "rightError": 6.890414795611506e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteDown",
+        "t": 0.1458333283662796,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.6159777599009146e-8,
+        "rightError": 3.3516468117386297e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteDown",
+        "t": 0.2916666567325592,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.453430089582513e-8,
+        "rightError": 5.976253944815403e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteDown",
+        "t": 0.4374999850988388,
+        "intersections": 0,
+        "points": [],
+        "leftError": 9.428054364047084e-9,
+        "rightError": 3.7707532402674975e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteDown",
+        "t": 0.5833333134651184,
+        "intersections": 0,
+        "points": [],
+        "leftError": 2.9709357923798805e-8,
+        "rightError": 3.653940237825315e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteDown",
+        "t": 0.729166641831398,
+        "intersections": 0,
+        "points": [],
+        "leftError": 2.9356185327330765e-8,
+        "rightError": 2.499618092568458e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteDown",
+        "t": 0.8749999701976776,
+        "intersections": 0,
+        "points": [],
+        "leftError": 5.223596613641688e-8,
+        "rightError": 5.413170876031078e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteDown",
+        "t": 1.0208332985639572,
+        "intersections": 0,
+        "points": [],
+        "leftError": 5.193109031205508e-8,
+        "rightError": 3.417754858854404e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteDown",
+        "t": 1.1666666269302368,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.9880710421800374e-8,
+        "rightError": 7.06924417368233e-8
+      },
+      {
+        "motion": "RocketDraw",
+        "t": 0.14166666567325592,
+        "intersections": 0,
+        "points": [],
+        "leftError": null,
+        "rightError": 4.476533411405522e-8
+      },
+      {
+        "motion": "RocketDraw",
+        "t": 0.21249999850988388,
+        "intersections": 0,
+        "points": [],
+        "leftError": null,
+        "rightError": 8.356246777158835e-8
+      },
+      {
+        "motion": "RocketDraw",
+        "t": 0.28333333134651184,
+        "intersections": 0,
+        "points": [],
+        "leftError": null,
+        "rightError": 4.1775893915504376e-8
+      },
+      {
+        "motion": "RocketDraw",
+        "t": 0.3541666641831398,
+        "intersections": 0,
+        "points": [],
+        "leftError": 0.32436032139138804,
+        "rightError": 2.1685681733331156e-8
+      },
+      {
+        "motion": "RocketDraw",
+        "t": 0.42499999701976776,
+        "intersections": 0,
+        "points": [],
+        "leftError": 0.16665465392218304,
+        "rightError": 1.2305438226804135e-8
+      },
+      {
+        "motion": "RocketDraw",
+        "t": 0.4958333298563957,
+        "intersections": 0,
+        "points": [],
+        "leftError": 0.04619931072030531,
+        "rightError": 1.0165314700788647e-8
+      },
+      {
+        "motion": "RocketDraw",
+        "t": 0.5666666626930237,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.048466125134028e-8,
+        "rightError": 7.082748834023811e-8
+      },
+      {
+        "motion": "RocketDiscard",
+        "t": 0,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.098293722201795e-8,
+        "rightError": 7.308607326299449e-8
+      },
+      {
+        "motion": "RocketDiscard",
+        "t": 0.125,
+        "intersections": 0,
+        "points": [],
+        "leftError": null,
+        "rightError": 3.3084036036779426e-8
+      },
+      {
+        "motion": "RocketDiscard",
+        "t": 0.25,
+        "intersections": 0,
+        "points": [],
+        "leftError": null,
+        "rightError": 5.4865709789098984e-8
+      }
+    ],
+    "zhigeng": [
+      {
+        "motion": "RifleIdle",
+        "t": 0,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.7226182141081805e-8,
+        "rightError": 4.401350690994693e-8
+      },
+      {
+        "motion": "RifleIdle",
+        "t": 1.0708333253860474,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.829245939987099e-8,
+        "rightError": 4.519703719398768e-8
+      },
+      {
+        "motion": "RifleIdle",
+        "t": 2.1416666507720947,
+        "intersections": 0,
+        "points": [],
+        "leftError": 2.9355646361884988e-8,
+        "rightError": 4.0332681250736736e-8
+      },
+      {
+        "motion": "RifleIdle",
+        "t": 3.212499976158142,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.637298971559003e-8,
+        "rightError": 4.463779998910918e-8
+      },
+      {
+        "motion": "RifleIdle",
+        "t": 4.2833333015441895,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.27769211461327e-8,
+        "rightError": 4.1607728713658766e-8
+      },
+      {
+        "motion": "RifleIdle",
+        "t": 5.354166626930237,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.4150176747753875e-8,
+        "rightError": 4.923004495004066e-8
+      },
+      {
+        "motion": "RifleIdle",
+        "t": 6.424999952316284,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.8386107948656534e-8,
+        "rightError": 4.4627090303025907e-8
+      },
+      {
+        "motion": "RifleIdle",
+        "t": 7.4958332777023315,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.869094024969288e-8,
+        "rightError": 4.489833625872867e-8
+      },
+      {
+        "motion": "RifleIdle",
+        "t": 8.566666603088379,
+        "intersections": 0,
+        "points": [],
+        "leftError": 8.45743364433849e-8,
+        "rightError": 5.4968462585545646e-8
+      },
+      {
+        "motion": "RifleWalk",
+        "t": 0,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.637719055081916e-8,
+        "rightError": 7.409328796286082e-8
+      },
+      {
+        "motion": "RifleWalk",
+        "t": 0.16249999403953552,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.458789410446841e-8,
+        "rightError": 5.5690098988416566e-8
+      },
+      {
+        "motion": "RifleWalk",
+        "t": 0.32499998807907104,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.634233033783275e-8,
+        "rightError": 5.268519695771088e-8
+      },
+      {
+        "motion": "RifleWalk",
+        "t": 0.48749998211860657,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.4435593479154184e-8,
+        "rightError": 5.684218482421803e-8
+      },
+      {
+        "motion": "RifleWalk",
+        "t": 0.6499999761581421,
+        "intersections": 0,
+        "points": [],
+        "leftError": 5.8253591409002047e-8,
+        "rightError": 7.570289767481198e-8
+      },
+      {
+        "motion": "RifleWalk",
+        "t": 0.8124999701976776,
+        "intersections": 0,
+        "points": [],
+        "leftError": 6.830690229277818e-8,
+        "rightError": 4.859799623901561e-8
+      },
+      {
+        "motion": "RifleWalk",
+        "t": 0.9749999642372131,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.789315587529444e-8,
+        "rightError": 5.349845961038122e-8
+      },
+      {
+        "motion": "RifleWalk",
+        "t": 1.1374999582767487,
+        "intersections": 0,
+        "points": [],
+        "leftError": 5.956486096562702e-8,
+        "rightError": 6.180738235877338e-8
+      },
+      {
+        "motion": "RifleWalk",
+        "t": 1.2999999523162842,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.402109998676936e-8,
+        "rightError": 5.299185169199683e-8
+      },
+      {
+        "motion": "RifleRun",
+        "t": 0,
+        "intersections": 0,
+        "points": [],
+        "leftError": 1.2516434788193964e-8,
+        "rightError": 2.0396354651462688e-8
+      },
+      {
+        "motion": "RifleRun",
+        "t": 0.0833333358168602,
+        "intersections": 0,
+        "points": [],
+        "leftError": 2.676335689991252e-8,
+        "rightError": 2.561496617703408e-8
+      },
+      {
+        "motion": "RifleRun",
+        "t": 0.1666666716337204,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.227740240519051e-8,
+        "rightError": 3.120452273522283e-8
+      },
+      {
+        "motion": "RifleRun",
+        "t": 0.2500000074505806,
+        "intersections": 0,
+        "points": [],
+        "leftError": 2.62988522739782e-8,
+        "rightError": 1.2512094654983713e-8
+      },
+      {
+        "motion": "RifleRun",
+        "t": 0.3333333432674408,
+        "intersections": 0,
+        "points": [],
+        "leftError": 1.9619537096021757e-8,
+        "rightError": 2.452117821075559e-8
+      },
+      {
+        "motion": "RifleRun",
+        "t": 0.416666679084301,
+        "intersections": 0,
+        "points": [],
+        "leftError": 2.6755980629019953e-8,
+        "rightError": 2.460280509998765e-8
+      },
+      {
+        "motion": "RifleRun",
+        "t": 0.5000000149011612,
+        "intersections": 0,
+        "points": [],
+        "leftError": 2.1002911865864205e-8,
+        "rightError": 3.468026230784748e-8
+      },
+      {
+        "motion": "RifleRun",
+        "t": 0.5833333507180214,
+        "intersections": 0,
+        "points": [],
+        "leftError": 2.2391758109817972e-8,
+        "rightError": 2.6601991374308028e-8
+      },
+      {
+        "motion": "RifleRun",
+        "t": 0.6666666865348816,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.899910215851266e-8,
+        "rightError": 6.463414264406234e-8
+      },
+      {
+        "motion": "RifleAimingIdle",
+        "t": 0,
+        "intersections": 0,
+        "points": [],
+        "leftError": 2.3708099412014625e-8,
+        "rightError": 5.7545773592405945e-8
+      },
+      {
+        "motion": "RifleAimingIdle",
+        "t": 0.38749998807907104,
+        "intersections": 0,
+        "points": [],
+        "leftError": 2.265841516524772e-8,
+        "rightError": 5.966864845143145e-8
+      },
+      {
+        "motion": "RifleAimingIdle",
+        "t": 0.7749999761581421,
+        "intersections": 0,
+        "points": [],
+        "leftError": 2.264142635959401e-8,
+        "rightError": 5.959044050412239e-8
+      },
+      {
+        "motion": "RifleAimingIdle",
+        "t": 1.1624999642372131,
+        "intersections": 0,
+        "points": [],
+        "leftError": 2.2659991539871126e-8,
+        "rightError": 5.9462123300099336e-8
+      },
+      {
+        "motion": "RifleAimingIdle",
+        "t": 1.5499999523162842,
+        "intersections": 0,
+        "points": [],
+        "leftError": 2.2747903909231644e-8,
+        "rightError": 5.9359176553651795e-8
+      },
+      {
+        "motion": "RifleAimingIdle",
+        "t": 1.9374999403953552,
+        "intersections": 0,
+        "points": [],
+        "leftError": 2.2822916871470898e-8,
+        "rightError": 5.944043145623192e-8
+      },
+      {
+        "motion": "RifleAimingIdle",
+        "t": 2.3249999284744263,
+        "intersections": 0,
+        "points": [],
+        "leftError": 2.2814238860743375e-8,
+        "rightError": 5.9571941667476134e-8
+      },
+      {
+        "motion": "RifleAimingIdle",
+        "t": 2.7124999165534973,
+        "intersections": 0,
+        "points": [],
+        "leftError": 2.2761344900934787e-8,
+        "rightError": 5.967094359419548e-8
+      },
+      {
+        "motion": "RifleAimingIdle",
+        "t": 3.0999999046325684,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.209454289789169e-8,
+        "rightError": 7.503724587827105e-8
+      },
+      {
+        "motion": "FiringRifle",
+        "t": 0,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.35341645667268e-8,
+        "rightError": 3.798035414120537e-8
+      },
+      {
+        "motion": "FiringRifle",
+        "t": 0.20000000298023224,
+        "intersections": 0,
+        "points": [],
+        "leftError": 6.542746476135789e-8,
+        "rightError": 3.665969194223745e-8
+      },
+      {
+        "motion": "FiringRifle",
+        "t": 0.4000000059604645,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.751603474252742e-8,
+        "rightError": 5.1492222050122434e-8
+      },
+      {
+        "motion": "FiringRifle",
+        "t": 0.6000000089406967,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.186756581011057e-8,
+        "rightError": 6.544582112171783e-8
+      },
+      {
+        "motion": "FiringRifle",
+        "t": 0.800000011920929,
+        "intersections": 0,
+        "points": [],
+        "leftError": 6.69505831842029e-8,
+        "rightError": 8.057517764934979e-8
+      },
+      {
+        "motion": "FiringRifle",
+        "t": 1.0000000149011612,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.947870138712534e-8,
+        "rightError": 5.774334140796768e-8
+      },
+      {
+        "motion": "FiringRifle",
+        "t": 1.2000000178813934,
+        "intersections": 0,
+        "points": [],
+        "leftError": 9.594122368027336e-8,
+        "rightError": 5.218266385778311e-8
+      },
+      {
+        "motion": "FiringRifle",
+        "t": 1.4000000208616257,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.8997108278777e-8,
+        "rightError": 5.2964951559226384e-8
+      },
+      {
+        "motion": "FiringRifle",
+        "t": 1.600000023841858,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.466941769836147e-8,
+        "rightError": 5.206806531187557e-8
+      },
+      {
+        "motion": "RocketRaiseLevel",
+        "t": 0,
+        "intersections": 0,
+        "points": [],
+        "leftError": null,
+        "rightError": 4.990798301389192e-8
+      },
+      {
+        "motion": "RocketRaiseLevel",
+        "t": 0.17083333432674408,
+        "intersections": 0,
+        "points": [],
+        "leftError": null,
+        "rightError": 4.112042312820426e-8
+      },
+      {
+        "motion": "RocketRaiseLevel",
+        "t": 0.34166666865348816,
+        "intersections": 0,
+        "points": [],
+        "leftError": 0.34401760835741335,
+        "rightError": 4.008667262640932e-8
+      },
+      {
+        "motion": "RocketRaiseLevel",
+        "t": 0.5125000029802322,
+        "intersections": 0,
+        "points": [],
+        "leftError": 0.030114201820200387,
+        "rightError": 4.528756363539756e-8
+      },
+      {
+        "motion": "RocketRaiseLevel",
+        "t": 0.6833333373069763,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.820614697238885e-8,
+        "rightError": 5.2537330687274747e-8
+      },
+      {
+        "motion": "RocketRaiseLevel",
+        "t": 0.8541666716337204,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.614255441179324e-8,
+        "rightError": 4.160245030585494e-8
+      },
+      {
+        "motion": "RocketRaiseLevel",
+        "t": 1.0250000059604645,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.6668597266726966e-8,
+        "rightError": 4.696620226470827e-8
+      },
+      {
+        "motion": "RocketRaiseLevel",
+        "t": 1.1958333402872086,
+        "intersections": 0,
+        "points": [],
+        "leftError": 2.581787242059551e-8,
+        "rightError": 6.978700424197667e-8
+      },
+      {
+        "motion": "RocketRaiseLevel",
+        "t": 1.3666666746139526,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.1678866635067455e-8,
+        "rightError": 7.74042798407798e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteLevel",
+        "t": 0,
+        "intersections": 0,
+        "points": [],
+        "leftError": 2.865012317037909e-8,
+        "rightError": 4.6889723849532236e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteLevel",
+        "t": 0.1458333283662796,
+        "intersections": 0,
+        "points": [],
+        "leftError": 5.1951000037022116e-8,
+        "rightError": 4.642548643628626e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteLevel",
+        "t": 0.2916666567325592,
+        "intersections": 0,
+        "points": [],
+        "leftError": 6.292173474152165e-8,
+        "rightError": 8.521683497739527e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteLevel",
+        "t": 0.4374999850988388,
+        "intersections": 0,
+        "points": [],
+        "leftError": 5.767473814784014e-8,
+        "rightError": 5.576877797569128e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteLevel",
+        "t": 0.5833333134651184,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.956738674309534e-8,
+        "rightError": 5.9093222480948546e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteLevel",
+        "t": 0.729166641831398,
+        "intersections": 0,
+        "points": [],
+        "leftError": 2.818167093966628e-8,
+        "rightError": 6.784274187167162e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteLevel",
+        "t": 0.8749999701976776,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.468432471627502e-8,
+        "rightError": 6.2905477745865e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteLevel",
+        "t": 1.0208332985639572,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.051126373732132e-8,
+        "rightError": 3.0480288638067264e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteLevel",
+        "t": 1.1666666269302368,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.019316815417471e-8,
+        "rightError": 9.112167230796179e-8
+      },
+      {
+        "motion": "RocketAimUp",
+        "t": 0,
+        "intersections": 0,
+        "points": [],
+        "leftError": 9.348545901764202e-9,
+        "rightError": 7.499414276424547e-8
+      },
+      {
+        "motion": "RocketAimUp",
+        "t": 0.38749998807907104,
+        "intersections": 0,
+        "points": [],
+        "leftError": 8.823221723527604e-9,
+        "rightError": 7.602745930683246e-8
+      },
+      {
+        "motion": "RocketAimUp",
+        "t": 0.7749999761581421,
+        "intersections": 0,
+        "points": [],
+        "leftError": 8.898788775224863e-9,
+        "rightError": 7.602182722485556e-8
+      },
+      {
+        "motion": "RocketAimUp",
+        "t": 1.1624999642372131,
+        "intersections": 0,
+        "points": [],
+        "leftError": 9.152776354384573e-9,
+        "rightError": 7.578703208196739e-8
+      },
+      {
+        "motion": "RocketAimUp",
+        "t": 1.5499999523162842,
+        "intersections": 0,
+        "points": [],
+        "leftError": 8.90392225669788e-9,
+        "rightError": 7.609571065630282e-8
+      },
+      {
+        "motion": "RocketAimUp",
+        "t": 1.9374999403953552,
+        "intersections": 0,
+        "points": [],
+        "leftError": 8.817108567467966e-9,
+        "rightError": 7.604414311036541e-8
+      },
+      {
+        "motion": "RocketAimUp",
+        "t": 2.3249999284744263,
+        "intersections": 0,
+        "points": [],
+        "leftError": 8.530148128237958e-9,
+        "rightError": 7.631761110417477e-8
+      },
+      {
+        "motion": "RocketAimUp",
+        "t": 2.7124999165534973,
+        "intersections": 0,
+        "points": [],
+        "leftError": 8.672360802376135e-9,
+        "rightError": 7.609775508070082e-8
+      },
+      {
+        "motion": "RocketAimUp",
+        "t": 3.0999999046325684,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.360818875712568e-8,
+        "rightError": 3.208570566076554e-8
+      },
+      {
+        "motion": "RocketFireUp",
+        "t": 0,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.129476843196994e-8,
+        "rightError": 7.840203593983619e-8
+      },
+      {
+        "motion": "RocketFireUp",
+        "t": 0.19583334028720856,
+        "intersections": 0,
+        "points": [],
+        "leftError": 5.1920873714656204e-8,
+        "rightError": 5.218944366127998e-8
+      },
+      {
+        "motion": "RocketFireUp",
+        "t": 0.3916666805744171,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.685900316691294e-8,
+        "rightError": 6.210519247789015e-8
+      },
+      {
+        "motion": "RocketFireUp",
+        "t": 0.5875000208616257,
+        "intersections": 0,
+        "points": [],
+        "leftError": 8.617848839225429e-8,
+        "rightError": 2.449729907544539e-8
+      },
+      {
+        "motion": "RocketFireUp",
+        "t": 0.7833333611488342,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.952863772842217e-8,
+        "rightError": 6.13610754428804e-8
+      },
+      {
+        "motion": "RocketFireUp",
+        "t": 0.9791667014360428,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.794502988079368e-8,
+        "rightError": 5.39227641871997e-8
+      },
+      {
+        "motion": "RocketFireUp",
+        "t": 1.1750000417232513,
+        "intersections": 0,
+        "points": [],
+        "leftError": 1.2148914110068113e-7,
+        "rightError": 2.065623395760728e-8
+      },
+      {
+        "motion": "RocketFireUp",
+        "t": 1.37083338201046,
+        "intersections": 0,
+        "points": [],
+        "leftError": 8.432375578363798e-8,
+        "rightError": 5.979219841257346e-8
+      },
+      {
+        "motion": "RocketFireUp",
+        "t": 1.5666667222976685,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.938412316804845e-8,
+        "rightError": 5.815194570156547e-8
+      },
+      {
+        "motion": "RocketRaiseUp",
+        "t": 0,
+        "intersections": 0,
+        "points": [],
+        "leftError": null,
+        "rightError": 5.281235946635133e-8
+      },
+      {
+        "motion": "RocketRaiseUp",
+        "t": 0.17083333432674408,
+        "intersections": 0,
+        "points": [],
+        "leftError": null,
+        "rightError": 4.139884069316931e-8
+      },
+      {
+        "motion": "RocketRaiseUp",
+        "t": 0.34166666865348816,
+        "intersections": 0,
+        "points": [],
+        "leftError": 0.23239501676630148,
+        "rightError": 3.514668383304075e-8
+      },
+      {
+        "motion": "RocketRaiseUp",
+        "t": 0.5125000029802322,
+        "intersections": 0,
+        "points": [],
+        "leftError": 0.028679218547990756,
+        "rightError": 3.550802728781616e-8
+      },
+      {
+        "motion": "RocketRaiseUp",
+        "t": 0.6833333373069763,
+        "intersections": 0,
+        "points": [],
+        "leftError": 6.711105853484546e-8,
+        "rightError": 4.3454348953464865e-8
+      },
+      {
+        "motion": "RocketRaiseUp",
+        "t": 0.8541666716337204,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.546554210155309e-8,
+        "rightError": 2.373259829632672e-8
+      },
+      {
+        "motion": "RocketRaiseUp",
+        "t": 1.0250000059604645,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.689925135632482e-8,
+        "rightError": 3.1796936322969285e-8
+      },
+      {
+        "motion": "RocketRaiseUp",
+        "t": 1.1958333402872086,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.477112438056858e-8,
+        "rightError": 5.2632361217524344e-8
+      },
+      {
+        "motion": "RocketRaiseUp",
+        "t": 1.3666666746139526,
+        "intersections": 0,
+        "points": [],
+        "leftError": 5.373865358641074e-8,
+        "rightError": 5.134613549947965e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteUp",
+        "t": 0,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.2546986412181746e-8,
+        "rightError": 4.888412617516813e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteUp",
+        "t": 0.1458333283662796,
+        "intersections": 0,
+        "points": [],
+        "leftError": 5.449276129684864e-8,
+        "rightError": 4.8009183746121226e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteUp",
+        "t": 0.2916666567325592,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.866373340743014e-8,
+        "rightError": 9.472184332471954e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteUp",
+        "t": 0.4374999850988388,
+        "intersections": 0,
+        "points": [],
+        "leftError": 6.787736657239884e-8,
+        "rightError": 3.591588547079942e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteUp",
+        "t": 0.5833333134651184,
+        "intersections": 0,
+        "points": [],
+        "leftError": 5.926164898497091e-8,
+        "rightError": 2.7515314529785445e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteUp",
+        "t": 0.729166641831398,
+        "intersections": 0,
+        "points": [],
+        "leftError": 6.559032151280431e-8,
+        "rightError": 4.3499543721795184e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteUp",
+        "t": 0.8749999701976776,
+        "intersections": 0,
+        "points": [],
+        "leftError": 5.990894869034006e-8,
+        "rightError": 2.867292836081485e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteUp",
+        "t": 1.0208332985639572,
+        "intersections": 0,
+        "points": [],
+        "leftError": 6.091257396585608e-8,
+        "rightError": 2.8812720395961557e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteUp",
+        "t": 1.1666666269302368,
+        "intersections": 0,
+        "points": [],
+        "leftError": 5.5318790357819e-8,
+        "rightError": 3.8014967489397657e-8
+      },
+      {
+        "motion": "RocketAimDown",
+        "t": 0,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.7114962448387114e-8,
+        "rightError": 4.765037929058152e-8
+      },
+      {
+        "motion": "RocketAimDown",
+        "t": 0.38749998807907104,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.914476136312771e-8,
+        "rightError": 4.902376690492321e-8
+      },
+      {
+        "motion": "RocketAimDown",
+        "t": 0.7749999761581421,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.8770403716954106e-8,
+        "rightError": 4.845109864661394e-8
+      },
+      {
+        "motion": "RocketAimDown",
+        "t": 1.1624999642372131,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.89195995498122e-8,
+        "rightError": 4.869132899066546e-8
+      },
+      {
+        "motion": "RocketAimDown",
+        "t": 1.5499999523162842,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.956234994648914e-8,
+        "rightError": 4.9738424535823515e-8
+      },
+      {
+        "motion": "RocketAimDown",
+        "t": 1.9374999403953552,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.876326346670069e-8,
+        "rightError": 4.871073180728448e-8
+      },
+      {
+        "motion": "RocketAimDown",
+        "t": 2.3249999284744263,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.884819915126988e-8,
+        "rightError": 4.8841511201477673e-8
+      },
+      {
+        "motion": "RocketAimDown",
+        "t": 2.7124999165534973,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.850811995150418e-8,
+        "rightError": 4.8263249275259155e-8
+      },
+      {
+        "motion": "RocketAimDown",
+        "t": 3.0999999046325684,
+        "intersections": 0,
+        "points": [],
+        "leftError": 1.6970148485753252e-8,
+        "rightError": 1.2523475215722432e-7
+      },
+      {
+        "motion": "RocketFireDown",
+        "t": 0,
+        "intersections": 0,
+        "points": [],
+        "leftError": 2.4285885230172488e-8,
+        "rightError": 1.097633339620139e-7
+      },
+      {
+        "motion": "RocketFireDown",
+        "t": 0.20000000298023224,
+        "intersections": 0,
+        "points": [],
+        "leftError": 1.7061578700533992e-8,
+        "rightError": 7.12501086212146e-8
+      },
+      {
+        "motion": "RocketFireDown",
+        "t": 0.4000000059604645,
+        "intersections": 0,
+        "points": [],
+        "leftError": 1.082910751235523e-7,
+        "rightError": 6.791300090935094e-8
+      },
+      {
+        "motion": "RocketFireDown",
+        "t": 0.6000000089406967,
+        "intersections": 0,
+        "points": [],
+        "leftError": 5.123518352095706e-8,
+        "rightError": 6.772018225978216e-8
+      },
+      {
+        "motion": "RocketFireDown",
+        "t": 0.800000011920929,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.846379312996559e-8,
+        "rightError": 6.876964213320669e-8
+      },
+      {
+        "motion": "RocketFireDown",
+        "t": 1.0000000149011612,
+        "intersections": 0,
+        "points": [],
+        "leftError": 5.621204107634378e-8,
+        "rightError": 9.132076895297328e-8
+      },
+      {
+        "motion": "RocketFireDown",
+        "t": 1.2000000178813934,
+        "intersections": 0,
+        "points": [],
+        "leftError": 1.205752817893625e-7,
+        "rightError": 4.691081627022428e-8
+      },
+      {
+        "motion": "RocketFireDown",
+        "t": 1.4000000208616257,
+        "intersections": 0,
+        "points": [],
+        "leftError": 8.579181467201583e-8,
+        "rightError": 3.387611486512911e-8
+      },
+      {
+        "motion": "RocketFireDown",
+        "t": 1.600000023841858,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.383535189498863e-8,
+        "rightError": 5.942589140432845e-8
+      },
+      {
+        "motion": "RocketRaiseDown",
+        "t": 0,
+        "intersections": 0,
+        "points": [],
+        "leftError": null,
+        "rightError": 4.888412617516813e-8
+      },
+      {
+        "motion": "RocketRaiseDown",
+        "t": 0.17083333432674408,
+        "intersections": 0,
+        "points": [],
+        "leftError": null,
+        "rightError": 5.020342840246977e-8
+      },
+      {
+        "motion": "RocketRaiseDown",
+        "t": 0.34166666865348816,
+        "intersections": 0,
+        "points": [],
+        "leftError": 0.45785392266257524,
+        "rightError": 1.1729899067279307e-7
+      },
+      {
+        "motion": "RocketRaiseDown",
+        "t": 0.5125000029802322,
+        "intersections": 0,
+        "points": [],
+        "leftError": 0.03175118579436163,
+        "rightError": 1.1236362214890891e-7
+      },
+      {
+        "motion": "RocketRaiseDown",
+        "t": 0.6833333373069763,
+        "intersections": 0,
+        "points": [],
+        "leftError": 1.909327467209191e-8,
+        "rightError": 1.0259947914059944e-7
+      },
+      {
+        "motion": "RocketRaiseDown",
+        "t": 0.8541666716337204,
+        "intersections": 0,
+        "points": [],
+        "leftError": 1.1605754703270248e-8,
+        "rightError": 1.1559443299621403e-7
+      },
+      {
+        "motion": "RocketRaiseDown",
+        "t": 1.0250000059604645,
+        "intersections": 0,
+        "points": [],
+        "leftError": 1.133648081283531e-8,
+        "rightError": 1.1424438231711854e-7
+      },
+      {
+        "motion": "RocketRaiseDown",
+        "t": 1.1958333402872086,
+        "intersections": 0,
+        "points": [],
+        "leftError": 1.1440521581034897e-8,
+        "rightError": 1.0310428034527386e-7
+      },
+      {
+        "motion": "RocketRaiseDown",
+        "t": 1.3666666746139526,
+        "intersections": 0,
+        "points": [],
+        "leftError": 1.2979041015462495e-8,
+        "rightError": 1.1110735383470109e-7
+      },
+      {
+        "motion": "RocketRaiseInfiniteDown",
+        "t": 0,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.2546986412181746e-8,
+        "rightError": 4.888412617516813e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteDown",
+        "t": 0.1458333283662796,
+        "intersections": 0,
+        "points": [],
+        "leftError": 6.322447917862414e-8,
+        "rightError": 4.735538321724005e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteDown",
+        "t": 0.2916666567325592,
+        "intersections": 0,
+        "points": [],
+        "leftError": 4.466003718138288e-8,
+        "rightError": 8.071032267188849e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteDown",
+        "t": 0.4374999850988388,
+        "intersections": 0,
+        "points": [],
+        "leftError": 7.467347641517299e-8,
+        "rightError": 1.1222655868245656e-7
+      },
+      {
+        "motion": "RocketRaiseInfiniteDown",
+        "t": 0.5833333134651184,
+        "intersections": 0,
+        "points": [],
+        "leftError": 6.309342920997837e-8,
+        "rightError": 1.069584377912232e-7
+      },
+      {
+        "motion": "RocketRaiseInfiniteDown",
+        "t": 0.729166641831398,
+        "intersections": 0,
+        "points": [],
+        "leftError": 5.5819057112112077e-8,
+        "rightError": 7.430751410881126e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteDown",
+        "t": 0.8749999701976776,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.3731644203404036e-8,
+        "rightError": 9.465997570357679e-8
+      },
+      {
+        "motion": "RocketRaiseInfiniteDown",
+        "t": 1.0208332985639572,
+        "intersections": 0,
+        "points": [],
+        "leftError": 2.044482405354003e-8,
+        "rightError": 1.267391464977199e-7
+      },
+      {
+        "motion": "RocketRaiseInfiniteDown",
+        "t": 1.1666666269302368,
+        "intersections": 0,
+        "points": [],
+        "leftError": 2.729323625824707e-8,
+        "rightError": 1.4278798775316224e-7
+      },
+      {
+        "motion": "RocketDraw",
+        "t": 0.14166666567325592,
+        "intersections": 0,
+        "points": [],
+        "leftError": null,
+        "rightError": 4.4471694806276724e-8
+      },
+      {
+        "motion": "RocketDraw",
+        "t": 0.21249999850988388,
+        "intersections": 0,
+        "points": [],
+        "leftError": null,
+        "rightError": 3.2157071828528435e-8
+      },
+      {
+        "motion": "RocketDraw",
+        "t": 0.28333333134651184,
+        "intersections": 0,
+        "points": [],
+        "leftError": null,
+        "rightError": 3.09544279919524e-8
+      },
+      {
+        "motion": "RocketDraw",
+        "t": 0.3541666641831398,
+        "intersections": 0,
+        "points": [],
+        "leftError": 0.31491802708308764,
+        "rightError": 2.3719374246649505e-8
+      },
+      {
+        "motion": "RocketDraw",
+        "t": 0.42499999701976776,
+        "intersections": 0,
+        "points": [],
+        "leftError": 0.16639014254134388,
+        "rightError": 4.9701997791114664e-8
+      },
+      {
+        "motion": "RocketDraw",
+        "t": 0.4958333298563957,
+        "intersections": 0,
+        "points": [],
+        "leftError": 0.04771663403414643,
+        "rightError": 3.612137576930431e-8
+      },
+      {
+        "motion": "RocketDraw",
+        "t": 0.5666666626930237,
+        "intersections": 0,
+        "points": [],
+        "leftError": 3.024922811732276e-8,
+        "rightError": 4.628780926087564e-8
+      },
+      {
+        "motion": "RocketDiscard",
+        "t": 0,
+        "intersections": 0,
+        "points": [],
+        "leftError": 2.9355875329245086e-8,
+        "rightError": 9.325345235229765e-8
+      },
+      {
+        "motion": "RocketDiscard",
+        "t": 0.125,
+        "intersections": 0,
+        "points": [],
+        "leftError": null,
+        "rightError": 3.652790383264555e-8
+      },
+      {
+        "motion": "RocketDiscard",
+        "t": 0.25,
+        "intersections": 0,
+        "points": [],
+        "leftError": null,
+        "rightError": 5.8611742721007434e-8
+      }
+    ]
+  }
+}

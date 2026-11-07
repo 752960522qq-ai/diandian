@@ -2,13 +2,15 @@
 import * as THREE from 'three';
 import fs from 'node:fs';
 import path from 'node:path';
+import { pathToFileURL } from 'node:url';
 import { GLTFLoader } from '../../web/motion-labs/diandian-classic-motion-lab/vendor/GLTFLoader.js';
 
 import { installType97Motions, isType97UpperTrack } from '../../web/motion-labs/diandian-classic-motion-lab/type97-motion.js';
 import { installRocketMotions } from '../../web/motion-labs/diandian-classic-motion-lab/rocket-motion.js';
 globalThis.ProgressEvent=class {constructor(type,opts){Object.assign(this,opts);this.type=type;}};
 const cwd=new URL('../..',import.meta.url).pathname.replace(/\/$/,'');
-const assetRoot=process.argv[2];
+const isMain = process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href;
+const assetRoot=isMain ? process.argv[2] : undefined;
 export function decode(file){const bytes=fs.readFileSync(file),len=bytes.readUInt32LE(12);return {g:JSON.parse(bytes.subarray(20,20+len).toString()),bin:bytes.subarray(28+len)};}
 export function encode(g,bin){const jb=Buffer.from(JSON.stringify(g));const jp=Buffer.concat([jb,Buffer.alloc((4-jb.length%4)%4,32)]);const bp=Buffer.concat([bin,Buffer.alloc((4-bin.length%4)%4)]);const out=Buffer.alloc(28+jp.length+bp.length);out.write('glTF');out.writeUInt32LE(2,4);out.writeUInt32LE(out.length,8);out.writeUInt32LE(jp.length,12);out.write('JSON',16);jp.copy(out,20);out.writeUInt32LE(bp.length,20+jp.length);out.write('BIN\0',24+jp.length);bp.copy(out,28+jp.length);return out;}
 export async function read(file){const {g,bin}=decode(file);delete g.images;delete g.textures;delete g.samplers;delete g.materials;for(const m of g.meshes||[])for(const p of m.primitives)delete p.material;const b=encode(g,bin);return new GLTFLoader().parseAsync(b.buffer.slice(b.byteOffset,b.byteOffset+b.byteLength),'');}
@@ -26,6 +28,7 @@ export async function setup(cid){
  function pose(motion,t=0,weapon='pf89') {attachment.beforeAnimation();mixer.stopAllAction();attachment.setWeapon(weapon);const name=cfg.weapons[weapon].animation_overrides?.[motion]||motion;const action=actions.get(name);if(!action)throw Error(name);action.reset().setLoop(THREE.LoopOnce,1);action.clampWhenFinished=true;action.play();action.time=t;mixer.update(0);scene.updateMatrixWorld(true);attachment.update(motion,t,{activeClips:[{name,weight:1}]});scene.updateMatrixWorld(true);return attachment.getState();}
  return {cid,dir,old,file,gltf,model,scene,attachment,composition,cfg,pose};
 }
+if (isMain) {
 const report={characters:{},browserQA:{performed:false,reason:'CPU validation only; this script does not launch a browser.'}};
 for(const cid of ['diandian','zhigeng']){
  const rt=await setup(cid);const q={lowerMismatch:0,results:[]};
@@ -33,7 +36,7 @@ for(const cid of ['diandian','zhigeng']){
   const clip=rt.model.actions.get(entry.name).getClip(),base=rt.model.actions.get(entry.base).getClip();
   for(const track of base.tracks.filter(t=>!isType97UpperTrack(t))){const other=clip.tracks.find(t=>t.name===track.name);if(!other||['times','values'].some(k=>track[k].length!==other[k].length||track[k].some((v,i)=>v!==other[k][i])))q.lowerMismatch++;}
   const motion=Object.entries(rt.cfg.weapons.pf89.animation_overrides).find(([k,v])=>v===entry.name)?.[0]||entry.name;
-  for(let i=0;i<=30;i++){const state=rt.pose(motion,entry.duration*i/30);q.results.push({visible:state.visible,supportWeight:state.supportWeight,left:state.leftContactErrorM,right:state.rightContactErrorM,pitch:state.barrelPitchDegrees});}
+  for(let i=0;i<=30;i++){const state=rt.pose(motion,entry.duration*i/30);q.results.push({visible:state.visible,supportWeight:state.supportWeight,rightSupportWeight:state.rightSupportWeight,left:state.leftContactErrorM,right:state.rightContactErrorM,pitch:state.barrelPitchDegrees});}
  }
  const locked=q.results.filter(r=>r.visible&&r.supportWeight===1);
  if(q.lowerMismatch)throw Error('Changed lower body');
@@ -47,6 +50,7 @@ for(const cid of ['diandian','zhigeng']){
  const afterState=rt.pose('RifleAimingIdle',.2),after=bonePose();let maxPoseDrift=0;for(const k of Object.keys(before))for(let i=0;i<before[k].length;i++)maxPoseDrift=Math.max(maxPoseDrift,Math.abs(before[k][i]-after[k][i]));
  if(maxPoseDrift>1e-5||!afterState.visible)throw Error('Seek/switch drift');
  const {g}=decode(rt.dir+'/assets/re4_rocket_upper.glb');let upperChannels=0;for(const a of g.animations){if(!a.extras?.reference_hips)throw Error('No reference hips');for(const c of a.channels){const n=g.nodes[c.target.node].name;if(/Hips|Leg|Foot|Toe|Root/.test(n)||c.target.path!=='rotation')throw Error('Invalid upper layer');upperChannels++;}}
- report.characters[cid]={actions:rt.composition.length,sampledFrames:q.results.length,lowerTrackMismatches:q.lowerMismatch,runtimeLowerMismatches,maxLockedLeftContactErrorM:Math.max(...locked.map(x=>x.left)),maxRightContactErrorM:Math.max(...q.results.map(x=>x.right||0)),maxPoseDrift,upperRotationChannels:upperChannels,sourceActionCount:13,horizontalDerivedActionCount:4};
+ report.characters[cid]={actions:rt.composition.length,sampledFrames:q.results.length,lowerTrackMismatches:q.lowerMismatch,runtimeLowerMismatches,maxLockedLeftContactErrorM:Math.max(...locked.map(x=>x.left)),maxRightContactErrorM:Math.max(...q.results.filter(x=>x.visible && (x.rightSupportWeight ?? 1) === 1).map(x=>x.right||0)),maxPoseDrift,upperRotationChannels:upperChannels,sourceActionCount:13,horizontalDerivedActionCount:4};
 }
 console.log(JSON.stringify(report,null,2));
+}

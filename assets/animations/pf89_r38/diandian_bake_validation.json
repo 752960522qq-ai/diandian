@@ -1,0 +1,264 @@
+{
+  "blender": "4.3.2",
+  "character": "diandian",
+  "actions": 17,
+  "frames_checked": 51,
+  "max_joint_error_m": 1.083182206474915e-06,
+  "samples": [
+    {
+      "action": "RocketIdle",
+      "frame": 1,
+      "max_joint_error_m": 7.546816624462962e-07
+    },
+    {
+      "action": "RocketIdle",
+      "frame": 257.99999809265137,
+      "max_joint_error_m": 6.763633618823507e-07
+    },
+    {
+      "action": "RocketIdle",
+      "frame": 514.9999961853027,
+      "max_joint_error_m": 8.12866964855021e-07
+    },
+    {
+      "action": "RocketWalk",
+      "frame": 1,
+      "max_joint_error_m": 8.725771887276978e-07
+    },
+    {
+      "action": "RocketWalk",
+      "frame": 39.999998569488525,
+      "max_joint_error_m": 4.142951600092007e-07
+    },
+    {
+      "action": "RocketWalk",
+      "frame": 78.99999713897705,
+      "max_joint_error_m": 8.55487590694864e-07
+    },
+    {
+      "action": "RocketRun",
+      "frame": 1,
+      "max_joint_error_m": 7.22600696283237e-07
+    },
+    {
+      "action": "RocketRun",
+      "frame": 21.487805488632944,
+      "max_joint_error_m": 1.083182206474915e-06
+    },
+    {
+      "action": "RocketRun",
+      "frame": 41.000001192092896,
+      "max_joint_error_m": 6.912998632647764e-07
+    },
+    {
+      "action": "RocketAimLevel",
+      "frame": 1,
+      "max_joint_error_m": 7.73282691557951e-07
+    },
+    {
+      "action": "RocketAimLevel",
+      "frame": 93.99999713897705,
+      "max_joint_error_m": 7.471413097811744e-07
+    },
+    {
+      "action": "RocketAimLevel",
+      "frame": 186.9999942779541,
+      "max_joint_error_m": 5.983238373075083e-07
+    },
+    {
+      "action": "RocketFireLevel",
+      "frame": 1,
+      "max_joint_error_m": 6.712142008277898e-07
+    },
+    {
+      "action": "RocketFireLevel",
+      "frame": 49.494846083454256,
+      "max_joint_error_m": 6.8025065723141e-07
+    },
+    {
+      "action": "RocketFireLevel",
+      "frame": 97.00000143051147,
+      "max_joint_error_m": 6.398829982752767e-07
+    },
+    {
+      "action": "RocketRaiseLevel",
+      "frame": 1,
+      "max_joint_error_m": 7.546816624462962e-07
+    },
+    {
+      "action": "RocketRaiseLevel",
+      "frame": 42.493976144905545,
+      "max_joint_error_m": 8.543045886918285e-07
+    },
+    {
+      "action": "RocketRaiseLevel",
+      "frame": 83.00000047683716,
+      "max_joint_error_m": 8.975805823960538e-07
+    },
+    {
+      "action": "RocketRaiseInfiniteLevel",
+      "frame": 1,
+      "max_joint_error_m": 7.546816624462962e-07
+    },
+    {
+      "action": "RocketRaiseInfiniteLevel",
+      "frame": 35.999998807907104,
+      "max_joint_error_m": 8.441543984104192e-07
+    },
+    {
+      "action": "RocketRaiseInfiniteLevel",
+      "frame": 70.99999761581421,
+      "max_joint_error_m": 8.29862765483982e-07
+    },
+    {
+      "action": "RocketAimUp",
+      "frame": 1,
+      "max_joint_error_m": 6.948240656873143e-07
+    },
+    {
+      "action": "RocketAimUp",
+      "frame": 93.99999713897705,
+      "max_joint_error_m": 7.471413097811744e-07
+    },
+    {
+      "action": "RocketAimUp",
+      "frame": 186.9999942779541,
+      "max_joint_error_m": 9.53819824457997e-07
+    },
+    {
+      "action": "RocketFireUp",
+      "frame": 1,
+      "max_joint_error_m": 6.712142008277898e-07
+    },
+    {
+      "action": "RocketFireUp",
+      "frame": 48.494738528603,
+      "max_joint_error_m": 6.970574630022978e-07
+    },
+    {
+      "action": "RocketFireUp",
+      "frame": 95.00000333786011,
+      "max_joint_error_m": 6.546767130855822e-07
+    },
+    {
+      "action": "RocketRaiseUp",
+      "frame": 1,
+      "max_joint_error_m": 7.546816624462962e-07
+    },
+    {
+      "action": "RocketRaiseUp",
+      "frame": 42.493976144905545,
+      "max_joint_error_m": 8.543045886918285e-07
+    },
+    {
+      "action": "RocketRaiseUp",
+      "frame": 83.00000047683716,
+      "max_joint_error_m": 5.81712907174649e-07
+    },
+    {
+      "action": "RocketRaiseInfiniteUp",
+      "frame": 1,
+      "max_joint_error_m": 8.087913242049164e-07
+    },
+    {
+      "action": "RocketRaiseInfiniteUp",
+      "frame": 35.999998807907104,
+      "max_joint_error_m": 7.330402062087562e-07
+    },
+    {
+      "action": "RocketRaiseInfiniteUp",
+      "frame": 70.99999761581421,
+      "max_joint_error_m": 7.598131170262076e-07
+    },
+    {
+      "action": "RocketAimDown",
+      "frame": 1,
+      "max_joint_error_m": 8.771456869102381e-07
+    },
+    {
+      "action": "RocketAimDown",
+      "frame": 93.99999713897705,
+      "max_joint_error_m": 7.471413097811744e-07
+    },
+    {
+      "action": "RocketAimDown",
+      "frame": 186.9999942779541,
+      "max_joint_error_m": 8.069016624046718e-07
+    },
+    {
+      "action": "RocketFireDown",
+      "frame": 1,
+      "max_joint_error_m": 1.0494745121151759e-06
+    },
+    {
+      "action": "RocketFireDown",
+      "frame": 49.494846083454256,
+      "max_joint_error_m": 9.744037821454892e-07
+    },
+    {
+      "action": "RocketFireDown",
+      "frame": 97.00000143051147,
+      "max_joint_error_m": 6.367958540571212e-07
+    },
+    {
+      "action": "RocketRaiseDown",
+      "frame": 1,
+      "max_joint_error_m": 8.949366666742795e-07
+    },
+    {
+      "action": "RocketRaiseDown",
+      "frame": 42.493976144905545,
+      "max_joint_error_m": 8.543045886918285e-07
+    },
+    {
+      "action": "RocketRaiseDown",
+      "frame": 83.00000047683716,
+      "max_joint_error_m": 7.164964246851985e-07
+    },
+    {
+      "action": "RocketRaiseInfiniteDown",
+      "frame": 1,
+      "max_joint_error_m": 8.087913242049164e-07
+    },
+    {
+      "action": "RocketRaiseInfiniteDown",
+      "frame": 35.999998807907104,
+      "max_joint_error_m": 8.439899837080417e-07
+    },
+    {
+      "action": "RocketRaiseInfiniteDown",
+      "frame": 70.99999761581421,
+      "max_joint_error_m": 9.870824314164636e-07
+    },
+    {
+      "action": "RocketDraw",
+      "frame": 1,
+      "max_joint_error_m": 7.546816624462962e-07
+    },
+    {
+      "action": "RocketDraw",
+      "frame": 17.99999988079071,
+      "max_joint_error_m": 5.209549101118249e-07
+    },
+    {
+      "action": "RocketDraw",
+      "frame": 34.99999976158142,
+      "max_joint_error_m": 8.293938666627256e-07
+    },
+    {
+      "action": "RocketDiscard",
+      "frame": 1,
+      "max_joint_error_m": 7.546816624462962e-07
+    },
+    {
+      "action": "RocketDiscard",
+      "frame": 31,
+      "max_joint_error_m": 9.939912950506632e-07
+    },
+    {
+      "action": "RocketDiscard",
+      "frame": 61,
+      "max_joint_error_m": 5.817181258184653e-07
+    }
+  ]
+}

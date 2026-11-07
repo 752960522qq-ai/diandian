@@ -1,0 +1,286 @@
+{
+  "diandian": {
+    "unrelatedWeaponCases": 144,
+    "maxUnrelatedDifference": 0,
+    "actions": [
+      {
+        "motion": "RifleIdle",
+        "samples": 1029,
+        "maxLockedLeftErrorM": 9.314598989701745e-8,
+        "maxLockedRightErrorM": 8.515721701464543e-8,
+        "maxArmStepDegrees": 0.0005751013197255836,
+        "maxLeftWristBendDegrees": 26.922755635905446
+      },
+      {
+        "motion": "RifleWalk",
+        "samples": 157,
+        "maxLockedLeftErrorM": 7.226675202180518e-8,
+        "maxLockedRightErrorM": 7.947651585169142e-8,
+        "maxArmStepDegrees": 0.6300483496876254,
+        "maxLeftWristBendDegrees": 44.35291288233411
+      },
+      {
+        "motion": "RifleRun",
+        "samples": 82,
+        "maxLockedLeftErrorM": 7.856291211727036e-8,
+        "maxLockedRightErrorM": 9.758580561644116e-8,
+        "maxArmStepDegrees": 2.1204964650605085,
+        "maxLeftWristBendDegrees": 39.55341979769653
+      },
+      {
+        "motion": "RifleAimingIdle",
+        "samples": 373,
+        "maxLockedLeftErrorM": 1.2369666991572419e-7,
+        "maxLockedRightErrorM": 1.5934529865842925e-7,
+        "maxArmStepDegrees": 0.00005729832627056432,
+        "maxLeftWristBendDegrees": 30.73539990930545
+      },
+      {
+        "motion": "FiringRifle",
+        "samples": 194,
+        "maxLockedLeftErrorM": 9.049696278944774e-8,
+        "maxLockedRightErrorM": 1.200839005283886e-7,
+        "maxArmStepDegrees": 8.823263164280387,
+        "maxLeftWristBendDegrees": 32.91227337449096
+      },
+      {
+        "motion": "RocketRaiseLevel",
+        "samples": 166,
+        "maxLockedLeftErrorM": 8.782274447859158e-8,
+        "maxLockedRightErrorM": 1.1802153914212811e-7,
+        "maxArmStepDegrees": 6.523234315814844,
+        "maxLeftWristBendDegrees": 33.83666190851359
+      },
+      {
+        "motion": "RocketRaiseInfiniteLevel",
+        "samples": 141,
+        "maxLockedLeftErrorM": 8.859031436796342e-8,
+        "maxLockedRightErrorM": 1.282704172847128e-7,
+        "maxArmStepDegrees": 3.2823574712505525,
+        "maxLeftWristBendDegrees": 34.45906764258081
+      },
+      {
+        "motion": "RocketAimUp",
+        "samples": 373,
+        "maxLockedLeftErrorM": 4.803314595042358e-8,
+        "maxLockedRightErrorM": 1.7013704731468303e-7,
+        "maxArmStepDegrees": 0.00009971257467551855,
+        "maxLeftWristBendDegrees": 34.431341689618804
+      },
+      {
+        "motion": "RocketFireUp",
+        "samples": 190,
+        "maxLockedLeftErrorM": 0.0010180175273918257,
+        "maxLockedRightErrorM": 1.1949756459661934e-7,
+        "maxArmStepDegrees": 10.94405519728783,
+        "maxLeftWristBendDegrees": 34.19427646558199
+      },
+      {
+        "motion": "RocketRaiseUp",
+        "samples": 166,
+        "maxLockedLeftErrorM": 7.104860511606423e-8,
+        "maxLockedRightErrorM": 1.2546815287162106e-7,
+        "maxArmStepDegrees": 11.964892111359768,
+        "maxLeftWristBendDegrees": 37.60926032921364
+      },
+      {
+        "motion": "RocketRaiseInfiniteUp",
+        "samples": 141,
+        "maxLockedLeftErrorM": 8.336192555995278e-8,
+        "maxLockedRightErrorM": 1.1739491685217096e-7,
+        "maxArmStepDegrees": 3.405485678999467,
+        "maxLeftWristBendDegrees": 37.620341653625886
+      },
+      {
+        "motion": "RocketAimDown",
+        "samples": 373,
+        "maxLockedLeftErrorM": 9.658778401709581e-8,
+        "maxLockedRightErrorM": 7.678135709388584e-8,
+        "maxArmStepDegrees": 0.00010031022867296443,
+        "maxLeftWristBendDegrees": 29.683223135307266
+      },
+      {
+        "motion": "RocketFireDown",
+        "samples": 194,
+        "maxLockedLeftErrorM": 1.1906939713522679e-7,
+        "maxLockedRightErrorM": 1.2516391875009356e-7,
+        "maxArmStepDegrees": 13.393942553818734,
+        "maxLeftWristBendDegrees": 33.69466037429818
+      },
+      {
+        "motion": "RocketRaiseDown",
+        "samples": 166,
+        "maxLockedLeftErrorM": 7.499004638587391e-8,
+        "maxLockedRightErrorM": 8.798646921947804e-8,
+        "maxArmStepDegrees": 6.710628902820649,
+        "maxLeftWristBendDegrees": 32.94603349099383
+      },
+      {
+        "motion": "RocketRaiseInfiniteDown",
+        "samples": 141,
+        "maxLockedLeftErrorM": 1.0139362622810482e-7,
+        "maxLockedRightErrorM": 1.0620125308845404e-7,
+        "maxArmStepDegrees": 4.98304240460939,
+        "maxLeftWristBendDegrees": 36.89665494009214
+      },
+      {
+        "motion": "RocketDraw",
+        "samples": 69,
+        "maxLockedLeftErrorM": 7.048466125134028e-8,
+        "maxLockedRightErrorM": 7.082748834023811e-8,
+        "maxArmStepDegrees": 12.776953865998808,
+        "maxLeftWristBendDegrees": 27.16103695086062
+      },
+      {
+        "motion": "RocketDiscard",
+        "samples": 121,
+        "maxLockedLeftErrorM": 4.098293722201795e-8,
+        "maxLockedRightErrorM": 7.308607326299449e-8,
+        "maxArmStepDegrees": 18.231267707517645,
+        "maxLeftWristBendDegrees": 25.80948827108254
+      }
+    ]
+  },
+  "zhigeng": {
+    "unrelatedWeaponCases": 144,
+    "maxUnrelatedDifference": 0,
+    "actions": [
+      {
+        "motion": "RifleIdle",
+        "samples": 1029,
+        "maxLockedLeftErrorM": 8.45743364433849e-8,
+        "maxLockedRightErrorM": 6.229417449811199e-8,
+        "maxArmStepDegrees": 0.0003663554554671175,
+        "maxLeftWristBendDegrees": 26.233301437928738
+      },
+      {
+        "motion": "RifleWalk",
+        "samples": 157,
+        "maxLockedLeftErrorM": 9.188871006350356e-8,
+        "maxLockedRightErrorM": 8.484764226658806e-8,
+        "maxArmStepDegrees": 0.8497055544719754,
+        "maxLeftWristBendDegrees": 43.64282068477057
+      },
+      {
+        "motion": "RifleRun",
+        "samples": 82,
+        "maxLockedLeftErrorM": 7.899910215851266e-8,
+        "maxLockedRightErrorM": 6.463414264406234e-8,
+        "maxArmStepDegrees": 1.7655262260341,
+        "maxLeftWristBendDegrees": 38.84906596920245
+      },
+      {
+        "motion": "RifleAimingIdle",
+        "samples": 373,
+        "maxLockedLeftErrorM": 4.209454289789169e-8,
+        "maxLockedRightErrorM": 7.84577279182521e-8,
+        "maxArmStepDegrees": 0.00013310109348265345,
+        "maxLeftWristBendDegrees": 34.40150218642782
+      },
+      {
+        "motion": "FiringRifle",
+        "samples": 194,
+        "maxLockedLeftErrorM": 1.0678810123321398e-7,
+        "maxLockedRightErrorM": 8.057067856780648e-8,
+        "maxArmStepDegrees": 4.012935847716514,
+        "maxLeftWristBendDegrees": 38.32351088035896
+      },
+      {
+        "motion": "RocketRaiseLevel",
+        "samples": 166,
+        "maxLockedLeftErrorM": 6.501960461408229e-8,
+        "maxLockedRightErrorM": 7.74042798407798e-8,
+        "maxArmStepDegrees": 5.924386411584963,
+        "maxLeftWristBendDegrees": 35.50972418019144
+      },
+      {
+        "motion": "RocketRaiseInfiniteLevel",
+        "samples": 141,
+        "maxLockedLeftErrorM": 1.0424056033245066e-7,
+        "maxLockedRightErrorM": 1.1949241708516662e-7,
+        "maxArmStepDegrees": 3.1974109793568486,
+        "maxLeftWristBendDegrees": 35.525016053274676
+      },
+      {
+        "motion": "RocketAimUp",
+        "samples": 373,
+        "maxLockedLeftErrorM": 7.360818875712568e-8,
+        "maxLockedRightErrorM": 8.76945852359367e-8,
+        "maxArmStepDegrees": 0.00014698798785262377,
+        "maxLeftWristBendDegrees": 39.57478741280899
+      },
+      {
+        "motion": "RocketFireUp",
+        "samples": 190,
+        "maxLockedLeftErrorM": 1.3104111186798952e-7,
+        "maxLockedRightErrorM": 8.641116749927637e-8,
+        "maxArmStepDegrees": 6.2630106300658195,
+        "maxLeftWristBendDegrees": 39.78924703060562
+      },
+      {
+        "motion": "RocketRaiseUp",
+        "samples": 166,
+        "maxLockedLeftErrorM": 8.16494448430503e-8,
+        "maxLockedRightErrorM": 6.199934810613033e-8,
+        "maxArmStepDegrees": 12.620182765227831,
+        "maxLeftWristBendDegrees": 40.869196386915284
+      },
+      {
+        "motion": "RocketRaiseInfiniteUp",
+        "samples": 141,
+        "maxLockedLeftErrorM": 1.1635560882980704e-7,
+        "maxLockedRightErrorM": 1.2487030882455442e-7,
+        "maxArmStepDegrees": 3.357938934691484,
+        "maxLeftWristBendDegrees": 40.848284848177194
+      },
+      {
+        "motion": "RocketAimDown",
+        "samples": 373,
+        "maxLockedLeftErrorM": 5.202766099762617e-8,
+        "maxLockedRightErrorM": 1.2523475215722432e-7,
+        "maxArmStepDegrees": 0.00016696459944075373,
+        "maxLeftWristBendDegrees": 31.35156515543032
+      },
+      {
+        "motion": "RocketFireDown",
+        "samples": 194,
+        "maxLockedLeftErrorM": 1.1710363799095537e-7,
+        "maxLockedRightErrorM": 1.1441118391060388e-7,
+        "maxArmStepDegrees": 5.959394506498559,
+        "maxLeftWristBendDegrees": 38.89800371108282
+      },
+      {
+        "motion": "RocketRaiseDown",
+        "samples": 166,
+        "maxLockedLeftErrorM": 6.807217234710354e-8,
+        "maxLockedRightErrorM": 1.2602485751677618e-7,
+        "maxArmStepDegrees": 6.187463155906805,
+        "maxLeftWristBendDegrees": 32.99237307340066
+      },
+      {
+        "motion": "RocketRaiseInfiniteDown",
+        "samples": 141,
+        "maxLockedLeftErrorM": 1.3294813636217239e-7,
+        "maxLockedRightErrorM": 1.5813816555078198e-7,
+        "maxArmStepDegrees": 3.3715992673893167,
+        "maxLeftWristBendDegrees": 35.63038397372814
+      },
+      {
+        "motion": "RocketDraw",
+        "samples": 69,
+        "maxLockedLeftErrorM": 3.024922811732276e-8,
+        "maxLockedRightErrorM": 4.628780926087564e-8,
+        "maxArmStepDegrees": 14.050736130013583,
+        "maxLeftWristBendDegrees": 26.429621585644824
+      },
+      {
+        "motion": "RocketDiscard",
+        "samples": 121,
+        "maxLockedLeftErrorM": 2.9355875329245086e-8,
+        "maxLockedRightErrorM": 9.325345235229765e-8,
+        "maxArmStepDegrees": 17.088969701229992,
+        "maxLeftWristBendDegrees": 31.23493749242045
+      }
+    ]
+  }
+}

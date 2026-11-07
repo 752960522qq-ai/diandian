@@ -1,0 +1,32 @@
+{
+  "characters": {
+    "diandian": {
+      "actions": 17,
+      "sampledFrames": 527,
+      "lowerTrackMismatches": 0,
+      "runtimeLowerMismatches": 0,
+      "maxLockedLeftContactErrorM": 1.2369666991572419e-7,
+      "maxRightContactErrorM": 1.7013704731468303e-7,
+      "maxPoseDrift": 0,
+      "upperRotationChannels": 901,
+      "sourceActionCount": 13,
+      "horizontalDerivedActionCount": 4
+    },
+    "zhigeng": {
+      "actions": 17,
+      "sampledFrames": 527,
+      "lowerTrackMismatches": 0,
+      "runtimeLowerMismatches": 0,
+      "maxLockedLeftContactErrorM": 1.228252686660595e-7,
+      "maxRightContactErrorM": 1.4436491316009871e-7,
+      "maxPoseDrift": 0,
+      "upperRotationChannels": 901,
+      "sourceActionCount": 13,
+      "horizontalDerivedActionCount": 4
+    }
+  },
+  "browserQA": {
+    "performed": false,
+    "reason": "CPU validation only; this script does not launch a browser."
+  }
+}

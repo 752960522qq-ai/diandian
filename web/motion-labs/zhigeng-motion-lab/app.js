@@ -1,9 +1,9 @@
 import * as THREE from 'three';
-import { installRocketMotions, rocketMotions, rocketLabels } from './rocket-motion.js?v=pf89-r37';
+import { installRocketMotions, rocketMotions, rocketLabels } from './rocket-motion.js?v=pf89-r38';
 import { installType97Motions } from './type97-motion.js?v=grip-r31';
 import { GLTFLoader } from './vendor/GLTFLoader.js';
 import { OrbitControls } from './vendor/OrbitControls.js';
-import { WeaponAttachment } from './weapon-attachment.js?v=pf89-r37';
+import { WeaponAttachment } from './weapon-attachment.js?v=pf89-r38';
 import { PonytailPhysics } from './ponytail-physics.js';
 
 const $ = (selector) => document.querySelector(selector);
@@ -326,7 +326,7 @@ function selectWeapon(id, switchMotion = true) {
 }
 
 async function equipWeapons() {
-  const config = await fetch('./assets/weapon_attachment.json?v=pf89-r37').then(r => r.json());
+  const config = await fetch('./assets/weapon_attachment.json?v=pf89-r38').then(r => r.json());
   weaponConfig = config;
   const scenes = new Map(await Promise.all(Object.keys(config.weapons).map(async id => {
     const gltf = await loader.loadAsync('./assets/weapons/' + id + '.glb?v=clothing-r23');

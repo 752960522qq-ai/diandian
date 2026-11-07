@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import { rocketMotions, rocketSupportWeight, rocketCarryOffset } from './rocket-motion.js?v=pf89-r37';
+import { rocketMotions, rocketSupportWeight, rocketCarryWeight, applyRocketPosePath, fitRocketCarryReach } from './rocket-motion.js?v=pf89-r38';
 import { ChestSkinningRelief } from './chest-skinning.js?v=grip-r31';
 import { refineC96Rotation } from './c96-dynamics.js?v=clothing-r23';
 import { prepareC96ReloadPose, applyC96ReloadSupport } from './c96-reload.js?v=clothing-r23';
@@ -302,12 +302,13 @@ export class WeaponAttachment {
     this.motion = motion;
     if (PISTOL_MOTIONS.has(motion) && this.config.weapons[this.selectedWeapon].type !== 'pistol') this.selectedWeapon = this.lastPistol;
     else if (RIFLE_MOTIONS.has(motion) && this.config.weapons[this.selectedWeapon].type === 'pistol' && !this.config.weapons[this.selectedWeapon].compatible_motions?.includes(motion)) this.selectedWeapon = this.lastRifle;
-    const visible = this.model.wrapper.visible && ARMED_MOTIONS.has(motion) && !(this.selectedWeapon === 'pf89' && motion === 'RocketDiscard' && time >= .34);
+    const visible = this.model.wrapper.visible && ARMED_MOTIONS.has(motion) && !(this.selectedWeapon === 'pf89' && ((motion === 'RocketDiscard' && time >= .34) || (motion === 'RocketDraw' && time < .12)));
     for (const [id, root] of this.weapons) root.visible = visible && id === this.selectedWeapon;
     this.state = {visible, selectedWeapon:this.selectedWeapon, motion, time, actualClip:this.config.weapons[this.selectedWeapon].animation_overrides?.[motion] || motion, handScale, leftContactErrorM:0, rightContactErrorM:0, shoulderAssistDegrees:0, triggerContactErrorM:null};
     this.chestSkinning.setEnabled(visible && ['RifleIdle', 'RifleWalk'].includes(motion) && !['pistol','rocket'].includes(this.config.weapons[this.selectedWeapon].type));
     this.state.chestReliefActive = this.chestSkinning.enabled;
-    if (!visible) return;
+    const hiddenRocketTransition = this.selectedWeapon === "pf89" && ["RocketDraw","RocketDiscard"].includes(motion);
+    if (!visible && !hiddenRocketTransition) return;
 
     const id = this.selectedWeapon;
     const data = this.config.weapons[id];
@@ -315,8 +316,13 @@ export class WeaponAttachment {
     if (id === 'pf89') {
       mount.support_pose_weight = rocketSupportWeight(motion,time);
       mount.release_support_hand = mount.support_pose_weight === 0;
-      mount.weapon_offset_body_m = [.015,0,rocketCarryOffset(motion,time)];
+      const carryWeight = rocketCarryWeight(motion,time);
+      mount.weapon_offset_body_m = vector(mount.weapon_offset_body_m).lerp(vector(mount.carry_offset_body_m),carryWeight).toArray();
       this.state.supportWeight = mount.support_pose_weight;
+      mount.right_pose_weight = motion === 'RocketDraw' ? THREE.MathUtils.smoothstep(time,0,.12)
+        : motion === 'RocketDiscard' ? 1-THREE.MathUtils.smoothstep(time,.34,.65) : 1;
+      mount.right_finger_pose_weight *= mount.right_pose_weight;
+      this.state.rightSupportWeight = mount.right_pose_weight;
     }
     // The authored shotgun clips have their own hand-to-gun calibration.
     const actualClip = animation.activeClips?.find(c => c.weight > 0)?.name || this.state.actualClip;
@@ -360,6 +366,10 @@ export class WeaponAttachment {
       gun.position.addScaledVector(right, displacement.x).addScaledVector(up, displacement.y).addScaledVector(front, displacement.z);
     }
     if (mount.weapon_offset_weapon_m) gun.position.add(vector(mount.weapon_offset_weapon_m).multiplyScalar(modelScale).applyQuaternion(gunRotation));
+    if (id === 'pf89') {
+      applyRocketPosePath(this, gun, gunRotation, motion, time, mount);
+      fitRocketCarryReach(this, gun, gunRotation, mount, motion, handScale);
+    }
     if (id === 'c96' && motion === 'Reloading') prepareC96ReloadPose(this, gun, gunRotation, mount, time);
     gun.updateMatrixWorld(true);
     if (mount.right_hand_quaternion_weapon || mount.right_hand_shift_weapon_m) {
@@ -372,7 +382,7 @@ export class WeaponAttachment {
       const elbowHint = mount.right_elbow_hint_weapon_m
         ? wristTarget.clone().add(vector(mount.right_elbow_hint_weapon_m).multiplyScalar(modelScale).applyQuaternion(gunRotation))
         : null;
-      this.solveArm('Right', wristTarget, rotation, 1,
+      this.solveArm('Right', wristTarget, rotation, mount.right_pose_weight ?? 1,
         mount.right_elbow_lift_ratio ?? null, mount.right_forearm_twist_weight ?? 0,
         mount.right_forearm_twist_reference_degrees ?? 0, mount.right_upper_arm_twist_weight ?? .75,
         mount.right_elbow_from_hand_weight ?? 0, mount.right_elbow_outward_weight ?? 0, 0, mount.right_elbow_offset_body_m, elbowHint);

@@ -54,17 +54,64 @@ export function installRocketMotions(model) {
 // A deterministic preview-only release: it can be sought directly and resets
 // when switching weapons/actions. It is not original game event timing.
 export function rocketSupportWeight(motion,time) {
-  if (motion==='RocketDiscard') return 1-THREE.MathUtils.smoothstep(time,.10,.28);
+  if (motion==='RocketDiscard') return 1-THREE.MathUtils.smoothstep(time,0,.10);
   if (motion==='RocketDraw') return THREE.MathUtils.smoothstep(time,.30,.55);
   if (motion.startsWith('RocketRaise') && !motion.includes('Infinite')) return THREE.MathUtils.smoothstep(time,.30,.55);
   return 1;
 }
 
-// PF89's pistol grip is farther forward than the source launcher grip. Bring
-// the carry pose slightly toward the torso so the support elbow can still bend.
-export function rocketCarryOffset(motion,time) {
-  if (['RifleIdle','RifleWalk','RifleRun'].includes(motion)) return -.12;
-  if (motion.startsWith('RocketRaise')) return -.12*(1-THREE.MathUtils.smoothstep(time,.25,.65));
-  if (motion==='RocketDraw') return -.12*THREE.MathUtils.smoothstep(time,.35,.55);
+export function rocketCarryWeight(motion,time) {
+  if (["RifleIdle","RifleWalk","RifleRun"].includes(motion)) return 1;
+  if (motion.startsWith("RocketRaise")) return 1-THREE.MathUtils.smoothstep(time,.25,.65);
+  if (motion === "RocketDraw") return THREE.MathUtils.smoothstep(time,.35,.55);
   return 0;
+}
+
+// The guide curves are authored in Blender in the chest frame, so the tube
+// sweeps outside the body while the original torso and leg animation continues.
+export function applyRocketPosePath(attachment, gun, gunRotation, motion, time, mount) {
+  if ((!motion.startsWith('RocketRaise') && motion !== 'RocketDraw') || !mount.raise_paths) return;
+  const side = motion.endsWith('Up') ? 'up' : motion.endsWith('Down') ? 'down' : 'level';
+  const path = mount.raise_paths[side];
+  const drawing = motion === 'RocketDraw';
+  const u = drawing ? 0 : THREE.MathUtils.clamp(time / .85, 0, 1);
+  const f = u * (path.length - 1), i = Math.floor(f), j = Math.min(i + 1, path.length - 1);
+  const p = new THREE.Vector3().fromArray(path[i].position).lerp(new THREE.Vector3().fromArray(path[j].position), f-i);
+  const q = new THREE.Quaternion().fromArray(path[i].quaternion).slerp(new THREE.Quaternion().fromArray(path[j].quaternion), f-i);
+  const chest = attachment.bones.Spine2, rotation = chest.getWorldQuaternion(new THREE.Quaternion());
+  gun.position.copy(p.applyQuaternion(rotation).add(chest.getWorldPosition(new THREE.Vector3())));
+  const right = attachment.bones.RightArm.getWorldPosition(new THREE.Vector3()).sub(attachment.bones.LeftArm.getWorldPosition(new THREE.Vector3())).normalize();
+  gun.position.addScaledVector(right, .075 * Math.sin(Math.PI*u));
+  if (drawing) {
+    gun.position.addScaledVector(right, .05 * (1-THREE.MathUtils.smoothstep(time,.35,.55)));
+    const up = attachment.bones.Spine2.getWorldPosition(new THREE.Vector3()).sub(attachment.model.bones.get('mixamorig:Hips').getWorldPosition(new THREE.Vector3())).normalize();
+    gun.position.addScaledVector(up, -.06 * (1-THREE.MathUtils.smoothstep(time,0,.55)));
+  }
+  gunRotation.copy(rotation.multiply(q)).normalize();
+  gun.quaternion.copy(gunRotation);
+}
+
+// Keep a little elbow bend through the rifle gait. Lift the carried tube when
+// the lower-body cycle would put the support wrist outside the arm's reach.
+export function fitRocketCarryReach(attachment, gun, gunRotation, mount, motion, handScale) {
+  if (!['RifleIdle','RifleWalk','RifleRun','RocketDraw'].includes(motion)) return;
+  if ((mount.support_pose_weight ?? 1) <= 0) return;
+  const bones = attachment.bones;
+  const shoulder = bones.LeftArm.getWorldPosition(new THREE.Vector3());
+  const elbow = bones.LeftForeArm.getWorldPosition(new THREE.Vector3());
+  const hand = bones.LeftHand.getWorldPosition(new THREE.Vector3());
+  const reach = .94 * (shoulder.distanceTo(elbow) + elbow.distanceTo(hand));
+  const rotation = gunRotation.clone().multiply(new THREE.Quaternion().fromArray(mount.left_hand_quaternion_weapon));
+  const scale = attachment.model.wrapper.getWorldScale(new THREE.Vector3()).x * handScale;
+  const wrist = new THREE.Vector3().fromArray(mount.left_grip).applyQuaternion(gunRotation).add(gun.position)
+    .sub(new THREE.Vector3().fromArray(mount.left_palm_offset_native).multiplyScalar(scale).applyQuaternion(rotation));
+  const delta = wrist.sub(shoulder), excess = delta.lengthSq() - reach*reach;
+  if (excess <= 0) return;
+  const up = bones.Spine2.getWorldPosition(new THREE.Vector3()).sub(attachment.model.bones.get('mixamorig:Hips').getWorldPosition(new THREE.Vector3())).normalize();
+  const vertical = delta.dot(up), discriminant = vertical*vertical-excess;
+  if (vertical < 0 && discriminant >= 0) {
+    const lift = Math.min(.12, -vertical-Math.sqrt(discriminant));
+    gun.position.addScaledVector(up,lift * THREE.MathUtils.smoothstep(mount.support_pose_weight ?? 1,0,1));
+    attachment.state.carryLiftM = lift;
+  }
 }

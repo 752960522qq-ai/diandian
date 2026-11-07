@@ -1,0 +1,37 @@
+{
+  "revision": 38,
+  "github_pushed": false,
+  "sites_source_pushed": true,
+  "deployments": [
+    {
+      "id": "appgdep_6aef10b279d48191b2116308a18586f3",
+      "project_id": "appgprj_6ae75a729d0481919ec16ab35d702896",
+      "title": "点点 · 动作校准室",
+      "version_id": "appgprj_6ae75a729d0481919ec16ab35d702896~appgver_b21c641b77ec81919dfd24b75cec9eb0",
+      "type": "publish",
+      "status": "succeeded",
+      "url": "https://diandian-classic-motion-lab.expert-eagle-6942.chatgpt.site",
+      "has_mcp": false,
+      "screenshot_asset_pointer": null,
+      "provider_deployment_id": "site---6ae75a729d0481919ec16ab35d702896",
+      "failure_message": null,
+      "env_set_revision": 0,
+      "updated_at": "2026-11-07T11:51:36.825710+00:00"
+    },
+    {
+      "id": "appgdep_6aef10ebf5c4819182bba6a8deff5895",
+      "project_id": "appgprj_6ae8624b35f881918d161516efa53f28",
+      "title": "知更 · 动作与面部校准室",
+      "version_id": "appgprj_6ae8624b35f881918d161516efa53f28~appgver_53e2d3585bf08191a7b69014d9dfb55f",
+      "type": "publish",
+      "status": "succeeded",
+      "url": "https://zhigeng-motion-lab.expert-eagle-6942.chatgpt.site",
+      "has_mcp": false,
+      "screenshot_asset_pointer": null,
+      "provider_deployment_id": "site---6ae8624b35f881918d161516efa53f28",
+      "failure_message": null,
+      "env_set_revision": 0,
+      "updated_at": "2026-11-07T11:52:32.660733+00:00"
+    }
+  ]
+}
