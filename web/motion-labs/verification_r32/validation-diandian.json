@@ -1,0 +1,1824 @@
+{
+  "character": "diandian",
+  "revision": 32,
+  "passed": true,
+  "totalFrames": 2460,
+  "cycles": [
+    {
+      "weapon": "qcq171",
+      "motion": "RifleIdle",
+      "frames": 515,
+      "finite": true,
+      "maxStepDegrees": 0.18074951098827952,
+      "leftContactM": 5.328533771415133e-8,
+      "rightContactM": 4.607681082029428e-8,
+      "leftWristDegrees": 7.701911453980857,
+      "rightWristDegrees": 3.3818964036864956,
+      "lengthDriftM": 8.94741669088539e-8,
+      "gripDriftM": 9.593131370456321e-8,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleWalk",
+      "frames": 79,
+      "finite": true,
+      "maxStepDegrees": 0.9765229798349053,
+      "leftContactM": 5.190790701913224e-8,
+      "rightContactM": 6.662377181238545e-8,
+      "leftWristDegrees": 8.841806813395964,
+      "rightWristDegrees": 11.204034385629196,
+      "lengthDriftM": 5.5752106542517055e-8,
+      "gripDriftM": 2.8817138440180093e-8,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleRun",
+      "frames": 42,
+      "finite": true,
+      "maxStepDegrees": 4.383260873408635,
+      "leftContactM": 9.354896864542312e-8,
+      "rightContactM": 8.097022552781934e-8,
+      "leftWristDegrees": 17.239537430708353,
+      "rightWristDegrees": 29.92232070180756,
+      "lengthDriftM": 2.0280266532779478e-7,
+      "gripDriftM": 2.2397625494876943e-7,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleAimingIdle",
+      "frames": 187,
+      "finite": true,
+      "maxStepDegrees": 0.06453000704309644,
+      "leftContactM": 1.1895647242470869e-7,
+      "rightContactM": 7.648349371538014e-8,
+      "leftWristDegrees": 36.49980843021508,
+      "rightWristDegrees": 11.718783955086016,
+      "lengthDriftM": 1.6653648537978682e-7,
+      "gripDriftM": 2.133015608744519e-7,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "FiringRifle",
+      "frames": 18,
+      "finite": true,
+      "maxStepDegrees": 1.2019153120241424,
+      "leftContactM": 1.1927769083826516e-7,
+      "rightContactM": 6.692490684579273e-8,
+      "leftWristDegrees": 38.166700320192795,
+      "rightWristDegrees": 11.535573332576071,
+      "lengthDriftM": 1.9390102340421933e-7,
+      "gripDriftM": 1.3446194942370685e-7,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleIdle",
+      "frames": 515,
+      "finite": true,
+      "maxStepDegrees": 0.18383102238233967,
+      "leftContactM": 7.921748859160279e-8,
+      "rightContactM": 5.20609139304229e-8,
+      "leftWristDegrees": 18.330050623251953,
+      "rightWristDegrees": 33.32023954059629,
+      "lengthDriftM": 9.174274689938144e-8,
+      "gripDriftM": 8.170023293257932e-8,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleWalk",
+      "frames": 79,
+      "finite": true,
+      "maxStepDegrees": 0.7783624290124682,
+      "leftContactM": 7.095858744296176e-8,
+      "rightContactM": 7.324739567961266e-8,
+      "leftWristDegrees": 6.784669292312567,
+      "rightWristDegrees": 35.94899530016454,
+      "lengthDriftM": 5.493090443620119e-8,
+      "gripDriftM": 2.7499881950307886e-8,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleRun",
+      "frames": 42,
+      "finite": true,
+      "maxStepDegrees": 3.2468422761167233,
+      "leftContactM": 4.2555484135395154e-8,
+      "rightContactM": 1.23775187233835e-7,
+      "leftWristDegrees": 40.54580225838154,
+      "rightWristDegrees": 40.1628989785321,
+      "lengthDriftM": 1.9468506379238804e-7,
+      "gripDriftM": 2.3732439121279302e-7,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleAimingIdle",
+      "frames": 187,
+      "finite": true,
+      "maxStepDegrees": 0.08126629258511137,
+      "leftContactM": 3.256455228764471e-7,
+      "rightContactM": 6.240637090937592e-8,
+      "leftWristDegrees": 50.376912976614975,
+      "rightWristDegrees": 40.987195887463606,
+      "lengthDriftM": 1.5827778743204846e-7,
+      "gripDriftM": 3.948801041514754e-7,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "FiringRifle",
+      "frames": 18,
+      "finite": true,
+      "maxStepDegrees": 1.8111590014253698,
+      "leftContactM": 2.0013127662603128e-7,
+      "rightContactM": 3.954920409675841e-8,
+      "leftWristDegrees": 51.27767240679712,
+      "rightWristDegrees": 42.113484351214524,
+      "lengthDriftM": 1.8170461485444989e-7,
+      "gripDriftM": 2.2513300364206613e-7,
+      "pass": true
+    },
+    {
+      "weapon": "hanyang88",
+      "motion": "RifleIdle",
+      "frames": 463,
+      "finite": true,
+      "maxStepDegrees": 0.49866060229670695,
+      "leftContactM": 6.071239043507663e-8,
+      "rightContactM": 4.1511382105365786e-8,
+      "leftWristDegrees": 22.408363234796983,
+      "rightWristDegrees": 19.7220291994892,
+      "lengthDriftM": 8.494250824941929e-8,
+      "gripDriftM": 6.696397324245998e-8,
+      "pass": true
+    },
+    {
+      "weapon": "hanyang88",
+      "motion": "RifleWalk",
+      "frames": 68,
+      "finite": true,
+      "maxStepDegrees": 0.42046002133384675,
+      "leftContactM": 8.851905481421009e-8,
+      "rightContactM": 4.1999063627572496e-8,
+      "leftWristDegrees": 19.851436162470517,
+      "rightWristDegrees": 17.57353583578062,
+      "lengthDriftM": 6.938352126173442e-8,
+      "gripDriftM": 4.1662794923090895e-8,
+      "pass": true
+    },
+    {
+      "weapon": "hanyang88",
+      "motion": "RifleRun",
+      "frames": 42,
+      "finite": true,
+      "maxStepDegrees": 3.8647818244362684,
+      "leftContactM": 7.809914864384508e-8,
+      "rightContactM": 9.38896830128417e-8,
+      "leftWristDegrees": 10.089852334725627,
+      "rightWristDegrees": 52.88926963424442,
+      "lengthDriftM": 1.9586895516621183e-7,
+      "gripDriftM": 1.2288676106690656e-7,
+      "pass": true
+    },
+    {
+      "weapon": "hanyang88",
+      "motion": "RifleAimingIdle",
+      "frames": 187,
+      "finite": true,
+      "maxStepDegrees": 0.06062476283405734,
+      "leftContactM": 2.3702308341752443e-7,
+      "rightContactM": 7.594733041964256e-8,
+      "leftWristDegrees": 35.82876558960084,
+      "rightWristDegrees": 41.7275118997741,
+      "lengthDriftM": 1.4478821525054641e-7,
+      "gripDriftM": 1.3990180940846433e-7,
+      "pass": true
+    },
+    {
+      "weapon": "hanyang88",
+      "motion": "FiringRifle",
+      "frames": 18,
+      "finite": true,
+      "maxStepDegrees": 1.308751191269657,
+      "leftContactM": 1.3239259222508947e-7,
+      "rightContactM": 6.708337311372611e-8,
+      "leftWristDegrees": 38.190352786467294,
+      "rightWristDegrees": 41.66170466663365,
+      "lengthDriftM": 1.5688421001192054e-7,
+      "gripDriftM": 2.431820830584941e-7,
+      "pass": true
+    }
+  ],
+  "regression": [
+    {
+      "weapon": "qsz92",
+      "motion": "PistolIdle",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qsz92",
+      "motion": "PistolIdle",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qsz92",
+      "motion": "PistolIdle",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qsz92",
+      "motion": "PistolWalk",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qsz92",
+      "motion": "PistolWalk",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qsz92",
+      "motion": "PistolWalk",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qsz92",
+      "motion": "PistolAimingIdle",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qsz92",
+      "motion": "PistolAimingIdle",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qsz92",
+      "motion": "PistolAimingIdle",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleIdle",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleIdle",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleIdle",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleWalk",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleWalk",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleWalk",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleRun",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleRun",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleRun",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleAimingIdle",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 9.892329569244351e-7,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleAimingIdle",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 8.352907355652084e-7,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleAimingIdle",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 8.10978964496667e-7,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "FiringRifle",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 2.843238401661896e-7,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "FiringRifle",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 2.532314784531309e-7,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "FiringRifle",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 2.419532627306875e-7,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "Reloading",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "Reloading",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "Reloading",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "RifleIdle",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "RifleIdle",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "RifleIdle",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "RifleWalk",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "RifleWalk",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "RifleWalk",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "RifleRun",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "RifleRun",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "RifleRun",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "RifleAimingIdle",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "RifleAimingIdle",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "RifleAimingIdle",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "FiringRifle",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "FiringRifle",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "FiringRifle",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "Reloading",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "Reloading",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "Reloading",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "hanyang88",
+      "motion": "RifleIdle",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "hanyang88",
+      "motion": "RifleIdle",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "hanyang88",
+      "motion": "RifleIdle",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "hanyang88",
+      "motion": "RifleWalk",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "hanyang88",
+      "motion": "RifleWalk",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "hanyang88",
+      "motion": "RifleWalk",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "hanyang88",
+      "motion": "RifleRun",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "hanyang88",
+      "motion": "RifleRun",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "hanyang88",
+      "motion": "RifleRun",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "hanyang88",
+      "motion": "RifleAimingIdle",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "hanyang88",
+      "motion": "RifleAimingIdle",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "hanyang88",
+      "motion": "RifleAimingIdle",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "hanyang88",
+      "motion": "FiringRifle",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "hanyang88",
+      "motion": "FiringRifle",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "hanyang88",
+      "motion": "FiringRifle",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "hanyang88",
+      "motion": "Reloading",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "hanyang88",
+      "motion": "Reloading",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "hanyang88",
+      "motion": "Reloading",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type54",
+      "motion": "PistolIdle",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type54",
+      "motion": "PistolIdle",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type54",
+      "motion": "PistolIdle",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type54",
+      "motion": "PistolWalk",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type54",
+      "motion": "PistolWalk",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type54",
+      "motion": "PistolWalk",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type54",
+      "motion": "PistolAimingIdle",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type54",
+      "motion": "PistolAimingIdle",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type54",
+      "motion": "PistolAimingIdle",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "RifleIdle",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "RifleIdle",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "RifleIdle",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "RifleWalk",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "RifleWalk",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "RifleWalk",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "RifleRun",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "RifleRun",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "RifleRun",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "RifleAimingIdle",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "RifleAimingIdle",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "RifleAimingIdle",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "FiringRifle",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "FiringRifle",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "FiringRifle",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "Reloading",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "Reloading",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "Reloading",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "c96",
+      "motion": "RifleIdle",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "c96",
+      "motion": "RifleIdle",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "c96",
+      "motion": "RifleIdle",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "c96",
+      "motion": "RifleWalk",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "c96",
+      "motion": "RifleWalk",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "c96",
+      "motion": "RifleWalk",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "c96",
+      "motion": "RifleRun",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "c96",
+      "motion": "RifleRun",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "c96",
+      "motion": "RifleRun",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "c96",
+      "motion": "RifleAimingIdle",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "c96",
+      "motion": "RifleAimingIdle",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "c96",
+      "motion": "RifleAimingIdle",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "c96",
+      "motion": "FiringRifle",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "c96",
+      "motion": "FiringRifle",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "c96",
+      "motion": "FiringRifle",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "c96",
+      "motion": "Reloading",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "c96",
+      "motion": "Reloading",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "c96",
+      "motion": "Reloading",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "winchester1897",
+      "motion": "RifleIdle",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "winchester1897",
+      "motion": "RifleIdle",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "winchester1897",
+      "motion": "RifleIdle",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "winchester1897",
+      "motion": "RifleWalk",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "winchester1897",
+      "motion": "RifleWalk",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "winchester1897",
+      "motion": "RifleWalk",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "winchester1897",
+      "motion": "RifleRun",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "winchester1897",
+      "motion": "RifleRun",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "winchester1897",
+      "motion": "RifleRun",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "winchester1897",
+      "motion": "RifleAimingIdle",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "winchester1897",
+      "motion": "RifleAimingIdle",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "winchester1897",
+      "motion": "RifleAimingIdle",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "winchester1897",
+      "motion": "FiringRifle",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "winchester1897",
+      "motion": "FiringRifle",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "winchester1897",
+      "motion": "FiringRifle",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "winchester1897",
+      "motion": "Reloading",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "winchester1897",
+      "motion": "Reloading",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "winchester1897",
+      "motion": "Reloading",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "winchester1897",
+      "motion": "ShotgunPump",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "winchester1897",
+      "motion": "ShotgunPump",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "winchester1897",
+      "motion": "ShotgunPump",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleIdle",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleIdle",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleIdle",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleWalk",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleWalk",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleWalk",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleRun",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleRun",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleRun",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleAimingIdle",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleAimingIdle",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleAimingIdle",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "FiringRifle",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "FiringRifle",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "FiringRifle",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "Reloading",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "Reloading",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "Reloading",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "RifleIdle",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "RifleIdle",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "RifleIdle",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "RifleWalk",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "RifleWalk",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "RifleWalk",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "RifleRun",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "RifleRun",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "RifleRun",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "RifleAimingIdle",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "RifleAimingIdle",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "RifleAimingIdle",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "FiringRifle",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "FiringRifle",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "FiringRifle",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "Reloading",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "Reloading",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "Reloading",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "ShotgunPump",
+      "fraction": 0,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "ShotgunPump",
+      "fraction": 0.37,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "ShotgunPump",
+      "fraction": 0.79,
+      "boneDelta": 0,
+      "gunDelta": 0,
+      "handDelta": 0,
+      "pass": true
+    }
+  ],
+  "repeats": [
+    {
+      "weapon": "qcq171",
+      "motion": "RifleIdle",
+      "maximum": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleWalk",
+      "maximum": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleRun",
+      "maximum": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleAimingIdle",
+      "maximum": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "FiringRifle",
+      "maximum": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleIdle",
+      "maximum": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleWalk",
+      "maximum": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleRun",
+      "maximum": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleAimingIdle",
+      "maximum": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "FiringRifle",
+      "maximum": 0,
+      "pass": true
+    },
+    {
+      "weapon": "hanyang88",
+      "motion": "RifleIdle",
+      "maximum": 0,
+      "pass": true
+    },
+    {
+      "weapon": "hanyang88",
+      "motion": "RifleWalk",
+      "maximum": 0,
+      "pass": true
+    },
+    {
+      "weapon": "hanyang88",
+      "motion": "RifleRun",
+      "maximum": 0,
+      "pass": true
+    },
+    {
+      "weapon": "hanyang88",
+      "motion": "RifleAimingIdle",
+      "maximum": 0,
+      "pass": true
+    },
+    {
+      "weapon": "hanyang88",
+      "motion": "FiringRifle",
+      "maximum": 0,
+      "pass": true
+    }
+  ]
+}

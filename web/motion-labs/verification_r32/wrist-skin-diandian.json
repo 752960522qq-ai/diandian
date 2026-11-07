@@ -1,0 +1,242 @@
+[
+  {
+    "before": true,
+    "mo": "RifleAimingIdle",
+    "fraction": 0,
+    "shape": {
+      "vertices": 151,
+      "minorRmsM": 0.007471136607260457,
+      "majorRmsM": 0.009840434440510625
+    },
+    "twist": -124.12318430506991,
+    "wristBend": 63.341148726996636
+  },
+  {
+    "before": true,
+    "mo": "RifleAimingIdle",
+    "fraction": 0.25,
+    "shape": {
+      "vertices": 151,
+      "minorRmsM": 0.007453052917348748,
+      "majorRmsM": 0.00982761194730473
+    },
+    "twist": -124.61625242664206,
+    "wristBend": 63.03080671238587
+  },
+  {
+    "before": true,
+    "mo": "RifleAimingIdle",
+    "fraction": 0.5,
+    "shape": {
+      "vertices": 151,
+      "minorRmsM": 0.007440651558020321,
+      "majorRmsM": 0.009831313315827667
+    },
+    "twist": -124.80161786862311,
+    "wristBend": 62.85700479319715
+  },
+  {
+    "before": true,
+    "mo": "RifleAimingIdle",
+    "fraction": 0.75,
+    "shape": {
+      "vertices": 151,
+      "minorRmsM": 0.007462018990886944,
+      "majorRmsM": 0.009843826082464459
+    },
+    "twist": -124.25314852836925,
+    "wristBend": 63.20336356948909
+  },
+  {
+    "before": true,
+    "mo": "RifleAimingIdle",
+    "fraction": 0.99,
+    "shape": {
+      "vertices": 151,
+      "minorRmsM": 0.007470049492698394,
+      "majorRmsM": 0.009839590450623279
+    },
+    "twist": -124.14964596993559,
+    "wristBend": 63.3345291147559
+  },
+  {
+    "before": true,
+    "mo": "FiringRifle",
+    "fraction": 0,
+    "shape": {
+      "vertices": 151,
+      "minorRmsM": 0.007451576043856086,
+      "majorRmsM": 0.009846643752599122
+    },
+    "twist": -124.38036059746344,
+    "wristBend": 63.152476048201606
+  },
+  {
+    "before": true,
+    "mo": "FiringRifle",
+    "fraction": 0.25,
+    "shape": {
+      "vertices": 151,
+      "minorRmsM": 0.00761727415585104,
+      "majorRmsM": 0.00988050778274225
+    },
+    "twist": -121.53091491112878,
+    "wristBend": 63.99070547042133
+  },
+  {
+    "before": true,
+    "mo": "FiringRifle",
+    "fraction": 0.5,
+    "shape": {
+      "vertices": 151,
+      "minorRmsM": 0.007559867970477389,
+      "majorRmsM": 0.009892914002555316
+    },
+    "twist": -121.96380427997121,
+    "wristBend": 64.4618003269018
+  },
+  {
+    "before": true,
+    "mo": "FiringRifle",
+    "fraction": 0.75,
+    "shape": {
+      "vertices": 151,
+      "minorRmsM": 0.007467142528021701,
+      "majorRmsM": 0.009873940967177103
+    },
+    "twist": -123.74106925778585,
+    "wristBend": 63.50687569709577
+  },
+  {
+    "before": true,
+    "mo": "FiringRifle",
+    "fraction": 0.99,
+    "shape": {
+      "vertices": 151,
+      "minorRmsM": 0.0074517333020555025,
+      "majorRmsM": 0.009847191604788086
+    },
+    "twist": -124.3716964088818,
+    "wristBend": 63.15371823224942
+  },
+  {
+    "before": false,
+    "mo": "RifleAimingIdle",
+    "fraction": 0,
+    "shape": {
+      "vertices": 151,
+      "minorRmsM": 0.011330874147109204,
+      "majorRmsM": 0.013837140272274439
+    },
+    "twist": -33.681176890069196,
+    "wristBend": 50.27844356321873
+  },
+  {
+    "before": false,
+    "mo": "RifleAimingIdle",
+    "fraction": 0.25,
+    "shape": {
+      "vertices": 151,
+      "minorRmsM": 0.011342871334206943,
+      "majorRmsM": 0.0138324567743695
+    },
+    "twist": -33.75695763968014,
+    "wristBend": 50.12117181961909
+  },
+  {
+    "before": false,
+    "mo": "RifleAimingIdle",
+    "fraction": 0.5,
+    "shape": {
+      "vertices": 151,
+      "minorRmsM": 0.011363241096194993,
+      "majorRmsM": 0.013814850232949502
+    },
+    "twist": -33.74457021868807,
+    "wristBend": 50.03526790831208
+  },
+  {
+    "before": false,
+    "mo": "RifleAimingIdle",
+    "fraction": 0.75,
+    "shape": {
+      "vertices": 151,
+      "minorRmsM": 0.011346935774325736,
+      "majorRmsM": 0.013820943726210184
+    },
+    "twist": -33.66684358134461,
+    "wristBend": 50.23761181490645
+  },
+  {
+    "before": false,
+    "mo": "RifleAimingIdle",
+    "fraction": 0.99,
+    "shape": {
+      "vertices": 151,
+      "minorRmsM": 0.01133082270366119,
+      "majorRmsM": 0.013837126712420255
+    },
+    "twist": -33.686620417557435,
+    "wristBend": 50.27650370909234
+  },
+  {
+    "before": false,
+    "mo": "FiringRifle",
+    "fraction": 0,
+    "shape": {
+      "vertices": 151,
+      "minorRmsM": 0.011359860063168543,
+      "majorRmsM": 0.01378263237762418
+    },
+    "twist": -33.654007311825126,
+    "wristBend": 50.487000354047304
+  },
+  {
+    "before": false,
+    "mo": "FiringRifle",
+    "fraction": 0.25,
+    "shape": {
+      "vertices": 151,
+      "minorRmsM": 0.011255009891858342,
+      "majorRmsM": 0.013912850410997562
+    },
+    "twist": -33.318586361464156,
+    "wristBend": 50.715899326318066
+  },
+  {
+    "before": false,
+    "mo": "FiringRifle",
+    "fraction": 0.5,
+    "shape": {
+      "vertices": 151,
+      "minorRmsM": 0.011273313000037252,
+      "majorRmsM": 0.013833417968555257
+    },
+    "twist": -33.32712492569203,
+    "wristBend": 51.315614623816586
+  },
+  {
+    "before": false,
+    "mo": "FiringRifle",
+    "fraction": 0.75,
+    "shape": {
+      "vertices": 151,
+      "minorRmsM": 0.011362256315882354,
+      "majorRmsM": 0.01375980425104277
+    },
+    "twist": -33.50887834938311,
+    "wristBend": 50.779393308837314
+  },
+  {
+    "before": false,
+    "mo": "FiringRifle",
+    "fraction": 0.99,
+    "shape": {
+      "vertices": 151,
+      "minorRmsM": 0.011360345937958094,
+      "majorRmsM": 0.013781996829860034
+    },
+    "twist": -33.651157471780266,
+    "wristBend": 50.48870911741578
+  }
+]

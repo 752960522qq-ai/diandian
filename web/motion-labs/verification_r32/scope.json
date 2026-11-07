@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "weaponModelsAndAnimationDefinitionsUnchanged": true,
+  "rows": [
+    {
+      "character": "diandian",
+      "changedWeapons": [
+        "qbz95",
+        "hanyang88",
+        "qcq171"
+      ],
+      "solverModulesUnchanged": [
+        "weapon-attachment.js",
+        "chest-skinning.js",
+        "type97-motion.js",
+        "c96-dynamics.js",
+        "c96-reload.js"
+      ],
+      "archiveMatchesRuntime": true,
+      "syntaxPassed": true
+    },
+    {
+      "character": "zhigeng",
+      "changedWeapons": [
+        "qbz95",
+        "hanyang88",
+        "qcq171"
+      ],
+      "solverModulesUnchanged": [
+        "weapon-attachment.js",
+        "chest-skinning.js",
+        "type97-motion.js",
+        "c96-dynamics.js",
+        "c96-reload.js"
+      ],
+      "archiveMatchesRuntime": true,
+      "syntaxPassed": true
+    }
+  ]
+}

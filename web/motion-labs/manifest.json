@@ -1,35 +1,47 @@
 {
-  "revision": 30,
+  "revision": 33,
   "deployed_sources": [
     {
       "site": "diandian",
-      "source_commit": "20c38f3e974dad7d725d3b7b4606f359621e6ea4",
+      "source_commit": "418222549ddf563a23e5b95ec9224cf02d53d887",
       "project_id": "appgprj_6ae75a729d0481919ec16ab35d702896",
-      "deployment_id": "appgdep_6aebf2470660819193f6c0e509686532",
-      "version_id": "appgprj_6ae75a729d0481919ec16ab35d702896~appgver_44f8913e5e5c8191a51c570847f592de",
+      "deployment_id": "appgdep_6aeeb4ce27208191bd3a31c31d847180",
+      "version_id": "appgprj_6ae75a729d0481919ec16ab35d702896~appgver_829c1515c30481919e2fe35114dad758",
       "status": "succeeded",
       "url": "https://diandian-classic-motion-lab.expert-eagle-6942.chatgpt.site",
-      "updated_at": "2026-11-05T03:05:01.290016+00:00"
+      "updated_at": "2026-11-07T05:19:30.603405+00:00"
     },
     {
       "site": "zhigeng",
-      "source_commit": "afc46e768d699df00fa4b20b5cde6c3f8974b058",
+      "source_commit": "b95ec1f4d414345f64666065c5fca64382fcc495",
       "project_id": "appgprj_6ae8624b35f881918d161516efa53f28",
-      "deployment_id": "appgdep_6aebf1e5e0f88191948dd2003c14990c",
-      "version_id": "appgprj_6ae8624b35f881918d161516efa53f28~appgver_0b04026c9fb88191ad4d0a2d215c5551",
+      "deployment_id": "appgdep_6aeeb46c31988191b32fd045fc7c2233",
+      "version_id": "appgprj_6ae8624b35f881918d161516efa53f28~appgver_37a930f10504819180ea63e69a2b8c08",
       "status": "succeeded",
       "url": "https://zhigeng-motion-lab.expert-eagle-6942.chatgpt.site",
-      "updated_at": "2026-11-05T03:03:22.775650+00:00"
+      "updated_at": "2026-11-07T05:17:53.854700+00:00"
     }
   ],
   "files": [
     {
+      "path": "assets/weapons/character_attachment_v31.json",
+      "sha256": "f9dde7aa5789758ad8f43ef3ac1dfaeca6e36d62349b0d6629e905da82731858"
+    },
+    {
+      "path": "assets/weapons/character_attachment_v32.json",
+      "sha256": "a442da1b850d85af827002e02a2b860a470d0ce6512d55bd983e720335538973"
+    },
+    {
+      "path": "assets/weapons/character_attachment_v33.json",
+      "sha256": "1f412b7bcad5651af8813c6a4348347a41643f82340eb6c3741f5a8008f184a3"
+    },
+    {
       "path": "web/motion-labs/README.md",
-      "sha256": "6b84ad16181775cab5607572fb1a45cab43145d62813edaac7363aa6456e1d9a"
+      "sha256": "75600a1b795211c7b544f0542f5618f77701a97f48f48e9ef09194e814608925"
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/app.js",
-      "sha256": "64cdf479c34f2127d2a4f7e0d419419015c9d2cc20f199f0d43bda4d186f3da0"
+      "sha256": "98a0e26fb420daa00b56aaf5460cfbdde59084475e7731fa9699dd2dd8cbeeca"
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/assets/diandian_before.glb",
@@ -61,7 +73,7 @@
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/assets/weapon_attachment.json",
-      "sha256": "bce80fa55c8e241a95308c43c5827c032a18ea30fa643c364dc2bc513023bff9"
+      "sha256": "05dd8c9733f391ee11e00efb709d112645d806c6cc57b4a9d67db31aa3a05778"
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/assets/weapon_catalog.json",
@@ -116,12 +128,16 @@
       "sha256": "559d746eef3104530a3446207e53676b10b1cf12b67a786e70aa19bbd8b6970b"
     },
     {
+      "path": "web/motion-labs/diandian-classic-motion-lab/chest-skinning.js",
+      "sha256": "c3a323f7adf6cc934cfb693639f91e799069b4723c8c100cf4a0ffbf6f09e848"
+    },
+    {
       "path": "web/motion-labs/diandian-classic-motion-lab/favicon.svg",
       "sha256": "c8f4e184580774a29609e7e7bfc72a33cdf8dd80bd815e878501471073e6bb7a"
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/index.html",
-      "sha256": "fabde5de374de68c64a6dd1a287ee775926f2a66650703e050f2878a2f0b57e5"
+      "sha256": "d2540748ff43668082178f477bfd35717512e84ae8996339071cfe5ca213e443"
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/styles.css",
@@ -129,7 +145,7 @@
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/type97-motion.js",
-      "sha256": "61cf6d31f012d813f3eb4e94f5ecff03addc9c2379efbb8e387a78e525ab3899"
+      "sha256": "03a49ca96092f0abe3cc27f6e1e40c5d2dc0755488bbbea3fc73a4f082bbe51b"
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/vendor/BufferGeometryUtils.js",
@@ -157,7 +173,7 @@
     },
     {
       "path": "web/motion-labs/diandian-classic-motion-lab/weapon-attachment.js",
-      "sha256": "fe62612ec817a153d35135222c0826fc3c74628aeb536af6013ad8a97900d67a"
+      "sha256": "c3ff22f1febdde31ec5d09e51322647c544bd5124ad34baeb0f2088c5da7423b"
     },
     {
       "path": "web/motion-labs/verification_r20/animation_regression.json",
@@ -364,8 +380,1208 @@
       "sha256": "4494700805b5f249fcd8ecd77577d12fbc5471723dab9431836554730eab4aa1"
     },
     {
+      "path": "web/motion-labs/verification_r24/README.md",
+      "sha256": "3b1e6b854811ada8a769470b7e2541992ce984bf2272ba4eae1758eb22cfb859"
+    },
+    {
+      "path": "web/motion-labs/verification_r24/deployment.json",
+      "sha256": "fe58b7102b0fd3ed37d5956b3853efe96466633205d3efd345188192df67b40f"
+    },
+    {
+      "path": "web/motion-labs/verification_r24/diandian_full.png",
+      "sha256": "41a6ed891fe9b386257da8cac00cdb84f8d7db4c4b1434fd2887848e68bdd4e6"
+    },
+    {
+      "path": "web/motion-labs/verification_r24/diandian_left_hand.png",
+      "sha256": "7a6352577021d19ec7d5ed9b6c0038ceb0327acf15984d9386bf9e4c3e649611"
+    },
+    {
+      "path": "web/motion-labs/verification_r24/diandian_right_side.png",
+      "sha256": "3a9e2dd3d3a8e0c5de42c2b8ec7b193b4eb470d053670cdedc464b79e1c6fcf8"
+    },
+    {
+      "path": "web/motion-labs/verification_r24/type97-validation.json",
+      "sha256": "a166127e9e3a6e383386512d5f3f0781e307cda733f9f052a5ab9626026e6f6d"
+    },
+    {
+      "path": "web/motion-labs/verification_r25/README.md",
+      "sha256": "96acb4c15c3e52e4e98f74caeb6cd68c2e19ad4405807738c598168a67901c51"
+    },
+    {
+      "path": "web/motion-labs/verification_r25/deployment.json",
+      "sha256": "8d4c850d09ea05592d337e26bf917a07fd346b9d44cae35389e0efee56cc8326"
+    },
+    {
+      "path": "web/motion-labs/verification_r25/idle-above.png",
+      "sha256": "4c3ee67dbc4272596685748cba1c80e4449200c947ac5afe55d3a8cb980bc2ce"
+    },
+    {
+      "path": "web/motion-labs/verification_r25/idle-front.png",
+      "sha256": "fb8bc28e39f155c4dc868ce6cdec6419911324d803d117974b7f575b0db2286c"
+    },
+    {
+      "path": "web/motion-labs/verification_r25/idle-side.png",
+      "sha256": "03336c3039f7de87d9daba1250a994ecf4d30f7fa752ad3309478ac60bb2aca5"
+    },
+    {
+      "path": "web/motion-labs/verification_r25/idle-validation.json",
+      "sha256": "4d405575691e552da3efe6dc87ba6f704522c3023158f572e372f3ccec6cfee8"
+    },
+    {
+      "path": "web/motion-labs/verification_r26/README.md",
+      "sha256": "dda5ba83111b64bffa45440ad63a0b7b5b69bb08b5a5439cca2fe4085a2d9af6"
+    },
+    {
+      "path": "web/motion-labs/verification_r26/approved-idle-mount.json",
+      "sha256": "8facf14495034215739529cc82ae6a9debd6d9a968b4e989f6c89ab99494036a"
+    },
+    {
+      "path": "web/motion-labs/verification_r26/deployment.json",
+      "sha256": "baef745a778c4f761df7276a2af605993c9c4f643ec05dba58d498567a864034"
+    },
+    {
+      "path": "web/motion-labs/verification_r26/idle-restored.png",
+      "sha256": "3b65166df6323115e3b0fc4cce7584042e36531389395048389aa1fda6c854b6"
+    },
+    {
+      "path": "web/motion-labs/verification_r26/idle-validation.json",
+      "sha256": "b0595938b23dd3f88cec78e1e566da31604f2e16399edd3da00541d7352f3f8b"
+    },
+    {
+      "path": "web/motion-labs/verification_r26/walk-front.png",
+      "sha256": "001a3cf60c8f36a7867c8c5354d895df771f80fd79553fa402f9da17f3daf0c9"
+    },
+    {
+      "path": "web/motion-labs/verification_r26/walk-patch.json",
+      "sha256": "93544622a2a162713b8fa79dc433faf7ab854b9e2173985ec0fb6eac5419ee92"
+    },
+    {
+      "path": "web/motion-labs/verification_r26/walk-quarter.png",
+      "sha256": "f4389b526df58913fdfb6dcdd07d1efcbd660b855615ea68938cbd16c99533ce"
+    },
+    {
+      "path": "web/motion-labs/verification_r26/walk-regression.json",
+      "sha256": "738b625ff1d9f1afb36889ce01d15b98cdc6e4164643ce15bfb4be534dae9221"
+    },
+    {
+      "path": "web/motion-labs/verification_r26/walk-side.png",
+      "sha256": "d23b7168f0b37659969f979345db340b1d374a00f9932f4b1a6268cbf67e9507"
+    },
+    {
+      "path": "web/motion-labs/verification_r26/walk-validation.json",
+      "sha256": "7bde07af348e268a9560c33fb2d9c1ce8e085e6f7d0b0889a66ff046ae1738e2"
+    },
+    {
+      "path": "web/motion-labs/verification_r27/README.md",
+      "sha256": "3646b6c2869a7ef1e74fc41041d1a58df96ee3cb3382faa116b17084ceba1401"
+    },
+    {
+      "path": "web/motion-labs/verification_r27/after-RifleIdle-side.png",
+      "sha256": "b7aa5e3797a0efa60d5ca8f68d9b97ddf7401992cbe6bfe7e489b8463e64c20a"
+    },
+    {
+      "path": "web/motion-labs/verification_r27/after-RifleIdle-top.png",
+      "sha256": "6850b0653fa9be640d1ba6da4e4134bb20be62db548b7925edcc6d7c555f6996"
+    },
+    {
+      "path": "web/motion-labs/verification_r27/after-RifleWalk-side.png",
+      "sha256": "be4331e413c3d0c2f5bb70f937596bc041275d178e3e65c1b7dfa06e90f65b8f"
+    },
+    {
+      "path": "web/motion-labs/verification_r27/after-RifleWalk-top.png",
+      "sha256": "c9515d6bfecbb051bed298015ebd7fc20207b9225bebaf095150600e3c03686e"
+    },
+    {
+      "path": "web/motion-labs/verification_r27/before-RifleIdle-side.png",
+      "sha256": "8e8bbd9647193ff5d8df229e03889e14ecf0aa0b2201751b84269563e5e4d790"
+    },
+    {
+      "path": "web/motion-labs/verification_r27/before-RifleIdle-top.png",
+      "sha256": "e6f9582c7f6a22206053891f0514770b2803aae00133df56c121fa9caf3fac0f"
+    },
+    {
+      "path": "web/motion-labs/verification_r27/before-RifleWalk-side.png",
+      "sha256": "9c62ae992be7b22e8f9c34523386a832e3be68e236114b4f211338b401e0335b"
+    },
+    {
+      "path": "web/motion-labs/verification_r27/before-RifleWalk-top.png",
+      "sha256": "3071389ae15304d6c19c8d9127fc21a8278a451e4390e917c802c6f6ec4ad600"
+    },
+    {
+      "path": "web/motion-labs/verification_r27/deployment.json",
+      "sha256": "21d46602d5b9a1b93058649044c2ba78584a0df4db2fa607735370a32ffa5dd8"
+    },
+    {
+      "path": "web/motion-labs/verification_r27/patch.json",
+      "sha256": "7152c4206cc991266fbe0c97beb169918c4ce7cacbcf88696c056ffa439b71ad"
+    },
+    {
+      "path": "web/motion-labs/verification_r27/validation.json",
+      "sha256": "26ccc6cd320a4a7329c23a42b247d6f58477c012677a3dd23c56036fe9f1adb4"
+    },
+    {
+      "path": "web/motion-labs/verification_r28/README.md",
+      "sha256": "0cd827873b76824e0f08158782763073ffd04c376fdd3baa733e88fbe5f858c7"
+    },
+    {
+      "path": "web/motion-labs/verification_r28/deployment.json",
+      "sha256": "30335e5552313ef4ef566d0f754e0ba13ae20a2033e96e45fa97c65e7751d4d6"
+    },
+    {
+      "path": "web/motion-labs/verification_r28/idle-candidate.json",
+      "sha256": "cd5c1c58c7ea0b2b800deb272e17390f909840b6d2b4fd631a29e9cec780a782"
+    },
+    {
+      "path": "web/motion-labs/verification_r28/idle-type56_1-front.png",
+      "sha256": "4486942da289d9199cf250a0d31a75c84e15a29eda36cf0724cebb6569d3f350"
+    },
+    {
+      "path": "web/motion-labs/verification_r28/idle-type56_1-top.png",
+      "sha256": "3e9508e21dc7bdde505dc5d027ed2b98f09bb06a767619bd238a79c4fbfccfa8"
+    },
+    {
+      "path": "web/motion-labs/verification_r28/idle-type97hawk-front.png",
+      "sha256": "7f5ec09d3fa5451dda9e6651350a92e84f9e8f8ff217d9819dc344628fb00a6e"
+    },
+    {
+      "path": "web/motion-labs/verification_r28/idle-type97hawk-top.png",
+      "sha256": "4daaf42061b6389adb416806d69d38ab3e44b2d2382eeda328639e4810f51bc8"
+    },
+    {
+      "path": "web/motion-labs/verification_r28/idle-validation.json",
+      "sha256": "50b5e76693fcd32e27ecb525f8a64e0fe6dfcdb4541b974de23cbe39dff8d7da"
+    },
+    {
+      "path": "web/motion-labs/verification_r28/walk-patch.json",
+      "sha256": "9f9df5509c62b9155aaab496441835fb80cfc64dc1d8c2d51f4a610880ff982e"
+    },
+    {
+      "path": "web/motion-labs/verification_r28/walk-type56_1-front.png",
+      "sha256": "10394d43591f5fb4550a8df72da89a7f36a9ecaa5c17f410d7b3c8470495f4ba"
+    },
+    {
+      "path": "web/motion-labs/verification_r28/walk-type56_1-top.png",
+      "sha256": "f3abd64fe4e7e9a38173bb55a05fe0240b5abf753da5539a1a4678eab6636fe7"
+    },
+    {
+      "path": "web/motion-labs/verification_r28/walk-type97hawk-front.png",
+      "sha256": "7d7ed7700fa3181bd57eb803e433ad20211307cf3475c4278cb3cba6a3f59169"
+    },
+    {
+      "path": "web/motion-labs/verification_r28/walk-type97hawk-top.png",
+      "sha256": "afaedb12e74161fa3df07b0de9fae77d0f275283b08ac7fa445545ef30f83a12"
+    },
+    {
+      "path": "web/motion-labs/verification_r28/walk-validation.json",
+      "sha256": "d67d83b8efe2c7da956f27f817b7dcf972af165acf6a8f6e0bd72076a8143bf8"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/README.md",
+      "sha256": "37bb053aedce74201f0d4a786b420cd92836e71decf755730f8d29dcbf7e3f3f"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/deployment.json",
+      "sha256": "c563052d0b5e5a04bcc345a402854170d10515a6839f9dfe0dea955245468b22"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/independent-review.md",
+      "sha256": "af07fccf66c36dda3aab272195cc27b87dd5f819f692029f88154c4a8b7096da"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/patches.json",
+      "sha256": "85813c282b0e1023764054f95a2d8aab1a9ee93d3021cae89a6d1adc058d6ebd"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/qa-RifleIdle-front-type56_1.png",
+      "sha256": "5322dfc2bf7b64be9c938c23203d1d3aeb3addcc76d61f0d377e08327d4fec53"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/qa-RifleIdle-front-type97hawk.png",
+      "sha256": "e86b06442a31ad22d151a0a5800c7c89655b7e3d004194aa595cd36e624f8243"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/qa-RifleIdle-maxwrist-side.png",
+      "sha256": "de9534cb4d8019b5ac859241ff2799b1f7ba5f563ca4e052669ade5540e6b90e"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/qa-RifleIdle-side-type56_1.png",
+      "sha256": "2578ba4fa09d61fc9dbd957b380d24777f400cdd5fd80f3c91de272113d87da4"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/qa-RifleIdle-side-type97hawk.png",
+      "sha256": "c1cc891df266713fa4110633cc5f5550fefde893711f63fef2ab2f4fb86e7a32"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/qa-RifleIdle-top-type56_1.png",
+      "sha256": "115f481cf36969419ee23b9c3eecc3e3fc1ff3714060fb3c1eb37ea01603fa50"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/qa-RifleIdle-top-type97hawk.png",
+      "sha256": "335129e9a763430475df016811cb1093ee31bddaf504d7d17c8c3214a143d06b"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/qa-RifleWalk-front-type56_1.png",
+      "sha256": "3631fd5b0efc19558a8d74caefc174c933508dc29b34ca3c5668e45ba7c5f825"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/qa-RifleWalk-front-type97hawk.png",
+      "sha256": "4a293bacdc5418f4945eba96a29a66ed356bdfd5b4781e6068924b3abe20e884"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/qa-RifleWalk-maxwrist-side.png",
+      "sha256": "f8fb51c5fc6131404d07a5a21e3b8fe3d15fbd9cd38262183910b8e15ee1d446"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/qa-RifleWalk-side-type56_1.png",
+      "sha256": "3105b69697d3c744962335abff87d6015ad1614098414852aac4ba86ccfff0f8"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/qa-RifleWalk-side-type97hawk.png",
+      "sha256": "15e4a63980d986f47594eb88d7096e3410142261b234489b36640d0b62531bde"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/qa-RifleWalk-top-type56_1.png",
+      "sha256": "f0a57b3c282ecf6df8974bac4f064599ccd06708647c14b045541abd94011806"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/qa-RifleWalk-top-type97hawk.png",
+      "sha256": "6bf86fd22f06f7258d43ba8122f774d6c708b0efc6dbeced815343d8520e5398"
+    },
+    {
+      "path": "web/motion-labs/verification_r29/validation.json",
+      "sha256": "ad5e4a2b4db90c64ea219cfbd0f9812fd628e6a6e9d50cac9e91c6441f584b99"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/README.md",
+      "sha256": "dea31761dd5575c9a0fb9945fe2cc79115cc246e7ca5e71c3b20353b73000d8a"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/diandian/deployment.json",
+      "sha256": "3cfb569835dbf4bc33ac2a37ac654bfb4af3c8b6a1bbccb31e17f471580542e4"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/diandian/render-front-candidate-0.17.png",
+      "sha256": "6fe45bb9aeefc878b53da4ebf692c782268a83e487bfeeb4197e46439dc68462"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/diandian/render-front-reference-0.17.png",
+      "sha256": "4276f80efd1754dba3fac0e6eb215ea004c43f8784c322963fe5c292e5e2fe32"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/diandian/render-side-candidate-0.17.png",
+      "sha256": "f9fef731e521cb7257c19b740ef1adec70f8819df28e1714e87c0f34d5c6173e"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/diandian/render-side-reference-0.17.png",
+      "sha256": "3960f16902f3c97f57ed1b6f6291801a056d5aab731ec1f8c86b90a54505e77f"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/diandian/render-top-candidate-0.17.png",
+      "sha256": "ec453c347e971f82b21fd43b7b224dbd6cd1ed5f1e4d59e4bdada5653d14239b"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/diandian/render-top-reference-0.17.png",
+      "sha256": "13c8c0cfd594c67c1591f2b4583e3269c5f41e79b448b6ae8a8515e06f55c7ce"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/diandian/report.md",
+      "sha256": "9664aefff067059af344f1b1fe53e9ad8ca97686e9d6f7c36c1ebb40f110c949"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/diandian/run-patch.json",
+      "sha256": "13719ef6033518a7c1f8e67d3b46634a92405a7af56651a109a790427b6a1c00"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/diandian/validation.json",
+      "sha256": "f02b3363b65a1f7cd06b990d492e3b56babe317b150d7f10b64f7109c7e11576"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/zhigeng/deployment.json",
+      "sha256": "26fe0b98aca2f0bfa3e71185edefefc556c3fb420c05322319b982e63eb2d41f"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/zhigeng/front-type56_1-0.167.png",
+      "sha256": "bef7985c551217687384aec5053585bae20e33bcbbdd3dcee94ffd8d0b40b9c2"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/zhigeng/front-type97hawk-0.167.png",
+      "sha256": "2f60d8fee1fb6a0e33082ebe7ccce053692583ce2074a9559ec90a1eac850e70"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/zhigeng/report.md",
+      "sha256": "e2385d50676f6010cfe44012c29d5a5101ea8ebe1fc5664d27bf02f35ceeb59a"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/zhigeng/run-patch.json",
+      "sha256": "c44d802759546ab2daacef7fa8046702a09ab3eb8c014c72d0f358aaaa885c57"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/zhigeng/side-type56_1-0.167.png",
+      "sha256": "7fb07e91b92965014ceba5a1d898265a7c4c0a1904fe6f37f992e899817bfe94"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/zhigeng/side-type97hawk-0.167.png",
+      "sha256": "6e469143b650a060940cde22079becb7e3dd2f1291406d3526851243d792eac3"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/zhigeng/top-type56_1-0.167.png",
+      "sha256": "ef0f7593c84f30487492565494779edff867f20b04ae56bdb16e16e1ed8f9001"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/zhigeng/top-type97hawk-0.167.png",
+      "sha256": "e6d07ed6eed63bf29652d61fb5c6853c19bd5d58df872401e77d673870a39bcb"
+    },
+    {
+      "path": "web/motion-labs/verification_r30/zhigeng/validation.json",
+      "sha256": "84161a4ebc7f0c3840bc6d9ffabdab63dd7a77ffcbb535c942441b6263c464a4"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/README.md",
+      "sha256": "182a04849d4e500925c593ae6f75ca80fb2098d2aa89c1cca8c0823f8de7121e"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/browser.cjs",
+      "sha256": "7876ed04a9f7b787c431ed177763e6d8f7c53b3d1c7c4401dcf3f7229c3fa815"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/capture.cjs",
+      "sha256": "f3f5033fe0404cc5845c641425f7ab20dfa7ba6dfe7402e2877c75f44d409253"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/clearance-cycle.js",
+      "sha256": "2054703d62a848d7bd34ca83f3f86e75fbca486bcef7804cd5b997502aa52184"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/clearance-diandian.json",
+      "sha256": "30b18bde0a44dce7054ca5120a6dfd9febf14a84cc4878d5738d2e741ad7d4de"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/clearance-zhigeng.json",
+      "sha256": "bea3d36adc31489c5cf9a28bbf7ba5153061f8ca406780b501035d66537b14ff"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/before-c96-idle.json",
+      "sha256": "7a4ee2f945f3052625a33b1b58f807355968641765391900f60c736a1929bf35"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/before-c96-idle.png",
+      "sha256": "54c6b14268197ecc42acb1fe55c8c457bc541585daffce406db804c0b3c2287e"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/before-chest.json",
+      "sha256": "57c0f84f766cfbcafff941bdc7cd733c2c807a1110dd9b3d0e2e74f64a318443"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/before-chest.png",
+      "sha256": "4a386899aaa8ffd2d0a410189195a17c8e0de1fd1d87602a926e22780a5e1a12"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/before-hanyang-aim.json",
+      "sha256": "44a535573f440e11af6d59428c1483bd01e54bf4f80917dde18216cde8aa1fa3"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/before-hanyang-aim.png",
+      "sha256": "fd38fedf705c2f1c40f60d51f2bd0d08e4e0f81dce8bbd6fa3987a47d8c04aca"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/before-hanyang-walk.json",
+      "sha256": "5b2fcbcba03fe2673e77321d79f028518bfd21e342f78c53b6b7cf264b215dfb"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/before-hanyang-walk.png",
+      "sha256": "68c84379ffda1075254a982a85663bf618a1ff2bf336ac523c4d7b9cfae61bca"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/before-qbz95-idle.json",
+      "sha256": "d6189e19c310daa7b5b4b696af6f0464831cdc65ce1e8a3ea2df192d5b64fa9d"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/before-qbz95-idle.png",
+      "sha256": "eff5c5133dc6633d581e03a977188472f6f3cbb1409526e9e1bc2fee26c90543"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/before-qbz95-run.json",
+      "sha256": "c4ff364d8531c196310b4b7a626e18cd9e4d615d849eb8a9efe92ce78700f678"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/before-qbz95-run.png",
+      "sha256": "2b90da2c67d9a8d5bd2c7eebd64387099bc1a15c14be868f6a1ccd579d3b4812"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/before-qcq171-aim.json",
+      "sha256": "e4e06642dcb3b2abc046340ca2c3bcbff31e1d023687e0cd9e1d69174b6a69c5"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/before-qcq171-aim.png",
+      "sha256": "4905f2d58aab55a3326e9deb059613e144c99eaeffea438970d6872b18933be5"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/before-type56-grip.json",
+      "sha256": "9a1b73c2e92e78ebd864780f14648b37a7f5e28435de6f4765fd6c204f520e5c"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/before-type56-grip.png",
+      "sha256": "bdab7e0120b53e8c19a503cc43a0169f2c2141037562d23da459715e432fdef1"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/c96-idle.json",
+      "sha256": "6afc174612fba79d06f1fff6a38563dc8b9326088f018288a8a680e5d0c866af"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/c96-idle.png",
+      "sha256": "c2615385c0795ef61332320683fbea24069965050809a2b9acd1eb5be1da9f33"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/chest.json",
+      "sha256": "7b16cb0a0e6cf8b746ddd21b3dd1693380dafb023e7e01ed31e87b05b25b9128"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/chest.png",
+      "sha256": "5f9dd8db1a1fb175b1be3a7a6357eb5f6156fb09022a33516838646920f61680"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/hanyang-aim.json",
+      "sha256": "4d5118b38e834e1c6c04910d6f7998b983deae40c22d12902b8400d74dd1fa18"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/hanyang-aim.png",
+      "sha256": "f7c0dc4490fd717917ee56e98185269333379a19f2f7e520453367c39e387aa8"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/hanyang-walk.json",
+      "sha256": "37046c6e024d9a6c0fd0c68dd773abb458306167b5606b9e14f598dcff28405a"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/hanyang-walk.png",
+      "sha256": "48d4abb7f2c628933dcfed5b3c486cfd8e1764e6fb9b68e48c312090597c9e6c"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/qbz95-idle.json",
+      "sha256": "da402f2df646f4b2bdc370f0dc1de6013e57eda44b1e41252ce43417f0395146"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/qbz95-idle.png",
+      "sha256": "d694fd4528c6b55dcd45cd01921f7d121746ea999a3644437ce25ca421b7d38f"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/qbz95-run.json",
+      "sha256": "642a2964d6d21f1cb2e1757b5038fcffbd2a7b0c7990ee36fb748195ac7f61f3"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/qbz95-run.png",
+      "sha256": "f6f4adce957fc4cd452be71a8c77484d3c61a130751799650273520802c22902"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/qcq171-aim.json",
+      "sha256": "4850d9908910d4bcb146cacd0b6511725292ceecd828f6f741ccf7f693128cf9"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/qcq171-aim.png",
+      "sha256": "bd90f806a29c3bdda24e165a23a8b2d0bac52ec2767cf78e149a206b89b67077"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/type56-grip.json",
+      "sha256": "36c5a04334efa3f344c88a7acda784369c5d0edf1d8dfa1b3f6efac49373d29b"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/type56-grip.png",
+      "sha256": "a8318873df97e1fc5a059fdf5e666ecfc37f042a2a10c40eafbe38e308a4df86"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/type97-fire-peak.json",
+      "sha256": "8c41affcd1077ca027970ffa956f77aaa97c25845a4756ac2bc5789ee1784950"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/type97-fire-peak.png",
+      "sha256": "fd3d516d931deb9a1ca8ed1b2f66f682caa947095232a1e91a965f8ef3f82738"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/type97-fire-rest.json",
+      "sha256": "2a0ec0d9b39c6e511b468fc40e35a973996d2fe9c97262bcc53da8b43bd4951c"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/type97-fire-rest.png",
+      "sha256": "4fb4bcaa61492fc08a94158dc78be82f80f14909953a8ce00e8dd9155ace8612"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/type97-pump-bent.json",
+      "sha256": "1b562780ecff28796af8a3ceed7b054f35e9553c84c57a833d834c80b3228aaa"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/type97-pump-bent.png",
+      "sha256": "8122386bfd98904046f1b0ad61f54df2be18ed0bf579a5852d046eb5336f027c"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/type97-pump-end.json",
+      "sha256": "1d2c0e5b45d68340e2d5799a22473fd6b2f4861f30b82e80d9a4cc0535ebc061"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/type97-pump-end.png",
+      "sha256": "804eadce5f5504f47e9a6fd0825ed9f4e53407d61a8a2abdc78be24d33e5efd6"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/type97-pump-start.json",
+      "sha256": "2846a6cb2701691b7bdaf5ca9d28a3503d4772d571db27128e5fdb0a878b6aee"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/diandian/type97-pump-start.png",
+      "sha256": "4514ec1b54f99c4bf0235bf2fc4e90fe147cbd355bd03d83cbe4364879c0eaee"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/hanyang-clearance.js",
+      "sha256": "7376ad0657e3efed97bbb708d0d8fc6496257bbc2f2443dd86dedc079aad7e4f"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/invariants-diandian.json",
+      "sha256": "22ff3b5ac10be7716114378bd8cdfc92c21eeaaaf869ef4165cc926b80ccf2be"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/invariants-zhigeng.json",
+      "sha256": "8c731a6dc2acc9178d6eeca9f71ecc8cfccbae5eab1ad070aa589ac774a36411"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/invariants.js",
+      "sha256": "c27fe981079122e4d0b985202392512f71f8c3dcd8fcd422221cc1b342613c62"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/qa-context.js",
+      "sha256": "96a5831118eca05448f3d1f29d3eea484a4701679cb0d5dea3d73b0c29dcbe3f"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/regression-diandian.json",
+      "sha256": "a8a610d282aa51af4ecd7164ffb23048fc62663884e5cac4ae13584c8842e12f"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/regression-zhigeng.json",
+      "sha256": "1687df51c4431d485865d9adedcf8cc9b85d31eefac1f274bb699d0ac3128263"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/regression.js",
+      "sha256": "c9d9b5129a0fd775c9f0c35ea4a0364660d51e21d7ba1dc2a877723bb4ad717e"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/scan-diandian.json",
+      "sha256": "d7a99c5cd9070cfd336f76f998cbf8969cecf079cb9859a42cabec8e8c0b5968"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/scan-zhigeng.json",
+      "sha256": "0072c16ce66924dd844049a6d962e56979aa4633ff03a9061320e8924f97ffda"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/scan.js",
+      "sha256": "0f588d1cb6ddf66de1707881216c589a4466b81886231a53f116301569fe3e7d"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/stock-magazine-clearance.js",
+      "sha256": "dbec0fd48b1459e7000c4ebb484a2b2a71b5e502c1564101a156588e5ce528b5"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/ui-smoke.cjs",
+      "sha256": "2662062b26b7194b40ea8ae374e6112f145fe7dd9464e00122343fe191de6fba"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/ui-smoke.json",
+      "sha256": "0719cc6d01c6c4b5e220fbbd5d51fd548cd38711982096fc006886b76e52adaa"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/before-c96-idle.json",
+      "sha256": "4678a308f5ac1933150cf770e5355795713a2adcf9dc27354a381d0291d2e8db"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/before-c96-idle.png",
+      "sha256": "1a968aa1780d76b68fd475ac101f14ef03f460dae8f6cdb62264ecf686924a02"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/before-chest.json",
+      "sha256": "c885ba27b4faa6f3e6af1b961d28fb22f79123af5f9693d958e6da78ae919398"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/before-chest.png",
+      "sha256": "6589b20ef66e092dd43a772288596a5768e763780453f000f99952b27499283a"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/before-hanyang-aim.json",
+      "sha256": "e2dc0a3555d8b5a4cf54183ab2d3ddb88dc626cef41da1b53e912e3c9c551035"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/before-hanyang-aim.png",
+      "sha256": "827279fbb27442211fb1fc3ff51bd53681d08897c484d8ae3271b289f697d45b"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/before-hanyang-walk.json",
+      "sha256": "b9070e64ce4b2b019a0a60558541c3b8cac0e77bc28aea728413d7b5db3a8d38"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/before-hanyang-walk.png",
+      "sha256": "7cf6640a197672dd974da4cc36984f75143f565463e5b21e90436faf547a6805"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/before-qbz95-idle.json",
+      "sha256": "8a58da1e92eaa7eb0c7bff92866862bc98ef6d854170f285acbf7b57c7b32539"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/before-qbz95-idle.png",
+      "sha256": "0dde390b2ca7917f6770e936c4be61d47d47b8cf44930aad2b0e7cc259e928a3"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/before-qbz95-run.json",
+      "sha256": "ec083774d9e5ee7624de023a1880ab94684ac2774b1fe19aae4e60e86d09c574"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/before-qbz95-run.png",
+      "sha256": "43a3155059cf0d3d2303f0f8852b802ec7842db5b025b316fe2a56918cc6a905"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/before-qcq171-aim.json",
+      "sha256": "6ff04a33f3b41ba79f96ed955f6c6d0e6f3e48841af64ad06201e3ab78f91695"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/before-qcq171-aim.png",
+      "sha256": "bb8f998a689a12356dbd743f478a55ce8830f1395df50c72a1859704b40ad01f"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/before-type56-grip.json",
+      "sha256": "40c34199ef14f23a4322085914ee3876a1bda442ed83a796d921a9690bce5650"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/before-type56-grip.png",
+      "sha256": "2de1a0ac6bd9db423fd7cf9ca354b70c9e1c2edf8632c2a0547a0afd9f2870a8"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/c96-idle.json",
+      "sha256": "2685739792cd5e01f6ca5738495249c3a66923932d4429f1bddc19d5e718b4df"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/c96-idle.png",
+      "sha256": "99c1f846784e6525cd6c666e156582f183df60128b0fcd3592741bb05a91f24f"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/chest.json",
+      "sha256": "6f7e62e58bd31e691c66cf339bd530e0675991185c1416c308550609e868958d"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/chest.png",
+      "sha256": "e2df4397aa066be1f9ccc1739d41931a14c466dff93c2194cc8446c41408b55d"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/hanyang-aim.json",
+      "sha256": "9c282b774dfcd1066486a92aaff9ea8d70a77c7a776d54385a98ef43517422a1"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/hanyang-aim.png",
+      "sha256": "a8c569fecf0d517fe254e326f1dc5781e437a211d27fff94e28c3189fbc67c2e"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/hanyang-walk.json",
+      "sha256": "b386c30e75ec27fee6ba92cb3f62d019a8e1827eafcf96e245aa9dd1fdc7ffde"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/hanyang-walk.png",
+      "sha256": "eef5082e07c288823c089a6e44327501ccb36495ba0f75c4790b9ac7efe9f2fc"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/qbz95-idle.json",
+      "sha256": "352f62d30ff4d1bb25e815fa958e684302f1374cd6db9310d61ca989bc89bf2d"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/qbz95-idle.png",
+      "sha256": "eb02291f980f323273b2900b9d33e4d0740e6ee66a2b2d5bf137f649ef7c3f1f"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/qbz95-run.json",
+      "sha256": "44b82d2586624e4b9cc90bbd6184633cfed32a7b7adbfa7e3d65e389dba5f0be"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/qbz95-run.png",
+      "sha256": "98de1ae5ce572a27e3a485fc352825737fedd76a426fcea54141a5af3b7c2fd4"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/qcq171-aim.json",
+      "sha256": "3b7025629333fe1dae6ebbf9180616b7b391d5f1a6b7f95e1e35d76b774ddfee"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/qcq171-aim.png",
+      "sha256": "5631ed8208f568248d89304a7a3ac377b054eb2c8d819a1410d4f647d9319f6a"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/type56-grip.json",
+      "sha256": "a83c29fa7c000ba252d3bc26af860486265446c83f79dbedef08ac0e422e6f60"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/type56-grip.png",
+      "sha256": "342faba0c7ec714314df3edd9a61e8f08d69e977e6872478825a5201052baf2e"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/type97-fire-peak.json",
+      "sha256": "8b89553831a6bab073f8ff7c3a7c17f9ff212807ca8e2d5a9f0841daa371e4b3"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/type97-fire-peak.png",
+      "sha256": "eff05264888e1a0a052bb0bc7ca8374aace93e07bbb0e5527d38889a52316906"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/type97-fire-rest.json",
+      "sha256": "9961537d4ef8a86d5fee57abfce24ed7d9310d4c4af9bca07a21a457b05b3519"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/type97-fire-rest.png",
+      "sha256": "b73f952e36ed00382a102f25d859476e30ac9ebea905bb9274cb84ad28cc178c"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/type97-pump-bent.json",
+      "sha256": "a9efcdcce995b4271f248298c125dead85b52494de337f01183dd9b010593622"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/type97-pump-bent.png",
+      "sha256": "2e332e3c4d1784dbb09d7de678bc1f22bc206a698ec570d06e83c75bdb50a03e"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/type97-pump-end.json",
+      "sha256": "61c4912a174830e8369d005328c3f97ede0e8f73620c6922cadd85fb309c783f"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/type97-pump-end.png",
+      "sha256": "81ffbfe9239ce4783e34b19c5ca6c7183156882f15daea6208f23591f279e86d"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/type97-pump-start.json",
+      "sha256": "cfa607dcc10d626acf9e276d511d287e1f22f9b6268219eb7b5e0962c6a1dfaf"
+    },
+    {
+      "path": "web/motion-labs/verification_r31/zhigeng/type97-pump-start.png",
+      "sha256": "d9eeb6d4a208670749c2d39d95c07e0a23d54e5fefb42f68667dbbd37fa253c6"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/README.md",
+      "sha256": "0594595581ee71fd36a49c349df058f8e188128a985234ffeb8e8625ed5c88f8"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/browser.cjs",
+      "sha256": "7876ed04a9f7b787c431ed177763e6d8f7c53b3d1c7c4401dcf3f7229c3fa815"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/capture.cjs",
+      "sha256": "b2e1ac350a6f1d76ed8c59bff88680076e857a47704cf786d6a33ac0d3d90b42"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/diandian/after-hanyang-aim.json",
+      "sha256": "817599d63605e56f5c3647c6dab2099f0f18ac9b0cb5409097737babc05eee8b"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/diandian/after-hanyang-aim.png",
+      "sha256": "48272ca27227826aeaaed231504433707e98476b5503ee5709b9b91e1c957060"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/diandian/after-hanyang-walk.json",
+      "sha256": "1c2edaab53813c41740a7b1ba381f95b5300417a198b455cb952f141157d71fc"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/diandian/after-hanyang-walk.png",
+      "sha256": "21922b96144e1a1f57a6f5423b5ca8d50ad4e618d894c07425430ae885dd0b5b"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/diandian/after-qbz-wrist.json",
+      "sha256": "d3fe1772cbfd80fe55413b8b6d0f199b6198e1a1886b2d28c60a7eeb74f44da0"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/diandian/after-qbz-wrist.png",
+      "sha256": "7a60a75bd0b9786c01818ff16ac9b370e3bc3bbd99f69ce05f24b6c9cc01b8e5"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/diandian/after-qcq-aim.json",
+      "sha256": "07e54349b90ea8fed65475d4b1649cdd6f55d5309c8d9a25f56d1c08b9554b91"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/diandian/after-qcq-aim.png",
+      "sha256": "990c5fdb7afbef7d79b7e1931c96aeb32f31f385204f78a40cac990c2a9529e0"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/diandian/after-qcq-idle.json",
+      "sha256": "f760a83eceebfb89bfc2ad2f64b858ba47898f94e32cde732d6b85f7a5de1936"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/diandian/after-qcq-idle.png",
+      "sha256": "4d94f48193a031ab41cc2c27590323d8c405e7d85645188a648dacd2ff4a368c"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/diandian/before-hanyang-aim.json",
+      "sha256": "a5f7459f5615ca9b203c4e9b86e35b51d294ef8ff403b2f2e3669cc9c23c347e"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/diandian/before-hanyang-aim.png",
+      "sha256": "2a81412e20d1083d12a1d03a72aa9af0d1ec8cb76cb07dfcc0485bb965f224a9"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/diandian/before-hanyang-walk.json",
+      "sha256": "204f6e539ce4d9edbbe6f3d4ac96d5b255c7a9f70deb13c3a439bdde984aeaf5"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/diandian/before-hanyang-walk.png",
+      "sha256": "3f0f17393017e52c72cd478e721bb4f2cc6f794e2a99f7476871e6be4fb197b0"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/diandian/before-qbz-wrist.json",
+      "sha256": "ee10814192ad7fd5e13dc2c9bc27325ef78fa1d0487e9ddf51e79b62805faf6b"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/diandian/before-qbz-wrist.png",
+      "sha256": "794392cd22ebf95708b6a4791c44817741a638476713a54dfa986c15d8ed95e9"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/diandian/before-qcq-aim.json",
+      "sha256": "ca39771390ba72c7bbcc2a15f6f816fd87d1480bcfc2ef200bb55ec1fae50451"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/diandian/before-qcq-aim.png",
+      "sha256": "a3e0c779eea537ccaf474eb9a12979c85b03d557a2ce5a69aa83b77f59a318d0"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/diandian/before-qcq-idle.json",
+      "sha256": "0414f819f9b47c48982b4c52eb3e3945182adce0d0749c3f458b6cf6da208e6d"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/diandian/before-qcq-idle.png",
+      "sha256": "6b9276fb131e7bf3dba0e10f1e1c0201100585b2f9873e46af0def461b5aee63"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/hanyang-clearance-diandian.json",
+      "sha256": "a2b02760bdeda12fd4f0c583206425750714330b0dab789e2690ca326c8f3664"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/hanyang-clearance-zhigeng.json",
+      "sha256": "82a0d45bbe4d8c8f47057d8518f903caa7644058d2a107391357167ef9f8e58e"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/hanyang-clearance.js",
+      "sha256": "7376ad0657e3efed97bbb708d0d8fc6496257bbc2f2443dd86dedc079aad7e4f"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/qa-context.js",
+      "sha256": "ac8cab34338d61380636d9dd8ca21d2d459b097267baa1e6de067994424625d9"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/scope.json",
+      "sha256": "8ad07ce8755e9d1a96e4a516f1baac8056e9e5a698b035ff1a3f5efcb0ff3eb0"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/ui-smoke.cjs",
+      "sha256": "835b8c1ee9496c57e2f3225ff5c0d0e924fa4598bc20d520e261860e210f834b"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/ui-smoke.json",
+      "sha256": "530c499803b221f1490589b7395db89605f822804de48739fe61515a293e0fa2"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/validate.js",
+      "sha256": "31f3687200d0b181a271a333a25a92fd32e0412d574fdc610eceb940b8c55d54"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/validation-diandian.json",
+      "sha256": "cc55fc776e6f7bc7d9958272501bcd9421b1b8d9173db6104afdd9716f57c24a"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/validation-zhigeng.json",
+      "sha256": "82be3615b70a6a34d831b5d75bb3a4a99ad2ee406bbe649d6ce189a3e3f9cef3"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/wrist-skin-diandian.json",
+      "sha256": "2287110288047b6507618384e18975b3466271a6f7888060503d31c419abf9fa"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/wrist-skin-zhigeng.json",
+      "sha256": "62dca97666752d40fe1ec3f6b3a07eafb84d431706050a7241683930bd64ede1"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/wrist-skin.js",
+      "sha256": "80eb35eeae1c8d64be849a22282a9f4f0a114e138fd66f5a05d24c5d673f3638"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/zhigeng/after-hanyang-aim.json",
+      "sha256": "e453d560c8387522e9aa4458b3e90b002e6f9f96c0af3f6e983ac27f1530c6ee"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/zhigeng/after-hanyang-aim.png",
+      "sha256": "bf3047f6ca8df11b88a4b980c079e582634be265a1ad24e6ca561995120e23bf"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/zhigeng/after-hanyang-walk.json",
+      "sha256": "9453692c9fc9f276c6a382754439fe8fce0391210232c20410e28e0d0fe22327"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/zhigeng/after-hanyang-walk.png",
+      "sha256": "10bbe1af896cb2b5d3c31556dc7c7ce5c3e31ad12c8e6f1a54608f9e525921b1"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/zhigeng/after-qbz-wrist.json",
+      "sha256": "91b78f0c221ad15881b96caccbf192a36add2adaf46ddafd6cceb92de5c4da81"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/zhigeng/after-qbz-wrist.png",
+      "sha256": "d6767732c2f7dee0b120195a4b262dbb028935fc9a2e3d4c109378eef6af97dc"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/zhigeng/after-qcq-aim.json",
+      "sha256": "eb27cb043e0319f476fe801da73e4012af71bb067b3a55afce8e143de6603047"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/zhigeng/after-qcq-aim.png",
+      "sha256": "ec8d7159c8ceefa47a2a4ec1921546ca3d95ab8b09151f7f1eb39f26b934504f"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/zhigeng/after-qcq-idle.json",
+      "sha256": "6db4caa6d752f640b770bccd476cd183d1053bccda8bdd6cfd10fc66e6204415"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/zhigeng/after-qcq-idle.png",
+      "sha256": "53fb47f7b1e6215efaf0e46821d0db8a407a4bc3a3cf1b60135eaf1e429985c0"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/zhigeng/before-hanyang-aim.json",
+      "sha256": "2f13af0cb17ef1e566b872587c7ed6f9a2e3027fee5f21930b2c172a43c00025"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/zhigeng/before-hanyang-aim.png",
+      "sha256": "4d538905961e45eed6bd25a1f9df3172c7b43571c37a7672b34008078cc72279"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/zhigeng/before-hanyang-walk.json",
+      "sha256": "1a24e10b4421f01d23db746c4e78b5c3ea4c17bf90f077c54078f89bb8faeb6c"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/zhigeng/before-hanyang-walk.png",
+      "sha256": "b0c4dc0e3a8ee7ffde1ab2d17e275c1dea9467db03a788f480c32fe49d818748"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/zhigeng/before-qbz-wrist.json",
+      "sha256": "a41c2374e0cf29fb10e1da9ba7f14359740e3607d74d85dc47bb9cedbcd60f81"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/zhigeng/before-qbz-wrist.png",
+      "sha256": "46fb729a690226de4bc9eb71a58727e9523a98c630aaac49ff20bdb72bb39e93"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/zhigeng/before-qcq-aim.json",
+      "sha256": "ac1aaa56a07fd6c0b6d1ae9d90a7969f3dc14353fea916723acfc406fe2645fd"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/zhigeng/before-qcq-aim.png",
+      "sha256": "5b8ac8cb51231a8975be707b8a6404854da42f58fc6d535dd089b1a29538748e"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/zhigeng/before-qcq-idle.json",
+      "sha256": "fa9ec61dadae29c1731a943d3722a22fa19248f9db6de3278bdaf73b10d2db70"
+    },
+    {
+      "path": "web/motion-labs/verification_r32/zhigeng/before-qcq-idle.png",
+      "sha256": "570eef139e92831104cad83cda1fa0bfb817a9f6d2fce7157a8ca3cee8908928"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/README.md",
+      "sha256": "e5bcacd466a499b0dc9d5d972b1a46a28f39198ac4c1ea7a336329aa6ee3cb65"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/browser.cjs",
+      "sha256": "a5ca1dae708c324f011b4698f33cd9151482c23a451bd6a990c25ca9c723884c"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/clearance-diandian.json",
+      "sha256": "de4a3e828c8258836b9cede2315fc4a14292205664720b272c0c9c8a974ff152"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/clearance-zhigeng.json",
+      "sha256": "005a1b6cefb7fbdeb8636c6c60a18d3432cec48b8b87b8cf19d1744143ce2dcf"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/clearance.js",
+      "sha256": "731642935cd95b686fbe68e25381b9401227abfac2e0f37ab3455ff1350c74eb"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/deployments.json",
+      "sha256": "8e1141037c90a40ece3ca01be07a91135cf1aa46ddef818a6d33b02359fddab9"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/diandian/hanyang-walk-after.png",
+      "sha256": "d652a81e51aad0aa6bc0ac635874309e7b2e108ad4ecb81f36c2dca8580f6b73"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/diandian/hanyang-walk-before.png",
+      "sha256": "6d94125ff99513156dd8ff6ad7bc3b6706d57e4f85328eaee7ce554b3994041d"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/diandian/hanyang-walk.json",
+      "sha256": "e097dfb535563a9243ce5b2e9a9b1fb0960949380875bfabfcebd24c48982064"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/diandian/qbu-idle-after.png",
+      "sha256": "5129d25b51aa67306dba577ade16037006a77e77dbf3b2aa43cc716abb2402df"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/diandian/qbu-idle-before.png",
+      "sha256": "a25ead384afb03d728a62898001b0db3d519ba9981393aabf2b6804d6920d16c"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/diandian/qbu-idle.json",
+      "sha256": "b65237b9bbf750ccf60beef35e84b4df7625437043644a07f341c4a56672cbae"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/diandian/qbu-run-after.png",
+      "sha256": "d96e1432f47f2b8170e85b3e1ad5849dd75eb4a827f188a270a032dc5d40173a"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/diandian/qbu-run-before.png",
+      "sha256": "348f05cd06ae25c31daac80b85937a260dc14a079f70e72d2247281092073405"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/diandian/qbu-run.json",
+      "sha256": "dc0727bcb124d5c7c9b486ce28e75e42163323608ad56dba83c5b56232be22ad"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/diandian/qcq-aim-after.png",
+      "sha256": "43d5d2b7941e699a6c8df9ab3bd613665c22720d1dd9d7eb8412c2e4c07bb2c2"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/diandian/qcq-aim-before.png",
+      "sha256": "dc82a2cdfaf32ca5e53dd4cb633119375e5739cd89f84d42a3377d341b1e69e6"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/diandian/qcq-aim.json",
+      "sha256": "6e8747f0968cda67105695dc96c6eb34e41fba31fe5e8e6457e8eed4a10ba2ab"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/diandian/qcq-idle-after.png",
+      "sha256": "b7735ed8826761d262af9dff2e331c8678bf0fdc234b60611a964cb884d58694"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/diandian/qcq-idle-before.png",
+      "sha256": "6e4d07639a21551bb562688d0be6775725f7c06d5aea2e49c29b6ec2d3cdb021"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/diandian/qcq-idle.json",
+      "sha256": "41a12736d36e5eabecc61293d971813612e56a4d008229195060ddf8d5105d49"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/evidence.cjs",
+      "sha256": "4cfda5b0923473bc5c8b392cd9a356b1e57111295802d0a7f9f6473d7889f27f"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/qa-context.js",
+      "sha256": "5d177a3a938036d7b29c92b78e8de609d31dce1b22810c06c3ca6f62b8389146"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/scope-diandian.json",
+      "sha256": "d1856c2a3fb6372913028ddc67cbad39a8d1f76297114e4546f864ec43a70f30"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/scope-zhigeng.json",
+      "sha256": "d1856c2a3fb6372913028ddc67cbad39a8d1f76297114e4546f864ec43a70f30"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/ui-smoke.cjs",
+      "sha256": "bc1ae8d099322f3acb5b506a80f269e8bd3ad6dfa2394b4301c4092d1d867a50"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/ui-smoke.json",
+      "sha256": "9b566835c0ce6dd0ee78b9115bada02df9fe73225a2a8ee9e5c4e0ff8aa2226c"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/validate.js",
+      "sha256": "680b47ac96c591a93e4ab8e02ba9ea8c3b7480c2725e046fb3eaea60f2bbd9f4"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/validation-diandian.json",
+      "sha256": "84d6cea93911a3c5ed1d0fb664621cc89c420f3ed0aaa322705172cc7c88df4d"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/validation-zhigeng.json",
+      "sha256": "d3e9601b060dd324b79f2bd6522e1bbbacd11f71f975dfd1c3394012bc250a8d"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/zhigeng/hanyang-walk-after.png",
+      "sha256": "6bcd06631daee49b23c1add95d1545b578447ad5f6a28dbe12e2137af6543977"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/zhigeng/hanyang-walk-before.png",
+      "sha256": "8bd50cee2a8a374b14fd378e5541a06cae4e28de68621755f15b1b1b0370bffb"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/zhigeng/hanyang-walk.json",
+      "sha256": "50018965354c94028a294f4c8bd6696008e82a3ea2462f81a3499d482812b695"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/zhigeng/qbu-idle-after.png",
+      "sha256": "5ba9e16267e17b8d624d818912d5cccf3d5e39ea19999691b959e9b652da1841"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/zhigeng/qbu-idle-before.png",
+      "sha256": "227486ef7ff4c5173655e1a283a0ad7bc0800fa1010fe3d59a6b47d175c50d10"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/zhigeng/qbu-idle.json",
+      "sha256": "ee117231b0414bc5ed501babf599800c2dbcd4757075fb99f3d430cc7499458c"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/zhigeng/qbu-run-after.png",
+      "sha256": "410f2971236cb11f6a0f23216c1a5704094147a9ec517ecf851d68ea390b25ff"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/zhigeng/qbu-run-before.png",
+      "sha256": "37693e89f5ab15312f76d05dd9aefdfa2ea284629cf5bc605db5904602c0fef1"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/zhigeng/qbu-run.json",
+      "sha256": "41f7734772dd69fb8c499cee4ab8a5e334e7ae885cbccf59ed74fce7a8c1de96"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/zhigeng/qcq-aim-after.png",
+      "sha256": "37b36e271b1d101ac05797cac6688e5fd493a99fc8d42aec961babe2ce0926ce"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/zhigeng/qcq-aim-before.png",
+      "sha256": "eaaf1a31bad1e7ffd6835f8bb755699edabde43c3878529a216d36e183154a5e"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/zhigeng/qcq-aim.json",
+      "sha256": "8f045447c116506e9d702113b37794a6e80bbaf47c36bd3a318ac7241f13f6e3"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/zhigeng/qcq-idle-after.png",
+      "sha256": "3977fbb8446a82c1198ac7282d9dd47283c6af48ebf02419112f1d06e9295a93"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/zhigeng/qcq-idle-before.png",
+      "sha256": "30c34c15d8d4f49e7f38c12579a40be5d04ade596d30a57bf5de565dca574cef"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/zhigeng/qcq-idle.json",
+      "sha256": "3a02ff29bea873e0170619d7a3df3c999d70704bad59d352ebe145118c7d422f"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/zhigeng/type97-aim-after.png",
+      "sha256": "e900896e2d3503070591ec09480cf2e203b2116fe752c4cd47f40ae4ace95460"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/zhigeng/type97-aim-before.png",
+      "sha256": "225a419a9af4b095b918de1687f666f70734906d043ad7a7814419647ec767b9"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/zhigeng/type97-aim.json",
+      "sha256": "1e76122fb6c69ff6cfa6f9a911bca5c2840d304fb65896d79d38c2f53794446a"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/zhigeng/type97-side-after.png",
+      "sha256": "12cf005f8059df9a446d1258cd09b87ea2df03621609d8a997bc3f7ab326befb"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/zhigeng/type97-side-before.png",
+      "sha256": "e93c6dadfbbf8ee2b68b56a5022164320ae27efd3e63d2ec6631b405fff6f5bc"
+    },
+    {
+      "path": "web/motion-labs/verification_r33/zhigeng/type97-side.json",
+      "sha256": "1e76122fb6c69ff6cfa6f9a911bca5c2840d304fb65896d79d38c2f53794446a"
+    },
+    {
       "path": "web/motion-labs/zhigeng-motion-lab/app.js",
-      "sha256": "b8f2a40c758410fc6d0f570729e3ef8aed9a8045c3e61ae68d360ad636d7313b"
+      "sha256": "ef35b74d1a75e4ae075a6368b03d1b0a3a30f2ef1fa1403c29334424e33e97a5"
     },
     {
       "path": "web/motion-labs/zhigeng-motion-lab/assets/leon_pistol_animations.glb",
@@ -393,7 +1609,7 @@
     },
     {
       "path": "web/motion-labs/zhigeng-motion-lab/assets/weapon_attachment.json",
-      "sha256": "b3b37939547752ae44bf157cde770b4b1561e4d57ac426ff508fca81c5888248"
+      "sha256": "7b05998a4d2d1f754052666a4a4ee34374aa7fa151697a37bd93b75acd1bf3ed"
     },
     {
       "path": "web/motion-labs/zhigeng-motion-lab/assets/weapon_catalog.json",
@@ -456,12 +1672,16 @@
       "sha256": "559d746eef3104530a3446207e53676b10b1cf12b67a786e70aa19bbd8b6970b"
     },
     {
+      "path": "web/motion-labs/zhigeng-motion-lab/chest-skinning.js",
+      "sha256": "c3a323f7adf6cc934cfb693639f91e799069b4723c8c100cf4a0ffbf6f09e848"
+    },
+    {
       "path": "web/motion-labs/zhigeng-motion-lab/favicon.svg",
       "sha256": "c8f4e184580774a29609e7e7bfc72a33cdf8dd80bd815e878501471073e6bb7a"
     },
     {
       "path": "web/motion-labs/zhigeng-motion-lab/index.html",
-      "sha256": "7fa43a881a6101445484319b40f28f5f0c510795ce1dfe7dd045ef82792623d5"
+      "sha256": "cb832237849011c5da2cedd7891206a423ae0eeb243838dff3fc0c8c5cf29f26"
     },
     {
       "path": "web/motion-labs/zhigeng-motion-lab/ponytail-physics.js",
@@ -473,7 +1693,7 @@
     },
     {
       "path": "web/motion-labs/zhigeng-motion-lab/type97-motion.js",
-      "sha256": "61cf6d31f012d813f3eb4e94f5ecff03addc9c2379efbb8e387a78e525ab3899"
+      "sha256": "03a49ca96092f0abe3cc27f6e1e40c5d2dc0755488bbbea3fc73a4f082bbe51b"
     },
     {
       "path": "web/motion-labs/zhigeng-motion-lab/vendor/BufferGeometryUtils.js",
@@ -501,379 +1721,38 @@
     },
     {
       "path": "web/motion-labs/zhigeng-motion-lab/weapon-attachment.js",
-      "sha256": "f8ed91ba0a770e1570853fd051ce2d07ee978393e5d70745b2cec9facc0b40ef"
-    },
-    {
-      "path": "web/motion-labs/verification_r24/README.md",
-      "sha256": "3b1e6b854811ada8a769470b7e2541992ce984bf2272ba4eae1758eb22cfb859"
-    },
-    {
-      "path": "web/motion-labs/verification_r24/diandian_full.png",
-      "sha256": "41a6ed891fe9b386257da8cac00cdb84f8d7db4c4b1434fd2887848e68bdd4e6"
-    },
-    {
-      "path": "web/motion-labs/verification_r24/diandian_left_hand.png",
-      "sha256": "7a6352577021d19ec7d5ed9b6c0038ceb0327acf15984d9386bf9e4c3e649611"
-    },
-    {
-      "path": "web/motion-labs/verification_r24/diandian_right_side.png",
-      "sha256": "3a9e2dd3d3a8e0c5de42c2b8ec7b193b4eb470d053670cdedc464b79e1c6fcf8"
-    },
-    {
-      "path": "web/motion-labs/verification_r24/type97-validation.json",
-      "sha256": "a166127e9e3a6e383386512d5f3f0781e307cda733f9f052a5ab9626026e6f6d"
-    },
-    {
-      "path": "web/motion-labs/verification_r24/deployment.json",
-      "sha256": "fe58b7102b0fd3ed37d5956b3853efe96466633205d3efd345188192df67b40f"
-    },
-    {
-      "path": "web/motion-labs/verification_r25/idle-above.png",
-      "sha256": "4c3ee67dbc4272596685748cba1c80e4449200c947ac5afe55d3a8cb980bc2ce"
-    },
-    {
-      "path": "web/motion-labs/verification_r25/idle-front.png",
-      "sha256": "fb8bc28e39f155c4dc868ce6cdec6419911324d803d117974b7f575b0db2286c"
-    },
-    {
-      "path": "web/motion-labs/verification_r25/README.md",
-      "sha256": "96acb4c15c3e52e4e98f74caeb6cd68c2e19ad4405807738c598168a67901c51"
-    },
-    {
-      "path": "web/motion-labs/verification_r25/idle-side.png",
-      "sha256": "03336c3039f7de87d9daba1250a994ecf4d30f7fa752ad3309478ac60bb2aca5"
-    },
-    {
-      "path": "web/motion-labs/verification_r25/idle-validation.json",
-      "sha256": "4d405575691e552da3efe6dc87ba6f704522c3023158f572e372f3ccec6cfee8"
-    },
-    {
-      "path": "web/motion-labs/verification_r25/deployment.json",
-      "sha256": "8d4c850d09ea05592d337e26bf917a07fd346b9d44cae35389e0efee56cc8326"
-    },
-    {
-      "path": "web/motion-labs/verification_r26/README.md",
-      "sha256": "dda5ba83111b64bffa45440ad63a0b7b5b69bb08b5a5439cca2fe4085a2d9af6"
-    },
-    {
-      "path": "web/motion-labs/verification_r26/walk-quarter.png",
-      "sha256": "f4389b526df58913fdfb6dcdd07d1efcbd660b855615ea68938cbd16c99533ce"
-    },
-    {
-      "path": "web/motion-labs/verification_r26/walk-front.png",
-      "sha256": "001a3cf60c8f36a7867c8c5354d895df771f80fd79553fa402f9da17f3daf0c9"
-    },
-    {
-      "path": "web/motion-labs/verification_r26/walk-regression.json",
-      "sha256": "738b625ff1d9f1afb36889ce01d15b98cdc6e4164643ce15bfb4be534dae9221"
-    },
-    {
-      "path": "web/motion-labs/verification_r26/approved-idle-mount.json",
-      "sha256": "8facf14495034215739529cc82ae6a9debd6d9a968b4e989f6c89ab99494036a"
-    },
-    {
-      "path": "web/motion-labs/verification_r26/idle-validation.json",
-      "sha256": "b0595938b23dd3f88cec78e1e566da31604f2e16399edd3da00541d7352f3f8b"
-    },
-    {
-      "path": "web/motion-labs/verification_r26/walk-patch.json",
-      "sha256": "93544622a2a162713b8fa79dc433faf7ab854b9e2173985ec0fb6eac5419ee92"
-    },
-    {
-      "path": "web/motion-labs/verification_r26/idle-restored.png",
-      "sha256": "3b65166df6323115e3b0fc4cce7584042e36531389395048389aa1fda6c854b6"
-    },
-    {
-      "path": "web/motion-labs/verification_r26/walk-validation.json",
-      "sha256": "7bde07af348e268a9560c33fb2d9c1ce8e085e6f7d0b0889a66ff046ae1738e2"
-    },
-    {
-      "path": "web/motion-labs/verification_r26/walk-side.png",
-      "sha256": "d23b7168f0b37659969f979345db340b1d374a00f9932f4b1a6268cbf67e9507"
-    },
-    {
-      "path": "web/motion-labs/verification_r26/deployment.json",
-      "sha256": "baef745a778c4f761df7276a2af605993c9c4f643ec05dba58d498567a864034"
-    },
-    {
-      "path": "web/motion-labs/verification_r27/after-RifleIdle-side.png",
-      "sha256": "b7aa5e3797a0efa60d5ca8f68d9b97ddf7401992cbe6bfe7e489b8463e64c20a"
-    },
-    {
-      "path": "web/motion-labs/verification_r27/before-RifleIdle-side.png",
-      "sha256": "8e8bbd9647193ff5d8df229e03889e14ecf0aa0b2201751b84269563e5e4d790"
-    },
-    {
-      "path": "web/motion-labs/verification_r27/README.md",
-      "sha256": "3646b6c2869a7ef1e74fc41041d1a58df96ee3cb3382faa116b17084ceba1401"
-    },
-    {
-      "path": "web/motion-labs/verification_r27/patch.json",
-      "sha256": "7152c4206cc991266fbe0c97beb169918c4ce7cacbcf88696c056ffa439b71ad"
-    },
-    {
-      "path": "web/motion-labs/verification_r27/before-RifleIdle-top.png",
-      "sha256": "e6f9582c7f6a22206053891f0514770b2803aae00133df56c121fa9caf3fac0f"
-    },
-    {
-      "path": "web/motion-labs/verification_r27/after-RifleWalk-top.png",
-      "sha256": "c9515d6bfecbb051bed298015ebd7fc20207b9225bebaf095150600e3c03686e"
-    },
-    {
-      "path": "web/motion-labs/verification_r27/before-RifleWalk-top.png",
-      "sha256": "3071389ae15304d6c19c8d9127fc21a8278a451e4390e917c802c6f6ec4ad600"
-    },
-    {
-      "path": "web/motion-labs/verification_r27/before-RifleWalk-side.png",
-      "sha256": "9c62ae992be7b22e8f9c34523386a832e3be68e236114b4f211338b401e0335b"
-    },
-    {
-      "path": "web/motion-labs/verification_r27/after-RifleIdle-top.png",
-      "sha256": "6850b0653fa9be640d1ba6da4e4134bb20be62db548b7925edcc6d7c555f6996"
-    },
-    {
-      "path": "web/motion-labs/verification_r27/validation.json",
-      "sha256": "26ccc6cd320a4a7329c23a42b247d6f58477c012677a3dd23c56036fe9f1adb4"
-    },
-    {
-      "path": "web/motion-labs/verification_r27/after-RifleWalk-side.png",
-      "sha256": "be4331e413c3d0c2f5bb70f937596bc041275d178e3e65c1b7dfa06e90f65b8f"
-    },
-    {
-      "path": "web/motion-labs/verification_r27/deployment.json",
-      "sha256": "21d46602d5b9a1b93058649044c2ba78584a0df4db2fa607735370a32ffa5dd8"
-    },
-    {
-      "path": "web/motion-labs/verification_r28/walk-type56_1-front.png",
-      "sha256": "10394d43591f5fb4550a8df72da89a7f36a9ecaa5c17f410d7b3c8470495f4ba"
-    },
-    {
-      "path": "web/motion-labs/verification_r28/idle-type56_1-top.png",
-      "sha256": "3e9508e21dc7bdde505dc5d027ed2b98f09bb06a767619bd238a79c4fbfccfa8"
-    },
-    {
-      "path": "web/motion-labs/verification_r28/walk-type97hawk-top.png",
-      "sha256": "afaedb12e74161fa3df07b0de9fae77d0f275283b08ac7fa445545ef30f83a12"
-    },
-    {
-      "path": "web/motion-labs/verification_r28/README.md",
-      "sha256": "0cd827873b76824e0f08158782763073ffd04c376fdd3baa733e88fbe5f858c7"
-    },
-    {
-      "path": "web/motion-labs/verification_r28/walk-type56_1-top.png",
-      "sha256": "f3abd64fe4e7e9a38173bb55a05fe0240b5abf753da5539a1a4678eab6636fe7"
-    },
-    {
-      "path": "web/motion-labs/verification_r28/idle-candidate.json",
-      "sha256": "cd5c1c58c7ea0b2b800deb272e17390f909840b6d2b4fd631a29e9cec780a782"
-    },
-    {
-      "path": "web/motion-labs/verification_r28/idle-type97hawk-front.png",
-      "sha256": "7f5ec09d3fa5451dda9e6651350a92e84f9e8f8ff217d9819dc344628fb00a6e"
-    },
-    {
-      "path": "web/motion-labs/verification_r28/idle-type97hawk-top.png",
-      "sha256": "4daaf42061b6389adb416806d69d38ab3e44b2d2382eeda328639e4810f51bc8"
-    },
-    {
-      "path": "web/motion-labs/verification_r28/idle-type56_1-front.png",
-      "sha256": "4486942da289d9199cf250a0d31a75c84e15a29eda36cf0724cebb6569d3f350"
-    },
-    {
-      "path": "web/motion-labs/verification_r28/walk-type97hawk-front.png",
-      "sha256": "7d7ed7700fa3181bd57eb803e433ad20211307cf3475c4278cb3cba6a3f59169"
-    },
-    {
-      "path": "web/motion-labs/verification_r28/idle-validation.json",
-      "sha256": "50b5e76693fcd32e27ecb525f8a64e0fe6dfcdb4541b974de23cbe39dff8d7da"
-    },
-    {
-      "path": "web/motion-labs/verification_r28/walk-patch.json",
-      "sha256": "9f9df5509c62b9155aaab496441835fb80cfc64dc1d8c2d51f4a610880ff982e"
-    },
-    {
-      "path": "web/motion-labs/verification_r28/walk-validation.json",
-      "sha256": "d67d83b8efe2c7da956f27f817b7dcf972af165acf6a8f6e0bd72076a8143bf8"
-    },
-    {
-      "path": "web/motion-labs/verification_r28/deployment.json",
-      "sha256": "30335e5552313ef4ef566d0f754e0ba13ae20a2033e96e45fa97c65e7751d4d6"
-    },
-    {
-      "path": "web/motion-labs/verification_r29/qa-RifleIdle-front-type97hawk.png",
-      "sha256": "e86b06442a31ad22d151a0a5800c7c89655b7e3d004194aa595cd36e624f8243"
-    },
-    {
-      "path": "web/motion-labs/verification_r29/qa-RifleWalk-top-type97hawk.png",
-      "sha256": "6bf86fd22f06f7258d43ba8122f774d6c708b0efc6dbeced815343d8520e5398"
-    },
-    {
-      "path": "web/motion-labs/verification_r29/independent-review.md",
-      "sha256": "af07fccf66c36dda3aab272195cc27b87dd5f819f692029f88154c4a8b7096da"
-    },
-    {
-      "path": "web/motion-labs/verification_r29/qa-RifleIdle-maxwrist-side.png",
-      "sha256": "de9534cb4d8019b5ac859241ff2799b1f7ba5f563ca4e052669ade5540e6b90e"
-    },
-    {
-      "path": "web/motion-labs/verification_r29/qa-RifleIdle-side-type56_1.png",
-      "sha256": "2578ba4fa09d61fc9dbd957b380d24777f400cdd5fd80f3c91de272113d87da4"
-    },
-    {
-      "path": "web/motion-labs/verification_r29/qa-RifleWalk-maxwrist-side.png",
-      "sha256": "f8fb51c5fc6131404d07a5a21e3b8fe3d15fbd9cd38262183910b8e15ee1d446"
-    },
-    {
-      "path": "web/motion-labs/verification_r29/qa-RifleIdle-front-type56_1.png",
-      "sha256": "5322dfc2bf7b64be9c938c23203d1d3aeb3addcc76d61f0d377e08327d4fec53"
-    },
-    {
-      "path": "web/motion-labs/verification_r29/README.md",
-      "sha256": "37bb053aedce74201f0d4a786b420cd92836e71decf755730f8d29dcbf7e3f3f"
-    },
-    {
-      "path": "web/motion-labs/verification_r29/qa-RifleWalk-front-type56_1.png",
-      "sha256": "3631fd5b0efc19558a8d74caefc174c933508dc29b34ca3c5668e45ba7c5f825"
-    },
-    {
-      "path": "web/motion-labs/verification_r29/qa-RifleIdle-side-type97hawk.png",
-      "sha256": "c1cc891df266713fa4110633cc5f5550fefde893711f63fef2ab2f4fb86e7a32"
-    },
-    {
-      "path": "web/motion-labs/verification_r29/qa-RifleWalk-side-type97hawk.png",
-      "sha256": "15e4a63980d986f47594eb88d7096e3410142261b234489b36640d0b62531bde"
-    },
-    {
-      "path": "web/motion-labs/verification_r29/qa-RifleWalk-side-type56_1.png",
-      "sha256": "3105b69697d3c744962335abff87d6015ad1614098414852aac4ba86ccfff0f8"
-    },
-    {
-      "path": "web/motion-labs/verification_r29/qa-RifleWalk-front-type97hawk.png",
-      "sha256": "4a293bacdc5418f4945eba96a29a66ed356bdfd5b4781e6068924b3abe20e884"
-    },
-    {
-      "path": "web/motion-labs/verification_r29/qa-RifleWalk-top-type56_1.png",
-      "sha256": "f0a57b3c282ecf6df8974bac4f064599ccd06708647c14b045541abd94011806"
-    },
-    {
-      "path": "web/motion-labs/verification_r29/validation.json",
-      "sha256": "ad5e4a2b4db90c64ea219cfbd0f9812fd628e6a6e9d50cac9e91c6441f584b99"
-    },
-    {
-      "path": "web/motion-labs/verification_r29/qa-RifleIdle-top-type97hawk.png",
-      "sha256": "335129e9a763430475df016811cb1093ee31bddaf504d7d17c8c3214a143d06b"
-    },
-    {
-      "path": "web/motion-labs/verification_r29/qa-RifleIdle-top-type56_1.png",
-      "sha256": "115f481cf36969419ee23b9c3eecc3e3fc1ff3714060fb3c1eb37ea01603fa50"
-    },
-    {
-      "path": "web/motion-labs/verification_r29/patches.json",
-      "sha256": "85813c282b0e1023764054f95a2d8aab1a9ee93d3021cae89a6d1adc058d6ebd"
-    },
-    {
-      "path": "web/motion-labs/verification_r29/deployment.json",
-      "sha256": "c563052d0b5e5a04bcc345a402854170d10515a6839f9dfe0dea955245468b22"
-    },
-    {
-      "path": "web/motion-labs/verification_r30/README.md",
-      "sha256": "dea31761dd5575c9a0fb9945fe2cc79115cc246e7ca5e71c3b20353b73000d8a"
-    },
-    {
-      "path": "web/motion-labs/verification_r30/diandian/render-front-candidate-0.17.png",
-      "sha256": "6fe45bb9aeefc878b53da4ebf692c782268a83e487bfeeb4197e46439dc68462"
-    },
-    {
-      "path": "web/motion-labs/verification_r30/diandian/render-top-candidate-0.17.png",
-      "sha256": "ec453c347e971f82b21fd43b7b224dbd6cd1ed5f1e4d59e4bdada5653d14239b"
-    },
-    {
-      "path": "web/motion-labs/verification_r30/diandian/render-top-reference-0.17.png",
-      "sha256": "13c8c0cfd594c67c1591f2b4583e3269c5f41e79b448b6ae8a8515e06f55c7ce"
-    },
-    {
-      "path": "web/motion-labs/verification_r30/diandian/report.md",
-      "sha256": "9664aefff067059af344f1b1fe53e9ad8ca97686e9d6f7c36c1ebb40f110c949"
-    },
-    {
-      "path": "web/motion-labs/verification_r30/diandian/run-patch.json",
-      "sha256": "13719ef6033518a7c1f8e67d3b46634a92405a7af56651a109a790427b6a1c00"
-    },
-    {
-      "path": "web/motion-labs/verification_r30/diandian/render-side-reference-0.17.png",
-      "sha256": "3960f16902f3c97f57ed1b6f6291801a056d5aab731ec1f8c86b90a54505e77f"
-    },
-    {
-      "path": "web/motion-labs/verification_r30/diandian/validation.json",
-      "sha256": "f02b3363b65a1f7cd06b990d492e3b56babe317b150d7f10b64f7109c7e11576"
-    },
-    {
-      "path": "web/motion-labs/verification_r30/diandian/render-side-candidate-0.17.png",
-      "sha256": "f9fef731e521cb7257c19b740ef1adec70f8819df28e1714e87c0f34d5c6173e"
-    },
-    {
-      "path": "web/motion-labs/verification_r30/diandian/render-front-reference-0.17.png",
-      "sha256": "4276f80efd1754dba3fac0e6eb215ea004c43f8784c322963fe5c292e5e2fe32"
-    },
-    {
-      "path": "web/motion-labs/verification_r30/zhigeng/front-type56_1-0.167.png",
-      "sha256": "bef7985c551217687384aec5053585bae20e33bcbbdd3dcee94ffd8d0b40b9c2"
-    },
-    {
-      "path": "web/motion-labs/verification_r30/zhigeng/side-type97hawk-0.167.png",
-      "sha256": "6e469143b650a060940cde22079becb7e3dd2f1291406d3526851243d792eac3"
-    },
-    {
-      "path": "web/motion-labs/verification_r30/zhigeng/side-type56_1-0.167.png",
-      "sha256": "7fb07e91b92965014ceba5a1d898265a7c4c0a1904fe6f37f992e899817bfe94"
-    },
-    {
-      "path": "web/motion-labs/verification_r30/zhigeng/report.md",
-      "sha256": "e2385d50676f6010cfe44012c29d5a5101ea8ebe1fc5664d27bf02f35ceeb59a"
-    },
-    {
-      "path": "web/motion-labs/verification_r30/zhigeng/front-type97hawk-0.167.png",
-      "sha256": "2f60d8fee1fb6a0e33082ebe7ccce053692583ce2074a9559ec90a1eac850e70"
-    },
-    {
-      "path": "web/motion-labs/verification_r30/zhigeng/run-patch.json",
-      "sha256": "c44d802759546ab2daacef7fa8046702a09ab3eb8c014c72d0f358aaaa885c57"
-    },
-    {
-      "path": "web/motion-labs/verification_r30/zhigeng/validation.json",
-      "sha256": "84161a4ebc7f0c3840bc6d9ffabdab63dd7a77ffcbb535c942441b6263c464a4"
-    },
-    {
-      "path": "web/motion-labs/verification_r30/zhigeng/top-type56_1-0.167.png",
-      "sha256": "ef0f7593c84f30487492565494779edff867f20b04ae56bdb16e16e1ed8f9001"
-    },
-    {
-      "path": "web/motion-labs/verification_r30/zhigeng/top-type97hawk-0.167.png",
-      "sha256": "e6d07ed6eed63bf29652d61fb5c6853c19bd5d58df872401e77d673870a39bcb"
-    },
-    {
-      "path": "web/motion-labs/verification_r30/diandian/deployment.json",
-      "sha256": "3cfb569835dbf4bc33ac2a37ac654bfb4af3c8b6a1bbccb31e17f471580542e4"
-    },
-    {
-      "path": "web/motion-labs/verification_r30/zhigeng/deployment.json",
-      "sha256": "26fe0b98aca2f0bfa3e71185edefefc556c3fb420c05322319b982e63eb2d41f"
+      "sha256": "23a48cc518ea431607c18850a3c38985f835067f8382fd99d4dd765f863f3f7c"
     }
   ],
   "source_alignment": {
     "diandian": {
-      "runtime_revision": 30,
+      "runtime_revision": 33,
       "repository_character_asset_revision": 23,
       "hosted_character_asset_base_version": 32,
-      "note": "Web model and runtime match the deployed source; historical downloads are not included.",
-      "fixed_character_asset_matches_hosted": true
+      "note": "Revision 33 deployed to Sites and synchronized to GitHub.",
+      "fixed_character_asset_matches_hosted": true,
+      "hosted_runtime_revision": 33,
+      "runtime_matches_hosted": true,
+      "changed_this_revision": true
     },
     "zhigeng": {
-      "runtime_revision": 30,
+      "runtime_revision": 33,
       "repository_character_asset_revision": 22,
       "hosted_character_asset_base_version": 27,
       "fixed_character_asset_matches_hosted": true,
-      "changed_this_revision": true
+      "changed_this_revision": true,
+      "hosted_runtime_revision": 33,
+      "runtime_matches_hosted": true,
+      "note": "Revision 33 deployed to Sites and synchronized to GitHub."
     }
+  },
+  "local_changes": {
+    "runtime_revision": 33,
+    "baseline_commit": "aff56fbd32bc5fddc41d5abde063cd9bc4050bde",
+    "committed": true,
+    "pushed_to_github": true,
+    "deployed": true,
+    "verification": "web/motion-labs/verification_r33/README.md",
+    "baseline_runtime_revision": 32
   }
 }

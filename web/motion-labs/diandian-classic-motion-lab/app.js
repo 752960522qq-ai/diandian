@@ -1,8 +1,8 @@
 import * as THREE from 'three';
-import { installType97Motions } from './type97-motion.js?v=clothing-r23';
+import { installType97Motions } from './type97-motion.js?v=grip-r31';
 import { GLTFLoader } from './vendor/GLTFLoader.js';
 import { OrbitControls } from './vendor/OrbitControls.js';
-import { WeaponAttachment } from './weapon-attachment.js?v=type97-grip-r24';
+import { WeaponAttachment } from './weapon-attachment.js?v=grip-r33';
 
 const $ = (selector) => document.querySelector(selector);
 const motionLabels = {};
@@ -87,7 +87,7 @@ const shotgunMotions = [
   {name: 'ShotgunAimDown', label: '下瞄极限', loop: true, shotgun_only: true, pitch_only: true},
   {name: 'ShotgunPump', label: '霰弹枪拉泵', loop: false, shotgun_only: true}
 ];
-const usesPitchAim = () => isShotgun() && !weaponConfig?.weapons[state.weapon]?.hybrid_left_actions;
+const usesPitchAim = () => isShotgun() && !weaponConfig?.weapons[state.weapon]?.hybrid_upper_actions;
 const isShotgun = () => weaponConfig?.weapons[state.weapon]?.type === 'shotgun';
 function optionsFor(name) {
   const options = motionOptions[name] || {};
@@ -287,7 +287,7 @@ function refreshMotionLabels() {
     if (label) label.textContent = displayMotionLabel(button.dataset.motion);
     const captions = {RifleAimingIdle: '可调俯仰 · 动态混合', ShotgunAimUp: '俯仰上限 · 原始端点', ShotgunAimDown: '俯仰下限 · 原始端点', ShotgunAimLevel: '水平 0° · 独立姿态', ShotgunPump: '单次 · 拉泵及复位', FiringRifle: '单次 · 后坐力', Reloading: '完整装填'};
     const caption = button.querySelector('small');
-    if (caption) caption.textContent = isShotgun() && (!weaponConfig.weapons[state.weapon].hybrid_left_actions || ['FiringRifle','ShotgunPump'].includes(button.dataset.motion)) && captions[button.dataset.motion] || button.dataset.caption;
+    if (caption) caption.textContent = isShotgun() && (!weaponConfig.weapons[state.weapon].hybrid_upper_actions || ['FiringRifle','ShotgunPump'].includes(button.dataset.motion)) && captions[button.dataset.motion] || button.dataset.caption;
     button.hidden = (!!motionOptions[button.dataset.motion]?.shotgun_only && !isShotgun()) || (!!motionOptions[button.dataset.motion]?.pitch_only && !usesPitchAim());
     button.disabled = !actionFor(models.get('fixed'), button.dataset.motion);
   });
@@ -311,7 +311,7 @@ function selectWeapon(id, switchMotion = true) {
 }
 
 async function equipWeapons() {
-  const config = await fetch('./assets/weapon_attachment.json?v=type97-run-r30').then(r => r.json());
+  const config = await fetch('./assets/weapon_attachment.json?v=grip-r33').then(r => r.json());
   weaponConfig = config;
   const scenes = new Map(await Promise.all(Object.keys(config.weapons).map(async id => {
     const gltf = await loader.loadAsync('./assets/weapons/' + id + '.glb?v=clothing-r23');

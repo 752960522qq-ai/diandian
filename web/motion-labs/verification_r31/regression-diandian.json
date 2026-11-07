@@ -1,0 +1,526 @@
+{
+  "character": "diandian",
+  "passed": true,
+  "unchangedPoses": [
+    {
+      "weapon": "qsz92",
+      "motion": "PistolIdle",
+      "time": 0,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qsz92",
+      "motion": "PistolIdle",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qsz92",
+      "motion": "PistolAimingIdle",
+      "time": 0,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qsz92",
+      "motion": "PistolAimingIdle",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qsz92",
+      "motion": "PistolWalk",
+      "time": 0,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qsz92",
+      "motion": "PistolWalk",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type54",
+      "motion": "PistolIdle",
+      "time": 0,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type54",
+      "motion": "PistolIdle",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type54",
+      "motion": "PistolAimingIdle",
+      "time": 0,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type54",
+      "motion": "PistolAimingIdle",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type54",
+      "motion": "PistolWalk",
+      "time": 0,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type54",
+      "motion": "PistolWalk",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "RifleIdle",
+      "time": 0,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "RifleIdle",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "RifleWalk",
+      "time": 0,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "RifleWalk",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "RifleRun",
+      "time": 0,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "RifleRun",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "RifleAimingIdle",
+      "time": 0,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "RifleAimingIdle",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "FiringRifle",
+      "time": 0,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "FiringRifle",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "Reloading",
+      "time": 0,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "Reloading",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "winchester1897",
+      "motion": "RifleIdle",
+      "time": 0,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "winchester1897",
+      "motion": "RifleIdle",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "winchester1897",
+      "motion": "RifleWalk",
+      "time": 0,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "winchester1897",
+      "motion": "RifleWalk",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "winchester1897",
+      "motion": "RifleRun",
+      "time": 0,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "winchester1897",
+      "motion": "RifleRun",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "winchester1897",
+      "motion": "RifleAimingIdle",
+      "time": 0,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "winchester1897",
+      "motion": "RifleAimingIdle",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "winchester1897",
+      "motion": "FiringRifle",
+      "time": 0,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "winchester1897",
+      "motion": "FiringRifle",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "winchester1897",
+      "motion": "Reloading",
+      "time": 0,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "winchester1897",
+      "motion": "Reloading",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "RifleIdle",
+      "time": 0,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "RifleIdle",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "RifleWalk",
+      "time": 0,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "RifleWalk",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "RifleRun",
+      "time": 0,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "RifleRun",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "RifleAimingIdle",
+      "time": 0,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "RifleAimingIdle",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "Reloading",
+      "time": 0,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "Reloading",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "c96",
+      "motion": "RifleAimingIdle",
+      "time": 0,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "c96",
+      "motion": "RifleAimingIdle",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "c96",
+      "motion": "FiringRifle",
+      "time": 0,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "c96",
+      "motion": "FiringRifle",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "c96",
+      "motion": "Reloading",
+      "time": 0,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "c96",
+      "motion": "Reloading",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleIdle",
+      "time": 0,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleIdle",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleWalk",
+      "time": 0,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleWalk",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleRun",
+      "time": 0,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleRun",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "Reloading",
+      "time": 0,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "Reloading",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "hanyang88",
+      "motion": "Reloading",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "Reloading",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "Reloading",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleWalk",
+      "time": 0.2,
+      "maxComponentDifference": 0,
+      "pass": true
+    }
+  ],
+  "type56Grip": [
+    {
+      "motion": "RifleIdle",
+      "weaponPositionDifference": 0,
+      "weaponAngleDifference": 0,
+      "handOffsetWeaponM": [
+        2.476822200156306e-8,
+        -9.57369579278378e-10,
+        0.020000009820727326
+      ],
+      "leftArmDifference": 0,
+      "baselineSupportErrorM": 2.102460111934315e-8,
+      "supportErrorM": 2.102460111934315e-8,
+      "pass": true
+    },
+    {
+      "motion": "RifleWalk",
+      "weaponPositionDifference": 0,
+      "weaponAngleDifference": 4.2146848510894035e-8,
+      "handOffsetWeaponM": [
+        9.355186081917067e-9,
+        7.113678783099203e-9,
+        0.020000009831182476
+      ],
+      "leftArmDifference": 0,
+      "baselineSupportErrorM": 1.8384659429798046e-8,
+      "supportErrorM": 1.8384659429798046e-8,
+      "pass": true
+    },
+    {
+      "motion": "RifleRun",
+      "weaponPositionDifference": 0,
+      "weaponAngleDifference": 0,
+      "handOffsetWeaponM": [
+        6.174948371965742e-9,
+        6.141991890536531e-9,
+        0.02000001997842594
+      ],
+      "leftArmDifference": 0,
+      "baselineSupportErrorM": 0.03931779907418781,
+      "supportErrorM": 0.03931779907418781,
+      "pass": true
+    },
+    {
+      "motion": "RifleAimingIdle",
+      "weaponPositionDifference": 0,
+      "weaponAngleDifference": 4.2146848510894035e-8,
+      "handOffsetWeaponM": [
+        7.911880706909875e-9,
+        -8.065478842135201e-9,
+        0.02000000324591733
+      ],
+      "leftArmDifference": 0,
+      "baselineSupportErrorM": 5.2700025113005035e-8,
+      "supportErrorM": 5.2700025113005035e-8,
+      "pass": true
+    },
+    {
+      "motion": "FiringRifle",
+      "weaponPositionDifference": 0,
+      "weaponAngleDifference": 2.9802322387695312e-8,
+      "handOffsetWeaponM": [
+        1.3833258177166003e-10,
+        -4.885346424999282e-9,
+        0.020000001681110074
+      ],
+      "leftArmDifference": 0,
+      "baselineSupportErrorM": 2.48120957373894e-8,
+      "supportErrorM": 2.48120957373894e-8,
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "character": "zhigeng",
+  "passed": true,
+  "method": "Gun triangle distances to sampled tapered arm centerlines; a conservative geometric proxy, not a proof of all skin/cloth contacts.",
+  "rows": [
+    {
+      "weapon": "hanyang88",
+      "motion": "RifleIdle",
+      "samples": 289,
+      "foreMinM": 0.008118044097080057,
+      "foreTime": 5.566666603088379,
+      "upperMinM": 0.01471198144207847,
+      "upperTime": 6.03166651725769,
+      "pass": true
+    },
+    {
+      "weapon": "hanyang88",
+      "motion": "RifleWalk",
+      "samples": 91,
+      "foreMinM": 0.013172558710298498,
+      "foreTime": 0.03333333507180214,
+      "upperMinM": 0.032226542159998935,
+      "upperTime": 0.20000000298023224,
+      "pass": true
+    },
+    {
+      "weapon": "hanyang88",
+      "motion": "RifleRun",
+      "samples": 78,
+      "foreMinM": 0.006867298916381742,
+      "foreTime": 0.10000000149011612,
+      "upperMinM": 0.054558921196379825,
+      "upperTime": 0.10000000149011612,
+      "pass": true
+    },
+    {
+      "weapon": "hanyang88",
+      "motion": "RifleAimingIdle",
+      "samples": 151,
+      "foreMinM": 0.022983255921553647,
+      "foreTime": 0.800000011920929,
+      "upperMinM": 0.002378170793051429,
+      "upperTime": 0.1666666716337204,
+      "pass": true
+    },
+    {
+      "weapon": "hanyang88",
+      "motion": "FiringRifle",
+      "samples": 66,
+      "foreMinM": 0.02292901402263406,
+      "foreTime": 0.10000000149011612,
+      "upperMinM": 0.002853661520658052,
+      "upperTime": 0.03333333507180214,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleIdle",
+      "samples": 317,
+      "foreMinM": 0.005557009233647919,
+      "foreTime": 5.933333396911621,
+      "upperMinM": null,
+      "upperTime": null,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleWalk",
+      "samples": 99,
+      "foreMinM": 0.019449055323761982,
+      "foreTime": 1.0333333015441895,
+      "upperMinM": null,
+      "upperTime": null,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleRun",
+      "samples": 78,
+      "foreMinM": 0.003202802736345701,
+      "foreTime": 0.46666666865348816,
+      "upperMinM": null,
+      "upperTime": null,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleAimingIdle",
+      "samples": 151,
+      "foreMinM": 0.01613853114481056,
+      "foreTime": 1.6333333253860474,
+      "upperMinM": null,
+      "upperTime": null,
+      "pass": true
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "FiringRifle",
+      "samples": 66,
+      "foreMinM": 0.017034783037699123,
+      "foreTime": 0.2666666805744171,
+      "upperMinM": null,
+      "upperTime": null,
+      "pass": true
+    },
+    {
+      "weapon": "c96",
+      "motion": "RifleIdle",
+      "samples": 317,
+      "foreMinM": 0.005924972619603924,
+      "foreTime": 0.06666667014360428,
+      "upperMinM": null,
+      "upperTime": null,
+      "pass": true
+    },
+    {
+      "weapon": "c96",
+      "motion": "RifleWalk",
+      "samples": 99,
+      "foreMinM": 0.0059249786753463075,
+      "foreTime": 0.5,
+      "upperMinM": null,
+      "upperTime": null,
+      "pass": true
+    },
+    {
+      "weapon": "c96",
+      "motion": "RifleRun",
+      "samples": 78,
+      "foreMinM": 0.007317103179080152,
+      "foreTime": 0.36666667461395264,
+      "upperMinM": null,
+      "upperTime": null,
+      "pass": true
+    },
+    {
+      "weapon": "c96",
+      "motion": "RifleAimingIdle",
+      "samples": 151,
+      "foreMinM": 0.04201602372783286,
+      "foreTime": 0.6000000238418579,
+      "upperMinM": null,
+      "upperTime": null,
+      "pass": true
+    },
+    {
+      "weapon": "c96",
+      "motion": "FiringRifle",
+      "samples": 66,
+      "foreMinM": 0.04201601935565066,
+      "foreTime": 0.2666666805744171,
+      "upperMinM": null,
+      "upperTime": null,
+      "pass": true
+    }
+  ]
+}

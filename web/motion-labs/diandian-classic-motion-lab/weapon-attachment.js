@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import { ChestSkinningRelief } from './chest-skinning.js?v=grip-r31';
 import { refineC96Rotation } from './c96-dynamics.js?v=clothing-r23';
 import { prepareC96ReloadPose, applyC96ReloadSupport } from './c96-reload.js?v=clothing-r23';
 
@@ -16,6 +17,7 @@ export class WeaponAttachment {
     this.config = config;
     this.character = config.characters[characterId];
     this.characterId = characterId;
+    this.chestSkinning = new ChestSkinningRelief(model.root, this.character.chest_skinning_relief);
     this.selectedWeapon = 'qbz95';
     this.lastRifle = 'qbz95';
     this.lastPistol = 'qsz92';
@@ -147,7 +149,7 @@ export class WeaponAttachment {
     this.solveArm('Left', target, handRotation, weight, null, twistWeight, twistReference, upperTwistWeight, elbowHandWeight, elbowOutwardWeight, upperTwistReference);
   }
 
-  solveArm(side, target, handRotation, weight = 1, elbowLift = null, twistWeight = 0, twistReference = 0, upperTwistWeight = .75, elbowHandWeight = 0, elbowOutwardWeight = 0, upperTwistReference = 0) {
+  solveArm(side, target, handRotation, weight = 1, elbowLift = null, twistWeight = 0, twistReference = 0, upperTwistWeight = .75, elbowHandWeight = 0, elbowOutwardWeight = 0, upperTwistReference = 0, elbowOffsetBody = null, elbowHintWorld = null) {
     const upper = this.bones[side + 'Arm'];
     const fore = this.bones[side + 'ForeArm'];
     const hand = this.bones[side + 'Hand'];
@@ -171,11 +173,22 @@ export class WeaponAttachment {
       const up = this.bones.Head.getWorldPosition(new THREE.Vector3()).sub(this.bones.Spine2.getWorldPosition(new THREE.Vector3())).normalize();
       bend.copy(across).multiplyScalar(side === 'Right' ? -1 : 1).addScaledVector(up, elbowLift);
     }
+    // A weapon-local hint keeps the elbow on the clear side of an open stock
+    // throughout the cycle; the analytic solve still preserves both bone lengths.
+    if (elbowHintWorld) bend.copy(elbowHintWorld).sub(shoulder);
     if (elbowHandWeight > 0) {
       const middle = this.model.bones.get('mixamorig:' + side + 'HandMiddle1');
       const handLine = middle.position.clone().normalize().applyQuaternion(handRotation);
       const idealBend = target.clone().addScaledVector(handLine, -lowerLength).sub(shoulder);
       bend.lerp(idealBend, elbowHandWeight);
+    }
+    if (elbowOffsetBody) {
+      // Small anatomical elbow offsets clear stocks/magazines without moving the grip.
+      const right = this.bones.RightArm.getWorldPosition(new THREE.Vector3()).sub(this.bones.LeftArm.getWorldPosition(new THREE.Vector3())).normalize();
+      const up = this.bones.Spine2.getWorldPosition(new THREE.Vector3()).sub(this.model.bones.get('mixamorig:Hips').getWorldPosition(new THREE.Vector3())).normalize();
+      const front = new THREE.Vector3().crossVectors(up, right).normalize();
+      const factor = bend.length() / upperLength;
+      bend.addScaledVector(right, elbowOffsetBody[0] * factor).addScaledVector(up, elbowOffsetBody[1] * factor).addScaledVector(front, elbowOffsetBody[2] * factor);
     }
     bend.addScaledVector(direction, -bend.dot(direction));
     if (bend.lengthSq() < .000001) {
@@ -291,6 +304,8 @@ export class WeaponAttachment {
     const visible = this.model.wrapper.visible && ARMED_MOTIONS.has(motion);
     for (const [id, root] of this.weapons) root.visible = visible && id === this.selectedWeapon;
     this.state = {visible, selectedWeapon:this.selectedWeapon, motion, time, actualClip:this.config.weapons[this.selectedWeapon].animation_overrides?.[motion] || motion, handScale, leftContactErrorM:0, rightContactErrorM:0, shoulderAssistDegrees:0, triggerContactErrorM:null};
+    this.chestSkinning.setEnabled(visible && ['RifleIdle', 'RifleWalk'].includes(motion) && this.config.weapons[this.selectedWeapon].type !== 'pistol');
+    this.state.chestReliefActive = this.chestSkinning.enabled;
     if (!visible) return;
 
     const id = this.selectedWeapon;
@@ -337,16 +352,23 @@ export class WeaponAttachment {
       const front = new THREE.Vector3().crossVectors(up, right).normalize();
       gun.position.addScaledVector(right, displacement.x).addScaledVector(up, displacement.y).addScaledVector(front, displacement.z);
     }
+    if (mount.weapon_offset_weapon_m) gun.position.add(vector(mount.weapon_offset_weapon_m).multiplyScalar(modelScale).applyQuaternion(gunRotation));
     if (id === 'c96' && motion === 'Reloading') prepareC96ReloadPose(this, gun, gunRotation, mount, time);
     gun.updateMatrixWorld(true);
-    if (mount.right_hand_quaternion_weapon) {
-      const rotation = gunRotation.clone().multiply(quaternion(mount.right_hand_quaternion_weapon));
-      const offset = vector(mount.right_contact_offset_native).multiplyScalar(scale * handScale);
-      const contact = gun.localToWorld(vector(mount.right_palm_target_weapon || data.right_palm_surface));
-      this.solveArm('Right', contact.clone().sub(offset.clone().applyQuaternion(rotation)), rotation, 1,
+    if (mount.right_hand_quaternion_weapon || mount.right_hand_shift_weapon_m) {
+      const calibrated = !!mount.right_hand_quaternion_weapon;
+      const rotation = calibrated ? gunRotation.clone().multiply(quaternion(mount.right_hand_quaternion_weapon)) : handRotation.clone();
+      const offset = vector(calibrated ? mount.right_contact_offset_native : (mount.palm_offset_native || this.character.palm_offset_native)).multiplyScalar(scale * handScale);
+      const contact = gun.localToWorld(vector(calibrated ? (mount.right_palm_target_weapon || data.right_palm_surface) : (mount.right_grip || data.right_grip)));
+      if (mount.right_hand_shift_weapon_m) contact.add(vector(mount.right_hand_shift_weapon_m).multiplyScalar(modelScale).applyQuaternion(gunRotation));
+      const wristTarget = contact.clone().sub(offset.clone().applyQuaternion(rotation));
+      const elbowHint = mount.right_elbow_hint_weapon_m
+        ? wristTarget.clone().add(vector(mount.right_elbow_hint_weapon_m).multiplyScalar(modelScale).applyQuaternion(gunRotation))
+        : null;
+      this.solveArm('Right', wristTarget, rotation, 1,
         mount.right_elbow_lift_ratio ?? null, mount.right_forearm_twist_weight ?? 0,
         mount.right_forearm_twist_reference_degrees ?? 0, mount.right_upper_arm_twist_weight ?? .75,
-        mount.right_elbow_from_hand_weight ?? 0, mount.right_elbow_outward_weight ?? 0);
+        mount.right_elbow_from_hand_weight ?? 0, mount.right_elbow_outward_weight ?? 0, 0, mount.right_elbow_offset_body_m, elbowHint);
       const actual = offset.applyQuaternion(hand.getWorldQuaternion(new THREE.Quaternion())).add(hand.getWorldPosition(new THREE.Vector3()));
       this.state.rightContactErrorM = actual.distanceTo(contact);
       this.state.rightPalmWorld = actual.toArray();
@@ -361,7 +383,7 @@ export class WeaponAttachment {
     const leftOffset = vector(mount.left_palm_offset_native || this.character.left_palm_offset_native).multiplyScalar(scale * handScale);
     let pumpTravel = 0;
     const pump = data.re4_shotgun || data.pump_motion;
-    if ((re4 || data.hybrid_left_actions) && motion === 'ShotgunPump' && pump?.pump_times) {
+    if ((re4 || data.hybrid_upper_actions) && motion === 'ShotgunPump' && pump?.pump_times) {
       const times = pump.pump_times;
       const sample = side => {
         const values = pump.pump_travel_m[side];
@@ -370,7 +392,7 @@ export class WeaponAttachment {
         return values.at(-1);
       };
       const pitch = THREE.MathUtils.clamp(animation.aimPitch || 0, -1, 1);
-      pumpTravel = data.hybrid_left_actions ? sample('Level') : THREE.MathUtils.lerp(sample('Level'), sample(pitch < 0 ? 'Down' : 'Up'), Math.abs(pitch));
+      pumpTravel = data.hybrid_upper_actions ? sample('Level') : THREE.MathUtils.lerp(sample('Level'), sample(pitch < 0 ? 'Down' : 'Up'), Math.abs(pitch));
     }
     for (const part of (id === 'type97hawk' ? this.type97PumpParts : this.pumpParts)) {
       // The imported model has rotated ancestors; convert gun +Z into the pump parent's frame.
@@ -453,6 +475,7 @@ export class WeaponAttachment {
   getState() { return {...this.state}; }
 
   dispose() {
+    this.chestSkinning.setEnabled(false);
     this.beforeAnimation();
     for (const root of this.weapons.values()) root.removeFromParent();
     this.weapons.clear();

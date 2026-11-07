@@ -1,0 +1,36 @@
+[
+  {
+    "character": "diandian",
+    "source_commit": "418222549ddf563a23e5b95ec9224cf02d53d887",
+    "id": "appgdep_6aeeb4ce27208191bd3a31c31d847180",
+    "project_id": "appgprj_6ae75a729d0481919ec16ab35d702896",
+    "title": "点点 · 动作校准室",
+    "version_id": "appgprj_6ae75a729d0481919ec16ab35d702896~appgver_829c1515c30481919e2fe35114dad758",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://diandian-classic-motion-lab.expert-eagle-6942.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ae75a729d0481919ec16ab35d702896",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-11-07T05:19:30.603405+00:00"
+  },
+  {
+    "character": "zhigeng",
+    "source_commit": "b95ec1f4d414345f64666065c5fca64382fcc495",
+    "id": "appgdep_6aeeb46c31988191b32fd045fc7c2233",
+    "project_id": "appgprj_6ae8624b35f881918d161516efa53f28",
+    "title": "知更 · 动作与面部校准室",
+    "version_id": "appgprj_6ae8624b35f881918d161516efa53f28~appgver_37a930f10504819180ea63e69a2b8c08",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://zhigeng-motion-lab.expert-eagle-6942.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ae8624b35f881918d161516efa53f28",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-11-07T05:17:53.854700+00:00"
+  }
+]

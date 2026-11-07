@@ -1,0 +1,120 @@
+{
+  "character": "zhigeng",
+  "passed": true,
+  "checks": [
+    {
+      "name": "Type97Fire: source tracks and duration",
+      "pass": true,
+      "detail": {
+        "duration": 0.23333333432674408,
+        "upperTracks": 159,
+        "lowerTracks": 786,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "Type97Pump: source tracks and duration",
+      "pass": true,
+      "detail": {
+        "duration": 0.7333333492279053,
+        "upperTracks": 159,
+        "lowerTracks": 786,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "Repeated poses do not accumulate",
+      "pass": true,
+      "detail": {
+        "maxComponentDifference": 0
+      }
+    },
+    {
+      "name": "Switching and seeking restores poses",
+      "pass": true,
+      "detail": {
+        "maxComponentDifference": 0
+      }
+    },
+    {
+      "name": "Pump geometry and support palm follow the same travel",
+      "pass": true,
+      "detail": {
+        "maximumTravelM": 0.04485557764618193,
+        "maxGeometryErrorM": 2.5563491628783695e-16,
+        "maxPalmErrorM": 1.3156414785206157e-7
+      }
+    },
+    {
+      "name": "Pump resets outside its action",
+      "pass": true,
+      "detail": {
+        "travel": 0
+      }
+    },
+    {
+      "name": "Chest weights remain normalized and nonnegative",
+      "pass": true,
+      "detail": {
+        "affectedVertices": 2449,
+        "badWeights": 0,
+        "maxWeightError": 4.470348358154297e-8
+      }
+    },
+    {
+      "name": "Chest relief only applies to long-gun idle and walk",
+      "pass": true,
+      "detail": [
+        {
+          "weapon": "type97hawk",
+          "motion": "RifleIdle",
+          "expected": true,
+          "enabled": true,
+          "correctBuffers": true
+        },
+        {
+          "weapon": "hanyang88",
+          "motion": "RifleWalk",
+          "expected": true,
+          "enabled": true,
+          "correctBuffers": true
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "RifleAimingIdle",
+          "expected": false,
+          "enabled": false,
+          "correctBuffers": true
+        },
+        {
+          "weapon": "c96",
+          "motion": "Reloading",
+          "expected": false,
+          "enabled": false,
+          "correctBuffers": true
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "ShotgunPump",
+          "expected": false,
+          "enabled": false,
+          "correctBuffers": true
+        },
+        {
+          "weapon": "qsz92",
+          "motion": "PistolIdle",
+          "expected": false,
+          "enabled": false,
+          "correctBuffers": true
+        }
+      ]
+    },
+    {
+      "name": "97 model and physical length remain unchanged",
+      "pass": true,
+      "detail": {
+        "modelScale": 1
+      }
+    }
+  ]
+}
