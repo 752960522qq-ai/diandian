@@ -1,0 +1,88 @@
+{
+  "hz": 120,
+  "limits": "Source is the supplied Leon w07 upper-body retarget, with original rifle lower-body composition. No source finger animation exists. Hand quaternion comparison is in world space; elapsed steps do not prove full skin clearance.",
+  "characters": {
+    "diandian": {
+      "RifleIdle": {
+        "frames": 1029,
+        "minLeftAboveRightM": 0.25095691662068087,
+        "maxSourceHandDirectionErrorDeg": 0.01145821108165481,
+        "maxSourceElbowPositionShiftM": 0.04659797097876249,
+        "maxLocalQuaternionStepDeg": 0.00007011348042169715,
+        "maxLockedLeftErrorM": 6.501462765127579e-8,
+        "loopEndpointDeg": {
+          "LeftArm": 0.00004978313060379752,
+          "LeftForeArm": 0.00006170840614950575,
+          "LeftHand": 0.00008776859524744007
+        }
+      },
+      "RifleWalk": {
+        "frames": 157,
+        "minLeftAboveRightM": 0.202923998863749,
+        "maxSourceHandDirectionErrorDeg": 0,
+        "maxSourceElbowPositionShiftM": 0.06553535713703491,
+        "maxLocalQuaternionStepDeg": 0.18652134214986893,
+        "maxLockedLeftErrorM": 4.7347016203347205e-8,
+        "loopEndpointDeg": {
+          "LeftArm": 0.37082668150808845,
+          "LeftForeArm": 0.40157472000815503,
+          "LeftHand": 0.3404178068176172
+        }
+      },
+      "RifleRun": {
+        "frames": 82,
+        "minLeftAboveRightM": 0.15336541854301133,
+        "maxSourceHandDirectionErrorDeg": 0.015743333526548792,
+        "maxSourceElbowPositionShiftM": 0.09543015939023225,
+        "maxLocalQuaternionStepDeg": 0.6831563919906503,
+        "maxLockedLeftErrorM": 6.50584954067522e-8,
+        "loopEndpointDeg": {
+          "LeftArm": 1.7222729470786229,
+          "LeftForeArm": 3.462314512714979,
+          "LeftHand": 1.5512123192293257
+        }
+      }
+    },
+    "zhigeng": {
+      "RifleIdle": {
+        "frames": 1029,
+        "minLeftAboveRightM": 0.26612977385163017,
+        "maxSourceHandDirectionErrorDeg": 0.04386607654412191,
+        "maxSourceElbowPositionShiftM": 0.06551610628888639,
+        "maxLocalQuaternionStepDeg": 0.00004694978832367688,
+        "maxLockedLeftErrorM": 1.2734846303824504e-7,
+        "loopEndpointDeg": {
+          "LeftArm": 0.00002721382571521845,
+          "LeftForeArm": 0.000038181918208328625,
+          "LeftHand": 0.000033198513698944794
+        }
+      },
+      "RifleWalk": {
+        "frames": 157,
+        "minLeftAboveRightM": 0.21125662959373037,
+        "maxSourceHandDirectionErrorDeg": 0.03859521226007301,
+        "maxSourceElbowPositionShiftM": 0.08505136324322389,
+        "maxLocalQuaternionStepDeg": 0.1853069823183142,
+        "maxLockedLeftErrorM": 1.0299029485838693e-7,
+        "loopEndpointDeg": {
+          "LeftArm": 0.36447037625680995,
+          "LeftForeArm": 0.3890878445117897,
+          "LeftHand": 0.3118449627886834
+        }
+      },
+      "RifleRun": {
+        "frames": 82,
+        "minLeftAboveRightM": 0.15214420570512277,
+        "maxSourceHandDirectionErrorDeg": 0.03138294670520795,
+        "maxSourceElbowPositionShiftM": 0.10893720491589122,
+        "maxLocalQuaternionStepDeg": 0.7056985110563192,
+        "maxLockedLeftErrorM": 1.222574336732993e-7,
+        "loopEndpointDeg": {
+          "LeftArm": 1.3516854012016302,
+          "LeftForeArm": 3.188875131781767,
+          "LeftHand": 1.85888735509669
+        }
+      }
+    }
+  }
+}

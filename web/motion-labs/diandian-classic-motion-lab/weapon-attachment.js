@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import { rocketMotions, rocketSupportWeight, rocketCarryWeight, applyRocketPosePath, fitRocketCarryReach } from './rocket-motion.js?v=pf89-r38';
+import { rocketMotions, rocketSupportWeight, rocketCarryWeight, applyRocketPosePath, fitRocketCarryReach } from './rocket-motion.js?v=pf89-r40';
 import { ChestSkinningRelief } from './chest-skinning.js?v=grip-r31';
 import { refineC96Rotation } from './c96-dynamics.js?v=clothing-r23';
 import { prepareC96ReloadPose, applyC96ReloadSupport } from './c96-reload.js?v=clothing-r23';
@@ -27,7 +27,7 @@ export class WeaponAttachment {
     this.bindHandQuaternions = new Map();
     model.root.traverse(object => {
       if (!object.isSkinnedMesh) return;
-      for (const side of ['Left', 'Right']) for (const part of ['Hand', 'ForeArm']) {
+      for (const side of ['Left', 'Right']) for (const part of ['Hand', 'ForeArm', 'Arm']) {
         const bone = model.bones.get('mixamorig:' + side + part);
         const index = object.skeleton.bones.indexOf(bone);
         const parentIndex = object.skeleton.bones.indexOf(bone.parent);
@@ -146,11 +146,11 @@ export class WeaponAttachment {
     this.state.shoulderAssistDegrees = THREE.MathUtils.radToDeg(turn);
   }
 
-  solveLeftArm(target, handRotation, weight, twistWeight = 0, twistReference = 0, upperTwistWeight = .75, elbowHandWeight = 0, elbowOutwardWeight = 0, upperTwistReference = 0) {
-    this.solveArm('Left', target, handRotation, weight, null, twistWeight, twistReference, upperTwistWeight, elbowHandWeight, elbowOutwardWeight, upperTwistReference);
+  solveLeftArm(target, handRotation, weight, twistWeight = 0, twistReference = 0, upperTwistWeight = .75, elbowHandWeight = 0, elbowOutwardWeight = 0, upperTwistReference = 0, elbowForwardBias = 0) {
+    this.solveArm('Left', target, handRotation, weight, null, twistWeight, twistReference, upperTwistWeight, elbowHandWeight, elbowOutwardWeight, upperTwistReference, null, null, elbowForwardBias);
   }
 
-  solveArm(side, target, handRotation, weight = 1, elbowLift = null, twistWeight = 0, twistReference = 0, upperTwistWeight = .75, elbowHandWeight = 0, elbowOutwardWeight = 0, upperTwistReference = 0, elbowOffsetBody = null, elbowHintWorld = null) {
+  solveArm(side, target, handRotation, weight = 1, elbowLift = null, twistWeight = 0, twistReference = 0, upperTwistWeight = .75, elbowHandWeight = 0, elbowOutwardWeight = 0, upperTwistReference = 0, elbowOffsetBody = null, elbowHintWorld = null, elbowForwardBias = 0) {
     const upper = this.bones[side + 'Arm'];
     const fore = this.bones[side + 'ForeArm'];
     const hand = this.bones[side + 'Hand'];
@@ -201,12 +201,22 @@ export class WeaponAttachment {
       const outward = this.bones[side + 'Arm'].getWorldPosition(new THREE.Vector3()).sub(this.bones[(side === 'Left' ? 'Right' : 'Left') + 'Arm'].getWorldPosition(new THREE.Vector3())).normalize();
       const up = this.bones.Spine2.getWorldPosition(new THREE.Vector3()).sub(this.model.bones.get('mixamorig:Hips').getWorldPosition(new THREE.Vector3())).normalize();
       outward.addScaledVector(up, -0.15);
+      if (elbowForwardBias) {
+        const right = this.bones.RightArm.getWorldPosition(new THREE.Vector3()).sub(this.bones.LeftArm.getWorldPosition(new THREE.Vector3())).normalize();
+        outward.addScaledVector(new THREE.Vector3().crossVectors(up, right).normalize(), elbowForwardBias);
+      }
       outward.addScaledVector(direction, -outward.dot(direction)).normalize();
       bend.lerp(outward, THREE.MathUtils.clamp(elbowOutwardWeight, 0, 1)).normalize();
     }
     const along = (upperLength * upperLength - lowerLength * lowerLength + distance * distance) / (2 * distance);
     const height = Math.sqrt(Math.max(upperLength * upperLength - along * along, 0));
     const desiredElbow = shoulder.clone().addScaledVector(direction, along).addScaledVector(bend, height);
+    if (this.selectedWeapon === 'pf89' && (this.motion === 'RocketDraw' || this.motion.startsWith('RocketRaise'))) {
+      upper.quaternion.copy(this.bindHandQuaternions.get(upper));
+      fore.quaternion.copy(this.bindHandQuaternions.get(fore));
+      upper.updateMatrixWorld(true);
+      elbow.copy(fore.getWorldPosition(new THREE.Vector3()));
+    }
     this.turnToward(upper, elbow.clone().sub(shoulder), desiredElbow.sub(shoulder));
     const newElbow = fore.getWorldPosition(new THREE.Vector3());
     const newWrist = hand.getWorldPosition(new THREE.Vector3());
@@ -215,9 +225,9 @@ export class WeaponAttachment {
     this.blendFromSource([upper, fore, hand], weight);
     upper.updateMatrixWorld(true);
     if (twistWeight > 0) {
-      this.state[side.toLowerCase() + 'ForearmTwistDegrees'] = this.distributeAxialTwist(fore, hand, hand.getWorldQuaternion(new THREE.Quaternion()), twistWeight, twistReference);
+      this.state[side.toLowerCase() + 'ForearmTwistDegrees'] = this.distributeAxialTwist(fore, hand, hand.getWorldQuaternion(new THREE.Quaternion()), twistWeight * (this.selectedWeapon === 'pf89' ? weight : 1), twistReference);
       const foreRotation = fore.getWorldQuaternion(new THREE.Quaternion());
-      this.state[side.toLowerCase() + 'UpperTwistDegrees'] = this.distributeAxialTwist(upper, fore, foreRotation, upperTwistWeight, upperTwistReference);
+      this.state[side.toLowerCase() + 'UpperTwistDegrees'] = this.distributeAxialTwist(upper, fore, foreRotation, upperTwistWeight * (this.selectedWeapon === 'pf89' ? weight : 1), upperTwistReference);
     }
   }
 
@@ -318,8 +328,21 @@ export class WeaponAttachment {
       mount.release_support_hand = mount.support_pose_weight === 0;
       const carryWeight = rocketCarryWeight(motion,time);
       mount.weapon_offset_body_m = vector(mount.weapon_offset_body_m).lerp(vector(mount.carry_offset_body_m),carryWeight).toArray();
+      if (motion.startsWith('RocketRaise')) {
+        const blend = THREE.MathUtils.smoothstep(time, 0, .85);
+        mount.left_grip = vector(mount.carry_left_grip).lerp(vector(mount.left_grip), blend).toArray();
+        // R40 carries use the source Leon high hand. Rotate and slide together
+        // into the firing grip instead of snapping back to the old lower hold.
+        if (mount.carry_left_hand_quaternion_weapon) {
+          mount.left_hand_quaternion_weapon = quaternion(mount.carry_left_hand_quaternion_weapon)
+            .slerp(quaternion(mount.left_hand_quaternion_weapon), blend).toArray();
+          mount.support_elbow_from_hand_weight = THREE.MathUtils.lerp(0, mount.support_elbow_from_hand_weight ?? 1, blend);
+          mount.support_elbow_forward_bias = THREE.MathUtils.lerp(0, mount.support_elbow_forward_bias ?? 0, blend);
+        }
+        mount.support_elbow_outward_weight = THREE.MathUtils.lerp(mount.raise_elbow_outward_start ?? 1, mount.raise_elbow_outward_end ?? .55, blend);
+      }
       this.state.supportWeight = mount.support_pose_weight;
-      mount.right_pose_weight = motion === 'RocketDraw' ? THREE.MathUtils.smoothstep(time,0,.12)
+      mount.right_pose_weight = motion === 'RocketDraw' ? 1
         : motion === 'RocketDiscard' ? 1-THREE.MathUtils.smoothstep(time,.34,.65) : 1;
       mount.right_finger_pose_weight *= mount.right_pose_weight;
       this.state.rightSupportWeight = mount.right_pose_weight;
@@ -429,7 +452,7 @@ export class WeaponAttachment {
         ? gunRotation.clone().multiply(quaternion(mount.left_hand_quaternion_weapon)).normalize()
         : this.bones.LeftHand.getWorldQuaternion(new THREE.Quaternion());
       const wristTarget = supportTarget.clone().sub(leftOffset.clone().applyQuaternion(leftRotation));
-      this.solveLeftArm(wristTarget, leftRotation, mount.support_pose_weight ?? this.character.support_pose_weight ?? .85, mount.support_forearm_twist_weight ?? 0, mount.support_forearm_twist_reference_degrees ?? 0, mount.support_upper_arm_twist_weight ?? .75, mount.support_elbow_from_hand_weight ?? 0, mount.support_elbow_outward_weight ?? 0, mount.support_upper_arm_twist_reference_degrees ?? 0);
+      this.solveLeftArm(wristTarget, leftRotation, mount.support_pose_weight ?? this.character.support_pose_weight ?? .85, mount.support_forearm_twist_weight ?? 0, mount.support_forearm_twist_reference_degrees ?? 0, mount.support_upper_arm_twist_weight ?? .75, mount.support_elbow_from_hand_weight ?? 0, mount.support_elbow_outward_weight ?? 0, mount.support_upper_arm_twist_reference_degrees ?? 0, mount.support_elbow_forward_bias ?? 0);
       const supportFingers = new Set();
       // A calibrated local grip keeps the knuckles and thumb consistent across
       // the AR base and the shotgun-only left-arm clips, including direct seeks.

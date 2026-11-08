@@ -1,0 +1,69 @@
+{
+  "hz": 120,
+  "torsoHz": 120,
+  "limits": "Torso ray hits prove segment/surface intersection only, not closed-solid penetration. Upper-arm first 20% excluded to avoid the normal shoulder attachment. Torso signed nearest surface uses torso-weighted triangles only; clothing and open boundaries can make inside signs ambiguous. Arm centerline, not full arm surface. Quaternion steps are local rotations; seam covariance is a shape proxy, not proof of anatomical correctness.",
+  "characters": {
+    "diandian": [
+      {
+        "sampledFrames": 1268,
+        "crossings": 0,
+        "gunCrossings": 0,
+        "minDistance": 0.04291969400685309,
+        "maxLeftError": 6.50584954067522e-8,
+        "maxRightError": 1.3923876759098706e-7,
+        "maxElbowAngle": 96.71126911870337,
+        "motions": {
+          "RifleIdle": {
+            "crossings": 0,
+            "gunCrossings": 0,
+            "minDistance": 0.11021265102522637,
+            "maxElbowAngle": 94.30965272977281
+          },
+          "RifleWalk": {
+            "crossings": 0,
+            "gunCrossings": 0,
+            "minDistance": 0.07899216307324253,
+            "maxElbowAngle": 89.28831558032248
+          },
+          "RifleRun": {
+            "crossings": 0,
+            "gunCrossings": 0,
+            "minDistance": 0.04291969400685309,
+            "maxElbowAngle": 96.71126911870337
+          }
+        }
+      }
+    ],
+    "zhigeng": [
+      {
+        "sampledFrames": 1268,
+        "crossings": 0,
+        "gunCrossings": 0,
+        "minDistance": 0.02877110730474276,
+        "maxLeftError": 1.2734846303824504e-7,
+        "maxRightError": 1.0880418121385191e-7,
+        "maxElbowAngle": 96.1099239766444,
+        "motions": {
+          "RifleIdle": {
+            "crossings": 0,
+            "gunCrossings": 0,
+            "minDistance": 0.10530647366870699,
+            "maxElbowAngle": 93.79479448330449
+          },
+          "RifleWalk": {
+            "crossings": 0,
+            "gunCrossings": 0,
+            "minDistance": 0.06683115245088614,
+            "maxElbowAngle": 88.51294750570067
+          },
+          "RifleRun": {
+            "crossings": 0,
+            "gunCrossings": 0,
+            "minDistance": 0.02877110730474276,
+            "maxElbowAngle": 96.1099239766444
+          }
+        }
+      }
+    ]
+  }
+}

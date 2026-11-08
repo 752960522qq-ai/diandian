@@ -24,7 +24,7 @@ for clip in data['clips']:
     arm.animation_data.action = bpy.data.actions[clip['name']]
     weapon.animation_data.action = bpy.data.actions[clip['name'] + '_Weapon']
     frames = clip['frames']
-    for sample in (frames[0], frames[len(frames) // 2], frames[-1]):
+    for sample in frames:
         frame = sample['frame']
         bpy.context.scene.frame_set(int(frame), subframe=frame - int(frame))
         bpy.context.view_layer.update()
@@ -33,7 +33,7 @@ for clip in data['clips']:
         assert max(errors.values()) < .001, (clip['name'], frame, errors)
         rows.append({'action': clip['name'], 'frame': frame, 'max_joint_error_m': max(errors.values())})
 result = {'blender': bpy.app.version_string, 'character': data['character'],
-          'actions': len(data['clips']), 'frames_checked': len(rows),
+          'actions': len(data['clips']), 'frames_checked': len(rows), 'sampling': 'every exported 60 Hz sample, all actions',
           'max_joint_error_m': max(r['max_joint_error_m'] for r in rows), 'samples': rows}
 report.parent.mkdir(parents=True, exist_ok=True)
 report.write_text(json.dumps(result, indent=2) + '\n')

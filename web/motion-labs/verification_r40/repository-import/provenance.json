@@ -1,0 +1,9 @@
+{
+  "source_archive": "diandian_PF89_R40_Leon_high_carry.zip",
+  "archive_sha256": "328e408082f5c34c85cbe160c4ab8e8a8d8c402cb7ac7a021786122c3be96b68",
+  "base_commit": "2ddb6721e662fd27c97c576a2c222159272c7d3c",
+  "archive_crc_passed": true,
+  "sha256_entries_verified": 69,
+  "import_mode": "repo_changes files, patch applicability checked against current baseline",
+  "deployment_performed": false
+}

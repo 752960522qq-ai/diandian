@@ -1,0 +1,163 @@
+{
+  "hz": 120,
+  "torsoHz": 120,
+  "limits": "Torso ray hits prove segment/surface intersection only, not closed-solid penetration. Upper-arm first 20% excluded to avoid the normal shoulder attachment. Torso signed nearest surface uses torso-weighted triangles only; clothing and open boundaries can make inside signs ambiguous. Arm centerline, not full arm surface. Quaternion steps are local rotations; seam covariance is a shape proxy, not proof of anatomical correctness.",
+  "characters": {
+    "diandian": [
+      {
+        "crossings": 0,
+        "gunCrossings": 0,
+        "minDistance": 0.0037497559791266058,
+        "maxLeftError": 1.6359746795409e-7,
+        "maxRightError": 2.982481933334697e-7,
+        "maxElbowAngle": 155.47665069684243,
+        "motions": {
+          "RifleIdle": {
+            "crossings": 0,
+            "gunCrossings": 0,
+            "minDistance": 0.11050357281797833,
+            "maxElbowAngle": 94.30963863975943
+          },
+          "RifleWalk": {
+            "crossings": 0,
+            "gunCrossings": 0,
+            "minDistance": 0.07899216307324253,
+            "maxElbowAngle": 89.28831558032248
+          },
+          "RifleRun": {
+            "crossings": 0,
+            "gunCrossings": 0,
+            "minDistance": 0.04291969400685309,
+            "maxElbowAngle": 96.71126911870337
+          },
+          "RocketRaiseLevel": {
+            "crossings": 0,
+            "gunCrossings": 0,
+            "minDistance": 0.057073260280535415,
+            "maxElbowAngle": 105.0432077766746
+          },
+          "RocketRaiseUp": {
+            "crossings": 0,
+            "gunCrossings": 0,
+            "minDistance": 0.021619734513142138,
+            "maxElbowAngle": 99.92777584679577
+          },
+          "RocketRaiseDown": {
+            "crossings": 0,
+            "gunCrossings": 0,
+            "minDistance": 0.04022563667140571,
+            "maxElbowAngle": 112.98648370428114
+          },
+          "RocketRaiseInfiniteLevel": {
+            "crossings": 0,
+            "gunCrossings": 0,
+            "minDistance": 0.05022445945347902,
+            "maxElbowAngle": 105.04320813607977
+          },
+          "RocketRaiseInfiniteUp": {
+            "crossings": 0,
+            "gunCrossings": 0,
+            "minDistance": 0.06304207789169913,
+            "maxElbowAngle": 99.92780440154273
+          },
+          "RocketRaiseInfiniteDown": {
+            "crossings": 0,
+            "gunCrossings": 0,
+            "minDistance": 0.04022532620123453,
+            "maxElbowAngle": 112.98648418123447
+          },
+          "RocketDraw": {
+            "crossings": 0,
+            "gunCrossings": 0,
+            "minDistance": 0.06580356881888497,
+            "maxElbowAngle": 155.47665069684243
+          },
+          "RocketFireDown": {
+            "crossings": 0,
+            "gunCrossings": 0,
+            "minDistance": 0.0037497559791266058,
+            "maxElbowAngle": 144.21989818472883
+          }
+        }
+      }
+    ],
+    "zhigeng": [
+      {
+        "crossings": 0,
+        "gunCrossings": 0,
+        "minDistance": 0.0039564361093669355,
+        "maxLeftError": 2.1084096631143343e-7,
+        "maxRightError": 2.269079150308256e-7,
+        "maxElbowAngle": 155.47659599107038,
+        "motions": {
+          "RifleIdle": {
+            "crossings": 0,
+            "gunCrossings": 0,
+            "minDistance": 0.10531088304445584,
+            "maxElbowAngle": 93.79475057456045
+          },
+          "RifleWalk": {
+            "crossings": 0,
+            "gunCrossings": 0,
+            "minDistance": 0.06683115245088614,
+            "maxElbowAngle": 88.51294750570067
+          },
+          "RifleRun": {
+            "crossings": 0,
+            "gunCrossings": 0,
+            "minDistance": 0.02877110730474276,
+            "maxElbowAngle": 96.1099239766444
+          },
+          "RocketRaiseLevel": {
+            "crossings": 0,
+            "gunCrossings": 0,
+            "minDistance": 0.0282568277267801,
+            "maxElbowAngle": 102.30136546172186
+          },
+          "RocketRaiseUp": {
+            "crossings": 0,
+            "gunCrossings": 0,
+            "minDistance": 0.0039564361093669355,
+            "maxElbowAngle": 97.35327557205423
+          },
+          "RocketRaiseDown": {
+            "crossings": 0,
+            "gunCrossings": 0,
+            "minDistance": 0.004325548433599533,
+            "maxElbowAngle": 110.18351804876752
+          },
+          "RocketRaiseInfiniteLevel": {
+            "crossings": 0,
+            "gunCrossings": 0,
+            "minDistance": 0.021874362025480716,
+            "maxElbowAngle": 102.30136254309625
+          },
+          "RocketRaiseInfiniteUp": {
+            "crossings": 0,
+            "gunCrossings": 0,
+            "minDistance": 0.03822283247772395,
+            "maxElbowAngle": 97.35324322490676
+          },
+          "RocketRaiseInfiniteDown": {
+            "crossings": 0,
+            "gunCrossings": 0,
+            "minDistance": 0.004324825942195003,
+            "maxElbowAngle": 110.18351745064254
+          },
+          "RocketDraw": {
+            "crossings": 0,
+            "gunCrossings": 0,
+            "minDistance": 0.026951005587104258,
+            "maxElbowAngle": 155.47659599107038
+          },
+          "RocketFireDown": {
+            "crossings": 0,
+            "gunCrossings": 0,
+            "minDistance": 0.024542134027580657,
+            "maxElbowAngle": 136.1137737830755
+          }
+        }
+      }
+    ]
+  }
+}

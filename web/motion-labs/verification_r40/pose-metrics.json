@@ -1,0 +1,2883 @@
+{
+  "hz": 120,
+  "torsoHz": 10,
+  "limits": "Torso ray hits prove segment/surface intersection only, not closed-solid penetration. Upper-arm first 20% excluded to avoid the normal shoulder attachment. Torso signed nearest surface uses torso-weighted triangles only; clothing and open boundaries can make inside signs ambiguous. Arm centerline, not full arm surface. Quaternion steps are local rotations; seam covariance is a shape proxy, not proof of anatomical correctness.",
+  "characters": {
+    "diandian": {
+      "seamVertices": {
+        "Left": 151,
+        "Right": 151
+      },
+      "torsoTriangles": 2424,
+      "motions": {
+        "RifleIdle": {
+          "frames": 1029,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 0.006797957744911574,
+            "LeftForeArm": 0.00782046935816484,
+            "LeftHand": 0.008184395139105556,
+            "RightArm": 0.0222244835813946,
+            "RightForeArm": 0.033417525569453085,
+            "RightHand": 0.024049858986863043
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 1.0161291452703836e-7,
+              "motion": "RifleIdle",
+              "time": 8.566666603088379,
+              "bone": "RightForeArm"
+            },
+            "LeftWristTwistDeg": {
+              "value": 5.154479655972068,
+              "motion": "RifleIdle",
+              "time": 8.558333333333334
+            },
+            "LeftWristSwingDeg": {
+              "value": 14.93102344172412,
+              "motion": "RifleIdle",
+              "time": 8.566666603088379
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.011799452300560053,
+              "motion": "RifleIdle",
+              "time": 7.8
+            },
+            "LeftSeamAspect": {
+              "value": 0.7235506306200901,
+              "motion": "RifleIdle",
+              "time": 3.6
+            },
+            "RightWristTwistDeg": {
+              "value": 26.13178398656828,
+              "motion": "RifleIdle",
+              "time": 1.6333333333333333
+            },
+            "RightWristSwingDeg": {
+              "value": 26.2033146911774,
+              "motion": "RifleIdle",
+              "time": 0
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.011179613456730329,
+              "motion": "RifleIdle",
+              "time": 1.5666666666666667
+            },
+            "RightSeamAspect": {
+              "value": 0.6786260946098343,
+              "motion": "RifleIdle",
+              "time": 1.6333333333333333
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.1453708886734934,
+              "motion": "RifleIdle",
+              "time": 3.7,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.2
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.11035363289665366,
+              "motion": "RifleIdle",
+              "time": 3.6,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.6
+            },
+            "quaternionStepDeg": {
+              "value": 0.00008765224633411293,
+              "motion": "RifleIdle",
+              "time": 1,
+              "bone": "RightForeArm"
+            }
+          }
+        },
+        "RifleWalk": {
+          "frames": 157,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 17.064835255564887,
+            "LeftForeArm": 18.63738729698584,
+            "LeftHand": 13.704953335202594,
+            "RightArm": 15.789248227410598,
+            "RightForeArm": 20.1846137308819,
+            "RightHand": 8.921547964277444
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 5.682142900642617e-8,
+              "motion": "RifleWalk",
+              "time": 0.13333333333333333,
+              "bone": "RightForeArm"
+            },
+            "LeftWristTwistDeg": {
+              "value": 5.918865376615599,
+              "motion": "RifleWalk",
+              "time": 0.14166666666666666
+            },
+            "LeftWristSwingDeg": {
+              "value": 7.8007926493131885,
+              "motion": "RifleWalk",
+              "time": 0.725
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.011796576705971597,
+              "motion": "RifleWalk",
+              "time": 0.725
+            },
+            "LeftSeamAspect": {
+              "value": 0.7059783321463649,
+              "motion": "RifleWalk",
+              "time": 0.14166666666666666
+            },
+            "RightWristTwistDeg": {
+              "value": 20.60793641446935,
+              "motion": "RifleWalk",
+              "time": 1.1583333333333334
+            },
+            "RightWristSwingDeg": {
+              "value": 18.906666516890535,
+              "motion": "RifleWalk",
+              "time": 1.1583333333333334
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.01153717522283138,
+              "motion": "RifleWalk",
+              "time": 1.15
+            },
+            "RightSeamAspect": {
+              "value": 0.6969876213835163,
+              "motion": "RifleWalk",
+              "time": 0.575
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.1553851136512539,
+              "motion": "RifleWalk",
+              "time": 0.5,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.1
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.07953182775697248,
+              "motion": "RifleWalk",
+              "time": 0.1,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.6
+            },
+            "quaternionStepDeg": {
+              "value": 0.18652134214986893,
+              "motion": "RifleWalk",
+              "time": 0.875,
+              "bone": "LeftArm"
+            }
+          }
+        },
+        "RifleRun": {
+          "frames": 82,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 37.38464762762833,
+            "LeftForeArm": 25.90649868239658,
+            "LeftHand": 26.798946169475617,
+            "RightArm": 18.680422445371633,
+            "RightForeArm": 17.750974895850543,
+            "RightHand": 11.187332611187044
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 1.7519884953909326e-7,
+              "motion": "RifleRun",
+              "time": 0.6666666865348816,
+              "bone": "LeftForeArm"
+            },
+            "LeftWristTwistDeg": {
+              "value": 7.155799649442656,
+              "motion": "RifleRun",
+              "time": 0.20833333333333334
+            },
+            "LeftWristSwingDeg": {
+              "value": 9.441270526409399,
+              "motion": "RifleRun",
+              "time": 0.6166666666666667
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.011706432014505481,
+              "motion": "RifleRun",
+              "time": 0.20833333333333334
+            },
+            "LeftSeamAspect": {
+              "value": 0.7005341490682857,
+              "motion": "RifleRun",
+              "time": 0.20833333333333334
+            },
+            "RightWristTwistDeg": {
+              "value": 23.314233883701718,
+              "motion": "RifleRun",
+              "time": 0.6166666666666667
+            },
+            "RightWristSwingDeg": {
+              "value": 20.88880584711079,
+              "motion": "RifleRun",
+              "time": 0.6166666666666667
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.011416109297652901,
+              "motion": "RifleRun",
+              "time": 0.6166666666666667
+            },
+            "RightSeamAspect": {
+              "value": 0.6917199886121747,
+              "motion": "RifleRun",
+              "time": 0.6166666666666667
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.14606295640717623,
+              "motion": "RifleRun",
+              "time": 0.3,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.1
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.044258512900743514,
+              "motion": "RifleRun",
+              "time": 0.2,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.8
+            },
+            "quaternionStepDeg": {
+              "value": 0.6831563919906503,
+              "motion": "RifleRun",
+              "time": 0.11666666666666667,
+              "bone": "LeftArm"
+            }
+          }
+        },
+        "RifleAimingIdle": {
+          "frames": 373,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 0.002285673391102074,
+            "LeftForeArm": 0.0031744433016809652,
+            "LeftHand": 0.002507811223961764,
+            "RightArm": 0.004311537197080794,
+            "RightForeArm": 0.005772947613932396,
+            "RightHand": 0.004501276038554728
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 1.741783882125425e-7,
+              "motion": "RifleAimingIdle",
+              "time": 3.0999999046325684,
+              "bone": "RightHand"
+            },
+            "LeftWristTwistDeg": {
+              "value": 30.252955584694234,
+              "motion": "RifleAimingIdle",
+              "time": 0.6666666666666666
+            },
+            "LeftWristSwingDeg": {
+              "value": 32.951449298886715,
+              "motion": "RifleAimingIdle",
+              "time": 0.6666666666666666
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.011038971357033234,
+              "motion": "RifleAimingIdle",
+              "time": 0.7
+            },
+            "LeftSeamAspect": {
+              "value": 0.7063106096498898,
+              "motion": "RifleAimingIdle",
+              "time": 2.2083333333333335
+            },
+            "RightWristTwistDeg": {
+              "value": 24.79525888038927,
+              "motion": "RifleAimingIdle",
+              "time": 0
+            },
+            "RightWristSwingDeg": {
+              "value": 35.78968849451221,
+              "motion": "RifleAimingIdle",
+              "time": 1.5666666666666667
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.010939311580495461,
+              "motion": "RifleAimingIdle",
+              "time": 0
+            },
+            "RightSeamAspect": {
+              "value": 0.6675064438056687,
+              "motion": "RifleAimingIdle",
+              "time": 0
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.16575774619333922,
+              "motion": "RifleAimingIdle",
+              "time": 0.9,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.1
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.09529099740747417,
+              "motion": "RifleAimingIdle",
+              "time": 0.2,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.7
+            },
+            "quaternionStepDeg": {
+              "value": 0.00004189584811402282,
+              "motion": "RifleAimingIdle",
+              "time": 3.0999999046325684,
+              "bone": "RightArm"
+            }
+          }
+        },
+        "FiringRifle": {
+          "frames": 194,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 228.47954782202638,
+            "LeftForeArm": 232.37230746143922,
+            "LeftHand": 159.19299890331183,
+            "RightArm": 191.23728378509836,
+            "RightForeArm": 112.90565902556352,
+            "RightHand": 63.53160244078348
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 1.807810582343805e-7,
+              "motion": "FiringRifle",
+              "time": 0.8,
+              "bone": "RightForeArm"
+            },
+            "LeftWristTwistDeg": {
+              "value": 31.70374032789124,
+              "motion": "FiringRifle",
+              "time": 0.7
+            },
+            "LeftWristSwingDeg": {
+              "value": 40.8689415917361,
+              "motion": "FiringRifle",
+              "time": 0.48333333333333334
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.010462371158246843,
+              "motion": "FiringRifle",
+              "time": 0.48333333333333334
+            },
+            "LeftSeamAspect": {
+              "value": 0.6393454312803999,
+              "motion": "FiringRifle",
+              "time": 0.475
+            },
+            "RightWristTwistDeg": {
+              "value": 35.200718977936276,
+              "motion": "FiringRifle",
+              "time": 0.4
+            },
+            "RightWristSwingDeg": {
+              "value": 40.306597782911666,
+              "motion": "FiringRifle",
+              "time": 0.5
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.010462963427397944,
+              "motion": "FiringRifle",
+              "time": 0.5
+            },
+            "RightSeamAspect": {
+              "value": 0.6407518055679964,
+              "motion": "FiringRifle",
+              "time": 0.5
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.19809135099025657,
+              "motion": "FiringRifle",
+              "time": 0.6,
+              "segment": "LeftForeArm-LeftHand",
+              "fraction": 0.7
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.062219213666837775,
+              "motion": "FiringRifle",
+              "time": 0.1,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.8
+            },
+            "quaternionStepDeg": {
+              "value": 3.185087819154493,
+              "motion": "FiringRifle",
+              "time": 0.3,
+              "bone": "LeftForeArm"
+            }
+          }
+        },
+        "RocketRaiseLevel": {
+          "frames": 166,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 58.27782207202625,
+            "LeftForeArm": 102.69700243147388,
+            "LeftHand": 81.42974766791917,
+            "RightArm": 31.094472482111787,
+            "RightForeArm": 49.21190233218735,
+            "RightHand": 36.91434527635553
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 5.0602483536721365e-8,
+              "motion": "RocketRaiseLevel",
+              "time": 1.3,
+              "bone": "RightForeArm"
+            },
+            "LeftWristTwistDeg": {
+              "value": 35.552606932307754,
+              "motion": "RocketRaiseLevel",
+              "time": 1.3666666746139526
+            },
+            "LeftWristSwingDeg": {
+              "value": 46.93016563905102,
+              "motion": "RocketRaiseLevel",
+              "time": 0.4666666666666667
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.010840198490705888,
+              "motion": "RocketRaiseLevel",
+              "time": 0.4583333333333333
+            },
+            "LeftSeamAspect": {
+              "value": 0.6916795614769761,
+              "motion": "RocketRaiseLevel",
+              "time": 0.35833333333333334
+            },
+            "RightWristTwistDeg": {
+              "value": 31.118324968150205,
+              "motion": "RocketRaiseLevel",
+              "time": 0.775
+            },
+            "RightWristSwingDeg": {
+              "value": 35.80681493972174,
+              "motion": "RocketRaiseLevel",
+              "time": 0.85
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.01087718970854248,
+              "motion": "RocketRaiseLevel",
+              "time": 1.3666666666666667
+            },
+            "RightSeamAspect": {
+              "value": 0.6712323819733471,
+              "motion": "RocketRaiseLevel",
+              "time": 1.3666666746139526
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.1692201575639484,
+              "motion": "RocketRaiseLevel",
+              "time": 0.9,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.1
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.05803715116753312,
+              "motion": "RocketRaiseLevel",
+              "time": 0.5,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.7
+            },
+            "quaternionStepDeg": {
+              "value": 1.8674992099677539,
+              "motion": "RocketRaiseLevel",
+              "time": 0.13333333333333333,
+              "bone": "LeftHand"
+            }
+          }
+        },
+        "RocketRaiseInfiniteLevel": {
+          "frames": 141,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 79.98487939227276,
+            "LeftForeArm": 100.8552145359401,
+            "LeftHand": 74.4087025984928,
+            "RightArm": 31.245452452785734,
+            "RightForeArm": 49.33845314830258,
+            "RightHand": 36.856687437932756
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 4.6156676480890724e-8,
+              "motion": "RocketRaiseInfiniteLevel",
+              "time": 0.9333333333333333,
+              "bone": "RightForeArm"
+            },
+            "LeftWristTwistDeg": {
+              "value": 35.55369198589949,
+              "motion": "RocketRaiseInfiniteLevel",
+              "time": 1.1666666269302368
+            },
+            "LeftWristSwingDeg": {
+              "value": 45.227974422942246,
+              "motion": "RocketRaiseInfiniteLevel",
+              "time": 0.6666666666666666
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.010938506711294883,
+              "motion": "RocketRaiseInfiniteLevel",
+              "time": 0.4083333333333333
+            },
+            "LeftSeamAspect": {
+              "value": 0.6884961501910619,
+              "motion": "RocketRaiseInfiniteLevel",
+              "time": 0.31666666666666665
+            },
+            "RightWristTwistDeg": {
+              "value": 31.118930828534985,
+              "motion": "RocketRaiseInfiniteLevel",
+              "time": 0.775
+            },
+            "RightWristSwingDeg": {
+              "value": 35.80633730128123,
+              "motion": "RocketRaiseInfiniteLevel",
+              "time": 0.85
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.010877202353657408,
+              "motion": "RocketRaiseInfiniteLevel",
+              "time": 1.1583333333333334
+            },
+            "RightSeamAspect": {
+              "value": 0.6712337323240022,
+              "motion": "RocketRaiseInfiniteLevel",
+              "time": 1.1666666269302368
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.16917126665177992,
+              "motion": "RocketRaiseInfiniteLevel",
+              "time": 1.1666666269302368,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.1
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.05157982062250133,
+              "motion": "RocketRaiseInfiniteLevel",
+              "time": 0.5,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.7
+            },
+            "quaternionStepDeg": {
+              "value": 2.45688816435373,
+              "motion": "RocketRaiseInfiniteLevel",
+              "time": 0.10833333333333334,
+              "bone": "LeftHand"
+            }
+          }
+        },
+        "RocketAimUp": {
+          "frames": 373,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 0.007310939202338665,
+            "LeftForeArm": 0.010301481195513178,
+            "LeftHand": 0.00793158429402553,
+            "RightArm": 0.009142606787036827,
+            "RightForeArm": 0.0115808827742589,
+            "RightHand": 0.009572846031713126
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 1.6621148210549386e-7,
+              "motion": "RocketAimUp",
+              "time": 3.0999999046325684,
+              "bone": "RightHand"
+            },
+            "LeftWristTwistDeg": {
+              "value": 29.06748944972429,
+              "motion": "RocketAimUp",
+              "time": 2.3666666666666667
+            },
+            "LeftWristSwingDeg": {
+              "value": 39.32911042622075,
+              "motion": "RocketAimUp",
+              "time": 2.3666666666666667
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.01065145873632835,
+              "motion": "RocketAimUp",
+              "time": 2.3333333333333335
+            },
+            "LeftSeamAspect": {
+              "value": 0.6688584366956208,
+              "motion": "RocketAimUp",
+              "time": 1.2
+            },
+            "RightWristTwistDeg": {
+              "value": 29.447564484143186,
+              "motion": "RocketAimUp",
+              "time": 2.466666666666667
+            },
+            "RightWristSwingDeg": {
+              "value": 37.126426018886605,
+              "motion": "RocketAimUp",
+              "time": 1.3
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.010769011718910733,
+              "motion": "RocketAimUp",
+              "time": 2.433333333333333
+            },
+            "RightSeamAspect": {
+              "value": 0.6593665759573335,
+              "motion": "RocketAimUp",
+              "time": 2.433333333333333
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.16800718392440395,
+              "motion": "RocketAimUp",
+              "time": 2.4,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.2
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.13728892101658602,
+              "motion": "RocketAimUp",
+              "time": 1.2,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.6
+            },
+            "quaternionStepDeg": {
+              "value": 0.00011403552600993704,
+              "motion": "RocketAimUp",
+              "time": 3.0999999046325684,
+              "bone": "LeftForeArm"
+            }
+          }
+        },
+        "RocketFireUp": {
+          "frames": 190,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 216.7607735617834,
+            "LeftForeArm": 237.7766754763903,
+            "LeftHand": 165.06280367205295,
+            "RightArm": 176.55918309561437,
+            "RightForeArm": 114.53841358446184,
+            "RightHand": 64.86421045351472
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 1.7933799462133138e-7,
+              "motion": "RocketFireUp",
+              "time": 0.8,
+              "bone": "RightForeArm"
+            },
+            "LeftWristTwistDeg": {
+              "value": 31.4221129303113,
+              "motion": "RocketFireUp",
+              "time": 0.6333333333333333
+            },
+            "LeftWristSwingDeg": {
+              "value": 43.7469748188668,
+              "motion": "RocketFireUp",
+              "time": 0.4666666666666667
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.010337658991692568,
+              "motion": "RocketFireUp",
+              "time": 0.4666666666666667
+            },
+            "LeftSeamAspect": {
+              "value": 0.6290682196444225,
+              "motion": "RocketFireUp",
+              "time": 0.4666666666666667
+            },
+            "RightWristTwistDeg": {
+              "value": 37.35554787925412,
+              "motion": "RocketFireUp",
+              "time": 0.4666666666666667
+            },
+            "RightWristSwingDeg": {
+              "value": 40.60095988642296,
+              "motion": "RocketFireUp",
+              "time": 0.4666666666666667
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.010331584986738349,
+              "motion": "RocketFireUp",
+              "time": 0.4666666666666667
+            },
+            "RightSeamAspect": {
+              "value": 0.6353622598652885,
+              "motion": "RocketFireUp",
+              "time": 0.4666666666666667
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.21123671451674692,
+              "motion": "RocketFireUp",
+              "time": 0.6,
+              "segment": "LeftForeArm-LeftHand",
+              "fraction": 0.5
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.08136628266061573,
+              "motion": "RocketFireUp",
+              "time": 1.1,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.7
+            },
+            "quaternionStepDeg": {
+              "value": 3.7827181213863854,
+              "motion": "RocketFireUp",
+              "time": 0.3,
+              "bone": "LeftForeArm"
+            }
+          }
+        },
+        "RocketRaiseUp": {
+          "frames": 166,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 51.5238564294796,
+            "LeftForeArm": 109.7807966799746,
+            "LeftHand": 95.90381085067652,
+            "RightArm": 43.403036317129654,
+            "RightForeArm": 56.69514168430614,
+            "RightHand": 40.27364052876064
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 5.80905062663728e-8,
+              "motion": "RocketRaiseUp",
+              "time": 1,
+              "bone": "RightHand"
+            },
+            "LeftWristTwistDeg": {
+              "value": 35.92641595247346,
+              "motion": "RocketRaiseUp",
+              "time": 1.3666666666666667
+            },
+            "LeftWristSwingDeg": {
+              "value": 46.98661348784357,
+              "motion": "RocketRaiseUp",
+              "time": 0.5
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.010535351433356316,
+              "motion": "RocketRaiseUp",
+              "time": 0.75
+            },
+            "LeftSeamAspect": {
+              "value": 0.6743784420919532,
+              "motion": "RocketRaiseUp",
+              "time": 0.44166666666666665
+            },
+            "RightWristTwistDeg": {
+              "value": 36.87272286290124,
+              "motion": "RocketRaiseUp",
+              "time": 0.825
+            },
+            "RightWristSwingDeg": {
+              "value": 37.1306461403857,
+              "motion": "RocketRaiseUp",
+              "time": 1.3666666746139526
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.010677814326986633,
+              "motion": "RocketRaiseUp",
+              "time": 0.85
+            },
+            "RightSeamAspect": {
+              "value": 0.6641240211568986,
+              "motion": "RocketRaiseUp",
+              "time": 0.85
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.1903076789480787,
+              "motion": "RocketRaiseUp",
+              "time": 1.3666666746139526,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.9
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.021619734513142138,
+              "motion": "RocketRaiseUp",
+              "time": 0.1,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.7
+            },
+            "quaternionStepDeg": {
+              "value": 2.221599579285644,
+              "motion": "RocketRaiseUp",
+              "time": 0.10833333333333334,
+              "bone": "LeftHand"
+            }
+          }
+        },
+        "RocketRaiseInfiniteUp": {
+          "frames": 141,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 82.16165560391622,
+            "LeftForeArm": 95.81575687637678,
+            "LeftHand": 71.74683131092466,
+            "RightArm": 43.632983731835246,
+            "RightForeArm": 56.82907201367409,
+            "RightHand": 40.05078245683152
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 5.26019615920692e-8,
+              "motion": "RocketRaiseInfiniteUp",
+              "time": 1,
+              "bone": "RightHand"
+            },
+            "LeftWristTwistDeg": {
+              "value": 35.9276983532838,
+              "motion": "RocketRaiseInfiniteUp",
+              "time": 1.1083333333333334
+            },
+            "LeftWristSwingDeg": {
+              "value": 46.52516560591876,
+              "motion": "RocketRaiseInfiniteUp",
+              "time": 0.7083333333333334
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.010534989978738071,
+              "motion": "RocketRaiseInfiniteUp",
+              "time": 0.75
+            },
+            "LeftSeamAspect": {
+              "value": 0.6758247483695883,
+              "motion": "RocketRaiseInfiniteUp",
+              "time": 0.36666666666666664
+            },
+            "RightWristTwistDeg": {
+              "value": 36.86432825333486,
+              "motion": "RocketRaiseInfiniteUp",
+              "time": 0.825
+            },
+            "RightWristSwingDeg": {
+              "value": 37.132093384225705,
+              "motion": "RocketRaiseInfiniteUp",
+              "time": 0.85
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.010678378368712632,
+              "motion": "RocketRaiseInfiniteUp",
+              "time": 1.1583333333333334
+            },
+            "RightSeamAspect": {
+              "value": 0.6641887562531987,
+              "motion": "RocketRaiseInfiniteUp",
+              "time": 1.1666666269302368
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.19032975344362607,
+              "motion": "RocketRaiseInfiniteUp",
+              "time": 1.1666666269302368,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.9
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.06684832115277804,
+              "motion": "RocketRaiseInfiniteUp",
+              "time": 0.5,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.8
+            },
+            "quaternionStepDeg": {
+              "value": 2.4547783347016883,
+              "motion": "RocketRaiseInfiniteUp",
+              "time": 0.10833333333333334,
+              "bone": "LeftHand"
+            }
+          }
+        },
+        "RocketAimDown": {
+          "frames": 373,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 0.007073105806825857,
+            "LeftForeArm": 0.010209986097674713,
+            "LeftHand": 0.007865065006853194,
+            "RightArm": 0.0071171746893644,
+            "RightForeArm": 0.009834828399899924,
+            "RightHand": 0.007546385434250964
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 1.834872301875734e-7,
+              "motion": "RocketAimDown",
+              "time": 3.0999999046325684,
+              "bone": "RightHand"
+            },
+            "LeftWristTwistDeg": {
+              "value": 31.7478404912099,
+              "motion": "RocketAimDown",
+              "time": 1.0166666666666666
+            },
+            "LeftWristSwingDeg": {
+              "value": 28.621132365286662,
+              "motion": "RocketAimDown",
+              "time": 1.0083333333333333
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.01136707036160465,
+              "motion": "RocketAimDown",
+              "time": 1
+            },
+            "LeftSeamAspect": {
+              "value": 0.7427682605316237,
+              "motion": "RocketAimDown",
+              "time": 2.2916666666666665
+            },
+            "RightWristTwistDeg": {
+              "value": 20.89913797980455,
+              "motion": "RocketAimDown",
+              "time": 0.6666666666666666
+            },
+            "RightWristSwingDeg": {
+              "value": 31.840945324234358,
+              "motion": "RocketAimDown",
+              "time": 2.2333333333333334
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.011111645694164222,
+              "motion": "RocketAimDown",
+              "time": 0.6666666666666666
+            },
+            "RightSeamAspect": {
+              "value": 0.6728786431213342,
+              "motion": "RocketAimDown",
+              "time": 0.6833333333333333
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.15405423245281552,
+              "motion": "RocketAimDown",
+              "time": 1,
+              "segment": "LeftForeArm-LeftHand",
+              "fraction": 0.9
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.06330839418817574,
+              "motion": "RocketAimDown",
+              "time": 2.4,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.9
+            },
+            "quaternionStepDeg": {
+              "value": 0.00008713511942366189,
+              "motion": "RocketAimDown",
+              "time": 1.5083333333333333,
+              "bone": "LeftForeArm"
+            }
+          }
+        },
+        "RocketFireDown": {
+          "frames": 194,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 267.8300620939511,
+            "LeftForeArm": 278.69157939787095,
+            "LeftHand": 200.51621795195922,
+            "RightArm": 228.48163906307948,
+            "RightForeArm": 133.63603007757544,
+            "RightHand": 76.10506557340673
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 1.4882557253237394e-7,
+              "motion": "RocketFireDown",
+              "time": 0.6,
+              "bone": "RightForeArm"
+            },
+            "LeftWristTwistDeg": {
+              "value": 32.35077799560878,
+              "motion": "RocketFireDown",
+              "time": 0.7
+            },
+            "LeftWristSwingDeg": {
+              "value": 40.650230964227674,
+              "motion": "RocketFireDown",
+              "time": 0.5
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.010487919282458867,
+              "motion": "RocketFireDown",
+              "time": 0.5
+            },
+            "LeftSeamAspect": {
+              "value": 0.6469997213688068,
+              "motion": "RocketFireDown",
+              "time": 0.5
+            },
+            "RightWristTwistDeg": {
+              "value": 33.90746928574288,
+              "motion": "RocketFireDown",
+              "time": 0.4
+            },
+            "RightWristSwingDeg": {
+              "value": 39.96815642890239,
+              "motion": "RocketFireDown",
+              "time": 0.5
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.010558954832491639,
+              "motion": "RocketFireDown",
+              "time": 0.45
+            },
+            "RightSeamAspect": {
+              "value": 0.6458466885191222,
+              "motion": "RocketFireDown",
+              "time": 0.5
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.16699947586775807,
+              "motion": "RocketFireDown",
+              "time": 1.4,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.1
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.009946485884321466,
+              "motion": "RocketFireDown",
+              "time": 0.1,
+              "segment": "LeftForeArm-LeftHand",
+              "fraction": 0.1
+            },
+            "quaternionStepDeg": {
+              "value": 3.795212626260838,
+              "motion": "RocketFireDown",
+              "time": 0.13333333333333333,
+              "bone": "LeftArm"
+            }
+          }
+        },
+        "RocketRaiseDown": {
+          "frames": 166,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 81.2712759527048,
+            "LeftForeArm": 109.177934381296,
+            "LeftHand": 83.39503224590457,
+            "RightArm": 22.082062201621092,
+            "RightForeArm": 42.71299702906103,
+            "RightHand": 34.89487747949731
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 5.87630820114704e-8,
+              "motion": "RocketRaiseDown",
+              "time": 0.9333333333333333,
+              "bone": "RightForeArm"
+            },
+            "LeftWristTwistDeg": {
+              "value": 35.13239006706931,
+              "motion": "RocketRaiseDown",
+              "time": 1.2333333333333334
+            },
+            "LeftWristSwingDeg": {
+              "value": 47.51787887607727,
+              "motion": "RocketRaiseDown",
+              "time": 0.4666666666666667
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.010971906315697293,
+              "motion": "RocketRaiseDown",
+              "time": 0.38333333333333336
+            },
+            "LeftSeamAspect": {
+              "value": 0.6982978983614061,
+              "motion": "RocketRaiseDown",
+              "time": 0.2833333333333333
+            },
+            "RightWristTwistDeg": {
+              "value": 26.625921236028944,
+              "motion": "RocketRaiseDown",
+              "time": 0.6666666666666666
+            },
+            "RightWristSwingDeg": {
+              "value": 31.851358185880404,
+              "motion": "RocketRaiseDown",
+              "time": 0.85
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.011064436633196048,
+              "motion": "RocketRaiseDown",
+              "time": 1.3
+            },
+            "RightSeamAspect": {
+              "value": 0.6753385361229346,
+              "motion": "RocketRaiseDown",
+              "time": 1.3666666746139526
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.1674947989431753,
+              "motion": "RocketRaiseDown",
+              "time": 0.8,
+              "segment": "LeftForeArm-LeftHand",
+              "fraction": 0.9
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.04162750269264087,
+              "motion": "RocketRaiseDown",
+              "time": 0.5,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.9
+            },
+            "quaternionStepDeg": {
+              "value": 2.475955946169713,
+              "motion": "RocketRaiseDown",
+              "time": 0.10833333333333334,
+              "bone": "LeftHand"
+            }
+          }
+        },
+        "RocketRaiseInfiniteDown": {
+          "frames": 141,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 81.26830822961469,
+            "LeftForeArm": 109.17627126118984,
+            "LeftHand": 83.39336707239583,
+            "RightArm": 22.08281438000113,
+            "RightForeArm": 42.71378221819582,
+            "RightHand": 34.8952044365445
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 5.971240096824815e-8,
+              "motion": "RocketRaiseInfiniteDown",
+              "time": 0.9333333333333333,
+              "bone": "RightForeArm"
+            },
+            "LeftWristTwistDeg": {
+              "value": 35.13238351860798,
+              "motion": "RocketRaiseInfiniteDown",
+              "time": 1.1666666269302368
+            },
+            "LeftWristSwingDeg": {
+              "value": 47.51783825280423,
+              "motion": "RocketRaiseInfiniteDown",
+              "time": 0.4666666666666667
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.010971906125793412,
+              "motion": "RocketRaiseInfiniteDown",
+              "time": 0.38333333333333336
+            },
+            "LeftSeamAspect": {
+              "value": 0.6982978944843592,
+              "motion": "RocketRaiseInfiniteDown",
+              "time": 0.2833333333333333
+            },
+            "RightWristTwistDeg": {
+              "value": 26.625920919916098,
+              "motion": "RocketRaiseInfiniteDown",
+              "time": 0.6666666666666666
+            },
+            "RightWristSwingDeg": {
+              "value": 31.85136079571771,
+              "motion": "RocketRaiseInfiniteDown",
+              "time": 0.85
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.011064440125874698,
+              "motion": "RocketRaiseInfiniteDown",
+              "time": 1.1583333333333334
+            },
+            "RightSeamAspect": {
+              "value": 0.6753388290937716,
+              "motion": "RocketRaiseInfiniteDown",
+              "time": 1.1666666269302368
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.16749476083935538,
+              "motion": "RocketRaiseInfiniteDown",
+              "time": 0.8,
+              "segment": "LeftForeArm-LeftHand",
+              "fraction": 0.9
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.04162604453447175,
+              "motion": "RocketRaiseInfiniteDown",
+              "time": 0.5,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.9
+            },
+            "quaternionStepDeg": {
+              "value": 2.475573762699453,
+              "motion": "RocketRaiseInfiniteDown",
+              "time": 0.10833333333333334,
+              "bone": "LeftHand"
+            }
+          }
+        },
+        "RocketDraw": {
+          "frames": 69,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 125.34779069619636,
+            "LeftForeArm": 133.80751461198008,
+            "LeftHand": 86.86504605458893,
+            "RightArm": 91.88951898920357,
+            "RightForeArm": 50.204175251712925,
+            "RightHand": 65.66127819390141
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 5.664260602222804e-8,
+              "motion": "RocketDraw",
+              "time": 0.5,
+              "bone": "LeftHand"
+            },
+            "LeftWristTwistDeg": {
+              "value": 10.716102650603716,
+              "motion": "RocketDraw",
+              "time": 0.3
+            },
+            "LeftWristSwingDeg": {
+              "value": 34.98845108723945,
+              "motion": "RocketDraw",
+              "time": 0.3333333333333333
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.010981547880867448,
+              "motion": "RocketDraw",
+              "time": 0.3333333333333333
+            },
+            "LeftSeamAspect": {
+              "value": 0.6586803152411687,
+              "motion": "RocketDraw",
+              "time": 0.3333333333333333
+            },
+            "RightWristTwistDeg": {
+              "value": 33.288889292058,
+              "motion": "RocketDraw",
+              "time": 0.26666666666666666
+            },
+            "RightWristSwingDeg": {
+              "value": 30.38065605543349,
+              "motion": "RocketDraw",
+              "time": 0
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.011159047330853716,
+              "motion": "RocketDraw",
+              "time": 0.5666666626930237
+            },
+            "RightSeamAspect": {
+              "value": 0.6763061223255024,
+              "motion": "RocketDraw",
+              "time": 0.5666666626930237
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.1605531501894692,
+              "motion": "RocketDraw",
+              "time": 0.5,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.1
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.07102234525048266,
+              "motion": "RocketDraw",
+              "time": 0.4,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.9
+            },
+            "quaternionStepDeg": {
+              "value": 3.6739267474487582,
+              "motion": "RocketDraw",
+              "time": 0.24166666666666667,
+              "bone": "LeftArm"
+            }
+          }
+        },
+        "RocketDiscard": {
+          "frames": 121,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 161.7679559692338,
+            "LeftForeArm": 241.91374646039503,
+            "LeftHand": 143.29215510021558,
+            "RightArm": 141.93278620126645,
+            "RightForeArm": 153.41576535425756,
+            "RightHand": 150.48364947792356
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 8.58813095638844e-8,
+              "motion": "RocketDiscard",
+              "time": 0.9333333333333333,
+              "bone": "RightForeArm"
+            },
+            "LeftWristTwistDeg": {
+              "value": 34.211247230023275,
+              "motion": "RocketDiscard",
+              "time": 0.03333333333333333
+            },
+            "LeftWristSwingDeg": {
+              "value": 34.56504156672088,
+              "motion": "RocketDiscard",
+              "time": 0.03333333333333333
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.010652614135928726,
+              "motion": "RocketDiscard",
+              "time": 0.03333333333333333
+            },
+            "LeftSeamAspect": {
+              "value": 0.6582805351203468,
+              "motion": "RocketDiscard",
+              "time": 0.041666666666666664
+            },
+            "RightWristTwistDeg": {
+              "value": 30.587087165254502,
+              "motion": "RocketDiscard",
+              "time": 0.2
+            },
+            "RightWristSwingDeg": {
+              "value": 42.961233216044974,
+              "motion": "RocketDiscard",
+              "time": 0.8
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.01089112833587957,
+              "motion": "RocketDiscard",
+              "time": 0
+            },
+            "RightSeamAspect": {
+              "value": 0.663299057729664,
+              "motion": "RocketDiscard",
+              "time": 0.16666666666666666
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.1586653120267819,
+              "motion": "RocketDiscard",
+              "time": 0.2,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.1
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.0723377637190144,
+              "motion": "RocketDiscard",
+              "time": 0.1,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.7
+            },
+            "quaternionStepDeg": {
+              "value": 16.315556181689903,
+              "motion": "RocketDiscard",
+              "time": 0.03333333333333333,
+              "bone": "LeftForeArm"
+            }
+          }
+        }
+      },
+      "worst": {
+        "boneLengthDriftM": {
+          "value": 1.834872301875734e-7,
+          "motion": "RocketAimDown",
+          "time": 3.0999999046325684,
+          "bone": "RightHand"
+        },
+        "LeftWristTwistDeg": {
+          "value": 35.9276983532838,
+          "motion": "RocketRaiseInfiniteUp",
+          "time": 1.1083333333333334
+        },
+        "LeftWristSwingDeg": {
+          "value": 47.51787887607727,
+          "motion": "RocketRaiseDown",
+          "time": 0.4666666666666667
+        },
+        "LeftSeamMinorRmsM": {
+          "value": 0.010337658991692568,
+          "motion": "RocketFireUp",
+          "time": 0.4666666666666667
+        },
+        "LeftSeamAspect": {
+          "value": 0.6290682196444225,
+          "motion": "RocketFireUp",
+          "time": 0.4666666666666667
+        },
+        "RightWristTwistDeg": {
+          "value": 37.35554787925412,
+          "motion": "RocketFireUp",
+          "time": 0.4666666666666667
+        },
+        "RightWristSwingDeg": {
+          "value": 42.961233216044974,
+          "motion": "RocketDiscard",
+          "time": 0.8
+        },
+        "RightSeamMinorRmsM": {
+          "value": 0.010331584986738349,
+          "motion": "RocketFireUp",
+          "time": 0.4666666666666667
+        },
+        "RightSeamAspect": {
+          "value": 0.6353622598652885,
+          "motion": "RocketFireUp",
+          "time": 0.4666666666666667
+        },
+        "leftArmTorsoSignedDistanceM": {
+          "value": -0.21123671451674692,
+          "motion": "RocketFireUp",
+          "time": 0.6,
+          "segment": "LeftForeArm-LeftHand",
+          "fraction": 0.5
+        },
+        "leftArmTorsoDistanceM": {
+          "value": 0.009946485884321466,
+          "motion": "RocketFireDown",
+          "time": 0.1,
+          "segment": "LeftForeArm-LeftHand",
+          "fraction": 0.1
+        },
+        "quaternionStepDeg": {
+          "value": 16.315556181689903,
+          "motion": "RocketDiscard",
+          "time": 0.03333333333333333,
+          "bone": "LeftForeArm"
+        }
+      },
+      "nonFinite": 0
+    },
+    "zhigeng": {
+      "seamVertices": {
+        "Left": 582,
+        "Right": 276
+      },
+      "torsoTriangles": 3162,
+      "motions": {
+        "RifleIdle": {
+          "frames": 1029,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 0.006243878171526408,
+            "LeftForeArm": 0.007941979824907701,
+            "LeftHand": 0.008728069673616107,
+            "RightArm": 0.019994522191540246,
+            "RightForeArm": 0.034030436850130685,
+            "RightHand": 0.02546892462779513
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 1.2903989149437578e-7,
+              "motion": "RifleIdle",
+              "time": 8.566666603088379,
+              "bone": "RightForeArm"
+            },
+            "LeftWristTwistDeg": {
+              "value": 5.311917137191699,
+              "motion": "RifleIdle",
+              "time": 8.566666603088379
+            },
+            "LeftWristSwingDeg": {
+              "value": 9.975068420414724,
+              "motion": "RifleIdle",
+              "time": 8.566666603088379
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.013938556311331344,
+              "motion": "RifleIdle",
+              "time": 3.6
+            },
+            "LeftSeamAspect": {
+              "value": 0.5846108875552879,
+              "motion": "RifleIdle",
+              "time": 3.6
+            },
+            "RightWristTwistDeg": {
+              "value": 25.051062336826703,
+              "motion": "RifleIdle",
+              "time": 1.5666666666666667
+            },
+            "RightWristSwingDeg": {
+              "value": 24.690822419511104,
+              "motion": "RifleIdle",
+              "time": 8.566666603088379
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.011281007171115789,
+              "motion": "RifleIdle",
+              "time": 1.5666666666666667
+            },
+            "RightSeamAspect": {
+              "value": 0.6293637983166068,
+              "motion": "RifleIdle",
+              "time": 8.566666603088379
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.13733553071997112,
+              "motion": "RifleIdle",
+              "time": 8.5,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.1
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.1058932383669629,
+              "motion": "RifleIdle",
+              "time": 3.6,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.4
+            },
+            "quaternionStepDeg": {
+              "value": 0.00010791374665909769,
+              "motion": "RifleIdle",
+              "time": 8.566666603088379,
+              "bone": "RightForeArm"
+            }
+          }
+        },
+        "RifleWalk": {
+          "frames": 157,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 16.24096616703064,
+            "LeftForeArm": 16.395883867425887,
+            "LeftHand": 14.611096138781987,
+            "RightArm": 16.315409529266294,
+            "RightForeArm": 20.655567111449997,
+            "RightHand": 10.019029871064037
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 4.3569081176197955e-8,
+              "motion": "RifleWalk",
+              "time": 1.1,
+              "bone": "RightForeArm"
+            },
+            "LeftWristTwistDeg": {
+              "value": 6.081617572679079,
+              "motion": "RifleWalk",
+              "time": 0.14166666666666666
+            },
+            "LeftWristSwingDeg": {
+              "value": 5.266886989661699,
+              "motion": "RifleWalk",
+              "time": 0.725
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.013575342981581636,
+              "motion": "RifleWalk",
+              "time": 0.725
+            },
+            "LeftSeamAspect": {
+              "value": 0.5635885001644839,
+              "motion": "RifleWalk",
+              "time": 0.725
+            },
+            "RightWristTwistDeg": {
+              "value": 19.567949205296145,
+              "motion": "RifleWalk",
+              "time": 1.1583333333333334
+            },
+            "RightWristSwingDeg": {
+              "value": 15.70083301904454,
+              "motion": "RifleWalk",
+              "time": 1.1583333333333334
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.011275809723623033,
+              "motion": "RifleWalk",
+              "time": 0.14166666666666666
+            },
+            "RightSeamAspect": {
+              "value": 0.626218935801676,
+              "motion": "RifleWalk",
+              "time": 0.14166666666666666
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.1346933134054481,
+              "motion": "RifleWalk",
+              "time": 1.1,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.1
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.06744028920266987,
+              "motion": "RifleWalk",
+              "time": 0.1,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.7
+            },
+            "quaternionStepDeg": {
+              "value": 0.19409062821986758,
+              "motion": "RifleWalk",
+              "time": 0.14166666666666666,
+              "bone": "RightForeArm"
+            }
+          }
+        },
+        "RifleRun": {
+          "frames": 82,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 37.703819894795274,
+            "LeftForeArm": 24.786105554806348,
+            "LeftHand": 27.259908323055722,
+            "RightArm": 19.13989711332385,
+            "RightForeArm": 16.631675183485882,
+            "RightHand": 11.581889662660517
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 1.6710669403785516e-7,
+              "motion": "RifleRun",
+              "time": 0.6666666865348816,
+              "bone": "RightForeArm"
+            },
+            "LeftWristTwistDeg": {
+              "value": 7.0976277599893365,
+              "motion": "RifleRun",
+              "time": 0.20833333333333334
+            },
+            "LeftWristSwingDeg": {
+              "value": 11.03326334907848,
+              "motion": "RifleRun",
+              "time": 0.20833333333333334
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.013878482426951397,
+              "motion": "RifleRun",
+              "time": 0.6166666666666667
+            },
+            "LeftSeamAspect": {
+              "value": 0.5786206985747414,
+              "motion": "RifleRun",
+              "time": 0.6166666666666667
+            },
+            "RightWristTwistDeg": {
+              "value": 21.869889852453866,
+              "motion": "RifleRun",
+              "time": 0.6166666666666667
+            },
+            "RightWristSwingDeg": {
+              "value": 18.092008215833662,
+              "motion": "RifleRun",
+              "time": 0.6166666666666667
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.011330869013533865,
+              "motion": "RifleRun",
+              "time": 0.20833333333333334
+            },
+            "RightSeamAspect": {
+              "value": 0.6305335415739857,
+              "motion": "RifleRun",
+              "time": 0.23333333333333334
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.13239252238638338,
+              "motion": "RifleRun",
+              "time": 0,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.1
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.02985198728287826,
+              "motion": "RifleRun",
+              "time": 0.2,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.7
+            },
+            "quaternionStepDeg": {
+              "value": 0.7056985110563192,
+              "motion": "RifleRun",
+              "time": 0.125,
+              "bone": "LeftArm"
+            }
+          }
+        },
+        "RifleAimingIdle": {
+          "frames": 373,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 0.0029844227896366118,
+            "LeftForeArm": 0.00446239523552686,
+            "LeftHand": 0.003530709761429456,
+            "RightArm": 0.003999854476381897,
+            "RightForeArm": 0.005800932000456632,
+            "RightHand": 0.004928699099717466
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 1.2070959834464823e-7,
+              "motion": "RifleAimingIdle",
+              "time": 3.0999999046325684,
+              "bone": "LeftHand"
+            },
+            "LeftWristTwistDeg": {
+              "value": 28.147206988738105,
+              "motion": "RifleAimingIdle",
+              "time": 0.7
+            },
+            "LeftWristSwingDeg": {
+              "value": 48.165827860210314,
+              "motion": "RifleAimingIdle",
+              "time": 0.7
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.014135053302123819,
+              "motion": "RifleAimingIdle",
+              "time": 0.75
+            },
+            "LeftSeamAspect": {
+              "value": 0.6283581675348768,
+              "motion": "RifleAimingIdle",
+              "time": 2.2333333333333334
+            },
+            "RightWristTwistDeg": {
+              "value": 24.396720856596403,
+              "motion": "RifleAimingIdle",
+              "time": 0
+            },
+            "RightWristSwingDeg": {
+              "value": 37.70781335927682,
+              "motion": "RifleAimingIdle",
+              "time": 1.6
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.010907321768128099,
+              "motion": "RifleAimingIdle",
+              "time": 0
+            },
+            "RightSeamAspect": {
+              "value": 0.6083635166094661,
+              "motion": "RifleAimingIdle",
+              "time": 0
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.1388533946898409,
+              "motion": "RifleAimingIdle",
+              "time": 3.0999999046325684,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.1
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.05657858036199051,
+              "motion": "RifleAimingIdle",
+              "time": 0.2,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.8
+            },
+            "quaternionStepDeg": {
+              "value": 0.00016158667180863945,
+              "motion": "RifleAimingIdle",
+              "time": 3.0999999046325684,
+              "bone": "LeftHand"
+            }
+          }
+        },
+        "FiringRifle": {
+          "frames": 194,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 215.19036650962963,
+            "LeftForeArm": 222.15031860673787,
+            "LeftHand": 163.24555843792103,
+            "RightArm": 183.91406682406276,
+            "RightForeArm": 104.68141865959957,
+            "RightHand": 65.02709112696365
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 2.7648081618592e-7,
+              "motion": "FiringRifle",
+              "time": 0.8416666666666667,
+              "bone": "LeftForeArm"
+            },
+            "LeftWristTwistDeg": {
+              "value": 29.513527056161763,
+              "motion": "FiringRifle",
+              "time": 0.7
+            },
+            "LeftWristSwingDeg": {
+              "value": 59.926441635566654,
+              "motion": "FiringRifle",
+              "time": 0.48333333333333334
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.013194675970183525,
+              "motion": "FiringRifle",
+              "time": 0.49166666666666664
+            },
+            "LeftSeamAspect": {
+              "value": 0.5612331811508849,
+              "motion": "FiringRifle",
+              "time": 0.49166666666666664
+            },
+            "RightWristTwistDeg": {
+              "value": 33.704735477299096,
+              "motion": "FiringRifle",
+              "time": 0.4
+            },
+            "RightWristSwingDeg": {
+              "value": 43.84270760472373,
+              "motion": "FiringRifle",
+              "time": 0.5
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.010376744930209639,
+              "motion": "FiringRifle",
+              "time": 0.4666666666666667
+            },
+            "RightSeamAspect": {
+              "value": 0.5833024319313233,
+              "motion": "FiringRifle",
+              "time": 0.5
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.13840246211261517,
+              "motion": "FiringRifle",
+              "time": 1.600000023841858,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.1
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.02962504491298559,
+              "motion": "FiringRifle",
+              "time": 0.1,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.8
+            },
+            "quaternionStepDeg": {
+              "value": 2.915490252733272,
+              "motion": "FiringRifle",
+              "time": 0.3,
+              "bone": "LeftForeArm"
+            }
+          }
+        },
+        "RocketRaiseLevel": {
+          "frames": 166,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 57.98564445202827,
+            "LeftForeArm": 108.05541076241204,
+            "LeftHand": 96.15989137221865,
+            "RightArm": 30.87673352005536,
+            "RightForeArm": 54.63562847325429,
+            "RightHand": 41.50738995341296
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 4.729866259767235e-8,
+              "motion": "RocketRaiseLevel",
+              "time": 1.3666666746139526,
+              "bone": "LeftHand"
+            },
+            "LeftWristTwistDeg": {
+              "value": 29.836495474246703,
+              "motion": "RocketRaiseLevel",
+              "time": 1.3666666746139526
+            },
+            "LeftWristSwingDeg": {
+              "value": 58.29908014554531,
+              "motion": "RocketRaiseLevel",
+              "time": 0.7083333333333334
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.012906505043688206,
+              "motion": "RocketRaiseLevel",
+              "time": 0
+            },
+            "LeftSeamAspect": {
+              "value": 0.5363167400527104,
+              "motion": "RocketRaiseLevel",
+              "time": 0
+            },
+            "RightWristTwistDeg": {
+              "value": 25.021836844106815,
+              "motion": "RocketRaiseLevel",
+              "time": 0.7583333333333333
+            },
+            "RightWristSwingDeg": {
+              "value": 37.71751514714941,
+              "motion": "RocketRaiseLevel",
+              "time": 0.85
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.010906242645207015,
+              "motion": "RocketRaiseLevel",
+              "time": 1.3666666666666667
+            },
+            "RightSeamAspect": {
+              "value": 0.6085420843909463,
+              "motion": "RocketRaiseLevel",
+              "time": 1.3666666746139526
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.1426480335793206,
+              "motion": "RocketRaiseLevel",
+              "time": 1.3666666746139526,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.1
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.03155453074380795,
+              "motion": "RocketRaiseLevel",
+              "time": 0.5,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.8
+            },
+            "quaternionStepDeg": {
+              "value": 2.0898235893083017,
+              "motion": "RocketRaiseLevel",
+              "time": 0.16666666666666666,
+              "bone": "LeftHand"
+            }
+          }
+        },
+        "RocketRaiseInfiniteLevel": {
+          "frames": 141,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 81.05812244589885,
+            "LeftForeArm": 103.80264911778788,
+            "LeftHand": 88.33119097752436,
+            "RightArm": 30.97526949065922,
+            "RightForeArm": 54.765975862436655,
+            "RightHand": 41.392663476837
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 3.943684762086619e-8,
+              "motion": "RocketRaiseInfiniteLevel",
+              "time": 1,
+              "bone": "RightHand"
+            },
+            "LeftWristTwistDeg": {
+              "value": 29.840854479802147,
+              "motion": "RocketRaiseInfiniteLevel",
+              "time": 1.1666666269302368
+            },
+            "LeftWristSwingDeg": {
+              "value": 58.43160583273548,
+              "motion": "RocketRaiseInfiniteLevel",
+              "time": 0.7083333333333334
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.013601625657024078,
+              "motion": "RocketRaiseInfiniteLevel",
+              "time": 0.058333333333333334
+            },
+            "LeftSeamAspect": {
+              "value": 0.5664113333072597,
+              "motion": "RocketRaiseInfiniteLevel",
+              "time": 0.06666666666666667
+            },
+            "RightWristTwistDeg": {
+              "value": 25.022657532081325,
+              "motion": "RocketRaiseInfiniteLevel",
+              "time": 0.7583333333333333
+            },
+            "RightWristSwingDeg": {
+              "value": 37.71708652621214,
+              "motion": "RocketRaiseInfiniteLevel",
+              "time": 0.85
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.010906249866655416,
+              "motion": "RocketRaiseInfiniteLevel",
+              "time": 1.1666666269302368
+            },
+            "RightSeamAspect": {
+              "value": 0.6085427191566156,
+              "motion": "RocketRaiseInfiniteLevel",
+              "time": 1.1666666269302368
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.14265947858495714,
+              "motion": "RocketRaiseInfiniteLevel",
+              "time": 1.1666666269302368,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.1
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.022339966575055693,
+              "motion": "RocketRaiseInfiniteLevel",
+              "time": 0.5,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.8
+            },
+            "quaternionStepDeg": {
+              "value": 2.6389123015610845,
+              "motion": "RocketRaiseInfiniteLevel",
+              "time": 0.10833333333333334,
+              "bone": "LeftHand"
+            }
+          }
+        },
+        "RocketAimUp": {
+          "frames": 373,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 0.006700693354036938,
+            "LeftForeArm": 0.010495382593519202,
+            "LeftHand": 0.008258220748790656,
+            "RightArm": 0.00808315785963252,
+            "RightForeArm": 0.011296307210001447,
+            "RightHand": 0.009955992244080168
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 1.1025483995230623e-7,
+              "motion": "RocketAimUp",
+              "time": 3.0999999046325684,
+              "bone": "LeftHand"
+            },
+            "LeftWristTwistDeg": {
+              "value": 26.70462485416067,
+              "motion": "RocketAimUp",
+              "time": 2.4
+            },
+            "LeftWristSwingDeg": {
+              "value": 56.84104561489562,
+              "motion": "RocketAimUp",
+              "time": 2.4
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.013449115634119718,
+              "motion": "RocketAimUp",
+              "time": 2.4
+            },
+            "LeftSeamAspect": {
+              "value": 0.5831892150567194,
+              "motion": "RocketAimUp",
+              "time": 1.2666666666666666
+            },
+            "RightWristTwistDeg": {
+              "value": 28.38438574395184,
+              "motion": "RocketAimUp",
+              "time": 2.5
+            },
+            "RightWristSwingDeg": {
+              "value": 39.88279875340594,
+              "motion": "RocketAimUp",
+              "time": 1.3
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.010734566703248339,
+              "motion": "RocketAimUp",
+              "time": 2.5
+            },
+            "RightSeamAspect": {
+              "value": 0.6006241715899115,
+              "motion": "RocketAimUp",
+              "time": 2.5
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.14067151694453908,
+              "motion": "RocketAimUp",
+              "time": 2.4,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.1
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.10421413844198009,
+              "motion": "RocketAimUp",
+              "time": 1.3,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.7
+            },
+            "quaternionStepDeg": {
+              "value": 0.00016610670403782631,
+              "motion": "RocketAimUp",
+              "time": 3.0999999046325684,
+              "bone": "LeftHand"
+            }
+          }
+        },
+        "RocketFireUp": {
+          "frames": 190,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 207.49531879906772,
+            "LeftForeArm": 229.80488005579554,
+            "LeftHand": 170.99308805502258,
+            "RightArm": 168.5319236719159,
+            "RightForeArm": 105.5750718622531,
+            "RightHand": 65.62372049443836
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 2.8699921483799073e-7,
+              "motion": "RocketFireUp",
+              "time": 0.3,
+              "bone": "LeftForeArm"
+            },
+            "LeftWristTwistDeg": {
+              "value": 29.524327880217868,
+              "motion": "RocketFireUp",
+              "time": 0.3
+            },
+            "LeftWristSwingDeg": {
+              "value": 63.93516525047743,
+              "motion": "RocketFireUp",
+              "time": 0.4666666666666667
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.012808561882341484,
+              "motion": "RocketFireUp",
+              "time": 0.4666666666666667
+            },
+            "LeftSeamAspect": {
+              "value": 0.5465375080513007,
+              "motion": "RocketFireUp",
+              "time": 0.4666666666666667
+            },
+            "RightWristTwistDeg": {
+              "value": 35.42786599322744,
+              "motion": "RocketFireUp",
+              "time": 0.4666666666666667
+            },
+            "RightWristSwingDeg": {
+              "value": 45.35530099375964,
+              "motion": "RocketFireUp",
+              "time": 0.4666666666666667
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.01020950863420334,
+              "motion": "RocketFireUp",
+              "time": 0.4666666666666667
+            },
+            "RightSeamAspect": {
+              "value": 0.577504827081641,
+              "motion": "RocketFireUp",
+              "time": 0.4666666666666667
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.14259397665294357,
+              "motion": "RocketFireUp",
+              "time": 0.3,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.1
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.051241344771789224,
+              "motion": "RocketFireUp",
+              "time": 1.5,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.8
+            },
+            "quaternionStepDeg": {
+              "value": 3.414867251265016,
+              "motion": "RocketFireUp",
+              "time": 0.3,
+              "bone": "LeftForeArm"
+            }
+          }
+        },
+        "RocketRaiseUp": {
+          "frames": 166,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 47.62756890430998,
+            "LeftForeArm": 107.946317619596,
+            "LeftHand": 111.84449646240418,
+            "RightArm": 41.53444842525953,
+            "RightForeArm": 61.66251900589084,
+            "RightHand": 44.48056552596683
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 5.2219619295357234e-8,
+              "motion": "RocketRaiseUp",
+              "time": 1.3666666746139526,
+              "bone": "RightForeArm"
+            },
+            "LeftWristTwistDeg": {
+              "value": 27.022963041462276,
+              "motion": "RocketRaiseUp",
+              "time": 1.3666666666666667
+            },
+            "LeftWristSwingDeg": {
+              "value": 58.855869498054155,
+              "motion": "RocketRaiseUp",
+              "time": 0.7916666666666666
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.0112448375476378,
+              "motion": "RocketRaiseUp",
+              "time": 0
+            },
+            "LeftSeamAspect": {
+              "value": 0.4659090943958573,
+              "motion": "RocketRaiseUp",
+              "time": 0
+            },
+            "RightWristTwistDeg": {
+              "value": 30.81594524910429,
+              "motion": "RocketRaiseUp",
+              "time": 0.8083333333333333
+            },
+            "RightWristSwingDeg": {
+              "value": 39.887342181401834,
+              "motion": "RocketRaiseUp",
+              "time": 1.3666666746139526
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.010707916116753705,
+              "motion": "RocketRaiseUp",
+              "time": 0.85
+            },
+            "RightSeamAspect": {
+              "value": 0.6009823883475338,
+              "motion": "RocketRaiseUp",
+              "time": 0.85
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.14202032190811337,
+              "motion": "RocketRaiseUp",
+              "time": 1.3666666746139526,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.1
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.0039564361093669355,
+              "motion": "RocketRaiseUp",
+              "time": 0.1,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.7
+            },
+            "quaternionStepDeg": {
+              "value": 2.4360851802840005,
+              "motion": "RocketRaiseUp",
+              "time": 0.10833333333333334,
+              "bone": "LeftHand"
+            }
+          }
+        },
+        "RocketRaiseInfiniteUp": {
+          "frames": 141,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 77.48480790704005,
+            "LeftForeArm": 88.52870360433225,
+            "LeftHand": 81.49599246512146,
+            "RightArm": 41.67295765393243,
+            "RightForeArm": 61.80696582585167,
+            "RightHand": 44.18884306912064
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 3.872613540956138e-8,
+              "motion": "RocketRaiseInfiniteUp",
+              "time": 1,
+              "bone": "RightHand"
+            },
+            "LeftWristTwistDeg": {
+              "value": 27.030798658085928,
+              "motion": "RocketRaiseInfiniteUp",
+              "time": 0.9666666666666667
+            },
+            "LeftWristSwingDeg": {
+              "value": 58.98160756128672,
+              "motion": "RocketRaiseInfiniteUp",
+              "time": 0.7916666666666666
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.01337783879692883,
+              "motion": "RocketRaiseInfiniteUp",
+              "time": 0.825
+            },
+            "LeftSeamAspect": {
+              "value": 0.566241781221246,
+              "motion": "RocketRaiseInfiniteUp",
+              "time": 0.075
+            },
+            "RightWristTwistDeg": {
+              "value": 30.80908545575801,
+              "motion": "RocketRaiseInfiniteUp",
+              "time": 0.8083333333333333
+            },
+            "RightWristSwingDeg": {
+              "value": 39.88836242708382,
+              "motion": "RocketRaiseInfiniteUp",
+              "time": 0.85
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.010708225139127742,
+              "motion": "RocketRaiseInfiniteUp",
+              "time": 1.1583333333333334
+            },
+            "RightSeamAspect": {
+              "value": 0.6010087784569327,
+              "motion": "RocketRaiseInfiniteUp",
+              "time": 1.1666666269302368
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.14253450205502471,
+              "motion": "RocketRaiseInfiniteUp",
+              "time": 0.6,
+              "segment": "LeftForeArm-LeftHand",
+              "fraction": 0.9
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.03904145294340843,
+              "motion": "RocketRaiseInfiniteUp",
+              "time": 0.5,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.8
+            },
+            "quaternionStepDeg": {
+              "value": 2.6369901942881175,
+              "motion": "RocketRaiseInfiniteUp",
+              "time": 0.10833333333333334,
+              "bone": "LeftHand"
+            }
+          }
+        },
+        "RocketAimDown": {
+          "frames": 373,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 0.0074014383910437,
+            "LeftForeArm": 0.01164218737488711,
+            "LeftHand": 0.009098509384585897,
+            "RightArm": 0.006914066227115524,
+            "RightForeArm": 0.010477289690513815,
+            "RightHand": 0.008480604721846852
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 1.264022184421787e-7,
+              "motion": "RocketAimDown",
+              "time": 3.0999999046325684,
+              "bone": "LeftHand"
+            },
+            "LeftWristTwistDeg": {
+              "value": 29.85296632424638,
+              "motion": "RocketAimDown",
+              "time": 1
+            },
+            "LeftWristSwingDeg": {
+              "value": 39.72985063667936,
+              "motion": "RocketAimDown",
+              "time": 1
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.014603512422512684,
+              "motion": "RocketAimDown",
+              "time": 1.0333333333333334
+            },
+            "LeftSeamAspect": {
+              "value": 0.6704711623470777,
+              "motion": "RocketAimDown",
+              "time": 2.2666666666666666
+            },
+            "RightWristTwistDeg": {
+              "value": 20.89759787358537,
+              "motion": "RocketAimDown",
+              "time": 0.7
+            },
+            "RightWristSwingDeg": {
+              "value": 33.40535809207586,
+              "motion": "RocketAimDown",
+              "time": 0.7666666666666667
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.011090081316586708,
+              "motion": "RocketAimDown",
+              "time": 0.6833333333333333
+            },
+            "RightSeamAspect": {
+              "value": 0.6159160216954761,
+              "motion": "RocketAimDown",
+              "time": 0.7
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.1373084022346888,
+              "motion": "RocketAimDown",
+              "time": 0.7,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.1
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.02956658593881504,
+              "motion": "RocketAimDown",
+              "time": 2.8,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.8
+            },
+            "quaternionStepDeg": {
+              "value": 0.00017870606196476036,
+              "motion": "RocketAimDown",
+              "time": 3.0999999046325684,
+              "bone": "LeftHand"
+            }
+          }
+        },
+        "RocketFireDown": {
+          "frames": 194,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 241.40777702124223,
+            "LeftForeArm": 246.02081682938916,
+            "LeftHand": 235.4877482015342,
+            "RightArm": 220.6548170089414,
+            "RightForeArm": 124.47763932671785,
+            "RightHand": 80.1423075493336
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 2.466863729955193e-7,
+              "motion": "RocketFireDown",
+              "time": 0.7833333333333333,
+              "bone": "LeftForeArm"
+            },
+            "LeftWristTwistDeg": {
+              "value": 43.23282301884569,
+              "motion": "RocketFireDown",
+              "time": 0
+            },
+            "LeftWristSwingDeg": {
+              "value": 63.20694265563798,
+              "motion": "RocketFireDown",
+              "time": 0.5
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.013010282183736304,
+              "motion": "RocketFireDown",
+              "time": 0.5
+            },
+            "LeftSeamAspect": {
+              "value": 0.6475454334518008,
+              "motion": "RocketFireDown",
+              "time": 0.5
+            },
+            "RightWristTwistDeg": {
+              "value": 32.64180432697208,
+              "motion": "RocketFireDown",
+              "time": 0.4
+            },
+            "RightWristSwingDeg": {
+              "value": 42.95163912745375,
+              "motion": "RocketFireDown",
+              "time": 0.43333333333333335
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.010469930729553404,
+              "motion": "RocketFireDown",
+              "time": 0.4
+            },
+            "RightSeamAspect": {
+              "value": 0.5875256990725355,
+              "motion": "RocketFireDown",
+              "time": 0.4583333333333333
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.14406314505285883,
+              "motion": "RocketFireDown",
+              "time": 1.600000023841858,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.1
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.027004285553593327,
+              "motion": "RocketFireDown",
+              "time": 0.1,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.8
+            },
+            "quaternionStepDeg": {
+              "value": 3.651766442407924,
+              "motion": "RocketFireDown",
+              "time": 0.13333333333333333,
+              "bone": "LeftArm"
+            }
+          }
+        },
+        "RocketRaiseDown": {
+          "frames": 166,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 83.07402709680663,
+            "LeftForeArm": 124.54643920636322,
+            "LeftHand": 104.19898781677104,
+            "RightArm": 22.56016646185489,
+            "RightForeArm": 47.38797757406431,
+            "RightHand": 40.01463568488525
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 4.482477550249442e-8,
+              "motion": "RocketRaiseDown",
+              "time": 0.9333333333333333,
+              "bone": "LeftForeArm"
+            },
+            "LeftWristTwistDeg": {
+              "value": 31.09581658944569,
+              "motion": "RocketRaiseDown",
+              "time": 1.3333333333333333
+            },
+            "LeftWristSwingDeg": {
+              "value": 59.437303471451294,
+              "motion": "RocketRaiseDown",
+              "time": 0.675
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.013603060244151735,
+              "motion": "RocketRaiseDown",
+              "time": 0.058333333333333334
+            },
+            "LeftSeamAspect": {
+              "value": 0.5666765780438298,
+              "motion": "RocketRaiseDown",
+              "time": 0.06666666666666667
+            },
+            "RightWristTwistDeg": {
+              "value": 20.503238823097377,
+              "motion": "RocketRaiseDown",
+              "time": 0.65
+            },
+            "RightWristSwingDeg": {
+              "value": 33.401485848537696,
+              "motion": "RocketRaiseDown",
+              "time": 1.3666666746139526
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.011099347100260892,
+              "motion": "RocketRaiseDown",
+              "time": 1.3
+            },
+            "RightSeamAspect": {
+              "value": 0.6158515574442505,
+              "motion": "RocketRaiseDown",
+              "time": 1.3333333333333333
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.13917409550429913,
+              "motion": "RocketRaiseDown",
+              "time": 0.9,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.1
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.010667604352857355,
+              "motion": "RocketRaiseDown",
+              "time": 0.5,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.7
+            },
+            "quaternionStepDeg": {
+              "value": 2.656817398396008,
+              "motion": "RocketRaiseDown",
+              "time": 0.10833333333333334,
+              "bone": "LeftHand"
+            }
+          }
+        },
+        "RocketRaiseInfiniteDown": {
+          "frames": 141,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 83.07079426468745,
+            "LeftForeArm": 124.54907170877064,
+            "LeftHand": 104.2019243267217,
+            "RightArm": 22.56075223549911,
+            "RightForeArm": 47.38914001411634,
+            "RightHand": 40.01491092403833
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 4.6107610118806264e-8,
+              "motion": "RocketRaiseInfiniteDown",
+              "time": 0.9333333333333333,
+              "bone": "LeftForeArm"
+            },
+            "LeftWristTwistDeg": {
+              "value": 31.095674639208084,
+              "motion": "RocketRaiseInfiniteDown",
+              "time": 1.1666666269302368
+            },
+            "LeftWristSwingDeg": {
+              "value": 59.43742600051481,
+              "motion": "RocketRaiseInfiniteDown",
+              "time": 0.675
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.013603060262616172,
+              "motion": "RocketRaiseInfiniteDown",
+              "time": 0.058333333333333334
+            },
+            "LeftSeamAspect": {
+              "value": 0.566676520342289,
+              "motion": "RocketRaiseInfiniteDown",
+              "time": 0.06666666666666667
+            },
+            "RightWristTwistDeg": {
+              "value": 20.503238312242047,
+              "motion": "RocketRaiseInfiniteDown",
+              "time": 0.65
+            },
+            "RightWristSwingDeg": {
+              "value": 33.40147685159911,
+              "motion": "RocketRaiseInfiniteDown",
+              "time": 1.1
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.011099349462629936,
+              "motion": "RocketRaiseInfiniteDown",
+              "time": 1.1583333333333334
+            },
+            "RightSeamAspect": {
+              "value": 0.61585170475478,
+              "motion": "RocketRaiseInfiniteDown",
+              "time": 1.1666666269302368
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.13917410131315217,
+              "motion": "RocketRaiseInfiniteDown",
+              "time": 0.9,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.1
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.010667646135530123,
+              "motion": "RocketRaiseInfiniteDown",
+              "time": 0.5,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.7
+            },
+            "quaternionStepDeg": {
+              "value": 2.656312975286111,
+              "motion": "RocketRaiseInfiniteDown",
+              "time": 0.10833333333333334,
+              "bone": "LeftHand"
+            }
+          }
+        },
+        "RocketDraw": {
+          "frames": 69,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 134.5068507277551,
+            "LeftForeArm": 143.4914379962462,
+            "LeftHand": 82.20378901994862,
+            "RightArm": 88.79229104095702,
+            "RightForeArm": 49.74280697074179,
+            "RightHand": 65.10922710502633
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 5.933661822998815e-8,
+              "motion": "RocketDraw",
+              "time": 0.2,
+              "bone": "RightForeArm"
+            },
+            "LeftWristTwistDeg": {
+              "value": 10.716137080066687,
+              "motion": "RocketDraw",
+              "time": 0.3
+            },
+            "LeftWristSwingDeg": {
+              "value": 34.9945376533952,
+              "motion": "RocketDraw",
+              "time": 0.3333333333333333
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.01356864013312373,
+              "motion": "RocketDraw",
+              "time": 0.525
+            },
+            "LeftSeamAspect": {
+              "value": 0.5648475101689393,
+              "motion": "RocketDraw",
+              "time": 0.525
+            },
+            "RightWristTwistDeg": {
+              "value": 27.667040458631618,
+              "motion": "RocketDraw",
+              "time": 0.26666666666666666
+            },
+            "RightWristSwingDeg": {
+              "value": 30.188103641644165,
+              "motion": "RocketDraw",
+              "time": 0
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.009571089204006438,
+              "motion": "RocketDraw",
+              "time": 0
+            },
+            "RightSeamAspect": {
+              "value": 0.5681378422187318,
+              "motion": "RocketDraw",
+              "time": 0
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.1672867855269927,
+              "motion": "RocketDraw",
+              "time": 0.2,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.2
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.029748429407213214,
+              "motion": "RocketDraw",
+              "time": 0.4,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.8
+            },
+            "quaternionStepDeg": {
+              "value": 3.6739627378136306,
+              "motion": "RocketDraw",
+              "time": 0.26666666666666666,
+              "bone": "LeftArm"
+            }
+          }
+        },
+        "RocketDiscard": {
+          "frames": 121,
+          "torsoIntersectionSamples": 0,
+          "totalRotationDeg": {
+            "LeftArm": 157.36364928450683,
+            "LeftForeArm": 233.61224466612276,
+            "LeftHand": 147.65646591243052,
+            "RightArm": 140.79675543712048,
+            "RightForeArm": 155.42179474085154,
+            "RightHand": 155.57152148152733
+          },
+          "extrema": {
+            "boneLengthDriftM": {
+              "value": 1.1025228846550661e-7,
+              "motion": "RocketDiscard",
+              "time": 0.9333333333333333,
+              "bone": "RightForeArm"
+            },
+            "LeftWristTwistDeg": {
+              "value": 30.41249732644826,
+              "motion": "RocketDiscard",
+              "time": 0.025
+            },
+            "LeftWristSwingDeg": {
+              "value": 50.92697258226497,
+              "motion": "RocketDiscard",
+              "time": 0.016666666666666666
+            },
+            "LeftSeamMinorRmsM": {
+              "value": 0.013001590754377894,
+              "motion": "RocketDiscard",
+              "time": 1
+            },
+            "LeftSeamAspect": {
+              "value": 0.5423794265651055,
+              "motion": "RocketDiscard",
+              "time": 1
+            },
+            "RightWristTwistDeg": {
+              "value": 30.17566974790259,
+              "motion": "RocketDiscard",
+              "time": 0.2
+            },
+            "RightWristSwingDeg": {
+              "value": 42.96120059770499,
+              "motion": "RocketDiscard",
+              "time": 0.8
+            },
+            "RightSeamMinorRmsM": {
+              "value": 0.009676930485003234,
+              "motion": "RocketDiscard",
+              "time": 0.8
+            },
+            "RightSeamAspect": {
+              "value": 0.5684230997405648,
+              "motion": "RocketDiscard",
+              "time": 0.8
+            },
+            "leftArmTorsoSignedDistanceM": {
+              "value": -0.16630516856024244,
+              "motion": "RocketDiscard",
+              "time": 0.5,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.2
+            },
+            "leftArmTorsoDistanceM": {
+              "value": 0.05460184454668146,
+              "motion": "RocketDiscard",
+              "time": 0.1,
+              "segment": "LeftArm-LeftForeArm",
+              "fraction": 0.8
+            },
+            "quaternionStepDeg": {
+              "value": 15.432185896705475,
+              "motion": "RocketDiscard",
+              "time": 0.03333333333333333,
+              "bone": "LeftForeArm"
+            }
+          }
+        }
+      },
+      "worst": {
+        "boneLengthDriftM": {
+          "value": 2.8699921483799073e-7,
+          "motion": "RocketFireUp",
+          "time": 0.3,
+          "bone": "LeftForeArm"
+        },
+        "LeftWristTwistDeg": {
+          "value": 43.23282301884569,
+          "motion": "RocketFireDown",
+          "time": 0
+        },
+        "LeftWristSwingDeg": {
+          "value": 63.93516525047743,
+          "motion": "RocketFireUp",
+          "time": 0.4666666666666667
+        },
+        "LeftSeamMinorRmsM": {
+          "value": 0.0112448375476378,
+          "motion": "RocketRaiseUp",
+          "time": 0
+        },
+        "LeftSeamAspect": {
+          "value": 0.4659090943958573,
+          "motion": "RocketRaiseUp",
+          "time": 0
+        },
+        "RightWristTwistDeg": {
+          "value": 35.42786599322744,
+          "motion": "RocketFireUp",
+          "time": 0.4666666666666667
+        },
+        "RightWristSwingDeg": {
+          "value": 45.35530099375964,
+          "motion": "RocketFireUp",
+          "time": 0.4666666666666667
+        },
+        "RightSeamMinorRmsM": {
+          "value": 0.009571089204006438,
+          "motion": "RocketDraw",
+          "time": 0
+        },
+        "RightSeamAspect": {
+          "value": 0.5681378422187318,
+          "motion": "RocketDraw",
+          "time": 0
+        },
+        "leftArmTorsoSignedDistanceM": {
+          "value": -0.1672867855269927,
+          "motion": "RocketDraw",
+          "time": 0.2,
+          "segment": "LeftArm-LeftForeArm",
+          "fraction": 0.2
+        },
+        "leftArmTorsoDistanceM": {
+          "value": 0.0039564361093669355,
+          "motion": "RocketRaiseUp",
+          "time": 0.1,
+          "segment": "LeftArm-LeftForeArm",
+          "fraction": 0.7
+        },
+        "quaternionStepDeg": {
+          "value": 15.432185896705475,
+          "motion": "RocketDiscard",
+          "time": 0.03333333333333333,
+          "bone": "LeftForeArm"
+        }
+      },
+      "nonFinite": 0
+    }
+  }
+}

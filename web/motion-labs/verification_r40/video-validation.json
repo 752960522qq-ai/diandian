@@ -1,0 +1,22 @@
+{
+  "file": "PF89_R40_里昂式高位持筒_双角色渲染.mp4",
+  "bytes": 3271495,
+  "sha256": "92225e2649012be2cf60b2ecacdbacb8c62d7bdee6099ca368300b4de89011f9",
+  "width": 640,
+  "height": 640,
+  "fps": 20,
+  "frames": 320,
+  "duration_s": 16,
+  "codec": "h264",
+  "decode_check": "passed",
+  "source": "Actual saved final R40 Blender scenes, Cycles CPU 8 samples; no generated motion, no interpolation, no geometry edits",
+  "shots_per_character": [
+    "idle high carry",
+    "run high carry",
+    "carry wrist close-up",
+    "draw slow motion",
+    "raise to aim",
+    "aim close-up"
+  ],
+  "audio": false
+}

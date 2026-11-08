@@ -1,0 +1,344 @@
+{
+  "revision": 40,
+  "baseline_commit": "2ddb6721e662fd27c97c576a2c222159272c7d3c",
+  "created_utc": "2026-11-07T13:14:47.986454+00:00",
+  "deployment": "local only; not committed, pushed or deployed",
+  "blender": "4.3.2",
+  "files_excluding_manifest": [
+    {
+      "path": ".gitattributes",
+      "bytes": 1948,
+      "sha256": "a54404d593951afa99eefc042d0ba1588435bb13e7c58f5c22a8bea079b651a1"
+    },
+    {
+      "path": "assets/animations/pf89_r40/README.md",
+      "bytes": 3445,
+      "sha256": "0e6c5a6e7fa1a2519a223beda78e68c1ca13f76cf6b47594c55596f6ef3052f8"
+    },
+    {
+      "path": "assets/animations/pf89_r40/diandian_pf89_r40.blend",
+      "bytes": 24907606,
+      "sha256": "dca10e486d133ca4ac7cf14a978fcfb1918f574f0149909cd8e55300c7e3629a"
+    },
+    {
+      "path": "assets/animations/pf89_r40/path_references.json",
+      "bytes": 2992,
+      "sha256": "99bdfb0bd6852f8947c8641aa2a349034e1a6f75c314a8e352acb1add5bd246a"
+    },
+    {
+      "path": "assets/animations/pf89_r40/pf89_motion_guides.blend",
+      "bytes": 131697,
+      "sha256": "c74affe543aa20963a4fd6169b04972090ee61f0c91f1db19d5d77c22ccbe257"
+    },
+    {
+      "path": "assets/animations/pf89_r40/zhigeng_pf89_r40.blend",
+      "bytes": 24619455,
+      "sha256": "a91640fc9313b51a3d0d5b0c9f13c181b624f210666bc02b588fa62d1a24882d"
+    },
+    {
+      "path": "assets/weapons/character_attachment_v40.json",
+      "bytes": 682383,
+      "sha256": "4f60eaa765c2953838a4816827be561db6fbc32c15e77bb4299fb1ca65b446a2"
+    },
+    {
+      "path": "tools/blender/author_pf89_r40_paths.py",
+      "bytes": 2919,
+      "sha256": "b2e819e7e6b827a286aa694d93232b2f332379bb6b1128173e0eb55189a2feee"
+    },
+    {
+      "path": "tools/blender/bake_pf89_review.py",
+      "bytes": 6433,
+      "sha256": "ab151ae9d29a68063679267c515af3c6ed044404f10a49b95c5daa189bd59892"
+    },
+    {
+      "path": "tools/blender/render_pf89_r40_video.py",
+      "bytes": 2818,
+      "sha256": "c08b4dbec3334eedc9813ea6e767de0ad44b7d0c347bf875ab25f9abfce501e3"
+    },
+    {
+      "path": "tools/blender/validate_pf89_bake.py",
+      "bytes": 1891,
+      "sha256": "28c655263739c3b8ab761d3196ae3e6575c8c7424922deb04e872d41593cb170"
+    },
+    {
+      "path": "tools/qa/export_pf89_blender.mjs",
+      "bytes": 2106,
+      "sha256": "55c2f4e7dd6bcf2029bd80a0c0599e72643fcc7559d679d96b21a70ca17bf3cc"
+    },
+    {
+      "path": "tools/qa/pf89_pose_metrics.mjs",
+      "bytes": 7209,
+      "sha256": "091b1fb54789574f52516b99b1f0404867d706ddc3c76b2215198d4f6d72142f"
+    },
+    {
+      "path": "tools/qa/pf89_verify_final.mjs",
+      "bytes": 6858,
+      "sha256": "07ef5326f8d32c218f945bbf1f08c416895a51cfd2aeee7b0cadf954a437e21c"
+    },
+    {
+      "path": "tools/qa/validate_motion_catalog.mjs",
+      "bytes": 2341,
+      "sha256": "57e75c653042f78758e6697c24613512d2fd17a3c8484c519debc20b588137a6"
+    },
+    {
+      "path": "tools/qa/validate_non_pf89_regression.mjs",
+      "bytes": 7877,
+      "sha256": "ea5cd8457f30dab8d6e8f7352cae42bd900b63fe52eb2824bb53c855fb10abcd"
+    },
+    {
+      "path": "tools/qa/validate_pf89_carry_source.mjs",
+      "bytes": 2523,
+      "sha256": "88eb2ec29f1d4fe2e88f5443cda29ac217170c23c978823ca3ea440cb7083755"
+    },
+    {
+      "path": "tools/qa/validate_pf89_clearance.mjs",
+      "bytes": 3283,
+      "sha256": "4e487eff3a2a13c52126f07ccbf6fc66154d8b8060b0d41bc748fe243a3f03f6"
+    },
+    {
+      "path": "web/motion-labs/README.md",
+      "bytes": 16487,
+      "sha256": "959556ce65f4c11b49b33519fb54bfdd4bb34b823ff3f554415956a7ee862471"
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/app.js",
+      "bytes": 31892,
+      "sha256": "cd3edf67228c61d93123e71add8a68dfe0518d5251d74887b2a241ce44cd818c"
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/assets/weapon_attachment.json",
+      "bytes": 553678,
+      "sha256": "4da2ff6e0cf7ef95dcf8a02ef20e08521dde85a89891d0baa7e12bf38e44bcc4"
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/index.html",
+      "bytes": 7393,
+      "sha256": "f3fd9f8e59a3d261445fafead4a00c351585a680e6beb02fa1f5c3b6861c63fa"
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/motion-catalog.js",
+      "bytes": 534,
+      "sha256": "efdc392bc5b163ed8dad9d79bb3b5a28864ca02c72f5babb0e6e8d956965ea91"
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/rocket-motion.js",
+      "bytes": 7439,
+      "sha256": "0e414b08d8880cbad9a3a40e11257499cf652df31fc09cd96a31e0bf950e497a"
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/weapon-attachment.js",
+      "bytes": 33849,
+      "sha256": "8cfea7a3418ad862a31f0fab234ac7835ca78f961b108c6cfd82b524dcb2e104"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/PF89_R40_\u91cc\u6602\u5f0f\u9ad8\u4f4d\u6301\u7b52_\u53cc\u89d2\u8272\u6e32\u67d3.mp4",
+      "bytes": 3271495,
+      "sha256": "92225e2649012be2cf60b2ecacdbacb8c62d7bdee6099ca368300b4de89011f9"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/README.md",
+      "bytes": 3552,
+      "sha256": "d1db1781bcdf0037f753a16c6c389021398c9b8937e72e2a01e157c4c1765001"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/blender-diandian.json",
+      "bytes": 264374,
+      "sha256": "d88c0f42eed8ca4082b61e7ccccf8d33763e6c3eff9e8a65758d3fd353700cfd"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/blender-zhigeng.json",
+      "bytes": 265235,
+      "sha256": "adda815ed8201469b32679b77b71069aa5ff378bdef07567061cd8352ea9cac4"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/carry-calibration-report.md",
+      "bytes": 1161,
+      "sha256": "da2b90ebe4033d306ceb6bda6a8764584fa404e8186ff1d1bafcb8aa28ae1bb8"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/carry-clearance.json",
+      "bytes": 2317,
+      "sha256": "7c377f39e71b6f4f3e3bf8d802937d8fcf8c1cdfa508b1061894ce858122db50"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/carry-source.json",
+      "bytes": 3365,
+      "sha256": "ba4a73f8dc487d88c8e3398b4c7100cacf53b971ebd8db2c66e1ebe7e2044795"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/config-scope-regression.json",
+      "bytes": 9330,
+      "sha256": "08a7601ff45afd2e59a5509d2f62fddf440216b9691d79505f4fce77242cce3e"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/diandian/aim_close.png",
+      "bytes": 488740,
+      "sha256": "4b9cf1f021edd47b31b1b035b9d43439fb5b68119f287bdfd31cbe907ebed7ab"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/diandian/carry_close.png",
+      "bytes": 494498,
+      "sha256": "c6645ddc89cedeb4caa0349a02f6585f39251e96aac9cc128f409b6dbafcc3cb"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/diandian/draw.png",
+      "bytes": 293981,
+      "sha256": "c536cb1f7acbaa02b617595c4dd47da715986064107a52a8f7bf574076d64b6a"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/diandian/idle.png",
+      "bytes": 316854,
+      "sha256": "a5de1018bda88c1b1984940cc5f1ddd46ccbfe3c58418354bc978babae576310"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/diandian/raise.png",
+      "bytes": 316739,
+      "sha256": "795d8b5a48c8a670b5b43e059cfddb5372daf43eb3f64dbcdc2f3cfc2340dad1"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/diandian/run.png",
+      "bytes": 311104,
+      "sha256": "e3d08c6ed1d0d1b111ca89abec12df6c719ce5d6f21cc09f557c95f9110d2eb4"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/final-focused-clearance.json",
+      "bytes": 5479,
+      "sha256": "7bcd22b174b71ae5761a3c71f2d0a0c46db695cd698740afd1c3451ea8c1b9d9"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/motion-catalog.json",
+      "bytes": 244,
+      "sha256": "1dc46dcb85140267e119f84833ba2430e7766f1f9590040b503808352ffb34c3"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/non-pf89-regression.json",
+      "bytes": 8134,
+      "sha256": "5e39dc3f61139f81a0d8ef60c0502d6162832ee3e0afbdf341a98db52853a1a3"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/pose-metrics.json",
+      "bytes": 97706,
+      "sha256": "7f8341fdfafb509fd72cfbf07a33300d7b4a114130fb5c39b9fa7a7bdb637e8f"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/runtime-regression.json",
+      "bytes": 918,
+      "sha256": "5d7b625c4938d5c960396e2600047fb93e210b2b1e555cdb41baa008a3b2b74e"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/source-reference/README.md",
+      "bytes": 5479,
+      "sha256": "4cd629de350f804bc70e18cda21440e715ee2494784e619b85c1e2660ecd648e"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/source-reference/relative_ranges.json",
+      "bytes": 4466,
+      "sha256": "5c994ba15d82b113bb95a37ef4f652590ea0dfbce9f957a24fda31a0a21206ad"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/source-reference/source_Idle_back.png",
+      "bytes": 517670,
+      "sha256": "3dd21e74316a753638660fbf2b659b742994484598ca92552f3572170c1e5906"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/source-reference/source_Idle_front.png",
+      "bytes": 506799,
+      "sha256": "4a3b6589199680385a54b873b44d3a7d908eed6b6ea792599c5797eff2763463"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/source-reference/source_Run_back.png",
+      "bytes": 538900,
+      "sha256": "432138932b6933b42d0246ba21097035b66ae3e72c804e5ddd043dcacfdbd86b"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/source-reference/source_Run_front.png",
+      "bytes": 527083,
+      "sha256": "6bd405b9cf7d35c21450ac94474c8266145f0500abd65cf542532d10a4cf9f7a"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/source-reference/source_Walk_back.png",
+      "bytes": 526929,
+      "sha256": "d1174b1081797f981ae78584101e8ce557a62cda2254fd4d31e07e527088da25"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/source-reference/source_Walk_front.png",
+      "bytes": 512016,
+      "sha256": "c7e64200180bc799e0fb2366383cbe5eafb0fa59102ad208f6cbee33d2ba526b"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/source-reference/source_pose_samples.json",
+      "bytes": 162958,
+      "sha256": "e2eb308607fc410eb9ac4ecdb0e00c54402c55c8efb2f3f16502395173355086"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/source-reference/source_skeleton_reference.png",
+      "bytes": 261713,
+      "sha256": "d55b14b3ee6f1e272098da4485e6be5aa81e4eb929d5cf484341f9bb7a6a6f71"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/video-validation.json",
+      "bytes": 616,
+      "sha256": "74a50dc531e65f2d46074dbf831c88e149e732060b9270419fead029916be71f"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/zhigeng/aim_close.png",
+      "bytes": 513338,
+      "sha256": "59dfc659c90f2ac0e1525daf5089c9dce96d07856283614c4a6f709a5e2f76a3"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/zhigeng/carry_close.png",
+      "bytes": 512587,
+      "sha256": "b224ff4742f23d4e90bb1aa7cc73b652fb9c64fcbc7cd63613693b1652109794"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/zhigeng/draw.png",
+      "bytes": 300436,
+      "sha256": "b7a63f93b59cd7afc065ac11a12de5c4a78522a120b51ed098b2a1290e1ea3f1"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/zhigeng/idle.png",
+      "bytes": 320223,
+      "sha256": "3dd509e21e71934ca44bd6c5beadecdeb7640f0dd3b7d61927d805e2bb8c0233"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/zhigeng/raise.png",
+      "bytes": 319209,
+      "sha256": "e53de902c3300f0d901570e99440e713d561bd970a628c5f9beb750427e40c3c"
+    },
+    {
+      "path": "web/motion-labs/verification_r40/zhigeng/run.png",
+      "bytes": 313294,
+      "sha256": "d1c9279f4a8fffeeb2724c6c8373a46b47cfc0f709fe59a5276aa79370e9496a"
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/app.js",
+      "bytes": 33983,
+      "sha256": "07b94f57e731e9b528b3afad6e3b616983fe2d837b896fecb0b20ec1e469aa23"
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/assets/weapon_attachment.json",
+      "bytes": 549441,
+      "sha256": "b2312ec725445dffd003cc540e09fa9e2a6efa5334b4e01cdc77533c7b547469"
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/index.html",
+      "bytes": 7734,
+      "sha256": "7f747c1be0bb7a1b934ce5ec2d576042dce2e2b39a876a3ef0237d0141e33db0"
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/motion-catalog.js",
+      "bytes": 534,
+      "sha256": "efdc392bc5b163ed8dad9d79bb3b5a28864ca02c72f5babb0e6e8d956965ea91"
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/rocket-motion.js",
+      "bytes": 7439,
+      "sha256": "0e414b08d8880cbad9a3a40e11257499cf652df31fc09cd96a31e0bf950e497a"
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/weapon-attachment.js",
+      "bytes": 33333,
+      "sha256": "2436259251877eed859f9b671c72e00320aa8796e566e26de07db29f48aa9e61"
+    }
+  ]
+}

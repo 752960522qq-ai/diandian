@@ -122,9 +122,11 @@ note.write('PF89 900 mm / local review only\n'
            'The default timeline previews all 17 pairs consecutively; named markers locate each action.\n'
            'For individual editing, mute PF89_ReviewSequence and select the matching actions or unmute their tracks.\n'
            'Muted NLA tracks store every individual pair.\n'
-           'The web runtime remains the source for continuous IK; this file is an editable bake.\n')
+           'The web runtime remains the source for continuous IK; this file is an editable bake.\n'
+           '14 visible categories; three RaiseInfinite variants retained for editing.\n'
+           'R40 restores source Leon high carry hand orientation in idle/walk/run.\n')
 scene['PF89_length_mm'] = 900
-scene['PF89_revision'] = 38
+scene['PF89_revision'] = data.get('revision', 38)
 scene['local_only'] = True
 scene['animation_pairs'] = json.dumps([{'character': a.name, 'weapon': w.name} for a, w, _ in pairs])
 bpy.ops.object.select_all(action='DESELECT')

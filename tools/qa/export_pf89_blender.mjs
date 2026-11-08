@@ -33,7 +33,7 @@ for (const cid of ['diandian', 'zhigeng']) {
     }
     clips.push({ name: entry.name, motion, duration: entry.duration, frames });
   }
-  const data = { character: cid, fps, model: rt.file, weapon: rt.dir + '/assets/weapons/pf89.glb', clips };
+  const data = { character: cid, revision: rt.cfg.revision, fps, model: rt.file, weapon: rt.dir + '/assets/weapons/pf89.glb', clips };
   fs.writeFileSync(path.join(dest, cid + '-poses.json.gz'), zlib.gzipSync(JSON.stringify(data)));
   console.log(cid, clips.length, 'clips exported');
 }

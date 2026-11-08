@@ -28,3 +28,4 @@ web/motion-labs/*/assets/re4_rocket_upper.glb -filter -diff -merge -text
 # Editable PF89 calibration and baked character actions.
 assets/weapons/*.blend filter=lfs diff=lfs merge=lfs -text
 assets/animations/pf89_r38/*.blend filter=lfs diff=lfs merge=lfs -text
+assets/animations/pf89_r40/*.blend filter=lfs diff=lfs merge=lfs -text
