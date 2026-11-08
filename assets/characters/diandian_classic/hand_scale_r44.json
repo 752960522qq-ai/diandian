@@ -1,0 +1,29 @@
+[
+  {
+    "file": "assets/characters/diandian_classic/diandian_classic_fixed.glb",
+    "source_sha256": "131335082497e258bf6b9d1180931833d28b1bcecedaca3d53810d8216c13572",
+    "sha256": "9185d0cc3bc78b3348a58e1a7660b23d52503ddf7381ea86d4d659b107729bf4",
+    "hand_scale": 0.9,
+    "scale_channels": 22,
+    "geometry_and_skin_inverse_data_preserved": true,
+    "preview_origin_preserved": true
+  },
+  {
+    "file": "web/motion-labs/diandian-classic-motion-lab/assets/diandian_fixed.glb",
+    "source_sha256": "a2533218537e38f4dbd2c3462dd2c68d082442cc12d7f8c0960032859eac3f02",
+    "sha256": "b7f20683cd0d81356ce9d534f31c866140d67014d102c53d4711e02da1df1507",
+    "hand_scale": 0.9,
+    "scale_channels": 22,
+    "geometry_and_skin_inverse_data_preserved": true,
+    "preview_origin_preserved": true
+  },
+  {
+    "file": "web/motion-labs/diandian-classic-motion-lab/assets/diandian_before.glb",
+    "source_sha256": "226d90ed0d12d23dd10bb2059162351dd9a4af535c025851e90ca87cb28b4496",
+    "sha256": "56e47c42a14c588b492b33a0ac80d797977b3e08c0f0a09f0285a3e821dbc210",
+    "hand_scale": 0.9,
+    "scale_channels": 26,
+    "geometry_and_skin_inverse_data_preserved": true,
+    "preview_origin_preserved": true
+  }
+]

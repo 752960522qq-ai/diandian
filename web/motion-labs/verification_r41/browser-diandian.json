@@ -1,0 +1,274 @@
+{
+  "diandian": {
+    "passed": true,
+    "errors": [],
+    "warnings": [],
+    "visibleNewActions": 8,
+    "visiblePf89Actions": 14,
+    "mobileWidth": 390,
+    "states": [
+      {
+        "motion": "PistolShooting",
+        "clip": "PistolShooting",
+        "time": 0.5249999821186065,
+        "duration": 1.1666666269302368,
+        "weapon": {
+          "visible": true,
+          "selectedWeapon": "qsz92",
+          "motion": "PistolShooting",
+          "time": 0.5249999821186065,
+          "actualClip": "PistolShooting",
+          "handScale": 0.9,
+          "leftContactErrorM": 0.0016067011615021301,
+          "rightContactErrorM": 5.551115123125783e-17,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": 0.0034491637964052736,
+          "chestReliefActive": false,
+          "rightPalmWorld": [
+            -0.09067137916298097,
+            1.2902287538626933,
+            0.462023983157259
+          ],
+          "pumpTravelM": 0,
+          "leftPalmWorld": [
+            -0.05423584750969174,
+            1.2820671994653066,
+            0.47215982437767173
+          ],
+          "supportTargetWorld": [
+            -0.05268032699793812,
+            1.2824615862142943,
+            0.4722392199197944
+          ],
+          "barrelPitchDegrees": 15.479787580679353,
+          "re4Shotgun": false,
+          "modelScale": 1,
+          "weaponPosition": [
+            -0.09015155585897226,
+            1.3290454354231773,
+            0.5197560800909804
+          ],
+          "weaponQuaternion": [
+            0.0031696555715240316,
+            0.9908798604764372,
+            -0.13468581841046098,
+            -0.0026049385518085487
+          ]
+        },
+        "camera": [
+          -0.02700689935559486,
+          0.8906166603010099,
+          4.172771915958529
+        ],
+        "target": [
+          -0.02700689935559486,
+          0.8299085250571216,
+          0.12556289969932555
+        ]
+      },
+      {
+        "motion": "SittingCrossLegged",
+        "clip": "SittingCrossLegged",
+        "time": 2.8699999809265138,
+        "duration": 9.566666603088379,
+        "weapon": {
+          "visible": false,
+          "selectedWeapon": "qsz92",
+          "motion": "SittingCrossLegged",
+          "time": 2.8699999809265138,
+          "actualClip": "SittingCrossLegged",
+          "handScale": 0.9,
+          "leftContactErrorM": 0,
+          "rightContactErrorM": 0,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "chestReliefActive": false
+        },
+        "camera": [
+          -0.04558769583262673,
+          0.7342048705561748,
+          3.5968617204955478
+        ],
+        "target": [
+          -0.04558769583262673,
+          0.6826451368743067,
+          0.1595461417043605
+        ]
+      },
+      {
+        "motion": "SittingTalking",
+        "clip": "SittingTalking",
+        "time": 22.483333587646484,
+        "duration": 44.96666717529297,
+        "weapon": {
+          "visible": false,
+          "selectedWeapon": "qsz92",
+          "motion": "SittingTalking",
+          "time": 22.483333587646484,
+          "actualClip": "SittingTalking",
+          "handScale": 0.9,
+          "leftContactErrorM": 0,
+          "rightContactErrorM": 0,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "chestReliefActive": false
+        },
+        "camera": [
+          0.08227571996508308,
+          0.7289112998447254,
+          3.7371022168447157
+        ],
+        "target": [
+          0.08227571996508308,
+          0.6763654456805057,
+          0.23404527256342098
+        ]
+      },
+      {
+        "motion": "WalkingBackwards",
+        "clip": "WalkingBackwards",
+        "time": 0.3866666555404663,
+        "duration": 0.9666666388511658,
+        "weapon": {
+          "visible": false,
+          "selectedWeapon": "qsz92",
+          "motion": "WalkingBackwards",
+          "time": 0.3866666555404663,
+          "actualClip": "WalkingBackwards",
+          "handScale": 0.9,
+          "leftContactErrorM": 0,
+          "rightContactErrorM": 0,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "chestReliefActive": false
+        },
+        "camera": [
+          0.04274781081337958,
+          0.9451957474579638,
+          4.264762218864082
+        ],
+        "target": [
+          0.04274781081337958,
+          0.8820440504505811,
+          0.054649085038592116
+        ]
+      },
+      {
+        "motion": "ClimbingLadder",
+        "clip": "ClimbingLadder",
+        "time": 0.38333332538604736,
+        "duration": 0.7666666507720947,
+        "weapon": {
+          "visible": false,
+          "selectedWeapon": "qsz92",
+          "motion": "ClimbingLadder",
+          "time": 0.38333332538604736,
+          "actualClip": "ClimbingLadder",
+          "handScale": 0.9,
+          "leftContactErrorM": 0,
+          "rightContactErrorM": 0,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "chestReliefActive": false
+        },
+        "camera": [
+          0.05383051119289919,
+          0.922997424404615,
+          3.66217024141066
+        ],
+        "target": [
+          0.05383051119289919,
+          0.862761216308851,
+          -0.35357696497358393
+        ]
+      },
+      {
+        "motion": "HangToCrouch",
+        "clip": "HangToCrouch",
+        "time": 1.1333333253860474,
+        "duration": 1.1333333253860474,
+        "weapon": {
+          "visible": false,
+          "selectedWeapon": "qsz92",
+          "motion": "HangToCrouch",
+          "time": 1.1333333253860474,
+          "actualClip": "HangToCrouch",
+          "handScale": 0.9,
+          "leftContactErrorM": 0,
+          "rightContactErrorM": 0,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "chestReliefActive": false
+        },
+        "camera": [
+          -0.0021504016309246143,
+          1.495949040149988,
+          6.070719336431884
+        ],
+        "target": [
+          -0.0021504016309246143,
+          1.4109079952623151,
+          0.4013163439203921
+        ]
+      },
+      {
+        "motion": "Dying",
+        "clip": "Dying",
+        "time": 4.333333492279053,
+        "duration": 4.333333492279053,
+        "weapon": {
+          "visible": false,
+          "selectedWeapon": "qsz92",
+          "motion": "Dying",
+          "time": 4.333333492279053,
+          "actualClip": "Dying",
+          "handScale": 0.9,
+          "leftContactErrorM": 0,
+          "rightContactErrorM": 0,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "chestReliefActive": false
+        },
+        "camera": [
+          -0.26477009984936717,
+          0.9549379195642955,
+          6.145446583504414
+        ],
+        "target": [
+          -0.26477009984936717,
+          0.8771192797130695,
+          0.957537260089367
+        ]
+      },
+      {
+        "motion": "FlyingBackDeath",
+        "clip": "FlyingBackDeath",
+        "time": 3.0333333015441895,
+        "duration": 3.0333333015441895,
+        "weapon": {
+          "visible": false,
+          "selectedWeapon": "qsz92",
+          "motion": "FlyingBackDeath",
+          "time": 3.0333333015441895,
+          "actualClip": "FlyingBackDeath",
+          "handScale": 0.9,
+          "leftContactErrorM": 0,
+          "rightContactErrorM": 0,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "chestReliefActive": false
+        },
+        "camera": [
+          0.12125112795853699,
+          0.9913827841395767,
+          4.8108034896090395
+        ],
+        "target": [
+          0.12125112795853699,
+          0.908992371884244,
+          -0.6818906607464496
+        ]
+      }
+    ]
+  }
+}

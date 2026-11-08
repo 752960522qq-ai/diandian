@@ -1,0 +1,34 @@
+[
+  {
+    "path": "assets/animations/motion_lab_r41/source/Dying1.fbx",
+    "sha256": "3d06716973e5ab0bbb544be6bfa76d42c7cfcd84c477b3a1d1c3a65a976a03e5"
+  },
+  {
+    "path": "assets/animations/motion_lab_r41/source/Flying Back Death.fbx",
+    "sha256": "40ee236bfb0311466b901a5d1e80e9ea0d5041809f1a27be51e116768e4fc4d0"
+  },
+  {
+    "path": "assets/animations/motion_lab_r41/source/pistol Shooting.fbx",
+    "sha256": "9e2ed2684afb96e6aaa8bd82db79490c42b4fd3f8e91efbaf1277a861d90d4e7"
+  },
+  {
+    "path": "assets/animations/motion_lab_r41/source/二郎腿Sitting Talking.fbx",
+    "sha256": "3d88ead42dde579ff812242e6f06e3b8373a92bc517481eb6a93e37e3ed51b7e"
+  },
+  {
+    "path": "assets/animations/motion_lab_r41/source/二郎腿Sitting.fbx",
+    "sha256": "f8a853044d295bd07f779fa4e743560e58fd18fcb063af445559cbdc94545b72"
+  },
+  {
+    "path": "assets/animations/motion_lab_r41/source/Climbing Ladder.fbx",
+    "sha256": "ae68ab388691e294c368570114dffba540a98c7354656be9464f71a88146c18c"
+  },
+  {
+    "path": "assets/animations/motion_lab_r41/source/Braced Hang To Crouch.fbx",
+    "sha256": "61920920330dc30dc8084c38508158eddc78ab13260111817b3dbec2635da3f9"
+  },
+  {
+    "path": "assets/animations/motion_lab_r41/source/Walking Backwards.fbx",
+    "sha256": "2ce15ad9a649df2d5924c30f7d91e3129e7fa002bc4100e67610d65d2fe3d8a5"
+  }
+]

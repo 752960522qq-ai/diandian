@@ -1,0 +1,205 @@
+{
+  "hands": [
+    {
+      "file": "assets/characters/diandian_classic/diandian_classic_fixed.glb",
+      "clips": 11,
+      "sampledPoses": 33,
+      "maxRatioError": 2.2011679501332537e-7,
+      "sourceOnly": true
+    },
+    {
+      "file": "web/motion-labs/diandian-classic-motion-lab/assets/diandian_fixed.glb",
+      "clips": 11,
+      "sampledPoses": 33,
+      "maxRatioError": 2.2011679501332537e-7,
+      "sourceOnly": true
+    },
+    {
+      "file": "web/motion-labs/diandian-classic-motion-lab/assets/diandian_before.glb",
+      "clips": 13,
+      "sampledPoses": 39,
+      "maxRatioError": 2.2011679501332537e-7,
+      "sourceOnly": true
+    }
+  ],
+  "dimensions": {
+    "qbu10Mm": 1150,
+    "type59dMm": 9200.000000000004
+  },
+  "characters": {
+    "diandian": {
+      "motions": [
+        {
+          "weapon": "qjz89",
+          "motion": "QJZ89Idle",
+          "samples": 515,
+          "maxLeftErrorM": 7.754911549561094e-8,
+          "maxRightErrorM": 1.232904422624361e-7,
+          "maxShoulderErrorM": 1.734723475976807e-18
+        },
+        {
+          "weapon": "qjz89",
+          "motion": "QJZ89Aim",
+          "samples": 187,
+          "maxLeftErrorM": 1.556852379841257e-7,
+          "maxRightErrorM": 1.7062336196382316e-7,
+          "maxShoulderErrorM": 0
+        },
+        {
+          "weapon": "qbu10",
+          "motion": "RifleIdle",
+          "samples": 61,
+          "maxLeftErrorM": 9.056011265245428e-8,
+          "maxRightErrorM": 2.034515148470509e-7,
+          "maxShoulderErrorM": 0
+        },
+        {
+          "weapon": "qbu10",
+          "motion": "RifleWalk",
+          "samples": 61,
+          "maxLeftErrorM": 6.555760210465399e-8,
+          "maxRightErrorM": 9.026572556029223e-8,
+          "maxShoulderErrorM": 0
+        },
+        {
+          "weapon": "qbu10",
+          "motion": "RifleRun",
+          "samples": 61,
+          "maxLeftErrorM": 4.551025546467375e-8,
+          "maxRightErrorM": 1.6856008294412174e-7,
+          "maxShoulderErrorM": 0
+        },
+        {
+          "weapon": "qbu10",
+          "motion": "RifleAimingIdle",
+          "samples": 61,
+          "maxLeftErrorM": 6.156035684865057e-8,
+          "maxRightErrorM": 7.964929280973757e-8,
+          "maxShoulderErrorM": 3.608224830031759e-16
+        },
+        {
+          "weapon": "qbu10",
+          "motion": "FiringRifle",
+          "samples": 61,
+          "maxLeftErrorM": 2.0696818281075464e-8,
+          "maxRightErrorM": 5.659708793447595e-8,
+          "maxShoulderErrorM": 2.498001805406602e-16
+        },
+        {
+          "weapon": "qbu10",
+          "motion": "Reloading",
+          "samples": 61,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 7.799918064974669e-8,
+          "maxShoulderErrorM": 0
+        }
+      ],
+      "resetDelta": 0
+    },
+    "zhigeng": {
+      "motions": [
+        {
+          "weapon": "qjz89",
+          "motion": "QJZ89Idle",
+          "samples": 515,
+          "maxLeftErrorM": 9.627245205719024e-8,
+          "maxRightErrorM": 6.097379416721268e-8,
+          "maxShoulderErrorM": 2.7809732887839817e-17
+        },
+        {
+          "weapon": "qjz89",
+          "motion": "QJZ89Aim",
+          "samples": 187,
+          "maxLeftErrorM": 8.163453849128837e-8,
+          "maxRightErrorM": 8.102763662776815e-8,
+          "maxShoulderErrorM": 1.3877787807814457e-17
+        },
+        {
+          "weapon": "qbu10",
+          "motion": "RifleIdle",
+          "samples": 61,
+          "maxLeftErrorM": 1.3327523285363343e-7,
+          "maxRightErrorM": 9.654236790829936e-8,
+          "maxShoulderErrorM": 0
+        },
+        {
+          "weapon": "qbu10",
+          "motion": "RifleWalk",
+          "samples": 61,
+          "maxLeftErrorM": 5.346070718760757e-8,
+          "maxRightErrorM": 1.8587194653153562e-7,
+          "maxShoulderErrorM": 0
+        },
+        {
+          "weapon": "qbu10",
+          "motion": "RifleRun",
+          "samples": 61,
+          "maxLeftErrorM": 6.014344544362735e-8,
+          "maxRightErrorM": 1.8782017624448444e-7,
+          "maxShoulderErrorM": 0
+        },
+        {
+          "weapon": "qbu10",
+          "motion": "RifleAimingIdle",
+          "samples": 61,
+          "maxLeftErrorM": 4.467460202181204e-8,
+          "maxRightErrorM": 5.6253622758466256e-8,
+          "maxShoulderErrorM": 3.608224830031759e-16
+        },
+        {
+          "weapon": "qbu10",
+          "motion": "FiringRifle",
+          "samples": 61,
+          "maxLeftErrorM": 3.527874321256718e-8,
+          "maxRightErrorM": 6.796379769531917e-8,
+          "maxShoulderErrorM": 2.5514002453611344e-16
+        },
+        {
+          "weapon": "qbu10",
+          "motion": "Reloading",
+          "samples": 61,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 6.892162074810405e-8,
+          "maxShoulderErrorM": 0
+        }
+      ],
+      "resetDelta": 0
+    }
+  },
+  "regression": {
+    "diandian": {
+      "existingWeapons": 11,
+      "sampledPoses": 342,
+      "maxDelta": 0,
+      "baseline": "Published R43"
+    },
+    "zhigeng": {
+      "existingWeapons": 11,
+      "sampledPoses": 342,
+      "maxDelta": 0.0000013290705263985236,
+      "baseline": "Published R43"
+    }
+  },
+  "tank": [
+    {
+      "motion": "TankIdle",
+      "samples": 31
+    },
+    {
+      "motion": "TankTurretAim",
+      "samples": 31
+    },
+    {
+      "motion": "TankRecoil",
+      "samples": 31
+    },
+    {
+      "motion": "TankMGAim",
+      "samples": 31
+    },
+    {
+      "motion": "TankTracks",
+      "samples": 31
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "assets/animations/motion_lab_r42/README.md": {
+    "bytes": 2014,
+    "sha256": "4432511e81dc23bc27b39b2a50bf02ec987dd9caf7b9c1c7cef472d090c77641"
+  },
+  "assets/animations/motion_lab_r42/catalog.json": {
+    "bytes": 1792,
+    "sha256": "d55e8654dc7010d2c4f996e2bbd02bd151dd048be8815d0acf326aa7f04f1cac"
+  },
+  "assets/animations/motion_lab_r42/zhigeng/blender_report.json": {
+    "bytes": 1083,
+    "sha256": "47c9147cbed851949d9df4163a9bae31e4b34e9c3363db936211c5299a94cca4"
+  },
+  "assets/animations/motion_lab_r42/zhigeng/uploaded_motions.glb": {
+    "bytes": 1882032,
+    "sha256": "a2e572fc5ae4ee236aa6fbb97bebcb8f13c2f334f261d889d03a9d3ab1935618"
+  },
+  "assets/animations/motion_lab_r42/zhigeng/motions.blend": {
+    "bytes": 17324638,
+    "sha256": "e74db21871819c5659ad6c05734738ec9637bd9d48c0f2ac055290051f866ab7"
+  },
+  "assets/animations/motion_lab_r42/zhigeng/refinement.json": {
+    "bytes": 561,
+    "sha256": "c7f02950c4495f68f0cbbb07c39a53d2124f8ef33006e8a1a985c78e510b55f0"
+  },
+  "assets/animations/motion_lab_r42/diandian/blender_report.json": {
+    "bytes": 1086,
+    "sha256": "f424585ad50ff3b48114e4076440be9c4085e797ac4b12533ec88b01578caada"
+  },
+  "assets/animations/motion_lab_r42/diandian/uploaded_motions.glb": {
+    "bytes": 1882048,
+    "sha256": "5687cd7e404c87f2bf4b6b430fec0beab7e112ade397fd1a31dfb2c2276a35b5"
+  },
+  "assets/animations/motion_lab_r42/diandian/motions.blend": {
+    "bytes": 17517284,
+    "sha256": "aa535934eebc3b98c5dc7f5bdb1076fbda3dfb70e47730691bb338de4c86c15e"
+  },
+  "assets/animations/motion_lab_r42/diandian/refinement.json": {
+    "bytes": 562,
+    "sha256": "7e8e474831541ef03fd1f7de112a5139621aea9ebb38b3dd54558a559fe1c499"
+  },
+  "web/motion-labs/diandian-classic-motion-lab/app.js": {
+    "bytes": 33584,
+    "sha256": "5ee56c560f0cd21d990bd3355e9d43d37bc2ee3c346070d5e0a802657060c2b5"
+  },
+  "web/motion-labs/diandian-classic-motion-lab/index.html": {
+    "bytes": 7641,
+    "sha256": "024715bc4d5cf9848e0d22a80eaffb30c94846ce821cfb95bad0658776d39805"
+  },
+  "web/motion-labs/diandian-classic-motion-lab/uploaded-motion.js": {
+    "bytes": 4861,
+    "sha256": "d929186ce1a27d52d47d00cf2231b361de17d2a7424be43e94774a5a190fa654"
+  },
+  "web/motion-labs/diandian-classic-motion-lab/weapon-attachment.js": {
+    "bytes": 33951,
+    "sha256": "7100f88b2128e956742b827d1b8e402843154be5f57285d24f09dfc210e1c3d9"
+  },
+  "web/motion-labs/diandian-classic-motion-lab/assets/uploaded_motions.glb": {
+    "bytes": 1882048,
+    "sha256": "5687cd7e404c87f2bf4b6b430fec0beab7e112ade397fd1a31dfb2c2276a35b5"
+  },
+  "web/motion-labs/zhigeng-motion-lab/app.js": {
+    "bytes": 35675,
+    "sha256": "2824d9c40e7436c6f7f77084f545e202322ce2170ef6fb7e576fb22fccc221f9"
+  },
+  "web/motion-labs/zhigeng-motion-lab/index.html": {
+    "bytes": 7982,
+    "sha256": "6c5a12a10327265fdf6cf7a945018677f878f2fe200a88f22474099cf3161e5a"
+  },
+  "web/motion-labs/zhigeng-motion-lab/uploaded-motion.js": {
+    "bytes": 4861,
+    "sha256": "d929186ce1a27d52d47d00cf2231b361de17d2a7424be43e94774a5a190fa654"
+  },
+  "web/motion-labs/zhigeng-motion-lab/weapon-attachment.js": {
+    "bytes": 33435,
+    "sha256": "fe28f5cc289decaabfa95ca612f627bfaaa9a43b837e505e8d1581daa1bf6848"
+  },
+  "web/motion-labs/zhigeng-motion-lab/assets/uploaded_motions.glb": {
+    "bytes": 1882032,
+    "sha256": "a2e572fc5ae4ee236aa6fbb97bebcb8f13c2f334f261d889d03a9d3ab1935618"
+  }
+}

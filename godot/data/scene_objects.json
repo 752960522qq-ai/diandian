@@ -1,0 +1,52 @@
+[
+  {
+    "Id": "qjz89",
+    "DisplayName": "QJZ89 固定机枪",
+    "Kind": "fixed_emplacement",
+    "ModelPath": "res://assets/weapons/qjz89.glb",
+    "GunLengthMm": 1640,
+    "OperatorPosture": "standing",
+    "OperatorActions": [
+      "QJZ89Idle",
+      "QJZ89Aim"
+    ],
+    "RightHand": "pistol_grip",
+    "LeftHand": "top_of_stock",
+    "GroundPlacement": "deferred_floating_preview",
+    "ShoulderContact": true,
+    "OperatorAnimationPack": "res://assets/animations/emplacements_r44/"
+  },
+  {
+    "Id": "type59d",
+    "DisplayName": "59D 无人坦克",
+    "Kind": "unmanned_tank",
+    "ModelPath": "res://assets/vehicles/type59d/type59d.glb",
+    "TotalLengthMm": 9200,
+    "DriverRequired": false,
+    "PlayerDrivable": false,
+    "PreviewActions": [
+      "TankIdle",
+      "TankTurretAim",
+      "TankRecoil",
+      "TankMGAim",
+      "TankTracks"
+    ],
+    "PreviewSite": "https://type59d-motion-lab.expert-eagle-6942.chatgpt.site"
+  },
+  {
+    "Id": "qbu10",
+    "DisplayName": "QBU-10",
+    "Kind": "rifle",
+    "ModelPath": "res://assets/weapons/qbu10.glb",
+    "GunLengthMm": 1150,
+    "MotionFamily": "ordinary_rifle",
+    "WebActions": [
+      "RifleIdle",
+      "RifleWalk",
+      "RifleRun",
+      "RifleAimingIdle",
+      "FiringRifle",
+      "Reloading"
+    ]
+  }
+]

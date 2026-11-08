@@ -1,0 +1,250 @@
+{
+  "revision": "R43",
+  "generated_at_utc": "2026-11-08T05:54:25.977271+00:00",
+  "github_head_unchanged": "eb6133bbb89884863923f7b50844e4169e876285",
+  "github_pushed": false,
+  "qjz89_gun_body_mm": 1640,
+  "type59d_total_mm": 9200,
+  "files": [
+    {
+      "path": "assets/animations/emplacements_r43/README.md",
+      "bytes": 1932,
+      "sha256": "47af34cb5bd1d4b98ce528dcb7c08498445147d47c1fa287068f872b334589d7"
+    },
+    {
+      "path": "assets/animations/emplacements_r43/catalog.json",
+      "bytes": 600,
+      "sha256": "36142fe2268d0d5b56fc930d34ca74e5e9f3815dccd19058abec90bc3c7d5bbb"
+    },
+    {
+      "path": "assets/animations/emplacements_r43/diandian/authoring.json",
+      "bytes": 1947,
+      "sha256": "d47c51ae2b86e0ff596400bec742584ec7fe1edcb03c7ce73bbdd125cdb72726"
+    },
+    {
+      "path": "assets/animations/emplacements_r43/diandian/motions.blend",
+      "bytes": 15260499,
+      "sha256": "ecdcf58a1cf7308668d1a81623e2196cabff8c4117a0338d8e9803a3aea8770e"
+    },
+    {
+      "path": "assets/animations/emplacements_r43/diandian/uploaded_motions.glb",
+      "bytes": 869856,
+      "sha256": "44562d9e272f74ddea2869dae1dda8a59de241939c7cd139e9dab59c67c5efc3"
+    },
+    {
+      "path": "assets/animations/emplacements_r43/source_manifest.json",
+      "bytes": 436,
+      "sha256": "c7b89133d396e659c54d88861867428081f5c0536196cb1c6cd230094c09fea6"
+    },
+    {
+      "path": "assets/animations/emplacements_r43/zhigeng/authoring.json",
+      "bytes": 1942,
+      "sha256": "6786874349280fcf7d8cafef502a8ee13fb76b7b65000495cf51194192b8841f"
+    },
+    {
+      "path": "assets/animations/emplacements_r43/zhigeng/motions.blend",
+      "bytes": 15149707,
+      "sha256": "4a5bebd86276b5bccc16a32fe526d5186b0f3e1a803ff6bc90c0f7530d9fe6fa"
+    },
+    {
+      "path": "assets/animations/emplacements_r43/zhigeng/uploaded_motions.glb",
+      "bytes": 903328,
+      "sha256": "3174ae08dd6b4531c328aaf25b2fbe02d90bd234abc48608fe9e6979a97e0ace"
+    },
+    {
+      "path": "assets/vehicles/type59d/README.md",
+      "bytes": 1389,
+      "sha256": "b9845201d818f90c7d86527fcb65e846e89e2eaa0bc9df0a89cae4ad393ef625"
+    },
+    {
+      "path": "assets/vehicles/type59d/source/59d_rigged_v3.glb",
+      "bytes": 23366464,
+      "sha256": "5f28841fc9dbe9d51a551a43d5958c5d2c02da967015c41e4a71b7bd65924c03"
+    },
+    {
+      "path": "assets/vehicles/type59d/source_manifest.json",
+      "bytes": 436,
+      "sha256": "c7b89133d396e659c54d88861867428081f5c0536196cb1c6cd230094c09fea6"
+    },
+    {
+      "path": "assets/vehicles/type59d/type59d.blend",
+      "bytes": 21914513,
+      "sha256": "8e072e4926c90c9353b7dce00d10e4bef2074e95d7c59dd55b0df6ab421613f8"
+    },
+    {
+      "path": "assets/vehicles/type59d/type59d.glb",
+      "bytes": 23366876,
+      "sha256": "f9a58c43fef3855948b55ef11d48e467c31148839929aaf5d861ceaa728a2939"
+    },
+    {
+      "path": "assets/vehicles/type59d/type59d_report.json",
+      "bytes": 710,
+      "sha256": "1fd433c8d7a07fb9bad3fa9850bff3ff58042d3bea8d1ef96abb13b74360f691"
+    },
+    {
+      "path": "assets/weapons/qjz89.glb",
+      "bytes": 2305232,
+      "sha256": "b930aaa01944d7bf20e68e90737e1d279f93f17aa426872624ef48e5cb6ddc9a"
+    },
+    {
+      "path": "assets/weapons/qjz89_report.json",
+      "bytes": 1376,
+      "sha256": "35e63a7249bb9faa85b5747270c783d88eabce1c4351aafcfe9bb415258450b4"
+    },
+    {
+      "path": "assets/weapons/source/qjz89_source.glb",
+      "bytes": 2304688,
+      "sha256": "3f53d5c873cb513ab83ed2e66880e97787b452ef2fe8b4a77eb0cc78eefefb6d"
+    },
+    {
+      "path": "godot/data/scene_objects.json",
+      "bytes": 719,
+      "sha256": "40cf4935351d826bc262fa66f716d037f2c0e0b79f3748d7c942e9d254c11ed5"
+    },
+    {
+      "path": "godot/scripts/scene_prop_preview.gd",
+      "bytes": 3426,
+      "sha256": "475434e1056c866b97c174b3057cf1ef2cd50a90a8c8981a1c0cbc8a6cb180bf"
+    },
+    {
+      "path": "godot/scripts/uploaded_motion_library.gd",
+      "bytes": 3367,
+      "sha256": "85d0530e1518c913f8aeba903df128caddef06cbcb6a3bc123aa2af87e045738"
+    },
+    {
+      "path": "godot/scripts/zhigeng_preview.gd",
+      "bytes": 10460,
+      "sha256": "d69690865923113c8cab98a20086ecb052df99cdfe5d2590c420ca4dede8f85e"
+    },
+    {
+      "path": "tools/blender/save_emplacements_r43.py",
+      "bytes": 4926,
+      "sha256": "fb5e90b7d71dce4f35289e3b9962adab58b5e0ef4971f5d11f13a40cce13273a"
+    },
+    {
+      "path": "tools/gltf/bake_emplacements_r43.mjs",
+      "bytes": 3662,
+      "sha256": "b6f891d8b1144f5d950b386a0e46ca09e4ea171f7f5d9a479a978ffb0804012f"
+    },
+    {
+      "path": "tools/gltf/prepare_emplacements_r43.mjs",
+      "bytes": 3683,
+      "sha256": "3ae2246fb715a217898cfc0e58e32cdaf7d3f4f8585ef06210ad124798313f11"
+    },
+    {
+      "path": "tools/qa/browser_emplacements_r43.mjs",
+      "bytes": 5509,
+      "sha256": "18465be58807e616193b08fc5362358e90c5a000f9c4fa22cfac7a6a9bafbe65"
+    },
+    {
+      "path": "tools/qa/regression_emplacements_r43.mjs",
+      "bytes": 3290,
+      "sha256": "840a475257ee3d525b8dc13c54233400a3e54b514f5d00ef7a8bb4054d201fff"
+    },
+    {
+      "path": "tools/qa/validate_emplacement_clearance.mjs",
+      "bytes": 2501,
+      "sha256": "9360f5ffd9378c7320a91f892a92c2d7e63c592b3e2d682d3faf9eedbe1823c9"
+    },
+    {
+      "path": "tools/qa/validate_emplacements_r43.gd",
+      "bytes": 3016,
+      "sha256": "a7156e660f6af2bd6380d9bf3e59ca27fd0ef2a5f48a4f256109b302d0fb7c62"
+    },
+    {
+      "path": "tools/qa/validate_emplacements_r43.mjs",
+      "bytes": 4833,
+      "sha256": "abdfbea7e4ce9f2cbd4c6a29829a16edd840861d182b3cc79cd803e1edafb1ac"
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/app.js",
+      "bytes": 39396,
+      "sha256": "b10b721b83657696a1fb65d7b9f815eae593f4ab599303bf5a0e3dfe97070f84"
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/assets/vehicles/type59d.glb",
+      "bytes": 23366876,
+      "sha256": "f9a58c43fef3855948b55ef11d48e467c31148839929aaf5d861ceaa728a2939"
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/assets/weapon_attachment.json",
+      "bytes": 555391,
+      "sha256": "ef3be6677f600d614f05a4bba22453959d4df9cdc5b2af84be9f2ef2a3c957d5"
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/assets/weapons/qjz89.glb",
+      "bytes": 2305232,
+      "sha256": "b930aaa01944d7bf20e68e90737e1d279f93f17aa426872624ef48e5cb6ddc9a"
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/fixed-machine-gun.js",
+      "bytes": 2547,
+      "sha256": "e84539e4152608370f489f8cb345e9e1fe41569b7cc5fa8a73ab7b25adb9ce02"
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/index.html",
+      "bytes": 8528,
+      "sha256": "e83e424208b50aaa01e4553c66273cb6928d31e9000ce912723fcd3362170be9"
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/styles.css",
+      "bytes": 14886,
+      "sha256": "714821a65d8c0d2347d0b649046bde77d5ae7377dc4a79aa1989d0721af5fd91"
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/unmanned-tank.js",
+      "bytes": 2074,
+      "sha256": "e57e7dd5daabd10d812d89999134483df46c5dc1b161ad1097336c34a39723af"
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/weapon-attachment.js",
+      "bytes": 34256,
+      "sha256": "e29554b4d27612ac7d2e52d769eb9303fa2f8a6743de617b3efd204dc05a712f"
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/app.js",
+      "bytes": 41487,
+      "sha256": "92710189e46ba3177d6dfc25424e5f254de4556ffd031e357ce391531f47e09e"
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/assets/vehicles/type59d.glb",
+      "bytes": 23366876,
+      "sha256": "f9a58c43fef3855948b55ef11d48e467c31148839929aaf5d861ceaa728a2939"
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/assets/weapon_attachment.json",
+      "bytes": 551149,
+      "sha256": "3a9c85a1dcef7d609c599e5796b304c30176b9a0b4b41a2bc7df79c750342f03"
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/assets/weapons/qjz89.glb",
+      "bytes": 2305232,
+      "sha256": "b930aaa01944d7bf20e68e90737e1d279f93f17aa426872624ef48e5cb6ddc9a"
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/fixed-machine-gun.js",
+      "bytes": 2547,
+      "sha256": "e84539e4152608370f489f8cb345e9e1fe41569b7cc5fa8a73ab7b25adb9ce02"
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/index.html",
+      "bytes": 8889,
+      "sha256": "6d92d11eb133b3828b249409c9569a40d61b235dee768744f98fb83f87d60c9b"
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/styles.css",
+      "bytes": 15138,
+      "sha256": "c44de12b1b6259af42afe669ad28bb2f150e37119f656862cebf68ee41135441"
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/unmanned-tank.js",
+      "bytes": 2074,
+      "sha256": "e57e7dd5daabd10d812d89999134483df46c5dc1b161ad1097336c34a39723af"
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/weapon-attachment.js",
+      "bytes": 33740,
+      "sha256": "6dd233d465a95ae483749c2cad6b6798d3fe543539c7ccd8177aafaeabffdddd"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "characters": {
+    "diandian": {
+      "motions": [
+        {
+          "name": "QJZ89Idle",
+          "samples": 515,
+          "maxLeftContactErrorM": 6.500949108510166e-8,
+          "maxRightContactErrorM": 1.4704218967508097e-7,
+          "fixedMountDriftM": 0,
+          "resetDrift": 0
+        },
+        {
+          "name": "QJZ89Aim",
+          "samples": 187,
+          "maxLeftContactErrorM": 1.611081489244052e-7,
+          "maxRightContactErrorM": 1.364402277286915e-7,
+          "fixedMountDriftM": 0,
+          "resetDrift": 0
+        }
+      ],
+      "maxBakedBoneError": 2.5837516182125597e-7
+    },
+    "zhigeng": {
+      "motions": [
+        {
+          "name": "QJZ89Idle",
+          "samples": 515,
+          "maxLeftContactErrorM": 1.1335177391618115e-7,
+          "maxRightContactErrorM": 1.6613365065494885e-7,
+          "fixedMountDriftM": 0,
+          "resetDrift": 0
+        },
+        {
+          "name": "QJZ89Aim",
+          "samples": 187,
+          "maxLeftContactErrorM": 2.1923038316890922e-7,
+          "maxRightContactErrorM": 1.3363943296973036e-7,
+          "fixedMountDriftM": 0,
+          "resetDrift": 0
+        }
+      ],
+      "maxBakedBoneError": 3.2283941209243494e-7
+    }
+  },
+  "dimensions": {
+    "qjz89GunBodyMm": 1639.9999999999998,
+    "type59dTotalMm": 9200.000000000004
+  },
+  "tank": [
+    {
+      "motion": "TankIdle",
+      "sourceClips": [],
+      "samples": 61,
+      "resetDrift": 0
+    },
+    {
+      "motion": "TankTurretAim",
+      "sourceClips": [
+        "Turret_Aim_Demo"
+      ],
+      "samples": 61,
+      "resetDrift": 0
+    },
+    {
+      "motion": "TankRecoil",
+      "sourceClips": [
+        "Gun_Recoil"
+      ],
+      "samples": 61,
+      "resetDrift": 0
+    },
+    {
+      "motion": "TankMGAim",
+      "sourceClips": [
+        "MG_Aim_Demo"
+      ],
+      "samples": 61,
+      "resetDrift": 0
+    },
+    {
+      "motion": "TankTracks",
+      "sourceClips": [
+        "Track_L_Cycle",
+        "Track_R_Cycle",
+        "Wheels_Forward_Loop"
+      ],
+      "samples": 61,
+      "resetDrift": 0
+    }
+  ]
+}

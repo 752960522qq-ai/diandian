@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f4f2ee"><meta name="description" content="59D 无人坦克独立测试场：旋转查看完整模型，测试炮塔、主炮后坐、车载机枪及履带动作。">
+  <title>59D · 无人坦克测试场</title><link rel="icon" href="./favicon.svg"><link rel="stylesheet" href="./styles.css?v=r44">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="./"><span class="brand-mark"><i></i><i></i></span><span>59D<span class="brand-divider">/</span><span class="brand-sub">无人坦克测试场</span></span></a><span class="edition"><span></span>独立机械动作预览</span></header>
+  <main class="workspace">
+    <section class="stage-card" aria-label="59D 三维预览">
+      <div class="stage" id="stage">
+        <canvas id="viewport" aria-label="拖动旋转、缩放 59D 无人坦克"></canvas>
+        <div class="stage-heading"><span class="eyebrow">TYPE 59D / MOTION LAB</span><h1>从整车，<br>看到每一处运动。</h1></div>
+        <div class="view-tag"><span class="status-dot"></span>无人 · 总长 9.2 m</div>
+        <div class="loading" id="loading" role="status"><div class="loading-orbit"><i></i><i></i><i></i></div><strong id="loading-title">59D 准备中</strong><span id="loading-detail">正在载入坦克与机械动作</span><div class="loading-track"><span id="loading-progress"></span></div><button id="retry" hidden>重新载入</button></div>
+        <div class="stage-footnote"><span class="mouse-symbol">↔</span><span>拖动旋转 · 双指缩放</span></div>
+        <button class="stage-reset" id="reset-camera" aria-label="重置视角" title="重置视角">↺</button>
+      </div>
+      <div class="transport"><button id="play-toggle" class="play-button" aria-label="播放动作" disabled><svg id="play-icon" viewBox="0 0 24 24" fill="currentColor"><path d="m8 4 12 8-12 8z"/></svg></button><div class="timeline"><div class="timeline-labels"><strong id="current-motion">无人待机</strong><span id="time-readout">0.00 / 5.00 s</span></div><input id="timeline" type="range" min="0" max="5" value="0" step="0.001" aria-label="动作进度" disabled></div><span class="loop-badge" id="loop-label">循环</span></div>
+    </section>
+    <aside class="panel">
+      <div class="panel-intro"><span class="eyebrow">VEHICLE STUDY / 01</span><h2>59D 无人坦克</h2><p>观察炮塔、炮管与履带的运动。<br>慢放、暂停，细看每个机械细节。</p></div>
+      <section class="control-section"><div class="section-title"><h3>机械动作</h3><span>5 组动作</span></div><div id="motion-buttons" class="tank-actions" role="group" aria-label="机械动作"></div></section>
+      <section class="control-section"><div class="section-title"><h3>观察视角</h3></div><div class="segmented" role="group" aria-label="观察视角"><button data-angle="front" class="active" aria-pressed="true">前侧</button><button data-angle="side" aria-pressed="false">侧面</button><button data-angle="back" aria-pressed="false">后侧</button></div></section>
+      <section class="control-section speed-section"><div class="section-title"><h3>播放速度</h3><output id="speed-label" for="speed">1.00×</output></div><input id="speed" type="range" min="0.25" max="1.5" value="1" step="0.05" aria-label="播放速度"><div class="range-labels"><span>0.25× 慢看</span><span>1.50×</span></div></section>
+      <div class="tank-note"><span>9.2 m</span><p>含炮管总长度<br>无人配置，无驾驶操作</p></div>
+      <nav class="other-labs" aria-label="人物动作站"><span>人物与武器测试</span><a href="https://diandian-classic-motion-lab.expert-eagle-6942.chatgpt.site">点点动作站 ↗</a><a href="https://zhigeng-motion-lab.expert-eagle-6942.chatgpt.site">知更动作站 ↗</a></nav>
+    </aside>
+  </main>
+  <footer><span class="footer-mark"><i></i><i></i></span><span>机械动作测试</span><span class="footer-line"></span><span>59D · 独立预览</span></footer>
+  <script type="module" src="./app.js?v=r44"></script>
+</body>
+</html>

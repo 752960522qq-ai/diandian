@@ -1,0 +1,1109 @@
+{
+  "characters": {
+    "diandian": {
+      "passed": true,
+      "poses": [
+        {
+          "visible": true,
+          "selectedWeapon": "qjz89",
+          "motion": "QJZ89Idle",
+          "time": 3.1696666431427003,
+          "actualClip": "QJZ89Idle",
+          "handScale": 0.9,
+          "leftContactErrorM": 6.976719136673439e-8,
+          "rightContactErrorM": 9.795803153422453e-8,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "chestReliefActive": false,
+          "rightForearmTwistDegrees": 24.746556839888267,
+          "rightUpperTwistDegrees": -24.159744584719206,
+          "rightPalmWorld": [
+            -0.004243322006950337,
+            1.2603425619308892,
+            0.150508007527684
+          ],
+          "rightTargetWorld": [
+            -0.00424337793061897,
+            1.2603425520267455,
+            0.15050808734138688
+          ],
+          "leftForearmTwistDegrees": 32.82297193041521,
+          "leftUpperTwistDegrees": -17.160349116718297,
+          "leftPalmWorld": [
+            0.01914480082159381,
+            1.4524598403533426,
+            -0.0015150977901585289
+          ],
+          "leftTargetWorld": [
+            0.01914481481612767,
+            1.452459849589307,
+            -0.0015151655124663321
+          ],
+          "supportTargetWorld": [
+            0.01914481481612767,
+            1.452459849589307,
+            -0.0015151655124663321
+          ],
+          "shoulderTargetWorld": [
+            0.01747422961993151,
+            1.3839658565452635,
+            -0.15143427285255895
+          ],
+          "shoulderContactWorld": [
+            0.01747422961993151,
+            1.3839658565452635,
+            -0.15143427285255895
+          ],
+          "shoulderContactErrorM": 0,
+          "weaponPosition": [
+            0.015803644423735323,
+            1.2987660115392579,
+            0.19227271724629164
+          ],
+          "weaponQuaternion": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "barrelPitchDegrees": 0,
+          "fixedEmplacement": true,
+          "modelScale": 1
+        },
+        {
+          "visible": true,
+          "selectedWeapon": "qjz89",
+          "motion": "QJZ89Aim",
+          "time": 1.1469999647140503,
+          "actualClip": "QJZ89Aim",
+          "handScale": 0.9,
+          "leftContactErrorM": 1.4023239461233161e-7,
+          "rightContactErrorM": 1.5126477803238404e-7,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "chestReliefActive": false,
+          "rightForearmTwistDegrees": 30.85271771542969,
+          "rightUpperTwistDegrees": -6.139511059857886,
+          "rightPalmWorld": [
+            -0.1013804004289301,
+            1.207046071426779,
+            0.1009123390075034
+          ],
+          "rightTargetWorld": [
+            -0.10138049305272681,
+            1.2070460724888612,
+            0.10091245859319375
+          ],
+          "leftForearmTwistDegrees": -1.359652320970449,
+          "leftUpperTwistDegrees": 21.489218284446775,
+          "leftPalmWorld": [
+            -0.07799219783244776,
+            1.399163461447379,
+            -0.05111076578121325
+          ],
+          "leftTargetWorld": [
+            -0.07799230030598017,
+            1.3991633700514228,
+            -0.05111079426065945
+          ],
+          "supportTargetWorld": [
+            -0.07799230030598017,
+            1.3991633700514228,
+            -0.05111079426065945
+          ],
+          "shoulderTargetWorld": [
+            -0.07966288550217633,
+            1.3306693770073792,
+            -0.20102990160075207
+          ],
+          "shoulderContactWorld": [
+            -0.07966288550217633,
+            1.3306693770073792,
+            -0.20102990160075207
+          ],
+          "shoulderContactErrorM": 0,
+          "weaponPosition": [
+            -0.08133347069837252,
+            1.2454695320013736,
+            0.14267708849809851
+          ],
+          "weaponQuaternion": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "barrelPitchDegrees": 0,
+          "fixedEmplacement": true,
+          "modelScale": 1
+        },
+        {
+          "visible": true,
+          "selectedWeapon": "qbu10",
+          "motion": "RifleIdle",
+          "time": 3.1696666431427003,
+          "actualClip": "RifleIdle",
+          "handScale": 0.9,
+          "leftContactErrorM": 2.6937923073888366e-8,
+          "rightContactErrorM": 1.312114883932743e-7,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "chestReliefActive": true,
+          "rightForearmTwistDegrees": 58.63195015523854,
+          "rightUpperTwistDegrees": -3.703968881679873,
+          "rightPalmWorld": [
+            0.03533571660557512,
+            1.1518704757052989,
+            0.11724817446585223
+          ],
+          "rightSurfaceTargetWorld": [
+            0.03533573867460493,
+            1.1518705693695566,
+            0.11724826366461591
+          ],
+          "pumpTravelM": 0,
+          "leftForearmTwistDegrees": -119.26868020878828,
+          "leftUpperTwistDegrees": -58.64593499671034,
+          "leftPalmWorld": [
+            0.2692823881875833,
+            1.0649410215657797,
+            0.16651930916000038
+          ],
+          "supportTargetWorld": [
+            0.26928239471060395,
+            1.0649409973243475,
+            0.16651931893010102
+          ],
+          "barrelPitchDegrees": -37.803519525758674,
+          "re4Shotgun": false,
+          "modelScale": 1,
+          "weaponPosition": [
+            0.2680262241796443,
+            1.0332206271005824,
+            0.1565493740336193
+          ],
+          "weaponQuaternion": [
+            0.2090253038922201,
+            0.7396684294381897,
+            0.24767299621572764,
+            -0.5897941367720869
+          ]
+        },
+        {
+          "visible": true,
+          "selectedWeapon": "qbu10",
+          "motion": "RifleWalk",
+          "time": 0.4809999823570251,
+          "actualClip": "RifleWalk",
+          "handScale": 0.9,
+          "leftContactErrorM": 4.130129177693981e-8,
+          "rightContactErrorM": 4.0601781923665025e-8,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "chestReliefActive": true,
+          "rightForearmTwistDegrees": 48.672054298532366,
+          "rightUpperTwistDegrees": -16.192621652234383,
+          "rightPalmWorld": [
+            -0.02659377184545838,
+            1.1067537650754549,
+            0.015456602277199326
+          ],
+          "rightSurfaceTargetWorld": [
+            -0.02659373738099846,
+            1.106753775909827,
+            0.01545658374824685
+          ],
+          "pumpTravelM": 0,
+          "leftForearmTwistDegrees": -106.24602262050469,
+          "leftUpperTwistDegrees": -66.8634832508692,
+          "leftPalmWorld": [
+            0.13766771356407298,
+            1.0046259071501278,
+            0.1806942463779178
+          ],
+          "supportTargetWorld": [
+            0.13766771212957313,
+            1.0046259010995762,
+            0.1806942872084179
+          ],
+          "barrelPitchDegrees": -41.4911484767864,
+          "re4Shotgun": false,
+          "modelScale": 1,
+          "weaponPosition": [
+            0.1406685638438745,
+            0.9731875406778798,
+            0.17021649947632703
+          ],
+          "weaponQuaternion": [
+            0.14086770385192787,
+            0.8674107617043482,
+            0.3251555199793865,
+            -0.34932613460476014
+          ]
+        },
+        {
+          "visible": true,
+          "selectedWeapon": "qbu10",
+          "motion": "RifleRun",
+          "time": 0.24666667401790618,
+          "actualClip": "RifleRun",
+          "handScale": 0.9,
+          "leftContactErrorM": 3.097505602859384e-8,
+          "rightContactErrorM": 7.714067030536624e-8,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "chestReliefActive": false,
+          "rightForearmTwistDegrees": 52.47103023843173,
+          "rightUpperTwistDegrees": 15.266110079039333,
+          "rightPalmWorld": [
+            0.10074277472276945,
+            1.0534275701742304,
+            0.21707048364480044
+          ],
+          "rightSurfaceTargetWorld": [
+            0.10074282873740992,
+            1.0534275232718946,
+            0.2170705125112607
+          ],
+          "pumpTravelM": 0,
+          "leftPalmWorld": [
+            0.35293057724443444,
+            1.0673175140311935,
+            0.1866759668949871
+          ],
+          "supportTargetWorld": [
+            0.3529305853868132,
+            1.0673175431602515,
+            0.18667597357733257
+          ],
+          "barrelPitchDegrees": -14.726605256425534,
+          "re4Shotgun": false,
+          "modelScale": 1,
+          "weaponPosition": [
+            0.36077606817899494,
+            1.0378305402145647,
+            0.17340477507029853
+          ],
+          "weaponQuaternion": [
+            -0.06962597464973307,
+            -0.6581399293313939,
+            -0.11475095461133628,
+            0.7408348503475857
+          ]
+        },
+        {
+          "visible": true,
+          "selectedWeapon": "qbu10",
+          "motion": "RifleAimingIdle",
+          "time": 1.1469999647140503,
+          "actualClip": "RifleAimingIdle",
+          "handScale": 0.9,
+          "leftContactErrorM": 5.801095591970952e-8,
+          "rightContactErrorM": 3.708567040688768e-8,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "chestReliefActive": false,
+          "shoulderTargetWorld": [
+            -0.08773467220553949,
+            1.3539463261998477,
+            -0.21948439962995367
+          ],
+          "rightPalmWorld": [
+            -0.12205069419949971,
+            1.3014182521184243,
+            0.09052236554587896
+          ],
+          "rightSurfaceTargetWorld": [
+            -0.12205068118875474,
+            1.3014182710103286,
+            0.09052239468628764
+          ],
+          "shoulderContactErrorM": 1.9478403400799703e-16,
+          "pumpTravelM": 0,
+          "leftPalmWorld": [
+            -0.13257925687377592,
+            1.3975591460728027,
+            0.325812649794873
+          ],
+          "supportTargetWorld": [
+            -0.1325792699723392,
+            1.3975590954302488,
+            0.32581267487535104
+          ],
+          "barrelPitchDegrees": 4.368642349878157,
+          "re4Shotgun": false,
+          "modelScale": 1,
+          "weaponPosition": [
+            -0.12376703618234978,
+            1.3718982550153087,
+            0.34507469599474583
+          ],
+          "weaponQuaternion": [
+            0.0012776075290921148,
+            0.9987878700814752,
+            -0.03809304898371611,
+            0.03114607384946022
+          ]
+        },
+        {
+          "visible": true,
+          "selectedWeapon": "qbu10",
+          "motion": "FiringRifle",
+          "time": 0.09866667181253433,
+          "actualClip": "FiringRifle",
+          "handScale": 0.9,
+          "leftContactErrorM": 1.4605772252326503e-8,
+          "rightContactErrorM": 1.501118353928481e-8,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": 0.01708216055658299,
+          "chestReliefActive": false,
+          "shoulderTargetWorld": [
+            -0.09045759740569309,
+            1.3513463966144692,
+            -0.2256857240044113
+          ],
+          "rightPalmWorld": [
+            -0.1265512237293563,
+            1.2997555198188684,
+            0.08427657010583639
+          ],
+          "rightSurfaceTargetWorld": [
+            -0.12655123629383305,
+            1.2997555227038848,
+            0.08427657779649533
+          ],
+          "shoulderContactErrorM": 2.7755575615628914e-17,
+          "pumpTravelM": 0,
+          "leftPalmWorld": [
+            -0.13859144816713026,
+            1.396625653892357,
+            0.31919492984647246
+          ],
+          "supportTargetWorld": [
+            -0.13859145526730127,
+            1.3966256662255494,
+            0.3191949331341036
+          ],
+          "barrelPitchDegrees": 4.544800141217965,
+          "re4Shotgun": false,
+          "modelScale": 1,
+          "weaponPosition": [
+            -0.12986317159360167,
+            1.3710364382498863,
+            0.3385899873618039
+          ],
+          "weaponQuaternion": [
+            0.0007413848611479435,
+            0.9986301817953712,
+            -0.03964828913438976,
+            0.034135370578734475
+          ]
+        },
+        {
+          "visible": true,
+          "selectedWeapon": "qbu10",
+          "motion": "Reloading",
+          "time": 1.2209999823570252,
+          "actualClip": "Reloading",
+          "handScale": 0.9,
+          "leftContactErrorM": null,
+          "rightContactErrorM": 3.874391072055851e-8,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "chestReliefActive": false,
+          "rightPalmWorld": [
+            -0.14785119819574766,
+            1.418236737472098,
+            0.15187591819273727
+          ],
+          "rightSurfaceTargetWorld": [
+            -0.14785120285437114,
+            1.4182367579622646,
+            0.1518759507433275
+          ],
+          "pumpTravelM": 0,
+          "leftPalmWorld": [
+            0.08259584934738744,
+            1.1512367189393886,
+            0.05048725453814645
+          ],
+          "supportTargetWorld": [
+            -0.11179391481250842,
+            1.6616279505069318,
+            0.21649811895296364
+          ],
+          "barrelPitchDegrees": 55.278072751045755,
+          "re4Shotgun": false,
+          "modelScale": 1,
+          "weaponPosition": [
+            -0.0890395073335205,
+            1.6599304565939559,
+            0.2407161929364589
+          ],
+          "weaponQuaternion": [
+            -0.10262327167646394,
+            0.8636221382920225,
+            -0.4524070885071027,
+            -0.19736537850104252
+          ]
+        }
+      ],
+      "sourceHandScale": [
+        0.8999999761581421,
+        0.8999999761581421,
+        0.8999999761581421
+      ],
+      "errors": [],
+      "tankRequests": 0,
+      "modelRequests": [
+        "http://127.0.0.1:8086/web/motion-labs/diandian-classic-motion-lab/assets/diandian_fixed.glb?v=hands-r44",
+        "http://127.0.0.1:8086/web/motion-labs/diandian-classic-motion-lab/assets/weapons/qsz92.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/diandian-classic-motion-lab/assets/weapons/qbz95.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/diandian-classic-motion-lab/assets/weapons/type56_1.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/diandian-classic-motion-lab/assets/weapons/hanyang88.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/diandian-classic-motion-lab/assets/weapons/type54.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/diandian-classic-motion-lab/assets/weapons/qbu85.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/diandian-classic-motion-lab/assets/weapons/c96.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/diandian-classic-motion-lab/assets/weapons/winchester1897.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/diandian-classic-motion-lab/assets/weapons/qcq171.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/diandian-classic-motion-lab/assets/weapons/type97hawk.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/diandian-classic-motion-lab/assets/weapons/pf89.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/diandian-classic-motion-lab/assets/weapons/qjz89.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/diandian-classic-motion-lab/assets/weapons/qbu10.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/diandian-classic-motion-lab/assets/motion_additions.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/diandian-classic-motion-lab/assets/leon_pistol_animations.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/diandian-classic-motion-lab/assets/re4_shotgun_animations.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/diandian-classic-motion-lab/assets/re4_rocket_upper.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/diandian-classic-motion-lab/assets/uploaded_motions.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/diandian-classic-motion-lab/assets/diandian_before.glb?v=hands-r44"
+      ]
+    },
+    "zhigeng": {
+      "passed": true,
+      "poses": [
+        {
+          "visible": true,
+          "selectedWeapon": "qjz89",
+          "motion": "QJZ89Idle",
+          "time": 3.1696666431427003,
+          "actualClip": "QJZ89Idle",
+          "handScale": 1,
+          "leftContactErrorM": 7.267784659741217e-8,
+          "rightContactErrorM": 5.027712668781723e-8,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "chestReliefActive": false,
+          "rightForearmTwistDegrees": 26.078118331443257,
+          "rightUpperTwistDegrees": -17.490882117779307,
+          "rightPalmWorld": [
+            -0.008633010101582073,
+            1.2640980417212497,
+            0.27162067703091275
+          ],
+          "rightTargetWorld": [
+            -0.00863304743664329,
+            1.2640980125483345,
+            0.27162066021354997
+          ],
+          "leftForearmTwistDegrees": 18.48883362756075,
+          "leftUpperTwistDegrees": -35.787738431851466,
+          "leftPalmWorld": [
+            0.014755081019617686,
+            1.4562153005101803,
+            0.11959743986552848
+          ],
+          "leftTargetWorld": [
+            0.014755145310103348,
+            1.456215310110896,
+            0.11959740735969676
+          ],
+          "supportTargetWorld": [
+            0.014755145310103348,
+            1.456215310110896,
+            0.11959740735969676
+          ],
+          "shoulderTargetWorld": [
+            0.013084560113907191,
+            1.3877213170668525,
+            -0.030321699980395828
+          ],
+          "shoulderContactWorld": [
+            0.013084560113907191,
+            1.3877213170668525,
+            -0.030321699980395855
+          ],
+          "shoulderContactErrorM": 2.7755575615628914e-17,
+          "weaponPosition": [
+            0.011413974917711003,
+            1.302521472060847,
+            0.31338529011845473
+          ],
+          "weaponQuaternion": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "barrelPitchDegrees": 0,
+          "fixedEmplacement": true,
+          "modelScale": 1
+        },
+        {
+          "visible": true,
+          "selectedWeapon": "qjz89",
+          "motion": "QJZ89Aim",
+          "time": 1.1469999647140503,
+          "actualClip": "QJZ89Aim",
+          "handScale": 1,
+          "leftContactErrorM": 4.05591347366304e-8,
+          "rightContactErrorM": 5.285935931407026e-8,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "chestReliefActive": false,
+          "rightForearmTwistDegrees": 33.563737321977214,
+          "rightUpperTwistDegrees": -0.0006326493648982477,
+          "rightPalmWorld": [
+            -0.10318215428846553,
+            1.2100500459942454,
+            0.21847432667288577
+          ],
+          "rightTargetWorld": [
+            -0.10318218617046229,
+            1.2100500522724271,
+            0.21847436836502632
+          ],
+          "leftForearmTwistDegrees": -5.9543960689444155,
+          "leftUpperTwistDegrees": 11.984187813367635,
+          "leftPalmWorld": [
+            -0.0797939875565167,
+            1.4021673137411528,
+            0.0664511330569531
+          ],
+          "leftTargetWorld": [
+            -0.07979399342371565,
+            1.4021673498349887,
+            0.06645111551117311
+          ],
+          "supportTargetWorld": [
+            -0.07979399342371565,
+            1.4021673498349887,
+            0.06645111551117311
+          ],
+          "shoulderTargetWorld": [
+            -0.08146457861991181,
+            1.3336733567909451,
+            -0.0834679918289195
+          ],
+          "shoulderContactWorld": [
+            -0.08146457861991181,
+            1.3336733567909451,
+            -0.08346799182891951
+          ],
+          "shoulderContactErrorM": 1.3877787807814457e-17,
+          "weaponPosition": [
+            -0.083135163816108,
+            1.2484735117849395,
+            0.2602389982699311
+          ],
+          "weaponQuaternion": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "barrelPitchDegrees": 0,
+          "fixedEmplacement": true,
+          "modelScale": 1
+        },
+        {
+          "visible": true,
+          "selectedWeapon": "qbu10",
+          "motion": "RifleIdle",
+          "time": 3.1696666431427003,
+          "actualClip": "RifleIdle",
+          "handScale": 1,
+          "leftContactErrorM": 6.599341455740031e-8,
+          "rightContactErrorM": 9.139167392287276e-8,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "chestReliefActive": true,
+          "rightForearmTwistDegrees": 43.11618227563774,
+          "rightUpperTwistDegrees": 24.4508244824902,
+          "rightPalmWorld": [
+            0.0013573524734038916,
+            1.1479053840792475,
+            0.2174417185001563
+          ],
+          "rightSurfaceTargetWorld": [
+            0.0013573440326875297,
+            1.1479053068434386,
+            0.21744176662314665
+          ],
+          "pumpTravelM": 0,
+          "leftForearmTwistDegrees": -141.33655634813962,
+          "leftUpperTwistDegrees": -66.38639342844509,
+          "leftPalmWorld": [
+            0.23946224404896815,
+            1.0707019787631118,
+            0.26284119466822203
+          ],
+          "supportTargetWorld": [
+            0.23946226895060962,
+            1.0707019190302403,
+            0.2628411817444813
+          ],
+          "barrelPitchDegrees": -35.489469424792844,
+          "re4Shotgun": false,
+          "modelScale": 1,
+          "weaponPosition": [
+            0.23927505411078187,
+            1.0388735487377674,
+            0.2531417256822356
+          ],
+          "weaponQuaternion": [
+            0.1990951754876212,
+            0.7389557571040385,
+            0.2309459122056673,
+            -0.6008073616192156
+          ]
+        },
+        {
+          "visible": true,
+          "selectedWeapon": "qbu10",
+          "motion": "RifleWalk",
+          "time": 0.4809999823570251,
+          "actualClip": "RifleWalk",
+          "handScale": 1,
+          "leftContactErrorM": 3.6718107944189766e-8,
+          "rightContactErrorM": 1.5148895250195974e-7,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "chestReliefActive": true,
+          "rightForearmTwistDegrees": 28.706955935401936,
+          "rightUpperTwistDegrees": 6.063485441225011,
+          "rightPalmWorld": [
+            -0.04857275324442907,
+            1.1211843693594707,
+            0.11403192794709764
+          ],
+          "rightSurfaceTargetWorld": [
+            -0.0485728203403516,
+            1.1211844512834421,
+            0.11403203627762346
+          ],
+          "pumpTravelM": 0,
+          "leftForearmTwistDegrees": -146.3128996035326,
+          "leftUpperTwistDegrees": -92.57519787505706,
+          "leftPalmWorld": [
+            0.12763252425917965,
+            1.027648901957135,
+            0.27188701887601363
+          ],
+          "supportTargetWorld": [
+            0.12763251780785562,
+            1.0276488671005195,
+            0.2718870284476498
+          ],
+          "barrelPitchDegrees": -39.400176405991076,
+          "re4Shotgun": false,
+          "modelScale": 1,
+          "weaponPosition": [
+            0.13097300704321918,
+            0.996071965370026,
+            0.2619421774409414
+          ],
+          "weaponQuaternion": [
+            0.14129800778958176,
+            0.8627979550111967,
+            0.30614588453835184,
+            -0.3766819071888409
+          ]
+        },
+        {
+          "visible": true,
+          "selectedWeapon": "qbu10",
+          "motion": "RifleRun",
+          "time": 0.24666667401790618,
+          "actualClip": "RifleRun",
+          "handScale": 1,
+          "leftContactErrorM": 2.162841073635728e-8,
+          "rightContactErrorM": 8.353742763430487e-8,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "chestReliefActive": false,
+          "rightForearmTwistDegrees": 36.08220035809447,
+          "rightUpperTwistDegrees": 34.447213848144415,
+          "rightPalmWorld": [
+            0.06855722791215954,
+            1.048206770918539,
+            0.3582377742852801
+          ],
+          "rightSurfaceTargetWorld": [
+            0.0685572722777002,
+            1.0482067109732227,
+            0.3582377366454119
+          ],
+          "pumpTravelM": 0,
+          "leftPalmWorld": [
+            0.31997936703890406,
+            1.0468680362662914,
+            0.31950068097434264
+          ],
+          "supportTargetWorld": [
+            0.31997937174475805,
+            1.0468680384474582,
+            0.3195006599770666
+          ],
+          "barrelPitchDegrees": -18.15917129764902,
+          "re4Shotgun": false,
+          "modelScale": 1,
+          "weaponPosition": [
+            0.3256343999505201,
+            1.0168411094983278,
+            0.3063262967419662
+          ],
+          "weaponQuaternion": [
+            0.0948408228536714,
+            0.6441502659314036,
+            0.1318632989824199,
+            -0.7474541615392969
+          ]
+        },
+        {
+          "visible": true,
+          "selectedWeapon": "qbu10",
+          "motion": "RifleAimingIdle",
+          "time": 1.1469999647140503,
+          "actualClip": "RifleAimingIdle",
+          "handScale": 1,
+          "leftContactErrorM": 2.5907650101081127e-8,
+          "rightContactErrorM": 1.87370191063148e-8,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "chestReliefActive": false,
+          "shoulderTargetWorld": [
+            -0.09616540628727256,
+            1.3524394157727369,
+            -0.08999674199967571
+          ],
+          "rightPalmWorld": [
+            -0.12968229425602718,
+            1.299911238191886,
+            0.22009743789005493
+          ],
+          "rightSurfaceTargetWorld": [
+            -0.12968230729189778,
+            1.2999112474550636,
+            0.2200974476540451
+          ],
+          "shoulderContactErrorM": 9.813077866773594e-17,
+          "pumpTravelM": 0,
+          "leftPalmWorld": [
+            -0.13960570215354412,
+            1.3960521314789833,
+            0.45541400961101475
+          ],
+          "supportTargetWorld": [
+            -0.13960572707533747,
+            1.3960521331405755,
+            0.45541400272990573
+          ],
+          "barrelPitchDegrees": 4.368647656862309,
+          "re4Shotgun": false,
+          "modelScale": 1,
+          "weaponPosition": [
+            -0.1307436652493731,
+            1.3703913894759105,
+            0.4746532788998557
+          ],
+          "weaponQuaternion": [
+            0.001223801278473842,
+            0.9988271471007361,
+            -0.03809485094282615,
+            0.029859920573888123
+          ]
+        },
+        {
+          "visible": true,
+          "selectedWeapon": "qbu10",
+          "motion": "FiringRifle",
+          "time": 0.09866667181253433,
+          "actualClip": "FiringRifle",
+          "handScale": 1,
+          "leftContactErrorM": 3.0846738278640283e-8,
+          "rightContactErrorM": 4.0770140473058655e-8,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": 0.01260345602331728,
+          "chestReliefActive": false,
+          "shoulderTargetWorld": [
+            -0.09906432363593935,
+            1.3488591803351664,
+            -0.09632788459282475
+          ],
+          "rightPalmWorld": [
+            -0.13435782471323846,
+            1.297269138160788,
+            0.21372664781983677
+          ],
+          "rightSurfaceTargetWorld": [
+            -0.1343578155574524,
+            1.2972691525362938,
+            0.21372668485658564
+          ],
+          "shoulderContactErrorM": 9.813077866773594e-17,
+          "pumpTravelM": 0,
+          "leftPalmWorld": [
+            -0.14579202747435446,
+            1.3941399895366113,
+            0.4486750196588625
+          ],
+          "supportTargetWorld": [
+            -0.14579205457448782,
+            1.3941399816980273,
+            0.4486750321352656
+          ],
+          "barrelPitchDegrees": 4.54496412002683,
+          "re4Shotgun": false,
+          "modelScale": 1,
+          "weaponPosition": [
+            -0.1370136754729378,
+            1.3685508385026308,
+            0.46804757620282206
+          ],
+          "weaponQuaternion": [
+            0.0006887256171500315,
+            0.9986733351191273,
+            -0.03965069280817111,
+            0.03284688628920087
+          ]
+        },
+        {
+          "visible": true,
+          "selectedWeapon": "qbu10",
+          "motion": "Reloading",
+          "time": 1.2209999823570252,
+          "actualClip": "Reloading",
+          "handScale": 1,
+          "leftContactErrorM": null,
+          "rightContactErrorM": 2.4366952668657494e-8,
+          "shoulderAssistDegrees": 0,
+          "triggerContactErrorM": null,
+          "chestReliefActive": false,
+          "rightPalmWorld": [
+            -0.15948670451291863,
+            1.3913567852754989,
+            0.25777565932868285
+          ],
+          "rightSurfaceTargetWorld": [
+            -0.15948671282019108,
+            1.3913567949061365,
+            0.2577756801130141
+          ],
+          "pumpTravelM": 0,
+          "leftPalmWorld": [
+            0.10183565170182317,
+            1.157222159538585,
+            0.16265927522062507
+          ],
+          "supportTargetWorld": [
+            -0.12354088453145766,
+            1.637433755214844,
+            0.3113429489180167
+          ],
+          "barrelPitchDegrees": 57.5914198709811,
+          "re4Shotgun": false,
+          "modelScale": 1,
+          "weaponPosition": [
+            -0.10062165584776285,
+            1.636851459147167,
+            0.3354578725257857
+          ],
+          "weaponQuaternion": [
+            -0.10065622099862269,
+            0.8526446450135985,
+            -0.4712277626452414,
+            -0.20201443071293518
+          ]
+        }
+      ],
+      "sourceHandScale": [
+        1,
+        0.9999998807907104,
+        0.9999998807907104
+      ],
+      "errors": [],
+      "tankRequests": 0,
+      "modelRequests": [
+        "http://127.0.0.1:8086/web/motion-labs/zhigeng-motion-lab/assets/zhigeng_fixed.glb?v=clothing-r23",
+        "http://127.0.0.1:8086/web/motion-labs/zhigeng-motion-lab/assets/weapons/qsz92.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/zhigeng-motion-lab/assets/weapons/qbz95.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/zhigeng-motion-lab/assets/weapons/type56_1.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/zhigeng-motion-lab/assets/weapons/hanyang88.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/zhigeng-motion-lab/assets/weapons/type54.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/zhigeng-motion-lab/assets/weapons/qbu85.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/zhigeng-motion-lab/assets/weapons/c96.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/zhigeng-motion-lab/assets/weapons/winchester1897.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/zhigeng-motion-lab/assets/weapons/qcq171.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/zhigeng-motion-lab/assets/weapons/type97hawk.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/zhigeng-motion-lab/assets/weapons/pf89.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/zhigeng-motion-lab/assets/weapons/qjz89.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/zhigeng-motion-lab/assets/weapons/qbu10.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/zhigeng-motion-lab/assets/motion_additions.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/zhigeng-motion-lab/assets/leon_pistol_animations.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/zhigeng-motion-lab/assets/re4_shotgun_animations.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/zhigeng-motion-lab/assets/re4_rocket_upper.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/zhigeng-motion-lab/assets/uploaded_motions.glb?v=weapons-r44",
+        "http://127.0.0.1:8086/web/motion-labs/zhigeng-motion-lab/assets/zhigeng_before.glb?v=clothing-r23"
+      ]
+    }
+  },
+  "tank": {
+    "passed": true,
+    "actions": [
+      {
+        "ready": true,
+        "playing": false,
+        "speed": 1,
+        "time": 0,
+        "motion": "TankIdle",
+        "angle": "front",
+        "error": null,
+        "visible": true,
+        "role": "unmanned",
+        "driverRequired": false,
+        "sourceClips": [],
+        "boneCount": 215,
+        "bounds": {
+          "min": [
+            -2.4548069429284687,
+            -5.551115123125783e-17,
+            -4.673698994638841
+          ],
+          "max": [
+            2.4590234097367634,
+            3.3861586981952003,
+            4.5263010053611605
+          ]
+        }
+      },
+      {
+        "ready": true,
+        "playing": false,
+        "speed": 1,
+        "time": 1.25,
+        "motion": "TankTurretAim",
+        "angle": "front",
+        "error": null,
+        "visible": true,
+        "role": "unmanned",
+        "driverRequired": false,
+        "sourceClips": [
+          "Turret_Aim_Demo"
+        ],
+        "boneCount": 215,
+        "bounds": {
+          "min": [
+            -2.4548069429284687,
+            -5.551115123125783e-17,
+            -4.673698994638841
+          ],
+          "max": [
+            2.4590234097367634,
+            3.3861586981952003,
+            4.5263010053611605
+          ]
+        }
+      },
+      {
+        "ready": true,
+        "playing": false,
+        "speed": 1,
+        "time": 0.18,
+        "motion": "TankRecoil",
+        "angle": "front",
+        "error": null,
+        "visible": true,
+        "role": "unmanned",
+        "driverRequired": false,
+        "sourceClips": [
+          "Gun_Recoil"
+        ],
+        "boneCount": 215,
+        "bounds": {
+          "min": [
+            -2.4548069429284687,
+            -5.551115123125783e-17,
+            -4.673698994638841
+          ],
+          "max": [
+            2.4590234097367634,
+            3.3861586981952003,
+            4.5263010053611605
+          ]
+        }
+      },
+      {
+        "ready": true,
+        "playing": false,
+        "speed": 1,
+        "time": 1.25,
+        "motion": "TankMGAim",
+        "angle": "front",
+        "error": null,
+        "visible": true,
+        "role": "unmanned",
+        "driverRequired": false,
+        "sourceClips": [
+          "MG_Aim_Demo"
+        ],
+        "boneCount": 215,
+        "bounds": {
+          "min": [
+            -2.4548069429284687,
+            -5.551115123125783e-17,
+            -4.673698994638841
+          ],
+          "max": [
+            2.4590234097367634,
+            3.3861586981952003,
+            4.5263010053611605
+          ]
+        }
+      },
+      {
+        "ready": true,
+        "playing": false,
+        "speed": 1,
+        "time": 3.7,
+        "motion": "TankTracks",
+        "angle": "front",
+        "error": null,
+        "visible": true,
+        "role": "unmanned",
+        "driverRequired": false,
+        "sourceClips": [
+          "Track_L_Cycle",
+          "Track_R_Cycle",
+          "Wheels_Forward_Loop"
+        ],
+        "boneCount": 215,
+        "bounds": {
+          "min": [
+            -2.4548069429284687,
+            -5.551115123125783e-17,
+            -4.673698994638841
+          ],
+          "max": [
+            2.4590234097367634,
+            3.3861586981952003,
+            4.5263010053611605
+          ]
+        }
+      }
+    ],
+    "errors": [],
+    "modelRequests": [
+      "http://127.0.0.1:8086/web/motion-labs/type59d-motion-lab/assets/type59d.glb?v=r44"
+    ]
+  }
+}

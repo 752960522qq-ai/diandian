@@ -1,0 +1,24 @@
+{
+  "character": "zhigeng",
+  "walking": {
+    "source": "R41 WalkingBackwards",
+    "changed_tracks": [
+      "LeftArm.rotation",
+      "RightArm.rotation"
+    ],
+    "outward_degrees": {
+      "Left": 5,
+      "Right": 10
+    }
+  },
+  "shooting": {
+    "source": "Original character PistolIdle (PistolAimingIdle in the preview)",
+    "base_sample_seconds": 0,
+    "recoil_peak_degrees": 10.5,
+    "recoil_peak_seconds": 0.18,
+    "recoil_end_seconds": 0.65,
+    "duration_seconds": 1.1666666666666667,
+    "rotation_tracks": 66
+  },
+  "retained_actions": 6
+}

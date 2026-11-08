@@ -29,3 +29,21 @@ web/motion-labs/*/assets/re4_rocket_upper.glb -filter -diff -merge -text
 assets/weapons/*.blend filter=lfs diff=lfs merge=lfs -text
 assets/animations/pf89_r38/*.blend filter=lfs diff=lfs merge=lfs -text
 assets/animations/pf89_r40/*.blend filter=lfs diff=lfs merge=lfs -text
+
+# The eight standalone uploaded motions and editable Blender action libraries.
+assets/animations/motion_lab_r41/source/*.fbx filter=lfs diff=lfs merge=lfs -text
+assets/animations/motion_lab_r41/**/*.blend filter=lfs diff=lfs merge=lfs -text
+assets/animations/motion_lab_r41/**/*.glb filter=lfs diff=lfs merge=lfs -text
+
+# R42 walk clearance and aim-based recoil, with editable character scenes.
+assets/animations/motion_lab_r42/**/*.blend filter=lfs diff=lfs merge=lfs -text
+assets/animations/motion_lab_r42/**/*.glb filter=lfs diff=lfs merge=lfs -text
+
+# R43 fixed-machine-gun authoring and the supplied unmanned tank rig.
+assets/animations/emplacements_r43/**/*.glb filter=lfs diff=lfs merge=lfs -text
+assets/animations/emplacements_r43/**/*.blend filter=lfs diff=lfs merge=lfs -text
+assets/vehicles/**/*.glb filter=lfs diff=lfs merge=lfs -text
+assets/vehicles/**/*.blend filter=lfs diff=lfs merge=lfs -text
+
+assets/animations/emplacements_r44/**/*.glb filter=lfs diff=lfs merge=lfs -text
+assets/animations/emplacements_r44/**/*.blend filter=lfs diff=lfs merge=lfs -text

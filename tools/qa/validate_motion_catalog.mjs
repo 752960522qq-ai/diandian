@@ -28,7 +28,7 @@ for (const folder of folders) {
   assert.deepEqual(selectableMotions(ordinary), ordinary, 'Other weapon actions unchanged');
   assert.deepEqual(selectableMotions(ordinary, ordinary), ordinary, 'Deduplicate exact IDs only');
   const app = fs.readFileSync(new URL('app.js', root), 'utf8');
-  assert(app.includes('selectableMotions(info.motions, shotgunMotions, rocketMotions).map('));
+  assert(app.includes('selectableMotions(info.motions, shotgunMotions, rocketMotions, uploadedMotions, fixedGunMotions).map('));
   report[folder] = {visiblePf89Actions: selected.length, retainedAuthoringVariants: 3, passed: true};
 }
 assert.equal(fs.readFileSync(new URL(`../../web/motion-labs/${folders[0]}/motion-catalog.js`, import.meta.url), 'utf8'), fs.readFileSync(new URL(`../../web/motion-labs/${folders[1]}/motion-catalog.js`, import.meta.url), 'utf8'));

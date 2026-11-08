@@ -1,0 +1,12 @@
+{
+  "assets/weapons/source/qjz89_source.glb": {
+    "original_filename": "QJZ89_2号主体_左弹箱修正版.glb",
+    "bytes": 2304688,
+    "sha256": "3f53d5c873cb513ab83ed2e66880e97787b452ef2fe8b4a77eb0cc78eefefb6d"
+  },
+  "assets/vehicles/type59d/source/59d_rigged_v3.glb": {
+    "original_filename": "59d_rigged_v3.glb",
+    "bytes": 23366464,
+    "sha256": "5f28841fc9dbe9d51a551a43d5958c5d2c02da967015c41e4a71b7bd65924c03"
+  }
+}

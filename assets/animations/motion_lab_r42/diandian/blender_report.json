@@ -1,0 +1,66 @@
+{
+  "character": "diandian",
+  "blender": "4.3.2",
+  "fps": 60,
+  "body_bones": 65,
+  "actions": {
+    "ClimbingLadder": {
+      "curves": 263,
+      "frames": [
+        0.0,
+        46.0
+      ]
+    },
+    "Dying": {
+      "curves": 263,
+      "frames": [
+        0.0,
+        260.0
+      ]
+    },
+    "FlyingBackDeath": {
+      "curves": 263,
+      "frames": [
+        0.0,
+        182.0
+      ]
+    },
+    "HangToCrouch": {
+      "curves": 263,
+      "frames": [
+        0.0,
+        68.0
+      ]
+    },
+    "PistolShooting": {
+      "curves": 263,
+      "frames": [
+        0.0,
+        70.0
+      ]
+    },
+    "SittingCrossLegged": {
+      "curves": 263,
+      "frames": [
+        0.0,
+        574.0
+      ]
+    },
+    "SittingTalking": {
+      "curves": 263,
+      "frames": [
+        0.0,
+        2698.0
+      ]
+    },
+    "WalkingBackwards": {
+      "curves": 263,
+      "frames": [
+        0.0,
+        58.0
+      ]
+    }
+  },
+  "source": "assets/animations/motion_lab_r42/diandian/uploaded_motions.glb",
+  "output": "assets/animations/motion_lab_r42/diandian/motions.blend"
+}

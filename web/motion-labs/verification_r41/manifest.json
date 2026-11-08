@@ -1,0 +1,87 @@
+{
+  "base_commit": "eb6133bbb89884863923f7b50844e4169e876285",
+  "status": "local_only_not_committed_not_pushed_not_deployed",
+  "excluded_upload": "Pistol_Handgun Locomotion Pack.zip",
+  "files": [
+    {
+      "path": "assets/animations/motion_lab_r41/catalog.json",
+      "bytes": 1768,
+      "sha256": "04015768c0fb4b4df5a800a2d87b17b70ca58f5e7e1d5a55c40db6a536a1186c"
+    },
+    {
+      "path": "assets/animations/motion_lab_r41/diandian/motions.blend",
+      "bytes": 17991940,
+      "sha256": "75c0f657e1b1e691b6a874aefce86de02e79628adf134f58748e05bb5913bfb7"
+    },
+    {
+      "path": "assets/animations/motion_lab_r41/diandian/retarget_report.json",
+      "bytes": 5893,
+      "sha256": "0105230d0b5eadc7ce1c797af7dc0b4d4335199c94401042e0d09b948358908c"
+    },
+    {
+      "path": "assets/animations/motion_lab_r41/diandian/uploaded_motions.glb",
+      "bytes": 1786460,
+      "sha256": "22129aa3f7c30b5323c37c8f6ddaa237d7f1c4e95050c69f5a338f9e981fcc98"
+    },
+    {
+      "path": "assets/animations/motion_lab_r41/source/Braced Hang To Crouch.fbx",
+      "bytes": 1852064,
+      "sha256": "61920920330dc30dc8084c38508158eddc78ab13260111817b3dbec2635da3f9"
+    },
+    {
+      "path": "assets/animations/motion_lab_r41/source/Climbing Ladder.fbx",
+      "bytes": 1814448,
+      "sha256": "ae68ab388691e294c368570114dffba540a98c7354656be9464f71a88146c18c"
+    },
+    {
+      "path": "assets/animations/motion_lab_r41/source/Dying1.fbx",
+      "bytes": 2054608,
+      "sha256": "3d06716973e5ab0bbb544be6bfa76d42c7cfcd84c477b3a1d1c3a65a976a03e5"
+    },
+    {
+      "path": "assets/animations/motion_lab_r41/source/Flying Back Death.fbx",
+      "bytes": 2024064,
+      "sha256": "40ee236bfb0311466b901a5d1e80e9ea0d5041809f1a27be51e116768e4fc4d0"
+    },
+    {
+      "path": "assets/animations/motion_lab_r41/source/Walking Backwards.fbx",
+      "bytes": 1814080,
+      "sha256": "2ce15ad9a649df2d5924c30f7d91e3129e7fa002bc4100e67610d65d2fe3d8a5"
+    },
+    {
+      "path": "assets/animations/motion_lab_r41/source/pistol Shooting.fbx",
+      "bytes": 1855488,
+      "sha256": "9e2ed2684afb96e6aaa8bd82db79490c42b4fd3f8e91efbaf1277a861d90d4e7"
+    },
+    {
+      "path": "assets/animations/motion_lab_r41/source/二郎腿Sitting Talking.fbx",
+      "bytes": 5249952,
+      "sha256": "3d88ead42dde579ff812242e6f06e3b8373a92bc517481eb6a93e37e3ed51b7e"
+    },
+    {
+      "path": "assets/animations/motion_lab_r41/source/二郎腿Sitting.fbx",
+      "bytes": 2512880,
+      "sha256": "f8a853044d295bd07f779fa4e743560e58fd18fcb063af445559cbdc94545b72"
+    },
+    {
+      "path": "assets/animations/motion_lab_r41/sources.json",
+      "bytes": 1334,
+      "sha256": "12923c328f8b82f8dea1ba9ade6c67a1b4ecb045e68cda380a56fdfacc8f0da3"
+    },
+    {
+      "path": "assets/animations/motion_lab_r41/zhigeng/motions.blend",
+      "bytes": 17747048,
+      "sha256": "99e7338d6a85a124f9085738deefde5274dc8ba41832ee7d96db7383763bb8e5"
+    },
+    {
+      "path": "assets/animations/motion_lab_r41/zhigeng/retarget_report.json",
+      "bytes": 5878,
+      "sha256": "a9ee3c493b36f1192197a5b928705073a691908156e4cf96fbadd612e8e7902c"
+    },
+    {
+      "path": "assets/animations/motion_lab_r41/zhigeng/uploaded_motions.glb",
+      "bytes": 1784812,
+      "sha256": "47b39bde575a3b1a18f21666213c0eb192d649f8aad52bd215ee69c347107e7f"
+    }
+  ]
+}

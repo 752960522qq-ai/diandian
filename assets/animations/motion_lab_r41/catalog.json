@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Dying",
+    "label": "倒地死亡",
+    "source": "Dying1.fbx",
+    "loop": false,
+    "root_policy": "trajectory",
+    "category": "general",
+    "duration": 4.333333333333333
+  },
+  {
+    "name": "FlyingBackDeath",
+    "label": "后飞死亡",
+    "source": "Flying Back Death.fbx",
+    "loop": false,
+    "root_policy": "trajectory",
+    "category": "general",
+    "duration": 3.033333333333333
+  },
+  {
+    "name": "PistolShooting",
+    "label": "手枪射击",
+    "source": "pistol Shooting.fbx",
+    "loop": false,
+    "root_policy": "stationary",
+    "category": "pistol",
+    "duration": 1.1666666666666667
+  },
+  {
+    "name": "SittingTalking",
+    "label": "二郎腿交谈",
+    "source": "二郎腿Sitting Talking.fbx",
+    "loop": false,
+    "root_policy": "stationary",
+    "category": "general",
+    "duration": 44.96666666666667
+  },
+  {
+    "name": "SittingCrossLegged",
+    "label": "二郎腿坐姿",
+    "source": "二郎腿Sitting.fbx",
+    "loop": true,
+    "root_policy": "stationary",
+    "category": "general",
+    "duration": 9.566666666666666
+  },
+  {
+    "name": "ClimbingLadder",
+    "label": "攀爬梯子",
+    "source": "Climbing Ladder.fbx",
+    "loop": true,
+    "root_policy": "climb_in_place",
+    "category": "general",
+    "duration": 0.7666666666666667
+  },
+  {
+    "name": "HangToCrouch",
+    "label": "悬挂翻上蹲伏",
+    "source": "Braced Hang To Crouch.fbx",
+    "loop": false,
+    "root_policy": "trajectory",
+    "category": "general",
+    "duration": 1.1333333333333333
+  },
+  {
+    "name": "WalkingBackwards",
+    "label": "倒退行走",
+    "source": "Walking Backwards.fbx",
+    "loop": true,
+    "root_policy": "in_place",
+    "category": "general",
+    "duration": 0.9666666666666667
+  }
+]

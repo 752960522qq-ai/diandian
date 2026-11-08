@@ -1,0 +1,20 @@
+04:13:43 | INFO: Data are loaded, start creating Blender stuff
+04:13:43 | INFO: Blender create Mesh node meshes[0]
+04:13:43 | INFO: Blender create Mesh node tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f
+04:13:44 | INFO: glTF import finished in 1.80s
+Info: No new files have been packed
+Info: Saved "motions.blend"
+BLENDER_R42_SAVED diandian 8
+04:13:46 | INFO: Data are loaded, start creating Blender stuff
+04:13:46 | INFO: Blender create Mesh node Zhigeng_Body_OriginalClothing_Cleaned
+04:13:47 | INFO: Blender create Mesh node tripo_mesh_dc05a519
+04:13:47 | INFO: Blender create Mesh node Zhigeng_Head2_CleanSkin_Cleaned
+04:13:48 | INFO: Blender create Mesh node Fine_Tapered_Eyelashes
+04:13:48 | INFO: Blender create Mesh node Zhigeng_Hair_InnerScalp
+04:13:48 | INFO: glTF import finished in 2.25s
+Info: No new files have been packed
+Info: Saved "motions.blend"
+BLENDER_R42_SAVED zhigeng 8
+Blender 4.3.2
+
+Blender quit

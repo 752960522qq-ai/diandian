@@ -2,7 +2,8 @@ class_name CharacterWeaponAttachment
 extends SkeletonModifier3D
 
 const CONFIG_PATH := "res://assets/weapons/character_attachment.json"
-const RIFLE_MOTIONS := ["RifleIdle", "RifleAimingIdle", "FiringRifle", "RifleRun", "Reloading"]
+const RIFLE_MOTIONS := ["RifleIdle", "RifleWalk", "RifleAimingIdle", "FiringRifle", "RifleRun", "Reloading"]
+const PISTOL_MOTIONS := ["PistolIdle", "PistolShooting"]
 var character_id := "zhigeng"
 var motion := "RifleIdle"
 var selected_weapon := "qbz95"
@@ -51,7 +52,12 @@ func configure(target: Skeleton3D, stage: Node3D, id: String) -> void:
 		var state := GLTFState.new()
 		var error := document.append_from_file(item.path, state)
 		assert(error == OK, "Cannot load weapon " + str(id_value))
-		var model := document.generate_scene(state)
+		var imported := document.generate_scene(state)
+		var model: Node3D = imported
+		if id_value == "qbu10":
+			# Preserve the GLB's normalization transform beneath the runtime mount.
+			model = Node3D.new()
+			model.add_child(imported)
 		model.name = "Equipped_" + str(id_value)
 		weapon_stage.add_child(model)
 		model.visible = false
@@ -69,15 +75,15 @@ func select_weapon(id: String) -> String:
 
 func set_motion(value: String) -> void:
 	motion = value.get_file()
-	if motion == "PistolIdle":
+	if motion in PISTOL_MOTIONS:
 		selected_weapon = "qsz92"
 	elif motion in RIFLE_MOTIONS and selected_weapon == "qsz92":
 		selected_weapon = last_rifle
 	for id in models:
-		models[id].visible = id == selected_weapon and (motion in RIFLE_MOTIONS or motion == "PistolIdle")
+		models[id].visible = id == selected_weapon and (motion in RIFLE_MOTIONS or motion in PISTOL_MOTIONS)
 
 func _process_modification() -> void:
-	if models.is_empty() or not (motion in RIFLE_MOTIONS or motion == "PistolIdle"):
+	if models.is_empty() or not (motion in RIFLE_MOTIONS or motion in PISTOL_MOTIONS):
 		return
 	var data: Dictionary = config.weapons[selected_weapon]
 	var mount: Dictionary = character.mounts[selected_weapon].duplicate()
@@ -89,8 +95,11 @@ func _process_modification() -> void:
 		skeleton.force_update_all_bone_transforms()
 	var right_world := world_pose(right_hand)
 	var character_scale := skeleton.global_basis.get_scale().x
+	var hand_scale := float(character.get("baked_hand_scale", 1.0))
 	var right_offset: Vector3 = vector(mount.palm_offset_native) if mount.has("palm_offset_native") else palm_offset
 	var left_offset: Vector3 = vector(mount.left_palm_offset_native) if mount.has("left_palm_offset_native") else left_palm_offset
+	right_offset *= hand_scale
+	left_offset *= hand_scale
 	var palm := right_world.origin + right_world.basis.orthonormalized() * right_offset * character_scale
 	var rotation := (right_world.basis.orthonormalized().get_rotation_quaternion() * quaternion(mount.quaternion_xyzw)).normalized()
 	var model_scale := float(mount.get("model_scale", 1.0))
@@ -109,7 +118,7 @@ func _process_modification() -> void:
 	models[selected_weapon].global_transform = gun_transform
 	if mount.has("right_hand_quaternion_weapon"):
 		var grip_rotation := (rotation * quaternion(mount.right_hand_quaternion_weapon)).normalized()
-		var contact_offset := vector(mount.right_contact_offset_native) * character_scale
+		var contact_offset := vector(mount.right_contact_offset_native) * character_scale * hand_scale
 		var contact: Vector3 = gun_transform * vector(mount.get("right_palm_target_weapon", data.right_palm_surface))
 		var wrist_target: Vector3 = contact - Basis(grip_rotation) * contact_offset
 		solve_arm(right_arm, right_forearm, right_hand, wrist_target, grip_rotation, mount.get("right_elbow_lift_ratio", null))
@@ -121,7 +130,7 @@ func _process_modification() -> void:
 	var right_finger_weight := float(mount.get("right_finger_pose_weight", character.get("finger_pose_weight", 0.6)))
 	if mount.has("right_finger_directions_weapon"):
 		fit_finger_directions("Right", mount.right_finger_directions_weapon, rotation, right_finger_weight)
-	if motion in ["FiringRifle", "PistolIdle"] and bool(mount.get("trigger_finger_ik", false)):
+	if motion in ["FiringRifle", "PistolIdle", "PistolShooting"] and bool(mount.get("trigger_finger_ik", false)):
 		fit_trigger_finger(gun_transform * (vector(data.trigger) + Vector3(0.004, 0.0, 0.0)), right_finger_weight)
 	if motion == "Reloading":
 		last_contact_error_m = 0.0

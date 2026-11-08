@@ -1,0 +1,310 @@
+{
+  "passed": true,
+  "scope": "Tripod vs legs; QBU bipod vs torso, arms and legs. Hands excluded at intentional grip contacts.",
+  "samples": [
+    {
+      "character": "diandian",
+      "weapon": "qjz89",
+      "motion": "QJZ89Idle",
+      "fraction": 0.37,
+      "intersections": {
+        "Base2_tripo_part_1": 0,
+        "Base2_tripo_part_3": 0,
+        "Base2_tripo_part_7": 0
+      }
+    },
+    {
+      "character": "diandian",
+      "weapon": "qjz89",
+      "motion": "QJZ89Idle",
+      "fraction": 0.75,
+      "intersections": {
+        "Base2_tripo_part_1": 0,
+        "Base2_tripo_part_3": 0,
+        "Base2_tripo_part_7": 0
+      }
+    },
+    {
+      "character": "diandian",
+      "weapon": "qjz89",
+      "motion": "QJZ89Aim",
+      "fraction": 0.37,
+      "intersections": {
+        "Base2_tripo_part_1": 0,
+        "Base2_tripo_part_3": 0,
+        "Base2_tripo_part_7": 0
+      }
+    },
+    {
+      "character": "diandian",
+      "weapon": "qjz89",
+      "motion": "QJZ89Aim",
+      "fraction": 0.75,
+      "intersections": {
+        "Base2_tripo_part_1": 0,
+        "Base2_tripo_part_3": 0,
+        "Base2_tripo_part_7": 0
+      }
+    },
+    {
+      "character": "diandian",
+      "weapon": "qbu10",
+      "motion": "RifleIdle",
+      "fraction": 0.37,
+      "intersections": {
+        "tripo_part_2": 0
+      }
+    },
+    {
+      "character": "diandian",
+      "weapon": "qbu10",
+      "motion": "RifleIdle",
+      "fraction": 0.75,
+      "intersections": {
+        "tripo_part_2": 0
+      }
+    },
+    {
+      "character": "diandian",
+      "weapon": "qbu10",
+      "motion": "RifleWalk",
+      "fraction": 0.37,
+      "intersections": {
+        "tripo_part_2": 0
+      }
+    },
+    {
+      "character": "diandian",
+      "weapon": "qbu10",
+      "motion": "RifleWalk",
+      "fraction": 0.75,
+      "intersections": {
+        "tripo_part_2": 0
+      }
+    },
+    {
+      "character": "diandian",
+      "weapon": "qbu10",
+      "motion": "RifleRun",
+      "fraction": 0.37,
+      "intersections": {
+        "tripo_part_2": 0
+      }
+    },
+    {
+      "character": "diandian",
+      "weapon": "qbu10",
+      "motion": "RifleRun",
+      "fraction": 0.75,
+      "intersections": {
+        "tripo_part_2": 0
+      }
+    },
+    {
+      "character": "diandian",
+      "weapon": "qbu10",
+      "motion": "RifleAimingIdle",
+      "fraction": 0.37,
+      "intersections": {
+        "tripo_part_2": 0
+      }
+    },
+    {
+      "character": "diandian",
+      "weapon": "qbu10",
+      "motion": "RifleAimingIdle",
+      "fraction": 0.75,
+      "intersections": {
+        "tripo_part_2": 0
+      }
+    },
+    {
+      "character": "diandian",
+      "weapon": "qbu10",
+      "motion": "FiringRifle",
+      "fraction": 0.37,
+      "intersections": {
+        "tripo_part_2": 0
+      }
+    },
+    {
+      "character": "diandian",
+      "weapon": "qbu10",
+      "motion": "FiringRifle",
+      "fraction": 0.75,
+      "intersections": {
+        "tripo_part_2": 0
+      }
+    },
+    {
+      "character": "diandian",
+      "weapon": "qbu10",
+      "motion": "Reloading",
+      "fraction": 0.37,
+      "intersections": {
+        "tripo_part_2": 0
+      }
+    },
+    {
+      "character": "diandian",
+      "weapon": "qbu10",
+      "motion": "Reloading",
+      "fraction": 0.75,
+      "intersections": {
+        "tripo_part_2": 0
+      }
+    },
+    {
+      "character": "zhigeng",
+      "weapon": "qjz89",
+      "motion": "QJZ89Idle",
+      "fraction": 0.37,
+      "intersections": {
+        "Base2_tripo_part_1": 0,
+        "Base2_tripo_part_3": 0,
+        "Base2_tripo_part_7": 0
+      }
+    },
+    {
+      "character": "zhigeng",
+      "weapon": "qjz89",
+      "motion": "QJZ89Idle",
+      "fraction": 0.75,
+      "intersections": {
+        "Base2_tripo_part_1": 0,
+        "Base2_tripo_part_3": 0,
+        "Base2_tripo_part_7": 0
+      }
+    },
+    {
+      "character": "zhigeng",
+      "weapon": "qjz89",
+      "motion": "QJZ89Aim",
+      "fraction": 0.37,
+      "intersections": {
+        "Base2_tripo_part_1": 0,
+        "Base2_tripo_part_3": 0,
+        "Base2_tripo_part_7": 0
+      }
+    },
+    {
+      "character": "zhigeng",
+      "weapon": "qjz89",
+      "motion": "QJZ89Aim",
+      "fraction": 0.75,
+      "intersections": {
+        "Base2_tripo_part_1": 0,
+        "Base2_tripo_part_3": 0,
+        "Base2_tripo_part_7": 0
+      }
+    },
+    {
+      "character": "zhigeng",
+      "weapon": "qbu10",
+      "motion": "RifleIdle",
+      "fraction": 0.37,
+      "intersections": {
+        "tripo_part_2": 0
+      }
+    },
+    {
+      "character": "zhigeng",
+      "weapon": "qbu10",
+      "motion": "RifleIdle",
+      "fraction": 0.75,
+      "intersections": {
+        "tripo_part_2": 0
+      }
+    },
+    {
+      "character": "zhigeng",
+      "weapon": "qbu10",
+      "motion": "RifleWalk",
+      "fraction": 0.37,
+      "intersections": {
+        "tripo_part_2": 0
+      }
+    },
+    {
+      "character": "zhigeng",
+      "weapon": "qbu10",
+      "motion": "RifleWalk",
+      "fraction": 0.75,
+      "intersections": {
+        "tripo_part_2": 0
+      }
+    },
+    {
+      "character": "zhigeng",
+      "weapon": "qbu10",
+      "motion": "RifleRun",
+      "fraction": 0.37,
+      "intersections": {
+        "tripo_part_2": 0
+      }
+    },
+    {
+      "character": "zhigeng",
+      "weapon": "qbu10",
+      "motion": "RifleRun",
+      "fraction": 0.75,
+      "intersections": {
+        "tripo_part_2": 0
+      }
+    },
+    {
+      "character": "zhigeng",
+      "weapon": "qbu10",
+      "motion": "RifleAimingIdle",
+      "fraction": 0.37,
+      "intersections": {
+        "tripo_part_2": 0
+      }
+    },
+    {
+      "character": "zhigeng",
+      "weapon": "qbu10",
+      "motion": "RifleAimingIdle",
+      "fraction": 0.75,
+      "intersections": {
+        "tripo_part_2": 0
+      }
+    },
+    {
+      "character": "zhigeng",
+      "weapon": "qbu10",
+      "motion": "FiringRifle",
+      "fraction": 0.37,
+      "intersections": {
+        "tripo_part_2": 0
+      }
+    },
+    {
+      "character": "zhigeng",
+      "weapon": "qbu10",
+      "motion": "FiringRifle",
+      "fraction": 0.75,
+      "intersections": {
+        "tripo_part_2": 0
+      }
+    },
+    {
+      "character": "zhigeng",
+      "weapon": "qbu10",
+      "motion": "Reloading",
+      "fraction": 0.37,
+      "intersections": {
+        "tripo_part_2": 0
+      }
+    },
+    {
+      "character": "zhigeng",
+      "weapon": "qbu10",
+      "motion": "Reloading",
+      "fraction": 0.75,
+      "intersections": {
+        "tripo_part_2": 0
+      }
+    }
+  ]
+}

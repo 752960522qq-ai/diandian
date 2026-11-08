@@ -1,0 +1,6486 @@
+{
+  "diandian": {
+    "retainedTracks": 460,
+    "walking": {
+      "samples": 59,
+      "loopSeam": 0,
+      "frames": [
+        {
+          "time": 0,
+          "Left": {
+            "minimumSignedGapM": 0.12428017899664855,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.03807201649820031,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.016666666187089067,
+          "Left": {
+            "minimumSignedGapM": 0.13163965497508037,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.03598471311811662,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.03333333237417813,
+          "Left": {
+            "minimumSignedGapM": 0.13944509797859742,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.03427280506362435,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.049999998561267196,
+          "Left": {
+            "minimumSignedGapM": 0.1440454655917858,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.031897652137447774,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.06666666474835627,
+          "Left": {
+            "minimumSignedGapM": 0.14910773830404472,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.030547135069247437,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.08333333093544533,
+          "Left": {
+            "minimumSignedGapM": 0.1506713866100319,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.028521687176687984,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.09999999712253439,
+          "Left": {
+            "minimumSignedGapM": 0.15247942353192875,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.026924788925572436,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.11666666330962346,
+          "Left": {
+            "minimumSignedGapM": 0.15000586588476625,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.024256541319762456,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.13333332949671253,
+          "Left": {
+            "minimumSignedGapM": 0.14753359725712895,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.021686845548224223,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.1499999956838016,
+          "Left": {
+            "minimumSignedGapM": 0.1414660744024236,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.01756913208795082,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.16666666187089066,
+          "Left": {
+            "minimumSignedGapM": 0.13616334235585997,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.013884730740942864,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.18333332805797972,
+          "Left": {
+            "minimumSignedGapM": 0.12871045427686295,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.0124715360872731,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.19999999424506879,
+          "Left": {
+            "minimumSignedGapM": 0.11704415020811068,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.010374546395547978,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.21666666043215785,
+          "Left": {
+            "minimumSignedGapM": 0.10584391113298315,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.010173588599449992,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.2333333266192469,
+          "Left": {
+            "minimumSignedGapM": 0.09735147377670811,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.011268532043431055,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.24999999280633597,
+          "Left": {
+            "minimumSignedGapM": 0.09213822793816426,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.01610527652411758,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.26666665899342507,
+          "Left": {
+            "minimumSignedGapM": 0.08706716725238027,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.021385153075658362,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.28333332518051413,
+          "Left": {
+            "minimumSignedGapM": 0.08131073910517368,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.02736439830868033,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.2999999913676032,
+          "Left": {
+            "minimumSignedGapM": 0.07550462079243055,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.030480463333030162,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.31666665755469225,
+          "Left": {
+            "minimumSignedGapM": 0.07004503777714947,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.03183069112512162,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.3333333237417813,
+          "Left": {
+            "minimumSignedGapM": 0.0662556118242397,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.03504257018728895,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.3499999899288704,
+          "Left": {
+            "minimumSignedGapM": 0.06715177516403968,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.03689753810964481,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.36666665611595944,
+          "Left": {
+            "minimumSignedGapM": 0.06766296656268252,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.03957865667274527,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.3833333223030485,
+          "Left": {
+            "minimumSignedGapM": 0.06797224882566953,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.041240766554705155,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.39999998849013757,
+          "Left": {
+            "minimumSignedGapM": 0.07159901834692611,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.04352990751335046,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.41666665467722663,
+          "Left": {
+            "minimumSignedGapM": 0.07522159255086562,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.04626038103202058,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.4333333208643157,
+          "Left": {
+            "minimumSignedGapM": 0.07929810361683584,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.0537633180095142,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.44999998705140476,
+          "Left": {
+            "minimumSignedGapM": 0.08470724264095414,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.0631304902733164,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.4666666532384938,
+          "Left": {
+            "minimumSignedGapM": 0.0907451940128017,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.07380231947384959,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.4833333194255829,
+          "Left": {
+            "minimumSignedGapM": 0.09497436534235086,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.08288782387586845,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.49999998561267195,
+          "Left": {
+            "minimumSignedGapM": 0.09953302539549898,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.09242631933375284,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.516666651799761,
+          "Left": {
+            "minimumSignedGapM": 0.10279691759106219,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.09956623848936683,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.5333333179868501,
+          "Left": {
+            "minimumSignedGapM": 0.10662801705327396,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.10670824785251451,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.5499999841739391,
+          "Left": {
+            "minimumSignedGapM": 0.10853077675594146,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.11056113456390854,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.5666666503610283,
+          "Left": {
+            "minimumSignedGapM": 0.11122975076639474,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.11427949144066551,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.5833333165481173,
+          "Left": {
+            "minimumSignedGapM": 0.1117864571026564,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.11314047265854067,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.5999999827352064,
+          "Left": {
+            "minimumSignedGapM": 0.11285997079929294,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.11194772827270641,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.6166666489222954,
+          "Left": {
+            "minimumSignedGapM": 0.11171189676983168,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.1044993509771418,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.6333333151093845,
+          "Left": {
+            "minimumSignedGapM": 0.11106646985533745,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.09706802147970402,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.6499999812964735,
+          "Left": {
+            "minimumSignedGapM": 0.1076841929815575,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.08501287126288064,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.6666666474835626,
+          "Left": {
+            "minimumSignedGapM": 0.10465235926180058,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.07373315562730895,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.6833333136706516,
+          "Left": {
+            "minimumSignedGapM": 0.09735089972041919,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.06129574036523818,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.6999999798577408,
+          "Left": {
+            "minimumSignedGapM": 0.0901657845300117,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.05063982826108241,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.7166666460448298,
+          "Left": {
+            "minimumSignedGapM": 0.07796594416976274,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.04318123877929463,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.7333333122319189,
+          "Left": {
+            "minimumSignedGapM": 0.06579170253413183,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.03826240649870052,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.7499999784190079,
+          "Left": {
+            "minimumSignedGapM": 0.05290349019276342,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.03407422447063481,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.766666644606097,
+          "Left": {
+            "minimumSignedGapM": 0.04183912971335213,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.029989019212446212,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.783333310793186,
+          "Left": {
+            "minimumSignedGapM": 0.031321019829597126,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.026868773600026177,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.7999999769802751,
+          "Left": {
+            "minimumSignedGapM": 0.02656692792361693,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.02279625265449061,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.8166666431673641,
+          "Left": {
+            "minimumSignedGapM": 0.02492909206861577,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.022836913270260814,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.8333333093544533,
+          "Left": {
+            "minimumSignedGapM": 0.026411400901175632,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.021938927986893814,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.8499999755415423,
+          "Left": {
+            "minimumSignedGapM": 0.03509144475422352,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.022939322595719396,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.8666666417286314,
+          "Left": {
+            "minimumSignedGapM": 0.05201392562205335,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.02838262508570774,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.8833333079157204,
+          "Left": {
+            "minimumSignedGapM": 0.07215304990011803,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.03393686224775738,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.8999999741028095,
+          "Left": {
+            "minimumSignedGapM": 0.09414203630500284,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.03457204575437596,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.9166666402898985,
+          "Left": {
+            "minimumSignedGapM": 0.10509901331315818,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.036294405605260184,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.9333333064769876,
+          "Left": {
+            "minimumSignedGapM": 0.11979783399132271,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.037487508340947995,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.9499999726640767,
+          "Left": {
+            "minimumSignedGapM": 0.12203854301748186,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.03779530250439156,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.9666666388511658,
+          "Left": {
+            "minimumSignedGapM": 0.12428017899664855,
+            "insideSamples": 0,
+            "samples": 2811,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.03807201649820031,
+            "insideSamples": 0,
+            "samples": 2805,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        }
+      ]
+    },
+    "shooting": {
+      "qsz92": {
+        "baseMotion": "PistolAimingIdle",
+        "basePitchDegrees": 6.568148612371215,
+        "endpointErrors": [
+          0.000004748796671338873,
+          0.000004748796671338873,
+          0.000004748796671338873
+        ],
+        "maxLeftContactErrorM": 0.0014754447956624097,
+        "maxRightContactErrorM": 5.594315114139762e-17,
+        "maxWeaponStepDegrees120Hz": 1.614037799501057,
+        "switchDrift": 0,
+        "frames": [
+          {
+            "time": 0,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.008333333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.016666666666666666,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.025,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.03333333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.041666666666666664,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.05,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.058333333333333334,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.06666666666666667,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.075,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.08333333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.09166666666666666,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.1,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.10833333333333334,
+            "barrelPitchDegrees": 7.05184991037973,
+            "handRiseM": {
+              "Left": 0.00213815221300262,
+              "Right": 0.002354437502535056
+            }
+          },
+          {
+            "time": 0.11666666666666667,
+            "barrelPitchDegrees": 7.535044884180816,
+            "handRiseM": {
+              "Left": 0.0042752457894972284,
+              "Right": 0.00470333867706918
+            }
+          },
+          {
+            "time": 0.125,
+            "barrelPitchDegrees": 8.670773349092524,
+            "handRiseM": {
+              "Left": 0.009301186915445347,
+              "Right": 0.01021016333348057
+            }
+          },
+          {
+            "time": 0.13333333333333333,
+            "barrelPitchDegrees": 9.803332759522744,
+            "handRiseM": {
+              "Left": 0.014316339222489427,
+              "Right": 0.01568085120387641
+            }
+          },
+          {
+            "time": 0.14166666666666666,
+            "barrelPitchDegrees": 11.11773517173575,
+            "handRiseM": {
+              "Left": 0.02013971646181556,
+              "Right": 0.02200233559830056
+            }
+          },
+          {
+            "time": 0.15,
+            "barrelPitchDegrees": 12.427086189380807,
+            "handRiseM": {
+              "Left": 0.02594274709839217,
+              "Right": 0.0282683288517096
+            }
+          },
+          {
+            "time": 0.15833333333333333,
+            "barrelPitchDegrees": 13.455322471827698,
+            "handRiseM": {
+              "Left": 0.03050054550767367,
+              "Right": 0.03316603778559024
+            }
+          },
+          {
+            "time": 0.16666666666666666,
+            "barrelPitchDegrees": 14.479933597111923,
+            "handRiseM": {
+              "Left": 0.03504231862855356,
+              "Right": 0.038025475333539616
+            }
+          },
+          {
+            "time": 0.175,
+            "barrelPitchDegrees": 14.79173608751446,
+            "handRiseM": {
+              "Left": 0.036424367702325045,
+              "Right": 0.039499977189247915
+            }
+          },
+          {
+            "time": 0.18333333333333332,
+            "barrelPitchDegrees": 15.10317307141542,
+            "handRiseM": {
+              "Left": 0.03780474910354292,
+              "Right": 0.04097071672815522
+            }
+          },
+          {
+            "time": 0.19166666666666668,
+            "barrelPitchDegrees": 15.081580684227736,
+            "handRiseM": {
+              "Left": 0.03770904327332936,
+              "Right": 0.04086881523826924
+            }
+          },
+          {
+            "time": 0.2,
+            "barrelPitchDegrees": 15.059985891679169,
+            "handRiseM": {
+              "Left": 0.03761332428783404,
+              "Right": 0.040766890737752526
+            }
+          },
+          {
+            "time": 0.20833333333333334,
+            "barrelPitchDegrees": 15.009317946521598,
+            "handRiseM": {
+              "Left": 0.03738875220906279,
+              "Right": 0.04052770717790488
+            }
+          },
+          {
+            "time": 0.21666666666666667,
+            "barrelPitchDegrees": 14.958639947758082,
+            "handRiseM": {
+              "Left": 0.037164126285123,
+              "Right": 0.04028842101043506
+            }
+          },
+          {
+            "time": 0.225,
+            "barrelPitchDegrees": 14.881120306857241,
+            "handRiseM": {
+              "Left": 0.03682054109954791,
+              "Right": 0.03992229512487944
+            }
+          },
+          {
+            "time": 0.23333333333333334,
+            "barrelPitchDegrees": 14.803578448756436,
+            "handRiseM": {
+              "Left": 0.0364768507265858,
+              "Right": 0.03955593930464163
+            }
+          },
+          {
+            "time": 0.24166666666666667,
+            "barrelPitchDegrees": 14.70141870035588,
+            "handRiseM": {
+              "Left": 0.03602403701452017,
+              "Right": 0.039073076787591976
+            }
+          },
+          {
+            "time": 0.25,
+            "barrelPitchDegrees": 14.599220524790667,
+            "handRiseM": {
+              "Left": 0.035571043017552206,
+              "Right": 0.03858981508184112
+            }
+          },
+          {
+            "time": 0.25833333333333336,
+            "barrelPitchDegrees": 14.47462681784231,
+            "handRiseM": {
+              "Left": 0.03501879147665998,
+              "Right": 0.03800036065522705
+            }
+          },
+          {
+            "time": 0.26666666666666666,
+            "barrelPitchDegrees": 14.349975901275288,
+            "handRiseM": {
+              "Left": 0.034466278355719915,
+              "Right": 0.03741031262095018
+            }
+          },
+          {
+            "time": 0.275,
+            "barrelPitchDegrees": 14.205149683626466,
+            "handRiseM": {
+              "Left": 0.03382431359685456,
+              "Right": 0.036724356713079054
+            }
+          },
+          {
+            "time": 0.2833333333333333,
+            "barrelPitchDegrees": 14.0602471359977,
+            "handRiseM": {
+              "Left": 0.03318200499221646,
+              "Right": 0.0360376075483233
+            }
+          },
+          {
+            "time": 0.2916666666666667,
+            "barrelPitchDegrees": 13.897391717727947,
+            "handRiseM": {
+              "Left": 0.03246011738210308,
+              "Right": 0.03526526171836264
+            }
+          },
+          {
+            "time": 0.3,
+            "barrelPitchDegrees": 13.734442621083907,
+            "handRiseM": {
+              "Left": 0.03173781329690217,
+              "Right": 0.0344919329611435
+            }
+          },
+          {
+            "time": 0.30833333333333335,
+            "barrelPitchDegrees": 13.555766798397539,
+            "handRiseM": {
+              "Left": 0.030945784537748544,
+              "Right": 0.03364335232937443
+            }
+          },
+          {
+            "time": 0.31666666666666665,
+            "barrelPitchDegrees": 13.37698115727536,
+            "handRiseM": {
+              "Left": 0.030153274612237713,
+              "Right": 0.032793611548278756
+            }
+          },
+          {
+            "time": 0.325,
+            "barrelPitchDegrees": 13.18470147778001,
+            "handRiseM": {
+              "Left": 0.02930095174599545,
+              "Right": 0.03187902198118553
+            }
+          },
+          {
+            "time": 0.3333333333333333,
+            "barrelPitchDegrees": 12.992297366456157,
+            "handRiseM": {
+              "Left": 0.02844808485092054,
+              "Right": 0.030963109241060716
+            }
+          },
+          {
+            "time": 0.3416666666666667,
+            "barrelPitchDegrees": 12.788636655025991,
+            "handRiseM": {
+              "Left": 0.027545324755411382,
+              "Right": 0.029992820215542615
+            }
+          },
+          {
+            "time": 0.35,
+            "barrelPitchDegrees": 12.584839546889853,
+            "handRiseM": {
+              "Left": 0.026641971484911542,
+              "Right": 0.029021072171440343
+            }
+          },
+          {
+            "time": 0.35833333333333334,
+            "barrelPitchDegrees": 12.37203821939298,
+            "handRiseM": {
+              "Left": 0.02569874259740823,
+              "Right": 0.02800553751525081
+            }
+          },
+          {
+            "time": 0.36666666666666664,
+            "barrelPitchDegrees": 12.159091762272828,
+            "handRiseM": {
+              "Left": 0.024754891812503343,
+              "Right": 0.026988442253463862
+            }
+          },
+          {
+            "time": 0.375,
+            "barrelPitchDegrees": 11.939394951091561,
+            "handRiseM": {
+              "Left": 0.02378113918856961,
+              "Right": 0.025938196618366938
+            }
+          },
+          {
+            "time": 0.38333333333333336,
+            "barrelPitchDegrees": 11.719547909752519,
+            "handRiseM": {
+              "Left": 0.022806758591794818,
+              "Right": 0.024886322597423627
+            }
+          },
+          {
+            "time": 0.39166666666666666,
+            "barrelPitchDegrees": 11.495221716489297,
+            "handRiseM": {
+              "Left": 0.021812576666102812,
+              "Right": 0.023812097789858377
+            }
+          },
+          {
+            "time": 0.4,
+            "barrelPitchDegrees": 11.270743381631238,
+            "handRiseM": {
+              "Left": 0.020817766338075527,
+              "Right": 0.022736212586367044
+            }
+          },
+          {
+            "time": 0.4083333333333333,
+            "barrelPitchDegrees": 11.044055333753393,
+            "handRiseM": {
+              "Left": 0.01981321940896219,
+              "Right": 0.02164879941042619
+            }
+          },
+          {
+            "time": 0.4166666666666667,
+            "barrelPitchDegrees": 10.81721635352451,
+            "handRiseM": {
+              "Left": 0.01880805441263056,
+              "Right": 0.020559728521009957
+            }
+          },
+          {
+            "time": 0.425,
+            "barrelPitchDegrees": 10.590469823099156,
+            "handRiseM": {
+              "Left": 0.017803388614604065,
+              "Right": 0.01947018007783763
+            }
+          },
+          {
+            "time": 0.43333333333333335,
+            "barrelPitchDegrees": 10.363577477484938,
+            "handRiseM": {
+              "Left": 0.016798144530416836,
+              "Right": 0.01837901692613575
+            }
+          },
+          {
+            "time": 0.44166666666666665,
+            "barrelPitchDegrees": 10.139053438524073,
+            "handRiseM": {
+              "Left": 0.01580346930564791,
+              "Right": 0.017298350437259913
+            }
+          },
+          {
+            "time": 0.45,
+            "barrelPitchDegrees": 9.914391528298724,
+            "handRiseM": {
+              "Left": 0.014808271494946013,
+              "Right": 0.016216144104031383
+            }
+          },
+          {
+            "time": 0.4583333333333333,
+            "barrelPitchDegrees": 9.694407768873683,
+            "handRiseM": {
+              "Left": 0.013833888204101363,
+              "Right": 0.015155639829333545
+            }
+          },
+          {
+            "time": 0.4666666666666667,
+            "barrelPitchDegrees": 9.474295377193185,
+            "handRiseM": {
+              "Left": 0.012859029157505253,
+              "Right": 0.014093690216445687
+            }
+          },
+          {
+            "time": 0.475,
+            "barrelPitchDegrees": 9.261172309065982,
+            "handRiseM": {
+              "Left": 0.0119152211837521,
+              "Right": 0.01306468205615241
+            }
+          },
+          {
+            "time": 0.48333333333333334,
+            "barrelPitchDegrees": 9.047932106156471,
+            "handRiseM": {
+              "Left": 0.010970989294126321,
+              "Right": 0.01203435131153996
+            }
+          },
+          {
+            "time": 0.49166666666666664,
+            "barrelPitchDegrees": 8.843996454938472,
+            "handRiseM": {
+              "Left": 0.010068062367404096,
+              "Right": 0.011048273796539831
+            }
+          },
+          {
+            "time": 0.5,
+            "barrelPitchDegrees": 8.639957315501277,
+            "handRiseM": {
+              "Left": 0.009164781349458861,
+              "Right": 0.010061018181251713
+            }
+          },
+          {
+            "time": 0.5083333333333333,
+            "barrelPitchDegrees": 8.447543394770674,
+            "handRiseM": {
+              "Left": 0.008313046146532832,
+              "Right": 0.009129393332221403
+            }
+          },
+          {
+            "time": 0.5166666666666667,
+            "barrelPitchDegrees": 8.255039894532384,
+            "handRiseM": {
+              "Left": 0.0074610186655355015,
+              "Right": 0.00819674162596562
+            }
+          },
+          {
+            "time": 0.525,
+            "barrelPitchDegrees": 8.076492496298744,
+            "handRiseM": {
+              "Left": 0.006670855983641921,
+              "Right": 0.007331188184516613
+            }
+          },
+          {
+            "time": 0.5333333333333333,
+            "barrelPitchDegrees": 7.897869656810478,
+            "handRiseM": {
+              "Left": 0.005880451049022017,
+              "Right": 0.006464768653027253
+            }
+          },
+          {
+            "time": 0.5416666666666666,
+            "barrelPitchDegrees": 7.73552689931561,
+            "handRiseM": {
+              "Left": 0.005162161873594195,
+              "Right": 0.0056768813327641166
+            }
+          },
+          {
+            "time": 0.55,
+            "barrelPitchDegrees": 7.573123820844519,
+            "handRiseM": {
+              "Left": 0.004443683959574951,
+              "Right": 0.004888297632845928
+            }
+          },
+          {
+            "time": 0.5583333333333333,
+            "barrelPitchDegrees": 7.429335238730136,
+            "handRiseM": {
+              "Left": 0.0038076425990323237,
+              "Right": 0.004189765868074957
+            }
+          },
+          {
+            "time": 0.5666666666666667,
+            "barrelPitchDegrees": 7.285500418229096,
+            "handRiseM": {
+              "Left": 0.003171463468461644,
+              "Right": 0.0034906976128654676
+            }
+          },
+          {
+            "time": 0.575,
+            "barrelPitchDegrees": 7.162610528574509,
+            "handRiseM": {
+              "Left": 0.0026279642785651536,
+              "Right": 0.002893177368929356
+            }
+          },
+          {
+            "time": 0.5833333333333334,
+            "barrelPitchDegrees": 7.039687311011772,
+            "handRiseM": {
+              "Left": 0.0020843716669625145,
+              "Right": 0.0022952690774862283
+            }
+          },
+          {
+            "time": 0.5916666666666667,
+            "barrelPitchDegrees": 6.940040603713009,
+            "handRiseM": {
+              "Left": 0.001643754194020186,
+              "Right": 0.0018104197535306898
+            }
+          },
+          {
+            "time": 0.6,
+            "barrelPitchDegrees": 6.840372507069655,
+            "handRiseM": {
+              "Left": 0.0012030779043263884,
+              "Right": 0.0013253205782992605
+            }
+          },
+          {
+            "time": 0.6083333333333333,
+            "barrelPitchDegrees": 6.766308987802902,
+            "handRiseM": {
+              "Left": 0.0008756313365179125,
+              "Right": 0.0009647442050078059
+            }
+          },
+          {
+            "time": 0.6166666666666667,
+            "barrelPitchDegrees": 6.692233882542929,
+            "handRiseM": {
+              "Left": 0.000548150540432113,
+              "Right": 0.000604031656331605
+            }
+          },
+          {
+            "time": 0.625,
+            "barrelPitchDegrees": 6.6460899072845105,
+            "handRiseM": {
+              "Left": 0.00034416847750984303,
+              "Right": 0.0003792931197885707
+            }
+          },
+          {
+            "time": 0.6333333333333333,
+            "barrelPitchDegrees": 6.599941012616987,
+            "handRiseM": {
+              "Left": 0.00014016913867487268,
+              "Right": 0.00015449789619537135
+            }
+          },
+          {
+            "time": 0.6416666666666667,
+            "barrelPitchDegrees": 6.584043950633065,
+            "handRiseM": {
+              "Left": 0.00006989622633968295,
+              "Right": 0.00007705308074101858
+            }
+          },
+          {
+            "time": 0.65,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.812905067235306e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.6583333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.6666666666666666,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.675,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.6833333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.6916666666666667,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.7,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.7083333333333334,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.7166666666666667,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.812905067235306e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.725,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.7333333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.7416666666666667,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.75,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.7583333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.7666666666666667,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.775,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.7833333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.7916666666666666,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.8,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.8083333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.8166666666666667,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.825,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.8333333333333334,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.8416666666666667,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.85,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.8583333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.8666666666666667,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.875,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.8833333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.8916666666666667,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.9,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.812905067235306e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.9083333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.9166666666666666,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.925,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.9333333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.9416666666666667,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.95,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.9583333333333334,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.9666666666666667,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.812905067235306e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.975,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.9833333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.9916666666666667,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.0083333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.0166666666666666,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.025,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.0333333333333334,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.0416666666666667,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.05,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.0583333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.0666666666666667,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.075,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.0833333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.0916666666666666,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.1,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.1083333333333334,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.1166666666666667,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.125,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.1333333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.1416666666666666,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.15,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.1583333333333334,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.1666666666666667,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          }
+        ]
+      },
+      "type54": {
+        "baseMotion": "PistolAimingIdle",
+        "basePitchDegrees": 6.568148612371215,
+        "endpointErrors": [
+          0.000004748796671338873,
+          0.000004748796671338873,
+          0.000004748796671338873
+        ],
+        "maxLeftContactErrorM": 0.0014754447956625,
+        "maxRightContactErrorM": 2.220717083251841e-16,
+        "maxWeaponStepDegrees120Hz": 1.614037799501057,
+        "switchDrift": 0,
+        "frames": [
+          {
+            "time": 0,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.008333333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.016666666666666666,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.025,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.03333333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.041666666666666664,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.05,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.058333333333333334,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.06666666666666667,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.075,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.08333333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.09166666666666666,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.1,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.10833333333333334,
+            "barrelPitchDegrees": 7.05184991037973,
+            "handRiseM": {
+              "Left": 0.00213815221300262,
+              "Right": 0.002354437502535056
+            }
+          },
+          {
+            "time": 0.11666666666666667,
+            "barrelPitchDegrees": 7.535044884180816,
+            "handRiseM": {
+              "Left": 0.0042752457894974505,
+              "Right": 0.00470333867706918
+            }
+          },
+          {
+            "time": 0.125,
+            "barrelPitchDegrees": 8.670773349092524,
+            "handRiseM": {
+              "Left": 0.009301186915445125,
+              "Right": 0.01021016333348057
+            }
+          },
+          {
+            "time": 0.13333333333333333,
+            "barrelPitchDegrees": 9.803332759522744,
+            "handRiseM": {
+              "Left": 0.014316339222489649,
+              "Right": 0.01568085120387641
+            }
+          },
+          {
+            "time": 0.14166666666666666,
+            "barrelPitchDegrees": 11.11773517173575,
+            "handRiseM": {
+              "Left": 0.02013971646181556,
+              "Right": 0.02200233559830056
+            }
+          },
+          {
+            "time": 0.15,
+            "barrelPitchDegrees": 12.427086189380807,
+            "handRiseM": {
+              "Left": 0.02594274709839217,
+              "Right": 0.0282683288517096
+            }
+          },
+          {
+            "time": 0.15833333333333333,
+            "barrelPitchDegrees": 13.455322471827698,
+            "handRiseM": {
+              "Left": 0.03050054550767367,
+              "Right": 0.03316603778559024
+            }
+          },
+          {
+            "time": 0.16666666666666666,
+            "barrelPitchDegrees": 14.479933597111923,
+            "handRiseM": {
+              "Left": 0.03504231862855356,
+              "Right": 0.038025475333539616
+            }
+          },
+          {
+            "time": 0.175,
+            "barrelPitchDegrees": 14.79173608751446,
+            "handRiseM": {
+              "Left": 0.036424367702325045,
+              "Right": 0.039499977189247915
+            }
+          },
+          {
+            "time": 0.18333333333333332,
+            "barrelPitchDegrees": 15.10317307141542,
+            "handRiseM": {
+              "Left": 0.03780474910354292,
+              "Right": 0.04097071672815522
+            }
+          },
+          {
+            "time": 0.19166666666666668,
+            "barrelPitchDegrees": 15.081580684227736,
+            "handRiseM": {
+              "Left": 0.03770904327332936,
+              "Right": 0.04086881523826924
+            }
+          },
+          {
+            "time": 0.2,
+            "barrelPitchDegrees": 15.059985891679169,
+            "handRiseM": {
+              "Left": 0.03761332428783404,
+              "Right": 0.040766890737752526
+            }
+          },
+          {
+            "time": 0.20833333333333334,
+            "barrelPitchDegrees": 15.009317946521598,
+            "handRiseM": {
+              "Left": 0.03738875220906257,
+              "Right": 0.04052770717790488
+            }
+          },
+          {
+            "time": 0.21666666666666667,
+            "barrelPitchDegrees": 14.958639947758082,
+            "handRiseM": {
+              "Left": 0.037164126285123,
+              "Right": 0.04028842101043506
+            }
+          },
+          {
+            "time": 0.225,
+            "barrelPitchDegrees": 14.881120306857241,
+            "handRiseM": {
+              "Left": 0.03682054109954791,
+              "Right": 0.03992229512487944
+            }
+          },
+          {
+            "time": 0.23333333333333334,
+            "barrelPitchDegrees": 14.803578448756436,
+            "handRiseM": {
+              "Left": 0.03647685072658602,
+              "Right": 0.03955593930464163
+            }
+          },
+          {
+            "time": 0.24166666666666667,
+            "barrelPitchDegrees": 14.70141870035588,
+            "handRiseM": {
+              "Left": 0.03602403701452017,
+              "Right": 0.039073076787591976
+            }
+          },
+          {
+            "time": 0.25,
+            "barrelPitchDegrees": 14.599220524790667,
+            "handRiseM": {
+              "Left": 0.035571043017551984,
+              "Right": 0.03858981508184112
+            }
+          },
+          {
+            "time": 0.25833333333333336,
+            "barrelPitchDegrees": 14.47462681784231,
+            "handRiseM": {
+              "Left": 0.03501879147665998,
+              "Right": 0.03800036065522705
+            }
+          },
+          {
+            "time": 0.26666666666666666,
+            "barrelPitchDegrees": 14.349975901275288,
+            "handRiseM": {
+              "Left": 0.034466278355719915,
+              "Right": 0.03741031262095018
+            }
+          },
+          {
+            "time": 0.275,
+            "barrelPitchDegrees": 14.205149683626466,
+            "handRiseM": {
+              "Left": 0.03382431359685456,
+              "Right": 0.036724356713079054
+            }
+          },
+          {
+            "time": 0.2833333333333333,
+            "barrelPitchDegrees": 14.0602471359977,
+            "handRiseM": {
+              "Left": 0.03318200499221646,
+              "Right": 0.0360376075483233
+            }
+          },
+          {
+            "time": 0.2916666666666667,
+            "barrelPitchDegrees": 13.897391717727947,
+            "handRiseM": {
+              "Left": 0.03246011738210286,
+              "Right": 0.03526526171836264
+            }
+          },
+          {
+            "time": 0.3,
+            "barrelPitchDegrees": 13.734442621083907,
+            "handRiseM": {
+              "Left": 0.03173781329690217,
+              "Right": 0.0344919329611435
+            }
+          },
+          {
+            "time": 0.30833333333333335,
+            "barrelPitchDegrees": 13.555766798397539,
+            "handRiseM": {
+              "Left": 0.030945784537748544,
+              "Right": 0.03364335232937443
+            }
+          },
+          {
+            "time": 0.31666666666666665,
+            "barrelPitchDegrees": 13.37698115727536,
+            "handRiseM": {
+              "Left": 0.030153274612237713,
+              "Right": 0.032793611548278756
+            }
+          },
+          {
+            "time": 0.325,
+            "barrelPitchDegrees": 13.18470147778001,
+            "handRiseM": {
+              "Left": 0.02930095174599545,
+              "Right": 0.03187902198118553
+            }
+          },
+          {
+            "time": 0.3333333333333333,
+            "barrelPitchDegrees": 12.992297366456157,
+            "handRiseM": {
+              "Left": 0.02844808485092054,
+              "Right": 0.030963109241060716
+            }
+          },
+          {
+            "time": 0.3416666666666667,
+            "barrelPitchDegrees": 12.788636655025991,
+            "handRiseM": {
+              "Left": 0.027545324755411382,
+              "Right": 0.029992820215542615
+            }
+          },
+          {
+            "time": 0.35,
+            "barrelPitchDegrees": 12.584839546889853,
+            "handRiseM": {
+              "Left": 0.026641971484911542,
+              "Right": 0.029021072171440343
+            }
+          },
+          {
+            "time": 0.35833333333333334,
+            "barrelPitchDegrees": 12.37203821939298,
+            "handRiseM": {
+              "Left": 0.02569874259740823,
+              "Right": 0.02800553751525081
+            }
+          },
+          {
+            "time": 0.36666666666666664,
+            "barrelPitchDegrees": 12.159091762272828,
+            "handRiseM": {
+              "Left": 0.024754891812503343,
+              "Right": 0.026988442253463862
+            }
+          },
+          {
+            "time": 0.375,
+            "barrelPitchDegrees": 11.939394951091561,
+            "handRiseM": {
+              "Left": 0.023781139188569833,
+              "Right": 0.025938196618366938
+            }
+          },
+          {
+            "time": 0.38333333333333336,
+            "barrelPitchDegrees": 11.719547909752519,
+            "handRiseM": {
+              "Left": 0.022806758591794596,
+              "Right": 0.024886322597423627
+            }
+          },
+          {
+            "time": 0.39166666666666666,
+            "barrelPitchDegrees": 11.495221716489297,
+            "handRiseM": {
+              "Left": 0.021812576666102812,
+              "Right": 0.023812097789858377
+            }
+          },
+          {
+            "time": 0.4,
+            "barrelPitchDegrees": 11.270743381631238,
+            "handRiseM": {
+              "Left": 0.02081776633807597,
+              "Right": 0.022736212586367044
+            }
+          },
+          {
+            "time": 0.4083333333333333,
+            "barrelPitchDegrees": 11.044055333753393,
+            "handRiseM": {
+              "Left": 0.01981321940896219,
+              "Right": 0.02164879941042619
+            }
+          },
+          {
+            "time": 0.4166666666666667,
+            "barrelPitchDegrees": 10.81721635352451,
+            "handRiseM": {
+              "Left": 0.01880805441263056,
+              "Right": 0.020559728521009957
+            }
+          },
+          {
+            "time": 0.425,
+            "barrelPitchDegrees": 10.590469823099156,
+            "handRiseM": {
+              "Left": 0.017803388614604065,
+              "Right": 0.01947018007783763
+            }
+          },
+          {
+            "time": 0.43333333333333335,
+            "barrelPitchDegrees": 10.363577477484938,
+            "handRiseM": {
+              "Left": 0.016798144530416836,
+              "Right": 0.01837901692613575
+            }
+          },
+          {
+            "time": 0.44166666666666665,
+            "barrelPitchDegrees": 10.139053438524073,
+            "handRiseM": {
+              "Left": 0.015803469305647466,
+              "Right": 0.017298350437259913
+            }
+          },
+          {
+            "time": 0.45,
+            "barrelPitchDegrees": 9.914391528298724,
+            "handRiseM": {
+              "Left": 0.014808271494946013,
+              "Right": 0.016216144104031383
+            }
+          },
+          {
+            "time": 0.4583333333333333,
+            "barrelPitchDegrees": 9.694407768873683,
+            "handRiseM": {
+              "Left": 0.013833888204101363,
+              "Right": 0.015155639829333545
+            }
+          },
+          {
+            "time": 0.4666666666666667,
+            "barrelPitchDegrees": 9.474295377193185,
+            "handRiseM": {
+              "Left": 0.012859029157505475,
+              "Right": 0.014093690216445687
+            }
+          },
+          {
+            "time": 0.475,
+            "barrelPitchDegrees": 9.261172309065982,
+            "handRiseM": {
+              "Left": 0.0119152211837521,
+              "Right": 0.01306468205615241
+            }
+          },
+          {
+            "time": 0.48333333333333334,
+            "barrelPitchDegrees": 9.047932106156471,
+            "handRiseM": {
+              "Left": 0.010970989294126321,
+              "Right": 0.01203435131153996
+            }
+          },
+          {
+            "time": 0.49166666666666664,
+            "barrelPitchDegrees": 8.843996454938472,
+            "handRiseM": {
+              "Left": 0.010068062367404318,
+              "Right": 0.011048273796539831
+            }
+          },
+          {
+            "time": 0.5,
+            "barrelPitchDegrees": 8.639957315501277,
+            "handRiseM": {
+              "Left": 0.009164781349458861,
+              "Right": 0.010061018181251713
+            }
+          },
+          {
+            "time": 0.5083333333333333,
+            "barrelPitchDegrees": 8.447543394770674,
+            "handRiseM": {
+              "Left": 0.00831304614653261,
+              "Right": 0.009129393332221403
+            }
+          },
+          {
+            "time": 0.5166666666666667,
+            "barrelPitchDegrees": 8.255039894532384,
+            "handRiseM": {
+              "Left": 0.007461018665535724,
+              "Right": 0.00819674162596562
+            }
+          },
+          {
+            "time": 0.525,
+            "barrelPitchDegrees": 8.076492496298744,
+            "handRiseM": {
+              "Left": 0.006670855983642365,
+              "Right": 0.007331188184516613
+            }
+          },
+          {
+            "time": 0.5333333333333333,
+            "barrelPitchDegrees": 7.897869656810478,
+            "handRiseM": {
+              "Left": 0.005880451049021573,
+              "Right": 0.006464768653027253
+            }
+          },
+          {
+            "time": 0.5416666666666666,
+            "barrelPitchDegrees": 7.73552689931561,
+            "handRiseM": {
+              "Left": 0.005162161873594195,
+              "Right": 0.0056768813327641166
+            }
+          },
+          {
+            "time": 0.55,
+            "barrelPitchDegrees": 7.573123820844519,
+            "handRiseM": {
+              "Left": 0.004443683959574951,
+              "Right": 0.004888297632845928
+            }
+          },
+          {
+            "time": 0.5583333333333333,
+            "barrelPitchDegrees": 7.429335238730136,
+            "handRiseM": {
+              "Left": 0.0038076425990325458,
+              "Right": 0.004189765868074957
+            }
+          },
+          {
+            "time": 0.5666666666666667,
+            "barrelPitchDegrees": 7.285500418229096,
+            "handRiseM": {
+              "Left": 0.003171463468461644,
+              "Right": 0.0034906976128654676
+            }
+          },
+          {
+            "time": 0.575,
+            "barrelPitchDegrees": 7.162610528574509,
+            "handRiseM": {
+              "Left": 0.0026279642785651536,
+              "Right": 0.002893177368929356
+            }
+          },
+          {
+            "time": 0.5833333333333334,
+            "barrelPitchDegrees": 7.039687311011772,
+            "handRiseM": {
+              "Left": 0.0020843716669625145,
+              "Right": 0.0022952690774862283
+            }
+          },
+          {
+            "time": 0.5916666666666667,
+            "barrelPitchDegrees": 6.940040603713009,
+            "handRiseM": {
+              "Left": 0.001643754194020186,
+              "Right": 0.0018104197535306898
+            }
+          },
+          {
+            "time": 0.6,
+            "barrelPitchDegrees": 6.840372507069655,
+            "handRiseM": {
+              "Left": 0.0012030779043263884,
+              "Right": 0.0013253205782992605
+            }
+          },
+          {
+            "time": 0.6083333333333333,
+            "barrelPitchDegrees": 6.766308987802902,
+            "handRiseM": {
+              "Left": 0.0008756313365179125,
+              "Right": 0.0009647442050078059
+            }
+          },
+          {
+            "time": 0.6166666666666667,
+            "barrelPitchDegrees": 6.692233882542929,
+            "handRiseM": {
+              "Left": 0.0005481505404318909,
+              "Right": 0.000604031656331605
+            }
+          },
+          {
+            "time": 0.625,
+            "barrelPitchDegrees": 6.6460899072845105,
+            "handRiseM": {
+              "Left": 0.0003441684775100651,
+              "Right": 0.0003792931197885707
+            }
+          },
+          {
+            "time": 0.6333333333333333,
+            "barrelPitchDegrees": 6.599941012616987,
+            "handRiseM": {
+              "Left": 0.00014016913867487268,
+              "Right": 0.00015449789619537135
+            }
+          },
+          {
+            "time": 0.6416666666666667,
+            "barrelPitchDegrees": 6.584043950633065,
+            "handRiseM": {
+              "Left": 0.00006989622633968295,
+              "Right": 0.00007705308074101858
+            }
+          },
+          {
+            "time": 0.65,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.812905067235306e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.6583333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.6666666666666666,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.675,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.6833333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.6916666666666667,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.7,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.7083333333333334,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.7166666666666667,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.812905067235306e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.725,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.7333333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.7416666666666667,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.75,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.7583333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.7666666666666667,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.775,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.7833333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.7916666666666666,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.8,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.8083333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.8166666666666667,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.825,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.8333333333333334,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.8416666666666667,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.85,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.8583333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.8666666666666667,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.875,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.8833333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.8916666666666667,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.9,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.812905067235306e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.9083333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.9166666666666666,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.925,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.9333333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.9416666666666667,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.95,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.9583333333333334,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.9666666666666667,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.812905067235306e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.975,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.9833333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 0.9916666666666667,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.0083333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.0166666666666666,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.025,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.0333333333333334,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.0416666666666667,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.05,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.0583333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.0666666666666667,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.075,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.0833333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.0916666666666666,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.1,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.1083333333333334,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.1166666666666667,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.125,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.1333333333333333,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.1416666666666666,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.15,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.1583333333333334,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          },
+          {
+            "time": 1.1666666666666667,
+            "barrelPitchDegrees": 6.568145933735256,
+            "handRiseM": {
+              "Left": -3.81290506501486e-7,
+              "Right": -4.002939315572718e-7
+            }
+          }
+        ]
+      }
+    }
+  },
+  "zhigeng": {
+    "retainedTracks": 460,
+    "walking": {
+      "samples": 59,
+      "loopSeam": 0,
+      "frames": [
+        {
+          "time": 0,
+          "Left": {
+            "minimumSignedGapM": 0.09217715690901952,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.04744248707817569,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.016666666187089067,
+          "Left": {
+            "minimumSignedGapM": 0.10042559975809186,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.04660683176132455,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.03333333237417813,
+          "Left": {
+            "minimumSignedGapM": 0.10900389016022438,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.04632345321763267,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.049999998561267196,
+          "Left": {
+            "minimumSignedGapM": 0.11607493024201603,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.045426201150625366,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.06666666474835627,
+          "Left": {
+            "minimumSignedGapM": 0.1231086511715405,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.0451294640814257,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.08333333093544533,
+          "Left": {
+            "minimumSignedGapM": 0.12525539804668054,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.04402346797313482,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.09999999712253439,
+          "Left": {
+            "minimumSignedGapM": 0.12750137443871212,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.043144022850354465,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.11666666330962346,
+          "Left": {
+            "minimumSignedGapM": 0.12571931559732974,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.041091284952814285,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.13333332949671253,
+          "Left": {
+            "minimumSignedGapM": 0.12387676049231666,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.03908957602067863,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.1499999956838016,
+          "Left": {
+            "minimumSignedGapM": 0.11755499033824907,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.03665249161832127,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.16666666187089066,
+          "Left": {
+            "minimumSignedGapM": 0.11046142064423438,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.03386190691982425,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.18333332805797972,
+          "Left": {
+            "minimumSignedGapM": 0.09892955996351757,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.030231030495527562,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.19999999424506879,
+          "Left": {
+            "minimumSignedGapM": 0.08844225240940565,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.028063047943612827,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.21666666043215785,
+          "Left": {
+            "minimumSignedGapM": 0.08007286727316602,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.028301278348017964,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.2333333266192469,
+          "Left": {
+            "minimumSignedGapM": 0.07337694837061391,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.02682212215225497,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.24999999280633597,
+          "Left": {
+            "minimumSignedGapM": 0.06904735990863217,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.028340553854530038,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.26666665899342507,
+          "Left": {
+            "minimumSignedGapM": 0.06563621201507082,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.027665425142162938,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.28333332518051413,
+          "Left": {
+            "minimumSignedGapM": 0.060880402505198425,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.028188496730629196,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.2999999913676032,
+          "Left": {
+            "minimumSignedGapM": 0.057200181522932166,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.03058519211985197,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.31666665755469225,
+          "Left": {
+            "minimumSignedGapM": 0.0526019269018776,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.033031504920165766,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.3333333237417813,
+          "Left": {
+            "minimumSignedGapM": 0.052921066718244925,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.037219049635828894,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.3499999899288704,
+          "Left": {
+            "minimumSignedGapM": 0.0534842385851417,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.03649822814103828,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.36666665611595944,
+          "Left": {
+            "minimumSignedGapM": 0.0559241162875744,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.03955231862764533,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.3833333223030485,
+          "Left": {
+            "minimumSignedGapM": 0.058870708128055484,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.04711661311103699,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.39999998849013757,
+          "Left": {
+            "minimumSignedGapM": 0.06353943385551285,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.05848007154699191,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.41666665467722663,
+          "Left": {
+            "minimumSignedGapM": 0.06621774272286791,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.06660969582807934,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.4333333208643157,
+          "Left": {
+            "minimumSignedGapM": 0.07122726390656246,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.06914187936328087,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.44999998705140476,
+          "Left": {
+            "minimumSignedGapM": 0.0772824359888081,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.0745655128337756,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.4666666532384938,
+          "Left": {
+            "minimumSignedGapM": 0.08434004927780196,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.08315927508425329,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.4833333194255829,
+          "Left": {
+            "minimumSignedGapM": 0.089067626506755,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.09029514550521284,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.49999998561267195,
+          "Left": {
+            "minimumSignedGapM": 0.09385221739975681,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.09637231831388972,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.516666651799761,
+          "Left": {
+            "minimumSignedGapM": 0.09719326786328142,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.10075518220133942,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.5333333179868501,
+          "Left": {
+            "minimumSignedGapM": 0.10144015756483409,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.10445100426108712,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.5499999841739391,
+          "Left": {
+            "minimumSignedGapM": 0.1034817667797976,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.10599024518528742,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.5666666503610283,
+          "Left": {
+            "minimumSignedGapM": 0.1064691808599509,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.10706592753096238,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.5833333165481173,
+          "Left": {
+            "minimumSignedGapM": 0.1074452599034673,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.10502770996031854,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.5999999827352064,
+          "Left": {
+            "minimumSignedGapM": 0.1090314478342379,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.10311835691803384,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.6166666489222954,
+          "Left": {
+            "minimumSignedGapM": 0.10847287292473967,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.09733438454756604,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.6333333151093845,
+          "Left": {
+            "minimumSignedGapM": 0.10835025310264704,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.09173036114519172,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.6499999812964735,
+          "Left": {
+            "minimumSignedGapM": 0.10569783276852314,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.08306042372492038,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.6666666474835626,
+          "Left": {
+            "minimumSignedGapM": 0.10331895569097457,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.07401896382226301,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.6833333136706516,
+          "Left": {
+            "minimumSignedGapM": 0.09688110824692334,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.0645984000973009,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.6999999798577408,
+          "Left": {
+            "minimumSignedGapM": 0.09059872650949743,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.0577610870833296,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.7166666460448298,
+          "Left": {
+            "minimumSignedGapM": 0.0797300867056792,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.054574627326734536,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.7333333122319189,
+          "Left": {
+            "minimumSignedGapM": 0.06925693840780603,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.05434596091658047,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.7499999784190079,
+          "Left": {
+            "minimumSignedGapM": 0.05573887398315406,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.04464366475897943,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.766666644606097,
+          "Left": {
+            "minimumSignedGapM": 0.04523297722825167,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.03191963946591084,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.783333310793186,
+          "Left": {
+            "minimumSignedGapM": 0.03776393013679352,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.02384825989969059,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.7999999769802751,
+          "Left": {
+            "minimumSignedGapM": 0.030679094864172692,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.02106791589421017,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.8166666431673641,
+          "Left": {
+            "minimumSignedGapM": 0.02478254198324895,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.023811014106038805,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.8333333093544533,
+          "Left": {
+            "minimumSignedGapM": 0.025114939434979475,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.028717120637438198,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.8499999755415423,
+          "Left": {
+            "minimumSignedGapM": 0.025829577528145072,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.031389981363575646,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.8666666417286314,
+          "Left": {
+            "minimumSignedGapM": 0.03433547412029687,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.034541586036931554,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.8833333079157204,
+          "Left": {
+            "minimumSignedGapM": 0.051806427230607625,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.03707009209164355,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.8999999741028095,
+          "Left": {
+            "minimumSignedGapM": 0.06899029583372042,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.042175531125571354,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.9166666402898985,
+          "Left": {
+            "minimumSignedGapM": 0.07871934373612154,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.04456685748049236,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.9333333064769876,
+          "Left": {
+            "minimumSignedGapM": 0.08895606918452556,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.04683622412396162,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        },
+        {
+          "time": 0.9499999726640767,
+          "Left": {
+            "minimumSignedGapM": 0.09055838603739504,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.04712540289046217,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0
+          }
+        },
+        {
+          "time": 0.9666666388511658,
+          "Left": {
+            "minimumSignedGapM": 0.09217715690901952,
+            "insideSamples": 0,
+            "samples": 2092,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          },
+          "Right": {
+            "minimumSignedGapM": 0.04744248707817569,
+            "insideSamples": 0,
+            "samples": 2088,
+            "deepestM": 0,
+            "triangleIntersections": 0
+          }
+        }
+      ]
+    },
+    "shooting": {
+      "qsz92": {
+        "baseMotion": "PistolAimingIdle",
+        "basePitchDegrees": 6.567175587256672,
+        "endpointErrors": [
+          0.00003841271521450723,
+          0.00003841271521450723,
+          0.00003841271521450723
+        ],
+        "maxLeftContactErrorM": 0.0011269637320160024,
+        "maxRightContactErrorM": 2.220513810852149e-16,
+        "maxWeaponStepDegrees120Hz": 1.6140388579291107,
+        "switchDrift": 0,
+        "frames": [
+          {
+            "time": 0,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.008333333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.016666666666666666,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.025,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.03333333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.041666666666666664,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.05,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.058333333333333334,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.06666666666666667,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.075,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.08333333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.09166666666666666,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.1,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.10833333333333334,
+            "barrelPitchDegrees": 7.050570116538196,
+            "handRiseM": {
+              "Left": 0.001853661689875219,
+              "Right": 0.0021809853257213074
+            }
+          },
+          {
+            "time": 0.11666666666666667,
+            "barrelPitchDegrees": 7.533449062906127,
+            "handRiseM": {
+              "Left": 0.0037065691101030307,
+              "Right": 0.004356295162344148
+            }
+          },
+          {
+            "time": 0.125,
+            "barrelPitchDegrees": 8.668429454374499,
+            "handRiseM": {
+              "Left": 0.008068093958757627,
+              "Right": 0.009457539753784827
+            }
+          },
+          {
+            "time": 0.13333333333333333,
+            "barrelPitchDegrees": 9.80022933494567,
+            "handRiseM": {
+              "Left": 0.012425860349902562,
+              "Right": 0.014527306641438198
+            }
+          },
+          {
+            "time": 0.14166666666666666,
+            "barrelPitchDegrees": 11.113729273682171,
+            "handRiseM": {
+              "Left": 0.017493155945003336,
+              "Right": 0.02038815320904641
+            }
+          },
+          {
+            "time": 0.15,
+            "barrelPitchDegrees": 12.422159921675394,
+            "handRiseM": {
+              "Left": 0.022550817325512895,
+              "Right": 0.02620056659975356
+            }
+          },
+          {
+            "time": 0.15833333333333333,
+            "barrelPitchDegrees": 13.449657911770098,
+            "handRiseM": {
+              "Left": 0.026529068250477295,
+              "Right": 0.030745989263814444
+            }
+          },
+          {
+            "time": 0.16666666666666666,
+            "barrelPitchDegrees": 14.47351894360574,
+            "handRiseM": {
+              "Left": 0.030498644136108588,
+              "Right": 0.035257959356865376
+            }
+          },
+          {
+            "time": 0.175,
+            "barrelPitchDegrees": 14.785089123869465,
+            "handRiseM": {
+              "Left": 0.03170765005999665,
+              "Right": 0.03662745786564847
+            }
+          },
+          {
+            "time": 0.18333333333333332,
+            "barrelPitchDegrees": 15.096292797258752,
+            "handRiseM": {
+              "Left": 0.032915709971801155,
+              "Right": 0.037993665714958214
+            }
+          },
+          {
+            "time": 0.19166666666666668,
+            "barrelPitchDegrees": 15.074718629199202,
+            "handRiseM": {
+              "Left": 0.032831951241323765,
+              "Right": 0.0378990115608242
+            }
+          },
+          {
+            "time": 0.2,
+            "barrelPitchDegrees": 15.053142454630603,
+            "handRiseM": {
+              "Left": 0.03274819618066349,
+              "Right": 0.03780434093749263
+            }
+          },
+          {
+            "time": 0.20833333333333334,
+            "barrelPitchDegrees": 15.002510173776395,
+            "handRiseM": {
+              "Left": 0.032551607549492045,
+              "Right": 0.03758213350340478
+            }
+          },
+          {
+            "time": 0.21666666666666667,
+            "barrelPitchDegrees": 14.951868069126519,
+            "handRiseM": {
+              "Left": 0.03235499916872975,
+              "Right": 0.037359838371009646
+            }
+          },
+          {
+            "time": 0.225,
+            "barrelPitchDegrees": 14.874407269103417,
+            "handRiseM": {
+              "Left": 0.032054323720524414,
+              "Right": 0.0370197451364731
+            }
+          },
+          {
+            "time": 0.23333333333333334,
+            "barrelPitchDegrees": 14.796922879820732,
+            "handRiseM": {
+              "Left": 0.03175358832460007,
+              "Right": 0.03667944369793075
+            }
+          },
+          {
+            "time": 0.24166666666666667,
+            "barrelPitchDegrees": 14.694840417163352,
+            "handRiseM": {
+              "Left": 0.031357403444357335,
+              "Right": 0.03623094904267177
+            }
+          },
+          {
+            "time": 0.25,
+            "barrelPitchDegrees": 14.59271848051378,
+            "handRiseM": {
+              "Left": 0.03096111885967856,
+              "Right": 0.035782101352705986
+            }
+          },
+          {
+            "time": 0.25833333333333336,
+            "barrelPitchDegrees": 14.468215691284318,
+            "handRiseM": {
+              "Left": 0.030478066691925543,
+              "Right": 0.03523464325622139
+            }
+          },
+          {
+            "time": 0.26666666666666666,
+            "barrelPitchDegrees": 14.343655179216796,
+            "handRiseM": {
+              "Left": 0.029994867917807477,
+              "Right": 0.03468666605504089
+            }
+          },
+          {
+            "time": 0.275,
+            "barrelPitchDegrees": 14.198936605186649,
+            "handRiseM": {
+              "Left": 0.029433556674547168,
+              "Right": 0.03404966895054273
+            }
+          },
+          {
+            "time": 0.2833333333333333,
+            "barrelPitchDegrees": 14.054142041570016,
+            "handRiseM": {
+              "Left": 0.02887206364217665,
+              "Right": 0.03341198170676507
+            }
+          },
+          {
+            "time": 0.2916666666666667,
+            "barrelPitchDegrees": 13.891406769623554,
+            "handRiseM": {
+              "Left": 0.028241111364547544,
+              "Right": 0.03269486322975834
+            }
+          },
+          {
+            "time": 0.3,
+            "barrelPitchDegrees": 13.728577984171142,
+            "handRiseM": {
+              "Left": 0.02760993742073703,
+              "Right": 0.03197688734832038
+            }
+          },
+          {
+            "time": 0.30833333333333335,
+            "barrelPitchDegrees": 13.550032077343637,
+            "handRiseM": {
+              "Left": 0.026917991267801034,
+              "Right": 0.031189100382348345
+            }
+          },
+          {
+            "time": 0.31666666666666665,
+            "barrelPitchDegrees": 13.371375563442237,
+            "handRiseM": {
+              "Left": 0.026225781325636577,
+              "Right": 0.030400296224808
+            }
+          },
+          {
+            "time": 0.325,
+            "barrelPitchDegrees": 13.179233934652709,
+            "handRiseM": {
+              "Left": 0.025481507970707584,
+              "Right": 0.029551361748705984
+            }
+          },
+          {
+            "time": 0.3333333333333333,
+            "barrelPitchDegrees": 12.986966897071298,
+            "handRiseM": {
+              "Left": 0.024736943681148205,
+              "Right": 0.028701268987897377
+            }
+          },
+          {
+            "time": 0.3416666666666667,
+            "barrelPitchDegrees": 12.783453742435023,
+            "handRiseM": {
+              "Left": 0.023949032514370305,
+              "Right": 0.027800799933038967
+            }
+          },
+          {
+            "time": 0.35,
+            "barrelPitchDegrees": 12.579803099038914,
+            "handRiseM": {
+              "Left": 0.023160807448288967,
+              "Right": 0.026899054421220425
+            }
+          },
+          {
+            "time": 0.35833333333333334,
+            "barrelPitchDegrees": 12.36715327952191,
+            "handRiseM": {
+              "Left": 0.022338003107894133,
+              "Right": 0.02595675148357235
+            }
+          },
+          {
+            "time": 0.36666666666666664,
+            "barrelPitchDegrees": 12.154358378490755,
+            "handRiseM": {
+              "Left": 0.02151488283802916,
+              "Right": 0.025013088316817145
+            }
+          },
+          {
+            "time": 0.375,
+            "barrelPitchDegrees": 11.934816707807016,
+            "handRiseM": {
+              "Left": 0.020665909075457067,
+              "Right": 0.02403875839057501
+            }
+          },
+          {
+            "time": 0.38333333333333336,
+            "barrelPitchDegrees": 11.715124789620385,
+            "handRiseM": {
+              "Left": 0.019816623088661833,
+              "Right": 0.023063009736217
+            }
+          },
+          {
+            "time": 0.39166666666666666,
+            "barrelPitchDegrees": 11.490953785916616,
+            "handRiseM": {
+              "Left": 0.018950305131895773,
+              "Right": 0.022066597391184883
+            }
+          },
+          {
+            "time": 0.4,
+            "barrelPitchDegrees": 11.266630462771124,
+            "handRiseM": {
+              "Left": 0.0180836796738697,
+              "Right": 0.021068738089079497
+            }
+          },
+          {
+            "time": 0.4083333333333333,
+            "barrelPitchDegrees": 11.040104615561946,
+            "handRiseM": {
+              "Left": 0.017208847988830156,
+              "Right": 0.02006031002220543
+            }
+          },
+          {
+            "time": 0.4166666666666667,
+            "barrelPitchDegrees": 10.813428462206806,
+            "handRiseM": {
+              "Left": 0.016333735021993867,
+              "Right": 0.01905044185043736
+            }
+          },
+          {
+            "time": 0.425,
+            "barrelPitchDegrees": 10.5868310233825,
+            "handRiseM": {
+              "Left": 0.015459220744566071,
+              "Right": 0.018040166137074154
+            }
+          },
+          {
+            "time": 0.43333333333333335,
+            "barrelPitchDegrees": 10.360087570445577,
+            "handRiseM": {
+              "Left": 0.014584448376208314,
+              "Right": 0.017028482822904367
+            }
+          },
+          {
+            "time": 0.44166666666666665,
+            "barrelPitchDegrees": 10.135718802409125,
+            "handRiseM": {
+              "Left": 0.013719146802480653,
+              "Right": 0.016026655658146316
+            }
+          },
+          {
+            "time": 0.45,
+            "barrelPitchDegrees": 9.91121180707764,
+            "handRiseM": {
+              "Left": 0.012853617605379064,
+              "Right": 0.015023485381061352
+            }
+          },
+          {
+            "time": 0.4583333333333333,
+            "barrelPitchDegrees": 9.691375916147704,
+            "handRiseM": {
+              "Left": 0.012006386818804282,
+              "Right": 0.0140404873761113
+            }
+          },
+          {
+            "time": 0.4666666666666667,
+            "barrelPitchDegrees": 9.471411718426896,
+            "handRiseM": {
+              "Left": 0.011158959099732746,
+              "Right": 0.013056233004029583
+            }
+          },
+          {
+            "time": 0.475,
+            "barrelPitchDegrees": 9.25843168947214,
+            "handRiseM": {
+              "Left": 0.01033875112023197,
+              "Right": 0.012102591947097618
+            }
+          },
+          {
+            "time": 0.48333333333333334,
+            "barrelPitchDegrees": 9.04533474096985,
+            "handRiseM": {
+              "Left": 0.009518375956968805,
+              "Right": 0.011147799591068264
+            }
+          },
+          {
+            "time": 0.49166666666666664,
+            "barrelPitchDegrees": 8.841535136194723,
+            "handRiseM": {
+              "Left": 0.008734063579752593,
+              "Right": 0.010234084749637162
+            }
+          },
+          {
+            "time": 0.5,
+            "barrelPitchDegrees": 8.637631167035963,
+            "handRiseM": {
+              "Left": 0.007949613286059032,
+              "Right": 0.009319338839076208
+            }
+          },
+          {
+            "time": 0.5083333333333333,
+            "barrelPitchDegrees": 8.44534638589681,
+            "handRiseM": {
+              "Left": 0.00721013331477427,
+              "Right": 0.008456210944757014
+            }
+          },
+          {
+            "time": 0.5166666666666667,
+            "barrelPitchDegrees": 8.2529705553423,
+            "handRiseM": {
+              "Left": 0.006470545534765115,
+              "Right": 0.00759218386614946
+            }
+          },
+          {
+            "time": 0.525,
+            "barrelPitchDegrees": 8.074541027735057,
+            "handRiseM": {
+              "Left": 0.005784791964112079,
+              "Right": 0.0067903602062155954
+            }
+          },
+          {
+            "time": 0.5333333333333333,
+            "barrelPitchDegrees": 7.896035514811536,
+            "handRiseM": {
+              "Left": 0.0050989638228857714,
+              "Right": 0.005987782476031489
+            }
+          },
+          {
+            "time": 0.5416666666666666,
+            "barrelPitchDegrees": 7.733799843541085,
+            "handRiseM": {
+              "Left": 0.004475838948542199,
+              "Right": 0.005257998137898623
+            }
+          },
+          {
+            "time": 0.55,
+            "barrelPitchDegrees": 7.571504001234385,
+            "handRiseM": {
+              "Left": 0.0038526653925468057,
+              "Right": 0.004527608623265067
+            }
+          },
+          {
+            "time": 0.5583333333333333,
+            "barrelPitchDegrees": 7.427808708913027,
+            "handRiseM": {
+              "Left": 0.0033010644580020454,
+              "Right": 0.0038806532930633075
+            }
+          },
+          {
+            "time": 0.5666666666666667,
+            "barrelPitchDegrees": 7.2840674303134145,
+            "handRiseM": {
+              "Left": 0.002749432043010369,
+              "Right": 0.0032332333015407944
+            }
+          },
+          {
+            "time": 0.575,
+            "barrelPitchDegrees": 7.161256774922244,
+            "handRiseM": {
+              "Left": 0.0022782402163439297,
+              "Right": 0.0026798758108772525
+            }
+          },
+          {
+            "time": 0.5833333333333334,
+            "barrelPitchDegrees": 7.038412492670633,
+            "handRiseM": {
+              "Left": 0.00180702776693753,
+              "Right": 0.0021261818947777567
+            }
+          },
+          {
+            "time": 0.5916666666666667,
+            "barrelPitchDegrees": 6.938830539331101,
+            "handRiseM": {
+              "Left": 0.0014251258739854666,
+              "Right": 0.001677202877781614
+            }
+          },
+          {
+            "time": 0.6,
+            "barrelPitchDegrees": 6.839226916548604,
+            "handRiseM": {
+              "Left": 0.0010432125919666024,
+              "Right": 0.0012280057074878226
+            }
+          },
+          {
+            "time": 0.6083333333333333,
+            "barrelPitchDegrees": 6.765211443064745,
+            "handRiseM": {
+              "Left": 0.0007594619020987459,
+              "Right": 0.0008941304746175049
+            }
+          },
+          {
+            "time": 0.6166666666666667,
+            "barrelPitchDegrees": 6.691184949073818,
+            "handRiseM": {
+              "Left": 0.0004757083470547929,
+              "Right": 0.0005601395493288752
+            }
+          },
+          {
+            "time": 0.625,
+            "barrelPitchDegrees": 6.645070890925222,
+            "handRiseM": {
+              "Left": 0.00029896607009427534,
+              "Right": 0.00035205110695035735
+            }
+          },
+          {
+            "time": 0.6333333333333333,
+            "barrelPitchDegrees": 6.598952442153122,
+            "handRiseM": {
+              "Left": 0.00012222211122692173,
+              "Right": 0.00014391758851561853
+            }
+          },
+          {
+            "time": 0.6416666666666667,
+            "barrelPitchDegrees": 6.583066468516035,
+            "handRiseM": {
+              "Left": 0.00006134885983755112,
+              "Right": 0.0000722169513240889
+            }
+          },
+          {
+            "time": 0.65,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.6583333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.6666666666666666,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.675,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.6833333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.6916666666666667,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.7,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.7083333333333334,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.7166666666666667,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.725,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.7333333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.7416666666666667,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.75,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.7583333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.7666666666666667,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.775,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.7833333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.7916666666666666,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.8,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.8083333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.8166666666666667,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.825,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.8333333333333334,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.8416666666666667,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.85,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.8583333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.8666666666666667,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.875,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.8833333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.8916666666666667,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.9,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.9083333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.9166666666666666,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.925,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.9333333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.9416666666666667,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.95,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.9583333333333334,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.9666666666666667,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.975,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.9833333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.9916666666666667,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.0083333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.0166666666666666,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.025,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.0333333333333334,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.0416666666666667,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.05,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.0583333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.0666666666666667,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.075,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.0833333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.0916666666666666,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.1,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.1083333333333334,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.1166666666666667,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.125,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.1333333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.1416666666666666,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.15,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.1583333333333334,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.1666666666666667,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376898550843e-7,
+              "Right": 5.152632487348541e-7
+            }
+          }
+        ]
+      },
+      "type54": {
+        "baseMotion": "PistolAimingIdle",
+        "basePitchDegrees": 6.567175587256672,
+        "endpointErrors": [
+          0.000019171143033680504,
+          0.000019171143033680504,
+          0.000019171143033680504
+        ],
+        "maxLeftContactErrorM": 0.0011269637320160024,
+        "maxRightContactErrorM": 2.220462989844635e-16,
+        "maxWeaponStepDegrees120Hz": 1.6140388579291107,
+        "switchDrift": 0,
+        "frames": [
+          {
+            "time": 0,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.008333333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.016666666666666666,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.025,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.03333333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.041666666666666664,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.05,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.058333333333333334,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.06666666666666667,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.075,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.08333333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.09166666666666666,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.1,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.10833333333333334,
+            "barrelPitchDegrees": 7.050570116538196,
+            "handRiseM": {
+              "Left": 0.001853661689874997,
+              "Right": 0.0021809853257213074
+            }
+          },
+          {
+            "time": 0.11666666666666667,
+            "barrelPitchDegrees": 7.533449062906127,
+            "handRiseM": {
+              "Left": 0.0037065691101028087,
+              "Right": 0.004356295162344148
+            }
+          },
+          {
+            "time": 0.125,
+            "barrelPitchDegrees": 8.668429454374499,
+            "handRiseM": {
+              "Left": 0.008068093958757627,
+              "Right": 0.009457539753784827
+            }
+          },
+          {
+            "time": 0.13333333333333333,
+            "barrelPitchDegrees": 9.80022933494567,
+            "handRiseM": {
+              "Left": 0.01242586034990234,
+              "Right": 0.014527306641438198
+            }
+          },
+          {
+            "time": 0.14166666666666666,
+            "barrelPitchDegrees": 11.113729273682171,
+            "handRiseM": {
+              "Left": 0.017493155945003114,
+              "Right": 0.02038815320904641
+            }
+          },
+          {
+            "time": 0.15,
+            "barrelPitchDegrees": 12.422159921675394,
+            "handRiseM": {
+              "Left": 0.022550817325512895,
+              "Right": 0.02620056659975356
+            }
+          },
+          {
+            "time": 0.15833333333333333,
+            "barrelPitchDegrees": 13.449657911770098,
+            "handRiseM": {
+              "Left": 0.026529068250477073,
+              "Right": 0.030745989263814444
+            }
+          },
+          {
+            "time": 0.16666666666666666,
+            "barrelPitchDegrees": 14.47351894360574,
+            "handRiseM": {
+              "Left": 0.030498644136108366,
+              "Right": 0.035257959356865376
+            }
+          },
+          {
+            "time": 0.175,
+            "barrelPitchDegrees": 14.785089123869465,
+            "handRiseM": {
+              "Left": 0.03170765005999643,
+              "Right": 0.03662745786564847
+            }
+          },
+          {
+            "time": 0.18333333333333332,
+            "barrelPitchDegrees": 15.096292797258752,
+            "handRiseM": {
+              "Left": 0.03291570997180071,
+              "Right": 0.037993665714958214
+            }
+          },
+          {
+            "time": 0.19166666666666668,
+            "barrelPitchDegrees": 15.074718629199202,
+            "handRiseM": {
+              "Left": 0.03283195124132332,
+              "Right": 0.0378990115608242
+            }
+          },
+          {
+            "time": 0.2,
+            "barrelPitchDegrees": 15.053142454630603,
+            "handRiseM": {
+              "Left": 0.03274819618066305,
+              "Right": 0.03780434093749263
+            }
+          },
+          {
+            "time": 0.20833333333333334,
+            "barrelPitchDegrees": 15.002510173776395,
+            "handRiseM": {
+              "Left": 0.03255160754949182,
+              "Right": 0.03758213350340478
+            }
+          },
+          {
+            "time": 0.21666666666666667,
+            "barrelPitchDegrees": 14.951868069126519,
+            "handRiseM": {
+              "Left": 0.032354999168729526,
+              "Right": 0.037359838371009646
+            }
+          },
+          {
+            "time": 0.225,
+            "barrelPitchDegrees": 14.874407269103417,
+            "handRiseM": {
+              "Left": 0.03205432372052419,
+              "Right": 0.0370197451364731
+            }
+          },
+          {
+            "time": 0.23333333333333334,
+            "barrelPitchDegrees": 14.796922879820732,
+            "handRiseM": {
+              "Left": 0.0317535883245994,
+              "Right": 0.03667944369793075
+            }
+          },
+          {
+            "time": 0.24166666666666667,
+            "barrelPitchDegrees": 14.694840417163352,
+            "handRiseM": {
+              "Left": 0.031357403444357335,
+              "Right": 0.03623094904267177
+            }
+          },
+          {
+            "time": 0.25,
+            "barrelPitchDegrees": 14.59271848051378,
+            "handRiseM": {
+              "Left": 0.03096111885967856,
+              "Right": 0.035782101352705986
+            }
+          },
+          {
+            "time": 0.25833333333333336,
+            "barrelPitchDegrees": 14.468215691284318,
+            "handRiseM": {
+              "Left": 0.030478066691925543,
+              "Right": 0.03523464325622139
+            }
+          },
+          {
+            "time": 0.26666666666666666,
+            "barrelPitchDegrees": 14.343655179216796,
+            "handRiseM": {
+              "Left": 0.029994867917807255,
+              "Right": 0.03468666605504089
+            }
+          },
+          {
+            "time": 0.275,
+            "barrelPitchDegrees": 14.198936605186649,
+            "handRiseM": {
+              "Left": 0.029433556674546724,
+              "Right": 0.03404966895054273
+            }
+          },
+          {
+            "time": 0.2833333333333333,
+            "barrelPitchDegrees": 14.054142041570016,
+            "handRiseM": {
+              "Left": 0.028872063642176427,
+              "Right": 0.03341198170676507
+            }
+          },
+          {
+            "time": 0.2916666666666667,
+            "barrelPitchDegrees": 13.891406769623554,
+            "handRiseM": {
+              "Left": 0.028241111364547544,
+              "Right": 0.03269486322975834
+            }
+          },
+          {
+            "time": 0.3,
+            "barrelPitchDegrees": 13.728577984171142,
+            "handRiseM": {
+              "Left": 0.027609937420736808,
+              "Right": 0.03197688734832038
+            }
+          },
+          {
+            "time": 0.30833333333333335,
+            "barrelPitchDegrees": 13.550032077343637,
+            "handRiseM": {
+              "Left": 0.026917991267800367,
+              "Right": 0.031189100382348345
+            }
+          },
+          {
+            "time": 0.31666666666666665,
+            "barrelPitchDegrees": 13.371375563442237,
+            "handRiseM": {
+              "Left": 0.026225781325636355,
+              "Right": 0.030400296224808
+            }
+          },
+          {
+            "time": 0.325,
+            "barrelPitchDegrees": 13.179233934652709,
+            "handRiseM": {
+              "Left": 0.025481507970707362,
+              "Right": 0.029551361748705984
+            }
+          },
+          {
+            "time": 0.3333333333333333,
+            "barrelPitchDegrees": 12.986966897071298,
+            "handRiseM": {
+              "Left": 0.024736943681147983,
+              "Right": 0.028701268987897377
+            }
+          },
+          {
+            "time": 0.3416666666666667,
+            "barrelPitchDegrees": 12.783453742435023,
+            "handRiseM": {
+              "Left": 0.02394903251436986,
+              "Right": 0.027800799933038967
+            }
+          },
+          {
+            "time": 0.35,
+            "barrelPitchDegrees": 12.579803099038914,
+            "handRiseM": {
+              "Left": 0.023160807448288523,
+              "Right": 0.026899054421220425
+            }
+          },
+          {
+            "time": 0.35833333333333334,
+            "barrelPitchDegrees": 12.36715327952191,
+            "handRiseM": {
+              "Left": 0.02233800310789391,
+              "Right": 0.02595675148357235
+            }
+          },
+          {
+            "time": 0.36666666666666664,
+            "barrelPitchDegrees": 12.154358378490755,
+            "handRiseM": {
+              "Left": 0.02151488283802916,
+              "Right": 0.025013088316817145
+            }
+          },
+          {
+            "time": 0.375,
+            "barrelPitchDegrees": 11.934816707807016,
+            "handRiseM": {
+              "Left": 0.020665909075456845,
+              "Right": 0.02403875839057501
+            }
+          },
+          {
+            "time": 0.38333333333333336,
+            "barrelPitchDegrees": 11.715124789620385,
+            "handRiseM": {
+              "Left": 0.019816623088661167,
+              "Right": 0.023063009736217
+            }
+          },
+          {
+            "time": 0.39166666666666666,
+            "barrelPitchDegrees": 11.490953785916616,
+            "handRiseM": {
+              "Left": 0.01895030513189555,
+              "Right": 0.022066597391184883
+            }
+          },
+          {
+            "time": 0.4,
+            "barrelPitchDegrees": 11.266630462771124,
+            "handRiseM": {
+              "Left": 0.0180836796738697,
+              "Right": 0.021068738089079497
+            }
+          },
+          {
+            "time": 0.4083333333333333,
+            "barrelPitchDegrees": 11.040104615561946,
+            "handRiseM": {
+              "Left": 0.017208847988829934,
+              "Right": 0.02006031002220543
+            }
+          },
+          {
+            "time": 0.4166666666666667,
+            "barrelPitchDegrees": 10.813428462206806,
+            "handRiseM": {
+              "Left": 0.016333735021993423,
+              "Right": 0.01905044185043736
+            }
+          },
+          {
+            "time": 0.425,
+            "barrelPitchDegrees": 10.5868310233825,
+            "handRiseM": {
+              "Left": 0.01545922074456585,
+              "Right": 0.018040166137074154
+            }
+          },
+          {
+            "time": 0.43333333333333335,
+            "barrelPitchDegrees": 10.360087570445577,
+            "handRiseM": {
+              "Left": 0.014584448376208314,
+              "Right": 0.017028482822904367
+            }
+          },
+          {
+            "time": 0.44166666666666665,
+            "barrelPitchDegrees": 10.135718802409125,
+            "handRiseM": {
+              "Left": 0.01371914680248043,
+              "Right": 0.016026655658146316
+            }
+          },
+          {
+            "time": 0.45,
+            "barrelPitchDegrees": 9.91121180707764,
+            "handRiseM": {
+              "Left": 0.012853617605379064,
+              "Right": 0.015023485381061352
+            }
+          },
+          {
+            "time": 0.4583333333333333,
+            "barrelPitchDegrees": 9.691375916147704,
+            "handRiseM": {
+              "Left": 0.01200638681880406,
+              "Right": 0.0140404873761113
+            }
+          },
+          {
+            "time": 0.4666666666666667,
+            "barrelPitchDegrees": 9.471411718426896,
+            "handRiseM": {
+              "Left": 0.011158959099732524,
+              "Right": 0.013056233004029583
+            }
+          },
+          {
+            "time": 0.475,
+            "barrelPitchDegrees": 9.25843168947214,
+            "handRiseM": {
+              "Left": 0.010338751120231304,
+              "Right": 0.012102591947097618
+            }
+          },
+          {
+            "time": 0.48333333333333334,
+            "barrelPitchDegrees": 9.04533474096985,
+            "handRiseM": {
+              "Left": 0.009518375956968805,
+              "Right": 0.011147799591068264
+            }
+          },
+          {
+            "time": 0.49166666666666664,
+            "barrelPitchDegrees": 8.841535136194723,
+            "handRiseM": {
+              "Left": 0.008734063579752371,
+              "Right": 0.010234084749637162
+            }
+          },
+          {
+            "time": 0.5,
+            "barrelPitchDegrees": 8.637631167035963,
+            "handRiseM": {
+              "Left": 0.007949613286058588,
+              "Right": 0.009319338839076208
+            }
+          },
+          {
+            "time": 0.5083333333333333,
+            "barrelPitchDegrees": 8.44534638589681,
+            "handRiseM": {
+              "Left": 0.007210133314774048,
+              "Right": 0.008456210944757014
+            }
+          },
+          {
+            "time": 0.5166666666666667,
+            "barrelPitchDegrees": 8.2529705553423,
+            "handRiseM": {
+              "Left": 0.006470545534764671,
+              "Right": 0.00759218386614946
+            }
+          },
+          {
+            "time": 0.525,
+            "barrelPitchDegrees": 8.074541027735057,
+            "handRiseM": {
+              "Left": 0.005784791964111857,
+              "Right": 0.0067903602062155954
+            }
+          },
+          {
+            "time": 0.5333333333333333,
+            "barrelPitchDegrees": 7.896035514811536,
+            "handRiseM": {
+              "Left": 0.005098963822885549,
+              "Right": 0.005987782476031489
+            }
+          },
+          {
+            "time": 0.5416666666666666,
+            "barrelPitchDegrees": 7.733799843541085,
+            "handRiseM": {
+              "Left": 0.004475838948541977,
+              "Right": 0.005257998137898623
+            }
+          },
+          {
+            "time": 0.55,
+            "barrelPitchDegrees": 7.571504001234385,
+            "handRiseM": {
+              "Left": 0.0038526653925465837,
+              "Right": 0.004527608623265067
+            }
+          },
+          {
+            "time": 0.5583333333333333,
+            "barrelPitchDegrees": 7.427808708913027,
+            "handRiseM": {
+              "Left": 0.0033010644580018234,
+              "Right": 0.0038806532930633075
+            }
+          },
+          {
+            "time": 0.5666666666666667,
+            "barrelPitchDegrees": 7.2840674303134145,
+            "handRiseM": {
+              "Left": 0.002749432043010369,
+              "Right": 0.0032332333015407944
+            }
+          },
+          {
+            "time": 0.575,
+            "barrelPitchDegrees": 7.161256774922244,
+            "handRiseM": {
+              "Left": 0.0022782402163441517,
+              "Right": 0.0026798758108772525
+            }
+          },
+          {
+            "time": 0.5833333333333334,
+            "barrelPitchDegrees": 7.038412492670633,
+            "handRiseM": {
+              "Left": 0.001807027766937308,
+              "Right": 0.0021261818947777567
+            }
+          },
+          {
+            "time": 0.5916666666666667,
+            "barrelPitchDegrees": 6.938830539331101,
+            "handRiseM": {
+              "Left": 0.0014251258739848005,
+              "Right": 0.001677202877781614
+            }
+          },
+          {
+            "time": 0.6,
+            "barrelPitchDegrees": 6.839226916548604,
+            "handRiseM": {
+              "Left": 0.0010432125919666024,
+              "Right": 0.0012280057074878226
+            }
+          },
+          {
+            "time": 0.6083333333333333,
+            "barrelPitchDegrees": 6.765211443064745,
+            "handRiseM": {
+              "Left": 0.0007594619020983018,
+              "Right": 0.0008941304746175049
+            }
+          },
+          {
+            "time": 0.6166666666666667,
+            "barrelPitchDegrees": 6.691184949073818,
+            "handRiseM": {
+              "Left": 0.00047570834705434883,
+              "Right": 0.0005601395493288752
+            }
+          },
+          {
+            "time": 0.625,
+            "barrelPitchDegrees": 6.645070890925222,
+            "handRiseM": {
+              "Left": 0.00029896607009427534,
+              "Right": 0.00035205110695035735
+            }
+          },
+          {
+            "time": 0.6333333333333333,
+            "barrelPitchDegrees": 6.598952442153122,
+            "handRiseM": {
+              "Left": 0.00012222211122647764,
+              "Right": 0.00014391758851561853
+            }
+          },
+          {
+            "time": 0.6416666666666667,
+            "barrelPitchDegrees": 6.583066468516035,
+            "handRiseM": {
+              "Left": 0.00006134885983732907,
+              "Right": 0.0000722169513240889
+            }
+          },
+          {
+            "time": 0.65,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.6583333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.6666666666666666,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.675,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.6833333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.6916666666666667,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.7,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.7083333333333334,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.7166666666666667,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.725,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.7333333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.7416666666666667,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.75,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.7583333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.7666666666666667,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.775,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.7833333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.7916666666666666,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.8,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.8083333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.8166666666666667,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.825,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.8333333333333334,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.8416666666666667,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.85,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.8583333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.8666666666666667,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.875,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.8833333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.8916666666666667,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.9,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.9083333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.9166666666666666,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.925,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.9333333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.9416666666666667,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.95,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.9583333333333334,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.9666666666666667,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.975,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.9833333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 0.9916666666666667,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.0083333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.0166666666666666,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.025,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.0333333333333334,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.0416666666666667,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.05,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.0583333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.0666666666666667,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.075,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.0833333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.0916666666666666,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.1,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.1083333333333334,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.1166666666666667,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.125,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.1333333333333333,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.1416666666666666,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.15,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.1583333333333334,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          },
+          {
+            "time": 1.1666666666666667,
+            "barrelPitchDegrees": 6.5671811315172155,
+            "handRiseM": {
+              "Left": 4.831376896330397e-7,
+              "Right": 5.152632487348541e-7
+            }
+          }
+        ]
+      }
+    }
+  }
+}

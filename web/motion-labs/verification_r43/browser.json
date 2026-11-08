@@ -1,0 +1,534 @@
+{
+  "diandian": {
+    "passed": true,
+    "errors": [],
+    "warnings": [],
+    "gun": [
+      {
+        "visible": true,
+        "selectedWeapon": "qjz89",
+        "motion": "QJZ89Idle",
+        "time": 3.1696666431427003,
+        "actualClip": "QJZ89Idle",
+        "handScale": 0.9,
+        "leftContactErrorM": 2.8550289480764082e-8,
+        "rightContactErrorM": 1.0736377783477455e-7,
+        "shoulderAssistDegrees": 0,
+        "triggerContactErrorM": null,
+        "chestReliefActive": false,
+        "rightForearmTwistDegrees": 42.995827102331205,
+        "rightUpperTwistDegrees": 15.522514559572306,
+        "rightPalmWorld": [
+          -0.19004699412281445,
+          1.3215766235287847,
+          0.17823530817495353
+        ],
+        "rightTargetWorld": [
+          -0.1900470223543543,
+          1.3215765404874877,
+          0.17823537009509524
+        ],
+        "leftForearmTwistDegrees": 23.309446066081467,
+        "leftUpperTwistDegrees": -16.26877458518231,
+        "leftPalmWorld": [
+          -0.16665880736279842,
+          1.5136938418564299,
+          0.026212134728350378
+        ],
+        "leftTargetWorld": [
+          -0.16665882960760767,
+          1.5136938380500493,
+          0.026212117241242033
+        ],
+        "supportTargetWorld": [
+          -0.16665882960760767,
+          1.5136938380500493,
+          0.026212117241242033
+        ],
+        "weaponPosition": [
+          -0.17,
+          1.36,
+          0.22
+        ],
+        "weaponQuaternion": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "barrelPitchDegrees": 0,
+        "fixedEmplacement": true,
+        "modelScale": 1
+      },
+      {
+        "visible": true,
+        "selectedWeapon": "qjz89",
+        "motion": "QJZ89Aim",
+        "time": 1.1469999647140503,
+        "actualClip": "QJZ89Aim",
+        "handScale": 0.9,
+        "leftContactErrorM": 1.1050833733907354e-7,
+        "rightContactErrorM": 1.2027413990563978e-7,
+        "shoulderAssistDegrees": 0,
+        "triggerContactErrorM": null,
+        "chestReliefActive": false,
+        "rightForearmTwistDegrees": 36.8359528668459,
+        "rightUpperTwistDegrees": 19.6043682272704,
+        "rightPalmWorld": [
+          -0.1900469700320031,
+          1.3215765502504606,
+          0.17823526223905853
+        ],
+        "rightTargetWorld": [
+          -0.1900470223543543,
+          1.3215765404874877,
+          0.17823537009509524
+        ],
+        "leftForearmTwistDegrees": -9.600868615792317,
+        "leftUpperTwistDegrees": 2.636780308940995,
+        "leftPalmWorld": [
+          -0.16665882889570655,
+          1.5136938109736715,
+          0.026212224378796528
+        ],
+        "leftTargetWorld": [
+          -0.16665882960760767,
+          1.5136938380500493,
+          0.026212117241242033
+        ],
+        "supportTargetWorld": [
+          -0.16665882960760767,
+          1.5136938380500493,
+          0.026212117241242033
+        ],
+        "weaponPosition": [
+          -0.17,
+          1.36,
+          0.22
+        ],
+        "weaponQuaternion": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "barrelPitchDegrees": 0,
+        "fixedEmplacement": true,
+        "modelScale": 1
+      }
+    ],
+    "tank": [
+      {
+        "tank": {
+          "visible": true,
+          "role": "unmanned",
+          "driverRequired": false,
+          "motion": "TankIdle",
+          "time": 0,
+          "sourceClips": [],
+          "boneCount": 215,
+          "bounds": {
+            "min": [
+              -2.4548069429284687,
+              -5.551115123125783e-17,
+              -4.673698994638841
+            ],
+            "max": [
+              2.4590234097367634,
+              3.3861586981952003,
+              4.5263010053611605
+            ]
+          }
+        },
+        "active": "TankIdle",
+        "characterVisible": false,
+        "gunVisible": false
+      },
+      {
+        "tank": {
+          "visible": true,
+          "role": "unmanned",
+          "driverRequired": false,
+          "motion": "TankTurretAim",
+          "time": 1.25,
+          "sourceClips": [
+            "Turret_Aim_Demo"
+          ],
+          "boneCount": 215,
+          "bounds": {
+            "min": [
+              -2.4548069429284687,
+              -5.551115123125783e-17,
+              -4.673698994638841
+            ],
+            "max": [
+              2.4590234097367634,
+              3.3861586981952003,
+              4.5263010053611605
+            ]
+          }
+        },
+        "active": "TankTurretAim",
+        "characterVisible": false,
+        "gunVisible": false
+      },
+      {
+        "tank": {
+          "visible": true,
+          "role": "unmanned",
+          "driverRequired": false,
+          "motion": "TankRecoil",
+          "time": 0.18,
+          "sourceClips": [
+            "Gun_Recoil"
+          ],
+          "boneCount": 215,
+          "bounds": {
+            "min": [
+              -2.4548069429284687,
+              -5.551115123125783e-17,
+              -4.673698994638841
+            ],
+            "max": [
+              2.4590234097367634,
+              3.3861586981952003,
+              4.5263010053611605
+            ]
+          }
+        },
+        "active": "TankRecoil",
+        "characterVisible": false,
+        "gunVisible": false
+      },
+      {
+        "tank": {
+          "visible": true,
+          "role": "unmanned",
+          "driverRequired": false,
+          "motion": "TankMGAim",
+          "time": 1.25,
+          "sourceClips": [
+            "MG_Aim_Demo"
+          ],
+          "boneCount": 215,
+          "bounds": {
+            "min": [
+              -2.4548069429284687,
+              -5.551115123125783e-17,
+              -4.673698994638841
+            ],
+            "max": [
+              2.4590234097367634,
+              3.3861586981952003,
+              4.5263010053611605
+            ]
+          }
+        },
+        "active": "TankMGAim",
+        "characterVisible": false,
+        "gunVisible": false
+      },
+      {
+        "tank": {
+          "visible": true,
+          "role": "unmanned",
+          "driverRequired": false,
+          "motion": "TankTracks",
+          "time": 3.7,
+          "sourceClips": [
+            "Track_L_Cycle",
+            "Track_R_Cycle",
+            "Wheels_Forward_Loop"
+          ],
+          "boneCount": 215,
+          "bounds": {
+            "min": [
+              -2.4548069429284687,
+              -5.551115123125783e-17,
+              -4.673698994638841
+            ],
+            "max": [
+              2.4590234097367634,
+              3.3861586981952003,
+              4.5263010053611605
+            ]
+          }
+        },
+        "active": "TankTracks",
+        "characterVisible": false,
+        "gunVisible": false
+      }
+    ],
+    "mobileWidth": 390,
+    "restored": {
+      "motion": "QJZ89Aim",
+      "time": 1.1469999647140503
+    }
+  },
+  "zhigeng": {
+    "passed": true,
+    "errors": [],
+    "warnings": [],
+    "gun": [
+      {
+        "visible": true,
+        "selectedWeapon": "qjz89",
+        "motion": "QJZ89Idle",
+        "time": 3.1696666431427003,
+        "actualClip": "QJZ89Idle",
+        "handScale": 1,
+        "leftContactErrorM": 6.27283838652741e-8,
+        "rightContactErrorM": 9.987013939640846e-8,
+        "shoulderAssistDegrees": 0,
+        "triggerContactErrorM": null,
+        "chestReliefActive": false,
+        "rightForearmTwistDegrees": 40.09456113313974,
+        "rightUpperTwistDegrees": 17.217057011475635,
+        "rightPalmWorld": [
+          -0.19004693151355978,
+          1.321576501789937,
+          0.3082353850782311
+        ],
+        "rightTargetWorld": [
+          -0.1900470223543543,
+          1.3215765404874877,
+          0.3082353700950952
+        ],
+        "leftForearmTwistDegrees": 18.639013908050195,
+        "leftUpperTwistDegrees": -21.764334762753354,
+        "leftPalmWorld": [
+          -0.16665885327822488,
+          1.5136937996075446,
+          0.1562121607926582
+        ],
+        "leftTargetWorld": [
+          -0.16665882960760767,
+          1.5136938380500493,
+          0.156212117241242
+        ],
+        "supportTargetWorld": [
+          -0.16665882960760767,
+          1.5136938380500493,
+          0.156212117241242
+        ],
+        "weaponPosition": [
+          -0.17,
+          1.36,
+          0.35
+        ],
+        "weaponQuaternion": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "barrelPitchDegrees": 0,
+        "fixedEmplacement": true,
+        "modelScale": 1
+      },
+      {
+        "visible": true,
+        "selectedWeapon": "qjz89",
+        "motion": "QJZ89Aim",
+        "time": 1.1469999647140503,
+        "actualClip": "QJZ89Aim",
+        "handScale": 1,
+        "leftContactErrorM": 9.80102420098339e-8,
+        "rightContactErrorM": 1.1047737544213166e-7,
+        "shoulderAssistDegrees": 0,
+        "triggerContactErrorM": null,
+        "chestReliefActive": false,
+        "rightForearmTwistDegrees": 36.076872404837836,
+        "rightUpperTwistDegrees": 22.036366819229244,
+        "rightPalmWorld": [
+          -0.1900469631960706,
+          1.3215764578938265,
+          0.30823532669192627
+        ],
+        "rightTargetWorld": [
+          -0.1900470223543543,
+          1.3215765404874877,
+          0.3082353700950952
+        ],
+        "leftForearmTwistDegrees": -12.588318401216638,
+        "leftUpperTwistDegrees": -0.7741717736852765,
+        "leftPalmWorld": [
+          -0.16665882538356297,
+          1.5136937958887233,
+          0.1562122056187707
+        ],
+        "leftTargetWorld": [
+          -0.16665882960760767,
+          1.5136938380500493,
+          0.156212117241242
+        ],
+        "supportTargetWorld": [
+          -0.16665882960760767,
+          1.5136938380500493,
+          0.156212117241242
+        ],
+        "weaponPosition": [
+          -0.17,
+          1.36,
+          0.35
+        ],
+        "weaponQuaternion": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "barrelPitchDegrees": 0,
+        "fixedEmplacement": true,
+        "modelScale": 1
+      }
+    ],
+    "tank": [
+      {
+        "tank": {
+          "visible": true,
+          "role": "unmanned",
+          "driverRequired": false,
+          "motion": "TankIdle",
+          "time": 0,
+          "sourceClips": [],
+          "boneCount": 215,
+          "bounds": {
+            "min": [
+              -2.4548069429284687,
+              -5.551115123125783e-17,
+              -4.673698994638841
+            ],
+            "max": [
+              2.4590234097367634,
+              3.3861586981952003,
+              4.5263010053611605
+            ]
+          }
+        },
+        "active": "TankIdle",
+        "characterVisible": false,
+        "gunVisible": false
+      },
+      {
+        "tank": {
+          "visible": true,
+          "role": "unmanned",
+          "driverRequired": false,
+          "motion": "TankTurretAim",
+          "time": 1.25,
+          "sourceClips": [
+            "Turret_Aim_Demo"
+          ],
+          "boneCount": 215,
+          "bounds": {
+            "min": [
+              -2.4548069429284687,
+              -5.551115123125783e-17,
+              -4.673698994638841
+            ],
+            "max": [
+              2.4590234097367634,
+              3.3861586981952003,
+              4.5263010053611605
+            ]
+          }
+        },
+        "active": "TankTurretAim",
+        "characterVisible": false,
+        "gunVisible": false
+      },
+      {
+        "tank": {
+          "visible": true,
+          "role": "unmanned",
+          "driverRequired": false,
+          "motion": "TankRecoil",
+          "time": 0.18,
+          "sourceClips": [
+            "Gun_Recoil"
+          ],
+          "boneCount": 215,
+          "bounds": {
+            "min": [
+              -2.4548069429284687,
+              -5.551115123125783e-17,
+              -4.673698994638841
+            ],
+            "max": [
+              2.4590234097367634,
+              3.3861586981952003,
+              4.5263010053611605
+            ]
+          }
+        },
+        "active": "TankRecoil",
+        "characterVisible": false,
+        "gunVisible": false
+      },
+      {
+        "tank": {
+          "visible": true,
+          "role": "unmanned",
+          "driverRequired": false,
+          "motion": "TankMGAim",
+          "time": 1.25,
+          "sourceClips": [
+            "MG_Aim_Demo"
+          ],
+          "boneCount": 215,
+          "bounds": {
+            "min": [
+              -2.4548069429284687,
+              -5.551115123125783e-17,
+              -4.673698994638841
+            ],
+            "max": [
+              2.4590234097367634,
+              3.3861586981952003,
+              4.5263010053611605
+            ]
+          }
+        },
+        "active": "TankMGAim",
+        "characterVisible": false,
+        "gunVisible": false
+      },
+      {
+        "tank": {
+          "visible": true,
+          "role": "unmanned",
+          "driverRequired": false,
+          "motion": "TankTracks",
+          "time": 3.7,
+          "sourceClips": [
+            "Track_L_Cycle",
+            "Track_R_Cycle",
+            "Wheels_Forward_Loop"
+          ],
+          "boneCount": 215,
+          "bounds": {
+            "min": [
+              -2.4548069429284687,
+              -5.551115123125783e-17,
+              -4.673698994638841
+            ],
+            "max": [
+              2.4590234097367634,
+              3.3861586981952003,
+              4.5263010053611605
+            ]
+          }
+        },
+        "active": "TankTracks",
+        "characterVisible": false,
+        "gunVisible": false
+      }
+    ],
+    "mobileWidth": 390,
+    "restored": {
+      "motion": "QJZ89Aim",
+      "time": 1.1469999647140503
+    }
+  }
+}

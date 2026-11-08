@@ -1,0 +1,32 @@
+[
+  {
+    "name": "QJZ89Idle",
+    "label": "机枪站立待机",
+    "loop": true,
+    "emplacement_only": true,
+    "extra_bones": [
+      "ZG_Ponytail_01",
+      "ZG_Ponytail_02",
+      "ZG_Ponytail_03"
+    ],
+    "scale_bones": [
+      "mixamorig_LeftHand",
+      "mixamorig_RightHand"
+    ]
+  },
+  {
+    "name": "QJZ89Aim",
+    "label": "机枪站立瞄准",
+    "loop": true,
+    "emplacement_only": true,
+    "extra_bones": [
+      "ZG_Ponytail_01",
+      "ZG_Ponytail_02",
+      "ZG_Ponytail_03"
+    ],
+    "scale_bones": [
+      "mixamorig_LeftHand",
+      "mixamorig_RightHand"
+    ]
+  }
+]

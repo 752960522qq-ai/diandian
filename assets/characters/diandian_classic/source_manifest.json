@@ -98,5 +98,12 @@
     "Restore exact original head proportions at uniform scale",
     "Adapt hair and facial joints to the restored head",
     "Blend neck bridge into the restored head cross-section"
-  ]
+  ],
+  "hand_scale_revision44": {
+    "file": "diandian_classic_fixed.glb",
+    "scale": 0.9,
+    "persisted_in": "GLB hand nodes and all embedded hand-scale animation tracks",
+    "runtime_extra_multiplier": 1,
+    "report": "hand_scale_r44.json"
+  }
 }

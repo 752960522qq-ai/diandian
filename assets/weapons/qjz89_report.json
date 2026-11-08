@@ -1,0 +1,67 @@
+{
+  "id": "qjz89",
+  "source": "assets/weapons/source/qjz89_source.glb",
+  "output": "assets/weapons/qjz89.glb",
+  "scale": 1.670585196196188,
+  "origin": [
+    0.283,
+    0.33,
+    0
+  ],
+  "kind": "fixed_machine_gun",
+  "dimensionsPolicy": "User-specified gun-body length: 1640 mm from muzzle to stock; exclude the rear tripod foot, preserve uploaded proportions.",
+  "anchors": {
+    "right_grip": [
+      0.020047022354354294,
+      -0.03842345951251236,
+      0.04176462990490476
+    ],
+    "left_grip": [
+      -0.0033411703923923453,
+      0.15369383805004921,
+      0.19378788275875797
+    ],
+    "trigger": [
+      -5.551115123125783e-17,
+      0.020047022354354294,
+      -0.04510580029729694
+    ],
+    "muzzle": [
+      -2.220446049250313e-16,
+      0.11861154892992931,
+      -1.2962930099011492
+    ],
+    "stock_top": [
+      -0.0033411703923923453,
+      0.15369383805004921,
+      0.19378788275875797
+    ],
+    "butt_contact": [
+      -0.0016705851961962281,
+      0.08519984500600553,
+      0.3437069900988507
+    ]
+  },
+  "rear_support": {
+    "sourceNode": "Base2_tripo_part_1",
+    "outward_degrees": 42,
+    "pivot_source": [
+      0.145,
+      0.29,
+      0
+    ],
+    "purpose": "Clear the standing operator; ground placement remains deferred."
+  },
+  "rotation": [
+    0,
+    -0.7071067811865475,
+    0,
+    0.7071067811865476
+  ],
+  "translation": [
+    -1.1102230246251565e-16,
+    -0.5512931147447421,
+    -0.4727756105235211
+  ],
+  "sourceAnimations": []
+}

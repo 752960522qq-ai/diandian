@@ -1,0 +1,163 @@
+{
+  "source": "assets/weapons/source/qbu10_source.glb",
+  "output": "assets/weapons/qbu10.glb",
+  "uploaded_filename": "QBU-10.glb",
+  "source_sha256": "4bef51c43dd78afec84f4cde187c281d7fe4cad1ea7d2cdae69d68377a315daa",
+  "output_sha256": "cd646980e2144d27d7143959abaed72c74572dbb1578d7134ca0b580b4236c23",
+  "source_bytes": 1864172,
+  "output_bytes": 1865372,
+  "dimensions_policy": "User-specified total gun length: 1150 mm.",
+  "target_full_length_mm": 1150,
+  "source_bounds": {
+    "min": [
+      -0.49208953976631165,
+      0,
+      -0.16850239294581115
+    ],
+    "max": [
+      0.49004992842674255,
+      0.3369700312614441,
+      0.16716047865338624
+    ]
+  },
+  "source_origin": [
+    -0.001019805669784546,
+    0.16848501563072205,
+    -0.0006709571462124586
+  ],
+  "scale": 1.1709131312233856,
+  "rotation": [
+    0,
+    -0.7071067811865475,
+    0,
+    0.7071067811865476
+  ],
+  "translation": [
+    -0.0007856325329883366,
+    -0.1972813172163898,
+    0.0011941038500467849
+  ],
+  "normalized_bounds": {
+    "min": [
+      -0.19651603200982476,
+      -0.1972813172163898,
+      -0.5749999999999998
+    ],
+    "max": [
+      0.19651603200982468,
+      0.1972813172163898,
+      0.575
+    ],
+    "size": [
+      0.3930320640196494,
+      0.3945626344327796,
+      1.15
+    ]
+  },
+  "source_anchors": {
+    "right_grip": [
+      0.22,
+      0.125,
+      0.0001910868704925875
+    ],
+    "right_palm_surface": [
+      0.22,
+      0.125,
+      -0.012744026593410868
+    ],
+    "left_grip": [
+      0.013214099666346676,
+      0.19154998100959347,
+      -0.009211300347891188
+    ],
+    "trigger": [
+      0.17,
+      0.156,
+      -0.01
+    ],
+    "butt_contact": [
+      0.481877747013027,
+      0.19,
+      0
+    ],
+    "shoulder": [
+      0.481877747013027,
+      0.19,
+      0
+    ],
+    "muzzle": [
+      -0.49208953976631165,
+      0.23,
+      0
+    ]
+  },
+  "anchors": {
+    "right_grip": [
+      -0.0010093786588524223,
+      -0.050917175813466616,
+      0.2587949927191916
+    ],
+    "right_palm_surface": [
+      0.014136515549896533,
+      -0.050917175813466616,
+      0.2587949927191916
+    ],
+    "left_grip": [
+      0.009999999999999998,
+      0.027007070833333324,
+      0.016666666666666663
+    ],
+    "trigger": [
+      0.010923498779245533,
+      -0.014618868745541663,
+      0.20024933615802235
+    ],
+    "butt_contact": [
+      -0.0007856325329882452,
+      0.02519217771605345,
+      0.5654310854719407
+    ],
+    "shoulder": [
+      -0.0007856325329882452,
+      0.02519217771605345,
+      0.5654310854719407
+    ],
+    "muzzle": [
+      -0.0007856325329884672,
+      0.07202870296498888,
+      -0.575
+    ]
+  },
+  "directions": {
+    "barrel_forward": [
+      0,
+      0,
+      -1
+    ],
+    "right_grip_axis": [
+      -6.600990506345967e-17,
+      0.9037378388935388,
+      -0.42808634473904467
+    ],
+    "right_palm_normal": [
+      1,
+      0,
+      0
+    ],
+    "left_palm_normal": [
+      0,
+      -1,
+      0
+    ]
+  },
+  "mesh_count": 13,
+  "material_count": 1,
+  "image_count": 1,
+  "source_animations": [],
+  "preserved_binary": true,
+  "anchor_evidence": "Blender orthographic side/top inspection; stock, right palm and left palm locations intersect original surface triangles.",
+  "left_support_kind": "underside of rear handguard, immediately ahead of magazine; measured surface and standing rifle reach validated",
+  "limitations": [
+    "Open bipod retained exactly as uploaded; shoulder and arm placement are handled by the character attachment layer."
+  ]
+}

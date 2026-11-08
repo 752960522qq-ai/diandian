@@ -1,13 +1,14 @@
 import * as THREE from 'three';
+import { fixedGunMotionNames, applyFixedGunPose } from './fixed-machine-gun.js?v=weapons-r44';
 import { rocketMotions, rocketSupportWeight, rocketCarryWeight, applyRocketPosePath, fitRocketCarryReach } from './rocket-motion.js?v=pf89-r40';
 import { ChestSkinningRelief } from './chest-skinning.js?v=grip-r31';
 import { refineC96Rotation } from './c96-dynamics.js?v=clothing-r23';
 import { prepareC96ReloadPose, applyC96ReloadSupport } from './c96-reload.js?v=clothing-r23';
 
 const RIFLE_MOTIONS = new Set(['RifleIdle', 'RifleWalk', 'RifleAimingIdle', 'FiringRifle', 'RifleRun', 'Reloading']);
-const PISTOL_MOTIONS = new Set(['PistolIdle', 'PistolAimingIdle', 'PistolWalk']);
+const PISTOL_MOTIONS = new Set(['PistolIdle', 'PistolAimingIdle', 'PistolWalk', 'PistolShooting']);
 const SHOTGUN_MOTIONS = new Set(['ShotgunAimUp','ShotgunAimDown','ShotgunAimLevel','ShotgunPump']);
-const ARMED_MOTIONS = new Set([...RIFLE_MOTIONS, ...PISTOL_MOTIONS, ...SHOTGUN_MOTIONS, ...rocketMotions.map(m => m.name)]);
+const ARMED_MOTIONS = new Set([...fixedGunMotionNames, ...RIFLE_MOTIONS, ...PISTOL_MOTIONS, ...SHOTGUN_MOTIONS, ...rocketMotions.map(m => m.name)]);
 const vector = value => new THREE.Vector3().fromArray(value);
 const quaternion = value => new THREE.Quaternion().fromArray(value).normalize();
 
@@ -82,13 +83,12 @@ export class WeaponAttachment {
 
   applyHandScale() {
     const factor = this.character.hand_scale ?? 1;
-    if (factor !== 1 || this.appliedHandScale !== 1) {
-      // Reset from the captured rest scale so paused frames and seeks never compound.
-      for (const [bone, scale] of this.handBaseScales) bone.scale.copy(scale).multiplyScalar(factor);
-      this.model.root.updateMatrixWorld(true);
-    }
+    // R44 stores Diandian's 90% hand size in the GLB. Keep the authored rest
+    // scale after any imported clip; the runtime multiplier is now one.
+    for (const [bone, scale] of this.handBaseScales) bone.scale.copy(scale).multiplyScalar(factor);
+    this.model.root.updateMatrixWorld(true);
     this.appliedHandScale = factor;
-    return factor;
+    return factor * (this.character.baked_hand_scale ?? 1);
   }
 
   saveBone(bone) {
@@ -105,6 +105,7 @@ export class WeaponAttachment {
   mountFor(id, motion) {
     const mounts = this.character.mounts;
     const base = mounts[id] || mounts[this.config.weapons[id].type] || {};
+    if (motion === 'PistolShooting') motion = 'PistolAimingIdle';
     const clip = this.config.weapons[id].animation_overrides?.[motion];
     return {...base, ...(mounts[motion] || {}), ...(base.motions?.[motion] || {}), ...(clip ? base.motions?.[clip] || {} : {})};
   }
@@ -312,7 +313,7 @@ export class WeaponAttachment {
     this.motion = motion;
     if (PISTOL_MOTIONS.has(motion) && this.config.weapons[this.selectedWeapon].type !== 'pistol') this.selectedWeapon = this.lastPistol;
     else if (RIFLE_MOTIONS.has(motion) && this.config.weapons[this.selectedWeapon].type === 'pistol' && !this.config.weapons[this.selectedWeapon].compatible_motions?.includes(motion)) this.selectedWeapon = this.lastRifle;
-    const visible = this.model.wrapper.visible && ARMED_MOTIONS.has(motion) && !(this.selectedWeapon === 'pf89' && ((motion === 'RocketDiscard' && time >= .34) || (motion === 'RocketDraw' && time < .12)));
+    const visible = this.model.wrapper.visible && ARMED_MOTIONS.has(motion) && (this.selectedWeapon === 'qjz89' ? fixedGunMotionNames.has(motion) : !fixedGunMotionNames.has(motion)) && !(this.selectedWeapon === 'pf89' && ((motion === 'RocketDiscard' && time >= .34) || (motion === 'RocketDraw' && time < .12)));
     for (const [id, root] of this.weapons) root.visible = visible && id === this.selectedWeapon;
     this.state = {visible, selectedWeapon:this.selectedWeapon, motion, time, actualClip:this.config.weapons[this.selectedWeapon].animation_overrides?.[motion] || motion, handScale, leftContactErrorM:0, rightContactErrorM:0, shoulderAssistDegrees:0, triggerContactErrorM:null};
     this.chestSkinning.setEnabled(visible && ['RifleIdle', 'RifleWalk'].includes(motion) && !['pistol','rocket'].includes(this.config.weapons[this.selectedWeapon].type));
@@ -321,6 +322,7 @@ export class WeaponAttachment {
     if (!visible && !hiddenRocketTransition) return;
 
     const id = this.selectedWeapon;
+    if (id === 'qjz89') { applyFixedGunPose(this, motion, time); return; }
     const data = this.config.weapons[id];
     const mount = this.mountFor(id, motion);
     if (id === 'pf89') {
@@ -497,7 +499,7 @@ export class WeaponAttachment {
     }
     const leftHand = this.bones.LeftHand;
     const leftPalm = leftOffset.applyQuaternion(leftHand.getWorldQuaternion(new THREE.Quaternion())).add(leftHand.getWorldPosition(new THREE.Vector3()));
-    if ((['FiringRifle', 'PistolIdle', 'PistolAimingIdle'].includes(motion) || (id === 'pf89' && motion.startsWith('RocketFire'))) && mount.trigger_finger_ik === true && data.trigger) {
+    if ((['FiringRifle', 'PistolIdle', 'PistolAimingIdle', 'PistolShooting'].includes(motion) || (id === 'pf89' && motion.startsWith('RocketFire'))) && mount.trigger_finger_ik === true && data.trigger) {
       const trigger = gun.localToWorld(vector(data.trigger).add(new THREE.Vector3(.004, 0, 0)));
       this.fitTriggerFinger(trigger, mount.right_finger_pose_weight ?? this.character.finger_pose_weight ?? .6);
     }

@@ -1,0 +1,92 @@
+07:47:34 | INFO: Data are loaded, start creating Blender stuff
+07:47:34 | INFO: Blender create Mesh node meshes[0]
+07:47:34 | INFO: Blender create Mesh node tripo_51ce65ba_f95b_4b59_8830_b9ff5d867e1f
+07:47:35 | INFO: glTF import finished in 1.01s
+07:47:35 | INFO: Data are loaded, start creating Blender stuff
+07:47:35 | INFO: Blender create Mesh node Mesh_1
+07:47:35 | INFO: Blender create Mesh node Mesh_10
+07:47:35 | INFO: Blender create Mesh node Mesh_12
+07:47:35 | INFO: Blender create Mesh node Mesh_13
+07:47:35 | INFO: Blender create Mesh node Mesh_14
+07:47:35 | INFO: Blender create Mesh node Mesh_15
+07:47:35 | INFO: Blender create Mesh node Mesh_16
+07:47:35 | INFO: Blender create Mesh node Mesh_17
+07:47:35 | INFO: Blender create Mesh node Mesh_18
+07:47:35 | INFO: Blender create Mesh node Mesh_19
+07:47:35 | INFO: Blender create Mesh node Mesh_2
+07:47:35 | INFO: Blender create Mesh node Mesh_20
+07:47:35 | INFO: Blender create Mesh node Mesh_21
+07:47:35 | INFO: Blender create Mesh node Mesh_22
+07:47:35 | INFO: Blender create Mesh node Mesh_24
+07:47:35 | INFO: Blender create Mesh node Mesh_25
+07:47:35 | INFO: Blender create Mesh node Mesh_27
+07:47:35 | INFO: Blender create Mesh node Mesh_28
+07:47:35 | INFO: Blender create Mesh node Mesh_3
+07:47:35 | INFO: Blender create Mesh node Mesh_30
+07:47:35 | INFO: Blender create Mesh node Mesh_34
+07:47:35 | INFO: Blender create Mesh node Mesh_35
+07:47:35 | INFO: Blender create Mesh node Mesh_36
+07:47:35 | INFO: Blender create Mesh node Mesh_37
+07:47:35 | INFO: Blender create Mesh node Mesh_4
+07:47:35 | INFO: Blender create Mesh node Mesh_5
+07:47:35 | INFO: Blender create Mesh node Mesh_6
+07:47:35 | INFO: Blender create Mesh node Mesh_7
+07:47:35 | INFO: Blender create Mesh node Mesh_8
+07:47:35 | INFO: Blender create Mesh node Mesh_9
+07:47:35 | INFO: Blender create Mesh node Mesh_1.001
+07:47:35 | INFO: Blender create Mesh node Mesh_17.001
+07:47:35 | INFO: Blender create Mesh node Mesh_2.002
+07:47:35 | INFO: Blender create Mesh node Mesh_23.001
+07:47:35 | INFO: glTF import finished in 0.06s
+Info: No new files have been packed
+Info: Saved "motions.blend"
+BLENDER_R44_CHARACTER diandian ['QJZ89Aim', 'QJZ89Idle']
+07:47:36 | INFO: Data are loaded, start creating Blender stuff
+07:47:36 | INFO: Blender create Mesh node Zhigeng_Body_OriginalClothing_Cleaned
+07:47:36 | INFO: Blender create Mesh node tripo_mesh_dc05a519
+07:47:36 | INFO: Blender create Mesh node Zhigeng_Head2_CleanSkin_Cleaned
+07:47:37 | INFO: Blender create Mesh node Fine_Tapered_Eyelashes
+07:47:37 | INFO: Blender create Mesh node Zhigeng_Hair_InnerScalp
+07:47:37 | INFO: glTF import finished in 1.10s
+07:47:37 | INFO: Data are loaded, start creating Blender stuff
+07:47:37 | INFO: Blender create Mesh node Mesh_1
+07:47:37 | INFO: Blender create Mesh node Mesh_10
+07:47:37 | INFO: Blender create Mesh node Mesh_12
+07:47:37 | INFO: Blender create Mesh node Mesh_13
+07:47:37 | INFO: Blender create Mesh node Mesh_14
+07:47:37 | INFO: Blender create Mesh node Mesh_15
+07:47:37 | INFO: Blender create Mesh node Mesh_16
+07:47:37 | INFO: Blender create Mesh node Mesh_17
+07:47:37 | INFO: Blender create Mesh node Mesh_18
+07:47:37 | INFO: Blender create Mesh node Mesh_19
+07:47:37 | INFO: Blender create Mesh node Mesh_2
+07:47:37 | INFO: Blender create Mesh node Mesh_20
+07:47:37 | INFO: Blender create Mesh node Mesh_21
+07:47:37 | INFO: Blender create Mesh node Mesh_22
+07:47:37 | INFO: Blender create Mesh node Mesh_24
+07:47:37 | INFO: Blender create Mesh node Mesh_25
+07:47:37 | INFO: Blender create Mesh node Mesh_27
+07:47:37 | INFO: Blender create Mesh node Mesh_28
+07:47:37 | INFO: Blender create Mesh node Mesh_3
+07:47:37 | INFO: Blender create Mesh node Mesh_30
+07:47:37 | INFO: Blender create Mesh node Mesh_34
+07:47:37 | INFO: Blender create Mesh node Mesh_35
+07:47:37 | INFO: Blender create Mesh node Mesh_36
+07:47:37 | INFO: Blender create Mesh node Mesh_37
+07:47:37 | INFO: Blender create Mesh node Mesh_4
+07:47:37 | INFO: Blender create Mesh node Mesh_5
+07:47:37 | INFO: Blender create Mesh node Mesh_6
+07:47:37 | INFO: Blender create Mesh node Mesh_7
+07:47:37 | INFO: Blender create Mesh node Mesh_8
+07:47:37 | INFO: Blender create Mesh node Mesh_9
+07:47:37 | INFO: Blender create Mesh node Mesh_1.001
+07:47:37 | INFO: Blender create Mesh node Mesh_17.001
+07:47:37 | INFO: Blender create Mesh node Mesh_2.002
+07:47:37 | INFO: Blender create Mesh node Mesh_23.001
+07:47:37 | INFO: glTF import finished in 0.06s
+Info: No new files have been packed
+Info: Saved "motions.blend"
+BLENDER_R44_CHARACTER zhigeng ['QJZ89Aim', 'QJZ89Idle']
+Blender 4.3.2
+
+Blender quit

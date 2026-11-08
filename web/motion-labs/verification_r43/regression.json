@@ -1,0 +1,17 @@
+{
+  "baseline": "Published R42 Sites source",
+  "characters": {
+    "diandian": {
+      "weapons": 11,
+      "sampledPoses": 342,
+      "maxDelta": 0,
+      "configurationUnchanged": true
+    },
+    "zhigeng": {
+      "weapons": 11,
+      "sampledPoses": 342,
+      "maxDelta": 0,
+      "configurationUnchanged": true
+    }
+  }
+}

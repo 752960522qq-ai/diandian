@@ -7,13 +7,13 @@
   <meta name="description" content="点点经典形象的动作与面部绑定测试。切换待机、走路和跑步，近看头部运动，并对照修复前后的表现。">
   <title>点点 · 动作校准室</title>
   <link rel="icon" type="image/svg+xml" href="./favicon.svg">
-  <link rel="stylesheet" href="./styles.css?v=clothing-r23">
+  <link rel="stylesheet" href="./styles.css?v=weapons-r44">
   <script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
 </head>
 <body>
   <header class="topbar">
     <a class="brand" href="./" aria-label="点点动作校准室首页"><span class="brand-mark"><i></i><i></i></span><span>点点<span class="brand-divider">/</span><span class="brand-sub">动作校准室</span></span></a>
-    <span class="edition"><span></span>人物武器适配</span>
+    <span class="edition"><span></span>人物与物件适配</span>
   </header>
   <main class="workspace">
     <section class="stage-card" aria-label="点点三维动作预览">
@@ -33,8 +33,8 @@
     </section>
     <aside class="panel">
       <div class="panel-intro"><span class="eyebrow">MOTION STUDY / 01</span><h2>和点点动起来</h2><p>切换动作，看看头部和身体<br class="desktop-break">是否配合得恰到好处。</p></div>
-      <section class="control-section weapon-section"><div class="section-title"><h3>装配武器</h3><span id="weapon-label">QBZ95</span></div><div class="segmented weapon-toggle" role="group" aria-label="装配武器"><button data-weapon="qsz92" disabled>QSZ92</button><button data-weapon="type54" disabled>54式</button><button data-weapon="c96" disabled>C96</button><button data-weapon="qcq171" disabled>QCQ171</button><button data-weapon="qbz95" class="active" disabled>QBZ95</button><button data-weapon="type56_1" disabled>56-1</button><button data-weapon="hanyang88" disabled>汉阳造</button><button data-weapon="qbu85" disabled>QBU85</button><button data-weapon="winchester1897" disabled>M1897</button><button data-weapon="type97hawk" disabled>97式防暴枪</button><button data-weapon="pf89" aria-pressed="false" disabled>PF89</button></div></section>
-      <section class="control-section"><div class="section-title"><h3>选择动作</h3><span id="motion-count">正在读取</span></div><div class="motion-grid" id="motion-buttons"></div></section>
+      <section class="control-section weapon-section"><div class="section-title"><h3>装配武器</h3><span id="weapon-label">QBZ95</span></div><div class="segmented weapon-toggle" role="group" aria-label="装配武器"><button data-weapon="qsz92" disabled>QSZ92</button><button data-weapon="type54" disabled>54式</button><button data-weapon="c96" disabled>C96</button><button data-weapon="qcq171" disabled>QCQ171</button><button data-weapon="qbz95" class="active" disabled>QBZ95</button><button data-weapon="type56_1" disabled>56-1</button><button data-weapon="hanyang88" disabled>汉阳造</button><button data-weapon="qbu85" disabled>QBU85</button><button data-weapon="qbu10" disabled>QBU-10</button><button data-weapon="winchester1897" disabled>M1897</button><button data-weapon="type97hawk" disabled>97式防暴枪</button><button data-weapon="pf89" aria-pressed="false" disabled>PF89</button><button data-weapon="qjz89" aria-pressed="false" disabled>QJZ89 固定机枪</button></div></section>
+      <section class="control-section"><div class="section-title"><h3>选择动作</h3><span id="motion-count">正在读取</span></div><label class="motion-filter-label" for="motion-filter">动作分类<select id="motion-filter"><option value="new">独立动作 · 8 个</option><option value="existing">原有动作</option><option value="all">全部动作</option></select></label><div class="motion-grid" id="motion-buttons"></div></section>
       <section class="control-section shotgun-aim-section" id="shotgun-aim-controls" hidden>
         <div class="section-title"><h3>霰弹枪俯仰</h3><output id="aim-pitch-label" for="aim-pitch">平视</output></div>
         <input id="aim-pitch" type="range" min="-1" max="1" value="0" step="0.01" aria-label="霰弹枪瞄准俯仰，下瞄极限至上瞄极限">
@@ -47,9 +47,10 @@
       <section class="control-section skeleton-section"><label class="toggle-row" for="skeleton"><span><strong>显示骨骼</strong><small>观察头颈与身体的连接</small></span><span class="switch"><input id="skeleton" type="checkbox"><span></span></span></label></section>
       <section class="control-section face-section" id="face-controls" hidden><div class="section-title"><h3>面部测试</h3><span>适配后</span></div><div id="face-sliders"></div></section>
       <div class="hint-card"><span class="hint-icon">↗</span><p><strong>近一点，看得更清楚</strong><span>试试头部或手部特写与慢速播放，查看发型贴合和指节弯曲。</span></p></div>
+      <a class="vehicle-lab-link" href="https://type59d-motion-lab.expert-eagle-6942.chatgpt.site">59D 无人坦克独立测试场 <span>↗</span></a>
     </aside>
   </main>
   <footer><span class="footer-mark"><i></i><i></i></span><span>点点滴滴</span><span class="footer-line"></span><span>经典形象，继续出发。</span><span class="footer-right">角色动作测试</span></footer>
-  <script type="module" src="./app.js?v=pf89-r40"></script>
+  <script type="module" src="./app.js?v=weapons-r44"></script>
 </body>
 </html>

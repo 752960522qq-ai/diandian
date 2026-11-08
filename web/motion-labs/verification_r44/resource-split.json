@@ -1,0 +1,27 @@
+{
+  "tank_model_bytes_removed_from_each_character_site": 23366876,
+  "original_behavior": "R43 tank was lazy-loaded on request, not automatically in the first character view.",
+  "final_packages": [
+    {
+      "site": "tank",
+      "files": 12,
+      "bytes": 25593026,
+      "glb_files": 1,
+      "glb_bytes": 23366876
+    },
+    {
+      "site": "diandian",
+      "files": 49,
+      "bytes": 132968585,
+      "glb_files": 20,
+      "glb_bytes": 62486444
+    },
+    {
+      "site": "zhigeng",
+      "files": 45,
+      "bytes": 65226546,
+      "glb_files": 20,
+      "glb_bytes": 62275200
+    }
+  ]
+}

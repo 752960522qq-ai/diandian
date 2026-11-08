@@ -1,0 +1,85 @@
+{
+  "passed": true,
+  "samples": [
+    {
+      "character": "diandian",
+      "motion": "QJZ89Idle",
+      "time": 0,
+      "intersections": {
+        "Base2_tripo_part_1": 0,
+        "Base2_tripo_part_3": 0,
+        "Base2_tripo_part_7": 0
+      }
+    },
+    {
+      "character": "diandian",
+      "motion": "QJZ89Idle",
+      "time": 4.2,
+      "intersections": {
+        "Base2_tripo_part_1": 0,
+        "Base2_tripo_part_3": 0,
+        "Base2_tripo_part_7": 0
+      }
+    },
+    {
+      "character": "diandian",
+      "motion": "QJZ89Aim",
+      "time": 0,
+      "intersections": {
+        "Base2_tripo_part_1": 0,
+        "Base2_tripo_part_3": 0,
+        "Base2_tripo_part_7": 0
+      }
+    },
+    {
+      "character": "diandian",
+      "motion": "QJZ89Aim",
+      "time": 1.55,
+      "intersections": {
+        "Base2_tripo_part_1": 0,
+        "Base2_tripo_part_3": 0,
+        "Base2_tripo_part_7": 0
+      }
+    },
+    {
+      "character": "zhigeng",
+      "motion": "QJZ89Idle",
+      "time": 0,
+      "intersections": {
+        "Base2_tripo_part_1": 0,
+        "Base2_tripo_part_3": 0,
+        "Base2_tripo_part_7": 0
+      }
+    },
+    {
+      "character": "zhigeng",
+      "motion": "QJZ89Idle",
+      "time": 4.2,
+      "intersections": {
+        "Base2_tripo_part_1": 0,
+        "Base2_tripo_part_3": 0,
+        "Base2_tripo_part_7": 0
+      }
+    },
+    {
+      "character": "zhigeng",
+      "motion": "QJZ89Aim",
+      "time": 0,
+      "intersections": {
+        "Base2_tripo_part_1": 0,
+        "Base2_tripo_part_3": 0,
+        "Base2_tripo_part_7": 0
+      }
+    },
+    {
+      "character": "zhigeng",
+      "motion": "QJZ89Aim",
+      "time": 1.55,
+      "intersections": {
+        "Base2_tripo_part_1": 0,
+        "Base2_tripo_part_3": 0,
+        "Base2_tripo_part_7": 0
+      }
+    }
+  ]
+}

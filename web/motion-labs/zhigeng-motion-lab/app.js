@@ -1,17 +1,19 @@
 import * as THREE from 'three';
+import {fixedGunMotions, fixedGunMotionNames, installFixedGunMotions} from './fixed-machine-gun.js?v=weapons-r44';
+import { uploadedMotions, uploadedMotionNames, measureUploadedMotions, createMotionContext } from './uploaded-motion.js?v=weapons-r44';
 import { selectableMotions } from './motion-catalog.js?v=pf89-r40';
 import { installRocketMotions, rocketMotions, rocketLabels } from './rocket-motion.js?v=pf89-r40';
 import { installType97Motions } from './type97-motion.js?v=grip-r31';
 import { GLTFLoader } from './vendor/GLTFLoader.js';
 import { OrbitControls } from './vendor/OrbitControls.js';
-import { WeaponAttachment } from './weapon-attachment.js?v=pf89-r40';
+import { WeaponAttachment } from './weapon-attachment.js?v=weapons-r44';
 import { PonytailPhysics } from './ponytail-physics.js';
 
 const $ = (selector) => document.querySelector(selector);
 const motionLabels = {};
 const motionOptions = {};
 const motionIcons = {"Idle": "<svg viewBox=\"0 0 32 32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"16\" cy=\"5.5\" r=\"2.5\"/><path d=\"M16 11v9m-5-7 5-2 5 2M13 29l3-9 3 9M11 13v7m10-7v7\"/></svg>", "Walk": "<svg viewBox=\"0 0 32 32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"18\" cy=\"5.5\" r=\"2.5\"/><path d=\"m17 11-3 9 7 7m-7-7-4 8m6-14 5 4 4-1m-9-5-6 4-2 5\"/></svg>", "Run": "<svg viewBox=\"0 0 32 32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"21\" cy=\"5.5\" r=\"2.5\"/><path d=\"m18 11-6 9 8 3-2 6m-6-9-5 7H3m12-12 7 3 5-5m-9-2-7-2-3 5\"/></svg>", "HeadStress": "<svg viewBox=\"0 0 32 32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 8a5 5 0 0 1 10 0v5a5 5 0 0 1-10 0zM10 28v-3a7 7 0 0 1 14 0v3M5 8v9m0 0-3-3m3 3 3-3M28 17V8m0 0-3 3m3-3 3 3\"/></svg>"};
-const state = { ready: false, playing: true, speed: 1, motion: 'Idle', weapon: 'qbz95', lastRifleWeapon: 'qbz95', lastPistolWeapon: 'qsz92', version: 'fixed', framing: 'full', angle: 'front', time: 0, duration: 0, aimPitch: 0, skeleton: false, ponytailPhysics: true, faceValues: {}, metadata: null, error: null };
+const state = { ready: false, playing: true, speed: 1, motion: 'Idle', motionFilter: 'new', weapon: 'qbz95', lastRifleWeapon: 'qbz95', lastPistolWeapon: 'qsz92', version: 'fixed', framing: 'full', angle: 'front', time: 0, duration: 0, aimPitch: 0, skeleton: false, ponytailPhysics: true, faceValues: {}, metadata: null, error: null };
 const models = new Map();
 const stage = $('#stage');
 const canvas = $('#viewport');
@@ -98,7 +100,7 @@ const shotgunMotions = [
   {name: 'ShotgunAimDown', label: '下瞄极限', loop: true, shotgun_only: true, pitch_only: true},
   {name: 'ShotgunPump', label: '霰弹枪拉泵', loop: false, shotgun_only: true}
 ];
-const usesPitchAim = () => isShotgun() && !weaponConfig?.weapons[state.weapon]?.hybrid_upper_actions;
+const usesPitchAim = () => !uploadedMotionNames.has(state.motion) && isShotgun() && !weaponConfig?.weapons[state.weapon]?.hybrid_upper_actions;
 const isShotgun = () => weaponConfig?.weapons[state.weapon]?.type === 'shotgun';
 function optionsFor(name) {
   const options = motionOptions[name] || {};
@@ -144,7 +146,7 @@ function setAimPitch(value) {
 }
 
 function setMotionControls(info) {
-  const buttons = selectableMotions(info.motions, shotgunMotions, rocketMotions).map(motion => {
+  const buttons = selectableMotions(info.motions, shotgunMotions, rocketMotions, uploadedMotions, fixedGunMotions).map(motion => {
     motionLabels[motion.name] = motion.label;
     motionOptions[motion.name] = motion;
     const button = document.createElement('button');
@@ -223,6 +225,9 @@ function prepareModel(gltf, version) {
 
 function actionFor(model, name) {
   if (!model) return;
+  if (fixedGunMotionNames.has(name)) return state.weapon === 'qjz89' && model === models.get('fixed') ? model.actions.get(name) : undefined;
+  if (state.weapon === 'qjz89' && !uploadedMotionNames.has(name)) return undefined;
+  if (uploadedMotionNames.has(name)) return model === models.get('fixed') ? model.actions.get(name) : undefined;
   let weapon = state.weapon;
   const type = weaponConfig?.weapons[weapon]?.type;
   if (motionOptions[name]?.rocket_only && type !== 'rocket') return;
@@ -230,7 +235,7 @@ function actionFor(model, name) {
   if (motionOptions[name]?.shotgun_only && type !== 'shotgun') return;
   if (motionOptions[name]?.pitch_only && !usesPitchAim()) return;
   if (name === 'ShotgunPump') return model.actions.get(weaponConfig?.weapons[weapon]?.animation_overrides?.[name] || 'ShotgunPumpLevel');
-  if (['PistolIdle', 'PistolAimingIdle', 'PistolWalk'].includes(name) && type && type !== 'pistol') weapon = state.lastPistolWeapon;
+  if (['PistolIdle', 'PistolAimingIdle', 'PistolWalk', 'PistolShooting'].includes(name) && type && type !== 'pistol') weapon = state.lastPistolWeapon;
   if (['RifleIdle', 'RifleWalk', 'RifleAimingIdle', 'FiringRifle', 'RifleRun', 'Reloading'].includes(name) && type === 'pistol') weapon = state.lastRifleWeapon;
   const mapped = weaponConfig?.weapons[weapon]?.animation_overrides?.[name];
   return model.actions.get(mapped) || model.actions.get(name);
@@ -303,8 +308,11 @@ function refreshMotionLabels() {
     const captions = {RifleAimingIdle: '可调俯仰 · 动态混合', ShotgunAimUp: '俯仰上限 · 原始端点', ShotgunAimDown: '俯仰下限 · 原始端点', ShotgunAimLevel: '水平 0° · 独立姿态', ShotgunPump: '单次 · 拉泵及复位', FiringRifle: '单次 · 后坐力', Reloading: '完整装填'};
     const caption = button.querySelector('small');
     if (caption) caption.textContent = isShotgun() && (!weaponConfig.weapons[state.weapon].hybrid_upper_actions || ['FiringRifle','ShotgunPump'].includes(button.dataset.motion)) && captions[button.dataset.motion] || button.dataset.caption;
-    button.hidden = (!!motionOptions[button.dataset.motion]?.shotgun_only && !isShotgun()) || (!!motionOptions[button.dataset.motion]?.pitch_only && !usesPitchAim()) || (!!motionOptions[button.dataset.motion]?.rocket_only && state.weapon !== 'pf89') || (state.weapon === 'pf89' && !rocketLabels[button.dataset.motion] && !motionOptions[button.dataset.motion]?.rocket_only);
-    if (state.weapon === 'pf89' && caption) caption.textContent = optionsFor(button.dataset.motion).loop === false ? '单次动作' : '循环播放';
+    const added = uploadedMotionNames.has(button.dataset.motion);
+    button.hidden = (state.motionFilter === 'new' && !added) || (state.motionFilter === 'existing' && added) || (!added && ((!!motionOptions[button.dataset.motion]?.shotgun_only && !isShotgun()) || (!!motionOptions[button.dataset.motion]?.pitch_only && !usesPitchAim()) || (!!motionOptions[button.dataset.motion]?.rocket_only && state.weapon !== 'pf89') || (state.weapon === 'pf89' && !rocketLabels[button.dataset.motion] && !motionOptions[button.dataset.motion]?.rocket_only)));
+    button.hidden ||= (fixedGunMotionNames.has(button.dataset.motion) && state.weapon !== 'qjz89') || (state.weapon === 'qjz89' && !added && !fixedGunMotionNames.has(button.dataset.motion));
+    if (fixedGunMotionNames.has(button.dataset.motion) && caption) caption.textContent = '右手握把 · 左手扶枪托';
+    if (state.weapon === 'pf89' && !added && caption) caption.textContent = optionsFor(button.dataset.motion).loop === false ? '单次动作' : '循环播放';
     button.disabled = !actionFor(models.get('fixed'), button.dataset.motion);
   });
   $('#current-motion').textContent = displayMotionLabel(state.motion);
@@ -315,22 +323,23 @@ function refreshMotionLabels() {
 function selectWeapon(id, switchMotion = true) {
   if (state.version !== 'fixed') setVersion('fixed');
   state.weapon = id;
+  if (switchMotion) { state.motionFilter = 'existing'; $('#motion-filter').value = state.motionFilter; }
   const isPistol = weaponConfig.weapons[id].type === 'pistol';
-  if (isPistol) state.lastPistolWeapon = id; else state.lastRifleWeapon = id;
+  if (isPistol) state.lastPistolWeapon = id; else if (id !== 'qjz89') state.lastRifleWeapon = id;
   models.get('fixed')?.weaponAttachment?.setWeapon(id);
   setActive('[data-weapon]', 'weapon', id);
-  $('#weapon-label').textContent = weaponConfig.weapons[id].display_name;
+  $('#weapon-label').textContent = weaponConfig.weapons[id].display_name + (id === 'qjz89' ? ' · 1640 mm' : id === 'qbu10' ? ' · 1150 mm' : '');
   refreshMotionLabels();
-  if (switchMotion) setMotion(isPistol ? 'PistolIdle' : 'RifleIdle');
+  if (switchMotion) setMotion(id === 'qjz89' ? 'QJZ89Idle' : isPistol ? 'PistolIdle' : 'RifleIdle');
   else if (state.ready) setMotion(motionOptions[state.motion]?.shotgun_only && !isShotgun() ? (isPistol ? 'PistolIdle' : 'RifleIdle') : state.motion);
   if (state.ready) frameCamera();
 }
 
 async function equipWeapons() {
-  const config = await fetch('./assets/weapon_attachment.json?v=pf89-r40').then(r => r.json());
+  const config = await fetch('./assets/weapon_attachment.json?v=weapons-r44').then(r => r.json());
   weaponConfig = config;
   const scenes = new Map(await Promise.all(Object.keys(config.weapons).map(async id => {
-    const gltf = await loader.loadAsync('./assets/weapons/' + id + '.glb?v=clothing-r23');
+    const gltf = await loader.loadAsync('./assets/weapons/' + id + '.glb?v=weapons-r44');
     return [id, gltf.scene];
   })));
   models.get('fixed').weaponAttachment = new WeaponAttachment(models.get('fixed'), config, 'zhigeng', scenes, scene);
@@ -342,11 +351,15 @@ async function equipWeapons() {
 }
 
 async function equipMotionPack() {
-  const packs = await Promise.all(['motion_additions.glb', 'leon_pistol_animations.glb', 're4_shotgun_animations.glb', 're4_rocket_upper.glb'].map(file => loader.loadAsync('./assets/' + file + '?v=clothing-r23')));
+  const packs = await Promise.all(['motion_additions.glb', 'leon_pistol_animations.glb', 're4_shotgun_animations.glb', 're4_rocket_upper.glb', 'uploaded_motions.glb'].map(file => loader.loadAsync('./assets/' + file + '?v=weapons-r44')));
   const model = models.get('fixed');
   for (const pack of packs) for (const clip of pack.animations) model.actions.set(clip.name, model.mixer.clipAction(clip));
   model.type97Composition = installType97Motions(model);
   model.rocketComposition = installRocketMotions(model);
+  installFixedGunMotions(model);
+  model.uploadedBounds = measureUploadedMotions(model);
+  model.motionContext = createMotionContext(model, scene);
+  setModelAction(model, state.motion);
 }
 
 function setMotion(name) {
@@ -356,7 +369,7 @@ function setMotion(name) {
   if (name === 'ShotgunAimDown') state.aimPitch = -1;
   if (name === 'ShotgunAimLevel') state.aimPitch = 0;
   updateAimControl();
-  if (['PistolIdle', 'PistolAimingIdle', 'PistolWalk'].includes(name) && weaponConfig.weapons[state.weapon].type !== 'pistol') selectWeapon(state.lastPistolWeapon, false);
+  if (['PistolIdle', 'PistolAimingIdle', 'PistolWalk', 'PistolShooting'].includes(name) && weaponConfig.weapons[state.weapon].type !== 'pistol') selectWeapon(state.lastPistolWeapon, false);
   if (['RifleIdle','RifleWalk','RifleAimingIdle','FiringRifle','RifleRun','Reloading'].includes(name) && weaponConfig.weapons[state.weapon].type === 'pistol' && !weaponConfig.weapons[state.weapon].compatible_motions?.includes(name)) selectWeapon(state.lastRifleWeapon, false);
   if (state.version === 'before' && !actionFor(models.get('before'), name)) setVersion('fixed');
   updateComparisonAvailability();
@@ -368,6 +381,11 @@ function setMotion(name) {
   setActive('[data-motion]', 'motion', name);
   setPlaying(true);
   updateTimeline();
+  evaluateModel(models.get('fixed'));
+  scene.updateMatrixWorld(true);
+  models.get('fixed').motionContext?.setMotion(name);
+  refreshMotionLabels();
+  if (uploadedMotionNames.has(name)) frameCamera();
   resetPonytails();
 }
 
@@ -429,7 +447,17 @@ function frameCamera(animate = true) {
     target.y = .17;
   }
   if (hands) target = handTarget();
-  const distance = head ? .9 : feet ? 1.4 : hands ? .48 : shotgunFull ? 4.8 : 3.8;
+  let distance = head ? .9 : feet ? 1.4 : hands ? .48 : shotgunFull ? 4.8 : state.weapon === 'qjz89' ? 5 : state.weapon === 'qbu10' ? 4.8 : 3.8;
+  if (state.weapon === 'qjz89' && state.framing === 'full') target.z += .5;
+  if (state.weapon === 'qbu10' && state.framing === 'full') target.z += .3;
+  const addedBounds = models.get(state.version)?.uploadedBounds?.get(state.motion);
+  if (state.framing === 'full' && addedBounds) {
+    target = addedBounds.getCenter(new THREE.Vector3());
+    const size = addedBounds.getSize(new THREE.Vector3());
+    const width = state.angle === 'side' ? size.z : size.x;
+    distance = Math.max(size.y, width / camera.aspect) / (2 * Math.tan(THREE.MathUtils.degToRad(camera.fov / 2))) + Math.max(size.x, size.z) * .55;
+    controls.maxDistance = 16;
+  } else controls.maxDistance = 7;
   const direction = state.angle === 'side' ? new THREE.Vector3(1, .035, .04) : state.angle === 'back' ? new THREE.Vector3(0, .015, -1) : new THREE.Vector3(0, .015, 1);
   const position = target.clone().addScaledVector(direction.normalize(), distance);
   if (animate) cameraTransition = { fromPosition: camera.position.clone(), fromTarget: controls.target.clone(), position, target, elapsed: 0, handOffset: hands ? position.clone().sub(target) : null };
@@ -522,11 +550,15 @@ function resetFace() {
 }
 
 function setPlaying(playing) {
-  if (playing && state.ready && state.time >= state.duration && optionsFor(state.motion).loop === false) setMotion(state.motion);
+  if (playing && state.ready && state.time >= state.duration && optionsFor(state.motion).loop === false) {
+    setMotion(state.motion);
+  }
   state.playing = playing;
   $('#play-toggle').setAttribute('aria-label', playing ? '暂停播放' : '播放动作');
   $('#play-icon').innerHTML = playing ? '<path d="M7 5h3v14H7zm7 0h3v14h-3z"/>' : '<path d="m8 4 12 8-12 8z"/>';
 }
+
+$('#motion-filter').addEventListener('change', event => { state.motionFilter = event.target.value; refreshMotionLabels(); });
 
 $('#motion-buttons').addEventListener('click', event => {
   const button = event.target.closest('[data-motion]');
@@ -622,8 +654,7 @@ async function load() {
   scene.updateMatrixWorld(true);
   model.ponytail = new PonytailPhysics(model, physicsConfig);
   state.ready = true;
-  selectWeapon('pf89');
-  setMotion('RifleIdle');
+  selectWeapon('qjz89');
   scene.updateMatrixWorld(true);
   frameCamera(false);
   for (const button of document.querySelectorAll('[data-motion]')) button.disabled = !actionFor(models.get('fixed'), button.dataset.motion);
@@ -649,7 +680,7 @@ window.zhigengLab = {
   getState: () => ({ ...state, availableMotions: Object.keys(motionLabels).filter(name => actionFor(models.get('fixed'), name)), loadedVersions: [...models.keys()], boneCount: new Set(models.get('fixed')?.bones.values() || []).size, faceControls: metadata?.face_controls || [] }),
   selectWeapon,
   getActiveClip: () => activeClips().sort((a, b) => b.weight - a.weight)[0]?.name,
-  getActiveClips: activeClips,
+  getActiveClips: () => activeClips(),
   setAimPitch,
   getWeaponState: () => models.get('fixed')?.weaponAttachment?.getState(),
   setMotion, setVersion, setPlaying, resetFace,

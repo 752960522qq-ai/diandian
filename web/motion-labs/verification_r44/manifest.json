@@ -1,0 +1,349 @@
+{
+  "revision": "R44",
+  "generated_at_utc": "2026-11-08T08:01:56.813574+00:00",
+  "github_head_unchanged": "eb6133bbb89884863923f7b50844e4169e876285",
+  "github_pushed": false,
+  "qbu10_user_length_mm": 1150,
+  "qjz89_gun_body_mm": 1640,
+  "type59d_total_mm": 9200,
+  "unchanged_models_from_r43": [
+    "assets/weapons/qjz89.glb",
+    "assets/vehicles/type59d/type59d.glb"
+  ],
+  "removed_from_character_sites": [
+    "unmanned-tank.js",
+    "assets/vehicles/type59d.glb"
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 3022,
+      "sha256": "fb0d730cee06e2bea2eb4279e730c2a265bb0a78c01b14b13f3658e21445681c"
+    },
+    {
+      "path": "assets/animations/emplacements_r44/README.md",
+      "bytes": 860,
+      "sha256": "be776b5576a908c2c006dd0987fdf15b66b4e40be75fab89ce6eecabe42ab027"
+    },
+    {
+      "path": "assets/animations/emplacements_r44/catalog.json",
+      "bytes": 600,
+      "sha256": "36142fe2268d0d5b56fc930d34ca74e5e9f3815dccd19058abec90bc3c7d5bbb"
+    },
+    {
+      "path": "assets/animations/emplacements_r44/diandian/authoring.json",
+      "bytes": 2167,
+      "sha256": "c6253ed0376fb231a5d56cbf24e907cffa0e45ea759493aad7d94bbb9c2e9bdb"
+    },
+    {
+      "path": "assets/animations/emplacements_r44/diandian/motions.blend",
+      "bytes": 15206773,
+      "sha256": "91997b494bd006d1d2ef8bf33fd03d6983b764e7b3ab737a21337d205a73a9fb"
+    },
+    {
+      "path": "assets/animations/emplacements_r44/diandian/uploaded_motions.glb",
+      "bytes": 869856,
+      "sha256": "fd656f96ee56cd0e248d96c5221a40779c1ebddb351b707cb3a01e71ea8ae8a2"
+    },
+    {
+      "path": "assets/animations/emplacements_r44/zhigeng/authoring.json",
+      "bytes": 2162,
+      "sha256": "dffc24fe7dce592da012d2e673dd76c6333a48a0d3fe8d9298befd5cdd01a324"
+    },
+    {
+      "path": "assets/animations/emplacements_r44/zhigeng/motions.blend",
+      "bytes": 15079583,
+      "sha256": "34a5b59f32605edb91cc3c657b6b7b76696312d558d2371136c1847b52c81ecc"
+    },
+    {
+      "path": "assets/animations/emplacements_r44/zhigeng/uploaded_motions.glb",
+      "bytes": 903296,
+      "sha256": "80c84a588c567b46e207d87d762a28578e70437756cbb8ba5d05cccdb121145d"
+    },
+    {
+      "path": "assets/characters/diandian_classic/diandian_classic_fixed.glb",
+      "bytes": 28875000,
+      "sha256": "9185d0cc3bc78b3348a58e1a7660b23d52503ddf7381ea86d4d659b107729bf4"
+    },
+    {
+      "path": "assets/characters/diandian_classic/hand_scale_r44.json",
+      "bytes": 1211,
+      "sha256": "80d29b3330e0453382706fd6bf794c2b0e2ffef0ba19ab440646bcada5559de0"
+    },
+    {
+      "path": "assets/characters/diandian_classic/hand_scale_r44.md",
+      "bytes": 790,
+      "sha256": "2b21202cb03eabd57830f2d8f9b2654440e3291a3c3247181bc82bb75b59afb6"
+    },
+    {
+      "path": "assets/characters/diandian_classic/source_manifest.json",
+      "bytes": 3724,
+      "sha256": "31a291117baa8aa69281136884ca570fdb2341261183873936a6cba88809e28d"
+    },
+    {
+      "path": "assets/vehicles/type59d/README.md",
+      "bytes": 1471,
+      "sha256": "17d4538d9a2f129fbcbe440d6be50b129615a4558ee96e0950ac776f8d801efb"
+    },
+    {
+      "path": "assets/vehicles/type59d/type59d.glb",
+      "bytes": 23366876,
+      "sha256": "f9a58c43fef3855948b55ef11d48e467c31148839929aaf5d861ceaa728a2939"
+    },
+    {
+      "path": "assets/weapons/character_attachment.json",
+      "bytes": 105309,
+      "sha256": "b8c655cfcfdb6383d1d15c3000039a39fbfaf125389999a66e2d9ca2c531c9c1"
+    },
+    {
+      "path": "assets/weapons/qbu10.glb",
+      "bytes": 1865372,
+      "sha256": "cd646980e2144d27d7143959abaed72c74572dbb1578d7134ca0b580b4236c23"
+    },
+    {
+      "path": "assets/weapons/qbu10_README.md",
+      "bytes": 807,
+      "sha256": "f616cd448cfc8e9a1e7813a2babe3b7db10c7c2862e445f8310852ee280ba420"
+    },
+    {
+      "path": "assets/weapons/qbu10_report.json",
+      "bytes": 3507,
+      "sha256": "c5bbacef4c9261c7ada3416c84d4109b28e088c82533f30991840d29d7acb2e0"
+    },
+    {
+      "path": "assets/weapons/qjz89.glb",
+      "bytes": 2305232,
+      "sha256": "b930aaa01944d7bf20e68e90737e1d279f93f17aa426872624ef48e5cb6ddc9a"
+    },
+    {
+      "path": "assets/weapons/qjz89_report.json",
+      "bytes": 1487,
+      "sha256": "32809ac892a28086e06705e6005c858eefda66e690fcda5625ed74ab3a904d6f"
+    },
+    {
+      "path": "assets/weapons/source/qbu10_source.glb",
+      "bytes": 1864172,
+      "sha256": "4bef51c43dd78afec84f4cde187c281d7fe4cad1ea7d2cdae69d68377a315daa"
+    },
+    {
+      "path": "godot/data/scene_objects.json",
+      "bytes": 1294,
+      "sha256": "4519257046e387910c21ae8b4c910495e49de45f80935a9c21a06553d4553953"
+    },
+    {
+      "path": "godot/scripts/character_weapon_attachment.gd",
+      "bytes": 15259,
+      "sha256": "122aa7610deff693755c4f4584d86b7eb5483559b7dee1a670adc71f9cf0990c"
+    },
+    {
+      "path": "godot/scripts/scene_prop_preview.gd",
+      "bytes": 4049,
+      "sha256": "18b33de74cb1c06257847a6bf35c8b69279f1308afc282286c6033be4bb8f11c"
+    },
+    {
+      "path": "godot/scripts/zhigeng_preview.gd",
+      "bytes": 10460,
+      "sha256": "b0edc95a7e0c555fa40a5c80f43394253476bc6968c60509eeb78c29c82fcc4a"
+    },
+    {
+      "path": "tools/blender/save_emplacements_r44.py",
+      "bytes": 4596,
+      "sha256": "be04290b03c265a15725c4b585638f0831dd9583178689c39b02e457ee0d933a"
+    },
+    {
+      "path": "tools/gltf/bake_diandian_hands_r44.py",
+      "bytes": 3749,
+      "sha256": "9c4f52f9757c25539a1b8f3eb2a832468911c7c46113d9fd7b5110ee1eb7a1bb"
+    },
+    {
+      "path": "tools/gltf/bake_emplacements_r44.mjs",
+      "bytes": 3662,
+      "sha256": "7cb1f2221586a28f03a6d1710c11afb3189ac3e02677bdda2386a1fdd238f4e6"
+    },
+    {
+      "path": "tools/gltf/prepare_emplacements_r44.mjs",
+      "bytes": 3830,
+      "sha256": "8c4757cdb63bec6f80d8bc87ea09f49b143440c1e05c3708dfba7998fcd238e4"
+    },
+    {
+      "path": "tools/gltf/prepare_qbu10_r44.mjs",
+      "bytes": 4567,
+      "sha256": "783649f2993919334f67d3a70b18e7fb4c444389b03cecc42e8a77cc034a3ca1"
+    },
+    {
+      "path": "tools/gltf/preserve_character_origin_r44.mjs",
+      "bytes": 1331,
+      "sha256": "ae3ef2f05f5f4a4f77a3443d29ee20227eae943cee78f8f40760d4dd7ca108a2"
+    },
+    {
+      "path": "tools/qa/browser_motion_r44.mjs",
+      "bytes": 6186,
+      "sha256": "dcfa4c7710c9df525e92a71ca08a5b629f214151dc38767ac3da2f9759895b74"
+    },
+    {
+      "path": "tools/qa/validate_blender_r44.py",
+      "bytes": 1804,
+      "sha256": "8c81b54bf45a43551f5f049f74bd762139998ae84366986808c0a48ef05ea2cc"
+    },
+    {
+      "path": "tools/qa/validate_emplacements_r44.gd",
+      "bytes": 3833,
+      "sha256": "03e227ab08757faf9ff887474870953923b89aed5d3f929c892d4dd297ebb15a"
+    },
+    {
+      "path": "tools/qa/validate_motion_r44.mjs",
+      "bytes": 6820,
+      "sha256": "a549bdb688df5f30c986efaf04817bbced7b77cb62cf3021c6a8b08ec796ce5e"
+    },
+    {
+      "path": "tools/qa/validate_pf89.mjs",
+      "bytes": 8088,
+      "sha256": "15c205b288ae7ea916b9fb57a5d5b1511de9d58c608fb16f9ab7624f08045383"
+    },
+    {
+      "path": "tools/qa/validate_support_clearance_r44.mjs",
+      "bytes": 2912,
+      "sha256": "6772c0bfe47c2e2d097419e0818a638c50f25f8bc1aba1359e14f80873791403"
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/app.js",
+      "bytes": 34788,
+      "sha256": "a1d5a7189e8e0dcfd14bb408c3033b3fc02f53527382e5f68995f0f94e7f78ff"
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/assets/diandian_before.glb",
+      "bytes": 18246744,
+      "sha256": "56e47c42a14c588b492b33a0ac80d797977b3e08c0f0a09f0285a3e821dbc210"
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/assets/diandian_fixed.glb",
+      "bytes": 17496144,
+      "sha256": "b7f20683cd0d81356ce9d534f31c866140d67014d102c53d4711e02da1df1507"
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/assets/weapon_attachment.json",
+      "bytes": 593752,
+      "sha256": "48122b7d881fdea90b8eefb29d823abc17bdd2694fe00e64e05efd5bdbf6d4f4"
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/assets/weapons/qbu10.glb",
+      "bytes": 1865372,
+      "sha256": "cd646980e2144d27d7143959abaed72c74572dbb1578d7134ca0b580b4236c23"
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/fixed-machine-gun.js",
+      "bytes": 3038,
+      "sha256": "159b87269e2db7a2d9aba871437f69920675770d3afb1d392d2752ef0284d265"
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/index.html",
+      "bytes": 7935,
+      "sha256": "b167a8ccde29735fc0632df8412dd00c4d05ccb61444a1c03c8933fe3437612d"
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/styles.css",
+      "bytes": 14945,
+      "sha256": "9250e75b3bdf2068ff84239c1b8303b6a8c583d834af6481e2bc9c0b77b6f29e"
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/weapon-attachment.js",
+      "bytes": 34291,
+      "sha256": "3976213c56862ec9fe299cece559dbda6a776a07501f706fdf6aca732abf0f98"
+    },
+    {
+      "path": "web/motion-labs/type59d-motion-lab/app.js",
+      "bytes": 6717,
+      "sha256": "cf142bfc7e1793d25fc3a1f9b4c0500d26fd0fd4603c00864236186474212956"
+    },
+    {
+      "path": "web/motion-labs/type59d-motion-lab/assets/type59d.glb",
+      "bytes": 23366876,
+      "sha256": "f9a58c43fef3855948b55ef11d48e467c31148839929aaf5d861ceaa728a2939"
+    },
+    {
+      "path": "web/motion-labs/type59d-motion-lab/favicon.svg",
+      "bytes": 315,
+      "sha256": "c8f4e184580774a29609e7e7bfc72a33cdf8dd80bd815e878501471073e6bb7a"
+    },
+    {
+      "path": "web/motion-labs/type59d-motion-lab/index.html",
+      "bytes": 4303,
+      "sha256": "6c3444a8f8b48219229ffd1be0d174e9b386cb0e0a71e3e5248d7533de3c1573"
+    },
+    {
+      "path": "web/motion-labs/type59d-motion-lab/styles.css",
+      "bytes": 16118,
+      "sha256": "e52ec24fc5d5d712acede3b8f8484355438b5d4b3ec1e27ee0e1ea5b8317a5af"
+    },
+    {
+      "path": "web/motion-labs/type59d-motion-lab/unmanned-tank.js",
+      "bytes": 2074,
+      "sha256": "e57e7dd5daabd10d812d89999134483df46c5dc1b161ad1097336c34a39723af"
+    },
+    {
+      "path": "web/motion-labs/type59d-motion-lab/vendor/BufferGeometryUtils.js",
+      "bytes": 35539,
+      "sha256": "fda7e946b8e0b5ab39b779206589e7a1079a22eb24efb89d7223e03fdfb1f751"
+    },
+    {
+      "path": "web/motion-labs/type59d-motion-lab/vendor/GLTFLoader.js",
+      "bytes": 114732,
+      "sha256": "adbbafe8ce40416525b6be0ee5cac0d3782482bcf0122c8ca8ec1ffa77d3440b"
+    },
+    {
+      "path": "web/motion-labs/type59d-motion-lab/vendor/LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    {
+      "path": "web/motion-labs/type59d-motion-lab/vendor/OrbitControls.js",
+      "bytes": 38703,
+      "sha256": "b97879c748170baadeb3fb84cea1ffdf4674e283dc06042f34e2acb95a76042c"
+    },
+    {
+      "path": "web/motion-labs/type59d-motion-lab/vendor/three.core.js",
+      "bytes": 1403455,
+      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20"
+    },
+    {
+      "path": "web/motion-labs/type59d-motion-lab/vendor/three.module.js",
+      "bytes": 603113,
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/app.js",
+      "bytes": 36705,
+      "sha256": "a076bd3026ff290f164b9cc4b6b9154d90793ded65010a9bade63717b7f49c72"
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/assets/weapon_attachment.json",
+      "bytes": 587848,
+      "sha256": "9ca3cb4bab8d4816164dfdb9de3c3f8c745af25b5b212cc085029f9fa90671a0"
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/assets/weapons/qbu10.glb",
+      "bytes": 1865372,
+      "sha256": "cd646980e2144d27d7143959abaed72c74572dbb1578d7134ca0b580b4236c23"
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/fixed-machine-gun.js",
+      "bytes": 3038,
+      "sha256": "159b87269e2db7a2d9aba871437f69920675770d3afb1d392d2752ef0284d265"
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/index.html",
+      "bytes": 8276,
+      "sha256": "9bc49d43886e7cc19b2685aefdd7acc7ab35662b46fb042d9fb33408bbff6a8b"
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/styles.css",
+      "bytes": 15197,
+      "sha256": "6e6328b3e744c0b1b871bbe65bbd21662609bd429a348a874f1943fb6a88e7fb"
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/weapon-attachment.js",
+      "bytes": 33775,
+      "sha256": "9c81588435b15c68f8090cab93fd8ece1d5a57756989273f4988bfc2bf49fc41"
+    }
+  ]
+}

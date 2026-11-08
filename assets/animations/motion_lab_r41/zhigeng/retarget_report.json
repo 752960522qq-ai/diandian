@@ -1,0 +1,232 @@
+{
+  "Dying": {
+    "label": "倒地死亡",
+    "source": "Dying1.fbx",
+    "source_fps": 30.0,
+    "source_frame_range": [
+      1.0,
+      131.0
+    ],
+    "samples": 131,
+    "duration": 4.333333333333333,
+    "mapped_bones": 65,
+    "leg_ratio": 0.5601220095692345,
+    "loop": false,
+    "root_policy": "trajectory",
+    "source_root_travel_m": [
+      -0.54091477394104,
+      -1.4255073070526123,
+      -0.8788243532180786
+    ],
+    "target_root_travel_m": [
+      -0.30297785997390747,
+      -0.7984581589698792,
+      -0.49224886298179626
+    ],
+    "floor_offset_native_m": 0.015891142189502716,
+    "source_loop_seam_degrees": null,
+    "ground_contact": {
+      "method": "Evaluated skinned body and hair; per-frame pelvis lift, 3-frame contact envelope",
+      "sampled_frames": 131,
+      "minimum_before_native_m": -0.02567516414504459,
+      "minimum_after_native_m": 0.0009999999999999992,
+      "max_lift_native_m": 0.026675164145044592
+    }
+  },
+  "FlyingBackDeath": {
+    "label": "后飞死亡",
+    "source": "Flying Back Death.fbx",
+    "source_fps": 30.0,
+    "source_frame_range": [
+      1.0,
+      92.0
+    ],
+    "samples": 92,
+    "duration": 3.033333333333333,
+    "mapped_bones": 65,
+    "leg_ratio": 0.5601220095692345,
+    "loop": false,
+    "root_policy": "trajectory",
+    "source_root_travel_m": [
+      -0.019409246742725372,
+      1.4406582117080688,
+      -0.6591607928276062
+    ],
+    "target_root_travel_m": [
+      -0.010871932841837406,
+      0.8069443702697754,
+      -0.36921048164367676
+    ],
+    "floor_offset_native_m": 0.036177754402160645,
+    "source_loop_seam_degrees": null,
+    "ground_contact": {
+      "method": "Evaluated skinned body and hair; per-frame pelvis lift, 3-frame contact envelope",
+      "sampled_frames": 92,
+      "minimum_before_native_m": -0.001148401950532014,
+      "minimum_after_native_m": 0.001,
+      "max_lift_native_m": 0.002148401950532014
+    }
+  },
+  "PistolShooting": {
+    "label": "手枪射击",
+    "source": "pistol Shooting.fbx",
+    "source_fps": 30.0,
+    "source_frame_range": [
+      1.0,
+      36.0
+    ],
+    "samples": 36,
+    "duration": 1.1666666666666667,
+    "mapped_bones": 65,
+    "leg_ratio": 0.5601220095692345,
+    "loop": false,
+    "root_policy": "stationary",
+    "source_root_travel_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "target_root_travel_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "floor_offset_native_m": 0.0005936661618761718,
+    "source_loop_seam_degrees": null
+  },
+  "SittingTalking": {
+    "label": "二郎腿交谈",
+    "source": "二郎腿Sitting Talking.fbx",
+    "source_fps": 30.0,
+    "source_frame_range": [
+      1.0,
+      1350.0
+    ],
+    "samples": 1350,
+    "duration": 44.96666666666667,
+    "mapped_bones": 65,
+    "leg_ratio": 0.5601220095692345,
+    "loop": false,
+    "root_policy": "stationary",
+    "source_root_travel_m": [
+      -3.9414502680301666e-05,
+      0.00026865117251873016,
+      8.285045623779297e-06
+    ],
+    "target_root_travel_m": [
+      -2.2077003450249322e-05,
+      0.00015047744091134518,
+      4.6406362343986984e-06
+    ],
+    "floor_offset_native_m": -0.0022327343467622995,
+    "source_loop_seam_degrees": null
+  },
+  "SittingCrossLegged": {
+    "label": "二郎腿坐姿",
+    "source": "二郎腿Sitting.fbx",
+    "source_fps": 30.0,
+    "source_frame_range": [
+      1.0,
+      288.0
+    ],
+    "samples": 288,
+    "duration": 9.566666666666666,
+    "mapped_bones": 65,
+    "leg_ratio": 0.5601220095692345,
+    "loop": true,
+    "root_policy": "stationary",
+    "source_root_travel_m": [
+      -1.0244548320770264e-08,
+      -2.9802322387695312e-08,
+      -5.960464477539063e-08
+    ],
+    "target_root_travel_m": [
+      -5.738189035042751e-09,
+      -1.669294036332758e-08,
+      -3.33858736212278e-08
+    ],
+    "floor_offset_native_m": -0.0040632630698382854,
+    "source_loop_seam_degrees": 0.0
+  },
+  "ClimbingLadder": {
+    "label": "攀爬梯子",
+    "source": "Climbing Ladder.fbx",
+    "source_fps": 30.0,
+    "source_frame_range": [
+      1.0,
+      24.0
+    ],
+    "samples": 24,
+    "duration": 0.7666666666666667,
+    "mapped_bones": 65,
+    "leg_ratio": 0.5601220095692345,
+    "loop": true,
+    "root_policy": "climb_in_place",
+    "source_root_travel_m": [
+      -0.0015813112258911133,
+      -0.02692285180091858,
+      0.4983144998550415
+    ],
+    "target_root_travel_m": [
+      -0.000885720073711127,
+      -0.015080082230269909,
+      0.2791169285774231
+    ],
+    "floor_offset_native_m": -0.06253909319639206,
+    "source_loop_seam_degrees": 12.160114482227508
+  },
+  "HangToCrouch": {
+    "label": "悬挂翻上蹲伏",
+    "source": "Braced Hang To Crouch.fbx",
+    "source_fps": 30.0,
+    "source_frame_range": [
+      1.0,
+      35.0
+    ],
+    "samples": 35,
+    "duration": 1.1333333333333333,
+    "mapped_bones": 65,
+    "leg_ratio": 0.5601220095692345,
+    "loop": false,
+    "root_policy": "trajectory",
+    "source_root_travel_m": [
+      -0.12100238353013992,
+      -0.5810087323188782,
+      1.5332943201065063
+    ],
+    "target_root_travel_m": [
+      -0.06777594238519669,
+      -0.3254357874393463,
+      0.8588318824768066
+    ],
+    "floor_offset_native_m": 0,
+    "source_loop_seam_degrees": null
+  },
+  "WalkingBackwards": {
+    "label": "倒退行走",
+    "source": "Walking Backwards.fbx",
+    "source_fps": 30.0,
+    "source_frame_range": [
+      1.0,
+      30.0
+    ],
+    "samples": 30,
+    "duration": 0.9666666666666667,
+    "mapped_bones": 65,
+    "leg_ratio": 0.5601220095692345,
+    "loop": true,
+    "root_policy": "in_place",
+    "source_root_travel_m": [
+      1.6487319953739643e-08,
+      1.3470230102539062,
+      0.0
+    ],
+    "target_root_travel_m": [
+      -3.5094944905722514e-07,
+      0.754497230052948,
+      0.0
+    ],
+    "floor_offset_native_m": 0.009988212026655674,
+    "source_loop_seam_degrees": 0.0
+  }
+}

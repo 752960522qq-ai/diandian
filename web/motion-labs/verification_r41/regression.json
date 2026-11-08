@@ -1,0 +1,328 @@
+{
+  "baselineCommit": "eb6133bbb89884863923f7b50844e4169e876285",
+  "tolerance": 1e-10,
+  "scope": "All non-PF89 weapons, common motion catalog, both characters; local and world transforms, visibility, config, immutable assets",
+  "characters": {
+    "diandian": {
+      "weapons": [
+        "qsz92",
+        "qbz95",
+        "type56_1",
+        "hanyang88",
+        "type54",
+        "qbu85",
+        "c96",
+        "winchester1897",
+        "qcq171",
+        "type97hawk"
+      ],
+      "motions": [
+        "Idle",
+        "Walk",
+        "Run",
+        "RifleIdle",
+        "RifleWalk",
+        "RifleRun",
+        "RifleAimingIdle",
+        "FiringRifle",
+        "Reloading",
+        "PistolIdle",
+        "PistolAimingIdle",
+        "PistolWalk",
+        "ShotgunAimUp",
+        "ShotgunAimDown",
+        "ShotgunAimLevel",
+        "ShotgunPump"
+      ],
+      "samples": 544,
+      "bones": 312,
+      "verifiedUnchangedAssetCount": 15,
+      "maxDelta": 0,
+      "configUnchanged": true,
+      "unavailableMotionPairs": [
+        {
+          "weapon": "qsz92",
+          "motion": "ShotgunPump",
+          "resolvedClip": "ShotgunPump"
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "PistolAimingIdle",
+          "resolvedClip": "PistolAimingIdle"
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "PistolWalk",
+          "resolvedClip": "PistolWalk"
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "ShotgunPump",
+          "resolvedClip": "ShotgunPump"
+        },
+        {
+          "weapon": "type56_1",
+          "motion": "PistolAimingIdle",
+          "resolvedClip": "PistolAimingIdle"
+        },
+        {
+          "weapon": "type56_1",
+          "motion": "PistolWalk",
+          "resolvedClip": "PistolWalk"
+        },
+        {
+          "weapon": "type56_1",
+          "motion": "ShotgunPump",
+          "resolvedClip": "ShotgunPump"
+        },
+        {
+          "weapon": "hanyang88",
+          "motion": "PistolAimingIdle",
+          "resolvedClip": "PistolAimingIdle"
+        },
+        {
+          "weapon": "hanyang88",
+          "motion": "PistolWalk",
+          "resolvedClip": "PistolWalk"
+        },
+        {
+          "weapon": "hanyang88",
+          "motion": "ShotgunPump",
+          "resolvedClip": "ShotgunPump"
+        },
+        {
+          "weapon": "type54",
+          "motion": "ShotgunPump",
+          "resolvedClip": "ShotgunPump"
+        },
+        {
+          "weapon": "qbu85",
+          "motion": "PistolAimingIdle",
+          "resolvedClip": "PistolAimingIdle"
+        },
+        {
+          "weapon": "qbu85",
+          "motion": "PistolWalk",
+          "resolvedClip": "PistolWalk"
+        },
+        {
+          "weapon": "qbu85",
+          "motion": "ShotgunPump",
+          "resolvedClip": "ShotgunPump"
+        },
+        {
+          "weapon": "c96",
+          "motion": "PistolAimingIdle",
+          "resolvedClip": "PistolAimingIdle"
+        },
+        {
+          "weapon": "c96",
+          "motion": "PistolWalk",
+          "resolvedClip": "PistolWalk"
+        },
+        {
+          "weapon": "c96",
+          "motion": "ShotgunPump",
+          "resolvedClip": "ShotgunPump"
+        },
+        {
+          "weapon": "winchester1897",
+          "motion": "PistolAimingIdle",
+          "resolvedClip": "PistolAimingIdle"
+        },
+        {
+          "weapon": "winchester1897",
+          "motion": "PistolWalk",
+          "resolvedClip": "PistolWalk"
+        },
+        {
+          "weapon": "qcq171",
+          "motion": "PistolAimingIdle",
+          "resolvedClip": "PistolAimingIdle"
+        },
+        {
+          "weapon": "qcq171",
+          "motion": "PistolWalk",
+          "resolvedClip": "PistolWalk"
+        },
+        {
+          "weapon": "qcq171",
+          "motion": "ShotgunPump",
+          "resolvedClip": "ShotgunPump"
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "PistolAimingIdle",
+          "resolvedClip": "PistolAimingIdle"
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "PistolWalk",
+          "resolvedClip": "PistolWalk"
+        }
+      ]
+    },
+    "zhigeng": {
+      "weapons": [
+        "qsz92",
+        "qbz95",
+        "type56_1",
+        "hanyang88",
+        "type54",
+        "qbu85",
+        "c96",
+        "winchester1897",
+        "qcq171",
+        "type97hawk"
+      ],
+      "motions": [
+        "Idle",
+        "Walk",
+        "Run",
+        "RifleIdle",
+        "RifleWalk",
+        "RifleRun",
+        "RifleAimingIdle",
+        "FiringRifle",
+        "Reloading",
+        "PistolIdle",
+        "PistolAimingIdle",
+        "PistolWalk",
+        "ShotgunAimUp",
+        "ShotgunAimDown",
+        "ShotgunAimLevel",
+        "ShotgunPump"
+      ],
+      "samples": 544,
+      "bones": 315,
+      "verifiedUnchangedAssetCount": 15,
+      "maxDelta": 0,
+      "configUnchanged": true,
+      "unavailableMotionPairs": [
+        {
+          "weapon": "qsz92",
+          "motion": "ShotgunPump",
+          "resolvedClip": "ShotgunPump"
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "PistolAimingIdle",
+          "resolvedClip": "PistolAimingIdle"
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "PistolWalk",
+          "resolvedClip": "PistolWalk"
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "ShotgunPump",
+          "resolvedClip": "ShotgunPump"
+        },
+        {
+          "weapon": "type56_1",
+          "motion": "PistolAimingIdle",
+          "resolvedClip": "PistolAimingIdle"
+        },
+        {
+          "weapon": "type56_1",
+          "motion": "PistolWalk",
+          "resolvedClip": "PistolWalk"
+        },
+        {
+          "weapon": "type56_1",
+          "motion": "ShotgunPump",
+          "resolvedClip": "ShotgunPump"
+        },
+        {
+          "weapon": "hanyang88",
+          "motion": "PistolAimingIdle",
+          "resolvedClip": "PistolAimingIdle"
+        },
+        {
+          "weapon": "hanyang88",
+          "motion": "PistolWalk",
+          "resolvedClip": "PistolWalk"
+        },
+        {
+          "weapon": "hanyang88",
+          "motion": "ShotgunPump",
+          "resolvedClip": "ShotgunPump"
+        },
+        {
+          "weapon": "type54",
+          "motion": "ShotgunPump",
+          "resolvedClip": "ShotgunPump"
+        },
+        {
+          "weapon": "qbu85",
+          "motion": "PistolAimingIdle",
+          "resolvedClip": "PistolAimingIdle"
+        },
+        {
+          "weapon": "qbu85",
+          "motion": "PistolWalk",
+          "resolvedClip": "PistolWalk"
+        },
+        {
+          "weapon": "qbu85",
+          "motion": "ShotgunPump",
+          "resolvedClip": "ShotgunPump"
+        },
+        {
+          "weapon": "c96",
+          "motion": "PistolAimingIdle",
+          "resolvedClip": "PistolAimingIdle"
+        },
+        {
+          "weapon": "c96",
+          "motion": "PistolWalk",
+          "resolvedClip": "PistolWalk"
+        },
+        {
+          "weapon": "c96",
+          "motion": "ShotgunPump",
+          "resolvedClip": "ShotgunPump"
+        },
+        {
+          "weapon": "winchester1897",
+          "motion": "PistolAimingIdle",
+          "resolvedClip": "PistolAimingIdle"
+        },
+        {
+          "weapon": "winchester1897",
+          "motion": "PistolWalk",
+          "resolvedClip": "PistolWalk"
+        },
+        {
+          "weapon": "qcq171",
+          "motion": "PistolAimingIdle",
+          "resolvedClip": "PistolAimingIdle"
+        },
+        {
+          "weapon": "qcq171",
+          "motion": "PistolWalk",
+          "resolvedClip": "PistolWalk"
+        },
+        {
+          "weapon": "qcq171",
+          "motion": "ShotgunPump",
+          "resolvedClip": "ShotgunPump"
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "PistolAimingIdle",
+          "resolvedClip": "PistolAimingIdle"
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "PistolWalk",
+          "resolvedClip": "PistolWalk"
+        }
+      ]
+    }
+  },
+  "passed": true,
+  "mismatchCount": 0,
+  "firstMismatches": []
+}

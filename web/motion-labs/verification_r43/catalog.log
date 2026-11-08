@@ -1,0 +1,12 @@
+{
+  "diandian-classic-motion-lab": {
+    "visiblePf89Actions": 14,
+    "retainedAuthoringVariants": 3,
+    "passed": true
+  },
+  "zhigeng-motion-lab": {
+    "visiblePf89Actions": 14,
+    "retainedAuthoringVariants": 3,
+    "passed": true
+  }
+}

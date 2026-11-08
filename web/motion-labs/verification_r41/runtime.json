@@ -1,0 +1,260 @@
+{
+  "diandian": {
+    "passed": true,
+    "actions": [
+      {
+        "name": "Dying",
+        "duration": 4.333333492279053,
+        "frames": 132,
+        "loop": false,
+        "loopSeam": 0,
+        "maxSwitchDrift": 0,
+        "hipsHeightRangeM": [
+          0.17431646503240564,
+          1.0487313185376188
+        ],
+        "maxLeftGripErrorM": 0,
+        "maxRightGripErrorM": 0
+      },
+      {
+        "name": "FlyingBackDeath",
+        "duration": 3.0333333015441895,
+        "frames": 92,
+        "loop": false,
+        "loopSeam": 0,
+        "maxSwitchDrift": 0,
+        "hipsHeightRangeM": [
+          0.20916233997971634,
+          1.3405809481142779
+        ],
+        "maxLeftGripErrorM": 0,
+        "maxRightGripErrorM": 0
+      },
+      {
+        "name": "PistolShooting",
+        "duration": 1.1666666269302368,
+        "frames": 36,
+        "loop": false,
+        "loopSeam": 0,
+        "maxSwitchDrift": 0,
+        "hipsHeightRangeM": [
+          0.9163336705808743,
+          0.9278060159455122
+        ],
+        "maxLeftGripErrorM": 0.0016368504605590885,
+        "maxRightGripErrorM": 1.1102230246251565e-16
+      },
+      {
+        "name": "SittingTalking",
+        "duration": 44.96666717529297,
+        "frames": 1351,
+        "loop": false,
+        "loopSeam": 0,
+        "maxSwitchDrift": 0,
+        "hipsHeightRangeM": [
+          0.6356054391102773,
+          0.6405960431600858
+        ],
+        "maxLeftGripErrorM": 0,
+        "maxRightGripErrorM": 0
+      },
+      {
+        "name": "SittingCrossLegged",
+        "duration": 9.566666603088379,
+        "frames": 288,
+        "loop": true,
+        "loopSeam": 0,
+        "maxSwitchDrift": 0,
+        "hipsHeightRangeM": [
+          0.6072633574001285,
+          0.6103694834413944
+        ],
+        "maxLeftGripErrorM": 0,
+        "maxRightGripErrorM": 0
+      },
+      {
+        "name": "ClimbingLadder",
+        "duration": 0.7666666507720947,
+        "frames": 24,
+        "loop": true,
+        "loopSeam": 0,
+        "maxSwitchDrift": 0,
+        "hipsHeightRangeM": [
+          0.9065786382074993,
+          0.9775950560611664
+        ],
+        "maxLeftGripErrorM": 0,
+        "maxRightGripErrorM": 0
+      },
+      {
+        "name": "HangToCrouch",
+        "duration": 1.1333333253860474,
+        "frames": 35,
+        "loop": false,
+        "loopSeam": 0,
+        "maxSwitchDrift": 0,
+        "hipsHeightRangeM": [
+          0.6557594682494734,
+          2.2815144830595306
+        ],
+        "maxLeftGripErrorM": 0,
+        "maxRightGripErrorM": 0
+      },
+      {
+        "name": "WalkingBackwards",
+        "duration": 0.9666666388511658,
+        "frames": 30,
+        "loop": true,
+        "loopSeam": 0,
+        "maxSwitchDrift": 0,
+        "hipsHeightRangeM": [
+          0.9621257484879362,
+          1.0074261510234837
+        ],
+        "maxLeftGripErrorM": 0,
+        "maxRightGripErrorM": 0
+      }
+    ],
+    "pistolGrips": {
+      "qsz92": {
+        "samples": 36,
+        "maxLeftContactErrorM": 0.0016368504605590885,
+        "maxRightContactErrorM": 1.1102230246251565e-16
+      },
+      "type54": {
+        "samples": 36,
+        "maxLeftContactErrorM": 0.001636850460558989,
+        "maxRightContactErrorM": 2.220446049250313e-16
+      }
+    }
+  },
+  "zhigeng": {
+    "passed": true,
+    "actions": [
+      {
+        "name": "Dying",
+        "duration": 4.333333492279053,
+        "frames": 132,
+        "loop": false,
+        "loopSeam": 0,
+        "maxSwitchDrift": 0,
+        "hipsHeightRangeM": [
+          0.17970731481294877,
+          1.0281479458652363
+        ],
+        "maxLeftGripErrorM": 0,
+        "maxRightGripErrorM": 0
+      },
+      {
+        "name": "FlyingBackDeath",
+        "duration": 3.0333333015441895,
+        "frames": 92,
+        "loop": false,
+        "loopSeam": 0,
+        "maxSwitchDrift": 0,
+        "hipsHeightRangeM": [
+          0.2059563317006889,
+          1.3054854383607983
+        ],
+        "maxLeftGripErrorM": 0,
+        "maxRightGripErrorM": 0
+      },
+      {
+        "name": "PistolShooting",
+        "duration": 1.1666666269302368,
+        "frames": 36,
+        "loop": false,
+        "loopSeam": 0,
+        "maxSwitchDrift": 0,
+        "hipsHeightRangeM": [
+          0.8901875298296181,
+          0.9013366234024561
+        ],
+        "maxLeftGripErrorM": 0.001364954736158626,
+        "maxRightGripErrorM": 2.220446049250313e-16
+      },
+      {
+        "name": "SittingTalking",
+        "duration": 44.96666717529297,
+        "frames": 1351,
+        "loop": false,
+        "loopSeam": 0,
+        "maxSwitchDrift": 0,
+        "hipsHeightRangeM": [
+          0.6039995684164794,
+          0.6088495391267054
+        ],
+        "maxLeftGripErrorM": 0,
+        "maxRightGripErrorM": 0
+      },
+      {
+        "name": "SittingCrossLegged",
+        "duration": 9.566666603088379,
+        "frames": 288,
+        "loop": true,
+        "loopSeam": 0,
+        "maxSwitchDrift": 0,
+        "hipsHeightRangeM": [
+          0.5805882631974298,
+          0.5836068249652875
+        ],
+        "maxLeftGripErrorM": 0,
+        "maxRightGripErrorM": 0
+      },
+      {
+        "name": "ClimbingLadder",
+        "duration": 0.7666666507720947,
+        "frames": 24,
+        "loop": true,
+        "loopSeam": 0,
+        "maxSwitchDrift": 0,
+        "hipsHeightRangeM": [
+          0.8764542324666168,
+          0.9454690290038482
+        ],
+        "maxLeftGripErrorM": 0,
+        "maxRightGripErrorM": 0
+      },
+      {
+        "name": "HangToCrouch",
+        "duration": 1.1333333253860474,
+        "frames": 35,
+        "loop": false,
+        "loopSeam": 0,
+        "maxSwitchDrift": 0,
+        "hipsHeightRangeM": [
+          0.6326698220331658,
+          2.2126024600086995
+        ],
+        "maxLeftGripErrorM": 0,
+        "maxRightGripErrorM": 0
+      },
+      {
+        "name": "WalkingBackwards",
+        "duration": 0.9666666388511658,
+        "frames": 30,
+        "loop": true,
+        "loopSeam": 0,
+        "maxSwitchDrift": 0,
+        "hipsHeightRangeM": [
+          0.9420200143980341,
+          0.9860436172225775
+        ],
+        "maxLeftGripErrorM": 0,
+        "maxRightGripErrorM": 0
+      }
+    ],
+    "pistolGrips": {
+      "qsz92": {
+        "samples": 36,
+        "maxLeftContactErrorM": 0.001364954736158626,
+        "maxRightContactErrorM": 2.220446049250313e-16
+      },
+      "type54": {
+        "samples": 36,
+        "maxLeftContactErrorM": 0.0013649547361584073,
+        "maxRightContactErrorM": 2.220446049250313e-16
+      }
+    }
+  }
+}

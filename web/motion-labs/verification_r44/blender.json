@@ -1,0 +1,12 @@
+[
+  {
+    "character": "diandian",
+    "poses": 10,
+    "max_shoulder_error_m": 4.012260442327338e-08
+  },
+  {
+    "character": "zhigeng",
+    "poses": 10,
+    "max_shoulder_error_m": 4.2146848510894035e-08
+  }
+]
