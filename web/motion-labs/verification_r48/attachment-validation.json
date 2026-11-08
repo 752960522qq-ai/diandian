@@ -1,0 +1,707 @@
+{
+  "characters": {
+    "military": {
+      "clips": 33,
+      "sampledFrames": 2623,
+      "maxPoseDrift": 0,
+      "rows": [
+        {
+          "weapon": "none",
+          "motion": "Idle",
+          "duration": 8.333333015441895,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 0,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "Walk",
+          "duration": 1.0333333015441895,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 0,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "Run",
+          "duration": 0.6666666865348816,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 0,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "WalkingBackwards",
+          "duration": 0.9666666388511658,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 0,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "Talking",
+          "duration": 3.933333396911621,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 0,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "HeadStress",
+          "duration": 4,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 0,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "SittingCrossLegged",
+          "duration": 9.566666603088379,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 0,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "SittingTalking",
+          "duration": 44.96666717529297,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 0,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "ClimbingLadder",
+          "duration": 0.7666666507720947,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 0,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "HangToCrouch",
+          "duration": 1.1333333253860474,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 0,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "Dying",
+          "duration": 4.333333492279053,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 0,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "FlyingBackDeath",
+          "duration": 3.0333333015441895,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 0,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "RifleIdle",
+          "duration": 8.566666603088379,
+          "maxLeftErrorM": 3.4910246621440755e-8,
+          "maxRightErrorM": 4.6244812827946556e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "RifleWalk",
+          "duration": 1.2999999523162842,
+          "maxLeftErrorM": 4.398526718650586e-8,
+          "maxRightErrorM": 3.608039250538274e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "maxLeftErrorM": 4.619765701253591e-8,
+          "maxRightErrorM": 5.567904791450307e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "RifleAimingIdle",
+          "duration": 3.0999999046325684,
+          "maxLeftErrorM": 2.503105579950766e-8,
+          "maxRightErrorM": 5.409797378988516e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "FiringRifle",
+          "duration": 0.2666666805744171,
+          "maxLeftErrorM": 1.782830063323157e-8,
+          "maxRightErrorM": 6.622389318123296e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 7.257558489223767e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "type56_1",
+          "motion": "RifleIdle",
+          "duration": 8.566666603088379,
+          "maxLeftErrorM": 3.04791406506415e-8,
+          "maxRightErrorM": 4.540230653709591e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "type56_1",
+          "motion": "RifleWalk",
+          "duration": 1.2999999523162842,
+          "maxLeftErrorM": 3.3673450388797114e-8,
+          "maxRightErrorM": 3.8121613494925846e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "type56_1",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "maxLeftErrorM": 4.081180181896562e-8,
+          "maxRightErrorM": 5.1657023688597845e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "type56_1",
+          "motion": "RifleAimingIdle",
+          "duration": 3.0999999046325684,
+          "maxLeftErrorM": 3.7564309268654506e-8,
+          "maxRightErrorM": 7.154181583057165e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "type56_1",
+          "motion": "FiringRifle",
+          "duration": 0.2666666805744171,
+          "maxLeftErrorM": 4.087976987174134e-8,
+          "maxRightErrorM": 7.448359542804615e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "type56_1",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 7.257558494615727e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qbu85",
+          "motion": "RifleIdle",
+          "duration": 8.566666603088379,
+          "maxLeftErrorM": 3.312887980246858e-8,
+          "maxRightErrorM": 6.145905821473527e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qbu85",
+          "motion": "RifleWalk",
+          "duration": 1.2999999523162842,
+          "maxLeftErrorM": 3.1779054926494194e-8,
+          "maxRightErrorM": 5.796716558033283e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qbu85",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "maxLeftErrorM": 4.4424959947329244e-8,
+          "maxRightErrorM": 6.777968498525924e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qbu85",
+          "motion": "RifleAimingIdle",
+          "duration": 3.0999999046325684,
+          "maxLeftErrorM": 3.125433992838935e-8,
+          "maxRightErrorM": 8.815397674281378e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qbu85",
+          "motion": "FiringRifle",
+          "duration": 0.2666666805744171,
+          "maxLeftErrorM": 2.6935295627806064e-8,
+          "maxRightErrorM": 8.894673970684819e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qbu85",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 7.744282379589174e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "RifleIdle",
+          "duration": 8.566666603088379,
+          "maxLeftErrorM": 2.8244510364234297e-8,
+          "maxRightErrorM": 4.540230703213285e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "RifleWalk",
+          "duration": 1.2999999523162842,
+          "maxLeftErrorM": 2.993315169316928e-8,
+          "maxRightErrorM": 3.608039259748856e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "maxLeftErrorM": 3.9729594860026785e-8,
+          "maxRightErrorM": 5.1657025270756817e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "RifleAimingIdle",
+          "duration": 3.0999999046325684,
+          "maxLeftErrorM": 2.407463147104427e-8,
+          "maxRightErrorM": 4.575349769832648e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "FiringRifle",
+          "duration": 0.23333333432674408,
+          "maxLeftErrorM": 8.312286627229243e-8,
+          "maxRightErrorM": 7.70879807314584e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 8.905135342119278e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "ShotgunPump",
+          "duration": 0.7333333492279053,
+          "maxLeftErrorM": 6.00525400215076e-8,
+          "maxRightErrorM": 6.62237167250086e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qcq171",
+          "motion": "RifleIdle",
+          "duration": 8.566666603088379,
+          "maxLeftErrorM": 4.438418873129643e-8,
+          "maxRightErrorM": 5.012564228016445e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qcq171",
+          "motion": "RifleWalk",
+          "duration": 1.2999999523162842,
+          "maxLeftErrorM": 3.083246557811702e-8,
+          "maxRightErrorM": 3.706362326930892e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qcq171",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "maxLeftErrorM": 5.307760086160577e-8,
+          "maxRightErrorM": 6.668617158087373e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qcq171",
+          "motion": "RifleAimingIdle",
+          "duration": 3.0999999046325684,
+          "maxLeftErrorM": 3.2660315098172304e-8,
+          "maxRightErrorM": 4.781561254040634e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qcq171",
+          "motion": "FiringRifle",
+          "duration": 0.2666666805744171,
+          "maxLeftErrorM": 2.7192757146133945e-8,
+          "maxRightErrorM": 6.293792792573187e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qcq171",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 7.744282363489044e-8,
+          "nonfinite": 0
+        }
+      ]
+    },
+    "vest": {
+      "clips": 33,
+      "sampledFrames": 2623,
+      "maxPoseDrift": 0,
+      "rows": [
+        {
+          "weapon": "none",
+          "motion": "Idle",
+          "duration": 8.333333015441895,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 0,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "Walk",
+          "duration": 1.0333333015441895,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 0,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "Run",
+          "duration": 0.6666666865348816,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 0,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "WalkingBackwards",
+          "duration": 0.9666666388511658,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 0,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "Talking",
+          "duration": 3.933333396911621,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 0,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "HeadStress",
+          "duration": 4,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 0,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "SittingCrossLegged",
+          "duration": 9.566666603088379,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 0,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "SittingTalking",
+          "duration": 44.96666717529297,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 0,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "ClimbingLadder",
+          "duration": 0.7666666507720947,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 0,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "HangToCrouch",
+          "duration": 1.1333333253860474,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 0,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "Dying",
+          "duration": 4.333333492279053,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 0,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "FlyingBackDeath",
+          "duration": 3.0333333015441895,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 0,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "RifleIdle",
+          "duration": 8.566666603088379,
+          "maxLeftErrorM": 5.5149684476370045e-8,
+          "maxRightErrorM": 5.440480356261973e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "RifleWalk",
+          "duration": 1.2999999523162842,
+          "maxLeftErrorM": 9.960608563444973e-8,
+          "maxRightErrorM": 9.640039159660034e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "maxLeftErrorM": 9.597838716187861e-8,
+          "maxRightErrorM": 1.1929456466884352e-7,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "RifleAimingIdle",
+          "duration": 3.0999999046325684,
+          "maxLeftErrorM": 4.97552427068996e-8,
+          "maxRightErrorM": 1.7907970677555203e-7,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "FiringRifle",
+          "duration": 0.2666666805744171,
+          "maxLeftErrorM": 4.918517048571963e-8,
+          "maxRightErrorM": 1.3588726795193302e-7,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 1.3347499093747903e-7,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "type56_1",
+          "motion": "RifleIdle",
+          "duration": 8.566666603088379,
+          "maxLeftErrorM": 4.713281851069095e-8,
+          "maxRightErrorM": 5.413249519763116e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "type56_1",
+          "motion": "RifleWalk",
+          "duration": 1.2999999523162842,
+          "maxLeftErrorM": 4.7522410481679684e-8,
+          "maxRightErrorM": 9.115815626077558e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "type56_1",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "maxLeftErrorM": 9.11461111532516e-8,
+          "maxRightErrorM": 1.1923461771263556e-7,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "type56_1",
+          "motion": "RifleAimingIdle",
+          "duration": 3.0999999046325684,
+          "maxLeftErrorM": 2.9631993440163806e-8,
+          "maxRightErrorM": 1.8329047571215068e-7,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "type56_1",
+          "motion": "FiringRifle",
+          "duration": 0.2666666805744171,
+          "maxLeftErrorM": 3.437643980891856e-8,
+          "maxRightErrorM": 1.6162313015344948e-7,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "type56_1",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 1.3347499112210016e-7,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qbu85",
+          "motion": "RifleIdle",
+          "duration": 8.566666603088379,
+          "maxLeftErrorM": 2.1436505550029933e-8,
+          "maxRightErrorM": 6.678996918084112e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qbu85",
+          "motion": "RifleWalk",
+          "duration": 1.2999999523162842,
+          "maxLeftErrorM": 8.391547899920134e-8,
+          "maxRightErrorM": 1.0808157817364719e-7,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qbu85",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "maxLeftErrorM": 1.0001744598766894e-7,
+          "maxRightErrorM": 1.1330334074608418e-7,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qbu85",
+          "motion": "RifleAimingIdle",
+          "duration": 3.0999999046325684,
+          "maxLeftErrorM": 2.4709340522786702e-8,
+          "maxRightErrorM": 1.7142678852068933e-7,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qbu85",
+          "motion": "FiringRifle",
+          "duration": 0.2666666805744171,
+          "maxLeftErrorM": 2.9116708277221914e-8,
+          "maxRightErrorM": 1.6147915425606641e-7,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qbu85",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 1.3706307119070815e-7,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "RifleIdle",
+          "duration": 8.566666603088379,
+          "maxLeftErrorM": 5.150405860052249e-8,
+          "maxRightErrorM": 5.4132496043938395e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "RifleWalk",
+          "duration": 1.2999999523162842,
+          "maxLeftErrorM": 3.627793790603736e-8,
+          "maxRightErrorM": 9.64003917357184e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "maxLeftErrorM": 9.289171622605863e-8,
+          "maxRightErrorM": 1.192346199041034e-7,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "RifleAimingIdle",
+          "duration": 3.0999999046325684,
+          "maxLeftErrorM": 3.366217193232116e-8,
+          "maxRightErrorM": 1.6732351152465625e-7,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "FiringRifle",
+          "duration": 0.23333333432674408,
+          "maxLeftErrorM": 1.8485423872729397e-7,
+          "maxRightErrorM": 1.556631803551444e-7,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 1.3920455894167574e-7,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "ShotgunPump",
+          "duration": 0.7333333492279053,
+          "maxLeftErrorM": 1.0575943907482903e-7,
+          "maxRightErrorM": 1.004386915518801e-7,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qcq171",
+          "motion": "RifleIdle",
+          "duration": 8.566666603088379,
+          "maxLeftErrorM": 5.833384408378978e-8,
+          "maxRightErrorM": 5.6549489613639927e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qcq171",
+          "motion": "RifleWalk",
+          "duration": 1.2999999523162842,
+          "maxLeftErrorM": 8.689123120613353e-8,
+          "maxRightErrorM": 9.628220816586493e-8,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qcq171",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "maxLeftErrorM": 9.271135579565053e-8,
+          "maxRightErrorM": 1.2187175149039032e-7,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qcq171",
+          "motion": "RifleAimingIdle",
+          "duration": 3.0999999046325684,
+          "maxLeftErrorM": 3.997186322925057e-8,
+          "maxRightErrorM": 1.8968548752159629e-7,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qcq171",
+          "motion": "FiringRifle",
+          "duration": 0.2666666805744171,
+          "maxLeftErrorM": 4.053617644652707e-8,
+          "maxRightErrorM": 1.444845098381858e-7,
+          "nonfinite": 0
+        },
+        {
+          "weapon": "qcq171",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "maxLeftErrorM": 0,
+          "maxRightErrorM": 1.370630714099559e-7,
+          "nonfinite": 0
+        }
+      ]
+    }
+  },
+  "failures": []
+}

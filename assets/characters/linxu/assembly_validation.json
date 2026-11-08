@@ -1,0 +1,11 @@
+{
+  "neck_seam_points": 98,
+  "neck_max_position_error_m": 0.0,
+  "neck_open_edges": 0,
+  "bones": 312,
+  "actions": 0,
+  "body_rest_matrix_max_difference": 0.0,
+  "retained_head_vertices": 25240,
+  "uniform_head_max_vertex_error_m": 0.0,
+  "passed": true
+}

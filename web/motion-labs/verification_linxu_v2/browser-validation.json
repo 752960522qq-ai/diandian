@@ -1,0 +1,211 @@
+{
+  "samples": [
+    {
+      "motion": "Idle",
+      "fraction": 0,
+      "duration": 5.333333492279053,
+      "actualClip": "Idle"
+    },
+    {
+      "motion": "Idle",
+      "fraction": 0.17,
+      "duration": 5.333333492279053,
+      "actualClip": "Idle"
+    },
+    {
+      "motion": "Idle",
+      "fraction": 0.37,
+      "duration": 5.333333492279053,
+      "actualClip": "Idle"
+    },
+    {
+      "motion": "Idle",
+      "fraction": 0.57,
+      "duration": 5.333333492279053,
+      "actualClip": "Idle"
+    },
+    {
+      "motion": "Idle",
+      "fraction": 0.77,
+      "duration": 5.333333492279053,
+      "actualClip": "Idle"
+    },
+    {
+      "motion": "Idle",
+      "fraction": 0.97,
+      "duration": 5.333333492279053,
+      "actualClip": "Idle"
+    },
+    {
+      "motion": "Idle",
+      "fraction": 1,
+      "duration": 5.333333492279053,
+      "actualClip": "Idle"
+    },
+    {
+      "motion": "Walk",
+      "fraction": 0,
+      "duration": 1.1666666269302368,
+      "actualClip": "Walk"
+    },
+    {
+      "motion": "Walk",
+      "fraction": 0.17,
+      "duration": 1.1666666269302368,
+      "actualClip": "Walk"
+    },
+    {
+      "motion": "Walk",
+      "fraction": 0.37,
+      "duration": 1.1666666269302368,
+      "actualClip": "Walk"
+    },
+    {
+      "motion": "Walk",
+      "fraction": 0.57,
+      "duration": 1.1666666269302368,
+      "actualClip": "Walk"
+    },
+    {
+      "motion": "Walk",
+      "fraction": 0.77,
+      "duration": 1.1666666269302368,
+      "actualClip": "Walk"
+    },
+    {
+      "motion": "Walk",
+      "fraction": 0.97,
+      "duration": 1.1666666269302368,
+      "actualClip": "Walk"
+    },
+    {
+      "motion": "Walk",
+      "fraction": 1,
+      "duration": 1.1666666269302368,
+      "actualClip": "Walk"
+    },
+    {
+      "motion": "Run",
+      "fraction": 0,
+      "duration": 0.6333333253860474,
+      "actualClip": "Run"
+    },
+    {
+      "motion": "Run",
+      "fraction": 0.17,
+      "duration": 0.6333333253860474,
+      "actualClip": "Run"
+    },
+    {
+      "motion": "Run",
+      "fraction": 0.37,
+      "duration": 0.6333333253860474,
+      "actualClip": "Run"
+    },
+    {
+      "motion": "Run",
+      "fraction": 0.57,
+      "duration": 0.6333333253860474,
+      "actualClip": "Run"
+    },
+    {
+      "motion": "Run",
+      "fraction": 0.77,
+      "duration": 0.6333333253860474,
+      "actualClip": "Run"
+    },
+    {
+      "motion": "Run",
+      "fraction": 0.97,
+      "duration": 0.6333333253860474,
+      "actualClip": "Run"
+    },
+    {
+      "motion": "Run",
+      "fraction": 1,
+      "duration": 0.6333333253860474,
+      "actualClip": "Run"
+    }
+  ],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/styles.css",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/app.js?v=linxu-v2",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/vendor/three.module.js",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/vendor/GLTFLoader.js",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/vendor/OrbitControls.js",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/rig.js?v=linxu-v2",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/uploaded-motion.js",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/weapon-attachment.js?v=linxu-v2",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/vendor/BufferGeometryUtils.js",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/fixed-machine-gun.js?v=weapons-r44",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/rocket-motion.js?v=pf89-r40",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/chest-skinning.js?v=grip-r31",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/c96-dynamics.js?v=clothing-r23",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/c96-reload.js?v=clothing-r23",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/vendor/three.core.js",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/type97-motion.js?v=grip-r31",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/assets/weapon_attachment.json?v=linxu-v2",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/favicon.svg",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/assets/weapons/qbz95.glb",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/assets/weapons/type56_1.glb",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/assets/weapons/qbu85.glb",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/assets/weapons/type97hawk.glb",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/assets/weapons/qcq171.glb",
+    "blob:http://127.0.0.1:8087/bdb89e8c-f3dc-4739-8db9-39ad02966648",
+    "blob:http://127.0.0.1:8087/78bfaaf0-7362-46d5-a56f-f22c90a675bb",
+    "blob:http://127.0.0.1:8087/d9c57e3c-07c9-411a-a26a-c564f35a8c52",
+    "blob:http://127.0.0.1:8087/551c9692-7a1e-4584-ac83-98977a2f5ad3",
+    "blob:http://127.0.0.1:8087/777292fb-2057-4c4a-b160-ec6c3b64d3c8",
+    "blob:http://127.0.0.1:8087/c781d66e-0a0a-4d79-9947-ad8dd9a113b0",
+    "blob:http://127.0.0.1:8087/cfa4af33-b9cc-4a62-b961-bc2efc5fff78",
+    "blob:http://127.0.0.1:8087/510fc316-6249-4a19-9e20-c1e9b4de1a4f",
+    "blob:http://127.0.0.1:8087/8d847a15-12cf-4f14-bad9-ec30fa2b06b8",
+    "blob:http://127.0.0.1:8087/5145cb96-5eb3-4e07-9dc3-f8450763bc06",
+    "blob:http://127.0.0.1:8087/8e04a56a-87eb-4736-9e72-ec4b401e8da8",
+    "blob:http://127.0.0.1:8087/0840e576-3aab-4e31-9506-a0bae118f79b",
+    "blob:http://127.0.0.1:8087/1ec8fffc-91c8-41fb-bb3b-a9f6f28d8977",
+    "blob:http://127.0.0.1:8087/6e9823c3-3711-440a-845f-a64558006249",
+    "blob:http://127.0.0.1:8087/01d2619d-663c-4648-aaed-ca810f57fca5",
+    "blob:http://127.0.0.1:8087/d523313e-f00d-400f-8b0e-585d2666e5e1",
+    "blob:http://127.0.0.1:8087/c2a474dd-2392-4429-9b16-52bfec2e4def",
+    "blob:http://127.0.0.1:8087/66373ddd-8dcf-47bd-8841-ec0dc61c8c0f",
+    "blob:http://127.0.0.1:8087/5dd5bec8-e3f4-4e42-b8a5-1692fc33dfd4",
+    "blob:http://127.0.0.1:8087/b6a96cc1-c66f-4f58-8dea-4db5f699168c",
+    "blob:http://127.0.0.1:8087/a244e8a8-62b1-465d-a3c6-480b3658806d",
+    "blob:http://127.0.0.1:8087/111e967e-47cf-4be7-a017-7c6543f1b709",
+    "blob:http://127.0.0.1:8087/79d1588a-168f-4fac-a5cf-86310cf2ef60",
+    "blob:http://127.0.0.1:8087/1e1146f4-9482-42ef-8ad0-d013519ccbb3",
+    "blob:http://127.0.0.1:8087/726e48e7-ee5c-4200-a775-17aee626d4db",
+    "blob:http://127.0.0.1:8087/ace39efb-9a7c-4287-b0fa-d82b99fcd4fe",
+    "blob:http://127.0.0.1:8087/1c4886cb-e45d-452d-946b-82a476375d82",
+    "blob:http://127.0.0.1:8087/add46eb8-6691-4ee8-ba90-827086a0f832",
+    "blob:http://127.0.0.1:8087/ff75e6c6-b451-4e9f-a129-d6fe0265699a",
+    "blob:http://127.0.0.1:8087/d2ee2864-8b76-4a02-b0ab-486ffb22b914",
+    "blob:http://127.0.0.1:8087/b2bf7548-9961-4b9e-a91c-cd0080a1f2dd",
+    "blob:http://127.0.0.1:8087/304c389a-927d-4e26-9e8f-9275b24392b3",
+    "blob:http://127.0.0.1:8087/1d555970-7954-4080-9494-9bdacdd3a77c",
+    "blob:http://127.0.0.1:8087/c4ae9cdb-7bad-47e5-8a41-6eb2d288fe30",
+    "blob:http://127.0.0.1:8087/75f6073a-ac05-4b43-a656-f2c64dc97e8b",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/assets/characters/linxu/character.glb",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/assets/characters/linxu/motions.glb?v=linxu-v2",
+    "blob:http://127.0.0.1:8087/2c72aaaa-d64d-46e9-a3cc-40bddf734860",
+    "blob:http://127.0.0.1:8087/54b58e8b-3eee-4240-8751-dae49e71d078",
+    "blob:http://127.0.0.1:8087/e7cf1994-9e1d-42cb-919d-16f5fee44c3d",
+    "blob:http://127.0.0.1:8087/0fc18808-a5ef-412f-89ff-b27979711583"
+  ],
+  "assets": {
+    "assets/characters/linxu/character.glb": "56e8761b486d8b4ce31c4cdd9a9c19b5a71f3edcf06a5ece23426ab34f323ead",
+    "assets/characters/linxu/motions.glb": "e61084a5ccb72abbb41c8ae25af8d573992466d7e4b79b6957a1bd3da2736afb",
+    "app.js": "82b6c703bd07cdd88ee810a5f7ef5723fff12b9af308fd981e5ab49941718fbf",
+    "rig.js": "a7eb7128093eb3ed0d3adbbcc9784fbc88ddd4c2f371a44b2ab0c8fd14fb24c0"
+  },
+  "passed": true,
+  "mobile": {
+    "width": 390,
+    "noHorizontalOverflow": true
+  },
+  "unarmedRunComparison": false,
+  "weaponTransitions": 5
+}

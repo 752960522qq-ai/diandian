@@ -1,0 +1,26 @@
+{
+  "character": "linxu",
+  "source_model_sha256": "a13e9afa92256249d6419f8abe7450174ce44dfa05d45e14dbb185cd30d06557",
+  "motions_sha256": "7f302fb2843f4496c29138003b1335d9452ba080e97a01af159d315780e133d9",
+  "weapon_action_combinations": 43,
+  "sampled_frames": 2623,
+  "failures": [],
+  "mobile": {
+    "width": 390,
+    "noHorizontalOverflow": true,
+    "comparisonWorks": true
+  },
+  "comparisons": 6,
+  "visual_review": [
+    "run-none-before.png",
+    "run-none-after.png",
+    "run-qbz95-after.png",
+    "linxu-none-Walk.png",
+    "linxu-none-HeadStress.png",
+    "linxu-qbu85-RifleAimingIdle.png",
+    "linxu-qbu85-RifleWalk.png",
+    "linxu-qcq171-RifleAimingIdle.png",
+    "mobile.png"
+  ],
+  "surface_scope": "Sampled hand/weapon contact and forearm/torso surfaces; not exhaustive continuous collision detection."
+}

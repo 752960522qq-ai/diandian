@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import { applyReferenceGrip } from './reference-grip.js?v=r48';
 import { fixedGunMotionNames, applyFixedGunPose } from './fixed-machine-gun.js?v=weapons-r44';
 import { rocketMotions, rocketSupportWeight, rocketCarryWeight, applyRocketPosePath, fitRocketCarryReach } from './rocket-motion.js?v=pf89-r40';
 import { ChestSkinningRelief } from './chest-skinning.js?v=grip-r31';
@@ -365,7 +366,7 @@ export class WeaponAttachment {
     const id = this.selectedWeapon;
     if (id === 'qjz89') { applyFixedGunPose(this, motion, time); return; }
     const data = this.config.weapons[id];
-    const mount = this.mountFor(id, motion);
+    const mount = applyReferenceGrip(this.mountFor(id, motion), time);
     if (id === 'pf89') {
       mount.support_pose_weight = rocketSupportWeight(motion,time);
       mount.release_support_hand = mount.support_pose_weight === 0;

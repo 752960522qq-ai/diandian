@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import { WeaponAttachment } from './weapon-attachment.js?v=r47';
+import { WeaponAttachment } from './weapon-attachment.js?v=r48';
 
 export const unarmed = [
   ['Idle','待机'],['Walk','行走'],['Run','奔跑'],['WalkingBackwards','倒退行走'],

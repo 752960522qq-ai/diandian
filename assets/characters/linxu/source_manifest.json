@@ -1,0 +1,17 @@
+{
+  "hair": {
+    "file": "assets/characters/linxu/source/linxu hair.glb",
+    "sha256": "7aa8dca7a99dc7eff6366d7f84b1447df1ece48e554fb645c422a122d4e61a3a",
+    "upload_id": "file_00000000ac908211a25c1d43ca31df1d"
+  },
+  "head": {
+    "file": "assets/characters/linxu/source/linxu head.glb.glb",
+    "sha256": "727fde5f68046bc95bb587820531e537ab37e915946c31dd22190be2b09e9456",
+    "upload_id": "file_00000000eb80821186cbcc99654289ea"
+  },
+  "body": {
+    "file": "assets/characters/linxu/source/linxu body.glb",
+    "sha256": "c628ed28cf39e6a196f04798338785721c17235c2226f5162916d118d31e56eb",
+    "upload_id": "file_00000000b4c0821184964e881960fde5"
+  }
+}

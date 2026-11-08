@@ -1,0 +1,758 @@
+{
+  "rows": [
+    {
+      "time": 0,
+      "skinDistanceFromTargetM": 2.4915767026659774e-9,
+      "gunDistanceFromTargetM": 0.0015000000000000328,
+      "clearanceM": 0.00149999750842333
+    },
+    {
+      "time": 0.005555555721124013,
+      "skinDistanceFromTargetM": 1.315576647540081e-9,
+      "gunDistanceFromTargetM": 0.001499999999999856,
+      "clearanceM": 0.0014999986844232084
+    },
+    {
+      "time": 0.011111111442248026,
+      "skinDistanceFromTargetM": 1.636863387672583e-9,
+      "gunDistanceFromTargetM": 0.0014999999999999716,
+      "clearanceM": 0.001499998363136584
+    },
+    {
+      "time": 0.01666666716337204,
+      "skinDistanceFromTargetM": 3.3708306449944673e-9,
+      "gunDistanceFromTargetM": 0.0015000000000000035,
+      "clearanceM": 0.0014999966291693585
+    },
+    {
+      "time": 0.022222222884496053,
+      "skinDistanceFromTargetM": 6.43086741140493e-9,
+      "gunDistanceFromTargetM": 0.0015000000000000568,
+      "clearanceM": 0.0014999935691326453
+    },
+    {
+      "time": 0.027777778605620067,
+      "skinDistanceFromTargetM": 1.0728406819705139e-8,
+      "gunDistanceFromTargetM": 0.0014999999999999244,
+      "clearanceM": 0.0014999892715931047
+    },
+    {
+      "time": 0.03333333432674408,
+      "skinDistanceFromTargetM": 1.2569301887132332e-8,
+      "gunDistanceFromTargetM": 0.0014999999999999903,
+      "clearanceM": 0.0014999874306981032
+    },
+    {
+      "time": 0.038888890047868094,
+      "skinDistanceFromTargetM": 6.620453504088921e-9,
+      "gunDistanceFromTargetM": 0.001500000000000031,
+      "clearanceM": 0.001499993379546527
+    },
+    {
+      "time": 0.044444445768992105,
+      "skinDistanceFromTargetM": 1.9442614475903523e-9,
+      "gunDistanceFromTargetM": 0.001499999999999954,
+      "clearanceM": 0.0014999980557385065
+    },
+    {
+      "time": 0.05000000149011612,
+      "skinDistanceFromTargetM": -1.485727232619821e-9,
+      "gunDistanceFromTargetM": 0.001499999999999959,
+      "clearanceM": 0.0015000014857271917
+    },
+    {
+      "time": 0.055555557211240135,
+      "skinDistanceFromTargetM": -3.7022741658542684e-9,
+      "gunDistanceFromTargetM": 0.0014999999999999805,
+      "clearanceM": 0.0015000037022741464
+    },
+    {
+      "time": 0.061111112932364146,
+      "skinDistanceFromTargetM": -4.744400002605487e-9,
+      "gunDistanceFromTargetM": 0.0014999999999999812,
+      "clearanceM": 0.0015000047443999838
+    },
+    {
+      "time": 0.06666666865348816,
+      "skinDistanceFromTargetM": -5.312760903373648e-9,
+      "gunDistanceFromTargetM": 0.0014999999999999836,
+      "clearanceM": 0.0015000053127608869
+    },
+    {
+      "time": 0.07222222437461218,
+      "skinDistanceFromTargetM": -6.867004374620538e-9,
+      "gunDistanceFromTargetM": 0.001500000000000003,
+      "clearanceM": 0.0015000068670043777
+    },
+    {
+      "time": 0.07777778009573619,
+      "skinDistanceFromTargetM": -9.343502292062875e-9,
+      "gunDistanceFromTargetM": 0.0015000000000000408,
+      "clearanceM": 0.0015000093435023328
+    },
+    {
+      "time": 0.0833333358168602,
+      "skinDistanceFromTargetM": -1.2732858212697494e-8,
+      "gunDistanceFromTargetM": 0.0015000000000000321,
+      "clearanceM": 0.0015000127328582448
+    },
+    {
+      "time": 0.08888889153798421,
+      "skinDistanceFromTargetM": -1.7026224057496833e-8,
+      "gunDistanceFromTargetM": 0.001500000000000026,
+      "clearanceM": 0.0015000170262240836
+    },
+    {
+      "time": 0.09444444725910822,
+      "skinDistanceFromTargetM": -2.2215313519660554e-8,
+      "gunDistanceFromTargetM": 0.0015000000000000037,
+      "clearanceM": 0.0015000222153135235
+    },
+    {
+      "time": 0.10000000298023223,
+      "skinDistanceFromTargetM": -1.8579001405045988e-8,
+      "gunDistanceFromTargetM": 0.001499999999999986,
+      "clearanceM": 0.001500018579001391
+    },
+    {
+      "time": 0.10555555870135626,
+      "skinDistanceFromTargetM": -1.4263394871127895e-8,
+      "gunDistanceFromTargetM": 0.0014999999999999528,
+      "clearanceM": 0.0015000142633948238
+    },
+    {
+      "time": 0.11111111442248027,
+      "skinDistanceFromTargetM": -1.0891670124282024e-8,
+      "gunDistanceFromTargetM": 0.0014999999999999293,
+      "clearanceM": 0.0015000108916700535
+    },
+    {
+      "time": 0.11666667014360428,
+      "skinDistanceFromTargetM": -8.46343199974451e-9,
+      "gunDistanceFromTargetM": 0.001500000000000037,
+      "clearanceM": 0.0015000084634320366
+    },
+    {
+      "time": 0.12222222586472829,
+      "skinDistanceFromTargetM": -6.977775909088484e-9,
+      "gunDistanceFromTargetM": 0.0014999999999999634,
+      "clearanceM": 0.0015000069777758725
+    },
+    {
+      "time": 0.12777778158585232,
+      "skinDistanceFromTargetM": -6.488594798016068e-9,
+      "gunDistanceFromTargetM": 0.0014999999999999645,
+      "clearanceM": 0.0015000064885947624
+    },
+    {
+      "time": 0.13333333730697633,
+      "skinDistanceFromTargetM": -5.2423062996402136e-9,
+      "gunDistanceFromTargetM": 0.0015000000000000018,
+      "clearanceM": 0.0015000052423063013
+    },
+    {
+      "time": 0.13888889302810034,
+      "skinDistanceFromTargetM": -1.398957802284022e-9,
+      "gunDistanceFromTargetM": 0.001499999999999922,
+      "clearanceM": 0.0015000013989577242
+    },
+    {
+      "time": 0.14444444874922435,
+      "skinDistanceFromTargetM": 5.020519755481952e-9,
+      "gunDistanceFromTargetM": 0.0014999999999999558,
+      "clearanceM": 0.0014999949794802002
+    },
+    {
+      "time": 0.15000000447034836,
+      "skinDistanceFromTargetM": 1.3992641635596434e-8,
+      "gunDistanceFromTargetM": 0.0015000000000000239,
+      "clearanceM": 0.0014999860073583882
+    },
+    {
+      "time": 0.15555556019147238,
+      "skinDistanceFromTargetM": 2.549138254925681e-8,
+      "gunDistanceFromTargetM": 0.0014999999999999437,
+      "clearanceM": 0.0014999745086173944
+    },
+    {
+      "time": 0.1611111159125964,
+      "skinDistanceFromTargetM": 2.7204307621817774e-8,
+      "gunDistanceFromTargetM": 0.0014999999999999885,
+      "clearanceM": 0.0014999727956923666
+    },
+    {
+      "time": 0.1666666716337204,
+      "skinDistanceFromTargetM": 1.4815632323821177e-8,
+      "gunDistanceFromTargetM": 0.0014999999999999883,
+      "clearanceM": 0.0014999851843676645
+    },
+    {
+      "time": 0.1722222273548444,
+      "skinDistanceFromTargetM": 4.651608609979604e-9,
+      "gunDistanceFromTargetM": 0.001499999999999988,
+      "clearanceM": 0.001499995348391378
+    },
+    {
+      "time": 0.17777778307596842,
+      "skinDistanceFromTargetM": -3.2552320825118443e-9,
+      "gunDistanceFromTargetM": 0.001499999999999942,
+      "clearanceM": 0.0015000032552320245
+    },
+    {
+      "time": 0.18333333879709243,
+      "skinDistanceFromTargetM": -8.877341514476513e-9,
+      "gunDistanceFromTargetM": 0.0015000000000000397,
+      "clearanceM": 0.0015000088773415542
+    },
+    {
+      "time": 0.18888889451821644,
+      "skinDistanceFromTargetM": -1.2192057672439657e-8,
+      "gunDistanceFromTargetM": 0.0015000000000000013,
+      "clearanceM": 0.0015000121920576738
+    },
+    {
+      "time": 0.19444445023934046,
+      "skinDistanceFromTargetM": -1.1486853943314494e-8,
+      "gunDistanceFromTargetM": 0.001499999999999958,
+      "clearanceM": 0.0015000114868539013
+    },
+    {
+      "time": 0.20000000596046447,
+      "skinDistanceFromTargetM": -9.04575788579566e-9,
+      "gunDistanceFromTargetM": 0.001500000000000019,
+      "clearanceM": 0.0015000090457579047
+    },
+    {
+      "time": 0.20555556168158848,
+      "skinDistanceFromTargetM": -5.752025640695673e-9,
+      "gunDistanceFromTargetM": 0.0014999999999999766,
+      "clearanceM": 0.0015000057520256173
+    },
+    {
+      "time": 0.21111111740271252,
+      "skinDistanceFromTargetM": -1.6008569973232585e-9,
+      "gunDistanceFromTargetM": 0.0014999999999999532,
+      "clearanceM": 0.0015000016008569505
+    },
+    {
+      "time": 0.21666667312383653,
+      "skinDistanceFromTargetM": 3.4096463122668074e-9,
+      "gunDistanceFromTargetM": 0.0014999999999999998,
+      "clearanceM": 0.0014999965903536876
+    },
+    {
+      "time": 0.22222222884496054,
+      "skinDistanceFromTargetM": 9.278655510368056e-9,
+      "gunDistanceFromTargetM": 0.0015000000000000087,
+      "clearanceM": 0.0014999907213444983
+    },
+    {
+      "time": 0.22777778456608455,
+      "skinDistanceFromTargetM": 4.288262842956278e-9,
+      "gunDistanceFromTargetM": 0.0015000000000000265,
+      "clearanceM": 0.0014999957117371836
+    },
+    {
+      "time": 0.23333334028720856,
+      "skinDistanceFromTargetM": 2.151448907052928e-9,
+      "gunDistanceFromTargetM": 0.0014999999999999237,
+      "clearanceM": 0.0014999978485510167
+    },
+    {
+      "time": 0.23888889600833257,
+      "skinDistanceFromTargetM": 2.830427145930511e-9,
+      "gunDistanceFromTargetM": 0.0014999999999999966,
+      "clearanceM": 0.0014999971695728506
+    },
+    {
+      "time": 0.24444445172945659,
+      "skinDistanceFromTargetM": 6.276244464057951e-9,
+      "gunDistanceFromTargetM": 0.0014999999999999651,
+      "clearanceM": 0.001499993723755501
+    },
+    {
+      "time": 0.2500000074505806,
+      "skinDistanceFromTargetM": 1.2429351408253189e-8,
+      "gunDistanceFromTargetM": 0.0015000000000000243,
+      "clearanceM": 0.001499987570648616
+    },
+    {
+      "time": 0.25555556317170464,
+      "skinDistanceFromTargetM": 1.5828361343223048e-8,
+      "gunDistanceFromTargetM": 0.0014999999999999875,
+      "clearanceM": 0.0014999841716386443
+    },
+    {
+      "time": 0.2611111188928286,
+      "skinDistanceFromTargetM": 6.822306677482227e-9,
+      "gunDistanceFromTargetM": 0.0014999999999999992,
+      "clearanceM": 0.0014999931776933217
+    },
+    {
+      "time": 0.26666667461395266,
+      "skinDistanceFromTargetM": -1.9160619907201803e-9,
+      "gunDistanceFromTargetM": 0.0014999999999999432,
+      "clearanceM": 0.001500001916061934
+    },
+    {
+      "time": 0.27222223033507664,
+      "skinDistanceFromTargetM": -1.0337528763865033e-8,
+      "gunDistanceFromTargetM": 0.001499999999999967,
+      "clearanceM": 0.0015000103375287308
+    },
+    {
+      "time": 0.2777777860562007,
+      "skinDistanceFromTargetM": -8.242637868963173e-9,
+      "gunDistanceFromTargetM": 0.0014999999999999564,
+      "clearanceM": 0.0015000082426378254
+    },
+    {
+      "time": 0.28333334177732467,
+      "skinDistanceFromTargetM": -5.6661219162771675e-9,
+      "gunDistanceFromTargetM": 0.0015000000000000226,
+      "clearanceM": 0.0015000056661219389
+    },
+    {
+      "time": 0.2888888974984487,
+      "skinDistanceFromTargetM": -5.403281731215366e-9,
+      "gunDistanceFromTargetM": 0.0014999999999999404,
+      "clearanceM": 0.0015000054032816715
+    },
+    {
+      "time": 0.2944444532195727,
+      "skinDistanceFromTargetM": -7.223985632284172e-9,
+      "gunDistanceFromTargetM": 0.0014999999999999946,
+      "clearanceM": 0.001500007223985627
+    },
+    {
+      "time": 0.3000000089406967,
+      "skinDistanceFromTargetM": -8.898155811165055e-9,
+      "gunDistanceFromTargetM": 0.001499999999999973,
+      "clearanceM": 0.001500008898155784
+    },
+    {
+      "time": 0.3055555646618207,
+      "skinDistanceFromTargetM": -1.0480885306062929e-8,
+      "gunDistanceFromTargetM": 0.001499999999999942,
+      "clearanceM": 0.001500010480885248
+    },
+    {
+      "time": 0.31111112038294475,
+      "skinDistanceFromTargetM": -1.2021594816866527e-8,
+      "gunDistanceFromTargetM": 0.0014999999999999424,
+      "clearanceM": 0.0015000120215947592
+    },
+    {
+      "time": 0.31666667610406873,
+      "skinDistanceFromTargetM": 8.357617514754897e-9,
+      "gunDistanceFromTargetM": 0.001499999999999983,
+      "clearanceM": 0.0014999916423824682
+    },
+    {
+      "time": 0.3222222318251928,
+      "skinDistanceFromTargetM": 7.883417605838116e-9,
+      "gunDistanceFromTargetM": 0.001499999999999949,
+      "clearanceM": 0.0014999921165823433
+    },
+    {
+      "time": 0.32777778754631676,
+      "skinDistanceFromTargetM": 7.77155980925346e-9,
+      "gunDistanceFromTargetM": 0.001499999999999925,
+      "clearanceM": 0.0014999922284401157
+    },
+    {
+      "time": 0.3333333432674408,
+      "skinDistanceFromTargetM": 7.636405289804999e-9,
+      "gunDistanceFromTargetM": 0.0014999999999999517,
+      "clearanceM": 0.0014999923635946619
+    },
+    {
+      "time": 0.33888889898856484,
+      "skinDistanceFromTargetM": 7.213679636017679e-9,
+      "gunDistanceFromTargetM": 0.0015000000000000386,
+      "clearanceM": 0.0014999927863204026
+    },
+    {
+      "time": 0.3444444547096888,
+      "skinDistanceFromTargetM": 6.223851386385414e-9,
+      "gunDistanceFromTargetM": 0.0014999999999999155,
+      "clearanceM": 0.0014999937761485292
+    },
+    {
+      "time": 0.35000001043081286,
+      "skinDistanceFromTargetM": 5.081252558326167e-9,
+      "gunDistanceFromTargetM": 0.0014999999999999872,
+      "clearanceM": 0.001499994918747429
+    },
+    {
+      "time": 0.35555556615193684,
+      "skinDistanceFromTargetM": -9.116319607020574e-9,
+      "gunDistanceFromTargetM": 0.0015000000000000195,
+      "clearanceM": 0.0015000091163196265
+    },
+    {
+      "time": 0.3611111218730609,
+      "skinDistanceFromTargetM": -9.071188352000153e-9,
+      "gunDistanceFromTargetM": 0.0015000000000000055,
+      "clearanceM": 0.0015000090711883574
+    },
+    {
+      "time": 0.36666667759418486,
+      "skinDistanceFromTargetM": -1.043381422777294e-8,
+      "gunDistanceFromTargetM": 0.001499999999999958,
+      "clearanceM": 0.0015000104338141857
+    },
+    {
+      "time": 0.3722222333153089,
+      "skinDistanceFromTargetM": -1.3219971101924011e-8,
+      "gunDistanceFromTargetM": 0.0014999999999999794,
+      "clearanceM": 0.0015000132199710814
+    },
+    {
+      "time": 0.3777777890364329,
+      "skinDistanceFromTargetM": -1.7446602354816734e-8,
+      "gunDistanceFromTargetM": 0.0014999999999999827,
+      "clearanceM": 0.0015000174466023376
+    },
+    {
+      "time": 0.3833333447575569,
+      "skinDistanceFromTargetM": -1.8611865930226774e-8,
+      "gunDistanceFromTargetM": 0.001499999999999973,
+      "clearanceM": 0.001500018611865903
+    },
+    {
+      "time": 0.3888889004786809,
+      "skinDistanceFromTargetM": -1.509616917487295e-8,
+      "gunDistanceFromTargetM": 0.001499999999999975,
+      "clearanceM": 0.00150001509616915
+    },
+    {
+      "time": 0.39444445619980495,
+      "skinDistanceFromTargetM": -1.2859249161577275e-8,
+      "gunDistanceFromTargetM": 0.0015000000000000451,
+      "clearanceM": 0.0015000128592492067
+    },
+    {
+      "time": 0.40000001192092893,
+      "skinDistanceFromTargetM": -1.1877537143776972e-8,
+      "gunDistanceFromTargetM": 0.0014999999999999734,
+      "clearanceM": 0.001500011877537117
+    },
+    {
+      "time": 0.40555556764205297,
+      "skinDistanceFromTargetM": -1.2124911342967319e-8,
+      "gunDistanceFromTargetM": 0.0014999999999999818,
+      "clearanceM": 0.0015000121249113248
+    },
+    {
+      "time": 0.41111112336317696,
+      "skinDistanceFromTargetM": -1.3572714622141767e-8,
+      "gunDistanceFromTargetM": 0.0014999999999999875,
+      "clearanceM": 0.0015000135727146096
+    },
+    {
+      "time": 0.416666679084301,
+      "skinDistanceFromTargetM": -1.2290006018951915e-8,
+      "gunDistanceFromTargetM": 0.0014999999999999818,
+      "clearanceM": 0.0015000122900060008
+    },
+    {
+      "time": 0.42222223480542503,
+      "skinDistanceFromTargetM": -8.53896211592159e-9,
+      "gunDistanceFromTargetM": 0.0014999999999999068,
+      "clearanceM": 0.0015000085389620227
+    },
+    {
+      "time": 0.427777790526549,
+      "skinDistanceFromTargetM": -3.4989522291025438e-9,
+      "gunDistanceFromTargetM": 0.0014999999999999677,
+      "clearanceM": 0.0015000034989521968
+    },
+    {
+      "time": 0.43333334624767306,
+      "skinDistanceFromTargetM": 2.870998910522939e-9,
+      "gunDistanceFromTargetM": 0.0014999999999999601,
+      "clearanceM": 0.0014999971290010495
+    },
+    {
+      "time": 0.43888890196879704,
+      "skinDistanceFromTargetM": 1.0612435928743282e-8,
+      "gunDistanceFromTargetM": 0.0015000000000000464,
+      "clearanceM": 0.0014999893875641177
+    },
+    {
+      "time": 0.4444444576899211,
+      "skinDistanceFromTargetM": 1.9767412241064657e-8,
+      "gunDistanceFromTargetM": 0.0014999999999999747,
+      "clearanceM": 0.0014999802325877335
+    },
+    {
+      "time": 0.45000001341104506,
+      "skinDistanceFromTargetM": 9.569628571794221e-9,
+      "gunDistanceFromTargetM": 0.0014999999999999944,
+      "clearanceM": 0.0014999904303714226
+    },
+    {
+      "time": 0.4555555691321691,
+      "skinDistanceFromTargetM": -2.7808084485493667e-9,
+      "gunDistanceFromTargetM": 0.001499999999999948,
+      "clearanceM": 0.0015000027808083965
+    },
+    {
+      "time": 0.4611111248532931,
+      "skinDistanceFromTargetM": -1.7316704691939822e-8,
+      "gunDistanceFromTargetM": 0.0015000000000000328,
+      "clearanceM": 0.0015000173167047247
+    },
+    {
+      "time": 0.4666666805744171,
+      "skinDistanceFromTargetM": -3.407028802267616e-8,
+      "gunDistanceFromTargetM": 0.0015000000000000237,
+      "clearanceM": 0.0015000340702880463
+    },
+    {
+      "time": 0.4722222362955411,
+      "skinDistanceFromTargetM": -5.307318793648272e-8,
+      "gunDistanceFromTargetM": 0.0014999999999999927,
+      "clearanceM": 0.0015000530731879291
+    },
+    {
+      "time": 0.47777779201666515,
+      "skinDistanceFromTargetM": -6.168946118909456e-8,
+      "gunDistanceFromTargetM": 0.0014999999999999812,
+      "clearanceM": 0.0015000616894611702
+    },
+    {
+      "time": 0.48333334773778913,
+      "skinDistanceFromTargetM": -4.1928904008251385e-8,
+      "gunDistanceFromTargetM": 0.0014999999999999742,
+      "clearanceM": 0.0015000419289039825
+    },
+    {
+      "time": 0.48888890345891317,
+      "skinDistanceFromTargetM": -2.6035610933056876e-8,
+      "gunDistanceFromTargetM": 0.0014999999999999888,
+      "clearanceM": 0.0015000260356109218
+    },
+    {
+      "time": 0.49444445918003715,
+      "skinDistanceFromTargetM": -1.4041753460950251e-8,
+      "gunDistanceFromTargetM": 0.0014999999999998864,
+      "clearanceM": 0.0015000140417533473
+    },
+    {
+      "time": 0.5000000149011612,
+      "skinDistanceFromTargetM": -5.977529890016039e-9,
+      "gunDistanceFromTargetM": 0.0014999999999999853,
+      "clearanceM": 0.0015000059775298754
+    },
+    {
+      "time": 0.5055555706222852,
+      "skinDistanceFromTargetM": -1.8711276632706273e-9,
+      "gunDistanceFromTargetM": 0.0014999999999999651,
+      "clearanceM": 0.0015000018711276283
+    },
+    {
+      "time": 0.5111111263434093,
+      "skinDistanceFromTargetM": -7.343342835254657e-10,
+      "gunDistanceFromTargetM": 0.0014999999999999588,
+      "clearanceM": 0.0015000007343342423
+    },
+    {
+      "time": 0.5166666820645333,
+      "skinDistanceFromTargetM": 2.0291310609271836e-9,
+      "gunDistanceFromTargetM": 0.0015000000000000811,
+      "clearanceM": 0.0014999979708690203
+    },
+    {
+      "time": 0.5222222377856572,
+      "skinDistanceFromTargetM": 6.933268314951832e-9,
+      "gunDistanceFromTargetM": 0.0014999999999999415,
+      "clearanceM": 0.0014999930667316265
+    },
+    {
+      "time": 0.5277777935067812,
+      "skinDistanceFromTargetM": 1.3911993310922194e-8,
+      "gunDistanceFromTargetM": 0.0014999999999999929,
+      "clearanceM": 0.001499986088006682
+    },
+    {
+      "time": 0.5333333492279053,
+      "skinDistanceFromTargetM": 2.2892579111433216e-8,
+      "gunDistanceFromTargetM": 0.0014999999999999879,
+      "clearanceM": 0.0014999771074208764
+    },
+    {
+      "time": 0.5388889049490293,
+      "skinDistanceFromTargetM": 3.379623845732195e-8,
+      "gunDistanceFromTargetM": 0.0015000000000000057,
+      "clearanceM": 0.0014999662037615484
+    },
+    {
+      "time": 0.5444444606701533,
+      "skinDistanceFromTargetM": 2.717706001428718e-8,
+      "gunDistanceFromTargetM": 0.0015000000000000163,
+      "clearanceM": 0.001499972822940002
+    },
+    {
+      "time": 0.5500000163912773,
+      "skinDistanceFromTargetM": 2.0758954746854195e-8,
+      "gunDistanceFromTargetM": 0.0015000000000000256,
+      "clearanceM": 0.0014999792410452788
+    },
+    {
+      "time": 0.5555555721124014,
+      "skinDistanceFromTargetM": 1.7944895338508094e-8,
+      "gunDistanceFromTargetM": 0.0015000000000000339,
+      "clearanceM": 0.0014999820551046953
+    },
+    {
+      "time": 0.5611111278335253,
+      "skinDistanceFromTargetM": 1.8779996145565294e-8,
+      "gunDistanceFromTargetM": 0.0015000000000000042,
+      "clearanceM": 0.0014999812200038585
+    },
+    {
+      "time": 0.5666666835546493,
+      "skinDistanceFromTargetM": 2.3299761127347605e-8,
+      "gunDistanceFromTargetM": 0.0015000000000000575,
+      "clearanceM": 0.00149997670023893
+    },
+    {
+      "time": 0.5722222392757733,
+      "skinDistanceFromTargetM": 2.8831441480254787e-8,
+      "gunDistanceFromTargetM": 0.0015000000000000117,
+      "clearanceM": 0.0014999711685585314
+    },
+    {
+      "time": 0.5777777949968974,
+      "skinDistanceFromTargetM": 3.706055607777362e-8,
+      "gunDistanceFromTargetM": 0.0014999999999999972,
+      "clearanceM": 0.0014999629394439194
+    },
+    {
+      "time": 0.5833333507180214,
+      "skinDistanceFromTargetM": 1.882349011674069e-9,
+      "gunDistanceFromTargetM": 0.0014999999999999675,
+      "clearanceM": 0.0014999981176509558
+    },
+    {
+      "time": 0.5888889064391454,
+      "skinDistanceFromTargetM": -4.139109032050778e-9,
+      "gunDistanceFromTargetM": 0.00149999999999998,
+      "clearanceM": 0.0015000041391090122
+    },
+    {
+      "time": 0.5944444621602695,
+      "skinDistanceFromTargetM": -9.54712008611673e-9,
+      "gunDistanceFromTargetM": 0.0015000000000000137,
+      "clearanceM": 0.0015000095471200997
+    },
+    {
+      "time": 0.6000000178813935,
+      "skinDistanceFromTargetM": -1.430138496299857e-8,
+      "gunDistanceFromTargetM": 0.001499999999999975,
+      "clearanceM": 0.001500014301384938
+    },
+    {
+      "time": 0.6055555736025174,
+      "skinDistanceFromTargetM": -1.4974277647139503e-8,
+      "gunDistanceFromTargetM": 0.001499999999999971,
+      "clearanceM": 0.001500014974277618
+    },
+    {
+      "time": 0.6111111293236414,
+      "skinDistanceFromTargetM": -1.0895789088352515e-8,
+      "gunDistanceFromTargetM": 0.001500000000000002,
+      "clearanceM": 0.0015000108957890902
+    },
+    {
+      "time": 0.6166666850447655,
+      "skinDistanceFromTargetM": -6.786319791165407e-9,
+      "gunDistanceFromTargetM": 0.001499999999999981,
+      "clearanceM": 0.001500006786319772
+    },
+    {
+      "time": 0.6222222407658895,
+      "skinDistanceFromTargetM": -2.6620302656553893e-9,
+      "gunDistanceFromTargetM": 0.0014999999999999885,
+      "clearanceM": 0.0015000026620302542
+    },
+    {
+      "time": 0.6277777964870135,
+      "skinDistanceFromTargetM": 1.4632680384257634e-9,
+      "gunDistanceFromTargetM": 0.0014999999999999842,
+      "clearanceM": 0.0014999985367319458
+    },
+    {
+      "time": 0.6333333522081375,
+      "skinDistanceFromTargetM": 5.578332961042954e-9,
+      "gunDistanceFromTargetM": 0.001500000000000002,
+      "clearanceM": 0.0014999944216670408
+    },
+    {
+      "time": 0.6388889079292616,
+      "skinDistanceFromTargetM": 3.872644657530129e-9,
+      "gunDistanceFromTargetM": 0.0014999999999999421,
+      "clearanceM": 0.0014999961273552847
+    },
+    {
+      "time": 0.6444444636503855,
+      "skinDistanceFromTargetM": -2.798010904482262e-10,
+      "gunDistanceFromTargetM": 0.0015000000000000042,
+      "clearanceM": 0.0015000002798010947
+    },
+    {
+      "time": 0.6500000193715095,
+      "skinDistanceFromTargetM": -4.542672176174972e-9,
+      "gunDistanceFromTargetM": 0.0015000000000000128,
+      "clearanceM": 0.001500004542672189
+    },
+    {
+      "time": 0.6555555750926335,
+      "skinDistanceFromTargetM": 1.891051111609036e-10,
+      "gunDistanceFromTargetM": 0.0014999999999999272,
+      "clearanceM": 0.001499999810894816
+    },
+    {
+      "time": 0.6611111308137576,
+      "skinDistanceFromTargetM": -1.1073151773109306e-9,
+      "gunDistanceFromTargetM": 0.0014999999999999677,
+      "clearanceM": 0.001500001107315145
+    },
+    {
+      "time": 0.6666666865348816,
+      "skinDistanceFromTargetM": -1.8501880184343025e-9,
+      "gunDistanceFromTargetM": 0.0015000000000000371,
+      "clearanceM": 0.0015000018501880555
+    }
+  ],
+  "failures": [],
+  "scope": {
+    "unchangedCharacter": "vest",
+    "changedCharacter": "military",
+    "changedWeapon": "qcq171",
+    "changedMotion": "RifleRun"
+  },
+  "military": {
+    "unaffectedPoses": 90,
+    "maxUnaffectedMatrixDifference": 0,
+    "maxWeaponDifference": 0,
+    "maxLeftArmDifference": 0,
+    "maxRightHandRotationDifference": 0.0000017075472925031877
+  },
+  "surface": {
+    "samples": 121,
+    "misses": 0,
+    "maxSurfaceGapM": 0.0015000616894611702,
+    "maxMeasuredPenetrationM": 0,
+    "maxAnchorErrorM": 6.668617158087373e-8
+  },
+  "vest": {
+    "unaffectedPoses": 93,
+    "maxUnaffectedMatrixDifference": 0,
+    "maxWeaponDifference": 0,
+    "maxLeftArmDifference": 0,
+    "maxRightHandRotationDifference": 0
+  }
+}

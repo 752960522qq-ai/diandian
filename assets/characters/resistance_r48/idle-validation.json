@@ -1,0 +1,23 @@
+{
+  "sampleRateHz": 60,
+  "characters": {
+    "military": {
+      "sampledFrames": 501,
+      "nonFinite": 0,
+      "maxArmDirectionChangeDegrees": 0.000009313570918021479,
+      "maxFrameToFrameShoulderDegrees": 0.04805828341125336,
+      "minPalmToLegAxisNativeM": 0.11303044959825065,
+      "maxOtherLocalTransformDifference": 0,
+      "maxNonUnitQuaternionError": 4.174465861872534e-8
+    },
+    "vest": {
+      "sampledFrames": 501,
+      "nonFinite": 0,
+      "maxArmDirectionChangeDegrees": 0.000011197136397927998,
+      "maxFrameToFrameShoulderDegrees": 0.048050013802331176,
+      "minPalmToLegAxisNativeM": 0.11469119497846382,
+      "maxOtherLocalTransformDifference": 0,
+      "maxNonUnitQuaternionError": 4.0539401613415293e-8
+    }
+  }
+}

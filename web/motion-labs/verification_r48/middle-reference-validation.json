@@ -1,0 +1,470 @@
+[
+  {
+    "cid": "military",
+    "weapon": "qbz95",
+    "motion": "RifleIdle",
+    "maxMiddleErrorM": 9.246025261003961e-8,
+    "maxLeftContactErrorM": 3.4910246621440755e-8,
+    "maxRightContactErrorM": 4.6244812827946556e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "military",
+    "weapon": "qbz95",
+    "motion": "RifleWalk",
+    "maxMiddleErrorM": 1.0613112015928347e-7,
+    "maxLeftContactErrorM": 4.398526718650586e-8,
+    "maxRightContactErrorM": 3.608039250538274e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "military",
+    "weapon": "qbz95",
+    "motion": "RifleRun",
+    "maxMiddleErrorM": 2.3149987540398572e-7,
+    "maxLeftContactErrorM": 4.619765701253591e-8,
+    "maxRightContactErrorM": 5.567904791450307e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "military",
+    "weapon": "qbz95",
+    "motion": "RifleAimingIdle",
+    "maxMiddleErrorM": 4.1512271368806606e-7,
+    "maxLeftContactErrorM": 2.503105579950766e-8,
+    "maxRightContactErrorM": 5.409797378988516e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "military",
+    "weapon": "qbz95",
+    "motion": "FiringRifle",
+    "maxMiddleErrorM": 2.317608576371887e-7,
+    "maxLeftContactErrorM": 1.782830063323157e-8,
+    "maxRightContactErrorM": 6.622389318123296e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "military",
+    "weapon": "type56_1",
+    "motion": "RifleIdle",
+    "maxMiddleErrorM": 6.750037663611377e-8,
+    "maxLeftContactErrorM": 3.04791406506415e-8,
+    "maxRightContactErrorM": 4.540230653709591e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "military",
+    "weapon": "type56_1",
+    "motion": "RifleWalk",
+    "maxMiddleErrorM": 8.417321168787802e-8,
+    "maxLeftContactErrorM": 3.3673450388797114e-8,
+    "maxRightContactErrorM": 3.8121613494925846e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "military",
+    "weapon": "type56_1",
+    "motion": "RifleRun",
+    "maxMiddleErrorM": 0.0002816315339322731,
+    "maxLeftContactErrorM": 4.081180181896562e-8,
+    "maxRightContactErrorM": 5.1657023688597845e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "military",
+    "weapon": "type56_1",
+    "motion": "RifleAimingIdle",
+    "maxMiddleErrorM": 2.3529500171505666e-7,
+    "maxLeftContactErrorM": 3.7564309268654506e-8,
+    "maxRightContactErrorM": 7.154181583057165e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "military",
+    "weapon": "type56_1",
+    "motion": "FiringRifle",
+    "maxMiddleErrorM": 9.281751759233951e-8,
+    "maxLeftContactErrorM": 4.087976987174134e-8,
+    "maxRightContactErrorM": 7.448359542804615e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "military",
+    "weapon": "qbu85",
+    "motion": "RifleIdle",
+    "maxMiddleErrorM": 9.240444935590419e-8,
+    "maxLeftContactErrorM": 3.312887980246858e-8,
+    "maxRightContactErrorM": 6.145905821473527e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "military",
+    "weapon": "qbu85",
+    "motion": "RifleWalk",
+    "maxMiddleErrorM": 9.170576844724747e-8,
+    "maxLeftContactErrorM": 3.1779054926494194e-8,
+    "maxRightContactErrorM": 5.796716558033283e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "military",
+    "weapon": "qbu85",
+    "motion": "RifleRun",
+    "maxMiddleErrorM": 2.2075631991424815e-7,
+    "maxLeftContactErrorM": 4.4424959947329244e-8,
+    "maxRightContactErrorM": 6.777968498525924e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "military",
+    "weapon": "qbu85",
+    "motion": "RifleAimingIdle",
+    "maxMiddleErrorM": 2.2169750242736163e-7,
+    "maxLeftContactErrorM": 3.125433992838935e-8,
+    "maxRightContactErrorM": 8.815397674281378e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "military",
+    "weapon": "qbu85",
+    "motion": "FiringRifle",
+    "maxMiddleErrorM": 7.619351560869977e-8,
+    "maxLeftContactErrorM": 2.6935295627806064e-8,
+    "maxRightContactErrorM": 8.894673970684819e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "military",
+    "weapon": "type97hawk",
+    "motion": "RifleIdle",
+    "maxMiddleErrorM": 9.647991530144771e-8,
+    "maxLeftContactErrorM": 2.8244510364234297e-8,
+    "maxRightContactErrorM": 4.540230703213285e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "military",
+    "weapon": "type97hawk",
+    "motion": "RifleWalk",
+    "maxMiddleErrorM": 7.532041320794804e-8,
+    "maxLeftContactErrorM": 2.993315169316928e-8,
+    "maxRightContactErrorM": 3.608039259748856e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "military",
+    "weapon": "type97hawk",
+    "motion": "RifleRun",
+    "maxMiddleErrorM": 2.2777131375591653e-7,
+    "maxLeftContactErrorM": 3.9729594860026785e-8,
+    "maxRightContactErrorM": 5.1657025270756817e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "military",
+    "weapon": "type97hawk",
+    "motion": "RifleAimingIdle",
+    "maxMiddleErrorM": 3.404181761742703e-7,
+    "maxLeftContactErrorM": 2.407463147104427e-8,
+    "maxRightContactErrorM": 4.575349769832648e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "military",
+    "weapon": "type97hawk",
+    "motion": "FiringRifle",
+    "maxMiddleErrorM": 1.8331229617849185e-7,
+    "maxLeftContactErrorM": 8.312286627229243e-8,
+    "maxRightContactErrorM": 7.70879807314584e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "military",
+    "weapon": "type97hawk",
+    "motion": "ShotgunPump",
+    "maxMiddleErrorM": 2.430486601435371e-7,
+    "maxLeftContactErrorM": 6.00525400215076e-8,
+    "maxRightContactErrorM": 6.62237167250086e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "military",
+    "weapon": "qcq171",
+    "motion": "RifleIdle",
+    "maxMiddleErrorM": 1.069113183069474e-7,
+    "maxLeftContactErrorM": 4.438418873129643e-8,
+    "maxRightContactErrorM": 5.012564228016445e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "military",
+    "weapon": "qcq171",
+    "motion": "RifleWalk",
+    "maxMiddleErrorM": 8.808348329310043e-8,
+    "maxLeftContactErrorM": 3.083246557811702e-8,
+    "maxRightContactErrorM": 3.706362326930892e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "military",
+    "weapon": "qcq171",
+    "motion": "RifleRun",
+    "maxMiddleErrorM": 2.370584163558704e-7,
+    "maxLeftContactErrorM": 5.307760086160577e-8,
+    "maxRightContactErrorM": 6.668617158087373e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "military",
+    "weapon": "qcq171",
+    "motion": "RifleAimingIdle",
+    "maxMiddleErrorM": 3.5614466392450447e-7,
+    "maxLeftContactErrorM": 3.2660315098172304e-8,
+    "maxRightContactErrorM": 4.781561254040634e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "military",
+    "weapon": "qcq171",
+    "motion": "FiringRifle",
+    "maxMiddleErrorM": 2.0941650826731687e-7,
+    "maxLeftContactErrorM": 2.7192757146133945e-8,
+    "maxRightContactErrorM": 6.293792792573187e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "vest",
+    "weapon": "qbz95",
+    "motion": "RifleIdle",
+    "maxMiddleErrorM": 1.1602373436781755e-7,
+    "maxLeftContactErrorM": 5.5149684476370045e-8,
+    "maxRightContactErrorM": 5.440480356261973e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "vest",
+    "weapon": "qbz95",
+    "motion": "RifleWalk",
+    "maxMiddleErrorM": 1.3062631571608576e-7,
+    "maxLeftContactErrorM": 9.960608563444973e-8,
+    "maxRightContactErrorM": 9.640039159660034e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "vest",
+    "weapon": "qbz95",
+    "motion": "RifleRun",
+    "maxMiddleErrorM": 3.090592136342242e-7,
+    "maxLeftContactErrorM": 9.597838716187861e-8,
+    "maxRightContactErrorM": 1.1929456466884352e-7,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "vest",
+    "weapon": "qbz95",
+    "motion": "RifleAimingIdle",
+    "maxMiddleErrorM": 4.2504898288591395e-7,
+    "maxLeftContactErrorM": 4.97552427068996e-8,
+    "maxRightContactErrorM": 1.7907970677555203e-7,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "vest",
+    "weapon": "qbz95",
+    "motion": "FiringRifle",
+    "maxMiddleErrorM": 2.0327783600393147e-7,
+    "maxLeftContactErrorM": 4.918517048571963e-8,
+    "maxRightContactErrorM": 1.3588726795193302e-7,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "vest",
+    "weapon": "type56_1",
+    "motion": "RifleIdle",
+    "maxMiddleErrorM": 9.4405096888461e-8,
+    "maxLeftContactErrorM": 4.713281851069095e-8,
+    "maxRightContactErrorM": 5.413249519763116e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "vest",
+    "weapon": "type56_1",
+    "motion": "RifleWalk",
+    "maxMiddleErrorM": 8.834684987388367e-8,
+    "maxLeftContactErrorM": 4.7522410481679684e-8,
+    "maxRightContactErrorM": 9.115815626077558e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "vest",
+    "weapon": "type56_1",
+    "motion": "RifleRun",
+    "maxMiddleErrorM": 0.0002816501762307188,
+    "maxLeftContactErrorM": 9.11461111532516e-8,
+    "maxRightContactErrorM": 1.1923461771263556e-7,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "vest",
+    "weapon": "type56_1",
+    "motion": "RifleAimingIdle",
+    "maxMiddleErrorM": 2.4653036784712806e-7,
+    "maxLeftContactErrorM": 2.9631993440163806e-8,
+    "maxRightContactErrorM": 1.8329047571215068e-7,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "vest",
+    "weapon": "type56_1",
+    "motion": "FiringRifle",
+    "maxMiddleErrorM": 7.366239617417448e-8,
+    "maxLeftContactErrorM": 3.437643980891856e-8,
+    "maxRightContactErrorM": 1.6162313015344948e-7,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "vest",
+    "weapon": "qbu85",
+    "motion": "RifleIdle",
+    "maxMiddleErrorM": 1.0784786368650271e-7,
+    "maxLeftContactErrorM": 2.1436505550029933e-8,
+    "maxRightContactErrorM": 6.678996918084112e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "vest",
+    "weapon": "qbu85",
+    "motion": "RifleWalk",
+    "maxMiddleErrorM": 1.2521744877468811e-7,
+    "maxLeftContactErrorM": 8.391547899920134e-8,
+    "maxRightContactErrorM": 1.0808157817364719e-7,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "vest",
+    "weapon": "qbu85",
+    "motion": "RifleRun",
+    "maxMiddleErrorM": 1.9300412616277925e-7,
+    "maxLeftContactErrorM": 1.0001744598766894e-7,
+    "maxRightContactErrorM": 1.1330334074608418e-7,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "vest",
+    "weapon": "qbu85",
+    "motion": "RifleAimingIdle",
+    "maxMiddleErrorM": 2.2168710035596786e-7,
+    "maxLeftContactErrorM": 2.4709340522786702e-8,
+    "maxRightContactErrorM": 1.7142678852068933e-7,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "vest",
+    "weapon": "qbu85",
+    "motion": "FiringRifle",
+    "maxMiddleErrorM": 4.498063705978708e-8,
+    "maxLeftContactErrorM": 2.9116708277221914e-8,
+    "maxRightContactErrorM": 1.6147915425606641e-7,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "vest",
+    "weapon": "type97hawk",
+    "motion": "RifleIdle",
+    "maxMiddleErrorM": 7.21874259795585e-8,
+    "maxLeftContactErrorM": 5.150405860052249e-8,
+    "maxRightContactErrorM": 5.4132496043938395e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "vest",
+    "weapon": "type97hawk",
+    "motion": "RifleWalk",
+    "maxMiddleErrorM": 6.11760887827585e-8,
+    "maxLeftContactErrorM": 3.627793790603736e-8,
+    "maxRightContactErrorM": 9.64003917357184e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "vest",
+    "weapon": "type97hawk",
+    "motion": "RifleRun",
+    "maxMiddleErrorM": 2.5096407241654885e-7,
+    "maxLeftContactErrorM": 9.289171622605863e-8,
+    "maxRightContactErrorM": 1.192346199041034e-7,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "vest",
+    "weapon": "type97hawk",
+    "motion": "RifleAimingIdle",
+    "maxMiddleErrorM": 3.559842941507455e-7,
+    "maxLeftContactErrorM": 3.366217193232116e-8,
+    "maxRightContactErrorM": 1.6732351152465625e-7,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "vest",
+    "weapon": "type97hawk",
+    "motion": "FiringRifle",
+    "maxMiddleErrorM": 1.9226956105293978e-7,
+    "maxLeftContactErrorM": 1.8485423872729397e-7,
+    "maxRightContactErrorM": 1.556631803551444e-7,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "vest",
+    "weapon": "type97hawk",
+    "motion": "ShotgunPump",
+    "maxMiddleErrorM": 2.2517793745496658e-7,
+    "maxLeftContactErrorM": 1.0575943907482903e-7,
+    "maxRightContactErrorM": 1.004386915518801e-7,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "vest",
+    "weapon": "qcq171",
+    "motion": "RifleIdle",
+    "maxMiddleErrorM": 1.2096056638684223e-7,
+    "maxLeftContactErrorM": 5.833384408378978e-8,
+    "maxRightContactErrorM": 5.6549489613639927e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "vest",
+    "weapon": "qcq171",
+    "motion": "RifleWalk",
+    "maxMiddleErrorM": 1.1006161343736932e-7,
+    "maxLeftContactErrorM": 8.689123120613353e-8,
+    "maxRightContactErrorM": 9.628220816586493e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "vest",
+    "weapon": "qcq171",
+    "motion": "RifleRun",
+    "maxMiddleErrorM": 2.564136785261841e-7,
+    "maxLeftContactErrorM": 9.271135579565053e-8,
+    "maxRightContactErrorM": 1.2187175149039032e-7,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "vest",
+    "weapon": "qcq171",
+    "motion": "RifleAimingIdle",
+    "maxMiddleErrorM": 3.6314904687034875e-7,
+    "maxLeftContactErrorM": 3.997186322925057e-8,
+    "maxRightContactErrorM": 1.8968548752159629e-7,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "vest",
+    "weapon": "qcq171",
+    "motion": "FiringRifle",
+    "maxMiddleErrorM": 1.8330511630677584e-7,
+    "maxLeftContactErrorM": 4.053617644652707e-8,
+    "maxRightContactErrorM": 1.444845098381858e-7,
+    "maxReachExcessM": 0
+  }
+]

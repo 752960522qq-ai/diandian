@@ -1,0 +1,207 @@
+{
+  "assets": {
+    "character": "a13e9afa92256249d6419f8abe7450174ce44dfa05d45e14dbb185cd30d06557",
+    "previous_motions": "7f302fb2843f4496c29138003b1335d9452ba080e97a01af159d315780e133d9",
+    "final_motions": "e61084a5ccb72abbb41c8ae25af8d573992466d7e4b79b6957a1bd3da2736afb"
+  },
+  "unchanged": [
+    "Talking",
+    "HeadStress",
+    "Dying",
+    "FlyingBackDeath",
+    "SittingTalking",
+    "SittingCrossLegged",
+    "ClimbingLadder",
+    "HangToCrouch",
+    "WalkingBackwards",
+    "RifleIdle",
+    "RifleWalk",
+    "RifleRun",
+    "RifleAimingIdle",
+    "FiringRifle",
+    "Reloading",
+    "ShotgunAimDown",
+    "ShotgunAimLevel",
+    "ShotgunAimUp",
+    "ShotgunCycleDown",
+    "ShotgunCycleLevel",
+    "ShotgunCycleUp",
+    "ShotgunFireDown",
+    "ShotgunFireLevel",
+    "ShotgunFireUp",
+    "ShotgunPumpDown",
+    "ShotgunPumpLevel",
+    "ShotgunPumpUp",
+    "ShotgunReload",
+    "Type97Fire",
+    "Type97Pump",
+    "RifleRun_Before"
+  ],
+  "changed": [
+    "Idle",
+    "Walk",
+    "Run"
+  ],
+  "removed": [
+    "Run_Before"
+  ],
+  "clips": {
+    "Idle": {
+      "duration": 5.333333492279053,
+      "phases": 322,
+      "min_sampled_mesh_y_m": 0.001579198761510131,
+      "nonfinite_matrices": 0,
+      "max_nonroot_translation_drift_m": 0,
+      "min_shoulder_height_relative_torso_m": {
+        "Left": 0.04316833189712004,
+        "Right": 0.04287230073248225
+      },
+      "min_sampled_hand_leg_lateral_clearance_m": {
+        "Left": 0.013551311107048495,
+        "Right": 0.006278165366325959
+      },
+      "hand_surface_ray_hits": {
+        "Left": 6336,
+        "Right": 6327
+      },
+      "worst_hand_leg_sample": {
+        "Left": {
+          "time": 3.9875390596478897,
+          "vertex": 21219,
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "point": [
+            0.12958509528380213,
+            0.46469862736678286,
+            0.012349788494562142
+          ],
+          "surface": [
+            0.1160596015433788,
+            0.4649233486187629,
+            0.011544461134606169
+          ]
+        },
+        "Right": {
+          "time": 3.9875390596478897,
+          "vertex": 4185,
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "point": [
+            -0.11561281412456302,
+            0.4767910040239188,
+            0.013158665398166389
+          ],
+          "surface": [
+            -0.10934660964495241,
+            0.4766868932725595,
+            0.013531764229703105
+          ]
+        }
+      },
+      "loop_endpoint_differences": {}
+    },
+    "Walk": {
+      "duration": 1.1666666269302368,
+      "phases": 71,
+      "min_sampled_mesh_y_m": 0.0014999417944380452,
+      "nonfinite_matrices": 0,
+      "max_nonroot_translation_drift_m": 0,
+      "min_shoulder_height_relative_torso_m": {
+        "Left": 0.025451705016841755,
+        "Right": 0.02899427773873651
+      },
+      "min_sampled_hand_leg_lateral_clearance_m": {
+        "Left": 0.008977976458891616,
+        "Right": 0.018872166462858584
+      },
+      "hand_surface_ray_hits": {
+        "Left": 1223,
+        "Right": 1579
+      },
+      "worst_hand_leg_sample": {
+        "Left": {
+          "time": 0.5333333151681082,
+          "vertex": 23051,
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "point": [
+            0.12549570636839966,
+            0.46012999599344695,
+            0.023875438307423655
+          ],
+          "surface": [
+            0.11654884615998734,
+            0.4597101716552153,
+            0.024493096167868048
+          ]
+        },
+        "Right": {
+          "time": 0,
+          "vertex": 3849,
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "point": [
+            -0.120067073332635,
+            0.415958583559801,
+            0.023192633882012398
+          ],
+          "surface": [
+            -0.10122528170430595,
+            0.41586144549416093,
+            0.022126744848070715
+          ]
+        }
+      },
+      "loop_endpoint_differences": {}
+    },
+    "Run": {
+      "duration": 0.6333333253860474,
+      "phases": 39,
+      "min_sampled_mesh_y_m": 0.0014999595462497207,
+      "nonfinite_matrices": 0,
+      "max_nonroot_translation_drift_m": 0,
+      "min_shoulder_height_relative_torso_m": {
+        "Left": 0.04035764621295884,
+        "Right": 0.03775063169241841
+      },
+      "min_sampled_hand_leg_lateral_clearance_m": {
+        "Left": 0.00261560905749838,
+        "Right": 0.0035464450559843023
+      },
+      "hand_surface_ray_hits": {
+        "Left": 833,
+        "Right": 828
+      },
+      "worst_hand_leg_sample": {
+        "Left": {
+          "time": 0.5499999930984095,
+          "vertex": 21235,
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "point": [
+            0.11169550054428498,
+            0.5009614937517917,
+            0.022152750793511082
+          ],
+          "surface": [
+            0.10908224091685009,
+            0.501011157978265,
+            0.022053663327627464
+          ]
+        },
+        "Right": {
+          "time": 0.23333333040538587,
+          "vertex": 5162,
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "point": [
+            -0.10859088921814766,
+            0.4946030946821963,
+            0.006591802863788961
+          ],
+          "surface": [
+            -0.10509800020197108,
+            0.4950090132409454,
+            0.0061311196977718516
+          ]
+        }
+      },
+      "loop_endpoint_differences": {}
+    }
+  },
+  "failures": []
+}

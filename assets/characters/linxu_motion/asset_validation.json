@@ -1,0 +1,237 @@
+{
+  "clips": 35,
+  "detail": [
+    {
+      "name": "Idle",
+      "duration": 8.333333015441895,
+      "tracks": 66,
+      "minSampledY": 0.00004527332114268995
+    },
+    {
+      "name": "Walk",
+      "duration": 1.0333333015441895,
+      "tracks": 66,
+      "minSampledY": 0.000750675818328103
+    },
+    {
+      "name": "Run",
+      "duration": 0.6666666865348816,
+      "tracks": 936,
+      "minSampledY": 0.0003004615563789451
+    },
+    {
+      "name": "Talking",
+      "duration": 3.933333396911621,
+      "tracks": 66,
+      "minSampledY": 0.00263092903388027
+    },
+    {
+      "name": "HeadStress",
+      "duration": 4,
+      "tracks": 66,
+      "minSampledY": 0.002659841474703987
+    },
+    {
+      "name": "Dying",
+      "duration": 4.333333492279053,
+      "tracks": 66,
+      "minSampledY": 0.002458596577785237
+    },
+    {
+      "name": "FlyingBackDeath",
+      "duration": 3.0333333015441895,
+      "tracks": 66,
+      "minSampledY": 0.0038337871181200363
+    },
+    {
+      "name": "SittingTalking",
+      "duration": 44.96666717529297,
+      "tracks": 66,
+      "minSampledY": 0.004444203104325999
+    },
+    {
+      "name": "SittingCrossLegged",
+      "duration": 9.566666603088379,
+      "tracks": 66,
+      "minSampledY": 0.0066131000664237174
+    },
+    {
+      "name": "ClimbingLadder",
+      "duration": 0.7666666507720947,
+      "tracks": 66,
+      "minSampledY": 0.000530976170017565
+    },
+    {
+      "name": "HangToCrouch",
+      "duration": 1.1333333253860474,
+      "tracks": 66,
+      "minSampledY": 0.04352973874212404
+    },
+    {
+      "name": "WalkingBackwards",
+      "duration": 0.9666666388511658,
+      "tracks": 66,
+      "minSampledY": 0.002298724359815328
+    },
+    {
+      "name": "RifleIdle",
+      "duration": 8.566666603088379,
+      "tracks": 66,
+      "minSampledY": 0.002599790753010613
+    },
+    {
+      "name": "RifleWalk",
+      "duration": 1.2999999523162842,
+      "tracks": 66,
+      "minSampledY": 0.0018811730022012514
+    },
+    {
+      "name": "RifleRun",
+      "duration": 0.6666666865348816,
+      "tracks": 66,
+      "minSampledY": 0.000837509350246587
+    },
+    {
+      "name": "RifleAimingIdle",
+      "duration": 3.0999999046325684,
+      "tracks": 66,
+      "minSampledY": 0.0027212279775140876
+    },
+    {
+      "name": "FiringRifle",
+      "duration": 0.2666666805744171,
+      "tracks": 66,
+      "minSampledY": 0.0027242610423492907
+    },
+    {
+      "name": "Reloading",
+      "duration": 3.299999952316284,
+      "tracks": 66,
+      "minSampledY": 0.0027142230294295265
+    },
+    {
+      "name": "ShotgunAimDown",
+      "duration": 0.03333333507180214,
+      "tracks": 66,
+      "minSampledY": 0.0027266197066917316
+    },
+    {
+      "name": "ShotgunAimLevel",
+      "duration": 0.5333333611488342,
+      "tracks": 66,
+      "minSampledY": 0.002737428085993611
+    },
+    {
+      "name": "ShotgunAimUp",
+      "duration": 0.5333333611488342,
+      "tracks": 66,
+      "minSampledY": 0.0027462557270597045
+    },
+    {
+      "name": "ShotgunCycleDown",
+      "duration": 0.9666666388511658,
+      "tracks": 66,
+      "minSampledY": 0.0026870289517557174
+    },
+    {
+      "name": "ShotgunCycleLevel",
+      "duration": 0.9666666388511658,
+      "tracks": 66,
+      "minSampledY": 0.0025935158292897656
+    },
+    {
+      "name": "ShotgunCycleUp",
+      "duration": 0.9666666388511658,
+      "tracks": 66,
+      "minSampledY": 0.0025976133672269914
+    },
+    {
+      "name": "ShotgunFireDown",
+      "duration": 0.23333333432674408,
+      "tracks": 66,
+      "minSampledY": 0.0027098616469772244
+    },
+    {
+      "name": "ShotgunFireLevel",
+      "duration": 0.23333333432674408,
+      "tracks": 66,
+      "minSampledY": 0.0026045456733297364
+    },
+    {
+      "name": "ShotgunFireUp",
+      "duration": 0.23333333432674408,
+      "tracks": 66,
+      "minSampledY": 0.002604603072412788
+    },
+    {
+      "name": "ShotgunPumpDown",
+      "duration": 0.7333333492279053,
+      "tracks": 66,
+      "minSampledY": 0.0026940275364948085
+    },
+    {
+      "name": "ShotgunPumpLevel",
+      "duration": 0.7333333492279053,
+      "tracks": 66,
+      "minSampledY": 0.002598739690479906
+    },
+    {
+      "name": "ShotgunPumpUp",
+      "duration": 0.7333333492279053,
+      "tracks": 66,
+      "minSampledY": 0.002599867854071308
+    },
+    {
+      "name": "ShotgunReload",
+      "duration": 1.9666666984558105,
+      "tracks": 66,
+      "minSampledY": 0.0025430730972790384
+    },
+    {
+      "name": "Type97Fire",
+      "duration": 0.23333333432674408,
+      "tracks": 66,
+      "minSampledY": 0.002724816736146262
+    },
+    {
+      "name": "Type97Pump",
+      "duration": 0.7333333492279053,
+      "tracks": 66,
+      "minSampledY": 0.0027213089114131103
+    },
+    {
+      "name": "Run_Before",
+      "duration": 0.6666666865348816,
+      "tracks": 936,
+      "minSampledY": 0.0003004615563789451
+    },
+    {
+      "name": "RifleRun_Before",
+      "duration": 0.6666666865348816,
+      "tracks": 66,
+      "minSampledY": 0.000837509350246587
+    }
+  ],
+  "failures": [],
+  "characterByteIdentical": true,
+  "runningPreservation": {
+    "Run": {
+      "durationUnchanged": true,
+      "changedTracks": [
+        "mixamorigLeftShoulder.quaternion",
+        "mixamorigRightShoulder.quaternion"
+      ]
+    },
+    "RifleRun": {
+      "durationUnchanged": true,
+      "changedTracks": [
+        "mixamorigLeftShoulder.quaternion",
+        "mixamorigRightShoulder.quaternion"
+      ]
+    }
+  },
+  "runBeforeMatchesUpload": true,
+  "nonFinite": 0,
+  "maxNonrootTranslationDrift": 1.9372405033779943e-7,
+  "hasFaceTest": false
+}

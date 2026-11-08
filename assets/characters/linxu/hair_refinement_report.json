@@ -1,0 +1,10 @@
+{
+  "before_intersecting_pairs": 1805,
+  "before_intersecting_hair_triangles": 291,
+  "before_total_hair_area": 0.06996176926470876,
+  "trimmed_root_area": 0.006272034112758007,
+  "trimmed_refined_triangles": 1958,
+  "final_hair_vertices": 11340,
+  "final_hair_triangles": 11625,
+  "cap_refinement_passes": 1
+}

@@ -1,0 +1,18 @@
+{
+  "character": "military",
+  "weapon": "qcq171",
+  "motion": "RifleRun",
+  "changed_field": "right_contact_offset_native",
+  "rest_offset": [
+    -0.008733352179957963,
+    0.05129426654284734,
+    0.017117000680818086
+  ],
+  "posed_offset": [
+    -0.013626408977437388,
+    0.04878893368470711,
+    0.02640698226344782
+  ],
+  "original_world_surface_offset_m": 0.018890477409066703,
+  "method": "Exact posed glove-web ray intersection; preserve weapon placement and reference hand/finger rotations. Apply only to military QCQ171 RifleRun."
+}

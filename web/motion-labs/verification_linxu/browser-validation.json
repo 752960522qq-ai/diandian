@@ -1,0 +1,474 @@
+{
+  "rows": [
+    {
+      "weapon": "none",
+      "motion": "Idle",
+      "clip": "Idle",
+      "duration": 8.333333015441895,
+      "left": 0,
+      "right": 0
+    },
+    {
+      "weapon": "none",
+      "motion": "Walk",
+      "clip": "Walk",
+      "duration": 1.0333333015441895,
+      "left": 0,
+      "right": 0
+    },
+    {
+      "weapon": "none",
+      "motion": "Run",
+      "clip": "Run",
+      "duration": 0.6666666865348816,
+      "left": 0,
+      "right": 0
+    },
+    {
+      "weapon": "none",
+      "motion": "WalkingBackwards",
+      "clip": "WalkingBackwards",
+      "duration": 0.9666666388511658,
+      "left": 0,
+      "right": 0
+    },
+    {
+      "weapon": "none",
+      "motion": "Talking",
+      "clip": "Talking",
+      "duration": 3.933333396911621,
+      "left": 0,
+      "right": 0
+    },
+    {
+      "weapon": "none",
+      "motion": "HeadStress",
+      "clip": "HeadStress",
+      "duration": 4,
+      "left": 0,
+      "right": 0
+    },
+    {
+      "weapon": "none",
+      "motion": "SittingCrossLegged",
+      "clip": "SittingCrossLegged",
+      "duration": 9.566666603088379,
+      "left": 0,
+      "right": 0
+    },
+    {
+      "weapon": "none",
+      "motion": "SittingTalking",
+      "clip": "SittingTalking",
+      "duration": 44.96666717529297,
+      "left": 0,
+      "right": 0
+    },
+    {
+      "weapon": "none",
+      "motion": "ClimbingLadder",
+      "clip": "ClimbingLadder",
+      "duration": 0.7666666507720947,
+      "left": 0,
+      "right": 0
+    },
+    {
+      "weapon": "none",
+      "motion": "HangToCrouch",
+      "clip": "HangToCrouch",
+      "duration": 1.1333333253860474,
+      "left": 0,
+      "right": 0
+    },
+    {
+      "weapon": "none",
+      "motion": "Dying",
+      "clip": "Dying",
+      "duration": 4.333333492279053,
+      "left": 0,
+      "right": 0
+    },
+    {
+      "weapon": "none",
+      "motion": "FlyingBackDeath",
+      "clip": "FlyingBackDeath",
+      "duration": 3.0333333015441895,
+      "left": 0,
+      "right": 0
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleIdle",
+      "clip": "RifleIdle",
+      "duration": 8.566666603088379,
+      "left": 1.192748788290868e-7,
+      "right": 6.922858558256897e-8
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleWalk",
+      "clip": "RifleWalk",
+      "duration": 1.2999999523162842,
+      "left": 1.2711763351058935e-7,
+      "right": 7.926076021614331e-8
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleRun",
+      "clip": "RifleRun",
+      "duration": 0.6666666865348816,
+      "left": 9.157978133920275e-8,
+      "right": 1.5256764739418956e-7
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleAimingIdle",
+      "clip": "RifleAimingIdle",
+      "duration": 3.0999999046325684,
+      "left": 1.3807499199000416e-7,
+      "right": 7.288301593768402e-8
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "FiringRifle",
+      "clip": "FiringRifle",
+      "duration": 0.2666666805744171,
+      "left": 1.2571532328273006e-7,
+      "right": 7.264768080752718e-8
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "Reloading",
+      "clip": "Reloading",
+      "duration": 3.299999952316284,
+      "left": null,
+      "right": 1.227734504275714e-7
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "RifleIdle",
+      "clip": "RifleIdle",
+      "duration": 8.566666603088379,
+      "left": 5.900221124267141e-8,
+      "right": 6.090260432590776e-8
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "RifleWalk",
+      "clip": "RifleWalk",
+      "duration": 1.2999999523162842,
+      "left": 2.0699399247388797e-8,
+      "right": 8.198888374612274e-8
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "RifleRun",
+      "clip": "RifleRun",
+      "duration": 0.6666666865348816,
+      "left": 1.7666592210546893e-7,
+      "right": 1.533551333527497e-7
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "RifleAimingIdle",
+      "clip": "RifleAimingIdle",
+      "duration": 3.0999999046325684,
+      "left": 1.5964397688989024e-7,
+      "right": 4.868270400597013e-8
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "FiringRifle",
+      "clip": "FiringRifle",
+      "duration": 0.2666666805744171,
+      "left": 1.5127456439961637e-7,
+      "right": 5.649663641447341e-8
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "Reloading",
+      "clip": "Reloading",
+      "duration": 3.299999952316284,
+      "left": null,
+      "right": 1.2326823249506552e-7
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "RifleIdle",
+      "clip": "RifleIdle",
+      "duration": 8.566666603088379,
+      "left": 6.994915160326899e-8,
+      "right": 7.916354172023719e-8
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "RifleWalk",
+      "clip": "RifleWalk",
+      "duration": 1.2999999523162842,
+      "left": 1.484377195236422e-7,
+      "right": 7.629262427651387e-8
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "RifleRun",
+      "clip": "RifleRun",
+      "duration": 0.6666666865348816,
+      "left": 8.742675390446546e-8,
+      "right": 1.577985239428715e-7
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "RifleAimingIdle",
+      "clip": "RifleAimingIdle",
+      "duration": 3.0999999046325684,
+      "left": 1.5898903473031566e-7,
+      "right": 5.414752752132539e-8
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "FiringRifle",
+      "clip": "FiringRifle",
+      "duration": 0.2666666805744171,
+      "left": 1.4992986916266804e-7,
+      "right": 6.109788237958767e-8
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "Reloading",
+      "clip": "Reloading",
+      "duration": 3.299999952316284,
+      "left": null,
+      "right": 1.2390331142630015e-7
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "RifleIdle",
+      "clip": "RifleIdle",
+      "duration": 8.566666603088379,
+      "left": 6.05274355767585e-8,
+      "right": 5.7220490312902106e-8
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "RifleWalk",
+      "clip": "RifleWalk",
+      "duration": 1.2999999523162842,
+      "left": 6.760009377986603e-8,
+      "right": 7.405224368736257e-8
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "RifleRun",
+      "clip": "RifleRun",
+      "duration": 0.6666666865348816,
+      "left": 1.929578950857723e-7,
+      "right": 1.3513745582970134e-7
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "RifleAimingIdle",
+      "clip": "RifleAimingIdle",
+      "duration": 3.0999999046325684,
+      "left": 9.07274240492836e-8,
+      "right": 3.683910390170959e-8
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "FiringRifle",
+      "clip": "Type97Fire",
+      "duration": 0.23333333432674408,
+      "left": 1.7817431476994296e-7,
+      "right": 1.4889094190937953e-7
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "Reloading",
+      "clip": "Reloading",
+      "duration": 3.299999952316284,
+      "left": null,
+      "right": 1.1986284668643986e-7
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "ShotgunPump",
+      "clip": "Type97Pump",
+      "duration": 0.7333333492279053,
+      "left": 1.4577891366978114e-7,
+      "right": 1.4523305027722376e-7
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleIdle",
+      "clip": "RifleIdle",
+      "duration": 8.566666603088379,
+      "left": 7.098754235121875e-8,
+      "right": 6.3628339066276e-8
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleWalk",
+      "clip": "RifleWalk",
+      "duration": 1.2999999523162842,
+      "left": 9.754632659878653e-8,
+      "right": 1.0458336607383612e-7
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleRun",
+      "clip": "RifleRun",
+      "duration": 0.6666666865348816,
+      "left": 1.1957322123289395e-7,
+      "right": 1.630111640810019e-7
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleAimingIdle",
+      "clip": "RifleAimingIdle",
+      "duration": 3.0999999046325684,
+      "left": 1.4128475845021308e-7,
+      "right": 6.172042139201212e-8
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "FiringRifle",
+      "clip": "FiringRifle",
+      "duration": 0.2666666805744171,
+      "left": 1.3274892918297476e-7,
+      "right": 6.687578007190139e-8
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "Reloading",
+      "clip": "Reloading",
+      "duration": 3.299999952316284,
+      "left": null,
+      "right": 1.218882454174488e-7
+    }
+  ],
+  "comparison": [
+    {
+      "weapon": "none",
+      "motion": "Run",
+      "time": 0.24666667401790618,
+      "originalClip": "Run_Before",
+      "correctedClip": "Run"
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleRun",
+      "time": 0.24666667401790618,
+      "originalClip": "RifleRun_Before",
+      "correctedClip": "RifleRun"
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "RifleRun",
+      "time": 0.24666667401790618,
+      "originalClip": "RifleRun_Before",
+      "correctedClip": "RifleRun"
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "RifleRun",
+      "time": 0.24666667401790618,
+      "originalClip": "RifleRun_Before",
+      "correctedClip": "RifleRun"
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "RifleRun",
+      "time": 0.24666667401790618,
+      "originalClip": "RifleRun_Before",
+      "correctedClip": "RifleRun"
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleRun",
+      "time": 0.24666667401790618,
+      "originalClip": "RifleRun_Before",
+      "correctedClip": "RifleRun"
+    }
+  ],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/styles.css",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/app.js?v=linxu-v1",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/vendor/three.module.js",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/vendor/GLTFLoader.js",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/vendor/OrbitControls.js",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/rig.js?v=linxu-v1",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/uploaded-motion.js",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/weapon-attachment.js?v=linxu-v1",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/vendor/BufferGeometryUtils.js",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/fixed-machine-gun.js?v=weapons-r44",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/rocket-motion.js?v=pf89-r40",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/chest-skinning.js?v=grip-r31",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/c96-dynamics.js?v=clothing-r23",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/c96-reload.js?v=clothing-r23",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/vendor/three.core.js",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/type97-motion.js?v=grip-r31",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/assets/weapon_attachment.json?v=linxu-v1",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/favicon.svg",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/assets/weapons/qbz95.glb",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/assets/weapons/type56_1.glb",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/assets/weapons/qbu85.glb",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/assets/weapons/type97hawk.glb",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/assets/weapons/qcq171.glb",
+    "blob:http://127.0.0.1:8087/5cafc172-6bd1-4c85-af25-e2d058af635c",
+    "blob:http://127.0.0.1:8087/75d81854-e7c9-452f-b5fe-5bf5e3b71209",
+    "blob:http://127.0.0.1:8087/82f1bf90-d5eb-4266-9c3b-2f62042d978b",
+    "blob:http://127.0.0.1:8087/5c9b8531-09db-45b4-82f8-59764c7feb46",
+    "blob:http://127.0.0.1:8087/522bfb56-1777-41f4-9ea9-f3f0fb0dec94",
+    "blob:http://127.0.0.1:8087/6701c09e-52bd-4e19-a0f4-cbfed3e41461",
+    "blob:http://127.0.0.1:8087/adbf6933-1295-499d-bb06-d082f3cd7b86",
+    "blob:http://127.0.0.1:8087/0a1f29ff-19a9-47e7-9c32-089a99e70561",
+    "blob:http://127.0.0.1:8087/04cdc6e8-9851-4d13-bf6a-8e9bacbddc74",
+    "blob:http://127.0.0.1:8087/c50a64f8-5020-4cda-ae5d-75e16a011bc2",
+    "blob:http://127.0.0.1:8087/df2e2e83-3a57-4cb0-9435-0dffffbdfec5",
+    "blob:http://127.0.0.1:8087/d814fbbe-3f01-43e7-a5b8-110f8890d18f",
+    "blob:http://127.0.0.1:8087/0852fd51-b543-457d-b956-a78b596eff41",
+    "blob:http://127.0.0.1:8087/6ec68cf5-5092-4633-a3ec-01baa751b735",
+    "blob:http://127.0.0.1:8087/cbabdf1e-ae32-41e7-a76c-e1a2905d53b3",
+    "blob:http://127.0.0.1:8087/86ac6a6e-cc90-4926-94e5-c8475f6f5e74",
+    "blob:http://127.0.0.1:8087/d1914fd5-0a8c-431b-98c3-87a3e331d29b",
+    "blob:http://127.0.0.1:8087/3de3f329-cc14-457d-a49e-313aef741f23",
+    "blob:http://127.0.0.1:8087/c5501789-9e52-429c-b5c7-af61a4890426",
+    "blob:http://127.0.0.1:8087/3ba503f9-2afa-4789-9a84-1b4891b803f2",
+    "blob:http://127.0.0.1:8087/bdd47a25-7ae3-4c08-b231-5c7a391ec4c9",
+    "blob:http://127.0.0.1:8087/f44100a1-4337-4fc0-b344-fcf281d62bee",
+    "blob:http://127.0.0.1:8087/a23245dd-0c67-4857-94b3-6aba73d6c10d",
+    "blob:http://127.0.0.1:8087/4b6ba426-69a5-4bac-9710-d6709a355940",
+    "blob:http://127.0.0.1:8087/bd579024-95f7-4ed1-982f-ec3a512e4934",
+    "blob:http://127.0.0.1:8087/da833dae-a1aa-4b5a-82ab-631323e66590",
+    "blob:http://127.0.0.1:8087/a26dfba0-f229-45c8-8954-4b728e9738cd",
+    "blob:http://127.0.0.1:8087/abc6547d-7173-4ac9-8104-2eb68c246dcb",
+    "blob:http://127.0.0.1:8087/9a9fea4b-c1e0-45ed-bf6f-2399a3fa16b9",
+    "blob:http://127.0.0.1:8087/5fa0dd4f-21e9-40f2-be98-08baa31149d6",
+    "blob:http://127.0.0.1:8087/19f354d2-a889-4dc0-a1a8-33e8f216c1ae",
+    "blob:http://127.0.0.1:8087/3d3970eb-54e8-449d-91c1-bfa9d80e2cce",
+    "blob:http://127.0.0.1:8087/6917d76e-7e07-4f58-b693-6b833ee23c61",
+    "blob:http://127.0.0.1:8087/8419de1f-e595-4985-b79a-2aba89b62117",
+    "blob:http://127.0.0.1:8087/e36f6d79-97ea-4406-970e-1c229c2137a4",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/assets/characters/linxu/character.glb",
+    "http://127.0.0.1:8087/web/motion-labs/linxu-motion-lab/assets/characters/linxu/motions.glb?v=linxu-v1",
+    "blob:http://127.0.0.1:8087/6ee8f205-9886-4c3f-bd33-e68c2d26514a",
+    "blob:http://127.0.0.1:8087/92d4966d-fcec-4951-9ddd-a1902b10a115",
+    "blob:http://127.0.0.1:8087/a76a9abe-aadd-4362-a535-cd66eb5c5c3b",
+    "blob:http://127.0.0.1:8087/34c64c14-7b56-4ceb-8105-cc09d7fed250"
+  ],
+  "assets": {
+    "assets/characters/linxu/character.glb": "56e8761b486d8b4ce31c4cdd9a9c19b5a71f3edcf06a5ece23426ab34f323ead",
+    "assets/characters/linxu/motions.glb": "7f302fb2843f4496c29138003b1335d9452ba080e97a01af159d315780e133d9",
+    "assets/weapon_attachment.json": "8a857ff7caa4268d743ed8247bb400d0d4f9150a9e11ee9f55cb1b08cb7f7584",
+    "app.js": "4a377253c15867d294f6c369040d6837900ade6a779a975dc83ad9696949205c",
+    "rig.js": "0b0689654eb429d23401571ee3fd63f9be247fe1e9ab9b244093c8223b466488",
+    "weapon-attachment.js": "2f038ee6eb979ac56f3bc2f6b46c5ee41f66c990b1c71d7c11e0bc9ab7a88c75"
+  },
+  "passed": true,
+  "mobile": {
+    "width": 390,
+    "noHorizontalOverflow": true,
+    "comparisonWorks": true
+  }
+}

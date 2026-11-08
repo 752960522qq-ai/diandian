@@ -1,0 +1,26 @@
+{
+  "consecutive_runs": 2,
+  "identical": true,
+  "files": [
+    {
+      "file": "assets/characters/resistance_r48/military/equipped_motions.glb",
+      "bytes": 8775780,
+      "sha256": "1328ea86d45dc61f7b2e030aa29cb186af196ac2e7f2f053b9a6e85579254942"
+    },
+    {
+      "file": "assets/characters/resistance_r48/military/equipped_weapon_transforms.json",
+      "bytes": 1017311,
+      "sha256": "085dce5901582186385ca54a87973a33324ec78b161f64e8b00280addeec5516"
+    },
+    {
+      "file": "assets/characters/resistance_r48/vest/equipped_motions.glb",
+      "bytes": 8910472,
+      "sha256": "021480e248c483d3a5e0dd7ee15861a74191aef4678ad69ef9a78f9f37095d1d"
+    },
+    {
+      "file": "assets/characters/resistance_r48/vest/equipped_weapon_transforms.json",
+      "bytes": 1016933,
+      "sha256": "1617904e49628087dac31ca64c7daaec97391df2e9deb3ca0460bf5c3ddc1e13"
+    }
+  ]
+}

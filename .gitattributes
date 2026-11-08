@@ -58,3 +58,21 @@ assets/characters/resistance_r46/**/*.glb filter=lfs diff=lfs merge=lfs -text
 
 # R47 resistance idle/walk shoulder opening baked into reusable motions.
 assets/characters/resistance_r47/**/*.glb filter=lfs diff=lfs merge=lfs -text
+
+# Linxu source parts and the assembled editable character.
+assets/characters/linxu/**/*.glb filter=lfs diff=lfs merge=lfs -text
+assets/characters/linxu/*.glb filter=lfs diff=lfs merge=lfs -text
+assets/characters/linxu/*.blend filter=lfs diff=lfs merge=lfs -text
+
+# User-supplied Linxu character and its independent motion library.
+assets/characters/linxu_motion/**/*.glb filter=lfs diff=lfs merge=lfs -text
+assets/characters/linxu_motion/*.glb filter=lfs diff=lfs merge=lfs -text
+assets/characters/linxu_motion/**/*.blend filter=lfs diff=lfs merge=lfs -text
+
+# Linxu v2 uploaded locomotion sources and replacement action pack.
+assets/characters/linxu_motion_v2/**/*.fbx filter=lfs diff=lfs merge=lfs -text
+assets/characters/linxu_motion_v2/*.glb filter=lfs diff=lfs merge=lfs -text
+assets/characters/linxu_motion_v2/**/*.blend filter=lfs diff=lfs merge=lfs -text
+
+# Resistance R48 character and baked equipment motions.
+assets/characters/resistance_r48/**/*.glb filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,311 @@
+{
+  "source_fbx": {
+    "Idle": {
+      "source": "assets/characters/linxu_motion_v2/sources/Orc Idle.fbx",
+      "sha256": "5ec931d9aa3e1a9104ece57e5b62edaa24ebb7afc6fb4b9ff6d4084865bf49f4",
+      "duration": 5.333333333333333,
+      "fps": 30.0,
+      "source_frame_range": [
+        1.0,
+        161.0
+      ],
+      "samples": 321,
+      "sample_fps": 60.0,
+      "bones": 65,
+      "armature": "Armature",
+      "action": "Armature|mixamo.com|Layer0",
+      "meshes": 2,
+      "hips_first": [
+        0.00042613345431163907,
+        1.0034958124160767,
+        0.008973106741905212
+      ],
+      "hips_last": [
+        0.00042535385000519454,
+        1.0034972429275513,
+        0.008974945172667503
+      ],
+      "hips_endpoint_delta": [
+        -7.796043064445257e-07,
+        1.430511474609375e-06,
+        1.8384307622909546e-06
+      ]
+    },
+    "Walk": {
+      "source": "assets/characters/linxu_motion_v2/sources/Standard Walk.fbx",
+      "sha256": "4e76a7d67450ddae042f13592a1cf65ad9f9d71eac270b139910007de0054b76",
+      "duration": 1.1666666666666667,
+      "fps": 30.0,
+      "source_frame_range": [
+        1.0,
+        36.0
+      ],
+      "samples": 71,
+      "sample_fps": 60.0,
+      "bones": 65,
+      "armature": "Armature",
+      "action": "Armature|mixamo.com|Layer0",
+      "meshes": 2,
+      "hips_first": [
+        0.0013184889685362577,
+        1.0284534692764282,
+        0.013630387373268604
+      ],
+      "hips_last": [
+        0.0013184669660404325,
+        1.0284537076950073,
+        1.8383663892745972
+      ],
+      "hips_endpoint_delta": [
+        -2.200249582529068e-08,
+        2.384185791015625e-07,
+        1.8247360019013286
+      ]
+    },
+    "Run": {
+      "source": "assets/characters/linxu_motion_v2/sources/Running.fbx",
+      "sha256": "a035b45cce524c698480e2367e6373d9278998faf5cb421507c7c19e1e7562bc",
+      "duration": 0.6333333333333333,
+      "fps": 30.0,
+      "source_frame_range": [
+        1.0,
+        20.0
+      ],
+      "samples": 39,
+      "sample_fps": 60.0,
+      "bones": 65,
+      "armature": "Armature",
+      "action": "Armature|mixamo.com|Layer0",
+      "meshes": 2,
+      "hips_first": [
+        0.003559864591807127,
+        0.9485322833061218,
+        0.01885836012661457
+      ],
+      "hips_last": [
+        0.0035598580725491047,
+        0.9485329389572144,
+        3.7673563957214355
+      ],
+      "hips_endpoint_delta": [
+        -6.51925802230835e-09,
+        6.556510925292969e-07,
+        3.748498035594821
+      ]
+    }
+  },
+  "final_motion_sha256": "e61084a5ccb72abbb41c8ae25af8d573992466d7e4b79b6957a1bd3da2736afb",
+  "changed_clips": [
+    "Idle",
+    "Walk",
+    "Run"
+  ],
+  "unchanged_clips": [
+    "Talking",
+    "HeadStress",
+    "Dying",
+    "FlyingBackDeath",
+    "SittingTalking",
+    "SittingCrossLegged",
+    "ClimbingLadder",
+    "HangToCrouch",
+    "WalkingBackwards",
+    "RifleIdle",
+    "RifleWalk",
+    "RifleRun",
+    "RifleAimingIdle",
+    "FiringRifle",
+    "Reloading",
+    "ShotgunAimDown",
+    "ShotgunAimLevel",
+    "ShotgunAimUp",
+    "ShotgunCycleDown",
+    "ShotgunCycleLevel",
+    "ShotgunCycleUp",
+    "ShotgunFireDown",
+    "ShotgunFireLevel",
+    "ShotgunFireUp",
+    "ShotgunPumpDown",
+    "ShotgunPumpLevel",
+    "ShotgunPumpUp",
+    "ShotgunReload",
+    "Type97Fire",
+    "Type97Pump",
+    "RifleRun_Before"
+  ],
+  "removed_clips": [
+    "Run_Before"
+  ],
+  "quality_checks": {
+    "Idle": {
+      "duration": 5.333333492279053,
+      "phases": 322,
+      "min_sampled_mesh_y_m": 0.001579198761510131,
+      "nonfinite_matrices": 0,
+      "max_nonroot_translation_drift_m": 0,
+      "min_shoulder_height_relative_torso_m": {
+        "Left": 0.04316833189712004,
+        "Right": 0.04287230073248225
+      },
+      "min_sampled_hand_leg_lateral_clearance_m": {
+        "Left": 0.013551311107048495,
+        "Right": 0.006278165366325959
+      },
+      "hand_surface_ray_hits": {
+        "Left": 6336,
+        "Right": 6327
+      },
+      "worst_hand_leg_sample": {
+        "Left": {
+          "time": 3.9875390596478897,
+          "vertex": 21219,
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "point": [
+            0.12958509528380213,
+            0.46469862736678286,
+            0.012349788494562142
+          ],
+          "surface": [
+            0.1160596015433788,
+            0.4649233486187629,
+            0.011544461134606169
+          ]
+        },
+        "Right": {
+          "time": 3.9875390596478897,
+          "vertex": 4185,
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "point": [
+            -0.11561281412456302,
+            0.4767910040239188,
+            0.013158665398166389
+          ],
+          "surface": [
+            -0.10934660964495241,
+            0.4766868932725595,
+            0.013531764229703105
+          ]
+        }
+      },
+      "loop_endpoint_differences": {}
+    },
+    "Walk": {
+      "duration": 1.1666666269302368,
+      "phases": 71,
+      "min_sampled_mesh_y_m": 0.0014999417944380452,
+      "nonfinite_matrices": 0,
+      "max_nonroot_translation_drift_m": 0,
+      "min_shoulder_height_relative_torso_m": {
+        "Left": 0.025451705016841755,
+        "Right": 0.02899427773873651
+      },
+      "min_sampled_hand_leg_lateral_clearance_m": {
+        "Left": 0.008977976458891616,
+        "Right": 0.018872166462858584
+      },
+      "hand_surface_ray_hits": {
+        "Left": 1223,
+        "Right": 1579
+      },
+      "worst_hand_leg_sample": {
+        "Left": {
+          "time": 0.5333333151681082,
+          "vertex": 23051,
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "point": [
+            0.12549570636839966,
+            0.46012999599344695,
+            0.023875438307423655
+          ],
+          "surface": [
+            0.11654884615998734,
+            0.4597101716552153,
+            0.024493096167868048
+          ]
+        },
+        "Right": {
+          "time": 0,
+          "vertex": 3849,
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "point": [
+            -0.120067073332635,
+            0.415958583559801,
+            0.023192633882012398
+          ],
+          "surface": [
+            -0.10122528170430595,
+            0.41586144549416093,
+            0.022126744848070715
+          ]
+        }
+      },
+      "loop_endpoint_differences": {}
+    },
+    "Run": {
+      "duration": 0.6333333253860474,
+      "phases": 39,
+      "min_sampled_mesh_y_m": 0.0014999595462497207,
+      "nonfinite_matrices": 0,
+      "max_nonroot_translation_drift_m": 0,
+      "min_shoulder_height_relative_torso_m": {
+        "Left": 0.04035764621295884,
+        "Right": 0.03775063169241841
+      },
+      "min_sampled_hand_leg_lateral_clearance_m": {
+        "Left": 0.00261560905749838,
+        "Right": 0.0035464450559843023
+      },
+      "hand_surface_ray_hits": {
+        "Left": 833,
+        "Right": 828
+      },
+      "worst_hand_leg_sample": {
+        "Left": {
+          "time": 0.5499999930984095,
+          "vertex": 21235,
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "point": [
+            0.11169550054428498,
+            0.5009614937517917,
+            0.022152750793511082
+          ],
+          "surface": [
+            0.10908224091685009,
+            0.501011157978265,
+            0.022053663327627464
+          ]
+        },
+        "Right": {
+          "time": 0.23333333040538587,
+          "vertex": 5162,
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "point": [
+            -0.10859088921814766,
+            0.4946030946821963,
+            0.006591802863788961
+          ],
+          "surface": [
+            -0.10509800020197108,
+            0.4950090132409454,
+            0.0061311196977718516
+          ]
+        }
+      },
+      "loop_endpoint_differences": {}
+    }
+  },
+  "web_sampled_frames": 2623,
+  "browser_passed": true,
+  "browser_new_motion_samples": 21,
+  "mobile": {
+    "width": 390,
+    "noHorizontalOverflow": true
+  },
+  "failures": [],
+  "reviewed_views": [
+    "Idle-front.png",
+    "Walk-side.png",
+    "Run-front.png",
+    "mobile.png"
+  ]
+}

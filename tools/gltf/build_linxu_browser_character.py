@@ -1,0 +1,113 @@
+"""Keep the uploaded mesh/rig/textures lossless; load actions from the curated pack.
+
+Prune the six embedded animation blocks from the web character. The preserved
+source GLB is never changed. Every retained buffer view is copied byte for byte.
+"""
+import copy
+import hashlib
+import json
+import struct
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
+SOURCE = ROOT / 'assets/characters/linxu_motion/character.glb'
+OUTPUT = ROOT / 'web/motion-labs/linxu-motion-lab/assets/characters/linxu/character.glb'
+REPORT = ROOT / 'web/motion-labs/verification_linxu/browser-character.json'
+
+raw = SOURCE.read_bytes()
+assert raw[:4] == b'glTF'
+json_length = struct.unpack_from('<I', raw, 12)[0]
+original = json.loads(raw[20:20 + json_length])
+assert not original.get('extensionsUsed'), 'Review extension buffer references before pruning'
+binary = raw[28 + json_length:]
+g = copy.deepcopy(original)
+removed = [a['name'] for a in g.pop('animations', [])]
+
+used_accessors = set()
+for mesh in g['meshes']:
+    for primitive in mesh['primitives']:
+        used_accessors.update(primitive['attributes'].values())
+        if 'indices' in primitive:
+            used_accessors.add(primitive['indices'])
+        for target in primitive.get('targets', []):
+            used_accessors.update(target.values())
+for skin in g['skins']:
+    if 'inverseBindMatrices' in skin:
+        used_accessors.add(skin['inverseBindMatrices'])
+
+accessor_map = {old: new for new, old in enumerate(sorted(used_accessors))}
+g['accessors'] = [g['accessors'][i] for i in sorted(used_accessors)]
+for mesh in g['meshes']:
+    for primitive in mesh['primitives']:
+        primitive['attributes'] = {k: accessor_map[v] for k, v in primitive['attributes'].items()}
+        if 'indices' in primitive:
+            primitive['indices'] = accessor_map[primitive['indices']]
+        for target in primitive.get('targets', []):
+            for k in target:
+                target[k] = accessor_map[target[k]]
+for skin in g['skins']:
+    if 'inverseBindMatrices' in skin:
+        skin['inverseBindMatrices'] = accessor_map[skin['inverseBindMatrices']]
+
+def view_references(doc):
+    for accessor in doc['accessors']:
+        if 'bufferView' in accessor:
+            yield accessor
+        for item in accessor.get('sparse', {}).values():
+            if isinstance(item, dict) and 'bufferView' in item:
+                yield item
+    yield from (image for image in doc.get('images', []) if 'bufferView' in image)
+
+refs = list(view_references(g))
+used_views = sorted({item['bufferView'] for item in refs})
+view_map = {old: new for new, old in enumerate(used_views)}
+chunks, size, views = [], 0, []
+retained_hash = hashlib.sha256()
+for i in used_views:
+    view = copy.deepcopy(original['bufferViews'][i])
+    assert view.get('buffer', 0) == 0
+    data = binary[view.get('byteOffset', 0):view.get('byteOffset', 0) + view['byteLength']]
+    assert len(data) == view['byteLength']
+    retained_hash.update(data)
+    padding = (-size) % 4
+    chunks.append(b'\0' * padding)
+    size += padding
+    view['byteOffset'] = size
+    chunks.append(data)
+    size += len(data)
+    views.append(view)
+for item in refs:
+    item['bufferView'] = view_map[item['bufferView']]
+g['bufferViews'] = views
+g['buffers'] = [{'byteLength': size}]
+blob = b''.join(chunks)
+# Verify retained image, geometry, skin-index/weight and inverse-bind data.
+verified_hash = hashlib.sha256()
+for view in views:
+    verified_hash.update(blob[view['byteOffset']:view['byteOffset'] + view['byteLength']])
+assert retained_hash.digest() == verified_hash.digest()
+assert g['nodes'] == original['nodes']
+assert g['materials'] == original['materials']
+
+encoded = json.dumps(g, ensure_ascii=False, separators=(',', ':')).encode('utf8')
+encoded += b' ' * ((-len(encoded)) % 4)
+blob += b'\0' * ((-len(blob)) % 4)
+result = (struct.pack('<III', 0x46546C67, 2, 28 + len(encoded) + len(blob))
+          + struct.pack('<II', len(encoded), 0x4E4F534A) + encoded
+          + struct.pack('<II', len(blob), 0x004E4942) + blob)
+OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+OUTPUT.write_bytes(result)
+report = {
+    'source': str(SOURCE.relative_to(ROOT)),
+    'sourceSha256': hashlib.sha256(raw).hexdigest(),
+    'browserSha256': hashlib.sha256(result).hexdigest(),
+    'sourceBytes': len(raw), 'browserBytes': len(result),
+    'removedEmbeddedClips': removed,
+    'actionsSource': 'motions.glb; resistance R47 Idle/Walk replace the uploaded clips',
+    'meshSkinTextureBufferViewsUnchanged': True,
+    'retainedBufferSha256': retained_hash.hexdigest(),
+    'nodesMaterialsUnchanged': True,
+}
+REPORT.parent.mkdir(parents=True, exist_ok=True)
+REPORT.write_text(json.dumps(report, indent=2) + '\n')
+print(json.dumps(report, indent=2))

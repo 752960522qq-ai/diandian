@@ -1,0 +1,40 @@
+{
+  "source": "assets/characters/resistance_r47",
+  "clip": "Idle",
+  "liftDegrees": 8,
+  "method": "Torso-relative clavicle elevation; compensate upper-arm local rotations to preserve R47 world arm orientations.",
+  "characters": {
+    "military": {
+      "samples": 251,
+      "shoulderLiftNativeM": {
+        "min": 0.00875081137226557,
+        "max": 0.008862202804398303
+      },
+      "maxArmWorldOrientationDeltaDegrees": 0.006539997080842047,
+      "unchangedClips": 32,
+      "changedTracks": [
+        "mixamorigLeftShoulder.quaternion",
+        "mixamorigRightShoulder.quaternion",
+        "mixamorigLeftArm.quaternion",
+        "mixamorigRightArm.quaternion"
+      ],
+      "meshRigCalibrationByteIdentical": true
+    },
+    "vest": {
+      "samples": 251,
+      "shoulderLiftNativeM": {
+        "min": 0.008852901011990022,
+        "max": 0.008938322072009015
+      },
+      "maxArmWorldOrientationDeltaDegrees": 0.008335909229300267,
+      "unchangedClips": 32,
+      "changedTracks": [
+        "mixamorigLeftShoulder.quaternion",
+        "mixamorigRightShoulder.quaternion",
+        "mixamorigLeftArm.quaternion",
+        "mixamorigRightArm.quaternion"
+      ],
+      "meshRigCalibrationByteIdentical": true
+    }
+  }
+}

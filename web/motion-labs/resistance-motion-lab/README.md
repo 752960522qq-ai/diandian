@@ -1,3 +1,14 @@
+# 抵抗军独立动作站 · R48
+
+两位抵抗军使用点点对应枪械的实际手掌和手指姿态。修正空手 Idle 肩部下垂，保留其他无装备动作。
+
+- 当前源码：R48，未发布线上。
+- 完整结果与限制：`../verification_r48/README.md`。
+- 可复用动作：`../../../assets/characters/resistance_r48/`。
+- 在仓库根目录运行 `python -m http.server 8080`，访问 `/web/motion-labs/resistance-motion-lab/`。
+
+下面保留 R47 历史说明，R48 以最新验证说明为准。
+
 # 抵抗军独立动作站 · R47
 
 两名抵抗军角色，12 个无装备动作，以及 QBZ95、56式（56-1）、QBU85、97式 Hawk、QCQ171 的待机、行走、奔跑、瞄准、射击、换弹；97式额外提供拉泵。

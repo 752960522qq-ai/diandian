@@ -1,0 +1,18 @@
+{
+  "id": "appgdep_6af0993571f48191b3e8994eb9e4fffd",
+  "project_id": "appgprj_6af08d142e008191a96e3c3e653ab5cc",
+  "title": "林叙 · 动作与装备",
+  "version_id": "appgprj_6af08d142e008191a96e3c3e653ab5cc~appgver_8ded2e8946648191a99ecc8b6a0398bc",
+  "type": "publish",
+  "status": "succeeded",
+  "url": "https://linxu-motion-lab.expert-eagle-6942.chatgpt.site",
+  "has_mcp": false,
+  "screenshot_asset_pointer": null,
+  "provider_deployment_id": "site---6af08d142e008191a96e3c3e653ab5cc",
+  "failure_message": null,
+  "env_set_revision": 0,
+  "updated_at": "2026-11-08T15:46:19.215005+00:00",
+  "source_commit": "e2804385eb8e826adfa98c633b4803478e0302b5",
+  "archive": "/workspace/diandian/work/linxu-publish-v2/source-linxu-v2.tar.gz",
+  "validated_motion_sha256": "e61084a5ccb72abbb41c8ae25af8d573992466d7e4b79b6957a1bd3da2736afb"
+}

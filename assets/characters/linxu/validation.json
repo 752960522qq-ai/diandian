@@ -1,0 +1,180 @@
+{
+  "bones": 312,
+  "animations": 0,
+  "parts": {
+    "body": {
+      "vertices": 33233,
+      "triangles": 30538
+    },
+    "head": {
+      "vertices": 41201,
+      "triangles": 49782
+    },
+    "neck": {
+      "vertices": 586,
+      "triangles": 1052
+    },
+    "hair": {
+      "vertices": 10434,
+      "triangles": 9871
+    },
+    "cap": {
+      "vertices": 965,
+      "triangles": 1754
+    }
+  },
+  "skin": {
+    "unweighted": 0,
+    "nonNormalized": 0,
+    "maxInfluences": 4,
+    "nonfinite": 0
+  },
+  "poses": [
+    {
+      "name": "neutral",
+      "pairs": {
+        "head_hair": {
+          "trianglePairs": 0,
+          "examples": [],
+          "hitVertices": [],
+          "hitTriangles": []
+        },
+        "head_cap": {
+          "trianglePairs": 0,
+          "examples": [],
+          "hitVertices": [],
+          "hitTriangles": []
+        },
+        "body_hair": {
+          "trianglePairs": 0,
+          "examples": [],
+          "hitVertices": [],
+          "hitTriangles": []
+        },
+        "body_head": {
+          "trianglePairs": 0,
+          "examples": [],
+          "hitVertices": [],
+          "hitTriangles": []
+        }
+      }
+    },
+    {
+      "name": "turn_left",
+      "pairs": {
+        "head_hair": {
+          "trianglePairs": 0,
+          "examples": [],
+          "hitVertices": [],
+          "hitTriangles": []
+        },
+        "head_cap": {
+          "trianglePairs": 0,
+          "examples": [],
+          "hitVertices": [],
+          "hitTriangles": []
+        },
+        "body_hair": {
+          "trianglePairs": 0,
+          "examples": [],
+          "hitVertices": [],
+          "hitTriangles": []
+        },
+        "body_head": {
+          "trianglePairs": 0,
+          "examples": [],
+          "hitVertices": [],
+          "hitTriangles": []
+        }
+      }
+    },
+    {
+      "name": "turn_right",
+      "pairs": {
+        "head_hair": {
+          "trianglePairs": 0,
+          "examples": [],
+          "hitVertices": [],
+          "hitTriangles": []
+        },
+        "head_cap": {
+          "trianglePairs": 0,
+          "examples": [],
+          "hitVertices": [],
+          "hitTriangles": []
+        },
+        "body_hair": {
+          "trianglePairs": 0,
+          "examples": [],
+          "hitVertices": [],
+          "hitTriangles": []
+        },
+        "body_head": {
+          "trianglePairs": 0,
+          "examples": [],
+          "hitVertices": [],
+          "hitTriangles": []
+        }
+      }
+    },
+    {
+      "name": "look_up",
+      "pairs": {
+        "head_hair": {
+          "trianglePairs": 0,
+          "examples": [],
+          "hitVertices": [],
+          "hitTriangles": []
+        },
+        "head_cap": {
+          "trianglePairs": 0,
+          "examples": [],
+          "hitVertices": [],
+          "hitTriangles": []
+        },
+        "body_hair": {
+          "trianglePairs": 0,
+          "examples": [],
+          "hitVertices": [],
+          "hitTriangles": []
+        },
+        "body_head": {
+          "trianglePairs": 0,
+          "examples": [],
+          "hitVertices": [],
+          "hitTriangles": []
+        }
+      }
+    },
+    {
+      "name": "look_down",
+      "pairs": {
+        "head_hair": {
+          "trianglePairs": 0,
+          "examples": [],
+          "hitVertices": [],
+          "hitTriangles": []
+        },
+        "head_cap": {
+          "trianglePairs": 0,
+          "examples": [],
+          "hitVertices": [],
+          "hitTriangles": []
+        },
+        "body_hair": {
+          "trianglePairs": 0,
+          "examples": [],
+          "hitVertices": [],
+          "hitTriangles": []
+        },
+        "body_head": {
+          "trianglePairs": 0,
+          "examples": [],
+          "hitVertices": [],
+          "hitTriangles": []
+        }
+      }
+    }
+  ],
+  "failures": []
+}

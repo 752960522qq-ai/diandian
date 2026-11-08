@@ -1,0 +1,1434 @@
+{
+  "Run": [
+    {
+      "time": 0,
+      "Left": {
+        "beforeSlope": -0.02756793437333323,
+        "afterSlope": -0.012308299588784554,
+        "beforeHeight": 0.033262330449556524,
+        "afterHeight": 0.0485219652341052,
+        "correctionDegrees": 12.120412913407453
+      },
+      "Right": {
+        "beforeSlope": -0.03599477425473975,
+        "afterSlope": -0.013122722341011257,
+        "beforeHeight": 0.02088803418667513,
+        "afterHeight": 0.04376008610040362,
+        "correctionDegrees": 18.603974841649027
+      }
+    },
+    {
+      "time": 0.016260163086216625,
+      "Left": {
+        "beforeSlope": -0.026793356291289008,
+        "afterSlope": -0.012216136223313466,
+        "beforeHeight": 0.034252203954011316,
+        "afterHeight": 0.04882942402198685,
+        "correctionDegrees": 11.556881698303856
+      },
+      "Right": {
+        "beforeSlope": -0.03423681261641768,
+        "afterSlope": -0.012980815796089845,
+        "beforeHeight": 0.02355592905586934,
+        "afterHeight": 0.04481192587619718,
+        "correctionDegrees": 17.194113879710816
+      }
+    },
+    {
+      "time": 0.03252032617243325,
+      "Left": {
+        "beforeSlope": -0.02612996914184695,
+        "afterSlope": -0.012134903447060487,
+        "beforeHeight": 0.035048442873278476,
+        "afterHeight": 0.04904350856806494,
+        "correctionDegrees": 11.078133196002431
+      },
+      "Right": {
+        "beforeSlope": -0.0322507549130203,
+        "afterSlope": -0.012803196888216267,
+        "beforeHeight": 0.026409737556847574,
+        "afterHeight": 0.04585729558165161,
+        "correctionDegrees": 15.639156041557392
+      }
+    },
+    {
+      "time": 0.048780489258649876,
+      "Left": {
+        "beforeSlope": -0.026308158274388774,
+        "afterSlope": -0.012156924818939787,
+        "beforeHeight": 0.034821900170910663,
+        "afterHeight": 0.04897313362635965,
+        "correctionDegrees": 11.206381841525173
+      },
+      "Right": {
+        "beforeSlope": -0.02954041312908673,
+        "afterSlope": -0.012530009904604728,
+        "beforeHeight": 0.02994677280532313,
+        "afterHeight": 0.046957176029805134,
+        "correctionDegrees": 13.5783503881685
+      }
+    },
+    {
+      "time": 0.0650406523448665,
+      "Left": {
+        "beforeSlope": -0.026582428687734572,
+        "afterSlope": -0.012190525132603403,
+        "beforeHeight": 0.034409367113003055,
+        "afterHeight": 0.04880127066813422,
+        "correctionDegrees": 11.40427670398652
+      },
+      "Right": {
+        "beforeSlope": -0.02667310394803025,
+        "afterSlope": -0.012201778193994876,
+        "beforeHeight": 0.03358770457706746,
+        "afterHeight": 0.04805903033110284,
+        "correctionDegrees": 11.469683804441361
+      }
+    },
+    {
+      "time": 0.08130081543108313,
+      "Left": {
+        "beforeSlope": -0.027622603825921847,
+        "afterSlope": -0.012314681181570652,
+        "beforeHeight": 0.033152692598669875,
+        "afterHeight": 0.04846061524302106,
+        "correctionDegrees": 12.160375554161691
+      },
+      "Right": {
+        "beforeSlope": -0.0239372964580652,
+        "afterSlope": -0.011852201742700567,
+        "beforeHeight": 0.03695795525294475,
+        "afterHeight": 0.04904304996830938,
+        "correctionDegrees": 9.519855563633019
+      }
+    },
+    {
+      "time": 0.09756097851729975,
+      "Left": {
+        "beforeSlope": -0.028758850683350434,
+        "afterSlope": -0.012444303225632109,
+        "beforeHeight": 0.03173825590139061,
+        "afterHeight": 0.04805280335910893,
+        "correctionDegrees": 12.996709056934895
+      },
+      "Right": {
+        "beforeSlope": -0.021174262203530126,
+        "afterSlope": -0.011466506128597962,
+        "beforeHeight": 0.04030066744463969,
+        "afterHeight": 0.05000842351957187,
+        "correctionDegrees": 7.60468651285712
+      }
+    },
+    {
+      "time": 0.11382114160351636,
+      "Left": {
+        "beforeSlope": -0.030140320860098366,
+        "afterSlope": -0.012593359554475818,
+        "beforeHeight": 0.030130026277454397,
+        "afterHeight": 0.04767698758307695,
+        "correctionDegrees": 14.028779803238818
+      },
+      "Right": {
+        "beforeSlope": -0.019226733674677955,
+        "afterSlope": -0.011177989222214968,
+        "beforeHeight": 0.042622795557145085,
+        "afterHeight": 0.050671540009608065,
+        "correctionDegrees": 6.282700954041812
+      }
+    },
+    {
+      "time": 0.130081304689733,
+      "Left": {
+        "beforeSlope": -0.03155786793058961,
+        "afterSlope": -0.012736550142213194,
+        "beforeHeight": 0.02847901037319508,
+        "afterHeight": 0.047300328161571495,
+        "correctionDegrees": 15.105913436427684
+      },
+      "Right": {
+        "beforeSlope": -0.017418613262476377,
+        "afterSlope": -0.010900442181969724,
+        "beforeHeight": 0.04475650318828113,
+        "afterHeight": 0.05127467426878778,
+        "correctionDegrees": 5.072556809073014
+      }
+    },
+    {
+      "time": 0.1463414677759496,
+      "Left": {
+        "beforeSlope": -0.03235109203961932,
+        "afterSlope": -0.012812394743116018,
+        "beforeHeight": 0.02762495124679364,
+        "afterHeight": 0.04716364854329695,
+        "correctionDegrees": 15.7169346931777
+      },
+      "Right": {
+        "beforeSlope": -0.016936154262124,
+        "afterSlope": -0.010825137003549881,
+        "beforeHeight": 0.04530219867933886,
+        "afterHeight": 0.051413215937912975,
+        "correctionDegrees": 4.752061848585589
+      }
+    },
+    {
+      "time": 0.16260163086216625,
+      "Left": {
+        "beforeSlope": -0.032985476619154436,
+        "afterSlope": -0.012870864940088593,
+        "beforeHeight": 0.026976475691382912,
+        "afterHeight": 0.047091087370448745,
+        "correctionDegrees": 16.209990481332063
+      },
+      "Right": {
+        "beforeSlope": -0.016785549214026495,
+        "afterSlope": -0.010801539285171625,
+        "beforeHeight": 0.045453189487613246,
+        "afterHeight": 0.05143719941646811,
+        "correctionDegrees": 4.6522028344016775
+      }
+    },
+    {
+      "time": 0.17886179394838286,
+      "Left": {
+        "beforeSlope": -0.03259056786667158,
+        "afterSlope": -0.01283469363178246,
+        "beforeHeight": 0.02746992973534545,
+        "afterHeight": 0.04722580397023457,
+        "correctionDegrees": 15.902597022120633
+      },
+      "Right": {
+        "beforeSlope": -0.018265133285667656,
+        "afterSlope": -0.011031382051201064,
+        "beforeHeight": 0.043629783761285734,
+        "afterHeight": 0.05086353499575233,
+        "correctionDegrees": 5.637251785110612
+      }
+    },
+    {
+      "time": 0.1951219570345995,
+      "Left": {
+        "beforeSlope": -0.03187270302273252,
+        "afterSlope": -0.012767017837849729,
+        "beforeHeight": 0.028291629791833153,
+        "afterHeight": 0.04739731497671595,
+        "correctionDegrees": 15.347707219043478
+      },
+      "Right": {
+        "beforeSlope": -0.0202668150555501,
+        "afterSlope": -0.011333592255063191,
+        "beforeHeight": 0.041146019194545594,
+        "afterHeight": 0.0500792419950325,
+        "correctionDegrees": 6.986098560323565
+      }
+    },
+    {
+      "time": 0.2113821201208161,
+      "Left": {
+        "beforeSlope": -0.032215130760945135,
+        "afterSlope": -0.012799609695201981,
+        "beforeHeight": 0.027891204196608073,
+        "afterHeight": 0.047306725262351225,
+        "correctionDegrees": 15.61177268141306
+      },
+      "Right": {
+        "beforeSlope": -0.02184515373493166,
+        "afterSlope": -0.011562898638512313,
+        "beforeHeight": 0.03914486545178038,
+        "afterHeight": 0.04942712054819971,
+        "correctionDegrees": 8.065164386241268
+      }
+    },
+    {
+      "time": 0.22764228320703273,
+      "Left": {
+        "beforeSlope": -0.03301688607847543,
+        "afterSlope": -0.012873707925608364,
+        "beforeHeight": 0.02694508483604913,
+        "afterHeight": 0.04708826298891619,
+        "correctionDegrees": 16.23450531127625
+      },
+      "Right": {
+        "beforeSlope": -0.0232092649116317,
+        "afterSlope": -0.011753564401954238,
+        "beforeHeight": 0.037379047042914074,
+        "afterHeight": 0.04883474755259153,
+        "correctionDegrees": 9.01029043065642
+      }
+    },
+    {
+      "time": 0.24390244629324936,
+      "Left": {
+        "beforeSlope": -0.03466861666114915,
+        "afterSlope": -0.01301675015477859,
+        "beforeHeight": 0.025043804393043465,
+        "afterHeight": 0.046695670899414024,
+        "correctionDegrees": 17.537592741417285
+      },
+      "Right": {
+        "beforeSlope": -0.0243628770274951,
+        "afterSlope": -0.011908806282855835,
+        "beforeHeight": 0.03598197958473358,
+        "afterHeight": 0.04843605032937284,
+        "correctionDegrees": 9.819470939929959
+      }
+    },
+    {
+      "time": 0.260162609379466,
+      "Left": {
+        "beforeSlope": -0.03675926079213312,
+        "afterSlope": -0.013179894738545339,
+        "beforeHeight": 0.022645880264771115,
+        "afterHeight": 0.04622524631835889,
+        "correctionDegrees": 19.227434376773388
+      },
+      "Right": {
+        "beforeSlope": -0.025372444965467818,
+        "afterSlope": -0.012039857468821968,
+        "beforeHeight": 0.034818491554679726,
+        "afterHeight": 0.04815107905132557,
+        "correctionDegrees": 10.535559678078739
+      }
+    },
+    {
+      "time": 0.2764227724656826,
+      "Left": {
+        "beforeSlope": -0.039218455790199856,
+        "afterSlope": -0.013347762787807763,
+        "beforeHeight": 0.01988508471137362,
+        "afterHeight": 0.04575577771376571,
+        "correctionDegrees": 21.276283089631214
+      },
+      "Right": {
+        "beforeSlope": -0.026524747138466677,
+        "afterSlope": -0.012183710015942099,
+        "beforeHeight": 0.03366535700485125,
+        "afterHeight": 0.048006394127375826,
+        "correctionDegrees": 11.36245635305289
+      }
+    },
+    {
+      "time": 0.2926829355518992,
+      "Left": {
+        "beforeSlope": -0.041886243505643614,
+        "afterSlope": -0.013503046077920196,
+        "beforeHeight": 0.016923862937005353,
+        "afterHeight": 0.045307060364728764,
+        "correctionDegrees": 23.578838619500573
+      },
+      "Right": {
+        "beforeSlope": -0.027769112786001516,
+        "afterSlope": -0.012331971496406977,
+        "beforeHeight": 0.032522460664217934,
+        "afterHeight": 0.04795960195381247,
+        "correctionDegrees": 12.267443312278276
+      }
+    },
+    {
+      "time": 0.30894309863811587,
+      "Left": {
+        "beforeSlope": -0.04427821618450253,
+        "afterSlope": -0.013621100015468004,
+        "beforeHeight": 0.014370944596360949,
+        "afterHeight": 0.04502806076539547,
+        "correctionDegrees": 25.719887519524057
+      },
+      "Right": {
+        "beforeSlope": -0.029617541112094324,
+        "afterSlope": -0.012538281527008411,
+        "beforeHeight": 0.030830774246223526,
+        "afterHeight": 0.04791003383130943,
+        "correctionDegrees": 13.636059622997937
+      }
+    },
+    {
+      "time": 0.3252032617243325,
+      "Left": {
+        "beforeSlope": -0.04642787465715669,
+        "afterSlope": -0.013712081997631865,
+        "beforeHeight": 0.012171720057607213,
+        "afterHeight": 0.04488751271713203,
+        "correctionDegrees": 27.711431672958224
+      },
+      "Right": {
+        "beforeSlope": -0.03197415730834878,
+        "afterSlope": -0.01277695830389837,
+        "beforeHeight": 0.02867366489697426,
+        "afterHeight": 0.04787086390142468,
+        "correctionDegrees": 15.425675316502529
+      }
+    },
+    {
+      "time": 0.3414634248105491,
+      "Left": {
+        "beforeSlope": -0.04806950241258049,
+        "afterSlope": -0.013772982097425435,
+        "beforeHeight": 0.0107554782790203,
+        "afterHeight": 0.04505199859417536,
+        "correctionDegrees": 29.279119193393896
+      },
+      "Right": {
+        "beforeSlope": -0.03295507525941937,
+        "afterSlope": -0.012868331325978193,
+        "beforeHeight": 0.027728234827666884,
+        "afterHeight": 0.04781497876110806,
+        "correctionDegrees": 16.186120673452624
+      }
+    },
+    {
+      "time": 0.3577235878967657,
+      "Left": {
+        "beforeSlope": -0.04921559862855779,
+        "afterSlope": -0.013811506026683835,
+        "beforeHeight": 0.010092301061372282,
+        "afterHeight": 0.045496393663246246,
+        "correctionDegrees": 30.399531436501473
+      },
+      "Right": {
+        "beforeSlope": -0.03258055393123236,
+        "afterSlope": -0.012833989576921128,
+        "beforeHeight": 0.027955016928038937,
+        "afterHeight": 0.047701581282350164,
+        "correctionDegrees": 15.894668255287241
+      }
+    },
+    {
+      "time": 0.37398375098298237,
+      "Left": {
+        "beforeSlope": -0.04926094305469331,
+        "afterSlope": -0.013812966239298568,
+        "beforeHeight": 0.010535573752286203,
+        "afterHeight": 0.04598355056768094,
+        "correctionDegrees": 30.444318975389947
+      },
+      "Right": {
+        "beforeSlope": -0.03249233272981255,
+        "afterSlope": -0.012825802159715557,
+        "beforeHeight": 0.027761947496146043,
+        "afterHeight": 0.047428478066243035,
+        "correctionDegrees": 15.826214486197872
+      }
+    },
+    {
+      "time": 0.390243914069199,
+      "Left": {
+        "beforeSlope": -0.04799170814853644,
+        "afterSlope": -0.013770249683323903,
+        "beforeHeight": 0.012285292522211486,
+        "afterHeight": 0.04650675098742403,
+        "correctionDegrees": 29.20385925338983
+      },
+      "Right": {
+        "beforeSlope": -0.032739719504891455,
+        "afterSlope": -0.012848666373431801,
+        "beforeHeight": 0.02706025295663832,
+        "afterHeight": 0.04695130608809797,
+        "correctionDegrees": 16.01836346981989
+      }
+    },
+    {
+      "time": 0.4065040771554156,
+      "Left": {
+        "beforeSlope": -0.04624395797496907,
+        "afterSlope": -0.0137048106535182,
+        "beforeHeight": 0.014442261430128504,
+        "afterHeight": 0.046981408751579384,
+        "correctionDegrees": 27.538395150845396
+      },
+      "Right": {
+        "beforeSlope": -0.03323669235022648,
+        "afterSlope": -0.012893710869266238,
+        "beforeHeight": 0.026047149729400573,
+        "afterHeight": 0.04639013121036081,
+        "correctionDegrees": 16.406183748219973
+      }
+    },
+    {
+      "time": 0.4227642402416322,
+      "Left": {
+        "beforeSlope": -0.043757435550952004,
+        "afterSlope": -0.013596976237297198,
+        "beforeHeight": 0.017255071501777845,
+        "afterHeight": 0.047415530815432656,
+        "correctionDegrees": 25.24724374325802
+      },
+      "Right": {
+        "beforeSlope": -0.0341062561878695,
+        "afterSlope": -0.012969709348514515,
+        "beforeHeight": 0.024596885997708044,
+        "afterHeight": 0.04573343283706303,
+        "correctionDegrees": 17.09068283924281
+      }
+    },
+    {
+      "time": 0.43902440332784887,
+      "Left": {
+        "beforeSlope": -0.04121419650675148,
+        "afterSlope": -0.01346639828214733,
+        "beforeHeight": 0.02003600872611967,
+        "afterHeight": 0.04778380695072382,
+        "correctionDegrees": 22.990603051274256
+      },
+      "Right": {
+        "beforeSlope": -0.03508291343675515,
+        "afterSlope": -0.013050867770390669,
+        "beforeHeight": 0.0230514800244538,
+        "afterHeight": 0.04508352569081829,
+        "correctionDegrees": 17.86865275666174
+      }
+    },
+    {
+      "time": 0.45528456641406545,
+      "Left": {
+        "beforeSlope": -0.03862275528302392,
+        "afterSlope": -0.013309381894189922,
+        "beforeHeight": 0.022761365737953513,
+        "afterHeight": 0.048074739126787516,
+        "correctionDegrees": 20.77369982763835
+      },
+      "Right": {
+        "beforeSlope": -0.036263618966085966,
+        "afterSlope": -0.013143202096177564,
+        "beforeHeight": 0.021379258669587935,
+        "afterHeight": 0.04449967553949634,
+        "correctionDegrees": 18.822455972497288
+      }
+    },
+    {
+      "time": 0.4715447295002821,
+      "Left": {
+        "beforeSlope": -0.036327141395133725,
+        "afterSlope": -0.013147777610951353,
+        "beforeHeight": 0.025123133143688546,
+        "afterHeight": 0.04830249692787092,
+        "correctionDegrees": 18.87434168496675
+      },
+      "Right": {
+        "beforeSlope": -0.03734822369818844,
+        "afterSlope": -0.01322262099665122,
+        "beforeHeight": 0.019874746785387407,
+        "afterHeight": 0.04400034948692463,
+        "correctionDegrees": 19.71181008115105
+      }
+    },
+    {
+      "time": 0.48780489258649873,
+      "Left": {
+        "beforeSlope": -0.03482236463650907,
+        "afterSlope": -0.01302943274285816,
+        "beforeHeight": 0.026590739198552777,
+        "afterHeight": 0.04838367109220369,
+        "correctionDegrees": 17.660300498693033
+      },
+      "Right": {
+        "beforeSlope": -0.03823292231026784,
+        "afterSlope": -0.013283707818073866,
+        "beforeHeight": 0.018779117083948704,
+        "afterHeight": 0.043728331576142684,
+        "correctionDegrees": 20.44685853173499
+      }
+    },
+    {
+      "time": 0.5040650556727153,
+      "Left": {
+        "beforeSlope": -0.03405304533393342,
+        "afterSlope": -0.01296494937078995,
+        "beforeHeight": 0.02722621391698376,
+        "afterHeight": 0.04831430988012722,
+        "correctionDegrees": 17.048729615976455
+      },
+      "Right": {
+        "beforeSlope": -0.03856156255611678,
+        "afterSlope": -0.013305577543584208,
+        "beforeHeight": 0.01830008441737144,
+        "afterHeight": 0.04355606942990401,
+        "correctionDegrees": 20.722153939639348
+      }
+    },
+    {
+      "time": 0.520325218758932,
+      "Left": {
+        "beforeSlope": -0.035514604374569235,
+        "afterSlope": -0.013085138543942793,
+        "beforeHeight": 0.02534238950393769,
+        "afterHeight": 0.04777185533456413,
+        "correctionDegrees": 18.215828180886245
+      },
+      "Right": {
+        "beforeSlope": -0.03723157418797792,
+        "afterSlope": -0.013214321267492023,
+        "beforeHeight": 0.019652754380916588,
+        "afterHeight": 0.04367000730140248,
+        "correctionDegrees": 19.61554246591819
+      }
+    },
+    {
+      "time": 0.5365853818451486,
+      "Left": {
+        "beforeSlope": -0.03676964871802471,
+        "afterSlope": -0.013180673272496411,
+        "beforeHeight": 0.02365482851516514,
+        "afterHeight": 0.04724380396069344,
+        "correctionDegrees": 19.235945685590707
+      },
+      "Right": {
+        "beforeSlope": -0.035931939077934225,
+        "afterSlope": -0.013117890011348938,
+        "beforeHeight": 0.020932529254297637,
+        "afterHeight": 0.043746578320882926,
+        "correctionDegrees": 18.553023856590997
+      }
+    },
+    {
+      "time": 0.5528455449313652,
+      "Left": {
+        "beforeSlope": -0.037300860326999766,
+        "afterSlope": -0.013219045031163036,
+        "beforeHeight": 0.022708926610078947,
+        "afterHeight": 0.04679074190591567,
+        "correctionDegrees": 19.67285466454717
+      },
+      "Right": {
+        "beforeSlope": -0.03481684575236893,
+        "afterSlope": -0.013029191423933807,
+        "beforeHeight": 0.02191870834803511,
+        "afterHeight": 0.04370636267647023,
+        "correctionDegrees": 17.655739910574475
+      }
+    },
+    {
+      "time": 0.5691057080175819,
+      "Left": {
+        "beforeSlope": -0.037471199877061045,
+        "afterSlope": -0.013231095847828816,
+        "beforeHeight": 0.022177419535399097,
+        "afterHeight": 0.04641752356463133,
+        "correctionDegrees": 19.813610380131223
+      },
+      "Right": {
+        "beforeSlope": -0.03382786409067269,
+        "afterSlope": -0.012945762535539942,
+        "beforeHeight": 0.022759582001917727,
+        "afterHeight": 0.043641683557050476,
+        "correctionDegrees": 16.870711234974923
+      }
+    },
+    {
+      "time": 0.5853658711037985,
+      "Left": {
+        "beforeSlope": -0.035665754730445205,
+        "afterSlope": -0.013097014353974725,
+        "beforeHeight": 0.024000875325660784,
+        "afterHeight": 0.046569615702131265,
+        "correctionDegrees": 18.337795793912342
+      },
+      "Right": {
+        "beforeSlope": -0.03364080988555186,
+        "afterSlope": -0.012929470698594514,
+        "beforeHeight": 0.022811907334955552,
+        "afterHeight": 0.0435232465219129,
+        "correctionDegrees": 16.723351295013163
+      }
+    },
+    {
+      "time": 0.6016260341900151,
+      "Left": {
+        "beforeSlope": -0.033769307146164634,
+        "afterSlope": -0.012940469088350354,
+        "beforeHeight": 0.025956140695750852,
+        "afterHeight": 0.04678497875356513,
+        "correctionDegrees": 16.824693910857413
+      },
+      "Right": {
+        "beforeSlope": -0.03356631096908009,
+        "afterSlope": -0.012922935441762512,
+        "beforeHeight": 0.022778056942964694,
+        "afterHeight": 0.043421432470282274,
+        "correctionDegrees": 16.664759030470083
+      }
+    },
+    {
+      "time": 0.6178861972762317,
+      "Left": {
+        "beforeSlope": -0.03132179324752951,
+        "afterSlope": -0.012713398756578446,
+        "beforeHeight": 0.028807522617371004,
+        "afterHeight": 0.04741591710832207,
+        "correctionDegrees": 14.925225014960239
+      },
+      "Right": {
+        "beforeSlope": -0.03445771021094236,
+        "afterSlope": -0.012999419702465279,
+        "beforeHeight": 0.022019740880012902,
+        "afterHeight": 0.043478031388489984,
+        "correctionDegrees": 17.369511030434012
+      }
+    },
+    {
+      "time": 0.6341463603624483,
+      "Left": {
+        "beforeSlope": -0.028976581807243308,
+        "afterSlope": -0.012468431055185086,
+        "beforeHeight": 0.03153089643426002,
+        "afterHeight": 0.04803904718631824,
+        "correctionDegrees": 13.15824630484877
+      },
+      "Right": {
+        "beforeSlope": -0.035264830540085154,
+        "afterSlope": -0.013065498519216448,
+        "beforeHeight": 0.021347253405670705,
+        "afterHeight": 0.043546585426539414,
+        "correctionDegrees": 18.01465258126014
+      }
+    },
+    {
+      "time": 0.650406523448665,
+      "Left": {
+        "beforeSlope": -0.028268139492653315,
+        "afterSlope": -0.012389110580083924,
+        "beforeHeight": 0.03240245998298459,
+        "afterHeight": 0.04828148889555398,
+        "correctionDegrees": 12.634162731900838
+      },
+      "Right": {
+        "beforeSlope": -0.03563951576091854,
+        "afterSlope": -0.013095171804148365,
+        "beforeHeight": 0.021108772610267508,
+        "afterHeight": 0.043653116567037686,
+        "correctionDegrees": 18.31645407702032
+      }
+    },
+    {
+      "time": 0.6666666865348816,
+      "Left": {
+        "beforeSlope": -0.02756793437333323,
+        "afterSlope": -0.012308299588784554,
+        "beforeHeight": 0.033262330449556524,
+        "afterHeight": 0.0485219652341052,
+        "correctionDegrees": 12.120412913407453
+      },
+      "Right": {
+        "beforeSlope": -0.03599477425473975,
+        "afterSlope": -0.013122722341011257,
+        "beforeHeight": 0.02088803418667513,
+        "afterHeight": 0.04376008610040362,
+        "correctionDegrees": 18.603974841649027
+      }
+    }
+  ],
+  "RifleRun": [
+    {
+      "time": 0,
+      "Left": {
+        "beforeSlope": -0.014515828513954387,
+        "afterSlope": -0.0104417704210401,
+        "beforeHeight": 0.0455563665834048,
+        "afterHeight": 0.0496304246763191,
+        "correctionDegrees": 3.1567813134461877
+      },
+      "Right": {
+        "beforeSlope": 0.004976611840815949,
+        "afterSlope": -0.007748882556422339,
+        "beforeHeight": 0.0653293889151981,
+        "afterHeight": 0.05260389451795982,
+        "correctionDegrees": 9.734941130313823
+      }
+    },
+    {
+      "time": 0.016260163086216625,
+      "Left": {
+        "beforeSlope": -0.014191736044637271,
+        "afterSlope": -0.010390018932565467,
+        "beforeHeight": 0.04570828379431166,
+        "afterHeight": 0.04951000090638347,
+        "correctionDegrees": 2.9444510803243324
+      },
+      "Right": {
+        "beforeSlope": 0.005763707267771088,
+        "afterSlope": -0.007673208461633739,
+        "beforeHeight": 0.06632222100080151,
+        "afterHeight": 0.05288530527139668,
+        "correctionDegrees": 10.279667960533653
+      }
+    },
+    {
+      "time": 0.03252032617243325,
+      "Left": {
+        "beforeSlope": -0.013899820571518801,
+        "afterSlope": -0.010343361296129455,
+        "beforeHeight": 0.04581745989624511,
+        "afterHeight": 0.04937391917163445,
+        "correctionDegrees": 2.7534158296236066
+      },
+      "Right": {
+        "beforeSlope": 0.00656006736912892,
+        "afterSlope": -0.007599687504477474,
+        "beforeHeight": 0.06731220090849123,
+        "afterHeight": 0.05315244603488484,
+        "correctionDegrees": 10.83365009662696
+      }
+    },
+    {
+      "time": 0.048780489258649876,
+      "Left": {
+        "beforeSlope": -0.01424650709759012,
+        "afterSlope": -0.010398769196198615,
+        "beforeHeight": 0.04531400468292185,
+        "afterHeight": 0.04916174258431335,
+        "correctionDegrees": 2.9803164510673223
+      },
+      "Right": {
+        "beforeSlope": 0.007252824289017365,
+        "afterSlope": -0.007538198156636222,
+        "beforeHeight": 0.06816256399287164,
+        "afterHeight": 0.05337154154721806,
+        "correctionDegrees": 11.317919327012502
+      }
+    },
+    {
+      "time": 0.0650406523448665,
+      "Left": {
+        "beforeSlope": -0.014600378743161337,
+        "afterSlope": -0.010455261195111998,
+        "beforeHeight": 0.04480640662640645,
+        "afterHeight": 0.04895152417445579,
+        "correctionDegrees": 3.2122179132927595
+      },
+      "Right": {
+        "beforeSlope": 0.00791200475694645,
+        "afterSlope": -0.007481785743252539,
+        "beforeHeight": 0.06896879092504149,
+        "afterHeight": 0.0535750004248425,
+        "correctionDegrees": 11.780774727806099
+      }
+    },
+    {
+      "time": 0.08130081543108313,
+      "Left": {
+        "beforeSlope": -0.015044056035046492,
+        "afterSlope": -0.010525962642171012,
+        "beforeHeight": 0.044301830087289634,
+        "afterHeight": 0.0488199234801651,
+        "correctionDegrees": 3.503433812717992
+      },
+      "Right": {
+        "beforeSlope": 0.008179227387350729,
+        "afterSlope": -0.007459455839012127,
+        "beforeHeight": 0.06934112396709506,
+        "afterHeight": 0.0537024407407322,
+        "correctionDegrees": 11.968984457614678
+      }
+    },
+    {
+      "time": 0.09756097851729975,
+      "Left": {
+        "beforeSlope": -0.015391009119304504,
+        "afterSlope": -0.01058112715959581,
+        "beforeHeight": 0.04390245841516403,
+        "afterHeight": 0.04871234037487273,
+        "correctionDegrees": 3.731550752478064
+      },
+      "Right": {
+        "beforeSlope": 0.008357272608276133,
+        "afterSlope": -0.007444782835123098,
+        "beforeHeight": 0.06960270580744486,
+        "afterHeight": 0.05380065036404563,
+        "correctionDegrees": 12.094570359529646
+      }
+    },
+    {
+      "time": 0.11382114160351636,
+      "Left": {
+        "beforeSlope": -0.015156675233425683,
+        "afterSlope": -0.010543882235196273,
+        "beforeHeight": 0.044147871474079475,
+        "afterHeight": 0.048760664472308875,
+        "correctionDegrees": 3.5774407512457693
+      },
+      "Right": {
+        "beforeSlope": 0.007979464933598657,
+        "afterSlope": -0.007476092349056575,
+        "beforeHeight": 0.06918816291949365,
+        "afterHeight": 0.053732605636838404,
+        "correctionDegrees": 11.828256201858645
+      }
+    },
+    {
+      "time": 0.130081304689733,
+      "Left": {
+        "beforeSlope": -0.015087035165320107,
+        "afterSlope": -0.010532803261761607,
+        "beforeHeight": 0.044218198411260845,
+        "afterHeight": 0.04877243031481935,
+        "correctionDegrees": 3.5316729724646025
+      },
+      "Right": {
+        "beforeSlope": 0.007610302547007725,
+        "afterSlope": -0.007507324057442486,
+        "beforeHeight": 0.06876773158313393,
+        "afterHeight": 0.05365010497868372,
+        "correctionDegrees": 11.568678773355058
+      }
+    },
+    {
+      "time": 0.1463414677759496,
+      "Left": {
+        "beforeSlope": -0.015714186792036948,
+        "afterSlope": -0.010632394949087721,
+        "beforeHeight": 0.043547823929601506,
+        "afterHeight": 0.04862961577255074,
+        "correctionDegrees": 3.9443640021925757
+      },
+      "Right": {
+        "beforeSlope": 0.00727899332689547,
+        "afterSlope": -0.007535888283690443,
+        "beforeHeight": 0.06832273116984124,
+        "afterHeight": 0.05350784955925533,
+        "correctionDegrees": 11.336255695677513
+      }
+    },
+    {
+      "time": 0.16260163086216625,
+      "Left": {
+        "beforeSlope": -0.01670173471916095,
+        "afterSlope": -0.01078817350731784,
+        "beforeHeight": 0.04249675705276556,
+        "afterHeight": 0.04841031826460867,
+        "correctionDegrees": 4.596822683315546
+      },
+      "Right": {
+        "beforeSlope": 0.0070447084587790965,
+        "afterSlope": -0.007556399525539465,
+        "beforeHeight": 0.0679989402982,
+        "afterHeight": 0.053397832313881455,
+        "correctionDegrees": 11.172204335480693
+      }
+    },
+    {
+      "time": 0.17886179394838286,
+      "Left": {
+        "beforeSlope": -0.018859748825040476,
+        "afterSlope": -0.01112211040447105,
+        "beforeHeight": 0.04021273932478567,
+        "afterHeight": 0.04795037774535509,
+        "correctionDegrees": 6.036001081175788
+      },
+      "Right": {
+        "beforeSlope": 0.0071213570164358805,
+        "afterSlope": -0.007549661698120241,
+        "beforeHeight": 0.06806821368290891,
+        "afterHeight": 0.05339719496835278,
+        "correctionDegrees": 11.225847623950767
+      }
+    },
+    {
+      "time": 0.1951219570345995,
+      "Left": {
+        "beforeSlope": -0.020971037079339925,
+        "afterSlope": -0.011436765810851821,
+        "beforeHeight": 0.03797000237239224,
+        "afterHeight": 0.04750427364088033,
+        "correctionDegrees": 7.465894142287858
+      },
+      "Right": {
+        "beforeSlope": 0.007324961066955099,
+        "afterSlope": -0.007531893239762808,
+        "beforeHeight": 0.0682900009325147,
+        "afterHeight": 0.05343314662579679,
+        "correctionDegrees": 11.368472904549636
+      }
+    },
+    {
+      "time": 0.2113821201208161,
+      "Left": {
+        "beforeSlope": -0.022999059209024765,
+        "afterSlope": -0.011724447913876307,
+        "beforeHeight": 0.035799861765827536,
+        "afterHeight": 0.047074473060975994,
+        "correctionDegrees": 8.864003164767418
+      },
+      "Right": {
+        "beforeSlope": 0.00783664071613665,
+        "afterSlope": -0.0074880979640871625,
+        "beforeHeight": 0.0688832810342854,
+        "afterHeight": 0.053558542354061586,
+        "correctionDegrees": 11.727753580738534
+      }
+    },
+    {
+      "time": 0.22764228320703273,
+      "Left": {
+        "beforeSlope": -0.02464522910581899,
+        "afterSlope": -0.01194569698759084,
+        "beforeHeight": 0.034044040892802434,
+        "afterHeight": 0.04674357301103059,
+        "correctionDegrees": 10.019137989933832
+      },
+      "Right": {
+        "beforeSlope": 0.008464821052252347,
+        "afterSlope": -0.007436021089985933,
+        "beforeHeight": 0.06959749097717134,
+        "afterHeight": 0.05369664883493307,
+        "correctionDegrees": 12.170502517982847
+      }
+    },
+    {
+      "time": 0.24390244629324936,
+      "Left": {
+        "beforeSlope": -0.025535705675829846,
+        "afterSlope": -0.012060392821947569,
+        "beforeHeight": 0.03311095181542913,
+        "afterHeight": 0.0465862646693114,
+        "correctionDegrees": 10.6522460444205
+      },
+      "Right": {
+        "beforeSlope": 0.009321049226799969,
+        "afterSlope": -0.00736789120267283,
+        "beforeHeight": 0.07054671626368916,
+        "afterHeight": 0.05385777583421637,
+        "correctionDegrees": 12.776961591464621
+      }
+    },
+    {
+      "time": 0.260162609379466,
+      "Left": {
+        "beforeSlope": -0.026135826980619867,
+        "afterSlope": -0.012135630253769653,
+        "beforeHeight": 0.03252447832394112,
+        "afterHeight": 0.04652467505079133,
+        "correctionDegrees": 11.082356603708023
+      },
+      "Right": {
+        "beforeSlope": 0.009879099740542005,
+        "afterSlope": -0.007325250888997352,
+        "beforeHeight": 0.07118332984819908,
+        "afterHeight": 0.05397897921865972,
+        "correctionDegrees": 13.174086025224005
+      }
+    },
+    {
+      "time": 0.2764227724656826,
+      "Left": {
+        "beforeSlope": -0.02625800785225952,
+        "afterSlope": -0.012150740225521211,
+        "beforeHeight": 0.03250571996185838,
+        "afterHeight": 0.04661298758859669,
+        "correctionDegrees": 11.170271046226434
+      },
+      "Right": {
+        "beforeSlope": 0.009961008792976792,
+        "afterSlope": -0.007319107685899042,
+        "beforeHeight": 0.07131691539232882,
+        "afterHeight": 0.05403679891345299,
+        "correctionDegrees": 13.232499001048701
+      }
+    },
+    {
+      "time": 0.2926829355518992,
+      "Left": {
+        "beforeSlope": -0.026233762546664673,
+        "afterSlope": -0.012147746537616593,
+        "beforeHeight": 0.03266790508255379,
+        "afterHeight": 0.04675392109160186,
+        "correctionDegrees": 11.152815850722993
+      },
+      "Right": {
+        "beforeSlope": 0.009552682528276646,
+        "afterSlope": -0.007350024468722151,
+        "beforeHeight": 0.07093830698595108,
+        "afterHeight": 0.054035599988952264,
+        "correctionDegrees": 12.941619458285968
+      }
+    },
+    {
+      "time": 0.30894309863811587,
+      "Left": {
+        "beforeSlope": -0.026016303897494042,
+        "afterSlope": -0.012120778185012043,
+        "beforeHeight": 0.03306673875143191,
+        "afterHeight": 0.04696226446391391,
+        "correctionDegrees": 10.996468062743542
+      },
+      "Right": {
+        "beforeSlope": 0.008495738683593474,
+        "afterSlope": -0.007433500600540292,
+        "beforeHeight": 0.06988051611719023,
+        "afterHeight": 0.053951276833056463,
+        "correctionDegrees": 12.192341217616871
+      }
+    },
+    {
+      "time": 0.3252032617243325,
+      "Left": {
+        "beforeSlope": -0.025680405643448874,
+        "afterSlope": -0.012078685074600998,
+        "beforeHeight": 0.03359181164692449,
+        "afterHeight": 0.04719353221577237,
+        "correctionDegrees": 10.755695972054019
+      },
+      "Right": {
+        "beforeSlope": 0.0072155417429226616,
+        "afterSlope": -0.007541446921776445,
+        "beforeHeight": 0.06857992665660817,
+        "afterHeight": 0.05382293799190907,
+        "correctionDegrees": 11.291800704202366
+      }
+    },
+    {
+      "time": 0.3414634248105491,
+      "Left": {
+        "beforeSlope": -0.025219197385615833,
+        "afterSlope": -0.012020036614092022,
+        "beforeHeight": 0.03424951158016899,
+        "afterHeight": 0.0474486723516928,
+        "correctionDegrees": 10.426527020329821
+      },
+      "Right": {
+        "beforeSlope": 0.005691107575545588,
+        "afterSlope": -0.007680058688293807,
+        "beforeHeight": 0.06701404323149276,
+        "afterHeight": 0.05364287696765337,
+        "correctionDegrees": 10.229306972101506
+      }
+    },
+    {
+      "time": 0.3577235878967657,
+      "Left": {
+        "beforeSlope": -0.024660460592623442,
+        "afterSlope": -0.01194768529153825,
+        "beforeHeight": 0.034982766828540075,
+        "afterHeight": 0.04769554212962526,
+        "correctionDegrees": 10.029916758239406
+      },
+      "Right": {
+        "beforeSlope": 0.004419425155972698,
+        "afterSlope": -0.00780427702757136,
+        "beforeHeight": 0.06569021133621998,
+        "afterHeight": 0.05346650915267592,
+        "correctionDegrees": 9.350992612396935
+      }
+    },
+    {
+      "time": 0.37398375098298237,
+      "Left": {
+        "beforeSlope": -0.024019181627558325,
+        "afterSlope": -0.011862926976569424,
+        "beforeHeight": 0.03577905448566199,
+        "afterHeight": 0.047935309136650894,
+        "correctionDegrees": 9.577561946386641
+      },
+      "Right": {
+        "beforeSlope": 0.0033790271085234157,
+        "afterSlope": -0.007911800391281594,
+        "beforeHeight": 0.06458983540393252,
+        "afterHeight": 0.05329900790412752,
+        "correctionDegrees": 8.637697927320023
+      }
+    },
+    {
+      "time": 0.390243914069199,
+      "Left": {
+        "beforeSlope": -0.02345434563195237,
+        "afterSlope": -0.011786792017575706,
+        "beforeHeight": 0.03644044503615279,
+        "afterHeight": 0.04810799865052946,
+        "correctionDegrees": 9.181573617795804
+      },
+      "Right": {
+        "beforeSlope": 0.002843730182021175,
+        "afterSlope": -0.007969196130772977,
+        "beforeHeight": 0.06400047872415428,
+        "afterHeight": 0.05318755241136013,
+        "correctionDegrees": 8.272503207535609
+      }
+    },
+    {
+      "time": 0.4065040771554156,
+      "Left": {
+        "beforeSlope": -0.022950192113813606,
+        "afterSlope": -0.011717700176365638,
+        "beforeHeight": 0.03699885794320979,
+        "afterHeight": 0.04823134988065776,
+        "correctionDegrees": 8.830001503265438
+      },
+      "Right": {
+        "beforeSlope": 0.0026878048107822038,
+        "afterSlope": -0.007986179024342375,
+        "beforeHeight": 0.063797326305236,
+        "afterHeight": 0.05312334247011144,
+        "correctionDegrees": 8.166352742804913
+      }
+    },
+    {
+      "time": 0.4227642402416322,
+      "Left": {
+        "beforeSlope": -0.022664284363510753,
+        "afterSlope": -0.01167805391968912,
+        "beforeHeight": 0.03728378988950682,
+        "afterHeight": 0.04827002033332846,
+        "correctionDegrees": 8.631388188849527
+      },
+      "Right": {
+        "beforeSlope": 0.0027520703146627808,
+        "afterSlope": -0.007979163562353987,
+        "beforeHeight": 0.0638215931142252,
+        "afterHeight": 0.05309035923720844,
+        "correctionDegrees": 8.210090810357299
+      }
+    },
+    {
+      "time": 0.43902440332784887,
+      "Left": {
+        "beforeSlope": -0.022512883394349516,
+        "afterSlope": -0.01165692569838455,
+        "beforeHeight": 0.03740038537304455,
+        "afterHeight": 0.048256343069009514,
+        "correctionDegrees": 8.526432935238562
+      },
+      "Right": {
+        "beforeSlope": 0.002953470207564042,
+        "afterSlope": -0.007957310791745085,
+        "beforeHeight": 0.06398787434040612,
+        "afterHeight": 0.05307709334109699,
+        "correctionDegrees": 8.347272119769418
+      }
+    },
+    {
+      "time": 0.45528456641406545,
+      "Left": {
+        "beforeSlope": -0.022405141072226745,
+        "afterSlope": -0.011641835259511322,
+        "beforeHeight": 0.03745935795316968,
+        "afterHeight": 0.048222663765885104,
+        "correctionDegrees": 8.451835422444097
+      },
+      "Right": {
+        "beforeSlope": 0.0030278388646441494,
+        "afterSlope": -0.007949293396418745,
+        "beforeHeight": 0.06401717462054343,
+        "afterHeight": 0.05304004235948054,
+        "correctionDegrees": 8.397970725026147
+      }
+    },
+    {
+      "time": 0.4715447295002821,
+      "Left": {
+        "beforeSlope": -0.022318306620989003,
+        "afterSlope": -0.01162963592408284,
+        "beforeHeight": 0.03749020690110534,
+        "afterHeight": 0.04817887759801151,
+        "correctionDegrees": 8.391769346251424
+      },
+      "Right": {
+        "beforeSlope": 0.0030404999485364285,
+        "afterSlope": -0.007947940775559256,
+        "beforeHeight": 0.0639793902127387,
+        "afterHeight": 0.052990949488643024,
+        "correctionDegrees": 8.406605003591785
+      }
+    },
+    {
+      "time": 0.48780489258649873,
+      "Left": {
+        "beforeSlope": -0.022215116898910987,
+        "afterSlope": -0.011615104551227409,
+        "beforeHeight": 0.03755505059556155,
+        "afterHeight": 0.04815506294324513,
+        "correctionDegrees": 8.320452545009008
+      },
+      "Right": {
+        "beforeSlope": 0.0029605761222626613,
+        "afterSlope": -0.007956551842447711,
+        "beforeHeight": 0.06382463778299688,
+        "afterHeight": 0.05290750981828653,
+        "correctionDegrees": 8.352115882874232
+      }
+    },
+    {
+      "time": 0.5040650556727153,
+      "Left": {
+        "beforeSlope": -0.022102278241315144,
+        "afterSlope": -0.011599168677772349,
+        "beforeHeight": 0.03763714701304184,
+        "afterHeight": 0.04814025657658464,
+        "correctionDegrees": 8.242545773488489
+      },
+      "Right": {
+        "beforeSlope": 0.0028461741337487516,
+        "afterSlope": -0.00796893182021105,
+        "beforeHeight": 0.06362477976070288,
+        "afterHeight": 0.05280967380674307,
+        "correctionDegrees": 8.274167675618669
+      }
+    },
+    {
+      "time": 0.520325218758932,
+      "Left": {
+        "beforeSlope": -0.022037273350284468,
+        "afterSlope": -0.011589969510469693,
+        "beforeHeight": 0.03770812663733489,
+        "afterHeight": 0.048155430477149666,
+        "correctionDegrees": 8.197701317927311
+      },
+      "Right": {
+        "beforeSlope": 0.0030359230447303334,
+        "afterSlope": -0.007948422448156321,
+        "beforeHeight": 0.06371056238142861,
+        "afterHeight": 0.052726216888541955,
+        "correctionDegrees": 8.403483289083132
+      }
+    },
+    {
+      "time": 0.5365853818451486,
+      "Left": {
+        "beforeSlope": -0.0219828567212132,
+        "afterSlope": -0.011582253588395647,
+        "beforeHeight": 0.03778182965229789,
+        "afterHeight": 0.04818243278511544,
+        "correctionDegrees": 8.160181949836284
+      },
+      "Right": {
+        "beforeSlope": 0.003324389717515263,
+        "afterSlope": -0.00791758988225482,
+        "beforeHeight": 0.06388828654062405,
+        "afterHeight": 0.05264630694085396,
+        "correctionDegrees": 8.600366742251095
+      }
+    },
+    {
+      "time": 0.5528455449313652,
+      "Left": {
+        "beforeSlope": -0.02160484933860724,
+        "afterSlope": -0.01152833963002928,
+        "beforeHeight": 0.0382066642540482,
+        "afterHeight": 0.048283173962626165,
+        "correctionDegrees": 7.900067548401283
+      },
+      "Right": {
+        "beforeSlope": 0.004207357024739265,
+        "afterSlope": -0.007825762254559509,
+        "beforeHeight": 0.06466628919052438,
+        "afterHeight": 0.05263316991122562,
+        "correctionDegrees": 9.2052186074278
+      }
+    },
+    {
+      "time": 0.5691057080175819,
+      "Left": {
+        "beforeSlope": -0.02114552272841306,
+        "afterSlope": -0.011462117620947553,
+        "beforeHeight": 0.038721631182416616,
+        "afterHeight": 0.048405036289882124,
+        "correctionDegrees": 7.585180086194099
+      },
+      "Right": {
+        "beforeSlope": 0.005222703465940098,
+        "afterSlope": -0.007724899232381656,
+        "beforeHeight": 0.06557702622548962,
+        "afterHeight": 0.05262942352716787,
+        "correctionDegrees": 9.904956890643078
+      }
+    },
+    {
+      "time": 0.5853658711037985,
+      "Left": {
+        "beforeSlope": -0.02006846900475379,
+        "afterSlope": -0.0113039559864392,
+        "beforeHeight": 0.039864415384726695,
+        "afterHeight": 0.04862892840304129,
+        "correctionDegrees": 6.851668939624297
+      },
+      "Right": {
+        "beforeSlope": 0.005714466138699328,
+        "afterSlope": -0.007677852352687985,
+        "beforeHeight": 0.06600483280138825,
+        "afterHeight": 0.05261251431000094,
+        "correctionDegrees": 10.245508044145911
+      }
+    },
+    {
+      "time": 0.6016260341900151,
+      "Left": {
+        "beforeSlope": -0.018880004412409696,
+        "afterSlope": -0.011125189921060683,
+        "beforeHeight": 0.041120961643855036,
+        "afterHeight": 0.04887577613520405,
+        "correctionDegrees": 6.049609212982134
+      },
+      "Right": {
+        "beforeSlope": 0.006116222042578737,
+        "afterSlope": -0.007640284282256219,
+        "beforeHeight": 0.06634939531670016,
+        "afterHeight": 0.0525928889918652,
+        "correctionDegrees": 10.524536964483563
+      }
+    },
+    {
+      "time": 0.6178861972762317,
+      "Left": {
+        "beforeSlope": -0.01795569335854686,
+        "afterSlope": -0.010983487608338283,
+        "beforeHeight": 0.042075969886464386,
+        "afterHeight": 0.049048175636672964,
+        "correctionDegrees": 5.430624271790781
+      },
+      "Right": {
+        "beforeSlope": 0.005858394293809046,
+        "afterSlope": -0.007664306416596586,
+        "beforeHeight": 0.06610960161093002,
+        "afterHeight": 0.052586900900524376,
+        "correctionDegrees": 10.345385818694913
+      }
+    },
+    {
+      "time": 0.6341463603624483,
+      "Left": {
+        "beforeSlope": -0.017054609864769164,
+        "afterSlope": -0.010843450194805777,
+        "beforeHeight": 0.043001880064466896,
+        "afterHeight": 0.04921303973443028,
+        "correctionDegrees": 4.8308214422900235
+      },
+      "Right": {
+        "beforeSlope": 0.005537449681210263,
+        "afterSlope": -0.007694659701234674,
+        "beforeHeight": 0.06581431163764297,
+        "afterHeight": 0.052582202255198024,
+        "correctionDegrees": 10.122797906551286
+      }
+    },
+    {
+      "time": 0.650406523448665,
+      "Left": {
+        "beforeSlope": -0.01579702936266339,
+        "afterSlope": -0.010645514297886094,
+        "beforeHeight": 0.04426901794775997,
+        "afterHeight": 0.049420533012537265,
+        "correctionDegrees": 3.99896927812995
+      },
+      "Right": {
+        "beforeSlope": 0.005252249949236466,
+        "afterSlope": -0.007722041672726989,
+        "beforeHeight": 0.06556712903927886,
+        "afterHeight": 0.0525928374173154,
+        "correctionDegrees": 9.92538755959435
+      }
+    },
+    {
+      "time": 0.6666666865348816,
+      "Left": {
+        "beforeSlope": -0.014514535169761106,
+        "afterSlope": -0.010441562279536791,
+        "beforeHeight": 0.04555804260853062,
+        "afterHeight": 0.04963101549875494,
+        "correctionDegrees": 3.1559328305028527
+      },
+      "Right": {
+        "beforeSlope": 0.004975363215062322,
+        "afterSlope": -0.007749006731053395,
+        "beforeHeight": 0.06532781790184247,
+        "afterHeight": 0.05260344795572676,
+        "correctionDegrees": 9.734079027568175
+      }
+    }
+  ]
+}

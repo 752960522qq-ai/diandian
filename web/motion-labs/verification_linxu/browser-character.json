@@ -1,0 +1,19 @@
+{
+  "source": "assets/characters/linxu_motion/character.glb",
+  "sourceSha256": "a13e9afa92256249d6419f8abe7450174ce44dfa05d45e14dbb185cd30d06557",
+  "browserSha256": "56e8761b486d8b4ce31c4cdd9a9c19b5a71f3edcf06a5ece23426ab34f323ead",
+  "sourceBytes": 18770984,
+  "browserBytes": 16824824,
+  "removedEmbeddedClips": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Talking",
+    "HeadStress",
+    "FaceTest"
+  ],
+  "actionsSource": "motions.glb; resistance R47 Idle/Walk replace the uploaded clips",
+  "meshSkinTextureBufferViewsUnchanged": true,
+  "retainedBufferSha256": "09e3ba67193bbe5c9df49dac657dbd9ad2f516716cbac02f0d7c903603d13392",
+  "nodesMaterialsUnchanged": true
+}

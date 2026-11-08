@@ -1,0 +1,96 @@
+{
+  "source_authority": "User-uploaded Linxu_assembled_animated.glb",
+  "source_preservation": "character.glb is byte-identical to source; original mesh, skeleton, skin, materials and textures unchanged",
+  "files": {
+    "source/Linxu_assembled_animated.glb": {
+      "bytes": 18770984,
+      "sha256": "a13e9afa92256249d6419f8abe7450174ce44dfa05d45e14dbb185cd30d06557"
+    },
+    "character.glb": {
+      "bytes": 18770984,
+      "sha256": "a13e9afa92256249d6419f8abe7450174ce44dfa05d45e14dbb185cd30d06557"
+    },
+    "motions.glb": {
+      "bytes": 6114080,
+      "sha256": "7f302fb2843f4496c29138003b1335d9452ba080e97a01af159d315780e133d9"
+    },
+    "retarget_calibration.json": {
+      "bytes": 93306,
+      "sha256": "780665cc8e61bb728a04cd4ae75cb46241a67ac1840f6f90171f0e109534cd7f"
+    }
+  },
+  "clips": {
+    "usable": 33,
+    "comparison": 2,
+    "total": 35,
+    "idle_walk": "Retargeted resistance_r47/military final motions; uploaded Idle/Walk discarded",
+    "run": "Uploaded Run, only two shoulder rotation tracks corrected",
+    "rifle_run": "Complete anatomical-frame retarget, only two shoulder rotation tracks corrected",
+    "talking_headstress": "Resistance source library retarget; HeadStress is head-turn/check, not hands-on-head",
+    "other": "Same source motion library and gun motion derivations used by resistance R47",
+    "face_test_included": false,
+    "new_expressions_created": false
+  },
+  "shoulder_summary": {
+    "Run": {
+      "Left": {
+        "samples": 42,
+        "min_before_height_m": 0.010092301061372282,
+        "min_after_height_m": 0.04488751271713203,
+        "correction_degrees": [
+          11.078133196002431,
+          30.444318975389947
+        ]
+      },
+      "Right": {
+        "samples": 42,
+        "min_before_height_m": 0.01830008441737144,
+        "min_after_height_m": 0.043421432470282274,
+        "correction_degrees": [
+          4.6522028344016775,
+          20.722153939639348
+        ]
+      }
+    },
+    "RifleRun": {
+      "Left": {
+        "samples": 42,
+        "min_before_height_m": 0.03250571996185838,
+        "min_after_height_m": 0.04652467505079133,
+        "correction_degrees": [
+          2.7534158296236066,
+          11.170271046226434
+        ]
+      },
+      "Right": {
+        "samples": 42,
+        "min_before_height_m": 0.06362477976070288,
+        "min_after_height_m": 0.052582202255198024,
+        "correction_degrees": [
+          8.166352742804913,
+          13.232499001048701
+        ]
+      }
+    }
+  },
+  "validation": {
+    "failure_count": 0,
+    "sampled_phases_per_clip": 9,
+    "character_byte_identical": true,
+    "nonfinite_matrices": 0,
+    "max_nonroot_translation_drift_m": 1.9372405033779943e-07,
+    "walk_min_sampled_y_m": 0.000750675818328103,
+    "renders_reviewed": [
+      "work/linxu-motion/Run_Before.png",
+      "work/linxu-motion/Run.png",
+      "work/linxu-motion/RifleRun_Before.png",
+      "work/linxu-motion/RifleRun.png"
+    ]
+  },
+  "commands": [
+    "node tools/gltf/retarget_linxu_base.mjs",
+    "node tools/gltf/finalize_linxu_motions.mjs",
+    "node tools/qa/validate_linxu_motion_assets.mjs",
+    "blender --background --python tools/blender/preview_linxu_running.py"
+  ]
+}

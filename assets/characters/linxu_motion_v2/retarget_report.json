@@ -1,0 +1,146 @@
+{
+  "character": "assets/characters/linxu_motion/character.glb",
+  "method": "Blender FBX world sampling; complete anatomical frames; original target hierarchy/lengths/scale; horizontal net travel removed",
+  "source_fps": 30,
+  "sample_fps": 60,
+  "clips": {
+    "Idle": {
+      "source": "assets/characters/linxu_motion_v2/sources/Orc Idle.fbx",
+      "sha256": "5ec931d9aa3e1a9104ece57e5b62edaa24ebb7afc6fb4b9ff6d4084865bf49f4",
+      "duration": 5.333333333333333,
+      "samples": 321,
+      "mapped_bones": 65,
+      "leg_length_ratio": 0.4895688697142243,
+      "source_net_horizontal_travel_m": [
+        -7.796043064445257e-7,
+        0,
+        0.0000018384307622909546
+      ],
+      "removed_target_net_horizontal_travel_m": [
+        -3.8166999913038823e-7,
+        0,
+        9.000384703426425e-7
+      ],
+      "min_raw_sole_y_m": -0.0032999330059702904,
+      "max_root_lift_m": 0.00479993300597029,
+      "source_endpoint_max_degrees": 0.009408404756128273,
+      "source_endpoint_joint_errors_degrees": {
+        "mixamorig:LeftUpLeg": 0.0012260570066258173,
+        "mixamorig:LeftLeg": 0.0017524077936441917,
+        "mixamorig:RightLeg": 0.0010186446327875472,
+        "mixamorig:LeftShoulder": 0.003781212249160357,
+        "mixamorig:Neck": 0.0014738556742093444,
+        "mixamorig:RightShoulder": 0.004059762186960558,
+        "mixamorig:LeftArm": 0.008005220645381629,
+        "mixamorig:Head": 0.005839640734118333,
+        "mixamorig:RightArm": 0.006728409134095232,
+        "mixamorig:RightForeArm": 0.0020890394857510704,
+        "mixamorig:LeftHand": 0.005862392337897387,
+        "mixamorig:RightHand": 0.009408404756128273,
+        "mixamorig:RightHandIndex1": 0.0018699646579790356,
+        "mixamorig:RightHandMiddle1": 0.0025361705072468963,
+        "mixamorig:RightHandPinky1": 0.0056093856401989,
+        "mixamorig:RightHandRing1": 0.0035785877317278773,
+        "mixamorig:LeftHandIndex2": 0.0013522092776769073,
+        "mixamorig:LeftHandMiddle2": 0.0014128362280571647,
+        "mixamorig:LeftHandPinky2": 0.0017975096574583936,
+        "mixamorig:LeftHandRing2": 0.0015680286944160968,
+        "mixamorig:RightHandIndex2": 0.00161982439883078,
+        "mixamorig:RightHandMiddle2": 0.002181505109891121,
+        "mixamorig:RightHandPinky2": 0.0047926046554668065,
+        "mixamorig:RightHandRing2": 0.003099656940792282,
+        "mixamorig:LeftHandIndex3": 0.0013795862028456712,
+        "mixamorig:LeftHandMiddle3": 0.0013904342768637414,
+        "mixamorig:LeftHandPinky3": 0.0017626280474619858,
+        "mixamorig:LeftHandRing3": 0.0015478113271290568,
+        "mixamorig:RightHandPinky3": 0.0016024646760207245,
+        "mixamorig:RightHandRing3": 0.0010313147442361488
+      },
+      "root_endpoint_error_before_snap_m": 7.00333885661486e-7,
+      "near_identical_loop_endpoint_snapped": true,
+      "shoulder_min_height_m": {
+        "Left": 0.043161246007884395,
+        "Right": 0.04287088111921445
+      },
+      "shoulder_correction_applied": false,
+      "arm_clearance_correction_applied": true,
+      "upper_arm_outward_degrees": {
+        "Left": 5,
+        "Right": 5
+      }
+    },
+    "Walk": {
+      "source": "assets/characters/linxu_motion_v2/sources/Standard Walk.fbx",
+      "sha256": "4e76a7d67450ddae042f13592a1cf65ad9f9d71eac270b139910007de0054b76",
+      "duration": 1.1666666666666667,
+      "samples": 71,
+      "mapped_bones": 65,
+      "leg_length_ratio": 0.4895688697142243,
+      "source_net_horizontal_travel_m": [
+        -2.200249582529068e-8,
+        0,
+        1.8247360019013286
+      ],
+      "removed_target_net_horizontal_travel_m": [
+        -1.0771737012079496e-8,
+        0,
+        0.8933339419776861
+      ],
+      "min_raw_sole_y_m": -0.016117063745539173,
+      "max_root_lift_m": 0.017617063745539174,
+      "source_endpoint_max_degrees": 0.009744474366364993,
+      "source_endpoint_joint_errors_degrees": {
+        "mixamorig:LeftHandIndex1": 0.003751067510538593,
+        "mixamorig:LeftHandPinky1": 0.005372396431927064,
+        "mixamorig:RightHandIndex1": 0.009744474366364993,
+        "mixamorig:LeftHandThumb2": 0.006166439841915401
+      },
+      "root_endpoint_error_before_snap_m": 1.1672231436943292e-7,
+      "near_identical_loop_endpoint_snapped": true,
+      "shoulder_min_height_m": {
+        "Left": 0.025451710786329983,
+        "Right": 0.028994278521173082
+      },
+      "shoulder_correction_applied": false,
+      "arm_clearance_correction_applied": true,
+      "upper_arm_outward_degrees": {
+        "Left": 5,
+        "Right": 5
+      }
+    },
+    "Run": {
+      "source": "assets/characters/linxu_motion_v2/sources/Running.fbx",
+      "sha256": "a035b45cce524c698480e2367e6373d9278998faf5cb421507c7c19e1e7562bc",
+      "duration": 0.6333333333333333,
+      "samples": 39,
+      "mapped_bones": 65,
+      "leg_length_ratio": 0.4895688697142243,
+      "source_net_horizontal_travel_m": [
+        -6.51925802230835e-9,
+        0,
+        3.748498035594821
+      ],
+      "removed_target_net_horizontal_travel_m": [
+        -3.191625781356888e-9,
+        0,
+        1.8351479464121467
+      ],
+      "min_raw_sole_y_m": -0.016858655258146414,
+      "max_root_lift_m": 0.018358655258146415,
+      "source_endpoint_max_degrees": 0.00018162717498468648,
+      "source_endpoint_joint_errors_degrees": {},
+      "root_endpoint_error_before_snap_m": 3.209863643216515e-7,
+      "near_identical_loop_endpoint_snapped": true,
+      "shoulder_min_height_m": {
+        "Left": 0.0403576480846542,
+        "Right": 0.03775063022206578
+      },
+      "shoulder_correction_applied": false,
+      "arm_clearance_correction_applied": true,
+      "upper_arm_outward_degrees": {
+        "Left": 3.5,
+        "Right": 0
+      }
+    }
+  }
+}
