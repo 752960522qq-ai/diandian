@@ -1,0 +1,533 @@
+{
+  "version": "R45",
+  "sourceRig": "diandian_fixed.glb",
+  "method": "world-space bone direction and palm-frame calibration; target local bone lengths/scales retained; root trajectory scaled by leg length",
+  "fps": 30,
+  "characters": {
+    "military": {
+      "original": "assets/characters/resistance_r45/military/source.glb",
+      "source_bytes": 8063684,
+      "weight_repairs": [],
+      "joints": 65,
+      "mapped_bones": 65,
+      "unmapped_bones": [],
+      "bounds_m": {
+        "min": [
+          -0.24401826969831328,
+          -1.876618265920562e-7,
+          -0.09745786596931823
+        ],
+        "max": [
+          0.24401851143913042,
+          0.9999995166883653,
+          0.09745789087568459
+        ]
+      },
+      "preview_scale": 1.7500005173873172,
+      "leg_length_ratio": 0.9205485232104931,
+      "motions": [
+        {
+          "name": "Idle",
+          "duration": 8.333333015441895,
+          "frames": 251,
+          "tracks": 66,
+          "max_floor_lift_m": 0.005627401936547634
+        },
+        {
+          "name": "Walk",
+          "duration": 1.1666666269302368,
+          "frames": 36,
+          "tracks": 66,
+          "max_floor_lift_m": 0.007956861135307098
+        },
+        {
+          "name": "Run",
+          "duration": 0.6666666865348816,
+          "frames": 22,
+          "tracks": 66,
+          "max_floor_lift_m": 0.004905392857152144
+        },
+        {
+          "name": "Talking",
+          "duration": 3.933333396911621,
+          "frames": 120,
+          "tracks": 66,
+          "max_floor_lift_m": 0.004694184101575742
+        },
+        {
+          "name": "HeadStress",
+          "duration": 4,
+          "frames": 121,
+          "tracks": 66,
+          "max_floor_lift_m": 0.00411229165957858
+        },
+        {
+          "name": "Dying",
+          "duration": 4.333333492279053,
+          "frames": 132,
+          "tracks": 66,
+          "max_floor_lift_m": 0.03174973054500297
+        },
+        {
+          "name": "FlyingBackDeath",
+          "duration": 3.0333333015441895,
+          "frames": 92,
+          "tracks": 66,
+          "max_floor_lift_m": 0.02363452188211803
+        },
+        {
+          "name": "SittingTalking",
+          "duration": 44.96666717529297,
+          "frames": 1351,
+          "tracks": 66,
+          "max_floor_lift_m": 0
+        },
+        {
+          "name": "SittingCrossLegged",
+          "duration": 9.566666603088379,
+          "frames": 288,
+          "tracks": 66,
+          "max_floor_lift_m": 0
+        },
+        {
+          "name": "ClimbingLadder",
+          "duration": 0.7666666507720947,
+          "frames": 24,
+          "tracks": 66,
+          "max_floor_lift_m": 0
+        },
+        {
+          "name": "HangToCrouch",
+          "duration": 1.1333333253860474,
+          "frames": 35,
+          "tracks": 66,
+          "max_floor_lift_m": 0
+        },
+        {
+          "name": "WalkingBackwards",
+          "duration": 0.9666666388511658,
+          "frames": 30,
+          "tracks": 66,
+          "max_floor_lift_m": 0.006178139591010482
+        },
+        {
+          "name": "RifleIdle",
+          "duration": 8.566666603088379,
+          "frames": 258,
+          "tracks": 66,
+          "max_floor_lift_m": 0.006517706631032935
+        },
+        {
+          "name": "RifleWalk",
+          "duration": 1.2999999523162842,
+          "frames": 40,
+          "tracks": 66,
+          "max_floor_lift_m": 0.005898768527148232
+        },
+        {
+          "name": "RifleRun",
+          "duration": 0.6666666865348816,
+          "frames": 22,
+          "tracks": 66,
+          "max_floor_lift_m": 0.00885704002677132
+        },
+        {
+          "name": "RifleAimingIdle",
+          "duration": 3.0999999046325684,
+          "frames": 94,
+          "tracks": 66,
+          "max_floor_lift_m": 0.0046907229572654965
+        },
+        {
+          "name": "FiringRifle",
+          "duration": 0.2666666805744171,
+          "frames": 10,
+          "tracks": 66,
+          "max_floor_lift_m": 0.0046367272127004495
+        },
+        {
+          "name": "Reloading",
+          "duration": 3.299999952316284,
+          "frames": 100,
+          "tracks": 66,
+          "max_floor_lift_m": 0.006533461596378917
+        },
+        {
+          "name": "ShotgunAimDown",
+          "duration": 0.03333333507180214,
+          "frames": 3,
+          "tracks": 66,
+          "max_floor_lift_m": 0.012555197048836042
+        },
+        {
+          "name": "ShotgunAimLevel",
+          "duration": 0.5333333611488342,
+          "frames": 18,
+          "tracks": 66,
+          "max_floor_lift_m": 0.013319360406836298
+        },
+        {
+          "name": "ShotgunAimUp",
+          "duration": 0.5333333611488342,
+          "frames": 18,
+          "tracks": 66,
+          "max_floor_lift_m": 0.014223696418765875
+        },
+        {
+          "name": "ShotgunCycleDown",
+          "duration": 0.9666666388511658,
+          "frames": 30,
+          "tracks": 66,
+          "max_floor_lift_m": 0.013547224827641303
+        },
+        {
+          "name": "ShotgunCycleLevel",
+          "duration": 0.9666666388511658,
+          "frames": 30,
+          "tracks": 66,
+          "max_floor_lift_m": 0.01521061792615956
+        },
+        {
+          "name": "ShotgunCycleUp",
+          "duration": 0.9666666388511658,
+          "frames": 30,
+          "tracks": 66,
+          "max_floor_lift_m": 0.01651600670459426
+        },
+        {
+          "name": "ShotgunFireDown",
+          "duration": 0.23333333432674408,
+          "frames": 9,
+          "tracks": 66,
+          "max_floor_lift_m": 0.013547224827641303
+        },
+        {
+          "name": "ShotgunFireLevel",
+          "duration": 0.23333333432674408,
+          "frames": 9,
+          "tracks": 66,
+          "max_floor_lift_m": 0.014987161455916189
+        },
+        {
+          "name": "ShotgunFireUp",
+          "duration": 0.23333333432674408,
+          "frames": 9,
+          "tracks": 66,
+          "max_floor_lift_m": 0.016620677249126053
+        },
+        {
+          "name": "ShotgunPumpDown",
+          "duration": 0.7333333492279053,
+          "frames": 24,
+          "tracks": 66,
+          "max_floor_lift_m": 0.012865947524578083
+        },
+        {
+          "name": "ShotgunPumpLevel",
+          "duration": 0.7333333492279053,
+          "frames": 24,
+          "tracks": 66,
+          "max_floor_lift_m": 0.015201906312360751
+        },
+        {
+          "name": "ShotgunPumpUp",
+          "duration": 0.7333333492279053,
+          "frames": 24,
+          "tracks": 66,
+          "max_floor_lift_m": 0.015617743469023311
+        },
+        {
+          "name": "ShotgunReload",
+          "duration": 1.9666666984558105,
+          "frames": 61,
+          "tracks": 66,
+          "max_floor_lift_m": 0.013870591360327677
+        },
+        {
+          "name": "Type97Fire",
+          "duration": 0.23333333432674408,
+          "frames": 9,
+          "tracks": 66,
+          "max_floor_lift_m": 0.004636850710566099
+        },
+        {
+          "name": "Type97Pump",
+          "duration": 0.7333333492279053,
+          "frames": 24,
+          "tracks": 66,
+          "max_floor_lift_m": 0.0046648046163523995
+        }
+      ]
+    },
+    "vest": {
+      "original": "assets/characters/resistance_r45/vest/source.glb",
+      "source_bytes": 7341436,
+      "weight_repairs": [
+        {
+          "mesh": 0,
+          "primitive": 0,
+          "vertex": 939,
+          "donor_vertex": 935,
+          "method": "copy skin joints/weights from coincident bound seam twin",
+          "position_native": [
+            -0.0876917615532875,
+            0.6116332411766052,
+            0.0012210860149934888
+          ]
+        }
+      ],
+      "joints": 66,
+      "mapped_bones": 65,
+      "unmapped_bones": [
+        "neutral_bone"
+      ],
+      "bounds_m": {
+        "min": [
+          -0.21958894422121952,
+          -4.352355172074161e-7,
+          -0.12335201734212932
+        ],
+        "max": [
+          0.21958927254683808,
+          0.9999997830143496,
+          0.12335201963837954
+        ]
+      },
+      "preview_scale": 1.7499996180628163,
+      "leg_length_ratio": 0.9375988401768,
+      "motions": [
+        {
+          "name": "Idle",
+          "duration": 8.333333015441895,
+          "frames": 251,
+          "tracks": 66,
+          "max_floor_lift_m": 0.008328919493409132
+        },
+        {
+          "name": "Walk",
+          "duration": 1.1666666269302368,
+          "frames": 36,
+          "tracks": 66,
+          "max_floor_lift_m": 0.010911946277491789
+        },
+        {
+          "name": "Run",
+          "duration": 0.6666666865348816,
+          "frames": 22,
+          "tracks": 66,
+          "max_floor_lift_m": 0.003427243422953555
+        },
+        {
+          "name": "Talking",
+          "duration": 3.933333396911621,
+          "frames": 120,
+          "tracks": 66,
+          "max_floor_lift_m": 0.007516856130803428
+        },
+        {
+          "name": "HeadStress",
+          "duration": 4,
+          "frames": 121,
+          "tracks": 66,
+          "max_floor_lift_m": 0.002645568101580674
+        },
+        {
+          "name": "Dying",
+          "duration": 4.333333492279053,
+          "frames": 132,
+          "tracks": 66,
+          "max_floor_lift_m": 0.05297322351691589
+        },
+        {
+          "name": "FlyingBackDeath",
+          "duration": 3.0333333015441895,
+          "frames": 92,
+          "tracks": 66,
+          "max_floor_lift_m": 0.029264173845744687
+        },
+        {
+          "name": "SittingTalking",
+          "duration": 44.96666717529297,
+          "frames": 1351,
+          "tracks": 66,
+          "max_floor_lift_m": 0
+        },
+        {
+          "name": "SittingCrossLegged",
+          "duration": 9.566666603088379,
+          "frames": 288,
+          "tracks": 66,
+          "max_floor_lift_m": 0
+        },
+        {
+          "name": "ClimbingLadder",
+          "duration": 0.7666666507720947,
+          "frames": 24,
+          "tracks": 66,
+          "max_floor_lift_m": 0
+        },
+        {
+          "name": "HangToCrouch",
+          "duration": 1.1333333253860474,
+          "frames": 35,
+          "tracks": 66,
+          "max_floor_lift_m": 0
+        },
+        {
+          "name": "WalkingBackwards",
+          "duration": 0.9666666388511658,
+          "frames": 30,
+          "tracks": 66,
+          "max_floor_lift_m": 0.006158760850863583
+        },
+        {
+          "name": "RifleIdle",
+          "duration": 8.566666603088379,
+          "frames": 258,
+          "tracks": 66,
+          "max_floor_lift_m": 0.008684408063570848
+        },
+        {
+          "name": "RifleWalk",
+          "duration": 1.2999999523162842,
+          "frames": 40,
+          "tracks": 66,
+          "max_floor_lift_m": 0.005808493506056639
+        },
+        {
+          "name": "RifleRun",
+          "duration": 0.6666666865348816,
+          "frames": 22,
+          "tracks": 66,
+          "max_floor_lift_m": 0.008316872995949399
+        },
+        {
+          "name": "RifleAimingIdle",
+          "duration": 3.0999999046325684,
+          "frames": 94,
+          "tracks": 66,
+          "max_floor_lift_m": 0.009269950585407081
+        },
+        {
+          "name": "FiringRifle",
+          "duration": 0.2666666805744171,
+          "frames": 10,
+          "tracks": 66,
+          "max_floor_lift_m": 0.009289064539626399
+        },
+        {
+          "name": "Reloading",
+          "duration": 3.299999952316284,
+          "frames": 100,
+          "tracks": 66,
+          "max_floor_lift_m": 0.010126737503796437
+        },
+        {
+          "name": "ShotgunAimDown",
+          "duration": 0.03333333507180214,
+          "frames": 3,
+          "tracks": 66,
+          "max_floor_lift_m": 0.015441753728206904
+        },
+        {
+          "name": "ShotgunAimLevel",
+          "duration": 0.5333333611488342,
+          "frames": 18,
+          "tracks": 66,
+          "max_floor_lift_m": 0.016223914730402765
+        },
+        {
+          "name": "ShotgunAimUp",
+          "duration": 0.5333333611488342,
+          "frames": 18,
+          "tracks": 66,
+          "max_floor_lift_m": 0.017080871526561077
+        },
+        {
+          "name": "ShotgunCycleDown",
+          "duration": 0.9666666388511658,
+          "frames": 30,
+          "tracks": 66,
+          "max_floor_lift_m": 0.01669364662385302
+        },
+        {
+          "name": "ShotgunCycleLevel",
+          "duration": 0.9666666388511658,
+          "frames": 30,
+          "tracks": 66,
+          "max_floor_lift_m": 0.018233578458519528
+        },
+        {
+          "name": "ShotgunCycleUp",
+          "duration": 0.9666666388511658,
+          "frames": 30,
+          "tracks": 66,
+          "max_floor_lift_m": 0.019672514626977743
+        },
+        {
+          "name": "ShotgunFireDown",
+          "duration": 0.23333333432674408,
+          "frames": 9,
+          "tracks": 66,
+          "max_floor_lift_m": 0.01669364662385302
+        },
+        {
+          "name": "ShotgunFireLevel",
+          "duration": 0.23333333432674408,
+          "frames": 9,
+          "tracks": 66,
+          "max_floor_lift_m": 0.018233578458519528
+        },
+        {
+          "name": "ShotgunFireUp",
+          "duration": 0.23333333432674408,
+          "frames": 9,
+          "tracks": 66,
+          "max_floor_lift_m": 0.019672514626977743
+        },
+        {
+          "name": "ShotgunPumpDown",
+          "duration": 0.7333333492279053,
+          "frames": 24,
+          "tracks": 66,
+          "max_floor_lift_m": 0.015860011251982588
+        },
+        {
+          "name": "ShotgunPumpLevel",
+          "duration": 0.7333333492279053,
+          "frames": 24,
+          "tracks": 66,
+          "max_floor_lift_m": 0.01814961816770084
+        },
+        {
+          "name": "ShotgunPumpUp",
+          "duration": 0.7333333492279053,
+          "frames": 24,
+          "tracks": 66,
+          "max_floor_lift_m": 0.01838004477840048
+        },
+        {
+          "name": "ShotgunReload",
+          "duration": 1.9666666984558105,
+          "frames": 61,
+          "tracks": 66,
+          "max_floor_lift_m": 0.016457232980694503
+        },
+        {
+          "name": "Type97Fire",
+          "duration": 0.23333333432674408,
+          "frames": 9,
+          "tracks": 66,
+          "max_floor_lift_m": 0.009288500783399318
+        },
+        {
+          "name": "Type97Pump",
+          "duration": 0.7333333492279053,
+          "frames": 24,
+          "tracks": 66,
+          "max_floor_lift_m": 0.009269950585407081
+        }
+      ]
+    }
+  }
+}

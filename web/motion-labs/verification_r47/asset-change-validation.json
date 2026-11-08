@@ -1,0 +1,80 @@
+{
+  "military": {
+    "character_byte_identical": true,
+    "calibration_byte_identical": true,
+    "unchanged_clips": 31,
+    "changed_channels": [
+      {
+        "clip": "Idle",
+        "track": "mixamorigLeftShoulder.quaternion"
+      },
+      {
+        "clip": "Idle",
+        "track": "mixamorigRightShoulder.quaternion"
+      },
+      {
+        "clip": "Idle",
+        "track": "mixamorigLeftArm.quaternion"
+      },
+      {
+        "clip": "Idle",
+        "track": "mixamorigRightArm.quaternion"
+      },
+      {
+        "clip": "Walk",
+        "track": "mixamorigLeftShoulder.quaternion"
+      },
+      {
+        "clip": "Walk",
+        "track": "mixamorigRightShoulder.quaternion"
+      },
+      {
+        "clip": "Walk",
+        "track": "mixamorigLeftArm.quaternion"
+      },
+      {
+        "clip": "Walk",
+        "track": "mixamorigRightArm.quaternion"
+      }
+    ]
+  },
+  "vest": {
+    "character_byte_identical": true,
+    "calibration_byte_identical": true,
+    "unchanged_clips": 31,
+    "changed_channels": [
+      {
+        "clip": "Idle",
+        "track": "mixamorigLeftShoulder.quaternion"
+      },
+      {
+        "clip": "Idle",
+        "track": "mixamorigRightShoulder.quaternion"
+      },
+      {
+        "clip": "Idle",
+        "track": "mixamorigLeftArm.quaternion"
+      },
+      {
+        "clip": "Idle",
+        "track": "mixamorigRightArm.quaternion"
+      },
+      {
+        "clip": "Walk",
+        "track": "mixamorigLeftShoulder.quaternion"
+      },
+      {
+        "clip": "Walk",
+        "track": "mixamorigRightShoulder.quaternion"
+      },
+      {
+        "clip": "Walk",
+        "track": "mixamorigLeftArm.quaternion"
+      },
+      {
+        "clip": "Walk",
+        "track": "mixamorigRightArm.quaternion"
+      }
+    ]
+  }
+}

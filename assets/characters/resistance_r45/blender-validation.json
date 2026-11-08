@@ -1,0 +1,43 @@
+{
+  "blender_version": "4.3.2",
+  "preview": "work/resistance-r45/blender-preview.png",
+  "time_seconds": 0.3,
+  "poses": [
+    {
+      "character": "military",
+      "motion": "Idle",
+      "bones": 65,
+      "actions": 33
+    },
+    {
+      "character": "military",
+      "motion": "WalkingBackwards",
+      "bones": 65,
+      "actions": 33
+    },
+    {
+      "character": "military",
+      "motion": "RifleAimingIdle",
+      "bones": 65,
+      "actions": 33
+    },
+    {
+      "character": "vest",
+      "motion": "Idle",
+      "bones": 66,
+      "actions": 33
+    },
+    {
+      "character": "vest",
+      "motion": "WalkingBackwards",
+      "bones": 66,
+      "actions": 33
+    },
+    {
+      "character": "vest",
+      "motion": "RifleAimingIdle",
+      "bones": 66,
+      "actions": 33
+    }
+  ]
+}

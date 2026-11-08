@@ -1,4 +1,10 @@
-# 人物与载具动作测试（修订44）
+# 人物与载具动作测试（修订46）
+
+> R47 已更新到[抵抗军独立网站](https://resistance-motion-lab.expert-eagle-6942.chatgpt.site)：修正两人五枪的右手解剖方向与食指位置，待机/行走肩部打开、双臂外展；实际手指/手掌与裤子表面1128帧检查零相交。见 [R47 验证记录](verification_r47/README.md)。源码、动作资产和验证记录已同步 GitHub。
+
+> R46 已更新到[抵抗军独立网站](https://resistance-motion-lab.expert-eagle-6942.chatgpt.site)：抵抗军待机、行走替换为新上传男性 FBX；重做全部动作骨轴旋转校准，修复头颈过度偏转，按实际掌面/枪面校准五枪握持与携枪避让。见 [R46 验证记录](verification_r46/README.md)。本轮尚未同步 GitHub。
+
+> R45 已独立部署：[抵抗军动作站](https://resistance-motion-lab.expert-eagle-6942.chatgpt.site)。新增军装、背心两名抵抗军的独立动作站，适配 12 个无装备动作及 QBZ95、56-1、QBU85、97式、QCQ171。见 [R45 验证记录](verification_r45/README.md) 和 [独立站源代码](resistance-motion-lab/README.md)。本轮尚未推送 GitHub。
 
 > R44 已部署：点点 90% 手掌写入源 GLB，QJZ89 改为抵肩，新增用户指定全长 1150 mm 的 QBU-10 普通步枪动作，59D 拆为独立站点。见 [R44 验证记录](verification_r44/README.md) 和 [三个站点发布记录](verification_r44/deployments.json)。本次修订随仓库提交同步。
 

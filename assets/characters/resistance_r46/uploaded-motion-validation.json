@@ -1,0 +1,50 @@
+{
+  "military": {
+    "Idle": {
+      "source_sha256": "3772c5343739ecda2e2dc258c2190a4c91792dd6710f4eccfd4f2ba73beae6eb",
+      "duration": 8.333333015441895,
+      "max_loop_bone_angle_rad": 5.960464477539063e-8,
+      "root_loop_delta": [
+        0,
+        0,
+        0
+      ],
+      "upper_arm_clearance_degrees": 3
+    },
+    "Walk": {
+      "source_sha256": "a4cf5e911add3b41ff38d9e9a5dadc64c18d6bce4b95c8b447668e64f8832647",
+      "duration": 1.0333333015441895,
+      "max_loop_bone_angle_rad": 0.0000024264654838247448,
+      "root_loop_delta": [
+        0,
+        5.960464477539063e-8,
+        0
+      ],
+      "upper_arm_clearance_degrees": 0
+    }
+  },
+  "vest": {
+    "Idle": {
+      "source_sha256": "3772c5343739ecda2e2dc258c2190a4c91792dd6710f4eccfd4f2ba73beae6eb",
+      "duration": 8.333333015441895,
+      "max_loop_bone_angle_rad": 5.16191365590357e-8,
+      "root_loop_delta": [
+        0,
+        0,
+        0
+      ],
+      "upper_arm_clearance_degrees": 3
+    },
+    "Walk": {
+      "source_sha256": "a4cf5e911add3b41ff38d9e9a5dadc64c18d6bce4b95c8b447668e64f8832647",
+      "duration": 1.0333333015441895,
+      "max_loop_bone_angle_rad": 0.000002468380837541815,
+      "root_loop_delta": [
+        0,
+        -1.1920928955078125e-7,
+        0
+      ],
+      "upper_arm_clearance_degrees": 0
+    }
+  }
+}

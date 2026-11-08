@@ -1,0 +1,86 @@
+{
+  "blender_version": "4.3.2",
+  "preview": "work/resistance-r46/vest-comparison.png",
+  "poses": [
+    {
+      "character": "vest",
+      "version": "r45",
+      "motion": "Idle",
+      "bones": 66,
+      "actions": 33,
+      "sample_time_seconds": 0.3
+    },
+    {
+      "character": "vest",
+      "version": "r45",
+      "motion": "Walk",
+      "bones": 66,
+      "actions": 33,
+      "sample_time_seconds": 0.3
+    },
+    {
+      "character": "vest",
+      "version": "r45",
+      "motion": "Run",
+      "bones": 66,
+      "actions": 33,
+      "sample_time_seconds": 0.3
+    },
+    {
+      "character": "vest",
+      "version": "r45",
+      "motion": "WalkingBackwards",
+      "bones": 66,
+      "actions": 33,
+      "sample_time_seconds": 0.3
+    },
+    {
+      "character": "vest",
+      "version": "r45",
+      "motion": "RifleAimingIdle",
+      "bones": 66,
+      "actions": 33,
+      "sample_time_seconds": 0.3
+    },
+    {
+      "character": "vest",
+      "version": "r46",
+      "motion": "Idle",
+      "bones": 66,
+      "actions": 33,
+      "sample_time_seconds": 0.3
+    },
+    {
+      "character": "vest",
+      "version": "r46",
+      "motion": "Walk",
+      "bones": 66,
+      "actions": 33,
+      "sample_time_seconds": 0.3
+    },
+    {
+      "character": "vest",
+      "version": "r46",
+      "motion": "Run",
+      "bones": 66,
+      "actions": 33,
+      "sample_time_seconds": 0.3
+    },
+    {
+      "character": "vest",
+      "version": "r46",
+      "motion": "WalkingBackwards",
+      "bones": 66,
+      "actions": 33,
+      "sample_time_seconds": 0.3
+    },
+    {
+      "character": "vest",
+      "version": "r46",
+      "motion": "RifleAimingIdle",
+      "bones": 66,
+      "actions": 33,
+      "sample_time_seconds": 0.3
+    }
+  ]
+}

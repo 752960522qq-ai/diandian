@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "errors": [],
+  "rows": [
+    {
+      "cid": "military",
+      "weapon": "qbu85",
+      "left": 5.321088522636219e-8,
+      "right": 1.0031101115513056e-8
+    },
+    {
+      "cid": "military",
+      "weapon": "qcq171",
+      "left": 3.32156371285387e-8,
+      "right": 2.5153816994193416e-8
+    },
+    {
+      "cid": "military",
+      "weapon": "type56_1",
+      "left": 3.8342546693404744e-8,
+      "right": 1.1033517027757122e-8
+    },
+    {
+      "cid": "vest",
+      "weapon": "qbu85",
+      "left": 9.346642946151086e-8,
+      "right": 5.7750714861670795e-8
+    },
+    {
+      "cid": "vest",
+      "weapon": "qcq171",
+      "left": 6.711412763056714e-8,
+      "right": 5.968238720726522e-8
+    },
+    {
+      "cid": "vest",
+      "weapon": "type56_1",
+      "left": 3.050266622120976e-8,
+      "right": 6.549169109588302e-8
+    }
+  ]
+}

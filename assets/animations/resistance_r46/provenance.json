@@ -1,0 +1,24 @@
+{
+  "Idle": {
+    "source": "assets/animations/resistance_r46/sources/male_Idle.fbx",
+    "sha256": "3772c5343739ecda2e2dc258c2190a4c91792dd6710f4eccfd4f2ba73beae6eb",
+    "duration": 8.333333333333334,
+    "fps": 30.0,
+    "source_frame_range": [
+      1.0,
+      251.0
+    ],
+    "bones": 65
+  },
+  "Walk": {
+    "source": "assets/animations/resistance_r46/sources/male_Walking.fbx",
+    "sha256": "a4cf5e911add3b41ff38d9e9a5dadc64c18d6bce4b95c8b447668e64f8832647",
+    "duration": 1.0333333333333334,
+    "fps": 30.0,
+    "source_frame_range": [
+      1.0,
+      32.0
+    ],
+    "bones": 65
+  }
+}

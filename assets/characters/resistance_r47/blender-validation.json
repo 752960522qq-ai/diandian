@@ -1,0 +1,38 @@
+{
+  "blender_version": "4.3.2",
+  "preview": "work/resistance-r47/military-comparison.png",
+  "poses": [
+    {
+      "character": "military",
+      "version": "r46",
+      "motion": "Idle",
+      "sample_time_seconds": 0.3,
+      "bones": 65,
+      "actions": 33
+    },
+    {
+      "character": "military",
+      "version": "r46",
+      "motion": "Walk",
+      "sample_time_seconds": 0.3,
+      "bones": 65,
+      "actions": 33
+    },
+    {
+      "character": "military",
+      "version": "r47",
+      "motion": "Idle",
+      "sample_time_seconds": 0.3,
+      "bones": 65,
+      "actions": 33
+    },
+    {
+      "character": "military",
+      "version": "r47",
+      "motion": "Walk",
+      "sample_time_seconds": 0.3,
+      "bones": 65,
+      "actions": 33
+    }
+  ]
+}

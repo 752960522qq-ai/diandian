@@ -1,0 +1,503 @@
+{
+  "military": {
+    "changed_binary_bytes": 0,
+    "unrelated_binary_changes": 0,
+    "clips": 33,
+    "sampled_frames": 2013,
+    "neutral_bone_weighted_vertices": 0,
+    "weight_repairs": [],
+    "max_original_seam_separation_m": 0,
+    "max_fixed_seam_separation_m": 0,
+    "max_fixed_neighbor_edge_ratio": 0,
+    "rows": [
+      {
+        "name": "Idle",
+        "frames": 61,
+        "original_max_seam_separation_m": 0,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0
+      },
+      {
+        "name": "Walk",
+        "frames": 61,
+        "original_max_seam_separation_m": 0,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0
+      },
+      {
+        "name": "Run",
+        "frames": 61,
+        "original_max_seam_separation_m": 0,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0
+      },
+      {
+        "name": "Talking",
+        "frames": 61,
+        "original_max_seam_separation_m": 0,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0
+      },
+      {
+        "name": "HeadStress",
+        "frames": 61,
+        "original_max_seam_separation_m": 0,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0
+      },
+      {
+        "name": "Dying",
+        "frames": 61,
+        "original_max_seam_separation_m": 0,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0
+      },
+      {
+        "name": "FlyingBackDeath",
+        "frames": 61,
+        "original_max_seam_separation_m": 0,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0
+      },
+      {
+        "name": "SittingTalking",
+        "frames": 61,
+        "original_max_seam_separation_m": 0,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0
+      },
+      {
+        "name": "SittingCrossLegged",
+        "frames": 61,
+        "original_max_seam_separation_m": 0,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0
+      },
+      {
+        "name": "ClimbingLadder",
+        "frames": 61,
+        "original_max_seam_separation_m": 0,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0
+      },
+      {
+        "name": "HangToCrouch",
+        "frames": 61,
+        "original_max_seam_separation_m": 0,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0
+      },
+      {
+        "name": "WalkingBackwards",
+        "frames": 61,
+        "original_max_seam_separation_m": 0,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0
+      },
+      {
+        "name": "RifleIdle",
+        "frames": 61,
+        "original_max_seam_separation_m": 0,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0
+      },
+      {
+        "name": "RifleWalk",
+        "frames": 61,
+        "original_max_seam_separation_m": 0,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0
+      },
+      {
+        "name": "RifleRun",
+        "frames": 61,
+        "original_max_seam_separation_m": 0,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0
+      },
+      {
+        "name": "RifleAimingIdle",
+        "frames": 61,
+        "original_max_seam_separation_m": 0,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0
+      },
+      {
+        "name": "FiringRifle",
+        "frames": 61,
+        "original_max_seam_separation_m": 0,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0
+      },
+      {
+        "name": "Reloading",
+        "frames": 61,
+        "original_max_seam_separation_m": 0,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0
+      },
+      {
+        "name": "ShotgunAimDown",
+        "frames": 61,
+        "original_max_seam_separation_m": 0,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0
+      },
+      {
+        "name": "ShotgunAimLevel",
+        "frames": 61,
+        "original_max_seam_separation_m": 0,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0
+      },
+      {
+        "name": "ShotgunAimUp",
+        "frames": 61,
+        "original_max_seam_separation_m": 0,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0
+      },
+      {
+        "name": "ShotgunCycleDown",
+        "frames": 61,
+        "original_max_seam_separation_m": 0,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0
+      },
+      {
+        "name": "ShotgunCycleLevel",
+        "frames": 61,
+        "original_max_seam_separation_m": 0,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0
+      },
+      {
+        "name": "ShotgunCycleUp",
+        "frames": 61,
+        "original_max_seam_separation_m": 0,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0
+      },
+      {
+        "name": "ShotgunFireDown",
+        "frames": 61,
+        "original_max_seam_separation_m": 0,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0
+      },
+      {
+        "name": "ShotgunFireLevel",
+        "frames": 61,
+        "original_max_seam_separation_m": 0,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0
+      },
+      {
+        "name": "ShotgunFireUp",
+        "frames": 61,
+        "original_max_seam_separation_m": 0,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0
+      },
+      {
+        "name": "ShotgunPumpDown",
+        "frames": 61,
+        "original_max_seam_separation_m": 0,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0
+      },
+      {
+        "name": "ShotgunPumpLevel",
+        "frames": 61,
+        "original_max_seam_separation_m": 0,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0
+      },
+      {
+        "name": "ShotgunPumpUp",
+        "frames": 61,
+        "original_max_seam_separation_m": 0,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0
+      },
+      {
+        "name": "ShotgunReload",
+        "frames": 61,
+        "original_max_seam_separation_m": 0,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0
+      },
+      {
+        "name": "Type97Fire",
+        "frames": 61,
+        "original_max_seam_separation_m": 0,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0
+      },
+      {
+        "name": "Type97Pump",
+        "frames": 61,
+        "original_max_seam_separation_m": 0,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0
+      }
+    ]
+  },
+  "vest": {
+    "changed_binary_bytes": 20,
+    "unrelated_binary_changes": 0,
+    "clips": 33,
+    "sampled_frames": 2013,
+    "neutral_bone_weighted_vertices": 0,
+    "weight_repairs": [
+      {
+        "mesh": 0,
+        "primitive": 0,
+        "vertex": 939,
+        "donor_vertex": 935,
+        "method": "copy skin joints/weights from coincident bound seam twin",
+        "position_native": [
+          -0.0876917615532875,
+          0.6116332411766052,
+          0.0012210860149934888
+        ]
+      }
+    ],
+    "max_original_seam_separation_m": 1.1022440730243828,
+    "max_fixed_seam_separation_m": 0,
+    "max_fixed_neighbor_edge_ratio": 0.9965876159362046,
+    "rows": [
+      {
+        "name": "Idle",
+        "frames": 61,
+        "original_max_seam_separation_m": 0.019518597921381137,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0.9799795586854918
+      },
+      {
+        "name": "Walk",
+        "frames": 61,
+        "original_max_seam_separation_m": 0.06779314174134411,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0.9809710109438292
+      },
+      {
+        "name": "Run",
+        "frames": 61,
+        "original_max_seam_separation_m": 0.11769859232296077,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0.972417705393496
+      },
+      {
+        "name": "Talking",
+        "frames": 61,
+        "original_max_seam_separation_m": 0.07167776720167358,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0.9912158890387042
+      },
+      {
+        "name": "HeadStress",
+        "frames": 61,
+        "original_max_seam_separation_m": 0.05977646903656458,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0.9965876159362046
+      },
+      {
+        "name": "Dying",
+        "frames": 61,
+        "original_max_seam_separation_m": 0.9903907096976124,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0.9956619403843637
+      },
+      {
+        "name": "FlyingBackDeath",
+        "frames": 61,
+        "original_max_seam_separation_m": 1.1022440730243828,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0.9728525918488405
+      },
+      {
+        "name": "SittingTalking",
+        "frames": 61,
+        "original_max_seam_separation_m": 0.24329809047590056,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0.9365028283925637
+      },
+      {
+        "name": "SittingCrossLegged",
+        "frames": 61,
+        "original_max_seam_separation_m": 0.244849557111192,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0.8815037041361437
+      },
+      {
+        "name": "ClimbingLadder",
+        "frames": 61,
+        "original_max_seam_separation_m": 0.21168254534121356,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0.9474750749708714
+      },
+      {
+        "name": "HangToCrouch",
+        "frames": 61,
+        "original_max_seam_separation_m": 0.6911917517934076,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0.9530305110471604
+      },
+      {
+        "name": "WalkingBackwards",
+        "frames": 61,
+        "original_max_seam_separation_m": 0.051771006167346804,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0.9882732825393263
+      },
+      {
+        "name": "RifleIdle",
+        "frames": 61,
+        "original_max_seam_separation_m": 0.05343817986018525,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0.7701536193174009
+      },
+      {
+        "name": "RifleWalk",
+        "frames": 61,
+        "original_max_seam_separation_m": 0.06694291099825526,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0.9560161890641904
+      },
+      {
+        "name": "RifleRun",
+        "frames": 61,
+        "original_max_seam_separation_m": 0.09622002985111279,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0.8657585523364654
+      },
+      {
+        "name": "RifleAimingIdle",
+        "frames": 61,
+        "original_max_seam_separation_m": 0.06279088567355531,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0.6662217388733412
+      },
+      {
+        "name": "FiringRifle",
+        "frames": 61,
+        "original_max_seam_separation_m": 0.064121179357428,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0.6680270768664741
+      },
+      {
+        "name": "Reloading",
+        "frames": 61,
+        "original_max_seam_separation_m": 0.06731125137554236,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0.7635105925342012
+      },
+      {
+        "name": "ShotgunAimDown",
+        "frames": 61,
+        "original_max_seam_separation_m": 0.08942121941916731,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0.7688569513484584
+      },
+      {
+        "name": "ShotgunAimLevel",
+        "frames": 61,
+        "original_max_seam_separation_m": 0.10109126800927444,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0.7051761481167392
+      },
+      {
+        "name": "ShotgunAimUp",
+        "frames": 61,
+        "original_max_seam_separation_m": 0.11706243356219084,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0.5269384678932707
+      },
+      {
+        "name": "ShotgunCycleDown",
+        "frames": 61,
+        "original_max_seam_separation_m": 0.11834868044739014,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0.867219116513972
+      },
+      {
+        "name": "ShotgunCycleLevel",
+        "frames": 61,
+        "original_max_seam_separation_m": 0.1280859466395136,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0.8561569204972849
+      },
+      {
+        "name": "ShotgunCycleUp",
+        "frames": 61,
+        "original_max_seam_separation_m": 0.13906464807479535,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0.7579711237744365
+      },
+      {
+        "name": "ShotgunFireDown",
+        "frames": 61,
+        "original_max_seam_separation_m": 0.11893673624690417,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0.8673729903920887
+      },
+      {
+        "name": "ShotgunFireLevel",
+        "frames": 61,
+        "original_max_seam_separation_m": 0.1285893444476882,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0.8563128334679259
+      },
+      {
+        "name": "ShotgunFireUp",
+        "frames": 61,
+        "original_max_seam_separation_m": 0.13941887640584721,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0.7542211116207119
+      },
+      {
+        "name": "ShotgunPumpDown",
+        "frames": 61,
+        "original_max_seam_separation_m": 0.11893673624690417,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0.861306111025952
+      },
+      {
+        "name": "ShotgunPumpLevel",
+        "frames": 61,
+        "original_max_seam_separation_m": 0.1285893444476882,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0.8563128334679259
+      },
+      {
+        "name": "ShotgunPumpUp",
+        "frames": 61,
+        "original_max_seam_separation_m": 0.13941887640584721,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0.7578727570424466
+      },
+      {
+        "name": "ShotgunReload",
+        "frames": 61,
+        "original_max_seam_separation_m": 0.12405270462180848,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0.9090464946604435
+      },
+      {
+        "name": "Type97Fire",
+        "frames": 61,
+        "original_max_seam_separation_m": 0.10120965184871543,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0.7910863127477623
+      },
+      {
+        "name": "Type97Pump",
+        "frames": 61,
+        "original_max_seam_separation_m": 0.10076945882912094,
+        "fixed_max_seam_separation_m": 0,
+        "fixed_max_neighbor_edge_ratio": 0.8042914250462575
+      }
+    ]
+  }
+}

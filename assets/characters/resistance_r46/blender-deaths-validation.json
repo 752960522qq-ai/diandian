@@ -1,0 +1,38 @@
+{
+  "blender_version": "4.3.2",
+  "preview": "work/resistance-r46/vest-deaths.png",
+  "poses": [
+    {
+      "character": "vest",
+      "version": "r45",
+      "motion": "Dying",
+      "bones": 66,
+      "actions": 33,
+      "sample_time_seconds": 4.333333333333333
+    },
+    {
+      "character": "vest",
+      "version": "r45",
+      "motion": "FlyingBackDeath",
+      "bones": 66,
+      "actions": 33,
+      "sample_time_seconds": 3.033333333333333
+    },
+    {
+      "character": "vest",
+      "version": "r46",
+      "motion": "Dying",
+      "bones": 66,
+      "actions": 33,
+      "sample_time_seconds": 4.333333333333333
+    },
+    {
+      "character": "vest",
+      "version": "r46",
+      "motion": "FlyingBackDeath",
+      "bones": 66,
+      "actions": 33,
+      "sample_time_seconds": 3.033333333333333
+    }
+  ]
+}

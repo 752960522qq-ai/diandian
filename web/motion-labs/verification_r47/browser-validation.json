@@ -1,0 +1,689 @@
+{
+  "characters": {
+    "military": {
+      "passed": true,
+      "rows": [
+        {
+          "weapon": "none",
+          "motion": "Idle",
+          "clip": "Idle",
+          "left": 0,
+          "right": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "Walk",
+          "clip": "Walk",
+          "left": 0,
+          "right": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "Run",
+          "clip": "Run",
+          "left": 0,
+          "right": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "WalkingBackwards",
+          "clip": "WalkingBackwards",
+          "left": 0,
+          "right": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "Talking",
+          "clip": "Talking",
+          "left": 0,
+          "right": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "HeadStress",
+          "clip": "HeadStress",
+          "left": 0,
+          "right": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "SittingCrossLegged",
+          "clip": "SittingCrossLegged",
+          "left": 0,
+          "right": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "SittingTalking",
+          "clip": "SittingTalking",
+          "left": 0,
+          "right": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "ClimbingLadder",
+          "clip": "ClimbingLadder",
+          "left": 0,
+          "right": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "HangToCrouch",
+          "clip": "HangToCrouch",
+          "left": 0,
+          "right": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "Dying",
+          "clip": "Dying",
+          "left": 0,
+          "right": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "FlyingBackDeath",
+          "clip": "FlyingBackDeath",
+          "left": 0,
+          "right": 0
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "RifleIdle",
+          "clip": "RifleIdle",
+          "left": 1.7629279100321045e-8,
+          "right": 3.4596916972897234e-8
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "RifleWalk",
+          "clip": "RifleWalk",
+          "left": 1.9869428741615023e-8,
+          "right": 2.8439937645453338e-8
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "RifleRun",
+          "clip": "RifleRun",
+          "left": 2.427861364706436e-8,
+          "right": 3.9453725984817446e-8
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "RifleAimingIdle",
+          "clip": "RifleAimingIdle",
+          "left": 1.7257779171959067e-8,
+          "right": 3.6342314047504185e-8
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "FiringRifle",
+          "clip": "FiringRifle",
+          "left": 1.3718900168753714e-8,
+          "right": 3.7282382870657495e-8
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "Reloading",
+          "clip": "Reloading",
+          "left": null,
+          "right": 2.1331266031054517e-8
+        },
+        {
+          "weapon": "type56_1",
+          "motion": "RifleIdle",
+          "clip": "RifleIdle",
+          "left": 2.0329990215140864e-8,
+          "right": 3.418806265373456e-8
+        },
+        {
+          "weapon": "type56_1",
+          "motion": "RifleWalk",
+          "clip": "RifleWalk",
+          "left": 1.4144735490413728e-8,
+          "right": 3.320515014098905e-8
+        },
+        {
+          "weapon": "type56_1",
+          "motion": "RifleRun",
+          "clip": "RifleRun",
+          "left": 2.036648018686572e-8,
+          "right": 3.889573889174251e-8
+        },
+        {
+          "weapon": "type56_1",
+          "motion": "RifleAimingIdle",
+          "clip": "RifleAimingIdle",
+          "left": 2.3513308568106138e-8,
+          "right": 1.0065608637482387e-8
+        },
+        {
+          "weapon": "type56_1",
+          "motion": "FiringRifle",
+          "clip": "FiringRifle",
+          "left": 2.2331520526637736e-8,
+          "right": 4.2426863769149935e-9
+        },
+        {
+          "weapon": "type56_1",
+          "motion": "Reloading",
+          "clip": "Reloading",
+          "left": null,
+          "right": 2.20096647460083e-8
+        },
+        {
+          "weapon": "qbu85",
+          "motion": "RifleIdle",
+          "clip": "RifleIdle",
+          "left": 1.459831130805069e-8,
+          "right": 3.71587343731365e-8
+        },
+        {
+          "weapon": "qbu85",
+          "motion": "RifleWalk",
+          "clip": "RifleWalk",
+          "left": 1.9100535594313955e-8,
+          "right": 2.797414609392376e-8
+        },
+        {
+          "weapon": "qbu85",
+          "motion": "RifleRun",
+          "clip": "RifleRun",
+          "left": 1.9996193747299256e-8,
+          "right": 4.7398878507689606e-8
+        },
+        {
+          "weapon": "qbu85",
+          "motion": "RifleAimingIdle",
+          "clip": "RifleAimingIdle",
+          "left": 1.8912358857173976e-8,
+          "right": 1.70943014132323e-8
+        },
+        {
+          "weapon": "qbu85",
+          "motion": "FiringRifle",
+          "clip": "FiringRifle",
+          "left": 1.7281591008720404e-8,
+          "right": 1.2783158293238232e-8
+        },
+        {
+          "weapon": "qbu85",
+          "motion": "Reloading",
+          "clip": "Reloading",
+          "left": null,
+          "right": 2.3244406879714704e-8
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "RifleIdle",
+          "clip": "RifleIdle",
+          "left": 1.4697702495026173e-8,
+          "right": 3.187122865133107e-8
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "RifleWalk",
+          "clip": "RifleWalk",
+          "left": 1.6193334120381602e-8,
+          "right": 2.7426407408931275e-8
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "RifleRun",
+          "clip": "RifleRun",
+          "left": 2.821128697696436e-8,
+          "right": 3.4896244957350395e-8
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "RifleAimingIdle",
+          "clip": "RifleAimingIdle",
+          "left": 3.222623380538855e-8,
+          "right": 2.165069250185124e-8
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "FiringRifle",
+          "clip": "Type97Fire",
+          "left": 6.001350298557496e-8,
+          "right": 5.1700633557507034e-8
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "Reloading",
+          "clip": "Reloading",
+          "left": null,
+          "right": 1.862644420902518e-8
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "ShotgunPump",
+          "clip": "Type97Pump",
+          "left": 3.2088893741825783e-8,
+          "right": 3.656950396847762e-8
+        },
+        {
+          "weapon": "qcq171",
+          "motion": "RifleIdle",
+          "clip": "RifleIdle",
+          "left": 1.4420016703623627e-8,
+          "right": 3.361667753559348e-8
+        },
+        {
+          "weapon": "qcq171",
+          "motion": "RifleWalk",
+          "clip": "RifleWalk",
+          "left": 1.1357366487566246e-8,
+          "right": 1.6526428768978685e-8
+        },
+        {
+          "weapon": "qcq171",
+          "motion": "RifleRun",
+          "clip": "RifleRun",
+          "left": 3.763048712346195e-8,
+          "right": 3.869629860323898e-8
+        },
+        {
+          "weapon": "qcq171",
+          "motion": "RifleAimingIdle",
+          "clip": "RifleAimingIdle",
+          "left": 1.622808071014308e-8,
+          "right": 1.9414653063500803e-8
+        },
+        {
+          "weapon": "qcq171",
+          "motion": "FiringRifle",
+          "clip": "FiringRifle",
+          "left": 1.320743826066716e-8,
+          "right": 2.0258787636133497e-8
+        },
+        {
+          "weapon": "qcq171",
+          "motion": "Reloading",
+          "clip": "Reloading",
+          "left": null,
+          "right": 2.0361242680619022e-8
+        }
+      ]
+    },
+    "vest": {
+      "passed": true,
+      "rows": [
+        {
+          "weapon": "none",
+          "motion": "Idle",
+          "clip": "Idle",
+          "left": 0,
+          "right": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "Walk",
+          "clip": "Walk",
+          "left": 0,
+          "right": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "Run",
+          "clip": "Run",
+          "left": 0,
+          "right": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "WalkingBackwards",
+          "clip": "WalkingBackwards",
+          "left": 0,
+          "right": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "Talking",
+          "clip": "Talking",
+          "left": 0,
+          "right": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "HeadStress",
+          "clip": "HeadStress",
+          "left": 0,
+          "right": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "SittingCrossLegged",
+          "clip": "SittingCrossLegged",
+          "left": 0,
+          "right": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "SittingTalking",
+          "clip": "SittingTalking",
+          "left": 0,
+          "right": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "ClimbingLadder",
+          "clip": "ClimbingLadder",
+          "left": 0,
+          "right": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "HangToCrouch",
+          "clip": "HangToCrouch",
+          "left": 0,
+          "right": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "Dying",
+          "clip": "Dying",
+          "left": 0,
+          "right": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "FlyingBackDeath",
+          "clip": "FlyingBackDeath",
+          "left": 0,
+          "right": 0
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "RifleIdle",
+          "clip": "RifleIdle",
+          "left": 7.12380721365397e-8,
+          "right": 4.2719858500940264e-8
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "RifleWalk",
+          "clip": "RifleWalk",
+          "left": 7.706406599361732e-8,
+          "right": 3.240076418874181e-8
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "RifleRun",
+          "clip": "RifleRun",
+          "left": 5.6729932975905236e-8,
+          "right": 9.392553176286507e-8
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "RifleAimingIdle",
+          "clip": "RifleAimingIdle",
+          "left": 2.100020725973729e-8,
+          "right": 8.123211339915914e-8
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "FiringRifle",
+          "clip": "FiringRifle",
+          "left": 2.124920929011662e-8,
+          "right": 1.0660837811539827e-7
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "Reloading",
+          "clip": "Reloading",
+          "left": null,
+          "right": 9.439894160218262e-8
+        },
+        {
+          "weapon": "type56_1",
+          "motion": "RifleIdle",
+          "clip": "RifleIdle",
+          "left": 5.206297254879871e-8,
+          "right": 4.707935647456111e-8
+        },
+        {
+          "weapon": "type56_1",
+          "motion": "RifleWalk",
+          "clip": "RifleWalk",
+          "left": 2.343022894669626e-8,
+          "right": 2.8689931767517166e-8
+        },
+        {
+          "weapon": "type56_1",
+          "motion": "RifleRun",
+          "clip": "RifleRun",
+          "left": 5.393706648175302e-8,
+          "right": 9.688339434100536e-8
+        },
+        {
+          "weapon": "type56_1",
+          "motion": "RifleAimingIdle",
+          "clip": "RifleAimingIdle",
+          "left": 3.425647453888596e-8,
+          "right": 6.446323729649405e-8
+        },
+        {
+          "weapon": "type56_1",
+          "motion": "FiringRifle",
+          "clip": "FiringRifle",
+          "left": 3.491491384870215e-8,
+          "right": 7.069912746448958e-8
+        },
+        {
+          "weapon": "type56_1",
+          "motion": "Reloading",
+          "clip": "Reloading",
+          "left": null,
+          "right": 9.402422877999273e-8
+        },
+        {
+          "weapon": "qbu85",
+          "motion": "RifleIdle",
+          "clip": "RifleIdle",
+          "left": 4.034068157263867e-8,
+          "right": 3.7526925571484787e-8
+        },
+        {
+          "weapon": "qbu85",
+          "motion": "RifleWalk",
+          "clip": "RifleWalk",
+          "left": 6.443905927306349e-8,
+          "right": 3.107148791513443e-8
+        },
+        {
+          "weapon": "qbu85",
+          "motion": "RifleRun",
+          "clip": "RifleRun",
+          "left": 4.89317420059077e-8,
+          "right": 4.426873226276116e-8
+        },
+        {
+          "weapon": "qbu85",
+          "motion": "RifleAimingIdle",
+          "clip": "RifleAimingIdle",
+          "left": 3.230337938582131e-8,
+          "right": 5.843542709547995e-8
+        },
+        {
+          "weapon": "qbu85",
+          "motion": "FiringRifle",
+          "clip": "FiringRifle",
+          "left": 3.233446711383472e-8,
+          "right": 6.471116806031394e-8
+        },
+        {
+          "weapon": "qbu85",
+          "motion": "Reloading",
+          "clip": "Reloading",
+          "left": null,
+          "right": 9.338015064552505e-8
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "RifleIdle",
+          "clip": "RifleIdle",
+          "left": 3.646082360360529e-8,
+          "right": 4.206394244602733e-8
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "RifleWalk",
+          "clip": "RifleWalk",
+          "left": 3.532374311334647e-8,
+          "right": 3.265522605529359e-8
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "RifleRun",
+          "clip": "RifleRun",
+          "left": 5.7680343886671433e-8,
+          "right": 9.931507405993594e-8
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "RifleAimingIdle",
+          "clip": "RifleAimingIdle",
+          "left": 2.6390273788831108e-8,
+          "right": 5.858541676996655e-8
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "FiringRifle",
+          "clip": "Type97Fire",
+          "left": 7.282223678682095e-8,
+          "right": 1.2283372824047818e-7
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "Reloading",
+          "clip": "Reloading",
+          "left": null,
+          "right": 9.554070450388416e-8
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "ShotgunPump",
+          "clip": "Type97Pump",
+          "left": 6.958503552115996e-8,
+          "right": 5.082438968208837e-8
+        },
+        {
+          "weapon": "qcq171",
+          "motion": "RifleIdle",
+          "clip": "RifleIdle",
+          "left": 5.893823317604755e-8,
+          "right": 4.2037645621716146e-8
+        },
+        {
+          "weapon": "qcq171",
+          "motion": "RifleWalk",
+          "clip": "RifleWalk",
+          "left": 6.025255324196077e-8,
+          "right": 3.2898727196351076e-8
+        },
+        {
+          "weapon": "qcq171",
+          "motion": "RifleRun",
+          "clip": "RifleRun",
+          "left": 4.2078391090674033e-8,
+          "right": 1.0021575758564061e-7
+        },
+        {
+          "weapon": "qcq171",
+          "motion": "RifleAimingIdle",
+          "clip": "RifleAimingIdle",
+          "left": 2.3603120149822385e-8,
+          "right": 8.366123243282055e-8
+        },
+        {
+          "weapon": "qcq171",
+          "motion": "FiringRifle",
+          "clip": "FiringRifle",
+          "left": 2.3269290429518924e-8,
+          "right": 1.0558386786901612e-7
+        },
+        {
+          "weapon": "qcq171",
+          "motion": "Reloading",
+          "clip": "Reloading",
+          "left": null,
+          "right": 9.488428337210006e-8
+        }
+      ]
+    }
+  },
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:8086/web/motion-labs/resistance-motion-lab/",
+    "http://127.0.0.1:8086/web/motion-labs/resistance-motion-lab/styles.css",
+    "http://127.0.0.1:8086/web/motion-labs/resistance-motion-lab/app.js",
+    "http://127.0.0.1:8086/web/motion-labs/resistance-motion-lab/vendor/three.module.js",
+    "http://127.0.0.1:8086/web/motion-labs/resistance-motion-lab/vendor/GLTFLoader.js",
+    "http://127.0.0.1:8086/web/motion-labs/resistance-motion-lab/vendor/OrbitControls.js",
+    "http://127.0.0.1:8086/web/motion-labs/resistance-motion-lab/rig.js",
+    "http://127.0.0.1:8086/web/motion-labs/resistance-motion-lab/uploaded-motion.js",
+    "http://127.0.0.1:8086/web/motion-labs/resistance-motion-lab/weapon-attachment.js",
+    "http://127.0.0.1:8086/web/motion-labs/resistance-motion-lab/fixed-machine-gun.js?v=weapons-r44",
+    "http://127.0.0.1:8086/web/motion-labs/resistance-motion-lab/rocket-motion.js?v=pf89-r40",
+    "http://127.0.0.1:8086/web/motion-labs/resistance-motion-lab/chest-skinning.js?v=grip-r31",
+    "http://127.0.0.1:8086/web/motion-labs/resistance-motion-lab/c96-dynamics.js?v=clothing-r23",
+    "http://127.0.0.1:8086/web/motion-labs/resistance-motion-lab/c96-reload.js?v=clothing-r23",
+    "http://127.0.0.1:8086/web/motion-labs/resistance-motion-lab/vendor/BufferGeometryUtils.js",
+    "http://127.0.0.1:8086/web/motion-labs/resistance-motion-lab/type97-motion.js?v=grip-r31",
+    "http://127.0.0.1:8086/web/motion-labs/resistance-motion-lab/vendor/three.core.js",
+    "http://127.0.0.1:8086/web/motion-labs/resistance-motion-lab/assets/weapon_attachment.json",
+    "http://127.0.0.1:8086/web/motion-labs/resistance-motion-lab/favicon.svg",
+    "http://127.0.0.1:8086/web/motion-labs/resistance-motion-lab/assets/weapons/qbz95.glb",
+    "http://127.0.0.1:8086/web/motion-labs/resistance-motion-lab/assets/weapons/type56_1.glb",
+    "http://127.0.0.1:8086/web/motion-labs/resistance-motion-lab/assets/weapons/qbu85.glb",
+    "http://127.0.0.1:8086/web/motion-labs/resistance-motion-lab/assets/weapons/type97hawk.glb",
+    "http://127.0.0.1:8086/web/motion-labs/resistance-motion-lab/assets/weapons/qcq171.glb",
+    "blob:http://127.0.0.1:8086/292f6e36-bbb6-429e-9b9c-9ccd4d9ce9a5",
+    "blob:http://127.0.0.1:8086/bbcedae8-5ba2-44a1-b9c7-c548bb8fc611",
+    "blob:http://127.0.0.1:8086/54558ded-7961-4f41-a2c8-22d0888c760a",
+    "blob:http://127.0.0.1:8086/7334d092-81c5-42e3-9350-612e6dfaefe8",
+    "blob:http://127.0.0.1:8086/7ec2d15a-2fbc-405e-ab68-f3828a3e654e",
+    "blob:http://127.0.0.1:8086/e56bd4fd-d058-42a7-bffe-e4ed2054a385",
+    "blob:http://127.0.0.1:8086/2448829e-41d4-49e2-bab8-094839dcdaf8",
+    "blob:http://127.0.0.1:8086/8e158697-9714-46cf-b7c4-0f10e02691e9",
+    "blob:http://127.0.0.1:8086/d7d4a800-e8bd-4106-9651-611fc6526a09",
+    "blob:http://127.0.0.1:8086/1290b7bb-c5b6-43e0-806b-65cbabd7d087",
+    "blob:http://127.0.0.1:8086/a41c45a4-0f70-403e-a90e-cd5772aeaae1",
+    "blob:http://127.0.0.1:8086/88a49141-7a20-415b-b6f4-1668ddf023d3",
+    "blob:http://127.0.0.1:8086/188ffdcc-8913-4676-89c0-3fd4c9922eef",
+    "blob:http://127.0.0.1:8086/65427f28-b1be-4873-9f21-28aa998d5e97",
+    "blob:http://127.0.0.1:8086/da98ff82-e5fc-4da3-b0cb-b2dfb295eab4",
+    "blob:http://127.0.0.1:8086/232bfab6-649d-4b0c-860a-ebe00eccc6eb",
+    "blob:http://127.0.0.1:8086/aeeb8581-d463-4a7f-a588-774bb474b7e4",
+    "blob:http://127.0.0.1:8086/23f9de99-2809-4912-85d7-c519e1003c33",
+    "blob:http://127.0.0.1:8086/50feb491-751d-4154-8f25-1fe4705f5f3b",
+    "blob:http://127.0.0.1:8086/62ef5aa8-d1a6-4054-bda3-9ecca0abe85c",
+    "blob:http://127.0.0.1:8086/ef0c5850-de69-4696-aade-5d4a70a2499f",
+    "blob:http://127.0.0.1:8086/587dc9cc-8498-4bab-a6d2-d490377ef09b",
+    "blob:http://127.0.0.1:8086/427f119d-bfe2-4dd0-b230-f66412e53db5",
+    "blob:http://127.0.0.1:8086/c5e18903-362a-4f69-b476-63633c23b8bc",
+    "blob:http://127.0.0.1:8086/fe1b6cf6-eb79-49ab-809d-93cd7cdd1338",
+    "blob:http://127.0.0.1:8086/34759a9f-3161-4946-96c5-5f3d2ee77752",
+    "blob:http://127.0.0.1:8086/88babf83-fb9b-4750-a49f-644a9656c724",
+    "blob:http://127.0.0.1:8086/8bb3419e-a98e-4393-9788-93ee276e410a",
+    "blob:http://127.0.0.1:8086/5839ef42-4d9b-4be1-98cb-3ee1a8390126",
+    "blob:http://127.0.0.1:8086/d854c473-c114-4315-90c2-51cfceaa7271",
+    "blob:http://127.0.0.1:8086/90a44629-2e98-40d9-b58f-f087e7e159b5",
+    "blob:http://127.0.0.1:8086/0b7d319b-bff5-4cf8-b89d-b200261be656",
+    "blob:http://127.0.0.1:8086/be3737d9-d933-4c2f-b4e4-fb1f19c73f9d",
+    "blob:http://127.0.0.1:8086/f39bd50e-3140-4b9c-af72-7bbb0bae29d8",
+    "blob:http://127.0.0.1:8086/efc345d2-52b4-460b-a892-323f3c54452b",
+    "http://127.0.0.1:8086/web/motion-labs/resistance-motion-lab/assets/characters/military/character.glb",
+    "http://127.0.0.1:8086/web/motion-labs/resistance-motion-lab/assets/characters/military/motions.glb",
+    "blob:http://127.0.0.1:8086/5d4b73f2-0fb6-4a7c-8eea-c87476d6169d",
+    "http://127.0.0.1:8086/web/motion-labs/resistance-motion-lab/assets/characters/vest/character.glb",
+    "http://127.0.0.1:8086/web/motion-labs/resistance-motion-lab/assets/characters/vest/motions.glb",
+    "blob:http://127.0.0.1:8086/dec76726-e272-4870-858f-6b41cba97a4a"
+  ],
+  "passed": true,
+  "mobile": {
+    "width": 390,
+    "noHorizontalOverflow": true
+  }
+}

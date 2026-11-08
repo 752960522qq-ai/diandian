@@ -47,3 +47,14 @@ assets/vehicles/**/*.blend filter=lfs diff=lfs merge=lfs -text
 
 assets/animations/emplacements_r44/**/*.glb filter=lfs diff=lfs merge=lfs -text
 assets/animations/emplacements_r44/**/*.blend filter=lfs diff=lfs merge=lfs -text
+
+# R45 resistance character sources, retargeted action libraries and Blender scenes.
+assets/characters/resistance_r45/**/*.glb filter=lfs diff=lfs merge=lfs -text
+assets/characters/resistance_r45/**/*.blend filter=lfs diff=lfs merge=lfs -text
+
+# R46 uploaded male animations and anatomically retargeted resistance rigs.
+assets/animations/resistance_r46/**/*.fbx filter=lfs diff=lfs merge=lfs -text
+assets/characters/resistance_r46/**/*.glb filter=lfs diff=lfs merge=lfs -text
+
+# R47 resistance idle/walk shoulder opening baked into reusable motions.
+assets/characters/resistance_r47/**/*.glb filter=lfs diff=lfs merge=lfs -text

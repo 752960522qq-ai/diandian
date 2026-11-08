@@ -1,0 +1,31 @@
+{
+  "blender_version": "4.3.2",
+  "preview": "work/resistance-r45/blender-deaths.png",
+  "time_seconds": 0.3,
+  "poses": [
+    {
+      "character": "military",
+      "motion": "Dying",
+      "bones": 65,
+      "actions": 33
+    },
+    {
+      "character": "military",
+      "motion": "FlyingBackDeath",
+      "bones": 65,
+      "actions": 33
+    },
+    {
+      "character": "vest",
+      "motion": "Dying",
+      "bones": 66,
+      "actions": 33
+    },
+    {
+      "character": "vest",
+      "motion": "FlyingBackDeath",
+      "bones": 66,
+      "actions": 33
+    }
+  ]
+}

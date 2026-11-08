@@ -1,0 +1,106 @@
+{
+  "settings": {
+    "Idle": {
+      "shoulderYaw": 3,
+      "armAbduction": 6
+    },
+    "Walk": {
+      "shoulderYaw": 3,
+      "armAbduction": 8
+    }
+  },
+  "characters": {
+    "military": {
+      "changed_channels": [
+        {
+          "clip": "Idle",
+          "bone": "mixamorig:LeftShoulder",
+          "frames": 251
+        },
+        {
+          "clip": "Idle",
+          "bone": "mixamorig:RightShoulder",
+          "frames": 251
+        },
+        {
+          "clip": "Idle",
+          "bone": "mixamorig:LeftArm",
+          "frames": 251
+        },
+        {
+          "clip": "Idle",
+          "bone": "mixamorig:RightArm",
+          "frames": 251
+        },
+        {
+          "clip": "Walk",
+          "bone": "mixamorig:LeftShoulder",
+          "frames": 32
+        },
+        {
+          "clip": "Walk",
+          "bone": "mixamorig:RightShoulder",
+          "frames": 32
+        },
+        {
+          "clip": "Walk",
+          "bone": "mixamorig:LeftArm",
+          "frames": 32
+        },
+        {
+          "clip": "Walk",
+          "bone": "mixamorig:RightArm",
+          "frames": 32
+        }
+      ],
+      "original_character": "assets/characters/resistance_r46/military/character.glb",
+      "calibration_unchanged": true
+    },
+    "vest": {
+      "changed_channels": [
+        {
+          "clip": "Idle",
+          "bone": "mixamorig:LeftShoulder",
+          "frames": 251
+        },
+        {
+          "clip": "Idle",
+          "bone": "mixamorig:RightShoulder",
+          "frames": 251
+        },
+        {
+          "clip": "Idle",
+          "bone": "mixamorig:LeftArm",
+          "frames": 251
+        },
+        {
+          "clip": "Idle",
+          "bone": "mixamorig:RightArm",
+          "frames": 251
+        },
+        {
+          "clip": "Walk",
+          "bone": "mixamorig:LeftShoulder",
+          "frames": 32
+        },
+        {
+          "clip": "Walk",
+          "bone": "mixamorig:RightShoulder",
+          "frames": 32
+        },
+        {
+          "clip": "Walk",
+          "bone": "mixamorig:LeftArm",
+          "frames": 32
+        },
+        {
+          "clip": "Walk",
+          "bone": "mixamorig:RightArm",
+          "frames": 32
+        }
+      ],
+      "original_character": "assets/characters/resistance_r46/vest/character.glb",
+      "calibration_unchanged": true
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "version": "R47",
+  "base": "resistance_r46",
+  "scope": "Only Left/RightShoulder and Left/RightArm quaternion tracks in Idle and Walk",
+  "files": [
+    {
+      "path": "assets/characters/resistance_r47/military/character.glb",
+      "bytes": 8063860,
+      "sha256": "0bcced18ecd2336614ce250cc61fe2b561657f0fce1abe8debbd69287d2f1daa"
+    },
+    {
+      "path": "assets/characters/resistance_r47/military/motions.glb",
+      "bytes": 4048288,
+      "sha256": "6d1acd8750341489524d9ba64a102f1902cebc8250243a2d81e8a2074a939a07"
+    },
+    {
+      "path": "assets/characters/resistance_r47/military/retarget_calibration.json",
+      "bytes": 93095,
+      "sha256": "018d5c840f63b6bb5761bf8a2dadbc5237373321568d5712b558fe1494bd2a09"
+    },
+    {
+      "path": "assets/characters/resistance_r47/vest/character.glb",
+      "bytes": 7341804,
+      "sha256": "7e220787746ab9c365acf98f5c4584771a5211bc4dd0c07504e3781863b5daf4"
+    },
+    {
+      "path": "assets/characters/resistance_r47/vest/motions.glb",
+      "bytes": 4048580,
+      "sha256": "05db42b718556cff3d663bfeecd93c53ed4cfdde7ae0b02818cc12ca8acff72a"
+    },
+    {
+      "path": "assets/characters/resistance_r47/vest/retarget_calibration.json",
+      "bytes": 93141,
+      "sha256": "8e63493971b3efb89abf7e0844a86b2200d2d7a55d51fb02923f6a50abe1493f"
+    }
+  ],
+  "validation": {
+    "unchanged_other_clips_per_character": 31,
+    "r47_surface_frames": 1128,
+    "surface_intersections": 0,
+    "reports": [
+      "change-validation.json",
+      "surface-clearance-validation.json",
+      "validation.json",
+      "skinning-validation.json"
+    ]
+  }
+}

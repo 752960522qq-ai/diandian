@@ -1,0 +1,158 @@
+{
+  "revision": 45,
+  "files": [
+    {
+      "path": "app.js",
+      "bytes": 8572,
+      "sha256": "c5d385340869a77aa72d15af461eb485a27f0c643a6d90ad65a3887bf12f2fe2"
+    },
+    {
+      "path": "assets/characters/military/character.glb",
+      "bytes": 8063716,
+      "sha256": "1933d182bbec55e02aa7ae53a7279fd1452cc6c6f61db8fc3184b2d1c9bae3da"
+    },
+    {
+      "path": "assets/characters/military/motions.glb",
+      "bytes": 4050568,
+      "sha256": "b02c563e4b64bbb967ccdb1c5abe3e5f67dc926ef9987cbf587fa39d1ddc0c6c"
+    },
+    {
+      "path": "assets/characters/vest/character.glb",
+      "bytes": 7341660,
+      "sha256": "04ad3bf8f1e41af909cb5fdd846e744797708b096c892bb1bfc3bec0cc030dcc"
+    },
+    {
+      "path": "assets/characters/vest/motions.glb",
+      "bytes": 4050856,
+      "sha256": "8aba30832c2f4f1d80ac6aae93d525fd11c9d3b7e10b8dbef2e52213e8f20d2b"
+    },
+    {
+      "path": "assets/weapon_attachment.json",
+      "bytes": 380754,
+      "sha256": "0125965839b040b39a16570d10a238c805922bf662e1e1843684cb787e330e28"
+    },
+    {
+      "path": "assets/weapons/qbu85.glb",
+      "bytes": 3407648,
+      "sha256": "8605a2f827595a168a5cff67fdf02ea37fb6b2fed8c9ac8bd2f205031e95ada4"
+    },
+    {
+      "path": "assets/weapons/qbz95.glb",
+      "bytes": 1051444,
+      "sha256": "bf7bfff81bcb5d348580d0d8f2fbec6cb4cf4586bc739d18609630f41271a4b9"
+    },
+    {
+      "path": "assets/weapons/qcq171.glb",
+      "bytes": 1315132,
+      "sha256": "c29aab7c6f2d5dbe8996b4b986c4d902a97bcbfb3b512136ead2203fbdc426c2"
+    },
+    {
+      "path": "assets/weapons/type56_1.glb",
+      "bytes": 1237656,
+      "sha256": "de85d5c568928ec684191027a8d02f5212a2d25bf6bd239a8a911887e62c5981"
+    },
+    {
+      "path": "assets/weapons/type97hawk.glb",
+      "bytes": 1642740,
+      "sha256": "20ec4f85cc9eeb9037b552c9b4d70dbcaca82d8035056438301704b6b6cf30a5"
+    },
+    {
+      "path": "c96-dynamics.js",
+      "bytes": 2251,
+      "sha256": "010c462cc1590ad0973100e901ffebd8369ef431ef5f1d5bd07994952bcce82c"
+    },
+    {
+      "path": "c96-reload.js",
+      "bytes": 9968,
+      "sha256": "559d746eef3104530a3446207e53676b10b1cf12b67a786e70aa19bbd8b6970b"
+    },
+    {
+      "path": "chest-skinning.js",
+      "bytes": 3209,
+      "sha256": "c3a323f7adf6cc934cfb693639f91e799069b4723c8c100cf4a0ffbf6f09e848"
+    },
+    {
+      "path": "favicon.svg",
+      "bytes": 315,
+      "sha256": "c8f4e184580774a29609e7e7bfc72a33cdf8dd80bd815e878501471073e6bb7a"
+    },
+    {
+      "path": "fixed-machine-gun.js",
+      "bytes": 3038,
+      "sha256": "159b87269e2db7a2d9aba871437f69920675770d3afb1d392d2752ef0284d265"
+    },
+    {
+      "path": "index.html",
+      "bytes": 3309,
+      "sha256": "1dfcf9196c78c6c21e98c6ebd99702a39c21c28096e3ce7698497c1bc36644e8"
+    },
+    {
+      "path": "rig.js",
+      "bytes": 2581,
+      "sha256": "804f2df6b4db6bd87fa7c87a7e7a81cf91b95e431ab734b0aee6a1d9ca22c3fd"
+    },
+    {
+      "path": "rocket-motion.js",
+      "bytes": 7439,
+      "sha256": "0e414b08d8880cbad9a3a40e11257499cf652df31fc09cd96a31e0bf950e497a"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 5702,
+      "sha256": "b129c9a90b650755591e29b726ac1ca1f9392788827ae33384eb7aa49afcdf0c"
+    },
+    {
+      "path": "type97-motion.js",
+      "bytes": 4045,
+      "sha256": "03a49ca96092f0abe3cc27f6e1e40c5d2dc0755488bbbea3fc73a4f082bbe51b"
+    },
+    {
+      "path": "uploaded-motion.js",
+      "bytes": 4861,
+      "sha256": "d929186ce1a27d52d47d00cf2231b361de17d2a7424be43e94774a5a190fa654"
+    },
+    {
+      "path": "vendor/BufferGeometryUtils.js",
+      "bytes": 35539,
+      "sha256": "fda7e946b8e0b5ab39b779206589e7a1079a22eb24efb89d7223e03fdfb1f751"
+    },
+    {
+      "path": "vendor/GLTFLoader.js",
+      "bytes": 114732,
+      "sha256": "adbbafe8ce40416525b6be0ee5cac0d3782482bcf0122c8ca8ec1ffa77d3440b"
+    },
+    {
+      "path": "vendor/LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    {
+      "path": "vendor/OrbitControls.js",
+      "bytes": 38703,
+      "sha256": "b97879c748170baadeb3fb84cea1ffdf4674e283dc06042f34e2acb95a76042c"
+    },
+    {
+      "path": "vendor/three.core.js",
+      "bytes": 1403455,
+      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "bytes": 603113,
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
+    },
+    {
+      "path": "weapon-attachment.js",
+      "bytes": 34291,
+      "sha256": "3976213c56862ec9fe299cece559dbda6a776a07501f706fdf6aca732abf0f98"
+    }
+  ],
+  "deployment": {
+    "project_id": "appgprj_6af04a549d2c819199554ab106c8a4ec",
+    "id": "appgdep_6af04de98fe881918586780abba60781",
+    "version_id": "appgprj_6af04a549d2c819199554ab106c8a4ec~appgver_4920519ea678819180f325115dc3a620",
+    "source_commit": "bce0d5278359a0df745a2cf8be07c3ecd4262d31",
+    "status": "succeeded",
+    "url": "https://resistance-motion-lab.expert-eagle-6942.chatgpt.site"
+  }
+}

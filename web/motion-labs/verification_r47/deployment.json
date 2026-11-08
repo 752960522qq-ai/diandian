@@ -1,0 +1,15 @@
+{
+  "id": "appgdep_6af05f4235d4819196ddd50dac05c9f0",
+  "project_id": "appgprj_6af04a549d2c819199554ab106c8a4ec",
+  "title": "抵抗军 · 动作实验室",
+  "version_id": "appgprj_6af04a549d2c819199554ab106c8a4ec~appgver_493cd5d08bb8819186f7fa148bc42a79",
+  "type": "publish",
+  "status": "succeeded",
+  "url": "https://resistance-motion-lab.expert-eagle-6942.chatgpt.site",
+  "has_mcp": false,
+  "screenshot_asset_pointer": null,
+  "provider_deployment_id": "site---6af04a549d2c819199554ab106c8a4ec",
+  "failure_message": null,
+  "env_set_revision": 0,
+  "updated_at": "2026-11-08T11:39:07.273559+00:00"
+}

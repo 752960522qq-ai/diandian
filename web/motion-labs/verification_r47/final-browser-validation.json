@@ -1,0 +1,98 @@
+{
+  "errors": [],
+  "rows": [
+    {
+      "character": "military",
+      "weapon": "qbz95",
+      "motion": "RifleAimingIdle",
+      "indexErrorM": 4.150286814718431e-9
+    },
+    {
+      "character": "military",
+      "weapon": "type56_1",
+      "motion": "RifleAimingIdle",
+      "indexErrorM": 0.0000017607100072401746
+    },
+    {
+      "character": "military",
+      "weapon": "qbu85",
+      "motion": "RifleAimingIdle",
+      "indexErrorM": 3.496196536392731e-8
+    },
+    {
+      "character": "military",
+      "weapon": "type97hawk",
+      "motion": "RifleAimingIdle",
+      "indexErrorM": 3.6169453200920717e-9
+    },
+    {
+      "character": "military",
+      "weapon": "qcq171",
+      "motion": "RifleAimingIdle",
+      "indexErrorM": 2.5833661784542855e-9
+    },
+    {
+      "character": "military",
+      "weapon": "qbu85",
+      "motion": "RifleWalk",
+      "indexErrorM": 4.411533701073751e-8
+    },
+    {
+      "character": "military",
+      "weapon": "none",
+      "motion": "Idle"
+    },
+    {
+      "character": "military",
+      "weapon": "none",
+      "motion": "Walk"
+    },
+    {
+      "character": "vest",
+      "weapon": "qbz95",
+      "motion": "RifleAimingIdle",
+      "indexErrorM": 4.97050729930228e-9
+    },
+    {
+      "character": "vest",
+      "weapon": "type56_1",
+      "motion": "RifleAimingIdle",
+      "indexErrorM": 4.803479993185426e-9
+    },
+    {
+      "character": "vest",
+      "weapon": "qbu85",
+      "motion": "RifleAimingIdle",
+      "indexErrorM": 9.841795771602196e-9
+    },
+    {
+      "character": "vest",
+      "weapon": "type97hawk",
+      "motion": "RifleAimingIdle",
+      "indexErrorM": 4.473287038504641e-9
+    },
+    {
+      "character": "vest",
+      "weapon": "qcq171",
+      "motion": "RifleAimingIdle",
+      "indexErrorM": 3.3236799912147565e-9
+    },
+    {
+      "character": "vest",
+      "weapon": "qbu85",
+      "motion": "RifleWalk",
+      "indexErrorM": 6.76163381735632e-9
+    },
+    {
+      "character": "vest",
+      "weapon": "none",
+      "motion": "Idle"
+    },
+    {
+      "character": "vest",
+      "weapon": "none",
+      "motion": "Walk"
+    }
+  ],
+  "passed": true
+}

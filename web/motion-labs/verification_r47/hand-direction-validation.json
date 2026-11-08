@@ -1,0 +1,79 @@
+{
+  "characters": {
+    "military": [
+      {
+        "weapon": "qbz95",
+        "minIndexToPinkyAlongGrip": 0.999999999999981,
+        "minWristToKnucklesTowardTrigger": 0.9999999999999569,
+        "minPalmFacingGrip": 0.999999999999966,
+        "maxIndexErrorM": 1.709942085714393e-8
+      },
+      {
+        "weapon": "type56_1",
+        "minIndexToPinkyAlongGrip": 0.9999999999999801,
+        "minWristToKnucklesTowardTrigger": 0.9999999999999557,
+        "minPalmFacingGrip": 0.9999999999999667,
+        "maxIndexErrorM": 0.0000017986093375039635
+      },
+      {
+        "weapon": "qbu85",
+        "minIndexToPinkyAlongGrip": 0.9999999999999847,
+        "minWristToKnucklesTowardTrigger": 0.9999999999999576,
+        "minPalmFacingGrip": 0.9999999999999694,
+        "maxIndexErrorM": 6.601264633332934e-8
+      },
+      {
+        "weapon": "type97hawk",
+        "minIndexToPinkyAlongGrip": 0.999999999999987,
+        "minWristToKnucklesTowardTrigger": 0.9999999999999671,
+        "minPalmFacingGrip": 0.9999999999999766,
+        "maxIndexErrorM": 1.6597710401257792e-8
+      },
+      {
+        "weapon": "qcq171",
+        "minIndexToPinkyAlongGrip": 0.9999999999999826,
+        "minWristToKnucklesTowardTrigger": 0.9999999999999591,
+        "minPalmFacingGrip": 0.9999999999999665,
+        "maxIndexErrorM": 8.722343987661171e-9
+      }
+    ],
+    "vest": [
+      {
+        "weapon": "qbz95",
+        "minIndexToPinkyAlongGrip": 0.999999999999907,
+        "minWristToKnucklesTowardTrigger": 0.9999999999998832,
+        "minPalmFacingGrip": 0.9999999999999163,
+        "maxIndexErrorM": 1.2262223570341399e-8
+      },
+      {
+        "weapon": "type56_1",
+        "minIndexToPinkyAlongGrip": 0.9999999999999017,
+        "minWristToKnucklesTowardTrigger": 0.9999999999998803,
+        "minPalmFacingGrip": 0.9999999999999287,
+        "maxIndexErrorM": 2.111043082980708e-8
+      },
+      {
+        "weapon": "qbu85",
+        "minIndexToPinkyAlongGrip": 0.999999999999895,
+        "minWristToKnucklesTowardTrigger": 0.9999999999998788,
+        "minPalmFacingGrip": 0.999999999999931,
+        "maxIndexErrorM": 1.7291873700233647e-8
+      },
+      {
+        "weapon": "type97hawk",
+        "minIndexToPinkyAlongGrip": 0.9999999999999334,
+        "minWristToKnucklesTowardTrigger": 0.9999999999999455,
+        "minPalmFacingGrip": 0.9999999999999615,
+        "maxIndexErrorM": 6.499144929048633e-9
+      },
+      {
+        "weapon": "qcq171",
+        "minIndexToPinkyAlongGrip": 0.9999999999999145,
+        "minWristToKnucklesTowardTrigger": 0.9999999999998855,
+        "minPalmFacingGrip": 0.999999999999915,
+        "maxIndexErrorM": 8.235449423192561e-9
+      }
+    ]
+  },
+  "failures": []
+}
