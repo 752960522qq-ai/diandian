@@ -1,19 +1,12 @@
 {
-  "source": "assets/characters/linxu_motion/character.glb",
-  "sourceSha256": "a13e9afa92256249d6419f8abe7450174ce44dfa05d45e14dbb185cd30d06557",
-  "browserSha256": "56e8761b486d8b4ce31c4cdd9a9c19b5a71f3edcf06a5ece23426ab34f323ead",
-  "sourceBytes": 18770984,
-  "browserBytes": 16824824,
-  "removedEmbeddedClips": [
-    "Idle",
-    "Walk",
-    "Run",
-    "Talking",
-    "HeadStress",
-    "FaceTest"
-  ],
-  "actionsSource": "motions.glb; resistance R47 Idle/Walk replace the uploaded clips",
+  "source": "assets/characters/linxu_motion_v3/character.glb",
+  "sourceSha256": "5db4ad58f90ed9d10857bdc67430ca6c4229eeaef04c6478fbefd38bfe8a0f07",
+  "browserSha256": "71f8f6a2562397e82c6e9f102ea4f2cd358b135486a30cb63777f49914ba54c9",
+  "sourceBytes": 18170348,
+  "browserBytes": 16825440,
+  "removedEmbeddedClips": [],
+  "actionsSource": "motions.glb + equipped_motions.glb; curated V3 actions with V4 neck proportions",
   "meshSkinTextureBufferViewsUnchanged": true,
-  "retainedBufferSha256": "09e3ba67193bbe5c9df49dac657dbd9ad2f516716cbac02f0d7c903603d13392",
+  "retainedBufferSha256": "92d9f6222883348958fbf28b678aa0454ec038bbc2847890f7417d405721d4d6",
   "nodesMaterialsUnchanged": true
 }

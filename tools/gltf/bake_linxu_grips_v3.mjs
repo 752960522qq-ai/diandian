@@ -1,5 +1,5 @@
 // Bake final site solves to a separate, reusable skeleton animation pack.
-// Run only after finalizing the site's V3 attachment configuration.
+// Run only after finalizing the site's V4 attachment configuration.
 import fs from 'node:fs';
 import crypto from 'node:crypto';
 import * as T from 'three';
@@ -15,12 +15,12 @@ for(const cid of ['linxu']){
  const rt=await setupLinxu(cid),{g}=decode(`${root}/motions.glb`);
  for(const k of ['meshes','skins','images','materials','textures','samplers','extensionsUsed','extensionsRequired'])delete g[k];
  for(const node of g.nodes){delete node.mesh;delete node.skin;delete node.weights;delete node.extensions;}
- g.animations=[];g.accessors=[];g.bufferViews=[];g.asset.extras={linxu_v3_equipped_bake:{fps,character:cid,sourceHashes}};
+ g.animations=[];g.accessors=[];g.bufferViews=[];g.asset.extras={linxu_v4_equipped_bake:{fps,character:cid,sourceHashes}};
  const mapping=g.nodes.map((n,i)=>({name:n.name,index:i,bone:rt.bones.get(n.name)})).filter(n=>n.bone);
  const chunks=[];let length=0;
  function append(values,type){const b=Buffer.alloc(values.length*4);values.forEach((v,i)=>b.writeFloatLE(v,i*4));const view=g.bufferViews.push({buffer:0,byteOffset:length,byteLength:b.length})-1;chunks.push(b);length+=b.length;const a={bufferView:view,componentType:5126,count:values.length/({SCALAR:1,VEC3:3,VEC4:4}[type]),type};if(type==='SCALAR'){a.min=[values[0]];a.max=[values.at(-1)];}return g.accessors.push(a)-1;}
- const inputHashes=Object.fromEntries(['character.glb','motions.glb'].map(p=>[p,sha(p==='character.glb'?'assets/characters/linxu_motion/character.glb':`${root}/${p}`)]));
- const manifest={character:cid,inputHashes,coordinateConvention:'glTF right-handed Y-up; root transforms relative to the unnormalized character scene (not 1.75m website wrapper); quaternions [x,y,z,w].',sourceHashes,characterModel:'../linxu_motion/character.glb',motionPack:'equipped_motions.glb',weaponAssetsRoot:'../../weapons',clips:[]};
+ const inputHashes=Object.fromEntries(['character.glb','motions.glb'].map(p=>[p,sha(p==='character.glb'?'assets/characters/linxu_motion_v3/character.glb':`${root}/${p}`)]));
+ const manifest={character:cid,inputHashes,coordinateConvention:'glTF right-handed Y-up; root transforms relative to the unnormalized character scene (not 1.75m website wrapper); quaternions [x,y,z,w].',sourceHashes,characterModel:'character.glb',motionPack:'equipped_motions.glb',weaponAssetsRoot:'../../weapons',clips:[]};
  for(const [wid,prefix]of Object.entries(names))for(const motion of [...armed.map(a=>a[0]),...(wid==='type97hawk'?['ShotgunPump']:[])]){
   const clipFps=motion==='ShotgunPump'?240:motion==='FiringRifle'?240:fps,duration=rt.duration(motion,wid),steps=Math.ceil(duration*clipFps),times=Array.from({length:steps+1},(_,i)=>duration*i/steps),tracks=mapping.map(n=>({...n,translation:[],rotation:[],scale:[]})),frames=[];
   for(const t of times){const state=rt.pose(motion,t,wid);
@@ -38,7 +38,7 @@ for(const cid of ['linxu']){
  }
  g.buffers=[{byteLength:length}];fs.writeFileSync(`${root}/equipped_motions.glb`,encode(g,Buffer.concat(chunks)));fs.writeFileSync(`${root}/equipped_weapon_transforms.json`,JSON.stringify(manifest)+'\n');
  // Reload exported bytes and verify both key samples and between-key error.
- const model=await read('assets/characters/linxu_motion/character.glb'),pack=await read(`${root}/equipped_motions.glb`),mixer=new T.AnimationMixer(model.scene);
+ const model=await read('assets/characters/linxu_motion_v3/character.glb'),pack=await read(`${root}/equipped_motions.glb`),mixer=new T.AnimationMixer(model.scene);
  const rows=[];
  for(const entry of manifest.clips){const clip=pack.animations.find(a=>a.name===entry.name);mixer.stopAllAction();const action=mixer.clipAction(clip).setLoop(T.LoopOnce,1);action.clampWhenFinished=true;action.play();let maxKeyLocal=0,maxMidpointBoneM=0;
   for(let i=0;i<entry.frames.length;i++){

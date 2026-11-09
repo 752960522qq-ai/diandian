@@ -1,0 +1,67 @@
+[
+  {
+    "weapon": "type56_1",
+    "motion": "RifleRun",
+    "side": "Left",
+    "before": {
+      "weight": 0.25,
+      "max": 62.9053715691593
+    },
+    "after": {
+      "weight": 1,
+      "max": 49.10594542318783
+    }
+  },
+  {
+    "weapon": "type97hawk",
+    "motion": "RifleAimingIdle",
+    "side": "Right",
+    "before": {
+      "weight": 0,
+      "max": 70.60409141661957
+    },
+    "after": {
+      "weight": 1,
+      "max": 54.28900324750838
+    }
+  },
+  {
+    "weapon": "type97hawk",
+    "motion": "FiringRifle",
+    "side": "Left",
+    "before": {
+      "weight": 0.25,
+      "max": 76.82590502880389
+    },
+    "after": {
+      "weight": 1,
+      "max": 13.95384414132954
+    }
+  },
+  {
+    "weapon": "type97hawk",
+    "motion": "ShotgunPump",
+    "side": "Left",
+    "before": {
+      "weight": 0.25,
+      "max": 76.82590258425324
+    },
+    "after": {
+      "weight": 1,
+      "max": 23.90429462334853
+    }
+  },
+  {
+    "weapon": "qcq171",
+    "motion": "RifleRun",
+    "side": "Left",
+    "before": {
+      "weight": 0.25,
+      "max": 82.40665093677693
+    },
+    "after": {
+      "weight": 1,
+      "max": 22.216550816832985
+    }
+  }
+]

@@ -1,0 +1,406 @@
+{
+  "clips": [
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "Idle",
+      "duration": 5.333333492279053,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "Walk",
+      "duration": 1.1666666269302368,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "Run",
+      "duration": 0.6333333253860474,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "Talking",
+      "duration": 3.933333396911621,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "HeadStress",
+      "duration": 4,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "Dying",
+      "duration": 4.333333492279053,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "FlyingBackDeath",
+      "duration": 3.0333333015441895,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "SittingTalking",
+      "duration": 44.96666717529297,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "SittingCrossLegged",
+      "duration": 9.566666603088379,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "ClimbingLadder",
+      "duration": 0.7666666507720947,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "HangToCrouch",
+      "duration": 1.1333333253860474,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "WalkingBackwards",
+      "duration": 0.9666666388511658,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "RifleIdle",
+      "duration": 8.566666603088379,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "RifleWalk",
+      "duration": 1.2999999523162842,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "RifleRun",
+      "duration": 0.6666666865348816,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "RifleAimingIdle",
+      "duration": 3.0999999046325684,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "FiringRifle",
+      "duration": 0.2666666805744171,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "Reloading",
+      "duration": 3.299999952316284,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "ShotgunAimDown",
+      "duration": 0.03333333507180214,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "ShotgunAimLevel",
+      "duration": 0.5333333611488342,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "ShotgunAimUp",
+      "duration": 0.5333333611488342,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "ShotgunCycleDown",
+      "duration": 0.9666666388511658,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "ShotgunCycleLevel",
+      "duration": 0.9666666388511658,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "ShotgunCycleUp",
+      "duration": 0.9666666388511658,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "ShotgunFireDown",
+      "duration": 0.23333333432674408,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "ShotgunFireLevel",
+      "duration": 0.23333333432674408,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "ShotgunFireUp",
+      "duration": 0.23333333432674408,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "ShotgunPumpDown",
+      "duration": 0.7333333492279053,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "ShotgunPumpLevel",
+      "duration": 0.7333333492279053,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "ShotgunPumpUp",
+      "duration": 0.7333333492279053,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "ShotgunReload",
+      "duration": 1.9666666984558105,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "Type97Fire",
+      "duration": 0.23333333432674408,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "Type97Pump",
+      "duration": 0.7333333492279053,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/motions.glb",
+      "name": "RifleRun_Before",
+      "duration": 0.6666666865348816,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/equipped_motions.glb",
+      "name": "QBZ95_RifleIdle",
+      "duration": 8.566666603088379,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/equipped_motions.glb",
+      "name": "QBZ95_RifleWalk",
+      "duration": 1.2999999523162842,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/equipped_motions.glb",
+      "name": "QBZ95_RifleRun",
+      "duration": 0.6666666865348816,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/equipped_motions.glb",
+      "name": "QBZ95_RifleAimingIdle",
+      "duration": 3.0999999046325684,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/equipped_motions.glb",
+      "name": "QBZ95_FiringRifle",
+      "duration": 0.2666666805744171,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/equipped_motions.glb",
+      "name": "QBZ95_Reloading",
+      "duration": 3.299999952316284,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/equipped_motions.glb",
+      "name": "Type56_1_RifleIdle",
+      "duration": 8.566666603088379,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/equipped_motions.glb",
+      "name": "Type56_1_RifleWalk",
+      "duration": 1.2999999523162842,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/equipped_motions.glb",
+      "name": "Type56_1_RifleRun",
+      "duration": 0.6666666865348816,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/equipped_motions.glb",
+      "name": "Type56_1_RifleAimingIdle",
+      "duration": 3.0999999046325684,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/equipped_motions.glb",
+      "name": "Type56_1_FiringRifle",
+      "duration": 0.2666666805744171,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/equipped_motions.glb",
+      "name": "Type56_1_Reloading",
+      "duration": 3.299999952316284,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/equipped_motions.glb",
+      "name": "QBU85_RifleIdle",
+      "duration": 8.566666603088379,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/equipped_motions.glb",
+      "name": "QBU85_RifleWalk",
+      "duration": 1.2999999523162842,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/equipped_motions.glb",
+      "name": "QBU85_RifleRun",
+      "duration": 0.6666666865348816,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/equipped_motions.glb",
+      "name": "QBU85_RifleAimingIdle",
+      "duration": 3.0999999046325684,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/equipped_motions.glb",
+      "name": "QBU85_FiringRifle",
+      "duration": 0.2666666805744171,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/equipped_motions.glb",
+      "name": "QBU85_Reloading",
+      "duration": 3.299999952316284,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/equipped_motions.glb",
+      "name": "Type97Hawk_RifleIdle",
+      "duration": 8.566666603088379,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/equipped_motions.glb",
+      "name": "Type97Hawk_RifleWalk",
+      "duration": 1.2999999523162842,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/equipped_motions.glb",
+      "name": "Type97Hawk_RifleRun",
+      "duration": 0.6666666865348816,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/equipped_motions.glb",
+      "name": "Type97Hawk_RifleAimingIdle",
+      "duration": 3.0999999046325684,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/equipped_motions.glb",
+      "name": "Type97Hawk_FiringRifle",
+      "duration": 0.23333333432674408,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/equipped_motions.glb",
+      "name": "Type97Hawk_Reloading",
+      "duration": 3.299999952316284,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/equipped_motions.glb",
+      "name": "Type97Hawk_ShotgunPump",
+      "duration": 0.7333333492279053,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/equipped_motions.glb",
+      "name": "QCQ171_RifleIdle",
+      "duration": 8.566666603088379,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/equipped_motions.glb",
+      "name": "QCQ171_RifleWalk",
+      "duration": 1.2999999523162842,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/equipped_motions.glb",
+      "name": "QCQ171_RifleRun",
+      "duration": 0.6666666865348816,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/equipped_motions.glb",
+      "name": "QCQ171_RifleAimingIdle",
+      "duration": 3.0999999046325684,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/equipped_motions.glb",
+      "name": "QCQ171_FiringRifle",
+      "duration": 0.2666666805744171,
+      "phases": 13
+    },
+    {
+      "pack": "assets/characters/linxu_motion_v3/equipped_motions.glb",
+      "name": "QCQ171_Reloading",
+      "duration": 3.299999952316284,
+      "phases": 13
+    }
+  ],
+  "max_non_head_bone_matrix_error": 0,
+  "max_face_local_vertex_error_m": 1.8540293604624013e-8,
+  "max_lower_body_vertex_error_m": 0,
+  "nonfinite": 0,
+  "failures": [],
+  "files": {
+    "assets/characters/linxu_motion/character.glb": "a13e9afa92256249d6419f8abe7450174ce44dfa05d45e14dbb185cd30d06557",
+    "assets/characters/linxu_motion_v3/character.glb": "5db4ad58f90ed9d10857bdc67430ca6c4229eeaef04c6478fbefd38bfe8a0f07",
+    "assets/characters/linxu_motion_v3/motions.glb": "b1e1360027fd582b1b26755f18d38399653f5e156007fdb247dd4bbacd433efe",
+    "assets/characters/linxu_motion_v3/equipped_motions.glb": "295600aad6cf5dbfddc54f627616a21469cec740028543719e539f6d5b51623b"
+  },
+  "limitations": "13 phases per clip, sampled face/hair and lower-body vertices; not exhaustive continuous collision testing."
+}

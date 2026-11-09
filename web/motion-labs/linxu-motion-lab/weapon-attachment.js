@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import { applyReferenceGrip } from './reference-grip.js?v=linxu-v3';
+import { applyReferenceGrip, sampleReferenceVector } from './reference-grip.js?v=linxu-v4';
 import { fixedGunMotionNames, applyFixedGunPose } from './fixed-machine-gun.js?v=weapons-r44';
 import { rocketMotions, rocketSupportWeight, rocketCarryWeight, applyRocketPosePath, fitRocketCarryReach } from './rocket-motion.js?v=pf89-r40';
 import { ChestSkinningRelief } from './chest-skinning.js?v=grip-r31';
@@ -210,6 +210,18 @@ export class WeaponAttachment {
       outward.addScaledVector(direction, -outward.dot(direction)).normalize();
       bend.lerp(outward, THREE.MathUtils.clamp(elbowOutwardWeight, 0, 1)).normalize();
     }
+    // Optional anatomical pole: zero keeps the elbow below the shoulder-wrist
+    // line. Unlike a hand-direction hint, this cannot pick an overhead elbow
+    // merely to lower the measured wrist angle.
+    const poleMount = this.mountFor(this.selectedWeapon, this.motion);
+    const swivelTrack = poleMount[side === 'Right' ? 'right_elbow_swivel_track' : 'support_elbow_swivel_track'];
+    const swivelDegrees = swivelTrack ? sampleReferenceVector(swivelTrack, this.state.time).x : poleMount[side === 'Right' ? 'right_elbow_swivel_degrees' : 'support_elbow_swivel_degrees'];
+    if (Number.isFinite(swivelDegrees)) {
+      const bodyDown = this.model.bones.get('mixamorig:Hips').getWorldPosition(new THREE.Vector3())
+        .sub(this.bones.Spine2.getWorldPosition(new THREE.Vector3())).normalize();
+      bodyDown.addScaledVector(direction, -bodyDown.dot(direction));
+      if (bodyDown.lengthSq() > .000001) bend.copy(bodyDown.normalize()).applyAxisAngle(direction, THREE.MathUtils.degToRad(swivelDegrees));
+    }
     const along = (upperLength * upperLength - lowerLength * lowerLength + distance * distance) / (2 * distance);
     const height = Math.sqrt(Math.max(upperLength * upperLength - along * along, 0));
     const desiredElbow = shoulder.clone().addScaledVector(direction, along).addScaledVector(bend, height);
@@ -369,6 +381,12 @@ export class WeaponAttachment {
     if (id === 'qjz89') { applyFixedGunPose(this, motion, time); return; }
     const data = this.config.weapons[id];
     const mount = applyReferenceGrip(this.mountFor(id, motion), time);
+    // A calibrated upper-body layer can preserve relaxed clavicles across
+    // incompatible imported firing/pump clips, without freezing torso or legs.
+    for (const [name, value] of Object.entries({...mount.upper_body_local_quaternions, ...mount.shoulder_local_quaternions})) {
+      const bone = this.bones[name] || this.model.bones.get('mixamorig:' + name);
+      if (bone) { this.saveBone(bone); bone.quaternion.copy(quaternion(value)); bone.updateMatrixWorld(true); }
+    }
     if (id === 'pf89') {
       mount.support_pose_weight = rocketSupportWeight(motion,time);
       mount.release_support_hand = mount.support_pose_weight === 0;
@@ -399,6 +417,8 @@ export class WeaponAttachment {
       Object.assign(mount, this.character.mounts[id].re4_mount);
       mount.release_support_hand = actualClip === 'ShotgunReload';
     }
+    if (motion === 'Reloading' && mount.reload_clearance_track) mount.reload_support_shift_weapon_m = sampleReferenceVector(mount.reload_clearance_track, time).toArray();
+    if (mount.weapon_body_clearance_track) mount.weapon_offset_body_m = vector(mount.weapon_offset_body_m || [0, 0, 0]).add(sampleReferenceVector(mount.weapon_body_clearance_track, time)).toArray();
     const re4 = mount.re4_shotgun === true;
     const hand = this.bones.RightHand;
     const scale = this.model.wrapper.getWorldScale(new THREE.Vector3()).x;
@@ -411,6 +431,8 @@ export class WeaponAttachment {
     const rightOffset = vector(mount.palm_offset_native || this.character.palm_offset_native);
     const gunRotation = handRotation.clone().multiply(quaternion(mount.quaternion_xyzw)).normalize();
     refineC96Rotation(this, gunRotation, motion, time);
+    const weaponFrame = mount.weapon_frame_bone ? this.model.bones.get('mixamorig:' + mount.weapon_frame_bone) : null;
+    if (weaponFrame && mount.weapon_frame_rotation_xyzw) gunRotation.copy(weaponFrame.getWorldQuaternion(new THREE.Quaternion())).multiply(quaternion(mount.weapon_frame_rotation_xyzw)).normalize();
     // Anchor the gun to the palm in its final grasp orientation. Using the
     // animated open-hand orientation here displaced the wrist during the
     // subsequent grip solve, even when the requested wrist was reachable.
@@ -432,6 +454,7 @@ export class WeaponAttachment {
       gun.position.copy(pocket).sub(vector(data.butt_contact).multiplyScalar(modelScale).applyQuaternion(gunRotation));
       this.state.shoulderTargetWorld = pocket.toArray();
     }
+    if (weaponFrame && mount.weapon_frame_position_native) gun.position.copy(weaponFrame.localToWorld(vector(mount.weapon_frame_position_native)));
     if (mount.weapon_offset_body_m) {
       const displacement = vector(mount.weapon_offset_body_m);
       const right = this.bones.RightArm.getWorldPosition(new THREE.Vector3()).sub(this.bones.LeftArm.getWorldPosition(new THREE.Vector3())).normalize();
@@ -499,6 +522,17 @@ export class WeaponAttachment {
     const supportTarget = gun.localToWorld(supportLocal);
     if (id === 'c96' && motion === 'Reloading') {
       applyC96ReloadSupport(this, gun, gunRotation, mount, time, leftOffset);
+    } else if (motion === 'Reloading' && mount.reload_support_shift_weapon_m) {
+      // Preserve the released source hand path and finger animation, but route
+      // the whole forearm outside the magazine/receiver instead of through it.
+      const sourceWrist = this.bones.LeftHand.getWorldPosition(new THREE.Vector3());
+      const sourceRotation = this.bones.LeftHand.getWorldQuaternion(new THREE.Quaternion());
+      const shift = vector(mount.reload_support_shift_weapon_m).multiplyScalar(modelScale).applyQuaternion(gunRotation);
+      this.solveLeftArm(sourceWrist.add(shift), sourceRotation, 1,
+        mount.support_forearm_twist_weight ?? 0, mount.support_forearm_twist_reference_degrees ?? 0,
+        mount.support_upper_arm_twist_weight ?? .75, .5, 0);
+      this.state.reloadClearanceShiftM = shift.length();
+      this.state.reloadClearanceErrorM = this.bones.LeftHand.getWorldPosition(new THREE.Vector3()).distanceTo(sourceWrist);
     } else if (motion !== 'Reloading' && !mount.release_support_hand) {
       const leftRotation = mount.left_hand_quaternion_weapon
         ? gunRotation.clone().multiply(quaternion(mount.left_hand_quaternion_weapon)).normalize()

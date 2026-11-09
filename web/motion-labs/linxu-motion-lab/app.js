@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import {GLTFLoader} from './vendor/GLTFLoader.js';
 import {OrbitControls} from './vendor/OrbitControls.js';
-import {prepareRig,unarmed,armed,oneShots} from './rig.js?v=linxu-v3';
+import {prepareRig,unarmed,armed,oneShots} from './rig.js?v=linxu-v4';
 import {createMotionContext} from './uploaded-motion.js';
 const $=s=>document.querySelector(s), stage=$('#stage');
 const motionBounds=new Map();
@@ -40,7 +40,7 @@ function pose(){if(!state.ready)return;model.pose(state.motion,state.time,state.
 function selectMotion(name){if(!state.ready||!items().some(m=>m[0]===name))return;const reframe=dynamicMotions.has(state.motion)||dynamicMotions.has(name);state.motion=name;state.compareRun=false;state.time=0;state.playing=true;sync();pose();if(reframe)view();}
 function selectWeapon(id){if(!state.ready||!(id==='none'||cfg.weapons[id]))return;state.weapon=id;showMotions();selectMotion(id==='none'?'Idle':'RifleIdle');}
 async function selectCharacter(cid){const ticket=++request;state.ready=false;$('#loading').hidden=false;sync();try{
-  if(!models.has(cid)){const [g,p]=await Promise.all([loader.loadAsync(`./assets/characters/${cid}/character.glb`),loader.loadAsync(`./assets/characters/${cid}/motions.glb?v=linxu-v3`)]);const m=prepareRig(g,p,cid,cfg,weapons,scene);
+  if(!models.has(cid)){const [g,p]=await Promise.all([loader.loadAsync(`./assets/characters/${cid}/character.glb?v=linxu-v4`),loader.loadAsync(`./assets/characters/${cid}/motions.glb?v=linxu-v4`)]);const m=prepareRig(g,p,cid,cfg,weapons,scene);
   for(const name of dynamicMotions){const box=new THREE.Box3();for(let i=0;i<=16;i++){m.pose(name,m.duration(name,'none')*i/16,'none');for(const b of new Set(m.bones.values()))box.expandByPoint(b.getWorldPosition(new THREE.Vector3()));}motionBounds.set(cid+':'+name,box.expandByScalar(.12));}
   m.wrapper.visible=false;m.context=createMotionContext(m,scene);m.skeleton=new THREE.SkeletonHelper(m.root);m.skeleton.material.depthTest=false;m.skeleton.material.transparent=true;m.skeleton.material.opacity=.65;m.skeleton.visible=false;scene.add(m.skeleton);models.set(cid,m);}
   if(ticket!==request)return;
@@ -55,4 +55,4 @@ $('#play').onclick=()=>{if(state.time>=duration())state.time=0;state.playing=!st
 $('#seek').oninput=e=>{state.playing=false;state.time=+e.target.value*duration();sync();pose();};$('#skeleton').onclick=()=>{state.skeleton=!state.skeleton;$('#skeleton').setAttribute('aria-pressed',state.skeleton);pose();};
 let previous=performance.now();function frame(now){requestAnimationFrame(frame);const dt=Math.min((now-previous)/1000,.05);previous=now;if(state.ready&&state.playing){state.time+=dt*state.speed;const d=duration();if(state.time>=d){if(oneShots.has(state.motion)||(state.weapon==='type97hawk'&&state.motion==='FiringRifle')){state.time=d;state.playing=false;sync();}else state.time%=Math.max(d,.001);}pose();}controls.update();renderer.render(scene,camera);}requestAnimationFrame(frame);
 window.linxuLab={state,models,scene,camera,controls,selectCharacter,selectWeapon,selectMotion,pose,view,snapshot:()=>({...state,duration:duration(),grip:model?.attachment.getState(),clips:[...(model?.actions.keys()||[])]})};
-try{cfg=await fetch('./assets/weapon_attachment.json?v=linxu-v3').then(r=>{if(!r.ok)throw Error(r.status);return r.json();});await Promise.all(Object.keys(cfg.weapons).map(async id=>weapons.set(id,(await loader.loadAsync(`./assets/weapons/${id}.glb`)).scene)));await selectCharacter('linxu');}catch(e){state.error=String(e);$('#loading h2').textContent='加载失败';$('#loading p').textContent='请刷新页面重试。'+e.message;console.error(e);}
+try{cfg=await fetch('./assets/weapon_attachment.json?v=linxu-v4').then(r=>{if(!r.ok)throw Error(r.status);return r.json();});await Promise.all(Object.keys(cfg.weapons).map(async id=>weapons.set(id,(await loader.loadAsync(`./assets/weapons/${id}.glb`)).scene)));await selectCharacter('linxu');}catch(e){state.error=String(e);$('#loading h2').textContent='加载失败';$('#loading p').textContent='请刷新页面重试。'+e.message;console.error(e);}

@@ -1,0 +1,343 @@
+[
+  {
+    "weapon": "qbz95",
+    "motion": "RifleIdle",
+    "maxPIP": 83.3145190368904,
+    "maxDIP": 66.55142317725978,
+    "worst": {
+      "side": "Left",
+      "digit": "Pinky",
+      "time": 0
+    }
+  },
+  {
+    "weapon": "qbz95",
+    "motion": "RifleWalk",
+    "maxPIP": 83.31451789588824,
+    "maxDIP": 66.55142308279025,
+    "worst": {
+      "side": "Left",
+      "digit": "Pinky",
+      "time": 1.23499995470047
+    }
+  },
+  {
+    "weapon": "qbz95",
+    "motion": "RifleRun",
+    "maxPIP": 83.31451428709389,
+    "maxDIP": 66.55142540966322,
+    "worst": {
+      "side": "Left",
+      "digit": "Pinky",
+      "time": 0.6666666865348816
+    }
+  },
+  {
+    "weapon": "qbz95",
+    "motion": "RifleAimingIdle",
+    "maxPIP": 83.31455206488573,
+    "maxDIP": 66.55141905734006,
+    "worst": {
+      "side": "Left",
+      "digit": "Pinky",
+      "time": 3.0999999046325684
+    }
+  },
+  {
+    "weapon": "qbz95",
+    "motion": "FiringRifle",
+    "maxPIP": 98.4355278774996,
+    "maxDIP": 69.99979398715806,
+    "worst": {
+      "side": "Right",
+      "digit": "Index",
+      "time": 0.026666668057441712
+    }
+  },
+  {
+    "weapon": "qbz95",
+    "motion": "Reloading",
+    "maxPIP": 83.31451875085531,
+    "maxDIP": 48.00001995061055,
+    "worst": {
+      "side": "Left",
+      "digit": "Pinky",
+      "time": 1.4849999785423278
+    }
+  },
+  {
+    "weapon": "type56_1",
+    "motion": "RifleIdle",
+    "maxPIP": 90.10649466127012,
+    "maxDIP": 65.69847566398083,
+    "worst": {
+      "side": "Left",
+      "digit": "Index",
+      "time": 0
+    }
+  },
+  {
+    "weapon": "type56_1",
+    "motion": "RifleWalk",
+    "maxPIP": 90.10649444182735,
+    "maxDIP": 65.69847279093864,
+    "worst": {
+      "side": "Left",
+      "digit": "Index",
+      "time": 1.23499995470047
+    }
+  },
+  {
+    "weapon": "type56_1",
+    "motion": "RifleRun",
+    "maxPIP": 90.10650695174786,
+    "maxDIP": 65.69845526360494,
+    "worst": {
+      "side": "Left",
+      "digit": "Index",
+      "time": 0.1666666716337204
+    }
+  },
+  {
+    "weapon": "type56_1",
+    "motion": "RifleAimingIdle",
+    "maxPIP": 90.10650745013149,
+    "maxDIP": 65.6984491507804,
+    "worst": {
+      "side": "Left",
+      "digit": "Index",
+      "time": 0
+    }
+  },
+  {
+    "weapon": "type56_1",
+    "motion": "FiringRifle",
+    "maxPIP": 98.43550903848123,
+    "maxDIP": 69.99981481803182,
+    "worst": {
+      "side": "Right",
+      "digit": "Index",
+      "time": 0.1200000062584877
+    }
+  },
+  {
+    "weapon": "type56_1",
+    "motion": "Reloading",
+    "maxPIP": 78.00001496235474,
+    "maxDIP": 48.00001985246042,
+    "worst": {
+      "side": "Left",
+      "digit": "Pinky",
+      "time": 1.4849999785423278
+    }
+  },
+  {
+    "weapon": "qbu85",
+    "motion": "RifleIdle",
+    "maxPIP": 83.31452825573207,
+    "maxDIP": 61.33635049539795,
+    "worst": {
+      "side": "Left",
+      "digit": "Ring",
+      "time": 0
+    }
+  },
+  {
+    "weapon": "qbu85",
+    "motion": "RifleWalk",
+    "maxPIP": 83.31455087956434,
+    "maxDIP": 61.33634037529521,
+    "worst": {
+      "side": "Left",
+      "digit": "Ring",
+      "time": 1.23499995470047
+    }
+  },
+  {
+    "weapon": "qbu85",
+    "motion": "RifleRun",
+    "maxPIP": 83.31453790704616,
+    "maxDIP": 61.33633126473466,
+    "worst": {
+      "side": "Left",
+      "digit": "Ring",
+      "time": 0.1666666716337204
+    }
+  },
+  {
+    "weapon": "qbu85",
+    "motion": "RifleAimingIdle",
+    "maxPIP": 83.3145475904511,
+    "maxDIP": 61.33633344346922,
+    "worst": {
+      "side": "Left",
+      "digit": "Ring",
+      "time": 3.0999999046325684
+    }
+  },
+  {
+    "weapon": "qbu85",
+    "motion": "FiringRifle",
+    "maxPIP": 83.31454786482902,
+    "maxDIP": 69.99985211226493,
+    "worst": {
+      "side": "Right",
+      "digit": "Index",
+      "time": 0.026666668057441712
+    }
+  },
+  {
+    "weapon": "qbu85",
+    "motion": "Reloading",
+    "maxPIP": 83.31456890951549,
+    "maxDIP": 52.00033377886703,
+    "worst": {
+      "side": "Right",
+      "digit": "Pinky",
+      "time": 1.4849999785423278
+    }
+  },
+  {
+    "weapon": "type97hawk",
+    "motion": "RifleIdle",
+    "maxPIP": 92.65678260281108,
+    "maxDIP": 68.6984744561527,
+    "worst": {
+      "side": "Left",
+      "digit": "Index",
+      "time": 0
+    }
+  },
+  {
+    "weapon": "type97hawk",
+    "motion": "RifleWalk",
+    "maxPIP": 92.65678826492623,
+    "maxDIP": 68.69846939972938,
+    "worst": {
+      "side": "Left",
+      "digit": "Index",
+      "time": 1.23499995470047
+    }
+  },
+  {
+    "weapon": "type97hawk",
+    "motion": "RifleRun",
+    "maxPIP": 92.65678176814932,
+    "maxDIP": 68.69846923793602,
+    "worst": {
+      "side": "Left",
+      "digit": "Index",
+      "time": 0.43333334624767306
+    }
+  },
+  {
+    "weapon": "type97hawk",
+    "motion": "RifleAimingIdle",
+    "maxPIP": 92.65680893775868,
+    "maxDIP": 68.69846017349722,
+    "worst": {
+      "side": "Left",
+      "digit": "Index",
+      "time": 0
+    }
+  },
+  {
+    "weapon": "type97hawk",
+    "motion": "FiringRifle",
+    "maxPIP": 96.4468556012485,
+    "maxDIP": 68.69846102316404,
+    "worst": {
+      "side": "Left",
+      "digit": "Index",
+      "time": 0.05833333358168602
+    }
+  },
+  {
+    "weapon": "type97hawk",
+    "motion": "Reloading",
+    "maxPIP": 92.65682632058244,
+    "maxDIP": 48.00002396737452,
+    "worst": {
+      "side": "Left",
+      "digit": "Pinky",
+      "time": 1.4849999785423278
+    }
+  },
+  {
+    "weapon": "type97hawk",
+    "motion": "ShotgunPump",
+    "maxPIP": 92.65680645181793,
+    "maxDIP": 68.69846070660022,
+    "worst": {
+      "side": "Left",
+      "digit": "Index",
+      "time": 0
+    }
+  },
+  {
+    "weapon": "qcq171",
+    "motion": "RifleIdle",
+    "maxPIP": 67.37047486398615,
+    "maxDIP": 70.00021551758468,
+    "worst": {
+      "side": "Right",
+      "digit": "Middle",
+      "time": 5.996666622161865
+    }
+  },
+  {
+    "weapon": "qcq171",
+    "motion": "RifleWalk",
+    "maxPIP": 67.37047521155753,
+    "maxDIP": 70.00021138547235,
+    "worst": {
+      "side": "Right",
+      "digit": "Middle",
+      "time": 1.1699999570846558
+    }
+  },
+  {
+    "weapon": "qcq171",
+    "motion": "RifleRun",
+    "maxPIP": 67.3704964705104,
+    "maxDIP": 70.00021567159392,
+    "worst": {
+      "side": "Right",
+      "digit": "Middle",
+      "time": 0.10000000298023223
+    }
+  },
+  {
+    "weapon": "qcq171",
+    "motion": "RifleAimingIdle",
+    "maxPIP": 67.37050101406817,
+    "maxDIP": 70.000169805119,
+    "worst": {
+      "side": "Right",
+      "digit": "Middle",
+      "time": 3.0999999046325684
+    }
+  },
+  {
+    "weapon": "qcq171",
+    "motion": "FiringRifle",
+    "maxPIP": 98.43550862127724,
+    "maxDIP": 70.00016904367772,
+    "worst": {
+      "side": "Right",
+      "digit": "Middle",
+      "time": 0.1733333423733711
+    }
+  },
+  {
+    "weapon": "qcq171",
+    "motion": "Reloading",
+    "maxPIP": 78.00001496235474,
+    "maxDIP": 70.00020895291343,
+    "worst": {
+      "side": "Right",
+      "digit": "Middle",
+      "time": 2.6399999618530274
+    }
+  }
+]

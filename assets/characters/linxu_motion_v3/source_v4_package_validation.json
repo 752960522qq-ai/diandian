@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "file_count": 70,
+  "modified_existing": 14,
+  "added": 56,
+  "payload_bytes": 56764044,
+  "source_fingerprints_match_final_dense_qa": true,
+  "authored_config_equals_runtime_config": true,
+  "original_character_and_base_motions_unchanged": true,
+  "tests": {
+    "dry_run": "Validation passed: 70 changes, 0 already installed.\nDry run only. Add --apply to install.",
+    "parent_file_rejection": "Traceback (most recent call last):\n  File \"<test-workspace>/deliverables/package/apply_update.py\", line 46, in <module>\n    source=safe(bundle/'payload',r['path']);target=safe(root,r['path'])\n                                                   ^^^^^^^^^^^^^^^^^^^^\n  File \"<test-workspace>/deliverables/package/apply_update.py\", line 17, in safe\n    if index<len(relative.parts)-1 and p.exists() and not p.is_dir():raise ValueError('Parent path is not a directory: '+str(p))\n                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Parent path is not a directory: <test-workspace>/deliverables/installer-test/web/motion-labs/verification_linxu_v4",
+    "conflict_rejection": "No files written. Baseline conflicts (run git lfs pull for GLB pointers): assets/characters/linxu_motion_v3/equipped-bake-report.json",
+    "apply": "Validation passed: 70 changes, 0 already installed.\nInstalled locally only. Backup: <test-workspace>/deliverables/installer-test/.linxu-v4-backup-20261109T025016686931Z",
+    "idempotent_apply": "Validation passed: 0 changes, 70 already installed.",
+    "rollback_dry_run": "Rollback dry run passed. Add --apply to restore.",
+    "corrupt_backup_rejection": "Corrupt backup: assets/characters/linxu_motion_v3/equipped-bake-report.json",
+    "rollback": "Rollback completed.",
+    "symlink_rejection": "Traceback (most recent call last):\n  File \"<test-workspace>/deliverables/package/apply_update.py\", line 46, in <module>\n    source=safe(bundle/'payload',r['path']);target=safe(root,r['path'])\n                                                   ^^^^^^^^^^^^^^^^^^^^\n  File \"<test-workspace>/deliverables/package/apply_update.py\", line 16, in safe\n    if p.is_symlink():raise ValueError('Symbolic links are not supported: '+str(p))\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Symbolic links are not supported: <test-workspace>/deliverables/installer-test/assets/characters/linxu_motion_v3/equipped-bake-report.json"
+  }
+}

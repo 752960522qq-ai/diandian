@@ -1,0 +1,27 @@
+[
+  {
+    "weapon": "qbz95",
+    "samples": 100,
+    "maxSideShiftM": 0
+  },
+  {
+    "weapon": "type56_1",
+    "samples": 100,
+    "maxSideShiftM": 0.2091204056351693
+  },
+  {
+    "weapon": "qbu85",
+    "samples": 100,
+    "maxSideShiftM": 0.09177961479104443
+  },
+  {
+    "weapon": "type97hawk",
+    "samples": 100,
+    "maxSideShiftM": 0.13363944266655353
+  },
+  {
+    "weapon": "qcq171",
+    "samples": 100,
+    "maxSideShiftM": 0.07814316628458584
+  }
+]

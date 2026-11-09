@@ -16,10 +16,10 @@ for(const cid of ['linxu']){
  const m=await setupLinxu(cid),rows=[];
  for(const wid of ['none','qbz95','type56_1','qbu85','type97hawk','qcq171']){
   const motions=wid==='none'?unarmed:wid==='type97hawk'?[...armed,['ShotgunPump']]:armed;
-  for(const [motion] of motions){let left=0,right=0,nonfinite=0;const d=m.duration(motion,wid);
-   for(let i=0;i<=60;i++){const s=m.pose(motion,d*i/60,wid);left=Math.max(left,s.leftContactErrorM||0);right=Math.max(right,s.rightContactErrorM||0);for(const bone of new Set(m.bones.values()))if(bone.matrixWorld.elements.some(v=>!Number.isFinite(v)))nonfinite++;if(s.visible!==(wid!=='none'))throw Error('Visibility mismatch');}
-   rows.push({weapon:wid,motion,duration:d,maxLeftErrorM:left,maxRightErrorM:right,nonfinite});
-   if(nonfinite||!d||left>.003||right>.003)report.failures.push({cid,...rows.at(-1)});
+  for(const [motion] of motions){let left=0,right=0,reload=0,nonfinite=0;const d=m.duration(motion,wid);
+   for(let i=0;i<=60;i++){const s=m.pose(motion,d*i/60,wid);left=Math.max(left,s.leftContactErrorM||0);right=Math.max(right,s.rightContactErrorM||0);reload=Math.max(reload,s.reloadClearanceErrorM||0);for(const bone of new Set(m.bones.values()))if(bone.matrixWorld.elements.some(v=>!Number.isFinite(v)))nonfinite++;if(s.visible!==(wid!=='none'))throw Error('Visibility mismatch');}
+   rows.push({weapon:wid,motion,duration:d,maxLeftErrorM:left,maxRightErrorM:right,maxReloadClearanceErrorM:reload,nonfinite});
+   if(nonfinite||!d||left>.003||right>.003||reload>.003)report.failures.push({cid,...rows.at(-1)});
   }
  }
  m.pose('RifleAimingIdle',.2,'qbz95');const capture=()=>[...new Set(m.bones.values())].flatMap(b=>[...b.position.toArray(),...b.quaternion.toArray(),...b.scale.toArray()]);const before=capture();

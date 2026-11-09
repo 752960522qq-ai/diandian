@@ -1,0 +1,66 @@
+{
+  "source": "assets/characters/linxu_motion/character.glb",
+  "source_sha256": "a13e9afa92256249d6419f8abe7450174ce44dfa05d45e14dbb185cd30d06557",
+  "neck_head_length_ratio": 0.82,
+  "head_rigid_translation_m": [
+    -5.699480316607304e-9,
+    -0.009136191845477006,
+    -0.0028111230019590094
+  ],
+  "neck_warp_y_m": [
+    0.835,
+    0.875
+  ],
+  "face_scale_unchanged": true,
+  "curated_animation_pack": "motions.glb",
+  "shoulder_channels_unchanged": true,
+  "old_neck_head_m": 0.053104954887728276,
+  "new_neck_head_m": 0.04354606300793718,
+  "preview_reduction_mm": 16.522695029314,
+  "normalization": {
+    "scale": 1.7285157356205083,
+    "center": [
+      2.0701330091799086e-7,
+      0.5062145419422346,
+      1.547028093823455e-8
+    ],
+    "floor": -1.1492687955787164e-7
+  },
+  "meshes": [
+    {
+      "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+      "position_accessor": 0,
+      "vertices": 33376,
+      "changed": 766,
+      "rigid": 4
+    },
+    {
+      "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+      "position_accessor": 6,
+      "vertices": 41324,
+      "changed": 41324,
+      "rigid": 41324
+    },
+    {
+      "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+      "position_accessor": 12,
+      "vertices": 506,
+      "changed": 506,
+      "rigid": 232
+    },
+    {
+      "mesh": "meshes[0].001",
+      "position_accessor": 19,
+      "vertices": 9678,
+      "changed": 9678,
+      "rigid": 9678
+    },
+    {
+      "mesh": "meshes[0].001",
+      "position_accessor": 25,
+      "vertices": 926,
+      "changed": 926,
+      "rigid": 926
+    }
+  ]
+}

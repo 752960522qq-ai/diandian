@@ -3,15 +3,15 @@
   "firingFps": 240,
   "pumpFps": 240,
   "sourceHashes": {
-    "assets/weapon_attachment.json": "01698bd49f29d3cf9d5e78d5c64ac8ecc4cc6994d3f12f3157b524a453e52793",
-    "weapon-attachment.js": "31baca1579618e8b0a0b7335df8e0dfbc8a3cbb955b63f2f7e4a093743b5a168",
+    "assets/weapon_attachment.json": "98c9089b45d9154b66c36f92318091ff4b882d515ecc8b72c4b21a0323d41183",
+    "weapon-attachment.js": "47c9102fbb24385f6f40201785b21bcbd64fcb153f3d6c8a59de847459339264",
     "reference-grip.js": "5c18de9b5f44a9db3f2d67d1e4bc5d49bf8602c1c088bf598613257a56e58aeb",
-    "rig.js": "c5a48031e329f30d744718879651f91df24792027db6e32682cdf8270728ed45"
+    "rig.js": "148e1a2b57fc7b52d2aee2d7c510386514f97509c6d933a1f69fecb802e422ac"
   },
   "characters": {
     "linxu": {
       "inputHashes": {
-        "character.glb": "a13e9afa92256249d6419f8abe7450174ce44dfa05d45e14dbb185cd30d06557",
+        "character.glb": "5db4ad58f90ed9d10857bdc67430ca6c4229eeaef04c6478fbefd38bfe8a0f07",
         "motions.glb": "b1e1360027fd582b1b26755f18d38399653f5e156007fdb247dd4bbacd433efe"
       },
       "clips": 31,
@@ -23,187 +23,187 @@
           "clip": "QBZ95_RifleIdle",
           "samples": 258,
           "maxKeyLocalTransformError": 7.566894515446607e-8,
-          "maxMidpointBonePositionErrorNativeM": 4.121552204458142e-7
+          "maxMidpointBonePositionErrorNativeM": 4.5968421616485267e-7
         },
         {
           "clip": "QBZ95_RifleWalk",
           "samples": 40,
           "maxKeyLocalTransformError": 1.788134736391278e-7,
-          "maxMidpointBonePositionErrorNativeM": 0.000007708397256883178
+          "maxMidpointBonePositionErrorNativeM": 0.00000868912750117692
         },
         {
           "clip": "QBZ95_RifleRun",
           "samples": 22,
           "maxKeyLocalTransformError": 5.960464477539063e-8,
-          "maxMidpointBonePositionErrorNativeM": 0.00034292496164409507
+          "maxMidpointBonePositionErrorNativeM": 0.0004057485464953134
         },
         {
           "clip": "QBZ95_RifleAimingIdle",
           "samples": 94,
           "maxKeyLocalTransformError": 5.960464477539063e-8,
-          "maxMidpointBonePositionErrorNativeM": 3.3284383664000253e-7
+          "maxMidpointBonePositionErrorNativeM": 2.7388199825576055e-7
         },
         {
           "clip": "QBZ95_FiringRifle",
           "samples": 66,
           "maxKeyLocalTransformError": 5.960464477539063e-8,
-          "maxMidpointBonePositionErrorNativeM": 0.00010000849814163625
+          "maxMidpointBonePositionErrorNativeM": 0.0000569372754201709
         },
         {
           "clip": "QBZ95_Reloading",
           "samples": 100,
-          "maxKeyLocalTransformError": 6.604442693569634e-7,
-          "maxMidpointBonePositionErrorNativeM": 0.00008145979435412329
+          "maxKeyLocalTransformError": 4.172299133131663e-7,
+          "maxMidpointBonePositionErrorNativeM": 0.0015914534399940458
         },
         {
           "clip": "Type56_1_RifleIdle",
           "samples": 258,
           "maxKeyLocalTransformError": 7.566894515446607e-8,
-          "maxMidpointBonePositionErrorNativeM": 4.4939526862065807e-7
+          "maxMidpointBonePositionErrorNativeM": 4.537345349716876e-7
         },
         {
           "clip": "Type56_1_RifleWalk",
           "samples": 40,
           "maxKeyLocalTransformError": 1.788134736391278e-7,
-          "maxMidpointBonePositionErrorNativeM": 0.000010221409609877457
+          "maxMidpointBonePositionErrorNativeM": 0.000010144314656310088
         },
         {
           "clip": "Type56_1_RifleRun",
           "samples": 22,
           "maxKeyLocalTransformError": 5.960464477539063e-8,
-          "maxMidpointBonePositionErrorNativeM": 0.0003768529976701917
+          "maxMidpointBonePositionErrorNativeM": 0.0004674366295201599
         },
         {
           "clip": "Type56_1_RifleAimingIdle",
           "samples": 94,
           "maxKeyLocalTransformError": 5.960464477539063e-8,
-          "maxMidpointBonePositionErrorNativeM": 2.784232065456278e-7
+          "maxMidpointBonePositionErrorNativeM": 3.200068352110114e-7
         },
         {
           "clip": "Type56_1_FiringRifle",
           "samples": 66,
           "maxKeyLocalTransformError": 5.960464477539063e-8,
-          "maxMidpointBonePositionErrorNativeM": 0.00008907996794264172
+          "maxMidpointBonePositionErrorNativeM": 0.00006700033557953205
         },
         {
           "clip": "Type56_1_Reloading",
           "samples": 100,
-          "maxKeyLocalTransformError": 6.604442693569634e-7,
-          "maxMidpointBonePositionErrorNativeM": 0.00008145979435401356
+          "maxKeyLocalTransformError": 4.172299133131663e-7,
+          "maxMidpointBonePositionErrorNativeM": 0.009182520103578102
         },
         {
           "clip": "QBU85_RifleIdle",
           "samples": 258,
           "maxKeyLocalTransformError": 7.566894515446607e-8,
-          "maxMidpointBonePositionErrorNativeM": 5.119559668939798e-7
+          "maxMidpointBonePositionErrorNativeM": 4.2770907351485567e-7
         },
         {
           "clip": "QBU85_RifleWalk",
           "samples": 40,
           "maxKeyLocalTransformError": 1.788134736391278e-7,
-          "maxMidpointBonePositionErrorNativeM": 0.000011190479135359544
+          "maxMidpointBonePositionErrorNativeM": 0.000016847500257781532
         },
         {
           "clip": "QBU85_RifleRun",
           "samples": 22,
           "maxKeyLocalTransformError": 5.960464477539063e-8,
-          "maxMidpointBonePositionErrorNativeM": 0.0004974416233681994
+          "maxMidpointBonePositionErrorNativeM": 0.0005058065144974211
         },
         {
           "clip": "QBU85_RifleAimingIdle",
           "samples": 94,
           "maxKeyLocalTransformError": 5.960464477539063e-8,
-          "maxMidpointBonePositionErrorNativeM": 3.263656068834343e-7
+          "maxMidpointBonePositionErrorNativeM": 3.380518091221677e-7
         },
         {
           "clip": "QBU85_FiringRifle",
           "samples": 66,
           "maxKeyLocalTransformError": 5.960464477539063e-8,
-          "maxMidpointBonePositionErrorNativeM": 0.00008180567571832395
+          "maxMidpointBonePositionErrorNativeM": 0.00006797103604109665
         },
         {
           "clip": "QBU85_Reloading",
           "samples": 100,
-          "maxKeyLocalTransformError": 6.604442693569634e-7,
-          "maxMidpointBonePositionErrorNativeM": 0.0000735241444793957
+          "maxKeyLocalTransformError": 4.172299133131663e-7,
+          "maxMidpointBonePositionErrorNativeM": 0.0015914538070955636
         },
         {
           "clip": "Type97Hawk_RifleIdle",
           "samples": 258,
           "maxKeyLocalTransformError": 7.566894515446607e-8,
-          "maxMidpointBonePositionErrorNativeM": 4.388820871900299e-7
+          "maxMidpointBonePositionErrorNativeM": 5.012896561523322e-7
         },
         {
           "clip": "Type97Hawk_RifleWalk",
           "samples": 40,
           "maxKeyLocalTransformError": 1.788134736391278e-7,
-          "maxMidpointBonePositionErrorNativeM": 0.000011925702949969846
+          "maxMidpointBonePositionErrorNativeM": 0.000013911817654816898
         },
         {
           "clip": "Type97Hawk_RifleRun",
           "samples": 22,
           "maxKeyLocalTransformError": 5.960464477539063e-8,
-          "maxMidpointBonePositionErrorNativeM": 0.00043065224848665135
+          "maxMidpointBonePositionErrorNativeM": 3.600779379354573e-8
         },
         {
           "clip": "Type97Hawk_RifleAimingIdle",
           "samples": 94,
           "maxKeyLocalTransformError": 5.960464477539063e-8,
-          "maxMidpointBonePositionErrorNativeM": 4.073786609895282e-7
+          "maxMidpointBonePositionErrorNativeM": 3.8218690204037197e-7
         },
         {
           "clip": "Type97Hawk_FiringRifle",
           "samples": 58,
           "maxKeyLocalTransformError": 5.960464477539063e-8,
-          "maxMidpointBonePositionErrorNativeM": 0.00041905089738415876
+          "maxMidpointBonePositionErrorNativeM": 0.0003760788634931931
         },
         {
           "clip": "Type97Hawk_Reloading",
           "samples": 100,
-          "maxKeyLocalTransformError": 6.481964450327782e-7,
-          "maxMidpointBonePositionErrorNativeM": 0.00008999547043268247
+          "maxKeyLocalTransformError": 4.172299133131663e-7,
+          "maxMidpointBonePositionErrorNativeM": 0.0016520265659053918
         },
         {
           "clip": "Type97Hawk_ShotgunPump",
           "samples": 178,
           "maxKeyLocalTransformError": 5.960464477539063e-8,
-          "maxMidpointBonePositionErrorNativeM": 0.0012541119206178554
+          "maxMidpointBonePositionErrorNativeM": 0.0004015779115503114
         },
         {
           "clip": "QCQ171_RifleIdle",
           "samples": 258,
           "maxKeyLocalTransformError": 7.566894515446607e-8,
-          "maxMidpointBonePositionErrorNativeM": 4.315409771061683e-7
+          "maxMidpointBonePositionErrorNativeM": 3.9714836079001467e-7
         },
         {
           "clip": "QCQ171_RifleWalk",
           "samples": 40,
           "maxKeyLocalTransformError": 1.788134736391278e-7,
-          "maxMidpointBonePositionErrorNativeM": 0.000009456093007665104
+          "maxMidpointBonePositionErrorNativeM": 0.00000937222371372073
         },
         {
           "clip": "QCQ171_RifleRun",
           "samples": 22,
           "maxKeyLocalTransformError": 5.960464477539063e-8,
-          "maxMidpointBonePositionErrorNativeM": 0.00036285219499279523
+          "maxMidpointBonePositionErrorNativeM": 0.0003300714966986681
         },
         {
           "clip": "QCQ171_RifleAimingIdle",
           "samples": 94,
           "maxKeyLocalTransformError": 5.960464477539063e-8,
-          "maxMidpointBonePositionErrorNativeM": 3.0547305991310964e-7
+          "maxMidpointBonePositionErrorNativeM": 3.128239697055664e-7
         },
         {
           "clip": "QCQ171_FiringRifle",
           "samples": 66,
           "maxKeyLocalTransformError": 5.960464477539063e-8,
-          "maxMidpointBonePositionErrorNativeM": 0.00009150694934229502
+          "maxMidpointBonePositionErrorNativeM": 0.00006815771073719588
         },
         {
           "clip": "QCQ171_Reloading",
           "samples": 100,
-          "maxKeyLocalTransformError": 6.604442693569634e-7,
-          "maxMidpointBonePositionErrorNativeM": 0.00007352398088488203
+          "maxKeyLocalTransformError": 4.172299133131663e-7,
+          "maxMidpointBonePositionErrorNativeM": 0.002204291342472096
         }
       ]
     }

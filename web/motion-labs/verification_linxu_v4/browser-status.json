@@ -1,0 +1,16 @@
+{
+  "attempted": true,
+  "completed": false,
+  "reason": "Chromium failed before page load: socket() failed: Operation not permitted; crashpad also reported missing database directory.",
+  "passedStages": [],
+  "notRun": [
+    "desktop browser interaction",
+    "mobile browser interaction",
+    "live WebGL rendering in browser",
+    "Godot integration or playtest"
+  ],
+  "alternativePerformed": [
+    "actual posed GLB render in Blender from runtime transforms",
+    "Node runtime pose/anchor and geometry diagnostics"
+  ]
+}

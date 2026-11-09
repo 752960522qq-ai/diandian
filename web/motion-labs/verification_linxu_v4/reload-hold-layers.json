@@ -1,0 +1,190 @@
+[
+  {
+    "weapon": "type56_1",
+    "motion": "Reloading",
+    "source": "Reviewed RifleIdle at phase 0.37, right hold and torso only; left local gesture remains released.",
+    "fields": {
+      "weapon_frame_bone": "Spine2",
+      "weapon_frame_position_native": [
+        0.15561971102980407,
+        -0.09237415664483617,
+        -0.04001600922872299
+      ],
+      "weapon_frame_rotation_xyzw": [
+        -0.12399571976445437,
+        -0.02058468916211756,
+        -0.036160205957578434,
+        0.9914099912163553
+      ],
+      "upper_body_local_quaternions": {
+        "Spine1": [
+          -0.011925010348290715,
+          0.05163310896839246,
+          0.03002349115807207,
+          0.9981434797488448
+        ],
+        "Spine2": [
+          0.002541484633123829,
+          -0.051836665923624736,
+          -0.07219410857660623,
+          0.9960393944814566
+        ],
+        "Neck": [
+          -0.014127653470299793,
+          -0.12094749282166692,
+          -0.19844642527771889,
+          0.9725179155702626
+        ],
+        "Head": [
+          0.04429250837836493,
+          -0.07763075329410965,
+          -0.010451445557588056,
+          0.9959429887270086
+        ],
+        "RightShoulder": [
+          0.3913000822067261,
+          -0.6066168546676636,
+          -0.6778163909912109,
+          0.1395176500082016
+        ],
+        "RightArm": [
+          -0.33547200151185086,
+          0.6995188879191107,
+          -0.41816253963411604,
+          0.4725166156790572
+        ],
+        "RightForeArm": [
+          0.38806350486396385,
+          0.3353779013521131,
+          -0.44828365323329594,
+          0.732099819506301
+        ],
+        "RightHand": [
+          0.4222673990595922,
+          0.03210115310904315,
+          0.025253027284738612,
+          0.9055506856457418
+        ]
+      },
+      "shoulder_local_quaternions": {},
+      "shoulder_contact": false,
+      "weapon_offset_body_m": [
+        0,
+        0,
+        0
+      ],
+      "weapon_offset_weapon_m": [
+        0,
+        0,
+        0
+      ],
+      "right_forearm_twist_weight": 0,
+      "right_upper_arm_twist_weight": 0,
+      "right_elbow_swivel_degrees": null,
+      "right_elbow_swivel_track": null,
+      "right_elbow_hint_weapon_m": null,
+      "right_elbow_lift_ratio": null,
+      "right_elbow_offset_body_m": null,
+      "right_elbow_from_hand_weight": 0,
+      "right_elbow_outward_weight": 0,
+      "weapon_body_clearance_track": null,
+      "support_elbow_swivel_track": null,
+      "reload_clearance_track": null,
+      "reload_support_shift_weapon_m": null
+    }
+  },
+  {
+    "weapon": "qcq171",
+    "motion": "Reloading",
+    "source": "Reviewed RifleIdle at phase 0.37, right hold and torso only; left local gesture remains released.",
+    "fields": {
+      "weapon_frame_bone": "Spine2",
+      "weapon_frame_position_native": [
+        0.15223480697300726,
+        -0.05423225930270137,
+        0.019930148038361333
+      ],
+      "weapon_frame_rotation_xyzw": [
+        -0.1266754482235605,
+        -0.10691343235707915,
+        -0.025215666403243853,
+        0.9858433030117632
+      ],
+      "upper_body_local_quaternions": {
+        "Spine1": [
+          -0.011925010348290715,
+          0.05163310896839246,
+          0.03002349115807207,
+          0.9981434797488448
+        ],
+        "Spine2": [
+          0.002541484633123829,
+          -0.051836665923624736,
+          -0.07219410857660623,
+          0.9960393944814566
+        ],
+        "Neck": [
+          -0.014127653470299793,
+          -0.12094749282166692,
+          -0.19844642527771889,
+          0.9725179155702626
+        ],
+        "Head": [
+          0.04429250837836493,
+          -0.07763075329410965,
+          -0.010451445557588056,
+          0.9959429887270086
+        ],
+        "RightShoulder": [
+          0.3913000822067261,
+          -0.6066168546676636,
+          -0.6778163909912109,
+          0.1395176500082016
+        ],
+        "RightArm": [
+          -0.2559642833630799,
+          0.6705451081170181,
+          -0.48436136109350086,
+          0.5002455552050541
+        ],
+        "RightForeArm": [
+          0.27041146242656355,
+          0.3691043606504957,
+          -0.5429292270832755,
+          0.7041785755870972
+        ],
+        "RightHand": [
+          0.3986031793046022,
+          -0.028232463671651463,
+          0.21185742983131656,
+          0.8918715506554522
+        ]
+      },
+      "shoulder_local_quaternions": {},
+      "shoulder_contact": false,
+      "weapon_offset_body_m": [
+        0,
+        0,
+        0
+      ],
+      "weapon_offset_weapon_m": [
+        0,
+        0,
+        0
+      ],
+      "right_forearm_twist_weight": 0,
+      "right_upper_arm_twist_weight": 0,
+      "right_elbow_swivel_degrees": null,
+      "right_elbow_swivel_track": null,
+      "right_elbow_hint_weapon_m": null,
+      "right_elbow_lift_ratio": null,
+      "right_elbow_offset_body_m": null,
+      "right_elbow_from_hand_weight": 0,
+      "right_elbow_outward_weight": 0,
+      "weapon_body_clearance_track": null,
+      "support_elbow_swivel_track": null,
+      "reload_clearance_track": null,
+      "reload_support_shift_weapon_m": null
+    }
+  }
+]

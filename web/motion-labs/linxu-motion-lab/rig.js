@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import { WeaponAttachment } from './weapon-attachment.js?v=linxu-v3';
+import { WeaponAttachment } from './weapon-attachment.js?v=linxu-v4';
 
 export const unarmed = [
   ['Idle','待机'],['Walk','行走'],['Run','奔跑'],['WalkingBackwards','倒退行走'],
@@ -12,8 +12,10 @@ export const oneShots = new Set(['Dying','FlyingBackDeath','HangToCrouch','Sitti
 export function prepareRig(gltf, pack, cid, config, weapons, scene) {
   const wrapper = new THREE.Group();
   const box = new THREE.Box3().setFromObject(gltf.scene), center = box.getCenter(new THREE.Vector3());
-  const scale = 1.75 / (box.max.y - box.min.y);
-  wrapper.scale.setScalar(scale); wrapper.position.set(-center.x*scale,-box.min.y*scale,-center.z*scale);
+  const authored = gltf.parser.json.asset.extras?.preview_normalization;
+  const scale = authored?.scale ?? 1.75 / (box.max.y - box.min.y);
+  if (authored?.center) center.fromArray(authored.center);
+  wrapper.scale.setScalar(scale); wrapper.position.set(-center.x*scale,-(authored?.floor ?? box.min.y)*scale,-center.z*scale);
   wrapper.add(gltf.scene); scene.add(wrapper);
   const bones = new Map();
   gltf.scene.traverse(o => {

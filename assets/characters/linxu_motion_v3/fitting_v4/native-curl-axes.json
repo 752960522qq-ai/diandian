@@ -1,0 +1,613 @@
+{
+  "method": "Native bind axes perpendicular to bone longitudinal direction and palm normal. Positive sign chosen from QBZ95 reference bend. q=bindQuaternion * axisAngle(curlAxisLocal, deltaRadians). Limits apply to final geometric angles, not delta. Thumb needs opposition separately.",
+  "hands": {
+    "Left": {
+      "palmNormalWorld": [
+        0.9200844409458369,
+        0.3915658220664458,
+        0.01099220263711161
+      ],
+      "digits": {
+        "Thumb": [
+          {
+            "joint": 1,
+            "bindQuaternion": [
+              -0.08340053260326385,
+              0.15284974873065948,
+              -0.24733515083789825,
+              0.9531561136245728
+            ],
+            "curlAxisLocal": [
+              0.9291283766385497,
+              2.645763578223992e-7,
+              0.36975734610622896
+            ],
+            "bindGeometricBendDegrees": null,
+            "suggestedFinalBendRangeDegrees": [
+              0,
+              50
+            ]
+          },
+          {
+            "joint": 2,
+            "bindQuaternion": [
+              -0.07188790291547775,
+              -0.15559779107570648,
+              0.13545548915863037,
+              0.9758449196815491
+            ],
+            "curlAxisLocal": [
+              0.9837677987353692,
+              0.000003309249091976163,
+              0.17944621029949026
+            ],
+            "bindGeometricBendDegrees": 17.642315759163445,
+            "suggestedFinalBendRangeDegrees": [
+              0,
+              65
+            ]
+          },
+          {
+            "joint": 3,
+            "bindQuaternion": [
+              9.220094199235973e-8,
+              2.514570951461792e-7,
+              5.192123353481293e-7,
+              1
+            ],
+            "curlAxisLocal": [
+              0.9837679269635387,
+              -5.402363471851412e-7,
+              0.17944550734970688
+            ],
+            "bindGeometricBendDegrees": 0.00019131198619887153,
+            "suggestedFinalBendRangeDegrees": [
+              0,
+              65
+            ]
+          }
+        ],
+        "Index": [
+          {
+            "joint": 1,
+            "bindQuaternion": [
+              -0.1696021854877472,
+              -0.04758928716182709,
+              0.02550445683300495,
+              0.9840324521064758
+            ],
+            "curlAxisLocal": [
+              -0.9976365010458329,
+              -0.0000011415989879387523,
+              -0.06871256900753397
+            ],
+            "bindGeometricBendDegrees": null,
+            "suggestedFinalBendRangeDegrees": [
+              0,
+              80
+            ]
+          },
+          {
+            "joint": 2,
+            "bindQuaternion": [
+              -0.137140691280365,
+              -0.05334675684571266,
+              0.03598242253065109,
+              0.9884593486785889
+            ],
+            "curlAxisLocal": [
+              -0.9999721485095511,
+              -7.53964666165563e-7,
+              -0.007464214955433026
+            ],
+            "bindGeometricBendDegrees": 16.301998597308923,
+            "suggestedFinalBendRangeDegrees": [
+              0,
+              100
+            ]
+          },
+          {
+            "joint": 3,
+            "bindQuaternion": [
+              -1.7578713595867157e-8,
+              6.05359673500061e-8,
+              -9.313225746154785e-10,
+              1
+            ],
+            "curlAxisLocal": [
+              -0.999972149980714,
+              -3.3368425397806156e-7,
+              -0.007464017893685098
+            ],
+            "bindGeometricBendDegrees": 0.00011878504599225103,
+            "suggestedFinalBendRangeDegrees": [
+              0,
+              75
+            ]
+          }
+        ],
+        "Middle": [
+          {
+            "joint": 1,
+            "bindQuaternion": [
+              -0.16180303692817688,
+              -0.05277552455663681,
+              0.035205304622650146,
+              0.9847817420959473
+            ],
+            "curlAxisLocal": [
+              -0.9981491593577928,
+              -5.225136447267742e-7,
+              -0.060813322336560754
+            ],
+            "bindGeometricBendDegrees": null,
+            "suggestedFinalBendRangeDegrees": [
+              0,
+              80
+            ]
+          },
+          {
+            "joint": 2,
+            "bindQuaternion": [
+              -0.172601118683815,
+              -0.0027526714839041233,
+              -0.018684091046452522,
+              0.9848107695579529
+            ],
+            "curlAxisLocal": [
+              -0.9990415885567886,
+              -0.0000014414178304417158,
+              -0.04377086342960651
+            ],
+            "bindGeometricBendDegrees": 19.99579936094958,
+            "suggestedFinalBendRangeDegrees": [
+              0,
+              100
+            ]
+          },
+          {
+            "joint": 3,
+            "bindQuaternion": [
+              7.031485438346863e-7,
+              -1.5832483768463135e-7,
+              2.2258610954395408e-7,
+              1
+            ],
+            "curlAxisLocal": [
+              -0.9990416418630411,
+              1.3420364819438646e-9,
+              -0.04376964675718339
+            ],
+            "bindGeometricBendDegrees": 0.0003717054351528037,
+            "suggestedFinalBendRangeDegrees": [
+              0,
+              75
+            ]
+          }
+        ],
+        "Ring": [
+          {
+            "joint": 1,
+            "bindQuaternion": [
+              -0.14918383955955505,
+              -0.06333502382040024,
+              0.054098185151815414,
+              0.9852950572967529
+            ],
+            "curlAxisLocal": [
+              -0.9990255535787087,
+              -0.0000010919070385639884,
+              -0.044135531765235915
+            ],
+            "bindGeometricBendDegrees": null,
+            "suggestedFinalBendRangeDegrees": [
+              0,
+              80
+            ]
+          },
+          {
+            "joint": 2,
+            "bindQuaternion": [
+              -0.21544019877910614,
+              0.019539959728717804,
+              -0.04159190505743027,
+              0.975435197353363
+            ],
+            "curlAxisLocal": [
+              -0.9990243973134145,
+              -0.0000011179482191370216,
+              -0.04416150660506733
+            ],
+            "bindGeometricBendDegrees": 25.34982353304319,
+            "suggestedFinalBendRangeDegrees": [
+              0,
+              100
+            ]
+          },
+          {
+            "joint": 3,
+            "bindQuaternion": [
+              8.293427526950836e-7,
+              -2.253800630569458e-7,
+              3.296881914138794e-7,
+              1
+            ],
+            "curlAxisLocal": [
+              -0.9990244984871121,
+              0.0000013794255213916973,
+              -0.04415921778171372
+            ],
+            "bindGeometricBendDegrees": 0.0003286984185896193,
+            "suggestedFinalBendRangeDegrees": [
+              0,
+              75
+            ]
+          }
+        ],
+        "Pinky": [
+          {
+            "joint": 1,
+            "bindQuaternion": [
+              -0.1535690873861313,
+              -0.06420723348855972,
+              0.054229363799095154,
+              0.9845573306083679
+            ],
+            "curlAxisLocal": [
+              -0.9990701980670212,
+              -7.044881937118275e-7,
+              -0.04311312406414827
+            ],
+            "bindGeometricBendDegrees": null,
+            "suggestedFinalBendRangeDegrees": [
+              0,
+              80
+            ]
+          },
+          {
+            "joint": 2,
+            "bindQuaternion": [
+              -0.21322908997535706,
+              0.0647406205534935,
+              -0.08918661624193192,
+              0.9707666039466858
+            ],
+            "curlAxisLocal": [
+              -0.9969089743593826,
+              5.496546218730636e-7,
+              -0.0785651900909055
+            ],
+            "bindGeometricBendDegrees": 26.727165942907032,
+            "suggestedFinalBendRangeDegrees": [
+              0,
+              100
+            ]
+          },
+          {
+            "joint": 3,
+            "bindQuaternion": [
+              -9.024515748023987e-7,
+              -4.3958425521850586e-7,
+              -3.2782554626464844e-7,
+              1
+            ],
+            "curlAxisLocal": [
+              -0.996908946797041,
+              -0.000001207566716260322,
+              -0.07856553981896908
+            ],
+            "bindGeometricBendDegrees": 0.00015696901891212148,
+            "suggestedFinalBendRangeDegrees": [
+              0,
+              75
+            ]
+          }
+        ]
+      }
+    },
+    "Right": {
+      "palmNormalWorld": [
+        0.9060208492086882,
+        -0.42237931928300154,
+        -0.026868781907553357
+      ],
+      "digits": {
+        "Thumb": [
+          {
+            "joint": 1,
+            "bindQuaternion": [
+              0.24270722270011902,
+              0.1970158964395523,
+              -0.07024268805980682,
+              0.9472823739051819
+            ],
+            "curlAxisLocal": [
+              -0.6240243650557319,
+              4.203566198734965e-7,
+              -0.781404888124877
+            ],
+            "bindGeometricBendDegrees": null,
+            "suggestedFinalBendRangeDegrees": [
+              0,
+              50
+            ]
+          },
+          {
+            "joint": 2,
+            "bindQuaternion": [
+              -0.041278451681137085,
+              -0.10662145167589188,
+              0.1013069748878479,
+              0.9882636070251465
+            ],
+            "curlAxisLocal": [
+              -0.8248730208208624,
+              0.0000021524524349836316,
+              -0.5653180599047628
+            ],
+            "bindGeometricBendDegrees": 12.560727743582062,
+            "suggestedFinalBendRangeDegrees": [
+              0,
+              65
+            ]
+          },
+          {
+            "joint": 3,
+            "bindQuaternion": [
+              3.0174854259712447e-7,
+              -2.8405338525772095e-7,
+              1.3993121683597565e-7,
+              1
+            ],
+            "curlAxisLocal": [
+              -0.8248753042253414,
+              -0.000005848660038859643,
+              -0.5653147280782511
+            ],
+            "bindGeometricBendDegrees": 0.00045223899244469504,
+            "suggestedFinalBendRangeDegrees": [
+              0,
+              65
+            ]
+          }
+        ],
+        "Index": [
+          {
+            "joint": 1,
+            "bindQuaternion": [
+              0.15415436029434204,
+              -0.0651426613330841,
+              0.08813469111919403,
+              0.9819496870040894
+            ],
+            "curlAxisLocal": [
+              0.9655696124103349,
+              -6.130258908138009e-7,
+              0.26014483835570873
+            ],
+            "bindGeometricBendDegrees": null,
+            "suggestedFinalBendRangeDegrees": [
+              0,
+              80
+            ]
+          },
+          {
+            "joint": 2,
+            "bindQuaternion": [
+              0.13312160968780518,
+              -0.05422314256429672,
+              0.07414399832487106,
+              0.986833930015564
+            ],
+            "curlAxisLocal": [
+              0.9954168654534632,
+              0.000001122551177401565,
+              0.09563072326189728
+            ],
+            "bindGeometricBendDegrees": 17.529469564805304,
+            "suggestedFinalBendRangeDegrees": [
+              0,
+              100
+            ]
+          },
+          {
+            "joint": 3,
+            "bindQuaternion": [
+              -0.0000011473021004348993,
+              -1.7159618437290192e-7,
+              1.227017492055893e-7,
+              1
+            ],
+            "curlAxisLocal": [
+              0.9954168216977497,
+              -3.527897116176182e-7,
+              0.09563117871937162
+            ],
+            "bindGeometricBendDegrees": 0.00018146054543481,
+            "suggestedFinalBendRangeDegrees": [
+              0,
+              75
+            ]
+          }
+        ],
+        "Middle": [
+          {
+            "joint": 1,
+            "bindQuaternion": [
+              0.14379934966564178,
+              -0.10132776945829391,
+              0.11051247268915176,
+              0.9781827330589294
+            ],
+            "curlAxisLocal": [
+              0.9844787077666171,
+              -2.051766724853188e-7,
+              0.17550409762033323
+            ],
+            "bindGeometricBendDegrees": null,
+            "suggestedFinalBendRangeDegrees": [
+              0,
+              80
+            ]
+          },
+          {
+            "joint": 2,
+            "bindQuaternion": [
+              0.16015717387199402,
+              0.005848541855812073,
+              0.01081076543778181,
+              0.9870150089263916
+            ],
+            "curlAxisLocal": [
+              0.9775263350421965,
+              6.818347063342056e-7,
+              0.21081329197177803
+            ],
+            "bindGeometricBendDegrees": 18.47450499921208,
+            "suggestedFinalBendRangeDegrees": [
+              0,
+              100
+            ]
+          },
+          {
+            "joint": 3,
+            "bindQuaternion": [
+              3.580935299396515e-7,
+              -7.916241884231567e-9,
+              1.2665987014770508e-7,
+              1
+            ],
+            "curlAxisLocal": [
+              0.9775263754639035,
+              7.983665924055083e-7,
+              0.21081310453846053
+            ],
+            "bindGeometricBendDegrees": 0.00019226216680063386,
+            "suggestedFinalBendRangeDegrees": [
+              0,
+              75
+            ]
+          }
+        ],
+        "Ring": [
+          {
+            "joint": 1,
+            "bindQuaternion": [
+              0.1508762091398239,
+              -0.10709767043590546,
+              0.11649761348962784,
+              0.9758046865463257
+            ],
+            "curlAxisLocal": [
+              0.987085351602777,
+              7.88130184739555e-7,
+              0.16019525864080822
+            ],
+            "bindGeometricBendDegrees": null,
+            "suggestedFinalBendRangeDegrees": [
+              0,
+              80
+            ]
+          },
+          {
+            "joint": 2,
+            "bindQuaternion": [
+              0.2013726681470871,
+              0.030742773786187172,
+              -0.011197257786989212,
+              0.97896808385849
+            ],
+            "curlAxisLocal": [
+              0.9553141166188278,
+              -1.696227110437043e-7,
+              0.29559249965188467
+            ],
+            "bindGeometricBendDegrees": 23.271141628110247,
+            "suggestedFinalBendRangeDegrees": [
+              0,
+              100
+            ]
+          },
+          {
+            "joint": 3,
+            "bindQuaternion": [
+              -2.169981740962612e-7,
+              5.8673325753488825e-8,
+              4.805624485015869e-7,
+              1
+            ],
+            "curlAxisLocal": [
+              0.9553140612393187,
+              -0.0000012873139026703395,
+              0.2955926786278301
+            ],
+            "bindGeometricBendDegrees": 0.00013408052339880457,
+            "suggestedFinalBendRangeDegrees": [
+              0,
+              75
+            ]
+          }
+        ],
+        "Pinky": [
+          {
+            "joint": 1,
+            "bindQuaternion": [
+              0.1434514969587326,
+              -0.12667672336101532,
+              0.1281013935804367,
+              0.9731211066246033
+            ],
+            "curlAxisLocal": [
+              0.993478953552351,
+              5.22511250503066e-7,
+              0.11401571110639394
+            ],
+            "bindGeometricBendDegrees": null,
+            "suggestedFinalBendRangeDegrees": [
+              0,
+              80
+            ]
+          },
+          {
+            "joint": 2,
+            "bindQuaternion": [
+              0.2083887755870819,
+              0.0619749091565609,
+              -0.04628496244549751,
+              0.9749825596809387
+            ],
+            "curlAxisLocal": [
+              0.934170306653308,
+              0.0000013957561678101804,
+              0.35682745399347804
+            ],
+            "bindGeometricBendDegrees": 24.65116688894986,
+            "suggestedFinalBendRangeDegrees": [
+              0,
+              100
+            ]
+          },
+          {
+            "joint": 3,
+            "bindQuaternion": [
+              4.20492170860598e-7,
+              1.4062970876693726e-7,
+              -8.419156074523926e-7,
+              1
+            ],
+            "curlAxisLocal": [
+              0.9341689046117383,
+              -5.483748355405993e-7,
+              0.3568311245037239
+            ],
+            "bindGeometricBendDegrees": 0.00039397005382762817,
+            "suggestedFinalBendRangeDegrees": [
+              0,
+              75
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

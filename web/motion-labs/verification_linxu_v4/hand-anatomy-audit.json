@@ -1,0 +1,384 @@
+{
+  "scope": "Initial anatomy/weight inspection. Finger poses from initial investigation are omitted. Weight arrays were not repainted in V4. Final posed geometry is checked in dense-collisions.json.",
+  "weights": [
+    {
+      "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+      "vertices": 33376,
+      "hand": 3863,
+      "crossDigitAbovePoint1": 391,
+      "nonNormalized": 0,
+      "offhand": 503,
+      "byDigit": {
+        "RightHandMiddle": 285,
+        "RightHandIndex": 302,
+        "RightHandThumb": 274,
+        "RightHandRing": 286,
+        "RightHandPinky": 311,
+        "LeftHandThumb": 266,
+        "LeftHandIndex": 295,
+        "LeftHandMiddle": 277,
+        "LeftHandRing": 307,
+        "LeftHandPinky": 321
+      },
+      "examples": [
+        {
+          "i": 3708,
+          "inf": [
+            {
+              "name": "mixamorigRightHandIndex1",
+              "w": 0.8981667160987854
+            },
+            {
+              "name": "mixamorigRightHandMiddle1",
+              "w": 0.10183330625295639
+            }
+          ]
+        },
+        {
+          "i": 3709,
+          "inf": [
+            {
+              "name": "mixamorigRightHandIndex1",
+              "w": 0.8981667160987854
+            },
+            {
+              "name": "mixamorigRightHandMiddle1",
+              "w": 0.10183330625295639
+            }
+          ]
+        },
+        {
+          "i": 3715,
+          "inf": [
+            {
+              "name": "mixamorigRightHandIndex1",
+              "w": 0.7470256686210632
+            },
+            {
+              "name": "mixamorigRightHandMiddle1",
+              "w": 0.2529743015766144
+            }
+          ]
+        },
+        {
+          "i": 3716,
+          "inf": [
+            {
+              "name": "mixamorigRightHandIndex1",
+              "w": 0.7470256686210632
+            },
+            {
+              "name": "mixamorigRightHandMiddle1",
+              "w": 0.2529743015766144
+            }
+          ]
+        },
+        {
+          "i": 3717,
+          "inf": [
+            {
+              "name": "mixamorigRightHandIndex1",
+              "w": 0.7470256686210632
+            },
+            {
+              "name": "mixamorigRightHandMiddle1",
+              "w": 0.2529743015766144
+            }
+          ]
+        },
+        {
+          "i": 3718,
+          "inf": [
+            {
+              "name": "mixamorigRightHandIndex1",
+              "w": 0.7658216953277588
+            },
+            {
+              "name": "mixamorigRightHandMiddle1",
+              "w": 0.23417828977108002
+            }
+          ]
+        },
+        {
+          "i": 3719,
+          "inf": [
+            {
+              "name": "mixamorigRightHandIndex1",
+              "w": 0.7658216953277588
+            },
+            {
+              "name": "mixamorigRightHandMiddle1",
+              "w": 0.23417828977108002
+            }
+          ]
+        },
+        {
+          "i": 3722,
+          "inf": [
+            {
+              "name": "mixamorigRightHandMiddle1",
+              "w": 0.8495396971702576
+            },
+            {
+              "name": "mixamorigRightHandIndex1",
+              "w": 0.15046030282974243
+            }
+          ]
+        },
+        {
+          "i": 3723,
+          "inf": [
+            {
+              "name": "mixamorigRightHandMiddle1",
+              "w": 0.8495396971702576
+            },
+            {
+              "name": "mixamorigRightHandIndex1",
+              "w": 0.15046030282974243
+            }
+          ]
+        },
+        {
+          "i": 3724,
+          "inf": [
+            {
+              "name": "mixamorigRightHandMiddle1",
+              "w": 0.8495396971702576
+            },
+            {
+              "name": "mixamorigRightHandIndex1",
+              "w": 0.15046030282974243
+            }
+          ]
+        },
+        {
+          "i": 3733,
+          "inf": [
+            {
+              "name": "mixamorigRightHandMiddle1",
+              "w": 0.8340739011764526
+            },
+            {
+              "name": "mixamorigRightHandIndex1",
+              "w": 0.16592608392238617
+            }
+          ]
+        },
+        {
+          "i": 3734,
+          "inf": [
+            {
+              "name": "mixamorigRightHandMiddle1",
+              "w": 0.8340739011764526
+            },
+            {
+              "name": "mixamorigRightHandIndex1",
+              "w": 0.16592608392238617
+            }
+          ]
+        },
+        {
+          "i": 3735,
+          "inf": [
+            {
+              "name": "mixamorigRightHandMiddle1",
+              "w": 0.8340739011764526
+            },
+            {
+              "name": "mixamorigRightHandIndex1",
+              "w": 0.16592608392238617
+            }
+          ]
+        },
+        {
+          "i": 4067,
+          "inf": [
+            {
+              "name": "mixamorigRightHandIndex1",
+              "w": 0.847758412361145
+            },
+            {
+              "name": "mixamorigRightHandMiddle1",
+              "w": 0.15224158763885498
+            }
+          ]
+        },
+        {
+          "i": 4068,
+          "inf": [
+            {
+              "name": "mixamorigRightHandIndex1",
+              "w": 0.847758412361145
+            },
+            {
+              "name": "mixamorigRightHandMiddle1",
+              "w": 0.15224158763885498
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4_1",
+      "vertices": 41324,
+      "hand": 0,
+      "crossDigitAbovePoint1": 0,
+      "nonNormalized": 0,
+      "offhand": 0,
+      "byDigit": {},
+      "examples": []
+    },
+    {
+      "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4_2",
+      "vertices": 506,
+      "hand": 0,
+      "crossDigitAbovePoint1": 0,
+      "nonNormalized": 0,
+      "offhand": 0,
+      "byDigit": {},
+      "examples": []
+    },
+    {
+      "mesh": "meshes0001",
+      "vertices": 9678,
+      "hand": 0,
+      "crossDigitAbovePoint1": 0,
+      "nonNormalized": 0,
+      "offhand": 0,
+      "byDigit": {},
+      "examples": []
+    },
+    {
+      "mesh": "meshes0001_1",
+      "vertices": 926,
+      "hand": 0,
+      "crossDigitAbovePoint1": 0,
+      "nonNormalized": 0,
+      "offhand": 0,
+      "byDigit": {},
+      "examples": []
+    }
+  ],
+  "lengths": [
+    {
+      "side": "Left",
+      "digit": "Thumb",
+      "target": [
+        0.03653638387577059,
+        0.03502237134952401
+      ],
+      "source": [
+        0.03935164825637649,
+        0.03595180031124211
+      ]
+    },
+    {
+      "side": "Left",
+      "digit": "Index",
+      "target": [
+        0.0410919852990271,
+        0.02342699096544189
+      ],
+      "source": [
+        0.034717311714033396,
+        0.0281134538863689
+      ]
+    },
+    {
+      "side": "Left",
+      "digit": "Middle",
+      "target": [
+        0.04581045715227483,
+        0.024998712347717205
+      ],
+      "source": [
+        0.03478437747320678,
+        0.0275914657886876
+      ]
+    },
+    {
+      "side": "Left",
+      "digit": "Ring",
+      "target": [
+        0.04002165844117682,
+        0.023541150309546073
+      ],
+      "source": [
+        0.029049341524591085,
+        0.023339444329572585
+      ]
+    },
+    {
+      "side": "Left",
+      "digit": "Pinky",
+      "target": [
+        0.030470464565500312,
+        0.01987012923920305
+      ],
+      "source": [
+        0.03119535713562821,
+        0.02177437529046022
+      ]
+    },
+    {
+      "side": "Right",
+      "digit": "Thumb",
+      "target": [
+        0.04278917023820011,
+        0.03691411727090714
+      ],
+      "source": [
+        0.0386860580352092,
+        0.036560425876689215
+      ]
+    },
+    {
+      "side": "Right",
+      "digit": "Index",
+      "target": [
+        0.041265529660561656,
+        0.02434528748433336
+      ],
+      "source": [
+        0.037180488644409024,
+        0.02796496609094145
+      ]
+    },
+    {
+      "side": "Right",
+      "digit": "Middle",
+      "target": [
+        0.04669104764111373,
+        0.025635341287656224
+      ],
+      "source": [
+        0.03740292316772756,
+        0.027525341519485165
+      ]
+    },
+    {
+      "side": "Right",
+      "digit": "Ring",
+      "target": [
+        0.041847626010311036,
+        0.02454674870608836
+      ],
+      "source": [
+        0.029049359733314004,
+        0.023339402614872218
+      ]
+    },
+    {
+      "side": "Right",
+      "digit": "Pinky",
+      "target": [
+        0.03228205270461586,
+        0.019529719109212303
+      ],
+      "source": [
+        0.032571805448694646,
+        0.02177421637391023
+      ]
+    }
+  ]
+}

@@ -79,3 +79,6 @@ assets/characters/resistance_r48/**/*.glb filter=lfs diff=lfs merge=lfs -text
 
 # Linxu V3 shoulder refinement and equipped animation bake.
 assets/characters/linxu_motion_v3/*.glb filter=lfs diff=lfs merge=lfs -text
+
+# Supplied 8K Linxu apartment scene.
+assets/scenes/linxu_apartment/**/*.glb filter=lfs diff=lfs merge=lfs -text

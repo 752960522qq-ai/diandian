@@ -1,0 +1,518 @@
+[
+  {
+    "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+    "crossCount": 391,
+    "distalCount": 31,
+    "distalExamples": [
+      {
+        "vertex": 4238,
+        "alongProximal": 1.2072890873001607,
+        "influences": [
+          {
+            "name": "mixamorigRightHandThumb2",
+            "w": 0.7159222960472107,
+            "digit": "RightThumb",
+            "joint": 2
+          },
+          {
+            "name": "mixamorigRightHandThumb1",
+            "w": 0.1487247198820114,
+            "digit": "RightThumb",
+            "joint": 1
+          },
+          {
+            "name": "mixamorigRightHandIndex1",
+            "w": 0.12848882377147675,
+            "digit": "RightIndex",
+            "joint": 1
+          }
+        ]
+      },
+      {
+        "vertex": 4239,
+        "alongProximal": 1.2072890873001607,
+        "influences": [
+          {
+            "name": "mixamorigRightHandThumb2",
+            "w": 0.7159222960472107,
+            "digit": "RightThumb",
+            "joint": 2
+          },
+          {
+            "name": "mixamorigRightHandThumb1",
+            "w": 0.1487247198820114,
+            "digit": "RightThumb",
+            "joint": 1
+          },
+          {
+            "name": "mixamorigRightHandIndex1",
+            "w": 0.12848882377147675,
+            "digit": "RightIndex",
+            "joint": 1
+          }
+        ]
+      },
+      {
+        "vertex": 4240,
+        "alongProximal": 1.2072890873001607,
+        "influences": [
+          {
+            "name": "mixamorigRightHandThumb2",
+            "w": 0.7159222960472107,
+            "digit": "RightThumb",
+            "joint": 2
+          },
+          {
+            "name": "mixamorigRightHandThumb1",
+            "w": 0.1487247198820114,
+            "digit": "RightThumb",
+            "joint": 1
+          },
+          {
+            "name": "mixamorigRightHandIndex1",
+            "w": 0.12848882377147675,
+            "digit": "RightIndex",
+            "joint": 1
+          }
+        ]
+      },
+      {
+        "vertex": 4241,
+        "alongProximal": 1.2072890873001607,
+        "influences": [
+          {
+            "name": "mixamorigRightHandThumb2",
+            "w": 0.7159222960472107,
+            "digit": "RightThumb",
+            "joint": 2
+          },
+          {
+            "name": "mixamorigRightHandThumb1",
+            "w": 0.1487247198820114,
+            "digit": "RightThumb",
+            "joint": 1
+          },
+          {
+            "name": "mixamorigRightHandIndex1",
+            "w": 0.12848882377147675,
+            "digit": "RightIndex",
+            "joint": 1
+          }
+        ]
+      },
+      {
+        "vertex": 4266,
+        "alongProximal": 1.0664044258416179,
+        "influences": [
+          {
+            "name": "mixamorigRightHandThumb2",
+            "w": 0.37168753147125244,
+            "digit": "RightThumb",
+            "joint": 2
+          },
+          {
+            "name": "mixamorigRightHandThumb1",
+            "w": 0.3523057699203491,
+            "digit": "RightThumb",
+            "joint": 1
+          },
+          {
+            "name": "mixamorigRightHandIndex1",
+            "w": 0.15914298593997955,
+            "digit": "RightIndex",
+            "joint": 1
+          }
+        ]
+      },
+      {
+        "vertex": 5119,
+        "alongProximal": 1.076873308934745,
+        "influences": [
+          {
+            "name": "mixamorigRightHandThumb1",
+            "w": 0.5070001482963562,
+            "digit": "RightThumb",
+            "joint": 1
+          },
+          {
+            "name": "mixamorigRightHandThumb2",
+            "w": 0.3444531559944153,
+            "digit": "RightThumb",
+            "joint": 2
+          },
+          {
+            "name": "mixamorigRightHandIndex1",
+            "w": 0.1485467106103897,
+            "digit": "RightIndex",
+            "joint": 1
+          }
+        ]
+      },
+      {
+        "vertex": 5120,
+        "alongProximal": 1.076873308934745,
+        "influences": [
+          {
+            "name": "mixamorigRightHandThumb1",
+            "w": 0.5070001482963562,
+            "digit": "RightThumb",
+            "joint": 1
+          },
+          {
+            "name": "mixamorigRightHandThumb2",
+            "w": 0.3444531559944153,
+            "digit": "RightThumb",
+            "joint": 2
+          },
+          {
+            "name": "mixamorigRightHandIndex1",
+            "w": 0.1485467106103897,
+            "digit": "RightIndex",
+            "joint": 1
+          }
+        ]
+      },
+      {
+        "vertex": 5121,
+        "alongProximal": 1.076873308934745,
+        "influences": [
+          {
+            "name": "mixamorigRightHandThumb1",
+            "w": 0.5070001482963562,
+            "digit": "RightThumb",
+            "joint": 1
+          },
+          {
+            "name": "mixamorigRightHandThumb2",
+            "w": 0.3444531559944153,
+            "digit": "RightThumb",
+            "joint": 2
+          },
+          {
+            "name": "mixamorigRightHandIndex1",
+            "w": 0.1485467106103897,
+            "digit": "RightIndex",
+            "joint": 1
+          }
+        ]
+      },
+      {
+        "vertex": 5122,
+        "alongProximal": 0.9573609175712539,
+        "influences": [
+          {
+            "name": "mixamorigRightHandThumb1",
+            "w": 0.5222022533416748,
+            "digit": "RightThumb",
+            "joint": 1
+          },
+          {
+            "name": "mixamorigRightHandIndex1",
+            "w": 0.3048391044139862,
+            "digit": "RightIndex",
+            "joint": 1
+          },
+          {
+            "name": "mixamorigRightHandThumb2",
+            "w": 0.1553758680820465,
+            "digit": "RightThumb",
+            "joint": 2
+          }
+        ]
+      },
+      {
+        "vertex": 5123,
+        "alongProximal": 0.9573609175712539,
+        "influences": [
+          {
+            "name": "mixamorigRightHandThumb1",
+            "w": 0.5222022533416748,
+            "digit": "RightThumb",
+            "joint": 1
+          },
+          {
+            "name": "mixamorigRightHandIndex1",
+            "w": 0.3048391044139862,
+            "digit": "RightIndex",
+            "joint": 1
+          },
+          {
+            "name": "mixamorigRightHandThumb2",
+            "w": 0.1553758680820465,
+            "digit": "RightThumb",
+            "joint": 2
+          }
+        ]
+      },
+      {
+        "vertex": 5124,
+        "alongProximal": 0.9573609175712539,
+        "influences": [
+          {
+            "name": "mixamorigRightHandThumb1",
+            "w": 0.5222022533416748,
+            "digit": "RightThumb",
+            "joint": 1
+          },
+          {
+            "name": "mixamorigRightHandIndex1",
+            "w": 0.3048391044139862,
+            "digit": "RightIndex",
+            "joint": 1
+          },
+          {
+            "name": "mixamorigRightHandThumb2",
+            "w": 0.1553758680820465,
+            "digit": "RightThumb",
+            "joint": 2
+          }
+        ]
+      },
+      {
+        "vertex": 5128,
+        "alongProximal": 1.1475337684862277,
+        "influences": [
+          {
+            "name": "mixamorigRightHandThumb2",
+            "w": 0.4438598155975342,
+            "digit": "RightThumb",
+            "joint": 2
+          },
+          {
+            "name": "mixamorigRightHandThumb1",
+            "w": 0.26608777046203613,
+            "digit": "RightThumb",
+            "joint": 1
+          },
+          {
+            "name": "mixamorigRightHandIndex1",
+            "w": 0.25763753056526184,
+            "digit": "RightIndex",
+            "joint": 1
+          }
+        ]
+      },
+      {
+        "vertex": 5129,
+        "alongProximal": 1.1475337684862277,
+        "influences": [
+          {
+            "name": "mixamorigRightHandThumb2",
+            "w": 0.4438598155975342,
+            "digit": "RightThumb",
+            "joint": 2
+          },
+          {
+            "name": "mixamorigRightHandThumb1",
+            "w": 0.26608777046203613,
+            "digit": "RightThumb",
+            "joint": 1
+          },
+          {
+            "name": "mixamorigRightHandIndex1",
+            "w": 0.25763753056526184,
+            "digit": "RightIndex",
+            "joint": 1
+          }
+        ]
+      },
+      {
+        "vertex": 5130,
+        "alongProximal": 0.8657627812456821,
+        "influences": [
+          {
+            "name": "mixamorigRightHandThumb1",
+            "w": 0.269176185131073,
+            "digit": "RightThumb",
+            "joint": 1
+          },
+          {
+            "name": "mixamorigRightHandIndex1",
+            "w": 0.12600305676460266,
+            "digit": "RightIndex",
+            "joint": 1
+          },
+          {
+            "name": "mixamorigRightHandThumb2",
+            "w": 0.10403740406036377,
+            "digit": "RightThumb",
+            "joint": 2
+          }
+        ]
+      },
+      {
+        "vertex": 5131,
+        "alongProximal": 0.8657627812456821,
+        "influences": [
+          {
+            "name": "mixamorigRightHandThumb1",
+            "w": 0.269176185131073,
+            "digit": "RightThumb",
+            "joint": 1
+          },
+          {
+            "name": "mixamorigRightHandIndex1",
+            "w": 0.12600305676460266,
+            "digit": "RightIndex",
+            "joint": 1
+          },
+          {
+            "name": "mixamorigRightHandThumb2",
+            "w": 0.10403740406036377,
+            "digit": "RightThumb",
+            "joint": 2
+          }
+        ]
+      },
+      {
+        "vertex": 21376,
+        "alongProximal": 1.1496578146930903,
+        "influences": [
+          {
+            "name": "mixamorigLeftHandThumb2",
+            "w": 0.7131931781768799,
+            "digit": "LeftThumb",
+            "joint": 2
+          },
+          {
+            "name": "mixamorigLeftHandThumb1",
+            "w": 0.16025462746620178,
+            "digit": "LeftThumb",
+            "joint": 1
+          },
+          {
+            "name": "mixamorigLeftHandIndex1",
+            "w": 0.12582355737686157,
+            "digit": "LeftIndex",
+            "joint": 1
+          }
+        ]
+      },
+      {
+        "vertex": 21377,
+        "alongProximal": 1.1496578146930903,
+        "influences": [
+          {
+            "name": "mixamorigLeftHandThumb2",
+            "w": 0.7131931781768799,
+            "digit": "LeftThumb",
+            "joint": 2
+          },
+          {
+            "name": "mixamorigLeftHandThumb1",
+            "w": 0.16025462746620178,
+            "digit": "LeftThumb",
+            "joint": 1
+          },
+          {
+            "name": "mixamorigLeftHandIndex1",
+            "w": 0.12582355737686157,
+            "digit": "LeftIndex",
+            "joint": 1
+          }
+        ]
+      },
+      {
+        "vertex": 21378,
+        "alongProximal": 1.1496578146930903,
+        "influences": [
+          {
+            "name": "mixamorigLeftHandThumb2",
+            "w": 0.7131931781768799,
+            "digit": "LeftThumb",
+            "joint": 2
+          },
+          {
+            "name": "mixamorigLeftHandThumb1",
+            "w": 0.16025462746620178,
+            "digit": "LeftThumb",
+            "joint": 1
+          },
+          {
+            "name": "mixamorigLeftHandIndex1",
+            "w": 0.12582355737686157,
+            "digit": "LeftIndex",
+            "joint": 1
+          }
+        ]
+      },
+      {
+        "vertex": 21384,
+        "alongProximal": 0.9815524911671335,
+        "influences": [
+          {
+            "name": "mixamorigLeftHandThumb1",
+            "w": 0.36806315183639526,
+            "digit": "LeftThumb",
+            "joint": 1
+          },
+          {
+            "name": "mixamorigLeftHandThumb2",
+            "w": 0.3673758804798126,
+            "digit": "LeftThumb",
+            "joint": 2
+          },
+          {
+            "name": "mixamorigLeftHandIndex1",
+            "w": 0.1578950732946396,
+            "digit": "LeftIndex",
+            "joint": 1
+          }
+        ]
+      },
+      {
+        "vertex": 21464,
+        "alongProximal": 0.9648024406195761,
+        "influences": [
+          {
+            "name": "mixamorigLeftHandThumb1",
+            "w": 0.31560346484184265,
+            "digit": "LeftThumb",
+            "joint": 1
+          },
+          {
+            "name": "mixamorigLeftHandIndex1",
+            "w": 0.27775365114212036,
+            "digit": "LeftIndex",
+            "joint": 1
+          },
+          {
+            "name": "mixamorigLeftHandThumb2",
+            "w": 0.25323984026908875,
+            "digit": "LeftThumb",
+            "joint": 2
+          }
+        ]
+      }
+    ],
+    "maxAlongProximal": 1.2072890873001607
+  },
+  {
+    "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4_1",
+    "crossCount": 0,
+    "distalCount": 0,
+    "distalExamples": [],
+    "maxAlongProximal": null
+  },
+  {
+    "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4_2",
+    "crossCount": 0,
+    "distalCount": 0,
+    "distalExamples": [],
+    "maxAlongProximal": null
+  },
+  {
+    "mesh": "meshes0001",
+    "crossCount": 0,
+    "distalCount": 0,
+    "distalExamples": [],
+    "maxAlongProximal": null
+  },
+  {
+    "mesh": "meshes0001_1",
+    "crossCount": 0,
+    "distalCount": 0,
+    "distalExamples": [],
+    "maxAlongProximal": null
+  }
+]

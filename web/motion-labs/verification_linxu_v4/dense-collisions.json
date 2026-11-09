@@ -1,0 +1,3056 @@
+{
+  "sourceHashes": {
+    "web/motion-labs/linxu-motion-lab/assets/weapon_attachment.json": "98c9089b45d9154b66c36f92318091ff4b882d515ecc8b72c4b21a0323d41183",
+    "web/motion-labs/linxu-motion-lab/weapon-attachment.js": "47c9102fbb24385f6f40201785b21bcbd64fcb153f3d6c8a59de847459339264",
+    "web/motion-labs/linxu-motion-lab/reference-grip.js": "5c18de9b5f44a9db3f2d67d1e4bc5d49bf8602c1c088bf598613257a56e58aeb",
+    "web/motion-labs/linxu-motion-lab/assets/characters/linxu/character.glb": "71f8f6a2562397e82c6e9f102ea4f2cd358b135486a30cb63777f49914ba54c9"
+  },
+  "method": "All vertices with >35% dominant hand/arm/torso/head/neck weights, every 30 fps base action frame and 240 fps firing/pump frame. Inside requires negative nearest normal and >=12 of 14 deduplicated ray-parity votes. Reports penetrations deeper than 0.5 mm.",
+  "limits": [
+    "Vertex samples can miss triangle-interior crossings; not continuous triangle-triangle collision proof.",
+    "Gun meshes have open/nonmanifold/overlapping surfaces. Parity agreement is diagnostic, not a guaranteed solid-volume classification.",
+    "No finger self-collision or clothing-body self-collision proof."
+  ],
+  "vertexCount": 39086,
+  "rows": [
+    {
+      "weapon": "qbu85",
+      "motion": "RifleIdle",
+      "duration": 8.566666603088379,
+      "fps": 30,
+      "frames": 258,
+      "maxDepthMm": 0.7627241367595231,
+      "maxHandDepthMm": 0.7627241367595231,
+      "maxBodyDepthMm": 0,
+      "maxRightAnchorMm": 0.00010694545485490572,
+      "maxLeftAnchorMm": 0.00010046799031077698,
+      "maxReloadClearanceErrorMm": 0,
+      "byRegion": {
+        "Left:Ring": {
+          "verticesAcrossFrames": 1548,
+          "maxDepthMm": 0.7627241367595231
+        }
+      },
+      "worstFrames": [
+        {
+          "frame": 83,
+          "time": 2.766666646133601,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7627241367595231
+        },
+        {
+          "frame": 160,
+          "time": 5.33333329375152,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7627220553337493
+        },
+        {
+          "frame": 26,
+          "time": 0.866666660234622,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7627218265388148
+        },
+        {
+          "frame": 150,
+          "time": 4.9999999628920495,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7627206334756476
+        },
+        {
+          "frame": 29,
+          "time": 0.966666659492463,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7627204040796138
+        },
+        {
+          "frame": 135,
+          "time": 4.499999966602845,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7627202403492312
+        },
+        {
+          "frame": 152,
+          "time": 5.066666629063944,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7627202401791
+        },
+        {
+          "frame": 22,
+          "time": 0.7333333278908339,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7627200640057245
+        },
+        {
+          "frame": 122,
+          "time": 4.066666636485534,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7627198035025414
+        },
+        {
+          "frame": 220,
+          "time": 7.33333327890834,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7627195101551733
+        }
+      ]
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "RifleWalk",
+      "duration": 1.2999999523162842,
+      "fps": 30,
+      "frames": 40,
+      "maxDepthMm": 0.7626937040181504,
+      "maxHandDepthMm": 0.7626937040181504,
+      "maxBodyDepthMm": 0,
+      "maxRightAnchorMm": 0.000181425816648454,
+      "maxLeftAnchorMm": 0.00010793669500349602,
+      "maxReloadClearanceErrorMm": 0,
+      "byRegion": {
+        "Left:Ring": {
+          "verticesAcrossFrames": 240,
+          "maxDepthMm": 0.7626937040181504
+        }
+      },
+      "worstFrames": [
+        {
+          "frame": 31,
+          "time": 1.0333332954308925,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7626937040181504
+        },
+        {
+          "frame": 30,
+          "time": 0.9999999633202186,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7626907942330106
+        },
+        {
+          "frame": 32,
+          "time": 1.0666666275415666,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7626905124624634
+        },
+        {
+          "frame": 11,
+          "time": 0.3666666532174135,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7626752744678164
+        },
+        {
+          "frame": 34,
+          "time": 1.1333332917629144,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.762673059290672
+        },
+        {
+          "frame": 14,
+          "time": 0.4666666495494353,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.762669851623712
+        },
+        {
+          "frame": 33,
+          "time": 1.0999999596522405,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7626686497219494
+        },
+        {
+          "frame": 12,
+          "time": 0.39999998532808745,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7626662911245358
+        },
+        {
+          "frame": 28,
+          "time": 0.9333332990988706,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7626639443924011
+        },
+        {
+          "frame": 29,
+          "time": 0.9666666312095447,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7626618612798381
+        }
+      ]
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "RifleRun",
+      "duration": 0.6666666865348816,
+      "fps": 30,
+      "frames": 22,
+      "maxDepthMm": 0.762750983984752,
+      "maxHandDepthMm": 0.762750983984752,
+      "maxBodyDepthMm": 0,
+      "maxRightAnchorMm": 0.00011200935387135873,
+      "maxLeftAnchorMm": 0.00020626719172630754,
+      "maxReloadClearanceErrorMm": 0,
+      "byRegion": {
+        "Left:Ring": {
+          "verticesAcrossFrames": 132,
+          "maxDepthMm": 0.762750983984752
+        }
+      },
+      "worstFrames": [
+        {
+          "frame": 21,
+          "time": 0.6666666865348816,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.762750983984752
+        },
+        {
+          "frame": 7,
+          "time": 0.22222222884496054,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7627465927013227
+        },
+        {
+          "frame": 5,
+          "time": 0.15873016346068608,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.762744584720662
+        },
+        {
+          "frame": 6,
+          "time": 0.19047619615282332,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7627422447510959
+        },
+        {
+          "frame": 0,
+          "time": 0,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7627358936815901
+        },
+        {
+          "frame": 4,
+          "time": 0.12698413076854886,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7627344880826485
+        },
+        {
+          "frame": 8,
+          "time": 0.25396826153709773,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7627295705685702
+        },
+        {
+          "frame": 1,
+          "time": 0.031746032692137216,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.762723744151794
+        },
+        {
+          "frame": 2,
+          "time": 0.06349206538427443,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7627120626502384
+        },
+        {
+          "frame": 3,
+          "time": 0.09523809807641166,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7627090575102292
+        }
+      ]
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "RifleAimingIdle",
+      "duration": 3.0999999046325684,
+      "fps": 30,
+      "frames": 94,
+      "maxDepthMm": 0.7627294681834956,
+      "maxHandDepthMm": 0.7627294681834956,
+      "maxBodyDepthMm": 0,
+      "maxRightAnchorMm": 0.00012083114034489052,
+      "maxLeftAnchorMm": 0.00016556160029130443,
+      "maxReloadClearanceErrorMm": 0,
+      "byRegion": {
+        "Left:Ring": {
+          "verticesAcrossFrames": 564,
+          "maxDepthMm": 0.7627294681834956
+        }
+      },
+      "worstFrames": [
+        {
+          "frame": 71,
+          "time": 2.366666593859273,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7627294681834956
+        },
+        {
+          "frame": 82,
+          "time": 2.7333332492459204,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7627278668642031
+        },
+        {
+          "frame": 58,
+          "time": 1.9333332738568705,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.762725178901031
+        },
+        {
+          "frame": 72,
+          "time": 2.39999992616715,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7627201895591734
+        },
+        {
+          "frame": 59,
+          "time": 1.9666666061647478,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7627184842234449
+        },
+        {
+          "frame": 65,
+          "time": 2.16666660001201,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7627172050718706
+        },
+        {
+          "frame": 57,
+          "time": 1.8999999415489934,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7627169747687428
+        },
+        {
+          "frame": 61,
+          "time": 2.033333270780502,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7627164000088071
+        },
+        {
+          "frame": 75,
+          "time": 2.499999923090781,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7627160670216588
+        },
+        {
+          "frame": 2,
+          "time": 0.06666666461575416,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27636,
+          "depthMm": 0.7627159542098408
+        }
+      ]
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "FiringRifle",
+      "duration": 0.2666666805744171,
+      "fps": 240,
+      "frames": 66,
+      "maxDepthMm": 1.3079240957901963,
+      "maxHandDepthMm": 0.762723249613434,
+      "maxBodyDepthMm": 1.3079240957901963,
+      "maxRightAnchorMm": 9.104894347770231e-05,
+      "maxLeftAnchorMm": 0.0001609273915687748,
+      "maxReloadClearanceErrorMm": 0,
+      "byRegion": {
+        "Left:Ring": {
+          "verticesAcrossFrames": 396,
+          "maxDepthMm": 0.762723249613434
+        },
+        "Right:Shoulder": {
+          "verticesAcrossFrames": 136,
+          "maxDepthMm": 1.3079240957901963
+        }
+      },
+      "worstFrames": [
+        {
+          "frame": 22,
+          "time": 0.09025641496364888,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 6924,
+          "depthMm": 1.3079240957901963
+        },
+        {
+          "frame": 21,
+          "time": 0.08615385064711938,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 6924,
+          "depthMm": 1.2988817555788075
+        },
+        {
+          "frame": 20,
+          "time": 0.08205128633058988,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 6924,
+          "depthMm": 1.2613437155499532
+        },
+        {
+          "frame": 23,
+          "time": 0.09435897928017836,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 6924,
+          "depthMm": 1.259897468779022
+        },
+        {
+          "frame": 19,
+          "time": 0.07794872201406039,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 6924,
+          "depthMm": 1.2238442067222912
+        },
+        {
+          "frame": 24,
+          "time": 0.09846154359670786,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 6924,
+          "depthMm": 1.211851016309567
+        },
+        {
+          "frame": 18,
+          "time": 0.07384615769753089,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 6924,
+          "depthMm": 1.1863830861776845
+        },
+        {
+          "frame": 25,
+          "time": 0.10256410791323735,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 6924,
+          "depthMm": 1.163784885640511
+        },
+        {
+          "frame": 17,
+          "time": 0.0697435933810014,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 6924,
+          "depthMm": 1.1489602105699523
+        },
+        {
+          "frame": 26,
+          "time": 0.10666667222976685,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 6924,
+          "depthMm": 1.1156992242897608
+        }
+      ]
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "Reloading",
+      "duration": 3.299999952316284,
+      "fps": 30,
+      "frames": 100,
+      "maxDepthMm": 1.2703173318689285,
+      "maxHandDepthMm": 0,
+      "maxBodyDepthMm": 1.2703173318689285,
+      "maxRightAnchorMm": 0.0001379861877691305,
+      "maxLeftAnchorMm": 0,
+      "maxReloadClearanceErrorMm": 0.00039780560760851807,
+      "byRegion": {
+        "Right:ForeArm": {
+          "verticesAcrossFrames": 11,
+          "maxDepthMm": 1.0068206178165233
+        },
+        "Body:HeadNeck": {
+          "verticesAcrossFrames": 3,
+          "maxDepthMm": 1.2703173318689285
+        }
+      },
+      "worstFrames": [
+        {
+          "frame": 79,
+          "time": 2.6333332952826916,
+          "region": "Body:HeadNeck",
+          "mesh": "meshes0001",
+          "vertex": 3952,
+          "depthMm": 1.2703173318689285
+        },
+        {
+          "frame": 50,
+          "time": 1.666666642583982,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 11937,
+          "depthMm": 1.0068206178165233
+        },
+        {
+          "frame": 49,
+          "time": 1.6333333097323022,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 11937,
+          "depthMm": 0.6358757245980903
+        },
+        {
+          "frame": 5,
+          "time": 0.16666666425839818,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 11929,
+          "depthMm": 0.6259177329822424
+        },
+        {
+          "frame": 64,
+          "time": 2.1333333025074968,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 11937,
+          "depthMm": 0.5726057946839441
+        },
+        {
+          "frame": 58,
+          "time": 1.933333305397419,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 11937,
+          "depthMm": 0.5617175496822931
+        }
+      ]
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleIdle",
+      "duration": 8.566666603088379,
+      "fps": 30,
+      "frames": 258,
+      "maxDepthMm": 1.8764137279208564,
+      "maxHandDepthMm": 1.8764137279208564,
+      "maxBodyDepthMm": 0,
+      "maxRightAnchorMm": 0.00023243180906541637,
+      "maxLeftAnchorMm": 0.00018203118796906515,
+      "maxReloadClearanceErrorMm": 0,
+      "byRegion": {
+        "Left:Index": {
+          "verticesAcrossFrames": 9030,
+          "maxDepthMm": 1.8764137279208564
+        },
+        "Left:Thumb": {
+          "verticesAcrossFrames": 774,
+          "maxDepthMm": 0.5655698359042374
+        }
+      },
+      "worstFrames": [
+        {
+          "frame": 242,
+          "time": 8.066666606799174,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8764137279208564
+        },
+        {
+          "frame": 28,
+          "time": 0.933333326406516,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8764137066239557
+        },
+        {
+          "frame": 217,
+          "time": 7.233333279650499,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8764135513403821
+        },
+        {
+          "frame": 203,
+          "time": 6.766666616447241,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8764132034017067
+        },
+        {
+          "frame": 251,
+          "time": 8.366666604572696,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8764128860065061
+        },
+        {
+          "frame": 120,
+          "time": 3.99999997031364,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8764125895886394
+        },
+        {
+          "frame": 7,
+          "time": 0.233333331601629,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8764124059332215
+        },
+        {
+          "frame": 118,
+          "time": 3.9333333041417458,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8764122431755146
+        },
+        {
+          "frame": 0,
+          "time": 0,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8764120071868773
+        },
+        {
+          "frame": 123,
+          "time": 4.099999969571481,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8764118265894636
+        }
+      ]
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleWalk",
+      "duration": 1.2999999523162842,
+      "fps": 30,
+      "frames": 40,
+      "maxDepthMm": 1.8764563719035268,
+      "maxHandDepthMm": 1.8764563719035268,
+      "maxBodyDepthMm": 0.8530092951799512,
+      "maxRightAnchorMm": 0.00028869982048721887,
+      "maxLeftAnchorMm": 0.00015560729791238434,
+      "maxReloadClearanceErrorMm": 0,
+      "byRegion": {
+        "Left:Index": {
+          "verticesAcrossFrames": 1400,
+          "maxDepthMm": 1.8764563719035268
+        },
+        "Left:Thumb": {
+          "verticesAcrossFrames": 120,
+          "maxDepthMm": 0.5655233095964205
+        },
+        "Right:Arm": {
+          "verticesAcrossFrames": 5,
+          "maxDepthMm": 0.8530092951799512
+        }
+      },
+      "worstFrames": [
+        {
+          "frame": 5,
+          "time": 0.16666666055336976,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8764563719035268
+        },
+        {
+          "frame": 7,
+          "time": 0.23333332477471766,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8764521986624334
+        },
+        {
+          "frame": 4,
+          "time": 0.13333332844269583,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8764506171743944
+        },
+        {
+          "frame": 8,
+          "time": 0.26666665688539165,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8764503377433333
+        },
+        {
+          "frame": 9,
+          "time": 0.29999998899606556,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8764500450867554
+        },
+        {
+          "frame": 25,
+          "time": 0.8333333027668488,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.876448571632729
+        },
+        {
+          "frame": 6,
+          "time": 0.19999999266404372,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8764473087569755
+        },
+        {
+          "frame": 29,
+          "time": 0.9666666312095447,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8764470797007087
+        },
+        {
+          "frame": 3,
+          "time": 0.09999999633202186,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8764456717342988
+        },
+        {
+          "frame": 27,
+          "time": 0.8999999669881967,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8764448579816744
+        }
+      ]
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleRun",
+      "duration": 0.6666666865348816,
+      "fps": 30,
+      "frames": 22,
+      "maxDepthMm": 1.8763829939917462,
+      "maxHandDepthMm": 1.8763829939917462,
+      "maxBodyDepthMm": 1.0334901865782462,
+      "maxRightAnchorMm": 0.00015756108812030843,
+      "maxLeftAnchorMm": 0.00016159519024273641,
+      "maxReloadClearanceErrorMm": 0,
+      "byRegion": {
+        "Left:Index": {
+          "verticesAcrossFrames": 770,
+          "maxDepthMm": 1.8763829939917462
+        },
+        "Left:Thumb": {
+          "verticesAcrossFrames": 66,
+          "maxDepthMm": 0.5655440000745509
+        },
+        "Right:ForeArm": {
+          "verticesAcrossFrames": 8,
+          "maxDepthMm": 1.0334901865782462
+        }
+      },
+      "worstFrames": [
+        {
+          "frame": 14,
+          "time": 0.4444444576899211,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8763829939917462
+        },
+        {
+          "frame": 13,
+          "time": 0.41269842499778386,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8763676520364856
+        },
+        {
+          "frame": 15,
+          "time": 0.4761904903820583,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.876365583917624
+        },
+        {
+          "frame": 16,
+          "time": 0.5079365230741955,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8763619095498663
+        },
+        {
+          "frame": 17,
+          "time": 0.5396825557663327,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8763614455835476
+        },
+        {
+          "frame": 12,
+          "time": 0.38095239230564665,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8763555516725372
+        },
+        {
+          "frame": 11,
+          "time": 0.34920635961350943,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8763479196428916
+        },
+        {
+          "frame": 0,
+          "time": 0,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8763478824667827
+        },
+        {
+          "frame": 9,
+          "time": 0.28571429422923494,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.876339341640106
+        },
+        {
+          "frame": 8,
+          "time": 0.25396826153709773,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8763371958637816
+        }
+      ]
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleAimingIdle",
+      "duration": 3.0999999046325684,
+      "fps": 30,
+      "frames": 94,
+      "maxDepthMm": 1.876409787289505,
+      "maxHandDepthMm": 1.876409787289505,
+      "maxBodyDepthMm": 1.4726900664364322,
+      "maxRightAnchorMm": 0.00016864400813702393,
+      "maxLeftAnchorMm": 0.0001518225129624692,
+      "maxReloadClearanceErrorMm": 0,
+      "byRegion": {
+        "Left:Index": {
+          "verticesAcrossFrames": 3290,
+          "maxDepthMm": 1.876409787289505
+        },
+        "Left:Thumb": {
+          "verticesAcrossFrames": 282,
+          "maxDepthMm": 0.5653569078782055
+        },
+        "Body:HeadNeck": {
+          "verticesAcrossFrames": 630,
+          "maxDepthMm": 1.4726900664364322
+        }
+      },
+      "worstFrames": [
+        {
+          "frame": 12,
+          "time": 0.39999998769452494,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.876409787289505
+        },
+        {
+          "frame": 55,
+          "time": 1.8333332769332393,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8764058334325913
+        },
+        {
+          "frame": 72,
+          "time": 2.39999992616715,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8764040590050193
+        },
+        {
+          "frame": 33,
+          "time": 1.0999999661599436,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8764036756144735
+        },
+        {
+          "frame": 44,
+          "time": 1.4666666215465916,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8764029050508813
+        },
+        {
+          "frame": 71,
+          "time": 2.366666593859273,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8764010949961307
+        },
+        {
+          "frame": 57,
+          "time": 1.8999999415489934,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.876400845280217
+        },
+        {
+          "frame": 24,
+          "time": 0.7999999753890499,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8764008364477207
+        },
+        {
+          "frame": 4,
+          "time": 0.1333333292315083,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8764004742639357
+        },
+        {
+          "frame": 26,
+          "time": 0.8666666400048041,
+          "region": "Left:Index",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21396,
+          "depthMm": 1.8764003096986999
+        }
+      ]
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "FiringRifle",
+      "duration": 0.2666666805744171,
+      "fps": 240,
+      "frames": 66,
+      "maxDepthMm": 2.78155120105869,
+      "maxHandDepthMm": 1.876398474153644,
+      "maxBodyDepthMm": 2.78155120105869,
+      "maxRightAnchorMm": 0.00016539126353922105,
+      "maxLeftAnchorMm": 0.0001485989309426538,
+      "maxReloadClearanceErrorMm": 0,
+      "byRegion": {
+        "Right:Index": {
+          "verticesAcrossFrames": 198,
+          "maxDepthMm": 0.634892110053056
+        },
+        "Right:Thumb": {
+          "verticesAcrossFrames": 132,
+          "maxDepthMm": 1.010831497442204
+        },
+        "Left:Index": {
+          "verticesAcrossFrames": 2310,
+          "maxDepthMm": 1.876398474153644
+        },
+        "Left:Thumb": {
+          "verticesAcrossFrames": 198,
+          "maxDepthMm": 0.565330641710947
+        },
+        "Body:HeadNeck": {
+          "verticesAcrossFrames": 794,
+          "maxDepthMm": 2.78155120105869
+        }
+      },
+      "worstFrames": [
+        {
+          "frame": 22,
+          "time": 0.09025641496364888,
+          "region": "Body:HeadNeck",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4_2",
+          "vertex": 195,
+          "depthMm": 2.78155120105869
+        },
+        {
+          "frame": 23,
+          "time": 0.09435897928017836,
+          "region": "Body:HeadNeck",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4_2",
+          "vertex": 195,
+          "depthMm": 2.735849391764305
+        },
+        {
+          "frame": 21,
+          "time": 0.08615385064711938,
+          "region": "Body:HeadNeck",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4_2",
+          "vertex": 195,
+          "depthMm": 2.7353873938217523
+        },
+        {
+          "frame": 24,
+          "time": 0.09846154359670786,
+          "region": "Body:HeadNeck",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4_2",
+          "vertex": 195,
+          "depthMm": 2.6819605936336535
+        },
+        {
+          "frame": 20,
+          "time": 0.08205128633058988,
+          "region": "Body:HeadNeck",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4_2",
+          "vertex": 195,
+          "depthMm": 2.650310230522383
+        },
+        {
+          "frame": 25,
+          "time": 0.10256410791323735,
+          "region": "Body:HeadNeck",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4_2",
+          "vertex": 195,
+          "depthMm": 2.62822340266756
+        },
+        {
+          "frame": 29,
+          "time": 0.11897436517935533,
+          "region": "Body:HeadNeck",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4_2",
+          "vertex": 139,
+          "depthMm": 2.605980245283139
+        },
+        {
+          "frame": 28,
+          "time": 0.11487180086282583,
+          "region": "Body:HeadNeck",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4_2",
+          "vertex": 139,
+          "depthMm": 2.598527032104313
+        },
+        {
+          "frame": 26,
+          "time": 0.10666667222976685,
+          "region": "Body:HeadNeck",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4_2",
+          "vertex": 195,
+          "depthMm": 2.5746381555764732
+        },
+        {
+          "frame": 19,
+          "time": 0.07794872201406039,
+          "region": "Body:HeadNeck",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4_2",
+          "vertex": 195,
+          "depthMm": 2.5668973196640166
+        }
+      ]
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "Reloading",
+      "duration": 3.299999952316284,
+      "fps": 30,
+      "frames": 100,
+      "maxDepthMm": 0,
+      "maxHandDepthMm": 0,
+      "maxBodyDepthMm": 0,
+      "maxRightAnchorMm": 9.603848897107703e-05,
+      "maxLeftAnchorMm": 0,
+      "maxReloadClearanceErrorMm": 0.0003975940848997356,
+      "byRegion": {},
+      "worstFrames": []
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleIdle",
+      "duration": 8.566666603088379,
+      "fps": 30,
+      "frames": 258,
+      "maxDepthMm": 0.7736852275696073,
+      "maxHandDepthMm": 0.7736852275696073,
+      "maxBodyDepthMm": 0,
+      "maxRightAnchorMm": 8.87606581740528e-05,
+      "maxLeftAnchorMm": 0.00010678256870402653,
+      "maxReloadClearanceErrorMm": 0,
+      "byRegion": {
+        "Left:Index": {
+          "verticesAcrossFrames": 516,
+          "maxDepthMm": 0.6199012080515134
+        },
+        "Left:Pinky": {
+          "verticesAcrossFrames": 2322,
+          "maxDepthMm": 0.7736852275696073
+        }
+      },
+      "worstFrames": [
+        {
+          "frame": 54,
+          "time": 1.799999986641138,
+          "region": "Left:Pinky",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27651,
+          "depthMm": 0.7736852275696073
+        },
+        {
+          "frame": 49,
+          "time": 1.633333321211403,
+          "region": "Left:Pinky",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27651,
+          "depthMm": 0.7736850133295702
+        },
+        {
+          "frame": 88,
+          "time": 2.9333333115633358,
+          "region": "Left:Pinky",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27651,
+          "depthMm": 0.7736846519677689
+        },
+        {
+          "frame": 69,
+          "time": 2.299999982930343,
+          "region": "Left:Pinky",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27651,
+          "depthMm": 0.7736841801161765
+        },
+        {
+          "frame": 129,
+          "time": 4.299999968087163,
+          "region": "Left:Pinky",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27651,
+          "depthMm": 0.773684153079212
+        },
+        {
+          "frame": 28,
+          "time": 0.933333326406516,
+          "region": "Left:Pinky",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27651,
+          "depthMm": 0.7736839599622871
+        },
+        {
+          "frame": 0,
+          "time": 0,
+          "region": "Left:Pinky",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27651,
+          "depthMm": 0.7736835381943947
+        },
+        {
+          "frame": 85,
+          "time": 2.833333312305495,
+          "region": "Left:Pinky",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27651,
+          "depthMm": 0.77368349182938
+        },
+        {
+          "frame": 34,
+          "time": 1.133333324922198,
+          "region": "Left:Pinky",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27651,
+          "depthMm": 0.7736828844910435
+        },
+        {
+          "frame": 42,
+          "time": 1.399999989609774,
+          "region": "Left:Pinky",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27651,
+          "depthMm": 0.7736826458449845
+        }
+      ]
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleWalk",
+      "duration": 1.2999999523162842,
+      "fps": 30,
+      "frames": 40,
+      "maxDepthMm": 1.869175024519821,
+      "maxHandDepthMm": 0.7737498885501428,
+      "maxBodyDepthMm": 1.869175024519821,
+      "maxRightAnchorMm": 9.426072048978293e-05,
+      "maxLeftAnchorMm": 0.00011436516185252064,
+      "maxReloadClearanceErrorMm": 0,
+      "byRegion": {
+        "Right:ForeArm": {
+          "verticesAcrossFrames": 30,
+          "maxDepthMm": 1.869175024519821
+        },
+        "Left:Index": {
+          "verticesAcrossFrames": 80,
+          "maxDepthMm": 0.6199682984085814
+        },
+        "Left:Pinky": {
+          "verticesAcrossFrames": 360,
+          "maxDepthMm": 0.7737498885501428
+        }
+      },
+      "worstFrames": [
+        {
+          "frame": 39,
+          "time": 1.2999999523162842,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 12473,
+          "depthMm": 1.869175024519821
+        },
+        {
+          "frame": 0,
+          "time": 0,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 12473,
+          "depthMm": 1.8679800017380839
+        },
+        {
+          "frame": 38,
+          "time": 1.2666666202056103,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 12473,
+          "depthMm": 1.7851885809023764
+        },
+        {
+          "frame": 1,
+          "time": 0.033333332110673956,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 12473,
+          "depthMm": 1.7697410203061272
+        },
+        {
+          "frame": 2,
+          "time": 0.06666666422134791,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 12473,
+          "depthMm": 1.7221685749885924
+        },
+        {
+          "frame": 3,
+          "time": 0.09999999633202186,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 12473,
+          "depthMm": 1.3601186736778088
+        },
+        {
+          "frame": 37,
+          "time": 1.2333332880949364,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 12473,
+          "depthMm": 1.3032371549588737
+        },
+        {
+          "frame": 4,
+          "time": 0.13333332844269583,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 12473,
+          "depthMm": 0.8177607282044316
+        },
+        {
+          "frame": 5,
+          "time": 0.16666666055336976,
+          "region": "Left:Pinky",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27651,
+          "depthMm": 0.7737498885501428
+        },
+        {
+          "frame": 25,
+          "time": 0.8333333027668488,
+          "region": "Left:Pinky",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27651,
+          "depthMm": 0.7737479132233507
+        }
+      ]
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleRun",
+      "duration": 0.6666666865348816,
+      "fps": 30,
+      "frames": 22,
+      "maxDepthMm": 2.204545939584477,
+      "maxHandDepthMm": 0.7736235596947801,
+      "maxBodyDepthMm": 2.204545939584477,
+      "maxRightAnchorMm": 0.00029141058498039624,
+      "maxLeftAnchorMm": 0.0001236535730362347,
+      "maxReloadClearanceErrorMm": 0,
+      "byRegion": {
+        "Right:ForeArm": {
+          "verticesAcrossFrames": 130,
+          "maxDepthMm": 2.204545939584477
+        },
+        "Left:Index": {
+          "verticesAcrossFrames": 44,
+          "maxDepthMm": 0.6199979837828998
+        },
+        "Left:Pinky": {
+          "verticesAcrossFrames": 198,
+          "maxDepthMm": 0.7736235596947801
+        }
+      },
+      "worstFrames": [
+        {
+          "frame": 8,
+          "time": 0.25396826153709773,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 12748,
+          "depthMm": 2.204545939584477
+        },
+        {
+          "frame": 9,
+          "time": 0.28571429422923494,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 12727,
+          "depthMm": 2.1374611985533285
+        },
+        {
+          "frame": 1,
+          "time": 0.031746032692137216,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 12383,
+          "depthMm": 2.128179864817662
+        },
+        {
+          "frame": 18,
+          "time": 0.5714285884584699,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 12409,
+          "depthMm": 1.9687629298627793
+        },
+        {
+          "frame": 7,
+          "time": 0.22222222884496054,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 12450,
+          "depthMm": 1.871020165628348
+        },
+        {
+          "frame": 14,
+          "time": 0.4444444576899211,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 11956,
+          "depthMm": 1.8705738226703015
+        },
+        {
+          "frame": 10,
+          "time": 0.31746032692137216,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 12424,
+          "depthMm": 1.8052765591207725
+        },
+        {
+          "frame": 13,
+          "time": 0.41269842499778386,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 12392,
+          "depthMm": 1.758318227767602
+        },
+        {
+          "frame": 6,
+          "time": 0.19047619615282332,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 12452,
+          "depthMm": 1.6844239289685725
+        },
+        {
+          "frame": 15,
+          "time": 0.4761904903820583,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 11956,
+          "depthMm": 1.6702798566965298
+        }
+      ]
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleAimingIdle",
+      "duration": 3.0999999046325684,
+      "fps": 30,
+      "frames": 94,
+      "maxDepthMm": 2.6971992111012173,
+      "maxHandDepthMm": 0.7735485548262905,
+      "maxBodyDepthMm": 2.6971992111012173,
+      "maxRightAnchorMm": 0.00013681124164648063,
+      "maxLeftAnchorMm": 0.00013353890562459528,
+      "maxReloadClearanceErrorMm": 0,
+      "byRegion": {
+        "Right:Shoulder": {
+          "verticesAcrossFrames": 2712,
+          "maxDepthMm": 2.6971992111012173
+        },
+        "Left:Index": {
+          "verticesAcrossFrames": 188,
+          "maxDepthMm": 0.6199990085893577
+        },
+        "Left:Pinky": {
+          "verticesAcrossFrames": 846,
+          "maxDepthMm": 0.7735485548262905
+        }
+      },
+      "worstFrames": [
+        {
+          "frame": 17,
+          "time": 0.5666666492339103,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 6944,
+          "depthMm": 2.6971992111012173
+        },
+        {
+          "frame": 20,
+          "time": 0.6666666461575416,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 6944,
+          "depthMm": 2.6923956602414707
+        },
+        {
+          "frame": 18,
+          "time": 0.5999999815417875,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 6944,
+          "depthMm": 2.6887396611548056
+        },
+        {
+          "frame": 19,
+          "time": 0.6333333138496645,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 6944,
+          "depthMm": 2.6846369515586384
+        },
+        {
+          "frame": 13,
+          "time": 0.43333332000240204,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 6944,
+          "depthMm": 2.681093358085925
+        },
+        {
+          "frame": 22,
+          "time": 0.7333333107732958,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 6944,
+          "depthMm": 2.6793742713501674
+        },
+        {
+          "frame": 12,
+          "time": 0.39999998769452494,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 6944,
+          "depthMm": 2.6779000007389353
+        },
+        {
+          "frame": 15,
+          "time": 0.4999999846181562,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 6944,
+          "depthMm": 2.677262315961038
+        },
+        {
+          "frame": 21,
+          "time": 0.6999999784654186,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 6944,
+          "depthMm": 2.674818586120024
+        },
+        {
+          "frame": 23,
+          "time": 0.7666666430811728,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 6972,
+          "depthMm": 2.6715969240541386
+        }
+      ]
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "FiringRifle",
+      "duration": 0.2666666805744171,
+      "fps": 240,
+      "frames": 66,
+      "maxDepthMm": 2.89681708813003,
+      "maxHandDepthMm": 0.773571992578506,
+      "maxBodyDepthMm": 2.89681708813003,
+      "maxRightAnchorMm": 0.00012466217599684654,
+      "maxLeftAnchorMm": 0.00012531807695596487,
+      "maxReloadClearanceErrorMm": 0,
+      "byRegion": {
+        "Right:Shoulder": {
+          "verticesAcrossFrames": 1172,
+          "maxDepthMm": 2.89681708813003
+        },
+        "Left:Index": {
+          "verticesAcrossFrames": 132,
+          "maxDepthMm": 0.6200159133274666
+        },
+        "Left:Pinky": {
+          "verticesAcrossFrames": 594,
+          "maxDepthMm": 0.773571992578506
+        }
+      },
+      "worstFrames": [
+        {
+          "frame": 15,
+          "time": 0.06153846474794241,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 6977,
+          "depthMm": 2.89681708813003
+        },
+        {
+          "frame": 14,
+          "time": 0.05743590043141292,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 6977,
+          "depthMm": 2.8953231254105036
+        },
+        {
+          "frame": 16,
+          "time": 0.0656410290644719,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 6977,
+          "depthMm": 2.8896594227737946
+        },
+        {
+          "frame": 13,
+          "time": 0.053333336114883424,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 6977,
+          "depthMm": 2.8831914226362154
+        },
+        {
+          "frame": 17,
+          "time": 0.0697435933810014,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 6977,
+          "depthMm": 2.882760188122937
+        },
+        {
+          "frame": 18,
+          "time": 0.07384615769753089,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 6977,
+          "depthMm": 2.876119461982554
+        },
+        {
+          "frame": 12,
+          "time": 0.04923077179835393,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 6977,
+          "depthMm": 2.871652684209317
+        },
+        {
+          "frame": 19,
+          "time": 0.07794872201406039,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 6977,
+          "depthMm": 2.869737319306243
+        },
+        {
+          "frame": 20,
+          "time": 0.08205128633058988,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 6977,
+          "depthMm": 2.863613832191088
+        },
+        {
+          "frame": 11,
+          "time": 0.04512820748182444,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 6977,
+          "depthMm": 2.8607073536728715
+        }
+      ]
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "Reloading",
+      "duration": 3.299999952316284,
+      "fps": 30,
+      "frames": 100,
+      "maxDepthMm": 0,
+      "maxHandDepthMm": 0,
+      "maxBodyDepthMm": 0,
+      "maxRightAnchorMm": 5.7931881752308793e-05,
+      "maxLeftAnchorMm": 0,
+      "maxReloadClearanceErrorMm": 0.0003975940848997356,
+      "byRegion": {},
+      "worstFrames": []
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "RifleIdle",
+      "duration": 8.566666603088379,
+      "fps": 30,
+      "frames": 258,
+      "maxDepthMm": 0.6480228772963359,
+      "maxHandDepthMm": 0.6480228772963359,
+      "maxBodyDepthMm": 0,
+      "maxRightAnchorMm": 9.337849406148519e-05,
+      "maxLeftAnchorMm": 0.00012464499448212098,
+      "maxReloadClearanceErrorMm": 0,
+      "byRegion": {
+        "Left:Middle": {
+          "verticesAcrossFrames": 258,
+          "maxDepthMm": 0.6480228772963359
+        }
+      },
+      "worstFrames": [
+        {
+          "frame": 28,
+          "time": 0.933333326406516,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6480228772963359
+        },
+        {
+          "frame": 26,
+          "time": 0.866666660234622,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.648022089506463
+        },
+        {
+          "frame": 88,
+          "time": 2.9333333115633358,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6480129432118298
+        },
+        {
+          "frame": 13,
+          "time": 0.433333330117311,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6480118547405204
+        },
+        {
+          "frame": 48,
+          "time": 1.599999988125456,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6480108150191268
+        },
+        {
+          "frame": 49,
+          "time": 1.633333321211403,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6480105304082547
+        },
+        {
+          "frame": 90,
+          "time": 2.99999997773523,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6480095725359449
+        },
+        {
+          "frame": 152,
+          "time": 5.066666629063944,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6480091375116594
+        },
+        {
+          "frame": 33,
+          "time": 1.099999991836251,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6480078375741646
+        },
+        {
+          "frame": 20,
+          "time": 0.66666666171894,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6480077781678998
+        }
+      ]
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "RifleWalk",
+      "duration": 1.2999999523162842,
+      "fps": 30,
+      "frames": 40,
+      "maxDepthMm": 0.648083263718364,
+      "maxHandDepthMm": 0.648083263718364,
+      "maxBodyDepthMm": 0,
+      "maxRightAnchorMm": 9.587135733478274e-05,
+      "maxLeftAnchorMm": 8.087769012113331e-05,
+      "maxReloadClearanceErrorMm": 0,
+      "byRegion": {
+        "Left:Middle": {
+          "verticesAcrossFrames": 40,
+          "maxDepthMm": 0.648083263718364
+        }
+      },
+      "worstFrames": [
+        {
+          "frame": 6,
+          "time": 0.19999999266404372,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.648083263718364
+        },
+        {
+          "frame": 7,
+          "time": 0.23333332477471766,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6480801004909096
+        },
+        {
+          "frame": 1,
+          "time": 0.033333332110673956,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6480773618351704
+        },
+        {
+          "frame": 8,
+          "time": 0.26666665688539165,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6480739447315261
+        },
+        {
+          "frame": 9,
+          "time": 0.29999998899606556,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6480726185335606
+        },
+        {
+          "frame": 26,
+          "time": 0.8666666348775228,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6480713673039458
+        },
+        {
+          "frame": 10,
+          "time": 0.3333333211067395,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6480690483156846
+        },
+        {
+          "frame": 0,
+          "time": 0,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6480689806643877
+        },
+        {
+          "frame": 35,
+          "time": 1.1666666238735883,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6480688167079549
+        },
+        {
+          "frame": 20,
+          "time": 0.666666642213479,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6480675735440803
+        }
+      ]
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "RifleRun",
+      "duration": 0.6666666865348816,
+      "fps": 30,
+      "frames": 22,
+      "maxDepthMm": 0.6481569059656858,
+      "maxHandDepthMm": 0.6481569059656858,
+      "maxBodyDepthMm": 0,
+      "maxRightAnchorMm": 0.00017678235153482073,
+      "maxLeftAnchorMm": 0.00026776526848291715,
+      "maxReloadClearanceErrorMm": 0,
+      "byRegion": {
+        "Left:Middle": {
+          "verticesAcrossFrames": 22,
+          "maxDepthMm": 0.6481569059656858
+        }
+      },
+      "worstFrames": [
+        {
+          "frame": 3,
+          "time": 0.09523809807641166,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6481569059656858
+        },
+        {
+          "frame": 8,
+          "time": 0.25396826153709773,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6481396036880058
+        },
+        {
+          "frame": 9,
+          "time": 0.28571429422923494,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6481394730309501
+        },
+        {
+          "frame": 2,
+          "time": 0.06349206538427443,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.648117274903707
+        },
+        {
+          "frame": 4,
+          "time": 0.12698413076854886,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6481149696672973
+        },
+        {
+          "frame": 10,
+          "time": 0.31746032692137216,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6481137314349494
+        },
+        {
+          "frame": 5,
+          "time": 0.15873016346068608,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6481022134962755
+        },
+        {
+          "frame": 7,
+          "time": 0.22222222884496054,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6480961031433691
+        },
+        {
+          "frame": 21,
+          "time": 0.6666666865348816,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6480934734902457
+        },
+        {
+          "frame": 15,
+          "time": 0.4761904903820583,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6480920096321864
+        }
+      ]
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "RifleAimingIdle",
+      "duration": 3.0999999046325684,
+      "fps": 30,
+      "frames": 94,
+      "maxDepthMm": 0.6481119155385706,
+      "maxHandDepthMm": 0.6481119155385706,
+      "maxBodyDepthMm": 0,
+      "maxRightAnchorMm": 0.00011032350243945378,
+      "maxLeftAnchorMm": 0.00012118124429664432,
+      "maxReloadClearanceErrorMm": 0,
+      "byRegion": {
+        "Left:Middle": {
+          "verticesAcrossFrames": 94,
+          "maxDepthMm": 0.6481119155385706
+        }
+      },
+      "worstFrames": [
+        {
+          "frame": 81,
+          "time": 2.6999999169380433,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6481119155385706
+        },
+        {
+          "frame": 89,
+          "time": 2.96666657540106,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.648111039501
+        },
+        {
+          "frame": 34,
+          "time": 1.1333332984678206,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.648110845253998
+        },
+        {
+          "frame": 14,
+          "time": 0.4666666523102791,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6481080101700563
+        },
+        {
+          "frame": 85,
+          "time": 2.8333332461695515,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6481077445343872
+        },
+        {
+          "frame": 76,
+          "time": 2.533333255398658,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6481075830595133
+        },
+        {
+          "frame": 92,
+          "time": 3.0666665723246913,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6481073039563063
+        },
+        {
+          "frame": 13,
+          "time": 0.43333332000240204,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6481062311519086
+        },
+        {
+          "frame": 67,
+          "time": 2.233333264627764,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6481061276236108
+        },
+        {
+          "frame": 93,
+          "time": 3.0999999046325684,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6481060579134938
+        }
+      ]
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "FiringRifle",
+      "duration": 0.2666666805744171,
+      "fps": 240,
+      "frames": 66,
+      "maxDepthMm": 0.6481057105088721,
+      "maxHandDepthMm": 0.6481057105088721,
+      "maxBodyDepthMm": 0,
+      "maxRightAnchorMm": 9.698290517086376e-05,
+      "maxLeftAnchorMm": 0.00011882665458642862,
+      "maxReloadClearanceErrorMm": 0,
+      "byRegion": {
+        "Left:Middle": {
+          "verticesAcrossFrames": 66,
+          "maxDepthMm": 0.6481057105088721
+        }
+      },
+      "worstFrames": [
+        {
+          "frame": 43,
+          "time": 0.17641026561076825,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6481057105088721
+        },
+        {
+          "frame": 44,
+          "time": 0.18051282992729775,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6481056288647983
+        },
+        {
+          "frame": 45,
+          "time": 0.18461539424382722,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.648104301464941
+        },
+        {
+          "frame": 42,
+          "time": 0.17230770129423875,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6481032965062015
+        },
+        {
+          "frame": 46,
+          "time": 0.18871795856035672,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6481031706124287
+        },
+        {
+          "frame": 47,
+          "time": 0.19282052287688622,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6481022536159665
+        },
+        {
+          "frame": 48,
+          "time": 0.19692308719341572,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6481015676967044
+        },
+        {
+          "frame": 0,
+          "time": 0,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6481013526949605
+        },
+        {
+          "frame": 41,
+          "time": 0.16820513697770925,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6481013027924181
+        },
+        {
+          "frame": 49,
+          "time": 0.2010256515099452,
+          "region": "Left:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 21067,
+          "depthMm": 0.6481011299852618
+        }
+      ]
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "Reloading",
+      "duration": 3.299999952316284,
+      "fps": 30,
+      "frames": 100,
+      "maxDepthMm": 0,
+      "maxHandDepthMm": 0,
+      "maxBodyDepthMm": 0,
+      "maxRightAnchorMm": 8.667653211446863e-05,
+      "maxLeftAnchorMm": 0,
+      "maxReloadClearanceErrorMm": 0.0003975940848997356,
+      "byRegion": {},
+      "worstFrames": []
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "RifleIdle",
+      "duration": 8.566666603088379,
+      "fps": 30,
+      "frames": 258,
+      "maxDepthMm": 1.873820548076645,
+      "maxHandDepthMm": 0.8297719533695112,
+      "maxBodyDepthMm": 1.873820548076645,
+      "maxRightAnchorMm": 0.0001126916151648691,
+      "maxLeftAnchorMm": 8.586974887465767e-05,
+      "maxReloadClearanceErrorMm": 0,
+      "byRegion": {
+        "Right:Middle": {
+          "verticesAcrossFrames": 1290,
+          "maxDepthMm": 0.8278366925677797
+        },
+        "Right:ForeArm": {
+          "verticesAcrossFrames": 341,
+          "maxDepthMm": 1.873820548076645
+        },
+        "Left:Pinky": {
+          "verticesAcrossFrames": 1290,
+          "maxDepthMm": 0.6299901373781981
+        },
+        "Left:Ring": {
+          "verticesAcrossFrames": 1032,
+          "maxDepthMm": 0.8297719533695112
+        }
+      },
+      "worstFrames": [
+        {
+          "frame": 6,
+          "time": 0.199999998515682,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 11935,
+          "depthMm": 1.873820548076645
+        },
+        {
+          "frame": 3,
+          "time": 0.099999999257841,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 11935,
+          "depthMm": 1.8736818454180622
+        },
+        {
+          "frame": 5,
+          "time": 0.166666665429735,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 11935,
+          "depthMm": 1.8733556102800077
+        },
+        {
+          "frame": 4,
+          "time": 0.133333332343788,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 11935,
+          "depthMm": 1.8729283165828843
+        },
+        {
+          "frame": 257,
+          "time": 8.566666603088379,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 11935,
+          "depthMm": 1.8725173778557163
+        },
+        {
+          "frame": 2,
+          "time": 0.066666666171894,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 11935,
+          "depthMm": 1.872262977572863
+        },
+        {
+          "frame": 7,
+          "time": 0.233333331601629,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 11935,
+          "depthMm": 1.872053973840081
+        },
+        {
+          "frame": 11,
+          "time": 0.36666666394541697,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 11935,
+          "depthMm": 1.8710754232834756
+        },
+        {
+          "frame": 8,
+          "time": 0.266666664687576,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 11935,
+          "depthMm": 1.8710296241935234
+        },
+        {
+          "frame": 9,
+          "time": 0.299999997773523,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 11935,
+          "depthMm": 1.8705071451298247
+        }
+      ]
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "RifleWalk",
+      "duration": 1.2999999523162842,
+      "fps": 30,
+      "frames": 40,
+      "maxDepthMm": 0.8297727941490141,
+      "maxHandDepthMm": 0.8297727941490141,
+      "maxBodyDepthMm": 0,
+      "maxRightAnchorMm": 0.00011172163956599466,
+      "maxLeftAnchorMm": 8.198222122287954e-05,
+      "maxReloadClearanceErrorMm": 0,
+      "byRegion": {
+        "Right:Middle": {
+          "verticesAcrossFrames": 200,
+          "maxDepthMm": 0.8278135056170894
+        },
+        "Left:Pinky": {
+          "verticesAcrossFrames": 200,
+          "maxDepthMm": 0.6299959511196837
+        },
+        "Left:Ring": {
+          "verticesAcrossFrames": 160,
+          "maxDepthMm": 0.8297727941490141
+        }
+      },
+      "worstFrames": [
+        {
+          "frame": 1,
+          "time": 0.033333332110673956,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27541,
+          "depthMm": 0.8297727941490141
+        },
+        {
+          "frame": 31,
+          "time": 1.0333332954308925,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27541,
+          "depthMm": 0.8297721816116239
+        },
+        {
+          "frame": 36,
+          "time": 1.1999999559842622,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27541,
+          "depthMm": 0.8297704892002794
+        },
+        {
+          "frame": 20,
+          "time": 0.666666642213479,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27541,
+          "depthMm": 0.8297696557263557
+        },
+        {
+          "frame": 35,
+          "time": 1.1666666238735883,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27541,
+          "depthMm": 0.8297691872087872
+        },
+        {
+          "frame": 33,
+          "time": 1.0999999596522405,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27541,
+          "depthMm": 0.8297682912995316
+        },
+        {
+          "frame": 22,
+          "time": 0.733333306434827,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27541,
+          "depthMm": 0.829767794839052
+        },
+        {
+          "frame": 15,
+          "time": 0.4999999816601093,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27541,
+          "depthMm": 0.8297673868802731
+        },
+        {
+          "frame": 21,
+          "time": 0.6999999743241531,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27541,
+          "depthMm": 0.8297667880935811
+        },
+        {
+          "frame": 37,
+          "time": 1.2333332880949364,
+          "region": "Left:Ring",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 27541,
+          "depthMm": 0.8297665779373472
+        }
+      ]
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "RifleRun",
+      "duration": 0.6666666865348816,
+      "fps": 30,
+      "frames": 22,
+      "maxDepthMm": 1.5106529747509045,
+      "maxHandDepthMm": 0.8297865254574474,
+      "maxBodyDepthMm": 1.5106529747509045,
+      "maxRightAnchorMm": 8.263559300754854e-05,
+      "maxLeftAnchorMm": 1.7795363420398397e-05,
+      "maxReloadClearanceErrorMm": 0,
+      "byRegion": {
+        "Right:Middle": {
+          "verticesAcrossFrames": 110,
+          "maxDepthMm": 0.8277280965909585
+        },
+        "Right:ForeArm": {
+          "verticesAcrossFrames": 22,
+          "maxDepthMm": 1.5106529747509045
+        },
+        "Left:Pinky": {
+          "verticesAcrossFrames": 110,
+          "maxDepthMm": 0.6300247127160913
+        },
+        "Left:Ring": {
+          "verticesAcrossFrames": 88,
+          "maxDepthMm": 0.8297865254574474
+        }
+      },
+      "worstFrames": [
+        {
+          "frame": 16,
+          "time": 0.5079365230741955,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 11935,
+          "depthMm": 1.5106529747509045
+        },
+        {
+          "frame": 15,
+          "time": 0.4761904903820583,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 11935,
+          "depthMm": 1.5106524490395439
+        },
+        {
+          "frame": 18,
+          "time": 0.5714285884584699,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 11935,
+          "depthMm": 1.510648642634336
+        },
+        {
+          "frame": 19,
+          "time": 0.6031746211506072,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 11935,
+          "depthMm": 1.5106479111599433
+        },
+        {
+          "frame": 20,
+          "time": 0.6349206538427443,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 11935,
+          "depthMm": 1.5106467377523156
+        },
+        {
+          "frame": 12,
+          "time": 0.38095239230564665,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 11935,
+          "depthMm": 1.5106464015949397
+        },
+        {
+          "frame": 0,
+          "time": 0,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 11935,
+          "depthMm": 1.5106457208253212
+        },
+        {
+          "frame": 13,
+          "time": 0.41269842499778386,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 11935,
+          "depthMm": 1.510641233182938
+        },
+        {
+          "frame": 17,
+          "time": 0.5396825557663327,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 11935,
+          "depthMm": 1.5106407139506584
+        },
+        {
+          "frame": 14,
+          "time": 0.4444444576899211,
+          "region": "Right:ForeArm",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 11935,
+          "depthMm": 1.5106367294642131
+        }
+      ]
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "RifleAimingIdle",
+      "duration": 3.0999999046325684,
+      "fps": 30,
+      "frames": 94,
+      "maxDepthMm": 2.5997818805879276,
+      "maxHandDepthMm": 0.829752567976781,
+      "maxBodyDepthMm": 2.5997818805879276,
+      "maxRightAnchorMm": 0.00017749692547442745,
+      "maxLeftAnchorMm": 0.00013685199899979395,
+      "maxReloadClearanceErrorMm": 0,
+      "byRegion": {
+        "Right:Middle": {
+          "verticesAcrossFrames": 470,
+          "maxDepthMm": 0.827858074702003
+        },
+        "Right:Arm": {
+          "verticesAcrossFrames": 805,
+          "maxDepthMm": 1.714072901958468
+        },
+        "Right:Shoulder": {
+          "verticesAcrossFrames": 1707,
+          "maxDepthMm": 2.5997818805879276
+        },
+        "Left:Pinky": {
+          "verticesAcrossFrames": 470,
+          "maxDepthMm": 0.6299420282994185
+        },
+        "Left:Ring": {
+          "verticesAcrossFrames": 376,
+          "maxDepthMm": 0.829752567976781
+        }
+      },
+      "worstFrames": [
+        {
+          "frame": 89,
+          "time": 2.96666657540106,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 15870,
+          "depthMm": 2.5997818805879276
+        },
+        {
+          "frame": 92,
+          "time": 3.0666665723246913,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 15870,
+          "depthMm": 2.5995034607473912
+        },
+        {
+          "frame": 88,
+          "time": 2.933333243093183,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 15870,
+          "depthMm": 2.596771511671419
+        },
+        {
+          "frame": 91,
+          "time": 3.0333332400168143,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 15870,
+          "depthMm": 2.590523848276562
+        },
+        {
+          "frame": 0,
+          "time": 0,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 15870,
+          "depthMm": 2.589069408427733
+        },
+        {
+          "frame": 87,
+          "time": 2.899999910785306,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 15870,
+          "depthMm": 2.588684156954638
+        },
+        {
+          "frame": 86,
+          "time": 2.866666578477429,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 15870,
+          "depthMm": 2.5881118113245165
+        },
+        {
+          "frame": 90,
+          "time": 2.999999907708937,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 15870,
+          "depthMm": 2.5864626058498232
+        },
+        {
+          "frame": 93,
+          "time": 3.0999999046325684,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 15870,
+          "depthMm": 2.5856420818481083
+        },
+        {
+          "frame": 2,
+          "time": 0.06666666461575416,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 15870,
+          "depthMm": 2.584217940107995
+        }
+      ]
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "FiringRifle",
+      "duration": 0.23333333432674408,
+      "fps": 240,
+      "frames": 58,
+      "maxDepthMm": 2.3883006522955217,
+      "maxHandDepthMm": 0.8297818983704517,
+      "maxBodyDepthMm": 2.3883006522955217,
+      "maxRightAnchorMm": 7.096447861474015e-05,
+      "maxLeftAnchorMm": 2.7323771565340826e-05,
+      "maxReloadClearanceErrorMm": 0,
+      "byRegion": {
+        "Right:Middle": {
+          "verticesAcrossFrames": 290,
+          "maxDepthMm": 0.8277621424324777
+        },
+        "Right:Arm": {
+          "verticesAcrossFrames": 464,
+          "maxDepthMm": 1.5009939938204189
+        },
+        "Right:Shoulder": {
+          "verticesAcrossFrames": 1218,
+          "maxDepthMm": 2.3883006522955217
+        },
+        "Left:Pinky": {
+          "verticesAcrossFrames": 290,
+          "maxDepthMm": 0.6300051747488759
+        },
+        "Left:Ring": {
+          "verticesAcrossFrames": 232,
+          "maxDepthMm": 0.8297818983704517
+        }
+      },
+      "worstFrames": [
+        {
+          "frame": 29,
+          "time": 0.11871345079781716,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 15870,
+          "depthMm": 2.3883006522955217
+        },
+        {
+          "frame": 28,
+          "time": 0.11461988352892692,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 15870,
+          "depthMm": 2.388258954614017
+        },
+        {
+          "frame": 30,
+          "time": 0.12280701806670741,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 15870,
+          "depthMm": 2.387232073433009
+        },
+        {
+          "frame": 27,
+          "time": 0.11052631626003667,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 15870,
+          "depthMm": 2.387108873792173
+        },
+        {
+          "frame": 31,
+          "time": 0.12690058533559767,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 15870,
+          "depthMm": 2.386156533902498
+        },
+        {
+          "frame": 26,
+          "time": 0.10643274899114642,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 15870,
+          "depthMm": 2.3859543485491215
+        },
+        {
+          "frame": 32,
+          "time": 0.1309941526044879,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 15870,
+          "depthMm": 2.3850740492703397
+        },
+        {
+          "frame": 25,
+          "time": 0.10233918172225617,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 15870,
+          "depthMm": 2.3847953845420657
+        },
+        {
+          "frame": 33,
+          "time": 0.13508771987337814,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 15870,
+          "depthMm": 2.3839846350870233
+        },
+        {
+          "frame": 24,
+          "time": 0.09824561445336592,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 15870,
+          "depthMm": 2.383631987455378
+        }
+      ]
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "Reloading",
+      "duration": 3.299999952316284,
+      "fps": 30,
+      "frames": 100,
+      "maxDepthMm": 0.8277567279021156,
+      "maxHandDepthMm": 0.8277567279021156,
+      "maxBodyDepthMm": 0,
+      "maxRightAnchorMm": 0.0002846862526334192,
+      "maxLeftAnchorMm": 0,
+      "maxReloadClearanceErrorMm": 0.00039289581673881594,
+      "byRegion": {
+        "Right:Middle": {
+          "verticesAcrossFrames": 500,
+          "maxDepthMm": 0.8277567279021156
+        }
+      },
+      "worstFrames": [
+        {
+          "frame": 10,
+          "time": 0.33333332851679637,
+          "region": "Right:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 3903,
+          "depthMm": 0.8277567279021156
+        },
+        {
+          "frame": 5,
+          "time": 0.16666666425839818,
+          "region": "Right:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 3903,
+          "depthMm": 0.8277494588530102
+        },
+        {
+          "frame": 64,
+          "time": 2.1333333025074968,
+          "region": "Right:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 3903,
+          "depthMm": 0.8277476277709063
+        },
+        {
+          "frame": 63,
+          "time": 2.0999999696558174,
+          "region": "Right:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 3903,
+          "depthMm": 0.8277355388426335
+        },
+        {
+          "frame": 11,
+          "time": 0.36666666136847603,
+          "region": "Right:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 3903,
+          "depthMm": 0.8277344661043253
+        },
+        {
+          "frame": 13,
+          "time": 0.4333333270718353,
+          "region": "Right:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 3903,
+          "depthMm": 0.827731233849322
+        },
+        {
+          "frame": 68,
+          "time": 2.266666633914215,
+          "region": "Right:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 3903,
+          "depthMm": 0.8277280110373872
+        },
+        {
+          "frame": 7,
+          "time": 0.23333332996175746,
+          "region": "Right:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 3903,
+          "depthMm": 0.8277259984795787
+        },
+        {
+          "frame": 61,
+          "time": 2.033333303952458,
+          "region": "Right:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 3903,
+          "depthMm": 0.8277252735396152
+        },
+        {
+          "frame": 8,
+          "time": 0.2666666628134371,
+          "region": "Right:Middle",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 3903,
+          "depthMm": 0.8277250823039008
+        }
+      ]
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "ShotgunPump",
+      "duration": 0.7333333492279053,
+      "fps": 240,
+      "frames": 178,
+      "maxDepthMm": 2.346806395262642,
+      "maxHandDepthMm": 0.8297863144858764,
+      "maxBodyDepthMm": 2.346806395262642,
+      "maxRightAnchorMm": 7.141245289646409e-05,
+      "maxLeftAnchorMm": 2.9047970416138297e-05,
+      "maxReloadClearanceErrorMm": 0,
+      "byRegion": {
+        "Right:Middle": {
+          "verticesAcrossFrames": 890,
+          "maxDepthMm": 0.8277550007971898
+        },
+        "Right:Arm": {
+          "verticesAcrossFrames": 1424,
+          "maxDepthMm": 1.5046297353689826
+        },
+        "Right:Shoulder": {
+          "verticesAcrossFrames": 3738,
+          "maxDepthMm": 2.346806395262642
+        },
+        "Left:Pinky": {
+          "verticesAcrossFrames": 827,
+          "maxDepthMm": 0.6299998891041317
+        },
+        "Left:Ring": {
+          "verticesAcrossFrames": 678,
+          "maxDepthMm": 0.8297863144858764
+        }
+      },
+      "worstFrames": [
+        {
+          "frame": 54,
+          "time": 0.22372881840851347,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 15870,
+          "depthMm": 2.346806395262642
+        },
+        {
+          "frame": 53,
+          "time": 0.21958569214168916,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 15870,
+          "depthMm": 2.345598051485426
+        },
+        {
+          "frame": 55,
+          "time": 0.2278719446753378,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 15870,
+          "depthMm": 2.345427588747875
+        },
+        {
+          "frame": 0,
+          "time": 0,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 15870,
+          "depthMm": 2.344445854246031
+        },
+        {
+          "frame": 56,
+          "time": 0.23201507094216212,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 15870,
+          "depthMm": 2.3440408777017123
+        },
+        {
+          "frame": 52,
+          "time": 0.21544256587486482,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 15870,
+          "depthMm": 2.3440037899777666
+        },
+        {
+          "frame": 1,
+          "time": 0.0041431262668243235,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 15870,
+          "depthMm": 2.342657377083833
+        },
+        {
+          "frame": 57,
+          "time": 0.23615819720898645,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 15870,
+          "depthMm": 2.3426463057813596
+        },
+        {
+          "frame": 51,
+          "time": 0.2112994396080405,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 15870,
+          "depthMm": 2.3424111136411314
+        },
+        {
+          "frame": 58,
+          "time": 0.24030132347581076,
+          "region": "Right:Shoulder",
+          "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+          "vertex": 15870,
+          "depthMm": 2.3412439166663392
+        }
+      ]
+    }
+  ],
+  "totalFrames": 3070,
+  "sourcesChangedDuringRun": false,
+  "allPartSourcesIdentical": true,
+  "summaryByWeapon": {
+    "qbz95": {
+      "frames": 580,
+      "maxHandDepthMm": 1.8764563719035268,
+      "maxBodyDepthMm": 2.78155120105869
+    },
+    "type56_1": {
+      "frames": 580,
+      "maxHandDepthMm": 0.6481569059656858,
+      "maxBodyDepthMm": 0
+    },
+    "qbu85": {
+      "frames": 580,
+      "maxHandDepthMm": 0.762750983984752,
+      "maxBodyDepthMm": 1.3079240957901963
+    },
+    "type97hawk": {
+      "frames": 750,
+      "maxHandDepthMm": 0.8297865254574474,
+      "maxBodyDepthMm": 2.5997818805879276
+    },
+    "qcq171": {
+      "frames": 580,
+      "maxHandDepthMm": 0.7737498885501428,
+      "maxBodyDepthMm": 2.89681708813003
+    }
+  }
+}
