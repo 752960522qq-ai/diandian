@@ -1,0 +1,13 @@
+{
+  "source": "用户提供的 9 个 GLB 分卷，按 001–009 顺序合并",
+  "file": "waiting_for_light_150m_4k.glb",
+  "bytes": 174630676,
+  "sha256": "9e439f8f95406712b4d0a485da2bcd24fa4f0c68a0478c6b55185e199e64a418",
+  "nodes": 281,
+  "meshes": 263,
+  "images": 19,
+  "materials": 32,
+  "extensions": [
+    "KHR_materials_emissive_strength"
+  ]
+}

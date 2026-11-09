@@ -85,3 +85,6 @@ assets/scenes/linxu_apartment/**/*.glb filter=lfs diff=lfs merge=lfs -text
 
 # User-supplied Bei An V3 scene asset.
 assets/scenes/bei_an_du_jun_v3/**/*.glb filter=lfs diff=lfs merge=lfs -text
+
+# User-supplied Waiting for Light 4K scene asset.
+assets/scenes/waiting_for_light_150m/**/*.glb filter=lfs diff=lfs merge=lfs -text
