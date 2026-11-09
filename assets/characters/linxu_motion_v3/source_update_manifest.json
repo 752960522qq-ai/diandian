@@ -1,0 +1,294 @@
+{
+  "baseline_commit": "46fbc50f2640b626e3fe161a5f9555ab18d6cde1",
+  "repository": "752960522qq-ai/diandian",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "baseline_sha256": "737a95b631d0c31339dc16b4f36fdcf4275deaf00dbf1a4560f5e84549c8455f",
+      "sha256": "dbf1ca002ce7ca5c3d27d7699865ef1b5657f3cf2a29afc74c43ea3e65fff821",
+      "bytes": 4786
+    },
+    {
+      "path": "assets/characters/linxu_motion_v3/SHOULDERS.md",
+      "baseline_sha256": null,
+      "sha256": "d0d78576388135cb3f436b4aa5f1baba376d5813b988989fde3d452922aa85b9",
+      "bytes": 2885
+    },
+    {
+      "path": "assets/characters/linxu_motion_v3/equipped-bake-report.json",
+      "baseline_sha256": null,
+      "sha256": "142ee4870fe20a6155c45216112e8a01d9740fb3f16e6da3e6ca1f4b14e48349",
+      "bytes": 8011
+    },
+    {
+      "path": "assets/characters/linxu_motion_v3/equipped_motions.glb",
+      "baseline_sha256": null,
+      "sha256": "9f43802bad4013b352f62b5c1399a064dfe65555e65e2f93ab89cb8952e08fcc",
+      "bytes": 8999776
+    },
+    {
+      "path": "assets/characters/linxu_motion_v3/equipped_weapon_transforms.json",
+      "baseline_sha256": null,
+      "sha256": "0f90b8a4eedb1264e43b0dc46c4c42d5b924c1c7d32bd22c34f4722e0dd90f15",
+      "bytes": 1098911
+    },
+    {
+      "path": "assets/characters/linxu_motion_v3/motions.glb",
+      "baseline_sha256": null,
+      "sha256": "b1e1360027fd582b1b26755f18d38399653f5e156007fdb247dd4bbacd433efe",
+      "bytes": 6539296
+    },
+    {
+      "path": "assets/characters/linxu_motion_v3/reference_grip_samples.json",
+      "baseline_sha256": null,
+      "sha256": "92e110f7e8afb32c1fce9f9ae33b950c1c10d7b505cfa20c6ea5460778591512",
+      "bytes": 905485
+    },
+    {
+      "path": "assets/characters/linxu_motion_v3/shoulder_quality_report.json",
+      "baseline_sha256": null,
+      "sha256": "a83c4b99ee72c32d739bbb2ddfa44eab0d0fd26378c3f336b83cdb0df1610410",
+      "bytes": 5795
+    },
+    {
+      "path": "assets/characters/linxu_motion_v3/shoulder_report.json",
+      "baseline_sha256": null,
+      "sha256": "801bce58ecbe98666f04e5d5948c63c70afcf311145c5102a97c7d2d4ae8c2a3",
+      "bytes": 4225
+    },
+    {
+      "path": "assets/characters/linxu_motion_v3/source_weapon_attachment_v2.json",
+      "baseline_sha256": null,
+      "sha256": "8a857ff7caa4268d743ed8247bb400d0d4f9150a9e11ee9f55cb1b08cb7f7584",
+      "bytes": 466134
+    },
+    {
+      "path": "tools/blender/preview_linxu_grips_v3.py",
+      "baseline_sha256": null,
+      "sha256": "4545c2967ec22afca63668627326adfd91bc027530a1ebc8504039d12ecbcfcf",
+      "bytes": 2181
+    },
+    {
+      "path": "tools/blender/preview_linxu_shoulders_v3.py",
+      "baseline_sha256": null,
+      "sha256": "3cce0ac82fd5fd2c08500ba0df07aaf9b14cf2f61852a54b3440bc336fac1490",
+      "bytes": 2041
+    },
+    {
+      "path": "tools/characters/calibrate_linxu_weapons_v3.mjs",
+      "baseline_sha256": null,
+      "sha256": "0a1ad7743578d57f32b78724bc33b528f83429665d2091855abfb7722ad88b00",
+      "bytes": 11176
+    },
+    {
+      "path": "tools/gltf/bake_linxu_grips_v3.mjs",
+      "baseline_sha256": null,
+      "sha256": "f75970803f5ad28c97a7c4d9a1a182401021bf93229741d054785a7a212b45a8",
+      "bytes": 7816
+    },
+    {
+      "path": "tools/gltf/refine_linxu_shoulders_v3.mjs",
+      "baseline_sha256": null,
+      "sha256": "259ba55cf56d05935ee245592e5295c4331955a60db83e91da7113ed80828308",
+      "bytes": 5423
+    },
+    {
+      "path": "tools/qa/browser_linxu_v3.mjs",
+      "baseline_sha256": null,
+      "sha256": "fa979a173f70ef25e6d81cfbbbf43f51b8b9c1ef33fc3417f1c0d5fd1b6112a4",
+      "bytes": 5416
+    },
+    {
+      "path": "tools/qa/export_linxu_comparison_v3.mjs",
+      "baseline_sha256": null,
+      "sha256": "dc9e6a3a715676d50866e2935a288d5c9afc69b100fbff145ecab0736a4bda03",
+      "bytes": 2301
+    },
+    {
+      "path": "tools/qa/inspect_linxu_palm_rays_v3.mjs",
+      "baseline_sha256": null,
+      "sha256": "5eb6ae061b557c48084cd566632c64470676c7a18e00dd59b8351389e17b39e7",
+      "bytes": 4098
+    },
+    {
+      "path": "tools/qa/validate_linxu_hand_pose_v3.mjs",
+      "baseline_sha256": null,
+      "sha256": "0999ce3236f0aedaf3e2aa543fc4aca62850991a2012f2ab06b82e604baeb0fb",
+      "bytes": 2876
+    },
+    {
+      "path": "tools/qa/validate_linxu_reference_grip_v3.mjs",
+      "baseline_sha256": null,
+      "sha256": "25c6a480cbef4219121069d357c6e6167c29589f888e432779cc47600b49a017",
+      "bytes": 2094
+    },
+    {
+      "path": "tools/qa/validate_linxu_shoulders_v3.mjs",
+      "baseline_sha256": null,
+      "sha256": "6210f0f965e5864e8889ebf5ef64e243623a5b9b17a7dcf1c720e963778ea6b8",
+      "bytes": 6962
+    },
+    {
+      "path": "tools/qa/validate_linxu_wrist_v3.mjs",
+      "baseline_sha256": null,
+      "sha256": "1d4db47b7d135c99f21a40ddcb20a407a74ebd3d8ad3342410142220b0e84205",
+      "bytes": 965
+    },
+    {
+      "path": "web/motion-labs/linxu-motion-lab/README.md",
+      "baseline_sha256": "3039479afb746d0c208d6affe7df853c17adca70fdfe9c9efe15570863fc65a9",
+      "sha256": "36fbe044bbbcd5b5537f4b362a46d7059cc797ac347750214983d652dc10663e",
+      "bytes": 3243
+    },
+    {
+      "path": "web/motion-labs/linxu-motion-lab/app.js",
+      "baseline_sha256": "82b6c703bd07cdd88ee810a5f7ef5723fff12b9af308fd981e5ab49941718fbf",
+      "sha256": "b3e8c1a6ae9c924650b1348d00c84894de0f48b0a075cbd108b6cf499ee784f7",
+      "bytes": 9233
+    },
+    {
+      "path": "web/motion-labs/linxu-motion-lab/assets/characters/linxu/motions.glb",
+      "baseline_sha256": "e61084a5ccb72abbb41c8ae25af8d573992466d7e4b79b6957a1bd3da2736afb",
+      "sha256": "b1e1360027fd582b1b26755f18d38399653f5e156007fdb247dd4bbacd433efe",
+      "bytes": 6539296
+    },
+    {
+      "path": "web/motion-labs/linxu-motion-lab/assets/weapon_attachment.json",
+      "baseline_sha256": "8a857ff7caa4268d743ed8247bb400d0d4f9150a9e11ee9f55cb1b08cb7f7584",
+      "sha256": "01698bd49f29d3cf9d5e78d5c64ac8ecc4cc6994d3f12f3157b524a453e52793",
+      "bytes": 2675061
+    },
+    {
+      "path": "web/motion-labs/linxu-motion-lab/index.html",
+      "baseline_sha256": "c0a4ec5398f91d55aee663e2d9be763c364ce745a0893f2d2f7c34f70332779c",
+      "sha256": "6c5998e011f6e1d21ef16e0de9eaa1309e0ec801f672f2c0e55ae121da8e751b",
+      "bytes": 3300
+    },
+    {
+      "path": "web/motion-labs/linxu-motion-lab/reference-grip.js",
+      "baseline_sha256": null,
+      "sha256": "5c18de9b5f44a9db3f2d67d1e4bc5d49bf8602c1c088bf598613257a56e58aeb",
+      "bytes": 2688
+    },
+    {
+      "path": "web/motion-labs/linxu-motion-lab/rig.js",
+      "baseline_sha256": "a7eb7128093eb3ed0d3adbbcc9784fbc88ddd4c2f371a44b2ab0c8fd14fb24c0",
+      "sha256": "c5a48031e329f30d744718879651f91df24792027db6e32682cdf8270728ed45",
+      "bytes": 2816
+    },
+    {
+      "path": "web/motion-labs/linxu-motion-lab/weapon-attachment.js",
+      "baseline_sha256": "2f038ee6eb979ac56f3bc2f6b46c5ee41f66c990b1c71d7c11e0bc9ab7a88c75",
+      "sha256": "31baca1579618e8b0a0b7335df8e0dfbc8a3cbb955b63f2f7e4a093743b5a168",
+      "bytes": 37963
+    },
+    {
+      "path": "web/motion-labs/verification_linxu_v3/README.md",
+      "baseline_sha256": null,
+      "sha256": "fa9f7cc319dabcdbb73d07cabecc2dfde24f674df5edb61bb70c713575097fd5",
+      "bytes": 4305
+    },
+    {
+      "path": "web/motion-labs/verification_linxu_v3/attachment-validation.json",
+      "baseline_sha256": null,
+      "sha256": "132eea7bf5e2ebeefcfdc59c4373553a491af4cbbb07254f9861423cd95399a6",
+      "bytes": 10402
+    },
+    {
+      "path": "web/motion-labs/verification_linxu_v3/browser-status.json",
+      "baseline_sha256": null,
+      "sha256": "3d368c2dd666e27876f05ca128e9c0c8d4834eea9b680b2d377f6cde5d99bb00",
+      "bytes": 343
+    },
+    {
+      "path": "web/motion-labs/verification_linxu_v3/exploratory/palm-ray-initial-scan.json",
+      "baseline_sha256": null,
+      "sha256": "2c71e579f329f9142143f495ca43b74ade4287c8ae1ee0baf894a9d3522455ad",
+      "bytes": 10274
+    },
+    {
+      "path": "web/motion-labs/verification_linxu_v3/grips/linxu-qbu85-RifleAimingIdle-after-detail.jpg",
+      "baseline_sha256": null,
+      "sha256": "7aeef06bc6243449a3da301b62425c44ca7e37489b1b9ff66c541df77a110f1d",
+      "bytes": 119074
+    },
+    {
+      "path": "web/motion-labs/verification_linxu_v3/grips/linxu-qbu85-RifleRun-after-candidate-right.jpg",
+      "baseline_sha256": null,
+      "sha256": "7b3c2fc6400326c2b3f33b136f5ddc41bfe14482a28d45780795990714cc0011",
+      "bytes": 56415
+    },
+    {
+      "path": "web/motion-labs/verification_linxu_v3/grips/linxu-qbz95-RifleAimingIdle-after-detail.jpg",
+      "baseline_sha256": null,
+      "sha256": "612b0b738a9111e9270827747b0614347407cd8e69dc52b693bf35531cc95d47",
+      "bytes": 103936
+    },
+    {
+      "path": "web/motion-labs/verification_linxu_v3/grips/linxu-qcq171-RifleAimingIdle-after-detail.jpg",
+      "baseline_sha256": null,
+      "sha256": "c7272a144d4d2032bc3e9b8d2faf4d4068ed94b7c3876cc235250f38cc7f04fa",
+      "bytes": 114293
+    },
+    {
+      "path": "web/motion-labs/verification_linxu_v3/grips/linxu-type56_1-RifleAimingIdle-after-detail.jpg",
+      "baseline_sha256": null,
+      "sha256": "8eb909afdc3098bfa8160f6b2f91ccc43282233d64bedad557975465030f1ed8",
+      "bytes": 119029
+    },
+    {
+      "path": "web/motion-labs/verification_linxu_v3/grips/linxu-type97hawk-RifleAimingIdle-after-detail.jpg",
+      "baseline_sha256": null,
+      "sha256": "2b630412c16c11432404014549ab01f459c9162492e45f2cfdc10181b1c38540",
+      "bytes": 109572
+    },
+    {
+      "path": "web/motion-labs/verification_linxu_v3/hand-pose-validation.json",
+      "baseline_sha256": null,
+      "sha256": "1527c76de667d3cbbfdf5c5d89b9bbd94ea654a2bbc23f9a96c7739cff68f3df",
+      "bytes": 9724
+    },
+    {
+      "path": "web/motion-labs/verification_linxu_v3/independent-review.md",
+      "baseline_sha256": null,
+      "sha256": "0f1ca905d5ca88970e055952614f5ad075603260fdfdcabbf78451f3b3326e35",
+      "bytes": 3308
+    },
+    {
+      "path": "web/motion-labs/verification_linxu_v3/middle-reference-validation.json",
+      "baseline_sha256": null,
+      "sha256": "7e346fcd15c150475763037e6ba83a56f4726d33bc159b566c4e4cad36b186f4",
+      "bytes": 6620
+    },
+    {
+      "path": "web/motion-labs/verification_linxu_v3/reference-grip-reconstruction.json",
+      "baseline_sha256": null,
+      "sha256": "ed9ae10da66f0a25093ca5e366c335dcc80938e9f94c35be4e8572d80406f610",
+      "bytes": 18720
+    },
+    {
+      "path": "web/motion-labs/verification_linxu_v3/shoulders/idle-before-after.jpg",
+      "baseline_sha256": null,
+      "sha256": "376ed38592caabf2da62a8ed6b69115b057accdac6814486d3c4541c3cd0daa8",
+      "bytes": 129976
+    },
+    {
+      "path": "web/motion-labs/verification_linxu_v3/shoulders/run-before-after.jpg",
+      "baseline_sha256": null,
+      "sha256": "c5f470707cf90ee61b9f1fef7eca9fb6503af5788a655da2a4e188932b1ee85c",
+      "bytes": 115000
+    },
+    {
+      "path": "web/motion-labs/verification_linxu_v3/shoulders/walk-before-after.jpg",
+      "baseline_sha256": null,
+      "sha256": "89f72ea07699d1a4aee7d6a49e9957d7fdf1eecfab21e5a8136ecf691d42a0ea",
+      "bytes": 120485
+    },
+    {
+      "path": "web/motion-labs/verification_linxu_v3/wrist-scan.json",
+      "baseline_sha256": null,
+      "sha256": "d479834b1b6c3c64d961848e4aac6d897f42b34f14f16d5660f0967d59291f38",
+      "bytes": 6129
+    }
+  ]
+}

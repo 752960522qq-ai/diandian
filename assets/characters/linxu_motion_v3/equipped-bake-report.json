@@ -1,0 +1,216 @@
+{
+  "fps": 30,
+  "firingFps": 240,
+  "pumpFps": 240,
+  "sourceHashes": {
+    "assets/weapon_attachment.json": "01698bd49f29d3cf9d5e78d5c64ac8ecc4cc6994d3f12f3157b524a453e52793",
+    "weapon-attachment.js": "31baca1579618e8b0a0b7335df8e0dfbc8a3cbb955b63f2f7e4a093743b5a168",
+    "reference-grip.js": "5c18de9b5f44a9db3f2d67d1e4bc5d49bf8602c1c088bf598613257a56e58aeb",
+    "rig.js": "c5a48031e329f30d744718879651f91df24792027db6e32682cdf8270728ed45"
+  },
+  "characters": {
+    "linxu": {
+      "inputHashes": {
+        "character.glb": "a13e9afa92256249d6419f8abe7450174ce44dfa05d45e14dbb185cd30d06557",
+        "motions.glb": "b1e1360027fd582b1b26755f18d38399653f5e156007fdb247dd4bbacd433efe"
+      },
+      "clips": 31,
+      "bones": 312,
+      "totalSamples": 3070,
+      "runtimeSkinWeightVertices": 0,
+      "rows": [
+        {
+          "clip": "QBZ95_RifleIdle",
+          "samples": 258,
+          "maxKeyLocalTransformError": 7.566894515446607e-8,
+          "maxMidpointBonePositionErrorNativeM": 4.121552204458142e-7
+        },
+        {
+          "clip": "QBZ95_RifleWalk",
+          "samples": 40,
+          "maxKeyLocalTransformError": 1.788134736391278e-7,
+          "maxMidpointBonePositionErrorNativeM": 0.000007708397256883178
+        },
+        {
+          "clip": "QBZ95_RifleRun",
+          "samples": 22,
+          "maxKeyLocalTransformError": 5.960464477539063e-8,
+          "maxMidpointBonePositionErrorNativeM": 0.00034292496164409507
+        },
+        {
+          "clip": "QBZ95_RifleAimingIdle",
+          "samples": 94,
+          "maxKeyLocalTransformError": 5.960464477539063e-8,
+          "maxMidpointBonePositionErrorNativeM": 3.3284383664000253e-7
+        },
+        {
+          "clip": "QBZ95_FiringRifle",
+          "samples": 66,
+          "maxKeyLocalTransformError": 5.960464477539063e-8,
+          "maxMidpointBonePositionErrorNativeM": 0.00010000849814163625
+        },
+        {
+          "clip": "QBZ95_Reloading",
+          "samples": 100,
+          "maxKeyLocalTransformError": 6.604442693569634e-7,
+          "maxMidpointBonePositionErrorNativeM": 0.00008145979435412329
+        },
+        {
+          "clip": "Type56_1_RifleIdle",
+          "samples": 258,
+          "maxKeyLocalTransformError": 7.566894515446607e-8,
+          "maxMidpointBonePositionErrorNativeM": 4.4939526862065807e-7
+        },
+        {
+          "clip": "Type56_1_RifleWalk",
+          "samples": 40,
+          "maxKeyLocalTransformError": 1.788134736391278e-7,
+          "maxMidpointBonePositionErrorNativeM": 0.000010221409609877457
+        },
+        {
+          "clip": "Type56_1_RifleRun",
+          "samples": 22,
+          "maxKeyLocalTransformError": 5.960464477539063e-8,
+          "maxMidpointBonePositionErrorNativeM": 0.0003768529976701917
+        },
+        {
+          "clip": "Type56_1_RifleAimingIdle",
+          "samples": 94,
+          "maxKeyLocalTransformError": 5.960464477539063e-8,
+          "maxMidpointBonePositionErrorNativeM": 2.784232065456278e-7
+        },
+        {
+          "clip": "Type56_1_FiringRifle",
+          "samples": 66,
+          "maxKeyLocalTransformError": 5.960464477539063e-8,
+          "maxMidpointBonePositionErrorNativeM": 0.00008907996794264172
+        },
+        {
+          "clip": "Type56_1_Reloading",
+          "samples": 100,
+          "maxKeyLocalTransformError": 6.604442693569634e-7,
+          "maxMidpointBonePositionErrorNativeM": 0.00008145979435401356
+        },
+        {
+          "clip": "QBU85_RifleIdle",
+          "samples": 258,
+          "maxKeyLocalTransformError": 7.566894515446607e-8,
+          "maxMidpointBonePositionErrorNativeM": 5.119559668939798e-7
+        },
+        {
+          "clip": "QBU85_RifleWalk",
+          "samples": 40,
+          "maxKeyLocalTransformError": 1.788134736391278e-7,
+          "maxMidpointBonePositionErrorNativeM": 0.000011190479135359544
+        },
+        {
+          "clip": "QBU85_RifleRun",
+          "samples": 22,
+          "maxKeyLocalTransformError": 5.960464477539063e-8,
+          "maxMidpointBonePositionErrorNativeM": 0.0004974416233681994
+        },
+        {
+          "clip": "QBU85_RifleAimingIdle",
+          "samples": 94,
+          "maxKeyLocalTransformError": 5.960464477539063e-8,
+          "maxMidpointBonePositionErrorNativeM": 3.263656068834343e-7
+        },
+        {
+          "clip": "QBU85_FiringRifle",
+          "samples": 66,
+          "maxKeyLocalTransformError": 5.960464477539063e-8,
+          "maxMidpointBonePositionErrorNativeM": 0.00008180567571832395
+        },
+        {
+          "clip": "QBU85_Reloading",
+          "samples": 100,
+          "maxKeyLocalTransformError": 6.604442693569634e-7,
+          "maxMidpointBonePositionErrorNativeM": 0.0000735241444793957
+        },
+        {
+          "clip": "Type97Hawk_RifleIdle",
+          "samples": 258,
+          "maxKeyLocalTransformError": 7.566894515446607e-8,
+          "maxMidpointBonePositionErrorNativeM": 4.388820871900299e-7
+        },
+        {
+          "clip": "Type97Hawk_RifleWalk",
+          "samples": 40,
+          "maxKeyLocalTransformError": 1.788134736391278e-7,
+          "maxMidpointBonePositionErrorNativeM": 0.000011925702949969846
+        },
+        {
+          "clip": "Type97Hawk_RifleRun",
+          "samples": 22,
+          "maxKeyLocalTransformError": 5.960464477539063e-8,
+          "maxMidpointBonePositionErrorNativeM": 0.00043065224848665135
+        },
+        {
+          "clip": "Type97Hawk_RifleAimingIdle",
+          "samples": 94,
+          "maxKeyLocalTransformError": 5.960464477539063e-8,
+          "maxMidpointBonePositionErrorNativeM": 4.073786609895282e-7
+        },
+        {
+          "clip": "Type97Hawk_FiringRifle",
+          "samples": 58,
+          "maxKeyLocalTransformError": 5.960464477539063e-8,
+          "maxMidpointBonePositionErrorNativeM": 0.00041905089738415876
+        },
+        {
+          "clip": "Type97Hawk_Reloading",
+          "samples": 100,
+          "maxKeyLocalTransformError": 6.481964450327782e-7,
+          "maxMidpointBonePositionErrorNativeM": 0.00008999547043268247
+        },
+        {
+          "clip": "Type97Hawk_ShotgunPump",
+          "samples": 178,
+          "maxKeyLocalTransformError": 5.960464477539063e-8,
+          "maxMidpointBonePositionErrorNativeM": 0.0012541119206178554
+        },
+        {
+          "clip": "QCQ171_RifleIdle",
+          "samples": 258,
+          "maxKeyLocalTransformError": 7.566894515446607e-8,
+          "maxMidpointBonePositionErrorNativeM": 4.315409771061683e-7
+        },
+        {
+          "clip": "QCQ171_RifleWalk",
+          "samples": 40,
+          "maxKeyLocalTransformError": 1.788134736391278e-7,
+          "maxMidpointBonePositionErrorNativeM": 0.000009456093007665104
+        },
+        {
+          "clip": "QCQ171_RifleRun",
+          "samples": 22,
+          "maxKeyLocalTransformError": 5.960464477539063e-8,
+          "maxMidpointBonePositionErrorNativeM": 0.00036285219499279523
+        },
+        {
+          "clip": "QCQ171_RifleAimingIdle",
+          "samples": 94,
+          "maxKeyLocalTransformError": 5.960464477539063e-8,
+          "maxMidpointBonePositionErrorNativeM": 3.0547305991310964e-7
+        },
+        {
+          "clip": "QCQ171_FiringRifle",
+          "samples": 66,
+          "maxKeyLocalTransformError": 5.960464477539063e-8,
+          "maxMidpointBonePositionErrorNativeM": 0.00009150694934229502
+        },
+        {
+          "clip": "QCQ171_Reloading",
+          "samples": 100,
+          "maxKeyLocalTransformError": 6.604442693569634e-7,
+          "maxMidpointBonePositionErrorNativeM": 0.00007352398088488203
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "30 Hz samples (240 Hz for FiringRifle; 240 Hz for ShotgunPump) use linear interpolation between keys. Browser runtime remains authoritative for exact continuous-time constraints.",
+    "Weapon geometry is separate; companion JSON stores gun-root and moving pump-part transforms.",
+    "No Godot scene/controller integration is performed by this export."
+  ]
+}

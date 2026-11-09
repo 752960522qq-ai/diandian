@@ -1,0 +1,351 @@
+{
+  "characters": {
+    "linxu": [
+      {
+        "weapon": "qbz95",
+        "motion": "RifleIdle",
+        "maxPalmSurfaceGapM": 0,
+        "maxPalmSurfaceIntrusionM": 0.0018889722497680175,
+        "handRayMisses": 0,
+        "minForearmToTorsoFrontM": 0.1062362745429239
+      },
+      {
+        "weapon": "qbz95",
+        "motion": "RifleWalk",
+        "maxPalmSurfaceGapM": 0.0018491682810954395,
+        "maxPalmSurfaceIntrusionM": 0.0042182659794404356,
+        "handRayMisses": 0,
+        "minForearmToTorsoFrontM": 0.050077978232085214
+      },
+      {
+        "weapon": "qbz95",
+        "motion": "RifleRun",
+        "maxPalmSurfaceGapM": 0,
+        "maxPalmSurfaceIntrusionM": 0.0015785097258015377,
+        "handRayMisses": 0,
+        "minForearmToTorsoFrontM": null
+      },
+      {
+        "weapon": "qbz95",
+        "motion": "RifleAimingIdle",
+        "maxPalmSurfaceGapM": 0,
+        "maxPalmSurfaceIntrusionM": 0.001457896675752825,
+        "handRayMisses": 0,
+        "minForearmToTorsoFrontM": null
+      },
+      {
+        "weapon": "qbz95",
+        "motion": "FiringRifle",
+        "maxPalmSurfaceGapM": 0,
+        "maxPalmSurfaceIntrusionM": 0.0014577860284857745,
+        "handRayMisses": 0,
+        "minForearmToTorsoFrontM": null
+      },
+      {
+        "weapon": "type56_1",
+        "motion": "RifleIdle",
+        "maxPalmSurfaceGapM": 0,
+        "maxPalmSurfaceIntrusionM": 0.0077848789339856105,
+        "handRayMisses": 0,
+        "minForearmToTorsoFrontM": 0.1772493127512988
+      },
+      {
+        "weapon": "type56_1",
+        "motion": "RifleWalk",
+        "maxPalmSurfaceGapM": 0.001961308193671365,
+        "maxPalmSurfaceIntrusionM": 0.006078637719883757,
+        "handRayMisses": 0,
+        "minForearmToTorsoFrontM": 0.17927831133487054
+      },
+      {
+        "weapon": "type56_1",
+        "motion": "RifleRun",
+        "maxPalmSurfaceGapM": 0,
+        "maxPalmSurfaceIntrusionM": 0.020073223030007754,
+        "handRayMisses": 0,
+        "minForearmToTorsoFrontM": null
+      },
+      {
+        "weapon": "type56_1",
+        "motion": "RifleAimingIdle",
+        "maxPalmSurfaceGapM": 0,
+        "maxPalmSurfaceIntrusionM": 0.0006295983180316608,
+        "handRayMisses": 5,
+        "minForearmToTorsoFrontM": null
+      },
+      {
+        "weapon": "type56_1",
+        "motion": "FiringRifle",
+        "maxPalmSurfaceGapM": 0,
+        "maxPalmSurfaceIntrusionM": 0.0006520359541768442,
+        "handRayMisses": 5,
+        "minForearmToTorsoFrontM": null
+      },
+      {
+        "weapon": "qbu85",
+        "motion": "RifleIdle",
+        "maxPalmSurfaceGapM": 0,
+        "maxPalmSurfaceIntrusionM": 0.0009394128250796157,
+        "handRayMisses": 5,
+        "minForearmToTorsoFrontM": null
+      },
+      {
+        "weapon": "qbu85",
+        "motion": "RifleWalk",
+        "maxPalmSurfaceGapM": 0.0017597544714804767,
+        "maxPalmSurfaceIntrusionM": 0.004916482095917065,
+        "handRayMisses": 0,
+        "minForearmToTorsoFrontM": null
+      },
+      {
+        "weapon": "qbu85",
+        "motion": "RifleRun",
+        "maxPalmSurfaceGapM": 0.00895598002851505,
+        "maxPalmSurfaceIntrusionM": 0.0010437388821951568,
+        "handRayMisses": 0,
+        "minForearmToTorsoFrontM": null
+      },
+      {
+        "weapon": "qbu85",
+        "motion": "RifleAimingIdle",
+        "maxPalmSurfaceGapM": 0.014191877972847221,
+        "maxPalmSurfaceIntrusionM": 0.0006297463806404025,
+        "handRayMisses": 0,
+        "minForearmToTorsoFrontM": null
+      },
+      {
+        "weapon": "qbu85",
+        "motion": "FiringRifle",
+        "maxPalmSurfaceGapM": 0.01419205649719955,
+        "maxPalmSurfaceIntrusionM": 0.0006521493177762172,
+        "handRayMisses": 0,
+        "minForearmToTorsoFrontM": null
+      },
+      {
+        "weapon": "type97hawk",
+        "motion": "RifleIdle",
+        "maxPalmSurfaceGapM": 0,
+        "maxPalmSurfaceIntrusionM": 0.016532729573510346,
+        "handRayMisses": 0,
+        "minForearmToTorsoFrontM": 0.17724931275130124
+      },
+      {
+        "weapon": "type97hawk",
+        "motion": "RifleWalk",
+        "maxPalmSurfaceGapM": 0.001961301398929263,
+        "maxPalmSurfaceIntrusionM": 0,
+        "handRayMisses": 5,
+        "minForearmToTorsoFrontM": null
+      },
+      {
+        "weapon": "type97hawk",
+        "motion": "RifleRun",
+        "maxPalmSurfaceGapM": 0,
+        "maxPalmSurfaceIntrusionM": 0.028514683200692198,
+        "handRayMisses": 0,
+        "minForearmToTorsoFrontM": null
+      },
+      {
+        "weapon": "type97hawk",
+        "motion": "RifleAimingIdle",
+        "maxPalmSurfaceGapM": 0.00264292975925541,
+        "maxPalmSurfaceIntrusionM": 0.0005622238223967334,
+        "handRayMisses": 0,
+        "minForearmToTorsoFrontM": null
+      },
+      {
+        "weapon": "type97hawk",
+        "motion": "FiringRifle",
+        "maxPalmSurfaceGapM": 0,
+        "maxPalmSurfaceIntrusionM": 0.027113064075533974,
+        "handRayMisses": 0,
+        "minForearmToTorsoFrontM": null
+      },
+      {
+        "weapon": "type97hawk",
+        "motion": "ShotgunPump",
+        "maxPalmSurfaceGapM": 0,
+        "maxPalmSurfaceIntrusionM": 0.02711209336326185,
+        "handRayMisses": 0,
+        "minForearmToTorsoFrontM": null
+      },
+      {
+        "weapon": "qcq171",
+        "motion": "RifleIdle",
+        "maxPalmSurfaceGapM": 0,
+        "maxPalmSurfaceIntrusionM": 0.010969613565830465,
+        "handRayMisses": 0,
+        "minForearmToTorsoFrontM": 0.16760853850658872
+      },
+      {
+        "weapon": "qcq171",
+        "motion": "RifleWalk",
+        "maxPalmSurfaceGapM": 0.0017951475048703736,
+        "maxPalmSurfaceIntrusionM": 0.011699827926986036,
+        "handRayMisses": 0,
+        "minForearmToTorsoFrontM": 0.14144008355516363
+      },
+      {
+        "weapon": "qcq171",
+        "motion": "RifleRun",
+        "maxPalmSurfaceGapM": 0,
+        "maxPalmSurfaceIntrusionM": 0.009613681186041938,
+        "handRayMisses": 0,
+        "minForearmToTorsoFrontM": null
+      },
+      {
+        "weapon": "qcq171",
+        "motion": "RifleAimingIdle",
+        "maxPalmSurfaceGapM": 0,
+        "maxPalmSurfaceIntrusionM": 0.011198654514423092,
+        "handRayMisses": 0,
+        "minForearmToTorsoFrontM": null
+      },
+      {
+        "weapon": "qcq171",
+        "motion": "FiringRifle",
+        "maxPalmSurfaceGapM": 0,
+        "maxPalmSurfaceIntrusionM": 0.011198141942194414,
+        "handRayMisses": 0,
+        "minForearmToTorsoFrontM": null
+      }
+    ]
+  },
+  "failures": [
+    {
+      "cid": "linxu",
+      "weapon": "type56_1",
+      "motion": "RifleRun",
+      "maxPalmSurfaceGapM": 0,
+      "maxPalmSurfaceIntrusionM": 0.020073223030007754,
+      "handRayMisses": 0,
+      "minForearmToTorsoFrontM": null
+    },
+    {
+      "cid": "linxu",
+      "weapon": "type56_1",
+      "motion": "RifleAimingIdle",
+      "maxPalmSurfaceGapM": 0,
+      "maxPalmSurfaceIntrusionM": 0.0006295983180316608,
+      "handRayMisses": 5,
+      "minForearmToTorsoFrontM": null
+    },
+    {
+      "cid": "linxu",
+      "weapon": "type56_1",
+      "motion": "FiringRifle",
+      "maxPalmSurfaceGapM": 0,
+      "maxPalmSurfaceIntrusionM": 0.0006520359541768442,
+      "handRayMisses": 5,
+      "minForearmToTorsoFrontM": null
+    },
+    {
+      "cid": "linxu",
+      "weapon": "qbu85",
+      "motion": "RifleIdle",
+      "maxPalmSurfaceGapM": 0,
+      "maxPalmSurfaceIntrusionM": 0.0009394128250796157,
+      "handRayMisses": 5,
+      "minForearmToTorsoFrontM": null
+    },
+    {
+      "cid": "linxu",
+      "weapon": "qbu85",
+      "motion": "RifleAimingIdle",
+      "maxPalmSurfaceGapM": 0.014191877972847221,
+      "maxPalmSurfaceIntrusionM": 0.0006297463806404025,
+      "handRayMisses": 0,
+      "minForearmToTorsoFrontM": null
+    },
+    {
+      "cid": "linxu",
+      "weapon": "qbu85",
+      "motion": "FiringRifle",
+      "maxPalmSurfaceGapM": 0.01419205649719955,
+      "maxPalmSurfaceIntrusionM": 0.0006521493177762172,
+      "handRayMisses": 0,
+      "minForearmToTorsoFrontM": null
+    },
+    {
+      "cid": "linxu",
+      "weapon": "type97hawk",
+      "motion": "RifleIdle",
+      "maxPalmSurfaceGapM": 0,
+      "maxPalmSurfaceIntrusionM": 0.016532729573510346,
+      "handRayMisses": 0,
+      "minForearmToTorsoFrontM": 0.17724931275130124
+    },
+    {
+      "cid": "linxu",
+      "weapon": "type97hawk",
+      "motion": "RifleWalk",
+      "maxPalmSurfaceGapM": 0.001961301398929263,
+      "maxPalmSurfaceIntrusionM": 0,
+      "handRayMisses": 5,
+      "minForearmToTorsoFrontM": null
+    },
+    {
+      "cid": "linxu",
+      "weapon": "type97hawk",
+      "motion": "RifleRun",
+      "maxPalmSurfaceGapM": 0,
+      "maxPalmSurfaceIntrusionM": 0.028514683200692198,
+      "handRayMisses": 0,
+      "minForearmToTorsoFrontM": null
+    },
+    {
+      "cid": "linxu",
+      "weapon": "type97hawk",
+      "motion": "FiringRifle",
+      "maxPalmSurfaceGapM": 0,
+      "maxPalmSurfaceIntrusionM": 0.027113064075533974,
+      "handRayMisses": 0,
+      "minForearmToTorsoFrontM": null
+    },
+    {
+      "cid": "linxu",
+      "weapon": "type97hawk",
+      "motion": "ShotgunPump",
+      "maxPalmSurfaceGapM": 0,
+      "maxPalmSurfaceIntrusionM": 0.02711209336326185,
+      "handRayMisses": 0,
+      "minForearmToTorsoFrontM": null
+    },
+    {
+      "cid": "linxu",
+      "weapon": "qcq171",
+      "motion": "RifleIdle",
+      "maxPalmSurfaceGapM": 0,
+      "maxPalmSurfaceIntrusionM": 0.010969613565830465,
+      "handRayMisses": 0,
+      "minForearmToTorsoFrontM": 0.16760853850658872
+    },
+    {
+      "cid": "linxu",
+      "weapon": "qcq171",
+      "motion": "RifleWalk",
+      "maxPalmSurfaceGapM": 0.0017951475048703736,
+      "maxPalmSurfaceIntrusionM": 0.011699827926986036,
+      "handRayMisses": 0,
+      "minForearmToTorsoFrontM": 0.14144008355516363
+    },
+    {
+      "cid": "linxu",
+      "weapon": "qcq171",
+      "motion": "RifleAimingIdle",
+      "maxPalmSurfaceGapM": 0,
+      "maxPalmSurfaceIntrusionM": 0.011198654514423092,
+      "handRayMisses": 0,
+      "minForearmToTorsoFrontM": null
+    },
+    {
+      "cid": "linxu",
+      "weapon": "qcq171",
+      "motion": "FiringRifle",
+      "maxPalmSurfaceGapM": 0,
+      "maxPalmSurfaceIntrusionM": 0.011198141942194414,
+      "handRayMisses": 0,
+      "minForearmToTorsoFrontM": null
+    }
+  ]
+}

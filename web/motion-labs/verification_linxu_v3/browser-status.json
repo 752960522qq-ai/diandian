@@ -1,0 +1,11 @@
+{
+  "performed": false,
+  "attempted": true,
+  "stage": "Chromium launch",
+  "reason": "socket() failed: Operation not permitted (1)",
+  "browser_assertions_executed": false,
+  "alternatives_completed": [
+    "actual exported runtime poses reimported and rendered in Blender",
+    "CPU runtime interaction/seek state restoration checks"
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "rows": [
+    {
+      "weapon": "qbz95",
+      "motion": "RifleIdle",
+      "samples": 121,
+      "maxRightHandDegrees": 0,
+      "maxLeftHandDegrees": 0,
+      "maxRightFingerDegrees": 0.0424180079116286,
+      "maxLeftFingerDegrees": 0.020142401522933038,
+      "leftReleased": false
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleWalk",
+      "samples": 121,
+      "maxRightHandDegrees": 0.006956802079723446,
+      "maxLeftHandDegrees": 0.006571016274323424,
+      "maxRightFingerDegrees": 0.034872782148270096,
+      "maxLeftFingerDegrees": 0.020141494611060583,
+      "leftReleased": false
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleRun",
+      "samples": 121,
+      "maxRightHandDegrees": 0.04047650983075836,
+      "maxLeftHandDegrees": 0.023235277263313547,
+      "maxRightFingerDegrees": 0.03232300700752277,
+      "maxLeftFingerDegrees": 0.02014278403497083,
+      "leftReleased": false
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "RifleAimingIdle",
+      "samples": 121,
+      "maxRightHandDegrees": 0,
+      "maxLeftHandDegrees": 0.059224152581082566,
+      "maxRightFingerDegrees": 0.22439726479406671,
+      "maxLeftFingerDegrees": 0.19916692541281505,
+      "leftReleased": false
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "FiringRifle",
+      "samples": 121,
+      "maxRightHandDegrees": 0,
+      "maxLeftHandDegrees": 0.04424350363689997,
+      "maxRightFingerDegrees": 0.4818209076750944,
+      "maxLeftFingerDegrees": 0.020150369445616552,
+      "leftReleased": false
+    },
+    {
+      "weapon": "qbz95",
+      "motion": "Reloading",
+      "samples": 121,
+      "maxRightHandDegrees": 0.037438261779735915,
+      "maxLeftHandDegrees": 0,
+      "maxRightFingerDegrees": 0.244766576087677,
+      "maxLeftFingerDegrees": 0,
+      "leftReleased": true
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "RifleIdle",
+      "samples": 121,
+      "maxRightHandDegrees": 0,
+      "maxLeftHandDegrees": 0,
+      "maxRightFingerDegrees": 0.0424180079116286,
+      "maxLeftFingerDegrees": 0.030902722636144,
+      "leftReleased": false
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "RifleWalk",
+      "samples": 121,
+      "maxRightHandDegrees": 0.009794138802003149,
+      "maxLeftHandDegrees": 0,
+      "maxRightFingerDegrees": 0.034872782148270096,
+      "maxLeftFingerDegrees": 0.020141494032013624,
+      "leftReleased": false
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "RifleRun",
+      "samples": 121,
+      "maxRightHandDegrees": 0.03334756471582036,
+      "maxLeftHandDegrees": 0.23278461848549326,
+      "maxRightFingerDegrees": 0.03232300700752277,
+      "maxLeftFingerDegrees": 0.2397924585527532,
+      "leftReleased": false
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "RifleAimingIdle",
+      "samples": 121,
+      "maxRightHandDegrees": 0,
+      "maxLeftHandDegrees": 0.016425522627751172,
+      "maxRightFingerDegrees": 0.22439726479406671,
+      "maxLeftFingerDegrees": 0.23893540979134198,
+      "leftReleased": false
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "FiringRifle",
+      "samples": 121,
+      "maxRightHandDegrees": 0,
+      "maxLeftHandDegrees": 0.011811924922778277,
+      "maxRightFingerDegrees": 0.6815841318074389,
+      "maxLeftFingerDegrees": 0.020154919683358783,
+      "leftReleased": false
+    },
+    {
+      "weapon": "type56_1",
+      "motion": "Reloading",
+      "samples": 121,
+      "maxRightHandDegrees": 0.03743826174079557,
+      "maxLeftHandDegrees": 0,
+      "maxRightFingerDegrees": 0.244766576087677,
+      "maxLeftFingerDegrees": 0,
+      "leftReleased": true
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "RifleIdle",
+      "samples": 121,
+      "maxRightHandDegrees": 0.02198741267953785,
+      "maxLeftHandDegrees": 0.01959919169683331,
+      "maxRightFingerDegrees": 0.032325051138180426,
+      "maxLeftFingerDegrees": 0.030902722636144,
+      "leftReleased": false
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "RifleWalk",
+      "samples": 121,
+      "maxRightHandDegrees": 0,
+      "maxLeftHandDegrees": 0.03419858640107252,
+      "maxRightFingerDegrees": 0.034872782148270096,
+      "maxLeftFingerDegrees": 0.030282980683871828,
+      "leftReleased": false
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "RifleRun",
+      "samples": 121,
+      "maxRightHandDegrees": 0.04674571099513171,
+      "maxLeftHandDegrees": 0,
+      "maxRightFingerDegrees": 0.032323939089045337,
+      "maxLeftFingerDegrees": 0.02014679110857271,
+      "leftReleased": false
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "RifleAimingIdle",
+      "samples": 121,
+      "maxRightHandDegrees": 0,
+      "maxLeftHandDegrees": 0.017406176886589464,
+      "maxRightFingerDegrees": 0.22439726479406671,
+      "maxLeftFingerDegrees": 0.23893280309618106,
+      "leftReleased": false
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "FiringRifle",
+      "samples": 121,
+      "maxRightHandDegrees": 0,
+      "maxLeftHandDegrees": 0.011052410856400284,
+      "maxRightFingerDegrees": 0.39916674877927216,
+      "maxLeftFingerDegrees": 0.02015493422221753,
+      "leftReleased": false
+    },
+    {
+      "weapon": "qbu85",
+      "motion": "Reloading",
+      "samples": 121,
+      "maxRightHandDegrees": 0.0403825196048487,
+      "maxLeftHandDegrees": 0,
+      "maxRightFingerDegrees": 0.244766576087677,
+      "maxLeftFingerDegrees": 0,
+      "leftReleased": true
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "RifleIdle",
+      "samples": 121,
+      "maxRightHandDegrees": 0,
+      "maxLeftHandDegrees": 0,
+      "maxRightFingerDegrees": 0.0424180079116286,
+      "maxLeftFingerDegrees": 0.030902722636144,
+      "leftReleased": false
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "RifleWalk",
+      "samples": 121,
+      "maxRightHandDegrees": 0.007327770847653242,
+      "maxLeftHandDegrees": 0.0019558566012511875,
+      "maxRightFingerDegrees": 0.034872782148270096,
+      "maxLeftFingerDegrees": 0.020141493887251883,
+      "leftReleased": false
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "RifleRun",
+      "samples": 121,
+      "maxRightHandDegrees": 0.03995771681030482,
+      "maxLeftHandDegrees": 0,
+      "maxRightFingerDegrees": 0.03232300700752277,
+      "maxLeftFingerDegrees": 0.03096355546396789,
+      "leftReleased": false
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "RifleAimingIdle",
+      "samples": 121,
+      "maxRightHandDegrees": 0,
+      "maxLeftHandDegrees": 0.04268253771302858,
+      "maxRightFingerDegrees": 0.24255957891198365,
+      "maxLeftFingerDegrees": 0.020141492656777022,
+      "leftReleased": false
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "FiringRifle",
+      "samples": 121,
+      "maxRightHandDegrees": 0,
+      "maxLeftHandDegrees": 0.011867701218554273,
+      "maxRightFingerDegrees": 0.032324354336104685,
+      "maxLeftFingerDegrees": 0.020141492656777022,
+      "leftReleased": false
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "Reloading",
+      "samples": 121,
+      "maxRightHandDegrees": 0,
+      "maxLeftHandDegrees": 0,
+      "maxRightFingerDegrees": 0.24671851158124405,
+      "maxLeftFingerDegrees": 0,
+      "leftReleased": true
+    },
+    {
+      "weapon": "type97hawk",
+      "motion": "ShotgunPump",
+      "samples": 121,
+      "maxRightHandDegrees": 0.03145128229842116,
+      "maxLeftHandDegrees": 0.010118134125626076,
+      "maxRightFingerDegrees": 0.03232632509708221,
+      "maxLeftFingerDegrees": 0.020141492656777022,
+      "leftReleased": false
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleIdle",
+      "samples": 121,
+      "maxRightHandDegrees": 0.018606749548594908,
+      "maxLeftHandDegrees": 0,
+      "maxRightFingerDegrees": 0.03232553401997264,
+      "maxLeftFingerDegrees": 0.020144050796392074,
+      "leftReleased": false
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleWalk",
+      "samples": 121,
+      "maxRightHandDegrees": 0.024355556064246758,
+      "maxLeftHandDegrees": 0.014318653484721005,
+      "maxRightFingerDegrees": 0.032323010886365404,
+      "maxLeftFingerDegrees": 0.02014149316344315,
+      "leftReleased": false
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleRun",
+      "samples": 121,
+      "maxRightHandDegrees": 0.04004459860460479,
+      "maxLeftHandDegrees": 0,
+      "maxRightFingerDegrees": 0.0323244470184119,
+      "maxLeftFingerDegrees": 0.020145984257894076,
+      "leftReleased": false
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "RifleAimingIdle",
+      "samples": 121,
+      "maxRightHandDegrees": 0.023303760332091843,
+      "maxLeftHandDegrees": 0.043539794977176784,
+      "maxRightFingerDegrees": 0.13565859637257532,
+      "maxLeftFingerDegrees": 0.19916692541281505,
+      "leftReleased": false
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "FiringRifle",
+      "samples": 121,
+      "maxRightHandDegrees": 0.017038328562395157,
+      "maxLeftHandDegrees": 0.025007034695571292,
+      "maxRightFingerDegrees": 0.25478921176011127,
+      "maxLeftFingerDegrees": 0.020166723303541054,
+      "leftReleased": false
+    },
+    {
+      "weapon": "qcq171",
+      "motion": "Reloading",
+      "samples": 121,
+      "maxRightHandDegrees": 0.04037269966865854,
+      "maxLeftHandDegrees": 0,
+      "maxRightFingerDegrees": 0.244766576087677,
+      "maxLeftFingerDegrees": 0,
+      "leftReleased": true
+    }
+  ],
+  "failures": [],
+  "limitations": [
+    "Source-matched rotations do not prove exact fingertip-to-trigger contact or continuous mesh collision freedom.",
+    "Released reload left hand retains original arm animation; it is not forcibly locked to the gun."
+  ]
+}

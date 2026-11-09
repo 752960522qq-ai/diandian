@@ -1,0 +1,236 @@
+[
+  {
+    "cid": "linxu",
+    "weapon": "qbz95",
+    "motion": "RifleIdle",
+    "maxMiddleErrorM": 1.1795319050473194e-7,
+    "maxLeftContactErrorM": 8.730961208717522e-8,
+    "maxRightContactErrorM": 7.376243536616285e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "linxu",
+    "weapon": "qbz95",
+    "motion": "RifleWalk",
+    "maxMiddleErrorM": 1.6865298211204598e-7,
+    "maxLeftContactErrorM": 1.2809585135797735e-7,
+    "maxRightContactErrorM": 1.0963123355788152e-7,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "linxu",
+    "weapon": "qbz95",
+    "motion": "RifleRun",
+    "maxMiddleErrorM": 2.5186642770881094e-7,
+    "maxLeftContactErrorM": 2.296444335389724e-7,
+    "maxRightContactErrorM": 2.896303739554695e-7,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "linxu",
+    "weapon": "qbz95",
+    "motion": "RifleAimingIdle",
+    "maxMiddleErrorM": 3.1654374738794007e-7,
+    "maxLeftContactErrorM": 1.81338840244627e-7,
+    "maxRightContactErrorM": 9.489616184823231e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "linxu",
+    "weapon": "qbz95",
+    "motion": "FiringRifle",
+    "maxMiddleErrorM": 3.828137138074951e-7,
+    "maxLeftContactErrorM": 1.8318013037344788e-7,
+    "maxRightContactErrorM": 8.967538511998372e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "linxu",
+    "weapon": "type56_1",
+    "motion": "RifleIdle",
+    "maxMiddleErrorM": 6.932440669825322e-8,
+    "maxLeftContactErrorM": 6.24280440363488e-8,
+    "maxRightContactErrorM": 7.555995322419621e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "linxu",
+    "weapon": "type56_1",
+    "motion": "RifleWalk",
+    "maxMiddleErrorM": 1.0538315425263666e-7,
+    "maxLeftContactErrorM": 6.289703186345231e-8,
+    "maxRightContactErrorM": 1.051253668470507e-7,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "linxu",
+    "weapon": "type56_1",
+    "motion": "RifleRun",
+    "maxMiddleErrorM": 0.0002815511554378352,
+    "maxLeftContactErrorM": 2.3530401012218467e-7,
+    "maxRightContactErrorM": 2.9203684155383216e-7,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "linxu",
+    "weapon": "type56_1",
+    "motion": "RifleAimingIdle",
+    "maxMiddleErrorM": 2.0623574150663458e-7,
+    "maxLeftContactErrorM": 1.053287435331864e-7,
+    "maxRightContactErrorM": 6.051377604016564e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "linxu",
+    "weapon": "type56_1",
+    "motion": "FiringRifle",
+    "maxMiddleErrorM": 1.9998208060727804e-7,
+    "maxLeftContactErrorM": 1.0222995890801936e-7,
+    "maxRightContactErrorM": 1.4282816187095296e-7,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "linxu",
+    "weapon": "qbu85",
+    "motion": "RifleIdle",
+    "maxMiddleErrorM": 8.634327881378608e-8,
+    "maxLeftContactErrorM": 9.279211910196793e-8,
+    "maxRightContactErrorM": 4.512497244447024e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "linxu",
+    "weapon": "qbu85",
+    "motion": "RifleWalk",
+    "maxMiddleErrorM": 1.0544640328973456e-7,
+    "maxLeftContactErrorM": 1.130997785604067e-7,
+    "maxRightContactErrorM": 8.8932692168561e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "linxu",
+    "weapon": "qbu85",
+    "motion": "RifleRun",
+    "maxMiddleErrorM": 2.263831778421098e-7,
+    "maxLeftContactErrorM": 1.6263456195914323e-7,
+    "maxRightContactErrorM": 2.906118270838517e-7,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "linxu",
+    "weapon": "qbu85",
+    "motion": "RifleAimingIdle",
+    "maxMiddleErrorM": 1.8793280159737746e-7,
+    "maxLeftContactErrorM": 1.0676397652205226e-7,
+    "maxRightContactErrorM": 1.815899929870743e-7,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "linxu",
+    "weapon": "qbu85",
+    "motion": "FiringRifle",
+    "maxMiddleErrorM": 1.7908774558996713e-7,
+    "maxLeftContactErrorM": 1.0340420349886394e-7,
+    "maxRightContactErrorM": 1.7153163271182536e-7,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "linxu",
+    "weapon": "type97hawk",
+    "motion": "RifleIdle",
+    "maxMiddleErrorM": 8.367688361464403e-8,
+    "maxLeftContactErrorM": 5.104841774092315e-8,
+    "maxRightContactErrorM": 7.555995238848394e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "linxu",
+    "weapon": "type97hawk",
+    "motion": "RifleWalk",
+    "maxMiddleErrorM": 9.864311308540211e-8,
+    "maxLeftContactErrorM": 5.99878371663896e-8,
+    "maxRightContactErrorM": 1.0963123334458566e-7,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "linxu",
+    "weapon": "type97hawk",
+    "motion": "RifleRun",
+    "maxMiddleErrorM": 2.872635415423545e-7,
+    "maxLeftContactErrorM": 2.2369245258473727e-7,
+    "maxRightContactErrorM": 2.920368490930421e-7,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "linxu",
+    "weapon": "type97hawk",
+    "motion": "RifleAimingIdle",
+    "maxMiddleErrorM": 2.3572184119231375e-7,
+    "maxLeftContactErrorM": 1.5771900782568744e-7,
+    "maxRightContactErrorM": 4.335009229159456e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "linxu",
+    "weapon": "type97hawk",
+    "motion": "FiringRifle",
+    "maxMiddleErrorM": 3.1860876930488824e-7,
+    "maxLeftContactErrorM": 3.5451422349298904e-7,
+    "maxRightContactErrorM": 1.8374450354602945e-7,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "linxu",
+    "weapon": "type97hawk",
+    "motion": "ShotgunPump",
+    "maxMiddleErrorM": 3.336297593303507e-7,
+    "maxLeftContactErrorM": 1.676709413593903e-7,
+    "maxRightContactErrorM": 1.5344458938775874e-7,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "linxu",
+    "weapon": "qcq171",
+    "motion": "RifleIdle",
+    "maxMiddleErrorM": 1.1026512431756284e-7,
+    "maxLeftContactErrorM": 9.365677544558378e-8,
+    "maxRightContactErrorM": 6.797593944483364e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "linxu",
+    "weapon": "qcq171",
+    "motion": "RifleWalk",
+    "maxMiddleErrorM": 1.2602959600271933e-7,
+    "maxLeftContactErrorM": 1.037784485986687e-7,
+    "maxRightContactErrorM": 8.911517498296393e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "linxu",
+    "weapon": "qcq171",
+    "motion": "RifleRun",
+    "maxMiddleErrorM": 1.9570962269982082e-7,
+    "maxLeftContactErrorM": 1.66526560611558e-7,
+    "maxRightContactErrorM": 2.9460020339704373e-7,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "linxu",
+    "weapon": "qcq171",
+    "motion": "RifleAimingIdle",
+    "maxMiddleErrorM": 2.7736623662108284e-7,
+    "maxLeftContactErrorM": 1.5877426533071215e-7,
+    "maxRightContactErrorM": 8.109009897334739e-8,
+    "maxReachExcessM": 0
+  },
+  {
+    "cid": "linxu",
+    "weapon": "qcq171",
+    "motion": "FiringRifle",
+    "maxMiddleErrorM": 3.431053915777516e-7,
+    "maxLeftContactErrorM": 1.5914498500787173e-7,
+    "maxRightContactErrorM": 7.828615239181705e-8,
+    "maxReachExcessM": 0
+  }
+]

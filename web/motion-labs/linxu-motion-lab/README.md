@@ -1,3 +1,14 @@
+# 林叙 · 独立动作与装备站 · V3
+
+修正空手待机、行走、奔跑肩线，以及五枪掌腕与手指姿态。角色体型、网格和贴图未变。
+
+- 当前使用 `assets/characters/linxu_motion_v3/motions.glb` 的网页副本。
+- 详细修改、测试和已知限制见 `../verification_linxu_v3/README.md`。
+- 新增可复用装备动作及枪体变换：`../../../assets/characters/linxu_motion_v3/`。
+- V3 未发布线上，握枪运行时尚未接入 Godot。
+
+以下保留 V2 的来源说明，当前结果以 V3 验证记录为准。
+
 # 林叙 · 独立动作与装备站 · V2
 
 角色以用户上传的 `Linxu_assembled_animated.glb` 为准。网格、材质、原始精度贴图、312 根骨骼及蒙皮不变。

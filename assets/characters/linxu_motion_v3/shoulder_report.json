@@ -1,0 +1,158 @@
+{
+  "source": "assets/characters/linxu_motion_v2/motions.glb",
+  "method": "Animated torso-relative clavicle elevation with exact world upper-arm orientation compensation. Bone lengths, mesh, scales, original timing and gait unchanged.",
+  "clips": {
+    "Idle": {
+      "liftDegrees": 8,
+      "openDegrees": 4,
+      "samples": 321,
+      "duration": 5.333333492279053,
+      "minShoulderLiftM": 0.007942813546061587,
+      "maxShoulderLiftM": 0.009036078813379403,
+      "maxArmWorldOrientationDeltaDegrees": 0.00001681739047370585,
+      "before": {
+        "width": {
+          "min": 0.15548020545288974,
+          "max": 0.16663516953124743,
+          "mean": 0.16151759440012434
+        },
+        "slope": {
+          "min": -5.925399832682039,
+          "max": 3.3688155816253476,
+          "mean": -2.197124621559616
+        }
+      },
+      "after": {
+        "width": {
+          "min": 0.16024971376390076,
+          "max": 0.17209909221698355,
+          "mean": 0.1668245107508078
+        },
+        "slope": {
+          "min": 0.6378376325180846,
+          "max": 9.504951805533983,
+          "mean": 4.344697186553787
+        }
+      }
+    },
+    "Walk": {
+      "liftDegrees": 8,
+      "openDegrees": 4,
+      "samples": 71,
+      "duration": 1.1666666269302368,
+      "minShoulderLiftM": 0.008120971057104902,
+      "maxShoulderLiftM": 0.008786860244277444,
+      "maxArmWorldOrientationDeltaDegrees": 0.00001601821346280157,
+      "before": {
+        "width": {
+          "min": 0.155378959232894,
+          "max": 0.15764861086745285,
+          "mean": 0.15650466880525465
+        },
+        "slope": {
+          "min": -27.743270555554087,
+          "max": -22.861552144633407,
+          "mean": -25.288347431116772
+        }
+      },
+      "after": {
+        "width": {
+          "min": 0.16782066492250852,
+          "max": 0.1696437701061663,
+          "mean": 0.16867090429879072
+        },
+        "slope": {
+          "min": -20.64522432466478,
+          "max": -16.092994498650484,
+          "mean": -18.299050697366987
+        }
+      }
+    },
+    "Run": {
+      "liftDegrees": 6,
+      "openDegrees": 2,
+      "samples": 39,
+      "duration": 0.6333333253860474,
+      "minShoulderLiftM": 0.007030677729026999,
+      "maxShoulderLiftM": 0.007323861371899695,
+      "maxArmWorldOrientationDeltaDegrees": 0.000023350358035739855,
+      "before": {
+        "width": {
+          "min": 0.17331520200670433,
+          "max": 0.17563181297126218,
+          "mean": 0.17439029239916357
+        },
+        "slope": {
+          "min": -19.41449607653598,
+          "max": -3.8232375070735687,
+          "mean": -12.644779068667836
+        }
+      },
+      "after": {
+        "width": {
+          "min": 0.17654975238489623,
+          "max": 0.18010603356772664,
+          "mean": 0.1788940130414242
+        },
+        "slope": {
+          "min": -13.66814873522821,
+          "max": 1.6074663188039937,
+          "mean": -7.07618123986209
+        }
+      }
+    }
+  },
+  "changedTracks": {
+    "Idle": [
+      "mixamorigLeftShoulder.quaternion",
+      "mixamorigRightShoulder.quaternion",
+      "mixamorigLeftArm.quaternion",
+      "mixamorigRightArm.quaternion"
+    ],
+    "Walk": [
+      "mixamorigLeftShoulder.quaternion",
+      "mixamorigRightShoulder.quaternion",
+      "mixamorigLeftArm.quaternion",
+      "mixamorigRightArm.quaternion"
+    ],
+    "Run": [
+      "mixamorigLeftShoulder.quaternion",
+      "mixamorigRightShoulder.quaternion",
+      "mixamorigLeftArm.quaternion",
+      "mixamorigRightArm.quaternion"
+    ]
+  },
+  "unchangedClips": [
+    "Talking",
+    "HeadStress",
+    "Dying",
+    "FlyingBackDeath",
+    "SittingTalking",
+    "SittingCrossLegged",
+    "ClimbingLadder",
+    "HangToCrouch",
+    "WalkingBackwards",
+    "RifleIdle",
+    "RifleWalk",
+    "RifleRun",
+    "RifleAimingIdle",
+    "FiringRifle",
+    "Reloading",
+    "ShotgunAimDown",
+    "ShotgunAimLevel",
+    "ShotgunAimUp",
+    "ShotgunCycleDown",
+    "ShotgunCycleLevel",
+    "ShotgunCycleUp",
+    "ShotgunFireDown",
+    "ShotgunFireLevel",
+    "ShotgunFireUp",
+    "ShotgunPumpDown",
+    "ShotgunPumpLevel",
+    "ShotgunPumpUp",
+    "ShotgunReload",
+    "Type97Fire",
+    "Type97Pump",
+    "RifleRun_Before"
+  ]
+}
