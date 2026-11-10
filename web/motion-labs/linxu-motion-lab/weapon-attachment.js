@@ -4,6 +4,7 @@ import { applyLinxuStockCorrections } from './specific-retouches.js?v=linxu-stoc
 import { applyLinxuQcqLeftWrist } from './qcq171-left-wrist-retouch.js?v=linxu-qcq-stage1';
 import { applyLinxuQcqRight } from './qcq171-right-wrist-retouch.js?v=linxu-qcq-right-stage1';
 import { applyLinxuQbu85Grip } from './linxuqbu85-grip-retouch.js?v=linxu-qbu85-stage1';
+import { applyLinxuQbu85Palm } from './qbu85-idle-palm-retouch.js?v=linxu-qbu85-palm-stage1';
 import { applyLinxu97IdleGrip } from './linxu97-idle-grip-retouch.js?v=linxu97-idle-stage1';
 import { applyReferenceGrip, sampleReferenceVector } from './reference-grip.js?v=linxu-v4';
 import { fixedGunMotionNames, applyFixedGunPose } from './fixed-machine-gun.js?v=weapons-r44';
@@ -376,6 +377,7 @@ export class WeaponAttachment {
     applyLinxuQcqLeftWrist(this, motion);
     applyLinxuQcqRight(this, motion);
     applyLinxuQbu85Grip(this, motion);
+    applyLinxuQbu85Palm(this, motion);
     applyLinxu97IdleGrip(this, motion);
   }
 

@@ -6,7 +6,7 @@ import { installRocketMotions, rocketMotions, rocketLabels } from './rocket-moti
 import { installType97Motions } from './type97-motion.js?v=grip-r31';
 import { GLTFLoader } from './vendor/GLTFLoader.js';
 import { OrbitControls } from './vendor/OrbitControls.js';
-import { WeaponAttachment } from './weapon-attachment.js?v=zhigeng97-pump-stage1';
+import { WeaponAttachment } from './weapon-attachment.js?v=zhigeng-pump-elbow16';
 import { PonytailPhysics } from './ponytail-physics.js';
 
 const $ = (selector) => document.querySelector(selector);

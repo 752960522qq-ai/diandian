@@ -2,13 +2,14 @@ import { applyNaturalWeaponTrack } from './natural-weapon.js?v=natural-v6-should
 import * as THREE from 'three';
 import { applyMilitaryPistolFiring } from './specific-retouches.js?v=military-pistol-stage1';
 import { applyVestM870Firing } from './vest-m870-retouch.js?v=vest-m870-stage1';
-import { applyMilitary56Idle } from './military-56-wrist-retouch.js?v=military-56-stage1';
+import { applyMilitary56Idle } from './military-56-wrist-retouch.js?v=fix1110-stage36';
 import { applyVest56Grip } from './vest56-grip-retouch.js?v=vest-56-stage1';
 import { applyVestQbu85Grip } from './vestqbu85-grip-retouch.js?v=vest-qbu85-stage1';
 import { applyVestQbu85Walk } from './vestqbu85-walk-retouch.js?v=vest-qbu85-walk-stage1';
 import { applyMilitary97IdleGrip } from './military97-idle-grip-retouch.js?v=military97-idle-stage1';
-import { applyMilitaryPistolIdleFingers } from './military-pistol-idle-fingers-retouch.js?v=military-pistol-idle-stage1';
+import { applyMilitaryPistolIdleFingers } from './military-pistol-idle-fingers-retouch.js?v=fix1110-stage34';
 import { applyVest56FiringFingers } from './vest56-firing-fingers-retouch.js?v=vest56-firing-stage1';
+import { applyVestPistolAim } from './vest-pistol-aim-retouch.js?v=fix1110-stage36';
 import { applyReferenceGrip, sampleReferenceVector } from './reference-grip.js?v=r48';
 import { fixedGunMotionNames, applyFixedGunPose } from './fixed-machine-gun.js?v=weapons-r44';
 import { rocketMotions, rocketSupportWeight, rocketCarryWeight, applyRocketPosePath, fitRocketCarryReach } from './rocket-motion.js?v=pf89-r40';
@@ -383,6 +384,7 @@ export class WeaponAttachment {
     applyMilitary97IdleGrip(this, motion);
     applyMilitaryPistolIdleFingers(this, motion);
     applyVest56FiringFingers(this, motion);
+    applyVestPistolAim(this, motion);
   }
 
   updateBeforeMilitaryPistol(motion, time = 0, animation = {}) {

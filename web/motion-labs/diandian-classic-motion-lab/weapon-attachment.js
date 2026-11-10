@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 import { applyDiandianPf89Carry } from './pf89-carry-retouch.js?v=diandian-pf89-stage1';
-import { applyDiandianM870Idle } from './m870-idle-retouch.js?v=diandian-m870-stage1';
+import { applyDiandianM870Idle } from './m870-idle-retouch.js?v=diandian-m870-stage2';
 import { fixedGunMotionNames, applyFixedGunPose } from './fixed-machine-gun.js?v=natural-weapons-v6';
 import { rocketMotions, rocketSupportWeight, rocketCarryWeight, applyRocketPosePath, fitRocketCarryReach } from './rocket-motion.js?v=pf89-r40';
 import { ChestSkinningRelief } from './chest-skinning.js?v=grip-r31';

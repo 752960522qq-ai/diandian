@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import {GLTFLoader} from './vendor/GLTFLoader.js';
 import {OrbitControls} from './vendor/OrbitControls.js';
-import {prepareRig,unarmed,armed,pistols,oneShots} from './rig.js?v=vest56-firing-stage1';
+import {prepareRig,unarmed,armed,pistols,oneShots} from './rig.js?v=fix1110-stage36';
 import {createMotionContext} from './uploaded-motion.js';
 const $=s=>document.querySelector(s), stage=$('#stage');
 const motionBounds=new Map();

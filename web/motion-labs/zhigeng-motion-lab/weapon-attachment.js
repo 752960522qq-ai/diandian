@@ -1,3 +1,4 @@
+import { applyZhigeng97PumpElbow } from './type97-pump-elbow-retouch.js?v=zhigeng-pump-elbow16';
 import * as THREE from 'three';
 import { applyZhigengType97Firing } from './specific-retouches.js?v=zhigeng97-stage1';
 import { applyZhigengPf89Carry } from './pf89-carry-retouch.js?v=zhigeng-pf89-stage1';
@@ -322,6 +323,7 @@ export class WeaponAttachment {
     applyZhigengPf89Carry(this, motion);
     applyZhigengQjzIdle(this, motion);
     applyZhigeng97PumpWrist(this, motion, time);
+    applyZhigeng97PumpElbow(this, motion, time);
   }
 
   updateBeforeZhigengType97(motion, time = 0, animation = {}) {

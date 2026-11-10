@@ -1,9 +1,13 @@
 import * as THREE from 'three';
-// Military QSZ92 idle: only left ring and little fingers, authored on this rig.
+// Military QSZ92 idle: character-specific Blender grip with left arm, wrist and two fingers.
 const deltas={"mixamorig:LeftHandPinky1":[-0.044265616685152054,-0.03871987760066986,-0.03751436993479729,0.9975640177726746],"mixamorig:LeftHandPinky2":[0.0022196099162101746,-0.01727709174156189,-0.06754680722951889,0.9975640177726746],"mixamorig:LeftHandPinky3":[0.03173248842358589,-0.00034067031810991466,-0.062119849026203156,0.9975640177726746],"mixamorig:LeftHandRing1":[-0.06759694963693619,-0.016564128920435905,0.004718756768852472,0.9975640773773193],"mixamorig:LeftHandRing2":[-0.02285704016685486,-0.009059101343154907,-0.06528104096651077,0.9975640177726746],"mixamorig:LeftHandRing3":[0.036407411098480225,-0.0008741617202758789,-0.059495702385902405,0.9975640177726746]};
+// Second local layer is relative to the existing two-finger pose.
+const gripDeltas={"mixamorig:LeftArm":[-4.4703490686970326e-08,8.940698137394065e-08,0.01745244674384594,0.9998477697372437],"mixamorig:LeftForeArm":[1.862645326866641e-08,-0.0958457887172699,4.5634813261585805e-08,0.9953961968421936],"mixamorig:LeftHand":[2.980232594040899e-08,-0.01745232567191124,-3.539026138810186e-08,0.9998477101325989],"mixamorig:LeftHandPinky1":[-0.07833145558834076,-0.06962830573320389,-0.06962818652391434,0.992052435874939],"mixamorig:LeftHandPinky2":[0.10442215949296951,-0.06961485743522644,-0.034807369112968445,0.9914828538894653],"mixamorig:LeftHandPinky3":[0.1218661442399025,0.00870475359261036,-0.008704634383320808,0.9924703240394592],"mixamorig:LeftHandRing1":[-0.10442227870225906,-0.0696149542927742,0.03480745106935501,0.9914829134941101],"mixamorig:LeftHandRing2":[0.10442215204238892,-0.034807417541742325,-0.06961484998464584,0.9914828538894653],"mixamorig:LeftHandRing3":[0.1218244731426239,-0.04350865259766579,0.01740354485809803,0.9914449453353882]};
 export function applyMilitaryPistolIdleFingers(attachment,motion){
  if(attachment.characterId!=='military'||attachment.selectedWeapon!=='qsz92'||motion!=='PistolIdle'||!attachment.state.visible)return;
  const depth=bone=>{let n=0;for(let p=bone;p;p=p.parent)n++;return n;};
  const bones=Object.entries(deltas).map(([name,q])=>[attachment.model.bones.get(name),q]);bones.sort((a,b)=>depth(a[0])-depth(b[0]));
  for(const[bone,q]of bones){attachment.saveBone(bone);bone.quaternion.multiply(new THREE.Quaternion().fromArray(q).normalize()).normalize();bone.updateMatrixWorld(true);}
+ const gripBones=Object.entries(gripDeltas).map(([name,q])=>[attachment.model.bones.get(name),q]).sort((a,b)=>depth(a[0])-depth(b[0]));
+ for(const[bone,q]of gripBones){attachment.saveBone(bone);bone.quaternion.multiply(new THREE.Quaternion().fromArray(q).normalize()).normalize();bone.updateMatrixWorld(true);}
 }

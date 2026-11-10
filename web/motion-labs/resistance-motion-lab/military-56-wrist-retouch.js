@@ -1,6 +1,7 @@
 import * as THREE from 'three';
-// Military resistance Type 56 idle: one left-wrist adjustment.
+// Military resistance Type 56 idle: Blender-authored wrist and support-hand correction.
 const delta=[-0.0008250585524365306,-0.000675547809805721,0.06974828243255615,0.9975640773773193];
+const gripDeltas={"mixamorig:LeftArm":[0.00643917266279459,1.2516976539700408e-06,0.020029785111546516,0.999778687953949],"mixamorig:LeftForeArm":[0.014371125027537346,0.0006310642347671092,-0.033706869930028915,0.9993282556533813],"mixamorig:LeftHand":[-0.0039972723461687565,-0.002763285068795085,0.11399300396442413,0.993469774723053],"mixamorig:LeftHandIndex1":[-0.09572295844554901,-0.00870208814740181,-0.08702069520950317,0.991558849811554],"mixamorig:LeftHandIndex2":[-0.09573591500520706,-0.0826810896396637,8.940696716308594e-08,0.991966962814331],"mixamorig:LeftHandIndex3":[0.08703368157148361,0.09138553589582443,-5.215407838932151e-08,0.9920050501823425],"mixamorig:LeftHandMiddle1":[-0.08701761066913605,0.0870174691081047,-0.04350870102643967,0.9914448261260986],"mixamorig:LeftHandMiddle2":[-0.12619264423847198,0.017405815422534943,7.264317503086204e-08,0.9918530583381653],"mixamorig:LeftHandMiddle3":[0.12183807790279388,0.03916225954890251,-3.725290298461914e-08,0.9917771816253662],"mixamorig:LeftHandPinky1":[-0.08701737970113754,0.08701745420694351,0.043508704751729965,0.9914448857307434],"mixamorig:LeftHandPinky2":[-0.08701743185520172,0.04350854083895683,0.08701759576797485,0.9914448857307434],"mixamorig:LeftHandPinky3":[0.03916022181510925,0.08702283352613449,0.08702263236045837,0.9916252493858337],"mixamorig:LeftHandRing1":[-0.08701762557029724,0.04350872337818146,0.0870174989104271,0.9914448857307434],"mixamorig:LeftHandRing2":[-0.08702270686626434,0.03916021063923836,0.08702284097671509,0.9916253089904785],"mixamorig:LeftHandRing3":[0.10443025082349777,0.06091765686869621,-0.04351256415247917,0.9917107224464417],"mixamorig:LeftHandThumb1":[0.03488568589091301,-0.04796773940324783,-0.008721529506146908,0.9982013702392578],"mixamorig:LeftHandThumb2":[-0.04358837753534317,-0.06538242101669312,2.9802322387695312e-08,0.9969078302383423],"mixamorig:LeftHandThumb3":[-7.450580596923828e-09,-0.017441481351852417,-0.06104537844657898,0.9979826211929321]};
 export function applyMilitary56Idle(attachment,motion){
  if(attachment.characterId!=='military'||attachment.selectedWeapon!=='type56_1'||motion!=='RifleIdle'||!attachment.state.visible)return;
  const bone=attachment.model.bones.get('mixamorig:LeftHand'),state=attachment.state;
@@ -8,6 +9,9 @@ export function applyMilitary56Idle(attachment,motion){
  attachment.saveBone(bone);
  bone.quaternion.multiply(new THREE.Quaternion().slerp(new THREE.Quaternion().fromArray(delta).normalize(),1)).normalize();
  bone.updateMatrixWorld(true);
+ const depth=b=>{let n=0;for(let p=b;p;p=p.parent)n++;return n;};
+ const entries=Object.entries(gripDeltas).map(([name,q])=>[attachment.model.bones.get(name),q]).sort((a,b)=>depth(a[0])-depth(b[0]));
+ for(const[b,q]of entries){attachment.saveBone(b);b.quaternion.multiply(new THREE.Quaternion().fromArray(q).normalize()).normalize();b.updateMatrixWorld(true);}
  if(palm){state.leftPalmWorld=bone.localToWorld(palm).toArray();if(state.supportTargetWorld&&state.leftContactErrorM!==null)
   state.leftContactErrorM=new THREE.Vector3().fromArray(state.leftPalmWorld).distanceTo(new THREE.Vector3().fromArray(state.supportTargetWorld));}
 }

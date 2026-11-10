@@ -1,0 +1,13 @@
+import * as THREE from 'three';
+// Blender-authored for this rig and this action: the support palm sits outside
+// the QSZ92 grip, with a larger finger arc around the gripping hand.
+const deltas={"mixamorig:LeftArm":[-0.03171950578689575,0.019468188285827637,-0.06141948699951172,0.9974179267883301],"mixamorig:LeftForeArm":[-0.04711350053548813,-0.0030589806847274303,-6.869457865832373e-05,0.9988848567008972],"mixamorig:LeftHand":[0.08343277126550674,0.016416888684034348,0.06300856173038483,0.9943839311599731],"mixamorig:LeftHandIndex2":[0.12857384979724884,-0.0015674311434850097,0.02243638038635254,0.9914449453353882],"mixamorig:LeftHandIndex3":[0.12825903296470642,-0.015162631869316101,0.018889956176280975,0.9914448261260986],"mixamorig:LeftHandMiddle2":[0.12355951964855194,-0.007606820203363895,0.04138023033738136,0.9914448261260986],"mixamorig:LeftHandMiddle3":[0.1238570436835289,-0.03040851280093193,0.027780551463365555,0.9914449453353882],"mixamorig:LeftHandPinky2":[0.10350997000932693,-0.006613119505345821,0.07924064993858337,0.9914448261260986],"mixamorig:LeftHandPinky3":[0.10525725036859512,-0.039883654564619064,0.0660855621099472,0.9914449453353882],"mixamorig:LeftHandRing2":[0.12425749003887177,-0.018816664814949036,0.035258375108242035,0.9914448857307434],"mixamorig:LeftHandRing3":[0.12304424494504929,-0.03508000075817108,0.025818226858973503,0.9914449453353882],"mixamorig:LeftHandThumb1":[0.11257791519165039,0.10302633792161942,0.08285808563232422,0.9848078489303589]};
+export function applyVestPistolAim(attachment,motion){
+ if(attachment.characterId!=='vest'||attachment.selectedWeapon!=='qsz92'||motion!=='PistolAimingIdle'||!attachment.state.visible)return;
+ const hand=attachment.model.bones.get('mixamorig:LeftHand');
+ const localPalm=attachment.state.leftPalmWorld?hand.worldToLocal(new THREE.Vector3().fromArray(attachment.state.leftPalmWorld)):null;
+ const depth=bone=>{let n=0;for(let p=bone;p;p=p.parent)n++;return n;};
+ const bones=Object.entries(deltas).map(([name,q])=>[attachment.model.bones.get(name),q]);bones.sort((a,b)=>depth(a[0])-depth(b[0]));
+ for(const[bone,q]of bones){attachment.saveBone(bone);bone.quaternion.multiply(new THREE.Quaternion().fromArray(q).normalize()).normalize();bone.updateMatrixWorld(true);}
+ if(localPalm){attachment.state.leftPalmWorld=hand.localToWorld(localPalm).toArray();if(attachment.state.supportTargetWorld&&attachment.state.leftContactErrorM!==null)attachment.state.leftContactErrorM=new THREE.Vector3().fromArray(attachment.state.leftPalmWorld).distanceTo(new THREE.Vector3().fromArray(attachment.state.supportTargetWorld));}
+}
