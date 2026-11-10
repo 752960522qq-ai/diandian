@@ -1,0 +1,1283 @@
+{
+  "method": "CPU executes exact app.js items, selectMotion/selectWeapon, play/seek handlers and frame function in a VM with DOM/render stubs, backed by actual Three rig. This is NOT a browser render or DOM integration test.",
+  "variants": {
+    "baseline": {
+      "rows": [
+        {
+          "weapon": "none",
+          "motion": "Idle",
+          "duration": 5.333333492279053,
+          "afterThreeDurations": {
+            "time": 0.024999523163097448,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "Walk",
+          "duration": 1.1666666269302368,
+          "afterThreeDurations": {
+            "time": 0.016666785875466626,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "Run",
+          "duration": 0.6333333253860474,
+          "afterThreeDurations": {
+            "time": 0.01666669050824495,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "WalkingBackwards",
+          "duration": 0.9666666388511658,
+          "afterThreeDurations": {
+            "time": 0.016666750112739624,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "Talking",
+          "duration": 3.933333396911621,
+          "afterThreeDurations": {
+            "time": 0.024999809265374512,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "HeadStress",
+          "duration": 4,
+          "afterThreeDurations": {
+            "time": 0.016666666670305943,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "SittingCrossLegged",
+          "duration": 9.566666603088379,
+          "afterThreeDurations": {
+            "time": 0.016666857398876318,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "SittingTalking",
+          "duration": 44.96666717529297,
+          "afterThreeDurations": {
+            "time": 44.96666717529297,
+            "playing": false
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "ClimbingLadder",
+          "duration": 0.7666666507720947,
+          "afterThreeDurations": {
+            "time": 0.016666714353082233,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "HangToCrouch",
+          "duration": 1.1333333253860474,
+          "afterThreeDurations": {
+            "time": 1.1333333253860474,
+            "playing": false
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "Dying",
+          "duration": 4.333333492279053,
+          "afterThreeDurations": {
+            "time": 4.333333492279053,
+            "playing": false
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "FlyingBackDeath",
+          "duration": 3.0333333015441895,
+          "afterThreeDurations": {
+            "time": 3.0333333015441895,
+            "playing": false
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "RifleIdle",
+          "duration": 8.566666603088379,
+          "afterThreeDurations": {
+            "time": 0.016666857408860536,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "RifleWalk",
+          "duration": 1.2999999523162842,
+          "afterThreeDurations": {
+            "time": 0.016666809708710706,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "afterThreeDurations": {
+            "time": 0.024999940390643682,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "RifleAimingIdle",
+          "duration": 3.0999999046325684,
+          "afterThreeDurations": {
+            "time": 0.016666952747232844,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "FiringRifle",
+          "duration": 0.2666666805744171,
+          "afterThreeDurations": {
+            "time": 0.02499995827482776,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "afterThreeDurations": {
+            "time": 3.299999952316284,
+            "playing": false
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "RifleIdle",
+          "duration": 8.566666603088379,
+          "afterThreeDurations": {
+            "time": 0.016666857341836816,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "RifleWalk",
+          "duration": 1.2999999523162842,
+          "afterThreeDurations": {
+            "time": 0.016666809708710706,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "afterThreeDurations": {
+            "time": 0.024999940390643682,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "RifleAimingIdle",
+          "duration": 3.0999999046325684,
+          "afterThreeDurations": {
+            "time": 0.016666952747232844,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "FiringRifle",
+          "duration": 0.23333333432674408,
+          "afterThreeDurations": {
+            "time": 0.23333333432674408,
+            "playing": false
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "afterThreeDurations": {
+            "time": 3.299999952316284,
+            "playing": false
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "ShotgunPump",
+          "duration": 0.7333333492279053,
+          "afterThreeDurations": {
+            "time": 0.7333333492279053,
+            "playing": false
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        }
+      ],
+      "poses": 26949,
+      "renders": 42210,
+      "oneShots": [
+        "Dying",
+        "FlyingBackDeath",
+        "HangToCrouch",
+        "SittingTalking",
+        "Reloading",
+        "ShotgunPump"
+      ],
+      "sourceSnippets": "const items=()=>state.weapon==='none'?unarmed:state.weapon==='type97hawk'?[...armed,['ShotgunPump','拉泵上膛']]:armed;\nconst duration=()=>model?.duration(state.motion,state.weapon)||0;\nfunction selectMotion(name){if(!state.ready||!items().some(m=>m[0]===name))return;const reframe=dynamicMotions.has(state.motion)||dynamicMotions.has(name);state.motion=name;state.compareRun=false;state.time=0;state.playing=true;sync();pose();if(reframe)view();}\nfunction selectWeapon(id){if(!state.ready||!(id==='none'||cfg.weapons[id]))return;state.weapon=id;showMotions();selectMotion(id==='none'?'Idle':'RifleIdle');}\n$('#play').onclick=()=>{if(state.time>=duration())state.time=0;state.playing=!state.playing;sync();};$('#speed').onchange=e=>state.speed=+e.target.value;\n$('#seek').oninput=e=>{state.playing=false;state.time=+e.target.value*duration();sync();pose();};$('#skeleton').onclick=()=>{state.skeleton=!state.skeleton;$('#skeleton').setAttribute('aria-pressed',state.skeleton);pose();};\nlet previous=performance.now();function frame(now){requestAnimationFrame(frame);const dt=Math.min((now-previous)/1000,.05);previous=now;if(state.ready&&state.playing){state.time+=dt*state.speed;const d=duration();if(state.time>=d){if(oneShots.has(state.motion)||(state.weapon==='type97hawk'&&state.motion==='FiringRifle')){state.time=d;state.playing=false;sync();}else state.time%=Math.max(d,.001);}pose();}controls.update();renderer.render(scene,camera);}requestAnimationFrame(frame);"
+    },
+    "v5": {
+      "rows": [
+        {
+          "weapon": "none",
+          "motion": "Idle",
+          "duration": 5.333333492279053,
+          "afterThreeDurations": {
+            "time": 0.024999523163097448,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "Walk",
+          "duration": 1.1666666269302368,
+          "afterThreeDurations": {
+            "time": 0.016666785875466626,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "Run",
+          "duration": 0.6333333253860474,
+          "afterThreeDurations": {
+            "time": 0.01666669050824495,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "WalkingBackwards",
+          "duration": 0.9666666388511658,
+          "afterThreeDurations": {
+            "time": 0.016666750112739624,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "Talking",
+          "duration": 3.933333396911621,
+          "afterThreeDurations": {
+            "time": 0.024999809265374512,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "HeadStress",
+          "duration": 4,
+          "afterThreeDurations": {
+            "time": 0.016666666670305943,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "SittingCrossLegged",
+          "duration": 9.566666603088379,
+          "afterThreeDurations": {
+            "time": 0.016666857398876318,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "SittingTalking",
+          "duration": 44.96666717529297,
+          "afterThreeDurations": {
+            "time": 44.96666717529297,
+            "playing": false
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "ClimbingLadder",
+          "duration": 0.7666666507720947,
+          "afterThreeDurations": {
+            "time": 0.016666714353082233,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "HangToCrouch",
+          "duration": 1.1333333253860474,
+          "afterThreeDurations": {
+            "time": 1.1333333253860474,
+            "playing": false
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "Dying",
+          "duration": 4.333333492279053,
+          "afterThreeDurations": {
+            "time": 4.333333492279053,
+            "playing": false
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "none",
+          "motion": "FlyingBackDeath",
+          "duration": 3.0333333015441895,
+          "afterThreeDurations": {
+            "time": 3.0333333015441895,
+            "playing": false
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "RifleIdle",
+          "duration": 8.566666603088379,
+          "afterThreeDurations": {
+            "time": 0.016666857408860536,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "RifleWalk",
+          "duration": 1.2999999523162842,
+          "afterThreeDurations": {
+            "time": 0.016666809708710706,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "afterThreeDurations": {
+            "time": 0.024999940390643682,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "RifleAimingIdle",
+          "duration": 3.0999999046325684,
+          "afterThreeDurations": {
+            "time": 0.016666952747232844,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "FiringRifle",
+          "duration": 0.2666666805744171,
+          "afterThreeDurations": {
+            "time": 0.02499995827482776,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "qbz95",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "afterThreeDurations": {
+            "time": 3.299999952316284,
+            "playing": false
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "type54",
+          "motion": "PistolIdle",
+          "duration": 0.03333333507180214,
+          "afterThreeDurations": {
+            "time": 0.024999994784302537,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "type54",
+          "motion": "PistolWalk",
+          "duration": 0.6666666865348816,
+          "afterThreeDurations": {
+            "time": 0.024999940390643682,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "type54",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "afterThreeDurations": {
+            "time": 0.024999940390643682,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "type54",
+          "motion": "PistolAimingIdle",
+          "duration": 1.3333333730697632,
+          "afterThreeDurations": {
+            "time": 0.02499988078135551,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "type54",
+          "motion": "PistolShooting",
+          "duration": 1.1666666269302368,
+          "afterThreeDurations": {
+            "time": 0.016666785867781475,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "type54",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "afterThreeDurations": {
+            "time": 3.299999952316284,
+            "playing": false
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "type64",
+          "motion": "PistolIdle",
+          "duration": 0.03333333507180214,
+          "afterThreeDurations": {
+            "time": 0.024999994784302537,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "type64",
+          "motion": "PistolWalk",
+          "duration": 0.6666666865348816,
+          "afterThreeDurations": {
+            "time": 0.024999940390643682,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "type64",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "afterThreeDurations": {
+            "time": 0.024999940390643682,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "type64",
+          "motion": "PistolAimingIdle",
+          "duration": 1.3333333730697632,
+          "afterThreeDurations": {
+            "time": 0.02499988078135551,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "type64",
+          "motion": "PistolShooting",
+          "duration": 1.1666666269302368,
+          "afterThreeDurations": {
+            "time": 0.016666785867781475,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "type64",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "afterThreeDurations": {
+            "time": 3.299999952316284,
+            "playing": false
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "qsz92",
+          "motion": "PistolIdle",
+          "duration": 0.03333333507180214,
+          "afterThreeDurations": {
+            "time": 0.024999994784302537,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "qsz92",
+          "motion": "PistolWalk",
+          "duration": 0.6666666865348816,
+          "afterThreeDurations": {
+            "time": 0.024999940390643682,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "qsz92",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "afterThreeDurations": {
+            "time": 0.024999940390643682,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "qsz92",
+          "motion": "PistolAimingIdle",
+          "duration": 1.3333333730697632,
+          "afterThreeDurations": {
+            "time": 0.02499988078135551,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "qsz92",
+          "motion": "PistolShooting",
+          "duration": 1.1666666269302368,
+          "afterThreeDurations": {
+            "time": 0.016666785867781475,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "qsz92",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "afterThreeDurations": {
+            "time": 3.299999952316284,
+            "playing": false
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "RifleIdle",
+          "duration": 8.566666603088379,
+          "afterThreeDurations": {
+            "time": 0.016666857341836816,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "RifleWalk",
+          "duration": 1.2999999523162842,
+          "afterThreeDurations": {
+            "time": 0.016666809708710706,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "afterThreeDurations": {
+            "time": 0.024999940390643682,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "RifleAimingIdle",
+          "duration": 3.0999999046325684,
+          "afterThreeDurations": {
+            "time": 0.016666952747232844,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "FiringRifle",
+          "duration": 0.23333333432674408,
+          "afterThreeDurations": {
+            "time": 0.23333333432674408,
+            "playing": false
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "afterThreeDurations": {
+            "time": 3.299999952316284,
+            "playing": false
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "type97hawk",
+          "motion": "ShotgunPump",
+          "duration": 0.7333333492279053,
+          "afterThreeDurations": {
+            "time": 0.7333333492279053,
+            "playing": false
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "m870",
+          "motion": "RifleIdle",
+          "duration": 8.566666603088379,
+          "afterThreeDurations": {
+            "time": 0.016666857341836816,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "m870",
+          "motion": "RifleWalk",
+          "duration": 1.100000023841858,
+          "afterThreeDurations": {
+            "time": 0.02499992846669652,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "m870",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "afterThreeDurations": {
+            "time": 0.024999940390643682,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "m870",
+          "motion": "RifleAimingIdle",
+          "duration": 0.5333333611488342,
+          "afterThreeDurations": {
+            "time": 0.02499991654971445,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "m870",
+          "motion": "FiringRifle",
+          "duration": 0.75,
+          "afterThreeDurations": {
+            "time": 0.75,
+            "playing": false
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "m870",
+          "motion": "Reloading",
+          "duration": 1.9666666984558105,
+          "afterThreeDurations": {
+            "time": 1.9666666984558105,
+            "playing": false
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "m870",
+          "motion": "ShotgunPump",
+          "duration": 0.7333333492279053,
+          "afterThreeDurations": {
+            "time": 0.7333333492279053,
+            "playing": false
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "m870",
+          "motion": "ShotgunAimUp",
+          "duration": 0.5333333611488342,
+          "afterThreeDurations": {
+            "time": 0.02499991654971445,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "m870",
+          "motion": "ShotgunAimDown",
+          "duration": 0.03333333507180214,
+          "afterThreeDurations": {
+            "time": 0.024999994784302537,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        },
+        {
+          "weapon": "m870",
+          "motion": "ShotgunAimLevel",
+          "duration": 0.5333333611488342,
+          "afterThreeDurations": {
+            "time": 0.02499991654971445,
+            "playing": true
+          },
+          "pauseMaxWorldDriftM": 0,
+          "repeatedSeekMaxWorldDriftM": 0,
+          "replayFromEnd": {
+            "time": 0,
+            "playing": true
+          },
+          "reselectMaxWorldDriftM": 0
+        }
+      ],
+      "poses": 37300,
+      "renders": 56444,
+      "oneShots": [
+        "Dying",
+        "FlyingBackDeath",
+        "HangToCrouch",
+        "SittingTalking",
+        "Reloading",
+        "ShotgunPump"
+      ],
+      "sourceSnippets": "const items=()=>state.weapon==='none'?unarmed:cfg?.weapons[state.weapon]?.type==='pistol'?pistols:['type97hawk','m870'].includes(state.weapon)?[...armed,['ShotgunPump','拉泵上膛'],...(state.weapon==='m870'?[['ShotgunAimUp','向上瞄准（适配角度）'],['ShotgunAimDown','向下瞄准（适配角度）'],['ShotgunAimLevel','水平瞄准']]:[])]:armed;\nconst duration=()=>model?.duration(state.motion,state.weapon)||0;\nfunction selectMotion(name){if(!state.ready||!items().some(m=>m[0]===name))return;const reframe=dynamicMotions.has(state.motion)||dynamicMotions.has(name);state.motion=name;state.compareRun=false;state.time=0;state.playing=true;sync();pose();if(reframe)view();}\nfunction selectWeapon(id){if(id==='winchester1897')id='m870';if(!state.ready||!(id==='none'||cfg.weapons[id]))return;state.weapon=id;showMotions();selectMotion(id==='none'?'Idle':cfg.weapons[id]?.type==='pistol'?'PistolIdle':'RifleIdle');}\n$('#play').onclick=()=>{if(state.time>=duration())state.time=0;state.playing=!state.playing;sync();};$('#speed').onchange=e=>state.speed=+e.target.value;\n$('#seek').oninput=e=>{state.playing=false;state.time=+e.target.value*duration();sync();pose();};$('#skeleton').onclick=()=>{state.skeleton=!state.skeleton;$('#skeleton').setAttribute('aria-pressed',state.skeleton);pose();};\nlet previous=performance.now();function frame(now){requestAnimationFrame(frame);const dt=Math.min((now-previous)/1000,.05);previous=now;if(state.ready&&state.playing){state.time+=dt*state.speed;const d=duration();if(state.time>=d){if(oneShots.has(state.motion)||(['type97hawk','m870'].includes(state.weapon)&&state.motion==='FiringRifle')){state.time=d;state.playing=false;sync();}else state.time%=Math.max(d,.001);}pose();}controls.update();renderer.render(scene,camera);}requestAnimationFrame(frame);"
+    }
+  }
+}

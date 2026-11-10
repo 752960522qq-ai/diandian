@@ -1,0 +1,3351 @@
+{
+  "method": "Current production rig/assets, unchanged continuous CPU sampling. No historical baseline or v5 snapshot is loaded; not a browser test.",
+  "motionsSHA256": "9a451d615d3135ecf10abc412e48494ff64541f8005a97e77e8a703afa87e103",
+  "rows": [
+    {
+      "weapon": "none",
+      "motion": "Walk",
+      "hz": 60,
+      "duration": 1.1666666269302368,
+      "samples": 211,
+      "metrics": {
+        "Hips": {
+          "rangeM": [
+            0.03593308525669368,
+            0.03946975357463056,
+            0.05000492588533888
+          ],
+          "peakSpeedMps": 0.46579802588669045,
+          "peakAccelerationMps2": 20.344598262789418,
+          "peakAngularSpeedDegps": 66.16643164943909,
+          "maxFrameJumpM": 0.007763300431444838,
+          "peakAt": 0.11666666666666667,
+          "peakPhase": 0.11666666666666667
+        },
+        "Spine": {
+          "rangeM": [
+            0.03294153894829266,
+            0.039401062353764615,
+            0.051812607929877845
+          ],
+          "peakSpeedMps": 0.4756483807837142,
+          "peakAccelerationMps2": 20.34624470014033,
+          "peakAngularSpeedDegps": 30.842073785478597,
+          "maxFrameJumpM": 0.007927473013061901,
+          "peakAt": 0.11666666666666667,
+          "peakPhase": 0.11666666666666667
+        },
+        "Spine2": {
+          "rangeM": [
+            0.03105995016840395,
+            0.040145861159277096,
+            0.05736581681827783
+          ],
+          "peakSpeedMps": 0.46228076910684573,
+          "peakAccelerationMps2": 21.403667576675975,
+          "peakAngularSpeedDegps": 46.85471586255315,
+          "maxFrameJumpM": 0.007704679485114094,
+          "peakAt": 0.11666666666666667,
+          "peakPhase": 0.11666666666666667
+        },
+        "Head": {
+          "rangeM": [
+            0.03394347671733478,
+            0.039484975292328306,
+            0.05773200123157547
+          ],
+          "peakSpeedMps": 0.4702760216705858,
+          "peakAccelerationMps2": 21.683381475368463,
+          "peakAngularSpeedDegps": 23.751131866342924,
+          "maxFrameJumpM": 0.007837933694509762,
+          "peakAt": 0.11666666666666667,
+          "peakPhase": 0.11666666666666667
+        },
+        "LeftShoulder": {
+          "rangeM": [
+            0.029728813046828985,
+            0.04038013392655948,
+            0.05577169691380447
+          ],
+          "peakSpeedMps": 0.46837512886386967,
+          "peakAccelerationMps2": 21.515901249840724,
+          "peakAngularSpeedDegps": 54.760592685196976,
+          "maxFrameJumpM": 0.007806252147731159,
+          "peakAt": 0.11666666666666667,
+          "peakPhase": 0.11666666666666667
+        },
+        "RightShoulder": {
+          "rangeM": [
+            0.029684871787349153,
+            0.04007864023867924,
+            0.06012325588502161
+          ],
+          "peakSpeedMps": 0.4688069843294948,
+          "peakAccelerationMps2": 21.441876543547476,
+          "peakAngularSpeedDegps": 57.748815556468784,
+          "maxFrameJumpM": 0.007813449738824911,
+          "peakAt": 0.11666666666666667,
+          "peakPhase": 0.11666666666666667
+        },
+        "LeftArm": {
+          "rangeM": [
+            0.03391587231150997,
+            0.04432029071795718,
+            0.053929161616266624
+          ],
+          "peakSpeedMps": 0.4427184827119032,
+          "peakAccelerationMps2": 20.530251609057206,
+          "peakAngularSpeedDegps": 170.1294413435256,
+          "maxFrameJumpM": 0.007378641378531718,
+          "peakAt": 0.11666666666666667,
+          "peakPhase": 0.11666666666666667
+        },
+        "RightArm": {
+          "rangeM": [
+            0.032309601478956756,
+            0.04572763547224512,
+            0.06880879543402696
+          ],
+          "peakSpeedMps": 0.470888330255055,
+          "peakAccelerationMps2": 22.49471100321432,
+          "peakAngularSpeedDegps": 166.55208639168353,
+          "maxFrameJumpM": 0.007848138837584248,
+          "peakAt": 0.11666666666666667,
+          "peakPhase": 0.11666666666666667
+        },
+        "LeftForeArm": {
+          "rangeM": [
+            0.08726137624054867,
+            0.04545234208453297,
+            0.26162690928727805
+          ],
+          "peakSpeedMps": 0.9332044266374533,
+          "peakAccelerationMps2": 21.816167802531726,
+          "peakAngularSpeedDegps": 238.5578050060489,
+          "maxFrameJumpM": 0.015553407110624373,
+          "peakAt": 1.1666666666666667,
+          "peakPhase": 3.9736429924275285e-8
+        },
+        "RightForeArm": {
+          "rangeM": [
+            0.05101145856235237,
+            0.0404822640336171,
+            0.2216722363149723
+          ],
+          "peakSpeedMps": 0.680151941334397,
+          "peakAccelerationMps2": 22.603359497879648,
+          "peakAngularSpeedDegps": 225.18189422331167,
+          "maxFrameJumpM": 0.011335865688906615,
+          "peakAt": 0.5,
+          "peakPhase": 0.5
+        },
+        "LeftHand": {
+          "rangeM": [
+            0.10781399194279917,
+            0.11600828056791634,
+            0.515534980912422
+          ],
+          "peakSpeedMps": 1.491553199197014,
+          "peakAccelerationMps2": 25.84992573942277,
+          "peakAngularSpeedDegps": 275.09907797475245,
+          "maxFrameJumpM": 0.02485921998661681,
+          "peakAt": 1.1333333333333333,
+          "peakPhase": 1.1333333333333333
+        },
+        "RightHand": {
+          "rangeM": [
+            0.03481671749921594,
+            0.0762974988670978,
+            0.4119578421207643
+          ],
+          "peakSpeedMps": 1.3139653786722734,
+          "peakAccelerationMps2": 29.320381408641403,
+          "peakAngularSpeedDegps": 249.44024183135727,
+          "maxFrameJumpM": 0.021899422977871223,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "LeftUpLeg": {
+          "rangeM": [
+            0.036465682096451874,
+            0.044231045893022514,
+            0.06420403506638085
+          ],
+          "peakSpeedMps": 0.47761526124939463,
+          "peakAccelerationMps2": 21.09397159192791,
+          "peakAngularSpeedDegps": 209.63930922939707,
+          "maxFrameJumpM": 0.007960254354156602,
+          "peakAt": 0.9333333333333333,
+          "peakPhase": 0.9333333333333333
+        },
+        "RightUpLeg": {
+          "rangeM": [
+            0.036272548786896536,
+            0.0439900836531516,
+            0.04902643560802835
+          ],
+          "peakSpeedMps": 0.4578758073796449,
+          "peakAccelerationMps2": 19.68450183934707,
+          "peakAngularSpeedDegps": 259.79360230145636,
+          "maxFrameJumpM": 0.007631263456327413,
+          "peakAt": 0.11666666666666667,
+          "peakPhase": 0.11666666666666667
+        },
+        "LeftLeg": {
+          "rangeM": [
+            0.05018470982881479,
+            0.09034194852860505,
+            0.35229839548501946
+          ],
+          "peakSpeedMps": 1.3646317298431077,
+          "peakAccelerationMps2": 44.88715256754582,
+          "peakAngularSpeedDegps": 422.51587985306,
+          "maxFrameJumpM": 0.02274386216405202,
+          "peakAt": 1.0333333333333334,
+          "peakPhase": 1.0333333333333334
+        },
+        "RightLeg": {
+          "rangeM": [
+            0.05051895180661013,
+            0.09035214851235923,
+            0.35627673126034454
+          ],
+          "peakSpeedMps": 1.7379868611160678,
+          "peakAccelerationMps2": 71.50937254426437,
+          "peakAngularSpeedDegps": 366.2108896615522,
+          "maxFrameJumpM": 0.028966447685267696,
+          "peakAt": 1.55,
+          "peakPhase": 0.38333337306976323
+        },
+        "LeftFoot": {
+          "rangeM": [
+            0.02902601922530626,
+            0.14146321246441335,
+            0.7484681478350921
+          ],
+          "peakSpeedMps": 2.658207115468959,
+          "peakAccelerationMps2": 69.1114702284562,
+          "peakAngularSpeedDegps": 489.11021143304305,
+          "maxFrameJumpM": 0.04430345192448265,
+          "peakAt": 0.03333333333333333,
+          "peakPhase": 0.03333333333333333
+        },
+        "RightFoot": {
+          "rangeM": [
+            0.03712663859452694,
+            0.11351737821229196,
+            0.7339747369802507
+          ],
+          "peakSpeedMps": 2.3697078360966635,
+          "peakAccelerationMps2": 99.30117251204682,
+          "peakAngularSpeedDegps": 415.5864069457023,
+          "maxFrameJumpM": 0.03949513060161092,
+          "peakAt": 0.6333333333333333,
+          "peakPhase": 0.6333333333333333
+        },
+        "LeftToeBase": {
+          "rangeM": [
+            0.0784097196146656,
+            0.1796762641185063,
+            0.9660686807093934
+          ],
+          "peakSpeedMps": 3.554851445431061,
+          "peakAccelerationMps2": 107.51553248382615,
+          "peakAngularSpeedDegps": 1074.2488343764549,
+          "maxFrameJumpM": 0.059247524090517686,
+          "peakAt": 0.03333333333333333,
+          "peakPhase": 0.03333333333333333
+        },
+        "RightToeBase": {
+          "rangeM": [
+            0.0465194827264374,
+            0.16499379940771036,
+            0.9659942502894625
+          ],
+          "peakSpeedMps": 3.2240616976307654,
+          "peakAccelerationMps2": 129.10831319816626,
+          "peakAngularSpeedDegps": 708.4903472551589,
+          "maxFrameJumpM": 0.05373436162717959,
+          "peakAt": 0.7166666666666667,
+          "peakPhase": 0.7166666666666667
+        }
+      }
+    },
+    {
+      "weapon": "none",
+      "motion": "Walk",
+      "hz": 120,
+      "duration": 1.1666666269302368,
+      "samples": 421,
+      "metrics": {
+        "Hips": {
+          "rangeM": [
+            0.03593308525669368,
+            0.03977973658266132,
+            0.05000492588533888
+          ],
+          "peakSpeedMps": 0.4697068972703039,
+          "peakAccelerationMps2": 41.65039889264384,
+          "peakAngularSpeedDegps": 66.16643180750928,
+          "maxFrameJumpM": 0.003914224143919186,
+          "peakAt": 1.275,
+          "peakPhase": 0.1083333730697631
+        },
+        "Spine": {
+          "rangeM": [
+            0.03294153894829266,
+            0.039693276173222714,
+            0.051812607929877845
+          ],
+          "peakSpeedMps": 0.47945052269643856,
+          "peakAccelerationMps2": 41.64389726374046,
+          "peakAngularSpeedDegps": 30.84219469043872,
+          "maxFrameJumpM": 0.003995421022470307,
+          "peakAt": 1.275,
+          "peakPhase": 0.1083333730697631
+        },
+        "Spine2": {
+          "rangeM": [
+            0.03105995016840395,
+            0.04043141782167026,
+            0.05736581681827783
+          ],
+          "peakSpeedMps": 0.4661412919713888,
+          "peakAccelerationMps2": 43.71859626575167,
+          "peakAngularSpeedDegps": 46.863921493331546,
+          "maxFrameJumpM": 0.003884510766428226,
+          "peakAt": 1.275,
+          "peakPhase": 0.1083333730697631
+        },
+        "Head": {
+          "rangeM": [
+            0.03394347671733478,
+            0.039771151141374306,
+            0.05773200123157547
+          ],
+          "peakSpeedMps": 0.47405190392052515,
+          "peakAccelerationMps2": 44.25523923647762,
+          "peakAngularSpeedDegps": 23.761507587149808,
+          "maxFrameJumpM": 0.00395043253267103,
+          "peakAt": 1.275,
+          "peakPhase": 0.1083333730697631
+        },
+        "LeftShoulder": {
+          "rangeM": [
+            0.029728813046828985,
+            0.04038013392655948,
+            0.05577169691380447
+          ],
+          "peakSpeedMps": 0.4721967609100242,
+          "peakAccelerationMps2": 43.93330669296893,
+          "peakAngularSpeedDegps": 54.76412547436408,
+          "maxFrameJumpM": 0.003934973007583521,
+          "peakAt": 1.275,
+          "peakPhase": 0.1083333730697631
+        },
+        "RightShoulder": {
+          "rangeM": [
+            0.02968606798389852,
+            0.040333508525014716,
+            0.06012325588502161
+          ],
+          "peakSpeedMps": 0.4726074644686788,
+          "peakAccelerationMps2": 43.77900816371287,
+          "peakAngularSpeedDegps": 57.772258133596296,
+          "maxFrameJumpM": 0.003938395537238976,
+          "peakAt": 1.275,
+          "peakPhase": 0.1083333730697631
+        },
+        "LeftArm": {
+          "rangeM": [
+            0.03391587231150997,
+            0.04432029071795718,
+            0.053929161616266624
+          ],
+          "peakSpeedMps": 0.4466794149910187,
+          "peakAccelerationMps2": 41.98280436065192,
+          "peakAngularSpeedDegps": 170.13759765200285,
+          "maxFrameJumpM": 0.0037223284582584763,
+          "peakAt": 1.275,
+          "peakPhase": 0.1083333730697631
+        },
+        "RightArm": {
+          "rangeM": [
+            0.032309601478956756,
+            0.04586917278430458,
+            0.06880879543402696
+          ],
+          "peakSpeedMps": 0.47463951413545025,
+          "peakAccelerationMps2": 45.87261666546631,
+          "peakAngularSpeedDegps": 166.560042873769,
+          "maxFrameJumpM": 0.003955329284462072,
+          "peakAt": 1.275,
+          "peakPhase": 0.1083333730697631
+        },
+        "LeftForeArm": {
+          "rangeM": [
+            0.08726137624054867,
+            0.04545234208453297,
+            0.26162690928727805
+          ],
+          "peakSpeedMps": 0.933350413916907,
+          "peakAccelerationMps2": 43.26561103576279,
+          "peakAngularSpeedDegps": 238.6343655730083,
+          "maxFrameJumpM": 0.007777920115974198,
+          "peakAt": 1.1666666666666667,
+          "peakPhase": 3.9736429924275285e-8
+        },
+        "RightForeArm": {
+          "rangeM": [
+            0.05101452544958521,
+            0.0404822640336171,
+            0.2216722363149723
+          ],
+          "peakSpeedMps": 0.6815204783991632,
+          "peakAccelerationMps2": 46.289434371758745,
+          "peakAngularSpeedDegps": 225.23111171736576,
+          "maxFrameJumpM": 0.005679337319993044,
+          "peakAt": 0.5,
+          "peakPhase": 0.5
+        },
+        "LeftHand": {
+          "rangeM": [
+            0.10792244615441765,
+            0.11601374020611033,
+            0.515534980912422
+          ],
+          "peakSpeedMps": 1.492652759654361,
+          "peakAccelerationMps2": 51.15195170529657,
+          "peakAngularSpeedDegps": 275.4521278912969,
+          "maxFrameJumpM": 0.01243877299711963,
+          "peakAt": 1.1333333333333333,
+          "peakPhase": 1.1333333333333333
+        },
+        "RightHand": {
+          "rangeM": [
+            0.03483544594390492,
+            0.07633183334525762,
+            0.4119578421207643
+          ],
+          "peakSpeedMps": 1.3168259146521564,
+          "peakAccelerationMps2": 54.61337312604176,
+          "peakAngularSpeedDegps": 249.49479628896358,
+          "maxFrameJumpM": 0.010973549288767969,
+          "peakAt": 0.008333333333333333,
+          "peakPhase": 0.008333333333333333
+        },
+        "LeftUpLeg": {
+          "rangeM": [
+            0.036465682096451874,
+            0.04423841876608259,
+            0.06420403506638085
+          ],
+          "peakSpeedMps": 0.47923570756307915,
+          "peakAccelerationMps2": 43.150784859151756,
+          "peakAngularSpeedDegps": 209.63984770714202,
+          "maxFrameJumpM": 0.003993630896358979,
+          "peakAt": 0.9333333333333333,
+          "peakPhase": 0.9333333333333333
+        },
+        "RightUpLeg": {
+          "rangeM": [
+            0.036272548786896536,
+            0.0439900836531516,
+            0.04902643560802835
+          ],
+          "peakSpeedMps": 0.46180996715551353,
+          "peakAccelerationMps2": 40.32510977158664,
+          "peakAngularSpeedDegps": 259.7955480252321,
+          "maxFrameJumpM": 0.003848416392962599,
+          "peakAt": 1.275,
+          "peakPhase": 0.1083333730697631
+        },
+        "LeftLeg": {
+          "rangeM": [
+            0.05021004377165493,
+            0.09034194852860505,
+            0.35229839548501946
+          ],
+          "peakSpeedMps": 1.3684975670329578,
+          "peakAccelerationMps2": 88.85103872294303,
+          "peakAngularSpeedDegps": 422.54139487338404,
+          "maxFrameJumpM": 0.011404146391941579,
+          "peakAt": 1.0333333333333334,
+          "peakPhase": 1.0333333333333334
+        },
+        "RightLeg": {
+          "rangeM": [
+            0.05051895180661013,
+            0.09035214851235923,
+            0.35627673126034454
+          ],
+          "peakSpeedMps": 1.7477860447158733,
+          "peakAccelerationMps2": 140.13189708257676,
+          "peakAngularSpeedDegps": 366.22659006719084,
+          "maxFrameJumpM": 0.01456488370596556,
+          "peakAt": 1.5416666666666667,
+          "peakPhase": 0.3750000397364299
+        },
+        "LeftFoot": {
+          "rangeM": [
+            0.02902601922530626,
+            0.14148895159778052,
+            0.7484681478350921
+          ],
+          "peakSpeedMps": 2.66580137040859,
+          "peakAccelerationMps2": 138.24457180488088,
+          "peakAngularSpeedDegps": 489.2872611679904,
+          "maxFrameJumpM": 0.02221501142007158,
+          "peakAt": 0.03333333333333333,
+          "peakPhase": 0.03333333333333333
+        },
+        "RightFoot": {
+          "rangeM": [
+            0.03712663859452694,
+            0.11351737821229196,
+            0.7339747369802507
+          ],
+          "peakSpeedMps": 2.3733641461423325,
+          "peakAccelerationMps2": 198.85590506726822,
+          "peakAngularSpeedDegps": 415.6039517278772,
+          "maxFrameJumpM": 0.019778034551186034,
+          "peakAt": 0.6333333333333333,
+          "peakPhase": 0.6333333333333333
+        },
+        "LeftToeBase": {
+          "rangeM": [
+            0.0784097196146656,
+            0.1796762641185063,
+            0.9660686807093934
+          ],
+          "peakSpeedMps": 3.558602382997007,
+          "peakAccelerationMps2": 213.90133642575927,
+          "peakAngularSpeedDegps": 1074.688458537956,
+          "maxFrameJumpM": 0.029655019858308387,
+          "peakAt": 0.03333333333333333,
+          "peakPhase": 0.03333333333333333
+        },
+        "RightToeBase": {
+          "rangeM": [
+            0.0465194827264374,
+            0.16499379940771036,
+            0.9659942502894625
+          ],
+          "peakSpeedMps": 3.2328791656319673,
+          "peakAccelerationMps2": 256.90926027037136,
+          "peakAngularSpeedDegps": 708.7595419735721,
+          "maxFrameJumpM": 0.02694065971359999,
+          "peakAt": 0.7083333333333334,
+          "peakPhase": 0.7083333333333334
+        }
+      }
+    },
+    {
+      "weapon": "none",
+      "motion": "Walk",
+      "hz": 240,
+      "duration": 1.1666666269302368,
+      "samples": 841,
+      "metrics": {
+        "Hips": {
+          "rangeM": [
+            0.03593308525669368,
+            0.03977973658266132,
+            0.05000492588533888
+          ],
+          "peakSpeedMps": 0.47125305985894894,
+          "peakAccelerationMps2": 84.06582024405802,
+          "peakAngularSpeedDegps": 66.16643187286451,
+          "maxFrameJumpM": 0.0019635544160789475,
+          "peakAt": 1.2708333333333333,
+          "peakPhase": 0.10416670640309644
+        },
+        "Spine": {
+          "rangeM": [
+            0.03294153894829266,
+            0.039693276173222714,
+            0.051812607929877845
+          ],
+          "peakSpeedMps": 0.48095166921771565,
+          "peakAccelerationMps2": 84.04331811991212,
+          "peakAngularSpeedDegps": 30.842215381687755,
+          "maxFrameJumpM": 0.0020039652884071414,
+          "peakAt": 1.2708333333333333,
+          "peakPhase": 0.10416670640309644
+        },
+        "Spine2": {
+          "rangeM": [
+            0.03105995016840395,
+            0.04043141782167026,
+            0.05736581681827783
+          ],
+          "peakSpeedMps": 0.467656895099058,
+          "peakAccelerationMps2": 88.15840986909004,
+          "peakAngularSpeedDegps": 46.868444241199356,
+          "maxFrameJumpM": 0.001948570396246068,
+          "peakAt": 1.2708333333333333,
+          "peakPhase": 0.10416670640309644
+        },
+        "Head": {
+          "rangeM": [
+            0.03394347671733478,
+            0.039771151141374306,
+            0.05773200123157547
+          ],
+          "peakSpeedMps": 0.4755315233125481,
+          "peakAccelerationMps2": 89.21284720143524,
+          "peakAngularSpeedDegps": 23.766687435848752,
+          "maxFrameJumpM": 0.00198138134713561,
+          "peakAt": 1.2708333333333333,
+          "peakPhase": 0.10416670640309644
+        },
+        "LeftShoulder": {
+          "rangeM": [
+            0.029728813046828985,
+            0.040453976070448094,
+            0.05577169691380447
+          ],
+          "peakSpeedMps": 0.47369502802354224,
+          "peakAccelerationMps2": 88.57990518537109,
+          "peakAngularSpeedDegps": 54.76588552083514,
+          "maxFrameJumpM": 0.001973729283431419,
+          "peakAt": 1.2708333333333333,
+          "peakPhase": 0.10416670640309644
+        },
+        "RightShoulder": {
+          "rangeM": [
+            0.02968606798389852,
+            0.040333508525014716,
+            0.06012325588502161
+          ],
+          "peakSpeedMps": 0.4740984095792945,
+          "peakAccelerationMps2": 88.26554424990088,
+          "peakAngularSpeedDegps": 57.783901988019615,
+          "maxFrameJumpM": 0.0019754100399137203,
+          "peakAt": 1.2708333333333333,
+          "peakPhase": 0.10416670640309644
+        },
+        "LeftArm": {
+          "rangeM": [
+            0.03391587231150997,
+            0.044362240206153425,
+            0.053929161616266624
+          ],
+          "peakSpeedMps": 0.4520955181278865,
+          "peakAccelerationMps2": 84.70095742526217,
+          "peakAngularSpeedDegps": 170.14158542535702,
+          "maxFrameJumpM": 0.0018837313255328535,
+          "peakAt": 0.3333333333333333,
+          "peakPhase": 0.3333333333333333
+        },
+        "RightArm": {
+          "rangeM": [
+            0.032309601478956756,
+            0.04587122722369896,
+            0.06880879543402696
+          ],
+          "peakSpeedMps": 0.4761124758624894,
+          "peakAccelerationMps2": 92.4415219572746,
+          "peakAngularSpeedDegps": 166.56387173973047,
+          "maxFrameJumpM": 0.001983801982760365,
+          "peakAt": 1.2708333333333333,
+          "peakPhase": 0.10416670640309644
+        },
+        "LeftForeArm": {
+          "rangeM": [
+            0.08726137624054867,
+            0.04545234208453297,
+            0.26162690928727805
+          ],
+          "peakSpeedMps": 0.9334046160060222,
+          "peakAccelerationMps2": 86.22246711175329,
+          "peakAngularSpeedDegps": 238.6723420679037,
+          "maxFrameJumpM": 0.0038891859000250786,
+          "peakAt": 1.1666666666666667,
+          "peakPhase": 3.9736429924275285e-8
+        },
+        "RightForeArm": {
+          "rangeM": [
+            0.05101750874396527,
+            0.0404822640336171,
+            0.2216722363149723
+          ],
+          "peakSpeedMps": 0.6821190314975198,
+          "peakAccelerationMps2": 93.48692599870706,
+          "peakAngularSpeedDegps": 225.25531319802934,
+          "maxFrameJumpM": 0.002842162631239656,
+          "peakAt": 0.5,
+          "peakPhase": 0.5
+        },
+        "LeftHand": {
+          "rangeM": [
+            0.10792244615441765,
+            0.11603557695128652,
+            0.515534980912422
+          ],
+          "peakSpeedMps": 1.4931658276150732,
+          "peakAccelerationMps2": 101.86024303097557,
+          "peakAngularSpeedDegps": 275.6256211402817,
+          "maxFrameJumpM": 0.00622152428172945,
+          "peakAt": 1.1333333333333333,
+          "peakPhase": 1.1333333333333333
+        },
+        "RightHand": {
+          "rangeM": [
+            0.0348557257983374,
+            0.07636511415523173,
+            0.4119578421207643
+          ],
+          "peakSpeedMps": 1.3181701513517867,
+          "peakAccelerationMps2": 107.93160548654377,
+          "peakAngularSpeedDegps": 249.521506591205,
+          "maxFrameJumpM": 0.0054923756306324446,
+          "peakAt": 0.004166666666666667,
+          "peakPhase": 0.004166666666666667
+        },
+        "LeftUpLeg": {
+          "rangeM": [
+            0.036465682096451874,
+            0.044307922220296336,
+            0.06420403506638085
+          ],
+          "peakSpeedMps": 0.4844939042065457,
+          "peakAccelerationMps2": 87.06681220729114,
+          "peakAngularSpeedDegps": 209.63997911991635,
+          "maxFrameJumpM": 0.0020187246008606,
+          "peakAt": 0.9291666666666667,
+          "peakPhase": 0.9291666666666667
+        },
+        "RightUpLeg": {
+          "rangeM": [
+            0.036272548786896536,
+            0.044016373729973135,
+            0.04902643560802835
+          ],
+          "peakSpeedMps": 0.4633668583962311,
+          "peakAccelerationMps2": 81.41264052141027,
+          "peakAngularSpeedDegps": 259.796036833579,
+          "maxFrameJumpM": 0.0019306952433176228,
+          "peakAt": 1.2708333333333333,
+          "peakPhase": 0.10416670640309644
+        },
+        "LeftLeg": {
+          "rangeM": [
+            0.050210579629343846,
+            0.09034194852860505,
+            0.35229839548501946
+          ],
+          "peakSpeedMps": 1.3703701826543118,
+          "peakAccelerationMps2": 177.06042321700752,
+          "peakAngularSpeedDegps": 422.55400121402386,
+          "maxFrameJumpM": 0.005709875761059917,
+          "peakAt": 1.0333333333333334,
+          "peakPhase": 1.0333333333333334
+        },
+        "RightLeg": {
+          "rangeM": [
+            0.05051895180661013,
+            0.09035214851235923,
+            0.35627673126034454
+          ],
+          "peakSpeedMps": 1.752947319659238,
+          "peakAccelerationMps2": 277.3711220133052,
+          "peakAngularSpeedDegps": 366.234371708873,
+          "maxFrameJumpM": 0.0073039471652468,
+          "peakAt": 1.5375,
+          "peakPhase": 0.3708333730697633
+        },
+        "LeftFoot": {
+          "rangeM": [
+            0.02902601922530626,
+            0.14149922004289717,
+            0.7484681478350921
+          ],
+          "peakSpeedMps": 2.6692914298724117,
+          "peakAccelerationMps2": 276.5057726272886,
+          "peakAngularSpeedDegps": 489.3763036625553,
+          "maxFrameJumpM": 0.01112204762446838,
+          "peakAt": 0.03333333333333333,
+          "peakPhase": 0.03333333333333333
+        },
+        "RightFoot": {
+          "rangeM": [
+            0.03712663859452694,
+            0.11352429688607346,
+            0.7339747369802507
+          ],
+          "peakSpeedMps": 2.3750096468772295,
+          "peakAccelerationMps2": 398.02168715056524,
+          "peakAngularSpeedDegps": 415.6122569228629,
+          "maxFrameJumpM": 0.009895873528655088,
+          "peakAt": 0.6333333333333333,
+          "peakPhase": 0.6333333333333333
+        },
+        "LeftToeBase": {
+          "rangeM": [
+            0.0784097196146656,
+            0.1796855546993802,
+            0.9660686807093934
+          ],
+          "peakSpeedMps": 3.5600892225311296,
+          "peakAccelerationMps2": 426.6648199245634,
+          "peakAngularSpeedDegps": 1074.9009703078093,
+          "maxFrameJumpM": 0.014833705093879703,
+          "peakAt": 0.03333333333333333,
+          "peakPhase": 0.03333333333333333
+        },
+        "RightToeBase": {
+          "rangeM": [
+            0.0465194827264374,
+            0.16499379940771036,
+            0.9659942502894625
+          ],
+          "peakSpeedMps": 3.2372169412941556,
+          "peakAccelerationMps2": 512.6106944843592,
+          "peakAngularSpeedDegps": 708.8914432397777,
+          "maxFrameJumpM": 0.013488403922059293,
+          "peakAt": 0.7041666666666667,
+          "peakPhase": 0.7041666666666667
+        }
+      }
+    },
+    {
+      "weapon": "qsz92",
+      "motion": "PistolIdle",
+      "hz": 60,
+      "duration": 0.03333333507180214,
+      "samples": 62,
+      "metrics": {
+        "Hips": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "Spine": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "Spine2": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "Head": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "LeftShoulder": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "RightShoulder": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "LeftArm": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0.00010245283755019162,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "RightArm": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "LeftForeArm": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "RightForeArm": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "LeftHand": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "RightHand": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "LeftUpLeg": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "RightUpLeg": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "LeftLeg": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0.00010245283755019162,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "RightLeg": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "LeftFoot": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0.00014489019236708852,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "RightFoot": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0.00014489019236708852,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "LeftToeBase": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "RightToeBase": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "Gun": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        }
+      }
+    },
+    {
+      "weapon": "qsz92",
+      "motion": "PistolIdle",
+      "hz": 120,
+      "duration": 0.03333333507180214,
+      "samples": 122,
+      "metrics": {
+        "Hips": {
+          "rangeM": [
+            8.673617379884035e-19,
+            2.220446049250313e-16,
+            1.734723475976807e-18
+          ],
+          "peakSpeedMps": 1.3322777939067859e-14,
+          "peakAccelerationMps2": 3.1974667053762974e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.1102314949223176e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "Spine": {
+          "rangeM": [
+            8.673617379884035e-19,
+            2.220446049250313e-16,
+            1.734723475976807e-18
+          ],
+          "peakSpeedMps": 1.3323082865112943e-14,
+          "peakAccelerationMps2": 3.1975398876271177e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.1102569054260746e-16,
+          "peakAt": 0.725,
+          "peakPhase": 0.024999963492155053
+        },
+        "Spine2": {
+          "rangeM": [
+            3.469446951953614e-18,
+            2.220446049250313e-16,
+            3.469446951953614e-18
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840905e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "Head": {
+          "rangeM": [
+            6.938893903907228e-18,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840905e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "LeftShoulder": {
+          "rangeM": [
+            3.469446951953614e-18,
+            2.220446049250313e-16,
+            3.469446951953614e-18
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840905e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "RightShoulder": {
+          "rangeM": [
+            3.469446951953614e-18,
+            2.220446049250313e-16,
+            6.938893903907228e-18
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840905e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "LeftArm": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            6.938893903907228e-18
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840905e-12,
+          "peakAngularSpeedDegps": 0.00020490567510038325,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "RightArm": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840905e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "LeftForeArm": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840905e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "RightForeArm": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840905e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "LeftHand": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840905e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "RightHand": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840905e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "LeftUpLeg": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 1.3322676295501926e-14,
+          "peakAccelerationMps2": 3.1974423109204735e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.1102230246251565e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "RightUpLeg": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 1.3322676295501926e-14,
+          "peakAccelerationMps2": 3.1974423109204735e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.1102230246251565e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "LeftLeg": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840947e-12,
+          "peakAngularSpeedDegps": 0.00020490567510038325,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.5916666666666667,
+          "peakPhase": 0.024999970446030306
+        },
+        "RightLeg": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 1.3322676295501926e-14,
+          "peakAccelerationMps2": 3.1974423109204735e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.1102230246251565e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "LeftFoot": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840947e-12,
+          "peakAngularSpeedDegps": 0.00028978038473417703,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.5916666666666667,
+          "peakPhase": 0.024999970446030306
+        },
+        "RightFoot": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 1.3322676295501926e-14,
+          "peakAccelerationMps2": 3.1974423109204735e-12,
+          "peakAngularSpeedDegps": 0.00028978038473417703,
+          "maxFrameJumpM": 1.1102230246251565e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "LeftToeBase": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840947e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.5916666666666667,
+          "peakPhase": 0.024999970446030306
+        },
+        "RightToeBase": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 1.3322676295501926e-14,
+          "peakAccelerationMps2": 3.1974423109204735e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.1102230246251565e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "Gun": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840905e-12,
+          "peakAngularSpeedDegps": 0.00020490567510038325,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        }
+      }
+    },
+    {
+      "weapon": "qsz92",
+      "motion": "PistolIdle",
+      "hz": 240,
+      "duration": 0.03333333507180214,
+      "samples": 242,
+      "metrics": {
+        "Hips": {
+          "rangeM": [
+            8.673617379884035e-19,
+            2.220446049250313e-16,
+            1.734723475976807e-18
+          ],
+          "peakSpeedMps": 2.6648808261343464e-14,
+          "peakAccelerationMps2": 1.2791427965444737e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.110367010889307e-16,
+          "peakAt": 0.4125,
+          "peakPhase": 0.012499979138374306
+        },
+        "Spine": {
+          "rangeM": [
+            8.673617379884035e-19,
+            2.220446049250313e-16,
+            1.734723475976807e-18
+          ],
+          "peakSpeedMps": 2.6649418039005262e-14,
+          "peakAccelerationMps2": 1.2791720658722401e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.110392418291882e-16,
+          "peakAt": 0.4125,
+          "peakPhase": 0.012499979138374306
+        },
+        "Spine2": {
+          "rangeM": [
+            3.469446951953614e-18,
+            2.220446049250313e-16,
+            3.469446951953614e-18
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "Head": {
+          "rangeM": [
+            6.938893903907228e-18,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "LeftShoulder": {
+          "rangeM": [
+            3.469446951953614e-18,
+            2.220446049250313e-16,
+            3.469446951953614e-18
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "RightShoulder": {
+          "rangeM": [
+            3.469446951953614e-18,
+            2.220446049250313e-16,
+            6.938893903907228e-18
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "LeftArm": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            6.938893903907228e-18
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0.0004098113502007665,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "RightArm": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "LeftForeArm": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "RightForeArm": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "LeftHand": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "RightHand": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "LeftUpLeg": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 1.2789769243681894e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.1102230246251565e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "RightUpLeg": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 1.2789769243681894e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.1102230246251565e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "LeftLeg": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0.0004098113502007665,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.22916666666666666,
+          "peakPhase": 0.02916665623585382
+        },
+        "RightLeg": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 1.2789769243681894e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.1102230246251565e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "LeftFoot": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0.0005795607694683541,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.22916666666666666,
+          "peakPhase": 0.02916665623585382
+        },
+        "RightFoot": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 1.2789769243681894e-11,
+          "peakAngularSpeedDegps": 0.0005795607694683541,
+          "maxFrameJumpM": 1.1102230246251565e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "LeftToeBase": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.22916666666666666,
+          "peakPhase": 0.02916665623585382
+        },
+        "RightToeBase": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 1.2789769243681894e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.1102230246251565e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "Gun": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0.0005795607694683521,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        }
+      }
+    },
+    {
+      "weapon": "type54",
+      "motion": "PistolIdle",
+      "hz": 60,
+      "duration": 0.03333333507180214,
+      "samples": 62,
+      "metrics": {
+        "Hips": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "Spine": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "Spine2": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "Head": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "LeftShoulder": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "RightShoulder": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "LeftArm": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0.00010245283755019162,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "RightArm": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "LeftForeArm": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "RightForeArm": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "LeftHand": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "RightHand": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "LeftUpLeg": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "RightUpLeg": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "LeftLeg": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0.00010245283755019162,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "RightLeg": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "LeftFoot": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0.00014489019236708852,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "RightFoot": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0.00014489019236708852,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "LeftToeBase": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "RightToeBase": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "Gun": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        }
+      }
+    },
+    {
+      "weapon": "type54",
+      "motion": "PistolIdle",
+      "hz": 120,
+      "duration": 0.03333333507180214,
+      "samples": 122,
+      "metrics": {
+        "Hips": {
+          "rangeM": [
+            8.673617379884035e-19,
+            2.220446049250313e-16,
+            1.734723475976807e-18
+          ],
+          "peakSpeedMps": 1.3322777939067859e-14,
+          "peakAccelerationMps2": 3.1974667053762974e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.1102314949223176e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "Spine": {
+          "rangeM": [
+            8.673617379884035e-19,
+            2.220446049250313e-16,
+            1.734723475976807e-18
+          ],
+          "peakSpeedMps": 1.3323082865112943e-14,
+          "peakAccelerationMps2": 3.1975398876271177e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.1102569054260746e-16,
+          "peakAt": 0.725,
+          "peakPhase": 0.024999963492155053
+        },
+        "Spine2": {
+          "rangeM": [
+            3.469446951953614e-18,
+            2.220446049250313e-16,
+            3.469446951953614e-18
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840905e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "Head": {
+          "rangeM": [
+            6.938893903907228e-18,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840905e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "LeftShoulder": {
+          "rangeM": [
+            3.469446951953614e-18,
+            2.220446049250313e-16,
+            3.469446951953614e-18
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840905e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "RightShoulder": {
+          "rangeM": [
+            3.469446951953614e-18,
+            2.220446049250313e-16,
+            6.938893903907228e-18
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840905e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "LeftArm": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            6.938893903907228e-18
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840905e-12,
+          "peakAngularSpeedDegps": 0.00020490567510038325,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "RightArm": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840905e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "LeftForeArm": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840905e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "RightForeArm": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840905e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "LeftHand": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840905e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "RightHand": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840905e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "LeftUpLeg": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 1.3322676295501926e-14,
+          "peakAccelerationMps2": 3.1974423109204735e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.1102230246251565e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "RightUpLeg": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 1.3322676295501926e-14,
+          "peakAccelerationMps2": 3.1974423109204735e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.1102230246251565e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "LeftLeg": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840947e-12,
+          "peakAngularSpeedDegps": 0.00020490567510038325,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.5916666666666667,
+          "peakPhase": 0.024999970446030306
+        },
+        "RightLeg": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 1.3322676295501926e-14,
+          "peakAccelerationMps2": 3.1974423109204735e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.1102230246251565e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "LeftFoot": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840947e-12,
+          "peakAngularSpeedDegps": 0.00028978038473417703,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.5916666666666667,
+          "peakPhase": 0.024999970446030306
+        },
+        "RightFoot": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 1.3322676295501926e-14,
+          "peakAccelerationMps2": 3.1974423109204735e-12,
+          "peakAngularSpeedDegps": 0.00028978038473417703,
+          "maxFrameJumpM": 1.1102230246251565e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "LeftToeBase": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840947e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.5916666666666667,
+          "peakPhase": 0.024999970446030306
+        },
+        "RightToeBase": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 1.3322676295501926e-14,
+          "peakAccelerationMps2": 3.1974423109204735e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.1102230246251565e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "Gun": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840905e-12,
+          "peakAngularSpeedDegps": 0.00020490567510038325,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        }
+      }
+    },
+    {
+      "weapon": "type54",
+      "motion": "PistolIdle",
+      "hz": 240,
+      "duration": 0.03333333507180214,
+      "samples": 242,
+      "metrics": {
+        "Hips": {
+          "rangeM": [
+            8.673617379884035e-19,
+            2.220446049250313e-16,
+            1.734723475976807e-18
+          ],
+          "peakSpeedMps": 2.6648808261343464e-14,
+          "peakAccelerationMps2": 1.2791427965444737e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.110367010889307e-16,
+          "peakAt": 0.4125,
+          "peakPhase": 0.012499979138374306
+        },
+        "Spine": {
+          "rangeM": [
+            8.673617379884035e-19,
+            2.220446049250313e-16,
+            1.734723475976807e-18
+          ],
+          "peakSpeedMps": 2.6649418039005262e-14,
+          "peakAccelerationMps2": 1.2791720658722401e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.110392418291882e-16,
+          "peakAt": 0.4125,
+          "peakPhase": 0.012499979138374306
+        },
+        "Spine2": {
+          "rangeM": [
+            3.469446951953614e-18,
+            2.220446049250313e-16,
+            3.469446951953614e-18
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "Head": {
+          "rangeM": [
+            6.938893903907228e-18,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "LeftShoulder": {
+          "rangeM": [
+            3.469446951953614e-18,
+            2.220446049250313e-16,
+            3.469446951953614e-18
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "RightShoulder": {
+          "rangeM": [
+            3.469446951953614e-18,
+            2.220446049250313e-16,
+            6.938893903907228e-18
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "LeftArm": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            6.938893903907228e-18
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0.0004098113502007665,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "RightArm": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "LeftForeArm": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "RightForeArm": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "LeftHand": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "RightHand": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "LeftUpLeg": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 1.2789769243681894e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.1102230246251565e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "RightUpLeg": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 1.2789769243681894e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.1102230246251565e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "LeftLeg": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0.0004098113502007665,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.22916666666666666,
+          "peakPhase": 0.02916665623585382
+        },
+        "RightLeg": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 1.2789769243681894e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.1102230246251565e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "LeftFoot": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0.0005795607694683541,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.22916666666666666,
+          "peakPhase": 0.02916665623585382
+        },
+        "RightFoot": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 1.2789769243681894e-11,
+          "peakAngularSpeedDegps": 0.0005795607694683541,
+          "maxFrameJumpM": 1.1102230246251565e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "LeftToeBase": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.22916666666666666,
+          "peakPhase": 0.02916665623585382
+        },
+        "RightToeBase": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 1.2789769243681894e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.1102230246251565e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "Gun": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0.0005795607694683521,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        }
+      }
+    },
+    {
+      "weapon": "type64",
+      "motion": "PistolIdle",
+      "hz": 60,
+      "duration": 0.03333333507180214,
+      "samples": 62,
+      "metrics": {
+        "Hips": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "Spine": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "Spine2": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "Head": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "LeftShoulder": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "RightShoulder": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "LeftArm": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0.00010245283755019162,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "RightArm": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "LeftForeArm": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "RightForeArm": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "LeftHand": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "RightHand": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "LeftUpLeg": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "RightUpLeg": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "LeftLeg": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0.00010245283755019162,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "RightLeg": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "LeftFoot": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0.00014489019236708852,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "RightFoot": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0.00014489019236708852,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "LeftToeBase": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "RightToeBase": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        },
+        "Gun": {
+          "rangeM": [
+            0,
+            0,
+            0
+          ],
+          "peakSpeedMps": 0,
+          "peakAccelerationMps2": 0,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 0,
+          "peakAt": 0.016666666666666666,
+          "peakPhase": 0.016666666666666666
+        }
+      }
+    },
+    {
+      "weapon": "type64",
+      "motion": "PistolIdle",
+      "hz": 120,
+      "duration": 0.03333333507180214,
+      "samples": 122,
+      "metrics": {
+        "Hips": {
+          "rangeM": [
+            8.673617379884035e-19,
+            2.220446049250313e-16,
+            1.734723475976807e-18
+          ],
+          "peakSpeedMps": 1.3322777939067859e-14,
+          "peakAccelerationMps2": 3.1974667053762974e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.1102314949223176e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "Spine": {
+          "rangeM": [
+            8.673617379884035e-19,
+            2.220446049250313e-16,
+            1.734723475976807e-18
+          ],
+          "peakSpeedMps": 1.3323082865112943e-14,
+          "peakAccelerationMps2": 3.1975398876271177e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.1102569054260746e-16,
+          "peakAt": 0.725,
+          "peakPhase": 0.024999963492155053
+        },
+        "Spine2": {
+          "rangeM": [
+            3.469446951953614e-18,
+            2.220446049250313e-16,
+            3.469446951953614e-18
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840905e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "Head": {
+          "rangeM": [
+            6.938893903907228e-18,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840905e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "LeftShoulder": {
+          "rangeM": [
+            3.469446951953614e-18,
+            2.220446049250313e-16,
+            3.469446951953614e-18
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840905e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "RightShoulder": {
+          "rangeM": [
+            3.469446951953614e-18,
+            2.220446049250313e-16,
+            6.938893903907228e-18
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840905e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "LeftArm": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            6.938893903907228e-18
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840905e-12,
+          "peakAngularSpeedDegps": 0.00020490567510038325,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "RightArm": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840905e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "LeftForeArm": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840905e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "RightForeArm": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840905e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "LeftHand": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840905e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "RightHand": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840905e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "LeftUpLeg": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 1.3322676295501926e-14,
+          "peakAccelerationMps2": 3.1974423109204735e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.1102230246251565e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "RightUpLeg": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 1.3322676295501926e-14,
+          "peakAccelerationMps2": 3.1974423109204735e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.1102230246251565e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "LeftLeg": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840947e-12,
+          "peakAngularSpeedDegps": 0.00020490567510038325,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.5916666666666667,
+          "peakPhase": 0.024999970446030306
+        },
+        "RightLeg": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 1.3322676295501926e-14,
+          "peakAccelerationMps2": 3.1974423109204735e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.1102230246251565e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "LeftFoot": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840947e-12,
+          "peakAngularSpeedDegps": 0.00028978038473417703,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.5916666666666667,
+          "peakPhase": 0.024999970446030306
+        },
+        "RightFoot": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 1.3322676295501926e-14,
+          "peakAccelerationMps2": 3.1974423109204735e-12,
+          "peakAngularSpeedDegps": 0.00028978038473417703,
+          "maxFrameJumpM": 1.1102230246251565e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "LeftToeBase": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840947e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.5916666666666667,
+          "peakPhase": 0.024999970446030306
+        },
+        "RightToeBase": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 1.3322676295501926e-14,
+          "peakAccelerationMps2": 3.1974423109204735e-12,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.1102230246251565e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        },
+        "Gun": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 6.394884621840905e-12,
+          "peakAngularSpeedDegps": 0.00020490567510038325,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.3,
+          "peakPhase": 0.033333319425582875
+        }
+      }
+    },
+    {
+      "weapon": "type64",
+      "motion": "PistolIdle",
+      "hz": 240,
+      "duration": 0.03333333507180214,
+      "samples": 242,
+      "metrics": {
+        "Hips": {
+          "rangeM": [
+            8.673617379884035e-19,
+            2.220446049250313e-16,
+            1.734723475976807e-18
+          ],
+          "peakSpeedMps": 2.6648808261343464e-14,
+          "peakAccelerationMps2": 1.2791427965444737e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.110367010889307e-16,
+          "peakAt": 0.4125,
+          "peakPhase": 0.012499979138374306
+        },
+        "Spine": {
+          "rangeM": [
+            8.673617379884035e-19,
+            2.220446049250313e-16,
+            1.734723475976807e-18
+          ],
+          "peakSpeedMps": 2.6649418039005262e-14,
+          "peakAccelerationMps2": 1.2791720658722401e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.110392418291882e-16,
+          "peakAt": 0.4125,
+          "peakPhase": 0.012499979138374306
+        },
+        "Spine2": {
+          "rangeM": [
+            3.469446951953614e-18,
+            2.220446049250313e-16,
+            3.469446951953614e-18
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "Head": {
+          "rangeM": [
+            6.938893903907228e-18,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "LeftShoulder": {
+          "rangeM": [
+            3.469446951953614e-18,
+            2.220446049250313e-16,
+            3.469446951953614e-18
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "RightShoulder": {
+          "rangeM": [
+            3.469446951953614e-18,
+            2.220446049250313e-16,
+            6.938893903907228e-18
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "LeftArm": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            6.938893903907228e-18
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0.0004098113502007665,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "RightArm": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "LeftForeArm": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "RightForeArm": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "LeftHand": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "RightHand": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "LeftUpLeg": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 1.2789769243681894e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.1102230246251565e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "RightUpLeg": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 1.2789769243681894e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.1102230246251565e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "LeftLeg": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0.0004098113502007665,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.22916666666666666,
+          "peakPhase": 0.02916665623585382
+        },
+        "RightLeg": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 1.2789769243681894e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.1102230246251565e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "LeftFoot": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0.0005795607694683541,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.22916666666666666,
+          "peakPhase": 0.02916665623585382
+        },
+        "RightFoot": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 1.2789769243681894e-11,
+          "peakAngularSpeedDegps": 0.0005795607694683541,
+          "maxFrameJumpM": 1.1102230246251565e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "LeftToeBase": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.22916666666666666,
+          "peakPhase": 0.02916665623585382
+        },
+        "RightToeBase": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 2.6645352591003852e-14,
+          "peakAccelerationMps2": 1.2789769243681894e-11,
+          "peakAngularSpeedDegps": 0,
+          "maxFrameJumpM": 1.1102230246251565e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        },
+        "Gun": {
+          "rangeM": [
+            0,
+            2.220446049250313e-16,
+            0
+          ],
+          "peakSpeedMps": 5.3290705182007703e-14,
+          "peakAccelerationMps2": 2.5579538487363788e-11,
+          "peakAngularSpeedDegps": 0.0005795607694683521,
+          "maxFrameJumpM": 2.220446049250313e-16,
+          "peakAt": 0.15833333333333333,
+          "peakPhase": 0.02499999304612477
+        }
+      }
+    }
+  ]
+}
