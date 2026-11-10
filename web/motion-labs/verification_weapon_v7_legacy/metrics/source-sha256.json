@@ -1,0 +1,10 @@
+{
+  "web/motion-labs/linxu-motion-lab/assets/weapon_attachment.json": "7e3a0df8ad6ad7d4f96cc99708c50c7f29793d1442ae81485c0c642ced25238e",
+  "web/motion-labs/resistance-motion-lab/assets/weapon_attachment.json": "f44e905619903089166c5452f76888a7bcd2eed3ac8079a3f0d908f7cd2f24ef",
+  "web/motion-labs/linxu-motion-lab/weapon-attachment.js": "45101192f062fda1ba2a51c7e621574eaa4adad4a1670a3144a1baca0d91fb62",
+  "web/motion-labs/resistance-motion-lab/weapon-attachment.js": "3e440e47823954d382fa30bfd978d461607308e605b1be3170700249b0f95f68",
+  "before_linxu_config": "9aadf5d11470a8d3c76cce4aa47a3349f36f8c4fe4e2a1ea475f38e6d471f57c",
+  "before_resistance_config": "8686a896715b067ece8f9b6b216190c23e156be311769e7e733cf4b2e4aeddad",
+  "linxu_legacy_mounts_canonical_sha256": "c6006f7fdb56ad1fa7b181ddd784445b99db52a980058a3df31b0cb302762a4b",
+  "resistance_legacy_mounts_canonical_sha256": "eba8aca269aeded2ef5a9bfe848af158336f9f903dd4a2a89dc2e010f9d45dc1"
+}

@@ -1,0 +1,23 @@
+{
+  "linxu": {
+    "samples": 70,
+    "nonfinite": 0,
+    "maxReturnComponentDrift": 0,
+    "maxRightPalmErrorM": 2.4844736802137764e-7,
+    "maxLeftPalmErrorM": 1.2877610656239388e-7
+  },
+  "military": {
+    "samples": 70,
+    "nonfinite": 0,
+    "maxReturnComponentDrift": 0,
+    "maxRightPalmErrorM": 7.70879807314584e-8,
+    "maxLeftPalmErrorM": 8.312286627229243e-8
+  },
+  "vest": {
+    "samples": 70,
+    "nonfinite": 0,
+    "maxReturnComponentDrift": 0,
+    "maxRightPalmErrorM": 1.0622643804647497e-7,
+    "maxLeftPalmErrorM": 1.8485423872729397e-7
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "criterion": "BVH triangle surface intersection; selected faces have >50% RightArm/RightForeArm weighting. Pair counts are not penetration depth, tests are discrete.",
+  "linxu_before": {
+    "samples": 5,
+    "pairs_excluding_6cm_wrist": [
+      43,
+      52
+    ],
+    "sampled_local_depth_mm": [
+      8.3,
+      14.2
+    ],
+    "screenshot_time_s": 6.78,
+    "screenshot_sampled_local_depth_mm": 12.97
+  },
+  "linxu_final": {
+    "samples": 17,
+    "pairs_including_wrist": [
+      0,
+      0
+    ],
+    "left_arm_samples": 5,
+    "left_arm_pairs": [
+      0,
+      0
+    ]
+  },
+  "military_before": {
+    "samples": 5,
+    "pairs_excluding_6cm_wrist": [
+      149,
+      181
+    ],
+    "sampled_local_depth_mm": [
+      10.85,
+      14.2
+    ],
+    "screenshot_time_s": 6.78,
+    "screenshot_sampled_local_depth_mm": 11.46
+  },
+  "military_final": {
+    "samples": 17,
+    "pairs_excluding_6cm_wrist": [
+      0,
+      0
+    ],
+    "pairs_including_wrist": [
+      140,
+      196
+    ],
+    "remaining_contact_distance_from_wrist_mm": [
+      25.5,
+      53.6
+    ],
+    "left_arm_samples": 5,
+    "left_arm_pairs": [
+      0,
+      0
+    ]
+  },
+  "vest_before_and_final": {
+    "samples": 5,
+    "pairs_excluding_6cm_wrist": [
+      1,
+      1
+    ],
+    "screenshot_sampled_local_depth_mm": 0.79,
+    "note": "unchanged; avoid inducing finger penetration for tiny arm contact"
+  },
+  "finger_tip_final_7_samples": {
+    "linxu_qbu85": {
+      "distal_pairs": 0,
+      "skin_tip_distance_mm": [
+        5.64,
+        13.62
+      ]
+    },
+    "linxu_type56_1": {
+      "distal_pairs": 0,
+      "skin_tip_distance_mm": [
+        8.79,
+        12.32
+      ]
+    },
+    "linxu_type97hawk": {
+      "right_thumb_pairs": 0,
+      "right_thumb_tip_distance_mm": [
+        10.3,
+        17.0
+      ],
+      "right_index_pairs": 0,
+      "right_index_tip_distance_mm": [
+        22.3,
+        28.3
+      ],
+      "right_pinky_pairs_max": 11,
+      "note": "small grasp-region contact remains"
+    }
+  }
+}

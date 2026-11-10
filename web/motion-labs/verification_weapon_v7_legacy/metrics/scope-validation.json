@@ -1,0 +1,20 @@
+{
+  "caseCount": 465,
+  "maxGunPositionDelta": 0,
+  "maxGunAngleDeltaDeg": 0.0000034150945850063755,
+  "maxDurationDelta": 0,
+  "maxUnapprovedLocalBoneAngleDeg": 0.0000034150945850063755,
+  "qbzIdleGunPositionDeltaMax": 0.012325023472610396,
+  "qbzIdleGunAngleDeltaDeg": 6.000000000000332,
+  "hawkIdle": {
+    "linxu": {
+      "position": 0.022672175824402233,
+      "angle": 6.000000000000089
+    },
+    "military": {
+      "position": 0.03286502976122706,
+      "angle": 0
+    }
+  },
+  "unexpected": []
+}

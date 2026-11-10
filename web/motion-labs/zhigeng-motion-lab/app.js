@@ -1,12 +1,12 @@
 import * as THREE from 'three';
-import {fixedGunMotions, fixedGunMotionNames, installFixedGunMotions} from './fixed-machine-gun.js?v=weapons-r44';
-import { uploadedMotions, uploadedMotionNames, measureUploadedMotions, createMotionContext } from './uploaded-motion.js?v=weapons-r44';
+import {fixedGunMotions, fixedGunMotionNames, installFixedGunMotions} from './fixed-machine-gun.js?v=natural-weapons-v6';
+import { uploadedMotions, uploadedMotionNames, measureUploadedMotions, createMotionContext } from './uploaded-motion.js?v=natural-weapons-v6';
 import { selectableMotions } from './motion-catalog.js?v=pf89-r40';
 import { installRocketMotions, rocketMotions, rocketLabels } from './rocket-motion.js?v=pf89-r40';
 import { installType97Motions } from './type97-motion.js?v=grip-r31';
 import { GLTFLoader } from './vendor/GLTFLoader.js';
 import { OrbitControls } from './vendor/OrbitControls.js';
-import { WeaponAttachment } from './weapon-attachment.js?v=weapons-r44';
+import { WeaponAttachment } from './weapon-attachment.js?v=natural-weapons-v6';
 import { PonytailPhysics } from './ponytail-physics.js';
 
 const $ = (selector) => document.querySelector(selector);
@@ -119,7 +119,7 @@ function updateAimControl() {
   $('#shotgun-aim-controls').hidden = !usesPitchAim();
   $('#aim-pitch').value = state.aimPitch;
   $('#aim-pitch').style.setProperty('--progress', `${(state.aimPitch + 1) * 50}%`);
-  const calibration = weaponConfig?.weapons.winchester1897?.re4_shotgun;
+  const calibration = weaponConfig?.weapons.m870?.re4_shotgun;
   const min = calibration?.aim_pitch_min_deg, max = calibration?.aim_pitch_max_deg;
   const degrees = state.aimPitch < 0 ? -state.aimPitch * min : state.aimPitch * max;
   const label = state.aimPitch === 0 ? '平视 0°' : Math.abs(state.aimPitch) === 1 && Number.isFinite(degrees) ? `${state.aimPitch > 0 ? '上仰' : '下俯'} ${Math.abs(degrees).toFixed(1)}°` : `${state.aimPitch > 0 ? '上仰' : '下俯'} ${Math.round(Math.abs(state.aimPitch) * 100)}%`;
@@ -236,7 +236,7 @@ function actionFor(model, name) {
   if (motionOptions[name]?.pitch_only && !usesPitchAim()) return;
   if (name === 'ShotgunPump') return model.actions.get(weaponConfig?.weapons[weapon]?.animation_overrides?.[name] || 'ShotgunPumpLevel');
   if (['PistolIdle', 'PistolAimingIdle', 'PistolWalk', 'PistolShooting'].includes(name) && type && type !== 'pistol') weapon = state.lastPistolWeapon;
-  if (['RifleIdle', 'RifleWalk', 'RifleAimingIdle', 'FiringRifle', 'RifleRun', 'Reloading'].includes(name) && type === 'pistol') weapon = state.lastRifleWeapon;
+  if (['RifleIdle', 'RifleWalk', 'RifleAimingIdle', 'FiringRifle', 'RifleRun', 'Reloading'].includes(name) && type === 'pistol' && !weaponConfig.weapons[weapon].compatible_motions?.includes(name)) weapon = state.lastRifleWeapon;
   const mapped = weaponConfig?.weapons[weapon]?.animation_overrides?.[name];
   return model.actions.get(mapped) || model.actions.get(name);
 }
@@ -321,6 +321,7 @@ function refreshMotionLabels() {
 }
 
 function selectWeapon(id, switchMotion = true) {
+  if (id === 'winchester1897') id = 'm870';
   if (state.version !== 'fixed') setVersion('fixed');
   state.weapon = id;
   if (switchMotion) { state.motionFilter = 'existing'; $('#motion-filter').value = state.motionFilter; }
@@ -336,10 +337,10 @@ function selectWeapon(id, switchMotion = true) {
 }
 
 async function equipWeapons() {
-  const config = await fetch('./assets/weapon_attachment.json?v=weapons-r44').then(r => r.json());
+  const config = await fetch('./assets/weapon_attachment.json?v=natural-weapons-v6').then(r => r.json());
   weaponConfig = config;
   const scenes = new Map(await Promise.all(Object.keys(config.weapons).map(async id => {
-    const gltf = await loader.loadAsync('./assets/weapons/' + id + '.glb?v=weapons-r44');
+    const gltf = await loader.loadAsync('./assets/weapons/' + id + '.glb?v=natural-weapons-v6');
     return [id, gltf.scene];
   })));
   models.get('fixed').weaponAttachment = new WeaponAttachment(models.get('fixed'), config, 'zhigeng', scenes, scene);
@@ -351,7 +352,7 @@ async function equipWeapons() {
 }
 
 async function equipMotionPack() {
-  const packs = await Promise.all(['motion_additions.glb', 'leon_pistol_animations.glb', 're4_shotgun_animations.glb', 're4_rocket_upper.glb', 'uploaded_motions.glb'].map(file => loader.loadAsync('./assets/' + file + '?v=weapons-r44')));
+  const packs = await Promise.all(['motion_additions.glb', 'leon_pistol_animations.glb', 're4_shotgun_animations.glb', 're4_rocket_upper.glb', 'uploaded_motions.glb'].map(file => loader.loadAsync('./assets/' + file + '?v=natural-weapons-v6')));
   const model = models.get('fixed');
   for (const pack of packs) for (const clip of pack.animations) model.actions.set(clip.name, model.mixer.clipAction(clip));
   model.type97Composition = installType97Motions(model);
