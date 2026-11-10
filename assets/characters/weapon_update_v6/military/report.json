@@ -1,0 +1,259 @@
+{
+  "character": "military",
+  "source_commit": "81d5a485",
+  "pistol_run_source": "Original RifleRun full body and timing, original QSZ92 RifleRun mount, no arm-track composition",
+  "native_motion_sha256": "36d2d78ce04e962598edbe235cca9af311c9ce3a067f658e3d8a71941c0de0a8",
+  "generator_sha256": "5cfb03bab3c6b6d8bfcb54bd1ae8567e1d927cc6b16d5071a3f793c7e31fc2aa",
+  "character_sha256": "0bcced18ecd2336614ce250cc61fe2b561657f0fce1abe8debbd69287d2f1daa",
+  "refined_geometry_sha256": {
+    "qsz92": "c2be7f2de027e57303d635a2e51aa0c41849878b23bd294d5ddb372389a7f30c",
+    "type54": "25d58d368e66cbead8faf6083408c73bd93fe2bf2e23b2706d9d3c006e83e06b",
+    "type64": "ca7376e4b84e7b50df2a59743d9a3b09db37928d6c1152bddc13cac7a8f9c582",
+    "m870": "b1192f67c1bc1ca6334d5b4b281eefe234bcb222132c627580dab594e8e14795"
+  },
+  "revision": "natural-v6-shoulderfix",
+  "builder_sha256": "c4f1dc98714e34d1daad69e46079c8f08a199307217f720367df452cbce12d0f",
+  "reference_path_sha256": "8556469bc04045daa77a83f19fe5ac66139f392c40518ff907934e6878561b3c",
+  "retarget_calibration_sha256": "018d5c840f63b6bb5761bf8a2dadbc5237373321568d5712b558fe1494bd2a09",
+  "reference_config_sha256": "48122b7d881fdea90b8eefb29d823abc17bdd2694fe00e64e05efd5bdbf6d4f4",
+  "reference_motion_sha256": {
+    "diandian_fixed.glb": "b7f20683cd0d81356ce9d534f31c866140d67014d102c53d4711e02da1df1507",
+    "motion_additions.glb": "d1b757f4c3708d25fad9a72c129d1e0b7d4d05c6f0a34cacc1668801e8684f82",
+    "leon_pistol_animations.glb": "81b698a7a1a2ce7c4f649a79ee647cec989938c28e6017fbafd182f50a7d95e7",
+    "re4_shotgun_animations.glb": "071614e390bd7a83fe5ed9fa95fb387c726915ebd4693c6411d7cfbdade91fbf",
+    "re4_rocket_upper.glb": "f62a99d6bb0265ece0ccabbf01686546faacdd8862fd2e3c574b503504e1cd37",
+    "uploaded_motions.glb": "5687cd7e404c87f2bf4b6b430fec0beab7e112ade397fd1a31dfb2c2276a35b5"
+  },
+  "m870_run_support_policy": {
+    "left_hand_quaternion_weapon": null,
+    "support_forearm_twist_weight": 0,
+    "support_upper_arm_twist_weight": 0,
+    "scope": "M870 RifleRun only; natural left wrist and no extra axial redistribution. Left elbow/wrist paths change; gun and non-left-arm body remain unchanged."
+  },
+  "rows": [
+    {
+      "weapon": "qsz92",
+      "motion": "PistolIdle",
+      "source_clip": "LeonPistolIdle",
+      "duration": 0.03333333507180214,
+      "fps": 60,
+      "maxSupportShiftM": 0
+    },
+    {
+      "weapon": "qsz92",
+      "motion": "PistolWalk",
+      "source_clip": "LeonPistolWalk",
+      "duration": 0.6666666865348816,
+      "fps": 240,
+      "maxSupportShiftM": 0
+    },
+    {
+      "weapon": "qsz92",
+      "motion": "RifleRun",
+      "source_clip": "RifleRun",
+      "duration": 0.6666666865348816,
+      "fps": 240,
+      "maxSupportShiftM": 0
+    },
+    {
+      "weapon": "qsz92",
+      "motion": "PistolAimingIdle",
+      "source_clip": "PistolIdle",
+      "duration": 1.3333333730697632,
+      "fps": 60,
+      "maxSupportShiftM": 0
+    },
+    {
+      "weapon": "qsz92",
+      "motion": "PistolShooting",
+      "source_clip": "PistolShooting",
+      "duration": 1.1666666269302368,
+      "fps": 240,
+      "maxSupportShiftM": 0
+    },
+    {
+      "weapon": "qsz92",
+      "motion": "Reloading",
+      "source_clip": "Reloading",
+      "duration": 3.299999952316284,
+      "fps": 240,
+      "maxSupportShiftM": 0
+    },
+    {
+      "weapon": "type54",
+      "motion": "PistolIdle",
+      "source_clip": "LeonPistolIdle",
+      "duration": 0.03333333507180214,
+      "fps": 60,
+      "maxSupportShiftM": 0
+    },
+    {
+      "weapon": "type54",
+      "motion": "PistolWalk",
+      "source_clip": "LeonPistolWalk",
+      "duration": 0.6666666865348816,
+      "fps": 240,
+      "maxSupportShiftM": 0
+    },
+    {
+      "weapon": "type54",
+      "motion": "RifleRun",
+      "source_clip": "RifleRun",
+      "duration": 0.6666666865348816,
+      "fps": 240,
+      "maxSupportShiftM": 0
+    },
+    {
+      "weapon": "type54",
+      "motion": "PistolAimingIdle",
+      "source_clip": "PistolIdle",
+      "duration": 1.3333333730697632,
+      "fps": 60,
+      "maxSupportShiftM": 0
+    },
+    {
+      "weapon": "type54",
+      "motion": "PistolShooting",
+      "source_clip": "PistolShooting",
+      "duration": 1.1666666269302368,
+      "fps": 240,
+      "maxSupportShiftM": 0
+    },
+    {
+      "weapon": "type54",
+      "motion": "Reloading",
+      "source_clip": "Reloading",
+      "duration": 3.299999952316284,
+      "fps": 240,
+      "maxSupportShiftM": 0
+    },
+    {
+      "weapon": "type64",
+      "motion": "PistolIdle",
+      "source_clip": "LeonPistolIdle",
+      "duration": 0.03333333507180214,
+      "fps": 60,
+      "maxSupportShiftM": 0
+    },
+    {
+      "weapon": "type64",
+      "motion": "PistolWalk",
+      "source_clip": "LeonPistolWalk",
+      "duration": 0.6666666865348816,
+      "fps": 240,
+      "maxSupportShiftM": 0
+    },
+    {
+      "weapon": "type64",
+      "motion": "RifleRun",
+      "source_clip": "RifleRun",
+      "duration": 0.6666666865348816,
+      "fps": 240,
+      "maxSupportShiftM": 0
+    },
+    {
+      "weapon": "type64",
+      "motion": "PistolAimingIdle",
+      "source_clip": "PistolIdle",
+      "duration": 1.3333333730697632,
+      "fps": 60,
+      "maxSupportShiftM": 0
+    },
+    {
+      "weapon": "type64",
+      "motion": "PistolShooting",
+      "source_clip": "PistolShooting",
+      "duration": 1.1666666269302368,
+      "fps": 240,
+      "maxSupportShiftM": 0
+    },
+    {
+      "weapon": "type64",
+      "motion": "Reloading",
+      "source_clip": "Reloading",
+      "duration": 3.299999952316284,
+      "fps": 240,
+      "maxSupportShiftM": 0
+    },
+    {
+      "weapon": "m870",
+      "motion": "RifleIdle",
+      "source_clip": "HanyangIdle2",
+      "duration": 7.699999809265137,
+      "fps": 60,
+      "maxSupportShiftM": 0.02500000000000001
+    },
+    {
+      "weapon": "m870",
+      "motion": "RifleWalk",
+      "source_clip": "HanyangWalk2",
+      "duration": 1.100000023841858,
+      "fps": 60,
+      "maxSupportShiftM": 0.02500000000000001
+    },
+    {
+      "weapon": "m870",
+      "motion": "RifleRun",
+      "source_clip": "RifleRun",
+      "duration": 0.6666666865348816,
+      "fps": 240,
+      "maxSupportShiftM": 0.07570021256275462
+    },
+    {
+      "weapon": "m870",
+      "motion": "RifleAimingIdle",
+      "source_clip": "ShotgunAimLevel",
+      "duration": 0.5333333611488342,
+      "fps": 60,
+      "maxSupportShiftM": 0.07567360510775581
+    },
+    {
+      "weapon": "m870",
+      "motion": "ShotgunAimLevel",
+      "source_clip": "ShotgunAimLevel",
+      "duration": 0.5333333611488342,
+      "fps": 60,
+      "maxSupportShiftM": 0.07567360510775581
+    },
+    {
+      "weapon": "m870",
+      "motion": "ShotgunAimUp",
+      "source_clip": "ShotgunAimUp",
+      "duration": 0.5333333611488342,
+      "fps": 60,
+      "maxSupportShiftM": 0.06784351339075664
+    },
+    {
+      "weapon": "m870",
+      "motion": "ShotgunAimDown",
+      "source_clip": "ShotgunAimDown",
+      "duration": 0.03333333507180214,
+      "fps": 60,
+      "maxSupportShiftM": 0.08410228995967983
+    },
+    {
+      "weapon": "m870",
+      "motion": "FiringRifle",
+      "source_clip": "ShotgunFireLevel",
+      "duration": 0.23333333432674408,
+      "fps": 240,
+      "maxSupportShiftM": 0.06523319071349949
+    },
+    {
+      "weapon": "m870",
+      "motion": "ShotgunPump",
+      "source_clip": "ShotgunPumpLevel",
+      "duration": 0.7333333492279053,
+      "fps": 240,
+      "maxSupportShiftM": 0.076249674380204
+    },
+    {
+      "weapon": "m870",
+      "motion": "Reloading",
+      "source_clip": "ShotgunReload",
+      "duration": 1.9666666984558105,
+      "fps": 240,
+      "maxSupportShiftM": 0
+    }
+  ]
+}

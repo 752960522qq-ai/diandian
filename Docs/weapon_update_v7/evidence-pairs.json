@@ -1,0 +1,38 @@
+[
+  {
+    "caption": "林叙 · M870 拉泵末帧：肩部形变与枪托位置",
+    "before": "Docs/weapon_update_v7/evidence/sources/01_before.png",
+    "after": "Docs/weapon_update_v7/evidence/sources/01_after.png",
+    "note": "原拉泵时长、身体动作保留；修正左肩轴扭并降低双手和枪位。"
+  },
+  {
+    "caption": "林叙 · QSZ92 高持：双手贴合",
+    "before": "Docs/weapon_update_v7/evidence/sources/02_before.png",
+    "after": "Docs/weapon_update_v7/evidence/sources/02_after.png",
+    "note": "支撑手平移后保持原腕方向，避免为追求指尖接触强行反折。"
+  },
+  {
+    "caption": "林叙 · 64 式瞄准：整条食指协调",
+    "before": "Docs/weapon_update_v7/evidence/sources/03_before.png",
+    "after": "Docs/weapon_update_v7/evidence/sources/03_after.png",
+    "note": "按真实扳机表面重排三节弯曲；接触区不宣称完全零交叉。"
+  },
+  {
+    "caption": "林叙 · 97 式待机：枪托与前臂",
+    "before": "Docs/weapon_update_v7/evidence/sources/04_before.png",
+    "after": "Docs/weapon_update_v7/evidence/sources/04_after.png",
+    "note": "枪、掌部和个别指根协同小改；本图为循环中点同角度对比。"
+  },
+  {
+    "caption": "军装抵抗军 · 97 式待机：独立适配",
+    "before": "Docs/weapon_update_v7/evidence/sources/05_before.png",
+    "after": "Docs/weapon_update_v7/evidence/sources/05_after.png",
+    "note": "未套用林叙参数；原枪角保留，改变右掌和肘平面并补偿食指。"
+  },
+  {
+    "caption": "林叙 · QBU85 待机：拇指根与腕背黑线",
+    "before": "Docs/weapon_update_v7/evidence/sources/06_before.png",
+    "after": "Docs/weapon_update_v7/evidence/sources/06_after.png",
+    "note": "减少指根异常翻转造成的混合蒙皮挤压，保留原身体和枪轨迹。"
+  }
+]

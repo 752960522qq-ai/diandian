@@ -1,0 +1,71 @@
+{
+  "runtime": {
+    "passed": true,
+    "characters": 3,
+    "combinations": 213,
+    "sampled_poses": 1917,
+    "switch_return_cases": 213
+  },
+  "new_pack_scope": {
+    "passed": true,
+    "forbidden_changed_bytes": 0,
+    "changed_tracks": {
+      "linxu": 74,
+      "military": 80,
+      "vest": 74
+    }
+  },
+  "all_equipped_readback": {
+    "passed": true,
+    "clips": 177,
+    "samples": 1581,
+    "max_errors": {
+      "exact": {
+        "angleDeg": 1.3445240826417657e-05,
+        "bonePositionM": 1.5095004088984122e-07,
+        "gunPositionM": 1.5065875568224055e-07,
+        "gunAngleDeg": 9.195423586105977e-06,
+        "pumpM": 1.1512205381689067e-10
+      },
+      "interpolated": {
+        "angleDeg": 0.2536564953312024,
+        "bonePositionM": 0.0018072151169960624,
+        "gunPositionM": 0.0002802758223031218,
+        "gunAngleDeg": 0.03299437561065193,
+        "pumpM": 4.2745289036876313e-08
+      }
+    }
+  },
+  "godot": {
+    "passed": true,
+    "version": "4.6.3-stable (official)",
+    "characters": 3,
+    "clips": 177,
+    "seek_samples": 885
+  },
+  "limits": "Offline runtime and native skeletal playback QA, not browser/mobile/production-controller acceptance.",
+  "new_hand_runtime": {
+    "passed": true,
+    "clips": 84,
+    "samples": 2100
+  },
+  "whole_trigger_chain": {
+    "passed": true,
+    "clips": 18,
+    "samples": 450
+  },
+  "legacy_finger_constraints": {
+    "passed": true,
+    "entries": 98,
+    "samples": 5978
+  },
+  "legacy_change_scope": {
+    "passed": true,
+    "cases": 465
+  },
+  "legacy_hawk_return": {
+    "passed": true,
+    "cases": 210,
+    "maximum_pose_component_drift": 0
+  }
+}

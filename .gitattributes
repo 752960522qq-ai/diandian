@@ -88,3 +88,13 @@ assets/scenes/bei_an_du_jun_v3/**/*.glb filter=lfs diff=lfs merge=lfs -text
 
 # User-supplied Waiting for Light 4K scene asset.
 assets/scenes/waiting_for_light_150m/**/*.glb filter=lfs diff=lfs merge=lfs -text
+
+# Five-character refined weapon binding update (source copies and additive bakes).
+assets/weapons/source/refined_v2/*.glb filter=lfs diff=lfs merge=lfs -text
+assets/characters/weapon_update_v5/**/*.glb filter=lfs diff=lfs merge=lfs -text
+
+# Original-motion based V6 corrective animation packages.
+assets/characters/weapon_update_v6/**/*.glb filter=lfs diff=lfs merge=lfs -text
+
+# V7 reviewed male equipped-motion handoff.
+assets/characters/weapon_update_v7/**/*.glb filter=lfs diff=lfs merge=lfs -text
