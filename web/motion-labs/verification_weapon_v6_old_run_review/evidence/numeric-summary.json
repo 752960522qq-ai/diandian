@@ -1,0 +1,491 @@
+{
+  "phases_per_state": 161,
+  "original_review_source": "comparefix frozen site matching production at the time of the 270-frame visual review; file hashes in source-and-baseline.json",
+  "rows": [
+    {
+      "name": "qbz95-RifleRun",
+      "before": false,
+      "actualClip": "RifleRun",
+      "duration": 0.6666666865348816,
+      "boneCount": 312,
+      "clipTracksIdentical": true,
+      "clipTracks": 66,
+      "maxLocal": 0,
+      "maxWorld": 0,
+      "worst": null,
+      "maxLeftContactErrorM": 1.6159519024273642e-07,
+      "maxRightContactErrorM": 1.646963473134731e-07
+    },
+    {
+      "name": "qbz95-RifleRun_Before",
+      "before": true,
+      "actualClip": "RifleRun_Before",
+      "duration": 0.6666666865348816,
+      "boneCount": 312,
+      "clipTracksIdentical": true,
+      "clipTracks": 66,
+      "maxLocal": 0,
+      "maxWorld": 0,
+      "worst": null,
+      "maxLeftContactErrorM": 1.5617715727797654e-07,
+      "maxRightContactErrorM": 2.0543163801541173e-07
+    },
+    {
+      "name": "type56_1-RifleRun",
+      "before": false,
+      "actualClip": "RifleRun",
+      "duration": 0.6666666865348816,
+      "boneCount": 312,
+      "clipTracksIdentical": true,
+      "clipTracks": 66,
+      "maxLocal": 0,
+      "maxWorld": 0,
+      "worst": null,
+      "maxLeftContactErrorM": 2.692129547676063e-07,
+      "maxRightContactErrorM": 1.8063943823470826e-07
+    },
+    {
+      "name": "type56_1-RifleRun_Before",
+      "before": true,
+      "actualClip": "RifleRun_Before",
+      "duration": 0.6666666865348816,
+      "boneCount": 312,
+      "clipTracksIdentical": true,
+      "clipTracks": 66,
+      "maxLocal": 0,
+      "maxWorld": 0,
+      "worst": null,
+      "maxLeftContactErrorM": 1.810348555754604e-07,
+      "maxRightContactErrorM": 1.7620850406720165e-07
+    },
+    {
+      "name": "qbu85-RifleRun",
+      "before": false,
+      "actualClip": "RifleRun",
+      "duration": 0.6666666865348816,
+      "boneCount": 312,
+      "clipTracksIdentical": true,
+      "clipTracks": 66,
+      "maxLocal": 0,
+      "maxWorld": 0,
+      "worst": null,
+      "maxLeftContactErrorM": 2.0626719172630755e-07,
+      "maxRightContactErrorM": 1.2197872506404995e-07
+    },
+    {
+      "name": "qbu85-RifleRun_Before",
+      "before": true,
+      "actualClip": "RifleRun_Before",
+      "duration": 0.6666666865348816,
+      "boneCount": 312,
+      "clipTracksIdentical": true,
+      "clipTracks": 66,
+      "maxLocal": 0,
+      "maxWorld": 0,
+      "worst": null,
+      "maxLeftContactErrorM": 2.054932513011429e-07,
+      "maxRightContactErrorM": 1.5326748046717026e-07
+    },
+    {
+      "name": "type97hawk-RifleRun",
+      "before": false,
+      "actualClip": "RifleRun",
+      "duration": 0.6666666865348816,
+      "boneCount": 312,
+      "clipTracksIdentical": true,
+      "clipTracks": 66,
+      "maxLocal": 0,
+      "maxWorld": 0,
+      "worst": null,
+      "maxLeftContactErrorM": 1.7561911387943495e-08,
+      "maxRightContactErrorM": 8.241582544891854e-08
+    },
+    {
+      "name": "type97hawk-RifleRun_Before",
+      "before": true,
+      "actualClip": "RifleRun_Before",
+      "duration": 0.6666666865348816,
+      "boneCount": 312,
+      "clipTracksIdentical": true,
+      "clipTracks": 66,
+      "maxLocal": 0,
+      "maxWorld": 0,
+      "worst": null,
+      "maxLeftContactErrorM": 1.7561911387943495e-08,
+      "maxRightContactErrorM": 8.241582544891854e-08
+    },
+    {
+      "name": "qcq171-RifleRun",
+      "before": false,
+      "actualClip": "RifleRun",
+      "duration": 0.6666666865348816,
+      "boneCount": 312,
+      "clipTracksIdentical": true,
+      "clipTracks": 66,
+      "maxLocal": 0,
+      "maxWorld": 0,
+      "worst": null,
+      "maxLeftContactErrorM": 1.2185785744956304e-07,
+      "maxRightContactErrorM": 2.979276667955897e-07
+    },
+    {
+      "name": "qcq171-RifleRun_Before",
+      "before": true,
+      "actualClip": "RifleRun_Before",
+      "duration": 0.6666666865348816,
+      "boneCount": 312,
+      "clipTracksIdentical": true,
+      "clipTracks": 66,
+      "maxLocal": 0,
+      "maxWorld": 0,
+      "worst": null,
+      "maxLeftContactErrorM": 1.588186055868405e-07,
+      "maxRightContactErrorM": 2.5308483565925014e-07
+    }
+  ],
+  "cross_equipment": [
+    {
+      "reference": "qbz95-RifleRun",
+      "compared": "type56_1-RifleRun",
+      "maxBodyDifference": 2.1668088355814423,
+      "maxWeaponDifference": 0.2645067787170342
+    },
+    {
+      "reference": "qbz95-RifleRun",
+      "compared": "qbu85-RifleRun",
+      "maxBodyDifference": 2.215342918748535,
+      "maxWeaponDifference": 0.5299142896416357
+    },
+    {
+      "reference": "qbz95-RifleRun",
+      "compared": "type97hawk-RifleRun",
+      "maxBodyDifference": 2.5644805935185655,
+      "maxWeaponDifference": 0.811381929671851
+    },
+    {
+      "reference": "qbz95-RifleRun",
+      "compared": "qcq171-RifleRun",
+      "maxBodyDifference": 2.532328479451187,
+      "maxWeaponDifference": 0.5401814057661133
+    },
+    {
+      "reference": "qbz95-RifleRun_Before",
+      "compared": "type56_1-RifleRun_Before",
+      "maxBodyDifference": 2.195527017283018,
+      "maxWeaponDifference": 0.264347421805062
+    },
+    {
+      "reference": "qbz95-RifleRun_Before",
+      "compared": "qbu85-RifleRun_Before",
+      "maxBodyDifference": 2.15996789834048,
+      "maxWeaponDifference": 0.5252544600678598
+    },
+    {
+      "reference": "qbz95-RifleRun_Before",
+      "compared": "type97hawk-RifleRun_Before",
+      "maxBodyDifference": 2.3369771367467504,
+      "maxWeaponDifference": 0.7093812784246352
+    },
+    {
+      "reference": "qbz95-RifleRun_Before",
+      "compared": "qcq171-RifleRun_Before",
+      "maxBodyDifference": 2.4107360420035775,
+      "maxWeaponDifference": 0.5419564100122816
+    }
+  ],
+  "semantics_and_seams": [
+    {
+      "weapon": "qbz95",
+      "boneCount": 312,
+      "duration": 0.6666666865348816,
+      "currentBeforeComparison": {
+        "maxPositionM": 0.08494366237493603,
+        "maxAngleDeg": 16.41338019442842
+      },
+      "loopSeamCurrent": {
+        "maxPositionM": 4.3966389732606524e-05,
+        "maxAngleDeg": 0.006488419530877697,
+        "worstPositionBone": "7:mixamorigRightLeg",
+        "worstAngleBone": "7:mixamorigRightLeg"
+      },
+      "loopSeamBefore": {
+        "maxPositionM": 4.3966389732606524e-05,
+        "maxAngleDeg": 0.006488419530877697,
+        "worstPositionBone": "7:mixamorigRightLeg",
+        "worstAngleBone": "7:mixamorigRightLeg"
+      }
+    },
+    {
+      "weapon": "type56_1",
+      "boneCount": 312,
+      "duration": 0.6666666865348816,
+      "currentBeforeComparison": {
+        "maxPositionM": 0.09121311552799014,
+        "maxAngleDeg": 18.51161658242379
+      },
+      "loopSeamCurrent": {
+        "maxPositionM": 4.3966389732606524e-05,
+        "maxAngleDeg": 0.006488419530877697,
+        "worstPositionBone": "7:mixamorigRightLeg",
+        "worstAngleBone": "7:mixamorigRightLeg"
+      },
+      "loopSeamBefore": {
+        "maxPositionM": 4.3966389732606524e-05,
+        "maxAngleDeg": 0.006488419530877697,
+        "worstPositionBone": "7:mixamorigRightLeg",
+        "worstAngleBone": "7:mixamorigRightLeg"
+      }
+    },
+    {
+      "weapon": "qbu85",
+      "boneCount": 312,
+      "duration": 0.6666666865348816,
+      "currentBeforeComparison": {
+        "maxPositionM": 0.10572515127536333,
+        "maxAngleDeg": 18.172025649190683
+      },
+      "loopSeamCurrent": {
+        "maxPositionM": 4.3966389732606524e-05,
+        "maxAngleDeg": 0.006488419530877697,
+        "worstPositionBone": "7:mixamorigRightLeg",
+        "worstAngleBone": "7:mixamorigRightLeg"
+      },
+      "loopSeamBefore": {
+        "maxPositionM": 4.3966389732606524e-05,
+        "maxAngleDeg": 0.006488419530877697,
+        "worstPositionBone": "7:mixamorigRightLeg",
+        "worstAngleBone": "7:mixamorigRightLeg"
+      }
+    },
+    {
+      "weapon": "type97hawk",
+      "boneCount": 312,
+      "duration": 0.6666666865348816,
+      "currentBeforeComparison": {
+        "maxPositionM": 0,
+        "maxAngleDeg": 4.182619578303746e-06
+      },
+      "loopSeamCurrent": {
+        "maxPositionM": 4.3966389732606524e-05,
+        "maxAngleDeg": 0.006488419530877697,
+        "worstPositionBone": "7:mixamorigRightLeg",
+        "worstAngleBone": "7:mixamorigRightLeg"
+      },
+      "loopSeamBefore": {
+        "maxPositionM": 4.3966389732606524e-05,
+        "maxAngleDeg": 0.006488419530877697,
+        "worstPositionBone": "7:mixamorigRightLeg",
+        "worstAngleBone": "7:mixamorigRightLeg"
+      }
+    },
+    {
+      "weapon": "qcq171",
+      "boneCount": 312,
+      "duration": 0.6666666865348816,
+      "currentBeforeComparison": {
+        "maxPositionM": 0.07664912351969409,
+        "maxAngleDeg": 17.087212522049022
+      },
+      "loopSeamCurrent": {
+        "maxPositionM": 4.3966389732606524e-05,
+        "maxAngleDeg": 0.006488419530877697,
+        "worstPositionBone": "7:mixamorigRightLeg",
+        "worstAngleBone": "7:mixamorigRightLeg"
+      },
+      "loopSeamBefore": {
+        "maxPositionM": 4.3966389732606524e-05,
+        "maxAngleDeg": 0.006488419530877697,
+        "worstPositionBone": "7:mixamorigRightLeg",
+        "worstAngleBone": "7:mixamorigRightLeg"
+      }
+    }
+  ],
+  "post_cleanup_current_production_recheck": {
+    "site_selection": "Default current production linxu-motion-lab; no frozen snapshot required",
+    "phases_per_state": 161,
+    "rows": [
+      {
+        "name": "qbz95-RifleRun",
+        "before": false,
+        "actualClip": "RifleRun",
+        "duration": 0.6666666865348816,
+        "boneCount": 312,
+        "clipTracksIdentical": true,
+        "clipTracks": 66,
+        "maxLocal": 0,
+        "maxWorld": 0,
+        "worst": null,
+        "maxLeftContactErrorM": 1.6159519024273642e-07,
+        "maxRightContactErrorM": 1.646963473134731e-07
+      },
+      {
+        "name": "qbz95-RifleRun_Before",
+        "before": true,
+        "actualClip": "RifleRun_Before",
+        "duration": 0.6666666865348816,
+        "boneCount": 312,
+        "clipTracksIdentical": true,
+        "clipTracks": 66,
+        "maxLocal": 0,
+        "maxWorld": 0,
+        "worst": null,
+        "maxLeftContactErrorM": 1.5617715727797654e-07,
+        "maxRightContactErrorM": 2.0543163801541173e-07
+      },
+      {
+        "name": "type56_1-RifleRun",
+        "before": false,
+        "actualClip": "RifleRun",
+        "duration": 0.6666666865348816,
+        "boneCount": 312,
+        "clipTracksIdentical": true,
+        "clipTracks": 66,
+        "maxLocal": 0,
+        "maxWorld": 0,
+        "worst": null,
+        "maxLeftContactErrorM": 2.692129547676063e-07,
+        "maxRightContactErrorM": 1.8063943823470826e-07
+      },
+      {
+        "name": "type56_1-RifleRun_Before",
+        "before": true,
+        "actualClip": "RifleRun_Before",
+        "duration": 0.6666666865348816,
+        "boneCount": 312,
+        "clipTracksIdentical": true,
+        "clipTracks": 66,
+        "maxLocal": 0,
+        "maxWorld": 0,
+        "worst": null,
+        "maxLeftContactErrorM": 1.810348555754604e-07,
+        "maxRightContactErrorM": 1.7620850406720165e-07
+      },
+      {
+        "name": "qbu85-RifleRun",
+        "before": false,
+        "actualClip": "RifleRun",
+        "duration": 0.6666666865348816,
+        "boneCount": 312,
+        "clipTracksIdentical": true,
+        "clipTracks": 66,
+        "maxLocal": 0,
+        "maxWorld": 0,
+        "worst": null,
+        "maxLeftContactErrorM": 2.0626719172630755e-07,
+        "maxRightContactErrorM": 1.2197872506404995e-07
+      },
+      {
+        "name": "qbu85-RifleRun_Before",
+        "before": true,
+        "actualClip": "RifleRun_Before",
+        "duration": 0.6666666865348816,
+        "boneCount": 312,
+        "clipTracksIdentical": true,
+        "clipTracks": 66,
+        "maxLocal": 0,
+        "maxWorld": 0,
+        "worst": null,
+        "maxLeftContactErrorM": 2.054932513011429e-07,
+        "maxRightContactErrorM": 1.5326748046717026e-07
+      },
+      {
+        "name": "type97hawk-RifleRun",
+        "before": false,
+        "actualClip": "RifleRun",
+        "duration": 0.6666666865348816,
+        "boneCount": 312,
+        "clipTracksIdentical": true,
+        "clipTracks": 66,
+        "maxLocal": 0,
+        "maxWorld": 0,
+        "worst": null,
+        "maxLeftContactErrorM": 1.7561911387943495e-08,
+        "maxRightContactErrorM": 8.241582544891854e-08
+      },
+      {
+        "name": "type97hawk-RifleRun_Before",
+        "before": true,
+        "actualClip": "RifleRun_Before",
+        "duration": 0.6666666865348816,
+        "boneCount": 312,
+        "clipTracksIdentical": true,
+        "clipTracks": 66,
+        "maxLocal": 0,
+        "maxWorld": 0,
+        "worst": null,
+        "maxLeftContactErrorM": 1.7561911387943495e-08,
+        "maxRightContactErrorM": 8.241582544891854e-08
+      },
+      {
+        "name": "qcq171-RifleRun",
+        "before": false,
+        "actualClip": "RifleRun",
+        "duration": 0.6666666865348816,
+        "boneCount": 312,
+        "clipTracksIdentical": true,
+        "clipTracks": 66,
+        "maxLocal": 0,
+        "maxWorld": 0,
+        "worst": null,
+        "maxLeftContactErrorM": 1.2185785744956304e-07,
+        "maxRightContactErrorM": 2.979276667955897e-07
+      },
+      {
+        "name": "qcq171-RifleRun_Before",
+        "before": true,
+        "actualClip": "RifleRun_Before",
+        "duration": 0.6666666865348816,
+        "boneCount": 312,
+        "clipTracksIdentical": true,
+        "clipTracks": 66,
+        "maxLocal": 0,
+        "maxWorld": 0,
+        "worst": null,
+        "maxLeftContactErrorM": 1.588186055868405e-07,
+        "maxRightContactErrorM": 2.5308483565925014e-07
+      }
+    ],
+    "source_hashes": {
+      "rig.js": {
+        "review": "3ebfd23e9c9a7c475f5af022526ed3c9551061fc4ffa3a3febc7cb94294859ec",
+        "baseline": "148e1a2b57fc7b52d2aee2d7c510386514f97509c6d933a1f69fecb802e422ac"
+      },
+      "weapon-attachment.js": {
+        "review": "bb5b8c69d0976aac409918427f436d1f98a907214e6a8e68bd7ccaa270c0510e",
+        "baseline": "47c9102fbb24385f6f40201785b21bcbd64fcb153f3d6c8a59de847459339264"
+      },
+      "assets/weapon_attachment.json": {
+        "review": "9aadf5d11470a8d3c76cce4aa47a3349f36f8c4fe4e2a1ea475f38e6d471f57c",
+        "baseline": "98c9089b45d9154b66c36f92318091ff4b882d515ecc8b72c4b21a0323d41183"
+      },
+      "assets/characters/linxu/character.glb": {
+        "review": "71f8f6a2562397e82c6e9f102ea4f2cd358b135486a30cb63777f49914ba54c9",
+        "baseline": "71f8f6a2562397e82c6e9f102ea4f2cd358b135486a30cb63777f49914ba54c9"
+      },
+      "assets/characters/linxu/motions.glb": {
+        "review": "9a451d615d3135ecf10abc412e48494ff64541f8005a97e77e8a703afa87e103",
+        "baseline": "b1e1360027fd582b1b26755f18d38399653f5e156007fdb247dd4bbacd433efe"
+      },
+      "assets/weapons/qbz95.glb": {
+        "review": "bf7bfff81bcb5d348580d0d8f2fbec6cb4cf4586bc739d18609630f41271a4b9",
+        "baseline": "bf7bfff81bcb5d348580d0d8f2fbec6cb4cf4586bc739d18609630f41271a4b9"
+      },
+      "assets/weapons/type56_1.glb": {
+        "review": "de85d5c568928ec684191027a8d02f5212a2d25bf6bd239a8a911887e62c5981",
+        "baseline": "de85d5c568928ec684191027a8d02f5212a2d25bf6bd239a8a911887e62c5981"
+      },
+      "assets/weapons/qbu85.glb": {
+        "review": "8605a2f827595a168a5cff67fdf02ea37fb6b2fed8c9ac8bd2f205031e95ada4",
+        "baseline": "8605a2f827595a168a5cff67fdf02ea37fb6b2fed8c9ac8bd2f205031e95ada4"
+      },
+      "assets/weapons/type97hawk.glb": {
+        "review": "20ec4f85cc9eeb9037b552c9b4d70dbcaca82d8035056438301704b6b6cf30a5",
+        "baseline": "20ec4f85cc9eeb9037b552c9b4d70dbcaca82d8035056438301704b6b6cf30a5"
+      },
+      "assets/weapons/qcq171.glb": {
+        "review": "c29aab7c6f2d5dbe8996b4b986c4d902a97bcbfb3b512136ead2203fbdc426c2",
+        "baseline": "c29aab7c6f2d5dbe8996b4b986c4d902a97bcbfb3b512136ead2203fbdc426c2"
+      }
+    }
+  }
+}

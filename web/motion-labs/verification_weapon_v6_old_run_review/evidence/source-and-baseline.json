@@ -1,0 +1,109 @@
+{
+  "baseline_commit": "81d5a48",
+  "baseline_required_for_rerun": true,
+  "original_baseline_inputs": {
+    "rig.js": {
+      "method": "git blob sha256",
+      "git81d5a48SHA256": "148e1a2b57fc7b52d2aee2d7c510386514f97509c6d933a1f69fecb802e422ac",
+      "baselineFileSHA256": "148e1a2b57fc7b52d2aee2d7c510386514f97509c6d933a1f69fecb802e422ac",
+      "match": true
+    },
+    "weapon-attachment.js": {
+      "method": "git blob sha256",
+      "git81d5a48SHA256": "47c9102fbb24385f6f40201785b21bcbd64fcb153f3d6c8a59de847459339264",
+      "baselineFileSHA256": "47c9102fbb24385f6f40201785b21bcbd64fcb153f3d6c8a59de847459339264",
+      "match": true
+    },
+    "assets/weapon_attachment.json": {
+      "method": "git blob sha256",
+      "git81d5a48SHA256": "98c9089b45d9154b66c36f92318091ff4b882d515ecc8b72c4b21a0323d41183",
+      "baselineFileSHA256": "98c9089b45d9154b66c36f92318091ff4b882d515ecc8b72c4b21a0323d41183",
+      "match": true
+    },
+    "assets/characters/linxu/character.glb": {
+      "method": "git-lfs oid",
+      "git81d5a48SHA256": "71f8f6a2562397e82c6e9f102ea4f2cd358b135486a30cb63777f49914ba54c9",
+      "baselineFileSHA256": "71f8f6a2562397e82c6e9f102ea4f2cd358b135486a30cb63777f49914ba54c9",
+      "match": true
+    },
+    "assets/characters/linxu/motions.glb": {
+      "method": "git-lfs oid",
+      "git81d5a48SHA256": "b1e1360027fd582b1b26755f18d38399653f5e156007fdb247dd4bbacd433efe",
+      "baselineFileSHA256": "b1e1360027fd582b1b26755f18d38399653f5e156007fdb247dd4bbacd433efe",
+      "match": true
+    },
+    "assets/weapons/qbz95.glb": {
+      "method": "git-lfs oid",
+      "git81d5a48SHA256": "bf7bfff81bcb5d348580d0d8f2fbec6cb4cf4586bc739d18609630f41271a4b9",
+      "baselineFileSHA256": "bf7bfff81bcb5d348580d0d8f2fbec6cb4cf4586bc739d18609630f41271a4b9",
+      "match": true
+    },
+    "assets/weapons/type56_1.glb": {
+      "method": "git-lfs oid",
+      "git81d5a48SHA256": "de85d5c568928ec684191027a8d02f5212a2d25bf6bd239a8a911887e62c5981",
+      "baselineFileSHA256": "de85d5c568928ec684191027a8d02f5212a2d25bf6bd239a8a911887e62c5981",
+      "match": true
+    },
+    "assets/weapons/qbu85.glb": {
+      "method": "git-lfs oid",
+      "git81d5a48SHA256": "8605a2f827595a168a5cff67fdf02ea37fb6b2fed8c9ac8bd2f205031e95ada4",
+      "baselineFileSHA256": "8605a2f827595a168a5cff67fdf02ea37fb6b2fed8c9ac8bd2f205031e95ada4",
+      "match": true
+    },
+    "assets/weapons/type97hawk.glb": {
+      "method": "git-lfs oid",
+      "git81d5a48SHA256": "20ec4f85cc9eeb9037b552c9b4d70dbcaca82d8035056438301704b6b6cf30a5",
+      "baselineFileSHA256": "20ec4f85cc9eeb9037b552c9b4d70dbcaca82d8035056438301704b6b6cf30a5",
+      "match": true
+    },
+    "assets/weapons/qcq171.glb": {
+      "method": "git-lfs oid",
+      "git81d5a48SHA256": "c29aab7c6f2d5dbe8996b4b986c4d902a97bcbfb3b512136ead2203fbdc426c2",
+      "baselineFileSHA256": "c29aab7c6f2d5dbe8996b4b986c4d902a97bcbfb3b512136ead2203fbdc426c2",
+      "match": true
+    }
+  },
+  "original_visual_review_input_hashes": {
+    "rig.js": {
+      "review": "0e8f4755a8e294bf374bd85bbe030bebda6ebaf2129d61cbe6629d05cfec6472",
+      "baseline": "148e1a2b57fc7b52d2aee2d7c510386514f97509c6d933a1f69fecb802e422ac"
+    },
+    "weapon-attachment.js": {
+      "review": "fbb651229894dd3590ff627e773b883cb54ac7155650162e09ef766d98cf098a",
+      "baseline": "47c9102fbb24385f6f40201785b21bcbd64fcb153f3d6c8a59de847459339264"
+    },
+    "assets/weapon_attachment.json": {
+      "review": "9aadf5d11470a8d3c76cce4aa47a3349f36f8c4fe4e2a1ea475f38e6d471f57c",
+      "baseline": "98c9089b45d9154b66c36f92318091ff4b882d515ecc8b72c4b21a0323d41183"
+    },
+    "assets/characters/linxu/character.glb": {
+      "review": "71f8f6a2562397e82c6e9f102ea4f2cd358b135486a30cb63777f49914ba54c9",
+      "baseline": "71f8f6a2562397e82c6e9f102ea4f2cd358b135486a30cb63777f49914ba54c9"
+    },
+    "assets/characters/linxu/motions.glb": {
+      "review": "9a451d615d3135ecf10abc412e48494ff64541f8005a97e77e8a703afa87e103",
+      "baseline": "b1e1360027fd582b1b26755f18d38399653f5e156007fdb247dd4bbacd433efe"
+    },
+    "assets/weapons/qbz95.glb": {
+      "review": "bf7bfff81bcb5d348580d0d8f2fbec6cb4cf4586bc739d18609630f41271a4b9",
+      "baseline": "bf7bfff81bcb5d348580d0d8f2fbec6cb4cf4586bc739d18609630f41271a4b9"
+    },
+    "assets/weapons/type56_1.glb": {
+      "review": "de85d5c568928ec684191027a8d02f5212a2d25bf6bd239a8a911887e62c5981",
+      "baseline": "de85d5c568928ec684191027a8d02f5212a2d25bf6bd239a8a911887e62c5981"
+    },
+    "assets/weapons/qbu85.glb": {
+      "review": "8605a2f827595a168a5cff67fdf02ea37fb6b2fed8c9ac8bd2f205031e95ada4",
+      "baseline": "8605a2f827595a168a5cff67fdf02ea37fb6b2fed8c9ac8bd2f205031e95ada4"
+    },
+    "assets/weapons/type97hawk.glb": {
+      "review": "20ec4f85cc9eeb9037b552c9b4d70dbcaca82d8035056438301704b6b6cf30a5",
+      "baseline": "20ec4f85cc9eeb9037b552c9b4d70dbcaca82d8035056438301704b6b6cf30a5"
+    },
+    "assets/weapons/qcq171.glb": {
+      "review": "c29aab7c6f2d5dbe8996b4b986c4d902a97bcbfb3b512136ead2203fbdc426c2",
+      "baseline": "c29aab7c6f2d5dbe8996b4b986c4d902a97bcbfb3b512136ead2203fbdc426c2"
+    }
+  },
+  "baseline_setup": "Materialize the original 81d5a48 complete web/motion-labs/linxu-motion-lab site, including actual GLBs, runtime imports, config and all configured weapons. Default repository root is sibling character_adapt_baseline; override WEAPON_V6_BASELINE. Do not replace the baseline with current production."
+}

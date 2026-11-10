@@ -1,0 +1,693 @@
+{
+  "method": "Blender Cycles real mesh render, fixed camera, left original / right candidate sigma1. Three cycles are the same verified periodic motion repeated.",
+  "fps": 24,
+  "camera": [
+    0.5,
+    -5.0,
+    1.5
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "time": 0.0,
+      "poses": [
+        {
+          "armature": "Linxu_Rig",
+          "hipsWorldBlender": [
+            -0.6155100464820862,
+            0.011741668917238712,
+            0.8952959179878235
+          ],
+          "action": "WalkOriginal_Linxu_Rig"
+        },
+        {
+          "armature": "Linxu_Rig.001",
+          "hipsWorldBlender": [
+            0.624489963054657,
+            0.011741668917238712,
+            0.895615816116333
+          ],
+          "action": "WalkCandidate_Linxu_Rig.001"
+        }
+      ]
+    },
+    {
+      "frame": 1,
+      "time": 0.041666666666666664,
+      "poses": [
+        {
+          "armature": "Linxu_Rig",
+          "hipsWorldBlender": [
+            -0.6160534620285034,
+            0.012327606789767742,
+            0.8945301175117493
+          ],
+          "action": "WalkOriginal_Linxu_Rig"
+        },
+        {
+          "armature": "Linxu_Rig.001",
+          "hipsWorldBlender": [
+            0.6239270567893982,
+            0.012263139709830284,
+            0.8949792981147766
+          ],
+          "action": "WalkCandidate_Linxu_Rig.001"
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "time": 0.08333333333333333,
+      "poses": [
+        {
+          "armature": "Linxu_Rig",
+          "hipsWorldBlender": [
+            -0.6155301928520203,
+            0.01131325401365757,
+            0.8900386095046997
+          ],
+          "action": "WalkOriginal_Linxu_Rig"
+        },
+        {
+          "armature": "Linxu_Rig.001",
+          "hipsWorldBlender": [
+            0.6244698166847229,
+            0.01131325401365757,
+            0.8907707333564758
+          ],
+          "action": "WalkCandidate_Linxu_Rig.001"
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "time": 0.125,
+      "poses": [
+        {
+          "armature": "Linxu_Rig",
+          "hipsWorldBlender": [
+            -0.6143344044685364,
+            0.006097009405493736,
+            0.87758868932724
+          ],
+          "action": "WalkOriginal_Linxu_Rig"
+        },
+        {
+          "armature": "Linxu_Rig.001",
+          "hipsWorldBlender": [
+            0.6256393790245056,
+            0.006104983389377594,
+            0.877683162689209
+          ],
+          "action": "WalkCandidate_Linxu_Rig.001"
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "time": 0.16666666666666666,
+      "poses": [
+        {
+          "armature": "Linxu_Rig",
+          "hipsWorldBlender": [
+            -0.6123179197311401,
+            -0.0006752956542186439,
+            0.8687355518341064
+          ],
+          "action": "WalkOriginal_Linxu_Rig"
+        },
+        {
+          "armature": "Linxu_Rig.001",
+          "hipsWorldBlender": [
+            0.627682089805603,
+            -0.0006752972258254886,
+            0.8689799308776855
+          ],
+          "action": "WalkCandidate_Linxu_Rig.001"
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "time": 0.20833333333333334,
+      "poses": [
+        {
+          "armature": "Linxu_Rig",
+          "hipsWorldBlender": [
+            -0.6090787649154663,
+            -0.005178646184504032,
+            0.870072603225708
+          ],
+          "action": "WalkOriginal_Linxu_Rig"
+        },
+        {
+          "armature": "Linxu_Rig.001",
+          "hipsWorldBlender": [
+            0.6309018731117249,
+            -0.0053373598493635654,
+            0.8703960180282593
+          ],
+          "action": "WalkCandidate_Linxu_Rig.001"
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "time": 0.25,
+      "poses": [
+        {
+          "armature": "Linxu_Rig",
+          "hipsWorldBlender": [
+            -0.6044830083847046,
+            -0.009401152841746807,
+            0.8744863271713257
+          ],
+          "action": "WalkOriginal_Linxu_Rig"
+        },
+        {
+          "armature": "Linxu_Rig.001",
+          "hipsWorldBlender": [
+            0.6355170011520386,
+            -0.009401152841746807,
+            0.8741309642791748
+          ],
+          "action": "WalkCandidate_Linxu_Rig.001"
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "time": 0.2916666666666667,
+      "poses": [
+        {
+          "armature": "Linxu_Rig",
+          "hipsWorldBlender": [
+            -0.5987197160720825,
+            -0.022234465926885605,
+            0.8764896988868713
+          ],
+          "action": "WalkOriginal_Linxu_Rig"
+        },
+        {
+          "armature": "Linxu_Rig.001",
+          "hipsWorldBlender": [
+            0.6413242220878601,
+            -0.022554077208042145,
+            0.8765116333961487
+          ],
+          "action": "WalkCandidate_Linxu_Rig.001"
+        }
+      ]
+    },
+    {
+      "frame": 8,
+      "time": 0.3333333333333333,
+      "poses": [
+        {
+          "armature": "Linxu_Rig",
+          "hipsWorldBlender": [
+            -0.5937356352806091,
+            -0.03262368589639664,
+            0.8692705631256104
+          ],
+          "action": "WalkOriginal_Linxu_Rig"
+        },
+        {
+          "armature": "Linxu_Rig.001",
+          "hipsWorldBlender": [
+            0.646264374256134,
+            -0.03262368589639664,
+            0.8688729405403137
+          ],
+          "action": "WalkCandidate_Linxu_Rig.001"
+        }
+      ]
+    },
+    {
+      "frame": 9,
+      "time": 0.375,
+      "poses": [
+        {
+          "armature": "Linxu_Rig",
+          "hipsWorldBlender": [
+            -0.5894590616226196,
+            -0.037012696266174316,
+            0.8571752905845642
+          ],
+          "action": "WalkOriginal_Linxu_Rig"
+        },
+        {
+          "armature": "Linxu_Rig.001",
+          "hipsWorldBlender": [
+            0.6505413055419922,
+            -0.03717832639813423,
+            0.8585180044174194
+          ],
+          "action": "WalkCandidate_Linxu_Rig.001"
+        }
+      ]
+    },
+    {
+      "frame": 10,
+      "time": 0.4166666666666667,
+      "poses": [
+        {
+          "armature": "Linxu_Rig",
+          "hipsWorldBlender": [
+            -0.5857547521591187,
+            -0.03642348200082779,
+            0.8636711239814758
+          ],
+          "action": "WalkOriginal_Linxu_Rig"
+        },
+        {
+          "armature": "Linxu_Rig.001",
+          "hipsWorldBlender": [
+            0.6542452573776245,
+            -0.03642348200082779,
+            0.8638823628425598
+          ],
+          "action": "WalkCandidate_Linxu_Rig.001"
+        }
+      ]
+    },
+    {
+      "frame": 11,
+      "time": 0.4583333333333333,
+      "poses": [
+        {
+          "armature": "Linxu_Rig",
+          "hipsWorldBlender": [
+            -0.5833938717842102,
+            -0.03482391685247421,
+            0.874259352684021
+          ],
+          "action": "WalkOriginal_Linxu_Rig"
+        },
+        {
+          "armature": "Linxu_Rig.001",
+          "hipsWorldBlender": [
+            0.656622052192688,
+            -0.034856200218200684,
+            0.8746449947357178
+          ],
+          "action": "WalkCandidate_Linxu_Rig.001"
+        }
+      ]
+    },
+    {
+      "frame": 12,
+      "time": 0.5,
+      "poses": [
+        {
+          "armature": "Linxu_Rig",
+          "hipsWorldBlender": [
+            -0.5822450518608093,
+            -0.032476089894771576,
+            0.8864071369171143
+          ],
+          "action": "WalkOriginal_Linxu_Rig"
+        },
+        {
+          "armature": "Linxu_Rig.001",
+          "hipsWorldBlender": [
+            0.6577549576759338,
+            -0.032476089894771576,
+            0.886579692363739
+          ],
+          "action": "WalkCandidate_Linxu_Rig.001"
+        }
+      ]
+    },
+    {
+      "frame": 13,
+      "time": 0.5416666666666666,
+      "poses": [
+        {
+          "armature": "Linxu_Rig",
+          "hipsWorldBlender": [
+            -0.5814911127090454,
+            -0.027914144098758698,
+            0.8946056365966797
+          ],
+          "action": "WalkOriginal_Linxu_Rig"
+        },
+        {
+          "armature": "Linxu_Rig.001",
+          "hipsWorldBlender": [
+            0.6585147380828857,
+            -0.027932874858379364,
+            0.8950751423835754
+          ],
+          "action": "WalkCandidate_Linxu_Rig.001"
+        }
+      ]
+    },
+    {
+      "frame": 14,
+      "time": 0.5833333333333334,
+      "poses": [
+        {
+          "armature": "Linxu_Rig",
+          "hipsWorldBlender": [
+            -0.5814352631568909,
+            -0.022086968645453453,
+            0.8971075415611267
+          ],
+          "action": "WalkOriginal_Linxu_Rig"
+        },
+        {
+          "armature": "Linxu_Rig.001",
+          "hipsWorldBlender": [
+            0.6585647463798523,
+            -0.022086968645453453,
+            0.8975569605827332
+          ],
+          "action": "WalkCandidate_Linxu_Rig.001"
+        }
+      ]
+    },
+    {
+      "frame": 15,
+      "time": 0.625,
+      "poses": [
+        {
+          "armature": "Linxu_Rig",
+          "hipsWorldBlender": [
+            -0.5820553302764893,
+            -0.014367279596626759,
+            0.8960905075073242
+          ],
+          "action": "WalkOriginal_Linxu_Rig"
+        },
+        {
+          "armature": "Linxu_Rig.001",
+          "hipsWorldBlender": [
+            0.6579408049583435,
+            -0.014382793568074703,
+            0.8965211510658264
+          ],
+          "action": "WalkCandidate_Linxu_Rig.001"
+        }
+      ]
+    },
+    {
+      "frame": 16,
+      "time": 0.6666666666666666,
+      "poses": [
+        {
+          "armature": "Linxu_Rig",
+          "hipsWorldBlender": [
+            -0.5826929807662964,
+            -0.005073688458651304,
+            0.8916130065917969
+          ],
+          "action": "WalkOriginal_Linxu_Rig"
+        },
+        {
+          "armature": "Linxu_Rig.001",
+          "hipsWorldBlender": [
+            0.6573070287704468,
+            -0.005073688458651304,
+            0.8918523192405701
+          ],
+          "action": "WalkCandidate_Linxu_Rig.001"
+        }
+      ]
+    },
+    {
+      "frame": 17,
+      "time": 0.7083333333333334,
+      "poses": [
+        {
+          "armature": "Linxu_Rig",
+          "hipsWorldBlender": [
+            -0.58399897813797,
+            0.002323147840797901,
+            0.8834019899368286
+          ],
+          "action": "WalkOriginal_Linxu_Rig"
+        },
+        {
+          "armature": "Linxu_Rig.001",
+          "hipsWorldBlender": [
+            0.6560218334197998,
+            0.002430233871564269,
+            0.8838363885879517
+          ],
+          "action": "WalkCandidate_Linxu_Rig.001"
+        }
+      ]
+    },
+    {
+      "frame": 18,
+      "time": 0.75,
+      "poses": [
+        {
+          "armature": "Linxu_Rig",
+          "hipsWorldBlender": [
+            -0.5865481495857239,
+            0.00704569136723876,
+            0.8756438493728638
+          ],
+          "action": "WalkOriginal_Linxu_Rig"
+        },
+        {
+          "armature": "Linxu_Rig.001",
+          "hipsWorldBlender": [
+            0.6534518599510193,
+            0.00704569136723876,
+            0.8764236569404602
+          ],
+          "action": "WalkCandidate_Linxu_Rig.001"
+        }
+      ]
+    },
+    {
+      "frame": 19,
+      "time": 0.7916666666666666,
+      "poses": [
+        {
+          "armature": "Linxu_Rig",
+          "hipsWorldBlender": [
+            -0.5907317996025085,
+            0.009431549347937107,
+            0.8713300824165344
+          ],
+          "action": "WalkOriginal_Linxu_Rig"
+        },
+        {
+          "armature": "Linxu_Rig.001",
+          "hipsWorldBlender": [
+            0.6492570042610168,
+            0.009579960256814957,
+            0.8716766834259033
+          ],
+          "action": "WalkCandidate_Linxu_Rig.001"
+        }
+      ]
+    },
+    {
+      "frame": 20,
+      "time": 0.8333333333333334,
+      "poses": [
+        {
+          "armature": "Linxu_Rig",
+          "hipsWorldBlender": [
+            -0.5956164002418518,
+            0.005895558744668961,
+            0.8723596334457397
+          ],
+          "action": "WalkOriginal_Linxu_Rig"
+        },
+        {
+          "armature": "Linxu_Rig.001",
+          "hipsWorldBlender": [
+            0.6443836092948914,
+            0.005895558744668961,
+            0.8717727661132812
+          ],
+          "action": "WalkCandidate_Linxu_Rig.001"
+        }
+      ]
+    },
+    {
+      "frame": 21,
+      "time": 0.875,
+      "poses": [
+        {
+          "armature": "Linxu_Rig",
+          "hipsWorldBlender": [
+            -0.600509762763977,
+            -0.002992020221427083,
+            0.8743650317192078
+          ],
+          "action": "WalkOriginal_Linxu_Rig"
+        },
+        {
+          "armature": "Linxu_Rig.001",
+          "hipsWorldBlender": [
+            0.6395409107208252,
+            -0.0029309384990483522,
+            0.8742263913154602
+          ],
+          "action": "WalkCandidate_Linxu_Rig.001"
+        }
+      ]
+    },
+    {
+      "frame": 22,
+      "time": 0.9166666666666666,
+      "poses": [
+        {
+          "armature": "Linxu_Rig",
+          "hipsWorldBlender": [
+            -0.6068675518035889,
+            -0.012145819142460823,
+            0.8687000870704651
+          ],
+          "action": "WalkOriginal_Linxu_Rig"
+        },
+        {
+          "armature": "Linxu_Rig.001",
+          "hipsWorldBlender": [
+            0.6331324577331543,
+            -0.012145815417170525,
+            0.8677197694778442
+          ],
+          "action": "WalkCandidate_Linxu_Rig.001"
+        }
+      ]
+    },
+    {
+      "frame": 23,
+      "time": 0.9583333333333334,
+      "poses": [
+        {
+          "armature": "Linxu_Rig",
+          "hipsWorldBlender": [
+            -0.6121436953544617,
+            -0.017654532566666603,
+            0.8562838435173035
+          ],
+          "action": "WalkOriginal_Linxu_Rig"
+        },
+        {
+          "armature": "Linxu_Rig.001",
+          "hipsWorldBlender": [
+            0.6278213858604431,
+            -0.017790745943784714,
+            0.8578603267669678
+          ],
+          "action": "WalkCandidate_Linxu_Rig.001"
+        }
+      ]
+    },
+    {
+      "frame": 24,
+      "time": 1.0,
+      "poses": [
+        {
+          "armature": "Linxu_Rig",
+          "hipsWorldBlender": [
+            -0.6153079867362976,
+            -0.01710803061723709,
+            0.8641552925109863
+          ],
+          "action": "WalkOriginal_Linxu_Rig"
+        },
+        {
+          "armature": "Linxu_Rig.001",
+          "hipsWorldBlender": [
+            0.6246920228004456,
+            -0.01710803061723709,
+            0.8644768595695496
+          ],
+          "action": "WalkCandidate_Linxu_Rig.001"
+        }
+      ]
+    },
+    {
+      "frame": 25,
+      "time": 1.0416666666666667,
+      "poses": [
+        {
+          "armature": "Linxu_Rig",
+          "hipsWorldBlender": [
+            -0.6167598962783813,
+            -0.01210604328662157,
+            0.8734139204025269
+          ],
+          "action": "WalkOriginal_Linxu_Rig"
+        },
+        {
+          "armature": "Linxu_Rig.001",
+          "hipsWorldBlender": [
+            0.6232134103775024,
+            -0.012104341760277748,
+            0.8737127780914307
+          ],
+          "action": "WalkCandidate_Linxu_Rig.001"
+        }
+      ]
+    },
+    {
+      "frame": 26,
+      "time": 1.0833333333333333,
+      "poses": [
+        {
+          "armature": "Linxu_Rig",
+          "hipsWorldBlender": [
+            -0.6171627044677734,
+            -0.006249022204428911,
+            0.883212149143219
+          ],
+          "action": "WalkOriginal_Linxu_Rig"
+        },
+        {
+          "armature": "Linxu_Rig.001",
+          "hipsWorldBlender": [
+            0.6228373050689697,
+            -0.006249022204428911,
+            0.8836296200752258
+          ],
+          "action": "WalkCandidate_Linxu_Rig.001"
+        }
+      ]
+    },
+    {
+      "frame": 27,
+      "time": 1.125,
+      "poses": [
+        {
+          "armature": "Linxu_Rig",
+          "hipsWorldBlender": [
+            -0.6165982484817505,
+            0.0018208675319328904,
+            0.8915768265724182
+          ],
+          "action": "WalkOriginal_Linxu_Rig"
+        },
+        {
+          "armature": "Linxu_Rig.001",
+          "hipsWorldBlender": [
+            0.6234084963798523,
+            0.0018415447557345033,
+            0.8920536637306213
+          ],
+          "action": "WalkCandidate_Linxu_Rig.001"
+        }
+      ]
+    }
+  ],
+  "armatures": [
+    {
+      "name": "Linxu_Rig",
+      "action": "WalkOriginal_Linxu_Rig"
+    },
+    {
+      "name": "Linxu_Rig.001",
+      "action": "WalkCandidate_Linxu_Rig.001"
+    }
+  ]
+}
