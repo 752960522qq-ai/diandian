@@ -1,4 +1,3 @@
-import { captureGripSource, applyGripConstraints } from './grip-constraints.js?v=contact-r49';
 import * as THREE from 'three';
 import { fixedGunMotionNames, applyFixedGunPose } from './fixed-machine-gun.js?v=natural-weapons-v6';
 import { rocketMotions, rocketSupportWeight, rocketCarryWeight, applyRocketPosePath, fitRocketCarryReach } from './rocket-motion.js?v=pf89-r40';
@@ -314,12 +313,6 @@ export class WeaponAttachment {
   }
 
   update(motion, time = 0, animation = {}) {
-    const source = captureGripSource(this);
-    this.updateAuthored(motion, time, animation);
-    applyGripConstraints(this, source, motion, time, animation);
-  }
-
-  updateAuthored(motion, time = 0, animation = {}) {
     for (const part of [...this.pumpParts, ...this.type97PumpParts]) part.object.position.copy(part.rest);
     const handScale = this.applyHandScale();
     this.motion = motion;

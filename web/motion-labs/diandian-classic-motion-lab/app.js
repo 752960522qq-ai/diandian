@@ -6,7 +6,7 @@ import { installRocketMotions, rocketMotions, rocketLabels } from './rocket-moti
 import { installType97Motions } from './type97-motion.js?v=grip-r31';
 import { GLTFLoader } from './vendor/GLTFLoader.js';
 import { OrbitControls } from './vendor/OrbitControls.js';
-import { WeaponAttachment } from './weapon-attachment.js?v=contact-r49';
+import { WeaponAttachment } from './weapon-attachment.js?v=natural-weapons-v6';
 
 const $ = (selector) => document.querySelector(selector);
 const motionLabels = {};
