@@ -1,0 +1,134 @@
+[
+  {
+    "w": "qbz95",
+    "m": "RifleWalk",
+    "d": 1.2999999523162842,
+    "sampleHz": 240,
+    "samples": 313,
+    "fullBoneCount": 312,
+    "lowerBoneCount": 264,
+    "fullSHA": "294d007295a0a9971682cafb10a40ebef890b546a89bb3966dbe5f96e1b768fb",
+    "lowerSHA": "54548a63a05fc7fa0482461474a6003c812cd353778cf8530d1a136077ecabbb"
+  },
+  {
+    "w": "type56_1",
+    "m": "RifleWalk",
+    "d": 1.2999999523162842,
+    "sampleHz": 240,
+    "samples": 313,
+    "fullBoneCount": 312,
+    "lowerBoneCount": 264,
+    "fullSHA": "abf8e6e4afd62884f3819c14afacc737558a8c75ecc3f6d11698240ee7f6bcdd",
+    "lowerSHA": "54548a63a05fc7fa0482461474a6003c812cd353778cf8530d1a136077ecabbb"
+  },
+  {
+    "w": "qbu85",
+    "m": "RifleWalk",
+    "d": 1.2999999523162842,
+    "sampleHz": 240,
+    "samples": 313,
+    "fullBoneCount": 312,
+    "lowerBoneCount": 264,
+    "fullSHA": "eaa215452ecb021a4a81e8338e4fa017aa21d510fbf17b3e7c48881d1aa9b9e8",
+    "lowerSHA": "54548a63a05fc7fa0482461474a6003c812cd353778cf8530d1a136077ecabbb"
+  },
+  {
+    "w": "type97hawk",
+    "m": "RifleWalk",
+    "d": 1.2999999523162842,
+    "sampleHz": 240,
+    "samples": 313,
+    "fullBoneCount": 312,
+    "lowerBoneCount": 264,
+    "fullSHA": "78d81d3790906a4383b98f44d409fa2be137b31c4c4b1287eebd2ab6049156d9",
+    "lowerSHA": "54548a63a05fc7fa0482461474a6003c812cd353778cf8530d1a136077ecabbb"
+  },
+  {
+    "w": "qcq171",
+    "m": "RifleWalk",
+    "d": 1.2999999523162842,
+    "sampleHz": 240,
+    "samples": 313,
+    "fullBoneCount": 312,
+    "lowerBoneCount": 264,
+    "fullSHA": "18bafec06f167ddb389b6589e0d107cdd8f55bc235ee4c6d8b6e773b6a73f950",
+    "lowerSHA": "54548a63a05fc7fa0482461474a6003c812cd353778cf8530d1a136077ecabbb"
+  },
+  {
+    "w": "m870",
+    "m": "RifleWalk",
+    "d": 1.100000023841858,
+    "sampleHz": 240,
+    "samples": 266,
+    "fullBoneCount": 312,
+    "lowerBoneCount": 264,
+    "fullSHA": "1ed758bdef10cfaa076a58e9d43c6a6be8de3cc8d75b7188a4ec8df6aa8392e2",
+    "lowerSHA": "7c8094a1c7380563c5a4e5c56892fca4aecdc89fe93bc1e72abbfcc024b70443"
+  },
+  {
+    "w": "type64",
+    "m": "PistolWalk",
+    "d": 0.6666666865348816,
+    "sampleHz": 240,
+    "samples": 162,
+    "fullBoneCount": 312,
+    "lowerBoneCount": 264,
+    "fullSHA": "433b996718a0714b528bbfb2bcacd0419d8b9c1acbc3a3079ea953b8ad3018b3",
+    "lowerSHA": "f863146de5bb1effbdccee31de52fe5d87327ef62da5593cca4a1033a5c91d54"
+  },
+  {
+    "w": "type64",
+    "m": "RifleRun",
+    "d": 0.6666666865348816,
+    "sampleHz": 240,
+    "samples": 162,
+    "fullBoneCount": 312,
+    "lowerBoneCount": 264,
+    "fullSHA": "9cd7281a898dba12f2c8f9235922056a129203a24095e25a54f2dc58f4deff03",
+    "lowerSHA": "e8412987fdf867748bc5ef1c0973456aa33ce2dd6739da1173858512d208940a"
+  },
+  {
+    "w": "type54",
+    "m": "PistolWalk",
+    "d": 0.6666666865348816,
+    "sampleHz": 240,
+    "samples": 162,
+    "fullBoneCount": 312,
+    "lowerBoneCount": 264,
+    "fullSHA": "433b996718a0714b528bbfb2bcacd0419d8b9c1acbc3a3079ea953b8ad3018b3",
+    "lowerSHA": "f863146de5bb1effbdccee31de52fe5d87327ef62da5593cca4a1033a5c91d54"
+  },
+  {
+    "w": "type54",
+    "m": "RifleRun",
+    "d": 0.6666666865348816,
+    "sampleHz": 240,
+    "samples": 162,
+    "fullBoneCount": 312,
+    "lowerBoneCount": 264,
+    "fullSHA": "9cd7281a898dba12f2c8f9235922056a129203a24095e25a54f2dc58f4deff03",
+    "lowerSHA": "e8412987fdf867748bc5ef1c0973456aa33ce2dd6739da1173858512d208940a"
+  },
+  {
+    "w": "qsz92",
+    "m": "PistolWalk",
+    "d": 0.6666666865348816,
+    "sampleHz": 240,
+    "samples": 162,
+    "fullBoneCount": 312,
+    "lowerBoneCount": 264,
+    "fullSHA": "cb7be809c4d69612dc934ace615388cf7a5d1e6e5ae0747728acae59aa4239d2",
+    "lowerSHA": "f863146de5bb1effbdccee31de52fe5d87327ef62da5593cca4a1033a5c91d54"
+  },
+  {
+    "w": "qsz92",
+    "m": "RifleRun",
+    "d": 0.6666666865348816,
+    "sampleHz": 240,
+    "samples": 162,
+    "fullBoneCount": 312,
+    "lowerBoneCount": 264,
+    "fullSHA": "d6a60110e3ebef9b540456a111d6306d15453103f66b29345eaaacc51295fd4b",
+    "lowerSHA": "e8412987fdf867748bc5ef1c0973456aa33ce2dd6739da1173858512d208940a"
+  }
+]

@@ -1,0 +1,162 @@
+{
+  "fpsSetBeforeImport": true,
+  "rows": [
+    {
+      "name": "m870-Reloading",
+      "time": 0,
+      "errorsM": {
+        "Hips": 4.656612873077393e-10,
+        "LeftShoulder": 2.4646110694144804e-07,
+        "LeftArm": 2.6499359672931936e-07,
+        "LeftForeArm": 2.682209014892578e-07,
+        "LeftHand": 2.3276357876976293e-07,
+        "RightHand": 6.322027276634104e-08
+      },
+      "maxErrorM": 2.682209014892578e-07
+    },
+    {
+      "name": "m870-Reloading",
+      "time": 0.24583333730697632,
+      "errorsM": {
+        "Hips": 5.268356063861754e-09,
+        "LeftShoulder": 1.4919776018337002e-07,
+        "LeftArm": 2.669762502188819e-07,
+        "LeftForeArm": 2.874031889734553e-07,
+        "LeftHand": 2.669762502188819e-07,
+        "RightHand": 2.4042016051339205e-07
+      },
+      "maxErrorM": 2.874031889734553e-07
+    },
+    {
+      "name": "m870-Reloading",
+      "time": 0.9833333492279053,
+      "errorsM": {
+        "Hips": 4.16500117164066e-09,
+        "LeftShoulder": 2.55902379939224e-07,
+        "LeftArm": 2.736504029066407e-07,
+        "LeftForeArm": 1.999200562387517e-07,
+        "LeftHand": 2.2500259981366246e-07,
+        "RightHand": 8.170199468531202e-08
+      },
+      "maxErrorM": 2.736504029066407e-07
+    },
+    {
+      "name": "m870-Reloading",
+      "time": 1.9666666984558105,
+      "errorsM": {
+        "Hips": 9.313225746154785e-10,
+        "LeftShoulder": 2.572878695999385e-07,
+        "LeftArm": 3.8310766614027146e-07,
+        "LeftForeArm": 3.40125328615705e-07,
+        "LeftHand": 5.485292311820996e-07,
+        "RightHand": 2.6333876599477116e-07
+      },
+      "maxErrorM": 5.485292311820996e-07
+    },
+    {
+      "name": "none-Walk",
+      "time": 0,
+      "errorsM": {
+        "Hips": 4.656612873077393e-10,
+        "LeftShoulder": 2.6143470495228095e-08,
+        "LeftArm": 1.4901161193847656e-08,
+        "LeftForeArm": 1.666000468656264e-08,
+        "LeftHand": 1.0771179418862582e-07,
+        "RightHand": 2.4273239482980896e-07
+      },
+      "maxErrorM": 2.4273239482980896e-07
+    },
+    {
+      "name": "none-Walk",
+      "time": 0.1458333283662796,
+      "errorsM": {
+        "Hips": 5.962510489457099e-08,
+        "LeftShoulder": 1.3514450087525505e-07,
+        "LeftArm": 1.3328003749250113e-07,
+        "LeftForeArm": 3.332000937312528e-08,
+        "LeftHand": 1.8491854736195292e-07,
+        "RightHand": 8.024520884654677e-08
+      },
+      "maxErrorM": 1.8491854736195292e-07
+    },
+    {
+      "name": "none-Walk",
+      "time": 0.5833333134651184,
+      "errorsM": {
+        "Hips": 4.16500117164066e-09,
+        "LeftShoulder": 7.197141306982061e-08,
+        "LeftArm": 1.4332688304193792e-07,
+        "LeftForeArm": 1.4303570478700388e-07,
+        "LeftHand": 7.028863677424642e-08,
+        "RightHand": 9.996002811937585e-08
+      },
+      "maxErrorM": 1.4332688304193792e-07
+    },
+    {
+      "name": "none-Walk",
+      "time": 1.1666666269302368,
+      "errorsM": {
+        "Hips": 4.656612873077393e-10,
+        "LeftShoulder": 2.6143470495228095e-08,
+        "LeftArm": 1.4901161193847656e-08,
+        "LeftForeArm": 1.666000468656264e-08,
+        "LeftHand": 1.0771179418862582e-07,
+        "RightHand": 2.4273239482980896e-07
+      },
+      "maxErrorM": 2.4273239482980896e-07
+    },
+    {
+      "name": "type64-PistolShooting",
+      "time": 0,
+      "errorsM": {
+        "Hips": 5.960464477539063e-08,
+        "LeftShoulder": 4.857184294762201e-08,
+        "LeftArm": 7.233205377663523e-08,
+        "LeftForeArm": 1.1920928955078125e-07,
+        "LeftHand": 1.228781230931777e-07,
+        "RightHand": 2.7486483373786085e-07
+      },
+      "maxErrorM": 2.7486483373786085e-07
+    },
+    {
+      "name": "type64-PistolShooting",
+      "time": 0.1458333283662796,
+      "errorsM": {
+        "Hips": 5.960464477539063e-08,
+        "LeftShoulder": 4.857184294762201e-08,
+        "LeftArm": 7.233205377663523e-08,
+        "LeftForeArm": 1.4975481660844222e-07,
+        "LeftHand": 1.4901161193847656e-08,
+        "RightHand": 3.210726978168616e-07
+      },
+      "maxErrorM": 3.210726978168616e-07
+    },
+    {
+      "name": "type64-PistolShooting",
+      "time": 0.5833333134651184,
+      "errorsM": {
+        "Hips": 5.960464477539063e-08,
+        "LeftShoulder": 4.857184294762201e-08,
+        "LeftArm": 7.233205377663523e-08,
+        "LeftForeArm": 1.341104507446289e-07,
+        "LeftHand": 3.332000937312528e-08,
+        "RightHand": 2.565924683369014e-07
+      },
+      "maxErrorM": 2.565924683369014e-07
+    },
+    {
+      "name": "type64-PistolShooting",
+      "time": 1.1666666269302368,
+      "errorsM": {
+        "Hips": 5.960464477539063e-08,
+        "LeftShoulder": 4.857184294762201e-08,
+        "LeftArm": 7.233205377663523e-08,
+        "LeftForeArm": 1.1920928955078125e-07,
+        "LeftHand": 1.228781230931777e-07,
+        "RightHand": 2.7486483373786085e-07
+      },
+      "maxErrorM": 2.7486483373786085e-07
+    }
+  ],
+  "maxErrorM": 5.485292311820996e-07
+}

@@ -1,0 +1,650 @@
+{
+  "files": [
+    {
+      "path": "blender-runtime-pose-validation.json",
+      "bytes": 4969,
+      "sha256": "31987587af80a99ab2c7b4fe717513e94480544d08e58e43c78f5e8509cb3a62"
+    },
+    {
+      "path": "continuous-sheets/m870-FiringRifle-back.jpg",
+      "bytes": 89178,
+      "sha256": "e524ec38a2b0401b29ec81fb2cf6ec6e5f4a2d62d7a71943c6830a032e8e74d0"
+    },
+    {
+      "path": "continuous-sheets/m870-FiringRifle-front.jpg",
+      "bytes": 94411,
+      "sha256": "e55d670c3caeee2ab5faa2f5d8be57b4dd500ef7267c1583269cbb236853de3c"
+    },
+    {
+      "path": "continuous-sheets/m870-FiringRifle-side.jpg",
+      "bytes": 107891,
+      "sha256": "66e4c7d0f71a1ae38fb8a9b7f6d93b645c419376a643860757859ceb8eb2d653"
+    },
+    {
+      "path": "continuous-sheets/m870-Reloading-back.jpg",
+      "bytes": 162550,
+      "sha256": "ed1bd1fb97dfc3c027d001a716265ae8215a2c83294c093519343e1148ae19da"
+    },
+    {
+      "path": "continuous-sheets/m870-Reloading-front.jpg",
+      "bytes": 176277,
+      "sha256": "cad983581ea9e3d1a18894597a89748caef9e1ace335dadd28c0f32548d04b88"
+    },
+    {
+      "path": "continuous-sheets/m870-Reloading-side.jpg",
+      "bytes": 185878,
+      "sha256": "00783aaa8f8e2ac408ed1467cdbcc376fabaf845190c196cd479a78d6172e387"
+    },
+    {
+      "path": "continuous-sheets/m870-ShotgunPump-back.jpg",
+      "bytes": 68201,
+      "sha256": "ecf26921e2878c2c310400acd717c7932df8ebc3f869ffdb83626fb36300531a"
+    },
+    {
+      "path": "continuous-sheets/m870-ShotgunPump-front.jpg",
+      "bytes": 73856,
+      "sha256": "feb1c7ecdfb239c05f0a19b0887cb0ec6527e585bffcf56224042108edf60a7c"
+    },
+    {
+      "path": "continuous-sheets/m870-ShotgunPump-side.jpg",
+      "bytes": 81126,
+      "sha256": "7a7e142df4d2e1592ee1555adeb526e711b11a279d8fe2761b99e13be6dbb43f"
+    },
+    {
+      "path": "continuous-sheets/none-Walk-back.jpg",
+      "bytes": 96027,
+      "sha256": "5fa2011657902e97fc56402e7978b2e73520aa21a0ddb11e455eea2dc0e9aa75"
+    },
+    {
+      "path": "continuous-sheets/none-Walk-front.jpg",
+      "bytes": 104323,
+      "sha256": "c20739a826ec89787dbf9c073694040747086528161cbd81f402d072891e57ab"
+    },
+    {
+      "path": "continuous-sheets/none-Walk-side.jpg",
+      "bytes": 102146,
+      "sha256": "ab051e21f2202e57c36be2d49183fbb288b8bac6eef64ef08edc2f8dc8b30af1"
+    },
+    {
+      "path": "continuous-sheets/qbz95-FiringRifle-back.jpg",
+      "bytes": 97672,
+      "sha256": "a1343978f8c35c6082cd6dd59494a8ec2e94e0d190d69984a5bd0ea7043bb686"
+    },
+    {
+      "path": "continuous-sheets/qbz95-FiringRifle-front.jpg",
+      "bytes": 106686,
+      "sha256": "2b4bc9b4160a26498638dd042676c84364d3fc70b03b380250c2053dac1ec1c8"
+    },
+    {
+      "path": "continuous-sheets/qbz95-FiringRifle-side.jpg",
+      "bytes": 114060,
+      "sha256": "20b8baf8134be35189be7bd9a8555409a854d8995ca821735c56a8dba6f73244"
+    },
+    {
+      "path": "continuous-sheets/qbz95-Reloading-back.jpg",
+      "bytes": 276605,
+      "sha256": "45a72ecb2807fe652c0e1ec4f68d4013bb5bf3a596aa3f89c7d5d6617baadf9a"
+    },
+    {
+      "path": "continuous-sheets/qbz95-Reloading-front.jpg",
+      "bytes": 312605,
+      "sha256": "e3d85bf4ecb7c46bf49754c1b216515ee57286e47736722c5484831d539a17a8"
+    },
+    {
+      "path": "continuous-sheets/qbz95-Reloading-side.jpg",
+      "bytes": 303891,
+      "sha256": "7efbb9c6493de25e16707ccf91440053bdfb302740d04892772c10538d4446e0"
+    },
+    {
+      "path": "continuous-sheets/type64-PistolShooting-back.jpg",
+      "bytes": 96056,
+      "sha256": "83b4a2dd07497dd75d01c6751099a26611feb6d3fe48ba67ac37eeea0cdf117b"
+    },
+    {
+      "path": "continuous-sheets/type64-PistolShooting-front.jpg",
+      "bytes": 106497,
+      "sha256": "87e452bcb5e91069a07c9a24e51853022bf96deb271404607a3237fbdc9a7974"
+    },
+    {
+      "path": "continuous-sheets/type64-PistolShooting-side.jpg",
+      "bytes": 113697,
+      "sha256": "d546330c9fd52a118f4472b49e1d1b92616083d0fd1c3858d4578c9f849101c7"
+    },
+    {
+      "path": "continuous-sheets/type64-Reloading-back.jpg",
+      "bytes": 257887,
+      "sha256": "38c1a0bfb6f88a0dc481d477b0e07f6a16ebe7e85a5bdc3ea55b0ab0e5b6ec36"
+    },
+    {
+      "path": "continuous-sheets/type64-Reloading-front.jpg",
+      "bytes": 290100,
+      "sha256": "298dfdbdef6bea1abf035f8ded95d8a2bed6db9dcafc9ddc965ebe2c418560dd"
+    },
+    {
+      "path": "continuous-sheets/type64-Reloading-side.jpg",
+      "bytes": 283299,
+      "sha256": "242389b0ce2de851251870c2d1dccc2ff3f2169089c9ddb14006358b95f440e5"
+    },
+    {
+      "path": "continuous-sheets/type64-RifleRun-back.jpg",
+      "bytes": 67225,
+      "sha256": "ff54109e40a0aec347403f4b77be90aeba2027342d307372982af643cb1276d3"
+    },
+    {
+      "path": "continuous-sheets/type64-RifleRun-front.jpg",
+      "bytes": 75567,
+      "sha256": "6defc7c4469c3eb654b6d52821831b9400bd1c60ea77f50d7e0bc3e3c1ef1252"
+    },
+    {
+      "path": "continuous-sheets/type64-RifleRun-side.jpg",
+      "bytes": 74944,
+      "sha256": "082a50d196f19851e19e46b4d5366c6876c286098d7138e74f303588d0f74ab6"
+    },
+    {
+      "path": "continuous-sheets/type97hawk-ShotgunPump-back.jpg",
+      "bytes": 71060,
+      "sha256": "2027eb14d8dfe77e84b4eb088e75577843f6e06569126f814ac50e4330b8424c"
+    },
+    {
+      "path": "continuous-sheets/type97hawk-ShotgunPump-front.jpg",
+      "bytes": 77315,
+      "sha256": "8b2a6ce1b43b905ce4dbfe2f069a4c52a6d8d7fd672097c8d3800ea33dc259c5"
+    },
+    {
+      "path": "continuous-sheets/type97hawk-ShotgunPump-side.jpg",
+      "bytes": 81498,
+      "sha256": "2e0ec35aef35145faa4a44eef5b64ee8b35869efaeead97a5d2751cb9e730dde"
+    },
+    {
+      "path": "coverage.csv",
+      "bytes": 6008,
+      "sha256": "03863cf1c08d5e040d91137b027adf6837a3f4548313b9fce1134bb6ae3531ee"
+    },
+    {
+      "path": "coverage.json",
+      "bytes": 67290,
+      "sha256": "576e805079143b7b061890bfb78fc47043e4c5b9c2b939d882d4c80f803fd22b"
+    },
+    {
+      "path": "index.html",
+      "bytes": 14170,
+      "sha256": "e61df55c3da029be6b848dbfcfd402f0697a3d48758c293785f63f170f5a57af"
+    },
+    {
+      "path": "linxu-ui-validation-matrix.csv",
+      "bytes": 9736,
+      "sha256": "3f83f424279d041c4c796c4742253b1ac6280dfc880355b0e05035f75301327b"
+    },
+    {
+      "path": "linxu-ui-validation-matrix.json",
+      "bytes": 355949,
+      "sha256": "a4a4b2a788643ee12f2d70f81b2aaec78f2a01082a52a6d18f5f8f0c51ff4c7c"
+    },
+    {
+      "path": "locomotion-equality.json",
+      "bytes": 4069,
+      "sha256": "09f186cb9d5f756c3302a5c2f8f3c63a16928b346e2d0d8e15e4ab05fd29d56b"
+    },
+    {
+      "path": "numeric-sweep-summary.json",
+      "bytes": 9082,
+      "sha256": "d6d8340533b588ba232bf2bddedd991c8fa21514b1ee8f3ccbdfe61c0ed60086"
+    },
+    {
+      "path": "old-weapon-baseline-comparison.json",
+      "bytes": 3688,
+      "sha256": "e915721fc9923d9d36713bf3a1f4ea02b2a24f7511103083cd65a10b07c80f1e"
+    },
+    {
+      "path": "render-reuse-proof.json",
+      "bytes": 10554,
+      "sha256": "53229d81644b41e852e67882d844b44ae9c40eb5215de5d3d589f1eff4cb6325"
+    },
+    {
+      "path": "sheets/m870-FiringRifle.jpg",
+      "bytes": 263422,
+      "sha256": "aff5c6210f2df70456b7179949300239db5289c5628b8614612778b1b4146018"
+    },
+    {
+      "path": "sheets/m870-Reloading.jpg",
+      "bytes": 263845,
+      "sha256": "eccd23b1debf2103225d26aa9d1e319c0c96692afa05197df4a1d8a1e16a1127"
+    },
+    {
+      "path": "sheets/m870-RifleAimingIdle.jpg",
+      "bytes": 262878,
+      "sha256": "789e15daaa5d0733cfe24a32db25c85ceabe27196886e0ff8707bb6ab11c318e"
+    },
+    {
+      "path": "sheets/m870-RifleIdle.jpg",
+      "bytes": 278991,
+      "sha256": "51bb8bfbe358b361ce2739d0547beff35f327c1136c4ee79fca4e8ace7072969"
+    },
+    {
+      "path": "sheets/m870-RifleWalk.jpg",
+      "bytes": 268038,
+      "sha256": "f1be48f87ffe1befd4d70a533379b6cb0ee68aaf04fda92b573a1a1163b56799"
+    },
+    {
+      "path": "sheets/m870-ShotgunAimDown.jpg",
+      "bytes": 262409,
+      "sha256": "1c71a3b65cb6fc05ec0a3f57e17a26c70d568b3c422bdc1db0324506e3bf5f23"
+    },
+    {
+      "path": "sheets/m870-ShotgunAimLevel.jpg",
+      "bytes": 263054,
+      "sha256": "3bbf99212de9648665e71e64631a8a73e809b9bdc2a09f9494b5b65274a70378"
+    },
+    {
+      "path": "sheets/m870-ShotgunAimUp.jpg",
+      "bytes": 279092,
+      "sha256": "3d411e60b138b2713adb130a18b5057f7d6aa25976cbd7cd334b33b8e1d82752"
+    },
+    {
+      "path": "sheets/m870-ShotgunPump.jpg",
+      "bytes": 263962,
+      "sha256": "4d6678965817185192aa955305b32dec30cf0f17485a983ebd0bbea4f0b1960b"
+    },
+    {
+      "path": "sheets/none-ClimbingLadder.jpg",
+      "bytes": 240718,
+      "sha256": "42b8ad91de1750990a638ab414438209d90ab415dcba651fdb9fc10c08e23c9c"
+    },
+    {
+      "path": "sheets/none-Dying.jpg",
+      "bytes": 173529,
+      "sha256": "b65eecf1684b9e10c5f77d0a6ebc0c3344a1825d6387db0be67758c1d3272b63"
+    },
+    {
+      "path": "sheets/none-FlyingBackDeath.jpg",
+      "bytes": 156722,
+      "sha256": "1e650f4756cb07b0ff2334c4e07e44eacb1819a61676f68441780974e9fe3a8f"
+    },
+    {
+      "path": "sheets/none-HangToCrouch.jpg",
+      "bytes": 198516,
+      "sha256": "ae918189789a7d19958d250ddeeeff78d20a5c739e318823e0047e84c298295d"
+    },
+    {
+      "path": "sheets/none-HeadStress.jpg",
+      "bytes": 252864,
+      "sha256": "9be57580c2f629721cad9e504ad5c0c2f5aa861ff4548f4469f89238ac830c30"
+    },
+    {
+      "path": "sheets/none-Idle.jpg",
+      "bytes": 251663,
+      "sha256": "77c10d8e9948d2d4a9ae7e8deafdf3df480c485147e582c4e8558afa529398ae"
+    },
+    {
+      "path": "sheets/none-Run.jpg",
+      "bytes": 246306,
+      "sha256": "701a92f4d0be0b8cff7839df52ce2214b744fb77af062ca07e97487b3d9755ae"
+    },
+    {
+      "path": "sheets/none-SittingCrossLegged.jpg",
+      "bytes": 221567,
+      "sha256": "aff89b8cf56df056a6cc82e147d3eda0e84b66046cbd97f5fab576aca193579c"
+    },
+    {
+      "path": "sheets/none-SittingTalking.jpg",
+      "bytes": 223309,
+      "sha256": "49dfe4fe7035bff4e7ec08952b1e9c236e3af9681ad4050c5537037fe347845d"
+    },
+    {
+      "path": "sheets/none-Talking.jpg",
+      "bytes": 245710,
+      "sha256": "500b9e8370c16f6972925b9b050ed2c08033ccfb0306e85308fb35b996f052cc"
+    },
+    {
+      "path": "sheets/none-Walk.jpg",
+      "bytes": 244205,
+      "sha256": "07bc30a6ebaacd272973ea5840d468c5bf5cedff87f63f53b58e56dfa3370634"
+    },
+    {
+      "path": "sheets/none-WalkingBackwards.jpg",
+      "bytes": 247546,
+      "sha256": "b003af6efe07dc25ba7a04735ac88598db32793da19179e4124f043cbb08aef1"
+    },
+    {
+      "path": "sheets/qbu85-FiringRifle.jpg",
+      "bytes": 276124,
+      "sha256": "58249a60dac385880bd3fa1f30b7bae2d0f5772bf2f00cccc7b0e0a5c6e27715"
+    },
+    {
+      "path": "sheets/qbu85-Reloading.jpg",
+      "bytes": 278799,
+      "sha256": "4e77cbbcd61069448f9b49cfb14085e8d74095675584cf089673b71371e7d175"
+    },
+    {
+      "path": "sheets/qbu85-RifleAimingIdle.jpg",
+      "bytes": 275200,
+      "sha256": "4fd305ff4b1c94c0aaef3f54d131f793bfd879f455e55b0d59b4f4bb1e6f8535"
+    },
+    {
+      "path": "sheets/qbu85-RifleIdle.jpg",
+      "bytes": 282717,
+      "sha256": "f7ca7166a98a5668b56b6e63eb9506216140d62598114a50f03b49efe5d9b6d1"
+    },
+    {
+      "path": "sheets/qbu85-RifleWalk.jpg",
+      "bytes": 278533,
+      "sha256": "ec687e7b6aa7fbb5470d6444b73d0996330a7653f0a6f39df7d2511c9f18db98"
+    },
+    {
+      "path": "sheets/qbz95-FiringRifle.jpg",
+      "bytes": 270753,
+      "sha256": "8d22eaff2ac24c034d95ad4cb98d137d82d743699e272695e76c4b99a8298c9d"
+    },
+    {
+      "path": "sheets/qbz95-Reloading.jpg",
+      "bytes": 277462,
+      "sha256": "e3adeb6c2ccd7f5955cc40498ab56d4cebda7d784f5759e1cebb6011666c753e"
+    },
+    {
+      "path": "sheets/qbz95-RifleAimingIdle.jpg",
+      "bytes": 270573,
+      "sha256": "3929a0601685bba7fd7f9104754ec30fb24962de257707db0af2b92a913537f8"
+    },
+    {
+      "path": "sheets/qbz95-RifleIdle.jpg",
+      "bytes": 274202,
+      "sha256": "4163c5ac01bccde13215b00c60747b6b85e278a408291f9769c351687c856792"
+    },
+    {
+      "path": "sheets/qbz95-RifleWalk.jpg",
+      "bytes": 274963,
+      "sha256": "bce41388c4b88105bbd021a0b76935714b48777125f69c37c06acc25385a4802"
+    },
+    {
+      "path": "sheets/qcq171-FiringRifle.jpg",
+      "bytes": 268263,
+      "sha256": "983000046735085df00f8f009f47989d5936fc5226e9f9bc426099df28f6d3b9"
+    },
+    {
+      "path": "sheets/qcq171-Reloading.jpg",
+      "bytes": 274159,
+      "sha256": "8a552fab44f443e91e0e521b162cfa366f329b9c647a0b251c542764466c4582"
+    },
+    {
+      "path": "sheets/qcq171-RifleAimingIdle.jpg",
+      "bytes": 267175,
+      "sha256": "ce89419b4afbc3459fb9d0552415e6facc1a8cc6738f9c88d095a68ad37be840"
+    },
+    {
+      "path": "sheets/qcq171-RifleIdle.jpg",
+      "bytes": 272984,
+      "sha256": "e7866b3cd7c882a7fa50ed8fc489d167181422a056fc8dcc9937f4f7b66490f2"
+    },
+    {
+      "path": "sheets/qcq171-RifleWalk.jpg",
+      "bytes": 272789,
+      "sha256": "58e0ab790f0baabb99afa98689907fe4ebeb85c1ac685d03b70b907f8b1325dd"
+    },
+    {
+      "path": "sheets/qsz92-PistolAimingIdle.jpg",
+      "bytes": 257285,
+      "sha256": "03adc516bd7e383a64a1f1d9d982c0bef0ce07311b747b82ba992f80befbf13f"
+    },
+    {
+      "path": "sheets/qsz92-PistolIdle.jpg",
+      "bytes": 257698,
+      "sha256": "d686d31b077276db2f22a889e934814bf8ff6ec274bfd21158fce2db5643e7ab"
+    },
+    {
+      "path": "sheets/qsz92-PistolShooting.jpg",
+      "bytes": 257015,
+      "sha256": "4e3d1246aec6af2057d08337ab9cd7d2a96fe4bb1c7d4f58302b33b0a3335f6a"
+    },
+    {
+      "path": "sheets/qsz92-PistolWalk.jpg",
+      "bytes": 253850,
+      "sha256": "92ada96b59f9fa86973510f4aebab9e1f275fc393c3e0e1482476071591b76ce"
+    },
+    {
+      "path": "sheets/qsz92-Reloading.jpg",
+      "bytes": 260515,
+      "sha256": "e6587b6339d5d7ec82011adfafab07099ec41d6b9eea7f8d513ebccb76657b8d"
+    },
+    {
+      "path": "sheets/qsz92-RifleRun.jpg",
+      "bytes": 259208,
+      "sha256": "ea99e5dcb96b00043c1550dbca80bf3ae8422f6ddefe09d508d589782d710ffb"
+    },
+    {
+      "path": "sheets/type54-PistolAimingIdle.jpg",
+      "bytes": 256823,
+      "sha256": "a551241bd7a9ca0b674bace17a6c672a007c444f93ebef4d3c2be3da761a1d69"
+    },
+    {
+      "path": "sheets/type54-PistolIdle.jpg",
+      "bytes": 256965,
+      "sha256": "449230a1914a25cafef2b4c945795a260fdcc2de8ea94a1983d637628fb023b1"
+    },
+    {
+      "path": "sheets/type54-PistolShooting.jpg",
+      "bytes": 256744,
+      "sha256": "bdab93b116ba182f66245390ed22bfb2d85831ffc7209d5cf5ce5f6e47fd783e"
+    },
+    {
+      "path": "sheets/type54-PistolWalk.jpg",
+      "bytes": 253687,
+      "sha256": "8f7d679e1f5242b7e0476d2937b42190d5ec6523045e7f50f892f147d13fbd30"
+    },
+    {
+      "path": "sheets/type54-Reloading.jpg",
+      "bytes": 260335,
+      "sha256": "f930904f67b4d99a9b7800369f57d372a90cf9a2452270e3356ad69aff83793d"
+    },
+    {
+      "path": "sheets/type54-RifleRun.jpg",
+      "bytes": 259315,
+      "sha256": "8857e1cce1f4f029c5a22f19613b84c485335946c45163c6a1ad12704eaba137"
+    },
+    {
+      "path": "sheets/type56_1-FiringRifle.jpg",
+      "bytes": 270519,
+      "sha256": "7c67cc3ac17c99e39417c7e480d6058714d152b9f7fe751369244b482046902d"
+    },
+    {
+      "path": "sheets/type56_1-Reloading.jpg",
+      "bytes": 278260,
+      "sha256": "8a452d2fd599a97e0ae5b25d3a586501da596e04c6c708e40913bf05cf0338b1"
+    },
+    {
+      "path": "sheets/type56_1-RifleAimingIdle.jpg",
+      "bytes": 269981,
+      "sha256": "bf9416369243e73e70f65534fbe0dabc99cb819ea0ab335527a782d4764f9bc2"
+    },
+    {
+      "path": "sheets/type56_1-RifleIdle.jpg",
+      "bytes": 275322,
+      "sha256": "68cdb125b76d80d42261fb015c49b217c753bad1b4acec3f7c08194a8145b8bc"
+    },
+    {
+      "path": "sheets/type56_1-RifleWalk.jpg",
+      "bytes": 276451,
+      "sha256": "46de569bb6317a466b9155c9995aeb50250cd9372e4c5ccf11358628216145fb"
+    },
+    {
+      "path": "sheets/type64-PistolAimingIdle.jpg",
+      "bytes": 256014,
+      "sha256": "e5d00d9f4192ec8755d751a8ee93f0807218ac9b71d4887cef841fc86b819040"
+    },
+    {
+      "path": "sheets/type64-PistolIdle.jpg",
+      "bytes": 256632,
+      "sha256": "8648d06576d2a86b65f05d0fd9a86421f86b754080bc17484b276687628bda57"
+    },
+    {
+      "path": "sheets/type64-PistolShooting.jpg",
+      "bytes": 255986,
+      "sha256": "96d635ed3599a0f5b8a48cf0a1c96ee861219f2349285be62def29d646c34f35"
+    },
+    {
+      "path": "sheets/type64-PistolWalk.jpg",
+      "bytes": 253132,
+      "sha256": "cdc108ac093a43b7ea6b2c7a617be5bab728494e49f1acd10285461999e94d32"
+    },
+    {
+      "path": "sheets/type64-Reloading.jpg",
+      "bytes": 259751,
+      "sha256": "e86403e4cb42f93755cc1f9aefb8716d802e3c2a8a9c2b4725bff17b524351a0"
+    },
+    {
+      "path": "sheets/type64-RifleRun.jpg",
+      "bytes": 258921,
+      "sha256": "2fa7e77a019905e85989867a96921fb685dc30f6acfdc1a6f049a67c6bc277f0"
+    },
+    {
+      "path": "sheets/type97hawk-FiringRifle.jpg",
+      "bytes": 269221,
+      "sha256": "9372f9544655d4b653d6f67e4970d1af9b4e80957883c2c0625d9030843c669e"
+    },
+    {
+      "path": "sheets/type97hawk-Reloading.jpg",
+      "bytes": 276898,
+      "sha256": "c3d1d26f13456d01008e1fd18dedc2d3357dcf3659eb9469723f82928396e0cb"
+    },
+    {
+      "path": "sheets/type97hawk-RifleAimingIdle.jpg",
+      "bytes": 270656,
+      "sha256": "a56b238cce1047a03b053ff096c6cf51417e8477d1475e4996fb29db26bee299"
+    },
+    {
+      "path": "sheets/type97hawk-RifleIdle.jpg",
+      "bytes": 277289,
+      "sha256": "ef9269b05887f97cd308ed39dbb7e6646492dbc87d6de128645f7ef815a4f09a"
+    },
+    {
+      "path": "sheets/type97hawk-RifleWalk.jpg",
+      "bytes": 276315,
+      "sha256": "15477cc25e024d1c3731d322009ad1dbc7dd46ac62755a325f9b34db93b29177"
+    },
+    {
+      "path": "sheets/type97hawk-ShotgunPump.jpg",
+      "bytes": 270104,
+      "sha256": "34e742c43ea7e6151bdcc3c5db54d95116e084559a98056dc6cab04402aa0066"
+    },
+    {
+      "path": "sheets-detail/m870-Reloading.jpg",
+      "bytes": 423887,
+      "sha256": "5a223972a04e06a0c7e64cf0c4686a9fa9f29db98faec54884574a15a5b3f116"
+    },
+    {
+      "path": "sheets-detail/m870-ShotgunAimLevel.jpg",
+      "bytes": 135982,
+      "sha256": "363fb178578599f0129dea6623200e709a2efaaf8eab45e53df92e3f6b0eef4a"
+    },
+    {
+      "path": "sheets-detail/qsz92-PistolAimingIdle.jpg",
+      "bytes": 127703,
+      "sha256": "edb501a370787744d46195886c01487755f9dcb19c8b60e40a2a5d424203d095"
+    },
+    {
+      "path": "sheets-detail/type54-PistolAimingIdle.jpg",
+      "bytes": 127456,
+      "sha256": "a018d39e1a4b95cc2fc0500cf9a24f2db9ea1cbcd59d3020d9f7775fd541f6c8"
+    },
+    {
+      "path": "sheets-detail/type56_1-Reloading.jpg",
+      "bytes": 351714,
+      "sha256": "57b401d9fcb5d60bf4d06d94f47ecb46ede7d5344bffedf741148abc7888d066"
+    },
+    {
+      "path": "sheets-detail/type64-PistolAimingIdle.jpg",
+      "bytes": 126595,
+      "sha256": "217727919889b51a5905d5ffa8fdddc43624c1cd639ee6a17a771b0e5db33150"
+    },
+    {
+      "path": "sheets-full/m870-RifleWalk.jpg",
+      "bytes": 249493,
+      "sha256": "89af5bb987c9974c0068eb8bea38f2d971cf74e0556da96c676b1b7011010e1b"
+    },
+    {
+      "path": "sheets-full/m870-ShotgunAimDown.jpg",
+      "bytes": 250436,
+      "sha256": "7f6905ed59e7f1e7c236ad69ed85af1014e351ea984b78f793c39852159e71d6"
+    },
+    {
+      "path": "sheets-full/m870-ShotgunAimLevel.jpg",
+      "bytes": 251437,
+      "sha256": "39ae4b6580605ca2d76eb8c9fe5a5e1d053195d960fb5701e7b95b6de50429ac"
+    },
+    {
+      "path": "sheets-full/m870-ShotgunAimUp.jpg",
+      "bytes": 228334,
+      "sha256": "834c8cb6a6a0e21b385eb5d001652359c2a4f5aee17a6dc49bc2662aa8d96b45"
+    },
+    {
+      "path": "sheets-full/qbz95-RifleWalk.jpg",
+      "bytes": 244773,
+      "sha256": "cd885b2167718f5f685894fad1b5808c26f90739c736ac44a1d30d588f00823b"
+    },
+    {
+      "path": "sheets-full/type64-PistolWalk.jpg",
+      "bytes": 237285,
+      "sha256": "fde20705aa81028dd0a187940432d1ea7dea49b75c558942c726a6797a2421c9"
+    },
+    {
+      "path": "sheets-full/type64-RifleRun.jpg",
+      "bytes": 235957,
+      "sha256": "bc6395b8a417f9dfa0db13de82da37a5ba215aca0f191320db9c1ebea13c2978"
+    },
+    {
+      "path": "videos/m870-FiringRifle.mp4",
+      "bytes": 155505,
+      "sha256": "8e3a5cea66205538ed272ae4cd47c56024973f99eb654ce57b56398858b98cb4"
+    },
+    {
+      "path": "videos/m870-Reloading.mp4",
+      "bytes": 755099,
+      "sha256": "d1464a5fc8aafcfa2fcb4d6f063a4a6d903d8572ce417d6220d0eea1f092bdc0"
+    },
+    {
+      "path": "videos/m870-ShotgunPump.mp4",
+      "bytes": 274047,
+      "sha256": "de877c7205c18f1cba7e8ffea5e9863c9be3733d74f70337ee59804ddbdda11c"
+    },
+    {
+      "path": "videos/none-Walk.mp4",
+      "bytes": 425660,
+      "sha256": "7d5f25c33eecc3822e5b117804683a745cdcf193fb7a75c42a983fed8cf9ce1c"
+    },
+    {
+      "path": "videos/qbz95-FiringRifle.mp4",
+      "bytes": 111196,
+      "sha256": "f33ac541ddba4a80df759e162b7607269b16c31d1619660813fbef39a186c9e8"
+    },
+    {
+      "path": "videos/qbz95-Reloading.mp4",
+      "bytes": 1265762,
+      "sha256": "212969b451b0ac76f391acd7c9f1ca60e911ef308bf6c376dee5f2b6556b7d35"
+    },
+    {
+      "path": "videos/type64-PistolShooting.mp4",
+      "bytes": 116730,
+      "sha256": "6a1d20a9e73f993cf4e83237b845f52df1c51c15e683fd71aa4b37f4e3400e09"
+    },
+    {
+      "path": "videos/type64-Reloading.mp4",
+      "bytes": 1168058,
+      "sha256": "71328b88e1a294966b1e76fba3b5d738134c1c40988159cb3c4c8767dae48d01"
+    },
+    {
+      "path": "videos/type64-RifleRun.mp4",
+      "bytes": 304851,
+      "sha256": "f1998d7aa32f1d2d2f195fe2a1bea5631ab4d20428396911eb012ae7eaa7927d"
+    },
+    {
+      "path": "videos/type97hawk-ShotgunPump.mp4",
+      "bytes": 235837,
+      "sha256": "a740957d1718886391f5f01f87995c18300ac6934d9ff0187d841aa72aa1e51e"
+    },
+    {
+      "path": "复核报告.md",
+      "bytes": 7573,
+      "sha256": "7c641d7ccc62854975d2b6105dc017466d425ffcc15d03e69c3e6b73ee3b67df"
+    }
+  ],
+  "totalBytes": 29309347
+}

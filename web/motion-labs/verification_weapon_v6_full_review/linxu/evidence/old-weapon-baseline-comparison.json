@@ -1,0 +1,202 @@
+[
+  {
+    "w": "qbz95",
+    "m": "RifleIdle",
+    "maxP": 0,
+    "maxQ": 5.960464477539063e-8,
+    "maxGunP": 0,
+    "maxGunQ": 4.2146848510894035e-8
+  },
+  {
+    "w": "qbz95",
+    "m": "RifleWalk",
+    "maxP": 0,
+    "maxQ": 5.960464477539063e-8,
+    "maxGunP": 0,
+    "maxGunQ": 2.9802322387695312e-8
+  },
+  {
+    "w": "qbz95",
+    "m": "RifleAimingIdle",
+    "maxP": 0,
+    "maxQ": 5.960464477539063e-8,
+    "maxGunP": 0,
+    "maxGunQ": 0
+  },
+  {
+    "w": "qbz95",
+    "m": "FiringRifle",
+    "maxP": 0,
+    "maxQ": 5.16191365590357e-8,
+    "maxGunP": 0,
+    "maxGunQ": 2.9802322387695312e-8
+  },
+  {
+    "w": "qbz95",
+    "m": "Reloading",
+    "maxP": 0,
+    "maxQ": 5.960464477539063e-8,
+    "maxGunP": 0,
+    "maxGunQ": 2.9802322387695312e-8
+  },
+  {
+    "w": "type56_1",
+    "m": "RifleIdle",
+    "maxP": 0,
+    "maxQ": 5.960464477539063e-8,
+    "maxGunP": 0,
+    "maxGunQ": 0
+  },
+  {
+    "w": "type56_1",
+    "m": "RifleWalk",
+    "maxP": 0,
+    "maxQ": 5.960464477539063e-8,
+    "maxGunP": 0,
+    "maxGunQ": 4.2146848510894035e-8
+  },
+  {
+    "w": "type56_1",
+    "m": "RifleAimingIdle",
+    "maxP": 0,
+    "maxQ": 5.960464477539063e-8,
+    "maxGunP": 0,
+    "maxGunQ": 0
+  },
+  {
+    "w": "type56_1",
+    "m": "FiringRifle",
+    "maxP": 0,
+    "maxQ": 5.16191365590357e-8,
+    "maxGunP": 0,
+    "maxGunQ": 0
+  },
+  {
+    "w": "type56_1",
+    "m": "Reloading",
+    "maxP": 0,
+    "maxQ": 5.960464477539063e-8,
+    "maxGunP": 0,
+    "maxGunQ": 4.2146848510894035e-8
+  },
+  {
+    "w": "qbu85",
+    "m": "RifleIdle",
+    "maxP": 0,
+    "maxQ": 5.960464477539063e-8,
+    "maxGunP": 0,
+    "maxGunQ": 4.2146848510894035e-8
+  },
+  {
+    "w": "qbu85",
+    "m": "RifleWalk",
+    "maxP": 0,
+    "maxQ": 5.960464477539063e-8,
+    "maxGunP": 0,
+    "maxGunQ": 2.9802322387695312e-8
+  },
+  {
+    "w": "qbu85",
+    "m": "RifleAimingIdle",
+    "maxP": 0,
+    "maxQ": 5.960464477539063e-8,
+    "maxGunP": 0,
+    "maxGunQ": 0
+  },
+  {
+    "w": "qbu85",
+    "m": "FiringRifle",
+    "maxP": 0,
+    "maxQ": 5.16191365590357e-8,
+    "maxGunP": 0,
+    "maxGunQ": 0
+  },
+  {
+    "w": "qbu85",
+    "m": "Reloading",
+    "maxP": 0,
+    "maxQ": 5.960464477539063e-8,
+    "maxGunP": 0,
+    "maxGunQ": 2.9802322387695312e-8
+  },
+  {
+    "w": "type97hawk",
+    "m": "RifleIdle",
+    "maxP": 0,
+    "maxQ": 5.960464477539063e-8,
+    "maxGunP": 0,
+    "maxGunQ": 0
+  },
+  {
+    "w": "type97hawk",
+    "m": "RifleWalk",
+    "maxP": 0,
+    "maxQ": 5.960464477539063e-8,
+    "maxGunP": 0,
+    "maxGunQ": 4.2146848510894035e-8
+  },
+  {
+    "w": "type97hawk",
+    "m": "RifleAimingIdle",
+    "maxP": 0,
+    "maxQ": 5.960464477539063e-8,
+    "maxGunP": 0,
+    "maxGunQ": 0
+  },
+  {
+    "w": "type97hawk",
+    "m": "FiringRifle",
+    "maxP": 0,
+    "maxQ": 5.960464477539063e-8,
+    "maxGunP": 0,
+    "maxGunQ": 0
+  },
+  {
+    "w": "type97hawk",
+    "m": "Reloading",
+    "maxP": 0,
+    "maxQ": 5.960464477539063e-8,
+    "maxGunP": 0,
+    "maxGunQ": 2.9802322387695312e-8
+  },
+  {
+    "w": "qcq171",
+    "m": "RifleIdle",
+    "maxP": 0,
+    "maxQ": 5.960464477539063e-8,
+    "maxGunP": 0,
+    "maxGunQ": 4.2146848510894035e-8
+  },
+  {
+    "w": "qcq171",
+    "m": "RifleWalk",
+    "maxP": 0,
+    "maxQ": 5.960464477539063e-8,
+    "maxGunP": 0,
+    "maxGunQ": 4.2146848510894035e-8
+  },
+  {
+    "w": "qcq171",
+    "m": "RifleAimingIdle",
+    "maxP": 0,
+    "maxQ": 5.960464477539063e-8,
+    "maxGunP": 0,
+    "maxGunQ": 0
+  },
+  {
+    "w": "qcq171",
+    "m": "FiringRifle",
+    "maxP": 0,
+    "maxQ": 5.16191365590357e-8,
+    "maxGunP": 0,
+    "maxGunQ": 0
+  },
+  {
+    "w": "qcq171",
+    "m": "Reloading",
+    "maxP": 0,
+    "maxQ": 5.960464477539063e-8,
+    "maxGunP": 0,
+    "maxGunQ": 2.9802322387695312e-8
+  }
+]

@@ -1,0 +1,242 @@
+{
+  "scope": "Current actual runtime poses at <=1/240 s spacing for every exposed action, numeric seam/velocity/finite checks plus all ordered UI selection transitions. No WebGL or surface acceptance claim.",
+  "generated_at": "2026-11-09T15:06:23.403Z",
+  "errors": [],
+  "transition_summary": {
+    "ordered_pairs": 5776,
+    "source_phase": 0.73,
+    "target_phase": 0.37,
+    "reference": "Same target pose after native none/Idle reset in separately loaded runtime.",
+    "max_local_position_residual_m": 0,
+    "max_local_angle_residual_deg": 3.4150945850063755e-06,
+    "max_local_scale_residual": 0,
+    "max_pump_residual_m": 0,
+    "failures": []
+  },
+  "source_hashes_still_match": true,
+  "states": 76,
+  "samples": 49413,
+  "loop_ranking_by_endpoint_position": [
+    {
+      "key": "qbz95__RifleAimingIdle__normal",
+      "endpoint_max_position_m": {
+        "joint": "Head",
+        "value": 0.00047964830286722793
+      },
+      "endpoint_max_angle_deg": {
+        "joint": "RightLeg",
+        "value": 0.19671653857615212
+      },
+      "last_sample_to_start_linear_speed_m_s": {
+        "joint": "Head",
+        "value": 0.1215907995940941
+      },
+      "last_sample_to_start_angular_speed_deg_s": {
+        "joint": "RightLeg",
+        "value": 46.82113105660496
+      },
+      "linear_speed_ratio_to_within_clip_peak": 5.554486446586862,
+      "angular_speed_ratio_to_within_clip_peak": 9.781205293587249,
+      "note": "Large endpoint jumps and wrap-step speeds flag review candidates. A number alone is not a failure or permission to alter source motion."
+    },
+    {
+      "key": "type56_1__RifleAimingIdle__normal",
+      "endpoint_max_position_m": {
+        "joint": "Head",
+        "value": 0.00047964830286722793
+      },
+      "endpoint_max_angle_deg": {
+        "joint": "RightLeg",
+        "value": 0.19671653857615212
+      },
+      "last_sample_to_start_linear_speed_m_s": {
+        "joint": "Head",
+        "value": 0.1215907995940941
+      },
+      "last_sample_to_start_angular_speed_deg_s": {
+        "joint": "RightLeg",
+        "value": 46.82113105660496
+      },
+      "linear_speed_ratio_to_within_clip_peak": 5.554486446586862,
+      "angular_speed_ratio_to_within_clip_peak": 9.781205293587249,
+      "note": "Large endpoint jumps and wrap-step speeds flag review candidates. A number alone is not a failure or permission to alter source motion."
+    },
+    {
+      "key": "qbu85__RifleAimingIdle__normal",
+      "endpoint_max_position_m": {
+        "joint": "Head",
+        "value": 0.00047964830286722793
+      },
+      "endpoint_max_angle_deg": {
+        "joint": "RightLeg",
+        "value": 0.19671653857615212
+      },
+      "last_sample_to_start_linear_speed_m_s": {
+        "joint": "Head",
+        "value": 0.1215907995940941
+      },
+      "last_sample_to_start_angular_speed_deg_s": {
+        "joint": "RightLeg",
+        "value": 46.82113105660496
+      },
+      "linear_speed_ratio_to_within_clip_peak": 5.554486446586862,
+      "angular_speed_ratio_to_within_clip_peak": 9.781205293587249,
+      "note": "Large endpoint jumps and wrap-step speeds flag review candidates. A number alone is not a failure or permission to alter source motion."
+    },
+    {
+      "key": "type97hawk__RifleAimingIdle__normal",
+      "endpoint_max_position_m": {
+        "joint": "Head",
+        "value": 0.00047964830286722793
+      },
+      "endpoint_max_angle_deg": {
+        "joint": "RightLeg",
+        "value": 0.19671653857615212
+      },
+      "last_sample_to_start_linear_speed_m_s": {
+        "joint": "Head",
+        "value": 0.1215907995940941
+      },
+      "last_sample_to_start_angular_speed_deg_s": {
+        "joint": "RightLeg",
+        "value": 46.82113105660496
+      },
+      "linear_speed_ratio_to_within_clip_peak": 5.554486446586862,
+      "angular_speed_ratio_to_within_clip_peak": 9.781205293587249,
+      "note": "Large endpoint jumps and wrap-step speeds flag review candidates. A number alone is not a failure or permission to alter source motion."
+    },
+    {
+      "key": "qcq171__RifleAimingIdle__normal",
+      "endpoint_max_position_m": {
+        "joint": "Head",
+        "value": 0.00047964830286722793
+      },
+      "endpoint_max_angle_deg": {
+        "joint": "RightLeg",
+        "value": 0.19671653857615212
+      },
+      "last_sample_to_start_linear_speed_m_s": {
+        "joint": "Head",
+        "value": 0.1215907995940941
+      },
+      "last_sample_to_start_angular_speed_deg_s": {
+        "joint": "RightLeg",
+        "value": 46.82113105660496
+      },
+      "linear_speed_ratio_to_within_clip_peak": 5.554486446586862,
+      "angular_speed_ratio_to_within_clip_peak": 9.781205293587249,
+      "note": "Large endpoint jumps and wrap-step speeds flag review candidates. A number alone is not a failure or permission to alter source motion."
+    },
+    {
+      "key": "qbz95__RifleWalk__normal",
+      "endpoint_max_position_m": {
+        "joint": "RightLeg",
+        "value": 0.00035488495430358887
+      },
+      "endpoint_max_angle_deg": {
+        "joint": "RightLeg",
+        "value": 1.829994726985997
+      },
+      "last_sample_to_start_linear_speed_m_s": {
+        "joint": "LeftFoot",
+        "value": 1.8260718975767214
+      },
+      "last_sample_to_start_angular_speed_deg_s": {
+        "joint": "RightLeg",
+        "value": 440.1172156576412
+      },
+      "linear_speed_ratio_to_within_clip_peak": 0.8301660931868667,
+      "angular_speed_ratio_to_within_clip_peak": 0.9114049802761414,
+      "note": "Large endpoint jumps and wrap-step speeds flag review candidates. A number alone is not a failure or permission to alter source motion."
+    },
+    {
+      "key": "type56_1__RifleWalk__normal",
+      "endpoint_max_position_m": {
+        "joint": "RightLeg",
+        "value": 0.00035488495430358887
+      },
+      "endpoint_max_angle_deg": {
+        "joint": "RightLeg",
+        "value": 1.829994726985997
+      },
+      "last_sample_to_start_linear_speed_m_s": {
+        "joint": "LeftFoot",
+        "value": 1.8260718975767214
+      },
+      "last_sample_to_start_angular_speed_deg_s": {
+        "joint": "RightLeg",
+        "value": 440.1172156576412
+      },
+      "linear_speed_ratio_to_within_clip_peak": 0.8301660931868667,
+      "angular_speed_ratio_to_within_clip_peak": 0.9114049802761414,
+      "note": "Large endpoint jumps and wrap-step speeds flag review candidates. A number alone is not a failure or permission to alter source motion."
+    },
+    {
+      "key": "qbu85__RifleWalk__normal",
+      "endpoint_max_position_m": {
+        "joint": "RightLeg",
+        "value": 0.00035488495430358887
+      },
+      "endpoint_max_angle_deg": {
+        "joint": "RightLeg",
+        "value": 1.829994726985997
+      },
+      "last_sample_to_start_linear_speed_m_s": {
+        "joint": "LeftFoot",
+        "value": 1.8260718975767214
+      },
+      "last_sample_to_start_angular_speed_deg_s": {
+        "joint": "RightLeg",
+        "value": 440.1172156576412
+      },
+      "linear_speed_ratio_to_within_clip_peak": 0.8301660931868667,
+      "angular_speed_ratio_to_within_clip_peak": 0.9114049802761414,
+      "note": "Large endpoint jumps and wrap-step speeds flag review candidates. A number alone is not a failure or permission to alter source motion."
+    },
+    {
+      "key": "type97hawk__RifleWalk__normal",
+      "endpoint_max_position_m": {
+        "joint": "RightLeg",
+        "value": 0.00035488495430358887
+      },
+      "endpoint_max_angle_deg": {
+        "joint": "RightLeg",
+        "value": 1.829994726985997
+      },
+      "last_sample_to_start_linear_speed_m_s": {
+        "joint": "LeftFoot",
+        "value": 1.8260718975767214
+      },
+      "last_sample_to_start_angular_speed_deg_s": {
+        "joint": "RightLeg",
+        "value": 440.1172156576412
+      },
+      "linear_speed_ratio_to_within_clip_peak": 0.8301660931868667,
+      "angular_speed_ratio_to_within_clip_peak": 0.9114049802761414,
+      "note": "Large endpoint jumps and wrap-step speeds flag review candidates. A number alone is not a failure or permission to alter source motion."
+    },
+    {
+      "key": "qcq171__RifleWalk__normal",
+      "endpoint_max_position_m": {
+        "joint": "RightLeg",
+        "value": 0.00035488495430358887
+      },
+      "endpoint_max_angle_deg": {
+        "joint": "RightLeg",
+        "value": 1.829994726985997
+      },
+      "last_sample_to_start_linear_speed_m_s": {
+        "joint": "LeftFoot",
+        "value": 1.8260718975767214
+      },
+      "last_sample_to_start_angular_speed_deg_s": {
+        "joint": "RightLeg",
+        "value": 440.1172156576412
+      },
+      "linear_speed_ratio_to_within_clip_peak": 0.8301660931868667,
+      "angular_speed_ratio_to_within_clip_peak": 0.9114049802761414,
+      "note": "Large endpoint jumps and wrap-step speeds flag review candidates. A number alone is not a failure or permission to alter source motion."
+    }
+  ],
+  "source_note": "This numerical scan predates the final M870 Run shoulder change. The separate 65-state render-reuse proof validates only this report scope against final production."
+}

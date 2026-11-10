@@ -1,0 +1,388 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-11-09T15:11:13.834Z",
+  "target": "linxu-motion-lab",
+  "targetFiles": {
+    "app.js": "2ffe85dffd62b98e241af93cfca7b2b7c16089e897352d642e10b613abae1d30",
+    "rig.js": "3ebfd23e9c9a7c475f5af022526ed3c9551061fc4ffa3a3febc7cb94294859ec",
+    "weapon-attachment.js": "bb5b8c69d0976aac409918427f436d1f98a907214e6a8e68bd7ccaa270c0510e",
+    "natural-weapon.js": "470e9dbda210ce8afcd813851a488aae35118015b6478e95925007e14a6c8d4f",
+    "chest-skinning.js": "c3a323f7adf6cc934cfb693639f91e799069b4723c8c100cf4a0ffbf6f09e848",
+    "assets/weapon_attachment.json": "9aadf5d11470a8d3c76cce4aa47a3349f36f8c4fe4e2a1ea475f38e6d471f57c",
+    "assets/characters/linxu/character.glb": "71f8f6a2562397e82c6e9f102ea4f2cd358b135486a30cb63777f49914ba54c9",
+    "assets/characters/linxu/motions.glb": "9a451d615d3135ecf10abc412e48494ff64541f8005a97e77e8a703afa87e103",
+    "assets/characters/linxu/weapon_update_v6.glb": "9b95188cbd35082c2699e766b8b4464c813994345de25e3dd716ea40e805d5b0",
+    "assets/weapons/qbz95.glb": "bf7bfff81bcb5d348580d0d8f2fbec6cb4cf4586bc739d18609630f41271a4b9",
+    "assets/weapons/type56_1.glb": "de85d5c568928ec684191027a8d02f5212a2d25bf6bd239a8a911887e62c5981",
+    "assets/weapons/qbu85.glb": "8605a2f827595a168a5cff67fdf02ea37fb6b2fed8c9ac8bd2f205031e95ada4",
+    "assets/weapons/type97hawk.glb": "20ec4f85cc9eeb9037b552c9b4d70dbcaca82d8035056438301704b6b6cf30a5",
+    "assets/weapons/qcq171.glb": "c29aab7c6f2d5dbe8996b4b986c4d902a97bcbfb3b512136ead2203fbdc426c2",
+    "assets/weapons/qsz92.glb": "c2be7f2de027e57303d635a2e51aa0c41849878b23bd294d5ddb372389a7f30c",
+    "assets/weapons/type54.glb": "25d58d368e66cbead8faf6083408c73bd93fe2bf2e23b2706d9d3c006e83e06b",
+    "assets/weapons/type64.glb": "ca7376e4b84e7b50df2a59743d9a3b09db37928d6c1152bddc13cac7a8f9c582",
+    "assets/weapons/m870.glb": "b1192f67c1bc1ca6334d5b4b281eefe234bcb222132c627580dab594e8e14795"
+  },
+  "referenceProvided": true,
+  "rows": [
+    {
+      "name": "none-Idle",
+      "samples": 1282,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "none-Walk",
+      "samples": 281,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "none-Run",
+      "samples": 153,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "none-WalkingBackwards",
+      "samples": 233,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "none-Talking",
+      "samples": 946,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "none-HeadStress",
+      "samples": 961,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "none-SittingCrossLegged",
+      "samples": 2297,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "none-SittingTalking",
+      "samples": 10794,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "none-ClimbingLadder",
+      "samples": 185,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "none-HangToCrouch",
+      "samples": 273,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "none-Dying",
+      "samples": 1042,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "none-FlyingBackDeath",
+      "samples": 729,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "m870-RifleIdle",
+      "samples": 1849,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "m870-RifleWalk",
+      "samples": 266,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "m870-RifleAimingIdle",
+      "samples": 130,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "m870-FiringRifle",
+      "samples": 58,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "m870-Reloading",
+      "samples": 474,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "m870-ShotgunPump",
+      "samples": 178,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "m870-ShotgunAimUp",
+      "samples": 130,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "m870-ShotgunAimDown",
+      "samples": 10,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "m870-ShotgunAimLevel",
+      "samples": 130,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "type64-PistolIdle",
+      "samples": 10,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "type64-PistolWalk",
+      "samples": 162,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "type64-RifleRun",
+      "samples": 162,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "type64-PistolAimingIdle",
+      "samples": 322,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "type64-PistolShooting",
+      "samples": 281,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "type64-Reloading",
+      "samples": 793,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "type54-PistolIdle",
+      "samples": 10,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "type54-PistolWalk",
+      "samples": 162,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "type54-RifleRun",
+      "samples": 162,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "type54-PistolAimingIdle",
+      "samples": 322,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "type54-PistolShooting",
+      "samples": 281,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "type54-Reloading",
+      "samples": 793,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "qsz92-PistolIdle",
+      "samples": 10,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "qsz92-PistolWalk",
+      "samples": 162,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "qsz92-RifleRun",
+      "samples": 162,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "qsz92-PistolAimingIdle",
+      "samples": 322,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "qsz92-PistolShooting",
+      "samples": 281,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "qsz92-Reloading",
+      "samples": 793,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "type97hawk-RifleIdle",
+      "samples": 2057,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "type97hawk-RifleWalk",
+      "samples": 313,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "type97hawk-RifleAimingIdle",
+      "samples": 745,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "type97hawk-FiringRifle",
+      "samples": 58,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "type97hawk-Reloading",
+      "samples": 793,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "type97hawk-ShotgunPump",
+      "samples": 178,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "qbz95-RifleIdle",
+      "samples": 2057,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "qbz95-RifleWalk",
+      "samples": 313,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "qbz95-RifleAimingIdle",
+      "samples": 745,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "qbz95-FiringRifle",
+      "samples": 66,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "qbz95-Reloading",
+      "samples": 793,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "type56_1-RifleIdle",
+      "samples": 2057,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "type56_1-RifleWalk",
+      "samples": 313,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "type56_1-RifleAimingIdle",
+      "samples": 745,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "type56_1-FiringRifle",
+      "samples": 66,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "type56_1-Reloading",
+      "samples": 793,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "qbu85-RifleIdle",
+      "samples": 2057,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "qbu85-RifleWalk",
+      "samples": 313,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "qbu85-RifleAimingIdle",
+      "samples": 745,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "qbu85-FiringRifle",
+      "samples": 66,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "qbu85-Reloading",
+      "samples": 793,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "qcq171-RifleIdle",
+      "samples": 2057,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "qcq171-RifleWalk",
+      "samples": 313,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "qcq171-RifleAimingIdle",
+      "samples": 745,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "qcq171-FiringRifle",
+      "samples": 66,
+      "maxMatrixDelta": 0
+    },
+    {
+      "name": "qcq171-Reloading",
+      "samples": 793,
+      "maxMatrixDelta": 0
+    }
+  ],
+  "notes": [
+    "M870 RifleRun and old longgun Run/Before are excluded from this 65-state render set.",
+    "240 Hz matrix equivalence is a reuse check, not a substitute for pixel review."
+  ],
+  "referenceFiles": {
+    "app.js": "bc04d2e9d23bac28c980d3592f2a08e5a2ac282a9229915938c850c607d25b7f",
+    "rig.js": "0e8f4755a8e294bf374bd85bbe030bebda6ebaf2129d61cbe6629d05cfec6472",
+    "weapon-attachment.js": "fbb651229894dd3590ff627e773b883cb54ac7155650162e09ef766d98cf098a",
+    "natural-weapon.js": "470e9dbda210ce8afcd813851a488aae35118015b6478e95925007e14a6c8d4f",
+    "chest-skinning.js": "c3a323f7adf6cc934cfb693639f91e799069b4723c8c100cf4a0ffbf6f09e848",
+    "assets/weapon_attachment.json": "9aadf5d11470a8d3c76cce4aa47a3349f36f8c4fe4e2a1ea475f38e6d471f57c",
+    "assets/characters/linxu/character.glb": "71f8f6a2562397e82c6e9f102ea4f2cd358b135486a30cb63777f49914ba54c9",
+    "assets/characters/linxu/motions.glb": "9a451d615d3135ecf10abc412e48494ff64541f8005a97e77e8a703afa87e103",
+    "assets/characters/linxu/weapon_update_v6.glb": "158ceb2de8b7a883603696ac027ad4915dadd612d051b09bb12f34f7cc772c6b",
+    "assets/weapons/qbz95.glb": "bf7bfff81bcb5d348580d0d8f2fbec6cb4cf4586bc739d18609630f41271a4b9",
+    "assets/weapons/type56_1.glb": "de85d5c568928ec684191027a8d02f5212a2d25bf6bd239a8a911887e62c5981",
+    "assets/weapons/qbu85.glb": "8605a2f827595a168a5cff67fdf02ea37fb6b2fed8c9ac8bd2f205031e95ada4",
+    "assets/weapons/type97hawk.glb": "20ec4f85cc9eeb9037b552c9b4d70dbcaca82d8035056438301704b6b6cf30a5",
+    "assets/weapons/qcq171.glb": "c29aab7c6f2d5dbe8996b4b986c4d902a97bcbfb3b512136ead2203fbdc426c2",
+    "assets/weapons/qsz92.glb": "c2be7f2de027e57303d635a2e51aa0c41849878b23bd294d5ddb372389a7f30c",
+    "assets/weapons/type54.glb": "25d58d368e66cbead8faf6083408c73bd93fe2bf2e23b2706d9d3c006e83e06b",
+    "assets/weapons/type64.glb": "ca7376e4b84e7b50df2a59743d9a3b09db37928d6c1152bddc13cac7a8f9c582",
+    "assets/weapons/m870.glb": "b1192f67c1bc1ca6334d5b4b281eefe234bcb222132c627580dab594e8e14795"
+  },
+  "referenceLabel": "reviewed pre-shoulder-fix source",
+  "maxMatrixDelta": 0,
+  "totalSamples": 47631,
+  "meshFilesUnchanged": true,
+  "changedSourceFiles": [
+    "app.js",
+    "rig.js",
+    "weapon-attachment.js",
+    "assets/characters/linxu/weapon_update_v6.glb"
+  ],
+  "reusable": true
+}
