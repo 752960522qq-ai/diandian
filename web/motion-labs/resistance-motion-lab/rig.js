@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import { WeaponAttachment } from './weapon-attachment.js?v=r48';
+import { WeaponAttachment } from './weapon-attachment.js?v=male-pose-v7';
 
 export const unarmed = [
   ['Idle','待机'],['Walk','行走'],['Run','奔跑'],['WalkingBackwards','倒退行走'],
@@ -8,8 +8,9 @@ export const unarmed = [
   ['Dying','倒地死亡'],['FlyingBackDeath','后飞死亡']
 ];
 export const armed = [['RifleIdle','持枪待机'],['RifleWalk','持枪行走'],['RifleRun','持枪奔跑'],['RifleAimingIdle','瞄准'],['FiringRifle','射击'],['Reloading','换弹']];
+export const pistols = [['PistolIdle','持枪待机'],['PistolWalk','持枪行走'],['RifleRun','持枪奔跑'],['PistolAimingIdle','瞄准'],['PistolShooting','射击'],['Reloading','换弹']];
 export const oneShots = new Set(['Dying','FlyingBackDeath','HangToCrouch','SittingTalking','Reloading','ShotgunPump']);
-export function prepareRig(gltf, pack, cid, config, weapons, scene) {
+export function prepareRig(gltf, pack, cid, config, weapons, scene, extraPack={animations:[]}) {
   const wrapper = new THREE.Group();
   const box = new THREE.Box3().setFromObject(gltf.scene), center = box.getCenter(new THREE.Vector3());
   const scale = 1.75 / (box.max.y - box.min.y);
@@ -21,10 +22,11 @@ export function prepareRig(gltf, pack, cid, config, weapons, scene) {
     if(o.isBone) {bones.set(o.name,o);bones.set(o.userData.name||o.name,o);bones.set('mixamorig:'+o.name.replace(/^mixamorig:?/,''),o);}
   });
   const mixer = new THREE.AnimationMixer(gltf.scene), actions = new Map();
-  for(const clip of [...gltf.animations,...pack.animations]) actions.set(clip.name,mixer.clipAction(clip));
+  for(const clip of [...gltf.animations,...pack.animations,...extraPack.animations]) actions.set(clip.name,mixer.clipAction(clip));
   const model={root:gltf.scene,wrapper,bones,mixer,actions,cid};
   model.attachment=new WeaponAttachment(model,config,cid,weapons,scene);
   model.pose=(motion,time=0,weapon='none')=>{
+    if(weapon==='winchester1897')weapon='m870';
     model.attachment.beforeAnimation();mixer.stopAllAction();
     model.attachment.setWeapon(weapon==='none'?'qbz95':weapon);
     const name=config.weapons[weapon]?.animation_overrides?.[motion]||motion;
@@ -35,6 +37,6 @@ export function prepareRig(gltf, pack, cid, config, weapons, scene) {
     scene.updateMatrixWorld(true);
     return model.attachment.getState();
   };
-  model.duration=(motion,weapon)=>actions.get(config.weapons[weapon]?.animation_overrides?.[motion]||motion)?.getClip().duration||0;
+  model.duration=(motion,weapon)=>actions.get(config.weapons[weapon==='winchester1897'?'m870':weapon]?.animation_overrides?.[motion]||motion)?.getClip().duration||0;
   return model;
 }

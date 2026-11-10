@@ -1,5 +1,6 @@
+import { applyNaturalWeaponTrack } from './natural-weapon.js?v=natural-v6-shoulderfix';
 import * as THREE from 'three';
-import { applyReferenceGrip } from './reference-grip.js?v=r48';
+import { applyReferenceGrip, sampleReferenceVector } from './reference-grip.js?v=r48';
 import { fixedGunMotionNames, applyFixedGunPose } from './fixed-machine-gun.js?v=weapons-r44';
 import { rocketMotions, rocketSupportWeight, rocketCarryWeight, applyRocketPosePath, fitRocketCarryReach } from './rocket-motion.js?v=pf89-r40';
 import { ChestSkinningRelief } from './chest-skinning.js?v=grip-r31';
@@ -63,8 +64,8 @@ export class WeaponAttachment {
       this.weapons.set(id, root);
     }
     this.pumpParts = [];
-    this.weapons.get('winchester1897')?.traverse(object => {
-      if (object.name.replaceAll('_', ' ') === 'm 97 add1') this.pumpParts.push({object, rest: object.position.clone()});
+    this.weapons.get('m870')?.traverse(object => {
+      if (config.weapons.m870.pump_node_names?.includes(object.name)) this.pumpParts.push({object, rest: object.position.clone()});
     });
     this.type97PumpParts = [];
     this.weapons.get('type97hawk')?.traverse(object => {
@@ -97,6 +98,7 @@ export class WeaponAttachment {
   }
 
   setWeapon(id) {
+    if(id==='winchester1897')id='m870';
     this.selectedWeapon = id;
     if (this.config.weapons[id].type === 'pistol') { this.lastPistol = id; return 'PistolIdle'; }
     this.lastRifle = id;
@@ -139,7 +141,7 @@ export class WeaponAttachment {
     const radius = toShoulder.length(), distance = toTarget.length();
     const angle = toShoulder.angleTo(toTarget);
     const requiredAngle = Math.acos(THREE.MathUtils.clamp((distance * distance + radius * radius - reachLength * reachLength) / (2 * distance * radius), -1, 1));
-    const turn = Math.min(Math.max(0, angle - requiredAngle), THREE.MathUtils.degToRad(this.character.shoulder_assist_max_degrees ?? 8));
+    const turn = Math.min(Math.max(0, angle - requiredAngle), THREE.MathUtils.degToRad(this.activeMount?.shoulder_assist_max_degrees ?? this.character.shoulder_assist_max_degrees ?? 8));
     if (turn === 0) return;
     this.saveBone(clavicle);
     const swing = new THREE.Quaternion().setFromUnitVectors(toShoulder.clone().normalize(), toTarget.clone().normalize());
@@ -209,6 +211,18 @@ export class WeaponAttachment {
       }
       outward.addScaledVector(direction, -outward.dot(direction)).normalize();
       bend.lerp(outward, THREE.MathUtils.clamp(elbowOutwardWeight, 0, 1)).normalize();
+    }
+    // Optional anatomical pole: zero keeps the elbow below the shoulder-wrist
+    // line. Unlike a hand-direction hint, this cannot pick an overhead elbow
+    // merely to lower the measured wrist angle.
+    const poleMount = this.mountFor(this.selectedWeapon, this.motion);
+    const swivelTrack = poleMount[side === 'Right' ? 'right_elbow_swivel_track' : 'support_elbow_swivel_track'];
+    const swivelDegrees = swivelTrack ? sampleReferenceVector(swivelTrack, this.state.time).x : poleMount[side === 'Right' ? 'right_elbow_swivel_degrees' : 'support_elbow_swivel_degrees'];
+    if (Number.isFinite(swivelDegrees)) {
+      const bodyDown = this.model.bones.get('mixamorig:Hips').getWorldPosition(new THREE.Vector3())
+        .sub(this.bones.Spine2.getWorldPosition(new THREE.Vector3())).normalize();
+      bodyDown.addScaledVector(direction, -bodyDown.dot(direction));
+      if (bodyDown.lengthSq() > .000001) bend.copy(bodyDown.normalize()).applyAxisAngle(direction, THREE.MathUtils.degToRad(swivelDegrees));
     }
     const along = (upperLength * upperLength - lowerLength * lowerLength + distance * distance) / (2 * distance);
     const height = Math.sqrt(Math.max(upperLength * upperLength - along * along, 0));
@@ -364,6 +378,8 @@ export class WeaponAttachment {
     if (!visible && !hiddenRocketTransition) return;
 
     const id = this.selectedWeapon;
+    const naturalTrack = this.character.mounts[id]?.natural_motion_tracks?.[this.state.actualClip];
+    if (naturalTrack) { applyNaturalWeaponTrack(this, naturalTrack, time); return; }
     if (id === 'qjz89') { applyFixedGunPose(this, motion, time); return; }
     const data = this.config.weapons[id];
     const mount = applyReferenceGrip(this.mountFor(id, motion), time);
@@ -393,10 +409,12 @@ export class WeaponAttachment {
     }
     // The authored shotgun clips have their own hand-to-gun calibration.
     const actualClip = animation.activeClips?.find(c => c.weight > 0)?.name || this.state.actualClip;
-    if (id === 'winchester1897' && actualClip?.startsWith('Shotgun')) {
-      Object.assign(mount, this.character.mounts[id].re4_mount);
-      mount.release_support_hand = actualClip === 'ShotgunReload';
+    if (id === 'm870' && (actualClip?.replace('NewEquip_','').startsWith('Shotgun') || actualClip?.startsWith('NewEquip_M870'))) {
+      Object.assign(mount, mount.re4_mount || this.character.mounts[id].re4_mount);
+      mount.release_support_hand = actualClip?.replace('NewEquip_','') === 'ShotgunReload';
     }
+    if(mount.weapon_local_clearance_track)mount.weapon_offset_weapon_m=sampleReferenceVector(mount.weapon_local_clearance_track,time).toArray();
+    this.activeMount=mount;
     const re4 = mount.re4_shotgun === true;
     const hand = this.bones.RightHand;
     const scale = this.model.wrapper.getWorldScale(new THREE.Vector3()).x;
@@ -409,6 +427,8 @@ export class WeaponAttachment {
     const rightOffset = vector(mount.palm_offset_native || this.character.palm_offset_native);
     const gunRotation = handRotation.clone().multiply(quaternion(mount.quaternion_xyzw)).normalize();
     refineC96Rotation(this, gunRotation, motion, time);
+    const weaponFrame = id === 'm870' && mount.weapon_frame_bone ? this.model.bones.get('mixamorig:' + mount.weapon_frame_bone) : null;
+    if (weaponFrame && mount.weapon_frame_rotation_xyzw) gunRotation.copy(weaponFrame.getWorldQuaternion(new THREE.Quaternion())).multiply(quaternion(mount.weapon_frame_rotation_xyzw)).normalize();
     // Anchor the gun to the palm in its final grasp orientation. Using the
     // animated open-hand orientation here displaced the wrist during the
     // subsequent grip solve, even when the requested wrist was reachable.
@@ -430,6 +450,7 @@ export class WeaponAttachment {
       gun.position.copy(pocket).sub(vector(data.butt_contact).multiplyScalar(modelScale).applyQuaternion(gunRotation));
       this.state.shoulderTargetWorld = pocket.toArray();
     }
+    if (weaponFrame && mount.weapon_frame_position_native) gun.position.copy(weaponFrame.localToWorld(vector(mount.weapon_frame_position_native)));
     if (mount.weapon_offset_body_m) {
       const displacement = vector(mount.weapon_offset_body_m);
       const right = this.bones.RightArm.getWorldPosition(new THREE.Vector3()).sub(this.bones.LeftArm.getWorldPosition(new THREE.Vector3())).normalize();
@@ -494,10 +515,12 @@ export class WeaponAttachment {
     this.state.pumpTravelM = pumpTravel;
     const supportLocal = vector(mount.left_grip || data.left_grip);
     supportLocal.z += pumpTravel;
+    const guidedReload = motion==='Reloading' && mount.reload_support_path;
+    if(guidedReload){const path=mount.reload_support_path,phase=THREE.MathUtils.clamp(time/path.duration,0,1);let i=1;while(i<path.times.length-1&&phase>path.times[i])i++;const blend=THREE.MathUtils.smoothstep(phase,path.times[i-1],path.times[i]);supportLocal.add(vector(path.offsets[i-1]).lerp(vector(path.offsets[i]),blend));}
     const supportTarget = gun.localToWorld(supportLocal);
     if (id === 'c96' && motion === 'Reloading') {
       applyC96ReloadSupport(this, gun, gunRotation, mount, time, leftOffset);
-    } else if (motion !== 'Reloading' && !mount.release_support_hand) {
+    } else if ((motion !== 'Reloading' || guidedReload) && !mount.release_support_hand) {
       const leftRotation = mount.left_hand_quaternion_weapon
         ? gunRotation.clone().multiply(quaternion(mount.left_hand_quaternion_weapon)).normalize()
         : this.bones.LeftHand.getWorldQuaternion(new THREE.Quaternion());
@@ -553,7 +576,40 @@ export class WeaponAttachment {
       const trigger = gun.localToWorld(vector(data.trigger).add(new THREE.Vector3(.004, 0, 0)));
       this.fitTriggerFinger(trigger, mount.right_finger_pose_weight ?? this.character.finger_pose_weight ?? .6);
     }
-    this.state.leftContactErrorM = motion === 'Reloading' || mount.release_support_hand ? null : leftPalm.distanceTo(supportTarget);
+    // New equipment only: keep PIP/DIP flexion within anatomical bounds after
+    // source, native-fit, and trigger layers. Legacy weapons are unchanged.
+    if (['qsz92','type54','type64','m870'].includes(id)) {
+      for (const side of ['Left','Right']) for (const digit of ['Thumb','Index','Middle','Ring','Pinky']) {
+        const chain=[1,2,3,4].map(j=>this.model.bones.get(`mixamorig:${side}Hand${digit}${j}`));
+        for (const j of [1,2]) {
+          const previous=chain[j].getWorldPosition(new THREE.Vector3()).sub(chain[j-1].getWorldPosition(new THREE.Vector3())).normalize();
+          const current=chain[j+1].getWorldPosition(new THREE.Vector3()).sub(chain[j].getWorldPosition(new THREE.Vector3())).normalize();
+          const angle=previous.angleTo(current),limit=THREE.MathUtils.degToRad(digit==='Thumb'?85:j===1?105:80);
+          if(angle>limit){const swing=new THREE.Quaternion().setFromUnitVectors(previous,current);const desired=previous.clone().applyQuaternion(new THREE.Quaternion().slerp(swing,limit/angle));this.saveBone(chain[j]);this.turnToward(chain[j],current,desired);}
+        }
+      }
+    }
+    // V7: limit only explicitly audited legacy finger joints. This keeps the
+    // original gripping gesture and leaves all other joints and actions alone.
+    // Angles compare consecutive bone directions; they are a geometric guard,
+    // not a claim that every contact or mesh intersection has been resolved.
+    for (const [jointName, limitDegrees] of Object.entries(mount.legacy_finger_joint_limits_degrees || {})) {
+      const match = /^(Left|Right)Hand(Thumb|Index|Middle|Ring|Pinky)([23])$/.exec(jointName);
+      if (!match || !Number.isFinite(limitDegrees)) continue;
+      const [, side, digit, number] = match, j = Number(number);
+      const chain = [j - 1, j, j + 1].map(i => this.model.bones.get(`mixamorig:${side}Hand${digit}${i}`));
+      if (chain.some(b => !b)) continue;
+      const previous = chain[1].getWorldPosition(new THREE.Vector3()).sub(chain[0].getWorldPosition(new THREE.Vector3())).normalize();
+      const current = chain[2].getWorldPosition(new THREE.Vector3()).sub(chain[1].getWorldPosition(new THREE.Vector3())).normalize();
+      const angle = previous.angleTo(current), limit = THREE.MathUtils.degToRad(THREE.MathUtils.clamp(limitDegrees, 0, 180));
+      if (angle > limit && angle > 1e-6) {
+        const swing = new THREE.Quaternion().setFromUnitVectors(previous, current);
+        const desired = previous.clone().applyQuaternion(new THREE.Quaternion().slerp(swing, limit / angle));
+        this.saveBone(chain[1]);
+        this.turnToward(chain[1], current, desired);
+      }
+    }
+    this.state.leftContactErrorM = (motion === 'Reloading' && !guidedReload) || mount.release_support_hand ? null : leftPalm.distanceTo(supportTarget);
     this.state.leftPalmWorld = leftPalm.toArray();
     this.state.supportTargetWorld = supportTarget.toArray();
     const barrel = vector(data.barrel_forward || [0,0,-1]).applyQuaternion(gunRotation);
