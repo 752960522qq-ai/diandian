@@ -1,3 +1,4 @@
+import { captureGripSource, applyGripConstraints } from './grip-constraints.js?v=contact-r49';
 import { applyNaturalWeaponTrack } from './natural-weapon.js?v=natural-v6-shoulderfix';
 import * as THREE from 'three';
 import { applyReferenceGrip, sampleReferenceVector } from './reference-grip.js?v=r48';
@@ -364,6 +365,12 @@ export class WeaponAttachment {
   }
 
   update(motion, time = 0, animation = {}) {
+    const source = captureGripSource(this);
+    this.updateAuthored(motion, time, animation);
+    applyGripConstraints(this, source, motion, time, animation);
+  }
+
+  updateAuthored(motion, time = 0, animation = {}) {
     for (const part of [...this.pumpParts, ...this.type97PumpParts]) part.object.position.copy(part.rest);
     const handScale = this.applyHandScale();
     this.motion = motion;
