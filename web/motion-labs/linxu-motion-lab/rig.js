@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import { WeaponAttachment } from './weapon-attachment.js?v=linxu-v4';
+import { WeaponAttachment } from './weapon-attachment.js?v=male-pose-v7';
 
 export const unarmed = [
   ['Idle','待机'],['Walk','行走'],['Run','奔跑'],['WalkingBackwards','倒退行走'],
@@ -8,8 +8,9 @@ export const unarmed = [
   ['Dying','倒地死亡'],['FlyingBackDeath','后飞死亡']
 ];
 export const armed = [['RifleIdle','持枪待机'],['RifleWalk','持枪行走'],['RifleRun','持枪奔跑'],['RifleAimingIdle','瞄准'],['FiringRifle','射击'],['Reloading','换弹']];
+export const pistols = [['PistolIdle','持枪待机'],['PistolWalk','持枪行走'],['RifleRun','持枪奔跑'],['PistolAimingIdle','瞄准'],['PistolShooting','射击'],['Reloading','换弹']];
 export const oneShots = new Set(['Dying','FlyingBackDeath','HangToCrouch','SittingTalking','Reloading','ShotgunPump']);
-export function prepareRig(gltf, pack, cid, config, weapons, scene) {
+export function prepareRig(gltf, pack, cid, config, weapons, scene, extraPack={animations:[]}) {
   const wrapper = new THREE.Group();
   const box = new THREE.Box3().setFromObject(gltf.scene), center = box.getCenter(new THREE.Vector3());
   const authored = gltf.parser.json.asset.extras?.preview_normalization;
@@ -25,13 +26,14 @@ export function prepareRig(gltf, pack, cid, config, weapons, scene) {
   const mixer = new THREE.AnimationMixer(gltf.scene), actions = new Map();
   // The curated pack is authoritative: uploaded Idle/Walk and expression tests
   // must never leak back into the visible action set.
-  for(const clip of pack.animations) actions.set(clip.name,mixer.clipAction(clip));
+  for(const clip of [...pack.animations,...extraPack.animations]) actions.set(clip.name,mixer.clipAction(clip));
   const model={root:gltf.scene,wrapper,bones,mixer,actions,cid};
   model.attachment=new WeaponAttachment(model,config,cid,weapons,scene);
   model.pose=(motion,time=0,weapon='none',compareRun=false)=>{
+    if(weapon==='winchester1897')weapon='m870';
     model.attachment.beforeAnimation();mixer.stopAllAction();
     model.attachment.setWeapon(weapon==='none'?'qbz95':weapon);
-    const name=compareRun&&['Run','RifleRun'].includes(motion)&&actions.has(motion+'_Before')?motion+'_Before':config.weapons[weapon]?.animation_overrides?.[motion]||motion;
+    const name=compareRun&&!['qsz92','type54','type64','m870'].includes(weapon)&&['Run','RifleRun'].includes(motion)&&actions.has(motion+'_Before')?motion+'_Before':config.weapons[weapon]?.animation_overrides?.[motion]||motion;
     const action=actions.get(name);if(!action)throw Error('缺少动作 '+name);
     action.reset().setLoop(THREE.LoopOnce,1);action.clampWhenFinished=true;action.play();action.time=time;
     mixer.update(0);wrapper.updateMatrixWorld(true);
@@ -39,6 +41,6 @@ export function prepareRig(gltf, pack, cid, config, weapons, scene) {
     scene.updateMatrixWorld(true);
     return model.attachment.getState();
   };
-  model.duration=(motion,weapon)=>actions.get(config.weapons[weapon]?.animation_overrides?.[motion]||motion)?.getClip().duration||0;
+  model.duration=(motion,weapon)=>actions.get(config.weapons[weapon==='winchester1897'?'m870':weapon]?.animation_overrides?.[motion]||motion)?.getClip().duration||0;
   return model;
 }
