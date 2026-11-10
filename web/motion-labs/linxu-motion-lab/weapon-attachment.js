@@ -1,5 +1,10 @@
 import { applyNaturalWeaponTrack } from './natural-weapon.js?v=natural-v6-shoulderfix';
 import * as THREE from 'three';
+import { applyLinxuStockCorrections } from './specific-retouches.js?v=linxu-stock-stage1';
+import { applyLinxuQcqLeftWrist } from './qcq171-left-wrist-retouch.js?v=linxu-qcq-stage1';
+import { applyLinxuQcqRight } from './qcq171-right-wrist-retouch.js?v=linxu-qcq-right-stage1';
+import { applyLinxuQbu85Grip } from './linxuqbu85-grip-retouch.js?v=linxu-qbu85-stage1';
+import { applyLinxu97IdleGrip } from './linxu97-idle-grip-retouch.js?v=linxu97-idle-stage1';
 import { applyReferenceGrip, sampleReferenceVector } from './reference-grip.js?v=linxu-v4';
 import { fixedGunMotionNames, applyFixedGunPose } from './fixed-machine-gun.js?v=weapons-r44';
 import { rocketMotions, rocketSupportWeight, rocketCarryWeight, applyRocketPosePath, fitRocketCarryReach } from './rocket-motion.js?v=pf89-r40';
@@ -366,6 +371,15 @@ export class WeaponAttachment {
   }
 
   update(motion, time = 0, animation = {}) {
+    this.updateBeforeLinxuStock(motion, time, animation);
+    applyLinxuStockCorrections(this, motion);
+    applyLinxuQcqLeftWrist(this, motion);
+    applyLinxuQcqRight(this, motion);
+    applyLinxuQbu85Grip(this, motion);
+    applyLinxu97IdleGrip(this, motion);
+  }
+
+  updateBeforeLinxuStock(motion, time = 0, animation = {}) {
     for (const part of [...this.pumpParts, ...this.type97PumpParts]) part.object.position.copy(part.rest);
     const handScale = this.applyHandScale();
     this.motion = motion;

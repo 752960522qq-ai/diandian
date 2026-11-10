@@ -1,5 +1,14 @@
 import { applyNaturalWeaponTrack } from './natural-weapon.js?v=natural-v6-shoulderfix';
 import * as THREE from 'three';
+import { applyMilitaryPistolFiring } from './specific-retouches.js?v=military-pistol-stage1';
+import { applyVestM870Firing } from './vest-m870-retouch.js?v=vest-m870-stage1';
+import { applyMilitary56Idle } from './military-56-wrist-retouch.js?v=military-56-stage1';
+import { applyVest56Grip } from './vest56-grip-retouch.js?v=vest-56-stage1';
+import { applyVestQbu85Grip } from './vestqbu85-grip-retouch.js?v=vest-qbu85-stage1';
+import { applyVestQbu85Walk } from './vestqbu85-walk-retouch.js?v=vest-qbu85-walk-stage1';
+import { applyMilitary97IdleGrip } from './military97-idle-grip-retouch.js?v=military97-idle-stage1';
+import { applyMilitaryPistolIdleFingers } from './military-pistol-idle-fingers-retouch.js?v=military-pistol-idle-stage1';
+import { applyVest56FiringFingers } from './vest56-firing-fingers-retouch.js?v=vest56-firing-stage1';
 import { applyReferenceGrip, sampleReferenceVector } from './reference-grip.js?v=r48';
 import { fixedGunMotionNames, applyFixedGunPose } from './fixed-machine-gun.js?v=weapons-r44';
 import { rocketMotions, rocketSupportWeight, rocketCarryWeight, applyRocketPosePath, fitRocketCarryReach } from './rocket-motion.js?v=pf89-r40';
@@ -364,6 +373,19 @@ export class WeaponAttachment {
   }
 
   update(motion, time = 0, animation = {}) {
+    this.updateBeforeMilitaryPistol(motion, time, animation);
+    applyMilitaryPistolFiring(this, motion);
+    applyVestM870Firing(this, motion, time);
+    applyMilitary56Idle(this, motion);
+    applyVest56Grip(this, motion);
+    applyVestQbu85Grip(this, motion);
+    applyVestQbu85Walk(this, motion);
+    applyMilitary97IdleGrip(this, motion);
+    applyMilitaryPistolIdleFingers(this, motion);
+    applyVest56FiringFingers(this, motion);
+  }
+
+  updateBeforeMilitaryPistol(motion, time = 0, animation = {}) {
     for (const part of [...this.pumpParts, ...this.type97PumpParts]) part.object.position.copy(part.rest);
     const handScale = this.applyHandScale();
     this.motion = motion;

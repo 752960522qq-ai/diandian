@@ -1,4 +1,8 @@
 import * as THREE from 'three';
+import { applyZhigengType97Firing } from './specific-retouches.js?v=zhigeng97-stage1';
+import { applyZhigengPf89Carry } from './pf89-carry-retouch.js?v=zhigeng-pf89-stage1';
+import { applyZhigengQjzIdle } from './qjz89-idle-retouch.js?v=zhigeng-qjz-stage1';
+import { applyZhigeng97PumpWrist } from './type97-pump-wrist-retouch.js?v=zhigeng97-pump-stage1';
 import { fixedGunMotionNames, applyFixedGunPose } from './fixed-machine-gun.js?v=natural-weapons-v6';
 import { rocketMotions, rocketSupportWeight, rocketCarryWeight, applyRocketPosePath, fitRocketCarryReach } from './rocket-motion.js?v=pf89-r40';
 import { ChestSkinningRelief } from './chest-skinning.js?v=grip-r31';
@@ -313,6 +317,14 @@ export class WeaponAttachment {
   }
 
   update(motion, time = 0, animation = {}) {
+    this.updateBeforeZhigengType97(motion, time, animation);
+    applyZhigengType97Firing(this, motion, time);
+    applyZhigengPf89Carry(this, motion);
+    applyZhigengQjzIdle(this, motion);
+    applyZhigeng97PumpWrist(this, motion, time);
+  }
+
+  updateBeforeZhigengType97(motion, time = 0, animation = {}) {
     for (const part of [...this.pumpParts, ...this.type97PumpParts]) part.object.position.copy(part.rest);
     const handScale = this.applyHandScale();
     this.motion = motion;
