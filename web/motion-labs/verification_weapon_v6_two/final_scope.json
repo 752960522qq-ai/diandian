@@ -1,0 +1,199 @@
+{
+  "scope": "Final production versus original baseline",
+  "characters": {
+    "diandian": {
+      "unchangedWeapons": {
+        "qbz95": {
+          "geometryIdentical": true,
+          "dataIdentical": true,
+          "mountIdentical": true,
+          "sampledFrames": 18,
+          "maxNumericDrift": 0
+        },
+        "type56_1": {
+          "geometryIdentical": true,
+          "dataIdentical": true,
+          "mountIdentical": true,
+          "sampledFrames": 18,
+          "maxNumericDrift": 0
+        },
+        "hanyang88": {
+          "geometryIdentical": true,
+          "dataIdentical": true,
+          "mountIdentical": true,
+          "sampledFrames": 18,
+          "maxNumericDrift": 0
+        },
+        "qbu85": {
+          "geometryIdentical": true,
+          "dataIdentical": true,
+          "mountIdentical": true,
+          "sampledFrames": 18,
+          "maxNumericDrift": 0
+        },
+        "c96": {
+          "geometryIdentical": true,
+          "dataIdentical": true,
+          "mountIdentical": true,
+          "sampledFrames": 18,
+          "maxNumericDrift": 0
+        },
+        "qcq171": {
+          "geometryIdentical": true,
+          "dataIdentical": true,
+          "mountIdentical": true,
+          "sampledFrames": 18,
+          "maxNumericDrift": 0
+        },
+        "type97hawk": {
+          "geometryIdentical": true,
+          "dataIdentical": true,
+          "mountIdentical": true,
+          "sampledFrames": 18,
+          "maxNumericDrift": 0
+        },
+        "pf89": {
+          "geometryIdentical": true,
+          "dataIdentical": true,
+          "mountIdentical": true,
+          "sampledFrames": 18,
+          "maxNumericDrift": 0
+        },
+        "qjz89": {
+          "geometryIdentical": true,
+          "dataIdentical": true,
+          "mountIdentical": true,
+          "sampledFrames": 0,
+          "maxNumericDrift": 0
+        },
+        "qbu10": {
+          "geometryIdentical": true,
+          "dataIdentical": true,
+          "mountIdentical": true,
+          "sampledFrames": 18,
+          "maxNumericDrift": 0
+        }
+      },
+      "characterGlbIdentical": true,
+      "bodyMotionPackHashesIdentical": [
+        {
+          "file": "motion_additions.glb",
+          "equal": true
+        },
+        {
+          "file": "leon_pistol_animations.glb",
+          "equal": true
+        },
+        {
+          "file": "re4_shotgun_animations.glb",
+          "equal": true
+        },
+        {
+          "file": "re4_rocket_upper.glb",
+          "equal": true
+        },
+        {
+          "file": "uploaded_motions.glb",
+          "equal": true
+        }
+      ]
+    },
+    "zhigeng": {
+      "unchangedWeapons": {
+        "qbz95": {
+          "geometryIdentical": true,
+          "dataIdentical": true,
+          "mountIdentical": true,
+          "sampledFrames": 18,
+          "maxNumericDrift": 0
+        },
+        "type56_1": {
+          "geometryIdentical": true,
+          "dataIdentical": true,
+          "mountIdentical": true,
+          "sampledFrames": 18,
+          "maxNumericDrift": 0
+        },
+        "hanyang88": {
+          "geometryIdentical": true,
+          "dataIdentical": true,
+          "mountIdentical": true,
+          "sampledFrames": 18,
+          "maxNumericDrift": 0
+        },
+        "qbu85": {
+          "geometryIdentical": true,
+          "dataIdentical": true,
+          "mountIdentical": true,
+          "sampledFrames": 18,
+          "maxNumericDrift": 0
+        },
+        "c96": {
+          "geometryIdentical": true,
+          "dataIdentical": true,
+          "mountIdentical": true,
+          "sampledFrames": 18,
+          "maxNumericDrift": 0
+        },
+        "qcq171": {
+          "geometryIdentical": true,
+          "dataIdentical": true,
+          "mountIdentical": true,
+          "sampledFrames": 18,
+          "maxNumericDrift": 0
+        },
+        "type97hawk": {
+          "geometryIdentical": true,
+          "dataIdentical": true,
+          "mountIdentical": true,
+          "sampledFrames": 18,
+          "maxNumericDrift": 0
+        },
+        "pf89": {
+          "geometryIdentical": true,
+          "dataIdentical": true,
+          "mountIdentical": true,
+          "sampledFrames": 18,
+          "maxNumericDrift": 0
+        },
+        "qjz89": {
+          "geometryIdentical": true,
+          "dataIdentical": true,
+          "mountIdentical": true,
+          "sampledFrames": 0,
+          "maxNumericDrift": 0
+        },
+        "qbu10": {
+          "geometryIdentical": true,
+          "dataIdentical": true,
+          "mountIdentical": true,
+          "sampledFrames": 18,
+          "maxNumericDrift": 0
+        }
+      },
+      "characterGlbIdentical": true,
+      "bodyMotionPackHashesIdentical": [
+        {
+          "file": "motion_additions.glb",
+          "equal": true
+        },
+        {
+          "file": "leon_pistol_animations.glb",
+          "equal": true
+        },
+        {
+          "file": "re4_shotgun_animations.glb",
+          "equal": true
+        },
+        {
+          "file": "re4_rocket_upper.glb",
+          "equal": true
+        },
+        {
+          "file": "uploaded_motions.glb",
+          "equal": true
+        }
+      ]
+    }
+  }
+}

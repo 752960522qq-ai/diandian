@@ -1,0 +1,4279 @@
+{
+  "scope": "Independent raw GLTF accessor interpolation and reconstructed skinned bone hierarchy against final prepareRig().pose(). Exact and between-sample checks, including hand-local gun tracks and pump.",
+  "limits": {
+    "exactAngleDeg": 0.1,
+    "exactPositionM": 0.0001,
+    "interpolatedAngleDeg": 1,
+    "interpolatedPositionM": 0.002
+  },
+  "characters": {
+    "linxu": {
+      "pack_sha256": "5393e2fdd37c45f20e2ffba7c0ec1905a5d281b70a842edd978b213463aa72bd",
+      "tracks_sha256": "21b52bdfc5e21f132ca6365e4a78dac7d67ff984aac19969cb1543f981d0cd1d",
+      "rows": [
+        {
+          "clip": "Equipped_qbz95_RifleIdle",
+          "weapon": "qbz95",
+          "motion": "RifleIdle",
+          "duration": 8.566666603088379,
+          "frames": 515,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 1.1001446047023819e-7,
+              "gunPositionM": 4.105746703993511e-8,
+              "gunAngleDeg": 0.000005399738656763832,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000007244509618354401,
+              "bonePositionM": 9.442412194346368e-8,
+              "gunPositionM": 4.999153163226374e-8,
+              "gunAngleDeg": 0.0000034150945850063755,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qbz95_RifleWalk",
+          "weapon": "qbz95",
+          "motion": "RifleWalk",
+          "duration": 1.2999999523162842,
+          "frames": 157,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 9.330482140202661e-8,
+              "gunPositionM": 1.8243660393350234e-8,
+              "gunAngleDeg": 0.000003818191820832845,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00006752912386959585,
+              "bonePositionM": 2.1587082101953848e-7,
+              "gunPositionM": 1.5725595155586839e-7,
+              "gunAngleDeg": 0.00002450791418631552,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qbz95_RifleRun",
+          "weapon": "qbz95",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000012778113880520799,
+              "bonePositionM": 1.0583886672471738e-7,
+              "gunPositionM": 6.600561635269877e-8,
+              "gunAngleDeg": 0.000009035490975690204,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.09183891847963879,
+              "bonePositionM": 0.0003984638863542044,
+              "gunPositionM": 0.00003980268953844834,
+              "gunAngleDeg": 0.0045479091680833495,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qbz95_RifleAimingIdle",
+          "weapon": "qbz95",
+          "motion": "RifleAimingIdle",
+          "duration": 3.0999999046325684,
+          "frames": 187,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 8.012863776173049e-8,
+              "gunPositionM": 6.624316888544832e-8,
+              "gunAngleDeg": 0.000005399738656763832,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 1.1806901335187102e-7,
+              "gunPositionM": 5.1863933120887314e-8,
+              "gunAngleDeg": 0.000007040397847728099,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qbz95_FiringRifle",
+          "weapon": "qbz95",
+          "motion": "FiringRifle",
+          "duration": 0.2666666805744171,
+          "frames": 66,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 7.876285100649254e-8,
+              "gunPositionM": 7.021360969487978e-8,
+              "gunAngleDeg": 0.000007636383641665691,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00004080287782440209,
+              "bonePositionM": 1.3682598394651946e-7,
+              "gunPositionM": 4.2535695759303644e-8,
+              "gunAngleDeg": 0.00000980911239371096,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qbz95_Reloading",
+          "weapon": "qbz95",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "frames": 397,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000008706816964856284,
+              "bonePositionM": 1.0393489777976872e-7,
+              "gunPositionM": 7.100016351943025e-8,
+              "gunAngleDeg": 0.000004517745487845101,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.012527592105480273,
+              "bonePositionM": 0.00010885112815379517,
+              "gunPositionM": 4.647090083018883e-8,
+              "gunAngleDeg": 0.000006156649318399951,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type56_1_RifleIdle",
+          "weapon": "type56_1",
+          "motion": "RifleIdle",
+          "duration": 8.566666603088379,
+          "frames": 515,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 1.1001446047023819e-7,
+              "gunPositionM": 5.307578046568626e-8,
+              "gunAngleDeg": 0.000005663293681020316,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000007244509618354401,
+              "bonePositionM": 9.442412194346368e-8,
+              "gunPositionM": 5.7464924769938074e-8,
+              "gunAngleDeg": 0.000004829673078902933,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type56_1_RifleWalk",
+          "weapon": "type56_1",
+          "motion": "RifleWalk",
+          "duration": 1.2999999523162842,
+          "frames": 157,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 9.330482140202661e-8,
+              "gunPositionM": 3.2854755342793145e-8,
+              "gunAngleDeg": 0.000007040397847728099,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00006571284499118878,
+              "bonePositionM": 2.9700009731793716e-7,
+              "gunPositionM": 6.934827729506576e-8,
+              "gunAngleDeg": 0.000011706354451251833,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type56_1_RifleRun",
+          "weapon": "type56_1",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000012778113880520799,
+              "bonePositionM": 1.0583886672471738e-7,
+              "gunPositionM": 6.09535463071187e-8,
+              "gunAngleDeg": 0.000008706816964856284,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.09183891847963879,
+              "bonePositionM": 0.0003984638863542044,
+              "gunPositionM": 0.000045360576477623293,
+              "gunAngleDeg": 0.004594308226847936,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type56_1_RifleAimingIdle",
+          "weapon": "type56_1",
+          "motion": "RifleAimingIdle",
+          "duration": 3.0999999046325684,
+          "frames": 187,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 7.85712868846606e-8,
+              "gunPositionM": 6.974367898601138e-8,
+              "gunAngleDeg": 0.000008189109132934075,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 1.1806901335187102e-7,
+              "gunPositionM": 4.841567825728219e-8,
+              "gunAngleDeg": 0.000005122641877509564,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type56_1_FiringRifle",
+          "weapon": "type56_1",
+          "motion": "FiringRifle",
+          "duration": 0.2666666805744171,
+          "frames": 66,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 6.59461289900481e-8,
+              "gunPositionM": 6.358955667992863e-8,
+              "gunAngleDeg": 0.000006830189170012752,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00004738251441432754,
+              "bonePositionM": 1.846525249892141e-7,
+              "gunPositionM": 3.07712092620398e-8,
+              "gunAngleDeg": 0.000009507220963046143,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type56_1_Reloading",
+          "weapon": "type56_1",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "frames": 397,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000008706816964856284,
+              "bonePositionM": 1.0393489777976872e-7,
+              "gunPositionM": 6.0440276699967e-8,
+              "gunAngleDeg": 0.000005399738656763832,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.012527592105480273,
+              "bonePositionM": 0.00010885112815379517,
+              "gunPositionM": 4.497356618863944e-8,
+              "gunAngleDeg": 0.000008365239156607494,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qbu85_RifleIdle",
+          "weapon": "qbu85",
+          "motion": "RifleIdle",
+          "duration": 8.566666603088379,
+          "frames": 515,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 1.1001446047023819e-7,
+              "gunPositionM": 6.287668344611606e-8,
+              "gunAngleDeg": 0.000003818191820832845,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000010245283755019128,
+              "bonePositionM": 9.442412194346368e-8,
+              "gunPositionM": 7.126248442427503e-8,
+              "gunAngleDeg": 0.000005399738656763832,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qbu85_RifleWalk",
+          "weapon": "qbu85",
+          "motion": "RifleWalk",
+          "duration": 1.2999999523162842,
+          "frames": 157,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 9.330482140202661e-8,
+              "gunPositionM": 3.35142000983969e-8,
+              "gunAngleDeg": 0.000005122641877509564,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00013299151818336647,
+              "bonePositionM": 4.2020063404323276e-7,
+              "gunPositionM": 1.3563579847953997e-7,
+              "gunAngleDeg": 0.000025384515439650024,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qbu85_RifleRun",
+          "weapon": "qbu85",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000012778113880520799,
+              "bonePositionM": 1.0583886672471738e-7,
+              "gunPositionM": 6.44466306900908e-8,
+              "gunAngleDeg": 0.00000782496472061276,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.09183891847963879,
+              "bonePositionM": 0.0003984638863542044,
+              "gunPositionM": 0.00004295784678684921,
+              "gunAngleDeg": 0.004606782850157089,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qbu85_RifleAimingIdle",
+          "weapon": "qbu85",
+          "motion": "RifleAimingIdle",
+          "duration": 3.0999999046325684,
+          "frames": 187,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 8.178801745584447e-8,
+              "gunPositionM": 7.319741576445447e-8,
+              "gunAngleDeg": 0.000004829673078902933,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 1.1806901335187102e-7,
+              "gunPositionM": 6.196554604470899e-8,
+              "gunAngleDeg": 0.000004829673078902933,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qbu85_FiringRifle",
+          "weapon": "qbu85",
+          "motion": "FiringRifle",
+          "duration": 0.2666666805744171,
+          "frames": 66,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 7.58236762249219e-8,
+              "gunPositionM": 9.6259172385634e-8,
+              "gunAngleDeg": 0.000004182619578303746,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00006411834399101719,
+              "bonePositionM": 2.378705723655817e-7,
+              "gunPositionM": 5.6848728855585096e-8,
+              "gunAngleDeg": 0.000009352621701108683,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qbu85_Reloading",
+          "weapon": "qbu85",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "frames": 397,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000008706816964856284,
+              "bonePositionM": 1.0393489777976872e-7,
+              "gunPositionM": 5.1786087632912973e-8,
+              "gunAngleDeg": 0.0000024148365394514667,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.01997560553259283,
+              "bonePositionM": 0.0001114829553759334,
+              "gunPositionM": 0.000006558548327493881,
+              "gunAngleDeg": 0.0005687465547887155,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type97hawk_RifleIdle",
+          "weapon": "type97hawk",
+          "motion": "RifleIdle",
+          "duration": 8.566666603088379,
+          "frames": 515,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 1.1001446047023819e-7,
+              "gunPositionM": 4.643381645802086e-8,
+              "gunAngleDeg": 0.000007040397847728099,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00001564992944122553,
+              "bonePositionM": 9.442412194346368e-8,
+              "gunPositionM": 5.808836537031245e-8,
+              "gunAngleDeg": 0.000005399738656763832,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type97hawk_RifleWalk",
+          "weapon": "type97hawk",
+          "motion": "RifleWalk",
+          "duration": 1.2999999523162842,
+          "frames": 157,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 9.330482140202661e-8,
+              "gunPositionM": 3.930009553387376e-8,
+              "gunAngleDeg": 0.000009035490975690204,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00011591215389367533,
+              "bonePositionM": 4.1704882132024135e-7,
+              "gunPositionM": 1.329277698079199e-7,
+              "gunAngleDeg": 0.000028877244990729382,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type97hawk_RifleRun",
+          "weapon": "type97hawk",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000012778113880520799,
+              "bonePositionM": 1.0583886672471738e-7,
+              "gunPositionM": 4.575260882678519e-8,
+              "gunAngleDeg": 0.000005399738656763832,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.09183891847963879,
+              "bonePositionM": 0.0003984638863542044,
+              "gunPositionM": 0.000027948294921007118,
+              "gunAngleDeg": 0.004780964710876663,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type97hawk_RifleAimingIdle",
+          "weapon": "type97hawk",
+          "motion": "RifleAimingIdle",
+          "duration": 3.0999999046325684,
+          "frames": 187,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 6.959444942230246e-8,
+              "gunPositionM": 7.154884955297394e-8,
+              "gunAngleDeg": 0.000007040397847728099,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 1.1806901335187102e-7,
+              "gunPositionM": 5.011907090102632e-8,
+              "gunAngleDeg": 0.000004829673078902933,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type97hawk_FiringRifle",
+          "weapon": "type97hawk",
+          "motion": "FiringRifle",
+          "duration": 0.23333333432674408,
+          "frames": 58,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 7.449589698771148e-8,
+              "gunPositionM": 5.1085598840946826e-8,
+              "gunAngleDeg": 0.000007636383641665691,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.024613934218251626,
+              "bonePositionM": 0.00033705653813260745,
+              "gunPositionM": 0.0002802758223031218,
+              "gunAngleDeg": 0.026079887547299094,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type97hawk_Reloading",
+          "weapon": "type97hawk",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "frames": 397,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000008706816964856284,
+              "bonePositionM": 1.0393489777976872e-7,
+              "gunPositionM": 6.889285801657076e-8,
+              "gunAngleDeg": 0.000003818191820832845,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.024665072785057456,
+              "bonePositionM": 0.00009177420709354525,
+              "gunPositionM": 0.0000015533009299618094,
+              "gunAngleDeg": 0.00026642662924928836,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type97hawk_ShotgunPump",
+          "weapon": "type97hawk",
+          "motion": "ShotgunPump",
+          "duration": 0.7333333492279053,
+          "frames": 178,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 7.058544954997702e-8,
+              "gunPositionM": 5.6238725536586227e-8,
+              "gunAngleDeg": 0.000007040397847728099,
+              "pumpM": 1.1512205381689067e-10
+            },
+            "interpolated": {
+              "angleDeg": 0.0014513609578863701,
+              "bonePositionM": 0.000003715984459568313,
+              "gunPositionM": 6.50657309757587e-8,
+              "gunAngleDeg": 0.000005915117333884393,
+              "pumpM": 4.2745289036876313e-8
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qcq171_RifleIdle",
+          "weapon": "qcq171",
+          "motion": "RifleIdle",
+          "duration": 8.566666603088379,
+          "frames": 515,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 1.1001446047023819e-7,
+              "gunPositionM": 5.084916417391819e-8,
+              "gunAngleDeg": 0.000007244509618354401,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 9.442412194346368e-8,
+              "gunPositionM": 6.107456607687987e-8,
+              "gunAngleDeg": 0.0000029575586669421963,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qcq171_RifleWalk",
+          "weapon": "qcq171",
+          "motion": "RifleWalk",
+          "duration": 1.2999999523162842,
+          "frames": 157,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 9.330482140202661e-8,
+              "gunPositionM": 1.8138682675055076e-8,
+              "gunAngleDeg": 0.000006389056940260397,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00006707423124953713,
+              "bonePositionM": 2.5908200209315644e-7,
+              "gunPositionM": 8.250507756887167e-8,
+              "gunAngleDeg": 0.00001438804923141365,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qcq171_RifleRun",
+          "weapon": "qcq171",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000012778113880520799,
+              "bonePositionM": 1.0583886672471738e-7,
+              "gunPositionM": 3.225282955839554e-8,
+              "gunAngleDeg": 0.000007244509618354401,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.09183891847963879,
+              "bonePositionM": 0.0003984638863542044,
+              "gunPositionM": 0.000042990361196714865,
+              "gunAngleDeg": 0.0045566097069154494,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qcq171_RifleAimingIdle",
+          "weapon": "qcq171",
+          "motion": "RifleAimingIdle",
+          "duration": 3.0999999046325684,
+          "frames": 187,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 9.788971316011665e-8,
+              "gunPositionM": 6.908378424859592e-8,
+              "gunAngleDeg": 0.000004517745487845101,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 1.1806901335187102e-7,
+              "gunPositionM": 5.9463760355627e-8,
+              "gunAngleDeg": 0.0000034150945850063755,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qcq171_FiringRifle",
+          "weapon": "qcq171",
+          "motion": "FiringRifle",
+          "duration": 0.2666666805744171,
+          "frames": 66,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 6.59461289900481e-8,
+              "gunPositionM": 4.8462727945608085e-8,
+              "gunAngleDeg": 0.00000800910673140078,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00003553175746295771,
+              "bonePositionM": 1.8129244874879813e-7,
+              "gunPositionM": 3.4877128929726335e-8,
+              "gunAngleDeg": 0.00000887267600082659,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qcq171_Reloading",
+          "weapon": "qcq171",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "frames": 397,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000008706816964856284,
+              "bonePositionM": 1.0393489777976872e-7,
+              "gunPositionM": 5.514296688875235e-8,
+              "gunAngleDeg": 0.00000887267600082659,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.012527592105480273,
+              "bonePositionM": 0.00010885112815379517,
+              "gunPositionM": 4.981962983363122e-8,
+              "gunAngleDeg": 0.000006156649318399951,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qsz92_PistolIdle",
+          "weapon": "qsz92",
+          "motion": "PistolIdle",
+          "duration": 0.03333333507180214,
+          "frames": 4,
+          "samples": 8,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 8.953621105534811e-8,
+              "gunPositionM": 2.919588138172804e-8,
+              "gunAngleDeg": 0.0000034150945850063755,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000005915117333884393,
+              "bonePositionM": 8.95362110681061e-8,
+              "gunPositionM": 2.9195881375290237e-8,
+              "gunAngleDeg": 0.0000029575586669421963,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qsz92_PistolWalk",
+          "weapon": "qsz92",
+          "motion": "PistolWalk",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.00000887267600082659,
+              "bonePositionM": 1.2346682203036557e-7,
+              "gunPositionM": 4.787781790932656e-8,
+              "gunAngleDeg": 0.0000029575586669421963,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00015096108764166413,
+              "bonePositionM": 6.957280960602567e-7,
+              "gunPositionM": 3.939814451073859e-8,
+              "gunAngleDeg": 0.000007244509618354401,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qsz92_RifleRun",
+          "weapon": "qsz92",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000013445240826417657,
+              "bonePositionM": 8.235554784375063e-8,
+              "gunPositionM": 8.533491245544267e-8,
+              "gunAngleDeg": 0.000005915117333884393,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.03164231921454144,
+              "bonePositionM": 0.00030415966498500583,
+              "gunPositionM": 0.000032008269279063094,
+              "gunAngleDeg": 0.0001508741479583198,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qsz92_PistolAimingIdle",
+          "weapon": "qsz92",
+          "motion": "PistolAimingIdle",
+          "duration": 1.3333333730697632,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 8.172917484987436e-8,
+              "gunPositionM": 5.469895629743734e-8,
+              "gunAngleDeg": 0.000005915117333884393,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 1.1033118750898743e-7,
+              "gunPositionM": 1.0976524303960042e-7,
+              "gunAngleDeg": 0.0000029575586669421963,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qsz92_PistolShooting",
+          "weapon": "qsz92",
+          "motion": "PistolShooting",
+          "duration": 1.1666666269302368,
+          "frames": 281,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 6.819899327800038e-8,
+              "gunPositionM": 5.272989146009672e-8,
+              "gunAngleDeg": 0.000005399738656763832,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 7.957594142482013e-8,
+              "gunPositionM": 7.894264003323806e-8,
+              "gunAngleDeg": 0.0000029575586669421963,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qsz92_Reloading",
+          "weapon": "qsz92",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "frames": 397,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000009659346157805868,
+              "bonePositionM": 1.4526491240553928e-7,
+              "gunPositionM": 5.143177076050808e-8,
+              "gunAngleDeg": 0.000006156649318399951,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00012390017750613634,
+              "bonePositionM": 4.4579339974086263e-7,
+              "gunPositionM": 5.126161074149973e-8,
+              "gunAngleDeg": 0.000012313298636799906,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type54_PistolIdle",
+          "weapon": "type54",
+          "motion": "PistolIdle",
+          "duration": 0.03333333507180214,
+          "frames": 4,
+          "samples": 8,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 8.953621105534811e-8,
+              "gunPositionM": 2.777619625671025e-8,
+              "gunAngleDeg": 0.0000034150945850063755,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000005915117333884393,
+              "bonePositionM": 8.95362110681061e-8,
+              "gunPositionM": 2.7776196250530514e-8,
+              "gunAngleDeg": 0.0000029575586669421963,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type54_PistolWalk",
+          "weapon": "type54",
+          "motion": "PistolWalk",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.00000887267600082659,
+              "bonePositionM": 1.2346682203036557e-7,
+              "gunPositionM": 4.632947296539733e-8,
+              "gunAngleDeg": 0.0000029575586669421963,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00015160673821309955,
+              "bonePositionM": 7.020205342145666e-7,
+              "gunPositionM": 3.786334222259381e-8,
+              "gunAngleDeg": 0.000007244509618354401,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type54_RifleRun",
+          "weapon": "type54",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000013445240826417657,
+              "bonePositionM": 8.235554784375063e-8,
+              "gunPositionM": 8.353235479378225e-8,
+              "gunAngleDeg": 0.000005915117333884393,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.03164231921454144,
+              "bonePositionM": 0.00030415966498500583,
+              "gunPositionM": 0.000032017440624796065,
+              "gunAngleDeg": 0.0001508741479583198,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type54_PistolAimingIdle",
+          "weapon": "type54",
+          "motion": "PistolAimingIdle",
+          "duration": 1.3333333730697632,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 8.172917484987436e-8,
+              "gunPositionM": 5.344456879231727e-8,
+              "gunAngleDeg": 0.000005915117333884393,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 1.0700131210856219e-7,
+              "gunPositionM": 1.0700516701974623e-7,
+              "gunAngleDeg": 0.0000029575586669421963,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type54_PistolShooting",
+          "weapon": "type54",
+          "motion": "PistolShooting",
+          "duration": 1.1666666269302368,
+          "frames": 281,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 6.819899327800038e-8,
+              "gunPositionM": 5.135401541619646e-8,
+              "gunAngleDeg": 0.000005399738656763832,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 7.881000983226266e-8,
+              "gunPositionM": 7.700281962624812e-8,
+              "gunAngleDeg": 0.0000029575586669421963,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type54_Reloading",
+          "weapon": "type54",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "frames": 397,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000009659346157805868,
+              "bonePositionM": 1.4526491240553928e-7,
+              "gunPositionM": 5.033661373241929e-8,
+              "gunAngleDeg": 0.000006156649318399951,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00012390017750613634,
+              "bonePositionM": 4.4579339974086263e-7,
+              "gunPositionM": 5.425502575036063e-8,
+              "gunAngleDeg": 0.000012313298636799906,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type64_PistolIdle",
+          "weapon": "type64",
+          "motion": "PistolIdle",
+          "duration": 0.03333333507180214,
+          "frames": 4,
+          "samples": 8,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 8.953621105534811e-8,
+              "gunPositionM": 2.7787630465391822e-8,
+              "gunAngleDeg": 0.0000034150945850063755,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000005915117333884393,
+              "bonePositionM": 8.95362110681061e-8,
+              "gunPositionM": 2.7787630459294316e-8,
+              "gunAngleDeg": 0.0000029575586669421963,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type64_PistolWalk",
+          "weapon": "type64",
+          "motion": "PistolWalk",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.00000887267600082659,
+              "bonePositionM": 1.2346682203036557e-7,
+              "gunPositionM": 4.671341136881137e-8,
+              "gunAngleDeg": 0.0000029575586669421963,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00015160673821309955,
+              "bonePositionM": 7.020205342145666e-7,
+              "gunPositionM": 3.7745693749063446e-8,
+              "gunAngleDeg": 0.000007244509618354401,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type64_RifleRun",
+          "weapon": "type64",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000013445240826417657,
+              "bonePositionM": 8.235554784375063e-8,
+              "gunPositionM": 8.401171320451693e-8,
+              "gunAngleDeg": 0.000005915117333884393,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.03164231921454144,
+              "bonePositionM": 0.00030415966498500583,
+              "gunPositionM": 0.00003201653417774532,
+              "gunAngleDeg": 0.0001508741479583198,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type64_PistolAimingIdle",
+          "weapon": "type64",
+          "motion": "PistolAimingIdle",
+          "duration": 1.3333333730697632,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 8.172917484987436e-8,
+              "gunPositionM": 5.328847451872725e-8,
+              "gunAngleDeg": 0.000005915117333884393,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 1.0889094032569036e-7,
+              "gunPositionM": 1.0706364167557155e-7,
+              "gunAngleDeg": 0.0000029575586669421963,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type64_PistolShooting",
+          "weapon": "type64",
+          "motion": "PistolShooting",
+          "duration": 1.1666666269302368,
+          "frames": 281,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 6.819899327800038e-8,
+              "gunPositionM": 5.1374049218236384e-8,
+              "gunAngleDeg": 0.000005399738656763832,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 7.84616292310345e-8,
+              "gunPositionM": 7.696825887218149e-8,
+              "gunAngleDeg": 0.0000029575586669421963,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type64_Reloading",
+          "weapon": "type64",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "frames": 397,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000009659346157805868,
+              "bonePositionM": 1.4526491240553928e-7,
+              "gunPositionM": 5.0483955882511134e-8,
+              "gunAngleDeg": 0.000006156649318399951,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00012390017750613634,
+              "bonePositionM": 4.4579339974086263e-7,
+              "gunPositionM": 5.466780461059757e-8,
+              "gunAngleDeg": 0.000012313298636799906,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_m870_RifleIdle",
+          "weapon": "m870",
+          "motion": "RifleIdle",
+          "duration": 7.699999809265137,
+          "frames": 463,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 1.1218185221409442e-7,
+              "gunPositionM": 4.565657059594036e-8,
+              "gunAngleDeg": 0.000005663293681020316,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 8.010522531153165e-8,
+              "gunPositionM": 2.626745954236401e-8,
+              "gunAngleDeg": 0.000005663293681020316,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_m870_RifleWalk",
+          "weapon": "m870",
+          "motion": "RifleWalk",
+          "duration": 1.100000023841858,
+          "frames": 134,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 1.0578791629341063e-7,
+              "gunPositionM": 4.98433488311693e-8,
+              "gunAngleDeg": 0.000004829673078902933,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.2536564953312024,
+              "bonePositionM": 0.0018072151169960624,
+              "gunPositionM": 0.00005605327885824986,
+              "gunAngleDeg": 0.005925708236332244,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_m870_RifleRun",
+          "weapon": "m870",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000013445240826417657,
+              "bonePositionM": 1.0944227908329778e-7,
+              "gunPositionM": 6.179065022304992e-8,
+              "gunAngleDeg": 0.00000800910673140078,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.03164231921454144,
+              "bonePositionM": 0.00030415966498500583,
+              "gunPositionM": 0.000032044579521696155,
+              "gunAngleDeg": 0.00017851833260077699,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_m870_RifleAimingIdle",
+          "weapon": "m870",
+          "motion": "RifleAimingIdle",
+          "duration": 0.5333333611488342,
+          "frames": 34,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 7.300635368641771e-8,
+              "gunPositionM": 4.075088274737515e-8,
+              "gunAngleDeg": 0.0000029575586669421963,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000005915117333884393,
+              "bonePositionM": 7.30063538795664e-8,
+              "gunPositionM": 4.075088280913765e-8,
+              "gunAngleDeg": 0.0000029575586669421963,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_m870_ShotgunAimLevel",
+          "weapon": "m870",
+          "motion": "ShotgunAimLevel",
+          "duration": 0.5333333611488342,
+          "frames": 34,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 7.300635368641771e-8,
+              "gunPositionM": 4.075088274737515e-8,
+              "gunAngleDeg": 0.0000029575586669421963,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000005915117333884393,
+              "bonePositionM": 7.30063538795664e-8,
+              "gunPositionM": 4.075088280913765e-8,
+              "gunAngleDeg": 0.0000029575586669421963,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_m870_ShotgunAimUp",
+          "weapon": "m870",
+          "motion": "ShotgunAimUp",
+          "duration": 0.5333333611488342,
+          "frames": 34,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 6.680341503541156e-8,
+              "gunPositionM": 3.4635326062484155e-8,
+              "gunAngleDeg": 0.000006830189170012752,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000005915117333884393,
+              "bonePositionM": 6.680341513433342e-8,
+              "gunPositionM": 3.463532614533484e-8,
+              "gunAngleDeg": 0.000007040397847728099,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_m870_ShotgunAimDown",
+          "weapon": "m870",
+          "motion": "ShotgunAimDown",
+          "duration": 0.03333333507180214,
+          "frames": 4,
+          "samples": 8,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 5.2853249614649697e-8,
+              "gunPositionM": 5.879454113301e-8,
+              "gunAngleDeg": 0.000003818191820832845,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000005915117333884393,
+              "bonePositionM": 5.285324973047355e-8,
+              "gunPositionM": 5.879454116159016e-8,
+              "gunAngleDeg": 0.000004182619578303746,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_m870_FiringRifle",
+          "weapon": "m870",
+          "motion": "FiringRifle",
+          "duration": 0.23333333432674408,
+          "frames": 58,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 1.151919547204531e-7,
+              "gunPositionM": 6.226882398653244e-8,
+              "gunAngleDeg": 0.000004517745487845101,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000005915117333884393,
+              "bonePositionM": 1.5875931098955398e-7,
+              "gunPositionM": 6.575821504209158e-8,
+              "gunAngleDeg": 0.0000029575586669421963,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_m870_ShotgunPump",
+          "weapon": "m870",
+          "motion": "ShotgunPump",
+          "duration": 0.7333333492279053,
+          "frames": 178,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 1.1988855994990257e-7,
+              "gunPositionM": 5.659273458312854e-8,
+              "gunAngleDeg": 0.000004182619578303746,
+              "pumpM": 1.734723475976807e-18
+            },
+            "interpolated": {
+              "angleDeg": 0.000005915117333884393,
+              "bonePositionM": 4.279240913054309e-8,
+              "gunPositionM": 2.1394954920422892e-8,
+              "gunAngleDeg": 0,
+              "pumpM": 8.673617379884035e-19
+            }
+          }
+        },
+        {
+          "clip": "Equipped_m870_Reloading",
+          "weapon": "m870",
+          "motion": "Reloading",
+          "duration": 1.9666666984558105,
+          "frames": 238,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 1.0477535054727185e-7,
+              "gunPositionM": 5.685630917853089e-8,
+              "gunAngleDeg": 0.00000782496472061276,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.03712235438259784,
+              "bonePositionM": 0.00012006470602762,
+              "gunPositionM": 0.00006864230826008183,
+              "gunAngleDeg": 0.0005942534442770004,
+              "pumpM": 0
+            }
+          }
+        }
+      ]
+    },
+    "military": {
+      "pack_sha256": "30539b47e7cfb87a637edfaf6bcae05e8c1f8180f7748598f624129844136218",
+      "tracks_sha256": "8a02a803dac59d6928ebc36d8630e627cefa5d501062b795a3493064c7e2d479",
+      "rows": [
+        {
+          "clip": "Equipped_qbz95_RifleIdle",
+          "weapon": "qbz95",
+          "motion": "RifleIdle",
+          "duration": 8.566666603088379,
+          "frames": 515,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000004182619578303746,
+              "bonePositionM": 8.841727485912923e-8,
+              "gunPositionM": 6.550071143482355e-8,
+              "gunAngleDeg": 0.000005399738656763832,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 9.377690735006972e-8,
+              "gunPositionM": 4.94752199604324e-8,
+              "gunAngleDeg": 0.0000034150945850063755,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qbz95_RifleWalk",
+          "weapon": "qbz95",
+          "motion": "RifleWalk",
+          "duration": 1.2999999523162842,
+          "frames": 157,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000004517745487845101,
+              "bonePositionM": 1.1815579951608519e-7,
+              "gunPositionM": 3.69804709953915e-8,
+              "gunAngleDeg": 0.000008189109132934075,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00005750151246234417,
+              "bonePositionM": 3.2434868775913313e-7,
+              "gunPositionM": 5.812375784092357e-8,
+              "gunAngleDeg": 0.000012313298636799906,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qbz95_RifleRun",
+          "weapon": "qbz95",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.00001183023466776879,
+              "bonePositionM": 1.0656937525042651e-7,
+              "gunPositionM": 4.421077585765706e-8,
+              "gunAngleDeg": 0.000004829673078902933,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0918385715190514,
+              "bonePositionM": 0.00043614258878935764,
+              "gunPositionM": 0.00004370274896450602,
+              "gunAngleDeg": 0.00468783218156213,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qbz95_RifleAimingIdle",
+          "weapon": "qbz95",
+          "motion": "RifleAimingIdle",
+          "duration": 3.0999999046325684,
+          "frames": 187,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000003818191820832845,
+              "bonePositionM": 1.1318009073606849e-7,
+              "gunPositionM": 6.01658324400695e-8,
+              "gunAngleDeg": 0.000007040397847728099,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000004829673078902933,
+              "bonePositionM": 8.523559330394625e-8,
+              "gunPositionM": 3.4286861005568514e-8,
+              "gunAngleDeg": 0.000004182619578303746,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qbz95_FiringRifle",
+          "weapon": "qbz95",
+          "motion": "FiringRifle",
+          "duration": 0.2666666805744171,
+          "frames": 66,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000004182619578303746,
+              "bonePositionM": 8.233271215673039e-8,
+              "gunPositionM": 6.082172593441486e-8,
+              "gunAngleDeg": 0.000008365239156607494,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0005502463516602294,
+              "bonePositionM": 2.1466684425367892e-7,
+              "gunPositionM": 6.205527732197432e-8,
+              "gunAngleDeg": 0.000004829673078902933,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qbz95_Reloading",
+          "weapon": "qbz95",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "frames": 397,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.00000800910673140078,
+              "bonePositionM": 9.735665937042344e-8,
+              "gunPositionM": 4.6534421650267826e-8,
+              "gunAngleDeg": 0.000004517745487845101,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00020242899334021173,
+              "bonePositionM": 0.000001213359651586434,
+              "gunPositionM": 9.603439130403625e-7,
+              "gunAngleDeg": 0.0002122997057801711,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type56_1_RifleIdle",
+          "weapon": "type56_1",
+          "motion": "RifleIdle",
+          "duration": 8.566666603088379,
+          "frames": 515,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000004829673078902933,
+              "bonePositionM": 8.841727485912923e-8,
+              "gunPositionM": 5.699098833456539e-8,
+              "gunAngleDeg": 0.000005122641877509564,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000004829673078902933,
+              "bonePositionM": 9.377690735006972e-8,
+              "gunPositionM": 3.805928678213479e-8,
+              "gunAngleDeg": 0.000005399738656763832,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type56_1_RifleWalk",
+          "weapon": "type56_1",
+          "motion": "RifleWalk",
+          "duration": 1.2999999523162842,
+          "frames": 157,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000004517745487845101,
+              "bonePositionM": 1.1815579951608519e-7,
+              "gunPositionM": 8.316448128389657e-8,
+              "gunAngleDeg": 0.000007636383641665691,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00008335559617008287,
+              "bonePositionM": 4.5197846614356663e-7,
+              "gunPositionM": 7.266458351070916e-8,
+              "gunAngleDeg": 0.000009659346157805868,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type56_1_RifleRun",
+          "weapon": "type56_1",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.00001183023466776879,
+              "bonePositionM": 1.0656937525042651e-7,
+              "gunPositionM": 5.0739878017248096e-8,
+              "gunAngleDeg": 0.000004182619578303746,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0918385715190514,
+              "bonePositionM": 0.00043614258878935764,
+              "gunPositionM": 0.000046292268999998075,
+              "gunAngleDeg": 0.004685540262771879,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type56_1_RifleAimingIdle",
+          "weapon": "type56_1",
+          "motion": "RifleAimingIdle",
+          "duration": 3.0999999046325684,
+          "frames": 187,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000004829673078902933,
+              "bonePositionM": 1.1318009073606849e-7,
+              "gunPositionM": 7.898194263263665e-8,
+              "gunAngleDeg": 0.000006613302226726412,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000004829673078902933,
+              "bonePositionM": 8.523559330394625e-8,
+              "gunPositionM": 3.181979222858624e-8,
+              "gunAngleDeg": 0.000004517745487845101,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type56_1_FiringRifle",
+          "weapon": "type56_1",
+          "motion": "FiringRifle",
+          "duration": 0.2666666805744171,
+          "frames": 66,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000004829673078902933,
+              "bonePositionM": 8.233271215673039e-8,
+              "gunPositionM": 5.545364941866198e-8,
+              "gunAngleDeg": 0.000006830189170012752,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0006549885216441572,
+              "bonePositionM": 2.0626440802174905e-7,
+              "gunPositionM": 6.705708018529138e-8,
+              "gunAngleDeg": 0.000011581149199548747,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type56_1_Reloading",
+          "weapon": "type56_1",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "frames": 397,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.00000800910673140078,
+              "bonePositionM": 9.735665937042344e-8,
+              "gunPositionM": 5.24267600359508e-8,
+              "gunAngleDeg": 0.000004517745487845101,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00020241458917088763,
+              "bonePositionM": 0.0000012133596519410298,
+              "gunPositionM": 0.0000013129443422095385,
+              "gunAngleDeg": 0.00021207984842070882,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qbu85_RifleIdle",
+          "weapon": "qbu85",
+          "motion": "RifleIdle",
+          "duration": 8.566666603088379,
+          "frames": 515,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000003818191820832845,
+              "bonePositionM": 8.841727485912923e-8,
+              "gunPositionM": 4.748306247217246e-8,
+              "gunAngleDeg": 0.000004517745487845101,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000004182619578303746,
+              "bonePositionM": 9.377690735006972e-8,
+              "gunPositionM": 3.087889526139686e-8,
+              "gunAngleDeg": 0.0000034150945850063755,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qbu85_RifleWalk",
+          "weapon": "qbu85",
+          "motion": "RifleWalk",
+          "duration": 1.2999999523162842,
+          "frames": 157,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000003818191820832845,
+              "bonePositionM": 1.1815579951608519e-7,
+              "gunPositionM": 1.0033633084773676e-7,
+              "gunAngleDeg": 0.000008189109132934075,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00006735619369104923,
+              "bonePositionM": 3.3974909814529825e-7,
+              "gunPositionM": 9.970270815581063e-8,
+              "gunAngleDeg": 0.000008189109132934075,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qbu85_RifleRun",
+          "weapon": "qbu85",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.00001183023466776879,
+              "bonePositionM": 1.0656937525042651e-7,
+              "gunPositionM": 6.40455907764368e-8,
+              "gunAngleDeg": 0.000005399738656763832,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0918385715190514,
+              "bonePositionM": 0.00043614258878935764,
+              "gunPositionM": 0.00005244113067844915,
+              "gunAngleDeg": 0.004694542539589493,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qbu85_RifleAimingIdle",
+          "weapon": "qbu85",
+          "motion": "RifleAimingIdle",
+          "duration": 3.0999999046325684,
+          "frames": 187,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000003818191820832845,
+              "bonePositionM": 1.1318009073606849e-7,
+              "gunPositionM": 6.949383646167875e-8,
+              "gunAngleDeg": 0.000005122641877509564,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000004182619578303746,
+              "bonePositionM": 8.523559330394625e-8,
+              "gunPositionM": 6.960155125137851e-8,
+              "gunAngleDeg": 0.000004517745487845101,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qbu85_FiringRifle",
+          "weapon": "qbu85",
+          "motion": "FiringRifle",
+          "duration": 0.2666666805744171,
+          "frames": 66,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000004182619578303746,
+              "bonePositionM": 8.233271215673039e-8,
+              "gunPositionM": 8.440752040229053e-8,
+              "gunAngleDeg": 0.000007443026089337883,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0005469164956069087,
+              "bonePositionM": 2.2772491496684384e-7,
+              "gunPositionM": 1.218264696177421e-7,
+              "gunAngleDeg": 0.000012547858734911242,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qbu85_Reloading",
+          "weapon": "qbu85",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "frames": 397,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.00000800910673140078,
+              "bonePositionM": 9.735665937042344e-8,
+              "gunPositionM": 9.031045049730649e-8,
+              "gunAngleDeg": 0.000007040397847728099,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00020080930398603774,
+              "bonePositionM": 0.0000012176856131027576,
+              "gunPositionM": 0.0000021564246730933386,
+              "gunAngleDeg": 0.0002129168374563165,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type97hawk_RifleIdle",
+          "weapon": "type97hawk",
+          "motion": "RifleIdle",
+          "duration": 8.566666603088379,
+          "frames": 515,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.0000029575586669421963,
+              "bonePositionM": 8.841727485912923e-8,
+              "gunPositionM": 7.043546202289046e-8,
+              "gunAngleDeg": 0.000006389056940260397,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0000034150945850063755,
+              "bonePositionM": 9.377690735006972e-8,
+              "gunPositionM": 4.540622437739628e-8,
+              "gunAngleDeg": 0.000006830189170012752,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type97hawk_RifleWalk",
+          "weapon": "type97hawk",
+          "motion": "RifleWalk",
+          "duration": 1.2999999523162842,
+          "frames": 157,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000004517745487845101,
+              "bonePositionM": 1.1815579951608519e-7,
+              "gunPositionM": 4.864581440697595e-8,
+              "gunAngleDeg": 0.000006830189170012752,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00009878718201155623,
+              "bonePositionM": 5.165910009839776e-7,
+              "gunPositionM": 7.511919813661469e-8,
+              "gunAngleDeg": 0.000012778113880520799,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type97hawk_RifleRun",
+          "weapon": "type97hawk",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.00001183023466776879,
+              "bonePositionM": 1.0656937525042651e-7,
+              "gunPositionM": 5.498648790431843e-8,
+              "gunAngleDeg": 0.000005663293681020316,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0918385715190514,
+              "bonePositionM": 0.00043614258878935764,
+              "gunPositionM": 0.00004653654214650118,
+              "gunAngleDeg": 0.004687331153351885,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type97hawk_RifleAimingIdle",
+          "weapon": "type97hawk",
+          "motion": "RifleAimingIdle",
+          "duration": 3.0999999046325684,
+          "frames": 187,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000003818191820832845,
+              "bonePositionM": 1.1318009073606849e-7,
+              "gunPositionM": 5.008688414166286e-8,
+              "gunAngleDeg": 0.000007244509618354401,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000004182619578303746,
+              "bonePositionM": 8.523559330394625e-8,
+              "gunPositionM": 3.514319305398806e-8,
+              "gunAngleDeg": 0.000005399738656763832,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type97hawk_FiringRifle",
+          "weapon": "type97hawk",
+          "motion": "FiringRifle",
+          "duration": 0.23333333432674408,
+          "frames": 58,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000004829673078902933,
+              "bonePositionM": 1.2876048397725897e-7,
+              "gunPositionM": 4.735942413692278e-8,
+              "gunAngleDeg": 0.000009035490975690204,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.10259458793532612,
+              "bonePositionM": 0.0003652115069085603,
+              "gunPositionM": 0.00023629052914312559,
+              "gunAngleDeg": 0.03299437561065193,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type97hawk_Reloading",
+          "weapon": "type97hawk",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "frames": 397,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.00000800910673140078,
+              "bonePositionM": 9.735665937042344e-8,
+              "gunPositionM": 7.621533594584402e-8,
+              "gunAngleDeg": 0.00000800910673140078,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00020146163695703757,
+              "bonePositionM": 0.0000011938282296900082,
+              "gunPositionM": 0.0000015245098208877448,
+              "gunAngleDeg": 0.00021351853042520582,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type97hawk_ShotgunPump",
+          "weapon": "type97hawk",
+          "motion": "ShotgunPump",
+          "duration": 0.7333333492279053,
+          "frames": 178,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000004829673078902933,
+              "bonePositionM": 9.394679111236793e-8,
+              "gunPositionM": 3.750671232429505e-8,
+              "gunAngleDeg": 0.000006613302226726412,
+              "pumpM": 1.1512205381689067e-10
+            },
+            "interpolated": {
+              "angleDeg": 0.016928161930125876,
+              "bonePositionM": 0.00004549552557013028,
+              "gunPositionM": 3.100898949186134e-7,
+              "gunAngleDeg": 0.00008217543625201435,
+              "pumpM": 4.2745289036876313e-8
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qcq171_RifleIdle",
+          "weapon": "qcq171",
+          "motion": "RifleIdle",
+          "duration": 8.566666603088379,
+          "frames": 515,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000004182619578303746,
+              "bonePositionM": 8.841727485912923e-8,
+              "gunPositionM": 4.942457474499323e-8,
+              "gunAngleDeg": 0.000004182619578303746,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000004182619578303746,
+              "bonePositionM": 9.377690735006972e-8,
+              "gunPositionM": 4.482311394311273e-8,
+              "gunAngleDeg": 0.000003818191820832845,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qcq171_RifleWalk",
+          "weapon": "qcq171",
+          "motion": "RifleWalk",
+          "duration": 1.2999999523162842,
+          "frames": 157,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000003818191820832845,
+              "bonePositionM": 1.1815579951608519e-7,
+              "gunPositionM": 6.138215184560049e-8,
+              "gunAngleDeg": 0.000007244509618354401,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00008010926776131039,
+              "bonePositionM": 4.1162679799126187e-7,
+              "gunPositionM": 1.0046386677684021e-7,
+              "gunAngleDeg": 0.000014688877218970409,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qcq171_RifleRun",
+          "weapon": "qcq171",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.00001183023466776879,
+              "bonePositionM": 1.0656937525042651e-7,
+              "gunPositionM": 4.200778190349838e-8,
+              "gunAngleDeg": 0.000004182619578303746,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0918385715190514,
+              "bonePositionM": 0.00043614258878935764,
+              "gunPositionM": 0.00004338292613219046,
+              "gunAngleDeg": 0.00468841649132784,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qcq171_RifleAimingIdle",
+          "weapon": "qcq171",
+          "motion": "RifleAimingIdle",
+          "duration": 3.0999999046325684,
+          "frames": 187,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000004182619578303746,
+              "bonePositionM": 1.1318009073606849e-7,
+              "gunPositionM": 5.73506388117391e-8,
+              "gunAngleDeg": 0.000006613302226726412,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000004829673078902933,
+              "bonePositionM": 8.523559330394625e-8,
+              "gunPositionM": 5.8404776254027603e-8,
+              "gunAngleDeg": 0.000009352621701108683,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qcq171_FiringRifle",
+          "weapon": "qcq171",
+          "motion": "FiringRifle",
+          "duration": 0.2666666805744171,
+          "frames": 66,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000004182619578303746,
+              "bonePositionM": 8.233271215673039e-8,
+              "gunPositionM": 5.017736063553655e-8,
+              "gunAngleDeg": 0.000005399738656763832,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00006046742979648907,
+              "bonePositionM": 2.0719060169040433e-7,
+              "gunPositionM": 4.414814595916888e-8,
+              "gunAngleDeg": 0.00000853773646251594,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qcq171_Reloading",
+          "weapon": "qcq171",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "frames": 397,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.00000800910673140078,
+              "bonePositionM": 9.735665937042344e-8,
+              "gunPositionM": 5.624765137070912e-8,
+              "gunAngleDeg": 0.000007244509618354401,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00020083834155454843,
+              "bonePositionM": 0.0000012178875077718407,
+              "gunPositionM": 9.492963574786807e-7,
+              "gunAngleDeg": 0.00021330676403831945,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qsz92_PistolIdle",
+          "weapon": "qsz92",
+          "motion": "PistolIdle",
+          "duration": 0.03333333507180214,
+          "frames": 4,
+          "samples": 8,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 6.209499679187674e-8,
+              "gunPositionM": 1.7001147280915312e-8,
+              "gunAngleDeg": 0.0000029575586669421963,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 6.20949968042449e-8,
+              "gunPositionM": 1.7001147280915312e-8,
+              "gunAngleDeg": 0.0000029575586669421963,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qsz92_PistolWalk",
+          "weapon": "qsz92",
+          "motion": "PistolWalk",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000009659346157805868,
+              "bonePositionM": 1.0604750971597295e-7,
+              "gunPositionM": 3.5186187075742426e-8,
+              "gunAngleDeg": 0.0000034150945850063755,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000152555757444525,
+              "bonePositionM": 7.897314909830077e-7,
+              "gunPositionM": 3.507380905072134e-8,
+              "gunAngleDeg": 0.000004829673078902933,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qsz92_RifleRun",
+          "weapon": "qsz92",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000012663509647306444,
+              "bonePositionM": 1.3128347627943691e-7,
+              "gunPositionM": 5.4209547531743294e-8,
+              "gunAngleDeg": 0.000008365239156607494,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0316404794171602,
+              "bonePositionM": 0.0002954840140443097,
+              "gunPositionM": 0.00003281088618503569,
+              "gunAngleDeg": 0.0001506130277988372,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qsz92_PistolAimingIdle",
+          "weapon": "qsz92",
+          "motion": "PistolAimingIdle",
+          "duration": 1.3333333730697632,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 1.0793412426622548e-7,
+              "gunPositionM": 9.381136449101138e-8,
+              "gunAngleDeg": 0.0000034150945850063755,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 7.878026476604054e-8,
+              "gunPositionM": 7.112110022476664e-8,
+              "gunAngleDeg": 0.0000029575586669421963,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qsz92_PistolShooting",
+          "weapon": "qsz92",
+          "motion": "PistolShooting",
+          "duration": 1.1666666269302368,
+          "frames": 281,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.0000017075472925031877,
+              "bonePositionM": 9.795662202668485e-8,
+              "gunPositionM": 7.524726957000826e-8,
+              "gunAngleDeg": 0.000004182619578303746,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0000029575586669421963,
+              "bonePositionM": 9.795662202668485e-8,
+              "gunPositionM": 7.524726958564206e-8,
+              "gunAngleDeg": 0.0000034150945850063755,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qsz92_Reloading",
+          "weapon": "qsz92",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "frames": 397,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000009352621701108683,
+              "bonePositionM": 1.0286613693130712e-7,
+              "gunPositionM": 8.282790904269074e-8,
+              "gunAngleDeg": 0.000005915117333884393,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0001247327941911738,
+              "bonePositionM": 4.874524930676172e-7,
+              "gunPositionM": 9.222606563715173e-8,
+              "gunAngleDeg": 0.000006830189170012752,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type54_PistolIdle",
+          "weapon": "type54",
+          "motion": "PistolIdle",
+          "duration": 0.03333333507180214,
+          "frames": 4,
+          "samples": 8,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 6.209499679187674e-8,
+              "gunPositionM": 1.5844704603010142e-8,
+              "gunAngleDeg": 0.0000029575586669421963,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 6.20949968042449e-8,
+              "gunPositionM": 1.5844704603010142e-8,
+              "gunAngleDeg": 0.0000029575586669421963,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type54_PistolWalk",
+          "weapon": "type54",
+          "motion": "PistolWalk",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000009659346157805868,
+              "bonePositionM": 1.0604750971597295e-7,
+              "gunPositionM": 3.5205884644364056e-8,
+              "gunAngleDeg": 0.0000034150945850063755,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00015467211833129795,
+              "bonePositionM": 7.811118883806638e-7,
+              "gunPositionM": 3.481305613436963e-8,
+              "gunAngleDeg": 0.000004829673078902933,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type54_RifleRun",
+          "weapon": "type54",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000012663509647306444,
+              "bonePositionM": 1.3128347627943691e-7,
+              "gunPositionM": 5.212213677371402e-8,
+              "gunAngleDeg": 0.000008365239156607494,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0316404794171602,
+              "bonePositionM": 0.0002954840140443097,
+              "gunPositionM": 0.00003282004070897806,
+              "gunAngleDeg": 0.0001506130277988372,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type54_PistolAimingIdle",
+          "weapon": "type54",
+          "motion": "PistolAimingIdle",
+          "duration": 1.3333333730697632,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 1.0793412426622548e-7,
+              "gunPositionM": 5.473960592923033e-8,
+              "gunAngleDeg": 0.000004182619578303746,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 7.878026476604054e-8,
+              "gunPositionM": 4.2389001552362745e-8,
+              "gunAngleDeg": 0,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type54_PistolShooting",
+          "weapon": "type54",
+          "motion": "PistolShooting",
+          "duration": 1.1666666269302368,
+          "frames": 281,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.0000017075472925031877,
+              "bonePositionM": 9.795662202668485e-8,
+              "gunPositionM": 6.934680803897106e-8,
+              "gunAngleDeg": 0.0000034150945850063755,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0000029575586669421963,
+              "bonePositionM": 9.795662202668485e-8,
+              "gunPositionM": 6.068324928306044e-8,
+              "gunAngleDeg": 0.000004182619578303746,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type54_Reloading",
+          "weapon": "type54",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "frames": 397,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000009352621701108683,
+              "bonePositionM": 1.0286613693130712e-7,
+              "gunPositionM": 8.04767977076903e-8,
+              "gunAngleDeg": 0.000005915117333884393,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0001247327941911738,
+              "bonePositionM": 4.874524930676172e-7,
+              "gunPositionM": 9.256085860310339e-8,
+              "gunAngleDeg": 0.000006830189170012752,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type64_PistolIdle",
+          "weapon": "type64",
+          "motion": "PistolIdle",
+          "duration": 0.03333333507180214,
+          "frames": 4,
+          "samples": 8,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 6.209499679187674e-8,
+              "gunPositionM": 1.5861509349969012e-8,
+              "gunAngleDeg": 0.0000029575586669421963,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 6.20949968042449e-8,
+              "gunPositionM": 1.5861509349969012e-8,
+              "gunAngleDeg": 0.0000029575586669421963,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type64_PistolWalk",
+          "weapon": "type64",
+          "motion": "PistolWalk",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000009659346157805868,
+              "bonePositionM": 1.0604750971597295e-7,
+              "gunPositionM": 3.531897135858951e-8,
+              "gunAngleDeg": 0.0000034150945850063755,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00015467211833129795,
+              "bonePositionM": 7.811118883806638e-7,
+              "gunPositionM": 3.4808152086789165e-8,
+              "gunAngleDeg": 0.000004829673078902933,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type64_RifleRun",
+          "weapon": "type64",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000012663509647306444,
+              "bonePositionM": 1.3128347627943691e-7,
+              "gunPositionM": 5.187414502731074e-8,
+              "gunAngleDeg": 0.000008365239156607494,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0316404794171602,
+              "bonePositionM": 0.0002954840140443097,
+              "gunPositionM": 0.00003281912611659938,
+              "gunAngleDeg": 0.0001506130277988372,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type64_PistolAimingIdle",
+          "weapon": "type64",
+          "motion": "PistolAimingIdle",
+          "duration": 1.3333333730697632,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 1.0793412426622548e-7,
+              "gunPositionM": 5.464920051898358e-8,
+              "gunAngleDeg": 0.000004182619578303746,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 7.878026476604054e-8,
+              "gunPositionM": 4.242243873673178e-8,
+              "gunAngleDeg": 0,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type64_PistolShooting",
+          "weapon": "type64",
+          "motion": "PistolShooting",
+          "duration": 1.1666666269302368,
+          "frames": 281,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.0000017075472925031877,
+              "bonePositionM": 9.795662202668485e-8,
+              "gunPositionM": 6.93514497737254e-8,
+              "gunAngleDeg": 0.0000034150945850063755,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0000029575586669421963,
+              "bonePositionM": 9.795662202668485e-8,
+              "gunPositionM": 6.064499293702886e-8,
+              "gunAngleDeg": 0.000004182619578303746,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type64_Reloading",
+          "weapon": "type64",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "frames": 397,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000009352621701108683,
+              "bonePositionM": 1.0286613693130712e-7,
+              "gunPositionM": 8.051870033900817e-8,
+              "gunAngleDeg": 0.000005915117333884393,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0001247327941911738,
+              "bonePositionM": 4.874524930676172e-7,
+              "gunPositionM": 9.236298158886932e-8,
+              "gunAngleDeg": 0.000006830189170012752,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_m870_RifleIdle",
+          "weapon": "m870",
+          "motion": "RifleIdle",
+          "duration": 7.699999809265137,
+          "frames": 463,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 1.0828795485259789e-7,
+              "gunPositionM": 4.311755472400272e-8,
+              "gunAngleDeg": 0.000005663293681020316,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 6.47631872741342e-8,
+              "gunPositionM": 8.285544378665185e-9,
+              "gunAngleDeg": 0,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_m870_RifleWalk",
+          "weapon": "m870",
+          "motion": "RifleWalk",
+          "duration": 1.100000023841858,
+          "frames": 134,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005663293681020316,
+              "bonePositionM": 1.353367732257115e-7,
+              "gunPositionM": 2.855149747993035e-8,
+              "gunAngleDeg": 0.000005399738656763832,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.2536547037230899,
+              "bonePositionM": 0.0014692975739257013,
+              "gunPositionM": 0.000057525229439833854,
+              "gunAngleDeg": 0.005925033111520086,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_m870_RifleRun",
+          "weapon": "m870",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000012663509647306444,
+              "bonePositionM": 1.3128347627943691e-7,
+              "gunPositionM": 8.03337433934103e-8,
+              "gunAngleDeg": 0.000009195423586105977,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0316404794171602,
+              "bonePositionM": 0.0002954840140443097,
+              "gunPositionM": 0.00003288124460532732,
+              "gunAngleDeg": 0.00018319364446705191,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_m870_RifleAimingIdle",
+          "weapon": "m870",
+          "motion": "RifleAimingIdle",
+          "duration": 0.5333333611488342,
+          "frames": 34,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0,
+              "bonePositionM": 1.0600564093105047e-7,
+              "gunPositionM": 2.988274384731462e-8,
+              "gunAngleDeg": 0.000003818191820832845,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 1.0600564089034736e-7,
+              "gunPositionM": 2.9882743967946104e-8,
+              "gunAngleDeg": 0.000004182619578303746,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_m870_ShotgunAimLevel",
+          "weapon": "m870",
+          "motion": "ShotgunAimLevel",
+          "duration": 0.5333333611488342,
+          "frames": 34,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0,
+              "bonePositionM": 1.0600564093105047e-7,
+              "gunPositionM": 2.988274384731462e-8,
+              "gunAngleDeg": 0.000003818191820832845,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 1.0600564089034736e-7,
+              "gunPositionM": 2.9882743967946104e-8,
+              "gunAngleDeg": 0.000004182619578303746,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_m870_ShotgunAimUp",
+          "weapon": "m870",
+          "motion": "ShotgunAimUp",
+          "duration": 0.5333333611488342,
+          "frames": 34,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.0000017075472925031877,
+              "bonePositionM": 6.933945310896475e-8,
+              "gunPositionM": 1.8856806670828378e-8,
+              "gunAngleDeg": 0.0000017075472925031877,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 6.933945316751176e-8,
+              "gunPositionM": 1.8856806714343286e-8,
+              "gunAngleDeg": 0.0000024148365394514667,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_m870_ShotgunAimDown",
+          "weapon": "m870",
+          "motion": "ShotgunAimDown",
+          "duration": 0.03333333507180214,
+          "frames": 4,
+          "samples": 8,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 6.96881981872419e-8,
+              "gunPositionM": 2.7539844607834317e-8,
+              "gunAngleDeg": 0.000004517745487845101,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 6.96881981872419e-8,
+              "gunPositionM": 2.75398447070903e-8,
+              "gunAngleDeg": 0.000004517745487845101,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_m870_FiringRifle",
+          "weapon": "m870",
+          "motion": "FiringRifle",
+          "duration": 0.23333333432674408,
+          "frames": 58,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.0000029575586669421963,
+              "bonePositionM": 8.88445605319995e-8,
+              "gunPositionM": 5.540384896779576e-8,
+              "gunAngleDeg": 0.000003818191820832845,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 9.891938377047147e-8,
+              "gunPositionM": 4.8253930056920085e-8,
+              "gunAngleDeg": 0.0000029575586669421963,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_m870_ShotgunPump",
+          "weapon": "m870",
+          "motion": "ShotgunPump",
+          "duration": 0.7333333492279053,
+          "frames": 178,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000004182619578303746,
+              "bonePositionM": 9.849490708875815e-8,
+              "gunPositionM": 4.151229255517428e-8,
+              "gunAngleDeg": 0.0000029575586669421963,
+              "pumpM": 1.734723475976807e-18
+            },
+            "interpolated": {
+              "angleDeg": 0.000006389056940260397,
+              "bonePositionM": 5.7801833040406986e-8,
+              "gunPositionM": 4.4003524539862565e-8,
+              "gunAngleDeg": 0.0000034150945850063755,
+              "pumpM": 8.673617379884035e-19
+            }
+          }
+        },
+        {
+          "clip": "Equipped_m870_Reloading",
+          "weapon": "m870",
+          "motion": "Reloading",
+          "duration": 1.9666666984558105,
+          "frames": 238,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000005915117333884393,
+              "bonePositionM": 1.304496252506471e-7,
+              "gunPositionM": 8.70954525804626e-8,
+              "gunAngleDeg": 0.00000853773646251594,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.03712320111061034,
+              "bonePositionM": 0.0001382157559363788,
+              "gunPositionM": 0.00006811001943548506,
+              "gunAngleDeg": 0.0005887225878036972,
+              "pumpM": 0
+            }
+          }
+        }
+      ]
+    },
+    "vest": {
+      "pack_sha256": "d43118c9af30370d0e4b27e539ca361ee693fa1014c4160648351775fe302631",
+      "tracks_sha256": "039b81d0330dbc24686a33f9d99179a51eae36d2d70ba7f48e3c20fad90d039b",
+      "rows": [
+        {
+          "clip": "Equipped_qbz95_RifleIdle",
+          "weapon": "qbz95",
+          "motion": "RifleIdle",
+          "duration": 8.566666603088379,
+          "frames": 515,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000004182619578303746,
+              "bonePositionM": 1.1659350573821711e-7,
+              "gunPositionM": 1.0131811648794579e-7,
+              "gunAngleDeg": 0.000004182619578303746,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000004829673078902933,
+              "bonePositionM": 9.833009798078498e-8,
+              "gunPositionM": 2.7273261822333826e-8,
+              "gunAngleDeg": 0.000005122641877509564,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qbz95_RifleWalk",
+          "weapon": "qbz95",
+          "motion": "RifleWalk",
+          "duration": 1.2999999523162842,
+          "frames": 157,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000004182619578303746,
+              "bonePositionM": 1.0124171629460938e-7,
+              "gunPositionM": 5.075339415899806e-8,
+              "gunAngleDeg": 0.000004517745487845101,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00005290641781381175,
+              "bonePositionM": 2.481722948602969e-7,
+              "gunPositionM": 5.01910015775406e-8,
+              "gunAngleDeg": 0.000011066171232981564,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qbz95_RifleRun",
+          "weapon": "qbz95",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000010799477313527668,
+              "bonePositionM": 1.0397906351052065e-7,
+              "gunPositionM": 7.145024056754711e-8,
+              "gunAngleDeg": 0.000007244509618354401,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0918415050940343,
+              "bonePositionM": 0.00044996181665971454,
+              "gunPositionM": 0.00004429556356087888,
+              "gunAngleDeg": 0.004688041782691121,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qbz95_RifleAimingIdle",
+          "weapon": "qbz95",
+          "motion": "RifleAimingIdle",
+          "duration": 3.0999999046325684,
+          "frames": 187,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.0000034150945850063755,
+              "bonePositionM": 9.382285673253893e-8,
+              "gunPositionM": 7.392987574598737e-8,
+              "gunAngleDeg": 0.000005399738656763832,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0000101019860158646,
+              "bonePositionM": 6.008657938005252e-8,
+              "gunPositionM": 2.3430152949909437e-8,
+              "gunAngleDeg": 0.000003818191820832845,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qbz95_FiringRifle",
+          "weapon": "qbz95",
+          "motion": "FiringRifle",
+          "duration": 0.2666666805744171,
+          "frames": 66,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000004517745487845101,
+              "bonePositionM": 9.130283681367955e-8,
+              "gunPositionM": 4.769109477293371e-8,
+              "gunAngleDeg": 0.000008365239156607494,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0005508527451883582,
+              "bonePositionM": 2.0718392576674707e-7,
+              "gunPositionM": 2.663620714424666e-8,
+              "gunAngleDeg": 0.000006389056940260397,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qbz95_Reloading",
+          "weapon": "qbz95",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "frames": 397,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000009659346157805868,
+              "bonePositionM": 1.000899362705294e-7,
+              "gunPositionM": 5.8326701054318374e-8,
+              "gunAngleDeg": 0.000006830189170012752,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00020128788820806363,
+              "bonePositionM": 0.000001228367450858426,
+              "gunPositionM": 9.714610611872496e-7,
+              "gunAngleDeg": 0.0002148661791689297,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type56_1_RifleIdle",
+          "weapon": "type56_1",
+          "motion": "RifleIdle",
+          "duration": 8.566666603088379,
+          "frames": 515,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.0000034150945850063755,
+              "bonePositionM": 1.1659350573821711e-7,
+              "gunPositionM": 1.0340194223621988e-7,
+              "gunAngleDeg": 0.0000034150945850063755,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000007244509618354401,
+              "bonePositionM": 9.833009798078498e-8,
+              "gunPositionM": 3.872652766759857e-8,
+              "gunAngleDeg": 0.0000034150945850063755,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type56_1_RifleWalk",
+          "weapon": "type56_1",
+          "motion": "RifleWalk",
+          "duration": 1.2999999523162842,
+          "frames": 157,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.0000034150945850063755,
+              "bonePositionM": 1.0124171629460938e-7,
+              "gunPositionM": 5.417552709434173e-8,
+              "gunAngleDeg": 0.000007244509618354401,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00007320580056099551,
+              "bonePositionM": 3.439391235013541e-7,
+              "gunPositionM": 4.8085654947247096e-8,
+              "gunAngleDeg": 0.000009035490975690204,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type56_1_RifleRun",
+          "weapon": "type56_1",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000010799477313527668,
+              "bonePositionM": 1.0397906351052065e-7,
+              "gunPositionM": 6.967960885676925e-8,
+              "gunAngleDeg": 0.000005399738656763832,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0918415050940343,
+              "bonePositionM": 0.00044996181665971454,
+              "gunPositionM": 0.00004692984689131539,
+              "gunAngleDeg": 0.004686175256432295,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type56_1_RifleAimingIdle",
+          "weapon": "type56_1",
+          "motion": "RifleAimingIdle",
+          "duration": 3.0999999046325684,
+          "frames": 187,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000004182619578303746,
+              "bonePositionM": 9.382285673253893e-8,
+              "gunPositionM": 7.053657059572206e-8,
+              "gunAngleDeg": 0.0000029575586669421963,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000009035490975690204,
+              "bonePositionM": 6.008657938005252e-8,
+              "gunPositionM": 2.7552251066073935e-8,
+              "gunAngleDeg": 0.000003818191820832845,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type56_1_FiringRifle",
+          "weapon": "type56_1",
+          "motion": "FiringRifle",
+          "duration": 0.2666666805744171,
+          "frames": 66,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000004182619578303746,
+              "bonePositionM": 9.130283681367955e-8,
+              "gunPositionM": 4.061643343766727e-8,
+              "gunAngleDeg": 0.000003818191820832845,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0006537832669773074,
+              "bonePositionM": 2.0009578034857332e-7,
+              "gunPositionM": 7.102107710160502e-8,
+              "gunAngleDeg": 0.000009352621701108683,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type56_1_Reloading",
+          "weapon": "type56_1",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "frames": 397,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000009659346157805868,
+              "bonePositionM": 1.000899362705294e-7,
+              "gunPositionM": 5.8889707897960746e-8,
+              "gunAngleDeg": 0.000006389056940260397,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00020128788820806363,
+              "bonePositionM": 0.000001228367450858426,
+              "gunPositionM": 0.0000013288716109226468,
+              "gunAngleDeg": 0.0002150086161611517,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qbu85_RifleIdle",
+          "weapon": "qbu85",
+          "motion": "RifleIdle",
+          "duration": 8.566666603088379,
+          "frames": 515,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.0000029575586669421963,
+              "bonePositionM": 1.1659350573821711e-7,
+              "gunPositionM": 7.850902483168898e-8,
+              "gunAngleDeg": 0.000004829673078902933,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00000782496472061276,
+              "bonePositionM": 9.833009798078498e-8,
+              "gunPositionM": 6.176631878696334e-8,
+              "gunAngleDeg": 0.0000029575586669421963,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qbu85_RifleWalk",
+          "weapon": "qbu85",
+          "motion": "RifleWalk",
+          "duration": 1.2999999523162842,
+          "frames": 157,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000003818191820832845,
+              "bonePositionM": 1.0124171629460938e-7,
+              "gunPositionM": 9.589101681034537e-8,
+              "gunAngleDeg": 0.000005122641877509564,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000061234083927088,
+              "bonePositionM": 3.248009895185979e-7,
+              "gunPositionM": 6.137098618304658e-8,
+              "gunAngleDeg": 0.000009507220963046143,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qbu85_RifleRun",
+          "weapon": "qbu85",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000010799477313527668,
+              "bonePositionM": 1.0397906351052065e-7,
+              "gunPositionM": 8.378706865189935e-8,
+              "gunAngleDeg": 0.000005399738656763832,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0918415050940343,
+              "bonePositionM": 0.00044996181665971454,
+              "gunPositionM": 0.00005313207855797524,
+              "gunAngleDeg": 0.004694605268923285,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qbu85_RifleAimingIdle",
+          "weapon": "qbu85",
+          "motion": "RifleAimingIdle",
+          "duration": 3.0999999046325684,
+          "frames": 187,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.0000034150945850063755,
+              "bonePositionM": 9.382285673253893e-8,
+              "gunPositionM": 1.0217282179987206e-7,
+              "gunAngleDeg": 0.000006156649318399951,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000005915117333884393,
+              "bonePositionM": 6.008657938005252e-8,
+              "gunPositionM": 4.9935234704062804e-8,
+              "gunAngleDeg": 0.000005399738656763832,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qbu85_FiringRifle",
+          "weapon": "qbu85",
+          "motion": "FiringRifle",
+          "duration": 0.2666666805744171,
+          "frames": 66,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000004182619578303746,
+              "bonePositionM": 9.130283681367955e-8,
+              "gunPositionM": 6.849659656983664e-8,
+              "gunAngleDeg": 0.000004182619578303746,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0005474040824804986,
+              "bonePositionM": 1.8408648844514564e-7,
+              "gunPositionM": 1.2476741231789002e-7,
+              "gunAngleDeg": 0.000011706354451251833,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qbu85_Reloading",
+          "weapon": "qbu85",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "frames": 397,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000009659346157805868,
+              "bonePositionM": 1.000899362705294e-7,
+              "gunPositionM": 6.931147066154719e-8,
+              "gunAngleDeg": 0.000005915117333884393,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0002018953546537844,
+              "bonePositionM": 0.0000012308723661463375,
+              "gunPositionM": 0.0000021796596919761263,
+              "gunAngleDeg": 0.00021333410054542114,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type97hawk_RifleIdle",
+          "weapon": "type97hawk",
+          "motion": "RifleIdle",
+          "duration": 8.566666603088379,
+          "frames": 515,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.0000034150945850063755,
+              "bonePositionM": 1.1659350573821711e-7,
+              "gunPositionM": 7.825091660332337e-8,
+              "gunAngleDeg": 0.000004182619578303746,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000007636383641665691,
+              "bonePositionM": 9.833009798078498e-8,
+              "gunPositionM": 7.7319221741206e-8,
+              "gunAngleDeg": 0.000005399738656763832,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type97hawk_RifleWalk",
+          "weapon": "type97hawk",
+          "motion": "RifleWalk",
+          "duration": 1.2999999523162842,
+          "frames": 157,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000003818191820832845,
+              "bonePositionM": 1.0124171629460938e-7,
+              "gunPositionM": 5.078421448930759e-8,
+              "gunAngleDeg": 0.000004182619578303746,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00009293199660866136,
+              "bonePositionM": 4.0003886887854183e-7,
+              "gunPositionM": 5.2287661015750266e-8,
+              "gunAngleDeg": 0.00001183023466776879,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type97hawk_RifleRun",
+          "weapon": "type97hawk",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000010799477313527668,
+              "bonePositionM": 1.0397906351052065e-7,
+              "gunPositionM": 6.625628926413258e-8,
+              "gunAngleDeg": 0.000007636383641665691,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0918415050940343,
+              "bonePositionM": 0.00044996181665971454,
+              "gunPositionM": 0.00004717075885990989,
+              "gunAngleDeg": 0.004685830236255454,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type97hawk_RifleAimingIdle",
+          "weapon": "type97hawk",
+          "motion": "RifleAimingIdle",
+          "duration": 3.0999999046325684,
+          "frames": 187,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000004182619578303746,
+              "bonePositionM": 9.382285673253893e-8,
+              "gunPositionM": 6.216845912556348e-8,
+              "gunAngleDeg": 0.000004517745487845101,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000005399738656763832,
+              "bonePositionM": 6.008657938005252e-8,
+              "gunPositionM": 3.603797812400551e-8,
+              "gunAngleDeg": 0.000005663293681020316,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type97hawk_FiringRifle",
+          "weapon": "type97hawk",
+          "motion": "FiringRifle",
+          "duration": 0.23333333432674408,
+          "frames": 58,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000004829673078902933,
+              "bonePositionM": 1.0527220126884064e-7,
+              "gunPositionM": 3.4684389092246636e-8,
+              "gunAngleDeg": 0.000003818191820832845,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.09907218632570347,
+              "bonePositionM": 0.00036714334116727694,
+              "gunPositionM": 0.00023463675151814799,
+              "gunAngleDeg": 0.03296951947914113,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type97hawk_Reloading",
+          "weapon": "type97hawk",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "frames": 397,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000009659346157805868,
+              "bonePositionM": 1.000899362705294e-7,
+              "gunPositionM": 6.214892997481184e-8,
+              "gunAngleDeg": 0.000005122641877509564,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00020306894451153194,
+              "bonePositionM": 0.0000012214839437731138,
+              "gunPositionM": 0.000001541741267888156,
+              "gunAngleDeg": 0.00021249189436662997,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type97hawk_ShotgunPump",
+          "weapon": "type97hawk",
+          "motion": "ShotgunPump",
+          "duration": 0.7333333492279053,
+          "frames": 178,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000004182619578303746,
+              "bonePositionM": 5.950432829643189e-8,
+              "gunPositionM": 3.0701514010638294e-8,
+              "gunAngleDeg": 0.00000887267600082659,
+              "pumpM": 1.1512205381689067e-10
+            },
+            "interpolated": {
+              "angleDeg": 0.009904475105208194,
+              "bonePositionM": 0.00003538446773637997,
+              "gunPositionM": 2.7544676694396784e-7,
+              "gunAngleDeg": 0.00008457100954700375,
+              "pumpM": 4.2745289036876313e-8
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qcq171_RifleIdle",
+          "weapon": "qcq171",
+          "motion": "RifleIdle",
+          "duration": 8.566666603088379,
+          "frames": 515,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000003818191820832845,
+              "bonePositionM": 1.1659350573821711e-7,
+              "gunPositionM": 8.626835798089046e-8,
+              "gunAngleDeg": 0.000005399738656763832,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000005122641877509564,
+              "bonePositionM": 9.833009798078498e-8,
+              "gunPositionM": 5.244462345007114e-8,
+              "gunAngleDeg": 0.0000034150945850063755,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qcq171_RifleWalk",
+          "weapon": "qcq171",
+          "motion": "RifleWalk",
+          "duration": 1.2999999523162842,
+          "frames": 157,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000004517745487845101,
+              "bonePositionM": 1.0124171629460938e-7,
+              "gunPositionM": 5.443908722581646e-8,
+              "gunAngleDeg": 0.000006389056940260397,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00007298641202620365,
+              "bonePositionM": 3.15165986809411e-7,
+              "gunPositionM": 7.957565967026504e-8,
+              "gunAngleDeg": 0.000014080795695456205,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qcq171_RifleRun",
+          "weapon": "qcq171",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000010799477313527668,
+              "bonePositionM": 1.0397906351052065e-7,
+              "gunPositionM": 6.660847541857382e-8,
+              "gunAngleDeg": 0.000005663293681020316,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0918415050940343,
+              "bonePositionM": 0.00044996181665971454,
+              "gunPositionM": 0.0000439338379993786,
+              "gunAngleDeg": 0.0046882945976969214,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qcq171_RifleAimingIdle",
+          "weapon": "qcq171",
+          "motion": "RifleAimingIdle",
+          "duration": 3.0999999046325684,
+          "frames": 187,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.0000034150945850063755,
+              "bonePositionM": 9.382285673253893e-8,
+              "gunPositionM": 7.94328085039264e-8,
+              "gunAngleDeg": 0.000006156649318399951,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000009956626120759427,
+              "bonePositionM": 6.008657938005252e-8,
+              "gunPositionM": 1.0301533702376791e-8,
+              "gunAngleDeg": 0.000004182619578303746,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qcq171_FiringRifle",
+          "weapon": "qcq171",
+          "motion": "FiringRifle",
+          "duration": 0.2666666805744171,
+          "frames": 66,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000004182619578303746,
+              "bonePositionM": 9.130283681367955e-8,
+              "gunPositionM": 4.659025236192357e-8,
+              "gunAngleDeg": 0.000005663293681020316,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.00004880718601560946,
+              "bonePositionM": 1.710863740862853e-7,
+              "gunPositionM": 2.628484496334858e-8,
+              "gunAngleDeg": 0.000007636383641665691,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qcq171_Reloading",
+          "weapon": "qcq171",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "frames": 397,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000009659346157805868,
+              "bonePositionM": 1.000899362705294e-7,
+              "gunPositionM": 5.420141363101854e-8,
+              "gunAngleDeg": 0.000006156649318399951,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0002019097958651082,
+              "bonePositionM": 0.0000012310304269157032,
+              "gunPositionM": 9.63452705024775e-7,
+              "gunAngleDeg": 0.00021333410054542114,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qsz92_PistolIdle",
+          "weapon": "qsz92",
+          "motion": "PistolIdle",
+          "duration": 0.03333333507180214,
+          "frames": 4,
+          "samples": 8,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.0000017075472925031877,
+              "bonePositionM": 7.13665830578094e-8,
+              "gunPositionM": 6.14247678413061e-9,
+              "gunAngleDeg": 0,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 7.13665830578094e-8,
+              "gunPositionM": 6.14247678413061e-9,
+              "gunAngleDeg": 0,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qsz92_PistolWalk",
+          "weapon": "qsz92",
+          "motion": "PistolWalk",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000008706816964856284,
+              "bonePositionM": 8.636896788520851e-8,
+              "gunPositionM": 5.0309294517668234e-8,
+              "gunAngleDeg": 0.00000887267600082659,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0001532137188852425,
+              "bonePositionM": 7.383455798694973e-7,
+              "gunPositionM": 6.130530390911533e-8,
+              "gunAngleDeg": 0.000006156649318399951,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qsz92_RifleRun",
+          "weapon": "qsz92",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000010526028440638418,
+              "bonePositionM": 9.9609867204142e-8,
+              "gunPositionM": 6.10555696445274e-8,
+              "gunAngleDeg": 0.000006156649318399951,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.031638839492556636,
+              "bonePositionM": 0.00030256071914984883,
+              "gunPositionM": 0.000031487027979118,
+              "gunAngleDeg": 0.00015122160679403542,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qsz92_PistolAimingIdle",
+          "weapon": "qsz92",
+          "motion": "PistolAimingIdle",
+          "duration": 1.3333333730697632,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 1.5095004088984122e-7,
+              "gunPositionM": 1.5065875568224055e-7,
+              "gunAngleDeg": 0.0000034150945850063755,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 8.613318983272311e-8,
+              "gunPositionM": 8.295707221434272e-8,
+              "gunAngleDeg": 0.0000024148365394514667,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qsz92_PistolShooting",
+          "weapon": "qsz92",
+          "motion": "PistolShooting",
+          "duration": 1.1666666269302368,
+          "frames": 281,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.0000017075472925031877,
+              "bonePositionM": 9.908500572162818e-8,
+              "gunPositionM": 7.22383025851186e-8,
+              "gunAngleDeg": 0.000004829673078902933,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 9.908500482963314e-8,
+              "gunPositionM": 6.809463988865361e-8,
+              "gunAngleDeg": 0.0000029575586669421963,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_qsz92_Reloading",
+          "weapon": "qsz92",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "frames": 397,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000009195423586105977,
+              "bonePositionM": 1.2028249807361748e-7,
+              "gunPositionM": 1.0347920460345249e-7,
+              "gunAngleDeg": 0.000005663293681020316,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0001244285388690159,
+              "bonePositionM": 4.652944883606746e-7,
+              "gunPositionM": 7.879548324708734e-8,
+              "gunAngleDeg": 0.000004182619578303746,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type54_PistolIdle",
+          "weapon": "type54",
+          "motion": "PistolIdle",
+          "duration": 0.03333333507180214,
+          "frames": 4,
+          "samples": 8,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.0000017075472925031877,
+              "bonePositionM": 7.13665830578094e-8,
+              "gunPositionM": 6.2887164383161655e-9,
+              "gunAngleDeg": 0,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 7.13665830578094e-8,
+              "gunPositionM": 6.2887164383161655e-9,
+              "gunAngleDeg": 0,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type54_PistolWalk",
+          "weapon": "type54",
+          "motion": "PistolWalk",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000008706816964856284,
+              "bonePositionM": 8.636896788520851e-8,
+              "gunPositionM": 4.689666583050319e-8,
+              "gunAngleDeg": 0.00000887267600082659,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0001529851836894634,
+              "bonePositionM": 7.375419838772087e-7,
+              "gunPositionM": 5.952792407157737e-8,
+              "gunAngleDeg": 0.000006156649318399951,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type54_RifleRun",
+          "weapon": "type54",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000010526028440638418,
+              "bonePositionM": 9.9609867204142e-8,
+              "gunPositionM": 5.9249184649337835e-8,
+              "gunAngleDeg": 0.000006156649318399951,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.031638839492556636,
+              "bonePositionM": 0.00030256071914984883,
+              "gunPositionM": 0.00003149663603007873,
+              "gunAngleDeg": 0.00015122160679403542,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type54_PistolAimingIdle",
+          "weapon": "type54",
+          "motion": "PistolAimingIdle",
+          "duration": 1.3333333730697632,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 1.4702634287807983e-7,
+              "gunPositionM": 1.471893797228756e-7,
+              "gunAngleDeg": 0.0000034150945850063755,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 8.613318983272311e-8,
+              "gunPositionM": 8.098805271812445e-8,
+              "gunAngleDeg": 0.0000024148365394514667,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type54_PistolShooting",
+          "weapon": "type54",
+          "motion": "PistolShooting",
+          "duration": 1.1666666269302368,
+          "frames": 281,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.0000017075472925031877,
+              "bonePositionM": 9.908500572162818e-8,
+              "gunPositionM": 7.06689270218628e-8,
+              "gunAngleDeg": 0.000004829673078902933,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 9.908500482963314e-8,
+              "gunPositionM": 6.669901508598783e-8,
+              "gunAngleDeg": 0.0000029575586669421963,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type54_Reloading",
+          "weapon": "type54",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "frames": 397,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000009195423586105977,
+              "bonePositionM": 1.2028249807361748e-7,
+              "gunPositionM": 1.0106375460446215e-7,
+              "gunAngleDeg": 0.000005663293681020316,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0001244285388690159,
+              "bonePositionM": 4.652944883606746e-7,
+              "gunPositionM": 7.848649596724499e-8,
+              "gunAngleDeg": 0.000004182619578303746,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type64_PistolIdle",
+          "weapon": "type64",
+          "motion": "PistolIdle",
+          "duration": 0.03333333507180214,
+          "frames": 4,
+          "samples": 8,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.0000017075472925031877,
+              "bonePositionM": 7.13665830578094e-8,
+              "gunPositionM": 6.405399487442174e-9,
+              "gunAngleDeg": 0,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 7.13665830578094e-8,
+              "gunPositionM": 6.405399487442174e-9,
+              "gunAngleDeg": 0,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type64_PistolWalk",
+          "weapon": "type64",
+          "motion": "PistolWalk",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000008706816964856284,
+              "bonePositionM": 8.636896788520851e-8,
+              "gunPositionM": 4.657366504216986e-8,
+              "gunAngleDeg": 0.00000887267600082659,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0001529851836894634,
+              "bonePositionM": 7.375419838772087e-7,
+              "gunPositionM": 5.923987813859588e-8,
+              "gunAngleDeg": 0.000006156649318399951,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type64_RifleRun",
+          "weapon": "type64",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000010526028440638418,
+              "bonePositionM": 9.9609867204142e-8,
+              "gunPositionM": 5.9452943784122535e-8,
+              "gunAngleDeg": 0.000006156649318399951,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.031638839492556636,
+              "bonePositionM": 0.00030256071914984883,
+              "gunPositionM": 0.00003149563308500642,
+              "gunAngleDeg": 0.00015122160679403542,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type64_PistolAimingIdle",
+          "weapon": "type64",
+          "motion": "PistolAimingIdle",
+          "duration": 1.3333333730697632,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 1.4939253454451312e-7,
+              "gunPositionM": 1.4720339594718136e-7,
+              "gunAngleDeg": 0.0000034150945850063755,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 8.613318983272311e-8,
+              "gunPositionM": 8.106220550752072e-8,
+              "gunAngleDeg": 0.0000024148365394514667,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type64_PistolShooting",
+          "weapon": "type64",
+          "motion": "PistolShooting",
+          "duration": 1.1666666269302368,
+          "frames": 281,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.0000017075472925031877,
+              "bonePositionM": 9.908500572162818e-8,
+              "gunPositionM": 7.06488649122654e-8,
+              "gunAngleDeg": 0.000004829673078902933,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 9.908500482963314e-8,
+              "gunPositionM": 6.667142451008842e-8,
+              "gunAngleDeg": 0.0000029575586669421963,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_type64_Reloading",
+          "weapon": "type64",
+          "motion": "Reloading",
+          "duration": 3.299999952316284,
+          "frames": 397,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000009195423586105977,
+              "bonePositionM": 1.2028249807361748e-7,
+              "gunPositionM": 1.0151555942865734e-7,
+              "gunAngleDeg": 0.000005663293681020316,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0001244285388690159,
+              "bonePositionM": 4.652944883606746e-7,
+              "gunPositionM": 7.845530308640122e-8,
+              "gunAngleDeg": 0.000004182619578303746,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_m870_RifleIdle",
+          "weapon": "m870",
+          "motion": "RifleIdle",
+          "duration": 7.699999809265137,
+          "frames": 463,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000004182619578303746,
+              "bonePositionM": 1.0286924900205642e-7,
+              "gunPositionM": 4.6493154880951165e-8,
+              "gunAngleDeg": 0.000004829673078902933,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0000034150945850063755,
+              "bonePositionM": 7.267469648976393e-8,
+              "gunPositionM": 2.9500342818562432e-8,
+              "gunAngleDeg": 0.0000017075472925031877,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_m870_RifleWalk",
+          "weapon": "m870",
+          "motion": "RifleWalk",
+          "duration": 1.100000023841858,
+          "frames": 134,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000006156649318399951,
+              "bonePositionM": 1.1867037331695223e-7,
+              "gunPositionM": 3.603585738907079e-8,
+              "gunAngleDeg": 0.000006613302226726412,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.2536539673051209,
+              "bonePositionM": 0.0014484872082555853,
+              "gunPositionM": 0.00005720235434836861,
+              "gunAngleDeg": 0.0059230439493537495,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_m870_RifleRun",
+          "weapon": "m870",
+          "motion": "RifleRun",
+          "duration": 0.6666666865348816,
+          "frames": 82,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000010526028440638418,
+              "bonePositionM": 9.9609867204142e-8,
+              "gunPositionM": 6.103758178245855e-8,
+              "gunAngleDeg": 0.000004829673078902933,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.031638839492556636,
+              "bonePositionM": 0.00030256071914984883,
+              "gunPositionM": 0.00003152503184567196,
+              "gunAngleDeg": 0.00018509371581605172,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_m870_RifleAimingIdle",
+          "weapon": "m870",
+          "motion": "RifleAimingIdle",
+          "duration": 0.5333333611488342,
+          "frames": 34,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000003818191820832845,
+              "bonePositionM": 6.563172355040625e-8,
+              "gunPositionM": 4.341530446268265e-8,
+              "gunAngleDeg": 0.000003818191820832845,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000003818191820832845,
+              "bonePositionM": 6.563172355040625e-8,
+              "gunPositionM": 4.341530446268265e-8,
+              "gunAngleDeg": 0.000003818191820832845,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_m870_ShotgunAimLevel",
+          "weapon": "m870",
+          "motion": "ShotgunAimLevel",
+          "duration": 0.5333333611488342,
+          "frames": 34,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000003818191820832845,
+              "bonePositionM": 6.563172355040625e-8,
+              "gunPositionM": 4.341530446268265e-8,
+              "gunAngleDeg": 0.000003818191820832845,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.000003818191820832845,
+              "bonePositionM": 6.563172355040625e-8,
+              "gunPositionM": 4.341530446268265e-8,
+              "gunAngleDeg": 0.000003818191820832845,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_m870_ShotgunAimUp",
+          "weapon": "m870",
+          "motion": "ShotgunAimUp",
+          "duration": 0.5333333611488342,
+          "frames": 34,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 6.99302318128926e-8,
+              "gunPositionM": 4.035671406551139e-8,
+              "gunAngleDeg": 0.000005915117333884393,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 6.993023147946829e-8,
+              "gunPositionM": 4.035671406551139e-8,
+              "gunAngleDeg": 0.000006156649318399951,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_m870_ShotgunAimDown",
+          "weapon": "m870",
+          "motion": "ShotgunAimDown",
+          "duration": 0.03333333507180214,
+          "frames": 4,
+          "samples": 8,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 7.085582617740134e-8,
+              "gunPositionM": 2.191365869390062e-8,
+              "gunAngleDeg": 0.0000034150945850063755,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 7.085582617740134e-8,
+              "gunPositionM": 2.1913658780352208e-8,
+              "gunAngleDeg": 0.000003818191820832845,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_m870_FiringRifle",
+          "weapon": "m870",
+          "motion": "FiringRifle",
+          "duration": 0.23333333432674408,
+          "frames": 58,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.0000029575586669421963,
+              "bonePositionM": 1.018987680295643e-7,
+              "gunPositionM": 4.5537934609766326e-8,
+              "gunAngleDeg": 0.0000034150945850063755,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.0000024148365394514667,
+              "bonePositionM": 9.737823787783792e-8,
+              "gunPositionM": 3.3916343581302146e-8,
+              "gunAngleDeg": 0.000005122641877509564,
+              "pumpM": 0
+            }
+          }
+        },
+        {
+          "clip": "Equipped_m870_ShotgunPump",
+          "weapon": "m870",
+          "motion": "ShotgunPump",
+          "duration": 0.7333333492279053,
+          "frames": 178,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000004182619578303746,
+              "bonePositionM": 9.243760002378248e-8,
+              "gunPositionM": 7.454390258925198e-8,
+              "gunAngleDeg": 0.000004517745487845101,
+              "pumpM": 1.734723475976807e-18
+            },
+            "interpolated": {
+              "angleDeg": 0.000005915117333884393,
+              "bonePositionM": 5.249298441161089e-8,
+              "gunPositionM": 3.31848953547905e-8,
+              "gunAngleDeg": 0.0000017075472925031877,
+              "pumpM": 8.673617379884035e-19
+            }
+          }
+        },
+        {
+          "clip": "Equipped_m870_Reloading",
+          "weapon": "m870",
+          "motion": "Reloading",
+          "duration": 1.9666666984558105,
+          "frames": 238,
+          "samples": 9,
+          "metrics": {
+            "exact": {
+              "angleDeg": 0.000006389056940260397,
+              "bonePositionM": 1.006210752775097e-7,
+              "gunPositionM": 6.169635165361434e-8,
+              "gunAngleDeg": 0.000005122641877509564,
+              "pumpM": 0
+            },
+            "interpolated": {
+              "angleDeg": 0.037122651786182174,
+              "bonePositionM": 0.00014343951085238224,
+              "gunPositionM": 0.00006859897865371603,
+              "gunAngleDeg": 0.0005919034801892962,
+              "pumpM": 0
+            }
+          }
+        }
+      ]
+    }
+  },
+  "failures": [],
+  "passed": true
+}

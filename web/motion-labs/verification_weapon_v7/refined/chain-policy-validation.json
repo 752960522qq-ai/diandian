@@ -1,0 +1,357 @@
+{
+  "rows": [
+    {
+      "cid": "linxu",
+      "weapon": "qsz92",
+      "motion": "PistolAimingIdle",
+      "samples": 25,
+      "maxGoalAngleDeg": 0.001040063117091217,
+      "minPadErrorMm": 0.13282010553022944,
+      "maxPadErrorMm": 0.13300736422055148,
+      "maxGunMoveMm": 0,
+      "maxGunAngleDeg": 0,
+      "maxWristShiftErrorMm": 0,
+      "maxWristAngleDeg": 0.0000034150945850063755,
+      "maxUnrelatedLocalAngleDeg": 0.0000029575586669421963,
+      "changedBones": [
+        "mixamorig:RightHandIndex1",
+        "mixamorig:RightHandIndex2",
+        "mixamorig:RightHandIndex3"
+      ]
+    },
+    {
+      "cid": "linxu",
+      "weapon": "qsz92",
+      "motion": "PistolShooting",
+      "samples": 25,
+      "maxGoalAngleDeg": 0.00033186654968912294,
+      "minPadErrorMm": 0.1329235067108894,
+      "maxPadErrorMm": 0.13295933397892615,
+      "maxGunMoveMm": 0,
+      "maxGunAngleDeg": 0,
+      "maxWristShiftErrorMm": 0,
+      "maxWristAngleDeg": 0.0000029575586669421963,
+      "maxUnrelatedLocalAngleDeg": 0.0000029575586669421963,
+      "changedBones": [
+        "mixamorig:RightHandIndex1",
+        "mixamorig:RightHandIndex2",
+        "mixamorig:RightHandIndex3"
+      ]
+    },
+    {
+      "cid": "linxu",
+      "weapon": "type54",
+      "motion": "PistolAimingIdle",
+      "samples": 25,
+      "maxGoalAngleDeg": 0.0012913856292890832,
+      "minPadErrorMm": 0.04098932373199125,
+      "maxPadErrorMm": 0.041275722904752454,
+      "maxGunMoveMm": 0,
+      "maxGunAngleDeg": 0,
+      "maxWristShiftErrorMm": 0,
+      "maxWristAngleDeg": 0.0000034150945850063755,
+      "maxUnrelatedLocalAngleDeg": 0.0000029575586669421963,
+      "changedBones": [
+        "mixamorig:RightHandIndex1",
+        "mixamorig:RightHandIndex2",
+        "mixamorig:RightHandIndex3"
+      ]
+    },
+    {
+      "cid": "linxu",
+      "weapon": "type54",
+      "motion": "PistolShooting",
+      "samples": 25,
+      "maxGoalAngleDeg": 0.00040361014733951997,
+      "minPadErrorMm": 0.04100976033930937,
+      "maxPadErrorMm": 0.041031118451475376,
+      "maxGunMoveMm": 0,
+      "maxGunAngleDeg": 0,
+      "maxWristShiftErrorMm": 0,
+      "maxWristAngleDeg": 0.0000029575586669421963,
+      "maxUnrelatedLocalAngleDeg": 0.0000029575586669421963,
+      "changedBones": [
+        "mixamorig:RightHandIndex1",
+        "mixamorig:RightHandIndex2",
+        "mixamorig:RightHandIndex3"
+      ]
+    },
+    {
+      "cid": "linxu",
+      "weapon": "type64",
+      "motion": "PistolAimingIdle",
+      "samples": 25,
+      "maxGoalAngleDeg": 0.00129137885580794,
+      "minPadErrorMm": 0.07106794973278827,
+      "maxPadErrorMm": 0.07123862728272311,
+      "maxGunMoveMm": 0,
+      "maxGunAngleDeg": 0,
+      "maxWristShiftErrorMm": 0,
+      "maxWristAngleDeg": 0.0000034150945850063755,
+      "maxUnrelatedLocalAngleDeg": 0.0000029575586669421963,
+      "changedBones": [
+        "mixamorig:RightHandIndex1",
+        "mixamorig:RightHandIndex2",
+        "mixamorig:RightHandIndex3"
+      ]
+    },
+    {
+      "cid": "linxu",
+      "weapon": "type64",
+      "motion": "PistolShooting",
+      "samples": 25,
+      "maxGoalAngleDeg": 0.00040361375937049665,
+      "minPadErrorMm": 0.07111316601532913,
+      "maxPadErrorMm": 0.07111955261727844,
+      "maxGunMoveMm": 0,
+      "maxGunAngleDeg": 0,
+      "maxWristShiftErrorMm": 0,
+      "maxWristAngleDeg": 0.0000029575586669421963,
+      "maxUnrelatedLocalAngleDeg": 0.0000029575586669421963,
+      "changedBones": [
+        "mixamorig:RightHandIndex1",
+        "mixamorig:RightHandIndex2",
+        "mixamorig:RightHandIndex3"
+      ]
+    },
+    {
+      "cid": "military",
+      "weapon": "qsz92",
+      "motion": "PistolAimingIdle",
+      "samples": 25,
+      "maxGoalAngleDeg": 0.0010400659204920673,
+      "minPadErrorMm": 0.7320509050839974,
+      "maxPadErrorMm": 0.7321577115203809,
+      "maxGunMoveMm": 0,
+      "maxGunAngleDeg": 0,
+      "maxWristShiftErrorMm": 0.000014510225001258507,
+      "maxWristAngleDeg": 0.0000024148365394514667,
+      "maxUnrelatedLocalAngleDeg": 0.0000029575586669421963,
+      "changedBones": [
+        "mixamorig:RightArm",
+        "mixamorig:RightForeArm",
+        "mixamorig:RightHand",
+        "mixamorig:RightHandIndex1",
+        "mixamorig:RightHandIndex2",
+        "mixamorig:RightHandIndex3"
+      ]
+    },
+    {
+      "cid": "military",
+      "weapon": "qsz92",
+      "motion": "PistolShooting",
+      "samples": 25,
+      "maxGoalAngleDeg": 0.00033094715860924087,
+      "minPadErrorMm": 0.73208026648348,
+      "maxPadErrorMm": 0.732091370685166,
+      "maxGunMoveMm": 0,
+      "maxGunAngleDeg": 0,
+      "maxWristShiftErrorMm": 0.000014220845447493409,
+      "maxWristAngleDeg": 0.0000024148365394514667,
+      "maxUnrelatedLocalAngleDeg": 0.0000024148365394514667,
+      "changedBones": [
+        "mixamorig:RightArm",
+        "mixamorig:RightForeArm",
+        "mixamorig:RightHand",
+        "mixamorig:RightHandIndex1",
+        "mixamorig:RightHandIndex2",
+        "mixamorig:RightHandIndex3"
+      ]
+    },
+    {
+      "cid": "military",
+      "weapon": "type54",
+      "motion": "PistolAimingIdle",
+      "samples": 25,
+      "maxGoalAngleDeg": 0.0012913833714659829,
+      "minPadErrorMm": 0.21649462929829097,
+      "maxPadErrorMm": 0.21671266826196114,
+      "maxGunMoveMm": 0,
+      "maxGunAngleDeg": 0,
+      "maxWristShiftErrorMm": 0,
+      "maxWristAngleDeg": 0.0000029575586669421963,
+      "maxUnrelatedLocalAngleDeg": 0.0000029575586669421963,
+      "changedBones": [
+        "mixamorig:RightHandIndex1",
+        "mixamorig:RightHandIndex2",
+        "mixamorig:RightHandIndex3"
+      ]
+    },
+    {
+      "cid": "military",
+      "weapon": "type54",
+      "motion": "PistolShooting",
+      "samples": 25,
+      "maxGoalAngleDeg": 0.0004034656395843187,
+      "minPadErrorMm": 0.21649030366554556,
+      "maxPadErrorMm": 0.21649934717262975,
+      "maxGunMoveMm": 0,
+      "maxGunAngleDeg": 0,
+      "maxWristShiftErrorMm": 0,
+      "maxWristAngleDeg": 0.0000024148365394514667,
+      "maxUnrelatedLocalAngleDeg": 0.0000024148365394514667,
+      "changedBones": [
+        "mixamorig:RightHandIndex1",
+        "mixamorig:RightHandIndex2",
+        "mixamorig:RightHandIndex3"
+      ]
+    },
+    {
+      "cid": "military",
+      "weapon": "type64",
+      "motion": "PistolAimingIdle",
+      "samples": 25,
+      "maxGoalAngleDeg": 0.0012913811136389354,
+      "minPadErrorMm": 0.5336028379161911,
+      "maxPadErrorMm": 0.5337345482157941,
+      "maxGunMoveMm": 0,
+      "maxGunAngleDeg": 0,
+      "maxWristShiftErrorMm": 0,
+      "maxWristAngleDeg": 0.0000029575586669421963,
+      "maxUnrelatedLocalAngleDeg": 0.0000029575586669421963,
+      "changedBones": [
+        "mixamorig:RightHandIndex1",
+        "mixamorig:RightHandIndex2",
+        "mixamorig:RightHandIndex3"
+      ]
+    },
+    {
+      "cid": "military",
+      "weapon": "type64",
+      "motion": "PistolShooting",
+      "samples": 25,
+      "maxGoalAngleDeg": 0.000403462026227286,
+      "minPadErrorMm": 0.5335977931609013,
+      "maxPadErrorMm": 0.5336032770874131,
+      "maxGunMoveMm": 0,
+      "maxGunAngleDeg": 0,
+      "maxWristShiftErrorMm": 0,
+      "maxWristAngleDeg": 0.0000024148365394514667,
+      "maxUnrelatedLocalAngleDeg": 0.0000024148365394514667,
+      "changedBones": [
+        "mixamorig:RightHandIndex1",
+        "mixamorig:RightHandIndex2",
+        "mixamorig:RightHandIndex3"
+      ]
+    },
+    {
+      "cid": "vest",
+      "weapon": "qsz92",
+      "motion": "PistolAimingIdle",
+      "samples": 25,
+      "maxGoalAngleDeg": 0.0010400575102668477,
+      "minPadErrorMm": 0.17526682603947594,
+      "maxPadErrorMm": 0.17542713278967512,
+      "maxGunMoveMm": 0,
+      "maxGunAngleDeg": 0,
+      "maxWristShiftErrorMm": 0,
+      "maxWristAngleDeg": 0.0000034150945850063755,
+      "maxUnrelatedLocalAngleDeg": 0.0000024148365394514667,
+      "changedBones": [
+        "mixamorig:RightHandIndex1",
+        "mixamorig:RightHandIndex2",
+        "mixamorig:RightHandIndex3"
+      ]
+    },
+    {
+      "cid": "vest",
+      "weapon": "qsz92",
+      "motion": "PistolShooting",
+      "samples": 25,
+      "maxGoalAngleDeg": 0.0003305945619199428,
+      "minPadErrorMm": 0.17536828062391382,
+      "maxPadErrorMm": 0.17538809010092427,
+      "maxGunMoveMm": 0,
+      "maxGunAngleDeg": 0,
+      "maxWristShiftErrorMm": 0,
+      "maxWristAngleDeg": 0.0000017075472925031877,
+      "maxUnrelatedLocalAngleDeg": 0.0000024148365394514667,
+      "changedBones": [
+        "mixamorig:RightHandIndex1",
+        "mixamorig:RightHandIndex2",
+        "mixamorig:RightHandIndex3"
+      ]
+    },
+    {
+      "cid": "vest",
+      "weapon": "type54",
+      "motion": "PistolAimingIdle",
+      "samples": 25,
+      "maxGoalAngleDeg": 0.0012913811136389354,
+      "minPadErrorMm": 0.10857645575361653,
+      "maxPadErrorMm": 0.10863421503812468,
+      "maxGunMoveMm": 0,
+      "maxGunAngleDeg": 0,
+      "maxWristShiftErrorMm": 0,
+      "maxWristAngleDeg": 0.0000034150945850063755,
+      "maxUnrelatedLocalAngleDeg": 0.0000024148365394514667,
+      "changedBones": [
+        "mixamorig:RightHandIndex1",
+        "mixamorig:RightHandIndex2",
+        "mixamorig:RightHandIndex3"
+      ]
+    },
+    {
+      "cid": "vest",
+      "weapon": "type54",
+      "motion": "PistolShooting",
+      "samples": 25,
+      "maxGoalAngleDeg": 0.0004033825241836737,
+      "minPadErrorMm": 0.10865128584130623,
+      "maxPadErrorMm": 0.1086622650563156,
+      "maxGunMoveMm": 0,
+      "maxGunAngleDeg": 0,
+      "maxWristShiftErrorMm": 0,
+      "maxWristAngleDeg": 0.0000017075472925031877,
+      "maxUnrelatedLocalAngleDeg": 0.0000024148365394514667,
+      "changedBones": [
+        "mixamorig:RightHandIndex1",
+        "mixamorig:RightHandIndex2",
+        "mixamorig:RightHandIndex3"
+      ]
+    },
+    {
+      "cid": "vest",
+      "weapon": "type64",
+      "motion": "PistolAimingIdle",
+      "samples": 25,
+      "maxGoalAngleDeg": 0.0012913833714659829,
+      "minPadErrorMm": 0.1749973260570376,
+      "maxPadErrorMm": 0.17523121280863857,
+      "maxGunMoveMm": 0,
+      "maxGunAngleDeg": 0,
+      "maxWristShiftErrorMm": 0,
+      "maxWristAngleDeg": 0.0000034150945850063755,
+      "maxUnrelatedLocalAngleDeg": 0.0000024148365394514667,
+      "changedBones": [
+        "mixamorig:RightHandIndex1",
+        "mixamorig:RightHandIndex2",
+        "mixamorig:RightHandIndex3"
+      ]
+    },
+    {
+      "cid": "vest",
+      "weapon": "type64",
+      "motion": "PistolShooting",
+      "samples": 25,
+      "maxGoalAngleDeg": 0.0004033789100821162,
+      "minPadErrorMm": 0.17502393298067126,
+      "maxPadErrorMm": 0.17503454262639195,
+      "maxGunMoveMm": 0,
+      "maxGunAngleDeg": 0,
+      "maxWristShiftErrorMm": 0,
+      "maxWristAngleDeg": 0.0000017075472925031877,
+      "maxUnrelatedLocalAngleDeg": 0.0000024148365394514667,
+      "changedBones": [
+        "mixamorig:RightHandIndex1",
+        "mixamorig:RightHandIndex2",
+        "mixamorig:RightHandIndex3"
+      ]
+    }
+  ],
+  "failures": [],
+  "untouched": {
+    "maxDifferenceDeg": 0.0000029575586669421963,
+    "maxGunDifferenceM": 0
+  }
+}

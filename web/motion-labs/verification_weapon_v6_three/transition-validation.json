@@ -1,0 +1,23 @@
+{
+  "characters": {
+    "linxu": {
+      "cases": 24,
+      "maxBone": 5.16191365590357e-8,
+      "maxGun": 2.9802322387695312e-8,
+      "maxM870PumpResidualM": 0
+    },
+    "military": {
+      "cases": 24,
+      "maxBone": 5.960464477539063e-8,
+      "maxGun": 2.9802322387695312e-8,
+      "maxM870PumpResidualM": 0
+    },
+    "vest": {
+      "cases": 24,
+      "maxBone": 5.16191365590357e-8,
+      "maxGun": 0,
+      "maxM870PumpResidualM": 0
+    }
+  },
+  "failures": []
+}

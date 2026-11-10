@@ -1,0 +1,1176 @@
+{
+  "passed": true,
+  "characters": {
+    "linxu": {
+      "base_sha256": "9b95188cbd35082c2699e766b8b4464c813994345de25e3dd716ea40e805d5b0",
+      "v7_sha256": "1ea200809c4979c0bdda1b3a53bbd8067c4b846faf8911998e92de997c3074f8",
+      "clips": 28,
+      "changed_tracks": [
+        {
+          "clip": "Natural_qsz92_PistolIdle",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolIdle",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolIdle",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolWalk",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolWalk",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolWalk",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolAimingIdle",
+          "bone": "mixamorig:RightHandIndex1",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolAimingIdle",
+          "bone": "mixamorig:RightHandIndex2",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolAimingIdle",
+          "bone": "mixamorig:RightHandIndex3",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolShooting",
+          "bone": "mixamorig:RightHandIndex1",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolShooting",
+          "bone": "mixamorig:RightHandIndex2",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolShooting",
+          "bone": "mixamorig:RightHandIndex3",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolIdle",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolIdle",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolIdle",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolWalk",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolWalk",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolWalk",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolAimingIdle",
+          "bone": "mixamorig:RightHandIndex1",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolAimingIdle",
+          "bone": "mixamorig:RightHandIndex2",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolAimingIdle",
+          "bone": "mixamorig:RightHandIndex3",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolShooting",
+          "bone": "mixamorig:RightHandIndex1",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolShooting",
+          "bone": "mixamorig:RightHandIndex2",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolShooting",
+          "bone": "mixamorig:RightHandIndex3",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolIdle",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolIdle",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolIdle",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolWalk",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolWalk",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolWalk",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolAimingIdle",
+          "bone": "mixamorig:RightHandIndex1",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolAimingIdle",
+          "bone": "mixamorig:RightHandIndex2",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolAimingIdle",
+          "bone": "mixamorig:RightHandIndex3",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolShooting",
+          "bone": "mixamorig:RightHandIndex1",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolShooting",
+          "bone": "mixamorig:RightHandIndex2",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolShooting",
+          "bone": "mixamorig:RightHandIndex3",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_RifleWalk",
+          "bone": "mixamorig:RightHandMiddle2",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_RifleWalk",
+          "bone": "mixamorig:RightHandMiddle3",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_RifleAimingIdle",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_RifleAimingIdle",
+          "bone": "mixamorig:RightArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_RifleAimingIdle",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_RifleAimingIdle",
+          "bone": "mixamorig:RightForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_RifleAimingIdle",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_RifleAimingIdle",
+          "bone": "mixamorig:RightHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimLevel",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimLevel",
+          "bone": "mixamorig:RightArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimLevel",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimLevel",
+          "bone": "mixamorig:RightForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimLevel",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimLevel",
+          "bone": "mixamorig:RightHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimUp",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimUp",
+          "bone": "mixamorig:RightArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimUp",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimUp",
+          "bone": "mixamorig:RightForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimUp",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimUp",
+          "bone": "mixamorig:RightHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimDown",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimDown",
+          "bone": "mixamorig:RightArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimDown",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimDown",
+          "bone": "mixamorig:RightForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimDown",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimDown",
+          "bone": "mixamorig:RightHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_FiringRifle",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_FiringRifle",
+          "bone": "mixamorig:RightArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_FiringRifle",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_FiringRifle",
+          "bone": "mixamorig:RightForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_FiringRifle",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_FiringRifle",
+          "bone": "mixamorig:RightHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunPump",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunPump",
+          "bone": "mixamorig:RightArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunPump",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunPump",
+          "bone": "mixamorig:RightForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunPump",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunPump",
+          "bone": "mixamorig:RightHand",
+          "property": "rotation"
+        }
+      ],
+      "forbidden_changed_bytes": 0,
+      "failures": [],
+      "passed": true
+    },
+    "military": {
+      "base_sha256": "96ed953d3307c9d68b1288ccdac3f88b41f45a8041a7236e29021797cf7f2d34",
+      "v7_sha256": "e733f4b485749d9d394ba1d534802910c26de3b7d4c7728f72dfc183e188a48e",
+      "clips": 28,
+      "changed_tracks": [
+        {
+          "clip": "Natural_qsz92_PistolIdle",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolIdle",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolIdle",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolWalk",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolWalk",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolWalk",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolAimingIdle",
+          "bone": "mixamorig:RightArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolAimingIdle",
+          "bone": "mixamorig:RightForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolAimingIdle",
+          "bone": "mixamorig:RightHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolAimingIdle",
+          "bone": "mixamorig:RightHandIndex1",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolAimingIdle",
+          "bone": "mixamorig:RightHandIndex2",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolAimingIdle",
+          "bone": "mixamorig:RightHandIndex3",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolShooting",
+          "bone": "mixamorig:RightArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolShooting",
+          "bone": "mixamorig:RightForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolShooting",
+          "bone": "mixamorig:RightHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolShooting",
+          "bone": "mixamorig:RightHandIndex1",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolShooting",
+          "bone": "mixamorig:RightHandIndex2",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolShooting",
+          "bone": "mixamorig:RightHandIndex3",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolIdle",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolIdle",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolIdle",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolWalk",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolWalk",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolWalk",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolAimingIdle",
+          "bone": "mixamorig:RightHandIndex1",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolAimingIdle",
+          "bone": "mixamorig:RightHandIndex2",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolAimingIdle",
+          "bone": "mixamorig:RightHandIndex3",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolShooting",
+          "bone": "mixamorig:RightHandIndex1",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolShooting",
+          "bone": "mixamorig:RightHandIndex2",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolShooting",
+          "bone": "mixamorig:RightHandIndex3",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolIdle",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolIdle",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolIdle",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolWalk",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolWalk",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolWalk",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolAimingIdle",
+          "bone": "mixamorig:RightHandIndex1",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolAimingIdle",
+          "bone": "mixamorig:RightHandIndex2",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolAimingIdle",
+          "bone": "mixamorig:RightHandIndex3",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolShooting",
+          "bone": "mixamorig:RightHandIndex1",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolShooting",
+          "bone": "mixamorig:RightHandIndex2",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolShooting",
+          "bone": "mixamorig:RightHandIndex3",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_RifleWalk",
+          "bone": "mixamorig:RightHandMiddle2",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_RifleWalk",
+          "bone": "mixamorig:RightHandMiddle3",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_RifleAimingIdle",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_RifleAimingIdle",
+          "bone": "mixamorig:RightArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_RifleAimingIdle",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_RifleAimingIdle",
+          "bone": "mixamorig:RightForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_RifleAimingIdle",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_RifleAimingIdle",
+          "bone": "mixamorig:RightHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimLevel",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimLevel",
+          "bone": "mixamorig:RightArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimLevel",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimLevel",
+          "bone": "mixamorig:RightForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimLevel",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimLevel",
+          "bone": "mixamorig:RightHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimUp",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimUp",
+          "bone": "mixamorig:RightArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimUp",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimUp",
+          "bone": "mixamorig:RightForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimUp",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimUp",
+          "bone": "mixamorig:RightHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimDown",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimDown",
+          "bone": "mixamorig:RightArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimDown",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimDown",
+          "bone": "mixamorig:RightForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimDown",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimDown",
+          "bone": "mixamorig:RightHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_FiringRifle",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_FiringRifle",
+          "bone": "mixamorig:RightArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_FiringRifle",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_FiringRifle",
+          "bone": "mixamorig:RightForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_FiringRifle",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_FiringRifle",
+          "bone": "mixamorig:RightHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunPump",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunPump",
+          "bone": "mixamorig:RightArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunPump",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunPump",
+          "bone": "mixamorig:RightForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunPump",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunPump",
+          "bone": "mixamorig:RightHand",
+          "property": "rotation"
+        }
+      ],
+      "forbidden_changed_bytes": 0,
+      "failures": [],
+      "passed": true
+    },
+    "vest": {
+      "base_sha256": "8a52c51f34f5e0eaff31588a6b2a72f8fe497c57ffb3de81b270b28499a6e9d1",
+      "v7_sha256": "6adfe5db50caeaaf79dd3e35ded51d78f3112bb4fadabdb1c10559f572ede71a",
+      "clips": 28,
+      "changed_tracks": [
+        {
+          "clip": "Natural_qsz92_PistolIdle",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolIdle",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolIdle",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolWalk",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolWalk",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolWalk",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolAimingIdle",
+          "bone": "mixamorig:RightHandIndex1",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolAimingIdle",
+          "bone": "mixamorig:RightHandIndex2",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolAimingIdle",
+          "bone": "mixamorig:RightHandIndex3",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolShooting",
+          "bone": "mixamorig:RightHandIndex1",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolShooting",
+          "bone": "mixamorig:RightHandIndex2",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_qsz92_PistolShooting",
+          "bone": "mixamorig:RightHandIndex3",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolIdle",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolIdle",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolIdle",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolWalk",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolWalk",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolWalk",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolAimingIdle",
+          "bone": "mixamorig:RightHandIndex1",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolAimingIdle",
+          "bone": "mixamorig:RightHandIndex2",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolAimingIdle",
+          "bone": "mixamorig:RightHandIndex3",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolShooting",
+          "bone": "mixamorig:RightHandIndex1",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolShooting",
+          "bone": "mixamorig:RightHandIndex2",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type54_PistolShooting",
+          "bone": "mixamorig:RightHandIndex3",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolIdle",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolIdle",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolIdle",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolWalk",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolWalk",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolWalk",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolAimingIdle",
+          "bone": "mixamorig:RightHandIndex1",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolAimingIdle",
+          "bone": "mixamorig:RightHandIndex2",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolAimingIdle",
+          "bone": "mixamorig:RightHandIndex3",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolShooting",
+          "bone": "mixamorig:RightHandIndex1",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolShooting",
+          "bone": "mixamorig:RightHandIndex2",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_type64_PistolShooting",
+          "bone": "mixamorig:RightHandIndex3",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_RifleWalk",
+          "bone": "mixamorig:RightHandMiddle2",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_RifleWalk",
+          "bone": "mixamorig:RightHandMiddle3",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_RifleAimingIdle",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_RifleAimingIdle",
+          "bone": "mixamorig:RightArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_RifleAimingIdle",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_RifleAimingIdle",
+          "bone": "mixamorig:RightForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_RifleAimingIdle",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_RifleAimingIdle",
+          "bone": "mixamorig:RightHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimLevel",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimLevel",
+          "bone": "mixamorig:RightArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimLevel",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimLevel",
+          "bone": "mixamorig:RightForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimLevel",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimLevel",
+          "bone": "mixamorig:RightHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimUp",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimUp",
+          "bone": "mixamorig:RightArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimUp",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimUp",
+          "bone": "mixamorig:RightForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimUp",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimUp",
+          "bone": "mixamorig:RightHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimDown",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimDown",
+          "bone": "mixamorig:RightArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimDown",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimDown",
+          "bone": "mixamorig:RightForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimDown",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunAimDown",
+          "bone": "mixamorig:RightHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_FiringRifle",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_FiringRifle",
+          "bone": "mixamorig:RightArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_FiringRifle",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_FiringRifle",
+          "bone": "mixamorig:RightForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_FiringRifle",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_FiringRifle",
+          "bone": "mixamorig:RightHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunPump",
+          "bone": "mixamorig:LeftArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunPump",
+          "bone": "mixamorig:RightArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunPump",
+          "bone": "mixamorig:LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunPump",
+          "bone": "mixamorig:RightForeArm",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunPump",
+          "bone": "mixamorig:LeftHand",
+          "property": "rotation"
+        },
+        {
+          "clip": "Natural_m870_ShotgunPump",
+          "bone": "mixamorig:RightHand",
+          "property": "rotation"
+        }
+      ],
+      "forbidden_changed_bytes": 0,
+      "failures": [],
+      "passed": true
+    }
+  },
+  "scope": "Only Arm/ForeArm/Hand quaternion output bytes may differ. All body/head/neck/shoulder/leg tracks, frame-time inputs, node rest transforms and animation identities are checked independently."
+}

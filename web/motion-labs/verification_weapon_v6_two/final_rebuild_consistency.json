@@ -1,0 +1,30 @@
+{
+  "diandian-classic-motion-lab": {
+    "animationBinaryUnchangedAfterDependencyCleanup": true,
+    "animationBinarySha256": "9f62e9ff81c32514b6cc73586d7b688d1cbbcf2e2f208d55b273fb1f72943c9b",
+    "sourceHashMismatches": [],
+    "privateWorkInputs": [],
+    "legacyCompactInputs": [],
+    "clips": 42,
+    "exportSummary": {
+      "logicalWeaponMotionCombinations": 27,
+      "pitchSamples": 15,
+      "exportedClips": 42,
+      "pitchPolicy": "15 extra samples = RifleAimingIdle / FiringRifle / ShotgunPump at normalized pitch -1,-0.5,0,0.5,1. The zero-pitch variants overlap existing level actions; these are not 15 new authored motions."
+    }
+  },
+  "zhigeng-motion-lab": {
+    "animationBinaryUnchangedAfterDependencyCleanup": true,
+    "animationBinarySha256": "4e0aac10308ad95658ed66b167921a86df74f48e0a86e20aa4ca641834ac8e9f",
+    "sourceHashMismatches": [],
+    "privateWorkInputs": [],
+    "legacyCompactInputs": [],
+    "clips": 42,
+    "exportSummary": {
+      "logicalWeaponMotionCombinations": 27,
+      "pitchSamples": 15,
+      "exportedClips": 42,
+      "pitchPolicy": "15 extra samples = RifleAimingIdle / FiringRifle / ShotgunPump at normalized pitch -1,-0.5,0,0.5,1. The zero-pitch variants overlap existing level actions; these are not 15 new authored motions."
+    }
+  }
+}

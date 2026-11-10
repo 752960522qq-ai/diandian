@@ -1,0 +1,96 @@
+{
+  "scope": "Production GLB loaded through prepareRig, actual linear skinned vertex positions compared to reviewed source candidate. M870 RifleRun only.",
+  "characters": {
+    "linxu": {
+      "production_pack_sha256": "9b95188cbd35082c2699e766b8b4464c813994345de25e3dd716ea40e805d5b0",
+      "source_candidate_sha256": "5cfb03bab3c6b6d8bfcb54bd1ae8567e1d927cc6b16d5071a3f793c7e31fc2aa",
+      "phases": 161,
+      "skin_vertices": 3951,
+      "max_world_skin_error_m": 0.0007858240504090373,
+      "max_world_bone_error_m": 0.0021622037995485516,
+      "worst": {
+        "phase": 0.25,
+        "mesh": "tripo_mesh_fc58dd7b-a109-490a-96a8-8933e8bfaed4",
+        "vertex": 30277
+      },
+      "production_region_minima": {
+        "shoulder": {
+          "minDet": 0.7593514096190793,
+          "minP10": 0.8177577904512112,
+          "minAreaP10": 0.5890637950292062
+        },
+        "elbow": {
+          "minDet": 0.2402897010779922,
+          "minP10": 0.27980464405122113,
+          "minAreaP10": 0.4203189177225376
+        },
+        "wrist": {
+          "minDet": 0.5301785652364397,
+          "minP10": 0.5987325617163717,
+          "minAreaP10": 0.29836721690432616
+        }
+      }
+    },
+    "military": {
+      "production_pack_sha256": "96ed953d3307c9d68b1288ccdac3f88b41f45a8041a7236e29021797cf7f2d34",
+      "source_candidate_sha256": "5cfb03bab3c6b6d8bfcb54bd1ae8567e1d927cc6b16d5071a3f793c7e31fc2aa",
+      "phases": 161,
+      "skin_vertices": 5984,
+      "max_world_skin_error_m": 0.0008784828225355832,
+      "max_world_bone_error_m": 0.002099803152791968,
+      "worst": {
+        "phase": 0.25,
+        "mesh": "tripo_node_b048816b-b107-4162-834e-df8d8eb79d84",
+        "vertex": 17028
+      },
+      "production_region_minima": {
+        "shoulder": {
+          "minDet": 0.7636418053223683,
+          "minP10": 0.7981078092930213,
+          "minAreaP10": 0.6044339481571092
+        },
+        "elbow": {
+          "minDet": 0.2489053468352195,
+          "minP10": 0.2789380127248008,
+          "minAreaP10": 0.43426687033503153
+        },
+        "wrist": {
+          "minDet": 0.6281181552255193,
+          "minP10": 0.8676347425551504,
+          "minAreaP10": 0.666731295960391
+        }
+      }
+    },
+    "vest": {
+      "production_pack_sha256": "8a52c51f34f5e0eaff31588a6b2a72f8fe497c57ffb3de81b270b28499a6e9d1",
+      "source_candidate_sha256": "5cfb03bab3c6b6d8bfcb54bd1ae8567e1d927cc6b16d5071a3f793c7e31fc2aa",
+      "phases": 161,
+      "skin_vertices": 2888,
+      "max_world_skin_error_m": 0.0008671912412966325,
+      "max_world_bone_error_m": 0.002149722757892964,
+      "worst": {
+        "phase": 0.25,
+        "mesh": "tripo_node_6740f5ca-fa46-48d9-9af9-f583d8adb7fc",
+        "vertex": 10933
+      },
+      "production_region_minima": {
+        "shoulder": {
+          "minDet": 0.7512223201104354,
+          "minP10": 0.8407031210310569,
+          "minAreaP10": 0.5512243408529872
+        },
+        "elbow": {
+          "minDet": 0.26985371737701397,
+          "minP10": 0.34343430265507974,
+          "minAreaP10": 0.5969526659562098
+        },
+        "wrist": {
+          "minDet": 0.5533809394267477,
+          "minP10": 0.5885590267617314,
+          "minAreaP10": 0.36409771428653337
+        }
+      }
+    }
+  },
+  "failures": []
+}

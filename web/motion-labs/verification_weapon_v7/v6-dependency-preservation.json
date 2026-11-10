@@ -1,0 +1,2540 @@
+{
+  "v6_path_count": 420,
+  "all_v6_paths_preserved": true,
+  "unchanged_content_count": 409,
+  "changed_existing_paths": [
+    ".gitattributes",
+    "web/motion-labs/linxu-motion-lab/app.js",
+    "web/motion-labs/linxu-motion-lab/assets/weapon_attachment.json",
+    "web/motion-labs/linxu-motion-lab/index.html",
+    "web/motion-labs/linxu-motion-lab/rig.js",
+    "web/motion-labs/linxu-motion-lab/weapon-attachment.js",
+    "web/motion-labs/resistance-motion-lab/app.js",
+    "web/motion-labs/resistance-motion-lab/assets/weapon_attachment.json",
+    "web/motion-labs/resistance-motion-lab/index.html",
+    "web/motion-labs/resistance-motion-lab/rig.js",
+    "web/motion-labs/resistance-motion-lab/weapon-attachment.js"
+  ],
+  "rows": [
+    {
+      "path": ".gitattributes",
+      "v6_sha256": "0d2b3486293d62310290d6e1107edc7c5778b8e13212783e7727ae89f362b2a9",
+      "v7_sha256": "972c93769a290291e4df9066327e0f705fcb677f05923ce75aa02085e123b261",
+      "content_preserved": false
+    },
+    {
+      "path": "Docs/weapon_update_v6/README.md",
+      "v6_sha256": "0383f94d9ec721d3c85a3eadbfe08f1c127ab2e912b1583e83d23536d4c2c95d",
+      "v7_sha256": "0383f94d9ec721d3c85a3eadbfe08f1c127ab2e912b1583e83d23536d4c2c95d",
+      "content_preserved": true
+    },
+    {
+      "path": "Docs/weapon_update_v6/\u89c6\u89c9\u590d\u6838.md",
+      "v6_sha256": "fc94e0d2c12009b9cdcb7e8f022c1274dd6018a0b6fea073d3cd29f1beaddc65",
+      "v7_sha256": "fc94e0d2c12009b9cdcb7e8f022c1274dd6018a0b6fea073d3cd29f1beaddc65",
+      "content_preserved": true
+    },
+    {
+      "path": "assets/characters/weapon_update_v6/linxu/equipped_motions.glb",
+      "v6_sha256": "9b95188cbd35082c2699e766b8b4464c813994345de25e3dd716ea40e805d5b0",
+      "v7_sha256": "9b95188cbd35082c2699e766b8b4464c813994345de25e3dd716ea40e805d5b0",
+      "content_preserved": true
+    },
+    {
+      "path": "assets/characters/weapon_update_v6/linxu/equipped_weapon_transforms.json",
+      "v6_sha256": "2f0640e17db6d889b7968c2f55d7e57aba580c9cf6190583102ffd40e4c7604f",
+      "v7_sha256": "2f0640e17db6d889b7968c2f55d7e57aba580c9cf6190583102ffd40e4c7604f",
+      "content_preserved": true
+    },
+    {
+      "path": "assets/characters/weapon_update_v6/linxu/motions.glb",
+      "v6_sha256": "9b95188cbd35082c2699e766b8b4464c813994345de25e3dd716ea40e805d5b0",
+      "v7_sha256": "9b95188cbd35082c2699e766b8b4464c813994345de25e3dd716ea40e805d5b0",
+      "content_preserved": true
+    },
+    {
+      "path": "assets/characters/weapon_update_v6/linxu/report.json",
+      "v6_sha256": "30ec4be682e2aa23945721b4df31a462ccdd4233b1d67efef1bedd480fb2668e",
+      "v7_sha256": "30ec4be682e2aa23945721b4df31a462ccdd4233b1d67efef1bedd480fb2668e",
+      "content_preserved": true
+    },
+    {
+      "path": "assets/characters/weapon_update_v6/military/equipped_motions.glb",
+      "v6_sha256": "96ed953d3307c9d68b1288ccdac3f88b41f45a8041a7236e29021797cf7f2d34",
+      "v7_sha256": "96ed953d3307c9d68b1288ccdac3f88b41f45a8041a7236e29021797cf7f2d34",
+      "content_preserved": true
+    },
+    {
+      "path": "assets/characters/weapon_update_v6/military/equipped_weapon_transforms.json",
+      "v6_sha256": "dffc1e5fe274b07d4bfdd58c8c179106af807cbe7b89184745a89abca3eca429",
+      "v7_sha256": "dffc1e5fe274b07d4bfdd58c8c179106af807cbe7b89184745a89abca3eca429",
+      "content_preserved": true
+    },
+    {
+      "path": "assets/characters/weapon_update_v6/military/motions.glb",
+      "v6_sha256": "96ed953d3307c9d68b1288ccdac3f88b41f45a8041a7236e29021797cf7f2d34",
+      "v7_sha256": "96ed953d3307c9d68b1288ccdac3f88b41f45a8041a7236e29021797cf7f2d34",
+      "content_preserved": true
+    },
+    {
+      "path": "assets/characters/weapon_update_v6/military/report.json",
+      "v6_sha256": "827899cd0fccf0687ffd8c87f5fb05012556d31a08e69587f24686c98f30bed7",
+      "v7_sha256": "827899cd0fccf0687ffd8c87f5fb05012556d31a08e69587f24686c98f30bed7",
+      "content_preserved": true
+    },
+    {
+      "path": "assets/characters/weapon_update_v6/vest/equipped_motions.glb",
+      "v6_sha256": "8a52c51f34f5e0eaff31588a6b2a72f8fe497c57ffb3de81b270b28499a6e9d1",
+      "v7_sha256": "8a52c51f34f5e0eaff31588a6b2a72f8fe497c57ffb3de81b270b28499a6e9d1",
+      "content_preserved": true
+    },
+    {
+      "path": "assets/characters/weapon_update_v6/vest/equipped_weapon_transforms.json",
+      "v6_sha256": "35bb5a377c55ee9283ec84e66fb3d6aa502f8c2f8d6b552466e50681f3dd14cd",
+      "v7_sha256": "35bb5a377c55ee9283ec84e66fb3d6aa502f8c2f8d6b552466e50681f3dd14cd",
+      "content_preserved": true
+    },
+    {
+      "path": "assets/characters/weapon_update_v6/vest/motions.glb",
+      "v6_sha256": "8a52c51f34f5e0eaff31588a6b2a72f8fe497c57ffb3de81b270b28499a6e9d1",
+      "v7_sha256": "8a52c51f34f5e0eaff31588a6b2a72f8fe497c57ffb3de81b270b28499a6e9d1",
+      "content_preserved": true
+    },
+    {
+      "path": "assets/characters/weapon_update_v6/vest/report.json",
+      "v6_sha256": "85c715b253737847ffddc4a423687aadeeab2b000b964e18a3dfba4247cba169",
+      "v7_sha256": "85c715b253737847ffddc4a423687aadeeab2b000b964e18a3dfba4247cba169",
+      "content_preserved": true
+    },
+    {
+      "path": "assets/weapons/m870.glb",
+      "v6_sha256": "b1192f67c1bc1ca6334d5b4b281eefe234bcb222132c627580dab594e8e14795",
+      "v7_sha256": "b1192f67c1bc1ca6334d5b4b281eefe234bcb222132c627580dab594e8e14795",
+      "content_preserved": true
+    },
+    {
+      "path": "assets/weapons/qsz92.glb",
+      "v6_sha256": "c2be7f2de027e57303d635a2e51aa0c41849878b23bd294d5ddb372389a7f30c",
+      "v7_sha256": "c2be7f2de027e57303d635a2e51aa0c41849878b23bd294d5ddb372389a7f30c",
+      "content_preserved": true
+    },
+    {
+      "path": "assets/weapons/refined_v2_attachment.json",
+      "v6_sha256": "9b94c24643ccc5e845ee2e33f998f757098242dcabff67a5b105512c84a903de",
+      "v7_sha256": "9b94c24643ccc5e845ee2e33f998f757098242dcabff67a5b105512c84a903de",
+      "content_preserved": true
+    },
+    {
+      "path": "assets/weapons/source/refined_v2/QSZ92G_\u51e0\u4f55\u7cbe\u4fee_v2.glb",
+      "v6_sha256": "7cf383d0742b7874bc97d8ceedc3ad3a1881d8f461820d307a49d0abb3c7f922",
+      "v7_sha256": "7cf383d0742b7874bc97d8ceedc3ad3a1881d8f461820d307a49d0abb3c7f922",
+      "content_preserved": true
+    },
+    {
+      "path": "assets/weapons/source/refined_v2/R870_\u51e0\u4f55\u7cbe\u4fee_v2.glb",
+      "v6_sha256": "e24811768839d6a55a33b9c5fbf10c03dc64a45b78bf718f0166bd5161099c53",
+      "v7_sha256": "e24811768839d6a55a33b9c5fbf10c03dc64a45b78bf718f0166bd5161099c53",
+      "content_preserved": true
+    },
+    {
+      "path": "assets/weapons/source/refined_v2/SOURCE_NOTES.txt",
+      "v6_sha256": "9c7040f5b721c88b719dfca0069bccfc6ef966f8edc589d6b655dd13ca578ad9",
+      "v7_sha256": "9c7040f5b721c88b719dfca0069bccfc6ef966f8edc589d6b655dd13ca578ad9",
+      "content_preserved": true
+    },
+    {
+      "path": "assets/weapons/source/refined_v2/TT33_\u51e0\u4f55\u7cbe\u4fee_v2.glb",
+      "v6_sha256": "3e4ec09aecfc93f3e49d2da72c996f36c4761d6986342a52ec17df680bc58f4a",
+      "v7_sha256": "3e4ec09aecfc93f3e49d2da72c996f36c4761d6986342a52ec17df680bc58f4a",
+      "content_preserved": true
+    },
+    {
+      "path": "assets/weapons/source/refined_v2/TYPE64_\u51e0\u4f55\u7cbe\u4fee_v2.glb",
+      "v6_sha256": "4b3959d1fc58713665196515aca317285b2eced548fbef45a10a9b2fa2cdc2d5",
+      "v7_sha256": "4b3959d1fc58713665196515aca317285b2eced548fbef45a10a9b2fa2cdc2d5",
+      "content_preserved": true
+    },
+    {
+      "path": "assets/weapons/type54.glb",
+      "v6_sha256": "25d58d368e66cbead8faf6083408c73bd93fe2bf2e23b2706d9d3c006e83e06b",
+      "v7_sha256": "25d58d368e66cbead8faf6083408c73bd93fe2bf2e23b2706d9d3c006e83e06b",
+      "content_preserved": true
+    },
+    {
+      "path": "assets/weapons/type64.glb",
+      "v6_sha256": "ca7376e4b84e7b50df2a59743d9a3b09db37928d6c1152bddc13cac7a8f9c582",
+      "v7_sha256": "ca7376e4b84e7b50df2a59743d9a3b09db37928d6c1152bddc13cac7a8f9c582",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/normalize_refined_weapons.py",
+      "v6_sha256": "3ec5a2429c0330a5c6c8736968dec1b84366d6c0745b999c94910a98d6547221",
+      "v7_sha256": "3ec5a2429c0330a5c6c8736968dec1b84366d6c0745b999c94910a98d6547221",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_delivery/apply_update.py",
+      "v6_sha256": "abd2ca7c32b685db387b0e88e82bb6766d3ec9e2019f5eff8f91ec2ffe93dbc2",
+      "v7_sha256": "abd2ca7c32b685db387b0e88e82bb6766d3ec9e2019f5eff8f91ec2ffe93dbc2",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_delivery/package.py",
+      "v6_sha256": "bb2ea72e03ecc75c01f7aff65dc5d70c4010e978866ffbcb692877eab44de34d",
+      "v7_sha256": "bb2ea72e03ecc75c01f7aff65dc5d70c4010e978866ffbcb692877eab44de34d",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_delivery/test_installer.py",
+      "v6_sha256": "81a54de3b220180799748702ec79890c81126fef8fe960e77bd583cc302152aa",
+      "v7_sha256": "81a54de3b220180799748702ec79890c81126fef8fe960e77bd583cc302152aa",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_delivery/validate_godot_skeleton.py",
+      "v6_sha256": "cf5752252caab2a69adce8133c2022a59abcd1cd01e5efb4a6fad69d1a544b50",
+      "v7_sha256": "cf5752252caab2a69adce8133c2022a59abcd1cd01e5efb4a6fad69d1a544b50",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_full_review/README.md",
+      "v6_sha256": "000a9314ef630adc179c9e0fff574fe46de8be34a1fdc303dfeeac5e419ed4d5",
+      "v7_sha256": "000a9314ef630adc179c9e0fff574fe46de8be34a1fdc303dfeeac5e419ed4d5",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_full_review/bake_runtime.mjs",
+      "v6_sha256": "36413bb50dc87e27cfd60c38645db7e5afce0dd10bcfe715cbb23a459cea73ec",
+      "v7_sha256": "36413bb50dc87e27cfd60c38645db7e5afce0dd10bcfe715cbb23a459cea73ec",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_full_review/build_evidence.py",
+      "v6_sha256": "7c9c73a97efab55de46261e83401573bd7e5e99322301357c3f72ed02414dd9d",
+      "v7_sha256": "7c9c73a97efab55de46261e83401573bd7e5e99322301357c3f72ed02414dd9d",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_full_review/calc_full_bounds.mjs",
+      "v6_sha256": "89b27693524c7349bb57d1e31bd2d4fc41f8a2cfcc1ea604b047de86abafc435",
+      "v7_sha256": "89b27693524c7349bb57d1e31bd2d4fc41f8a2cfcc1ea604b047de86abafc435",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_full_review/check_existing_lowready_reload.mjs",
+      "v6_sha256": "e90b4e29c4b4d184cf37cc5e022a7f40d19ef6defefecb71c895771293926a9e",
+      "v7_sha256": "e90b4e29c4b4d184cf37cc5e022a7f40d19ef6defefecb71c895771293926a9e",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_full_review/check_locomotion_equality.mjs",
+      "v6_sha256": "99ea034f434936687a082cad882e4f9121aac1b0bd772796e6464700fdb1b941",
+      "v7_sha256": "99ea034f434936687a082cad882e4f9121aac1b0bd772796e6464700fdb1b941",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_full_review/export_linxu.mjs",
+      "v6_sha256": "55420590d90983a0896d06b494a8fde17be930d484470c6e9c0bc831eb6aebe2",
+      "v7_sha256": "55420590d90983a0896d06b494a8fde17be930d484470c6e9c0bc831eb6aebe2",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_full_review/package_continuous.py",
+      "v6_sha256": "2701b034698bc9f5d4f260d95b38e72c243e40dc1035bf7cf229a64dde38d95e",
+      "v7_sha256": "2701b034698bc9f5d4f260d95b38e72c243e40dc1035bf7cf229a64dde38d95e",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_full_review/package_linxu.py",
+      "v6_sha256": "29f530c990441b8a234cf5edce57c19ffe8d75eaad1f5f601ca038384b54c556",
+      "v7_sha256": "29f530c990441b8a234cf5edce57c19ffe8d75eaad1f5f601ca038384b54c556",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_full_review/render_linxu.py",
+      "v6_sha256": "cfd9b485708f16fe43988843c39014c06563522759a76cd8be970ff626d744ad",
+      "v7_sha256": "cfd9b485708f16fe43988843c39014c06563522759a76cd8be970ff626d744ad",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_full_review/validate_linxu_times.mjs",
+      "v6_sha256": "5e6d6aa935a7973b8821922ceece38dfc35129de062c074375e3d649990702e9",
+      "v7_sha256": "5e6d6aa935a7973b8821922ceece38dfc35129de062c074375e3d649990702e9",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_full_review/validate_linxu_times.py",
+      "v6_sha256": "74231dfdb272e39eade211b66cbd912ed1dfd485ec04624ef18bb5184c632029",
+      "v7_sha256": "74231dfdb272e39eade211b66cbd912ed1dfd485ec04624ef18bb5184c632029",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_full_review/verify_render_reuse.mjs",
+      "v6_sha256": "e75afaa8f7ef4c1bdb4c62b18540151a5f1e51ab237a8e00e60c071bed95ba75",
+      "v7_sha256": "e75afaa8f7ef4c1bdb4c62b18540151a5f1e51ab237a8e00e60c071bed95ba75",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_jitter/app_flow.mjs",
+      "v6_sha256": "bc82ab72a30a36417e6cf927e11078d82ba69e6701096c84971cf36dfdd20321",
+      "v7_sha256": "bc82ab72a30a36417e6cf927e11078d82ba69e6701096c84971cf36dfdd20321",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_jitter/audit_visible_loops.mjs",
+      "v6_sha256": "81e0073fec1d30804d2b9d92dabdd49166a932eb848eb44b52f9c1342bcceb0a",
+      "v7_sha256": "81e0073fec1d30804d2b9d92dabdd49166a932eb848eb44b52f9c1342bcceb0a",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_jitter/bake_render.mjs",
+      "v6_sha256": "128692203a98333746a8c35122ad69725c6f9e61a47099a8548927be6b885635",
+      "v7_sha256": "128692203a98333746a8c35122ad69725c6f9e61a47099a8548927be6b885635",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_jitter/build_candidate.mjs",
+      "v6_sha256": "d3fd92b165009d9661cd714b6022c7dad56acf5235dba9a333da7cd41496081b",
+      "v7_sha256": "d3fd92b165009d9661cd714b6022c7dad56acf5235dba9a333da7cd41496081b",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_jitter/diagnose.mjs",
+      "v6_sha256": "ec1f864d923cb430c155cd702633d6cb6986c22fdd31ff58cdf1a68abcebd868",
+      "v7_sha256": "ec1f864d923cb430c155cd702633d6cb6986c22fdd31ff58cdf1a68abcebd868",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_jitter/package_render.py",
+      "v6_sha256": "2fc837e62503838dfc1ff8b060071ace8804a270742835049c67d593d81f6f26",
+      "v7_sha256": "2fc837e62503838dfc1ff8b060071ace8804a270742835049c67d593d81f6f26",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_jitter/pistol_source.mjs",
+      "v6_sha256": "797d0b2d7649413be74dd70acf4dcdbf87d68dfc486dcf1dbc817b32205216c3",
+      "v7_sha256": "797d0b2d7649413be74dd70acf4dcdbf87d68dfc486dcf1dbc817b32205216c3",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_jitter/plot_evidence.py",
+      "v6_sha256": "2ddf138cc873fe80aa2e299b5918cdefb76bad9da6c3bcb4d4d68425cc45569a",
+      "v7_sha256": "2ddf138cc873fe80aa2e299b5918cdefb76bad9da6c3bcb4d4d68425cc45569a",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_jitter/render_walk.py",
+      "v6_sha256": "14eb6f9a062bfcf6e51764b4d5c44da487e7020c68b3640e9974a126d8f7774c",
+      "v7_sha256": "14eb6f9a062bfcf6e51764b4d5c44da487e7020c68b3640e9974a126d8f7774c",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_jitter/runtime.mjs",
+      "v6_sha256": "44c3b56e957f7cfea4f76765bfb1fa98dc3b6248074bba8396b4e764fac34c47",
+      "v7_sha256": "44c3b56e957f7cfea4f76765bfb1fa98dc3b6248074bba8396b4e764fac34c47",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_jitter/smooth_floor.py",
+      "v6_sha256": "baaa55e53b97e53f23346146ab37f68e0dc2d6db14d648bd04409a23bcbdadd3",
+      "v7_sha256": "baaa55e53b97e53f23346146ab37f68e0dc2d6db14d648bd04409a23bcbdadd3",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_jitter/validate_candidate.mjs",
+      "v6_sha256": "753143fb182c2291865256c7aa6ec584da3faf1b217ef3e0affce442842631a0",
+      "v7_sha256": "753143fb182c2291865256c7aa6ec584da3faf1b217ef3e0affce442842631a0",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_jitter/verify_current.mjs",
+      "v6_sha256": "6ac1f50d6a88fa971367595c2ef5c4d04cc9f5ec768096672f94d68af66e2e6c",
+      "v7_sha256": "6ac1f50d6a88fa971367595c2ef5c4d04cc9f5ec768096672f94d68af66e2e6c",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_jitter/verify_render.mjs",
+      "v6_sha256": "76b855a1240dfa38abbd444394d6d74a339900e0a2cfd309a089421e666ae4bd",
+      "v7_sha256": "76b855a1240dfa38abbd444394d6d74a339900e0a2cfd309a089421e666ae4bd",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_jitter/walk_source.mjs",
+      "v6_sha256": "654cc1ad57b1765cf088b438e676ab6fcf630750f411051c2bb7a71d57cb459e",
+      "v7_sha256": "654cc1ad57b1765cf088b438e676ab6fcf630750f411051c2bb7a71d57cb459e",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_jitter/write_report.py",
+      "v6_sha256": "fb6b460adac7f9cb7e68a19c2a155cf99eec3101765b866b7c2a85727c3afa80",
+      "v7_sha256": "fb6b460adac7f9cb7e68a19c2a155cf99eec3101765b866b7c2a85727c3afa80",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_old_run_review/README.md",
+      "v6_sha256": "fbec24222b2398211a047c7355857893f9937a9a2791582cb6400056265c4743",
+      "v7_sha256": "fbec24222b2398211a047c7355857893f9937a9a2791582cb6400056265c4743",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_old_run_review/bake_runtime.mjs",
+      "v6_sha256": "41d6fcb2777448bd4018bf14e1d3d96d94cea39f9b529fefa56fdc8e4e4a4001",
+      "v7_sha256": "41d6fcb2777448bd4018bf14e1d3d96d94cea39f9b529fefa56fdc8e4e4a4001",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_old_run_review/check_semantics.mjs",
+      "v6_sha256": "ded797d64ff3611fabacfaedbb49997dd5b50a6cf9a8c1d109cd86ff6255b255",
+      "v7_sha256": "ded797d64ff3611fabacfaedbb49997dd5b50a6cf9a8c1d109cd86ff6255b255",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_old_run_review/export_and_audit.mjs",
+      "v6_sha256": "d852708391d22cd5296620977a7be027909ccc7bbcf729a531f21270a56a2435",
+      "v7_sha256": "d852708391d22cd5296620977a7be027909ccc7bbcf729a531f21270a56a2435",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_old_run_review/finalize_report.py",
+      "v6_sha256": "eba802b1ec9a2a349c72778262b28936b0ef4f99c1e9d4fffeb14ebc7a8b5a8d",
+      "v7_sha256": "eba802b1ec9a2a349c72778262b28936b0ef4f99c1e9d4fffeb14ebc7a8b5a8d",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_old_run_review/package.py",
+      "v6_sha256": "186ee61bd14e2c2d850ab1c4344f9a8858e7a326786ff084a5563e954ec33b9d",
+      "v7_sha256": "186ee61bd14e2c2d850ab1c4344f9a8858e7a326786ff084a5563e954ec33b9d",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_old_run_review/package_evidence.py",
+      "v6_sha256": "35e2e9b9c7eeb5671551e3fbff1976fa21cf073d7eb47c1864cdc7ca7fc63a53",
+      "v7_sha256": "35e2e9b9c7eeb5671551e3fbff1976fa21cf073d7eb47c1864cdc7ca7fc63a53",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_old_run_review/package_legacy.py",
+      "v6_sha256": "e38abb181a12a844ef0d34aac10cd9521faa1a0bd64230ead56cfbdcf4dc3d57",
+      "v7_sha256": "e38abb181a12a844ef0d34aac10cd9521faa1a0bd64230ead56cfbdcf4dc3d57",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_old_run_review/render.py",
+      "v6_sha256": "8d3804022e648183da56639c3a995e455a08b1acf1920b5058f308a1a747466f",
+      "v7_sha256": "8d3804022e648183da56639c3a995e455a08b1acf1920b5058f308a1a747466f",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_old_run_review/runtime.mjs",
+      "v6_sha256": "59ab4d1f550045ba59c59d3bac5a0bd25d9bb420d6afae57aa523cc56daed03d",
+      "v7_sha256": "59ab4d1f550045ba59c59d3bac5a0bd25d9bb420d6afae57aa523cc56daed03d",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_scale/audit.mjs",
+      "v6_sha256": "cf1ede5f2c4ec1b84ccde4683ca414ea7733e98ad09e613df9df52e85de1eb9a",
+      "v7_sha256": "cf1ede5f2c4ec1b84ccde4683ca414ea7733e98ad09e613df9df52e85de1eb9a",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_scale/compose_evidence_pdf.py",
+      "v6_sha256": "934aa3d3bf088d8515efc6a95ca938ac6133436fc4f65c8bac48198df458dc7a",
+      "v7_sha256": "934aa3d3bf088d8515efc6a95ca938ac6133436fc4f65c8bac48198df458dc7a",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_scale/make_evidence_sheet.mjs",
+      "v6_sha256": "b07c3ea6b3875473429fa0b0885d6a860180dced3944aaa10e1400bd9a057a08",
+      "v7_sha256": "b07c3ea6b3875473429fa0b0885d6a860180dced3944aaa10e1400bd9a057a08",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_scale/make_final_evidence_sheet.mjs",
+      "v6_sha256": "dbbf005ac1740d3aa477b632679b145cc26c04b18ea14fb2c6019fdc233a5124",
+      "v7_sha256": "dbbf005ac1740d3aa477b632679b145cc26c04b18ea14fb2c6019fdc233a5124",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_scale/match_m97.py",
+      "v6_sha256": "556ecc2ace57349482c327aaa5fe466a44430bbe80b68ed64086522ad625f8bf",
+      "v7_sha256": "556ecc2ace57349482c327aaa5fe466a44430bbe80b68ed64086522ad625f8bf",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_scale/render_comparison.py",
+      "v6_sha256": "b1192d0c744d54ef670e756241def2fe06440fb15e84dd26ae27d4617c3b3848",
+      "v7_sha256": "b1192d0c744d54ef670e756241def2fe06440fb15e84dd26ae27d4617c3b3848",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_scale/render_final_profile.py",
+      "v6_sha256": "320c7a1a5fa812594029389aa8d4554e6a5dabbd885a3f30ea1d2d0e7906c6e6",
+      "v7_sha256": "320c7a1a5fa812594029389aa8d4554e6a5dabbd885a3f30ea1d2d0e7906c6e6",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_scale/thin_m870_body.py",
+      "v6_sha256": "64c50366f822a97c8441fa6c53fdbb3137a960895ca94dd3df75a07932edb84d",
+      "v7_sha256": "64c50366f822a97c8441fa6c53fdbb3137a960895ca94dd3df75a07932edb84d",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_scale/verify_final_geometry.mjs",
+      "v6_sha256": "4099230bae601942b41b7466e374879d97c3569ab15610a886472fcd18ef177c",
+      "v7_sha256": "4099230bae601942b41b7466e374879d97c3569ab15610a886472fcd18ef177c",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_scale/verify_geometry.mjs",
+      "v6_sha256": "80ff0e07181e39b210cd3eae0ffe2809adda88e08b0457bd6d672ac9b757c975",
+      "v7_sha256": "80ff0e07181e39b210cd3eae0ffe2809adda88e08b0457bd6d672ac9b757c975",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_shoulder/audit.mjs",
+      "v6_sha256": "501c7c61968f52bd072bed048ce38de5f0a2fe7ba28aecd99c04dbfbc8ce26b0",
+      "v7_sha256": "501c7c61968f52bd072bed048ce38de5f0a2fe7ba28aecd99c04dbfbc8ce26b0",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_shoulder/candidate_policy.mjs",
+      "v6_sha256": "44d05901cae0c883e514c6aaf1dd607af876a1130f28e6c12545f942e6ff9c88",
+      "v7_sha256": "44d05901cae0c883e514c6aaf1dd607af876a1130f28e6c12545f942e6ff9c88",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_shoulder/compose_evidence.py",
+      "v6_sha256": "6cf45f5f13913c54cb2de28bdcce7674a485f49b6c0021404e010d503acf6f0a",
+      "v7_sha256": "6cf45f5f13913c54cb2de28bdcce7674a485f49b6c0021404e010d503acf6f0a",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_shoulder/export_continuous.mjs",
+      "v6_sha256": "7e5a5761a6b37ac598fc240f6507b0d31c0f6cee1c68b52108c63b9d8139c8fa",
+      "v7_sha256": "7e5a5761a6b37ac598fc240f6507b0d31c0f6cee1c68b52108c63b9d8139c8fa",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_shoulder/export_skin_checks.mjs",
+      "v6_sha256": "f9c426de3145b9d7372843cc4b6fb69faf1d7c35520b8f4ea37d6329efca8b2a",
+      "v7_sha256": "f9c426de3145b9d7372843cc4b6fb69faf1d7c35520b8f4ea37d6329efca8b2a",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_shoulder/render_continuous.py",
+      "v6_sha256": "d2b4578f8a917f3dc055ef14677a44a4814083623e602962486cdd4cb8d43b3b",
+      "v7_sha256": "d2b4578f8a917f3dc055ef14677a44a4814083623e602962486cdd4cb8d43b3b",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_shoulder/validate_render.py",
+      "v6_sha256": "2c96cdee06e2862565f88510377e014ec38fb2872e2a86948d7f8a6b2e3f56b6",
+      "v7_sha256": "2c96cdee06e2862565f88510377e014ec38fb2872e2a86948d7f8a6b2e3f56b6",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_shoulder/verify_continuity.mjs",
+      "v6_sha256": "9cb5f6b04519f461b1eef9781bd5a4c0d6043e42ef85a217d3a3cc84c7e4e50f",
+      "v7_sha256": "9cb5f6b04519f461b1eef9781bd5a4c0d6043e42ef85a217d3a3cc84c7e4e50f",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_shoulder/verify_scope.mjs",
+      "v6_sha256": "19f56457f720597935f93bab18bf002ea4e6bfa3dc160c64854afe91f610eba9",
+      "v7_sha256": "19f56457f720597935f93bab18bf002ea4e6bfa3dc160c64854afe91f610eba9",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_shoulder/verify_skin.py",
+      "v6_sha256": "d3d0b0d1a2c0e11032b957354b05cd3890a323995f4d9ff8b86673849ef0d725",
+      "v7_sha256": "d3d0b0d1a2c0e11032b957354b05cd3890a323995f4d9ff8b86673849ef0d725",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_three/README.md",
+      "v6_sha256": "f13b64dec474bf4571831fdfe85511e0d31f8bc0d4f4c041ca0585f586a48e72",
+      "v7_sha256": "f13b64dec474bf4571831fdfe85511e0d31f8bc0d4f4c041ca0585f586a48e72",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_three/browser.mjs",
+      "v6_sha256": "43bcdafc32d24c802d9401110b56187c7497445c56ed6eeaf64d679daad77e17",
+      "v7_sha256": "43bcdafc32d24c802d9401110b56187c7497445c56ed6eeaf64d679daad77e17",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_three/build.mjs",
+      "v6_sha256": "c4f1dc98714e34d1daad69e46079c8f08a199307217f720367df452cbce12d0f",
+      "v7_sha256": "c4f1dc98714e34d1daad69e46079c8f08a199307217f720367df452cbce12d0f",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_three/candidate.mjs",
+      "v6_sha256": "5cfb03bab3c6b6d8bfcb54bd1ae8567e1d927cc6b16d5071a3f793c7e31fc2aa",
+      "v7_sha256": "5cfb03bab3c6b6d8bfcb54bd1ae8567e1d927cc6b16d5071a3f793c7e31fc2aa",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_three/compare_run_hotfix.mjs",
+      "v6_sha256": "80883ad64457bc85576fb9e0517f8b609d656d3559aa79a0dae82ca866fb8232",
+      "v7_sha256": "80883ad64457bc85576fb9e0517f8b609d656d3559aa79a0dae82ca866fb8232",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_three/continuity.mjs",
+      "v6_sha256": "2a18a2c7ae029c074f6c6e2416779c6a24669715a48886e3a9c8be8bb8a33588",
+      "v7_sha256": "2a18a2c7ae029c074f6c6e2416779c6a24669715a48886e3a9c8be8bb8a33588",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_three/export_d.mjs",
+      "v6_sha256": "ee12581ae41d90ff4e0b49f14548867a3292a9fdf9b54a53abab8b6b93399e97",
+      "v7_sha256": "ee12581ae41d90ff4e0b49f14548867a3292a9fdf9b54a53abab8b6b93399e97",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_three/export_original_reference.mjs",
+      "v6_sha256": "4c82f2d049a17c05c0097904685dfc36c6e4cb22fafde3dee6bc148ae2da462e",
+      "v7_sha256": "4c82f2d049a17c05c0097904685dfc36c6e4cb22fafde3dee6bc148ae2da462e",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_three/export_run_review.mjs",
+      "v6_sha256": "1c1fa99e91d3c8606641d2ed56e7eff6ce2994ba7ee627ea2d541128a999a30d",
+      "v7_sha256": "1c1fa99e91d3c8606641d2ed56e7eff6ce2994ba7ee627ea2d541128a999a30d",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_three/export_runtime.mjs",
+      "v6_sha256": "2621012aea36ae2bf3c4b8fe6bccace08fd5a81cbc2e72e9cf0117e8bdbcf05f",
+      "v7_sha256": "2621012aea36ae2bf3c4b8fe6bccace08fd5a81cbc2e72e9cf0117e8bdbcf05f",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_three/freeze_shoulderfix.py",
+      "v6_sha256": "06c6570dbc8157f9f5d7634ca156b2323449e73590546ec9801c3b38209b7212",
+      "v7_sha256": "06c6570dbc8157f9f5d7634ca156b2323449e73590546ec9801c3b38209b7212",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_three/godot_skeleton.py",
+      "v6_sha256": "4d03a47b3b41d8d92075272bfac4b5573b7ae7625a2a8b9929b2fb80c0552cf3",
+      "v7_sha256": "4d03a47b3b41d8d92075272bfac4b5573b7ae7625a2a8b9929b2fb80c0552cf3",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_three/install.py",
+      "v6_sha256": "8e9c80658394558827290b67a2822cd7c2bba0edf06369b0a7735b62cbe4da16",
+      "v7_sha256": "8e9c80658394558827290b67a2822cd7c2bba0edf06369b0a7735b62cbe4da16",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_three/inventory_linxu_ui.mjs",
+      "v6_sha256": "f15b903894624b20dd23105975f03cfed56abd903406d80b21e5f4718f8a0435",
+      "v7_sha256": "f15b903894624b20dd23105975f03cfed56abd903406d80b21e5f4718f8a0435",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_three/make_sheets.py",
+      "v6_sha256": "ade2019d7e0cfe7621cef943528f2d1e705ad6d97213a8da6ade5710981b65fb",
+      "v7_sha256": "ade2019d7e0cfe7621cef943528f2d1e705ad6d97213a8da6ade5710981b65fb",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_three/natural-weapon.js",
+      "v6_sha256": "470e9dbda210ce8afcd813851a488aae35118015b6478e95925007e14a6c8d4f",
+      "v7_sha256": "470e9dbda210ce8afcd813851a488aae35118015b6478e95925007e14a6c8d4f",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_three/reference-path.mjs",
+      "v6_sha256": "8556469bc04045daa77a83f19fe5ac66139f392c40518ff907934e6878561b3c",
+      "v7_sha256": "8556469bc04045daa77a83f19fe5ac66139f392c40518ff907934e6878561b3c",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_three/regression.mjs",
+      "v6_sha256": "f43649958752b06447030cf556824598b7337dee5295045dcf3cb607bbb534a9",
+      "v7_sha256": "f43649958752b06447030cf556824598b7337dee5295045dcf3cb607bbb534a9",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_three/render.py",
+      "v6_sha256": "4fdae5daefea544b77c7717d99faa70a876130f49c2f6470a9a1cc366b0f12a1",
+      "v7_sha256": "4fdae5daefea544b77c7717d99faa70a876130f49c2f6470a9a1cc366b0f12a1",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_three/render_d.py",
+      "v6_sha256": "7c51614e1bae275541dc4036fb8f3c94b580d550076956c3fb4e1dae72162c79",
+      "v7_sha256": "7c51614e1bae275541dc4036fb8f3c94b580d550076956c3fb4e1dae72162c79",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_three/render_original_reference.py",
+      "v6_sha256": "b898ba2ff857ed88f2e929c1165b1a74e4fc3279354d026f5fa1b9200aa43e49",
+      "v7_sha256": "b898ba2ff857ed88f2e929c1165b1a74e4fc3279354d026f5fa1b9200aa43e49",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_three/render_run_review.py",
+      "v6_sha256": "0890addf3bc0e1df0b3fdb7c0b7d8735a40b8a1e77c7dcd3dfca7b15d9c7cb39",
+      "v7_sha256": "0890addf3bc0e1df0b3fdb7c0b7d8735a40b8a1e77c7dcd3dfca7b15d9c7cb39",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_three/render_runtime.py",
+      "v6_sha256": "3df20311600b8f76b53806be06c4d830a957c928d19555f621628be647d4a6e0",
+      "v7_sha256": "3df20311600b8f76b53806be06c4d830a957c928d19555f621628be647d4a6e0",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_three/render_shoulder_men.py",
+      "v6_sha256": "22ab5eb693dbaa9f23dace1234a24bf2346ecffc9c6279dfc1ff12a91df13feb",
+      "v7_sha256": "22ab5eb693dbaa9f23dace1234a24bf2346ecffc9c6279dfc1ff12a91df13feb",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_three/scope_shoulderfix.mjs",
+      "v6_sha256": "645878e37278b185197dc77d19eb55ed3a8278149971388e5df49b20de50a7ec",
+      "v7_sha256": "645878e37278b185197dc77d19eb55ed3a8278149971388e5df49b20de50a7ec",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_three/shoulder_men_candidate.mjs",
+      "v6_sha256": "49c6f36460d93625d22abadaf64b55cb5ebccbf0407ff16e3305ffb5a8e84b0b",
+      "v7_sha256": "49c6f36460d93625d22abadaf64b55cb5ebccbf0407ff16e3305ffb5a8e84b0b",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_three/shoulder_men_scope.mjs",
+      "v6_sha256": "f59307ea5eecd17ff30dc4c4fec6907b6f64ae01174a602887f1499910d3333f",
+      "v7_sha256": "f59307ea5eecd17ff30dc4c4fec6907b6f64ae01174a602887f1499910d3333f",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_three/skin_shoulderfix.mjs",
+      "v6_sha256": "51d3fa38c16a0bd5d68929a8f302108bc25bbf862b677474874f6c5fd616a315",
+      "v7_sha256": "51d3fa38c16a0bd5d68929a8f302108bc25bbf862b677474874f6c5fd616a315",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_three/static_and_loops.mjs",
+      "v6_sha256": "759e44ca381194d9a822fb08819402d3f9c9306299f24ac6ff06c48e083a59e4",
+      "v7_sha256": "759e44ca381194d9a822fb08819402d3f9c9306299f24ac6ff06c48e083a59e4",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_three/sweep_linxu_ui.mjs",
+      "v6_sha256": "11e6433d9da4d0ed21ca126ffe663a79bac887958a4ea520a38a3e8050225d4d",
+      "v7_sha256": "11e6433d9da4d0ed21ca126ffe663a79bac887958a4ea520a38a3e8050225d4d",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_three/transitions.mjs",
+      "v6_sha256": "f0e35d3a4a251527eca37e78fd6a419c3e98c09ed30119ac50d373d759cb4b35",
+      "v7_sha256": "f0e35d3a4a251527eca37e78fd6a419c3e98c09ed30119ac50d373d759cb4b35",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_three/validate.mjs",
+      "v6_sha256": "d50388365f310d580e73eeec6f423fbb2f978ad53f41b4ff3c74690bd7c96ec5",
+      "v7_sha256": "d50388365f310d580e73eeec6f423fbb2f978ad53f41b4ff3c74690bd7c96ec5",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_two/app_state_harness.mjs",
+      "v6_sha256": "a80b7cda411f822829bfb386a0deb6afa3c9d2488fd13578074823b98ca2ccab",
+      "v7_sha256": "a80b7cda411f822829bfb386a0deb6afa3c9d2488fd13578074823b98ca2ccab",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_two/apply_candidate.py",
+      "v6_sha256": "34092bfb9cd065a818c64a2c09bb367fd8fd909bd5d6fe8d5674cee5798c7876",
+      "v7_sha256": "34092bfb9cd065a818c64a2c09bb367fd8fd909bd5d6fe8d5674cee5798c7876",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_two/audit_candidate_c.mjs",
+      "v6_sha256": "97f17d19df53286893557422033cf821377f69b57d669e3bab0a5b02a1878a39",
+      "v7_sha256": "97f17d19df53286893557422033cf821377f69b57d669e3bab0a5b02a1878a39",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_two/audit_candidate_d.mjs",
+      "v6_sha256": "a5e29717ebea63a5e4a8ee631f2ab75d6f6aa40c998b8b1e1e7f730d270a18ce",
+      "v7_sha256": "a5e29717ebea63a5e4a8ee631f2ab75d6f6aa40c998b8b1e1e7f730d270a18ce",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_two/bake.mjs",
+      "v6_sha256": "f2c805387c627ddc3cee3d49db6b313ed49ed07e8696a1ba3d7e6fdfda332b85",
+      "v7_sha256": "f2c805387c627ddc3cee3d49db6b313ed49ed07e8696a1ba3d7e6fdfda332b85",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_two/browser_sequences.mjs",
+      "v6_sha256": "34bda5078934f9fc9a7e6c4390a7bff414954e51f8d8fbd2b0c2b448943a8a3b",
+      "v7_sha256": "34bda5078934f9fc9a7e6c4390a7bff414954e51f8d8fbd2b0c2b448943a8a3b",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_two/check_scope.mjs",
+      "v6_sha256": "6ba9f4f5661cb42f7a89c07dfd2c6780e530696d616e750e33f02c84729ea3b5",
+      "v7_sha256": "6ba9f4f5661cb42f7a89c07dfd2c6780e530696d616e750e33f02c84729ea3b5",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_two/compare_poses.mjs",
+      "v6_sha256": "9a7dad2c6320e7b352c5bf02fee10bab954ea4a84d348174ca5d858cc9be1ac2",
+      "v7_sha256": "9a7dad2c6320e7b352c5bf02fee10bab954ea4a84d348174ca5d858cc9be1ac2",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_two/create_candidate_b.py",
+      "v6_sha256": "09c06af31223545180e1a5dd8a19c615f04041cebc0aa172108ee72e60130f4b",
+      "v7_sha256": "09c06af31223545180e1a5dd8a19c615f04041cebc0aa172108ee72e60130f4b",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_two/create_candidate_c.py",
+      "v6_sha256": "454fb0e42ddb5892642928ae455ea1bc680f9bb5c4ed0a02e8663059fd2b56dd",
+      "v7_sha256": "454fb0e42ddb5892642928ae455ea1bc680f9bb5c4ed0a02e8663059fd2b56dd",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_two/create_candidate_d.py",
+      "v6_sha256": "fa7effc81e7725ead21986d9de6745703f0f7aa464b92e78523d8444627dc665",
+      "v7_sha256": "fa7effc81e7725ead21986d9de6745703f0f7aa464b92e78523d8444627dc665",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_two/export_d_run_review.mjs",
+      "v6_sha256": "69875b3e9ac1e541bcb459037dd82e38d11a1801067c36dde9dd35baff48522b",
+      "v7_sha256": "69875b3e9ac1e541bcb459037dd82e38d11a1801067c36dde9dd35baff48522b",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_two/export_fire_review.mjs",
+      "v6_sha256": "ff89228ab58340c4aba3ebf5843077adfd5e4a760d3783e78edecc013c33a92e",
+      "v7_sha256": "ff89228ab58340c4aba3ebf5843077adfd5e4a760d3783e78edecc013c33a92e",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_two/export_fire_up_peak.mjs",
+      "v6_sha256": "da7b61b6a035e366e7ff5af6067e586a6f14dd807bd34adea86dd83f3ab9adbe",
+      "v7_sha256": "da7b61b6a035e366e7ff5af6067e586a6f14dd807bd34adea86dd83f3ab9adbe",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_two/export_pose_util.mjs",
+      "v6_sha256": "22dbc7e985ff2ce45a74ff84bbd3fff55edc16e761efe6a861d7f0e18d0fe23b",
+      "v7_sha256": "22dbc7e985ff2ce45a74ff84bbd3fff55edc16e761efe6a861d7f0e18d0fe23b",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_two/export_review.mjs",
+      "v6_sha256": "d489d400b813dc02e844a306adc08037e3bd034d13c4f679c0d2910ae68967f3",
+      "v7_sha256": "d489d400b813dc02e844a306adc08037e3bd034d13c4f679c0d2910ae68967f3",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_two/export_sequences.mjs",
+      "v6_sha256": "fbed05c7de7ca03076c18d12a6cfdc9b6f97962939861a8f042e125e8784a1af",
+      "v7_sha256": "fbed05c7de7ca03076c18d12a6cfdc9b6f97962939861a8f042e125e8784a1af",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_two/make_sequence_sheets.py",
+      "v6_sha256": "f0ddfe9b923e225f1dc464a21cb898320a1a9f08ed5dc1ac192bf3f9d20a9d02",
+      "v7_sha256": "f0ddfe9b923e225f1dc464a21cb898320a1a9f08ed5dc1ac192bf3f9d20a9d02",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_two/prepare_candidates.py",
+      "v6_sha256": "08e1a5b00d3702da1a9e7354aff94a0f3e546191375edbf244f650c744e9c845",
+      "v7_sha256": "08e1a5b00d3702da1a9e7354aff94a0f3e546191375edbf244f650c744e9c845",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_two/render_d_run_other_pistols.py",
+      "v6_sha256": "95522c66537e0021dce72c785e03f00319eea067f3996f100974f56e27cab561",
+      "v7_sha256": "95522c66537e0021dce72c785e03f00319eea067f3996f100974f56e27cab561",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_two/render_final_carry.py",
+      "v6_sha256": "dbb42485dd3f97de9088be529ce750b0c73cfb6ae07925c00b412582bb76b51a",
+      "v7_sha256": "dbb42485dd3f97de9088be529ce750b0c73cfb6ae07925c00b412582bb76b51a",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_two/render_review.py",
+      "v6_sha256": "c79bee517cf706303e751bd7bdca6db61248b12eb92bf1ba5f11c5e3966ff85e",
+      "v7_sha256": "c79bee517cf706303e751bd7bdca6db61248b12eb92bf1ba5f11c5e3966ff85e",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_two/render_sequences.py",
+      "v6_sha256": "72faa01bd24aa93e261f40120b630c4a72cadbbbf067d87ab7e78dbf5a05f071",
+      "v7_sha256": "72faa01bd24aa93e261f40120b630c4a72cadbbbf067d87ab7e78dbf5a05f071",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_two/runtime.mjs",
+      "v6_sha256": "fd74d8ace93502cd80b24663e371083665ad1f0aa1a7cde3927437fd2e939537",
+      "v7_sha256": "fd74d8ace93502cd80b24663e371083665ad1f0aa1a7cde3927437fd2e939537",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_two/verify_app_state_paths.mjs",
+      "v6_sha256": "9dc5fd7e30cb95f335f80467aa31bbce548194bd1da122ab23017385bac3eb3b",
+      "v7_sha256": "9dc5fd7e30cb95f335f80467aa31bbce548194bd1da122ab23017385bac3eb3b",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_two/verify_bake.mjs",
+      "v6_sha256": "e7d4ef9e20fffac84e8696377c7abadce81ea9aa1c1008be47aa2cc883350c0e",
+      "v7_sha256": "e7d4ef9e20fffac84e8696377c7abadce81ea9aa1c1008be47aa2cc883350c0e",
+      "content_preserved": true
+    },
+    {
+      "path": "tools/weapon_v6_two/verify_shotgun_sequences.mjs",
+      "v6_sha256": "4d24c44ff321f64aa5b6c37405796b75e687a448d8a25072a98c61b0eba88b8a",
+      "v7_sha256": "4d24c44ff321f64aa5b6c37405796b75e687a448d8a25072a98c61b0eba88b8a",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/app.js",
+      "v6_sha256": "4a6dff5f15977a6e68b37febdb92b76597cc4d41561222c752858685ae44cfa8",
+      "v7_sha256": "4a6dff5f15977a6e68b37febdb92b76597cc4d41561222c752858685ae44cfa8",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/assets/refined_equipped_v6/README.md",
+      "v6_sha256": "4bff9a9a3743a9d8b2a183098aba3e8aab71722d10b1baf3349121056d43c294",
+      "v7_sha256": "4bff9a9a3743a9d8b2a183098aba3e8aab71722d10b1baf3349121056d43c294",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/assets/refined_equipped_v6/chest_skinning.json",
+      "v6_sha256": "91ffce2e56b575dbae722601c315ed9f0ae294f28bb66076b20b11b9406c0432",
+      "v7_sha256": "91ffce2e56b575dbae722601c315ed9f0ae294f28bb66076b20b11b9406c0432",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/assets/refined_equipped_v6/equipped_motions.glb",
+      "v6_sha256": "279c9e105c4140c47974719288f3c948e2c193db5a79b4ec0641265846cd1ba8",
+      "v7_sha256": "279c9e105c4140c47974719288f3c948e2c193db5a79b4ec0641265846cd1ba8",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/assets/refined_equipped_v6/weapon_transforms.json",
+      "v6_sha256": "b0d619e84016ad335700f46a3dfaaeb1dd2e6758b8054424278ed639a4a3760e",
+      "v7_sha256": "b0d619e84016ad335700f46a3dfaaeb1dd2e6758b8054424278ed639a4a3760e",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/assets/weapon_attachment.json",
+      "v6_sha256": "90e75175e6468301ae0103c87aae165b2bae6462511f1eb023969dde4e79a0c2",
+      "v7_sha256": "90e75175e6468301ae0103c87aae165b2bae6462511f1eb023969dde4e79a0c2",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/assets/weapon_catalog.json",
+      "v6_sha256": "96075a8fd148ab4dcecca46b734557359b55a14691eaa86616adc1255f2e2fe2",
+      "v7_sha256": "96075a8fd148ab4dcecca46b734557359b55a14691eaa86616adc1255f2e2fe2",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/assets/weapons/m870.glb",
+      "v6_sha256": "b1192f67c1bc1ca6334d5b4b281eefe234bcb222132c627580dab594e8e14795",
+      "v7_sha256": "b1192f67c1bc1ca6334d5b4b281eefe234bcb222132c627580dab594e8e14795",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/assets/weapons/qsz92.glb",
+      "v6_sha256": "c2be7f2de027e57303d635a2e51aa0c41849878b23bd294d5ddb372389a7f30c",
+      "v7_sha256": "c2be7f2de027e57303d635a2e51aa0c41849878b23bd294d5ddb372389a7f30c",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/assets/weapons/type54.glb",
+      "v6_sha256": "25d58d368e66cbead8faf6083408c73bd93fe2bf2e23b2706d9d3c006e83e06b",
+      "v7_sha256": "25d58d368e66cbead8faf6083408c73bd93fe2bf2e23b2706d9d3c006e83e06b",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/assets/weapons/type64.glb",
+      "v6_sha256": "ca7376e4b84e7b50df2a59743d9a3b09db37928d6c1152bddc13cac7a8f9c582",
+      "v7_sha256": "ca7376e4b84e7b50df2a59743d9a3b09db37928d6c1152bddc13cac7a8f9c582",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/index.html",
+      "v6_sha256": "eb2d26d2a93df6893d47f76455eb1bede8ded100cf003b87afc984599df1cacd",
+      "v7_sha256": "eb2d26d2a93df6893d47f76455eb1bede8ded100cf003b87afc984599df1cacd",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/diandian-classic-motion-lab/weapon-attachment.js",
+      "v6_sha256": "f9b2814643c1af3101ab945111b05c14e4e0cc6fb0b1ff50e5ddfd8c14a552c9",
+      "v7_sha256": "f9b2814643c1af3101ab945111b05c14e4e0cc6fb0b1ff50e5ddfd8c14a552c9",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/linxu-motion-lab/app.js",
+      "v6_sha256": "2ffe85dffd62b98e241af93cfca7b2b7c16089e897352d642e10b613abae1d30",
+      "v7_sha256": "0f464c1be21381c33c68ca2116254f1c7206f8233647fa8f079aa350d3851078",
+      "content_preserved": false
+    },
+    {
+      "path": "web/motion-labs/linxu-motion-lab/assets/characters/linxu/motions.glb",
+      "v6_sha256": "9a451d615d3135ecf10abc412e48494ff64541f8005a97e77e8a703afa87e103",
+      "v7_sha256": "9a451d615d3135ecf10abc412e48494ff64541f8005a97e77e8a703afa87e103",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/linxu-motion-lab/assets/characters/linxu/weapon_update_v6.glb",
+      "v6_sha256": "9b95188cbd35082c2699e766b8b4464c813994345de25e3dd716ea40e805d5b0",
+      "v7_sha256": "9b95188cbd35082c2699e766b8b4464c813994345de25e3dd716ea40e805d5b0",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/linxu-motion-lab/assets/weapon_attachment.json",
+      "v6_sha256": "9aadf5d11470a8d3c76cce4aa47a3349f36f8c4fe4e2a1ea475f38e6d471f57c",
+      "v7_sha256": "7e3a0df8ad6ad7d4f96cc99708c50c7f29793d1442ae81485c0c642ced25238e",
+      "content_preserved": false
+    },
+    {
+      "path": "web/motion-labs/linxu-motion-lab/assets/weapons/m870.glb",
+      "v6_sha256": "b1192f67c1bc1ca6334d5b4b281eefe234bcb222132c627580dab594e8e14795",
+      "v7_sha256": "b1192f67c1bc1ca6334d5b4b281eefe234bcb222132c627580dab594e8e14795",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/linxu-motion-lab/assets/weapons/qsz92.glb",
+      "v6_sha256": "c2be7f2de027e57303d635a2e51aa0c41849878b23bd294d5ddb372389a7f30c",
+      "v7_sha256": "c2be7f2de027e57303d635a2e51aa0c41849878b23bd294d5ddb372389a7f30c",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/linxu-motion-lab/assets/weapons/type54.glb",
+      "v6_sha256": "25d58d368e66cbead8faf6083408c73bd93fe2bf2e23b2706d9d3c006e83e06b",
+      "v7_sha256": "25d58d368e66cbead8faf6083408c73bd93fe2bf2e23b2706d9d3c006e83e06b",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/linxu-motion-lab/assets/weapons/type64.glb",
+      "v6_sha256": "ca7376e4b84e7b50df2a59743d9a3b09db37928d6c1152bddc13cac7a8f9c582",
+      "v7_sha256": "ca7376e4b84e7b50df2a59743d9a3b09db37928d6c1152bddc13cac7a8f9c582",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/linxu-motion-lab/index.html",
+      "v6_sha256": "0eef39027eb0018f014bd8a4ad9afe773902431724cafa03b003fa2521c38301",
+      "v7_sha256": "9cbb4fc8b6a02d4215cae0be91a9f1a0a9cde2979c3a4302bc05fcbf0684fe50",
+      "content_preserved": false
+    },
+    {
+      "path": "web/motion-labs/linxu-motion-lab/natural-weapon.js",
+      "v6_sha256": "470e9dbda210ce8afcd813851a488aae35118015b6478e95925007e14a6c8d4f",
+      "v7_sha256": "470e9dbda210ce8afcd813851a488aae35118015b6478e95925007e14a6c8d4f",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/linxu-motion-lab/rig.js",
+      "v6_sha256": "3ebfd23e9c9a7c475f5af022526ed3c9551061fc4ffa3a3febc7cb94294859ec",
+      "v7_sha256": "679578395644f0e04dbffa8ed93000d6313bad796c77cd66a9102437213b8c28",
+      "content_preserved": false
+    },
+    {
+      "path": "web/motion-labs/linxu-motion-lab/weapon-attachment.js",
+      "v6_sha256": "bb5b8c69d0976aac409918427f436d1f98a907214e6a8e68bd7ccaa270c0510e",
+      "v7_sha256": "45101192f062fda1ba2a51c7e621574eaa4adad4a1670a3144a1baca0d91fb62",
+      "content_preserved": false
+    },
+    {
+      "path": "web/motion-labs/resistance-motion-lab/app.js",
+      "v6_sha256": "ec0a06e397f7dd8217a9676716ad7da230ab745d6d6a92d456534b8362c3849f",
+      "v7_sha256": "b81837970702a2c1d620411c69de088c037b4ec5522f546bdc78fa572e3b052c",
+      "content_preserved": false
+    },
+    {
+      "path": "web/motion-labs/resistance-motion-lab/assets/characters/military/weapon_update_v6.glb",
+      "v6_sha256": "96ed953d3307c9d68b1288ccdac3f88b41f45a8041a7236e29021797cf7f2d34",
+      "v7_sha256": "96ed953d3307c9d68b1288ccdac3f88b41f45a8041a7236e29021797cf7f2d34",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/resistance-motion-lab/assets/characters/vest/weapon_update_v6.glb",
+      "v6_sha256": "8a52c51f34f5e0eaff31588a6b2a72f8fe497c57ffb3de81b270b28499a6e9d1",
+      "v7_sha256": "8a52c51f34f5e0eaff31588a6b2a72f8fe497c57ffb3de81b270b28499a6e9d1",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/resistance-motion-lab/assets/weapon_attachment.json",
+      "v6_sha256": "8686a896715b067ece8f9b6b216190c23e156be311769e7e733cf4b2e4aeddad",
+      "v7_sha256": "f44e905619903089166c5452f76888a7bcd2eed3ac8079a3f0d908f7cd2f24ef",
+      "content_preserved": false
+    },
+    {
+      "path": "web/motion-labs/resistance-motion-lab/assets/weapons/m870.glb",
+      "v6_sha256": "b1192f67c1bc1ca6334d5b4b281eefe234bcb222132c627580dab594e8e14795",
+      "v7_sha256": "b1192f67c1bc1ca6334d5b4b281eefe234bcb222132c627580dab594e8e14795",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/resistance-motion-lab/assets/weapons/qsz92.glb",
+      "v6_sha256": "c2be7f2de027e57303d635a2e51aa0c41849878b23bd294d5ddb372389a7f30c",
+      "v7_sha256": "c2be7f2de027e57303d635a2e51aa0c41849878b23bd294d5ddb372389a7f30c",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/resistance-motion-lab/assets/weapons/type54.glb",
+      "v6_sha256": "25d58d368e66cbead8faf6083408c73bd93fe2bf2e23b2706d9d3c006e83e06b",
+      "v7_sha256": "25d58d368e66cbead8faf6083408c73bd93fe2bf2e23b2706d9d3c006e83e06b",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/resistance-motion-lab/assets/weapons/type64.glb",
+      "v6_sha256": "ca7376e4b84e7b50df2a59743d9a3b09db37928d6c1152bddc13cac7a8f9c582",
+      "v7_sha256": "ca7376e4b84e7b50df2a59743d9a3b09db37928d6c1152bddc13cac7a8f9c582",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/resistance-motion-lab/index.html",
+      "v6_sha256": "1175da42eb7c781f91ea841e92a3b1b445cec71228307b12e98d4cbdeaff281e",
+      "v7_sha256": "745b817d85c089ef5f81ecc8ddc23c2f13e86ecf19729bf680c86f556ac42483",
+      "content_preserved": false
+    },
+    {
+      "path": "web/motion-labs/resistance-motion-lab/natural-weapon.js",
+      "v6_sha256": "470e9dbda210ce8afcd813851a488aae35118015b6478e95925007e14a6c8d4f",
+      "v7_sha256": "470e9dbda210ce8afcd813851a488aae35118015b6478e95925007e14a6c8d4f",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/resistance-motion-lab/rig.js",
+      "v6_sha256": "7a95426bcf4d910286c788a346f7c78342c889059d315d9403f0f0a93ebf256a",
+      "v7_sha256": "1d91ccb3f0fedb404287c62ddac6b4e01bc25ae04af7c7c72ea26332c3759a53",
+      "content_preserved": false
+    },
+    {
+      "path": "web/motion-labs/resistance-motion-lab/weapon-attachment.js",
+      "v6_sha256": "c1b1d14b8baecae507fc346d6314706fb256f5159a6a9bde67c08d0c89ecf123",
+      "v7_sha256": "3e440e47823954d382fa30bfd978d461607308e605b1be3170700249b0f95f68",
+      "content_preserved": false
+    },
+    {
+      "path": "web/motion-labs/verification_linxu_full_motion/linxu-ui-numeric-sweep.json",
+      "v6_sha256": "4d78277f58429ea7eba148cb8eea25496b20e7a0c5991d6cd0c722ec95d7fa69",
+      "v7_sha256": "4d78277f58429ea7eba148cb8eea25496b20e7a0c5991d6cd0c722ec95d7fa69",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_linxu_full_motion/linxu-ui-validation-matrix.csv",
+      "v6_sha256": "3f83f424279d041c4c796c4742253b1ac6280dfc880355b0e05035f75301327b",
+      "v7_sha256": "3f83f424279d041c4c796c4742253b1ac6280dfc880355b0e05035f75301327b",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_linxu_full_motion/linxu-ui-validation-matrix.json",
+      "v6_sha256": "a4a4b2a788643ee12f2d70f81b2aaec78f2a01082a52a6d18f5f8f0c51ff4c7c",
+      "v7_sha256": "a4a4b2a788643ee12f2d70f81b2aaec78f2a01082a52a6d18f5f8f0c51ff4c7c",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_delivery/godot_skeleton/summary.json",
+      "v6_sha256": "9f2fcb11799df668046fe6a469cd00f99620314fdf226e23c5258d6e95aff0ae",
+      "v7_sha256": "9f2fcb11799df668046fe6a469cd00f99620314fdf226e23c5258d6e95aff0ae",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_delivery/two_shoulders/README.md",
+      "v6_sha256": "a7673881cc17f30a3d88ebeef85ba7fe38bcbe9d0a9d125824358c5ca0024e5a",
+      "v7_sha256": "a7673881cc17f30a3d88ebeef85ba7fe38bcbe9d0a9d125824358c5ca0024e5a",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_delivery/two_shoulders/diandian-Run-0.2-shoulder-comparison.jpg",
+      "v6_sha256": "9bbfed6c839fbef4a4474c52df789a66f4e304edbf4b561907b923741edafa9e",
+      "v7_sha256": "9bbfed6c839fbef4a4474c52df789a66f4e304edbf4b561907b923741edafa9e",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_delivery/two_shoulders/diandian-Run-0.7-shoulder-comparison.jpg",
+      "v6_sha256": "63e84b1495c9cfe8d55217e81b587bbce98dedcc1164ecfa9cba4dc0cd4436d9",
+      "v7_sha256": "63e84b1495c9cfe8d55217e81b587bbce98dedcc1164ecfa9cba4dc0cd4436d9",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_delivery/two_shoulders/diandian-Run-left-front-comparison.jpg",
+      "v6_sha256": "2d24bb039789de25570bd81e69c6e86202e2cf825d6a20748cf31dd8abd5f044",
+      "v7_sha256": "2d24bb039789de25570bd81e69c6e86202e2cf825d6a20748cf31dd8abd5f044",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_delivery/two_shoulders/zhigeng-Run-0.15-shoulder-comparison.jpg",
+      "v6_sha256": "e8832d475b94a95cc33fa39c63c3ceb40d1f281c98e67da1e137f88b5af7b860",
+      "v7_sha256": "e8832d475b94a95cc33fa39c63c3ceb40d1f281c98e67da1e137f88b5af7b860",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_delivery/two_shoulders/zhigeng-Run-0.9-shoulder-comparison.jpg",
+      "v6_sha256": "1e7d2ec35e90044772d847f4728cbf8272d6526cc1b117a11699aecc24b0e8ac",
+      "v7_sha256": "1e7d2ec35e90044772d847f4728cbf8272d6526cc1b117a11699aecc24b0e8ac",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_delivery/two_shoulders/zhigeng-Run-left-front-comparison.jpg",
+      "v6_sha256": "1df1cc247dd689793cf0fe9107dfa6c24a3a2aee8f7fbfc84dd13d0de2e035ad",
+      "v7_sha256": "1df1cc247dd689793cf0fe9107dfa6c24a3a2aee8f7fbfc84dd13d0de2e035ad",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/FILES.json",
+      "v6_sha256": "e70b46d124721c761ec227f043a8a8197c656d2c07e075aa671a2130814d4ae0",
+      "v7_sha256": "e70b46d124721c761ec227f043a8a8197c656d2c07e075aa671a2130814d4ae0",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/blender-runtime-pose-validation.json",
+      "v6_sha256": "31987587af80a99ab2c7b4fe717513e94480544d08e58e43c78f5e8509cb3a62",
+      "v7_sha256": "31987587af80a99ab2c7b4fe717513e94480544d08e58e43c78f5e8509cb3a62",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/continuous-sheets/m870-FiringRifle-back.jpg",
+      "v6_sha256": "e524ec38a2b0401b29ec81fb2cf6ec6e5f4a2d62d7a71943c6830a032e8e74d0",
+      "v7_sha256": "e524ec38a2b0401b29ec81fb2cf6ec6e5f4a2d62d7a71943c6830a032e8e74d0",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/continuous-sheets/m870-FiringRifle-front.jpg",
+      "v6_sha256": "e55d670c3caeee2ab5faa2f5d8be57b4dd500ef7267c1583269cbb236853de3c",
+      "v7_sha256": "e55d670c3caeee2ab5faa2f5d8be57b4dd500ef7267c1583269cbb236853de3c",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/continuous-sheets/m870-FiringRifle-side.jpg",
+      "v6_sha256": "66e4c7d0f71a1ae38fb8a9b7f6d93b645c419376a643860757859ceb8eb2d653",
+      "v7_sha256": "66e4c7d0f71a1ae38fb8a9b7f6d93b645c419376a643860757859ceb8eb2d653",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/continuous-sheets/m870-Reloading-back.jpg",
+      "v6_sha256": "ed1bd1fb97dfc3c027d001a716265ae8215a2c83294c093519343e1148ae19da",
+      "v7_sha256": "ed1bd1fb97dfc3c027d001a716265ae8215a2c83294c093519343e1148ae19da",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/continuous-sheets/m870-Reloading-front.jpg",
+      "v6_sha256": "cad983581ea9e3d1a18894597a89748caef9e1ace335dadd28c0f32548d04b88",
+      "v7_sha256": "cad983581ea9e3d1a18894597a89748caef9e1ace335dadd28c0f32548d04b88",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/continuous-sheets/m870-Reloading-side.jpg",
+      "v6_sha256": "00783aaa8f8e2ac408ed1467cdbcc376fabaf845190c196cd479a78d6172e387",
+      "v7_sha256": "00783aaa8f8e2ac408ed1467cdbcc376fabaf845190c196cd479a78d6172e387",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/continuous-sheets/m870-ShotgunPump-back.jpg",
+      "v6_sha256": "ecf26921e2878c2c310400acd717c7932df8ebc3f869ffdb83626fb36300531a",
+      "v7_sha256": "ecf26921e2878c2c310400acd717c7932df8ebc3f869ffdb83626fb36300531a",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/continuous-sheets/m870-ShotgunPump-front.jpg",
+      "v6_sha256": "feb1c7ecdfb239c05f0a19b0887cb0ec6527e585bffcf56224042108edf60a7c",
+      "v7_sha256": "feb1c7ecdfb239c05f0a19b0887cb0ec6527e585bffcf56224042108edf60a7c",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/continuous-sheets/m870-ShotgunPump-side.jpg",
+      "v6_sha256": "7a7e142df4d2e1592ee1555adeb526e711b11a279d8fe2761b99e13be6dbb43f",
+      "v7_sha256": "7a7e142df4d2e1592ee1555adeb526e711b11a279d8fe2761b99e13be6dbb43f",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/continuous-sheets/none-Walk-back.jpg",
+      "v6_sha256": "5fa2011657902e97fc56402e7978b2e73520aa21a0ddb11e455eea2dc0e9aa75",
+      "v7_sha256": "5fa2011657902e97fc56402e7978b2e73520aa21a0ddb11e455eea2dc0e9aa75",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/continuous-sheets/none-Walk-front.jpg",
+      "v6_sha256": "c20739a826ec89787dbf9c073694040747086528161cbd81f402d072891e57ab",
+      "v7_sha256": "c20739a826ec89787dbf9c073694040747086528161cbd81f402d072891e57ab",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/continuous-sheets/none-Walk-side.jpg",
+      "v6_sha256": "ab051e21f2202e57c36be2d49183fbb288b8bac6eef64ef08edc2f8dc8b30af1",
+      "v7_sha256": "ab051e21f2202e57c36be2d49183fbb288b8bac6eef64ef08edc2f8dc8b30af1",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/continuous-sheets/qbz95-FiringRifle-back.jpg",
+      "v6_sha256": "a1343978f8c35c6082cd6dd59494a8ec2e94e0d190d69984a5bd0ea7043bb686",
+      "v7_sha256": "a1343978f8c35c6082cd6dd59494a8ec2e94e0d190d69984a5bd0ea7043bb686",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/continuous-sheets/qbz95-FiringRifle-front.jpg",
+      "v6_sha256": "2b4bc9b4160a26498638dd042676c84364d3fc70b03b380250c2053dac1ec1c8",
+      "v7_sha256": "2b4bc9b4160a26498638dd042676c84364d3fc70b03b380250c2053dac1ec1c8",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/continuous-sheets/qbz95-FiringRifle-side.jpg",
+      "v6_sha256": "20b8baf8134be35189be7bd9a8555409a854d8995ca821735c56a8dba6f73244",
+      "v7_sha256": "20b8baf8134be35189be7bd9a8555409a854d8995ca821735c56a8dba6f73244",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/continuous-sheets/qbz95-Reloading-back.jpg",
+      "v6_sha256": "45a72ecb2807fe652c0e1ec4f68d4013bb5bf3a596aa3f89c7d5d6617baadf9a",
+      "v7_sha256": "45a72ecb2807fe652c0e1ec4f68d4013bb5bf3a596aa3f89c7d5d6617baadf9a",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/continuous-sheets/qbz95-Reloading-front.jpg",
+      "v6_sha256": "e3d85bf4ecb7c46bf49754c1b216515ee57286e47736722c5484831d539a17a8",
+      "v7_sha256": "e3d85bf4ecb7c46bf49754c1b216515ee57286e47736722c5484831d539a17a8",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/continuous-sheets/qbz95-Reloading-side.jpg",
+      "v6_sha256": "7efbb9c6493de25e16707ccf91440053bdfb302740d04892772c10538d4446e0",
+      "v7_sha256": "7efbb9c6493de25e16707ccf91440053bdfb302740d04892772c10538d4446e0",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/continuous-sheets/type64-PistolShooting-back.jpg",
+      "v6_sha256": "83b4a2dd07497dd75d01c6751099a26611feb6d3fe48ba67ac37eeea0cdf117b",
+      "v7_sha256": "83b4a2dd07497dd75d01c6751099a26611feb6d3fe48ba67ac37eeea0cdf117b",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/continuous-sheets/type64-PistolShooting-front.jpg",
+      "v6_sha256": "87e452bcb5e91069a07c9a24e51853022bf96deb271404607a3237fbdc9a7974",
+      "v7_sha256": "87e452bcb5e91069a07c9a24e51853022bf96deb271404607a3237fbdc9a7974",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/continuous-sheets/type64-PistolShooting-side.jpg",
+      "v6_sha256": "d546330c9fd52a118f4472b49e1d1b92616083d0fd1c3858d4578c9f849101c7",
+      "v7_sha256": "d546330c9fd52a118f4472b49e1d1b92616083d0fd1c3858d4578c9f849101c7",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/continuous-sheets/type64-Reloading-back.jpg",
+      "v6_sha256": "38c1a0bfb6f88a0dc481d477b0e07f6a16ebe7e85a5bdc3ea55b0ab0e5b6ec36",
+      "v7_sha256": "38c1a0bfb6f88a0dc481d477b0e07f6a16ebe7e85a5bdc3ea55b0ab0e5b6ec36",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/continuous-sheets/type64-Reloading-front.jpg",
+      "v6_sha256": "298dfdbdef6bea1abf035f8ded95d8a2bed6db9dcafc9ddc965ebe2c418560dd",
+      "v7_sha256": "298dfdbdef6bea1abf035f8ded95d8a2bed6db9dcafc9ddc965ebe2c418560dd",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/continuous-sheets/type64-Reloading-side.jpg",
+      "v6_sha256": "242389b0ce2de851251870c2d1dccc2ff3f2169089c9ddb14006358b95f440e5",
+      "v7_sha256": "242389b0ce2de851251870c2d1dccc2ff3f2169089c9ddb14006358b95f440e5",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/continuous-sheets/type64-RifleRun-back.jpg",
+      "v6_sha256": "ff54109e40a0aec347403f4b77be90aeba2027342d307372982af643cb1276d3",
+      "v7_sha256": "ff54109e40a0aec347403f4b77be90aeba2027342d307372982af643cb1276d3",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/continuous-sheets/type64-RifleRun-front.jpg",
+      "v6_sha256": "6defc7c4469c3eb654b6d52821831b9400bd1c60ea77f50d7e0bc3e3c1ef1252",
+      "v7_sha256": "6defc7c4469c3eb654b6d52821831b9400bd1c60ea77f50d7e0bc3e3c1ef1252",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/continuous-sheets/type64-RifleRun-side.jpg",
+      "v6_sha256": "082a50d196f19851e19e46b4d5366c6876c286098d7138e74f303588d0f74ab6",
+      "v7_sha256": "082a50d196f19851e19e46b4d5366c6876c286098d7138e74f303588d0f74ab6",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/continuous-sheets/type97hawk-ShotgunPump-back.jpg",
+      "v6_sha256": "2027eb14d8dfe77e84b4eb088e75577843f6e06569126f814ac50e4330b8424c",
+      "v7_sha256": "2027eb14d8dfe77e84b4eb088e75577843f6e06569126f814ac50e4330b8424c",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/continuous-sheets/type97hawk-ShotgunPump-front.jpg",
+      "v6_sha256": "8b2a6ce1b43b905ce4dbfe2f069a4c52a6d8d7fd672097c8d3800ea33dc259c5",
+      "v7_sha256": "8b2a6ce1b43b905ce4dbfe2f069a4c52a6d8d7fd672097c8d3800ea33dc259c5",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/continuous-sheets/type97hawk-ShotgunPump-side.jpg",
+      "v6_sha256": "2e0ec35aef35145faa4a44eef5b64ee8b35869efaeead97a5d2751cb9e730dde",
+      "v7_sha256": "2e0ec35aef35145faa4a44eef5b64ee8b35869efaeead97a5d2751cb9e730dde",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/coverage.csv",
+      "v6_sha256": "03863cf1c08d5e040d91137b027adf6837a3f4548313b9fce1134bb6ae3531ee",
+      "v7_sha256": "03863cf1c08d5e040d91137b027adf6837a3f4548313b9fce1134bb6ae3531ee",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/coverage.json",
+      "v6_sha256": "576e805079143b7b061890bfb78fc47043e4c5b9c2b939d882d4c80f803fd22b",
+      "v7_sha256": "576e805079143b7b061890bfb78fc47043e4c5b9c2b939d882d4c80f803fd22b",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/index.html",
+      "v6_sha256": "e61df55c3da029be6b848dbfcfd402f0697a3d48758c293785f63f170f5a57af",
+      "v7_sha256": "e61df55c3da029be6b848dbfcfd402f0697a3d48758c293785f63f170f5a57af",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/linxu-ui-validation-matrix.csv",
+      "v6_sha256": "3f83f424279d041c4c796c4742253b1ac6280dfc880355b0e05035f75301327b",
+      "v7_sha256": "3f83f424279d041c4c796c4742253b1ac6280dfc880355b0e05035f75301327b",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/linxu-ui-validation-matrix.json",
+      "v6_sha256": "a4a4b2a788643ee12f2d70f81b2aaec78f2a01082a52a6d18f5f8f0c51ff4c7c",
+      "v7_sha256": "a4a4b2a788643ee12f2d70f81b2aaec78f2a01082a52a6d18f5f8f0c51ff4c7c",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/locomotion-equality.json",
+      "v6_sha256": "09f186cb9d5f756c3302a5c2f8f3c63a16928b346e2d0d8e15e4ab05fd29d56b",
+      "v7_sha256": "09f186cb9d5f756c3302a5c2f8f3c63a16928b346e2d0d8e15e4ab05fd29d56b",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/numeric-sweep-summary.json",
+      "v6_sha256": "d6d8340533b588ba232bf2bddedd991c8fa21514b1ee8f3ccbdfe61c0ed60086",
+      "v7_sha256": "d6d8340533b588ba232bf2bddedd991c8fa21514b1ee8f3ccbdfe61c0ed60086",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/old-weapon-baseline-comparison.json",
+      "v6_sha256": "e915721fc9923d9d36713bf3a1f4ea02b2a24f7511103083cd65a10b07c80f1e",
+      "v7_sha256": "e915721fc9923d9d36713bf3a1f4ea02b2a24f7511103083cd65a10b07c80f1e",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/render-reuse-proof.json",
+      "v6_sha256": "53229d81644b41e852e67882d844b44ae9c40eb5215de5d3d589f1eff4cb6325",
+      "v7_sha256": "53229d81644b41e852e67882d844b44ae9c40eb5215de5d3d589f1eff4cb6325",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets-detail/m870-Reloading.jpg",
+      "v6_sha256": "5a223972a04e06a0c7e64cf0c4686a9fa9f29db98faec54884574a15a5b3f116",
+      "v7_sha256": "5a223972a04e06a0c7e64cf0c4686a9fa9f29db98faec54884574a15a5b3f116",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets-detail/m870-ShotgunAimLevel.jpg",
+      "v6_sha256": "363fb178578599f0129dea6623200e709a2efaaf8eab45e53df92e3f6b0eef4a",
+      "v7_sha256": "363fb178578599f0129dea6623200e709a2efaaf8eab45e53df92e3f6b0eef4a",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets-detail/qsz92-PistolAimingIdle.jpg",
+      "v6_sha256": "edb501a370787744d46195886c01487755f9dcb19c8b60e40a2a5d424203d095",
+      "v7_sha256": "edb501a370787744d46195886c01487755f9dcb19c8b60e40a2a5d424203d095",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets-detail/type54-PistolAimingIdle.jpg",
+      "v6_sha256": "a018d39e1a4b95cc2fc0500cf9a24f2db9ea1cbcd59d3020d9f7775fd541f6c8",
+      "v7_sha256": "a018d39e1a4b95cc2fc0500cf9a24f2db9ea1cbcd59d3020d9f7775fd541f6c8",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets-detail/type56_1-Reloading.jpg",
+      "v6_sha256": "57b401d9fcb5d60bf4d06d94f47ecb46ede7d5344bffedf741148abc7888d066",
+      "v7_sha256": "57b401d9fcb5d60bf4d06d94f47ecb46ede7d5344bffedf741148abc7888d066",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets-detail/type64-PistolAimingIdle.jpg",
+      "v6_sha256": "217727919889b51a5905d5ffa8fdddc43624c1cd639ee6a17a771b0e5db33150",
+      "v7_sha256": "217727919889b51a5905d5ffa8fdddc43624c1cd639ee6a17a771b0e5db33150",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets-full/m870-RifleWalk.jpg",
+      "v6_sha256": "89af5bb987c9974c0068eb8bea38f2d971cf74e0556da96c676b1b7011010e1b",
+      "v7_sha256": "89af5bb987c9974c0068eb8bea38f2d971cf74e0556da96c676b1b7011010e1b",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets-full/m870-ShotgunAimDown.jpg",
+      "v6_sha256": "7f6905ed59e7f1e7c236ad69ed85af1014e351ea984b78f793c39852159e71d6",
+      "v7_sha256": "7f6905ed59e7f1e7c236ad69ed85af1014e351ea984b78f793c39852159e71d6",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets-full/m870-ShotgunAimLevel.jpg",
+      "v6_sha256": "39ae4b6580605ca2d76eb8c9fe5a5e1d053195d960fb5701e7b95b6de50429ac",
+      "v7_sha256": "39ae4b6580605ca2d76eb8c9fe5a5e1d053195d960fb5701e7b95b6de50429ac",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets-full/m870-ShotgunAimUp.jpg",
+      "v6_sha256": "834c8cb6a6a0e21b385eb5d001652359c2a4f5aee17a6dc49bc2662aa8d96b45",
+      "v7_sha256": "834c8cb6a6a0e21b385eb5d001652359c2a4f5aee17a6dc49bc2662aa8d96b45",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets-full/qbz95-RifleWalk.jpg",
+      "v6_sha256": "cd885b2167718f5f685894fad1b5808c26f90739c736ac44a1d30d588f00823b",
+      "v7_sha256": "cd885b2167718f5f685894fad1b5808c26f90739c736ac44a1d30d588f00823b",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets-full/type64-PistolWalk.jpg",
+      "v6_sha256": "fde20705aa81028dd0a187940432d1ea7dea49b75c558942c726a6797a2421c9",
+      "v7_sha256": "fde20705aa81028dd0a187940432d1ea7dea49b75c558942c726a6797a2421c9",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets-full/type64-RifleRun.jpg",
+      "v6_sha256": "bc6395b8a417f9dfa0db13de82da37a5ba215aca0f191320db9c1ebea13c2978",
+      "v7_sha256": "bc6395b8a417f9dfa0db13de82da37a5ba215aca0f191320db9c1ebea13c2978",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/m870-FiringRifle.jpg",
+      "v6_sha256": "aff5c6210f2df70456b7179949300239db5289c5628b8614612778b1b4146018",
+      "v7_sha256": "aff5c6210f2df70456b7179949300239db5289c5628b8614612778b1b4146018",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/m870-Reloading.jpg",
+      "v6_sha256": "eccd23b1debf2103225d26aa9d1e319c0c96692afa05197df4a1d8a1e16a1127",
+      "v7_sha256": "eccd23b1debf2103225d26aa9d1e319c0c96692afa05197df4a1d8a1e16a1127",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/m870-RifleAimingIdle.jpg",
+      "v6_sha256": "789e15daaa5d0733cfe24a32db25c85ceabe27196886e0ff8707bb6ab11c318e",
+      "v7_sha256": "789e15daaa5d0733cfe24a32db25c85ceabe27196886e0ff8707bb6ab11c318e",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/m870-RifleIdle.jpg",
+      "v6_sha256": "51bb8bfbe358b361ce2739d0547beff35f327c1136c4ee79fca4e8ace7072969",
+      "v7_sha256": "51bb8bfbe358b361ce2739d0547beff35f327c1136c4ee79fca4e8ace7072969",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/m870-RifleWalk.jpg",
+      "v6_sha256": "f1be48f87ffe1befd4d70a533379b6cb0ee68aaf04fda92b573a1a1163b56799",
+      "v7_sha256": "f1be48f87ffe1befd4d70a533379b6cb0ee68aaf04fda92b573a1a1163b56799",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/m870-ShotgunAimDown.jpg",
+      "v6_sha256": "1c71a3b65cb6fc05ec0a3f57e17a26c70d568b3c422bdc1db0324506e3bf5f23",
+      "v7_sha256": "1c71a3b65cb6fc05ec0a3f57e17a26c70d568b3c422bdc1db0324506e3bf5f23",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/m870-ShotgunAimLevel.jpg",
+      "v6_sha256": "3bbf99212de9648665e71e64631a8a73e809b9bdc2a09f9494b5b65274a70378",
+      "v7_sha256": "3bbf99212de9648665e71e64631a8a73e809b9bdc2a09f9494b5b65274a70378",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/m870-ShotgunAimUp.jpg",
+      "v6_sha256": "3d411e60b138b2713adb130a18b5057f7d6aa25976cbd7cd334b33b8e1d82752",
+      "v7_sha256": "3d411e60b138b2713adb130a18b5057f7d6aa25976cbd7cd334b33b8e1d82752",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/m870-ShotgunPump.jpg",
+      "v6_sha256": "4d6678965817185192aa955305b32dec30cf0f17485a983ebd0bbea4f0b1960b",
+      "v7_sha256": "4d6678965817185192aa955305b32dec30cf0f17485a983ebd0bbea4f0b1960b",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/none-ClimbingLadder.jpg",
+      "v6_sha256": "42b8ad91de1750990a638ab414438209d90ab415dcba651fdb9fc10c08e23c9c",
+      "v7_sha256": "42b8ad91de1750990a638ab414438209d90ab415dcba651fdb9fc10c08e23c9c",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/none-Dying.jpg",
+      "v6_sha256": "b65eecf1684b9e10c5f77d0a6ebc0c3344a1825d6387db0be67758c1d3272b63",
+      "v7_sha256": "b65eecf1684b9e10c5f77d0a6ebc0c3344a1825d6387db0be67758c1d3272b63",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/none-FlyingBackDeath.jpg",
+      "v6_sha256": "1e650f4756cb07b0ff2334c4e07e44eacb1819a61676f68441780974e9fe3a8f",
+      "v7_sha256": "1e650f4756cb07b0ff2334c4e07e44eacb1819a61676f68441780974e9fe3a8f",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/none-HangToCrouch.jpg",
+      "v6_sha256": "ae918189789a7d19958d250ddeeeff78d20a5c739e318823e0047e84c298295d",
+      "v7_sha256": "ae918189789a7d19958d250ddeeeff78d20a5c739e318823e0047e84c298295d",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/none-HeadStress.jpg",
+      "v6_sha256": "9be57580c2f629721cad9e504ad5c0c2f5aa861ff4548f4469f89238ac830c30",
+      "v7_sha256": "9be57580c2f629721cad9e504ad5c0c2f5aa861ff4548f4469f89238ac830c30",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/none-Idle.jpg",
+      "v6_sha256": "77c10d8e9948d2d4a9ae7e8deafdf3df480c485147e582c4e8558afa529398ae",
+      "v7_sha256": "77c10d8e9948d2d4a9ae7e8deafdf3df480c485147e582c4e8558afa529398ae",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/none-Run.jpg",
+      "v6_sha256": "701a92f4d0be0b8cff7839df52ce2214b744fb77af062ca07e97487b3d9755ae",
+      "v7_sha256": "701a92f4d0be0b8cff7839df52ce2214b744fb77af062ca07e97487b3d9755ae",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/none-SittingCrossLegged.jpg",
+      "v6_sha256": "aff89b8cf56df056a6cc82e147d3eda0e84b66046cbd97f5fab576aca193579c",
+      "v7_sha256": "aff89b8cf56df056a6cc82e147d3eda0e84b66046cbd97f5fab576aca193579c",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/none-SittingTalking.jpg",
+      "v6_sha256": "49dfe4fe7035bff4e7ec08952b1e9c236e3af9681ad4050c5537037fe347845d",
+      "v7_sha256": "49dfe4fe7035bff4e7ec08952b1e9c236e3af9681ad4050c5537037fe347845d",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/none-Talking.jpg",
+      "v6_sha256": "500b9e8370c16f6972925b9b050ed2c08033ccfb0306e85308fb35b996f052cc",
+      "v7_sha256": "500b9e8370c16f6972925b9b050ed2c08033ccfb0306e85308fb35b996f052cc",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/none-Walk.jpg",
+      "v6_sha256": "07bc30a6ebaacd272973ea5840d468c5bf5cedff87f63f53b58e56dfa3370634",
+      "v7_sha256": "07bc30a6ebaacd272973ea5840d468c5bf5cedff87f63f53b58e56dfa3370634",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/none-WalkingBackwards.jpg",
+      "v6_sha256": "b003af6efe07dc25ba7a04735ac88598db32793da19179e4124f043cbb08aef1",
+      "v7_sha256": "b003af6efe07dc25ba7a04735ac88598db32793da19179e4124f043cbb08aef1",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/qbu85-FiringRifle.jpg",
+      "v6_sha256": "58249a60dac385880bd3fa1f30b7bae2d0f5772bf2f00cccc7b0e0a5c6e27715",
+      "v7_sha256": "58249a60dac385880bd3fa1f30b7bae2d0f5772bf2f00cccc7b0e0a5c6e27715",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/qbu85-Reloading.jpg",
+      "v6_sha256": "4e77cbbcd61069448f9b49cfb14085e8d74095675584cf089673b71371e7d175",
+      "v7_sha256": "4e77cbbcd61069448f9b49cfb14085e8d74095675584cf089673b71371e7d175",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/qbu85-RifleAimingIdle.jpg",
+      "v6_sha256": "4fd305ff4b1c94c0aaef3f54d131f793bfd879f455e55b0d59b4f4bb1e6f8535",
+      "v7_sha256": "4fd305ff4b1c94c0aaef3f54d131f793bfd879f455e55b0d59b4f4bb1e6f8535",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/qbu85-RifleIdle.jpg",
+      "v6_sha256": "f7ca7166a98a5668b56b6e63eb9506216140d62598114a50f03b49efe5d9b6d1",
+      "v7_sha256": "f7ca7166a98a5668b56b6e63eb9506216140d62598114a50f03b49efe5d9b6d1",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/qbu85-RifleWalk.jpg",
+      "v6_sha256": "ec687e7b6aa7fbb5470d6444b73d0996330a7653f0a6f39df7d2511c9f18db98",
+      "v7_sha256": "ec687e7b6aa7fbb5470d6444b73d0996330a7653f0a6f39df7d2511c9f18db98",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/qbz95-FiringRifle.jpg",
+      "v6_sha256": "8d22eaff2ac24c034d95ad4cb98d137d82d743699e272695e76c4b99a8298c9d",
+      "v7_sha256": "8d22eaff2ac24c034d95ad4cb98d137d82d743699e272695e76c4b99a8298c9d",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/qbz95-Reloading.jpg",
+      "v6_sha256": "e3adeb6c2ccd7f5955cc40498ab56d4cebda7d784f5759e1cebb6011666c753e",
+      "v7_sha256": "e3adeb6c2ccd7f5955cc40498ab56d4cebda7d784f5759e1cebb6011666c753e",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/qbz95-RifleAimingIdle.jpg",
+      "v6_sha256": "3929a0601685bba7fd7f9104754ec30fb24962de257707db0af2b92a913537f8",
+      "v7_sha256": "3929a0601685bba7fd7f9104754ec30fb24962de257707db0af2b92a913537f8",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/qbz95-RifleIdle.jpg",
+      "v6_sha256": "4163c5ac01bccde13215b00c60747b6b85e278a408291f9769c351687c856792",
+      "v7_sha256": "4163c5ac01bccde13215b00c60747b6b85e278a408291f9769c351687c856792",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/qbz95-RifleWalk.jpg",
+      "v6_sha256": "bce41388c4b88105bbd021a0b76935714b48777125f69c37c06acc25385a4802",
+      "v7_sha256": "bce41388c4b88105bbd021a0b76935714b48777125f69c37c06acc25385a4802",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/qcq171-FiringRifle.jpg",
+      "v6_sha256": "983000046735085df00f8f009f47989d5936fc5226e9f9bc426099df28f6d3b9",
+      "v7_sha256": "983000046735085df00f8f009f47989d5936fc5226e9f9bc426099df28f6d3b9",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/qcq171-Reloading.jpg",
+      "v6_sha256": "8a552fab44f443e91e0e521b162cfa366f329b9c647a0b251c542764466c4582",
+      "v7_sha256": "8a552fab44f443e91e0e521b162cfa366f329b9c647a0b251c542764466c4582",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/qcq171-RifleAimingIdle.jpg",
+      "v6_sha256": "ce89419b4afbc3459fb9d0552415e6facc1a8cc6738f9c88d095a68ad37be840",
+      "v7_sha256": "ce89419b4afbc3459fb9d0552415e6facc1a8cc6738f9c88d095a68ad37be840",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/qcq171-RifleIdle.jpg",
+      "v6_sha256": "e7866b3cd7c882a7fa50ed8fc489d167181422a056fc8dcc9937f4f7b66490f2",
+      "v7_sha256": "e7866b3cd7c882a7fa50ed8fc489d167181422a056fc8dcc9937f4f7b66490f2",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/qcq171-RifleWalk.jpg",
+      "v6_sha256": "58e0ab790f0baabb99afa98689907fe4ebeb85c1ac685d03b70b907f8b1325dd",
+      "v7_sha256": "58e0ab790f0baabb99afa98689907fe4ebeb85c1ac685d03b70b907f8b1325dd",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/qsz92-PistolAimingIdle.jpg",
+      "v6_sha256": "03adc516bd7e383a64a1f1d9d982c0bef0ce07311b747b82ba992f80befbf13f",
+      "v7_sha256": "03adc516bd7e383a64a1f1d9d982c0bef0ce07311b747b82ba992f80befbf13f",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/qsz92-PistolIdle.jpg",
+      "v6_sha256": "d686d31b077276db2f22a889e934814bf8ff6ec274bfd21158fce2db5643e7ab",
+      "v7_sha256": "d686d31b077276db2f22a889e934814bf8ff6ec274bfd21158fce2db5643e7ab",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/qsz92-PistolShooting.jpg",
+      "v6_sha256": "4e3d1246aec6af2057d08337ab9cd7d2a96fe4bb1c7d4f58302b33b0a3335f6a",
+      "v7_sha256": "4e3d1246aec6af2057d08337ab9cd7d2a96fe4bb1c7d4f58302b33b0a3335f6a",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/qsz92-PistolWalk.jpg",
+      "v6_sha256": "92ada96b59f9fa86973510f4aebab9e1f275fc393c3e0e1482476071591b76ce",
+      "v7_sha256": "92ada96b59f9fa86973510f4aebab9e1f275fc393c3e0e1482476071591b76ce",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/qsz92-Reloading.jpg",
+      "v6_sha256": "e6587b6339d5d7ec82011adfafab07099ec41d6b9eea7f8d513ebccb76657b8d",
+      "v7_sha256": "e6587b6339d5d7ec82011adfafab07099ec41d6b9eea7f8d513ebccb76657b8d",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/qsz92-RifleRun.jpg",
+      "v6_sha256": "ea99e5dcb96b00043c1550dbca80bf3ae8422f6ddefe09d508d589782d710ffb",
+      "v7_sha256": "ea99e5dcb96b00043c1550dbca80bf3ae8422f6ddefe09d508d589782d710ffb",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/type54-PistolAimingIdle.jpg",
+      "v6_sha256": "a551241bd7a9ca0b674bace17a6c672a007c444f93ebef4d3c2be3da761a1d69",
+      "v7_sha256": "a551241bd7a9ca0b674bace17a6c672a007c444f93ebef4d3c2be3da761a1d69",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/type54-PistolIdle.jpg",
+      "v6_sha256": "449230a1914a25cafef2b4c945795a260fdcc2de8ea94a1983d637628fb023b1",
+      "v7_sha256": "449230a1914a25cafef2b4c945795a260fdcc2de8ea94a1983d637628fb023b1",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/type54-PistolShooting.jpg",
+      "v6_sha256": "bdab93b116ba182f66245390ed22bfb2d85831ffc7209d5cf5ce5f6e47fd783e",
+      "v7_sha256": "bdab93b116ba182f66245390ed22bfb2d85831ffc7209d5cf5ce5f6e47fd783e",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/type54-PistolWalk.jpg",
+      "v6_sha256": "8f7d679e1f5242b7e0476d2937b42190d5ec6523045e7f50f892f147d13fbd30",
+      "v7_sha256": "8f7d679e1f5242b7e0476d2937b42190d5ec6523045e7f50f892f147d13fbd30",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/type54-Reloading.jpg",
+      "v6_sha256": "f930904f67b4d99a9b7800369f57d372a90cf9a2452270e3356ad69aff83793d",
+      "v7_sha256": "f930904f67b4d99a9b7800369f57d372a90cf9a2452270e3356ad69aff83793d",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/type54-RifleRun.jpg",
+      "v6_sha256": "8857e1cce1f4f029c5a22f19613b84c485335946c45163c6a1ad12704eaba137",
+      "v7_sha256": "8857e1cce1f4f029c5a22f19613b84c485335946c45163c6a1ad12704eaba137",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/type56_1-FiringRifle.jpg",
+      "v6_sha256": "7c67cc3ac17c99e39417c7e480d6058714d152b9f7fe751369244b482046902d",
+      "v7_sha256": "7c67cc3ac17c99e39417c7e480d6058714d152b9f7fe751369244b482046902d",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/type56_1-Reloading.jpg",
+      "v6_sha256": "8a452d2fd599a97e0ae5b25d3a586501da596e04c6c708e40913bf05cf0338b1",
+      "v7_sha256": "8a452d2fd599a97e0ae5b25d3a586501da596e04c6c708e40913bf05cf0338b1",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/type56_1-RifleAimingIdle.jpg",
+      "v6_sha256": "bf9416369243e73e70f65534fbe0dabc99cb819ea0ab335527a782d4764f9bc2",
+      "v7_sha256": "bf9416369243e73e70f65534fbe0dabc99cb819ea0ab335527a782d4764f9bc2",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/type56_1-RifleIdle.jpg",
+      "v6_sha256": "68cdb125b76d80d42261fb015c49b217c753bad1b4acec3f7c08194a8145b8bc",
+      "v7_sha256": "68cdb125b76d80d42261fb015c49b217c753bad1b4acec3f7c08194a8145b8bc",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/type56_1-RifleWalk.jpg",
+      "v6_sha256": "46de569bb6317a466b9155c9995aeb50250cd9372e4c5ccf11358628216145fb",
+      "v7_sha256": "46de569bb6317a466b9155c9995aeb50250cd9372e4c5ccf11358628216145fb",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/type64-PistolAimingIdle.jpg",
+      "v6_sha256": "e5d00d9f4192ec8755d751a8ee93f0807218ac9b71d4887cef841fc86b819040",
+      "v7_sha256": "e5d00d9f4192ec8755d751a8ee93f0807218ac9b71d4887cef841fc86b819040",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/type64-PistolIdle.jpg",
+      "v6_sha256": "8648d06576d2a86b65f05d0fd9a86421f86b754080bc17484b276687628bda57",
+      "v7_sha256": "8648d06576d2a86b65f05d0fd9a86421f86b754080bc17484b276687628bda57",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/type64-PistolShooting.jpg",
+      "v6_sha256": "96d635ed3599a0f5b8a48cf0a1c96ee861219f2349285be62def29d646c34f35",
+      "v7_sha256": "96d635ed3599a0f5b8a48cf0a1c96ee861219f2349285be62def29d646c34f35",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/type64-PistolWalk.jpg",
+      "v6_sha256": "cdc108ac093a43b7ea6b2c7a617be5bab728494e49f1acd10285461999e94d32",
+      "v7_sha256": "cdc108ac093a43b7ea6b2c7a617be5bab728494e49f1acd10285461999e94d32",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/type64-Reloading.jpg",
+      "v6_sha256": "e86403e4cb42f93755cc1f9aefb8716d802e3c2a8a9c2b4725bff17b524351a0",
+      "v7_sha256": "e86403e4cb42f93755cc1f9aefb8716d802e3c2a8a9c2b4725bff17b524351a0",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/type64-RifleRun.jpg",
+      "v6_sha256": "2fa7e77a019905e85989867a96921fb685dc30f6acfdc1a6f049a67c6bc277f0",
+      "v7_sha256": "2fa7e77a019905e85989867a96921fb685dc30f6acfdc1a6f049a67c6bc277f0",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/type97hawk-FiringRifle.jpg",
+      "v6_sha256": "9372f9544655d4b653d6f67e4970d1af9b4e80957883c2c0625d9030843c669e",
+      "v7_sha256": "9372f9544655d4b653d6f67e4970d1af9b4e80957883c2c0625d9030843c669e",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/type97hawk-Reloading.jpg",
+      "v6_sha256": "c3d1d26f13456d01008e1fd18dedc2d3357dcf3659eb9469723f82928396e0cb",
+      "v7_sha256": "c3d1d26f13456d01008e1fd18dedc2d3357dcf3659eb9469723f82928396e0cb",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/type97hawk-RifleAimingIdle.jpg",
+      "v6_sha256": "a56b238cce1047a03b053ff096c6cf51417e8477d1475e4996fb29db26bee299",
+      "v7_sha256": "a56b238cce1047a03b053ff096c6cf51417e8477d1475e4996fb29db26bee299",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/type97hawk-RifleIdle.jpg",
+      "v6_sha256": "ef9269b05887f97cd308ed39dbb7e6646492dbc87d6de128645f7ef815a4f09a",
+      "v7_sha256": "ef9269b05887f97cd308ed39dbb7e6646492dbc87d6de128645f7ef815a4f09a",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/type97hawk-RifleWalk.jpg",
+      "v6_sha256": "15477cc25e024d1c3731d322009ad1dbc7dd46ac62755a325f9b34db93b29177",
+      "v7_sha256": "15477cc25e024d1c3731d322009ad1dbc7dd46ac62755a325f9b34db93b29177",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/sheets/type97hawk-ShotgunPump.jpg",
+      "v6_sha256": "34e742c43ea7e6151bdcc3c5db54d95116e084559a98056dc6cab04402aa0066",
+      "v7_sha256": "34e742c43ea7e6151bdcc3c5db54d95116e084559a98056dc6cab04402aa0066",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/videos/m870-FiringRifle.mp4",
+      "v6_sha256": "8e3a5cea66205538ed272ae4cd47c56024973f99eb654ce57b56398858b98cb4",
+      "v7_sha256": "8e3a5cea66205538ed272ae4cd47c56024973f99eb654ce57b56398858b98cb4",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/videos/m870-Reloading.mp4",
+      "v6_sha256": "d1464a5fc8aafcfa2fcb4d6f063a4a6d903d8572ce417d6220d0eea1f092bdc0",
+      "v7_sha256": "d1464a5fc8aafcfa2fcb4d6f063a4a6d903d8572ce417d6220d0eea1f092bdc0",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/videos/m870-ShotgunPump.mp4",
+      "v6_sha256": "de877c7205c18f1cba7e8ffea5e9863c9be3733d74f70337ee59804ddbdda11c",
+      "v7_sha256": "de877c7205c18f1cba7e8ffea5e9863c9be3733d74f70337ee59804ddbdda11c",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/videos/none-Walk.mp4",
+      "v6_sha256": "7d5f25c33eecc3822e5b117804683a745cdcf193fb7a75c42a983fed8cf9ce1c",
+      "v7_sha256": "7d5f25c33eecc3822e5b117804683a745cdcf193fb7a75c42a983fed8cf9ce1c",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/videos/qbz95-FiringRifle.mp4",
+      "v6_sha256": "f33ac541ddba4a80df759e162b7607269b16c31d1619660813fbef39a186c9e8",
+      "v7_sha256": "f33ac541ddba4a80df759e162b7607269b16c31d1619660813fbef39a186c9e8",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/videos/qbz95-Reloading.mp4",
+      "v6_sha256": "212969b451b0ac76f391acd7c9f1ca60e911ef308bf6c376dee5f2b6556b7d35",
+      "v7_sha256": "212969b451b0ac76f391acd7c9f1ca60e911ef308bf6c376dee5f2b6556b7d35",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/videos/type64-PistolShooting.mp4",
+      "v6_sha256": "6a1d20a9e73f993cf4e83237b845f52df1c51c15e683fd71aa4b37f4e3400e09",
+      "v7_sha256": "6a1d20a9e73f993cf4e83237b845f52df1c51c15e683fd71aa4b37f4e3400e09",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/videos/type64-Reloading.mp4",
+      "v6_sha256": "71328b88e1a294966b1e76fba3b5d738134c1c40988159cb3c4c8767dae48d01",
+      "v7_sha256": "71328b88e1a294966b1e76fba3b5d738134c1c40988159cb3c4c8767dae48d01",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/videos/type64-RifleRun.mp4",
+      "v6_sha256": "f1998d7aa32f1d2d2f195fe2a1bea5631ab4d20428396911eb012ae7eaa7927d",
+      "v7_sha256": "f1998d7aa32f1d2d2f195fe2a1bea5631ab4d20428396911eb012ae7eaa7927d",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/videos/type97hawk-ShotgunPump.mp4",
+      "v6_sha256": "a740957d1718886391f5f01f87995c18300ac6934d9ff0187d841aa72aa1e51e",
+      "v7_sha256": "a740957d1718886391f5f01f87995c18300ac6934d9ff0187d841aa72aa1e51e",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_full_review/linxu/evidence/\u590d\u6838\u62a5\u544a.md",
+      "v6_sha256": "7c641d7ccc62854975d2b6105dc017466d425ffcc15d03e69c3e6b73ee3b67df",
+      "v7_sha256": "7c641d7ccc62854975d2b6105dc017466d425ffcc15d03e69c3e6b73ee3b67df",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_jitter/app-flow.json",
+      "v6_sha256": "df7eede307ec8134f463c320b326eb0dc14a0997f59d28428554ec03e2bb99e4",
+      "v7_sha256": "df7eede307ec8134f463c320b326eb0dc14a0997f59d28428554ec03e2bb99e4",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_jitter/current-site-validation.json",
+      "v6_sha256": "0450cee850af03a68dd956bd595e7992b38cf55af7b655a60b5a7537c488e9f3",
+      "v7_sha256": "0450cee850af03a68dd956bd595e7992b38cf55af7b655a60b5a7537c488e9f3",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_jitter/diagnosis.json",
+      "v6_sha256": "f142021575d02996317ea9d3ce608eab980d35b7ec60411799805120c9d3fa49",
+      "v7_sha256": "f142021575d02996317ea9d3ce608eab980d35b7ec60411799805120c9d3fa49",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_jitter/godot-import.json",
+      "v6_sha256": "858db6a7fb24aa2a247dca12d3465d5f9c7ba423ed11b712f4eb5adb9abdb7f6",
+      "v7_sha256": "858db6a7fb24aa2a247dca12d3465d5f9c7ba423ed11b712f4eb5adb9abdb7f6",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_jitter/pistol-jitter-spectrum.png",
+      "v6_sha256": "5b8b42cb219cef354d3b803a536a8bf3d4f42a28de7fe7cc5741d21389efab82",
+      "v7_sha256": "5b8b42cb219cef354d3b803a536a8bf3d4f42a28de7fe7cc5741d21389efab82",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_jitter/pistol-source.json",
+      "v6_sha256": "559b38f95cb746cf6b82b83bb375d9735158a7a8f79b5d1936c98f7b607cfe57",
+      "v7_sha256": "559b38f95cb746cf6b82b83bb375d9735158a7a8f79b5d1936c98f7b607cfe57",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_jitter/visible-loop-audit.json",
+      "v6_sha256": "d857f777cff088d721e3bc9136a27b461851143fb11aa5ae2cd9f8408b0615e3",
+      "v7_sha256": "d857f777cff088d721e3bc9136a27b461851143fb11aa5ae2cd9f8408b0615e3",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_jitter/walk-candidate-validation.json",
+      "v6_sha256": "efaf69a60e503e769a9eeb05e8ba121353d49be242e616fb737ef1fa7010372e",
+      "v7_sha256": "efaf69a60e503e769a9eeb05e8ba121353d49be242e616fb737ef1fa7010372e",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_jitter/walk-contact-sheet.png",
+      "v6_sha256": "03de4bd1a6c46a4a8c9bd77f4fbd9613ce86467d678887a052c9e6f517acc721",
+      "v7_sha256": "03de4bd1a6c46a4a8c9bd77f4fbd9613ce86467d678887a052c9e6f517acc721",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_jitter/walk-curves.png",
+      "v6_sha256": "b39f6ed8558079bab0e1047037b3669216435f16c118a5497d88c8b702a3576a",
+      "v7_sha256": "b39f6ed8558079bab0e1047037b3669216435f16c118a5497d88c8b702a3576a",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_jitter/walk-original-vs-candidate.mp4",
+      "v6_sha256": "e4b90fbf24da452f3893593ad08a7f9e8d60d65678f927b1f4ea063d68bae3e5",
+      "v7_sha256": "e4b90fbf24da452f3893593ad08a7f9e8d60d65678f927b1f4ea063d68bae3e5",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_jitter/walk-render-metadata.json",
+      "v6_sha256": "01fa80807d514e79a028b63e61f74f4e875a74c311a47405628e3f6f3ad1df0f",
+      "v7_sha256": "01fa80807d514e79a028b63e61f74f4e875a74c311a47405628e3f6f3ad1df0f",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_jitter/walk-render-pose-validation.json",
+      "v6_sha256": "1d23904c4b7ae429b05495151e9b807d2a7b8a4a1b8ce894a79e609b9fc1fd5c",
+      "v7_sha256": "1d23904c4b7ae429b05495151e9b807d2a7b8a4a1b8ce894a79e609b9fc1fd5c",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_jitter/walk-source.json",
+      "v6_sha256": "80f6f7c016e0bd6d924056961ca75fa4ff59b28c05ea9ca74cdec1ad442135ea",
+      "v7_sha256": "80f6f7c016e0bd6d924056961ca75fa4ff59b28c05ea9ca74cdec1ad442135ea",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_old_run_review/evidence/README.md",
+      "v6_sha256": "de601648406f4176741c7dab9ad8c0825987b4f515941d1440d16937d34ab12f",
+      "v7_sha256": "de601648406f4176741c7dab9ad8c0825987b4f515941d1440d16937d34ab12f",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_old_run_review/evidence/REPORT.md",
+      "v6_sha256": "5ffa2abeeafaceb78a9a285286fdcbadc48a8aaae1e6612a7e6e429a70c196bf",
+      "v7_sha256": "5ffa2abeeafaceb78a9a285286fdcbadc48a8aaae1e6612a7e6e429a70c196bf",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_old_run_review/evidence/checksums.json",
+      "v6_sha256": "8433176191b0083a1ba09fa31883672169be50fe09799914444a3514b4715b88",
+      "v7_sha256": "8433176191b0083a1ba09fa31883672169be50fe09799914444a3514b4715b88",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_old_run_review/evidence/coverage-and-findings.json",
+      "v6_sha256": "03d7f3222dd805562bc4646720938ab14a8388d2482cfc0266da036b94e8e667",
+      "v7_sha256": "03d7f3222dd805562bc4646720938ab14a8388d2482cfc0266da036b94e8e667",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_old_run_review/evidence/numeric-summary.json",
+      "v6_sha256": "ba3ced5f8fd97736b943d3a470abb5c0e5ebd960f3c48bc2a4ebe90a67d482b2",
+      "v7_sha256": "ba3ced5f8fd97736b943d3a470abb5c0e5ebd960f3c48bc2a4ebe90a67d482b2",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_old_run_review/evidence/sheets/qbu85-before.jpg",
+      "v6_sha256": "e09de279d19adcdb76ae677564552c9816d5a12775e6f7c1158e08e913e34778",
+      "v7_sha256": "e09de279d19adcdb76ae677564552c9816d5a12775e6f7c1158e08e913e34778",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_old_run_review/evidence/sheets/qbu85-current.jpg",
+      "v6_sha256": "3e01aa5b7c969b14eb678b846d21b06877ec6c1d61bc6d686f7a30c2f2bf09c9",
+      "v7_sha256": "3e01aa5b7c969b14eb678b846d21b06877ec6c1d61bc6d686f7a30c2f2bf09c9",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_old_run_review/evidence/sheets/qbz95-before.jpg",
+      "v6_sha256": "b6442f1da0d2bf5ff548067a36c0f505ad631a2ce07ea9712f2e9dba7391f0d4",
+      "v7_sha256": "b6442f1da0d2bf5ff548067a36c0f505ad631a2ce07ea9712f2e9dba7391f0d4",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_old_run_review/evidence/sheets/qbz95-current.jpg",
+      "v6_sha256": "1bade55f1383403808c120275562f54cd670591b01815e3d60b8588ca9d5f9e7",
+      "v7_sha256": "1bade55f1383403808c120275562f54cd670591b01815e3d60b8588ca9d5f9e7",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_old_run_review/evidence/sheets/qcq171-before.jpg",
+      "v6_sha256": "ad1af55241e5a2d352aa83fd5a942cd6d4a82739f62fab9fee22dca6bbb8cdc9",
+      "v7_sha256": "ad1af55241e5a2d352aa83fd5a942cd6d4a82739f62fab9fee22dca6bbb8cdc9",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_old_run_review/evidence/sheets/qcq171-current.jpg",
+      "v6_sha256": "1bb7357cb3f06f63b58543e73b2f56dd392bf45287d18d6799e35dee86dc38ca",
+      "v7_sha256": "1bb7357cb3f06f63b58543e73b2f56dd392bf45287d18d6799e35dee86dc38ca",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_old_run_review/evidence/sheets/type56_1-before.jpg",
+      "v6_sha256": "d2dd0f4164fefb3c7fbb2fd827ab1d1fa22944238df873e9b401c1387bd3fb6d",
+      "v7_sha256": "d2dd0f4164fefb3c7fbb2fd827ab1d1fa22944238df873e9b401c1387bd3fb6d",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_old_run_review/evidence/sheets/type56_1-current.jpg",
+      "v6_sha256": "76a125a9d9ca59225486a17879331e479eefb2b4a3a40f7ffa5c332a28c51f77",
+      "v7_sha256": "76a125a9d9ca59225486a17879331e479eefb2b4a3a40f7ffa5c332a28c51f77",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_old_run_review/evidence/sheets/type97hawk-before.jpg",
+      "v6_sha256": "c84b8cec2748c7f5f611f3ce1c43478886d62209105d8b105ff5b5482aa7cc4b",
+      "v7_sha256": "c84b8cec2748c7f5f611f3ce1c43478886d62209105d8b105ff5b5482aa7cc4b",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_old_run_review/evidence/sheets/type97hawk-current.jpg",
+      "v6_sha256": "f11f30f364a5b69a89eb845849dbc2a2a859203dbefaf6a5fa2ccc12bb4ae90f",
+      "v7_sha256": "f11f30f364a5b69a89eb845849dbc2a2a859203dbefaf6a5fa2ccc12bb4ae90f",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_old_run_review/evidence/source-and-baseline.json",
+      "v6_sha256": "99a9b413b9b7969c8dbc6385c0b7505181407818c1c10c8073b785dfa08842e7",
+      "v7_sha256": "99a9b413b9b7969c8dbc6385c0b7505181407818c1c10c8073b785dfa08842e7",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_scale/M870_final_evidence-1.png",
+      "v6_sha256": "a72b841a2609805402046594bdafdc6785fbe4b0735f0e4993a4ad9c2710d93b",
+      "v7_sha256": "a72b841a2609805402046594bdafdc6785fbe4b0735f0e4993a4ad9c2710d93b",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_scale/M870_final_evidence-2.png",
+      "v6_sha256": "042de627a800b11589d6db8dc48c44d197cefe292ee49eac06d817494236216f",
+      "v7_sha256": "042de627a800b11589d6db8dc48c44d197cefe292ee49eac06d817494236216f",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_scale/M870_final_evidence-3.png",
+      "v6_sha256": "0e7ecb6fd803ee6adc6aca2e0bc64c3ba2041df1b3e5eae91559de761d147ba5",
+      "v7_sha256": "0e7ecb6fd803ee6adc6aca2e0bc64c3ba2041df1b3e5eae91559de761d147ba5",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_scale/M870_final_evidence.pdf",
+      "v6_sha256": "3069cab465faaf5524014c9dff4421c26a02dfb14d1dcdfda13dda074961f0e0",
+      "v7_sha256": "3069cab465faaf5524014c9dff4421c26a02dfb14d1dcdfda13dda074961f0e0",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_scale/final_geometry_validation.json",
+      "v6_sha256": "bf1f9044d850eb50f81a8405a60d00905d0e7c343b0722db3e66d901dcf48672",
+      "v7_sha256": "bf1f9044d850eb50f81a8405a60d00905d0e7c343b0722db3e66d901dcf48672",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_scale/final_render_settings.json",
+      "v6_sha256": "cc75ed49d8502a41686d68f9bdc0520021186a08f8141be4a3b0816464889f4f",
+      "v7_sha256": "cc75ed49d8502a41686d68f9bdc0520021186a08f8141be4a3b0816464889f4f",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_scale/final_thinning_application.json",
+      "v6_sha256": "525eb8f3206ed3ceb84fec8aa754a7842144618a588f8e886d0adc6aaebf77ce",
+      "v7_sha256": "525eb8f3206ed3ceb84fec8aa754a7842144618a588f8e886d0adc6aaebf77ce",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_scale/rebuild_reproducibility.json",
+      "v6_sha256": "604cc66a489f57d2ac17600fe779876ac2b42ae8a42a07f50de58948337e8e76",
+      "v7_sha256": "604cc66a489f57d2ac17600fe779876ac2b42ae8a42a07f50de58948337e8e76",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_shoulder/evidence/back-nine-phase-before-after.jpg",
+      "v6_sha256": "a68d54d956bbb26edb7cf7f147fbd8106c6e890bc51ce67334ee9e87f63dec55",
+      "v7_sha256": "a68d54d956bbb26edb7cf7f147fbd8106c6e890bc51ce67334ee9e87f63dec55",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_shoulder/evidence/blender-actual-skin-validation.json",
+      "v6_sha256": "dd5d281a64eb79f4953d67624465d40481a317538dda31ea6b6ccce985517720",
+      "v7_sha256": "dd5d281a64eb79f4953d67624465d40481a317538dda31ea6b6ccce985517720",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_shoulder/evidence/blender-runtime-pose-validation.json",
+      "v6_sha256": "e0970e834df5baa518720769f16f40f226b0e9386c1865c8fef95dce61720332",
+      "v7_sha256": "e0970e834df5baa518720769f16f40f226b0e9386c1865c8fef95dce61720332",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_shoulder/evidence/candidate-continuity.json",
+      "v6_sha256": "dac398dd4d74dab5e1f7e23a0b9cd9bdb578f76dfe91f31bb34e8287b09efcdb",
+      "v7_sha256": "dac398dd4d74dab5e1f7e23a0b9cd9bdb578f76dfe91f31bb34e8287b09efcdb",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_shoulder/evidence/candidate-scope.json",
+      "v6_sha256": "9860499bf4651099ffd72a052eebf9b6753065658f3119707f97c94da9ba0bad",
+      "v7_sha256": "9860499bf4651099ffd72a052eebf9b6753065658f3119707f97c94da9ba0bad",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_shoulder/evidence/front-nine-phase-before-after.jpg",
+      "v6_sha256": "334aee76fbab526f982f46ada2fdbc0ef6a04dc00e154d1af3011c551f4ce00c",
+      "v7_sha256": "334aee76fbab526f982f46ada2fdbc0ef6a04dc00e154d1af3011c551f4ce00c",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_shoulder/evidence/input-hashes.json",
+      "v6_sha256": "c7fe6abd50dfbb1a20bb965810e17216e3d599c53619e4a92408ebc8d4178221",
+      "v7_sha256": "c7fe6abd50dfbb1a20bb965810e17216e3d599c53619e4a92408ebc8d4178221",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_shoulder/evidence/left-nine-phase-before-after.jpg",
+      "v6_sha256": "1f3024914a9a2fc675113fc21299415d3f4b2e0c31f63012ae924d8f5103bed2",
+      "v7_sha256": "1f3024914a9a2fc675113fc21299415d3f4b2e0c31f63012ae924d8f5103bed2",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_shoulder/evidence/linxu-m870-run-before-after-three-views.mp4",
+      "v6_sha256": "0649ed6f49e3e91952c4f8a391fdd86c5edeea6a1d066c6dd1eaede6ad8336c1",
+      "v7_sha256": "0649ed6f49e3e91952c4f8a391fdd86c5edeea6a1d066c6dd1eaede6ad8336c1",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_shoulder/evidence/wrist-comparison.jpg",
+      "v6_sha256": "a8af5ee96e5c0040f7c591b53b69c9f31a6060ccc630034125089c8fd8f2caf5",
+      "v7_sha256": "a8af5ee96e5c0040f7c591b53b69c9f31a6060ccc630034125089c8fd8f2caf5",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_shoulder/evidence/\u9a8c\u6536\u8bf4\u660e.md",
+      "v6_sha256": "7f9dae1c0ac48be66bc8ef92bcd4d15d46ca764765f8de9205419264b103a71f",
+      "v7_sha256": "7f9dae1c0ac48be66bc8ef92bcd4d15d46ca764765f8de9205419264b103a71f",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_three/generator-provenance.json",
+      "v6_sha256": "2e4e95acec481614fd4d40c6d06c0909ec82482236312231a0a6cda34f30ae61",
+      "v7_sha256": "2e4e95acec481614fd4d40c6d06c0909ec82482236312231a0a6cda34f30ae61",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_three/legacy-regression.json",
+      "v6_sha256": "d4507fd2ea52e849ddb3984df6038a7c50bbd5098e37a72ec2bc8b9cc0ec1a7a",
+      "v7_sha256": "d4507fd2ea52e849ddb3984df6038a7c50bbd5098e37a72ec2bc8b9cc0ec1a7a",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_three/shoulder-men-candidate/military-all-phases-comparison.jpg",
+      "v6_sha256": "aa1898a868946b72fee4a5106879681ef628734bf12e51cd85434b72f0688b20",
+      "v7_sha256": "aa1898a868946b72fee4a5106879681ef628734bf12e51cd85434b72f0688b20",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_three/shoulder-men-candidate/vest-all-phases-comparison.jpg",
+      "v6_sha256": "e8f6496024db5c29e7007ab7afa22506eb984f1c570ea4b2b820ca40c4fd225f",
+      "v7_sha256": "e8f6496024db5c29e7007ab7afa22506eb984f1c570ea4b2b820ca40c4fd225f",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_three/shoulderfix-file-list.json",
+      "v6_sha256": "a989f43d474c70653ce03e04758cea557a5c6bdd5774ab537fbac4b7ff7c442e",
+      "v7_sha256": "a989f43d474c70653ce03e04758cea557a5c6bdd5774ab537fbac4b7ff7c442e",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_three/shoulderfix-production-skin-validation.json",
+      "v6_sha256": "560ba93c02e1e044c3bf4d593060322f04ffa9014b7a1419039af211bcf0cf3f",
+      "v7_sha256": "560ba93c02e1e044c3bf4d593060322f04ffa9014b7a1419039af211bcf0cf3f",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_three/shoulderfix-scope-validation.json",
+      "v6_sha256": "aa63ea3413ddcc010d2bad2dc95c9778ac17ab978eed486a251ad48557b1534a",
+      "v7_sha256": "aa63ea3413ddcc010d2bad2dc95c9778ac17ab978eed486a251ad48557b1534a",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_three/source-continuity.json",
+      "v6_sha256": "2b0d54b19ec91f3ca5eb496360d8eefeed08878ba41f90c95b84d076584a1160",
+      "v7_sha256": "2b0d54b19ec91f3ca5eb496360d8eefeed08878ba41f90c95b84d076584a1160",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_three/static-and-loop-validation.json",
+      "v6_sha256": "e041e19c48b5fb55dc07ee3d2b25b105661a995221b1ee1a821bde1411766587",
+      "v7_sha256": "e041e19c48b5fb55dc07ee3d2b25b105661a995221b1ee1a821bde1411766587",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_three/three-production-freeze-manifest.json",
+      "v6_sha256": "dac9b8fd7d43432ece1838cf4672d1218972243368b2d4fb0b742e1db4cd5cac",
+      "v7_sha256": "dac9b8fd7d43432ece1838cf4672d1218972243368b2d4fb0b742e1db4cd5cac",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_three/transition-validation.json",
+      "v6_sha256": "79fe3ed8620b4cb8ec657213b8ace6965abe5e8906caa0b6f5a6bb99ae049139",
+      "v7_sha256": "79fe3ed8620b4cb8ec657213b8ace6965abe5e8906caa0b6f5a6bb99ae049139",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_three/validation.json",
+      "v6_sha256": "74db14caa5a9b465b6e0b02ed46881de07b9aa52facccd99566afe800d90b2c7",
+      "v7_sha256": "74db14caa5a9b465b6e0b02ed46881de07b9aa52facccd99566afe800d90b2c7",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_two/bake-reload.json",
+      "v6_sha256": "9fa401497266d74f5940a2237276b80c22264a9c395b80038eae89236781219d",
+      "v7_sha256": "9fa401497266d74f5940a2237276b80c22264a9c395b80038eae89236781219d",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_two/bake.json",
+      "v6_sha256": "68599d8dabf652de2458b1d0e3d650d8613078b75857018845c2ade2fb525e51",
+      "v7_sha256": "68599d8dabf652de2458b1d0e3d650d8613078b75857018845c2ade2fb525e51",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_two/candidate_d_app_state_paths.json",
+      "v6_sha256": "2f6286f84d3aa4b03df968f6d5ccfbc3f51947ee1045b56d8d7dc2905b21b999",
+      "v7_sha256": "2f6286f84d3aa4b03df968f6d5ccfbc3f51947ee1045b56d8d7dc2905b21b999",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_two/candidate_d_motion_audit.json",
+      "v6_sha256": "e5d8de7d33acb0c008f91e023b2b2e38d18af1bf06d48dc3f64404e3fd271854",
+      "v7_sha256": "e5d8de7d33acb0c008f91e023b2b2e38d18af1bf06d48dc3f64404e3fd271854",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_two/diandian-m870-RifleIdle-FINAL-comparison.jpg",
+      "v6_sha256": "d85c12a601ddbfa1d7a9d4e548c281ebd21de1597dc2baf7b90c31fb5b8ef622",
+      "v7_sha256": "d85c12a601ddbfa1d7a9d4e548c281ebd21de1597dc2baf7b90c31fb5b8ef622",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_two/diandian-m870-RifleWalk-FINAL-comparison.jpg",
+      "v6_sha256": "1391e43019067ca8c463045628c91b50ee7641954a0c5f388669b8495a9c40a1",
+      "v7_sha256": "1391e43019067ca8c463045628c91b50ee7641954a0c5f388669b8495a9c40a1",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_two/final_rebuild_consistency.json",
+      "v6_sha256": "6611336656dc1c19ad510150a5cc1e4efe9521dceaafb19d16e5f3cdac2f0f27",
+      "v7_sha256": "6611336656dc1c19ad510150a5cc1e4efe9521dceaafb19d16e5f3cdac2f0f27",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_two/final_scope.json",
+      "v6_sha256": "3367089b0dd4d8f63b014bdf8cd5d88d384859a7e52649335a0f57c91676d879",
+      "v7_sha256": "3367089b0dd4d8f63b014bdf8cd5d88d384859a7e52649335a0f57c91676d879",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_two/frozen_sources.json",
+      "v6_sha256": "41338c9eb1436d096e5e0ab64e0b3b442517060c18258b96328b6c427da518f0",
+      "v7_sha256": "41338c9eb1436d096e5e0ab64e0b3b442517060c18258b96328b6c427da518f0",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_two/sequences/diandian-m870-Reloading-sequence.jpg",
+      "v6_sha256": "e5c0e90c88ad7850dcc421578b0318100e9f746ac7c6fa3caa5743331bfa75d9",
+      "v7_sha256": "e5c0e90c88ad7850dcc421578b0318100e9f746ac7c6fa3caa5743331bfa75d9",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_two/sequences/diandian-m870-ShotgunPump-sequence.jpg",
+      "v6_sha256": "23165dc7a67e656ed01f8824321e1386e7ee5f6d81df7e55f49e315a5d3ae86e",
+      "v7_sha256": "23165dc7a67e656ed01f8824321e1386e7ee5f6d81df7e55f49e315a5d3ae86e",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_two/sequences/diandian-qsz92-Reloading-sequence.jpg",
+      "v6_sha256": "b45fe07d3b00d599713c8408b36e9725e890deb5f7e91acef94e52bb0c9bccd9",
+      "v7_sha256": "b45fe07d3b00d599713c8408b36e9725e890deb5f7e91acef94e52bb0c9bccd9",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_two/sequences/diandian-qsz92-RifleRun-sequence.jpg",
+      "v6_sha256": "01bc76e805cc33028dbdd6fd7ee510f1946fdbc1314bfd6154b6500638ca0639",
+      "v7_sha256": "01bc76e805cc33028dbdd6fd7ee510f1946fdbc1314bfd6154b6500638ca0639",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_two/sequences/zhigeng-m870-Reloading-sequence.jpg",
+      "v6_sha256": "b30166c4e606ce3723cf96133a9efe7659c4d120e42f432cb15572a6b4041a22",
+      "v7_sha256": "b30166c4e606ce3723cf96133a9efe7659c4d120e42f432cb15572a6b4041a22",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_two/sequences/zhigeng-m870-ShotgunPump-sequence.jpg",
+      "v6_sha256": "e010e360145543a035678fd427c75d081acf029bc6f44b2f3f607cf75b9ce2a2",
+      "v7_sha256": "e010e360145543a035678fd427c75d081acf029bc6f44b2f3f607cf75b9ce2a2",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_two/sequences/zhigeng-qsz92-Reloading-sequence.jpg",
+      "v6_sha256": "00340d11aa67f53b721bb01fa5e1600a554e2708d2d276fb661ea3208071b19f",
+      "v7_sha256": "00340d11aa67f53b721bb01fa5e1600a554e2708d2d276fb661ea3208071b19f",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_two/sequences/zhigeng-qsz92-RifleRun-sequence.jpg",
+      "v6_sha256": "5444dc3c8242bd4028b1d0b523ca69f45669e9969badbdfa646772f882b75891",
+      "v7_sha256": "5444dc3c8242bd4028b1d0b523ca69f45669e9969badbdfa646772f882b75891",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_two/shotgun_app_sequence_audit.json",
+      "v6_sha256": "ef1aae3e4bdbbed6fe0e1b51f1dbbb06066265c8e31cdabbce1625d74dc7ec65",
+      "v7_sha256": "ef1aae3e4bdbbed6fe0e1b51f1dbbb06066265c8e31cdabbce1625d74dc7ec65",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_two/zhigeng-m870-RifleIdle-FINAL-comparison.jpg",
+      "v6_sha256": "64b55849a189badb8aa1e55c82f41a94f4607ab040ee9c2d3f184f3241bad468",
+      "v7_sha256": "64b55849a189badb8aa1e55c82f41a94f4607ab040ee9c2d3f184f3241bad468",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/verification_weapon_v6_two/zhigeng-m870-RifleWalk-FINAL-comparison.jpg",
+      "v6_sha256": "78efbd64eeda486f10e47edd280018f98b9f6f29506e5090777ac396a14275a9",
+      "v7_sha256": "78efbd64eeda486f10e47edd280018f98b9f6f29506e5090777ac396a14275a9",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/app.js",
+      "v6_sha256": "452876ab35d695b29c3d14a646b013f3cbc7fd8885e461efdc51647e466a13af",
+      "v7_sha256": "452876ab35d695b29c3d14a646b013f3cbc7fd8885e461efdc51647e466a13af",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/assets/refined_equipped_v6/README.md",
+      "v6_sha256": "4bff9a9a3743a9d8b2a183098aba3e8aab71722d10b1baf3349121056d43c294",
+      "v7_sha256": "4bff9a9a3743a9d8b2a183098aba3e8aab71722d10b1baf3349121056d43c294",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/assets/refined_equipped_v6/chest_skinning.json",
+      "v6_sha256": "c09ecb10064dcf656719d27da1e7a4f2940a26a4784079dd7cb4fc5fc9091554",
+      "v7_sha256": "c09ecb10064dcf656719d27da1e7a4f2940a26a4784079dd7cb4fc5fc9091554",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/assets/refined_equipped_v6/equipped_motions.glb",
+      "v6_sha256": "ca28eff3c0004aa96b354d971e271a6fc5e8f068ad20611ddcb49e29cdf81f1d",
+      "v7_sha256": "ca28eff3c0004aa96b354d971e271a6fc5e8f068ad20611ddcb49e29cdf81f1d",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/assets/refined_equipped_v6/weapon_transforms.json",
+      "v6_sha256": "54b3a42ceb9fdc14b9723d60d5bc7aad58e175d07fcc76a03fe61c65a5447f38",
+      "v7_sha256": "54b3a42ceb9fdc14b9723d60d5bc7aad58e175d07fcc76a03fe61c65a5447f38",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/assets/weapon_attachment.json",
+      "v6_sha256": "ad9eafe6c472494be2dd4ad114ccf9897b16226e190a04534f5a4b3b01b730bf",
+      "v7_sha256": "ad9eafe6c472494be2dd4ad114ccf9897b16226e190a04534f5a4b3b01b730bf",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/assets/weapon_catalog.json",
+      "v6_sha256": "96075a8fd148ab4dcecca46b734557359b55a14691eaa86616adc1255f2e2fe2",
+      "v7_sha256": "96075a8fd148ab4dcecca46b734557359b55a14691eaa86616adc1255f2e2fe2",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/assets/weapons/m870.glb",
+      "v6_sha256": "b1192f67c1bc1ca6334d5b4b281eefe234bcb222132c627580dab594e8e14795",
+      "v7_sha256": "b1192f67c1bc1ca6334d5b4b281eefe234bcb222132c627580dab594e8e14795",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/assets/weapons/qsz92.glb",
+      "v6_sha256": "c2be7f2de027e57303d635a2e51aa0c41849878b23bd294d5ddb372389a7f30c",
+      "v7_sha256": "c2be7f2de027e57303d635a2e51aa0c41849878b23bd294d5ddb372389a7f30c",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/assets/weapons/type54.glb",
+      "v6_sha256": "25d58d368e66cbead8faf6083408c73bd93fe2bf2e23b2706d9d3c006e83e06b",
+      "v7_sha256": "25d58d368e66cbead8faf6083408c73bd93fe2bf2e23b2706d9d3c006e83e06b",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/assets/weapons/type64.glb",
+      "v6_sha256": "ca7376e4b84e7b50df2a59743d9a3b09db37928d6c1152bddc13cac7a8f9c582",
+      "v7_sha256": "ca7376e4b84e7b50df2a59743d9a3b09db37928d6c1152bddc13cac7a8f9c582",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/index.html",
+      "v6_sha256": "b3f4c94034e713d5932728635c9f6e247d95b1c2f2b39e4b547a96b0b44069ac",
+      "v7_sha256": "b3f4c94034e713d5932728635c9f6e247d95b1c2f2b39e4b547a96b0b44069ac",
+      "content_preserved": true
+    },
+    {
+      "path": "web/motion-labs/zhigeng-motion-lab/weapon-attachment.js",
+      "v6_sha256": "cd1d55f65f3418f18bab9c2399a2418fe5e7dced60d3b73db22469ef77badc21",
+      "v7_sha256": "cd1d55f65f3418f18bab9c2399a2418fe5e7dced60d3b73db22469ef77badc21",
+      "content_preserved": true
+    }
+  ]
+}

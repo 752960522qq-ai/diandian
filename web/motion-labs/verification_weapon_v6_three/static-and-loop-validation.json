@@ -1,0 +1,743 @@
+{
+  "characters": {
+    "linxu": [
+      {
+        "weapon": "m870",
+        "motion": "RifleIdle",
+        "sourceDuration": 7.699999809265137,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0.00022090200357231885,
+        "loopGunAngleDegrees": 0.021849148526739446
+      },
+      {
+        "weapon": "m870",
+        "motion": "RifleWalk",
+        "sourceDuration": 1.100000023841858,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0.000022688795602337843,
+        "loopGunAngleDegrees": 0.004824814096889155
+      },
+      {
+        "weapon": "m870",
+        "motion": "RifleRun",
+        "sourceDuration": 0.6666666865348816,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0.0000389924836710984,
+        "loopGunAngleDegrees": 0.0019651844209113267
+      },
+      {
+        "weapon": "m870",
+        "motion": "RifleAimingIdle",
+        "sourceDuration": 0.5333333611488342,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0
+      },
+      {
+        "weapon": "m870",
+        "motion": "ShotgunAimLevel",
+        "sourceDuration": 0.5333333611488342,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0
+      },
+      {
+        "weapon": "m870",
+        "motion": "ShotgunAimUp",
+        "sourceDuration": 0.5333333611488342,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0
+      },
+      {
+        "weapon": "m870",
+        "motion": "ShotgunAimDown",
+        "sourceDuration": 0.03333333507180214,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0,
+        "staticIrregularMultiRateLoops": {
+          "maxGunMovementM": 0,
+          "maxBoneMovementM": 4.440892098500626e-16,
+          "maxGunAngleDegrees": 0
+        }
+      },
+      {
+        "weapon": "m870",
+        "motion": "FiringRifle",
+        "sourceDuration": 0.23333333432674408,
+        "oneShot": true,
+        "loopGunPositionJumpM": null,
+        "loopGunAngleDegrees": null
+      },
+      {
+        "weapon": "m870",
+        "motion": "ShotgunPump",
+        "sourceDuration": 0.7333333492279053,
+        "oneShot": true,
+        "loopGunPositionJumpM": null,
+        "loopGunAngleDegrees": null
+      },
+      {
+        "weapon": "m870",
+        "motion": "Reloading",
+        "sourceDuration": 1.9666666984558105,
+        "oneShot": true,
+        "loopGunPositionJumpM": null,
+        "loopGunAngleDegrees": null
+      },
+      {
+        "weapon": "type54",
+        "motion": "PistolIdle",
+        "sourceDuration": 0.03333333507180214,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0.0000017075472925031877,
+        "staticIrregularMultiRateLoops": {
+          "maxGunMovementM": 2.220446049250313e-16,
+          "maxBoneMovementM": 4.440892098500626e-16,
+          "maxGunAngleDegrees": 0.0000029575586669421963
+        }
+      },
+      {
+        "weapon": "type54",
+        "motion": "PistolWalk",
+        "sourceDuration": 0.6666666865348816,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0.0000017075472925031877
+      },
+      {
+        "weapon": "type54",
+        "motion": "RifleRun",
+        "sourceDuration": 0.6666666865348816,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0.00003550279883728443,
+        "loopGunAngleDegrees": 0.00197235682633237
+      },
+      {
+        "weapon": "type54",
+        "motion": "PistolAimingIdle",
+        "sourceDuration": 1.3333333730697632,
+        "oneShot": false,
+        "loopGunPositionJumpM": 1.908824403753461e-7,
+        "loopGunAngleDegrees": 0.00005119795174384791
+      },
+      {
+        "weapon": "type54",
+        "motion": "PistolShooting",
+        "sourceDuration": 1.1666666269302368,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0
+      },
+      {
+        "weapon": "type54",
+        "motion": "Reloading",
+        "sourceDuration": 3.299999952316284,
+        "oneShot": true,
+        "loopGunPositionJumpM": null,
+        "loopGunAngleDegrees": null
+      },
+      {
+        "weapon": "type64",
+        "motion": "PistolIdle",
+        "sourceDuration": 0.03333333507180214,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0.0000017075472925031877,
+        "staticIrregularMultiRateLoops": {
+          "maxGunMovementM": 2.220446049250313e-16,
+          "maxBoneMovementM": 4.440892098500626e-16,
+          "maxGunAngleDegrees": 0.0000029575586669421963
+        }
+      },
+      {
+        "weapon": "type64",
+        "motion": "PistolWalk",
+        "sourceDuration": 0.6666666865348816,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0.0000017075472925031877
+      },
+      {
+        "weapon": "type64",
+        "motion": "RifleRun",
+        "sourceDuration": 0.6666666865348816,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0.00003545639339880431,
+        "loopGunAngleDegrees": 0.00197235682633237
+      },
+      {
+        "weapon": "type64",
+        "motion": "PistolAimingIdle",
+        "sourceDuration": 1.3333333730697632,
+        "oneShot": false,
+        "loopGunPositionJumpM": 1.8849467490739665e-7,
+        "loopGunAngleDegrees": 0.00005119795174384791
+      },
+      {
+        "weapon": "type64",
+        "motion": "PistolShooting",
+        "sourceDuration": 1.1666666269302368,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0
+      },
+      {
+        "weapon": "type64",
+        "motion": "Reloading",
+        "sourceDuration": 3.299999952316284,
+        "oneShot": true,
+        "loopGunPositionJumpM": null,
+        "loopGunAngleDegrees": null
+      },
+      {
+        "weapon": "qsz92",
+        "motion": "PistolIdle",
+        "sourceDuration": 0.03333333507180214,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0.0000017075472925031877,
+        "staticIrregularMultiRateLoops": {
+          "maxGunMovementM": 2.220446049250313e-16,
+          "maxBoneMovementM": 4.440892098500626e-16,
+          "maxGunAngleDegrees": 0.0000029575586669421963
+        }
+      },
+      {
+        "weapon": "qsz92",
+        "motion": "PistolWalk",
+        "sourceDuration": 0.6666666865348816,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0.0000017075472925031877
+      },
+      {
+        "weapon": "qsz92",
+        "motion": "RifleRun",
+        "sourceDuration": 0.6666666865348816,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0.00003585027318943609,
+        "loopGunAngleDegrees": 0.00197235682633237
+      },
+      {
+        "weapon": "qsz92",
+        "motion": "PistolAimingIdle",
+        "sourceDuration": 1.3333333730697632,
+        "oneShot": false,
+        "loopGunPositionJumpM": 2.000762897828353e-7,
+        "loopGunAngleDegrees": 0.00005119795174384791
+      },
+      {
+        "weapon": "qsz92",
+        "motion": "PistolShooting",
+        "sourceDuration": 1.1666666269302368,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0
+      },
+      {
+        "weapon": "qsz92",
+        "motion": "Reloading",
+        "sourceDuration": 3.299999952316284,
+        "oneShot": true,
+        "loopGunPositionJumpM": null,
+        "loopGunAngleDegrees": null
+      }
+    ],
+    "military": [
+      {
+        "weapon": "m870",
+        "motion": "RifleIdle",
+        "sourceDuration": 7.699999809265137,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0.00022247333279944593,
+        "loopGunAngleDegrees": 0.02186044528705935
+      },
+      {
+        "weapon": "m870",
+        "motion": "RifleWalk",
+        "sourceDuration": 1.100000023841858,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0.000026521140501172748,
+        "loopGunAngleDegrees": 0.004836062735951778
+      },
+      {
+        "weapon": "m870",
+        "motion": "RifleRun",
+        "sourceDuration": 0.6666666865348816,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0.000042592431546427914,
+        "loopGunAngleDegrees": 0.0019706449613702904
+      },
+      {
+        "weapon": "m870",
+        "motion": "RifleAimingIdle",
+        "sourceDuration": 0.5333333611488342,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0.0000017075472925031877
+      },
+      {
+        "weapon": "m870",
+        "motion": "ShotgunAimLevel",
+        "sourceDuration": 0.5333333611488342,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0.0000017075472925031877
+      },
+      {
+        "weapon": "m870",
+        "motion": "ShotgunAimUp",
+        "sourceDuration": 0.5333333611488342,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0.0000017075472925031877
+      },
+      {
+        "weapon": "m870",
+        "motion": "ShotgunAimDown",
+        "sourceDuration": 0.03333333507180214,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0,
+        "staticIrregularMultiRateLoops": {
+          "maxGunMovementM": 0,
+          "maxBoneMovementM": 0,
+          "maxGunAngleDegrees": 0
+        }
+      },
+      {
+        "weapon": "m870",
+        "motion": "FiringRifle",
+        "sourceDuration": 0.23333333432674408,
+        "oneShot": true,
+        "loopGunPositionJumpM": null,
+        "loopGunAngleDegrees": null
+      },
+      {
+        "weapon": "m870",
+        "motion": "ShotgunPump",
+        "sourceDuration": 0.7333333492279053,
+        "oneShot": true,
+        "loopGunPositionJumpM": null,
+        "loopGunAngleDegrees": null
+      },
+      {
+        "weapon": "m870",
+        "motion": "Reloading",
+        "sourceDuration": 1.9666666984558105,
+        "oneShot": true,
+        "loopGunPositionJumpM": null,
+        "loopGunAngleDegrees": null
+      },
+      {
+        "weapon": "type54",
+        "motion": "PistolIdle",
+        "sourceDuration": 0.03333333507180214,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0.0000017075472925031877,
+        "staticIrregularMultiRateLoops": {
+          "maxGunMovementM": 0,
+          "maxBoneMovementM": 2.7755575615628914e-17,
+          "maxGunAngleDegrees": 0.0000034150945850063755
+        }
+      },
+      {
+        "weapon": "type54",
+        "motion": "PistolWalk",
+        "sourceDuration": 0.6666666865348816,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0
+      },
+      {
+        "weapon": "type54",
+        "motion": "RifleRun",
+        "sourceDuration": 0.6666666865348816,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0.000039514495498920826,
+        "loopGunAngleDegrees": 0.0019728623371449905
+      },
+      {
+        "weapon": "type54",
+        "motion": "PistolAimingIdle",
+        "sourceDuration": 1.3333333730697632,
+        "oneShot": false,
+        "loopGunPositionJumpM": 2.8361432663108063e-7,
+        "loopGunAngleDegrees": 0.00005755219692565517
+      },
+      {
+        "weapon": "type54",
+        "motion": "PistolShooting",
+        "sourceDuration": 1.1666666269302368,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0.0000029575586669421963
+      },
+      {
+        "weapon": "type54",
+        "motion": "Reloading",
+        "sourceDuration": 3.299999952316284,
+        "oneShot": true,
+        "loopGunPositionJumpM": null,
+        "loopGunAngleDegrees": null
+      },
+      {
+        "weapon": "type64",
+        "motion": "PistolIdle",
+        "sourceDuration": 0.03333333507180214,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0.0000017075472925031877,
+        "staticIrregularMultiRateLoops": {
+          "maxGunMovementM": 0,
+          "maxBoneMovementM": 2.7755575615628914e-17,
+          "maxGunAngleDegrees": 0.0000034150945850063755
+        }
+      },
+      {
+        "weapon": "type64",
+        "motion": "PistolWalk",
+        "sourceDuration": 0.6666666865348816,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0
+      },
+      {
+        "weapon": "type64",
+        "motion": "RifleRun",
+        "sourceDuration": 0.6666666865348816,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0.000039468293808255335,
+        "loopGunAngleDegrees": 0.0019728623371449905
+      },
+      {
+        "weapon": "type64",
+        "motion": "PistolAimingIdle",
+        "sourceDuration": 1.3333333730697632,
+        "oneShot": false,
+        "loopGunPositionJumpM": 2.8184780461880254e-7,
+        "loopGunAngleDegrees": 0.00005755219692565517
+      },
+      {
+        "weapon": "type64",
+        "motion": "PistolShooting",
+        "sourceDuration": 1.1666666269302368,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0.0000029575586669421963
+      },
+      {
+        "weapon": "type64",
+        "motion": "Reloading",
+        "sourceDuration": 3.299999952316284,
+        "oneShot": true,
+        "loopGunPositionJumpM": null,
+        "loopGunAngleDegrees": null
+      },
+      {
+        "weapon": "qsz92",
+        "motion": "PistolIdle",
+        "sourceDuration": 0.03333333507180214,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0.0000017075472925031877,
+        "staticIrregularMultiRateLoops": {
+          "maxGunMovementM": 0,
+          "maxBoneMovementM": 2.7755575615628914e-17,
+          "maxGunAngleDegrees": 0.0000034150945850063755
+        }
+      },
+      {
+        "weapon": "qsz92",
+        "motion": "PistolWalk",
+        "sourceDuration": 0.6666666865348816,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0
+      },
+      {
+        "weapon": "qsz92",
+        "motion": "RifleRun",
+        "sourceDuration": 0.6666666865348816,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0.00003986340771931052,
+        "loopGunAngleDegrees": 0.0019728623371449905
+      },
+      {
+        "weapon": "qsz92",
+        "motion": "PistolAimingIdle",
+        "sourceDuration": 1.3333333730697632,
+        "oneShot": false,
+        "loopGunPositionJumpM": 2.9212078268669504e-7,
+        "loopGunAngleDegrees": 0.00005755219692565517
+      },
+      {
+        "weapon": "qsz92",
+        "motion": "PistolShooting",
+        "sourceDuration": 1.1666666269302368,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0.0000029575586669421963
+      },
+      {
+        "weapon": "qsz92",
+        "motion": "Reloading",
+        "sourceDuration": 3.299999952316284,
+        "oneShot": true,
+        "loopGunPositionJumpM": null,
+        "loopGunAngleDegrees": null
+      }
+    ],
+    "vest": [
+      {
+        "weapon": "m870",
+        "motion": "RifleIdle",
+        "sourceDuration": 7.699999809265137,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0.00022239295936351291,
+        "loopGunAngleDegrees": 0.021856504858433348
+      },
+      {
+        "weapon": "m870",
+        "motion": "RifleWalk",
+        "sourceDuration": 1.100000023841858,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0.000026176033314029393,
+        "loopGunAngleDegrees": 0.00484174304653313
+      },
+      {
+        "weapon": "m870",
+        "motion": "RifleRun",
+        "sourceDuration": 0.6666666865348816,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0.00004378038232648432,
+        "loopGunAngleDegrees": 0.0019684117565447077
+      },
+      {
+        "weapon": "m870",
+        "motion": "RifleAimingIdle",
+        "sourceDuration": 0.5333333611488342,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0.0000024148365394514667
+      },
+      {
+        "weapon": "m870",
+        "motion": "ShotgunAimLevel",
+        "sourceDuration": 0.5333333611488342,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0.0000024148365394514667
+      },
+      {
+        "weapon": "m870",
+        "motion": "ShotgunAimUp",
+        "sourceDuration": 0.5333333611488342,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0.0000029575586669421963
+      },
+      {
+        "weapon": "m870",
+        "motion": "ShotgunAimDown",
+        "sourceDuration": 0.03333333507180214,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0,
+        "staticIrregularMultiRateLoops": {
+          "maxGunMovementM": 0,
+          "maxBoneMovementM": 2.7755575615628914e-17,
+          "maxGunAngleDegrees": 0.0000017075472925031877
+        }
+      },
+      {
+        "weapon": "m870",
+        "motion": "FiringRifle",
+        "sourceDuration": 0.23333333432674408,
+        "oneShot": true,
+        "loopGunPositionJumpM": null,
+        "loopGunAngleDegrees": null
+      },
+      {
+        "weapon": "m870",
+        "motion": "ShotgunPump",
+        "sourceDuration": 0.7333333492279053,
+        "oneShot": true,
+        "loopGunPositionJumpM": null,
+        "loopGunAngleDegrees": null
+      },
+      {
+        "weapon": "m870",
+        "motion": "Reloading",
+        "sourceDuration": 1.9666666984558105,
+        "oneShot": true,
+        "loopGunPositionJumpM": null,
+        "loopGunAngleDegrees": null
+      },
+      {
+        "weapon": "type54",
+        "motion": "PistolIdle",
+        "sourceDuration": 0.03333333507180214,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0.0000017075472925031877,
+        "staticIrregularMultiRateLoops": {
+          "maxGunMovementM": 0,
+          "maxBoneMovementM": 1.3877787807814457e-17,
+          "maxGunAngleDegrees": 0.0000029575586669421963
+        }
+      },
+      {
+        "weapon": "type54",
+        "motion": "PistolWalk",
+        "sourceDuration": 0.6666666865348816,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0.0000024148365394514667
+      },
+      {
+        "weapon": "type54",
+        "motion": "RifleRun",
+        "sourceDuration": 0.6666666865348816,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0.00004032561838101619,
+        "loopGunAngleDegrees": 0.0019712049010987207
+      },
+      {
+        "weapon": "type54",
+        "motion": "PistolAimingIdle",
+        "sourceDuration": 1.3333333730697632,
+        "oneShot": false,
+        "loopGunPositionJumpM": 3.112489766983702e-7,
+        "loopGunAngleDegrees": 0.00006010469449095725
+      },
+      {
+        "weapon": "type54",
+        "motion": "PistolShooting",
+        "sourceDuration": 1.1666666269302368,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0.0000024148365394514667
+      },
+      {
+        "weapon": "type54",
+        "motion": "Reloading",
+        "sourceDuration": 3.299999952316284,
+        "oneShot": true,
+        "loopGunPositionJumpM": null,
+        "loopGunAngleDegrees": null
+      },
+      {
+        "weapon": "type64",
+        "motion": "PistolIdle",
+        "sourceDuration": 0.03333333507180214,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0.0000017075472925031877,
+        "staticIrregularMultiRateLoops": {
+          "maxGunMovementM": 0,
+          "maxBoneMovementM": 1.3877787807814457e-17,
+          "maxGunAngleDegrees": 0.0000029575586669421963
+        }
+      },
+      {
+        "weapon": "type64",
+        "motion": "PistolWalk",
+        "sourceDuration": 0.6666666865348816,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0.0000024148365394514667
+      },
+      {
+        "weapon": "type64",
+        "motion": "RifleRun",
+        "sourceDuration": 0.6666666865348816,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0.00004027948682261927,
+        "loopGunAngleDegrees": 0.0019712049010987207
+      },
+      {
+        "weapon": "type64",
+        "motion": "PistolAimingIdle",
+        "sourceDuration": 1.3333333730697632,
+        "oneShot": false,
+        "loopGunPositionJumpM": 3.0954656401842264e-7,
+        "loopGunAngleDegrees": 0.00006010469449095725
+      },
+      {
+        "weapon": "type64",
+        "motion": "PistolShooting",
+        "sourceDuration": 1.1666666269302368,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0.0000024148365394514667
+      },
+      {
+        "weapon": "type64",
+        "motion": "Reloading",
+        "sourceDuration": 3.299999952316284,
+        "oneShot": true,
+        "loopGunPositionJumpM": null,
+        "loopGunAngleDegrees": null
+      },
+      {
+        "weapon": "qsz92",
+        "motion": "PistolIdle",
+        "sourceDuration": 0.03333333507180214,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0.0000017075472925031877,
+        "staticIrregularMultiRateLoops": {
+          "maxGunMovementM": 0,
+          "maxBoneMovementM": 1.3877787807814457e-17,
+          "maxGunAngleDegrees": 0.0000029575586669421963
+        }
+      },
+      {
+        "weapon": "qsz92",
+        "motion": "PistolWalk",
+        "sourceDuration": 0.6666666865348816,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0.0000024148365394514667
+      },
+      {
+        "weapon": "qsz92",
+        "motion": "RifleRun",
+        "sourceDuration": 0.6666666865348816,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0.00004067272921113747,
+        "loopGunAngleDegrees": 0.0019712049010987207
+      },
+      {
+        "weapon": "qsz92",
+        "motion": "PistolAimingIdle",
+        "sourceDuration": 1.3333333730697632,
+        "oneShot": false,
+        "loopGunPositionJumpM": 3.2166588885036455e-7,
+        "loopGunAngleDegrees": 0.00006010469449095725
+      },
+      {
+        "weapon": "qsz92",
+        "motion": "PistolShooting",
+        "sourceDuration": 1.1666666269302368,
+        "oneShot": false,
+        "loopGunPositionJumpM": 0,
+        "loopGunAngleDegrees": 0.0000024148365394514667
+      },
+      {
+        "weapon": "qsz92",
+        "motion": "Reloading",
+        "sourceDuration": 3.299999952316284,
+        "oneShot": true,
+        "loopGunPositionJumpM": null,
+        "loopGunAngleDegrees": null
+      }
+    ]
+  },
+  "failures": []
+}

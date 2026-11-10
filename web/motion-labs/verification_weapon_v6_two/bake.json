@@ -1,0 +1,18 @@
+{
+  "diandian": {
+    "clips": 42,
+    "bones": 312,
+    "totalFrames": 3185,
+    "chestVertices": 2955,
+    "output": "/workspace/scratch/6e10d1a9da14/character_weapon_adapt/web/motion-labs/diandian-classic-motion-lab/assets/refined_equipped_v6",
+    "byteLength": 25474280
+  },
+  "zhigeng": {
+    "clips": 42,
+    "bones": 315,
+    "totalFrames": 3185,
+    "chestVertices": 2449,
+    "output": "/workspace/scratch/6e10d1a9da14/character_weapon_adapt/web/motion-labs/zhigeng-motion-lab/assets/refined_equipped_v6",
+    "byteLength": 25546236
+  }
+}

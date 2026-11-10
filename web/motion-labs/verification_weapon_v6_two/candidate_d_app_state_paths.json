@@ -1,0 +1,3555 @@
+{
+  "method": "Verbatim original app state/mixer/time-step functions in a CPU harness; no DOM/WebGL. Actual Three.js skeleton, weapon attachment, pump nodes and chest weights.",
+  "characters": {
+    "diandian": {
+      "sourceEvidence": [
+        {
+          "path": "/workspace/scratch/6e10d1a9da14/character_adapt_baseline/web/motion-labs/diandian-classic-motion-lab/app.js",
+          "sha256": "a1d5a7189e8e0dcfd14bb408c3033b3fc02f53527382e5f68995f0f94e7f78ff",
+          "extractedFunctions": [
+            "optionsFor",
+            "shotgunGroup",
+            "actionFor",
+            "playbackPlan",
+            "durationFor",
+            "setModelAction",
+            "evaluateModel",
+            "activeClips",
+            "setMotion",
+            "selectWeapon",
+            "setAimPitch",
+            "setPlaying"
+          ],
+          "frameBodySha256": "e8a9d4fd86c2321c929a92e52d94a1f500580f42580d1ee40fc3a713368d8077",
+          "scope": "Executes verbatim app state/mixer functions. UI labels, camera and neutral face display are stubbed; this is not a browser test."
+        },
+        {
+          "path": "/workspace/scratch/6e10d1a9da14/character_weapon_adapt/web/motion-labs/diandian-classic-motion-lab/app.js",
+          "sha256": "4a6dff5f15977a6e68b37febdb92b76597cc4d41561222c752858685ae44cfa8",
+          "extractedFunctions": [
+            "optionsFor",
+            "shotgunGroup",
+            "actionFor",
+            "playbackPlan",
+            "durationFor",
+            "setModelAction",
+            "evaluateModel",
+            "activeClips",
+            "setMotion",
+            "selectWeapon",
+            "setAimPitch",
+            "setPlaying"
+          ],
+          "frameBodySha256": "e8a9d4fd86c2321c929a92e52d94a1f500580f42580d1ee40fc3a713368d8077",
+          "scope": "Executes verbatim app state/mixer functions. UI labels, camera and neutral face display are stubbed; this is not a browser test."
+        }
+      ],
+      "checks": [
+        {
+          "label": "qbu85/RifleIdle/seek-0",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleIdle",
+            "playing": false,
+            "time": 0,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleIdle",
+            "playing": false,
+            "time": 0,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbu85/RifleIdle/seek-0.6",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleIdle",
+            "playing": false,
+            "time": 5.139999961853027,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleIdle",
+            "playing": false,
+            "time": 5.139999961853027,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbu85/RifleIdle/seek-0.1",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleIdle",
+            "playing": false,
+            "time": 0.856666660308838,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleIdle",
+            "playing": false,
+            "time": 0.856666660308838,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbu85/RifleIdle/seek-0.99",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleIdle",
+            "playing": false,
+            "time": 8.480999937057495,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleIdle",
+            "playing": false,
+            "time": 8.480999937057495,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbu85/RifleIdle/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleIdle",
+            "playing": false,
+            "time": 2.1416666507720947,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleIdle",
+            "playing": false,
+            "time": 2.1416666507720947,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbu85/RifleIdle/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleIdle",
+            "playing": false,
+            "time": 2.1416666507720947,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleIdle",
+            "playing": false,
+            "time": 2.1416666507720947,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbu85/RifleIdle/play-through-end",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleIdle",
+            "playing": true,
+            "time": 0.10800000000000046,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleIdle",
+            "playing": true,
+            "time": 0.10800000000000046,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbu85/RifleIdle/pause-stable",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleIdle",
+            "playing": false,
+            "time": 0.10800000000000046,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleIdle",
+            "playing": false,
+            "time": 0.10800000000000046,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbu85/FiringRifle/seek-0",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "FiringRifle",
+            "playing": false,
+            "time": 0,
+            "duration": 0.2666666805744171,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "FiringRifle",
+            "playing": false,
+            "time": 0,
+            "duration": 0.2666666805744171,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbu85/FiringRifle/seek-0.6",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "FiringRifle",
+            "playing": false,
+            "time": 0.16000000834465025,
+            "duration": 0.2666666805744171,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "FiringRifle",
+            "playing": false,
+            "time": 0.16000000834465025,
+            "duration": 0.2666666805744171,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbu85/FiringRifle/seek-0.1",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "FiringRifle",
+            "playing": false,
+            "time": 0.026666668057441712,
+            "duration": 0.2666666805744171,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "FiringRifle",
+            "playing": false,
+            "time": 0.026666668057441712,
+            "duration": 0.2666666805744171,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbu85/FiringRifle/seek-0.99",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "FiringRifle",
+            "playing": false,
+            "time": 0.26400001376867294,
+            "duration": 0.2666666805744171,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "FiringRifle",
+            "playing": false,
+            "time": 0.26400001376867294,
+            "duration": 0.2666666805744171,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbu85/FiringRifle/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "FiringRifle",
+            "playing": false,
+            "time": 0.06666667014360428,
+            "duration": 0.2666666805744171,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "FiringRifle",
+            "playing": false,
+            "time": 0.06666667014360428,
+            "duration": 0.2666666805744171,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbu85/FiringRifle/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "FiringRifle",
+            "playing": false,
+            "time": 0.06666667014360428,
+            "duration": 0.2666666805744171,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "FiringRifle",
+            "playing": false,
+            "time": 0.06666667014360428,
+            "duration": 0.2666666805744171,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbu85/FiringRifle/play-through-end",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "FiringRifle",
+            "playing": true,
+            "time": 0.10800000000000001,
+            "duration": 0.2666666805744171,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "FiringRifle",
+            "playing": true,
+            "time": 0.10800000000000001,
+            "duration": 0.2666666805744171,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbu85/FiringRifle/pause-stable",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "FiringRifle",
+            "playing": false,
+            "time": 0.10800000000000001,
+            "duration": 0.2666666805744171,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "FiringRifle",
+            "playing": false,
+            "time": 0.10800000000000001,
+            "duration": 0.2666666805744171,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbz95/RifleWalk/seek-0",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleWalk",
+            "playing": false,
+            "time": 0,
+            "duration": 1.2999999523162842,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleWalk",
+            "playing": false,
+            "time": 0,
+            "duration": 1.2999999523162842,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbz95/RifleWalk/seek-0.6",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleWalk",
+            "playing": false,
+            "time": 0.7799999713897705,
+            "duration": 1.2999999523162842,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleWalk",
+            "playing": false,
+            "time": 0.7799999713897705,
+            "duration": 1.2999999523162842,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbz95/RifleWalk/seek-0.1",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleWalk",
+            "playing": false,
+            "time": 0.12999999523162842,
+            "duration": 1.2999999523162842,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleWalk",
+            "playing": false,
+            "time": 0.12999999523162842,
+            "duration": 1.2999999523162842,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbz95/RifleWalk/seek-0.99",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleWalk",
+            "playing": false,
+            "time": 1.2869999527931213,
+            "duration": 1.2999999523162842,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleWalk",
+            "playing": false,
+            "time": 1.2869999527931213,
+            "duration": 1.2999999523162842,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbz95/RifleWalk/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleWalk",
+            "playing": false,
+            "time": 0.32499998807907104,
+            "duration": 1.2999999523162842,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleWalk",
+            "playing": false,
+            "time": 0.32499998807907104,
+            "duration": 1.2999999523162842,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbz95/RifleWalk/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleWalk",
+            "playing": false,
+            "time": 0.32499998807907104,
+            "duration": 1.2999999523162842,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleWalk",
+            "playing": false,
+            "time": 0.32499998807907104,
+            "duration": 1.2999999523162842,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbz95/RifleWalk/play-through-end",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleWalk",
+            "playing": true,
+            "time": 0.10800000000000001,
+            "duration": 1.2999999523162842,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleWalk",
+            "playing": true,
+            "time": 0.10800000000000001,
+            "duration": 1.2999999523162842,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbz95/RifleWalk/pause-stable",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleWalk",
+            "playing": false,
+            "time": 0.10800000000000001,
+            "duration": 1.2999999523162842,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleWalk",
+            "playing": false,
+            "time": 0.10800000000000001,
+            "duration": 1.2999999523162842,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "type97hawk/ShotgunPump/seek-0",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "ShotgunPump",
+            "playing": false,
+            "time": 0,
+            "duration": 0.7333333492279053,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "ShotgunPump",
+            "playing": false,
+            "time": 0,
+            "duration": 0.7333333492279053,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "type97hawk/ShotgunPump/seek-0.6",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "ShotgunPump",
+            "playing": false,
+            "time": 0.4400000095367432,
+            "duration": 0.7333333492279053,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "ShotgunPump",
+            "playing": false,
+            "time": 0.4400000095367432,
+            "duration": 0.7333333492279053,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "type97hawk/ShotgunPump/seek-0.1",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "ShotgunPump",
+            "playing": false,
+            "time": 0.07333333492279052,
+            "duration": 0.7333333492279053,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "ShotgunPump",
+            "playing": false,
+            "time": 0.07333333492279052,
+            "duration": 0.7333333492279053,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "type97hawk/ShotgunPump/seek-0.99",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "ShotgunPump",
+            "playing": false,
+            "time": 0.7260000157356262,
+            "duration": 0.7333333492279053,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "ShotgunPump",
+            "playing": false,
+            "time": 0.7260000157356262,
+            "duration": 0.7333333492279053,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "type97hawk/ShotgunPump/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "ShotgunPump",
+            "playing": false,
+            "time": 0.18333333730697632,
+            "duration": 0.7333333492279053,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "ShotgunPump",
+            "playing": false,
+            "time": 0.18333333730697632,
+            "duration": 0.7333333492279053,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "type97hawk/ShotgunPump/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "ShotgunPump",
+            "playing": false,
+            "time": 0.18333333730697632,
+            "duration": 0.7333333492279053,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "ShotgunPump",
+            "playing": false,
+            "time": 0.18333333730697632,
+            "duration": 0.7333333492279053,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "type97hawk/ShotgunPump/play-through-end",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "ShotgunPump",
+            "playing": false,
+            "time": 0.7333333492279053,
+            "duration": 0.7333333492279053,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "ShotgunPump",
+            "playing": false,
+            "time": 0.7333333492279053,
+            "duration": 0.7333333492279053,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "type97hawk/ShotgunPump/pause-stable",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "ShotgunPump",
+            "playing": false,
+            "time": 0.7333333492279053,
+            "duration": 0.7333333492279053,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "ShotgunPump",
+            "playing": false,
+            "time": 0.7333333492279053,
+            "duration": 0.7333333492279053,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "pf89/RifleAimingIdle/seek-0",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleAimingIdle",
+            "playing": false,
+            "time": 0,
+            "duration": 3.0999999046325684,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleAimingIdle",
+            "playing": false,
+            "time": 0,
+            "duration": 3.0999999046325684,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "pf89/RifleAimingIdle/seek-0.6",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleAimingIdle",
+            "playing": false,
+            "time": 1.8599999427795408,
+            "duration": 3.0999999046325684,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleAimingIdle",
+            "playing": false,
+            "time": 1.8599999427795408,
+            "duration": 3.0999999046325684,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "pf89/RifleAimingIdle/seek-0.1",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleAimingIdle",
+            "playing": false,
+            "time": 0.3099999904632569,
+            "duration": 3.0999999046325684,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleAimingIdle",
+            "playing": false,
+            "time": 0.3099999904632569,
+            "duration": 3.0999999046325684,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "pf89/RifleAimingIdle/seek-0.99",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleAimingIdle",
+            "playing": false,
+            "time": 3.0689999055862427,
+            "duration": 3.0999999046325684,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleAimingIdle",
+            "playing": false,
+            "time": 3.0689999055862427,
+            "duration": 3.0999999046325684,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "pf89/RifleAimingIdle/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleAimingIdle",
+            "playing": false,
+            "time": 0.7749999761581421,
+            "duration": 3.0999999046325684,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleAimingIdle",
+            "playing": false,
+            "time": 0.7749999761581421,
+            "duration": 3.0999999046325684,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "pf89/RifleAimingIdle/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleAimingIdle",
+            "playing": false,
+            "time": 0.7749999761581421,
+            "duration": 3.0999999046325684,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleAimingIdle",
+            "playing": false,
+            "time": 0.7749999761581421,
+            "duration": 3.0999999046325684,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "pf89/RifleAimingIdle/play-through-end",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleAimingIdle",
+            "playing": true,
+            "time": 0.10800000000000001,
+            "duration": 3.0999999046325684,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleAimingIdle",
+            "playing": true,
+            "time": 0.10800000000000001,
+            "duration": 3.0999999046325684,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "pf89/RifleAimingIdle/pause-stable",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleAimingIdle",
+            "playing": false,
+            "time": 0.10800000000000001,
+            "duration": 3.0999999046325684,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleAimingIdle",
+            "playing": false,
+            "time": 0.10800000000000001,
+            "duration": 3.0999999046325684,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "c96/Reloading/seek-0",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Reloading",
+            "playing": false,
+            "time": 0,
+            "duration": 3.299999952316284,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Reloading",
+            "playing": false,
+            "time": 0,
+            "duration": 3.299999952316284,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "c96/Reloading/seek-0.6",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Reloading",
+            "playing": false,
+            "time": 1.9799999713897705,
+            "duration": 3.299999952316284,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Reloading",
+            "playing": false,
+            "time": 1.9799999713897705,
+            "duration": 3.299999952316284,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "c96/Reloading/seek-0.1",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Reloading",
+            "playing": false,
+            "time": 0.32999999523162843,
+            "duration": 3.299999952316284,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Reloading",
+            "playing": false,
+            "time": 0.32999999523162843,
+            "duration": 3.299999952316284,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "c96/Reloading/seek-0.99",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Reloading",
+            "playing": false,
+            "time": 3.2669999527931215,
+            "duration": 3.299999952316284,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Reloading",
+            "playing": false,
+            "time": 3.2669999527931215,
+            "duration": 3.299999952316284,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "c96/Reloading/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Reloading",
+            "playing": false,
+            "time": 0.824999988079071,
+            "duration": 3.299999952316284,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Reloading",
+            "playing": false,
+            "time": 0.824999988079071,
+            "duration": 3.299999952316284,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "c96/Reloading/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Reloading",
+            "playing": false,
+            "time": 0.824999988079071,
+            "duration": 3.299999952316284,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Reloading",
+            "playing": false,
+            "time": 0.824999988079071,
+            "duration": 3.299999952316284,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "c96/Reloading/play-through-end",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Reloading",
+            "playing": false,
+            "time": 3.299999952316284,
+            "duration": 3.299999952316284,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Reloading",
+            "playing": false,
+            "time": 3.299999952316284,
+            "duration": 3.299999952316284,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "c96/Reloading/pause-stable",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Reloading",
+            "playing": false,
+            "time": 3.299999952316284,
+            "duration": 3.299999952316284,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Reloading",
+            "playing": false,
+            "time": 3.299999952316284,
+            "duration": 3.299999952316284,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qjz89/QJZ89Idle/seek-0",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "QJZ89Idle",
+            "playing": false,
+            "time": 0,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "QJZ89Idle",
+            "playing": false,
+            "time": 0,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qjz89/QJZ89Idle/seek-0.6",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "QJZ89Idle",
+            "playing": false,
+            "time": 5.139999961853027,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "QJZ89Idle",
+            "playing": false,
+            "time": 5.139999961853027,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qjz89/QJZ89Idle/seek-0.1",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "QJZ89Idle",
+            "playing": false,
+            "time": 0.856666660308838,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "QJZ89Idle",
+            "playing": false,
+            "time": 0.856666660308838,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qjz89/QJZ89Idle/seek-0.99",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "QJZ89Idle",
+            "playing": false,
+            "time": 8.480999937057495,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "QJZ89Idle",
+            "playing": false,
+            "time": 8.480999937057495,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qjz89/QJZ89Idle/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "QJZ89Idle",
+            "playing": false,
+            "time": 2.1416666507720947,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "QJZ89Idle",
+            "playing": false,
+            "time": 2.1416666507720947,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qjz89/QJZ89Idle/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "QJZ89Idle",
+            "playing": false,
+            "time": 2.1416666507720947,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "QJZ89Idle",
+            "playing": false,
+            "time": 2.1416666507720947,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qjz89/QJZ89Idle/play-through-end",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "QJZ89Idle",
+            "playing": true,
+            "time": 0.10800000000000046,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "QJZ89Idle",
+            "playing": true,
+            "time": 0.10800000000000046,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qjz89/QJZ89Idle/pause-stable",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "QJZ89Idle",
+            "playing": false,
+            "time": 0.10800000000000046,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "QJZ89Idle",
+            "playing": false,
+            "time": 0.10800000000000046,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "unarmed/Idle/seek-0",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Idle",
+            "playing": false,
+            "time": 0,
+            "duration": 8.333333015441895,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Idle",
+            "playing": false,
+            "time": 0,
+            "duration": 8.333333015441895,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "unarmed/Idle/seek-0.6",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Idle",
+            "playing": false,
+            "time": 4.9999998092651365,
+            "duration": 8.333333015441895,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Idle",
+            "playing": false,
+            "time": 4.9999998092651365,
+            "duration": 8.333333015441895,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "unarmed/Idle/seek-0.1",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Idle",
+            "playing": false,
+            "time": 0.8333333015441895,
+            "duration": 8.333333015441895,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Idle",
+            "playing": false,
+            "time": 0.8333333015441895,
+            "duration": 8.333333015441895,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "unarmed/Idle/seek-0.99",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Idle",
+            "playing": false,
+            "time": 8.249999685287476,
+            "duration": 8.333333015441895,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Idle",
+            "playing": false,
+            "time": 8.249999685287476,
+            "duration": 8.333333015441895,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "unarmed/Idle/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Idle",
+            "playing": false,
+            "time": 2.0833332538604736,
+            "duration": 8.333333015441895,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Idle",
+            "playing": false,
+            "time": 2.0833332538604736,
+            "duration": 8.333333015441895,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "unarmed/Idle/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Idle",
+            "playing": false,
+            "time": 2.0833332538604736,
+            "duration": 8.333333015441895,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Idle",
+            "playing": false,
+            "time": 2.0833332538604736,
+            "duration": 8.333333015441895,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "unarmed/Idle/play-through-end",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Idle",
+            "playing": true,
+            "time": 0.10800000000000046,
+            "duration": 8.333333015441895,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Idle",
+            "playing": true,
+            "time": 0.10800000000000046,
+            "duration": 8.333333015441895,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "unarmed/Idle/pause-stable",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Idle",
+            "playing": false,
+            "time": 0.10800000000000046,
+            "duration": 8.333333015441895,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Idle",
+            "playing": false,
+            "time": 0.10800000000000046,
+            "duration": 8.333333015441895,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "unarmed/Run/seek-0",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Run",
+            "playing": false,
+            "time": 0,
+            "duration": 0.6666666865348816,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Run",
+            "playing": false,
+            "time": 0,
+            "duration": 0.6666666865348816,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "unarmed/Run/seek-0.6",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Run",
+            "playing": false,
+            "time": 0.40000001192092893,
+            "duration": 0.6666666865348816,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Run",
+            "playing": false,
+            "time": 0.40000001192092893,
+            "duration": 0.6666666865348816,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "unarmed/Run/seek-0.1",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Run",
+            "playing": false,
+            "time": 0.06666666865348816,
+            "duration": 0.6666666865348816,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Run",
+            "playing": false,
+            "time": 0.06666666865348816,
+            "duration": 0.6666666865348816,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "unarmed/Run/seek-0.99",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Run",
+            "playing": false,
+            "time": 0.6600000196695328,
+            "duration": 0.6666666865348816,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Run",
+            "playing": false,
+            "time": 0.6600000196695328,
+            "duration": 0.6666666865348816,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "unarmed/Run/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Run",
+            "playing": false,
+            "time": 0.1666666716337204,
+            "duration": 0.6666666865348816,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Run",
+            "playing": false,
+            "time": 0.1666666716337204,
+            "duration": 0.6666666865348816,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "unarmed/Run/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Run",
+            "playing": false,
+            "time": 0.1666666716337204,
+            "duration": 0.6666666865348816,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Run",
+            "playing": false,
+            "time": 0.1666666716337204,
+            "duration": 0.6666666865348816,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "unarmed/Run/play-through-end",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Run",
+            "playing": true,
+            "time": 0.10800000000000001,
+            "duration": 0.6666666865348816,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Run",
+            "playing": true,
+            "time": 0.10800000000000001,
+            "duration": 0.6666666865348816,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "unarmed/Run/pause-stable",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Run",
+            "playing": false,
+            "time": 0.10800000000000001,
+            "duration": 0.6666666865348816,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Run",
+            "playing": false,
+            "time": 0.10800000000000001,
+            "duration": 0.6666666865348816,
+            "aimPitch": 1
+          }
+        }
+      ]
+    },
+    "zhigeng": {
+      "sourceEvidence": [
+        {
+          "path": "/workspace/scratch/6e10d1a9da14/character_adapt_baseline/web/motion-labs/zhigeng-motion-lab/app.js",
+          "sha256": "a076bd3026ff290f164b9cc4b6b9154d90793ded65010a9bade63717b7f49c72",
+          "extractedFunctions": [
+            "optionsFor",
+            "shotgunGroup",
+            "actionFor",
+            "playbackPlan",
+            "durationFor",
+            "setModelAction",
+            "evaluateModel",
+            "activeClips",
+            "setMotion",
+            "selectWeapon",
+            "setAimPitch",
+            "setPlaying",
+            "resetPonytails"
+          ],
+          "frameBodySha256": "f265fb812ed174806a179b9fd4bd89acd2562ed6dd113e1c5df37106bec98245",
+          "scope": "Executes verbatim app state/mixer functions. UI labels, camera and neutral face display are stubbed; this is not a browser test."
+        },
+        {
+          "path": "/workspace/scratch/6e10d1a9da14/character_weapon_adapt/web/motion-labs/zhigeng-motion-lab/app.js",
+          "sha256": "452876ab35d695b29c3d14a646b013f3cbc7fd8885e461efdc51647e466a13af",
+          "extractedFunctions": [
+            "optionsFor",
+            "shotgunGroup",
+            "actionFor",
+            "playbackPlan",
+            "durationFor",
+            "setModelAction",
+            "evaluateModel",
+            "activeClips",
+            "setMotion",
+            "selectWeapon",
+            "setAimPitch",
+            "setPlaying",
+            "resetPonytails"
+          ],
+          "frameBodySha256": "f265fb812ed174806a179b9fd4bd89acd2562ed6dd113e1c5df37106bec98245",
+          "scope": "Executes verbatim app state/mixer functions. UI labels, camera and neutral face display are stubbed; this is not a browser test."
+        }
+      ],
+      "checks": [
+        {
+          "label": "qbu85/RifleIdle/seek-0",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleIdle",
+            "playing": false,
+            "time": 0,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleIdle",
+            "playing": false,
+            "time": 0,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbu85/RifleIdle/seek-0.6",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleIdle",
+            "playing": false,
+            "time": 5.139999961853027,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleIdle",
+            "playing": false,
+            "time": 5.139999961853027,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbu85/RifleIdle/seek-0.1",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleIdle",
+            "playing": false,
+            "time": 0.856666660308838,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleIdle",
+            "playing": false,
+            "time": 0.856666660308838,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbu85/RifleIdle/seek-0.99",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleIdle",
+            "playing": false,
+            "time": 8.480999937057495,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleIdle",
+            "playing": false,
+            "time": 8.480999937057495,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbu85/RifleIdle/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleIdle",
+            "playing": false,
+            "time": 2.1416666507720947,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleIdle",
+            "playing": false,
+            "time": 2.1416666507720947,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbu85/RifleIdle/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleIdle",
+            "playing": false,
+            "time": 2.1416666507720947,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleIdle",
+            "playing": false,
+            "time": 2.1416666507720947,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbu85/RifleIdle/play-through-end",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleIdle",
+            "playing": true,
+            "time": 0.10800000000000046,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleIdle",
+            "playing": true,
+            "time": 0.10800000000000046,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbu85/RifleIdle/pause-stable",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleIdle",
+            "playing": false,
+            "time": 0.10800000000000046,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleIdle",
+            "playing": false,
+            "time": 0.10800000000000046,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbu85/FiringRifle/seek-0",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "FiringRifle",
+            "playing": false,
+            "time": 0,
+            "duration": 0.2666666805744171,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "FiringRifle",
+            "playing": false,
+            "time": 0,
+            "duration": 0.2666666805744171,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbu85/FiringRifle/seek-0.6",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "FiringRifle",
+            "playing": false,
+            "time": 0.16000000834465025,
+            "duration": 0.2666666805744171,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "FiringRifle",
+            "playing": false,
+            "time": 0.16000000834465025,
+            "duration": 0.2666666805744171,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbu85/FiringRifle/seek-0.1",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "FiringRifle",
+            "playing": false,
+            "time": 0.026666668057441712,
+            "duration": 0.2666666805744171,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "FiringRifle",
+            "playing": false,
+            "time": 0.026666668057441712,
+            "duration": 0.2666666805744171,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbu85/FiringRifle/seek-0.99",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "FiringRifle",
+            "playing": false,
+            "time": 0.26400001376867294,
+            "duration": 0.2666666805744171,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "FiringRifle",
+            "playing": false,
+            "time": 0.26400001376867294,
+            "duration": 0.2666666805744171,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbu85/FiringRifle/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "FiringRifle",
+            "playing": false,
+            "time": 0.06666667014360428,
+            "duration": 0.2666666805744171,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "FiringRifle",
+            "playing": false,
+            "time": 0.06666667014360428,
+            "duration": 0.2666666805744171,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbu85/FiringRifle/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "FiringRifle",
+            "playing": false,
+            "time": 0.06666667014360428,
+            "duration": 0.2666666805744171,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "FiringRifle",
+            "playing": false,
+            "time": 0.06666667014360428,
+            "duration": 0.2666666805744171,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbu85/FiringRifle/play-through-end",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "FiringRifle",
+            "playing": true,
+            "time": 0.10800000000000001,
+            "duration": 0.2666666805744171,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "FiringRifle",
+            "playing": true,
+            "time": 0.10800000000000001,
+            "duration": 0.2666666805744171,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbu85/FiringRifle/pause-stable",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "FiringRifle",
+            "playing": false,
+            "time": 0.10800000000000001,
+            "duration": 0.2666666805744171,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "FiringRifle",
+            "playing": false,
+            "time": 0.10800000000000001,
+            "duration": 0.2666666805744171,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbz95/RifleWalk/seek-0",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleWalk",
+            "playing": false,
+            "time": 0,
+            "duration": 1.2999999523162842,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleWalk",
+            "playing": false,
+            "time": 0,
+            "duration": 1.2999999523162842,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbz95/RifleWalk/seek-0.6",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleWalk",
+            "playing": false,
+            "time": 0.7799999713897705,
+            "duration": 1.2999999523162842,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleWalk",
+            "playing": false,
+            "time": 0.7799999713897705,
+            "duration": 1.2999999523162842,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbz95/RifleWalk/seek-0.1",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleWalk",
+            "playing": false,
+            "time": 0.12999999523162842,
+            "duration": 1.2999999523162842,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleWalk",
+            "playing": false,
+            "time": 0.12999999523162842,
+            "duration": 1.2999999523162842,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbz95/RifleWalk/seek-0.99",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleWalk",
+            "playing": false,
+            "time": 1.2869999527931213,
+            "duration": 1.2999999523162842,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleWalk",
+            "playing": false,
+            "time": 1.2869999527931213,
+            "duration": 1.2999999523162842,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbz95/RifleWalk/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleWalk",
+            "playing": false,
+            "time": 0.32499998807907104,
+            "duration": 1.2999999523162842,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleWalk",
+            "playing": false,
+            "time": 0.32499998807907104,
+            "duration": 1.2999999523162842,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbz95/RifleWalk/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleWalk",
+            "playing": false,
+            "time": 0.32499998807907104,
+            "duration": 1.2999999523162842,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleWalk",
+            "playing": false,
+            "time": 0.32499998807907104,
+            "duration": 1.2999999523162842,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbz95/RifleWalk/play-through-end",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleWalk",
+            "playing": true,
+            "time": 0.10800000000000001,
+            "duration": 1.2999999523162842,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleWalk",
+            "playing": true,
+            "time": 0.10800000000000001,
+            "duration": 1.2999999523162842,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qbz95/RifleWalk/pause-stable",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleWalk",
+            "playing": false,
+            "time": 0.10800000000000001,
+            "duration": 1.2999999523162842,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleWalk",
+            "playing": false,
+            "time": 0.10800000000000001,
+            "duration": 1.2999999523162842,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "type97hawk/ShotgunPump/seek-0",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "ShotgunPump",
+            "playing": false,
+            "time": 0,
+            "duration": 0.7333333492279053,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "ShotgunPump",
+            "playing": false,
+            "time": 0,
+            "duration": 0.7333333492279053,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "type97hawk/ShotgunPump/seek-0.6",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "ShotgunPump",
+            "playing": false,
+            "time": 0.4400000095367432,
+            "duration": 0.7333333492279053,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "ShotgunPump",
+            "playing": false,
+            "time": 0.4400000095367432,
+            "duration": 0.7333333492279053,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "type97hawk/ShotgunPump/seek-0.1",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "ShotgunPump",
+            "playing": false,
+            "time": 0.07333333492279052,
+            "duration": 0.7333333492279053,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "ShotgunPump",
+            "playing": false,
+            "time": 0.07333333492279052,
+            "duration": 0.7333333492279053,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "type97hawk/ShotgunPump/seek-0.99",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "ShotgunPump",
+            "playing": false,
+            "time": 0.7260000157356262,
+            "duration": 0.7333333492279053,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "ShotgunPump",
+            "playing": false,
+            "time": 0.7260000157356262,
+            "duration": 0.7333333492279053,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "type97hawk/ShotgunPump/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "ShotgunPump",
+            "playing": false,
+            "time": 0.18333333730697632,
+            "duration": 0.7333333492279053,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "ShotgunPump",
+            "playing": false,
+            "time": 0.18333333730697632,
+            "duration": 0.7333333492279053,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "type97hawk/ShotgunPump/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "ShotgunPump",
+            "playing": false,
+            "time": 0.18333333730697632,
+            "duration": 0.7333333492279053,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "ShotgunPump",
+            "playing": false,
+            "time": 0.18333333730697632,
+            "duration": 0.7333333492279053,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "type97hawk/ShotgunPump/play-through-end",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "ShotgunPump",
+            "playing": false,
+            "time": 0.7333333492279053,
+            "duration": 0.7333333492279053,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "ShotgunPump",
+            "playing": false,
+            "time": 0.7333333492279053,
+            "duration": 0.7333333492279053,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "type97hawk/ShotgunPump/pause-stable",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "ShotgunPump",
+            "playing": false,
+            "time": 0.7333333492279053,
+            "duration": 0.7333333492279053,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "ShotgunPump",
+            "playing": false,
+            "time": 0.7333333492279053,
+            "duration": 0.7333333492279053,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "pf89/RifleAimingIdle/seek-0",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleAimingIdle",
+            "playing": false,
+            "time": 0,
+            "duration": 3.0999999046325684,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleAimingIdle",
+            "playing": false,
+            "time": 0,
+            "duration": 3.0999999046325684,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "pf89/RifleAimingIdle/seek-0.6",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleAimingIdle",
+            "playing": false,
+            "time": 1.8599999427795408,
+            "duration": 3.0999999046325684,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleAimingIdle",
+            "playing": false,
+            "time": 1.8599999427795408,
+            "duration": 3.0999999046325684,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "pf89/RifleAimingIdle/seek-0.1",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleAimingIdle",
+            "playing": false,
+            "time": 0.3099999904632569,
+            "duration": 3.0999999046325684,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleAimingIdle",
+            "playing": false,
+            "time": 0.3099999904632569,
+            "duration": 3.0999999046325684,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "pf89/RifleAimingIdle/seek-0.99",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleAimingIdle",
+            "playing": false,
+            "time": 3.0689999055862427,
+            "duration": 3.0999999046325684,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleAimingIdle",
+            "playing": false,
+            "time": 3.0689999055862427,
+            "duration": 3.0999999046325684,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "pf89/RifleAimingIdle/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleAimingIdle",
+            "playing": false,
+            "time": 0.7749999761581421,
+            "duration": 3.0999999046325684,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleAimingIdle",
+            "playing": false,
+            "time": 0.7749999761581421,
+            "duration": 3.0999999046325684,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "pf89/RifleAimingIdle/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleAimingIdle",
+            "playing": false,
+            "time": 0.7749999761581421,
+            "duration": 3.0999999046325684,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleAimingIdle",
+            "playing": false,
+            "time": 0.7749999761581421,
+            "duration": 3.0999999046325684,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "pf89/RifleAimingIdle/play-through-end",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleAimingIdle",
+            "playing": true,
+            "time": 0.10800000000000001,
+            "duration": 3.0999999046325684,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleAimingIdle",
+            "playing": true,
+            "time": 0.10800000000000001,
+            "duration": 3.0999999046325684,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "pf89/RifleAimingIdle/pause-stable",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "RifleAimingIdle",
+            "playing": false,
+            "time": 0.10800000000000001,
+            "duration": 3.0999999046325684,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "RifleAimingIdle",
+            "playing": false,
+            "time": 0.10800000000000001,
+            "duration": 3.0999999046325684,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "c96/Reloading/seek-0",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Reloading",
+            "playing": false,
+            "time": 0,
+            "duration": 3.299999952316284,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Reloading",
+            "playing": false,
+            "time": 0,
+            "duration": 3.299999952316284,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "c96/Reloading/seek-0.6",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Reloading",
+            "playing": false,
+            "time": 1.9799999713897705,
+            "duration": 3.299999952316284,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Reloading",
+            "playing": false,
+            "time": 1.9799999713897705,
+            "duration": 3.299999952316284,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "c96/Reloading/seek-0.1",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Reloading",
+            "playing": false,
+            "time": 0.32999999523162843,
+            "duration": 3.299999952316284,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Reloading",
+            "playing": false,
+            "time": 0.32999999523162843,
+            "duration": 3.299999952316284,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "c96/Reloading/seek-0.99",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Reloading",
+            "playing": false,
+            "time": 3.2669999527931215,
+            "duration": 3.299999952316284,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Reloading",
+            "playing": false,
+            "time": 3.2669999527931215,
+            "duration": 3.299999952316284,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "c96/Reloading/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Reloading",
+            "playing": false,
+            "time": 0.824999988079071,
+            "duration": 3.299999952316284,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Reloading",
+            "playing": false,
+            "time": 0.824999988079071,
+            "duration": 3.299999952316284,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "c96/Reloading/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Reloading",
+            "playing": false,
+            "time": 0.824999988079071,
+            "duration": 3.299999952316284,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Reloading",
+            "playing": false,
+            "time": 0.824999988079071,
+            "duration": 3.299999952316284,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "c96/Reloading/play-through-end",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Reloading",
+            "playing": false,
+            "time": 3.299999952316284,
+            "duration": 3.299999952316284,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Reloading",
+            "playing": false,
+            "time": 3.299999952316284,
+            "duration": 3.299999952316284,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "c96/Reloading/pause-stable",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Reloading",
+            "playing": false,
+            "time": 3.299999952316284,
+            "duration": 3.299999952316284,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Reloading",
+            "playing": false,
+            "time": 3.299999952316284,
+            "duration": 3.299999952316284,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qjz89/QJZ89Idle/seek-0",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "QJZ89Idle",
+            "playing": false,
+            "time": 0,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "QJZ89Idle",
+            "playing": false,
+            "time": 0,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qjz89/QJZ89Idle/seek-0.6",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "QJZ89Idle",
+            "playing": false,
+            "time": 5.139999961853027,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "QJZ89Idle",
+            "playing": false,
+            "time": 5.139999961853027,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qjz89/QJZ89Idle/seek-0.1",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "QJZ89Idle",
+            "playing": false,
+            "time": 0.856666660308838,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "QJZ89Idle",
+            "playing": false,
+            "time": 0.856666660308838,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qjz89/QJZ89Idle/seek-0.99",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "QJZ89Idle",
+            "playing": false,
+            "time": 8.480999937057495,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "QJZ89Idle",
+            "playing": false,
+            "time": 8.480999937057495,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qjz89/QJZ89Idle/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "QJZ89Idle",
+            "playing": false,
+            "time": 2.1416666507720947,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "QJZ89Idle",
+            "playing": false,
+            "time": 2.1416666507720947,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qjz89/QJZ89Idle/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "QJZ89Idle",
+            "playing": false,
+            "time": 2.1416666507720947,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "QJZ89Idle",
+            "playing": false,
+            "time": 2.1416666507720947,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qjz89/QJZ89Idle/play-through-end",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "QJZ89Idle",
+            "playing": true,
+            "time": 0.10800000000000046,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "QJZ89Idle",
+            "playing": true,
+            "time": 0.10800000000000046,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "qjz89/QJZ89Idle/pause-stable",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "QJZ89Idle",
+            "playing": false,
+            "time": 0.10800000000000046,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "QJZ89Idle",
+            "playing": false,
+            "time": 0.10800000000000046,
+            "duration": 8.566666603088379,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "unarmed/Idle/seek-0",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Idle",
+            "playing": false,
+            "time": 0,
+            "duration": 6,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Idle",
+            "playing": false,
+            "time": 0,
+            "duration": 6,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "unarmed/Idle/seek-0.6",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Idle",
+            "playing": false,
+            "time": 3.5999999999999996,
+            "duration": 6,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Idle",
+            "playing": false,
+            "time": 3.5999999999999996,
+            "duration": 6,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "unarmed/Idle/seek-0.1",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Idle",
+            "playing": false,
+            "time": 0.6000000000000001,
+            "duration": 6,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Idle",
+            "playing": false,
+            "time": 0.6000000000000001,
+            "duration": 6,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "unarmed/Idle/seek-0.99",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Idle",
+            "playing": false,
+            "time": 5.9399999999999995,
+            "duration": 6,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Idle",
+            "playing": false,
+            "time": 5.9399999999999995,
+            "duration": 6,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "unarmed/Idle/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Idle",
+            "playing": false,
+            "time": 1.5,
+            "duration": 6,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Idle",
+            "playing": false,
+            "time": 1.5,
+            "duration": 6,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "unarmed/Idle/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Idle",
+            "playing": false,
+            "time": 1.5,
+            "duration": 6,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Idle",
+            "playing": false,
+            "time": 1.5,
+            "duration": 6,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "unarmed/Idle/play-through-end",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Idle",
+            "playing": true,
+            "time": 0.10800000000000046,
+            "duration": 6,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Idle",
+            "playing": true,
+            "time": 0.10800000000000046,
+            "duration": 6,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "unarmed/Idle/pause-stable",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Idle",
+            "playing": false,
+            "time": 0.10800000000000046,
+            "duration": 6,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Idle",
+            "playing": false,
+            "time": 0.10800000000000046,
+            "duration": 6,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "unarmed/Run/seek-0",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Run",
+            "playing": false,
+            "time": 0,
+            "duration": 0.6666666865348816,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Run",
+            "playing": false,
+            "time": 0,
+            "duration": 0.6666666865348816,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "unarmed/Run/seek-0.6",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Run",
+            "playing": false,
+            "time": 0.40000001192092893,
+            "duration": 0.6666666865348816,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Run",
+            "playing": false,
+            "time": 0.40000001192092893,
+            "duration": 0.6666666865348816,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "unarmed/Run/seek-0.1",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Run",
+            "playing": false,
+            "time": 0.06666666865348816,
+            "duration": 0.6666666865348816,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Run",
+            "playing": false,
+            "time": 0.06666666865348816,
+            "duration": 0.6666666865348816,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "unarmed/Run/seek-0.99",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Run",
+            "playing": false,
+            "time": 0.6600000196695328,
+            "duration": 0.6666666865348816,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Run",
+            "playing": false,
+            "time": 0.6600000196695328,
+            "duration": 0.6666666865348816,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "unarmed/Run/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Run",
+            "playing": false,
+            "time": 0.1666666716337204,
+            "duration": 0.6666666865348816,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Run",
+            "playing": false,
+            "time": 0.1666666716337204,
+            "duration": 0.6666666865348816,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "unarmed/Run/seek-0.25",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Run",
+            "playing": false,
+            "time": 0.1666666716337204,
+            "duration": 0.6666666865348816,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Run",
+            "playing": false,
+            "time": 0.1666666716337204,
+            "duration": 0.6666666865348816,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "unarmed/Run/play-through-end",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Run",
+            "playing": true,
+            "time": 0.10800000000000001,
+            "duration": 0.6666666865348816,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Run",
+            "playing": true,
+            "time": 0.10800000000000001,
+            "duration": 0.6666666865348816,
+            "aimPitch": 1
+          }
+        },
+        {
+          "label": "unarmed/Run/pause-stable",
+          "boneComponentMaxDelta": 0,
+          "skinWeightMaxDelta": 0,
+          "skinJointMaxDelta": 0,
+          "visibleWeaponMatrixMaxDelta": 0,
+          "visibleMatch": true,
+          "chestMatch": true,
+          "hiddenM870PumpOffsetMaxM": 0,
+          "baselineState": {
+            "motion": "Run",
+            "playing": false,
+            "time": 0.10800000000000001,
+            "duration": 0.6666666865348816,
+            "aimPitch": 1
+          },
+          "candidateState": {
+            "motion": "Run",
+            "playing": false,
+            "time": 0.10800000000000001,
+            "duration": 0.6666666865348816,
+            "aimPitch": 1
+          }
+        }
+      ]
+    }
+  }
+}

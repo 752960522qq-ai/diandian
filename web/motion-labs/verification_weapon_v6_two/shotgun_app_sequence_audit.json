@@ -1,0 +1,251 @@
+{
+  "method": "Verbatim original app one-shot clock, playback plan and pose evaluation.",
+  "characters": {
+    "diandian": {
+      "sequences": [
+        {
+          "pitch": -1,
+          "results": [
+            {
+              "kind": "baseline",
+              "fireEnd": {
+                "time": 0.23333333432674408,
+                "duration": 0.23333333432674408,
+                "playing": false
+              },
+              "fireHeldAtEnd": true,
+              "fireHoldRotationDegrees": 0,
+              "fireEndToPumpStartDegrees": 0,
+              "pumpEnd": {
+                "time": 0.7333333492279053,
+                "duration": 0.7333333492279053,
+                "playing": false
+              }
+            },
+            {
+              "kind": "production",
+              "fireEnd": {
+                "time": 0.23333333432674408,
+                "duration": 0.23333333432674408,
+                "playing": false
+              },
+              "fireHeldAtEnd": true,
+              "fireHoldRotationDegrees": 0,
+              "fireEndToPumpStartDegrees": 0,
+              "pumpEnd": {
+                "time": 0.7333333492279053,
+                "duration": 0.7333333492279053,
+                "playing": false
+              }
+            }
+          ]
+        },
+        {
+          "pitch": 0,
+          "results": [
+            {
+              "kind": "baseline",
+              "fireEnd": {
+                "time": 0.23333333432674408,
+                "duration": 0.23333333432674408,
+                "playing": false
+              },
+              "fireHeldAtEnd": true,
+              "fireHoldRotationDegrees": 0,
+              "fireEndToPumpStartDegrees": 0,
+              "pumpEnd": {
+                "time": 0.7333333492279053,
+                "duration": 0.7333333492279053,
+                "playing": false
+              }
+            },
+            {
+              "kind": "production",
+              "fireEnd": {
+                "time": 0.23333333432674408,
+                "duration": 0.23333333432674408,
+                "playing": false
+              },
+              "fireHeldAtEnd": true,
+              "fireHoldRotationDegrees": 0,
+              "fireEndToPumpStartDegrees": 0,
+              "pumpEnd": {
+                "time": 0.7333333492279053,
+                "duration": 0.7333333492279053,
+                "playing": false
+              }
+            }
+          ]
+        },
+        {
+          "pitch": 1,
+          "results": [
+            {
+              "kind": "baseline",
+              "fireEnd": {
+                "time": 0.23333333432674408,
+                "duration": 0.23333333432674408,
+                "playing": false
+              },
+              "fireHeldAtEnd": true,
+              "fireHoldRotationDegrees": 0,
+              "fireEndToPumpStartDegrees": 0,
+              "pumpEnd": {
+                "time": 0.7333333492279053,
+                "duration": 0.7333333492279053,
+                "playing": false
+              }
+            },
+            {
+              "kind": "production",
+              "fireEnd": {
+                "time": 0.23333333432674408,
+                "duration": 0.23333333432674408,
+                "playing": false
+              },
+              "fireHeldAtEnd": true,
+              "fireHoldRotationDegrees": 0,
+              "fireEndToPumpStartDegrees": 0,
+              "pumpEnd": {
+                "time": 0.7333333492279053,
+                "duration": 0.7333333492279053,
+                "playing": false
+              }
+            }
+          ]
+        }
+      ],
+      "upPeak": {
+        "phase": 1,
+        "time": 0.23333333432674408,
+        "barrelPitchDegrees": 68.25807299551332,
+        "sourceBarrelPitchDegrees": 68.25807299551332,
+        "sourceRotationDeltaDegrees": 0,
+        "maxSourceRotationDeltaDegrees": 0.0000029575586669421963
+      }
+    },
+    "zhigeng": {
+      "sequences": [
+        {
+          "pitch": -1,
+          "results": [
+            {
+              "kind": "baseline",
+              "fireEnd": {
+                "time": 0.23333333432674408,
+                "duration": 0.23333333432674408,
+                "playing": false
+              },
+              "fireHeldAtEnd": true,
+              "fireHoldRotationDegrees": 0,
+              "fireEndToPumpStartDegrees": 0,
+              "pumpEnd": {
+                "time": 0.7333333492279053,
+                "duration": 0.7333333492279053,
+                "playing": false
+              }
+            },
+            {
+              "kind": "production",
+              "fireEnd": {
+                "time": 0.23333333432674408,
+                "duration": 0.23333333432674408,
+                "playing": false
+              },
+              "fireHeldAtEnd": true,
+              "fireHoldRotationDegrees": 0,
+              "fireEndToPumpStartDegrees": 0,
+              "pumpEnd": {
+                "time": 0.7333333492279053,
+                "duration": 0.7333333492279053,
+                "playing": false
+              }
+            }
+          ]
+        },
+        {
+          "pitch": 0,
+          "results": [
+            {
+              "kind": "baseline",
+              "fireEnd": {
+                "time": 0.23333333432674408,
+                "duration": 0.23333333432674408,
+                "playing": false
+              },
+              "fireHeldAtEnd": true,
+              "fireHoldRotationDegrees": 0.0000034150945850063755,
+              "fireEndToPumpStartDegrees": 0.0000034150945850063755,
+              "pumpEnd": {
+                "time": 0.7333333492279053,
+                "duration": 0.7333333492279053,
+                "playing": false
+              }
+            },
+            {
+              "kind": "production",
+              "fireEnd": {
+                "time": 0.23333333432674408,
+                "duration": 0.23333333432674408,
+                "playing": false
+              },
+              "fireHeldAtEnd": true,
+              "fireHoldRotationDegrees": 0.0000034150945850063755,
+              "fireEndToPumpStartDegrees": 0.0000034150945850063755,
+              "pumpEnd": {
+                "time": 0.7333333492279053,
+                "duration": 0.7333333492279053,
+                "playing": false
+              }
+            }
+          ]
+        },
+        {
+          "pitch": 1,
+          "results": [
+            {
+              "kind": "baseline",
+              "fireEnd": {
+                "time": 0.23333333432674408,
+                "duration": 0.23333333432674408,
+                "playing": false
+              },
+              "fireHeldAtEnd": true,
+              "fireHoldRotationDegrees": 0,
+              "fireEndToPumpStartDegrees": 0,
+              "pumpEnd": {
+                "time": 0.7333333492279053,
+                "duration": 0.7333333492279053,
+                "playing": false
+              }
+            },
+            {
+              "kind": "production",
+              "fireEnd": {
+                "time": 0.23333333432674408,
+                "duration": 0.23333333432674408,
+                "playing": false
+              },
+              "fireHeldAtEnd": true,
+              "fireHoldRotationDegrees": 0,
+              "fireEndToPumpStartDegrees": 0,
+              "pumpEnd": {
+                "time": 0.7333333492279053,
+                "duration": 0.7333333492279053,
+                "playing": false
+              }
+            }
+          ]
+        }
+      ],
+      "upPeak": {
+        "phase": 1,
+        "time": 0.23333333432674408,
+        "barrelPitchDegrees": 68.25809216688761,
+        "sourceBarrelPitchDegrees": 68.25809216688761,
+        "sourceRotationDeltaDegrees": 0,
+        "maxSourceRotationDeltaDegrees": 0.0000029575586669421963
+      }
+    }
+  }
+}

@@ -1,0 +1,371 @@
+{
+  "status": "Approved shoulder-fix files frozen locally; overall all-motion/package acceptance pending parent. No deployment by this worker.",
+  "revision": "natural-v6-shoulderfix",
+  "frozen_at_utc": "2026-11-09T15:10:03.219423+00:00",
+  "files": {
+    "assets/characters/weapon_update_v6/linxu/equipped_motions.glb": {
+      "sha256": "9b95188cbd35082c2699e766b8b4464c813994345de25e3dd716ea40e805d5b0",
+      "bytes": 6797756
+    },
+    "assets/characters/weapon_update_v6/linxu/equipped_weapon_transforms.json": {
+      "sha256": "2f0640e17db6d889b7968c2f55d7e57aba580c9cf6190583102ffd40e4c7604f",
+      "bytes": 960861
+    },
+    "assets/characters/weapon_update_v6/linxu/motions.glb": {
+      "sha256": "9b95188cbd35082c2699e766b8b4464c813994345de25e3dd716ea40e805d5b0",
+      "bytes": 6797756
+    },
+    "assets/characters/weapon_update_v6/linxu/report.json": {
+      "sha256": "30ec4be682e2aa23945721b4df31a462ccdd4233b1d67efef1bedd480fb2668e",
+      "bytes": 7675
+    },
+    "assets/characters/weapon_update_v6/military/equipped_motions.glb": {
+      "sha256": "96ed953d3307c9d68b1288ccdac3f88b41f45a8041a7236e29021797cf7f2d34",
+      "bytes": 6739348
+    },
+    "assets/characters/weapon_update_v6/military/equipped_weapon_transforms.json": {
+      "sha256": "dffc1e5fe274b07d4bfdd58c8c179106af807cbe7b89184745a89abca3eca429",
+      "bytes": 969691
+    },
+    "assets/characters/weapon_update_v6/military/motions.glb": {
+      "sha256": "96ed953d3307c9d68b1288ccdac3f88b41f45a8041a7236e29021797cf7f2d34",
+      "bytes": 6739348
+    },
+    "assets/characters/weapon_update_v6/military/report.json": {
+      "sha256": "827899cd0fccf0687ffd8c87f5fb05012556d31a08e69587f24686c98f30bed7",
+      "bytes": 7675
+    },
+    "assets/characters/weapon_update_v6/vest/equipped_motions.glb": {
+      "sha256": "8a52c51f34f5e0eaff31588a6b2a72f8fe497c57ffb3de81b270b28499a6e9d1",
+      "bytes": 6739520
+    },
+    "assets/characters/weapon_update_v6/vest/equipped_weapon_transforms.json": {
+      "sha256": "35bb5a377c55ee9283ec84e66fb3d6aa502f8c2f8d6b552466e50681f3dd14cd",
+      "bytes": 960273
+    },
+    "assets/characters/weapon_update_v6/vest/motions.glb": {
+      "sha256": "8a52c51f34f5e0eaff31588a6b2a72f8fe497c57ffb3de81b270b28499a6e9d1",
+      "bytes": 6739520
+    },
+    "assets/characters/weapon_update_v6/vest/report.json": {
+      "sha256": "85c715b253737847ffddc4a423687aadeeab2b000b964e18a3dfba4247cba169",
+      "bytes": 7672
+    },
+    "web/motion-labs/linxu-motion-lab/README.md": {
+      "sha256": "1dfecae27289e45432779f2cbd35f378277c6fc8cb62426df11cfba84b56a404",
+      "bytes": 3974
+    },
+    "web/motion-labs/linxu-motion-lab/app.js": {
+      "sha256": "2ffe85dffd62b98e241af93cfca7b2b7c16089e897352d642e10b613abae1d30",
+      "bytes": 9820
+    },
+    "web/motion-labs/linxu-motion-lab/assets/characters/linxu/character.glb": {
+      "sha256": "71f8f6a2562397e82c6e9f102ea4f2cd358b135486a30cb63777f49914ba54c9",
+      "bytes": 16825440
+    },
+    "web/motion-labs/linxu-motion-lab/assets/characters/linxu/motions.glb": {
+      "sha256": "9a451d615d3135ecf10abc412e48494ff64541f8005a97e77e8a703afa87e103",
+      "bytes": 6542204
+    },
+    "web/motion-labs/linxu-motion-lab/assets/characters/linxu/weapon_update_v5.glb": {
+      "sha256": "24b1a539e7c24e5522f5f8f4811940d9f7d50d3593b09af7132c0722bf130dfd",
+      "bytes": 2983396
+    },
+    "web/motion-labs/linxu-motion-lab/assets/characters/linxu/weapon_update_v6.glb": {
+      "sha256": "9b95188cbd35082c2699e766b8b4464c813994345de25e3dd716ea40e805d5b0",
+      "bytes": 6797756
+    },
+    "web/motion-labs/linxu-motion-lab/assets/weapon_attachment.json": {
+      "sha256": "9aadf5d11470a8d3c76cce4aa47a3349f36f8c4fe4e2a1ea475f38e6d471f57c",
+      "bytes": 2964116
+    },
+    "web/motion-labs/linxu-motion-lab/assets/weapons/m870.glb": {
+      "sha256": "b1192f67c1bc1ca6334d5b4b281eefe234bcb222132c627580dab594e8e14795",
+      "bytes": 1874760
+    },
+    "web/motion-labs/linxu-motion-lab/assets/weapons/qbu85.glb": {
+      "sha256": "8605a2f827595a168a5cff67fdf02ea37fb6b2fed8c9ac8bd2f205031e95ada4",
+      "bytes": 3407648
+    },
+    "web/motion-labs/linxu-motion-lab/assets/weapons/qbz95.glb": {
+      "sha256": "bf7bfff81bcb5d348580d0d8f2fbec6cb4cf4586bc739d18609630f41271a4b9",
+      "bytes": 1051444
+    },
+    "web/motion-labs/linxu-motion-lab/assets/weapons/qcq171.glb": {
+      "sha256": "c29aab7c6f2d5dbe8996b4b986c4d902a97bcbfb3b512136ead2203fbdc426c2",
+      "bytes": 1315132
+    },
+    "web/motion-labs/linxu-motion-lab/assets/weapons/qsz92.glb": {
+      "sha256": "c2be7f2de027e57303d635a2e51aa0c41849878b23bd294d5ddb372389a7f30c",
+      "bytes": 1253976
+    },
+    "web/motion-labs/linxu-motion-lab/assets/weapons/type54.glb": {
+      "sha256": "25d58d368e66cbead8faf6083408c73bd93fe2bf2e23b2706d9d3c006e83e06b",
+      "bytes": 1756752
+    },
+    "web/motion-labs/linxu-motion-lab/assets/weapons/type56_1.glb": {
+      "sha256": "de85d5c568928ec684191027a8d02f5212a2d25bf6bd239a8a911887e62c5981",
+      "bytes": 1237656
+    },
+    "web/motion-labs/linxu-motion-lab/assets/weapons/type64.glb": {
+      "sha256": "ca7376e4b84e7b50df2a59743d9a3b09db37928d6c1152bddc13cac7a8f9c582",
+      "bytes": 1620472
+    },
+    "web/motion-labs/linxu-motion-lab/assets/weapons/type97hawk.glb": {
+      "sha256": "20ec4f85cc9eeb9037b552c9b4d70dbcaca82d8035056438301704b6b6cf30a5",
+      "bytes": 1642740
+    },
+    "web/motion-labs/linxu-motion-lab/c96-dynamics.js": {
+      "sha256": "010c462cc1590ad0973100e901ffebd8369ef431ef5f1d5bd07994952bcce82c",
+      "bytes": 2251
+    },
+    "web/motion-labs/linxu-motion-lab/c96-reload.js": {
+      "sha256": "559d746eef3104530a3446207e53676b10b1cf12b67a786e70aa19bbd8b6970b",
+      "bytes": 9968
+    },
+    "web/motion-labs/linxu-motion-lab/chest-skinning.js": {
+      "sha256": "c3a323f7adf6cc934cfb693639f91e799069b4723c8c100cf4a0ffbf6f09e848",
+      "bytes": 3209
+    },
+    "web/motion-labs/linxu-motion-lab/favicon.svg": {
+      "sha256": "c8f4e184580774a29609e7e7bfc72a33cdf8dd80bd815e878501471073e6bb7a",
+      "bytes": 315
+    },
+    "web/motion-labs/linxu-motion-lab/fixed-machine-gun.js": {
+      "sha256": "159b87269e2db7a2d9aba871437f69920675770d3afb1d392d2752ef0284d265",
+      "bytes": 3038
+    },
+    "web/motion-labs/linxu-motion-lab/index.html": {
+      "sha256": "0eef39027eb0018f014bd8a4ad9afe773902431724cafa03b003fa2521c38301",
+      "bytes": 3516
+    },
+    "web/motion-labs/linxu-motion-lab/natural-weapon.js": {
+      "sha256": "470e9dbda210ce8afcd813851a488aae35118015b6478e95925007e14a6c8d4f",
+      "bytes": 1578
+    },
+    "web/motion-labs/linxu-motion-lab/reference-grip.js": {
+      "sha256": "5c18de9b5f44a9db3f2d67d1e4bc5d49bf8602c1c088bf598613257a56e58aeb",
+      "bytes": 2688
+    },
+    "web/motion-labs/linxu-motion-lab/rig.js": {
+      "sha256": "3ebfd23e9c9a7c475f5af022526ed3c9551061fc4ffa3a3febc7cb94294859ec",
+      "bytes": 3388
+    },
+    "web/motion-labs/linxu-motion-lab/rocket-motion.js": {
+      "sha256": "0e414b08d8880cbad9a3a40e11257499cf652df31fc09cd96a31e0bf950e497a",
+      "bytes": 7439
+    },
+    "web/motion-labs/linxu-motion-lab/styles.css": {
+      "sha256": "cb516dc76898e88e0c6594e05804b375b3ee65fa1e220ee6e37c6bd0fbbd487b",
+      "bytes": 6753
+    },
+    "web/motion-labs/linxu-motion-lab/type97-motion.js": {
+      "sha256": "03a49ca96092f0abe3cc27f6e1e40c5d2dc0755488bbbea3fc73a4f082bbe51b",
+      "bytes": 4045
+    },
+    "web/motion-labs/linxu-motion-lab/uploaded-motion.js": {
+      "sha256": "d929186ce1a27d52d47d00cf2231b361de17d2a7424be43e94774a5a190fa654",
+      "bytes": 4861
+    },
+    "web/motion-labs/linxu-motion-lab/vendor/BufferGeometryUtils.js": {
+      "sha256": "fda7e946b8e0b5ab39b779206589e7a1079a22eb24efb89d7223e03fdfb1f751",
+      "bytes": 35539
+    },
+    "web/motion-labs/linxu-motion-lab/vendor/GLTFLoader.js": {
+      "sha256": "adbbafe8ce40416525b6be0ee5cac0d3782482bcf0122c8ca8ec1ffa77d3440b",
+      "bytes": 114732
+    },
+    "web/motion-labs/linxu-motion-lab/vendor/LICENSE.txt": {
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+      "bytes": 1081
+    },
+    "web/motion-labs/linxu-motion-lab/vendor/OrbitControls.js": {
+      "sha256": "b97879c748170baadeb3fb84cea1ffdf4674e283dc06042f34e2acb95a76042c",
+      "bytes": 38703
+    },
+    "web/motion-labs/linxu-motion-lab/vendor/three.core.js": {
+      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20",
+      "bytes": 1403455
+    },
+    "web/motion-labs/linxu-motion-lab/vendor/three.module.js": {
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a",
+      "bytes": 603113
+    },
+    "web/motion-labs/linxu-motion-lab/weapon-attachment.js": {
+      "sha256": "bb5b8c69d0976aac409918427f436d1f98a907214e6a8e68bd7ccaa270c0510e",
+      "bytes": 43482
+    },
+    "web/motion-labs/resistance-motion-lab/README.md": {
+      "sha256": "36c1bc09de467a2c8ab90598329b0bc5e85dbc954912abcf4366d7b7f915226e",
+      "bytes": 2507
+    },
+    "web/motion-labs/resistance-motion-lab/app.js": {
+      "sha256": "ec0a06e397f7dd8217a9676716ad7da230ab745d6d6a92d456534b8362c3849f",
+      "bytes": 9102
+    },
+    "web/motion-labs/resistance-motion-lab/assets/characters/military/character.glb": {
+      "sha256": "0bcced18ecd2336614ce250cc61fe2b561657f0fce1abe8debbd69287d2f1daa",
+      "bytes": 8063860
+    },
+    "web/motion-labs/resistance-motion-lab/assets/characters/military/motions.glb": {
+      "sha256": "36d2d78ce04e962598edbe235cca9af311c9ce3a067f658e3d8a71941c0de0a8",
+      "bytes": 4048288
+    },
+    "web/motion-labs/resistance-motion-lab/assets/characters/military/weapon_update_v5.glb": {
+      "sha256": "fbac9a573e2db4d3db2711971230c7eecf77dbd40be7d0461237f9cc33560a88",
+      "bytes": 2925068
+    },
+    "web/motion-labs/resistance-motion-lab/assets/characters/military/weapon_update_v6.glb": {
+      "sha256": "96ed953d3307c9d68b1288ccdac3f88b41f45a8041a7236e29021797cf7f2d34",
+      "bytes": 6739348
+    },
+    "web/motion-labs/resistance-motion-lab/assets/characters/vest/character.glb": {
+      "sha256": "7e220787746ab9c365acf98f5c4584771a5211bc4dd0c07504e3781863b5daf4",
+      "bytes": 7341804
+    },
+    "web/motion-labs/resistance-motion-lab/assets/characters/vest/motions.glb": {
+      "sha256": "48baac669b72bef51c1863fd3897ca060338621d345ecc03fdc9258679a0860d",
+      "bytes": 4048580
+    },
+    "web/motion-labs/resistance-motion-lab/assets/characters/vest/weapon_update_v5.glb": {
+      "sha256": "b8427a61916ae5dd2f47bc21f99debae1a4e74214357e557bb49b2f416b4404b",
+      "bytes": 2925132
+    },
+    "web/motion-labs/resistance-motion-lab/assets/characters/vest/weapon_update_v6.glb": {
+      "sha256": "8a52c51f34f5e0eaff31588a6b2a72f8fe497c57ffb3de81b270b28499a6e9d1",
+      "bytes": 6739520
+    },
+    "web/motion-labs/resistance-motion-lab/assets/reference_grip_samples.json": {
+      "sha256": "a4453ccc0ec35128f7118e350b3332c43ec41d8d2269c940a25f8b53d8528ae0",
+      "bytes": 1808609
+    },
+    "web/motion-labs/resistance-motion-lab/assets/weapon_attachment.json": {
+      "sha256": "8686a896715b067ece8f9b6b216190c23e156be311769e7e733cf4b2e4aeddad",
+      "bytes": 9104387
+    },
+    "web/motion-labs/resistance-motion-lab/assets/weapons/m870.glb": {
+      "sha256": "b1192f67c1bc1ca6334d5b4b281eefe234bcb222132c627580dab594e8e14795",
+      "bytes": 1874760
+    },
+    "web/motion-labs/resistance-motion-lab/assets/weapons/qbu85.glb": {
+      "sha256": "8605a2f827595a168a5cff67fdf02ea37fb6b2fed8c9ac8bd2f205031e95ada4",
+      "bytes": 3407648
+    },
+    "web/motion-labs/resistance-motion-lab/assets/weapons/qbz95.glb": {
+      "sha256": "bf7bfff81bcb5d348580d0d8f2fbec6cb4cf4586bc739d18609630f41271a4b9",
+      "bytes": 1051444
+    },
+    "web/motion-labs/resistance-motion-lab/assets/weapons/qcq171.glb": {
+      "sha256": "c29aab7c6f2d5dbe8996b4b986c4d902a97bcbfb3b512136ead2203fbdc426c2",
+      "bytes": 1315132
+    },
+    "web/motion-labs/resistance-motion-lab/assets/weapons/qsz92.glb": {
+      "sha256": "c2be7f2de027e57303d635a2e51aa0c41849878b23bd294d5ddb372389a7f30c",
+      "bytes": 1253976
+    },
+    "web/motion-labs/resistance-motion-lab/assets/weapons/type54.glb": {
+      "sha256": "25d58d368e66cbead8faf6083408c73bd93fe2bf2e23b2706d9d3c006e83e06b",
+      "bytes": 1756752
+    },
+    "web/motion-labs/resistance-motion-lab/assets/weapons/type56_1.glb": {
+      "sha256": "de85d5c568928ec684191027a8d02f5212a2d25bf6bd239a8a911887e62c5981",
+      "bytes": 1237656
+    },
+    "web/motion-labs/resistance-motion-lab/assets/weapons/type64.glb": {
+      "sha256": "ca7376e4b84e7b50df2a59743d9a3b09db37928d6c1152bddc13cac7a8f9c582",
+      "bytes": 1620472
+    },
+    "web/motion-labs/resistance-motion-lab/assets/weapons/type97hawk.glb": {
+      "sha256": "20ec4f85cc9eeb9037b552c9b4d70dbcaca82d8035056438301704b6b6cf30a5",
+      "bytes": 1642740
+    },
+    "web/motion-labs/resistance-motion-lab/c96-dynamics.js": {
+      "sha256": "010c462cc1590ad0973100e901ffebd8369ef431ef5f1d5bd07994952bcce82c",
+      "bytes": 2251
+    },
+    "web/motion-labs/resistance-motion-lab/c96-reload.js": {
+      "sha256": "559d746eef3104530a3446207e53676b10b1cf12b67a786e70aa19bbd8b6970b",
+      "bytes": 9968
+    },
+    "web/motion-labs/resistance-motion-lab/chest-skinning.js": {
+      "sha256": "c3a323f7adf6cc934cfb693639f91e799069b4723c8c100cf4a0ffbf6f09e848",
+      "bytes": 3209
+    },
+    "web/motion-labs/resistance-motion-lab/favicon.svg": {
+      "sha256": "c8f4e184580774a29609e7e7bfc72a33cdf8dd80bd815e878501471073e6bb7a",
+      "bytes": 315
+    },
+    "web/motion-labs/resistance-motion-lab/fixed-machine-gun.js": {
+      "sha256": "159b87269e2db7a2d9aba871437f69920675770d3afb1d392d2752ef0284d265",
+      "bytes": 3038
+    },
+    "web/motion-labs/resistance-motion-lab/index.html": {
+      "sha256": "1175da42eb7c781f91ea841e92a3b1b445cec71228307b12e98d4cbdeaff281e",
+      "bytes": 3527
+    },
+    "web/motion-labs/resistance-motion-lab/natural-weapon.js": {
+      "sha256": "470e9dbda210ce8afcd813851a488aae35118015b6478e95925007e14a6c8d4f",
+      "bytes": 1578
+    },
+    "web/motion-labs/resistance-motion-lab/reference-grip.js": {
+      "sha256": "5c18de9b5f44a9db3f2d67d1e4bc5d49bf8602c1c088bf598613257a56e58aeb",
+      "bytes": 2688
+    },
+    "web/motion-labs/resistance-motion-lab/rig.js": {
+      "sha256": "7a95426bcf4d910286c788a346f7c78342c889059d315d9403f0f0a93ebf256a",
+      "bytes": 2933
+    },
+    "web/motion-labs/resistance-motion-lab/rocket-motion.js": {
+      "sha256": "0e414b08d8880cbad9a3a40e11257499cf652df31fc09cd96a31e0bf950e497a",
+      "bytes": 7439
+    },
+    "web/motion-labs/resistance-motion-lab/styles.css": {
+      "sha256": "b129c9a90b650755591e29b726ac1ca1f9392788827ae33384eb7aa49afcdf0c",
+      "bytes": 5702
+    },
+    "web/motion-labs/resistance-motion-lab/type97-motion.js": {
+      "sha256": "03a49ca96092f0abe3cc27f6e1e40c5d2dc0755488bbbea3fc73a4f082bbe51b",
+      "bytes": 4045
+    },
+    "web/motion-labs/resistance-motion-lab/uploaded-motion.js": {
+      "sha256": "d929186ce1a27d52d47d00cf2231b361de17d2a7424be43e94774a5a190fa654",
+      "bytes": 4861
+    },
+    "web/motion-labs/resistance-motion-lab/vendor/BufferGeometryUtils.js": {
+      "sha256": "fda7e946b8e0b5ab39b779206589e7a1079a22eb24efb89d7223e03fdfb1f751",
+      "bytes": 35539
+    },
+    "web/motion-labs/resistance-motion-lab/vendor/GLTFLoader.js": {
+      "sha256": "adbbafe8ce40416525b6be0ee5cac0d3782482bcf0122c8ca8ec1ffa77d3440b",
+      "bytes": 114732
+    },
+    "web/motion-labs/resistance-motion-lab/vendor/LICENSE.txt": {
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+      "bytes": 1081
+    },
+    "web/motion-labs/resistance-motion-lab/vendor/OrbitControls.js": {
+      "sha256": "b97879c748170baadeb3fb84cea1ffdf4674e283dc06042f34e2acb95a76042c",
+      "bytes": 38703
+    },
+    "web/motion-labs/resistance-motion-lab/vendor/three.core.js": {
+      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20",
+      "bytes": 1403455
+    },
+    "web/motion-labs/resistance-motion-lab/vendor/three.module.js": {
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a",
+      "bytes": 603113
+    },
+    "web/motion-labs/resistance-motion-lab/weapon-attachment.js": {
+      "sha256": "c1b1d14b8baecae507fc346d6314706fb256f5159a6a9bde67c08d0c89ecf123",
+      "bytes": 41491
+    }
+  },
+  "generator_sources": {
+    "tools/weapon_v6_three/candidate.mjs": "5cfb03bab3c6b6d8bfcb54bd1ae8567e1d927cc6b16d5071a3f793c7e31fc2aa",
+    "tools/weapon_v6_three/build.mjs": "c4f1dc98714e34d1daad69e46079c8f08a199307217f720367df452cbce12d0f",
+    "tools/weapon_v6_three/reference-path.mjs": "8556469bc04045daa77a83f19fe5ac66139f392c40518ff907934e6878561b3c",
+    "tools/qa/validate_pf89.mjs": "15c205b288ae7ea916b9fb57a5d5b1511de9d58c608fb16f9ab7624f08045383"
+  },
+  "validation_summary_sha256": "7cb06f43eb201a8e54c6149d3ba620cc389d2ee1670561ddfdbacd68126d6974",
+  "generator_provenance_sha256": "2e4e95acec481614fd4d40c6d06c0909ec82482236312231a0a6cda34f30ae61"
+}

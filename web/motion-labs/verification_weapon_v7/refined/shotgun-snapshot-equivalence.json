@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "cid": "linxu",
+      "motion": "ShotgunPump",
+      "phase": 0.5,
+      "checkedBones": 312,
+      "maxLocalPositionM": 0,
+      "maxLocalAngleDeg": 0.0000029575586669421963,
+      "gunPositionDeltaM": 0,
+      "gunAngleDeltaDeg": 0,
+      "oldPoseSha256": "edcc3ce494d48ceffb1f8f8b36b221625d2b0a0a4e5a4992708f7ff8dbd126ad",
+      "currentSiteSha256": "1ea200809c4979c0bdda1b3a53bbd8067c4b846faf8911998e92de997c3074f8"
+    },
+    {
+      "cid": "linxu",
+      "motion": "ShotgunPump",
+      "phase": 1,
+      "checkedBones": 312,
+      "maxLocalPositionM": 0,
+      "maxLocalAngleDeg": 0.0000029575586669421963,
+      "gunPositionDeltaM": 0,
+      "gunAngleDeltaDeg": 0,
+      "oldPoseSha256": "5b70a4fcd4b8bf6aff8c5f6fdce7b1f881d5f1284d563c6b8eb6266b5a30674a",
+      "currentSiteSha256": "1ea200809c4979c0bdda1b3a53bbd8067c4b846faf8911998e92de997c3074f8"
+    },
+    {
+      "cid": "linxu",
+      "motion": "ShotgunAimUp",
+      "phase": 0.5,
+      "checkedBones": 312,
+      "maxLocalPositionM": 0,
+      "maxLocalAngleDeg": 0.0000034150945850063755,
+      "gunPositionDeltaM": 0,
+      "gunAngleDeltaDeg": 0,
+      "oldPoseSha256": "2e73c377833779ce1f1779758a7b1fa94f093e65722f961d2fd53e329d512c58",
+      "currentSiteSha256": "1ea200809c4979c0bdda1b3a53bbd8067c4b846faf8911998e92de997c3074f8"
+    },
+    {
+      "cid": "linxu",
+      "motion": "ShotgunAimDown",
+      "phase": 0.5,
+      "checkedBones": 312,
+      "maxLocalPositionM": 0,
+      "maxLocalAngleDeg": 0.0000034150945850063755,
+      "gunPositionDeltaM": 0,
+      "gunAngleDeltaDeg": 0,
+      "oldPoseSha256": "1180fcbe456ccf07ecfe0671fb9cfd1cae11d45dc89a3f13df3662c69ed5d9a3",
+      "currentSiteSha256": "1ea200809c4979c0bdda1b3a53bbd8067c4b846faf8911998e92de997c3074f8"
+    },
+    {
+      "cid": "military",
+      "motion": "ShotgunPump",
+      "phase": 0.5,
+      "checkedBones": 65,
+      "maxLocalPositionM": 0,
+      "maxLocalAngleDeg": 0.0000029575586669421963,
+      "gunPositionDeltaM": 0,
+      "gunAngleDeltaDeg": 0,
+      "oldPoseSha256": "b5cfa20888842cca49b6f0f17a35879608e57e44eb5895231f153f139f9dc53f",
+      "currentSiteSha256": "e733f4b485749d9d394ba1d534802910c26de3b7d4c7728f72dfc183e188a48e"
+    },
+    {
+      "cid": "military",
+      "motion": "ShotgunPump",
+      "phase": 1,
+      "checkedBones": 65,
+      "maxLocalPositionM": 0,
+      "maxLocalAngleDeg": 0.0000034150945850063755,
+      "gunPositionDeltaM": 0,
+      "gunAngleDeltaDeg": 0,
+      "oldPoseSha256": "032cc220a9e296c30007522ed18705ff83522969c092e9f739cae8caa3c79a86",
+      "currentSiteSha256": "e733f4b485749d9d394ba1d534802910c26de3b7d4c7728f72dfc183e188a48e"
+    },
+    {
+      "cid": "vest",
+      "motion": "ShotgunPump",
+      "phase": 0.5,
+      "checkedBones": 66,
+      "maxLocalPositionM": 0,
+      "maxLocalAngleDeg": 0.0000024148365394514667,
+      "gunPositionDeltaM": 0,
+      "gunAngleDeltaDeg": 0,
+      "oldPoseSha256": "33bb6925bde0f3372d94dcfe93bdedb6a1598ca4610c9e706178950f22ab25d8",
+      "currentSiteSha256": "6adfe5db50caeaaf79dd3e35ded51d78f3112bb4fadabdb1c10559f572ede71a"
+    },
+    {
+      "cid": "vest",
+      "motion": "ShotgunPump",
+      "phase": 1,
+      "checkedBones": 66,
+      "maxLocalPositionM": 0,
+      "maxLocalAngleDeg": 0.0000024148365394514667,
+      "gunPositionDeltaM": 0,
+      "gunAngleDeltaDeg": 0,
+      "oldPoseSha256": "9174e457efd26796a1840b18d6bf7f573ae4da1c5ec8a22085a3a395e94d09f0",
+      "currentSiteSha256": "6adfe5db50caeaaf79dd3e35ded51d78f3112bb4fadabdb1c10559f572ede71a"
+    }
+  ],
+  "failures": []
+}

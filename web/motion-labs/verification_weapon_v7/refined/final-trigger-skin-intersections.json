@@ -1,0 +1,596 @@
+{
+  "definition": "Actual final-runtime evaluated skin/gun surface triangle intersections; counts are not signed-volume penetration depths. Trigger nearest is a skin-vertex to actual trigger-surface distance.",
+  "poses": [
+    {
+      "name": "linxu-qsz92-PistolAimingIdle-p0-finalchain-before",
+      "gunMeshes": 33,
+      "gunTriangles": 8982,
+      "full": {
+        "skinMeshes": 1,
+        "fingerTriangles": 272,
+        "intersectingFingerTriangles": 54,
+        "surfaceIntersectionPairs": 162,
+        "gunPartPairCounts": {
+          "tripo_part_0": 104,
+          "tripo_part_4": 28,
+          "tripo_part_3": 18,
+          "tripo_part_6": 12
+        }
+      },
+      "distal": {
+        "skinMeshes": 1,
+        "fingerTriangles": 90,
+        "intersectingFingerTriangles": 5,
+        "surfaceIntersectionPairs": 10,
+        "gunPartPairCounts": {
+          "tripo_part_6": 10
+        },
+        "triggerPart": "tripo_part_6",
+        "nearestTriggerSurfaceMm": 0.003636143446783535,
+        "distalVerticesWithin2mm": 8,
+        "distalVerticesWithin5mm": 21
+      }
+    },
+    {
+      "name": "linxu-qsz92-PistolAimingIdle-p0-finalchain-after",
+      "gunMeshes": 33,
+      "gunTriangles": 8982,
+      "full": {
+        "skinMeshes": 1,
+        "fingerTriangles": 272,
+        "intersectingFingerTriangles": 39,
+        "surfaceIntersectionPairs": 111,
+        "gunPartPairCounts": {
+          "tripo_part_6": 59,
+          "tripo_part_0": 18,
+          "tripo_part_3": 18,
+          "tripo_part_4": 16
+        }
+      },
+      "distal": {
+        "skinMeshes": 1,
+        "fingerTriangles": 90,
+        "intersectingFingerTriangles": 22,
+        "surfaceIntersectionPairs": 59,
+        "gunPartPairCounts": {
+          "tripo_part_6": 59
+        },
+        "triggerPart": "tripo_part_6",
+        "nearestTriggerSurfaceMm": 0.20779724582098424,
+        "distalVerticesWithin2mm": 20,
+        "distalVerticesWithin5mm": 49
+      }
+    },
+    {
+      "name": "linxu-type54-PistolAimingIdle-p0-finalchain-before",
+      "gunMeshes": 28,
+      "gunTriangles": 9628,
+      "full": {
+        "skinMeshes": 1,
+        "fingerTriangles": 272,
+        "intersectingFingerTriangles": 84,
+        "surfaceIntersectionPairs": 403,
+        "gunPartPairCounts": {
+          "frame_source_00": 229,
+          "frame_source_09": 119,
+          "frame_source_02": 55
+        }
+      },
+      "distal": {
+        "skinMeshes": 1,
+        "fingerTriangles": 90,
+        "intersectingFingerTriangles": 28,
+        "surfaceIntersectionPairs": 66,
+        "gunPartPairCounts": {
+          "frame_source_09": 62,
+          "frame_source_02": 4
+        },
+        "triggerPart": "frame_source_09",
+        "nearestTriggerSurfaceMm": 0.18279881624039263,
+        "distalVerticesWithin2mm": 21,
+        "distalVerticesWithin5mm": 51
+      }
+    },
+    {
+      "name": "linxu-type54-PistolAimingIdle-p0-finalchain-after",
+      "gunMeshes": 28,
+      "gunTriangles": 9628,
+      "full": {
+        "skinMeshes": 1,
+        "fingerTriangles": 272,
+        "intersectingFingerTriangles": 30,
+        "surfaceIntersectionPairs": 157,
+        "gunPartPairCounts": {
+          "frame_source_00": 92,
+          "frame_source_09": 41,
+          "Magazine_closed_visual_proxy": 14,
+          "frame_source_02": 10
+        }
+      },
+      "distal": {
+        "skinMeshes": 1,
+        "fingerTriangles": 90,
+        "intersectingFingerTriangles": 14,
+        "surfaceIntersectionPairs": 41,
+        "gunPartPairCounts": {
+          "frame_source_09": 41
+        },
+        "triggerPart": "frame_source_09",
+        "nearestTriggerSurfaceMm": 0.10219100659014657,
+        "distalVerticesWithin2mm": 14,
+        "distalVerticesWithin5mm": 37
+      }
+    },
+    {
+      "name": "linxu-type64-PistolAimingIdle-p0-finalchain-before",
+      "gunMeshes": 65,
+      "gunTriangles": 9694,
+      "full": {
+        "skinMeshes": 1,
+        "fingerTriangles": 272,
+        "intersectingFingerTriangles": 102,
+        "surfaceIntersectionPairs": 422,
+        "gunPartPairCounts": {
+          "frame_source_02": 124,
+          "frame_source_10": 117,
+          "frame_source_03": 72,
+          "frame_source_16": 42,
+          "slide_source_01": 40,
+          "frame_source_28": 6,
+          "slide_source_07": 5,
+          "frame_source_17": 5,
+          "frame_source_01": 4,
+          "slide_source_03": 3,
+          "frame_source_07": 3,
+          "frame_source_04": 1
+        }
+      },
+      "distal": {
+        "skinMeshes": 1,
+        "fingerTriangles": 90,
+        "intersectingFingerTriangles": 32,
+        "surfaceIntersectionPairs": 74,
+        "gunPartPairCounts": {
+          "frame_source_02": 50,
+          "frame_source_16": 19,
+          "frame_source_17": 5
+        },
+        "triggerPart": "frame_source_16",
+        "nearestTriggerSurfaceMm": 0.35961749381385744,
+        "distalVerticesWithin2mm": 11,
+        "distalVerticesWithin5mm": 21
+      }
+    },
+    {
+      "name": "linxu-type64-PistolAimingIdle-p0-finalchain-after",
+      "gunMeshes": 65,
+      "gunTriangles": 9694,
+      "full": {
+        "skinMeshes": 1,
+        "fingerTriangles": 272,
+        "intersectingFingerTriangles": 28,
+        "surfaceIntersectionPairs": 148,
+        "gunPartPairCounts": {
+          "frame_source_16": 47,
+          "slide_source_01": 37,
+          "frame_source_10": 34,
+          "frame_source_03": 17,
+          "slide_source_07": 4,
+          "frame_source_44": 4,
+          "slide_source_03": 2,
+          "frame_source_07": 2,
+          "frame_source_01": 1
+        }
+      },
+      "distal": {
+        "skinMeshes": 1,
+        "fingerTriangles": 90,
+        "intersectingFingerTriangles": 17,
+        "surfaceIntersectionPairs": 47,
+        "gunPartPairCounts": {
+          "frame_source_16": 47
+        },
+        "triggerPart": "frame_source_16",
+        "nearestTriggerSurfaceMm": 0.36492678918875754,
+        "distalVerticesWithin2mm": 17,
+        "distalVerticesWithin5mm": 45
+      }
+    },
+    {
+      "name": "linxu-type64-PistolShooting-p0.5-finalchain-before",
+      "gunMeshes": 65,
+      "gunTriangles": 9694,
+      "full": {
+        "skinMeshes": 1,
+        "fingerTriangles": 272,
+        "intersectingFingerTriangles": 102,
+        "surfaceIntersectionPairs": 422,
+        "gunPartPairCounts": {
+          "frame_source_02": 124,
+          "frame_source_10": 117,
+          "frame_source_03": 72,
+          "frame_source_16": 42,
+          "slide_source_01": 40,
+          "frame_source_28": 6,
+          "slide_source_07": 5,
+          "frame_source_17": 5,
+          "frame_source_01": 4,
+          "slide_source_03": 3,
+          "frame_source_07": 3,
+          "frame_source_04": 1
+        }
+      },
+      "distal": {
+        "skinMeshes": 1,
+        "fingerTriangles": 90,
+        "intersectingFingerTriangles": 32,
+        "surfaceIntersectionPairs": 74,
+        "gunPartPairCounts": {
+          "frame_source_02": 50,
+          "frame_source_16": 19,
+          "frame_source_17": 5
+        },
+        "triggerPart": "frame_source_16",
+        "nearestTriggerSurfaceMm": 0.35954726627096534,
+        "distalVerticesWithin2mm": 11,
+        "distalVerticesWithin5mm": 21
+      }
+    },
+    {
+      "name": "linxu-type64-PistolShooting-p0.5-finalchain-after",
+      "gunMeshes": 65,
+      "gunTriangles": 9694,
+      "full": {
+        "skinMeshes": 1,
+        "fingerTriangles": 272,
+        "intersectingFingerTriangles": 28,
+        "surfaceIntersectionPairs": 148,
+        "gunPartPairCounts": {
+          "frame_source_16": 47,
+          "slide_source_01": 37,
+          "frame_source_10": 34,
+          "frame_source_03": 17,
+          "slide_source_07": 4,
+          "frame_source_44": 4,
+          "slide_source_03": 2,
+          "frame_source_07": 2,
+          "frame_source_01": 1
+        }
+      },
+      "distal": {
+        "skinMeshes": 1,
+        "fingerTriangles": 90,
+        "intersectingFingerTriangles": 17,
+        "surfaceIntersectionPairs": 47,
+        "gunPartPairCounts": {
+          "frame_source_16": 47
+        },
+        "triggerPart": "frame_source_16",
+        "nearestTriggerSurfaceMm": 0.364823907148093,
+        "distalVerticesWithin2mm": 17,
+        "distalVerticesWithin5mm": 45
+      }
+    },
+    {
+      "name": "military-qsz92-PistolAimingIdle-p0-finalchain-before",
+      "gunMeshes": 33,
+      "gunTriangles": 8982,
+      "full": {
+        "skinMeshes": 1,
+        "fingerTriangles": 636,
+        "intersectingFingerTriangles": 73,
+        "surfaceIntersectionPairs": 170,
+        "gunPartPairCounts": {
+          "tripo_part_0": 152,
+          "tripo_part_3": 18
+        }
+      },
+      "distal": {
+        "skinMeshes": 1,
+        "fingerTriangles": 168,
+        "intersectingFingerTriangles": 23,
+        "surfaceIntersectionPairs": 48,
+        "gunPartPairCounts": {
+          "tripo_part_0": 48
+        },
+        "triggerPart": "tripo_part_6",
+        "nearestTriggerSurfaceMm": 8.52266326546669,
+        "distalVerticesWithin2mm": 0,
+        "distalVerticesWithin5mm": 0
+      }
+    },
+    {
+      "name": "military-qsz92-PistolAimingIdle-p0-finalchain-after",
+      "gunMeshes": 33,
+      "gunTriangles": 8982,
+      "full": {
+        "skinMeshes": 1,
+        "fingerTriangles": 636,
+        "intersectingFingerTriangles": 26,
+        "surfaceIntersectionPairs": 68,
+        "gunPartPairCounts": {
+          "tripo_part_6": 68
+        }
+      },
+      "distal": {
+        "skinMeshes": 1,
+        "fingerTriangles": 168,
+        "intersectingFingerTriangles": 26,
+        "surfaceIntersectionPairs": 68,
+        "gunPartPairCounts": {
+          "tripo_part_6": 68
+        },
+        "triggerPart": "tripo_part_6",
+        "nearestTriggerSurfaceMm": 0.050371108955005184,
+        "distalVerticesWithin2mm": 31,
+        "distalVerticesWithin5mm": 84
+      }
+    },
+    {
+      "name": "military-type54-PistolAimingIdle-p0-finalchain-after",
+      "gunMeshes": 28,
+      "gunTriangles": 9628,
+      "full": {
+        "skinMeshes": 1,
+        "fingerTriangles": 636,
+        "intersectingFingerTriangles": 55,
+        "surfaceIntersectionPairs": 166,
+        "gunPartPairCounts": {
+          "frame_source_09": 75,
+          "frame_source_00": 74,
+          "frame_source_02": 17
+        }
+      },
+      "distal": {
+        "skinMeshes": 1,
+        "fingerTriangles": 168,
+        "intersectingFingerTriangles": 40,
+        "surfaceIntersectionPairs": 75,
+        "gunPartPairCounts": {
+          "frame_source_09": 75
+        },
+        "triggerPart": "frame_source_09",
+        "nearestTriggerSurfaceMm": 0.014523659956466872,
+        "distalVerticesWithin2mm": 51,
+        "distalVerticesWithin5mm": 106
+      }
+    },
+    {
+      "name": "military-type64-PistolAimingIdle-p0-finalchain-after",
+      "gunMeshes": 65,
+      "gunTriangles": 9694,
+      "full": {
+        "skinMeshes": 1,
+        "fingerTriangles": 636,
+        "intersectingFingerTriangles": 34,
+        "surfaceIntersectionPairs": 107,
+        "gunPartPairCounts": {
+          "frame_source_16": 64,
+          "frame_source_04": 20,
+          "slide_source_01": 11,
+          "frame_source_07": 9,
+          "slide_source_04": 2,
+          "frame_source_01": 1
+        }
+      },
+      "distal": {
+        "skinMeshes": 1,
+        "fingerTriangles": 168,
+        "intersectingFingerTriangles": 24,
+        "surfaceIntersectionPairs": 64,
+        "gunPartPairCounts": {
+          "frame_source_16": 64
+        },
+        "triggerPart": "frame_source_16",
+        "nearestTriggerSurfaceMm": 0.0055139594223874155,
+        "distalVerticesWithin2mm": 39,
+        "distalVerticesWithin5mm": 101
+      }
+    },
+    {
+      "name": "military-type64-PistolShooting-p0.5-finalchain-after",
+      "gunMeshes": 65,
+      "gunTriangles": 9694,
+      "full": {
+        "skinMeshes": 1,
+        "fingerTriangles": 636,
+        "intersectingFingerTriangles": 34,
+        "surfaceIntersectionPairs": 107,
+        "gunPartPairCounts": {
+          "frame_source_16": 64,
+          "frame_source_04": 20,
+          "slide_source_01": 11,
+          "frame_source_07": 9,
+          "slide_source_04": 2,
+          "frame_source_01": 1
+        }
+      },
+      "distal": {
+        "skinMeshes": 1,
+        "fingerTriangles": 168,
+        "intersectingFingerTriangles": 24,
+        "surfaceIntersectionPairs": 64,
+        "gunPartPairCounts": {
+          "frame_source_16": 64
+        },
+        "triggerPart": "frame_source_16",
+        "nearestTriggerSurfaceMm": 0.005888373834750382,
+        "distalVerticesWithin2mm": 39,
+        "distalVerticesWithin5mm": 101
+      }
+    },
+    {
+      "name": "vest-qsz92-PistolAimingIdle-p0-finalchain-after",
+      "gunMeshes": 33,
+      "gunTriangles": 8982,
+      "full": {
+        "skinMeshes": 1,
+        "fingerTriangles": 418,
+        "intersectingFingerTriangles": 49,
+        "surfaceIntersectionPairs": 133,
+        "gunPartPairCounts": {
+          "tripo_part_6": 59,
+          "tripo_part_4": 35,
+          "tripo_part_3": 20,
+          "tripo_part_0": 19
+        }
+      },
+      "distal": {
+        "skinMeshes": 1,
+        "fingerTriangles": 132,
+        "intersectingFingerTriangles": 23,
+        "surfaceIntersectionPairs": 59,
+        "gunPartPairCounts": {
+          "tripo_part_6": 59
+        },
+        "triggerPart": "tripo_part_6",
+        "nearestTriggerSurfaceMm": 0.6316722137853503,
+        "distalVerticesWithin2mm": 35,
+        "distalVerticesWithin5mm": 67
+      }
+    },
+    {
+      "name": "vest-type54-PistolAimingIdle-p0-finalchain-after",
+      "gunMeshes": 28,
+      "gunTriangles": 9628,
+      "full": {
+        "skinMeshes": 1,
+        "fingerTriangles": 418,
+        "intersectingFingerTriangles": 47,
+        "surfaceIntersectionPairs": 228,
+        "gunPartPairCounts": {
+          "frame_source_00": 155,
+          "frame_source_09": 39,
+          "Magazine_closed_visual_proxy": 23,
+          "frame_source_07": 6,
+          "frame_source_02": 5
+        }
+      },
+      "distal": {
+        "skinMeshes": 1,
+        "fingerTriangles": 132,
+        "intersectingFingerTriangles": 14,
+        "surfaceIntersectionPairs": 39,
+        "gunPartPairCounts": {
+          "frame_source_09": 39
+        },
+        "triggerPart": "frame_source_09",
+        "nearestTriggerSurfaceMm": 0.2794385654851794,
+        "distalVerticesWithin2mm": 22,
+        "distalVerticesWithin5mm": 48
+      }
+    },
+    {
+      "name": "vest-type64-PistolAimingIdle-p0-finalchain-before",
+      "gunMeshes": 65,
+      "gunTriangles": 9694,
+      "full": {
+        "skinMeshes": 1,
+        "fingerTriangles": 418,
+        "intersectingFingerTriangles": 111,
+        "surfaceIntersectionPairs": 377,
+        "gunPartPairCounts": {
+          "frame_source_02": 129,
+          "frame_source_03": 67,
+          "frame_source_10": 52,
+          "frame_source_16": 43,
+          "slide_source_01": 42,
+          "frame_source_04": 16,
+          "frame_source_07": 7,
+          "frame_source_15": 7,
+          "slide_source_07": 5,
+          "frame_source_01": 3,
+          "frame_source_20": 3,
+          "slide_source_03": 2,
+          "slide_source_21": 1
+        }
+      },
+      "distal": {
+        "skinMeshes": 1,
+        "fingerTriangles": 132,
+        "intersectingFingerTriangles": 39,
+        "surfaceIntersectionPairs": 87,
+        "gunPartPairCounts": {
+          "frame_source_02": 61,
+          "frame_source_16": 26
+        },
+        "triggerPart": "frame_source_16",
+        "nearestTriggerSurfaceMm": 0.2411503519397229,
+        "distalVerticesWithin2mm": 9,
+        "distalVerticesWithin5mm": 33
+      }
+    },
+    {
+      "name": "vest-type64-PistolAimingIdle-p0-finalchain-after",
+      "gunMeshes": 65,
+      "gunTriangles": 9694,
+      "full": {
+        "skinMeshes": 1,
+        "fingerTriangles": 418,
+        "intersectingFingerTriangles": 42,
+        "surfaceIntersectionPairs": 173,
+        "gunPartPairCounts": {
+          "frame_source_10": 46,
+          "frame_source_16": 41,
+          "slide_source_01": 32,
+          "frame_source_03": 19,
+          "frame_source_07": 13,
+          "frame_source_04": 6,
+          "slide_source_07": 6,
+          "frame_source_28": 5,
+          "frame_source_20": 3,
+          "slide_source_03": 2
+        }
+      },
+      "distal": {
+        "skinMeshes": 1,
+        "fingerTriangles": 132,
+        "intersectingFingerTriangles": 18,
+        "surfaceIntersectionPairs": 41,
+        "gunPartPairCounts": {
+          "frame_source_16": 41
+        },
+        "triggerPart": "frame_source_16",
+        "nearestTriggerSurfaceMm": 0.059776044508907944,
+        "distalVerticesWithin2mm": 24,
+        "distalVerticesWithin5mm": 49
+      }
+    },
+    {
+      "name": "vest-type64-PistolShooting-p0.5-finalchain-after",
+      "gunMeshes": 65,
+      "gunTriangles": 9694,
+      "full": {
+        "skinMeshes": 1,
+        "fingerTriangles": 418,
+        "intersectingFingerTriangles": 42,
+        "surfaceIntersectionPairs": 173,
+        "gunPartPairCounts": {
+          "frame_source_10": 46,
+          "frame_source_16": 41,
+          "slide_source_01": 32,
+          "frame_source_03": 19,
+          "frame_source_07": 13,
+          "frame_source_04": 6,
+          "slide_source_07": 6,
+          "frame_source_28": 5,
+          "frame_source_20": 3,
+          "slide_source_03": 2
+        }
+      },
+      "distal": {
+        "skinMeshes": 1,
+        "fingerTriangles": 132,
+        "intersectingFingerTriangles": 18,
+        "surfaceIntersectionPairs": 41,
+        "gunPartPairCounts": {
+          "frame_source_16": 41
+        },
+        "triggerPart": "frame_source_16",
+        "nearestTriggerSurfaceMm": 0.05998901906423271,
+        "distalVerticesWithin2mm": 24,
+        "distalVerticesWithin5mm": 49
+      }
+    }
+  ]
+}

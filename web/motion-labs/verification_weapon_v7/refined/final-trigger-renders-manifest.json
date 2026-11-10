@@ -1,0 +1,290 @@
+[
+  {
+    "name": "linxu-qsz92-PistolAimingIdle-p0-finalchain-before",
+    "center": [
+      0.0016334464053414655,
+      1.4104300463704555,
+      0.5238172516306729
+    ],
+    "scale": 0.19,
+    "views": [
+      "right",
+      "left",
+      "top"
+    ],
+    "source": "frozen V6 runtime",
+    "sourceGlbSha256": "9b95188cbd35082c2699e766b8b4464c813994345de25e3dd716ea40e805d5b0"
+  },
+  {
+    "name": "linxu-qsz92-PistolAimingIdle-p0-finalchain-after",
+    "center": [
+      0.0016334464053414655,
+      1.4104300463704555,
+      0.5238172516306729
+    ],
+    "scale": 0.19,
+    "views": [
+      "right",
+      "left",
+      "top"
+    ],
+    "source": "new final V7 runtime",
+    "sourceGlbSha256": "1ea200809c4979c0bdda1b3a53bbd8067c4b846faf8911998e92de997c3074f8"
+  },
+  {
+    "name": "linxu-type54-PistolAimingIdle-p0-finalchain-before",
+    "center": [
+      -0.0018962621032880614,
+      1.4089910905514804,
+      0.5148403509408123
+    ],
+    "scale": 0.19,
+    "views": [
+      "right",
+      "left",
+      "top"
+    ],
+    "source": "frozen V6 runtime",
+    "sourceGlbSha256": "9b95188cbd35082c2699e766b8b4464c813994345de25e3dd716ea40e805d5b0"
+  },
+  {
+    "name": "linxu-type54-PistolAimingIdle-p0-finalchain-after",
+    "center": [
+      -0.0018962621032880614,
+      1.4089910905514804,
+      0.5148403509408123
+    ],
+    "scale": 0.19,
+    "views": [
+      "right",
+      "left",
+      "top"
+    ],
+    "source": "new final V7 runtime",
+    "sourceGlbSha256": "1ea200809c4979c0bdda1b3a53bbd8067c4b846faf8911998e92de997c3074f8"
+  },
+  {
+    "name": "linxu-type64-PistolAimingIdle-p0-finalchain-before",
+    "center": [
+      -0.0038784323395047796,
+      1.4009601409615455,
+      0.5221148581254547
+    ],
+    "scale": 0.19,
+    "views": [
+      "right",
+      "left",
+      "top"
+    ],
+    "source": "frozen V6 runtime",
+    "sourceGlbSha256": "9b95188cbd35082c2699e766b8b4464c813994345de25e3dd716ea40e805d5b0"
+  },
+  {
+    "name": "linxu-type64-PistolAimingIdle-p0-finalchain-after",
+    "center": [
+      -0.0038784323395047796,
+      1.4009601409615455,
+      0.5221148581254547
+    ],
+    "scale": 0.19,
+    "views": [
+      "right",
+      "left",
+      "top"
+    ],
+    "source": "new final V7 runtime",
+    "sourceGlbSha256": "1ea200809c4979c0bdda1b3a53bbd8067c4b846faf8911998e92de997c3074f8"
+  },
+  {
+    "name": "linxu-type64-PistolShooting-p0.5-finalchain-before",
+    "center": [
+      -0.003223454982985003,
+      1.4043938473004534,
+      0.5214962845847817
+    ],
+    "scale": 0.19,
+    "views": [
+      "right",
+      "left",
+      "top"
+    ],
+    "source": "frozen V6 runtime",
+    "sourceGlbSha256": "9b95188cbd35082c2699e766b8b4464c813994345de25e3dd716ea40e805d5b0"
+  },
+  {
+    "name": "linxu-type64-PistolShooting-p0.5-finalchain-after",
+    "center": [
+      -0.003223454982985003,
+      1.4043938473004534,
+      0.5214962845847817
+    ],
+    "scale": 0.19,
+    "views": [
+      "right",
+      "left",
+      "top"
+    ],
+    "source": "new final V7 runtime",
+    "sourceGlbSha256": "1ea200809c4979c0bdda1b3a53bbd8067c4b846faf8911998e92de997c3074f8"
+  },
+  {
+    "name": "military-qsz92-PistolAimingIdle-p0-finalchain-before",
+    "center": [
+      -0.015680607491633282,
+      1.4376882375970315,
+      0.5940532380995396
+    ],
+    "scale": 0.19,
+    "views": [
+      "right",
+      "left",
+      "top"
+    ],
+    "source": "frozen V6 runtime",
+    "sourceGlbSha256": "96ed953d3307c9d68b1288ccdac3f88b41f45a8041a7236e29021797cf7f2d34"
+  },
+  {
+    "name": "military-qsz92-PistolAimingIdle-p0-finalchain-after",
+    "center": [
+      -0.015680607491633282,
+      1.4376882375970315,
+      0.5940532380995396
+    ],
+    "scale": 0.19,
+    "views": [
+      "right",
+      "left",
+      "top"
+    ],
+    "source": "new final V7 runtime",
+    "sourceGlbSha256": "e733f4b485749d9d394ba1d534802910c26de3b7d4c7728f72dfc183e188a48e"
+  },
+  {
+    "name": "military-type54-PistolAimingIdle-p0-finalchain-after",
+    "center": [
+      -0.019694805055233626,
+      1.436724080260991,
+      0.5851918169375503
+    ],
+    "scale": 0.19,
+    "views": [
+      "right",
+      "left",
+      "top"
+    ],
+    "source": "new final V7 runtime",
+    "sourceGlbSha256": "e733f4b485749d9d394ba1d534802910c26de3b7d4c7728f72dfc183e188a48e"
+  },
+  {
+    "name": "military-type64-PistolAimingIdle-p0-finalchain-after",
+    "center": [
+      -0.02071855296912114,
+      1.4295193820185257,
+      0.5914983034079493
+    ],
+    "scale": 0.19,
+    "views": [
+      "right",
+      "left",
+      "top"
+    ],
+    "source": "new final V7 runtime",
+    "sourceGlbSha256": "e733f4b485749d9d394ba1d534802910c26de3b7d4c7728f72dfc183e188a48e"
+  },
+  {
+    "name": "military-type64-PistolShooting-p0.5-finalchain-after",
+    "center": [
+      -0.020031111012890276,
+      1.4332206509417271,
+      0.5908651621103076
+    ],
+    "scale": 0.19,
+    "views": [
+      "right",
+      "left",
+      "top"
+    ],
+    "source": "new final V7 runtime",
+    "sourceGlbSha256": "e733f4b485749d9d394ba1d534802910c26de3b7d4c7728f72dfc183e188a48e"
+  },
+  {
+    "name": "vest-qsz92-PistolAimingIdle-p0-finalchain-after",
+    "center": [
+      -0.004504658127067487,
+      1.4463768531018477,
+      0.5848190426988216
+    ],
+    "scale": 0.19,
+    "views": [
+      "right",
+      "left",
+      "top"
+    ],
+    "source": "new final V7 runtime",
+    "sourceGlbSha256": "6adfe5db50caeaaf79dd3e35ded51d78f3112bb4fadabdb1c10559f572ede71a"
+  },
+  {
+    "name": "vest-type54-PistolAimingIdle-p0-finalchain-after",
+    "center": [
+      -0.0072106584223982015,
+      1.4445997645277313,
+      0.5758676316745379
+    ],
+    "scale": 0.19,
+    "views": [
+      "right",
+      "left",
+      "top"
+    ],
+    "source": "new final V7 runtime",
+    "sourceGlbSha256": "6adfe5db50caeaaf79dd3e35ded51d78f3112bb4fadabdb1c10559f572ede71a"
+  },
+  {
+    "name": "vest-type64-PistolAimingIdle-p0-finalchain-before",
+    "center": [
+      -0.010556260477223429,
+      1.4367475877549485,
+      0.5832765760369198
+    ],
+    "scale": 0.19,
+    "views": [
+      "right",
+      "left",
+      "top"
+    ],
+    "source": "frozen V6 runtime",
+    "sourceGlbSha256": "8a52c51f34f5e0eaff31588a6b2a72f8fe497c57ffb3de81b270b28499a6e9d1"
+  },
+  {
+    "name": "vest-type64-PistolAimingIdle-p0-finalchain-after",
+    "center": [
+      -0.010556260477223429,
+      1.4367475877549485,
+      0.5832765760369198
+    ],
+    "scale": 0.19,
+    "views": [
+      "right",
+      "left",
+      "top"
+    ],
+    "source": "new final V7 runtime",
+    "sourceGlbSha256": "6adfe5db50caeaaf79dd3e35ded51d78f3112bb4fadabdb1c10559f572ede71a"
+  },
+  {
+    "name": "vest-type64-PistolShooting-p0.5-finalchain-after",
+    "center": [
+      -0.009877529579786076,
+      1.4403549144841197,
+      0.5826436011324552
+    ],
+    "scale": 0.19,
+    "views": [
+      "right",
+      "left",
+      "top"
+    ],
+    "source": "new final V7 runtime",
+    "sourceGlbSha256": "6adfe5db50caeaaf79dd3e35ded51d78f3112bb4fadabdb1c10559f572ede71a"
+  }
+]

@@ -1,0 +1,155 @@
+{
+  "revision": "natural-v6-shoulderfix",
+  "note": "This is a change inventory, not a standalone installer. Use the full overlay or independent site snapshot. Existing comparefix and earlier snapshots remain untouched.",
+  "changed_files": [
+    {
+      "path": "assets/characters/weapon_update_v6/linxu/equipped_motions.glb",
+      "before_sha256": "158ceb2de8b7a883603696ac027ad4915dadd612d051b09bb12f34f7cc772c6b",
+      "after_sha256": "9b95188cbd35082c2699e766b8b4464c813994345de25e3dd716ea40e805d5b0",
+      "bytes": 6797756
+    },
+    {
+      "path": "assets/characters/weapon_update_v6/linxu/motions.glb",
+      "before_sha256": "158ceb2de8b7a883603696ac027ad4915dadd612d051b09bb12f34f7cc772c6b",
+      "after_sha256": "9b95188cbd35082c2699e766b8b4464c813994345de25e3dd716ea40e805d5b0",
+      "bytes": 6797756
+    },
+    {
+      "path": "assets/characters/weapon_update_v6/linxu/report.json",
+      "before_sha256": "350d17bcc82b47a5e09aa57a0de7387e9b81992d0532a26594b7e127b156a012",
+      "after_sha256": "30ec4be682e2aa23945721b4df31a462ccdd4233b1d67efef1bedd480fb2668e",
+      "bytes": 7675
+    },
+    {
+      "path": "assets/characters/weapon_update_v6/military/equipped_motions.glb",
+      "before_sha256": "d47a75ce13f46fb13da0a9f3aaf787ac7feb8df7060d23d84615c8c49befd983",
+      "after_sha256": "96ed953d3307c9d68b1288ccdac3f88b41f45a8041a7236e29021797cf7f2d34",
+      "bytes": 6739348
+    },
+    {
+      "path": "assets/characters/weapon_update_v6/military/motions.glb",
+      "before_sha256": "d47a75ce13f46fb13da0a9f3aaf787ac7feb8df7060d23d84615c8c49befd983",
+      "after_sha256": "96ed953d3307c9d68b1288ccdac3f88b41f45a8041a7236e29021797cf7f2d34",
+      "bytes": 6739348
+    },
+    {
+      "path": "assets/characters/weapon_update_v6/military/report.json",
+      "before_sha256": "88ef9aa9b319fa6c17933b82c3fa2022fa1b829276243569918e199a860e6ee6",
+      "after_sha256": "827899cd0fccf0687ffd8c87f5fb05012556d31a08e69587f24686c98f30bed7",
+      "bytes": 7675
+    },
+    {
+      "path": "assets/characters/weapon_update_v6/vest/equipped_motions.glb",
+      "before_sha256": "4562a33a69e644a3a44e12b7606409572eec6bb1575d8b5b992123655fd88962",
+      "after_sha256": "8a52c51f34f5e0eaff31588a6b2a72f8fe497c57ffb3de81b270b28499a6e9d1",
+      "bytes": 6739520
+    },
+    {
+      "path": "assets/characters/weapon_update_v6/vest/motions.glb",
+      "before_sha256": "4562a33a69e644a3a44e12b7606409572eec6bb1575d8b5b992123655fd88962",
+      "after_sha256": "8a52c51f34f5e0eaff31588a6b2a72f8fe497c57ffb3de81b270b28499a6e9d1",
+      "bytes": 6739520
+    },
+    {
+      "path": "assets/characters/weapon_update_v6/vest/report.json",
+      "before_sha256": "a234ef7ca57cd90f38ae5b9937a20432613cd8f152367c3b0111dcd98c86bf0f",
+      "after_sha256": "85c715b253737847ffddc4a423687aadeeab2b000b964e18a3dfba4247cba169",
+      "bytes": 7672
+    },
+    {
+      "path": "tools/weapon_v6_three/README.md",
+      "before_sha256": "86601a699bbea0abe17b78a8f787d487cc445bf5b1e4ecf47e31c7cf12e767ee",
+      "after_sha256": "f13b64dec474bf4571831fdfe85511e0d31f8bc0d4f4c041ca0585f586a48e72",
+      "bytes": 8387
+    },
+    {
+      "path": "tools/weapon_v6_three/build.mjs",
+      "before_sha256": "7439b016137e12fbf9bb003c7f094b0d664178ee5855b92fe256353bcccb4599",
+      "after_sha256": "c4f1dc98714e34d1daad69e46079c8f08a199307217f720367df452cbce12d0f",
+      "bytes": 6713
+    },
+    {
+      "path": "tools/weapon_v6_three/candidate.mjs",
+      "before_sha256": "a78f0e2a6701e26c391dc2cef9171aaea144f21a09152dbb511ab9d418c2571d",
+      "after_sha256": "5cfb03bab3c6b6d8bfcb54bd1ae8567e1d927cc6b16d5071a3f793c7e31fc2aa",
+      "bytes": 12582
+    },
+    {
+      "path": "web/motion-labs/linxu-motion-lab/app.js",
+      "before_sha256": "bc04d2e9d23bac28c980d3592f2a08e5a2ac282a9229915938c850c607d25b7f",
+      "after_sha256": "2ffe85dffd62b98e241af93cfca7b2b7c16089e897352d642e10b613abae1d30",
+      "bytes": 9820
+    },
+    {
+      "path": "web/motion-labs/linxu-motion-lab/assets/characters/linxu/weapon_update_v6.glb",
+      "before_sha256": "158ceb2de8b7a883603696ac027ad4915dadd612d051b09bb12f34f7cc772c6b",
+      "after_sha256": "9b95188cbd35082c2699e766b8b4464c813994345de25e3dd716ea40e805d5b0",
+      "bytes": 6797756
+    },
+    {
+      "path": "web/motion-labs/linxu-motion-lab/index.html",
+      "before_sha256": "726da9d5a18932decaa1e5d469b838b67b4e725b3f183a120f76bee12ce5ecb4",
+      "after_sha256": "0eef39027eb0018f014bd8a4ad9afe773902431724cafa03b003fa2521c38301",
+      "bytes": 3516
+    },
+    {
+      "path": "web/motion-labs/linxu-motion-lab/rig.js",
+      "before_sha256": "0e8f4755a8e294bf374bd85bbe030bebda6ebaf2129d61cbe6629d05cfec6472",
+      "after_sha256": "3ebfd23e9c9a7c475f5af022526ed3c9551061fc4ffa3a3febc7cb94294859ec",
+      "bytes": 3388
+    },
+    {
+      "path": "web/motion-labs/linxu-motion-lab/weapon-attachment.js",
+      "before_sha256": "fbb651229894dd3590ff627e773b883cb54ac7155650162e09ef766d98cf098a",
+      "after_sha256": "bb5b8c69d0976aac409918427f436d1f98a907214e6a8e68bd7ccaa270c0510e",
+      "bytes": 43482
+    },
+    {
+      "path": "web/motion-labs/resistance-motion-lab/app.js",
+      "before_sha256": "ce0529f08f96e82fece6e435ca58b828124f942bc6ff0338d3a3be85e70b23ff",
+      "after_sha256": "ec0a06e397f7dd8217a9676716ad7da230ab745d6d6a92d456534b8362c3849f",
+      "bytes": 9102
+    },
+    {
+      "path": "web/motion-labs/resistance-motion-lab/assets/characters/military/weapon_update_v6.glb",
+      "before_sha256": "d47a75ce13f46fb13da0a9f3aaf787ac7feb8df7060d23d84615c8c49befd983",
+      "after_sha256": "96ed953d3307c9d68b1288ccdac3f88b41f45a8041a7236e29021797cf7f2d34",
+      "bytes": 6739348
+    },
+    {
+      "path": "web/motion-labs/resistance-motion-lab/assets/characters/vest/weapon_update_v6.glb",
+      "before_sha256": "4562a33a69e644a3a44e12b7606409572eec6bb1575d8b5b992123655fd88962",
+      "after_sha256": "8a52c51f34f5e0eaff31588a6b2a72f8fe497c57ffb3de81b270b28499a6e9d1",
+      "bytes": 6739520
+    },
+    {
+      "path": "web/motion-labs/resistance-motion-lab/index.html",
+      "before_sha256": "4ac6e7afc4c32dcfd84083b3a78da7b27ff5f2eb43af8c83d509864cc85d0e45",
+      "after_sha256": "1175da42eb7c781f91ea841e92a3b1b445cec71228307b12e98d4cbdeaff281e",
+      "bytes": 3527
+    },
+    {
+      "path": "web/motion-labs/resistance-motion-lab/rig.js",
+      "before_sha256": "a57d5cfa8a2deb604008553ec3a34374ec0ce371ccf3354ee7474f78f19f30d7",
+      "after_sha256": "7a95426bcf4d910286c788a346f7c78342c889059d315d9403f0f0a93ebf256a",
+      "bytes": 2933
+    },
+    {
+      "path": "web/motion-labs/resistance-motion-lab/weapon-attachment.js",
+      "before_sha256": "798111c01011f9efbfdfb5c29238d4f427071a9a8a0fbc67111b2536e727dc5b",
+      "after_sha256": "c1b1d14b8baecae507fc346d6314706fb256f5159a6a9bde67c08d0c89ecf123",
+      "bytes": 41491
+    }
+  ],
+  "new_verification_and_delivery_files": [
+    "tools/weapon_v6_three/scope_shoulderfix.mjs",
+    "tools/weapon_v6_three/skin_shoulderfix.mjs",
+    "tools/weapon_v6_three/freeze_shoulderfix.py",
+    "web/motion-labs/verification_weapon_v6_three/shoulderfix-scope-validation.json",
+    "web/motion-labs/verification_weapon_v6_three/shoulderfix-production-skin-validation.json",
+    "web/motion-labs/verification_weapon_v6_three/shoulderfix-validation-summary.json",
+    "web/motion-labs/verification_weapon_v6_three/linxu_verified_candidate_shoulderfix/MANIFEST.json"
+  ],
+  "manifest_sha256": "dac9b8fd7d43432ece1838cf4672d1218972243368b2d4fb0b742e1db4cd5cac",
+  "snapshot_manifest_sha256": "e89b5a465ba28edbc86c8dfcebe00202942ca19f280c9699114a38005e93d7d9"
+}

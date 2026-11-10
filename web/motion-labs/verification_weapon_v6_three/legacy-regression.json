@@ -1,0 +1,59 @@
+{
+  "characters": {
+    "linxu": {
+      "count": 60,
+      "maxLocal": 5.960464477539063e-8,
+      "maxAuthorizedWalkLocal": 0.0005770009726150382,
+      "authorizedDifference": "Linxu Walk Hips.y terrain correction only, approved sigma=1 candidate; all other local transforms unchanged",
+      "assets": {
+        "character.glb": {
+          "baseline": "71f8f6a2562397e82c6e9f102ea4f2cd358b135486a30cb63777f49914ba54c9",
+          "current": "71f8f6a2562397e82c6e9f102ea4f2cd358b135486a30cb63777f49914ba54c9",
+          "equal": true
+        },
+        "motions.glb": {
+          "baseline": "b1e1360027fd582b1b26755f18d38399653f5e156007fdb247dd4bbacd433efe",
+          "current": "9a451d615d3135ecf10abc412e48494ff64541f8005a97e77e8a703afa87e103",
+          "equal": false
+        }
+      }
+    },
+    "military": {
+      "count": 60,
+      "maxLocal": 5.960464477539063e-8,
+      "maxAuthorizedWalkLocal": 0,
+      "authorizedDifference": "Linxu Walk Hips.y terrain correction only, approved sigma=1 candidate; all other local transforms unchanged",
+      "assets": {
+        "character.glb": {
+          "baseline": "0bcced18ecd2336614ce250cc61fe2b561657f0fce1abe8debbd69287d2f1daa",
+          "current": "0bcced18ecd2336614ce250cc61fe2b561657f0fce1abe8debbd69287d2f1daa",
+          "equal": true
+        },
+        "motions.glb": {
+          "baseline": "36d2d78ce04e962598edbe235cca9af311c9ce3a067f658e3d8a71941c0de0a8",
+          "current": "36d2d78ce04e962598edbe235cca9af311c9ce3a067f658e3d8a71941c0de0a8",
+          "equal": true
+        }
+      }
+    },
+    "vest": {
+      "count": 60,
+      "maxLocal": 6.664001874625056e-8,
+      "maxAuthorizedWalkLocal": 0,
+      "authorizedDifference": "Linxu Walk Hips.y terrain correction only, approved sigma=1 candidate; all other local transforms unchanged",
+      "assets": {
+        "character.glb": {
+          "baseline": "7e220787746ab9c365acf98f5c4584771a5211bc4dd0c07504e3781863b5daf4",
+          "current": "7e220787746ab9c365acf98f5c4584771a5211bc4dd0c07504e3781863b5daf4",
+          "equal": true
+        },
+        "motions.glb": {
+          "baseline": "48baac669b72bef51c1863fd3897ca060338621d345ecc03fdc9258679a0860d",
+          "current": "48baac669b72bef51c1863fd3897ca060338621d345ecc03fdc9258679a0860d",
+          "equal": true
+        }
+      }
+    }
+  },
+  "failures": []
+}

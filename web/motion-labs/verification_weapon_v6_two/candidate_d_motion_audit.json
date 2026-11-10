@@ -1,0 +1,195 @@
+{
+  "policy": "Compare original tracks and actual runtime pose continuity. Does not use surface collision as acceptance criteria.",
+  "characters": {
+    "diandian": {
+      "sourceClipDurations": {
+        "RifleRun": 0.6666666865348816,
+        "Reloading": 3.299999952316284
+      },
+      "originalTrackMismatches": 0,
+      "runs": [
+        {
+          "weapon": "qsz92",
+          "motion": "RifleRun",
+          "sourceClip": "RifleRun",
+          "duration": 0.6666666865348816,
+          "sampledFrames": 121,
+          "selectedWeaponStable": true,
+          "finite": true,
+          "maxUnchangedBodyDeltaM": 0,
+          "maxQSZReferenceDeltaM": 0,
+          "maxLeftWristLocalStepDegrees": 0.9015950128410203,
+          "maxRightWristLocalStepDegrees": 0.6259545617595453,
+          "repeatSwitchPositionDriftM": 0
+        },
+        {
+          "weapon": "type54",
+          "motion": "RifleRun",
+          "sourceClip": "RifleRun",
+          "duration": 0.6666666865348816,
+          "sampledFrames": 121,
+          "selectedWeaponStable": true,
+          "finite": true,
+          "maxUnchangedBodyDeltaM": 0,
+          "maxQSZReferenceDeltaM": 0,
+          "maxLeftWristLocalStepDegrees": 0.9015950128426374,
+          "maxRightWristLocalStepDegrees": 0.6259545617595453,
+          "repeatSwitchPositionDriftM": 0
+        },
+        {
+          "weapon": "type64",
+          "motion": "RifleRun",
+          "sourceClip": "RifleRun",
+          "duration": 0.6666666865348816,
+          "sampledFrames": 121,
+          "selectedWeaponStable": true,
+          "finite": true,
+          "maxUnchangedBodyDeltaM": 0,
+          "maxQSZReferenceDeltaM": 0,
+          "maxLeftWristLocalStepDegrees": 0.9015950128426374,
+          "maxRightWristLocalStepDegrees": 0.6259545617595453,
+          "repeatSwitchPositionDriftM": 0
+        }
+      ],
+      "reloads": [
+        {
+          "weapon": "qsz92",
+          "motion": "Reloading",
+          "sourceClip": "Reloading",
+          "duration": 3.299999952316284,
+          "sampledFrames": 121,
+          "selectedWeaponStable": true,
+          "finite": true,
+          "maxUnchangedBodyDeltaM": 0,
+          "maxQSZReferenceDeltaM": 0,
+          "maxLeftWristLocalStepDegrees": 22.38354177299807,
+          "maxRightWristLocalStepDegrees": 5.823979636118467,
+          "repeatSwitchPositionDriftM": 0
+        },
+        {
+          "weapon": "type54",
+          "motion": "Reloading",
+          "sourceClip": "Reloading",
+          "duration": 3.299999952316284,
+          "sampledFrames": 121,
+          "selectedWeaponStable": true,
+          "finite": true,
+          "maxUnchangedBodyDeltaM": 0,
+          "maxQSZReferenceDeltaM": 0,
+          "maxLeftWristLocalStepDegrees": 22.38354177299807,
+          "maxRightWristLocalStepDegrees": 5.823979636118467,
+          "repeatSwitchPositionDriftM": 0
+        },
+        {
+          "weapon": "type64",
+          "motion": "Reloading",
+          "sourceClip": "Reloading",
+          "duration": 3.299999952316284,
+          "sampledFrames": 121,
+          "selectedWeaponStable": true,
+          "finite": true,
+          "maxUnchangedBodyDeltaM": 0,
+          "maxQSZReferenceDeltaM": 0,
+          "maxLeftWristLocalStepDegrees": 22.38354177299807,
+          "maxRightWristLocalStepDegrees": 5.823979636118467,
+          "repeatSwitchPositionDriftM": 0
+        }
+      ]
+    },
+    "zhigeng": {
+      "sourceClipDurations": {
+        "RifleRun": 0.6666666865348816,
+        "Reloading": 3.299999952316284
+      },
+      "originalTrackMismatches": 0,
+      "runs": [
+        {
+          "weapon": "qsz92",
+          "motion": "RifleRun",
+          "sourceClip": "RifleRun",
+          "duration": 0.6666666865348816,
+          "sampledFrames": 121,
+          "selectedWeaponStable": true,
+          "finite": true,
+          "maxUnchangedBodyDeltaM": 0,
+          "maxQSZReferenceDeltaM": 0,
+          "maxLeftWristLocalStepDegrees": 0.8957023328774492,
+          "maxRightWristLocalStepDegrees": 0.6259550158710641,
+          "repeatSwitchPositionDriftM": 0
+        },
+        {
+          "weapon": "type54",
+          "motion": "RifleRun",
+          "sourceClip": "RifleRun",
+          "duration": 0.6666666865348816,
+          "sampledFrames": 121,
+          "selectedWeaponStable": true,
+          "finite": true,
+          "maxUnchangedBodyDeltaM": 0,
+          "maxQSZReferenceDeltaM": 0,
+          "maxLeftWristLocalStepDegrees": 0.8957023328790769,
+          "maxRightWristLocalStepDegrees": 0.6259550158710641,
+          "repeatSwitchPositionDriftM": 0
+        },
+        {
+          "weapon": "type64",
+          "motion": "RifleRun",
+          "sourceClip": "RifleRun",
+          "duration": 0.6666666865348816,
+          "sampledFrames": 121,
+          "selectedWeaponStable": true,
+          "finite": true,
+          "maxUnchangedBodyDeltaM": 0,
+          "maxQSZReferenceDeltaM": 0,
+          "maxLeftWristLocalStepDegrees": 0.8957023328790769,
+          "maxRightWristLocalStepDegrees": 0.6259550158710641,
+          "repeatSwitchPositionDriftM": 0
+        }
+      ],
+      "reloads": [
+        {
+          "weapon": "qsz92",
+          "motion": "Reloading",
+          "sourceClip": "Reloading",
+          "duration": 3.299999952316284,
+          "sampledFrames": 121,
+          "selectedWeaponStable": true,
+          "finite": true,
+          "maxUnchangedBodyDeltaM": 0,
+          "maxQSZReferenceDeltaM": 0,
+          "maxLeftWristLocalStepDegrees": 22.38354039021988,
+          "maxRightWristLocalStepDegrees": 5.823984631105366,
+          "repeatSwitchPositionDriftM": 0
+        },
+        {
+          "weapon": "type54",
+          "motion": "Reloading",
+          "sourceClip": "Reloading",
+          "duration": 3.299999952316284,
+          "sampledFrames": 121,
+          "selectedWeaponStable": true,
+          "finite": true,
+          "maxUnchangedBodyDeltaM": 0,
+          "maxQSZReferenceDeltaM": 0,
+          "maxLeftWristLocalStepDegrees": 22.38354039021988,
+          "maxRightWristLocalStepDegrees": 5.823984631105366,
+          "repeatSwitchPositionDriftM": 0
+        },
+        {
+          "weapon": "type64",
+          "motion": "Reloading",
+          "sourceClip": "Reloading",
+          "duration": 3.299999952316284,
+          "sampledFrames": 121,
+          "selectedWeaponStable": true,
+          "finite": true,
+          "maxUnchangedBodyDeltaM": 0,
+          "maxQSZReferenceDeltaM": 0,
+          "maxLeftWristLocalStepDegrees": 22.38354039021988,
+          "maxRightWristLocalStepDegrees": 5.823984631105366,
+          "repeatSwitchPositionDriftM": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "method": "120 Hz continuous sampling, no time remapping; reference and target sampled at identical times",
+  "characters": {
+    "linxu": [
+      {
+        "weapon": "type54",
+        "motion": "PistolIdle",
+        "duration": 0.03333333507180214,
+        "peakGunSpeedMps": 0,
+        "peakSourceGunSpeedMps": 0,
+        "peakGunAngularSpeedDegps": 0,
+        "peakSpeedChangeMps2": 0,
+        "loopPositionJumpM": 0,
+        "loopQuaternionJumpDegrees": 0
+      },
+      {
+        "weapon": "type54",
+        "motion": "PistolWalk",
+        "duration": 0.6666666865348816,
+        "peakGunSpeedMps": 0.4158069072050973,
+        "peakSourceGunSpeedMps": 0.44897693862139404,
+        "peakGunAngularSpeedDegps": 76.49965891301949,
+        "peakSpeedChangeMps2": 35.73963173683784,
+        "loopPositionJumpM": 0,
+        "loopQuaternionJumpDegrees": 0
+      },
+      {
+        "weapon": "type64",
+        "motion": "PistolIdle",
+        "duration": 0.03333333507180214,
+        "peakGunSpeedMps": 0,
+        "peakSourceGunSpeedMps": 0,
+        "peakGunAngularSpeedDegps": 0,
+        "peakSpeedChangeMps2": 0,
+        "loopPositionJumpM": 0,
+        "loopQuaternionJumpDegrees": 0
+      },
+      {
+        "weapon": "type64",
+        "motion": "PistolWalk",
+        "duration": 0.6666666865348816,
+        "peakGunSpeedMps": 0.41697947001615104,
+        "peakSourceGunSpeedMps": 0.44897693862139404,
+        "peakGunAngularSpeedDegps": 76.49965891301949,
+        "peakSpeedChangeMps2": 36.068749212260876,
+        "loopPositionJumpM": 0,
+        "loopQuaternionJumpDegrees": 0
+      },
+      {
+        "weapon": "qsz92",
+        "motion": "PistolIdle",
+        "duration": 0.03333333507180214,
+        "peakGunSpeedMps": 0,
+        "peakSourceGunSpeedMps": 0,
+        "peakGunAngularSpeedDegps": 0,
+        "peakSpeedChangeMps2": 0,
+        "loopPositionJumpM": 0,
+        "loopQuaternionJumpDegrees": 0
+      },
+      {
+        "weapon": "qsz92",
+        "motion": "PistolWalk",
+        "duration": 0.6666666865348816,
+        "peakGunSpeedMps": 0.4174607300854814,
+        "peakSourceGunSpeedMps": 0.4507184481601176,
+        "peakGunAngularSpeedDegps": 76.49965891301949,
+        "peakSpeedChangeMps2": 36.530759306851174,
+        "loopPositionJumpM": 0,
+        "loopQuaternionJumpDegrees": 0
+      },
+      {
+        "weapon": "m870",
+        "motion": "RifleIdle",
+        "duration": 7.699999809265137,
+        "peakGunSpeedMps": 0.10841734955243358,
+        "peakSourceGunSpeedMps": 0.12953095754496213,
+        "peakGunAngularSpeedDegps": 26.0340788848374,
+        "peakSpeedChangeMps2": 1.0042847485916442,
+        "loopPositionJumpM": 0.00022039952013904116,
+        "loopQuaternionJumpDegrees": 0.0218568883212639
+      },
+      {
+        "weapon": "m870",
+        "motion": "RifleWalk",
+        "duration": 1.100000023841858,
+        "peakGunSpeedMps": 0.3907733746904925,
+        "peakSourceGunSpeedMps": 0.4026501589796604,
+        "peakGunAngularSpeedDegps": 45.19459739389444,
+        "peakSpeedChangeMps2": 18.214277655994305,
+        "loopPositionJumpM": 0.000022618967714266382,
+        "loopQuaternionJumpDegrees": 0.0048351784854212074
+      },
+      {
+        "weapon": "m870",
+        "motion": "RifleRun",
+        "duration": 0.6666666865348816,
+        "peakGunSpeedMps": 1.5887030903558408,
+        "peakSourceGunSpeedMps": 1.6814469415599254,
+        "peakGunAngularSpeedDegps": 210.099641371605,
+        "peakSpeedChangeMps2": 52.30192413369956,
+        "loopPositionJumpM": 0.000039000393213036756,
+        "loopQuaternionJumpDegrees": 0.001970223977209391
+      },
+      {
+        "weapon": "m870",
+        "motion": "ShotgunPump",
+        "duration": 0.7333333492279053,
+        "peakGunSpeedMps": 1.4516054281402893,
+        "peakSourceGunSpeedMps": 1.4639642586992985,
+        "peakGunAngularSpeedDegps": 192.92967321145542,
+        "peakSpeedChangeMps2": 69.94963741170085,
+        "loopPositionJumpM": 0.1405229691993591,
+        "loopQuaternionJumpDegrees": 25.7665225965341
+      },
+      {
+        "weapon": "m870",
+        "motion": "Reloading",
+        "duration": 1.9666666984558105,
+        "peakGunSpeedMps": 3.2382575588337548,
+        "peakSourceGunSpeedMps": 3.2948915069615143,
+        "peakGunAngularSpeedDegps": 605.0524214659346,
+        "peakSpeedChangeMps2": 172.89857565141352,
+        "loopPositionJumpM": 0.0665951684467076,
+        "loopQuaternionJumpDegrees": 9.47246848193027
+      }
+    ]
+  }
+}

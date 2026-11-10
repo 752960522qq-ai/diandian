@@ -1,0 +1,516 @@
+{
+  "diandian": {
+    "maxLocalError": 1.5075591619506667e-7,
+    "rows": [
+      {
+        "clip": "qsz92_PistolIdle",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 4.2100315430795575e-8
+      },
+      {
+        "clip": "qsz92_PistolWalk",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 0.004812780728401353
+      },
+      {
+        "clip": "qsz92_RifleRun",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 0.0035120071511531045
+      },
+      {
+        "clip": "qsz92_PistolAimingIdle",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 1.364871882708595e-7
+      },
+      {
+        "clip": "qsz92_PistolShooting",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 1.055126196570202e-7
+      },
+      {
+        "clip": "qsz92_Reloading",
+        "samples": 3,
+        "maxLocalError": 1.5075591619506667e-7,
+        "midpointWorldErrorM": 7.891148075147146e-8
+      },
+      {
+        "clip": "type54_PistolIdle",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 3.257543956725673e-8
+      },
+      {
+        "clip": "type54_PistolWalk",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 0.004812780728401353
+      },
+      {
+        "clip": "type54_RifleRun",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 0.0035120071511531045
+      },
+      {
+        "clip": "type54_PistolAimingIdle",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 1.364871882708595e-7
+      },
+      {
+        "clip": "type54_PistolShooting",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 1.055126196570202e-7
+      },
+      {
+        "clip": "type54_Reloading",
+        "samples": 3,
+        "maxLocalError": 1.5075591619506667e-7,
+        "midpointWorldErrorM": 7.891148075147146e-8
+      },
+      {
+        "clip": "type64_PistolIdle",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 3.257543956725673e-8
+      },
+      {
+        "clip": "type64_PistolWalk",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 0.004812780728401353
+      },
+      {
+        "clip": "type64_RifleRun",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 0.0035120071511531045
+      },
+      {
+        "clip": "type64_PistolAimingIdle",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 1.364871882708595e-7
+      },
+      {
+        "clip": "type64_PistolShooting",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 1.055126196570202e-7
+      },
+      {
+        "clip": "type64_Reloading",
+        "samples": 3,
+        "maxLocalError": 1.5075591619506667e-7,
+        "midpointWorldErrorM": 7.891148075147146e-8
+      },
+      {
+        "clip": "m870_RifleIdle",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 1.5885743604843784e-7
+      },
+      {
+        "clip": "m870_RifleWalk",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 0.004412047545703861
+      },
+      {
+        "clip": "m870_RifleRun",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 0.0035120071511531045
+      },
+      {
+        "clip": "m870_ShotgunAimLevel",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 3.1626392252297306e-7
+      },
+      {
+        "clip": "m870_ShotgunAimUp",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 5.5754272088212617e-8
+      },
+      {
+        "clip": "m870_ShotgunAimDown",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 5.2342597098187816e-8
+      },
+      {
+        "clip": "m870_FiringRifle",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 0.001575208630461356
+      },
+      {
+        "clip": "m870_ShotgunPump",
+        "samples": 3,
+        "maxLocalError": 6.645233285862417e-8,
+        "midpointWorldErrorM": 0.0035849040507387082
+      },
+      {
+        "clip": "m870_Reloading",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 0.0027426809374389467
+      },
+      {
+        "clip": "m870_RifleAimingIdle@-1",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 5.2342597098187816e-8
+      },
+      {
+        "clip": "m870_RifleAimingIdle@-0.5",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 1.2386941916040546e-7
+      },
+      {
+        "clip": "m870_RifleAimingIdle@0",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 3.1626392252297306e-7
+      },
+      {
+        "clip": "m870_RifleAimingIdle@0.5",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 1.7791036418328314e-7
+      },
+      {
+        "clip": "m870_RifleAimingIdle@1",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 5.5754272088212617e-8
+      },
+      {
+        "clip": "m870_FiringRifle@-1",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 0.001548149717968959
+      },
+      {
+        "clip": "m870_FiringRifle@-0.5",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 0.0013044413791340622
+      },
+      {
+        "clip": "m870_FiringRifle@0",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 0.001575208630461356
+      },
+      {
+        "clip": "m870_FiringRifle@0.5",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 0.0020999660121271157
+      },
+      {
+        "clip": "m870_FiringRifle@1",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 0.0027520399006883568
+      },
+      {
+        "clip": "m870_ShotgunPump@-1",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 0.005927078503095595
+      },
+      {
+        "clip": "m870_ShotgunPump@-0.5",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 0.0037896236467284353
+      },
+      {
+        "clip": "m870_ShotgunPump@0",
+        "samples": 3,
+        "maxLocalError": 6.645233285862417e-8,
+        "midpointWorldErrorM": 0.0035849040507387082
+      },
+      {
+        "clip": "m870_ShotgunPump@0.5",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 0.003728618257468739
+      },
+      {
+        "clip": "m870_ShotgunPump@1",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 0.004137112162761413
+      }
+    ]
+  },
+  "zhigeng": {
+    "maxLocalError": 1.5145538390104463e-7,
+    "rows": [
+      {
+        "clip": "qsz92_PistolIdle",
+        "samples": 3,
+        "maxLocalError": 1.1920928955078125e-7,
+        "midpointWorldErrorM": 3.0279283555239034e-8
+      },
+      {
+        "clip": "qsz92_PistolWalk",
+        "samples": 3,
+        "maxLocalError": 1.1920928955078125e-7,
+        "midpointWorldErrorM": 0.004633289294381369
+      },
+      {
+        "clip": "qsz92_RifleRun",
+        "samples": 3,
+        "maxLocalError": 6.852213796371132e-8,
+        "midpointWorldErrorM": 0.0034614477062165894
+      },
+      {
+        "clip": "qsz92_PistolAimingIdle",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 1.8812336492849083e-7
+      },
+      {
+        "clip": "qsz92_PistolShooting",
+        "samples": 3,
+        "maxLocalError": 1.1920928955078125e-7,
+        "midpointWorldErrorM": 2.2926233877629298e-7
+      },
+      {
+        "clip": "qsz92_Reloading",
+        "samples": 3,
+        "maxLocalError": 1.5145538390104463e-7,
+        "midpointWorldErrorM": 1.9871508708114829e-7
+      },
+      {
+        "clip": "type54_PistolIdle",
+        "samples": 3,
+        "maxLocalError": 1.1920928955078125e-7,
+        "midpointWorldErrorM": 3.0279283555239034e-8
+      },
+      {
+        "clip": "type54_PistolWalk",
+        "samples": 3,
+        "maxLocalError": 1.1920928955078125e-7,
+        "midpointWorldErrorM": 0.004633289294381369
+      },
+      {
+        "clip": "type54_RifleRun",
+        "samples": 3,
+        "maxLocalError": 6.852213796371132e-8,
+        "midpointWorldErrorM": 0.0034614477062165894
+      },
+      {
+        "clip": "type54_PistolAimingIdle",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 1.8812336492849083e-7
+      },
+      {
+        "clip": "type54_PistolShooting",
+        "samples": 3,
+        "maxLocalError": 1.1920928955078125e-7,
+        "midpointWorldErrorM": 2.2926233877629298e-7
+      },
+      {
+        "clip": "type54_Reloading",
+        "samples": 3,
+        "maxLocalError": 1.5145538390104463e-7,
+        "midpointWorldErrorM": 1.9871508708114829e-7
+      },
+      {
+        "clip": "type64_PistolIdle",
+        "samples": 3,
+        "maxLocalError": 1.1920928955078125e-7,
+        "midpointWorldErrorM": 3.0279283555239034e-8
+      },
+      {
+        "clip": "type64_PistolWalk",
+        "samples": 3,
+        "maxLocalError": 1.1920928955078125e-7,
+        "midpointWorldErrorM": 0.004633289294381369
+      },
+      {
+        "clip": "type64_RifleRun",
+        "samples": 3,
+        "maxLocalError": 6.852213796371132e-8,
+        "midpointWorldErrorM": 0.0034614477062165894
+      },
+      {
+        "clip": "type64_PistolAimingIdle",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 1.8812336492849083e-7
+      },
+      {
+        "clip": "type64_PistolShooting",
+        "samples": 3,
+        "maxLocalError": 1.1920928955078125e-7,
+        "midpointWorldErrorM": 2.2926233877629298e-7
+      },
+      {
+        "clip": "type64_Reloading",
+        "samples": 3,
+        "maxLocalError": 1.5145538390104463e-7,
+        "midpointWorldErrorM": 1.9871508708114829e-7
+      },
+      {
+        "clip": "m870_RifleIdle",
+        "samples": 3,
+        "maxLocalError": 1.1920928955078125e-7,
+        "midpointWorldErrorM": 2.2045287926653872e-7
+      },
+      {
+        "clip": "m870_RifleWalk",
+        "samples": 3,
+        "maxLocalError": 1.1920928955078125e-7,
+        "midpointWorldErrorM": 0.004408664614174273
+      },
+      {
+        "clip": "m870_RifleRun",
+        "samples": 3,
+        "maxLocalError": 6.852213796371132e-8,
+        "midpointWorldErrorM": 0.0034614477062165894
+      },
+      {
+        "clip": "m870_ShotgunAimLevel",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 2.673452901710742e-7
+      },
+      {
+        "clip": "m870_ShotgunAimUp",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 4.1940691701278253e-7
+      },
+      {
+        "clip": "m870_ShotgunAimDown",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 2.4107944962300634e-7
+      },
+      {
+        "clip": "m870_FiringRifle",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 0.0014877727286722686
+      },
+      {
+        "clip": "m870_ShotgunPump",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 0.0034484430790137728
+      },
+      {
+        "clip": "m870_Reloading",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 0.002507235275657771
+      },
+      {
+        "clip": "m870_RifleAimingIdle@-1",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 2.4107944962300634e-7
+      },
+      {
+        "clip": "m870_RifleAimingIdle@-0.5",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 1.497193945889891e-7
+      },
+      {
+        "clip": "m870_RifleAimingIdle@0",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 2.673452901710742e-7
+      },
+      {
+        "clip": "m870_RifleAimingIdle@0.5",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 1.1468798181249047e-7
+      },
+      {
+        "clip": "m870_RifleAimingIdle@1",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 4.1940691701278253e-7
+      },
+      {
+        "clip": "m870_FiringRifle@-1",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 0.0015896621873571304
+      },
+      {
+        "clip": "m870_FiringRifle@-0.5",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 0.0013413006232576164
+      },
+      {
+        "clip": "m870_FiringRifle@0",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 0.0014877727286722686
+      },
+      {
+        "clip": "m870_FiringRifle@0.5",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 0.0020029571923972666
+      },
+      {
+        "clip": "m870_FiringRifle@1",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 0.0026474431950546094
+      },
+      {
+        "clip": "m870_ShotgunPump@-1",
+        "samples": 3,
+        "maxLocalError": 7.154941017439853e-8,
+        "midpointWorldErrorM": 0.005083475216834996
+      },
+      {
+        "clip": "m870_ShotgunPump@-0.5",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 0.003573387807942562
+      },
+      {
+        "clip": "m870_ShotgunPump@0",
+        "samples": 3,
+        "maxLocalError": 5.960464477539063e-8,
+        "midpointWorldErrorM": 0.0034484430790137728
+      },
+      {
+        "clip": "m870_ShotgunPump@0.5",
+        "samples": 3,
+        "maxLocalError": 5.960464499743523e-8,
+        "midpointWorldErrorM": 0.0035374157114552674
+      },
+      {
+        "clip": "m870_ShotgunPump@1",
+        "samples": 3,
+        "maxLocalError": 6.513084049863949e-8,
+        "midpointWorldErrorM": 0.0038735839124892394
+      }
+    ]
+  }
+}

@@ -1,0 +1,548 @@
+{
+  "scope": "Production bake vs immutable pre-shoulderfix bytes. Only Natural_m870_RifleRun left upper arm/forearm/hand/finger rotation samples may change, plus explicit provenance metadata and resource cache identifiers.",
+  "characters": {
+    "linxu": {
+      "production_pack_sha256": "9b95188cbd35082c2699e766b8b4464c813994345de25e3dd716ea40e805d5b0",
+      "before_pack_sha256": "158ceb2de8b7a883603696ac027ad4915dadd612d051b09bb12f34f7cc772c6b",
+      "unchanged_clips": 27,
+      "changed_clips": [
+        {
+          "clip": "Natural_m870_RifleRun",
+          "changed_channels": [
+            {
+              "bone": "mixamorig:LeftArm",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftForeArm",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHand",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandIndex1",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandMiddle1",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandPinky1",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandRing1",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandThumb1",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandIndex2",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandMiddle2",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandPinky2",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandRing2",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandThumb2",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandIndex3",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandMiddle3",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandPinky3",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandRing3",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandThumb3",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandIndex4",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandMiddle4",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandPinky4",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandRing4",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandThumb4",
+              "path": "rotation"
+            }
+          ],
+          "unchanged": false
+        }
+      ],
+      "gun_transform_json_exactly_unchanged": true,
+      "embedded_provenance": {
+        "character": "linxu",
+        "source_commit": "81d5a485",
+        "pistol_run_source": "Original RifleRun full body and timing, original QSZ92 RifleRun mount, no arm-track composition",
+        "native_motion_sha256": "9a451d615d3135ecf10abc412e48494ff64541f8005a97e77e8a703afa87e103",
+        "generator_sha256": "5cfb03bab3c6b6d8bfcb54bd1ae8567e1d927cc6b16d5071a3f793c7e31fc2aa",
+        "character_sha256": "71f8f6a2562397e82c6e9f102ea4f2cd358b135486a30cb63777f49914ba54c9",
+        "refined_geometry_sha256": {
+          "qsz92": "c2be7f2de027e57303d635a2e51aa0c41849878b23bd294d5ddb372389a7f30c",
+          "type54": "25d58d368e66cbead8faf6083408c73bd93fe2bf2e23b2706d9d3c006e83e06b",
+          "type64": "ca7376e4b84e7b50df2a59743d9a3b09db37928d6c1152bddc13cac7a8f9c582",
+          "m870": "b1192f67c1bc1ca6334d5b4b281eefe234bcb222132c627580dab594e8e14795"
+        },
+        "revision": "natural-v6-shoulderfix",
+        "builder_sha256": "c4f1dc98714e34d1daad69e46079c8f08a199307217f720367df452cbce12d0f",
+        "reference_path_sha256": "8556469bc04045daa77a83f19fe5ac66139f392c40518ff907934e6878561b3c",
+        "retarget_calibration_sha256": "780665cc8e61bb728a04cd4ae75cb46241a67ac1840f6f90171f0e109534cd7f",
+        "reference_config_sha256": "48122b7d881fdea90b8eefb29d823abc17bdd2694fe00e64e05efd5bdbf6d4f4",
+        "reference_motion_sha256": {
+          "diandian_fixed.glb": "b7f20683cd0d81356ce9d534f31c866140d67014d102c53d4711e02da1df1507",
+          "motion_additions.glb": "d1b757f4c3708d25fad9a72c129d1e0b7d4d05c6f0a34cacc1668801e8684f82",
+          "leon_pistol_animations.glb": "81b698a7a1a2ce7c4f649a79ee647cec989938c28e6017fbafd182f50a7d95e7",
+          "re4_shotgun_animations.glb": "071614e390bd7a83fe5ed9fa95fb387c726915ebd4693c6411d7cfbdade91fbf",
+          "re4_rocket_upper.glb": "f62a99d6bb0265ece0ccabbf01686546faacdd8862fd2e3c574b503504e1cd37",
+          "uploaded_motions.glb": "5687cd7e404c87f2bf4b6b430fec0beab7e112ade397fd1a31dfb2c2276a35b5"
+        },
+        "m870_run_support_policy": {
+          "left_hand_quaternion_weapon": null,
+          "support_forearm_twist_weight": 0,
+          "support_upper_arm_twist_weight": 0,
+          "scope": "M870 RifleRun only; natural left wrist and no extra axial redistribution. Left elbow/wrist paths change; gun and non-left-arm body remain unchanged."
+        }
+      }
+    },
+    "military": {
+      "production_pack_sha256": "96ed953d3307c9d68b1288ccdac3f88b41f45a8041a7236e29021797cf7f2d34",
+      "before_pack_sha256": "d47a75ce13f46fb13da0a9f3aaf787ac7feb8df7060d23d84615c8c49befd983",
+      "unchanged_clips": 27,
+      "changed_clips": [
+        {
+          "clip": "Natural_m870_RifleRun",
+          "changed_channels": [
+            {
+              "bone": "mixamorig:LeftArm",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftForeArm",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHand",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandIndex1",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandMiddle1",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandPinky1",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandRing1",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandThumb1",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandIndex2",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandMiddle2",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandPinky2",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandRing2",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandThumb2",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandIndex3",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandMiddle3",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandPinky3",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandRing3",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandThumb3",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandIndex4",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandMiddle4",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandPinky4",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandRing4",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandThumb4",
+              "path": "rotation"
+            }
+          ],
+          "unchanged": false
+        }
+      ],
+      "gun_transform_json_exactly_unchanged": true,
+      "embedded_provenance": {
+        "character": "military",
+        "source_commit": "81d5a485",
+        "pistol_run_source": "Original RifleRun full body and timing, original QSZ92 RifleRun mount, no arm-track composition",
+        "native_motion_sha256": "36d2d78ce04e962598edbe235cca9af311c9ce3a067f658e3d8a71941c0de0a8",
+        "generator_sha256": "5cfb03bab3c6b6d8bfcb54bd1ae8567e1d927cc6b16d5071a3f793c7e31fc2aa",
+        "character_sha256": "0bcced18ecd2336614ce250cc61fe2b561657f0fce1abe8debbd69287d2f1daa",
+        "refined_geometry_sha256": {
+          "qsz92": "c2be7f2de027e57303d635a2e51aa0c41849878b23bd294d5ddb372389a7f30c",
+          "type54": "25d58d368e66cbead8faf6083408c73bd93fe2bf2e23b2706d9d3c006e83e06b",
+          "type64": "ca7376e4b84e7b50df2a59743d9a3b09db37928d6c1152bddc13cac7a8f9c582",
+          "m870": "b1192f67c1bc1ca6334d5b4b281eefe234bcb222132c627580dab594e8e14795"
+        },
+        "revision": "natural-v6-shoulderfix",
+        "builder_sha256": "c4f1dc98714e34d1daad69e46079c8f08a199307217f720367df452cbce12d0f",
+        "reference_path_sha256": "8556469bc04045daa77a83f19fe5ac66139f392c40518ff907934e6878561b3c",
+        "retarget_calibration_sha256": "018d5c840f63b6bb5761bf8a2dadbc5237373321568d5712b558fe1494bd2a09",
+        "reference_config_sha256": "48122b7d881fdea90b8eefb29d823abc17bdd2694fe00e64e05efd5bdbf6d4f4",
+        "reference_motion_sha256": {
+          "diandian_fixed.glb": "b7f20683cd0d81356ce9d534f31c866140d67014d102c53d4711e02da1df1507",
+          "motion_additions.glb": "d1b757f4c3708d25fad9a72c129d1e0b7d4d05c6f0a34cacc1668801e8684f82",
+          "leon_pistol_animations.glb": "81b698a7a1a2ce7c4f649a79ee647cec989938c28e6017fbafd182f50a7d95e7",
+          "re4_shotgun_animations.glb": "071614e390bd7a83fe5ed9fa95fb387c726915ebd4693c6411d7cfbdade91fbf",
+          "re4_rocket_upper.glb": "f62a99d6bb0265ece0ccabbf01686546faacdd8862fd2e3c574b503504e1cd37",
+          "uploaded_motions.glb": "5687cd7e404c87f2bf4b6b430fec0beab7e112ade397fd1a31dfb2c2276a35b5"
+        },
+        "m870_run_support_policy": {
+          "left_hand_quaternion_weapon": null,
+          "support_forearm_twist_weight": 0,
+          "support_upper_arm_twist_weight": 0,
+          "scope": "M870 RifleRun only; natural left wrist and no extra axial redistribution. Left elbow/wrist paths change; gun and non-left-arm body remain unchanged."
+        }
+      }
+    },
+    "vest": {
+      "production_pack_sha256": "8a52c51f34f5e0eaff31588a6b2a72f8fe497c57ffb3de81b270b28499a6e9d1",
+      "before_pack_sha256": "4562a33a69e644a3a44e12b7606409572eec6bb1575d8b5b992123655fd88962",
+      "unchanged_clips": 27,
+      "changed_clips": [
+        {
+          "clip": "Natural_m870_RifleRun",
+          "changed_channels": [
+            {
+              "bone": "mixamorig:LeftArm",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftForeArm",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHand",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandIndex1",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandMiddle1",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandPinky1",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandRing1",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandThumb1",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandIndex2",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandMiddle2",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandPinky2",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandRing2",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandThumb2",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandIndex3",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandMiddle3",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandPinky3",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandRing3",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandThumb3",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandIndex4",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandMiddle4",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandPinky4",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandRing4",
+              "path": "rotation"
+            },
+            {
+              "bone": "mixamorig:LeftHandThumb4",
+              "path": "rotation"
+            }
+          ],
+          "unchanged": false
+        }
+      ],
+      "gun_transform_json_exactly_unchanged": true,
+      "embedded_provenance": {
+        "character": "vest",
+        "source_commit": "81d5a485",
+        "pistol_run_source": "Original RifleRun full body and timing, original QSZ92 RifleRun mount, no arm-track composition",
+        "native_motion_sha256": "48baac669b72bef51c1863fd3897ca060338621d345ecc03fdc9258679a0860d",
+        "generator_sha256": "5cfb03bab3c6b6d8bfcb54bd1ae8567e1d927cc6b16d5071a3f793c7e31fc2aa",
+        "character_sha256": "7e220787746ab9c365acf98f5c4584771a5211bc4dd0c07504e3781863b5daf4",
+        "refined_geometry_sha256": {
+          "qsz92": "c2be7f2de027e57303d635a2e51aa0c41849878b23bd294d5ddb372389a7f30c",
+          "type54": "25d58d368e66cbead8faf6083408c73bd93fe2bf2e23b2706d9d3c006e83e06b",
+          "type64": "ca7376e4b84e7b50df2a59743d9a3b09db37928d6c1152bddc13cac7a8f9c582",
+          "m870": "b1192f67c1bc1ca6334d5b4b281eefe234bcb222132c627580dab594e8e14795"
+        },
+        "revision": "natural-v6-shoulderfix",
+        "builder_sha256": "c4f1dc98714e34d1daad69e46079c8f08a199307217f720367df452cbce12d0f",
+        "reference_path_sha256": "8556469bc04045daa77a83f19fe5ac66139f392c40518ff907934e6878561b3c",
+        "retarget_calibration_sha256": "8e63493971b3efb89abf7e0844a86b2200d2d7a55d51fb02923f6a50abe1493f",
+        "reference_config_sha256": "48122b7d881fdea90b8eefb29d823abc17bdd2694fe00e64e05efd5bdbf6d4f4",
+        "reference_motion_sha256": {
+          "diandian_fixed.glb": "b7f20683cd0d81356ce9d534f31c866140d67014d102c53d4711e02da1df1507",
+          "motion_additions.glb": "d1b757f4c3708d25fad9a72c129d1e0b7d4d05c6f0a34cacc1668801e8684f82",
+          "leon_pistol_animations.glb": "81b698a7a1a2ce7c4f649a79ee647cec989938c28e6017fbafd182f50a7d95e7",
+          "re4_shotgun_animations.glb": "071614e390bd7a83fe5ed9fa95fb387c726915ebd4693c6411d7cfbdade91fbf",
+          "re4_rocket_upper.glb": "f62a99d6bb0265ece0ccabbf01686546faacdd8862fd2e3c574b503504e1cd37",
+          "uploaded_motions.glb": "5687cd7e404c87f2bf4b6b430fec0beab7e112ade397fd1a31dfb2c2276a35b5"
+        },
+        "m870_run_support_policy": {
+          "left_hand_quaternion_weapon": null,
+          "support_forearm_twist_weight": 0,
+          "support_upper_arm_twist_weight": 0,
+          "scope": "M870 RifleRun only; natural left wrist and no extra axial redistribution. Left elbow/wrist paths change; gun and non-left-arm body remain unchanged."
+        }
+      }
+    }
+  },
+  "unchanged_files": [
+    "web/motion-labs/linxu-motion-lab/README.md",
+    "web/motion-labs/linxu-motion-lab/assets/characters/linxu/character.glb",
+    "web/motion-labs/linxu-motion-lab/assets/characters/linxu/motions.glb",
+    "web/motion-labs/linxu-motion-lab/assets/characters/linxu/weapon_update_v5.glb",
+    "web/motion-labs/linxu-motion-lab/assets/weapon_attachment.json",
+    "web/motion-labs/linxu-motion-lab/assets/weapons/m870.glb",
+    "web/motion-labs/linxu-motion-lab/assets/weapons/qbu85.glb",
+    "web/motion-labs/linxu-motion-lab/assets/weapons/qbz95.glb",
+    "web/motion-labs/linxu-motion-lab/assets/weapons/qcq171.glb",
+    "web/motion-labs/linxu-motion-lab/assets/weapons/qsz92.glb",
+    "web/motion-labs/linxu-motion-lab/assets/weapons/type54.glb",
+    "web/motion-labs/linxu-motion-lab/assets/weapons/type56_1.glb",
+    "web/motion-labs/linxu-motion-lab/assets/weapons/type64.glb",
+    "web/motion-labs/linxu-motion-lab/assets/weapons/type97hawk.glb",
+    "web/motion-labs/linxu-motion-lab/c96-dynamics.js",
+    "web/motion-labs/linxu-motion-lab/c96-reload.js",
+    "web/motion-labs/linxu-motion-lab/chest-skinning.js",
+    "web/motion-labs/linxu-motion-lab/favicon.svg",
+    "web/motion-labs/linxu-motion-lab/fixed-machine-gun.js",
+    "web/motion-labs/linxu-motion-lab/natural-weapon.js",
+    "web/motion-labs/linxu-motion-lab/reference-grip.js",
+    "web/motion-labs/linxu-motion-lab/rocket-motion.js",
+    "web/motion-labs/linxu-motion-lab/styles.css",
+    "web/motion-labs/linxu-motion-lab/type97-motion.js",
+    "web/motion-labs/linxu-motion-lab/uploaded-motion.js",
+    "web/motion-labs/linxu-motion-lab/vendor/BufferGeometryUtils.js",
+    "web/motion-labs/linxu-motion-lab/vendor/GLTFLoader.js",
+    "web/motion-labs/linxu-motion-lab/vendor/LICENSE.txt",
+    "web/motion-labs/linxu-motion-lab/vendor/OrbitControls.js",
+    "web/motion-labs/linxu-motion-lab/vendor/three.core.js",
+    "web/motion-labs/linxu-motion-lab/vendor/three.module.js",
+    "web/motion-labs/resistance-motion-lab/README.md",
+    "web/motion-labs/resistance-motion-lab/assets/characters/military/character.glb",
+    "web/motion-labs/resistance-motion-lab/assets/characters/military/motions.glb",
+    "web/motion-labs/resistance-motion-lab/assets/characters/military/weapon_update_v5.glb",
+    "web/motion-labs/resistance-motion-lab/assets/characters/vest/character.glb",
+    "web/motion-labs/resistance-motion-lab/assets/characters/vest/motions.glb",
+    "web/motion-labs/resistance-motion-lab/assets/characters/vest/weapon_update_v5.glb",
+    "web/motion-labs/resistance-motion-lab/assets/reference_grip_samples.json",
+    "web/motion-labs/resistance-motion-lab/assets/weapon_attachment.json",
+    "web/motion-labs/resistance-motion-lab/assets/weapons/m870.glb",
+    "web/motion-labs/resistance-motion-lab/assets/weapons/qbu85.glb",
+    "web/motion-labs/resistance-motion-lab/assets/weapons/qbz95.glb",
+    "web/motion-labs/resistance-motion-lab/assets/weapons/qcq171.glb",
+    "web/motion-labs/resistance-motion-lab/assets/weapons/qsz92.glb",
+    "web/motion-labs/resistance-motion-lab/assets/weapons/type54.glb",
+    "web/motion-labs/resistance-motion-lab/assets/weapons/type56_1.glb",
+    "web/motion-labs/resistance-motion-lab/assets/weapons/type64.glb",
+    "web/motion-labs/resistance-motion-lab/assets/weapons/type97hawk.glb",
+    "web/motion-labs/resistance-motion-lab/c96-dynamics.js",
+    "web/motion-labs/resistance-motion-lab/c96-reload.js",
+    "web/motion-labs/resistance-motion-lab/chest-skinning.js",
+    "web/motion-labs/resistance-motion-lab/favicon.svg",
+    "web/motion-labs/resistance-motion-lab/fixed-machine-gun.js",
+    "web/motion-labs/resistance-motion-lab/natural-weapon.js",
+    "web/motion-labs/resistance-motion-lab/reference-grip.js",
+    "web/motion-labs/resistance-motion-lab/rocket-motion.js",
+    "web/motion-labs/resistance-motion-lab/styles.css",
+    "web/motion-labs/resistance-motion-lab/type97-motion.js",
+    "web/motion-labs/resistance-motion-lab/uploaded-motion.js",
+    "web/motion-labs/resistance-motion-lab/vendor/BufferGeometryUtils.js",
+    "web/motion-labs/resistance-motion-lab/vendor/GLTFLoader.js",
+    "web/motion-labs/resistance-motion-lab/vendor/LICENSE.txt",
+    "web/motion-labs/resistance-motion-lab/vendor/OrbitControls.js",
+    "web/motion-labs/resistance-motion-lab/vendor/three.core.js",
+    "web/motion-labs/resistance-motion-lab/vendor/three.module.js"
+  ],
+  "changed_files": [
+    {
+      "file": "web/motion-labs/linxu-motion-lab/app.js",
+      "before": "bc04d2e9d23bac28c980d3592f2a08e5a2ac282a9229915938c850c607d25b7f",
+      "after": "2ffe85dffd62b98e241af93cfca7b2b7c16089e897352d642e10b613abae1d30"
+    },
+    {
+      "file": "web/motion-labs/linxu-motion-lab/assets/characters/linxu/weapon_update_v6.glb",
+      "before": "158ceb2de8b7a883603696ac027ad4915dadd612d051b09bb12f34f7cc772c6b",
+      "after": "9b95188cbd35082c2699e766b8b4464c813994345de25e3dd716ea40e805d5b0"
+    },
+    {
+      "file": "web/motion-labs/linxu-motion-lab/index.html",
+      "before": "726da9d5a18932decaa1e5d469b838b67b4e725b3f183a120f76bee12ce5ecb4",
+      "after": "0eef39027eb0018f014bd8a4ad9afe773902431724cafa03b003fa2521c38301"
+    },
+    {
+      "file": "web/motion-labs/linxu-motion-lab/rig.js",
+      "before": "0e8f4755a8e294bf374bd85bbe030bebda6ebaf2129d61cbe6629d05cfec6472",
+      "after": "3ebfd23e9c9a7c475f5af022526ed3c9551061fc4ffa3a3febc7cb94294859ec"
+    },
+    {
+      "file": "web/motion-labs/linxu-motion-lab/weapon-attachment.js",
+      "before": "fbb651229894dd3590ff627e773b883cb54ac7155650162e09ef766d98cf098a",
+      "after": "bb5b8c69d0976aac409918427f436d1f98a907214e6a8e68bd7ccaa270c0510e"
+    },
+    {
+      "file": "web/motion-labs/resistance-motion-lab/app.js",
+      "before": "ce0529f08f96e82fece6e435ca58b828124f942bc6ff0338d3a3be85e70b23ff",
+      "after": "ec0a06e397f7dd8217a9676716ad7da230ab745d6d6a92d456534b8362c3849f"
+    },
+    {
+      "file": "web/motion-labs/resistance-motion-lab/assets/characters/military/weapon_update_v6.glb",
+      "before": "d47a75ce13f46fb13da0a9f3aaf787ac7feb8df7060d23d84615c8c49befd983",
+      "after": "96ed953d3307c9d68b1288ccdac3f88b41f45a8041a7236e29021797cf7f2d34"
+    },
+    {
+      "file": "web/motion-labs/resistance-motion-lab/assets/characters/vest/weapon_update_v6.glb",
+      "before": "4562a33a69e644a3a44e12b7606409572eec6bb1575d8b5b992123655fd88962",
+      "after": "8a52c51f34f5e0eaff31588a6b2a72f8fe497c57ffb3de81b270b28499a6e9d1"
+    },
+    {
+      "file": "web/motion-labs/resistance-motion-lab/index.html",
+      "before": "4ac6e7afc4c32dcfd84083b3a78da7b27ff5f2eb43af8c83d509864cc85d0e45",
+      "after": "1175da42eb7c781f91ea841e92a3b1b445cec71228307b12e98d4cbdeaff281e"
+    },
+    {
+      "file": "web/motion-labs/resistance-motion-lab/rig.js",
+      "before": "a57d5cfa8a2deb604008553ec3a34374ec0ce371ccf3354ee7474f78f19f30d7",
+      "after": "7a95426bcf4d910286c788a346f7c78342c889059d315d9403f0f0a93ebf256a"
+    },
+    {
+      "file": "web/motion-labs/resistance-motion-lab/weapon-attachment.js",
+      "before": "798111c01011f9efbfdfb5c29238d4f427071a9a8a0fbc67111b2536e727dc5b",
+      "after": "c1b1d14b8baecae507fc346d6314706fb256f5159a6a9bde67c08d0c89ecf123"
+    }
+  ],
+  "failures": []
+}

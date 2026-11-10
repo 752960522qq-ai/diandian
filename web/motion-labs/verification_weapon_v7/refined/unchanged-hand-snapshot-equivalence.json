@@ -1,0 +1,84 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "cid": "linxu",
+      "weapon": "qsz92",
+      "motion": "PistolIdle",
+      "phase": 0,
+      "checkedBones": 312,
+      "maxLocalPositionM": 0,
+      "maxLocalAngleDeg": 0.0000034150945850063755,
+      "gunPositionDeltaM": 0,
+      "gunAngleDeltaDeg": 0,
+      "oldPoseSha256": "f68cb0a7eec56dbea9df0491235130479fb58bd76efdd3d06ae10ac47c7c99c2",
+      "currentSiteSha256": "1ea200809c4979c0bdda1b3a53bbd8067c4b846faf8911998e92de997c3074f8"
+    },
+    {
+      "cid": "linxu",
+      "weapon": "m870",
+      "motion": "RifleWalk",
+      "phase": 0.25,
+      "checkedBones": 312,
+      "maxLocalPositionM": 0,
+      "maxLocalAngleDeg": 0.0000029575586669421963,
+      "gunPositionDeltaM": 0,
+      "gunAngleDeltaDeg": 0,
+      "oldPoseSha256": "8a70fbd6ee491ff20b526e67df0ad4a873cb87a54e62b406f9b5352da2abc575",
+      "currentSiteSha256": "1ea200809c4979c0bdda1b3a53bbd8067c4b846faf8911998e92de997c3074f8"
+    },
+    {
+      "cid": "military",
+      "weapon": "qsz92",
+      "motion": "PistolIdle",
+      "phase": 0,
+      "checkedBones": 65,
+      "maxLocalPositionM": 0,
+      "maxLocalAngleDeg": 0.0000034150945850063755,
+      "gunPositionDeltaM": 0,
+      "gunAngleDeltaDeg": 0,
+      "oldPoseSha256": "982f9c7bed4320fe12b7808d0ff7c6ca2de90f74942cd407b1c927f3bdc18dcf",
+      "currentSiteSha256": "e733f4b485749d9d394ba1d534802910c26de3b7d4c7728f72dfc183e188a48e"
+    },
+    {
+      "cid": "military",
+      "weapon": "m870",
+      "motion": "RifleWalk",
+      "phase": 0.25,
+      "checkedBones": 65,
+      "maxLocalPositionM": 0,
+      "maxLocalAngleDeg": 0.0000024148365394514667,
+      "gunPositionDeltaM": 0,
+      "gunAngleDeltaDeg": 0,
+      "oldPoseSha256": "8f0e75fa9fd579e796aa4dcaa98eab0450a26285713afbce0b959182f0282e98",
+      "currentSiteSha256": "e733f4b485749d9d394ba1d534802910c26de3b7d4c7728f72dfc183e188a48e"
+    },
+    {
+      "cid": "vest",
+      "weapon": "qsz92",
+      "motion": "PistolIdle",
+      "phase": 0,
+      "checkedBones": 66,
+      "maxLocalPositionM": 0,
+      "maxLocalAngleDeg": 0.0000029575586669421963,
+      "gunPositionDeltaM": 0,
+      "gunAngleDeltaDeg": 0,
+      "oldPoseSha256": "c9fe56e26a2e9393cf1c99f6846c9bc51bcedec86e1e1301ef7bf8fc91ca2d46",
+      "currentSiteSha256": "6adfe5db50caeaaf79dd3e35ded51d78f3112bb4fadabdb1c10559f572ede71a"
+    },
+    {
+      "cid": "vest",
+      "weapon": "m870",
+      "motion": "RifleWalk",
+      "phase": 0.25,
+      "checkedBones": 66,
+      "maxLocalPositionM": 0,
+      "maxLocalAngleDeg": 0.0000029575586669421963,
+      "gunPositionDeltaM": 0,
+      "gunAngleDeltaDeg": 0,
+      "oldPoseSha256": "63ff49c1a1e850cf296e1ee14af7ed671521671959021363a88eff733c1bf7fc",
+      "currentSiteSha256": "6adfe5db50caeaaf79dd3e35ded51d78f3112bb4fadabdb1c10559f572ede71a"
+    }
+  ],
+  "failures": []
+}

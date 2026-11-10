@@ -1,0 +1,151 @@
+{
+  "revision": "natural-v6-shoulderfix",
+  "generated_at_utc": "2026-11-09T15:10:03.219423+00:00",
+  "generator_sha256_field_means": "Exact SHA256 of candidate.mjs used for this new generation; builder_sha256 records build.mjs separately.",
+  "current_generation": {
+    "sources": {
+      "tools/weapon_v6_three/candidate.mjs": "5cfb03bab3c6b6d8bfcb54bd1ae8567e1d927cc6b16d5071a3f793c7e31fc2aa",
+      "tools/weapon_v6_three/build.mjs": "c4f1dc98714e34d1daad69e46079c8f08a199307217f720367df452cbce12d0f",
+      "tools/weapon_v6_three/reference-path.mjs": "8556469bc04045daa77a83f19fe5ac66139f392c40518ff907934e6878561b3c",
+      "tools/qa/validate_pf89.mjs": "15c205b288ae7ea916b9fb57a5d5b1511de9d58c608fb16f9ab7624f08045383"
+    },
+    "policy": "Inline in candidate.mjs, only approved linxu/military/vest source M97 RifleRun: natural left wrist and both extra axial redistribution weights zero. No runtime helper change and no external policy helper dependency.",
+    "artifacts": {
+      "linxu": {
+        "pack_sha256": "9b95188cbd35082c2699e766b8b4464c813994345de25e3dd716ea40e805d5b0",
+        "embedded_provenance": {
+          "character": "linxu",
+          "source_commit": "81d5a485",
+          "pistol_run_source": "Original RifleRun full body and timing, original QSZ92 RifleRun mount, no arm-track composition",
+          "native_motion_sha256": "9a451d615d3135ecf10abc412e48494ff64541f8005a97e77e8a703afa87e103",
+          "generator_sha256": "5cfb03bab3c6b6d8bfcb54bd1ae8567e1d927cc6b16d5071a3f793c7e31fc2aa",
+          "character_sha256": "71f8f6a2562397e82c6e9f102ea4f2cd358b135486a30cb63777f49914ba54c9",
+          "refined_geometry_sha256": {
+            "qsz92": "c2be7f2de027e57303d635a2e51aa0c41849878b23bd294d5ddb372389a7f30c",
+            "type54": "25d58d368e66cbead8faf6083408c73bd93fe2bf2e23b2706d9d3c006e83e06b",
+            "type64": "ca7376e4b84e7b50df2a59743d9a3b09db37928d6c1152bddc13cac7a8f9c582",
+            "m870": "b1192f67c1bc1ca6334d5b4b281eefe234bcb222132c627580dab594e8e14795"
+          },
+          "revision": "natural-v6-shoulderfix",
+          "builder_sha256": "c4f1dc98714e34d1daad69e46079c8f08a199307217f720367df452cbce12d0f",
+          "reference_path_sha256": "8556469bc04045daa77a83f19fe5ac66139f392c40518ff907934e6878561b3c",
+          "retarget_calibration_sha256": "780665cc8e61bb728a04cd4ae75cb46241a67ac1840f6f90171f0e109534cd7f",
+          "reference_config_sha256": "48122b7d881fdea90b8eefb29d823abc17bdd2694fe00e64e05efd5bdbf6d4f4",
+          "reference_motion_sha256": {
+            "diandian_fixed.glb": "b7f20683cd0d81356ce9d534f31c866140d67014d102c53d4711e02da1df1507",
+            "motion_additions.glb": "d1b757f4c3708d25fad9a72c129d1e0b7d4d05c6f0a34cacc1668801e8684f82",
+            "leon_pistol_animations.glb": "81b698a7a1a2ce7c4f649a79ee647cec989938c28e6017fbafd182f50a7d95e7",
+            "re4_shotgun_animations.glb": "071614e390bd7a83fe5ed9fa95fb387c726915ebd4693c6411d7cfbdade91fbf",
+            "re4_rocket_upper.glb": "f62a99d6bb0265ece0ccabbf01686546faacdd8862fd2e3c574b503504e1cd37",
+            "uploaded_motions.glb": "5687cd7e404c87f2bf4b6b430fec0beab7e112ade397fd1a31dfb2c2276a35b5"
+          },
+          "m870_run_support_policy": {
+            "left_hand_quaternion_weapon": null,
+            "support_forearm_twist_weight": 0,
+            "support_upper_arm_twist_weight": 0,
+            "scope": "M870 RifleRun only; natural left wrist and no extra axial redistribution. Left elbow/wrist paths change; gun and non-left-arm body remain unchanged."
+          }
+        }
+      },
+      "military": {
+        "pack_sha256": "96ed953d3307c9d68b1288ccdac3f88b41f45a8041a7236e29021797cf7f2d34",
+        "embedded_provenance": {
+          "character": "military",
+          "source_commit": "81d5a485",
+          "pistol_run_source": "Original RifleRun full body and timing, original QSZ92 RifleRun mount, no arm-track composition",
+          "native_motion_sha256": "36d2d78ce04e962598edbe235cca9af311c9ce3a067f658e3d8a71941c0de0a8",
+          "generator_sha256": "5cfb03bab3c6b6d8bfcb54bd1ae8567e1d927cc6b16d5071a3f793c7e31fc2aa",
+          "character_sha256": "0bcced18ecd2336614ce250cc61fe2b561657f0fce1abe8debbd69287d2f1daa",
+          "refined_geometry_sha256": {
+            "qsz92": "c2be7f2de027e57303d635a2e51aa0c41849878b23bd294d5ddb372389a7f30c",
+            "type54": "25d58d368e66cbead8faf6083408c73bd93fe2bf2e23b2706d9d3c006e83e06b",
+            "type64": "ca7376e4b84e7b50df2a59743d9a3b09db37928d6c1152bddc13cac7a8f9c582",
+            "m870": "b1192f67c1bc1ca6334d5b4b281eefe234bcb222132c627580dab594e8e14795"
+          },
+          "revision": "natural-v6-shoulderfix",
+          "builder_sha256": "c4f1dc98714e34d1daad69e46079c8f08a199307217f720367df452cbce12d0f",
+          "reference_path_sha256": "8556469bc04045daa77a83f19fe5ac66139f392c40518ff907934e6878561b3c",
+          "retarget_calibration_sha256": "018d5c840f63b6bb5761bf8a2dadbc5237373321568d5712b558fe1494bd2a09",
+          "reference_config_sha256": "48122b7d881fdea90b8eefb29d823abc17bdd2694fe00e64e05efd5bdbf6d4f4",
+          "reference_motion_sha256": {
+            "diandian_fixed.glb": "b7f20683cd0d81356ce9d534f31c866140d67014d102c53d4711e02da1df1507",
+            "motion_additions.glb": "d1b757f4c3708d25fad9a72c129d1e0b7d4d05c6f0a34cacc1668801e8684f82",
+            "leon_pistol_animations.glb": "81b698a7a1a2ce7c4f649a79ee647cec989938c28e6017fbafd182f50a7d95e7",
+            "re4_shotgun_animations.glb": "071614e390bd7a83fe5ed9fa95fb387c726915ebd4693c6411d7cfbdade91fbf",
+            "re4_rocket_upper.glb": "f62a99d6bb0265ece0ccabbf01686546faacdd8862fd2e3c574b503504e1cd37",
+            "uploaded_motions.glb": "5687cd7e404c87f2bf4b6b430fec0beab7e112ade397fd1a31dfb2c2276a35b5"
+          },
+          "m870_run_support_policy": {
+            "left_hand_quaternion_weapon": null,
+            "support_forearm_twist_weight": 0,
+            "support_upper_arm_twist_weight": 0,
+            "scope": "M870 RifleRun only; natural left wrist and no extra axial redistribution. Left elbow/wrist paths change; gun and non-left-arm body remain unchanged."
+          }
+        }
+      },
+      "vest": {
+        "pack_sha256": "8a52c51f34f5e0eaff31588a6b2a72f8fe497c57ffb3de81b270b28499a6e9d1",
+        "embedded_provenance": {
+          "character": "vest",
+          "source_commit": "81d5a485",
+          "pistol_run_source": "Original RifleRun full body and timing, original QSZ92 RifleRun mount, no arm-track composition",
+          "native_motion_sha256": "48baac669b72bef51c1863fd3897ca060338621d345ecc03fdc9258679a0860d",
+          "generator_sha256": "5cfb03bab3c6b6d8bfcb54bd1ae8567e1d927cc6b16d5071a3f793c7e31fc2aa",
+          "character_sha256": "7e220787746ab9c365acf98f5c4584771a5211bc4dd0c07504e3781863b5daf4",
+          "refined_geometry_sha256": {
+            "qsz92": "c2be7f2de027e57303d635a2e51aa0c41849878b23bd294d5ddb372389a7f30c",
+            "type54": "25d58d368e66cbead8faf6083408c73bd93fe2bf2e23b2706d9d3c006e83e06b",
+            "type64": "ca7376e4b84e7b50df2a59743d9a3b09db37928d6c1152bddc13cac7a8f9c582",
+            "m870": "b1192f67c1bc1ca6334d5b4b281eefe234bcb222132c627580dab594e8e14795"
+          },
+          "revision": "natural-v6-shoulderfix",
+          "builder_sha256": "c4f1dc98714e34d1daad69e46079c8f08a199307217f720367df452cbce12d0f",
+          "reference_path_sha256": "8556469bc04045daa77a83f19fe5ac66139f392c40518ff907934e6878561b3c",
+          "retarget_calibration_sha256": "8e63493971b3efb89abf7e0844a86b2200d2d7a55d51fb02923f6a50abe1493f",
+          "reference_config_sha256": "48122b7d881fdea90b8eefb29d823abc17bdd2694fe00e64e05efd5bdbf6d4f4",
+          "reference_motion_sha256": {
+            "diandian_fixed.glb": "b7f20683cd0d81356ce9d534f31c866140d67014d102c53d4711e02da1df1507",
+            "motion_additions.glb": "d1b757f4c3708d25fad9a72c129d1e0b7d4d05c6f0a34cacc1668801e8684f82",
+            "leon_pistol_animations.glb": "81b698a7a1a2ce7c4f649a79ee647cec989938c28e6017fbafd182f50a7d95e7",
+            "re4_shotgun_animations.glb": "071614e390bd7a83fe5ed9fa95fb387c726915ebd4693c6411d7cfbdade91fbf",
+            "re4_rocket_upper.glb": "f62a99d6bb0265ece0ccabbf01686546faacdd8862fd2e3c574b503504e1cd37",
+            "uploaded_motions.glb": "5687cd7e404c87f2bf4b6b430fec0beab7e112ade397fd1a31dfb2c2276a35b5"
+          },
+          "m870_run_support_policy": {
+            "left_hand_quaternion_weapon": null,
+            "support_forearm_twist_weight": 0,
+            "support_upper_arm_twist_weight": 0,
+            "scope": "M870 RifleRun only; natural left wrist and no extra axial redistribution. Left elbow/wrist paths change; gun and non-left-arm body remain unchanged."
+          }
+        }
+      }
+    }
+  },
+  "previous_generation": {
+    "generator_sha256_field_means": "SHA256 of candidate.mjs at bundle generation, not build.mjs",
+    "original_embedded_generator_sha256": "180814fea2869d5da4c890a0f3288474184eaa556599f110aef96d0733bcff6e",
+    "sources": {
+      "candidate.mjs": {
+        "original_sha256": "180814fea2869d5da4c890a0f3288474184eaa556599f110aef96d0733bcff6e",
+        "portable_sha256": "a78f0e2a6701e26c391dc2cef9171aaea144f21a09152dbb511ab9d418c2571d",
+        "original_source": "web/motion-labs/verification_weapon_v6_three/linxu_verified_candidate/rebuild_sources/candidate.mjs",
+        "portable_source": "tools/weapon_v6_three/candidate.mjs"
+      },
+      "build.mjs": {
+        "original_sha256": "c1d51f89516313891ca28c926f090f3332db677ab25f0f56a27b8af8e3b033fe",
+        "portable_sha256": "7439b016137e12fbf9bb003c7f094b0d664178ee5855b92fe256353bcccb4599",
+        "original_source": "web/motion-labs/verification_weapon_v6_three/linxu_verified_candidate/rebuild_sources/build.mjs",
+        "portable_source": "tools/weapon_v6_three/build.mjs"
+      },
+      "reference-path.mjs": {
+        "sha256": "8556469bc04045daa77a83f19fe5ac66139f392c40518ff907934e6878561b3c",
+        "purpose": "Only resolves WEAPON_V6_BASELINE or the project-sibling default."
+      }
+    },
+    "equivalence_evidence": "portable-rebuild-equivalence.json",
+    "production_bundle_unchanged": true
+  },
+  "immutable_previous_sources": "shoulderfix_before/tools/weapon_v6_three/",
+  "scope_evidence": "shoulderfix-scope-validation.json",
+  "production_skin_evidence": "shoulderfix-production-skin-validation.json"
+}
