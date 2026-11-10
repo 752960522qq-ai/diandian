@@ -1,0 +1,21 @@
+{
+  "scope": "Isolated reconstruction from only pristine refined source plus common metadata. No production writes. No original game GLB, normalizer output snapshot, M97 baseline or work/v5 input was copied.",
+  "runs": [
+    {
+      "iteration": 1,
+      "game_sha256": "b1192f67c1bc1ca6334d5b4b281eefe234bcb222132c627580dab594e8e14795",
+      "metadata_sha256": "9b94c24643ccc5e845ee2e33f998f757098242dcabff67a5b105512c84a903de"
+    },
+    {
+      "iteration": 2,
+      "game_sha256": "b1192f67c1bc1ca6334d5b4b281eefe234bcb222132c627580dab594e8e14795",
+      "metadata_sha256": "9b94c24643ccc5e845ee2e33f998f757098242dcabff67a5b105512c84a903de"
+    }
+  ],
+  "both_game_outputs_match_production": true,
+  "metadata_idempotent": true,
+  "production_game_unchanged": true,
+  "source_unchanged": true,
+  "length_target_m": 1,
+  "body_width_scale": 0.88
+}

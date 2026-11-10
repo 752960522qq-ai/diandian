@@ -1,0 +1,433 @@
+{
+  "length_target_m": 1.0,
+  "body_width_scale": 0.88,
+  "bounds": [
+    [
+      -0.029952896999804534,
+      -0.18916448826859325,
+      -0.5577625407948484
+    ],
+    [
+      0.030284764212456905,
+      0.022404814234657983,
+      0.4422374592051519
+    ]
+  ],
+  "dimensions": [
+    0.06023766121226144,
+    0.21156930250325123,
+    1.0000000000000004
+  ],
+  "game_sha256": "b1192f67c1bc1ca6334d5b4b281eefe234bcb222132c627580dab594e8e14795",
+  "source_sha256": "e24811768839d6a55a33b9c5fbf10c03dc64a45b78bf718f0166bd5161099c53",
+  "changed_source_nodes": [
+    "Pump_visual",
+    "Buttpad_visual",
+    "Receiver_visual",
+    "Stock_visual",
+    "Trigger_guard_visual",
+    "Underside_detail_visual",
+    "Upper_rail_visual"
+  ],
+  "preserved_round_nodes": [
+    "Barrel_visual",
+    "Exposed_tube_visual",
+    "Front_cap_visual",
+    "Under_pump_tube_visual"
+  ],
+  "parts": {
+    "Pump_detail_A_visual": {
+      "bounds": [
+        [
+          -0.024640119154335446,
+          -0.013082304887106516,
+          -0.20552222558088246
+        ],
+        [
+          -0.004257539968691004,
+          -0.004665646667871393,
+          -0.18567811961666672
+        ]
+      ],
+      "dimensions": [
+        0.020382579185644442,
+        0.008416658219235124,
+        0.019844105964215736
+      ]
+    },
+    "Pump_detail_B_visual": {
+      "bounds": [
+        [
+          0.00986989409129817,
+          -0.0071056823198411,
+          -0.20869367626645285
+        ],
+        [
+          0.018391521283246698,
+          0.0001446362069804641,
+          -0.19843988068844637
+        ]
+      ],
+      "dimensions": [
+        0.008521627191948529,
+        0.007250318526821564,
+        0.010253795578006486
+      ]
+    },
+    "Pump_shell_visual": {
+      "bounds": [
+        [
+          -0.024822034630843526,
+          -0.06299376757793201,
+          -0.3550544999033688
+        ],
+        [
+          0.025142320559567666,
+          0.0012604131846719602,
+          -0.16475278811705826
+        ]
+      ],
+      "dimensions": [
+        0.04996435519041119,
+        0.06425418076260397,
+        0.19030171178631053
+      ]
+    },
+    "Barrel_visual": {
+      "bounds": [
+        [
+          -0.02678475833200871,
+          -0.029521768398879156,
+          -0.5577625407948484
+        ],
+        [
+          0.020192592984283952,
+          0.022404814234657983,
+          -0.08449154722120332
+        ]
+      ],
+      "dimensions": [
+        0.04697735131629266,
+        0.05192658263353714,
+        0.4732709935736451
+      ]
+    },
+    "Buttpad_visual": {
+      "bounds": [
+        [
+          -0.029952896999804534,
+          -0.18916448826859325,
+          0.3912934294034055
+        ],
+        [
+          0.030284764212456905,
+          -0.03654006820162209,
+          0.4422374592051519
+        ]
+      ],
+      "dimensions": [
+        0.06023766121226144,
+        0.15262442006697116,
+        0.05094402980174639
+      ]
+    },
+    "Exposed_tube_visual": {
+      "bounds": [
+        [
+          -0.022988742338773724,
+          -0.05858536611747239,
+          -0.17574722311063715
+        ],
+        [
+          0.028310115769573846,
+          -0.019739840710538525,
+          -0.08470624261687629
+        ]
+      ],
+      "dimensions": [
+        0.05129885810834757,
+        0.03884552540693387,
+        0.09104098049376086
+      ]
+    },
+    "Front_cap_visual": {
+      "bounds": [
+        [
+          -0.028135048654006463,
+          -0.05922654826185983,
+          -0.37509796220529257
+        ],
+        [
+          0.021240735285160833,
+          -0.008554024546819278,
+          -0.34532741577423254
+        ]
+      ],
+      "dimensions": [
+        0.04937578393916729,
+        0.05067252371504055,
+        0.02977054643106003
+      ]
+    },
+    "Receiver_visual": {
+      "bounds": [
+        [
+          -0.026583599697836403,
+          -0.054900777763934844,
+          -0.08579300773260672
+        ],
+        [
+          0.026383870728612195,
+          0.020498116961629037,
+          0.1299858833897354
+        ]
+      ],
+      "dimensions": [
+        0.0529674704264486,
+        0.07539889472556388,
+        0.2157788911223421
+      ]
+    },
+    "Stock_visual": {
+      "bounds": [
+        [
+          -0.027602930315743318,
+          -0.1768302706480897,
+          0.10562103807462306
+        ],
+        [
+          0.028104949061454457,
+          0.0038009648932057494,
+          0.41587297201848106
+        ]
+      ],
+      "dimensions": [
+        0.055707879377197775,
+        0.18063123554129545,
+        0.31025193394385797
+      ]
+    },
+    "Trigger_guard_visual": {
+      "bounds": [
+        [
+          -0.01211501504831097,
+          -0.08688493973622137,
+          -0.0009452913864198831
+        ],
+        [
+          0.013634336723670724,
+          -0.04639917296522092,
+          0.11324241898242837
+        ]
+      ],
+      "dimensions": [
+        0.025749351771981694,
+        0.04048576677100045,
+        0.11418771036884826
+      ]
+    },
+    "Under_pump_tube_visual": {
+      "bounds": [
+        [
+          -0.010734759310052163,
+          -0.05160061800464688,
+          -0.3675814619873046
+        ],
+        [
+          0.010734759310052253,
+          -0.030131089863091265,
+          -0.16004278516677944
+        ]
+      ],
+      "dimensions": [
+        0.021469518620104416,
+        0.021469528141555616,
+        0.20753867682052518
+      ]
+    },
+    "Underside_detail_visual": {
+      "bounds": [
+        [
+          -0.010870057189949489,
+          -0.06283411188335919,
+          -0.07054998217279641
+        ],
+        [
+          0.012726580909011883,
+          -0.04521836066690621,
+          -0.024126487010744796
+        ]
+      ],
+      "dimensions": [
+        0.02359663809896137,
+        0.01761575121645298,
+        0.04642349516205162
+      ]
+    },
+    "Upper_rail_visual": {
+      "bounds": [
+        [
+          -0.010110118173549799,
+          -0.030367608425031,
+          -0.1733193520647854
+        ],
+        [
+          0.01367526753830755,
+          -0.015040174247737542,
+          -0.08473504881549035
+        ]
+      ],
+      "dimensions": [
+        0.02378538571185735,
+        0.015327434177293459,
+        0.08858430324929506
+      ]
+    }
+  },
+  "final_m870_metadata": {
+    "display_name": "M870",
+    "type": "shotgun",
+    "path": "res://assets/weapons/m870.glb",
+    "right_grip": [
+      0.0,
+      -0.047,
+      0.162
+    ],
+    "right_palm_surface": [
+      0.022000000000000002,
+      -0.047,
+      0.162
+    ],
+    "trigger": [
+      0.00792,
+      -0.06846951890955648,
+      0.059764195668778664
+    ],
+    "muzzle": [
+      0.0,
+      0.004117902165610671,
+      -0.5577400624917983
+    ],
+    "barrel_forward": [
+      0,
+      0,
+      -1
+    ],
+    "right_palm_normal": [
+      1,
+      0,
+      0
+    ],
+    "right_grip_axis": [
+      0,
+      0.35,
+      -0.93675
+    ],
+    "left_palm_normal": [
+      0,
+      -1,
+      0
+    ],
+    "left_grip": [
+      0.0,
+      -0.06744716086624426,
+      -0.23160784667520218
+    ],
+    "left_support_kind": "4.4 source mm below measured wooden Pump_shell_visual underside at rest; follows pump stroke.",
+    "length_m": 1.0,
+    "source": {
+      "file": "R870_几何精修_v2.glb",
+      "sha256": "e24811768839d6a55a33b9c5fbf10c03dc64a45b78bf718f0166bd5161099c53",
+      "inspection_animations_preserved_in_source": [
+        "R870_Component_Inspection"
+      ],
+      "license": "CC-BY-4.0",
+      "restriction": "TYPE64 commercial use requires separate permission; attribution required for all assets. Licenses are inherited from provided source metadata, not independently relicensed.",
+      "author": "tris.blend",
+      "url": "https://sketchfab.com/3d-models/remington-870-pbrgr-26e37df4c38c4e8a9da8adeb4b66bff6"
+    },
+    "normalization": {
+      "source_to_game": "game = scale * [-source.z, source.y, source.x] + translation; source nodes listed in width_adjustment first scale local Z only",
+      "scale": 1.0223580433122135,
+      "translation": [
+        0.0,
+        -0.19013012606370988,
+        -0.05780697931212589
+      ],
+      "source_bounds": [
+        [
+          -0.48902198672294617,
+          0.0009445201721973717,
+          -0.033661890774965286
+        ],
+        [
+          0.4891089200973511,
+          0.20788699388504028,
+          0.033293016254901886
+        ]
+      ]
+    },
+    "game_dimensions_m": [
+      0.06023766121226144,
+      0.21156930250325123,
+      1.0000000000000004
+    ],
+    "anchor_method": "Authored from actual source geometry and rendered side view. Grip center is internal, palm contact separate. Not a mechanical reconstruction.",
+    "binary_payload_unchanged": true,
+    "game_sha256": "b1192f67c1bc1ca6334d5b4b281eefe234bcb222132c627580dab594e8e14795",
+    "butt_contact": [
+      0.0,
+      -0.1083414825987328,
+      0.4390590297376098
+    ],
+    "pump_node_names": [
+      "Pump_visual"
+    ],
+    "pump_node": "Pump_visual",
+    "pump_axis_local": [
+      1,
+      0,
+      0
+    ],
+    "pump_axis_game": [
+      0,
+      0,
+      1
+    ],
+    "pump_travel_m": 0.075,
+    "pump_travel_local_units": 0.07335981801152229,
+    "pump_sync": "Pump_visual.position.x = rest.x + travel_m / normalization.scale. left_grip.z = rest.z + travel_m. Never move Static_visual. No autoplay animation.",
+    "width_adjustment": {
+      "revision": "v6_user_requested_1m_thinner_body",
+      "final_axial_length_m": 1.0,
+      "game_axis": "X",
+      "source_node_local_axis": "Z",
+      "body_width_scale": 0.88,
+      "scaled_nodes": [
+        "Pump_visual",
+        "Buttpad_visual",
+        "Receiver_visual",
+        "Stock_visual",
+        "Trigger_guard_visual",
+        "Underside_detail_visual",
+        "Upper_rail_visual"
+      ],
+      "pump_child_nodes_follow_parent": [
+        "Pump_detail_A_visual",
+        "Pump_detail_B_visual",
+        "Pump_shell_visual"
+      ],
+      "circular_parts_preserved": [
+        "Barrel_visual",
+        "Exposed_tube_visual",
+        "Front_cap_visual",
+        "Under_pump_tube_visual"
+      ],
+      "source_file_unchanged": true,
+      "binary_payload_unchanged": true,
+      "source_mesh_definitions_unchanged": true,
+      "original_M97_axial_length_m_for_reference_only": 0.9992400407791138,
+      "policy": "Latest user request sets total length to 1 m and authorizes modest body-width compression. Do not use the earlier exact M97 match as the final target."
+    }
+  }
+}

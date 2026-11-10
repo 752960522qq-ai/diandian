@@ -1,0 +1,182 @@
+[
+  {
+    "variant": "M97_reference",
+    "view": "side",
+    "target_blender_xyz": [
+      0.0,
+      0.05780697986483574,
+      -0.0833798348903656
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      1400,
+      360
+    ],
+    "pump_source_delta": 0
+  },
+  {
+    "variant": "M97_reference",
+    "view": "top",
+    "target_blender_xyz": [
+      0.0,
+      0.05780697986483574,
+      -0.0833798348903656
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      1400,
+      360
+    ],
+    "pump_source_delta": 0
+  },
+  {
+    "variant": "M97_reference",
+    "view": "front",
+    "target_blender_xyz": [
+      0.0,
+      0.05780697986483574,
+      -0.0833798348903656
+    ],
+    "ortho_scale": 0.28,
+    "resolution": [
+      600,
+      600
+    ],
+    "pump_source_delta": 0
+  },
+  {
+    "variant": "M870_before_thinning",
+    "view": "side",
+    "target_blender_xyz": [
+      0.0,
+      0.05780697986483574,
+      -0.0833798348903656
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      1400,
+      360
+    ],
+    "pump_source_delta": 0
+  },
+  {
+    "variant": "M870_before_thinning",
+    "view": "top",
+    "target_blender_xyz": [
+      0.0,
+      0.05780697986483574,
+      -0.0833798348903656
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      1400,
+      360
+    ],
+    "pump_source_delta": 0
+  },
+  {
+    "variant": "M870_before_thinning",
+    "view": "front",
+    "target_blender_xyz": [
+      0.0,
+      0.05780697986483574,
+      -0.0833798348903656
+    ],
+    "ortho_scale": 0.28,
+    "resolution": [
+      600,
+      600
+    ],
+    "pump_source_delta": 0
+  },
+  {
+    "variant": "M870_final",
+    "view": "side",
+    "target_blender_xyz": [
+      0.0,
+      0.05780697986483574,
+      -0.0833798348903656
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      1400,
+      360
+    ],
+    "pump_source_delta": 0
+  },
+  {
+    "variant": "M870_final",
+    "view": "top",
+    "target_blender_xyz": [
+      0.0,
+      0.05780697986483574,
+      -0.0833798348903656
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      1400,
+      360
+    ],
+    "pump_source_delta": 0
+  },
+  {
+    "variant": "M870_final",
+    "view": "front",
+    "target_blender_xyz": [
+      0.0,
+      0.05780697986483574,
+      -0.0833798348903656
+    ],
+    "ortho_scale": 0.28,
+    "resolution": [
+      600,
+      600
+    ],
+    "pump_source_delta": 0
+  },
+  {
+    "variant": "M870_final_pump_max",
+    "view": "side",
+    "target_blender_xyz": [
+      0.0,
+      0.05780697986483574,
+      -0.0833798348903656
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      1400,
+      360
+    ],
+    "pump_source_delta": 0.07335981801152229
+  },
+  {
+    "variant": "M870_final_pump_max",
+    "view": "top",
+    "target_blender_xyz": [
+      0.0,
+      0.05780697986483574,
+      -0.0833798348903656
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      1400,
+      360
+    ],
+    "pump_source_delta": 0.07335981801152229
+  },
+  {
+    "variant": "M870_final_pump_max",
+    "view": "front",
+    "target_blender_xyz": [
+      0.0,
+      0.05780697986483574,
+      -0.0833798348903656
+    ],
+    "ortho_scale": 0.28,
+    "resolution": [
+      600,
+      600
+    ],
+    "pump_source_delta": 0.07335981801152229
+  }
+]

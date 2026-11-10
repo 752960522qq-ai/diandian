@@ -1,0 +1,95 @@
+{
+  "rows": [
+    {
+      "mode": "before",
+      "time": 0,
+      "phase": 0,
+      "vertices": 254,
+      "maxErrorM": 4.0122604423273384e-07,
+      "meanErrorM": 2.1501783598438377e-07,
+      "preserveVolume": false
+    },
+    {
+      "mode": "before",
+      "time": 0.10000000298023223,
+      "phase": 0.15,
+      "vertices": 254,
+      "maxErrorM": 3.753680588605538e-07,
+      "meanErrorM": 1.6474010477983183e-07,
+      "preserveVolume": false
+    },
+    {
+      "mode": "before",
+      "time": 0.3333333432674408,
+      "phase": 0.5,
+      "vertices": 254,
+      "maxErrorM": 4.097141946812725e-07,
+      "meanErrorM": 1.8933314337819792e-07,
+      "preserveVolume": false
+    },
+    {
+      "mode": "before",
+      "time": 0.5000000149011612,
+      "phase": 0.75,
+      "vertices": 254,
+      "maxErrorM": 3.7699127966019037e-07,
+      "meanErrorM": 1.2808242036081484e-07,
+      "preserveVolume": false
+    },
+    {
+      "mode": "before",
+      "time": 0.6666666865348816,
+      "phase": 1,
+      "vertices": 254,
+      "maxErrorM": 5.106230285966527e-07,
+      "meanErrorM": 1.811132011381145e-07,
+      "preserveVolume": false
+    },
+    {
+      "mode": "after",
+      "time": 0,
+      "phase": 0,
+      "vertices": 254,
+      "maxErrorM": 3.875018246157719e-07,
+      "meanErrorM": 1.5901509052717441e-07,
+      "preserveVolume": false
+    },
+    {
+      "mode": "after",
+      "time": 0.10000000298023223,
+      "phase": 0.15,
+      "vertices": 254,
+      "maxErrorM": 4.851466594964178e-07,
+      "meanErrorM": 1.7504888284827842e-07,
+      "preserveVolume": false
+    },
+    {
+      "mode": "after",
+      "time": 0.3333333432674408,
+      "phase": 0.5,
+      "vertices": 254,
+      "maxErrorM": 3.488272401904948e-07,
+      "meanErrorM": 1.2162367113682833e-07,
+      "preserveVolume": false
+    },
+    {
+      "mode": "after",
+      "time": 0.5000000149011612,
+      "phase": 0.75,
+      "vertices": 254,
+      "maxErrorM": 3.590414613199825e-07,
+      "meanErrorM": 1.1852574972824141e-07,
+      "preserveVolume": false
+    },
+    {
+      "mode": "after",
+      "time": 0.6666666865348816,
+      "phase": 1,
+      "vertices": 254,
+      "maxErrorM": 3.803127318142192e-07,
+      "meanErrorM": 1.2349508090192942e-07,
+      "preserveVolume": false
+    }
+  ],
+  "maxErrorM": 5.106230285966527e-07
+}

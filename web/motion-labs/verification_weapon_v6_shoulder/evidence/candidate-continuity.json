@@ -1,0 +1,71 @@
+{
+  "frames": 161,
+  "duration": 0.6666666865348816,
+  "bones": {
+    "LeftShoulder": {
+      "maxPositionPer240HzFrameM": 0.0022038246635498505,
+      "maxWorldAnglePer240HzFrameDeg": 1.1161759465545391,
+      "maxLocalAnglePer240HzFrameDeg": 0.5721445340919451,
+      "loopPositionM": 0.00003415478127434603,
+      "loopAngleDeg": 0.0020208560698841706
+    },
+    "LeftArm": {
+      "maxPositionPer240HzFrameM": 0.0034917003648299917,
+      "maxWorldAnglePer240HzFrameDeg": 1.0830982153295388,
+      "maxLocalAnglePer240HzFrameDeg": 0.5506985017972702,
+      "loopPositionM": 0.00003755464490028236,
+      "loopAngleDeg": 0.0019781756669139386
+    },
+    "LeftForeArm": {
+      "maxPositionPer240HzFrameM": 0.0061937368378686295,
+      "maxWorldAnglePer240HzFrameDeg": 1.3877512106012073,
+      "maxLocalAnglePer240HzFrameDeg": 1.467488087083903,
+      "loopPositionM": 0.0000408992333477276,
+      "loopAngleDeg": 0.002041376894608137
+    },
+    "LeftHand": {
+      "maxPositionPer240HzFrameM": 0.009062983615023794,
+      "maxWorldAnglePer240HzFrameDeg": 0.8779268014235222,
+      "maxLocalAnglePer240HzFrameDeg": 1.000289432838297,
+      "loopPositionM": 0.00004633041179052665,
+      "loopAngleDeg": 0.0020776044448285796
+    },
+    "LeftHandMiddle1": {
+      "maxPositionPer240HzFrameM": 0.00953766669195652,
+      "maxWorldAnglePer240HzFrameDeg": 0.8739015425709185,
+      "maxLocalAnglePer240HzFrameDeg": 0.011543199801569154,
+      "loopPositionM": 0.0000465536480970212,
+      "loopAngleDeg": 0.002148962344520121
+    },
+    "LeftHandThumb2": {
+      "maxPositionPer240HzFrameM": 0.009724515847492725,
+      "maxWorldAnglePer240HzFrameDeg": 0.8739524736080441,
+      "maxLocalAnglePer240HzFrameDeg": 0.010980619560745072,
+      "loopPositionM": 0.00004820268649948363,
+      "loopAngleDeg": 0.002052353933389634
+    },
+    "RightHand": {
+      "maxPositionPer240HzFrameM": 0.006273587970276989,
+      "maxWorldAnglePer240HzFrameDeg": 0.8756219375783263,
+      "maxLocalAnglePer240HzFrameDeg": 0.3562428469166426,
+      "loopPositionM": 0.000032862816643406197,
+      "loopAngleDeg": 0.001956630899123955
+    },
+    "Hips": {
+      "maxPositionPer240HzFrameM": 0.001959601874958587,
+      "maxWorldAnglePer240HzFrameDeg": 0.4241035849609864,
+      "maxLocalAnglePer240HzFrameDeg": 0.4241034722414347,
+      "loopPositionM": 0.000032299142069702746,
+      "loopAngleDeg": 0.0001138307942002728
+    },
+    "LeftFoot": {
+      "maxPositionPer240HzFrameM": 0.017081143324171426,
+      "maxWorldAnglePer240HzFrameDeg": 3.1325293131386087,
+      "maxLocalAnglePer240HzFrameDeg": 2.4819165185886165,
+      "loopPositionM": 0.000011453000005351033,
+      "loopAngleDeg": 0.00006097163388881891
+    }
+  },
+  "switchRepeatMaxPositionM": 0,
+  "switchRepeatMaxAngleDeg": 0.0000017075472925031877
+}

@@ -1,0 +1,1627 @@
+{
+  "scope": "M870 RifleRun only",
+  "duration": 0.6666666865348816,
+  "boneDifferences": {
+    "mixamorig:Hips": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000034150945850063755
+    },
+    "mixamorig:LeftUpLeg": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0.0000029575586669421963
+    },
+    "mixamorig:LeftLeg": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000029575586669421963
+    },
+    "mixamorig:LeftFoot": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0.0000029575586669421963
+    },
+    "mixamorig:LeftToeBase": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0.0000034150945850063755
+    },
+    "mixamorig:LeftToe_End": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "mixamorig:RightUpLeg": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0.000003818191820832845
+    },
+    "mixamorig:RightLeg": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000029575586669421963
+    },
+    "mixamorig:RightFoot": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000034150945850063755
+    },
+    "mixamorig:RightToeBase": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000034150945850063755
+    },
+    "mixamorig:RightToe_End": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "mixamorig:Spine": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0.0000034150945850063755
+    },
+    "mixamorig:Spine1": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0.0000029575586669421963
+    },
+    "mixamorig:Spine2": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000029575586669421963
+    },
+    "mixamorig:LeftShoulder": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "mixamorig:LeftArm": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 94.94474211293638,
+      "maxLocalQuaternionDeg": 94.94474244915081
+    },
+    "mixamorig:LeftForeArm": {
+      "maxWorldPositionM": 0.054117638215020795,
+      "maxWorldQuaternionDeg": 99.54792797757236,
+      "maxLocalQuaternionDeg": 142.1737081141901
+    },
+    "mixamorig:LeftHand": {
+      "maxWorldPositionM": 0.05203891413830169,
+      "maxWorldQuaternionDeg": 46.26571836984899,
+      "maxLocalQuaternionDeg": 83.92061769778992
+    },
+    "mixamorig:LeftHandIndex1": {
+      "maxWorldPositionM": 0.02642097952124649,
+      "maxWorldQuaternionDeg": 28.14064830652744,
+      "maxLocalQuaternionDeg": 26.76692080015506
+    },
+    "mixamorig:LeftHandIndex2": {
+      "maxWorldPositionM": 0.024663601304628503,
+      "maxWorldQuaternionDeg": 5.04947845013726,
+      "maxLocalQuaternionDeg": 25.751904237046006
+    },
+    "mixamorig:LeftHandIndex3": {
+      "maxWorldPositionM": 0.024968488494391882,
+      "maxWorldQuaternionDeg": 6.170135263259834,
+      "maxLocalQuaternionDeg": 6.8447262154662045
+    },
+    "mixamorig:LeftHandIndex4": {
+      "maxWorldPositionM": 0.025959802803958914,
+      "maxWorldQuaternionDeg": 6.170133312694551,
+      "maxLocalQuaternionDeg": 0.000004182619578303746
+    },
+    "mixamorig:LeftHandMiddle1": {
+      "maxWorldPositionM": 0.0083841187633646,
+      "maxWorldQuaternionDeg": 24.725575034886337,
+      "maxLocalQuaternionDeg": 27.82215507321898
+    },
+    "mixamorig:LeftHandMiddle2": {
+      "maxWorldPositionM": 0.00707244081471416,
+      "maxWorldQuaternionDeg": 4.8276652768719694,
+      "maxLocalQuaternionDeg": 22.481813490397958
+    },
+    "mixamorig:LeftHandMiddle3": {
+      "maxWorldPositionM": 0.007995052068218694,
+      "maxWorldQuaternionDeg": 6.146392510748954,
+      "maxLocalQuaternionDeg": 6.654036765657588
+    },
+    "mixamorig:LeftHandMiddle4": {
+      "maxWorldPositionM": 0.008860262247608185,
+      "maxWorldQuaternionDeg": 6.146393117065527,
+      "maxLocalQuaternionDeg": 0.000003818191820832845
+    },
+    "mixamorig:LeftHandPinky1": {
+      "maxWorldPositionM": 0.021392063411381827,
+      "maxWorldQuaternionDeg": 17.283021107166892,
+      "maxLocalQuaternionDeg": 31.417478577406598
+    },
+    "mixamorig:LeftHandPinky2": {
+      "maxWorldPositionM": 0.02278474492180358,
+      "maxWorldQuaternionDeg": 6.373891003961646,
+      "maxLocalQuaternionDeg": 15.785259143682351
+    },
+    "mixamorig:LeftHandPinky3": {
+      "maxWorldPositionM": 0.02283658853662911,
+      "maxWorldQuaternionDeg": 7.228597817675549,
+      "maxLocalQuaternionDeg": 8.182832387398518
+    },
+    "mixamorig:LeftHandPinky4": {
+      "maxWorldPositionM": 0.02205933975413592,
+      "maxWorldQuaternionDeg": 7.228596704734796,
+      "maxLocalQuaternionDeg": 0.0000034150945850063755
+    },
+    "mixamorig:LeftHandRing1": {
+      "maxWorldPositionM": 0.010218329755192846,
+      "maxWorldQuaternionDeg": 21.894981135625045,
+      "maxLocalQuaternionDeg": 28.99253959506435
+    },
+    "mixamorig:LeftHandRing2": {
+      "maxWorldPositionM": 0.012543192944843807,
+      "maxWorldQuaternionDeg": 6.588693603405879,
+      "maxLocalQuaternionDeg": 19.853237363547652
+    },
+    "mixamorig:LeftHandRing3": {
+      "maxWorldPositionM": 0.01292719151372469,
+      "maxWorldQuaternionDeg": 6.368793234217774,
+      "maxLocalQuaternionDeg": 8.16652062545628
+    },
+    "mixamorig:LeftHandRing4": {
+      "maxWorldPositionM": 0.012123788499732946,
+      "maxWorldQuaternionDeg": 6.368792237038839,
+      "maxLocalQuaternionDeg": 0.000004182619578303746
+    },
+    "mixamorig:LeftHandThumb1": {
+      "maxWorldPositionM": 0.0460979122532518,
+      "maxWorldQuaternionDeg": 46.26571747500496,
+      "maxLocalQuaternionDeg": 0.000018070981951380422
+    },
+    "mixamorig:LeftHandThumb2": {
+      "maxWorldPositionM": 0.06003010490811545,
+      "maxWorldQuaternionDeg": 29.481434408138515,
+      "maxLocalQuaternionDeg": 33.2641034142822
+    },
+    "mixamorig:LeftHandThumb3": {
+      "maxWorldPositionM": 0.05828782770388589,
+      "maxWorldQuaternionDeg": 33.81716396177492,
+      "maxLocalQuaternionDeg": 42.416322939662294
+    },
+    "mixamorig:LeftHandThumb4": {
+      "maxWorldPositionM": 0.05944489325356647,
+      "maxWorldQuaternionDeg": 33.81716131366782,
+      "maxLocalQuaternionDeg": 0.000008706816964856284
+    },
+    "mixamorig:Neck": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000034150945850063755
+    },
+    "mixamorig:Head": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000029575586669421963
+    },
+    "mixamorig:HeadTop_End": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "DD_Jaw_CTRL": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_chin_bottom_00_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_chin_bottom_00_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_chin_bottom_01_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_chin_bottom_01_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_chin_bottom_02_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_chin_bottom_02_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_chin_bottom_03_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_chin_bottom_03_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "XQ_chin_M": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_chin_middle_00_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_chin_middle_00_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_chin_middle_01_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_chin_middle_01_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "XQ_chin_middle_02_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_chin_middle_02_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_chin_upper_00_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_chin_upper_00_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_chin_upper_01_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_chin_upper_01_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_chin_upper_02_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_chin_upper_02_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_jaw_middle_00_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_jaw_middle_00_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_jaw_middle_01_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_jaw_middle_01_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_jaw_middle_02_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_jaw_middle_02_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_jaw_middle_M": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_lowerlip_bottom_00_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_lowerlip_middle_00_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_lowerlip_top_00_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_lowerlip_inner_00_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "XQ_lowerlip_bottom_00_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_lowerlip_middle_00_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_lowerlip_top_00_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_lowerlip_inner_00_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_lowerlip_bottom_01_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_lowerlip_middle_01_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_lowerlip_top_01_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_lowerlip_inner_01_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_lowerlip_bottom_01_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_lowerlip_middle_01_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_lowerlip_top_01_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_lowerlip_inner_01_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_lowerlip_bottom_02_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_lowerlip_top_02_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_lowerlip_middle_02_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_lowerlip_bottom_03_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_lowerlip_inner_02_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_lowerlip_bottom_M": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_lowerlip_middle_M": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_lowerlip_top_M": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_lowerlip_inner_M": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_mouth_bottom_00_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_mouth_bottom_00_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_mouth_bottom_01_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_mouth_bottom_01_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_mouth_bottom_02_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_mouth_bottom_02_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_mouth_bottom_M": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_mouth_lower_00_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_mouth_lower_00_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_mouth_lower_01_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_mouth_lower_01_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_mouth_lower_02_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_mouth_lower_02_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_mouth_lower_M": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_jaw_back_00_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_jaw_back_00_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_jaw_back_01_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_jaw_back_01_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_jaw_back_02_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "XQ_jaw_back_02_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_jaw_back_M": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_lowerlip_bottom_02_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_lowerlip_middle_02_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_lowerlip_top_02_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_lowerlip_bottom_03_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_lowerlip_inner_02_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_Teeth": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_Tongue_01": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_Tongue_02": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_cheek_bottom_00_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_cheek_bottom_00_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_cheek_bottom_01_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "XQ_cheek_bottom_01_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_cheek_bottom_02_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_cheek_bottom_02_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_cheek_lower_01_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "XQ_cheek_lower_01_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_cheek_lower_02_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_cheek_lower_02_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "XQ_cheek_middle_00_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_cheek_middle_00_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_cheek_upper_00_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_cheek_upper_00_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_cheek_upper_01_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_cheek_upper_01_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "XQ_cheek_upper_02_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_cheek_upper_02_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_cheek_upper_03_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_cheek_upper_03_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_cheek_upper_04_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_cheek_upper_04_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyeblow_M": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_eyebrow_bottom_00_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_eyebrow_bottom_00_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyebrow_bottom_01_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "XQ_eyebrow_bottom_01_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyebrow_bottom_02_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyebrow_bottom_02_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyebrow_bottom_03_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyebrow_bottom_03_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_eyebrow_top_00_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyebrow_top_00_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_eyebrow_top_01_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyebrow_top_01_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "XQ_eyebrow_top_02_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyebrow_top_02_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "XQ_eyebrow_top_03_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_eyebrow_top_03_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_EyeCorner_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_EyeCorner_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyelid_01_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyelid_01_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyelid_02_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyelid_02_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyelid_03_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyelid_03_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_eyelid_04_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_eyelid_04_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyelid_lower_U_04_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyelid_lower_U_04_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyelid_bottom_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "XQ_eyelid_bottom_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyelid_lower_00_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_eyelid_lower_00_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyelid_lower_01_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyelid_lower_01_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_eyelid_lower_02_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "XQ_eyelid_lower_02_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyelid_lower_03_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyelid_lower_03_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyelid_upper_00_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_eyelid_upper_00_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "XQ_eyelid_upper_01_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyelid_upper_01_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyelid_upper_02_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyelid_upper_02_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_eyelid_upper_03_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_eyelid_upper_03_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_forehead_bottom_M": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_forehead_middle_00_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_forehead_middle_00_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_forehead_middle_01_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_forehead_middle_01_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_forehead_middle_02_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_forehead_middle_02_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_forehead_middle_M": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_mouth_00_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_mouth_00_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_mouth_01_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_mouth_01_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_mouth_02_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_mouth_02_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "XQ_mouth_03_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_mouth_03_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_Nasolabialfold_lower_00_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_Nasolabialfold_lower_00_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_Nasolabialfold_lower_01_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_Nasolabialfold_lower_01_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_Nasolabialfold_lower_02_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_Nasolabialfold_lower_02_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_Nasolabialfold_lower_03_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_Nasolabialfold_lower_03_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_Nasolabialfold_lower_04_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "XQ_Nasolabialfold_lower_04_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_Nasolabialfold_upper_00_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_Nasolabialfold_upper_00_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_Nasolabialfold_upper_02_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_Nasolabialfold_upper_02_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_Nasolabialfold_upper_03_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_Nasolabialfold_upper_03_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_Nasolabialfold_upper_04_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "XQ_Nasolabialfold_upper_04_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_Nasolabialfold_upper_05_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_Nasolabialfold_upper_05_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_nose_00_M": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_nose_01_M": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_nose_02_M": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_nose_03_M": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_nose_04_M": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_nose_lower_00_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_nose_lower_00_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_nose_lower_01_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_nose_lower_01_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "XQ_nose_lower_02_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_nose_lower_02_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_nose_lower_03_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_nose_lower_03_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_nose_lower_04_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_nose_lower_04_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_nose_upper_00_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_nose_upper_00_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_nose_upper_01_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_nose_upper_01_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_upperlip_bottom_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_upperlip_bottom_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_upperlip_top_00_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "XQ_upperlip_middle_00_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_upperlip_top_00_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_upperlip_middle_00_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_upperlip_top_01_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_upperlip_middle00_01_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_upperlip_top_01_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_upperlip_middle00_01_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_upperlip_top_02_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_upperlip_middle00_02_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_upperlip_inner_00_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_upperlip_top_02_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "XQ_upperlip_middle00_02_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_upperlip_inner_00_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_upperlip_top_03_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_upperlip_inner_01_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_upperlip_top_03_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_upperlip_inner_01_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_upperlip_top_M": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_upperlip_middle_M": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyelid_lower_U_01_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyelid_lower_U_02_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_eyelid_lower_U_03_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_eyelid_lower_U_01_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyelid_lower_U_02_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyelid_lower_U_03_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000029575586669421963
+    },
+    "XQ_eyelid_00_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyelid_lower_U_00_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyelid_lower_U_00_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_eyelid_00_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_nose_top_00_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_nose_top_00_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_mouth_04_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_mouth_04_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_cheek_upper_05_L": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0
+    },
+    "XQ_cheek_upper_05_R": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "XQ_jointEyeRight": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "XQ_jointEyeLeft": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "mixamorig:RightShoulder": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "mixamorig:RightArm": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "mixamorig:RightForeArm": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "mixamorig:RightHand": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "mixamorig:RightHandIndex1": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "mixamorig:RightHandIndex2": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.000003818191820832845,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "mixamorig:RightHandIndex3": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "mixamorig:RightHandIndex4": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "mixamorig:RightHandMiddle1": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "mixamorig:RightHandMiddle2": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "mixamorig:RightHandMiddle3": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "mixamorig:RightHandMiddle4": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "mixamorig:RightHandPinky1": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000029575586669421963
+    },
+    "mixamorig:RightHandPinky2": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000024148365394514667,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "mixamorig:RightHandPinky3": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "mixamorig:RightHandPinky4": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "mixamorig:RightHandRing1": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "mixamorig:RightHandRing2": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "mixamorig:RightHandRing3": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000024148365394514667,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "mixamorig:RightHandRing4": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    },
+    "mixamorig:RightHandThumb1": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "mixamorig:RightHandThumb2": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000029575586669421963,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "mixamorig:RightHandThumb3": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000017075472925031877
+    },
+    "mixamorig:RightHandThumb4": {
+      "maxWorldPositionM": 0,
+      "maxWorldQuaternionDeg": 0.0000034150945850063755,
+      "maxLocalQuaternionDeg": 0.0000024148365394514667
+    }
+  },
+  "unaffectedActionDifferences": [
+    {
+      "w": "m870",
+      "m": "RifleIdle",
+      "mp": 0,
+      "mq": 0.0000034150945850063755
+    },
+    {
+      "w": "m870",
+      "m": "RifleWalk",
+      "mp": 0,
+      "mq": 0.000003818191820832845
+    },
+    {
+      "w": "m870",
+      "m": "RifleAimingIdle",
+      "mp": 0,
+      "mq": 0.0000034150945850063755
+    },
+    {
+      "w": "m870",
+      "m": "ShotgunPump",
+      "mp": 0,
+      "mq": 0.0000034150945850063755
+    },
+    {
+      "w": "m870",
+      "m": "FiringRifle",
+      "mp": 0,
+      "mq": 0.0000034150945850063755
+    },
+    {
+      "w": "m870",
+      "m": "Reloading",
+      "mp": 0,
+      "mq": 0.000003818191820832845
+    },
+    {
+      "w": "type54",
+      "m": "RifleRun",
+      "mp": 0,
+      "mq": 0.000003818191820832845
+    },
+    {
+      "w": "type64",
+      "m": "RifleRun",
+      "mp": 0,
+      "mq": 0.000003818191820832845
+    },
+    {
+      "w": "qsz92",
+      "m": "RifleRun",
+      "mp": 0,
+      "mq": 0.000003818191820832845
+    }
+  ],
+  "maxGunPositionM": 0,
+  "maxGunQuaternionDeg": 0.0000024148365394514667,
+  "maxScaleDifference": 0,
+  "maxLocalPositionDifference": 0,
+  "failures": []
+}

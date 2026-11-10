@@ -1,0 +1,290 @@
+{
+  "checks": {
+    "sourceShaUnchanged": true,
+    "sourceBinUnchanged": true,
+    "onlyRequestedNodeWidthChanges": true,
+    "sourceMeshesUnchanged": true,
+    "sourceMaterialsUnchanged": true,
+    "noGameAutoplayAnimations": true,
+    "allCircularPartsUnchanged": true,
+    "pumpFullTravelCorrect": true,
+    "exactlyOneMetreLength": true,
+    "allSiteModelsSameBytes": true
+  },
+  "dimensions": [
+    0.06023766121226144,
+    0.21156930250325123,
+    1.0000000000000004
+  ],
+  "circularPartAudit": [
+    {
+      "name": "Barrel_visual",
+      "identicalWorldMatrix": true,
+      "originalWorldScale": [
+        1.0223580433122137,
+        1.0223580433122135,
+        1.0223580433122137
+      ],
+      "finalWorldScale": [
+        1.0223580433122137,
+        1.0223580433122135,
+        1.0223580433122137
+      ]
+    },
+    {
+      "name": "Exposed_tube_visual",
+      "identicalWorldMatrix": true,
+      "originalWorldScale": [
+        1.0223580433122137,
+        1.0223580433122135,
+        1.0223580433122137
+      ],
+      "finalWorldScale": [
+        1.0223580433122137,
+        1.0223580433122135,
+        1.0223580433122137
+      ]
+    },
+    {
+      "name": "Front_cap_visual",
+      "identicalWorldMatrix": true,
+      "originalWorldScale": [
+        1.0223580433122137,
+        1.0223580433122135,
+        1.0223580433122137
+      ],
+      "finalWorldScale": [
+        1.0223580433122137,
+        1.0223580433122135,
+        1.0223580433122137
+      ]
+    },
+    {
+      "name": "Under_pump_tube_visual",
+      "identicalWorldMatrix": true,
+      "originalWorldScale": [
+        1.0223580433122137,
+        1.0223580433122135,
+        1.0223580433122137
+      ],
+      "finalWorldScale": [
+        1.0223580433122137,
+        1.0223580433122135,
+        1.0223580433122137
+      ]
+    }
+  ],
+  "pumpSamples": [
+    {
+      "fraction": 0,
+      "delta": [
+        0,
+        0,
+        0
+      ],
+      "staticUnchanged": true,
+      "axisAndLengthCorrect": true
+    },
+    {
+      "fraction": 0.05,
+      "delta": [
+        -8.326672684688675e-19,
+        0,
+        0.0037500000000000033
+      ],
+      "staticUnchanged": true,
+      "axisAndLengthCorrect": true
+    },
+    {
+      "fraction": 0.1,
+      "delta": [
+        -1.665334536937735e-18,
+        0,
+        0.0075
+      ],
+      "staticUnchanged": true,
+      "axisAndLengthCorrect": true
+    },
+    {
+      "fraction": 0.15,
+      "delta": [
+        -2.498001805406602e-18,
+        0,
+        0.011250000000000003
+      ],
+      "staticUnchanged": true,
+      "axisAndLengthCorrect": true
+    },
+    {
+      "fraction": 0.2,
+      "delta": [
+        -3.33066907387547e-18,
+        0,
+        0.015
+      ],
+      "staticUnchanged": true,
+      "axisAndLengthCorrect": true
+    },
+    {
+      "fraction": 0.25,
+      "delta": [
+        -4.163336342344337e-18,
+        0,
+        0.018750000000000003
+      ],
+      "staticUnchanged": true,
+      "axisAndLengthCorrect": true
+    },
+    {
+      "fraction": 0.3,
+      "delta": [
+        -4.996003610813204e-18,
+        0,
+        0.022500000000000006
+      ],
+      "staticUnchanged": true,
+      "axisAndLengthCorrect": true
+    },
+    {
+      "fraction": 0.35,
+      "delta": [
+        -5.8286708792820724e-18,
+        0,
+        0.02625000000000001
+      ],
+      "staticUnchanged": true,
+      "axisAndLengthCorrect": true
+    },
+    {
+      "fraction": 0.4,
+      "delta": [
+        -6.66133814775094e-18,
+        0,
+        0.030000000000000006
+      ],
+      "staticUnchanged": true,
+      "axisAndLengthCorrect": true
+    },
+    {
+      "fraction": 0.45,
+      "delta": [
+        -7.494005416219807e-18,
+        0,
+        0.03375000000000001
+      ],
+      "staticUnchanged": true,
+      "axisAndLengthCorrect": true
+    },
+    {
+      "fraction": 0.5,
+      "delta": [
+        -8.326672684688674e-18,
+        0,
+        0.03750000000000001
+      ],
+      "staticUnchanged": true,
+      "axisAndLengthCorrect": true
+    },
+    {
+      "fraction": 0.55,
+      "delta": [
+        -9.159339953157542e-18,
+        0,
+        0.041250000000000016
+      ],
+      "staticUnchanged": true,
+      "axisAndLengthCorrect": true
+    },
+    {
+      "fraction": 0.6,
+      "delta": [
+        -9.992007221626408e-18,
+        0,
+        0.04500000000000001
+      ],
+      "staticUnchanged": true,
+      "axisAndLengthCorrect": true
+    },
+    {
+      "fraction": 0.65,
+      "delta": [
+        -1.0824674490095277e-17,
+        0,
+        0.048750000000000016
+      ],
+      "staticUnchanged": true,
+      "axisAndLengthCorrect": true
+    },
+    {
+      "fraction": 0.7,
+      "delta": [
+        -1.1657341758564145e-17,
+        0,
+        0.05250000000000001
+      ],
+      "staticUnchanged": true,
+      "axisAndLengthCorrect": true
+    },
+    {
+      "fraction": 0.75,
+      "delta": [
+        -1.2490009027033013e-17,
+        0,
+        0.056250000000000015
+      ],
+      "staticUnchanged": true,
+      "axisAndLengthCorrect": true
+    },
+    {
+      "fraction": 0.8,
+      "delta": [
+        -1.332267629550188e-17,
+        0,
+        0.06000000000000001
+      ],
+      "staticUnchanged": true,
+      "axisAndLengthCorrect": true
+    },
+    {
+      "fraction": 0.85,
+      "delta": [
+        -1.4155343563970746e-17,
+        0,
+        0.06375000000000001
+      ],
+      "staticUnchanged": true,
+      "axisAndLengthCorrect": true
+    },
+    {
+      "fraction": 0.9,
+      "delta": [
+        -1.4988010832439614e-17,
+        0,
+        0.06750000000000002
+      ],
+      "staticUnchanged": true,
+      "axisAndLengthCorrect": true
+    },
+    {
+      "fraction": 0.95,
+      "delta": [
+        -1.5820678100908482e-17,
+        0,
+        0.07125000000000002
+      ],
+      "staticUnchanged": true,
+      "axisAndLengthCorrect": true
+    },
+    {
+      "fraction": 1,
+      "delta": [
+        -1.6653345369377347e-17,
+        0,
+        0.07500000000000002
+      ],
+      "staticUnchanged": true,
+      "axisAndLengthCorrect": true
+    }
+  ],
+  "modelSha256": "b1192f67c1bc1ca6334d5b4b281eefe234bcb222132c627580dab594e8e14795"
+}

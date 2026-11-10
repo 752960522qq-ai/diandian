@@ -1,0 +1,10 @@
+{
+  "web/motion-labs/linxu-motion-lab/assets/characters/linxu/character.glb": "71f8f6a2562397e82c6e9f102ea4f2cd358b135486a30cb63777f49914ba54c9",
+  "web/motion-labs/linxu-motion-lab/assets/characters/linxu/motions.glb": "9a451d615d3135ecf10abc412e48494ff64541f8005a97e77e8a703afa87e103",
+  "web/motion-labs/linxu-motion-lab/assets/characters/linxu/weapon_update_v6.glb": "158ceb2de8b7a883603696ac027ad4915dadd612d051b09bb12f34f7cc772c6b",
+  "web/motion-labs/linxu-motion-lab/assets/weapon_attachment.json": "9aadf5d11470a8d3c76cce4aa47a3349f36f8c4fe4e2a1ea475f38e6d471f57c",
+  "tools/weapon_v6_three/candidate.mjs": "a78f0e2a6701e26c391dc2cef9171aaea144f21a09152dbb511ab9d418c2571d",
+  "tools/weapon_v6_shoulder/candidate_policy.mjs": "44d05901cae0c883e514c6aaf1dd607af876a1130f28e6c12545f942e6ff9c88",
+  "original81d/character.glb": "71f8f6a2562397e82c6e9f102ea4f2cd358b135486a30cb63777f49914ba54c9",
+  "original81d/source-weapon_attachment.json": "48122b7d881fdea90b8eefb29d823abc17bdd2694fe00e64e05efd5bdbf6d4f4"
+}
