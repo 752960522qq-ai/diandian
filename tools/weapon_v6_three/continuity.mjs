@@ -1,0 +1,8 @@
+import fs from 'node:fs';import * as T from 'three';import {candidate,OUT} from './candidate.mjs';
+const report={method:'120 Hz continuous sampling, no time remapping; reference and target sampled at identical times',characters:{}};
+for(const cid of (process.argv[2]||'linxu').split(',')){const r=await candidate(cid),rows=[];for(const w of ['type54','type64','qsz92','m870'])for(const m of w==='m870'?['RifleIdle','RifleWalk','RifleRun','ShotgunPump','Reloading']:['PistolIdle','PistolWalk']){
+ const d=r.duration(w,m),steps=Math.ceil(d*120),samples=[];for(let i=0;i<=steps;i++){const t=d*i/steps,s=r.pose(w,m,t),g=r.gunScenes.get(w),rh=r.bones.get('mixamorig:RightHand');samples.push({t,p:g.position.clone(),q:g.quaternion.clone(),hand:rh.getWorldPosition(new T.Vector3()),source:r.src.attachment.weapons.get(w==='m870'?'winchester1897':w==='type64'?'type54':w).position.clone()});}
+ const speeds=[],angular=[],sourceSpeeds=[];for(let i=1;i<samples.length;i++){const a=samples[i-1],b=samples[i],dt=b.t-a.t;speeds.push(b.p.distanceTo(a.p)/dt);angular.push(T.MathUtils.radToDeg(a.q.angleTo(b.q))/dt);sourceSpeeds.push(b.source.distanceTo(a.source)/dt);}const maxAccel=speeds.slice(1).reduce((s,v,i)=>Math.max(s,Math.abs(v-speeds[i])/(d/steps)),0);
+ rows.push({weapon:w,motion:m,duration:d,peakGunSpeedMps:Math.max(...speeds),peakSourceGunSpeedMps:Math.max(...sourceSpeeds),peakGunAngularSpeedDegps:Math.max(...angular),peakSpeedChangeMps2:maxAccel,loopPositionJumpM:samples[0].p.distanceTo(samples.at(-1).p),loopQuaternionJumpDegrees:T.MathUtils.radToDeg(samples[0].q.angleTo(samples.at(-1).q))});
+ }report.characters[cid]=rows;console.log(cid,rows);}
+fs.writeFileSync(OUT+'/source-continuity.json',JSON.stringify(report,null,2));

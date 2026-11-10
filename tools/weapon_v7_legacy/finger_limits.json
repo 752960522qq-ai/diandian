@@ -1,0 +1,200 @@
+{
+  "linxu": {
+    "type56_1": {
+      "RifleIdle": {
+        "RightHandThumb2": 80
+      },
+      "RifleWalk": {
+        "RightHandThumb2": 80
+      },
+      "RifleAimingIdle": {
+        "RightHandThumb2": 80
+      },
+      "FiringRifle": {
+        "RightHandThumb2": 80
+      },
+      "RifleRun": {
+        "RightHandThumb2": 80
+      },
+      "Reloading": {
+        "RightHandThumb2": 80
+      }
+    }
+  },
+  "military": {
+    "qcq171": {
+      "RifleIdle": {
+        "RightHandIndex3": 80
+      },
+      "RifleWalk": {
+        "RightHandIndex3": 80
+      },
+      "RifleAimingIdle": {
+        "RightHandIndex3": 80
+      },
+      "FiringRifle": {
+        "RightHandIndex3": 80
+      },
+      "RifleRun": {
+        "RightHandIndex3": 80
+      }
+    },
+    "type97hawk": {
+      "RifleWalk": {
+        "LeftHandIndex3": 80,
+        "LeftHandMiddle3": 80,
+        "LeftHandRing3": 80,
+        "LeftHandPinky3": 80,
+        "RightHandIndex3": 80,
+        "RightHandMiddle2": 100,
+        "RightHandMiddle3": 80
+      },
+      "FiringRifle": {
+        "RightHandIndex3": 80
+      }
+    },
+    "qbu85": {
+      "RifleAimingIdle": {
+        "LeftHandIndex3": 80,
+        "LeftHandMiddle3": 80,
+        "LeftHandRing3": 80,
+        "LeftHandPinky3": 80
+      },
+      "FiringRifle": {
+        "RightHandIndex3": 80,
+        "LeftHandIndex3": 80,
+        "LeftHandMiddle3": 80,
+        "LeftHandRing3": 80,
+        "LeftHandPinky3": 80
+      },
+      "RifleRun": {
+        "LeftHandIndex3": 80,
+        "LeftHandMiddle3": 80,
+        "LeftHandRing3": 80,
+        "LeftHandPinky3": 80
+      }
+    },
+    "type56_1": {
+      "RifleWalk": {
+        "LeftHandIndex3": 80,
+        "LeftHandMiddle3": 80,
+        "LeftHandRing3": 80,
+        "LeftHandPinky3": 80,
+        "RightHandIndex3": 80,
+        "RightHandMiddle2": 100,
+        "RightHandMiddle3": 80
+      },
+      "RifleAimingIdle": {
+        "LeftHandIndex3": 80,
+        "LeftHandMiddle3": 80,
+        "LeftHandRing3": 80,
+        "LeftHandPinky3": 80
+      },
+      "FiringRifle": {
+        "RightHandIndex3": 80,
+        "LeftHandIndex3": 80,
+        "LeftHandMiddle3": 80,
+        "LeftHandRing3": 80,
+        "LeftHandPinky3": 80
+      }
+    },
+    "qbz95": {
+      "FiringRifle": {
+        "RightHandIndex3": 80
+      },
+      "RifleWalk": {
+        "RightHandIndex3": 80,
+        "RightHandMiddle2": 100,
+        "RightHandMiddle3": 80
+      }
+    }
+  },
+  "vest": {
+    "qcq171": {
+      "RifleIdle": {
+        "RightHandIndex3": 80
+      },
+      "RifleWalk": {
+        "RightHandIndex3": 80
+      },
+      "RifleAimingIdle": {
+        "RightHandIndex3": 80
+      },
+      "FiringRifle": {
+        "RightHandIndex3": 80
+      },
+      "RifleRun": {
+        "RightHandIndex3": 80
+      }
+    },
+    "type97hawk": {
+      "RifleWalk": {
+        "LeftHandIndex3": 80,
+        "LeftHandMiddle3": 80,
+        "LeftHandRing3": 80,
+        "LeftHandPinky3": 80,
+        "RightHandIndex3": 80,
+        "RightHandMiddle2": 100,
+        "RightHandMiddle3": 80
+      },
+      "FiringRifle": {
+        "RightHandIndex3": 80
+      }
+    },
+    "qbu85": {
+      "RifleAimingIdle": {
+        "LeftHandIndex3": 80,
+        "LeftHandMiddle3": 80,
+        "LeftHandRing3": 80,
+        "LeftHandPinky3": 80
+      },
+      "FiringRifle": {
+        "RightHandIndex3": 80,
+        "LeftHandIndex3": 80,
+        "LeftHandMiddle3": 80,
+        "LeftHandRing3": 80,
+        "LeftHandPinky3": 80
+      },
+      "RifleRun": {
+        "LeftHandIndex3": 80,
+        "LeftHandMiddle3": 80,
+        "LeftHandRing3": 80,
+        "LeftHandPinky3": 80
+      }
+    },
+    "type56_1": {
+      "RifleWalk": {
+        "LeftHandIndex3": 80,
+        "LeftHandMiddle3": 80,
+        "LeftHandRing3": 80,
+        "LeftHandPinky3": 80,
+        "RightHandIndex3": 80,
+        "RightHandMiddle2": 100,
+        "RightHandMiddle3": 80
+      },
+      "RifleAimingIdle": {
+        "LeftHandIndex3": 80,
+        "LeftHandMiddle3": 80,
+        "LeftHandRing3": 80,
+        "LeftHandPinky3": 80
+      },
+      "FiringRifle": {
+        "RightHandIndex3": 80,
+        "LeftHandIndex3": 80,
+        "LeftHandMiddle3": 80,
+        "LeftHandRing3": 80,
+        "LeftHandPinky3": 80
+      }
+    },
+    "qbz95": {
+      "FiringRifle": {
+        "RightHandIndex3": 80
+      },
+      "RifleWalk": {
+        "RightHandIndex3": 80,
+        "RightHandMiddle2": 100,
+        "RightHandMiddle3": 80
+      }
+    }
+  }
+}

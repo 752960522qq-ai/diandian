@@ -1,0 +1,52 @@
+五款模型：第二轮几何精修（v2）
+
+这轮处理的是几何形面、局部棱线和弹匣比例，不是只改法线。上一版文件与原始参考均保留，v2 单独命名。
+
+逐款改动
+TT33 / 54式：按原模型外形与握把口重新调整弹匣侧面宽度、厚度、倾角及渐缩；整理套筒宽面的大三角凹陷。原有小缺口、后部槽纹、握把纹饰与底板保留。
+QSZ92G：整理套筒斜侧大面、顶面、前框带与凸起面；减少意外折痕，使已有槽纹更清楚，保留真实阶差及浅梯形缺口。
+TYPE64：校正前部侧面；另行修掉右侧靠槽纹处的大三角折痕，以及开口下方的小菱形凹坑。开口边缘、下缘倒角、槽纹和凸字保留。
+R870：整理泵木壳槽口、机匣与局部外形；修掉泵上三角裂口状阴影，以及枪托下缘两簇真实凹痕。长槽、木纹、泵下管体和内衬保留。
+SVD63：局部整理护木、枪托、镜体和弹匣，保留并理顺孔槽边、弹匣筋条及镜体环形台阶。
+
+保留与验证
+原贴图图片字节、UV、材质、语义节点及既有补件保留，三角形数量没有增加。局部法线同步适配修正后的几何。
+五款均检查了贴图、灰模与线框，并重新导入实际输出文件。检查未发现新增裂点、退化三角形或几何翻面。
+套筒 / 弹匣 / 泵的活动节点仍可用，静态枪管与主体不跟着误动。动画起点和片尾均回装；GLB 默认是装配姿态。动画名为“型号_Component_Inspection”，仅为分件展开检查，不是完整操作动作或碰撞就绪动画。
+
+对照材料
+每款附上一版与本轮的多视角对照、局部近景、线框检查及分件视频。
+TT33另附原模型、上一版、本轮的弹匣侧面和端视对照。QSZ92G、TYPE64弹匣本轮未改形，近景用于检查其保留状态；R870对应的是泵及下方管体近景。
+
+仍然存在的局限
+这不是整件模型的完整重拓扑。细握把花纹、徽记、刻字、少量窄过渡与镜体小面仍受原转换模型精度限制。
+TYPE64枪口前部倒角轮廓仍略显多边形；R870泵底缘有浅微波纹；SVD部分上排槽沿用原输入的浅凹结构，并未重建为原模型的完整通孔。
+这些残留已与本轮修掉的明显大面凹痕区分，不宣称五款的全部细小不规则都消失。
+
+来源与许可
+以下是原始参考模型元数据；修复不扩大原许可。TYPE64与SVD63标注CC-BY-NC 4.0，商用需另行核实授权。
+
+TT33
+作者：White-Horse (https://sketchfab.com/white-horse)
+许可：CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+来源：https://sketchfab.com/3d-models/tt33-tokarev-pistol-e96197a0a9ed46b6aa74757b6ff4c2da
+
+QSZ92G
+作者：8sianDude (https://sketchfab.com/haoliu95)
+许可：CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+来源：https://sketchfab.com/3d-models/norinco-qsz-92g-9mm-handgun-9552035434514828b7f57b6738f5fb7a
+
+TYPE64
+作者：Martini-SF (https://sketchfab.com/Martini-SF)
+许可：CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+来源：https://sketchfab.com/3d-models/type-64-compact-pistol-a72b19bcbe2948b18e854818603f6765
+
+R870
+作者：tris.blend (https://sketchfab.com/tris09)
+许可：CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+来源：https://sketchfab.com/3d-models/remington-870-pbrgr-26e37df4c38c4e8a9da8adeb4b66bff6
+
+SVD63
+作者：lokeig (https://sketchfab.com/lokeig)
+许可：CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+来源：https://sketchfab.com/3d-models/svd-63-dragunov-07ff1bb7af4449409e23c04539b6040e

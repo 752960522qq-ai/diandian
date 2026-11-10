@@ -1,0 +1,11 @@
+import fs from 'node:fs';import * as T from 'three';import {runtime} from './runtime.mjs';import {exportPose} from './export_pose_util.mjs';
+const out='web/motion-labs/verification_weapon_v6_two/poses';fs.mkdirSync(out,{recursive:true});let manifest=[];
+const allShots=[['m870','RifleWalk',.2],['qsz92','RifleRun',.2],['qsz92','Reloading',1.2],['type54','RifleRun',.2],['type54','Reloading',1.2],['type64','RifleRun',.2],['type64','Reloading',1.2],['m870','ShotgunAimLevel',.2],['m870','RifleIdle',.2],['m870','ShotgunPump',.235],['m870','Reloading',1.2],['qsz92','PistolIdle',.2],['type54','PistolAimingIdle',.2],['type64','PistolIdle',.2]];
+const shots=process.env.SHOTS?allShots.filter(s=>process.env.SHOTS.split(',').some(k=>(s[0]+'-'+s[1]).includes(k))):allShots;
+for(const cid of ['diandian','zhigeng']){
+ const runtimes={};for(const kind of (process.env.KINDS||'baseline,v5,candidate_a').split(','))runtimes[kind]=await runtime(cid,kind);
+ for(const [w,m,time]of shots){const b=runtimes.baseline||await runtime(cid,'baseline');b.poseAt(w,m,Math.min(time,b.duration(w,m)));const right=b.attachment.bones.RightHand.getWorldPosition(new T.Vector3()),left=b.attachment.bones.LeftHand.getWorldPosition(new T.Vector3()),center=right.clone().add(left).multiplyScalar(.5);
+  for(const [kind,r]of Object.entries(runtimes)){const t=Math.min(time,r.duration(w,m));r.poseAt(w,m,t);const name=`${cid}-${w}-${m}-${kind}`,prefix=out+'/'+name;exportPose(r.file,r.model.root,r.model.wrapper,prefix+'.glb');const gun=r.attachment.weapons.get(r.mapWeapon(w)),visual=(kind==='baseline'||kind==='v5')?gun:gun.children[0];const x={position:new T.Vector3(),quaternion:new T.Quaternion(),scale:new T.Vector3()};visual.matrixWorld.decompose(x.position,x.quaternion,x.scale);exportPose(r.dir+'/assets/weapons/'+r.mapWeapon(w)+'.glb',gun,x,prefix+'-gun.glb');manifest.push({name,cid,weapon:w,motion:m,kind,time:t,center:center.toArray(),right:right.toArray(),left:left.toArray(),state:r.attachment.getState()});}
+ }
+}
+if(process.env.KINDS){const old=JSON.parse(fs.readFileSync(out+'/manifest.json'));const names=new Set(manifest.map(r=>r.name));manifest=[...old.filter(r=>!names.has(r.name)),...manifest];}fs.writeFileSync(out+'/manifest.json',JSON.stringify(manifest,null,2));console.log('Exported',manifest.length,'matched skinned poses.');

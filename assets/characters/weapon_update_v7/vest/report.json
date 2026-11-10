@@ -1,0 +1,695 @@
+{
+  "character": "vest",
+  "revision": "male-pose-v7",
+  "base_v6_sha256": "8a52c51f34f5e0eaff31588a6b2a72f8fe497c57ffb3de81b270b28499a6e9d1",
+  "source_commit": "95bab506c0e01e04c7818f7e0f5001ad3a105c14",
+  "original_source_equivalence": "Relevant original source motion/config hashes match V6 recorded 81d5a485 sources.",
+  "generator_sha256": "8670772b85a2310ed0f7c423486fb58e93419ab5e1a0ee340efa07d954107fb8",
+  "policies": {
+    "shotgun-policy.mjs": "92c6a780e11b9a40b53701299901cf7a28c8755fdad3142487f85ceedb9f93af",
+    "finger-policy.mjs": "43b880d211871a7ca5879b2e1072996e5a917fc87334af98b274cf5d785c65de",
+    "pose-utils.mjs": "f38d63c29d4e455a33a8ccb6ca0dd7c54db340c22e1b04dfedf278eed82a766b"
+  },
+  "scope": "Only arm/forearm/hand/finger quaternion output buffers and matching gun-hand transforms may change; body, head, neck, shoulder, legs, timing and animation identity preserved.",
+  "rows": [
+    {
+      "weapon": "qsz92",
+      "motion": "PistolIdle",
+      "clip": "Natural_qsz92_PistolIdle",
+      "duration": 0.03333333507180214,
+      "samples": 4,
+      "activeSamples": 4,
+      "changedBoneTracks": [
+        {
+          "bone": "mixamorig:LeftArm",
+          "maxAngularChangeDeg": 8.412203837904656
+        },
+        {
+          "bone": "mixamorig:LeftForeArm",
+          "maxAngularChangeDeg": 8.240261352185389
+        },
+        {
+          "bone": "mixamorig:LeftHand",
+          "maxAngularChangeDeg": 2.6675608548010032
+        }
+      ],
+      "gunTrackChanged": false,
+      "maxGunLocalPositionChangeM": 0,
+      "maxGunLocalAngularChangeDeg": 0,
+      "maxWristReachErrorM": 9.21274887777847e-9
+    },
+    {
+      "weapon": "qsz92",
+      "motion": "PistolWalk",
+      "clip": "Natural_qsz92_PistolWalk",
+      "duration": 0.6666666865348816,
+      "samples": 162,
+      "activeSamples": 162,
+      "changedBoneTracks": [
+        {
+          "bone": "mixamorig:LeftArm",
+          "maxAngularChangeDeg": 9.31956601746262
+        },
+        {
+          "bone": "mixamorig:LeftForeArm",
+          "maxAngularChangeDeg": 8.05659915853808
+        },
+        {
+          "bone": "mixamorig:LeftHand",
+          "maxAngularChangeDeg": 2.204102329925384
+        }
+      ],
+      "gunTrackChanged": false,
+      "maxGunLocalPositionChangeM": 6.317067648786261e-16,
+      "maxGunLocalAngularChangeDeg": 0.0000017075472925031877,
+      "maxWristReachErrorM": 1.1824379143409627e-8
+    },
+    {
+      "weapon": "qsz92",
+      "motion": "RifleRun",
+      "clip": "Natural_qsz92_RifleRun",
+      "duration": 0.6666666865348816,
+      "samples": 162,
+      "activeSamples": 0,
+      "changedBoneTracks": [],
+      "gunTrackChanged": false,
+      "maxGunLocalPositionChangeM": 6.5327403655743464e-15,
+      "maxGunLocalAngularChangeDeg": 0.0000024148365394514667,
+      "maxWristReachErrorM": 0
+    },
+    {
+      "weapon": "qsz92",
+      "motion": "PistolAimingIdle",
+      "clip": "Natural_qsz92_PistolAimingIdle",
+      "duration": 1.3333333730697632,
+      "samples": 82,
+      "activeSamples": 82,
+      "changedBoneTracks": [
+        {
+          "bone": "mixamorig:RightHandIndex1",
+          "maxAngularChangeDeg": 28.178683051050374
+        },
+        {
+          "bone": "mixamorig:RightHandIndex2",
+          "maxAngularChangeDeg": 35.05373744671
+        },
+        {
+          "bone": "mixamorig:RightHandIndex3",
+          "maxAngularChangeDeg": 148.33316158803015
+        }
+      ],
+      "gunTrackChanged": false,
+      "maxGunLocalPositionChangeM": 2.4800534100544625e-15,
+      "maxGunLocalAngularChangeDeg": 0.0000034150945850063755,
+      "maxWristReachErrorM": 0
+    },
+    {
+      "weapon": "qsz92",
+      "motion": "PistolShooting",
+      "clip": "Natural_qsz92_PistolShooting",
+      "duration": 1.1666666269302368,
+      "samples": 281,
+      "activeSamples": 281,
+      "changedBoneTracks": [
+        {
+          "bone": "mixamorig:RightHandIndex1",
+          "maxAngularChangeDeg": 28.178682782836063
+        },
+        {
+          "bone": "mixamorig:RightHandIndex2",
+          "maxAngularChangeDeg": 35.053737972437176
+        },
+        {
+          "bone": "mixamorig:RightHandIndex3",
+          "maxAngularChangeDeg": 148.33316169638493
+        }
+      ],
+      "gunTrackChanged": false,
+      "maxGunLocalPositionChangeM": 8.568339948907339e-16,
+      "maxGunLocalAngularChangeDeg": 0.0000029575586669421963,
+      "maxWristReachErrorM": 0
+    },
+    {
+      "weapon": "qsz92",
+      "motion": "Reloading",
+      "clip": "Natural_qsz92_Reloading",
+      "duration": 3.299999952316284,
+      "samples": 793,
+      "activeSamples": 0,
+      "changedBoneTracks": [],
+      "gunTrackChanged": false,
+      "maxGunLocalPositionChangeM": 2.844760403464168e-9,
+      "maxGunLocalAngularChangeDeg": 0.0000034150945850063755,
+      "maxWristReachErrorM": 0
+    },
+    {
+      "weapon": "type54",
+      "motion": "PistolIdle",
+      "clip": "Natural_type54_PistolIdle",
+      "duration": 0.03333333507180214,
+      "samples": 4,
+      "activeSamples": 4,
+      "changedBoneTracks": [
+        {
+          "bone": "mixamorig:LeftArm",
+          "maxAngularChangeDeg": 8.407423205846916
+        },
+        {
+          "bone": "mixamorig:LeftForeArm",
+          "maxAngularChangeDeg": 8.248758294147446
+        },
+        {
+          "bone": "mixamorig:LeftHand",
+          "maxAngularChangeDeg": 2.662075786735584
+        }
+      ],
+      "gunTrackChanged": false,
+      "maxGunLocalPositionChangeM": 0,
+      "maxGunLocalAngularChangeDeg": 0,
+      "maxWristReachErrorM": 9.203999143791988e-9
+    },
+    {
+      "weapon": "type54",
+      "motion": "PistolWalk",
+      "clip": "Natural_type54_PistolWalk",
+      "duration": 0.6666666865348816,
+      "samples": 162,
+      "activeSamples": 162,
+      "changedBoneTracks": [
+        {
+          "bone": "mixamorig:LeftArm",
+          "maxAngularChangeDeg": 9.309749649283837
+        },
+        {
+          "bone": "mixamorig:LeftForeArm",
+          "maxAngularChangeDeg": 8.069812305650776
+        },
+        {
+          "bone": "mixamorig:LeftHand",
+          "maxAngularChangeDeg": 2.1824085454320006
+        }
+      ],
+      "gunTrackChanged": false,
+      "maxGunLocalPositionChangeM": 5.866963282883175e-16,
+      "maxGunLocalAngularChangeDeg": 0.0000017075472925031877,
+      "maxWristReachErrorM": 1.1797904862774404e-8
+    },
+    {
+      "weapon": "type54",
+      "motion": "RifleRun",
+      "clip": "Natural_type54_RifleRun",
+      "duration": 0.6666666865348816,
+      "samples": 162,
+      "activeSamples": 0,
+      "changedBoneTracks": [],
+      "gunTrackChanged": false,
+      "maxGunLocalPositionChangeM": 6.079378949456618e-15,
+      "maxGunLocalAngularChangeDeg": 0.0000024148365394514667,
+      "maxWristReachErrorM": 0
+    },
+    {
+      "weapon": "type54",
+      "motion": "PistolAimingIdle",
+      "clip": "Natural_type54_PistolAimingIdle",
+      "duration": 1.3333333730697632,
+      "samples": 82,
+      "activeSamples": 82,
+      "changedBoneTracks": [
+        {
+          "bone": "mixamorig:RightHandIndex1",
+          "maxAngularChangeDeg": 29.31792086639657
+        },
+        {
+          "bone": "mixamorig:RightHandIndex2",
+          "maxAngularChangeDeg": 21.293719190416606
+        },
+        {
+          "bone": "mixamorig:RightHandIndex3",
+          "maxAngularChangeDeg": 142.41550566282376
+        }
+      ],
+      "gunTrackChanged": false,
+      "maxGunLocalPositionChangeM": 2.5158281371273958e-15,
+      "maxGunLocalAngularChangeDeg": 0.0000034150945850063755,
+      "maxWristReachErrorM": 0
+    },
+    {
+      "weapon": "type54",
+      "motion": "PistolShooting",
+      "clip": "Natural_type54_PistolShooting",
+      "duration": 1.1666666269302368,
+      "samples": 281,
+      "activeSamples": 281,
+      "changedBoneTracks": [
+        {
+          "bone": "mixamorig:RightHandIndex1",
+          "maxAngularChangeDeg": 29.317920814092385
+        },
+        {
+          "bone": "mixamorig:RightHandIndex2",
+          "maxAngularChangeDeg": 21.29371916834681
+        },
+        {
+          "bone": "mixamorig:RightHandIndex3",
+          "maxAngularChangeDeg": 142.4155056452822
+        }
+      ],
+      "gunTrackChanged": false,
+      "maxGunLocalPositionChangeM": 8.200821523359857e-16,
+      "maxGunLocalAngularChangeDeg": 0.0000029575586669421963,
+      "maxWristReachErrorM": 0
+    },
+    {
+      "weapon": "type54",
+      "motion": "Reloading",
+      "clip": "Natural_type54_Reloading",
+      "duration": 3.299999952316284,
+      "samples": 793,
+      "activeSamples": 0,
+      "changedBoneTracks": [],
+      "gunTrackChanged": false,
+      "maxGunLocalPositionChangeM": 2.8447606507923334e-9,
+      "maxGunLocalAngularChangeDeg": 0.0000034150945850063755,
+      "maxWristReachErrorM": 0
+    },
+    {
+      "weapon": "type64",
+      "motion": "PistolIdle",
+      "clip": "Natural_type64_PistolIdle",
+      "duration": 0.03333333507180214,
+      "samples": 4,
+      "activeSamples": 4,
+      "changedBoneTracks": [
+        {
+          "bone": "mixamorig:LeftArm",
+          "maxAngularChangeDeg": 8.407423205846916
+        },
+        {
+          "bone": "mixamorig:LeftForeArm",
+          "maxAngularChangeDeg": 8.248758294147446
+        },
+        {
+          "bone": "mixamorig:LeftHand",
+          "maxAngularChangeDeg": 2.662075786735584
+        }
+      ],
+      "gunTrackChanged": false,
+      "maxGunLocalPositionChangeM": 0,
+      "maxGunLocalAngularChangeDeg": 0,
+      "maxWristReachErrorM": 9.203999143791988e-9
+    },
+    {
+      "weapon": "type64",
+      "motion": "PistolWalk",
+      "clip": "Natural_type64_PistolWalk",
+      "duration": 0.6666666865348816,
+      "samples": 162,
+      "activeSamples": 162,
+      "changedBoneTracks": [
+        {
+          "bone": "mixamorig:LeftArm",
+          "maxAngularChangeDeg": 9.309749649283837
+        },
+        {
+          "bone": "mixamorig:LeftForeArm",
+          "maxAngularChangeDeg": 8.069812305650776
+        },
+        {
+          "bone": "mixamorig:LeftHand",
+          "maxAngularChangeDeg": 2.1824085454320006
+        }
+      ],
+      "gunTrackChanged": false,
+      "maxGunLocalPositionChangeM": 6.454389485842144e-16,
+      "maxGunLocalAngularChangeDeg": 0.0000017075472925031877,
+      "maxWristReachErrorM": 1.1797904862774404e-8
+    },
+    {
+      "weapon": "type64",
+      "motion": "RifleRun",
+      "clip": "Natural_type64_RifleRun",
+      "duration": 0.6666666865348816,
+      "samples": 162,
+      "activeSamples": 0,
+      "changedBoneTracks": [],
+      "gunTrackChanged": false,
+      "maxGunLocalPositionChangeM": 6.083687101742765e-15,
+      "maxGunLocalAngularChangeDeg": 0.0000024148365394514667,
+      "maxWristReachErrorM": 0
+    },
+    {
+      "weapon": "type64",
+      "motion": "PistolAimingIdle",
+      "clip": "Natural_type64_PistolAimingIdle",
+      "duration": 1.3333333730697632,
+      "samples": 82,
+      "activeSamples": 82,
+      "changedBoneTracks": [
+        {
+          "bone": "mixamorig:RightHandIndex1",
+          "maxAngularChangeDeg": 27.975978783308072
+        },
+        {
+          "bone": "mixamorig:RightHandIndex2",
+          "maxAngularChangeDeg": 22.960392034274495
+        },
+        {
+          "bone": "mixamorig:RightHandIndex3",
+          "maxAngularChangeDeg": 156.7391991724496
+        }
+      ],
+      "gunTrackChanged": false,
+      "maxGunLocalPositionChangeM": 2.600227818690801e-15,
+      "maxGunLocalAngularChangeDeg": 0.0000034150945850063755,
+      "maxWristReachErrorM": 0
+    },
+    {
+      "weapon": "type64",
+      "motion": "PistolShooting",
+      "clip": "Natural_type64_PistolShooting",
+      "duration": 1.1666666269302368,
+      "samples": 281,
+      "activeSamples": 281,
+      "changedBoneTracks": [
+        {
+          "bone": "mixamorig:RightHandIndex1",
+          "maxAngularChangeDeg": 27.975978724790394
+        },
+        {
+          "bone": "mixamorig:RightHandIndex2",
+          "maxAngularChangeDeg": 22.96039206011975
+        },
+        {
+          "bone": "mixamorig:RightHandIndex3",
+          "maxAngularChangeDeg": 156.73919927919948
+        }
+      ],
+      "gunTrackChanged": false,
+      "maxGunLocalPositionChangeM": 8.856897383828107e-16,
+      "maxGunLocalAngularChangeDeg": 0.0000029575586669421963,
+      "maxWristReachErrorM": 0
+    },
+    {
+      "weapon": "type64",
+      "motion": "Reloading",
+      "clip": "Natural_type64_Reloading",
+      "duration": 3.299999952316284,
+      "samples": 793,
+      "activeSamples": 0,
+      "changedBoneTracks": [],
+      "gunTrackChanged": false,
+      "maxGunLocalPositionChangeM": 2.844760730224344e-9,
+      "maxGunLocalAngularChangeDeg": 0.0000034150945850063755,
+      "maxWristReachErrorM": 0
+    },
+    {
+      "weapon": "m870",
+      "motion": "RifleIdle",
+      "clip": "Natural_m870_RifleIdle",
+      "duration": 7.699999809265137,
+      "samples": 463,
+      "activeSamples": 0,
+      "changedBoneTracks": [],
+      "gunTrackChanged": false,
+      "maxGunLocalPositionChangeM": 5.579878298666819e-9,
+      "maxGunLocalAngularChangeDeg": 0.0000029575586669421963,
+      "maxWristReachErrorM": 0
+    },
+    {
+      "weapon": "m870",
+      "motion": "RifleWalk",
+      "clip": "Natural_m870_RifleWalk",
+      "duration": 1.100000023841858,
+      "samples": 68,
+      "activeSamples": 68,
+      "changedBoneTracks": [
+        {
+          "bone": "mixamorig:RightHandMiddle2",
+          "maxAngularChangeDeg": 30.87604241044401
+        },
+        {
+          "bone": "mixamorig:RightHandMiddle3",
+          "maxAngularChangeDeg": 30.876042773263382
+        }
+      ],
+      "gunTrackChanged": false,
+      "maxGunLocalPositionChangeM": 1.3629408526011665e-15,
+      "maxGunLocalAngularChangeDeg": 0.0000029575586669421963,
+      "maxWristReachErrorM": 0
+    },
+    {
+      "weapon": "m870",
+      "motion": "RifleRun",
+      "clip": "Natural_m870_RifleRun",
+      "duration": 0.6666666865348816,
+      "samples": 162,
+      "activeSamples": 0,
+      "changedBoneTracks": [],
+      "gunTrackChanged": false,
+      "maxGunLocalPositionChangeM": 8.051428564258761e-15,
+      "maxGunLocalAngularChangeDeg": 0.0000029575586669421963,
+      "maxWristReachErrorM": 0
+    },
+    {
+      "weapon": "m870",
+      "motion": "RifleAimingIdle",
+      "clip": "Natural_m870_RifleAimingIdle",
+      "duration": 0.5333333611488342,
+      "samples": 34,
+      "activeSamples": 34,
+      "changedBoneTracks": [
+        {
+          "bone": "mixamorig:LeftArm",
+          "maxAngularChangeDeg": 60.554354790186366
+        },
+        {
+          "bone": "mixamorig:RightArm",
+          "maxAngularChangeDeg": 3.7722330802768362
+        },
+        {
+          "bone": "mixamorig:LeftForeArm",
+          "maxAngularChangeDeg": 85.45008907673866
+        },
+        {
+          "bone": "mixamorig:RightForeArm",
+          "maxAngularChangeDeg": 7.234655680747249
+        },
+        {
+          "bone": "mixamorig:LeftHand",
+          "maxAngularChangeDeg": 77.09426821358552
+        },
+        {
+          "bone": "mixamorig:RightHand",
+          "maxAngularChangeDeg": 8.677335286395591
+        }
+      ],
+      "gunTrackChanged": false,
+      "maxGunLocalPositionChangeM": 3.844059240975484e-8,
+      "maxGunLocalAngularChangeDeg": 0.000007040397847728099,
+      "maxWristReachErrorM": 6.101102948029741e-8
+    },
+    {
+      "weapon": "m870",
+      "motion": "ShotgunAimLevel",
+      "clip": "Natural_m870_ShotgunAimLevel",
+      "duration": 0.5333333611488342,
+      "samples": 34,
+      "activeSamples": 34,
+      "changedBoneTracks": [
+        {
+          "bone": "mixamorig:LeftArm",
+          "maxAngularChangeDeg": 60.554354790186366
+        },
+        {
+          "bone": "mixamorig:RightArm",
+          "maxAngularChangeDeg": 3.7722330802768362
+        },
+        {
+          "bone": "mixamorig:LeftForeArm",
+          "maxAngularChangeDeg": 85.45008907673866
+        },
+        {
+          "bone": "mixamorig:RightForeArm",
+          "maxAngularChangeDeg": 7.234655680747249
+        },
+        {
+          "bone": "mixamorig:LeftHand",
+          "maxAngularChangeDeg": 77.09426821358552
+        },
+        {
+          "bone": "mixamorig:RightHand",
+          "maxAngularChangeDeg": 8.677335286395591
+        }
+      ],
+      "gunTrackChanged": false,
+      "maxGunLocalPositionChangeM": 3.844059240975484e-8,
+      "maxGunLocalAngularChangeDeg": 0.000007040397847728099,
+      "maxWristReachErrorM": 6.101102948029741e-8
+    },
+    {
+      "weapon": "m870",
+      "motion": "ShotgunAimUp",
+      "clip": "Natural_m870_ShotgunAimUp",
+      "duration": 0.5333333611488342,
+      "samples": 34,
+      "activeSamples": 34,
+      "changedBoneTracks": [
+        {
+          "bone": "mixamorig:LeftArm",
+          "maxAngularChangeDeg": 64.54749954810177
+        },
+        {
+          "bone": "mixamorig:RightArm",
+          "maxAngularChangeDeg": 6.705319221898461
+        },
+        {
+          "bone": "mixamorig:LeftForeArm",
+          "maxAngularChangeDeg": 96.49718083460913
+        },
+        {
+          "bone": "mixamorig:RightForeArm",
+          "maxAngularChangeDeg": 7.606495295582493
+        },
+        {
+          "bone": "mixamorig:LeftHand",
+          "maxAngularChangeDeg": 79.42385128432984
+        },
+        {
+          "bone": "mixamorig:RightHand",
+          "maxAngularChangeDeg": 3.0595670994633184
+        }
+      ],
+      "gunTrackChanged": false,
+      "maxGunLocalPositionChangeM": 1.9500194013090737e-8,
+      "maxGunLocalAngularChangeDeg": 0.000010663629423853013,
+      "maxWristReachErrorM": 4.94139144304352e-8
+    },
+    {
+      "weapon": "m870",
+      "motion": "ShotgunAimDown",
+      "clip": "Natural_m870_ShotgunAimDown",
+      "duration": 0.03333333507180214,
+      "samples": 4,
+      "activeSamples": 4,
+      "changedBoneTracks": [
+        {
+          "bone": "mixamorig:LeftArm",
+          "maxAngularChangeDeg": 58.7929818413506
+        },
+        {
+          "bone": "mixamorig:RightArm",
+          "maxAngularChangeDeg": 2.4383841997469906
+        },
+        {
+          "bone": "mixamorig:LeftForeArm",
+          "maxAngularChangeDeg": 76.44012173107095
+        },
+        {
+          "bone": "mixamorig:RightForeArm",
+          "maxAngularChangeDeg": 9.452079451831176
+        },
+        {
+          "bone": "mixamorig:LeftHand",
+          "maxAngularChangeDeg": 74.95544055978822
+        },
+        {
+          "bone": "mixamorig:RightHand",
+          "maxAngularChangeDeg": 7.385852303757176
+        }
+      ],
+      "gunTrackChanged": false,
+      "maxGunLocalPositionChangeM": 1.6498111456626342e-8,
+      "maxGunLocalAngularChangeDeg": 0.0000024148365394514667,
+      "maxWristReachErrorM": 2.2513350315358863e-8
+    },
+    {
+      "weapon": "m870",
+      "motion": "FiringRifle",
+      "clip": "Natural_m870_FiringRifle",
+      "duration": 0.23333333432674408,
+      "samples": 58,
+      "activeSamples": 58,
+      "changedBoneTracks": [
+        {
+          "bone": "mixamorig:LeftArm",
+          "maxAngularChangeDeg": 56.262529403893026
+        },
+        {
+          "bone": "mixamorig:RightArm",
+          "maxAngularChangeDeg": 4.493169796788505
+        },
+        {
+          "bone": "mixamorig:LeftForeArm",
+          "maxAngularChangeDeg": 88.42996079627959
+        },
+        {
+          "bone": "mixamorig:RightForeArm",
+          "maxAngularChangeDeg": 7.96344809059343
+        },
+        {
+          "bone": "mixamorig:LeftHand",
+          "maxAngularChangeDeg": 74.00423226108735
+        },
+        {
+          "bone": "mixamorig:RightHand",
+          "maxAngularChangeDeg": 9.823222959467692
+        }
+      ],
+      "gunTrackChanged": false,
+      "maxGunLocalPositionChangeM": 2.526026433658195e-8,
+      "maxGunLocalAngularChangeDeg": 0.000005399738656763832,
+      "maxWristReachErrorM": 3.731863074452857e-8
+    },
+    {
+      "weapon": "m870",
+      "motion": "ShotgunPump",
+      "clip": "Natural_m870_ShotgunPump",
+      "duration": 0.7333333492279053,
+      "samples": 178,
+      "activeSamples": 178,
+      "changedBoneTracks": [
+        {
+          "bone": "mixamorig:LeftArm",
+          "maxAngularChangeDeg": 60.580794227087885
+        },
+        {
+          "bone": "mixamorig:RightArm",
+          "maxAngularChangeDeg": 3.769643753083961
+        },
+        {
+          "bone": "mixamorig:LeftForeArm",
+          "maxAngularChangeDeg": 85.62735962748418
+        },
+        {
+          "bone": "mixamorig:RightForeArm",
+          "maxAngularChangeDeg": 9.415195801852644
+        },
+        {
+          "bone": "mixamorig:LeftHand",
+          "maxAngularChangeDeg": 77.08315956174656
+        },
+        {
+          "bone": "mixamorig:RightHand",
+          "maxAngularChangeDeg": 9.32677141846462
+        }
+      ],
+      "gunTrackChanged": false,
+      "maxGunLocalPositionChangeM": 3.539456593015544e-8,
+      "maxGunLocalAngularChangeDeg": 0.000006389056940260397,
+      "maxWristReachErrorM": 5.618857602006395e-8
+    },
+    {
+      "weapon": "m870",
+      "motion": "Reloading",
+      "clip": "Natural_m870_Reloading",
+      "duration": 1.9666666984558105,
+      "samples": 474,
+      "activeSamples": 0,
+      "changedBoneTracks": [],
+      "gunTrackChanged": false,
+      "maxGunLocalPositionChangeM": 6.188207987363804e-14,
+      "maxGunLocalAngularChangeDeg": 0.0000029575586669421963,
+      "maxWristReachErrorM": 0
+    }
+  ]
+}

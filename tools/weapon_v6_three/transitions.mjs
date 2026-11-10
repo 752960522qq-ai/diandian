@@ -1,0 +1,13 @@
+import fs from 'node:fs';import * as T from 'three';import {read} from '../qa/validate_pf89.mjs';import {runtime} from './validate.mjs';import {OUT} from './candidate.mjs';
+import {BASELINE_ROOT as B} from './reference-path.mjs';
+const report={characters:{},failures:[]};
+for(const cid of ['linxu','military','vest']){const site=`web/motion-labs/${cid==='linxu'?'linxu':'resistance'}-motion-lab`,cfg=JSON.parse(fs.readFileSync(`${B}/${site}/assets/weapon_attachment.json`)),weapons=new Map(await Promise.all(Object.keys(cfg.weapons).map(async id=>[id,(await read(`${B}/${site}/assets/weapons/${id}.glb`)).scene]))),g=await read(`${B}/${site}/assets/characters/${cid}/character.glb`),p=await read(`${B}/${site}/assets/characters/${cid}/motions.glb`),{prepareRig}=await import(`${B}/${site}/rig.js`),old=prepareRig(g,p,cid,cfg,weapons,new T.Scene()),now=await runtime(cid);let cases=0,maxBone=0,maxGun=0,maxPump=0;
+for(const incoming of ['m870','type64','type54','qsz92'])for(const target of ['none',...Object.keys(cfg.weapons).filter(w=>!['qsz92','type54','type64','m870','winchester1897'].includes(w))]){
+ for(const m of incoming==='m870'?['ShotgunPump','Reloading','RifleRun']:['PistolShooting','Reloading','RifleRun'])now.pose(m,now.duration(m,incoming)*.63,incoming);
+ const motion=target==='none'?'Idle':Object.keys(cfg.weapons[target].animation_overrides||{}).find(m=>old.actions.has(cfg.weapons[target].animation_overrides[m]))||'RifleAimingIdle',time=old.duration(motion,target)*.37;old.pose(motion,time,target);now.pose(motion,time,target);
+ for(const[n,b]of old.bones){const b2=now.bones.get(n);if(b2)maxBone=Math.max(maxBone,b.position.distanceTo(b2.position),b.quaternion.clone().normalize().angleTo(b2.quaternion.clone().normalize()),b.scale.distanceTo(b2.scale));}
+ if(target!=='none'){const a=old.attachment.weapons.get(target),b=now.attachment.weapons.get(target);maxGun=Math.max(maxGun,a.position.distanceTo(b.position),a.quaternion.angleTo(b.quaternion),a.scale.distanceTo(b.scale));}
+ for(const part of now.attachment.pumpParts)maxPump=Math.max(maxPump,part.object.position.distanceTo(part.rest));
+ if([...now.attachment.weapons].some(([w,g])=>g.visible&&w!==target))report.failures.push({cid,incoming,target,error:'unexpected visible weapon'});cases++;
+ }report.characters[cid]={cases,maxBone,maxGun,maxM870PumpResidualM:maxPump};if(maxBone>1e-5||maxGun>1e-5||maxPump>1e-8)report.failures.push({cid,...report.characters[cid]});console.log(cid,report.characters[cid]);}
+fs.writeFileSync(OUT+'/transition-validation.json',JSON.stringify(report,null,2));process.exitCode=report.failures.length?1:0;

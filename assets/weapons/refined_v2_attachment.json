@@ -1,0 +1,432 @@
+{
+  "coordinate_system": {
+    "unit": "metre",
+    "up": "+Y",
+    "forward": "-Z",
+    "right": "+X"
+  },
+  "weapons": {
+    "qsz92": {
+      "display_name": "QSZ92G",
+      "type": "pistol",
+      "path": "res://assets/weapons/qsz92.glb",
+      "right_grip": [
+        0.0,
+        -0.022,
+        0.066
+      ],
+      "right_palm_surface": [
+        0.016,
+        -0.022,
+        0.066
+      ],
+      "trigger": [
+        0.009,
+        0.00897532,
+        0.01276117
+      ],
+      "muzzle": [
+        0.00058079,
+        0.05001762,
+        -0.09042536
+      ],
+      "barrel_forward": [
+        0,
+        0,
+        -1
+      ],
+      "right_palm_normal": [
+        1,
+        0,
+        0
+      ],
+      "right_grip_axis": [
+        0,
+        0.95358,
+        -0.30114
+      ],
+      "left_palm_normal": [
+        -1,
+        0,
+        0
+      ],
+      "left_grip": [
+        -0.038,
+        -0.032,
+        0.058
+      ],
+      "left_support_kind": "Support strong hand outside grip; not slide contact.",
+      "length_m": 0.19,
+      "source": {
+        "file": "QSZ92G_几何精修_v2.glb",
+        "sha256": "7cf383d0742b7874bc97d8ceedc3ad3a1881d8f461820d307a49d0abb3c7f922",
+        "inspection_animations_preserved_in_source": [
+          "QSZ92G_Component_Inspection"
+        ],
+        "license": "CC-BY-4.0",
+        "restriction": "TYPE64 commercial use requires separate permission; attribution required for all assets. Licenses are inherited from provided source metadata, not independently relicensed.",
+        "author": "8sianDude",
+        "url": "https://sketchfab.com/3d-models/norinco-qsz-92g-9mm-handgun-9552035434514828b7f57b6738f5fb7a"
+      },
+      "normalization": {
+        "source_to_game": "game = scale * [-source.z, source.y, source.x] + translation",
+        "scale": 0.19359574336928403,
+        "translation": [
+          -0.00038719148673856807,
+          -0.07427085070970668,
+          0.00404936212182911
+        ],
+        "source_bounds": [
+          [
+            -0.4904623031616211,
+            0.0,
+            -0.10563492774963379
+          ],
+          [
+            0.49096423387527466,
+            0.7221505045890808,
+            0.10172837972640991
+          ]
+        ]
+      },
+      "game_dimensions_m": [
+        0.040144653658338095,
+        0.13980526376042665,
+        0.19
+      ],
+      "anchor_method": "Authored from actual source geometry and rendered side view. Grip center is internal, palm contact separate. Not a mechanical reconstruction.",
+      "binary_payload_unchanged": true,
+      "game_sha256": "c2be7f2de027e57303d635a2e51aa0c41849878b23bd294d5ddb372389a7f30c"
+    },
+    "type54": {
+      "display_name": "54 式（TT33 源）",
+      "type": "pistol",
+      "path": "res://assets/weapons/type54.glb",
+      "right_grip": [
+        0.0,
+        -0.024,
+        0.052
+      ],
+      "right_palm_surface": [
+        0.014,
+        -0.024,
+        0.052
+      ],
+      "trigger": [
+        0.009,
+        0.00691316,
+        0.00712606
+      ],
+      "muzzle": [
+        0.0,
+        0.04620278,
+        -0.1051585
+      ],
+      "barrel_forward": [
+        0,
+        0,
+        -1
+      ],
+      "right_palm_normal": [
+        1,
+        0,
+        0
+      ],
+      "right_grip_axis": [
+        0,
+        0.95358,
+        -0.30114
+      ],
+      "left_palm_normal": [
+        -1,
+        0,
+        0
+      ],
+      "left_grip": [
+        -0.038,
+        -0.034,
+        0.044
+      ],
+      "left_support_kind": "Support strong hand outside grip; not slide contact.",
+      "length_m": 0.195,
+      "source": {
+        "file": "TT33_几何精修_v2.glb",
+        "sha256": "3e4ec09aecfc93f3e49d2da72c996f36c4761d6986342a52ec17df680bc58f4a",
+        "inspection_animations_preserved_in_source": [
+          "TT33_Component_Inspection"
+        ],
+        "license": "CC-BY-4.0",
+        "restriction": "TYPE64 commercial use requires separate permission; attribution required for all assets. Licenses are inherited from provided source metadata, not independently relicensed.",
+        "author": "White-Horse",
+        "url": "https://sketchfab.com/3d-models/tt33-tokarev-pistol-e96197a0a9ed46b6aa74757b6ff4c2da"
+      },
+      "normalization": {
+        "source_to_game": "game = scale * [-source.z, source.y, source.x] + translation",
+        "scale": 0.19943972649893194,
+        "translation": [
+          0.0,
+          -0.07385993162473298,
+          -0.007831917949679579
+        ],
+        "source_bounds": [
+          [
+            -0.4888525605201721,
+            0.0,
+            -0.08208953589200974
+          ],
+          [
+            0.48888644576072693,
+            0.6799865961074829,
+            0.07995061576366425
+          ]
+        ]
+      },
+      "game_dimensions_m": [
+        0.03231724352805307,
+        0.1356163407506161,
+        0.195
+      ],
+      "anchor_method": "Authored from actual source geometry and rendered side view. Grip center is internal, palm contact separate. Not a mechanical reconstruction.",
+      "binary_payload_unchanged": true,
+      "game_sha256": "25d58d368e66cbead8faf6083408c73bd93fe2bf2e23b2706d9d3c006e83e06b"
+    },
+    "type64": {
+      "display_name": "64 式",
+      "type": "pistol",
+      "path": "res://assets/weapons/type64.glb",
+      "right_grip": [
+        0.0,
+        -0.024,
+        0.052
+      ],
+      "right_palm_surface": [
+        0.0105,
+        -0.024,
+        0.052
+      ],
+      "trigger": [
+        0.007,
+        -0.00269426,
+        -0.002448
+      ],
+      "muzzle": [
+        0.0,
+        0.030448,
+        -0.06920598
+      ],
+      "barrel_forward": [
+        0,
+        0,
+        -1
+      ],
+      "right_palm_normal": [
+        1,
+        0,
+        0
+      ],
+      "right_grip_axis": [
+        0,
+        0.95358,
+        -0.30114
+      ],
+      "left_palm_normal": [
+        -1,
+        0,
+        0
+      ],
+      "left_grip": [
+        -0.038,
+        -0.034,
+        0.044
+      ],
+      "left_support_kind": "Support strong hand outside grip; not slide contact.",
+      "length_m": 0.155,
+      "source": {
+        "file": "TYPE64_几何精修_v2.glb",
+        "sha256": "4b3959d1fc58713665196515aca317285b2eced548fbef45a10a9b2fa2cdc2d5",
+        "inspection_animations_preserved_in_source": [
+          "TYPE64_Component_Inspection"
+        ],
+        "license": "CC-BY-NC-4.0",
+        "restriction": "TYPE64 commercial use requires separate permission; attribution required for all assets. Licenses are inherited from provided source metadata, not independently relicensed.",
+        "author": "Martini-SF",
+        "url": "https://sketchfab.com/3d-models/type-64-compact-pistol-a72b19bcbe2948b18e854818603f6765"
+      },
+      "normalization": {
+        "source_to_game": "game = scale * [-source.z, source.y, source.x] + translation",
+        "scale": 0.15782028278909355,
+        "translation": [
+          0.0,
+          -0.06503327352516433,
+          0.0078103208190537995
+        ],
+        "source_bounds": [
+          [
+            -0.48887452483177185,
+            0.0,
+            -0.06654217839241028
+          ],
+          [
+            0.49325525760650635,
+            0.6857210397720337,
+            0.06570558995008469
+          ]
+        ]
+      },
+      "game_dimensions_m": [
+        0.020871380198039087,
+        0.10822068841125362,
+        0.155
+      ],
+      "anchor_method": "Authored from actual source geometry and rendered side view. Grip center is internal, palm contact separate. Not a mechanical reconstruction.",
+      "binary_payload_unchanged": true,
+      "game_sha256": "ca7376e4b84e7b50df2a59743d9a3b09db37928d6c1152bddc13cac7a8f9c582"
+    },
+    "m870": {
+      "display_name": "M870",
+      "type": "shotgun",
+      "path": "res://assets/weapons/m870.glb",
+      "right_grip": [
+        0.0,
+        -0.047,
+        0.162
+      ],
+      "right_palm_surface": [
+        0.022000000000000002,
+        -0.047,
+        0.162
+      ],
+      "trigger": [
+        0.00792,
+        -0.06846951890955648,
+        0.059764195668778664
+      ],
+      "muzzle": [
+        0.0,
+        0.004117902165610671,
+        -0.5577400624917983
+      ],
+      "barrel_forward": [
+        0,
+        0,
+        -1
+      ],
+      "right_palm_normal": [
+        1,
+        0,
+        0
+      ],
+      "right_grip_axis": [
+        0,
+        0.35,
+        -0.93675
+      ],
+      "left_palm_normal": [
+        0,
+        -1,
+        0
+      ],
+      "left_grip": [
+        0.0,
+        -0.06744716086624426,
+        -0.23160784667520218
+      ],
+      "left_support_kind": "4.4 source mm below measured wooden Pump_shell_visual underside at rest; follows pump stroke.",
+      "length_m": 1.0,
+      "source": {
+        "file": "R870_几何精修_v2.glb",
+        "sha256": "e24811768839d6a55a33b9c5fbf10c03dc64a45b78bf718f0166bd5161099c53",
+        "inspection_animations_preserved_in_source": [
+          "R870_Component_Inspection"
+        ],
+        "license": "CC-BY-4.0",
+        "restriction": "TYPE64 commercial use requires separate permission; attribution required for all assets. Licenses are inherited from provided source metadata, not independently relicensed.",
+        "author": "tris.blend",
+        "url": "https://sketchfab.com/3d-models/remington-870-pbrgr-26e37df4c38c4e8a9da8adeb4b66bff6"
+      },
+      "normalization": {
+        "source_to_game": "game = scale * [-source.z, source.y, source.x] + translation; source nodes listed in width_adjustment first scale local Z only",
+        "scale": 1.0223580433122135,
+        "translation": [
+          0.0,
+          -0.19013012606370988,
+          -0.05780697931212589
+        ],
+        "source_bounds": [
+          [
+            -0.48902198672294617,
+            0.0009445201721973717,
+            -0.033661890774965286
+          ],
+          [
+            0.4891089200973511,
+            0.20788699388504028,
+            0.033293016254901886
+          ]
+        ]
+      },
+      "game_dimensions_m": [
+        0.06023766121226144,
+        0.21156930250325123,
+        1.0000000000000004
+      ],
+      "anchor_method": "Authored from actual source geometry and rendered side view. Grip center is internal, palm contact separate. Not a mechanical reconstruction.",
+      "binary_payload_unchanged": true,
+      "game_sha256": "b1192f67c1bc1ca6334d5b4b281eefe234bcb222132c627580dab594e8e14795",
+      "butt_contact": [
+        0.0,
+        -0.1083414825987328,
+        0.4390590297376098
+      ],
+      "pump_node_names": [
+        "Pump_visual"
+      ],
+      "pump_node": "Pump_visual",
+      "pump_axis_local": [
+        1,
+        0,
+        0
+      ],
+      "pump_axis_game": [
+        0,
+        0,
+        1
+      ],
+      "pump_travel_m": 0.075,
+      "pump_travel_local_units": 0.07335981801152229,
+      "pump_sync": "Pump_visual.position.x = rest.x + travel_m / normalization.scale. left_grip.z = rest.z + travel_m. Never move Static_visual. No autoplay animation.",
+      "width_adjustment": {
+        "revision": "v6_user_requested_1m_thinner_body",
+        "final_axial_length_m": 1.0,
+        "game_axis": "X",
+        "source_node_local_axis": "Z",
+        "body_width_scale": 0.88,
+        "scaled_nodes": [
+          "Pump_visual",
+          "Buttpad_visual",
+          "Receiver_visual",
+          "Stock_visual",
+          "Trigger_guard_visual",
+          "Underside_detail_visual",
+          "Upper_rail_visual"
+        ],
+        "pump_child_nodes_follow_parent": [
+          "Pump_detail_A_visual",
+          "Pump_detail_B_visual",
+          "Pump_shell_visual"
+        ],
+        "circular_parts_preserved": [
+          "Barrel_visual",
+          "Exposed_tube_visual",
+          "Front_cap_visual",
+          "Under_pump_tube_visual"
+        ],
+        "source_file_unchanged": true,
+        "binary_payload_unchanged": true,
+        "source_mesh_definitions_unchanged": true,
+        "original_M97_axial_length_m_for_reference_only": 0.9992400407791138,
+        "policy": "Latest user request sets total length to 1 m and authorizes modest body-width compression. Do not use the earlier exact M97 match as the final target."
+      }
+    }
+  }
+}

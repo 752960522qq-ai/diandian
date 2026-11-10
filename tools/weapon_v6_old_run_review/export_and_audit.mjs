@@ -1,0 +1,30 @@
+import fs from 'node:fs';import crypto from 'node:crypto';import * as T from 'three';
+import {runtime,decode,OUT} from './runtime.mjs';
+const O=OUT,bake=process.argv.includes('--bake');fs.mkdirSync(O,{recursive:true});if(bake)fs.mkdirSync(O+'/baked',{recursive:true});
+const makeBaker=bake?(await import('./bake_runtime.mjs')).makeBaker:null;
+const r=await runtime(),base=await runtime('baseline');
+function prepare(r){const{g}=decode(r.file);r.model.root.traverse(o=>{if(!o.isMesh)return;const a=r.gltf.parser.associations.get(o);if(a?.meshes!=null){const mat=g.meshes[a.meshes].primitives[a.primitives].material;if(mat!=null){o.material=o.material.clone();o.material.name=g.materials[mat].name;}o.geometry.userData.sourcePrimitive={mesh:a.meshes,primitive:a.primitives};}});}
+prepare(r);prepare(base);
+const hash=f=>crypto.createHash('sha256').update(fs.readFileSync(f)).digest('hex');
+const manifest={source:r.dir,baseline:base.dir,bakeRequested:bake,hashes:{},rows:[],notes:['True UI model.pose(RifleRun,t,w,compareRun), including Before toggle branch, with attachment IK active. Not raw/unmodified-IK controls.',bake?'Actual source geometry/materials baked at 240Hz; rendering is a separate step.':'Numeric-only invocation: no baking or rendering.','Ten states audited independently. Visual coverage is recorded separately in the delivery evidence.','Browser WebGL unavailable and sockets denied; no retry or workaround.']};
+for(const f of ['rig.js','weapon-attachment.js','assets/weapon_attachment.json','assets/characters/linxu/character.glb','assets/characters/linxu/motions.glb',...['qbz95','type56_1','qbu85','type97hawk','qcq171'].map(w=>'assets/weapons/'+w+'.glb')])manifest.hashes[f]={review:hash(r.dir+'/'+f),baseline:hash(base.dir+'/'+f)};
+function nodes(rt,w){const n={};for(const [index,b] of [...new Set(rt.model.bones.values())].entries())n[index+':'+b.name]={local:[...b.position.toArray(),...b.quaternion.toArray(),...b.scale.toArray()],world:b.matrixWorld.toArray()};n['WeaponRoot']={local:rt.model.attachment.weapons.get(w).matrix.toArray(),world:rt.model.attachment.weapons.get(w).matrixWorld.toArray()};return n;}
+function compare(a,b){let maxLocal=0,maxWorld=0,worst='';for(const n of Object.keys(a)){if(!b[n])throw Error('missing bone '+n);for(const k of ['local','world'])for(let i=0;i<a[n][k].length;i++){const d=Math.abs(a[n][k][i]-b[n][k][i]);if(k==='local')maxLocal=Math.max(maxLocal,d);else if(d>maxWorld){maxWorld=d;worst=n;}}}return{maxLocal,maxWorld,worst};}
+const audit={source:r.dir,baseline:base.dir,phases:161,rows:[],crossEquipment:[]},sampleCache={};
+for(const w of ['qbz95','type56_1','qbu85','type97hawk','qcq171'])for(const before of [false,true]){
+ const name=w+'-RifleRun'+(before?'_Before':''),m='RifleRun',duration=r.duration(m,w),actualClip=before?'RifleRun_Before':'RifleRun';
+ const ac=r.model.actions.get(actualClip).getClip(),bc=base.model.actions.get(actualClip).getClip();
+ const clipContent=c=>JSON.stringify(c.tracks.map(t=>({name:t.name,type:t.ValueTypeName,times:Array.from(t.times),values:Array.from(t.values)})));
+ const report={name,before,actualClip,duration,boneCount:new Set(r.model.bones.values()).size,clipTracksIdentical:clipContent(ac)===clipContent(bc),clipTracks:ac.tracks.length,maxLocal:0,maxWorld:0,worst:null,maxLeftContactErrorM:0,maxRightContactErrorM:0,samples:[]};
+ r.restore();base.restore();sampleCache[name]=[];
+ for(let i=0;i<=160;i++){const t=duration*i/160,s=r.model.pose(m,t,w,before),bs=base.model.pose(m,t,w,before);if(s.actualClip!==actualClip||bs.actualClip!==actualClip)throw Error('Wrong clip '+JSON.stringify([s,bs]));const n=nodes(r,w),d=compare(n,nodes(base,w));sampleCache[name].push(n);report.maxLocal=Math.max(report.maxLocal,d.maxLocal);if(d.maxWorld>report.maxWorld){report.maxWorld=d.maxWorld;report.worst={phase:i/160,bone:d.worst};}report.maxLeftContactErrorM=Math.max(report.maxLeftContactErrorM,s.leftContactErrorM||0);report.maxRightContactErrorM=Math.max(report.maxRightContactErrorM,s.rightContactErrorM||0);report.samples.push({phase:i/160,time:t,...d});}
+ audit.rows.push(report);
+ if(bake){const times=Array.from({length:Math.ceil(duration*240)+1},(_,i)=>Math.min(duration,i/240)),b=makeBaker(r.file,r.model.root,r.model.wrapper),gun=r.model.attachment.weapons.get(w),gb=makeBaker(r.dir+'/assets/weapons/'+w+'.glb',gun,gun),box=new T.Box3();let state; r.restore();
+ for(const t of times){state=r.model.pose(m,t,w,before);b.sample();gb.sample();for(const bone of new Set(r.model.bones.values()))box.expandByPoint(bone.getWorldPosition(new T.Vector3()));}
+ b.write(O+'/baked/'+name+'.glb',times);gb.write(O+'/baked/'+name+'-gun.glb',times);
+ manifest.rows.push({name,w,m,before,duration,clip:state.actualClip,sampleHz:240,samples:times.length,box:[box.min.toArray(),box.max.toArray()],handCenter:r.model.bones.get('mixamorig:LeftHand').getWorldPosition(new T.Vector3()).toArray(),coverage:'baked_pending_render'});}else manifest.rows.push({name,w,m,before,duration,clip:actualClip,coverage:'numeric_audit_only'});
+ console.log(name,JSON.stringify({maxLocal:report.maxLocal,maxWorld:report.maxWorld,clipTracksIdentical:report.clipTracksIdentical}));
+}
+for(const before of [false,true])for(const w of ['type56_1','qbu85','type97hawk','qcq171']){const suffix='-RifleRun'+(before?'_Before':''),a=sampleCache['qbz95'+suffix],b=sampleCache[w+suffix];let bodyMax=0,weaponMax=0;for(let i=0;i<a.length;i++){for(const n of Object.keys(a[i]))for(const k of ['local','world'])for(let j=0;j<a[i][n][k].length;j++){const d=Math.abs(a[i][n][k][j]-b[i][n][k][j]);if(n==='WeaponRoot')weaponMax=Math.max(weaponMax,d);else bodyMax=Math.max(bodyMax,d);}}audit.crossEquipment.push({reference:'qbz95'+suffix,compared:w+suffix,maxBodyDifference:bodyMax,maxWeaponDifference:weaponMax});}
+fs.writeFileSync(O+'/manifest.json',JSON.stringify(manifest,null,2));fs.writeFileSync(O+'/baseline-equivalence.json',JSON.stringify(audit,null,2));
+console.log('DONE',JSON.stringify(audit.crossEquipment));if(audit.rows.some(x=>x.maxLocal!==0||x.maxWorld!==0||!x.clipTracksIdentical))process.exitCode=2;

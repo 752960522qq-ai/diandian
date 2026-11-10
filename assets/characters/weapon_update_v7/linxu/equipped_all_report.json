@@ -1,0 +1,483 @@
+{
+  "character": "linxu",
+  "source_character_sha256": "71f8f6a2562397e82c6e9f102ea4f2cd358b135486a30cb63777f49914ba54c9",
+  "source_config_sha256": "7e3a0df8ad6ad7d4f96cc99708c50c7f29793d1442ae81485c0c642ced25238e",
+  "source_runtime_sha256": "45101192f062fda1ba2a51c7e621574eaa4adad4a1670a3144a1baca0d91fb62",
+  "source_v7_pack_sha256": "1ea200809c4979c0bdda1b3a53bbd8067c4b846faf8911998e92de997c3074f8",
+  "sample_policy": "60 Hz static/idle/aim, 120 Hz locomotion/reload, 240 Hz fire/pump; durations preserved",
+  "requires": "Matching original character skeleton and equipped_all_weapon_transforms.json; procedural runtime must not be applied twice.",
+  "rows": [
+    {
+      "name": "Equipped_qbz95_RifleIdle",
+      "weapon": "qbz95",
+      "motion": "RifleIdle",
+      "duration": 8.566666603088379,
+      "fps": 60,
+      "frames": 515
+    },
+    {
+      "name": "Equipped_qbz95_RifleWalk",
+      "weapon": "qbz95",
+      "motion": "RifleWalk",
+      "duration": 1.2999999523162842,
+      "fps": 120,
+      "frames": 157
+    },
+    {
+      "name": "Equipped_qbz95_RifleRun",
+      "weapon": "qbz95",
+      "motion": "RifleRun",
+      "duration": 0.6666666865348816,
+      "fps": 120,
+      "frames": 82
+    },
+    {
+      "name": "Equipped_qbz95_RifleAimingIdle",
+      "weapon": "qbz95",
+      "motion": "RifleAimingIdle",
+      "duration": 3.0999999046325684,
+      "fps": 60,
+      "frames": 187
+    },
+    {
+      "name": "Equipped_qbz95_FiringRifle",
+      "weapon": "qbz95",
+      "motion": "FiringRifle",
+      "duration": 0.2666666805744171,
+      "fps": 240,
+      "frames": 66
+    },
+    {
+      "name": "Equipped_qbz95_Reloading",
+      "weapon": "qbz95",
+      "motion": "Reloading",
+      "duration": 3.299999952316284,
+      "fps": 120,
+      "frames": 397
+    },
+    {
+      "name": "Equipped_type56_1_RifleIdle",
+      "weapon": "type56_1",
+      "motion": "RifleIdle",
+      "duration": 8.566666603088379,
+      "fps": 60,
+      "frames": 515
+    },
+    {
+      "name": "Equipped_type56_1_RifleWalk",
+      "weapon": "type56_1",
+      "motion": "RifleWalk",
+      "duration": 1.2999999523162842,
+      "fps": 120,
+      "frames": 157
+    },
+    {
+      "name": "Equipped_type56_1_RifleRun",
+      "weapon": "type56_1",
+      "motion": "RifleRun",
+      "duration": 0.6666666865348816,
+      "fps": 120,
+      "frames": 82
+    },
+    {
+      "name": "Equipped_type56_1_RifleAimingIdle",
+      "weapon": "type56_1",
+      "motion": "RifleAimingIdle",
+      "duration": 3.0999999046325684,
+      "fps": 60,
+      "frames": 187
+    },
+    {
+      "name": "Equipped_type56_1_FiringRifle",
+      "weapon": "type56_1",
+      "motion": "FiringRifle",
+      "duration": 0.2666666805744171,
+      "fps": 240,
+      "frames": 66
+    },
+    {
+      "name": "Equipped_type56_1_Reloading",
+      "weapon": "type56_1",
+      "motion": "Reloading",
+      "duration": 3.299999952316284,
+      "fps": 120,
+      "frames": 397
+    },
+    {
+      "name": "Equipped_qbu85_RifleIdle",
+      "weapon": "qbu85",
+      "motion": "RifleIdle",
+      "duration": 8.566666603088379,
+      "fps": 60,
+      "frames": 515
+    },
+    {
+      "name": "Equipped_qbu85_RifleWalk",
+      "weapon": "qbu85",
+      "motion": "RifleWalk",
+      "duration": 1.2999999523162842,
+      "fps": 120,
+      "frames": 157
+    },
+    {
+      "name": "Equipped_qbu85_RifleRun",
+      "weapon": "qbu85",
+      "motion": "RifleRun",
+      "duration": 0.6666666865348816,
+      "fps": 120,
+      "frames": 82
+    },
+    {
+      "name": "Equipped_qbu85_RifleAimingIdle",
+      "weapon": "qbu85",
+      "motion": "RifleAimingIdle",
+      "duration": 3.0999999046325684,
+      "fps": 60,
+      "frames": 187
+    },
+    {
+      "name": "Equipped_qbu85_FiringRifle",
+      "weapon": "qbu85",
+      "motion": "FiringRifle",
+      "duration": 0.2666666805744171,
+      "fps": 240,
+      "frames": 66
+    },
+    {
+      "name": "Equipped_qbu85_Reloading",
+      "weapon": "qbu85",
+      "motion": "Reloading",
+      "duration": 3.299999952316284,
+      "fps": 120,
+      "frames": 397
+    },
+    {
+      "name": "Equipped_type97hawk_RifleIdle",
+      "weapon": "type97hawk",
+      "motion": "RifleIdle",
+      "duration": 8.566666603088379,
+      "fps": 60,
+      "frames": 515
+    },
+    {
+      "name": "Equipped_type97hawk_RifleWalk",
+      "weapon": "type97hawk",
+      "motion": "RifleWalk",
+      "duration": 1.2999999523162842,
+      "fps": 120,
+      "frames": 157
+    },
+    {
+      "name": "Equipped_type97hawk_RifleRun",
+      "weapon": "type97hawk",
+      "motion": "RifleRun",
+      "duration": 0.6666666865348816,
+      "fps": 120,
+      "frames": 82
+    },
+    {
+      "name": "Equipped_type97hawk_RifleAimingIdle",
+      "weapon": "type97hawk",
+      "motion": "RifleAimingIdle",
+      "duration": 3.0999999046325684,
+      "fps": 60,
+      "frames": 187
+    },
+    {
+      "name": "Equipped_type97hawk_FiringRifle",
+      "weapon": "type97hawk",
+      "motion": "FiringRifle",
+      "duration": 0.23333333432674408,
+      "fps": 240,
+      "frames": 58
+    },
+    {
+      "name": "Equipped_type97hawk_Reloading",
+      "weapon": "type97hawk",
+      "motion": "Reloading",
+      "duration": 3.299999952316284,
+      "fps": 120,
+      "frames": 397
+    },
+    {
+      "name": "Equipped_type97hawk_ShotgunPump",
+      "weapon": "type97hawk",
+      "motion": "ShotgunPump",
+      "duration": 0.7333333492279053,
+      "fps": 240,
+      "frames": 178
+    },
+    {
+      "name": "Equipped_qcq171_RifleIdle",
+      "weapon": "qcq171",
+      "motion": "RifleIdle",
+      "duration": 8.566666603088379,
+      "fps": 60,
+      "frames": 515
+    },
+    {
+      "name": "Equipped_qcq171_RifleWalk",
+      "weapon": "qcq171",
+      "motion": "RifleWalk",
+      "duration": 1.2999999523162842,
+      "fps": 120,
+      "frames": 157
+    },
+    {
+      "name": "Equipped_qcq171_RifleRun",
+      "weapon": "qcq171",
+      "motion": "RifleRun",
+      "duration": 0.6666666865348816,
+      "fps": 120,
+      "frames": 82
+    },
+    {
+      "name": "Equipped_qcq171_RifleAimingIdle",
+      "weapon": "qcq171",
+      "motion": "RifleAimingIdle",
+      "duration": 3.0999999046325684,
+      "fps": 60,
+      "frames": 187
+    },
+    {
+      "name": "Equipped_qcq171_FiringRifle",
+      "weapon": "qcq171",
+      "motion": "FiringRifle",
+      "duration": 0.2666666805744171,
+      "fps": 240,
+      "frames": 66
+    },
+    {
+      "name": "Equipped_qcq171_Reloading",
+      "weapon": "qcq171",
+      "motion": "Reloading",
+      "duration": 3.299999952316284,
+      "fps": 120,
+      "frames": 397
+    },
+    {
+      "name": "Equipped_qsz92_PistolIdle",
+      "weapon": "qsz92",
+      "motion": "PistolIdle",
+      "duration": 0.03333333507180214,
+      "fps": 60,
+      "frames": 4
+    },
+    {
+      "name": "Equipped_qsz92_PistolWalk",
+      "weapon": "qsz92",
+      "motion": "PistolWalk",
+      "duration": 0.6666666865348816,
+      "fps": 120,
+      "frames": 82
+    },
+    {
+      "name": "Equipped_qsz92_RifleRun",
+      "weapon": "qsz92",
+      "motion": "RifleRun",
+      "duration": 0.6666666865348816,
+      "fps": 120,
+      "frames": 82
+    },
+    {
+      "name": "Equipped_qsz92_PistolAimingIdle",
+      "weapon": "qsz92",
+      "motion": "PistolAimingIdle",
+      "duration": 1.3333333730697632,
+      "fps": 60,
+      "frames": 82
+    },
+    {
+      "name": "Equipped_qsz92_PistolShooting",
+      "weapon": "qsz92",
+      "motion": "PistolShooting",
+      "duration": 1.1666666269302368,
+      "fps": 240,
+      "frames": 281
+    },
+    {
+      "name": "Equipped_qsz92_Reloading",
+      "weapon": "qsz92",
+      "motion": "Reloading",
+      "duration": 3.299999952316284,
+      "fps": 120,
+      "frames": 397
+    },
+    {
+      "name": "Equipped_type54_PistolIdle",
+      "weapon": "type54",
+      "motion": "PistolIdle",
+      "duration": 0.03333333507180214,
+      "fps": 60,
+      "frames": 4
+    },
+    {
+      "name": "Equipped_type54_PistolWalk",
+      "weapon": "type54",
+      "motion": "PistolWalk",
+      "duration": 0.6666666865348816,
+      "fps": 120,
+      "frames": 82
+    },
+    {
+      "name": "Equipped_type54_RifleRun",
+      "weapon": "type54",
+      "motion": "RifleRun",
+      "duration": 0.6666666865348816,
+      "fps": 120,
+      "frames": 82
+    },
+    {
+      "name": "Equipped_type54_PistolAimingIdle",
+      "weapon": "type54",
+      "motion": "PistolAimingIdle",
+      "duration": 1.3333333730697632,
+      "fps": 60,
+      "frames": 82
+    },
+    {
+      "name": "Equipped_type54_PistolShooting",
+      "weapon": "type54",
+      "motion": "PistolShooting",
+      "duration": 1.1666666269302368,
+      "fps": 240,
+      "frames": 281
+    },
+    {
+      "name": "Equipped_type54_Reloading",
+      "weapon": "type54",
+      "motion": "Reloading",
+      "duration": 3.299999952316284,
+      "fps": 120,
+      "frames": 397
+    },
+    {
+      "name": "Equipped_type64_PistolIdle",
+      "weapon": "type64",
+      "motion": "PistolIdle",
+      "duration": 0.03333333507180214,
+      "fps": 60,
+      "frames": 4
+    },
+    {
+      "name": "Equipped_type64_PistolWalk",
+      "weapon": "type64",
+      "motion": "PistolWalk",
+      "duration": 0.6666666865348816,
+      "fps": 120,
+      "frames": 82
+    },
+    {
+      "name": "Equipped_type64_RifleRun",
+      "weapon": "type64",
+      "motion": "RifleRun",
+      "duration": 0.6666666865348816,
+      "fps": 120,
+      "frames": 82
+    },
+    {
+      "name": "Equipped_type64_PistolAimingIdle",
+      "weapon": "type64",
+      "motion": "PistolAimingIdle",
+      "duration": 1.3333333730697632,
+      "fps": 60,
+      "frames": 82
+    },
+    {
+      "name": "Equipped_type64_PistolShooting",
+      "weapon": "type64",
+      "motion": "PistolShooting",
+      "duration": 1.1666666269302368,
+      "fps": 240,
+      "frames": 281
+    },
+    {
+      "name": "Equipped_type64_Reloading",
+      "weapon": "type64",
+      "motion": "Reloading",
+      "duration": 3.299999952316284,
+      "fps": 120,
+      "frames": 397
+    },
+    {
+      "name": "Equipped_m870_RifleIdle",
+      "weapon": "m870",
+      "motion": "RifleIdle",
+      "duration": 7.699999809265137,
+      "fps": 60,
+      "frames": 463
+    },
+    {
+      "name": "Equipped_m870_RifleWalk",
+      "weapon": "m870",
+      "motion": "RifleWalk",
+      "duration": 1.100000023841858,
+      "fps": 120,
+      "frames": 134
+    },
+    {
+      "name": "Equipped_m870_RifleRun",
+      "weapon": "m870",
+      "motion": "RifleRun",
+      "duration": 0.6666666865348816,
+      "fps": 120,
+      "frames": 82
+    },
+    {
+      "name": "Equipped_m870_RifleAimingIdle",
+      "weapon": "m870",
+      "motion": "RifleAimingIdle",
+      "duration": 0.5333333611488342,
+      "fps": 60,
+      "frames": 34
+    },
+    {
+      "name": "Equipped_m870_ShotgunAimLevel",
+      "weapon": "m870",
+      "motion": "ShotgunAimLevel",
+      "duration": 0.5333333611488342,
+      "fps": 60,
+      "frames": 34
+    },
+    {
+      "name": "Equipped_m870_ShotgunAimUp",
+      "weapon": "m870",
+      "motion": "ShotgunAimUp",
+      "duration": 0.5333333611488342,
+      "fps": 60,
+      "frames": 34
+    },
+    {
+      "name": "Equipped_m870_ShotgunAimDown",
+      "weapon": "m870",
+      "motion": "ShotgunAimDown",
+      "duration": 0.03333333507180214,
+      "fps": 60,
+      "frames": 4
+    },
+    {
+      "name": "Equipped_m870_FiringRifle",
+      "weapon": "m870",
+      "motion": "FiringRifle",
+      "duration": 0.23333333432674408,
+      "fps": 240,
+      "frames": 58
+    },
+    {
+      "name": "Equipped_m870_ShotgunPump",
+      "weapon": "m870",
+      "motion": "ShotgunPump",
+      "duration": 0.7333333492279053,
+      "fps": 240,
+      "frames": 178
+    },
+    {
+      "name": "Equipped_m870_Reloading",
+      "weapon": "m870",
+      "motion": "Reloading",
+      "duration": 1.9666666984558105,
+      "fps": 120,
+      "frames": 238
+    }
+  ]
+}

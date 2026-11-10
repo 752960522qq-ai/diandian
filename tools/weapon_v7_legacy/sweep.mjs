@@ -1,0 +1,14 @@
+/** Explore elbow pole in memory only. No production mutations; output numeric heuristics,
+ * not a substitute for inspecting skinned renders. */
+import fs from 'node:fs';import path from 'node:path';import {pathToFileURL} from 'node:url';import * as T from 'three';import{read}from'../qa/validate_pf89.mjs';
+const base=process.env.BASELINE_CONFIG, out=path.resolve(process.env.OUTPUT||'../terra_scratch/sweep');fs.mkdirSync(out,{recursive:true});
+const cids=(process.env.CIDS||'linxu,military,vest').split(','), ws=(process.env.WEAPONS||'qcq171,type97hawk,qbu85,type56_1,qbz95').split(','), report={};
+for(const cid of cids){const site=cid==='linxu'?'linxu':'resistance',dir=path.resolve(`web/motion-labs/${site}-motion-lab`),cfg=JSON.parse(fs.readFileSync(base?`${base}/${site}.json`:`${dir}/assets/weapon_attachment.json`)),weapons=new Map(await Promise.all(Object.keys(cfg.weapons).map(async id=>[id,(await read(`${dir}/assets/weapons/${id}.glb`)).scene]))),g=await read(`${dir}/assets/characters/${cid}/character.glb`),pack=await read(`${dir}/assets/characters/${cid}/motions.glb`),xp=await read(`${dir}/assets/characters/${cid}/weapon_update_v6.glb`),scene=new T.Scene(),{prepareRig}=await import(pathToFileURL(dir+'/rig.js')),model=prepareRig(g,pack,cid,cfg,weapons,scene,xp);scene.updateMatrixWorld(true);report[cid]={};
+ const bone=n=>model.bones.get('mixamorig:'+n),pos=n=>bone(n).getWorldPosition(new T.Vector3()),deg=(a,b)=>T.MathUtils.radToDeg(a.angleTo(b));
+ for(const wid of ws){const mount=cfg.characters[cid].mounts[wid].motions.RifleIdle,initial=mount.right_elbow_swivel_degrees,rows=[];for(const swivel of [...new Set([null,initial??null,...Array.from({length:25},(_,i)=>-180+15*i)])]){if(swivel===null)delete mount.right_elbow_swivel_degrees;else mount.right_elbow_swivel_degrees=swivel;
+ const phases=[];for(const phase of [0,.25,.5,.75,1]){const d=model.duration('RifleIdle',wid),st=model.pose('RifleIdle',d*phase,wid),A=pos('RightArm'),E=pos('RightForeArm'),W=pos('RightHand'),M=pos('RightHandMiddle1');phases.push({phase,wrist:deg(W.clone().sub(E),M.clone().sub(W)),elbow:deg(A.clone().sub(E),W.clone().sub(E)),elbowHeight:E.y-A.y,elbow:E.toArray(),hand:W.toArray(),gun:model.attachment.weapons.get(wid).position.toArray(),rightContact:st.rightContactErrorM,leftContact:st.leftContactErrorM});}
+ rows.push({swivel,wristMean:phases.reduce((s,p)=>s+p.wrist,0)/phases.length,wristMax:Math.max(...phases.map(p=>p.wrist)),elbowHeightMax:Math.max(...phases.map(p=>p.elbowHeight)),phases});}
+ if(initial===undefined)delete mount.right_elbow_swivel_degrees;else mount.right_elbow_swivel_degrees=initial;
+ report[cid][wid]={initial:initial??null,rows};const best=rows.filter(r=>r.elbowHeightMax<-.03).sort((a,b)=>a.wristMean-b.wristMean)[0];console.log(cid,wid,'initial',initial,'bestDown',best?.swivel,'wrist',best?.wristMean.toFixed(1),'height',best?.elbowHeightMax.toFixed(3));}
+}
+fs.writeFileSync(`${out}/sweep.json`,JSON.stringify(report,null,2));
