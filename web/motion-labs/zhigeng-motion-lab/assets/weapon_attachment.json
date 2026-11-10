@@ -64,6 +64,112 @@
         "PistolIdle": "LeonPistolIdle",
         "PistolWalk": "LeonPistolWalk",
         "PistolAimingIdle": "PistolIdle"
+      },
+      "refined_geometry": {
+        "display_name": "QSZ92G",
+        "type": "pistol",
+        "path": "res://assets/weapons/qsz92.glb",
+        "right_grip": [
+          0.0,
+          -0.022,
+          0.066
+        ],
+        "right_palm_surface": [
+          0.016,
+          -0.022,
+          0.066
+        ],
+        "trigger": [
+          0.009,
+          0.00897532,
+          0.01276117
+        ],
+        "muzzle": [
+          0.00058079,
+          0.05001762,
+          -0.09042536
+        ],
+        "barrel_forward": [
+          0,
+          0,
+          -1
+        ],
+        "right_palm_normal": [
+          1,
+          0,
+          0
+        ],
+        "right_grip_axis": [
+          0,
+          0.95358,
+          -0.30114
+        ],
+        "left_palm_normal": [
+          -1,
+          0,
+          0
+        ],
+        "left_grip": [
+          -0.038,
+          -0.032,
+          0.058
+        ],
+        "left_support_kind": "Support strong hand outside grip; not slide contact.",
+        "length_m": 0.19,
+        "source": {
+          "file": "QSZ92G_几何精修_v2.glb",
+          "sha256": "7cf383d0742b7874bc97d8ceedc3ad3a1881d8f461820d307a49d0abb3c7f922",
+          "inspection_animations_preserved_in_source": [
+            "QSZ92G_Component_Inspection"
+          ],
+          "license": "CC-BY-4.0",
+          "restriction": "TYPE64 commercial use requires separate permission; attribution required for all assets. Licenses are inherited from provided source metadata, not independently relicensed.",
+          "author": "8sianDude",
+          "url": "https://sketchfab.com/3d-models/norinco-qsz-92g-9mm-handgun-9552035434514828b7f57b6738f5fb7a"
+        },
+        "normalization": {
+          "source_to_game": "game = scale * [-source.z, source.y, source.x] + translation",
+          "scale": 0.19359574336928403,
+          "translation": [
+            -0.00038719148673856807,
+            -0.07427085070970668,
+            0.00404936212182911
+          ],
+          "source_bounds": [
+            [
+              -0.4904623031616211,
+              0.0,
+              -0.10563492774963379
+            ],
+            [
+              0.49096423387527466,
+              0.7221505045890808,
+              0.10172837972640991
+            ]
+          ]
+        },
+        "game_dimensions_m": [
+          0.040144653658338095,
+          0.13980526376042665,
+          0.19
+        ],
+        "anchor_method": "Authored from actual source geometry and rendered side view. Grip center is internal, palm contact separate. Not a mechanical reconstruction.",
+        "binary_payload_unchanged": true,
+        "game_sha256": "c2be7f2de027e57303d635a2e51aa0c41849878b23bd294d5ddb372389a7f30c"
+      },
+      "visual_registration_translation_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "adaptation_policy": "Source body, wrist, finger, clip and timing retained; rigid visual registration only.",
+      "compatible_motions": [
+        "RifleRun",
+        "Reloading"
+      ],
+      "motion_source_notes": {
+        "RifleRun": "Unmodified original RifleRun clip and timing, original QSZ92 RifleRun hand-to-gun calibration for each pistol. No time compression or reconstructed body tracks.",
+        "Reloading": "Original generic Reloading clip and timing; support hand released. No authored magazine prop animation."
       }
     },
     "qbz95": {
@@ -266,7 +372,7 @@
       }
     },
     "type54": {
-      "display_name": "54 式",
+      "display_name": "54式",
       "type": "pistol",
       "right_grip": [
         0,
@@ -320,6 +426,112 @@
         "PistolIdle": "LeonPistolIdle",
         "PistolWalk": "LeonPistolWalk",
         "PistolAimingIdle": "PistolIdle"
+      },
+      "refined_geometry": {
+        "display_name": "54 式（TT33 源）",
+        "type": "pistol",
+        "path": "res://assets/weapons/type54.glb",
+        "right_grip": [
+          0.0,
+          -0.024,
+          0.052
+        ],
+        "right_palm_surface": [
+          0.014,
+          -0.024,
+          0.052
+        ],
+        "trigger": [
+          0.009,
+          0.00691316,
+          0.00712606
+        ],
+        "muzzle": [
+          0.0,
+          0.04620278,
+          -0.1051585
+        ],
+        "barrel_forward": [
+          0,
+          0,
+          -1
+        ],
+        "right_palm_normal": [
+          1,
+          0,
+          0
+        ],
+        "right_grip_axis": [
+          0,
+          0.95358,
+          -0.30114
+        ],
+        "left_palm_normal": [
+          -1,
+          0,
+          0
+        ],
+        "left_grip": [
+          -0.038,
+          -0.034,
+          0.044
+        ],
+        "left_support_kind": "Support strong hand outside grip; not slide contact.",
+        "length_m": 0.195,
+        "source": {
+          "file": "TT33_几何精修_v2.glb",
+          "sha256": "3e4ec09aecfc93f3e49d2da72c996f36c4761d6986342a52ec17df680bc58f4a",
+          "inspection_animations_preserved_in_source": [
+            "TT33_Component_Inspection"
+          ],
+          "license": "CC-BY-4.0",
+          "restriction": "TYPE64 commercial use requires separate permission; attribution required for all assets. Licenses are inherited from provided source metadata, not independently relicensed.",
+          "author": "White-Horse",
+          "url": "https://sketchfab.com/3d-models/tt33-tokarev-pistol-e96197a0a9ed46b6aa74757b6ff4c2da"
+        },
+        "normalization": {
+          "source_to_game": "game = scale * [-source.z, source.y, source.x] + translation",
+          "scale": 0.19943972649893194,
+          "translation": [
+            0.0,
+            -0.07385993162473298,
+            -0.007831917949679579
+          ],
+          "source_bounds": [
+            [
+              -0.4888525605201721,
+              0.0,
+              -0.08208953589200974
+            ],
+            [
+              0.48888644576072693,
+              0.6799865961074829,
+              0.07995061576366425
+            ]
+          ]
+        },
+        "game_dimensions_m": [
+          0.03231724352805307,
+          0.1356163407506161,
+          0.195
+        ],
+        "anchor_method": "Authored from actual source geometry and rendered side view. Grip center is internal, palm contact separate. Not a mechanical reconstruction.",
+        "binary_payload_unchanged": true,
+        "game_sha256": "25d58d368e66cbead8faf6083408c73bd93fe2bf2e23b2706d9d3c006e83e06b"
+      },
+      "visual_registration_translation_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "adaptation_policy": "Source body, wrist, finger, clip and timing retained; rigid visual registration only.",
+      "compatible_motions": [
+        "RifleRun",
+        "Reloading"
+      ],
+      "motion_source_notes": {
+        "RifleRun": "Unmodified original RifleRun clip and timing, original QSZ92 RifleRun hand-to-gun calibration for each pistol. No time compression or reconstructed body tracks.",
+        "Reloading": "Original generic Reloading clip and timing; support hand released. No authored magazine prop animation."
       }
     },
     "qbu85": {
@@ -440,180 +652,6 @@
         "replaces": "type79",
         "order": 10,
         "category": 3
-      }
-    },
-    "winchester1897": {
-      "display_name": "M1897",
-      "full_name": "温彻斯特1897霰弹枪",
-      "type": "shotgun",
-      "right_grip": [
-        0,
-        -0.047,
-        0.162
-      ],
-      "right_palm_surface": [
-        0.0139,
-        -0.047,
-        0.162
-      ],
-      "left_grip": [
-        0,
-        -0.033,
-        -0.17
-      ],
-      "trigger": [
-        0.01,
-        -0.043,
-        0.096
-      ],
-      "butt_contact": [
-        0.00011,
-        -0.096,
-        0.45195
-      ],
-      "muzzle": [
-        0,
-        0.015,
-        -0.54729
-      ],
-      "path": "res://assets/weapons/winchester1897.glb",
-      "barrel_forward": [
-        0,
-        0,
-        -1
-      ],
-      "right_palm_normal": [
-        1,
-        0,
-        0
-      ],
-      "left_palm_normal": [
-        0,
-        -1,
-        0
-      ],
-      "right_grip_axis": [
-        0,
-        0.17,
-        -0.985
-      ],
-      "length_m": 0.999240041,
-      "animation_overrides": {
-        "RifleIdle": "HanyangIdle2",
-        "RifleWalk": "HanyangWalk2",
-        "RifleAimingIdle": "ShotgunAimLevel",
-        "FiringRifle": "ShotgunFireLevel",
-        "Reloading": "ShotgunReload",
-        "ShotgunPump": "ShotgunPumpLevel"
-      },
-      "left_support_kind": "rear of wooden pump fore-end, directly below wood; palm centered 3.5mm below underside",
-      "re4_shotgun": {
-        "aim_pitch_min_deg": -57.664782664317194,
-        "aim_pitch_max_deg": 56.29736500728776,
-        "level_up_weight": 0.5059585869312291,
-        "pump_times": [
-          0,
-          0.03333333333333333,
-          0.06666666666666667,
-          0.1,
-          0.13333333333333333,
-          0.16666666666666666,
-          0.2,
-          0.23333333333333334,
-          0.26666666666666666,
-          0.3,
-          0.3333333333333333,
-          0.36666666666666664,
-          0.4,
-          0.43333333333333335,
-          0.4666666666666667,
-          0.5,
-          0.5333333333333333,
-          0.5666666666666667,
-          0.6,
-          0.6333333333333333,
-          0.6666666666666666,
-          0.7,
-          0.7333333333333333
-        ],
-        "pump_travel_m": {
-          "Up": [
-            0,
-            0.003565285432757774,
-            0.006620877876920423,
-            0.011241653069173818,
-            0.017658502568087455,
-            0.024747283571019463,
-            0.041439696056644014,
-            0.085,
-            0.07379386213977224,
-            0.03975883556212105,
-            0.0157327066930132,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0.0008002785805283374,
-            0.0004097116858124277,
-            0.00013743418755307667,
-            0
-          ],
-          "Down": [
-            0,
-            0,
-            0,
-            0,
-            0.006404798432958825,
-            0.01931806759617031,
-            0.055199850834314834,
-            0.08189868387933619,
-            0.085,
-            0.04040613082003155,
-            0.01944049159417771,
-            0.013874426914573633,
-            0,
-            0,
-            0,
-            0.004876395220128457,
-            0.00949642971157255,
-            0.01014004824037007,
-            0.010674553612117263,
-            0.011037393622875697,
-            0.007435959555418104,
-            0.003748365201815371,
-            0
-          ],
-          "Level": [
-            0,
-            0.001803886779564619,
-            0.0033498900148508934,
-            0.005687810901650299,
-            0.012098706674910635,
-            0.022065026038949442,
-            0.04823778236704951,
-            0.08346782140137429,
-            0.07933015832328262,
-            0.04007862622601187,
-            0.01756450598493957,
-            0.006854541478395345,
-            0,
-            0,
-            0,
-            0.002409141185234063,
-            0.004691629553813563,
-            0.005009603761257933,
-            0.005273671550408765,
-            0.005857837361797197,
-            0.003880969111883857,
-            0.0019213836483330706,
-            0
-          ]
-        },
-        "pump_travel_policy": "Source fore-hand axial motion, linear start/end drift removed, clamped nonnegative and scaled to M1897 85mm stroke."
       }
     },
     "qcq171": {
@@ -955,6 +993,568 @@
       ],
       "length_mm": 1150,
       "length_policy": "User-specified total length: 1150 mm."
+    },
+    "type64": {
+      "display_name": "64式",
+      "type": "pistol",
+      "right_grip": [
+        0,
+        -0.024,
+        0.052
+      ],
+      "left_grip": [
+        -0.038,
+        -0.034,
+        0.044
+      ],
+      "trigger": [
+        0.008,
+        0.006,
+        0.01
+      ],
+      "right_grip_axis": [
+        0,
+        0.95358,
+        -0.30114
+      ],
+      "right_palm_surface": [
+        0.013,
+        -0.024,
+        0.052
+      ],
+      "left_palm_normal": [
+        -1,
+        0,
+        0
+      ],
+      "muzzle": [
+        0,
+        0.045,
+        -0.0975
+      ],
+      "left_support_kind": "support the outside of the strong hand, below the slide; palm offset clears the gripping fingers",
+      "path": "res://assets/weapons/type64.glb",
+      "barrel_forward": [
+        0,
+        0,
+        -1
+      ],
+      "right_palm_normal": [
+        1,
+        0,
+        0
+      ],
+      "length_m": 0.195,
+      "animation_overrides": {
+        "PistolIdle": "LeonPistolIdle",
+        "PistolWalk": "LeonPistolWalk",
+        "PistolAimingIdle": "PistolIdle"
+      },
+      "refined_geometry": {
+        "display_name": "64 式",
+        "type": "pistol",
+        "path": "res://assets/weapons/type64.glb",
+        "right_grip": [
+          0.0,
+          -0.024,
+          0.052
+        ],
+        "right_palm_surface": [
+          0.0105,
+          -0.024,
+          0.052
+        ],
+        "trigger": [
+          0.007,
+          -0.00269426,
+          -0.002448
+        ],
+        "muzzle": [
+          0.0,
+          0.030448,
+          -0.06920598
+        ],
+        "barrel_forward": [
+          0,
+          0,
+          -1
+        ],
+        "right_palm_normal": [
+          1,
+          0,
+          0
+        ],
+        "right_grip_axis": [
+          0,
+          0.95358,
+          -0.30114
+        ],
+        "left_palm_normal": [
+          -1,
+          0,
+          0
+        ],
+        "left_grip": [
+          -0.038,
+          -0.034,
+          0.044
+        ],
+        "left_support_kind": "Support strong hand outside grip; not slide contact.",
+        "length_m": 0.155,
+        "source": {
+          "file": "TYPE64_几何精修_v2.glb",
+          "sha256": "4b3959d1fc58713665196515aca317285b2eced548fbef45a10a9b2fa2cdc2d5",
+          "inspection_animations_preserved_in_source": [
+            "TYPE64_Component_Inspection"
+          ],
+          "license": "CC-BY-NC-4.0",
+          "restriction": "TYPE64 commercial use requires separate permission; attribution required for all assets. Licenses are inherited from provided source metadata, not independently relicensed.",
+          "author": "Martini-SF",
+          "url": "https://sketchfab.com/3d-models/type-64-compact-pistol-a72b19bcbe2948b18e854818603f6765"
+        },
+        "normalization": {
+          "source_to_game": "game = scale * [-source.z, source.y, source.x] + translation",
+          "scale": 0.15782028278909355,
+          "translation": [
+            0.0,
+            -0.06503327352516433,
+            0.0078103208190537995
+          ],
+          "source_bounds": [
+            [
+              -0.48887452483177185,
+              0.0,
+              -0.06654217839241028
+            ],
+            [
+              0.49325525760650635,
+              0.6857210397720337,
+              0.06570558995008469
+            ]
+          ]
+        },
+        "game_dimensions_m": [
+          0.020871380198039087,
+          0.10822068841125362,
+          0.155
+        ],
+        "anchor_method": "Authored from actual source geometry and rendered side view. Grip center is internal, palm contact separate. Not a mechanical reconstruction.",
+        "binary_payload_unchanged": true,
+        "game_sha256": "ca7376e4b84e7b50df2a59743d9a3b09db37928d6c1152bddc13cac7a8f9c582"
+      },
+      "visual_registration_translation_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "adaptation_policy": "Source body, wrist, finger, clip and timing retained; rigid visual registration only.",
+      "compatible_motions": [
+        "RifleRun",
+        "Reloading"
+      ],
+      "motion_source_notes": {
+        "RifleRun": "Unmodified original RifleRun clip and timing, original QSZ92 RifleRun hand-to-gun calibration for each pistol. No time compression or reconstructed body tracks.",
+        "Reloading": "Original generic Reloading clip and timing; support hand released. No authored magazine prop animation."
+      }
+    },
+    "m870": {
+      "display_name": "M870",
+      "full_name": "温彻斯特1897霰弹枪",
+      "type": "shotgun",
+      "right_grip": [
+        0,
+        -0.047,
+        0.162
+      ],
+      "right_palm_surface": [
+        0.0139,
+        -0.047,
+        0.162
+      ],
+      "left_grip": [
+        0,
+        -0.033,
+        -0.17
+      ],
+      "trigger": [
+        0.01,
+        -0.043,
+        0.096
+      ],
+      "butt_contact": [
+        0.00011,
+        -0.096,
+        0.45195
+      ],
+      "muzzle": [
+        0,
+        0.015,
+        -0.54729
+      ],
+      "path": "res://assets/weapons/m870.glb",
+      "barrel_forward": [
+        0,
+        0,
+        -1
+      ],
+      "right_palm_normal": [
+        1,
+        0,
+        0
+      ],
+      "left_palm_normal": [
+        0,
+        -1,
+        0
+      ],
+      "right_grip_axis": [
+        0,
+        0.17,
+        -0.985
+      ],
+      "length_m": 1,
+      "animation_overrides": {
+        "RifleIdle": "HanyangIdle2",
+        "RifleWalk": "HanyangWalk2",
+        "RifleAimingIdle": "ShotgunAimLevel",
+        "FiringRifle": "ShotgunFireLevel",
+        "Reloading": "ShotgunReload",
+        "ShotgunPump": "ShotgunPumpLevel"
+      },
+      "left_support_kind": "rear of wooden pump fore-end, directly below wood; palm centered 3.5mm below underside",
+      "re4_shotgun": {
+        "aim_pitch_min_deg": -57.664782664317194,
+        "aim_pitch_max_deg": 56.29736500728776,
+        "level_up_weight": 0.5059585869312291,
+        "pump_times": [
+          0,
+          0.03333333333333333,
+          0.06666666666666667,
+          0.1,
+          0.13333333333333333,
+          0.16666666666666666,
+          0.2,
+          0.23333333333333334,
+          0.26666666666666666,
+          0.3,
+          0.3333333333333333,
+          0.36666666666666664,
+          0.4,
+          0.43333333333333335,
+          0.4666666666666667,
+          0.5,
+          0.5333333333333333,
+          0.5666666666666667,
+          0.6,
+          0.6333333333333333,
+          0.6666666666666666,
+          0.7,
+          0.7333333333333333
+        ],
+        "pump_travel_m": {
+          "Up": [
+            0.0,
+            0.0031458400877274477,
+            0.00584195106787096,
+            0.009919105649271016,
+            0.015581031677724224,
+            0.021835838445017172,
+            0.036564437697038835,
+            0.075,
+            0.06511223129979903,
+            0.035081325495989156,
+            0.01388180002324694,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0007061281592897094,
+            0.00036151031101096557,
+            0.00012126545960565586,
+            0.0
+          ],
+          "Down": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.005651292734963668,
+            0.01704535376132674,
+            0.04870575073616014,
+            0.07226354459941428,
+            0.075,
+            0.035652468370616065,
+            0.017153374936039155,
+            0.012242141395212028,
+            0.0,
+            0.0,
+            0.0,
+            0.004302701664819226,
+            0.008379202686681662,
+            0.008947101388561826,
+            0.009418723775397585,
+            0.00973887672606679,
+            0.006561140784192443,
+            0.003307381060425327,
+            0.0
+          ],
+          "Level": [
+            0.0,
+            0.001591664805498193,
+            0.002955785307221376,
+            0.0050186566779267345,
+            0.010675329419038794,
+            0.019469140622602448,
+            0.04256274914739662,
+            0.07364807770709496,
+            0.06999719852054348,
+            0.035363493728833996,
+            0.015498093516123149,
+            0.0060481248338782444,
+            0.0,
+            0.0,
+            0.0,
+            0.0021257128105006437,
+            0.004139673135717849,
+            0.004420238612874646,
+            0.004653239603301851,
+            0.005168680025115173,
+            0.003424384510485756,
+            0.001695338513235062,
+            0.0
+          ]
+        },
+        "pump_travel_policy": "Original M97 pump timing/shape, amplitude scaled to refined M870 75 mm travel; hand follows actual pump."
+      },
+      "refined_geometry": {
+        "display_name": "M870",
+        "type": "shotgun",
+        "path": "res://assets/weapons/m870.glb",
+        "right_grip": [
+          0.0,
+          -0.047,
+          0.162
+        ],
+        "right_palm_surface": [
+          0.022000000000000002,
+          -0.047,
+          0.162
+        ],
+        "trigger": [
+          0.00792,
+          -0.06846951890955648,
+          0.059764195668778664
+        ],
+        "muzzle": [
+          0.0,
+          0.004117902165610671,
+          -0.5577400624917983
+        ],
+        "barrel_forward": [
+          0,
+          0,
+          -1
+        ],
+        "right_palm_normal": [
+          1,
+          0,
+          0
+        ],
+        "right_grip_axis": [
+          0,
+          0.35,
+          -0.93675
+        ],
+        "left_palm_normal": [
+          0,
+          -1,
+          0
+        ],
+        "left_grip": [
+          0.0,
+          -0.06744716086624426,
+          -0.23160784667520218
+        ],
+        "left_support_kind": "4.4 source mm below measured wooden Pump_shell_visual underside at rest; follows pump stroke.",
+        "length_m": 1.0,
+        "source": {
+          "file": "R870_几何精修_v2.glb",
+          "sha256": "e24811768839d6a55a33b9c5fbf10c03dc64a45b78bf718f0166bd5161099c53",
+          "inspection_animations_preserved_in_source": [
+            "R870_Component_Inspection"
+          ],
+          "license": "CC-BY-4.0",
+          "restriction": "TYPE64 commercial use requires separate permission; attribution required for all assets. Licenses are inherited from provided source metadata, not independently relicensed.",
+          "author": "tris.blend",
+          "url": "https://sketchfab.com/3d-models/remington-870-pbrgr-26e37df4c38c4e8a9da8adeb4b66bff6"
+        },
+        "normalization": {
+          "source_to_game": "game = scale * [-source.z, source.y, source.x] + translation; source nodes listed in width_adjustment first scale local Z only",
+          "scale": 1.0223580433122135,
+          "translation": [
+            0.0,
+            -0.19013012606370988,
+            -0.05780697931212589
+          ],
+          "source_bounds": [
+            [
+              -0.48902198672294617,
+              0.0009445201721973717,
+              -0.033661890774965286
+            ],
+            [
+              0.4891089200973511,
+              0.20788699388504028,
+              0.033293016254901886
+            ]
+          ]
+        },
+        "game_dimensions_m": [
+          0.06023766121226144,
+          0.21156930250325123,
+          1.0000000000000004
+        ],
+        "anchor_method": "Authored from actual source geometry and rendered side view. Grip center is internal, palm contact separate. Not a mechanical reconstruction.",
+        "binary_payload_unchanged": true,
+        "game_sha256": "b1192f67c1bc1ca6334d5b4b281eefe234bcb222132c627580dab594e8e14795",
+        "butt_contact": [
+          0.0,
+          -0.1083414825987328,
+          0.4390590297376098
+        ],
+        "pump_node_names": [
+          "Pump_visual"
+        ],
+        "pump_node": "Pump_visual",
+        "pump_axis_local": [
+          1,
+          0,
+          0
+        ],
+        "pump_axis_game": [
+          0,
+          0,
+          1
+        ],
+        "pump_travel_m": 0.075,
+        "pump_travel_local_units": 0.07335981801152229,
+        "pump_sync": "Pump_visual.position.x = rest.x + travel_m / normalization.scale. left_grip.z = rest.z + travel_m. Never move Static_visual. No autoplay animation.",
+        "width_adjustment": {
+          "revision": "v6_user_requested_1m_thinner_body",
+          "final_axial_length_m": 1.0,
+          "game_axis": "X",
+          "source_node_local_axis": "Z",
+          "body_width_scale": 0.88,
+          "scaled_nodes": [
+            "Pump_visual",
+            "Buttpad_visual",
+            "Receiver_visual",
+            "Stock_visual",
+            "Trigger_guard_visual",
+            "Underside_detail_visual",
+            "Upper_rail_visual"
+          ],
+          "pump_child_nodes_follow_parent": [
+            "Pump_detail_A_visual",
+            "Pump_detail_B_visual",
+            "Pump_shell_visual"
+          ],
+          "circular_parts_preserved": [
+            "Barrel_visual",
+            "Exposed_tube_visual",
+            "Front_cap_visual",
+            "Under_pump_tube_visual"
+          ],
+          "source_file_unchanged": true,
+          "binary_payload_unchanged": true,
+          "source_mesh_definitions_unchanged": true,
+          "original_M97_axial_length_m_for_reference_only": 0.9992400407791138,
+          "policy": "Latest user request sets total length to 1 m and authorizes modest body-width compression. Do not use the earlier exact M97 match as the final target."
+        }
+      },
+      "visual_registration_translation_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "adaptation_policy": "Source body, wrist, finger, clip and timing retained; rigid visual registration only.",
+      "pump_node_names": [
+        "Pump_visual"
+      ],
+      "normalization": {
+        "source_to_game": "game = scale * [-source.z, source.y, source.x] + translation; source nodes listed in width_adjustment first scale local Z only",
+        "scale": 1.0223580433122135,
+        "translation": [
+          0.0,
+          -0.19013012606370988,
+          -0.05780697931212589
+        ],
+        "source_bounds": [
+          [
+            -0.48902198672294617,
+            0.0009445201721973717,
+            -0.033661890774965286
+          ],
+          [
+            0.4891089200973511,
+            0.20788699388504028,
+            0.033293016254901886
+          ]
+        ]
+      },
+      "game_dimensions_m": [
+        0.06023766121226144,
+        0.21156930250325123,
+        1.0000000000000004
+      ],
+      "game_sha256": "b1192f67c1bc1ca6334d5b4b281eefe234bcb222132c627580dab594e8e14795",
+      "width_adjustment": {
+        "revision": "v6_user_requested_1m_thinner_body",
+        "final_axial_length_m": 1.0,
+        "game_axis": "X",
+        "source_node_local_axis": "Z",
+        "body_width_scale": 0.88,
+        "scaled_nodes": [
+          "Pump_visual",
+          "Buttpad_visual",
+          "Receiver_visual",
+          "Stock_visual",
+          "Trigger_guard_visual",
+          "Underside_detail_visual",
+          "Upper_rail_visual"
+        ],
+        "pump_child_nodes_follow_parent": [
+          "Pump_detail_A_visual",
+          "Pump_detail_B_visual",
+          "Pump_shell_visual"
+        ],
+        "circular_parts_preserved": [
+          "Barrel_visual",
+          "Exposed_tube_visual",
+          "Front_cap_visual",
+          "Under_pump_tube_visual"
+        ],
+        "source_file_unchanged": true,
+        "binary_payload_unchanged": true,
+        "source_mesh_definitions_unchanged": true,
+        "original_M97_axial_length_m_for_reference_only": 0.9992400407791138,
+        "policy": "Latest user request sets total length to 1 m and authorizes modest body-width compression. Do not use the earlier exact M97 match as the final target."
+      },
+      "source": {
+        "file": "R870_几何精修_v2.glb",
+        "sha256": "e24811768839d6a55a33b9c5fbf10c03dc64a45b78bf718f0166bd5161099c53",
+        "inspection_animations_preserved_in_source": [
+          "R870_Component_Inspection"
+        ],
+        "license": "CC-BY-4.0",
+        "restriction": "TYPE64 commercial use requires separate permission; attribution required for all assets. Licenses are inherited from provided source metadata, not independently relicensed.",
+        "author": "tris.blend",
+        "url": "https://sketchfab.com/3d-models/remington-870-pbrgr-26e37df4c38c4e8a9da8adeb4b66bff6"
+      }
     }
   },
   "characters": {
@@ -1059,7 +1659,9 @@
                 -0.07356905937194824,
                 -0.08215046674013138,
                 0.9176687002182007
-              ]
+              ],
+              "release_support_hand": true,
+              "trigger_finger_ik": false
             },
             "PistolIdle": {
               "quaternion_xyzw": [
@@ -3372,6 +3974,36 @@
                 ]
               },
               "support_elbow_outward_weight": 0
+            },
+            "Reloading": {
+              "quaternion_xyzw": [
+                0.7322421073913574,
+                -0.1056462749838829,
+                0.10374462604522705,
+                0.6647537350654602
+              ],
+              "right_hand_quaternion_offset": [
+                -0.38173699378967285,
+                -0.07356905937194824,
+                -0.08215046674013138,
+                0.9176687002182007
+              ],
+              "release_support_hand": true,
+              "trigger_finger_ik": false
+            },
+            "RifleRun": {
+              "quaternion_xyzw": [
+                0.7322421073913574,
+                -0.1056462749838829,
+                0.10374462604522705,
+                0.6647537350654602
+              ],
+              "right_hand_quaternion_offset": [
+                -0.08913368731737137,
+                0.024237889796495438,
+                -0.16144120693206787,
+                0.9825500249862671
+              ]
             }
           }
         },
@@ -5293,1221 +5925,6 @@
             "fire_duration_s": 0.26666666666666666,
             "fire_peak_s": 0.05
           }
-        },
-        "winchester1897": {
-          "quaternion_xyzw": [
-            0.846933901309967,
-            -0.08941581100225449,
-            0.1990031599998474,
-            0.4848768711090088
-          ],
-          "right_hand_quaternion_offset": [
-            -0.17653650045394897,
-            -0.058116164058446884,
-            -0.043191272765398026,
-            0.9816272258758545
-          ],
-          "motions": {
-            "RifleIdle": {
-              "quaternion_xyzw": [
-                0.846933901309967,
-                -0.08941581100225449,
-                0.1990031599998474,
-                0.4848768711090088
-              ],
-              "right_hand_quaternion_offset": [
-                -0.17653650045394897,
-                -0.058116164058446884,
-                -0.043191272765398026,
-                0.9816272258758545
-              ],
-              "right_finger_directions_weapon": {
-                "Middle": [
-                  [
-                    -0.88,
-                    -0.45,
-                    0.16
-                  ],
-                  [
-                    -0.91,
-                    0.36,
-                    0.19
-                  ],
-                  [
-                    -0.25,
-                    0.95,
-                    0.18
-                  ]
-                ],
-                "Ring": [
-                  [
-                    -0.9,
-                    -0.35,
-                    0.2
-                  ],
-                  [
-                    -0.9,
-                    0.35,
-                    0.18
-                  ],
-                  [
-                    -0.45,
-                    0.88,
-                    0.15
-                  ]
-                ],
-                "Pinky": [
-                  [
-                    -0.94,
-                    -0.15,
-                    0.3
-                  ],
-                  [
-                    -0.88,
-                    0.45,
-                    0.15
-                  ],
-                  [
-                    -0.25,
-                    0.95,
-                    0.18
-                  ]
-                ],
-                "Thumb": [
-                  null,
-                  [
-                    -0.65,
-                    -0.25,
-                    -0.7
-                  ],
-                  [
-                    -0.25,
-                    -0.65,
-                    -0.72
-                  ]
-                ],
-                "Index": [
-                  null,
-                  null,
-                  null
-                ]
-              },
-              "left_hand_quaternion_weapon": [
-                0.5657749851159419,
-                0.3943809765711356,
-                -0.6726551956640181,
-                0.26813669414024904
-              ],
-              "right_hand_quaternion_weapon": [
-                -0.7699591534001201,
-                -0.16371312288383902,
-                -0.05779692354399529,
-                0.6140198926415741
-              ],
-              "right_palm_target_weapon": [
-                0.0139,
-                -0.047,
-                0.162
-              ],
-              "support_forearm_twist_weight": 0.75,
-              "support_upper_arm_twist_weight": 0.75,
-              "left_grip": [
-                0,
-                -0.033,
-                -0.17
-              ],
-              "right_thumb_max_swing_degrees": [
-                0,
-                35,
-                30
-              ]
-            },
-            "RifleAimingIdle": {
-              "quaternion_xyzw": [
-                0.8349400758743286,
-                -0.12629957497119904,
-                0.12139436602592468,
-                0.5217153429985046
-              ],
-              "right_hand_quaternion_offset": [
-                0.1726219207048416,
-                0.005768780130892992,
-                0.08109559118747711,
-                -0.9816271066665649
-              ],
-              "shoulder_contact": true,
-              "shoulder_pocket_drop_m": -0.025,
-              "shoulder_pocket_forward_m": 0.055,
-              "right_elbow_lift_ratio": -1,
-              "right_hand_quaternion_weapon": [
-                -0.4993020748993027,
-                0.3404242021651798,
-                0.006646036796591981,
-                0.7967211734453147
-              ],
-              "right_palm_target_weapon": [
-                0.0139,
-                -0.047,
-                0.162
-              ],
-              "right_finger_directions_weapon": {
-                "Middle": [
-                  [
-                    -0.88,
-                    -0.45,
-                    0.16
-                  ],
-                  [
-                    -0.91,
-                    0.36,
-                    0.19
-                  ],
-                  [
-                    -0.25,
-                    0.95,
-                    0.18
-                  ]
-                ],
-                "Ring": [
-                  [
-                    -0.9,
-                    -0.35,
-                    0.2
-                  ],
-                  [
-                    -0.9,
-                    0.35,
-                    0.18
-                  ],
-                  [
-                    -0.45,
-                    0.88,
-                    0.15
-                  ]
-                ],
-                "Pinky": [
-                  [
-                    -0.94,
-                    -0.15,
-                    0.3
-                  ],
-                  [
-                    -0.88,
-                    0.45,
-                    0.15
-                  ],
-                  [
-                    -0.25,
-                    0.95,
-                    0.18
-                  ]
-                ],
-                "Thumb": [
-                  null,
-                  [
-                    -0.65,
-                    -0.25,
-                    -0.7
-                  ],
-                  [
-                    -0.25,
-                    -0.65,
-                    -0.72
-                  ]
-                ],
-                "Index": [
-                  [
-                    -0.2,
-                    -0.08,
-                    -0.977
-                  ],
-                  [
-                    -0.1,
-                    -0.04,
-                    -0.994
-                  ],
-                  [
-                    -0.1,
-                    0,
-                    -0.995
-                  ]
-                ]
-              },
-              "support_forearm_twist_weight": 0.75,
-              "support_upper_arm_twist_weight": 0.75,
-              "left_grip": [
-                0,
-                -0.033,
-                -0.17
-              ],
-              "left_hand_quaternion_weapon": [
-                0.22377718290684476,
-                0.8325948544576478,
-                -0.4801755961999709,
-                0.16168167805083572
-              ],
-              "right_thumb_max_swing_degrees": [
-                0,
-                35,
-                30
-              ]
-            },
-            "FiringRifle": {
-              "quaternion_xyzw": [
-                0.8335416316986084,
-                -0.1301780641078949,
-                0.11838972568511963,
-                0.5236850380897522
-              ],
-              "right_hand_quaternion_offset": [
-                0.1715361624956131,
-                0.004552742000669241,
-                0.08344286680221558,
-                -0.9816272258758545
-              ],
-              "shoulder_contact": true,
-              "shoulder_pocket_drop_m": -0.025,
-              "shoulder_pocket_forward_m": 0.055,
-              "right_elbow_lift_ratio": -1,
-              "right_hand_quaternion_weapon": [
-                -0.4993020748993027,
-                0.3404242021651798,
-                0.006646036796591981,
-                0.7967211734453147
-              ],
-              "right_palm_target_weapon": [
-                0.0139,
-                -0.047,
-                0.162
-              ],
-              "right_finger_directions_weapon": {
-                "Middle": [
-                  [
-                    -0.88,
-                    -0.45,
-                    0.16
-                  ],
-                  [
-                    -0.91,
-                    0.36,
-                    0.19
-                  ],
-                  [
-                    -0.25,
-                    0.95,
-                    0.18
-                  ]
-                ],
-                "Ring": [
-                  [
-                    -0.9,
-                    -0.35,
-                    0.2
-                  ],
-                  [
-                    -0.9,
-                    0.35,
-                    0.18
-                  ],
-                  [
-                    -0.45,
-                    0.88,
-                    0.15
-                  ]
-                ],
-                "Pinky": [
-                  [
-                    -0.94,
-                    -0.15,
-                    0.3
-                  ],
-                  [
-                    -0.88,
-                    0.45,
-                    0.15
-                  ],
-                  [
-                    -0.25,
-                    0.95,
-                    0.18
-                  ]
-                ],
-                "Thumb": [
-                  null,
-                  [
-                    -0.65,
-                    -0.25,
-                    -0.7
-                  ],
-                  [
-                    -0.25,
-                    -0.65,
-                    -0.72
-                  ]
-                ],
-                "Index": [
-                  [
-                    -0.2,
-                    -0.08,
-                    -0.977
-                  ],
-                  [
-                    -0.1,
-                    -0.04,
-                    -0.994
-                  ],
-                  [
-                    -0.1,
-                    0,
-                    -0.995
-                  ]
-                ]
-              },
-              "support_forearm_twist_weight": 0.75,
-              "support_upper_arm_twist_weight": 0.75,
-              "left_grip": [
-                0,
-                -0.033,
-                -0.17
-              ],
-              "left_hand_quaternion_weapon": [
-                0.22377718290684476,
-                0.8325948544576478,
-                -0.4801755961999709,
-                0.16168167805083572
-              ],
-              "right_thumb_max_swing_degrees": [
-                0,
-                35,
-                30
-              ]
-            },
-            "RifleRun": {
-              "quaternion_xyzw": [
-                0.8371145129203796,
-                -0.029491033405065536,
-                0.17838719487190247,
-                0.5162826180458069
-              ],
-              "right_hand_quaternion_offset": [
-                -0.18901397287845612,
-                -0.025588059797883034,
-                -0.005202919244766235,
-                0.9816272258758545
-              ],
-              "right_finger_directions_weapon": {
-                "Middle": [
-                  [
-                    -0.88,
-                    -0.45,
-                    0.16
-                  ],
-                  [
-                    -0.91,
-                    0.36,
-                    0.19
-                  ],
-                  [
-                    -0.25,
-                    0.95,
-                    0.18
-                  ]
-                ],
-                "Ring": [
-                  [
-                    -0.9,
-                    -0.35,
-                    0.2
-                  ],
-                  [
-                    -0.9,
-                    0.35,
-                    0.18
-                  ],
-                  [
-                    -0.45,
-                    0.88,
-                    0.15
-                  ]
-                ],
-                "Pinky": [
-                  [
-                    -0.94,
-                    -0.15,
-                    0.3
-                  ],
-                  [
-                    -0.88,
-                    0.45,
-                    0.15
-                  ],
-                  [
-                    -0.25,
-                    0.95,
-                    0.18
-                  ]
-                ],
-                "Thumb": [
-                  null,
-                  [
-                    -0.65,
-                    -0.25,
-                    -0.7
-                  ],
-                  [
-                    -0.25,
-                    -0.65,
-                    -0.72
-                  ]
-                ],
-                "Index": [
-                  [
-                    -0.15,
-                    -0.1,
-                    -0.983
-                  ],
-                  [
-                    -0.1,
-                    -0.42,
-                    -0.902
-                  ],
-                  [
-                    -0.05,
-                    -0.72,
-                    -0.692
-                  ]
-                ]
-              },
-              "right_hand_quaternion_weapon": [
-                -0.8260917049888448,
-                -0.23948574077932405,
-                0.015340993695419115,
-                0.5098859933986892
-              ],
-              "right_palm_target_weapon": [
-                0.0139,
-                -0.047,
-                0.162
-              ],
-              "left_grip": [
-                0,
-                -0.03,
-                -0.1
-              ],
-              "support_forearm_twist_weight": 0.75,
-              "support_upper_arm_twist_weight": 0.75,
-              "left_hand_quaternion_weapon": [
-                0.19782792933466992,
-                0.4477555693275297,
-                -0.6337969546576628,
-                0.5988993807313678
-              ],
-              "right_thumb_max_swing_degrees": [
-                0,
-                35,
-                30
-              ]
-            },
-            "Reloading": {
-              "quaternion_xyzw": [
-                0.7303476333618164,
-                -0.11740098893642426,
-                0.2394101619720459,
-                0.6288817524909973
-              ],
-              "right_hand_quaternion_offset": [
-                0,
-                0,
-                0,
-                1
-              ],
-              "left_grip": [
-                0,
-                -0.033,
-                -0.17
-              ],
-              "right_palm_target_weapon": [
-                0.0139,
-                -0.047,
-                0.162
-              ],
-              "right_finger_directions_weapon": {
-                "Thumb": [
-                  null,
-                  [
-                    -0.65,
-                    -0.25,
-                    -0.7
-                  ],
-                  [
-                    -0.25,
-                    -0.65,
-                    -0.72
-                  ]
-                ]
-              },
-              "right_thumb_max_swing_degrees": [
-                0,
-                35,
-                30
-              ]
-            },
-            "PistolIdle": {
-              "quaternion_xyzw": [
-                0.8369674682617188,
-                -0.01867484860122204,
-                0.18507537245750427,
-                0.5146686434745789
-              ],
-              "right_hand_quaternion_offset": [
-                0.18870574235916138,
-                0.027986330911517143,
-                -0.0038718171417713165,
-                -0.9816272258758545
-              ],
-              "left_grip": [
-                0,
-                -0.033,
-                -0.17
-              ],
-              "right_palm_target_weapon": [
-                0.0139,
-                -0.047,
-                0.162
-              ],
-              "support_forearm_twist_weight": 0.75,
-              "support_upper_arm_twist_weight": 0.75,
-              "right_finger_directions_weapon": {
-                "Thumb": [
-                  null,
-                  [
-                    -0.65,
-                    -0.25,
-                    -0.7
-                  ],
-                  [
-                    -0.25,
-                    -0.65,
-                    -0.72
-                  ]
-                ]
-              },
-              "right_thumb_max_swing_degrees": [
-                0,
-                35,
-                30
-              ]
-            },
-            "HanyangIdle2": {
-              "quaternion_xyzw": [
-                0.7328176816225451,
-                -0.14904668722719477,
-                -0.058012653214468884,
-                0.66136061463847
-              ],
-              "right_hand_quaternion_offset": [
-                0,
-                0,
-                0,
-                1
-              ],
-              "right_hand_quaternion_weapon": [
-                -0.6397143101555552,
-                0.06589869323342128,
-                -0.029788897295418712,
-                0.7652029699434344
-              ],
-              "right_contact_offset_native": [
-                -0.0136422,
-                0.04502571,
-                -0.0048396
-              ],
-              "palm_offset_native": [
-                -0.022894051724946296,
-                0.05765050732642252,
-                -0.012592711110908384
-              ],
-              "right_palm_target_weapon": [
-                0.0139,
-                -0.047,
-                0.162
-              ],
-              "left_hand_quaternion_weapon": [
-                -0.3918806351215433,
-                -0.5751127901664456,
-                0.6916263186060976,
-                -0.19320424895710314
-              ],
-              "support_pose_weight": 1,
-              "support_forearm_twist_weight": 0.75,
-              "support_upper_arm_twist_weight": 0.75,
-              "right_elbow_lift_ratio": null,
-              "right_finger_directions_weapon": {
-                "Middle": [
-                  [
-                    -0.88,
-                    -0.45,
-                    0.16
-                  ],
-                  [
-                    -0.91,
-                    0.36,
-                    0.19
-                  ],
-                  [
-                    -0.25,
-                    0.95,
-                    0.18
-                  ]
-                ],
-                "Ring": [
-                  [
-                    -0.9,
-                    -0.35,
-                    0.2
-                  ],
-                  [
-                    -0.9,
-                    0.35,
-                    0.18
-                  ],
-                  [
-                    -0.45,
-                    0.88,
-                    0.15
-                  ]
-                ],
-                "Pinky": [
-                  [
-                    -0.94,
-                    -0.15,
-                    0.3
-                  ],
-                  [
-                    -0.88,
-                    0.45,
-                    0.15
-                  ],
-                  [
-                    -0.25,
-                    0.95,
-                    0.18
-                  ]
-                ],
-                "Thumb": [
-                  null,
-                  [
-                    -0.65,
-                    -0.25,
-                    -0.7
-                  ],
-                  [
-                    -0.25,
-                    -0.65,
-                    -0.72
-                  ]
-                ],
-                "Index": [
-                  null,
-                  null,
-                  null
-                ]
-              },
-              "left_grip": [
-                0,
-                -0.03,
-                -0.08
-              ],
-              "right_thumb_max_swing_degrees": [
-                0,
-                35,
-                30
-              ]
-            },
-            "HanyangWalk2": {
-              "quaternion_xyzw": [
-                0.7012244311810892,
-                -0.2674321310941079,
-                0.012859968149989217,
-                0.6607563647763091
-              ],
-              "right_hand_quaternion_offset": [
-                0,
-                0,
-                0,
-                1
-              ],
-              "right_hand_quaternion_weapon": [
-                -0.6323522423747929,
-                -0.011861064977709432,
-                -0.0943096067206731,
-                0.7688274544924611
-              ],
-              "right_contact_offset_native": [
-                -0.0136422,
-                0.04502571,
-                -0.0048396
-              ],
-              "palm_offset_native": [
-                -0.019367086264231066,
-                0.057620952242006376,
-                -0.015501614345259731
-              ],
-              "right_palm_target_weapon": [
-                0.0139,
-                -0.047,
-                0.162
-              ],
-              "left_hand_quaternion_weapon": [
-                -0.3524624481129283,
-                -0.6157299357743191,
-                0.6609021342372369,
-                -0.24465330126989943
-              ],
-              "support_pose_weight": 1,
-              "support_forearm_twist_weight": 0.75,
-              "support_upper_arm_twist_weight": 0.75,
-              "right_elbow_lift_ratio": null,
-              "right_finger_directions_weapon": {
-                "Middle": [
-                  [
-                    -0.88,
-                    -0.45,
-                    0.16
-                  ],
-                  [
-                    -0.91,
-                    0.36,
-                    0.19
-                  ],
-                  [
-                    -0.25,
-                    0.95,
-                    0.18
-                  ]
-                ],
-                "Ring": [
-                  [
-                    -0.9,
-                    -0.35,
-                    0.2
-                  ],
-                  [
-                    -0.9,
-                    0.35,
-                    0.18
-                  ],
-                  [
-                    -0.45,
-                    0.88,
-                    0.15
-                  ]
-                ],
-                "Pinky": [
-                  [
-                    -0.94,
-                    -0.15,
-                    0.3
-                  ],
-                  [
-                    -0.88,
-                    0.45,
-                    0.15
-                  ],
-                  [
-                    -0.25,
-                    0.95,
-                    0.18
-                  ]
-                ],
-                "Thumb": [
-                  null,
-                  [
-                    -0.65,
-                    -0.25,
-                    -0.7
-                  ],
-                  [
-                    -0.25,
-                    -0.65,
-                    -0.72
-                  ]
-                ],
-                "Index": [
-                  null,
-                  null,
-                  null
-                ]
-              },
-              "left_grip": [
-                0,
-                -0.03,
-                -0.08
-              ],
-              "weapon_offset_body_m": [
-                0.1,
-                0.02,
-                0.05
-              ],
-              "right_thumb_max_swing_degrees": [
-                0,
-                35,
-                30
-              ]
-            }
-          },
-          "left_hand_quaternion_weapon": [
-            0.4209965467453003,
-            0.5462596416473389,
-            -0.5608924031257629,
-            0.4579978287220001
-          ],
-          "trigger_finger_ik": true,
-          "model_scale": 1,
-          "right_hand_quaternion_weapon": [
-            -0.8990694427,
-            0.0624833512,
-            -0.1322984812,
-            0.4126343143
-          ],
-          "right_contact_offset_native": [
-            -0.0136422,
-            0.04502571,
-            -0.0048396
-          ],
-          "support_pose_weight": 1,
-          "right_finger_pose_weight": 1,
-          "support_finger_pose_weight": 1,
-          "right_finger_directions_weapon": {
-            "Middle": [
-              [
-                -0.88,
-                -0.45,
-                0.16
-              ],
-              [
-                -0.91,
-                0.36,
-                0.19
-              ],
-              [
-                -0.25,
-                0.95,
-                0.18
-              ]
-            ],
-            "Ring": [
-              [
-                -0.9,
-                -0.35,
-                0.2
-              ],
-              [
-                -0.9,
-                0.35,
-                0.18
-              ],
-              [
-                -0.45,
-                0.88,
-                0.15
-              ]
-            ],
-            "Pinky": [
-              [
-                -0.94,
-                -0.15,
-                0.3
-              ],
-              [
-                -0.88,
-                0.45,
-                0.15
-              ],
-              [
-                -0.25,
-                0.95,
-                0.18
-              ]
-            ],
-            "Thumb": [
-              null,
-              [
-                -0.65,
-                -0.25,
-                -0.7
-              ],
-              [
-                -0.25,
-                -0.65,
-                -0.72
-              ]
-            ],
-            "Index": [
-              [
-                -0.3,
-                -0.2,
-                -0.93
-              ],
-              [
-                0,
-                0,
-                -1
-              ],
-              [
-                0,
-                0.3,
-                -0.954
-              ]
-            ]
-          },
-          "grip_method": "physical palm surface + two-bone right arm IK; shoulder buttpad anchor for aim/fire",
-          "support_finger_directions_weapon": {
-            "Index": [
-              [
-                1,
-                -0.05,
-                0
-              ],
-              [
-                0.45,
-                0.893,
-                0
-              ],
-              [
-                -0.4,
-                0.916,
-                0
-              ]
-            ],
-            "Middle": [
-              [
-                1,
-                -0.05,
-                0
-              ],
-              [
-                0.45,
-                0.893,
-                0
-              ],
-              [
-                -0.4,
-                0.916,
-                0
-              ]
-            ],
-            "Ring": [
-              [
-                1,
-                -0.05,
-                0
-              ],
-              [
-                0.45,
-                0.893,
-                0
-              ],
-              [
-                -0.4,
-                0.916,
-                0
-              ]
-            ],
-            "Pinky": [
-              [
-                1,
-                -0.05,
-                0
-              ],
-              [
-                0.45,
-                0.893,
-                0
-              ],
-              [
-                -0.4,
-                0.916,
-                0
-              ]
-            ],
-            "Thumb": [
-              null,
-              [
-                1,
-                0.1,
-                0.2
-              ],
-              [
-                0.25,
-                0.2,
-                -0.947
-              ]
-            ]
-          },
-          "left_grip": [
-            0,
-            -0.033,
-            -0.17
-          ],
-          "right_palm_target_weapon": [
-            0.0139,
-            -0.047,
-            0.162
-          ],
-          "re4_mount": {
-            "quaternion_xyzw": [
-              0.6845517754554749,
-              -0.11646128445863724,
-              0.058092668652534485,
-              0.7172523736953735
-            ],
-            "right_hand_quaternion_offset": [
-              0,
-              0,
-              0,
-              1
-            ],
-            "shoulder_contact": false,
-            "shoulder_pocket_drop_m": -0.025,
-            "shoulder_pocket_forward_m": 0.055,
-            "right_elbow_lift_ratio": null,
-            "right_hand_quaternion_weapon": [
-              -0.6845517754554749,
-              0.11646128445863724,
-              -0.058092668652534485,
-              0.7172523736953735
-            ],
-            "right_palm_target_weapon": [
-              0.0139,
-              -0.047,
-              0.162
-            ],
-            "right_finger_directions_weapon": {
-              "Middle": [
-                [
-                  -0.88,
-                  -0.45,
-                  0.16
-                ],
-                [
-                  -0.91,
-                  0.36,
-                  0.19
-                ],
-                [
-                  -0.25,
-                  0.95,
-                  0.18
-                ]
-              ],
-              "Ring": [
-                [
-                  -0.9,
-                  -0.35,
-                  0.2
-                ],
-                [
-                  -0.9,
-                  0.35,
-                  0.18
-                ],
-                [
-                  -0.45,
-                  0.88,
-                  0.15
-                ]
-              ],
-              "Pinky": [
-                [
-                  -0.94,
-                  -0.15,
-                  0.3
-                ],
-                [
-                  -0.88,
-                  0.45,
-                  0.15
-                ],
-                [
-                  -0.25,
-                  0.95,
-                  0.18
-                ]
-              ],
-              "Thumb": [
-                null,
-                [
-                  -0.65,
-                  -0.25,
-                  -0.7
-                ],
-                [
-                  -0.25,
-                  -0.65,
-                  -0.72
-                ]
-              ],
-              "Index": [
-                [
-                  -0.2,
-                  -0.08,
-                  -0.977
-                ],
-                [
-                  -0.1,
-                  -0.04,
-                  -0.994
-                ],
-                [
-                  -0.1,
-                  0,
-                  -0.995
-                ]
-              ]
-            },
-            "support_forearm_twist_weight": 0.75,
-            "support_upper_arm_twist_weight": 0.75,
-            "left_grip": [
-              0,
-              -0.033,
-              -0.17
-            ],
-            "left_hand_quaternion_weapon": [
-              0.22377718290684476,
-              0.8325948544576478,
-              -0.4801755961999709,
-              0.16168167805083572
-            ],
-            "weapon_offset_body_m": [
-              0,
-              0,
-              0
-            ],
-            "re4_shotgun": true,
-            "palm_offset_native": [
-              -0.0136422,
-              0.04502571,
-              -0.0048396
-            ],
-            "right_contact_offset_native": [
-              -0.0136422,
-              0.04502571,
-              -0.0048396
-            ],
-            "support_pose_weight": 1,
-            "trigger_finger_ik": true,
-            "right_thumb_max_swing_degrees": [
-              0,
-              35,
-              30
-            ]
-          },
-          "right_thumb_max_swing_degrees": [
-            0,
-            35,
-            30
-          ]
         },
         "qcq171": {
           "quaternion_xyzw": [
@@ -9106,6 +8523,1573 @@
             -0.050917175813466616,
             0.2587949927191916
           ]
+        },
+        "type64": {
+          "quaternion_xyzw": [
+            0.7322421073913574,
+            -0.1056462749838829,
+            0.10374462604522705,
+            0.6647537350654602
+          ],
+          "right_hand_quaternion_offset": [
+            0.029296964406967163,
+            0.006053195334970951,
+            -0.1513112634420395,
+            -0.9880333542823792
+          ],
+          "left_hand_quaternion_weapon": [
+            -0.432180792093277,
+            -0.572076678276062,
+            0.44681358337402344,
+            0.5350753664970398
+          ],
+          "motions": {
+            "PistolIdle": {
+              "quaternion_xyzw": [
+                0.7322421073913574,
+                -0.1056462749838829,
+                0.10374462604522705,
+                0.6647537350654602
+              ],
+              "right_hand_quaternion_offset": [
+                0.029296964406967163,
+                0.006053195334970951,
+                -0.1513112634420395,
+                -0.9880333542823792
+              ],
+              "trigger_finger_ik": true,
+              "right_finger_pose_weight": 0.95,
+              "support_finger_pose_weight": 0.9,
+              "support_pose_weight": 0.98,
+              "right_finger_directions_weapon": {
+                "Middle": [
+                  [
+                    -0.91926488,
+                    -0.15987215,
+                    -0.35971235
+                  ],
+                  [
+                    -0.09997876,
+                    0.01999575,
+                    0.99478863
+                  ],
+                  [
+                    0.89977688,
+                    0.01999504,
+                    0.43589191
+                  ]
+                ],
+                "Ring": [
+                  [
+                    -0.90912539,
+                    -0.03996156,
+                    -0.41460114
+                  ],
+                  [
+                    -0.14995345,
+                    0,
+                    0.98869306
+                  ],
+                  [
+                    0.84990269,
+                    0,
+                    0.52693967
+                  ]
+                ],
+                "Pinky": [
+                  [
+                    -0.8,
+                    0,
+                    -0.6
+                  ],
+                  [
+                    0.19996001,
+                    0,
+                    0.97980406
+                  ],
+                  [
+                    0.8999568,
+                    0,
+                    0.43597907
+                  ]
+                ],
+                "Thumb": [
+                  null,
+                  [
+                    0.20008165,
+                    0.12004899,
+                    -0.97239682
+                  ],
+                  [
+                    0.02999249,
+                    0.03998998,
+                    -0.99874984
+                  ]
+                ]
+              },
+              "support_finger_directions_weapon": {
+                "Thumb": [
+                  null,
+                  [
+                    -0.2500689,
+                    0.45012403,
+                    -0.8572362
+                  ],
+                  [
+                    0,
+                    0.25005952,
+                    -0.96823047
+                  ]
+                ]
+              }
+            },
+            "LeonPistolIdle": {
+              "quaternion_xyzw": [
+                0.7322421073913574,
+                -0.1056462749838829,
+                0.10374462604522705,
+                0.6647537350654602
+              ],
+              "right_hand_quaternion_offset": [
+                0.029296964406967163,
+                0.006053195334970951,
+                -0.1513112634420395,
+                -0.9880333542823792
+              ],
+              "trigger_finger_ik": false,
+              "right_finger_pose_weight": 1,
+              "support_finger_pose_weight": 0.95,
+              "support_pose_weight": 1,
+              "right_finger_directions_weapon": {},
+              "support_finger_directions_weapon": {},
+              "support_forearm_twist_weight": 0.75,
+              "support_upper_arm_twist_weight": 0.75,
+              "left_hand_quaternion_weapon": [
+                0.638595316774822,
+                0.6773927812863553,
+                -0.36032813251253465,
+                -0.05914962531098651
+              ],
+              "support_finger_quaternion_offsets": {},
+              "support_elbow_from_hand_weight": 0,
+              "palm_offset_native": [
+                -0.01760834244277052,
+                0.06851330968098387,
+                -0.00814673756135646
+              ],
+              "right_contact_offset_native": [
+                -0.0136422,
+                0.04502571,
+                -0.0048396
+              ],
+              "right_hand_quaternion_weapon": null,
+              "left_palm_offset_native": [
+                -0.00607,
+                0.06947,
+                -0.01906
+              ],
+              "weapon_offset_body_m": [
+                0,
+                0,
+                0
+              ],
+              "right_grip": [
+                0.00085,
+                -0.035,
+                0.0569
+              ],
+              "left_grip": [
+                0.00085,
+                -0.047,
+                0.0596
+              ],
+              "right_finger_quaternion_offsets": {
+                "RightHandMiddle1": [
+                  -0.002817998646823542,
+                  1.4193908635999364e-07,
+                  -0.04352826531927826,
+                  0.9990482215818578
+                ],
+                "RightHandMiddle2": [
+                  -0.015572909231529299,
+                  -1.4562311659361832e-07,
+                  -0.040744758812069945,
+                  0.9990482215818578
+                ],
+                "RightHandRing1": [
+                  -0.026364196888136467,
+                  1.8245853439659404e-07,
+                  -0.034750254476197104,
+                  0.9990482215818578
+                ],
+                "RightHandRing2": [
+                  -0.027988820980914014,
+                  8.400239636280531e-09,
+                  -0.033455595646897096,
+                  0.9990482215818578
+                ],
+                "RightHandPinky1": [
+                  0.010116048273824318,
+                  7.3960469676216e-08,
+                  -0.04243013831541134,
+                  0.9990482215818578
+                ],
+                "RightHandPinky2": [
+                  -0.0017185470426248552,
+                  1.8527826904748456e-07,
+                  -0.04358551914851178,
+                  0.9990482215818578
+                ]
+              },
+              "support_elbow_outward_weight": 0
+            },
+            "LeonPistolWalk": {
+              "quaternion_xyzw": [
+                0.7322421073913574,
+                -0.1056462749838829,
+                0.10374462604522705,
+                0.6647537350654602
+              ],
+              "right_hand_quaternion_offset": [
+                0.029296964406967163,
+                0.006053195334970951,
+                -0.1513112634420395,
+                -0.9880333542823792
+              ],
+              "trigger_finger_ik": false,
+              "right_finger_pose_weight": 1,
+              "support_finger_pose_weight": 0.95,
+              "support_pose_weight": 1,
+              "right_finger_directions_weapon": {},
+              "support_finger_directions_weapon": {},
+              "support_forearm_twist_weight": 0.75,
+              "support_upper_arm_twist_weight": 0.75,
+              "left_hand_quaternion_weapon": [
+                0.6756985349330328,
+                0.6550518570851153,
+                -0.3375711622670707,
+                -0.019602673908268014
+              ],
+              "support_finger_quaternion_offsets": {},
+              "support_elbow_from_hand_weight": 0.25,
+              "palm_offset_native": [
+                -0.01760834244277052,
+                0.06851330968098387,
+                -0.00814673756135646
+              ],
+              "right_contact_offset_native": [
+                -0.0136422,
+                0.04502571,
+                -0.0048396
+              ],
+              "right_hand_quaternion_weapon": null,
+              "left_palm_offset_native": [
+                -0.00607,
+                0.06947,
+                -0.01906
+              ],
+              "weapon_offset_body_m": [
+                0,
+                0,
+                0
+              ],
+              "right_grip": [
+                0.00085,
+                -0.035,
+                0.0569
+              ],
+              "left_grip": [
+                0.00085,
+                -0.047,
+                0.0596
+              ],
+              "right_finger_quaternion_offsets": {
+                "RightHandMiddle1": [
+                  -0.002817998646823542,
+                  1.4193908635999364e-07,
+                  -0.04352826531927826,
+                  0.9990482215818578
+                ],
+                "RightHandMiddle2": [
+                  -0.015572909231529299,
+                  -1.4562311659361832e-07,
+                  -0.040744758812069945,
+                  0.9990482215818578
+                ],
+                "RightHandRing1": [
+                  -0.026364196888136467,
+                  1.8245853439659404e-07,
+                  -0.034750254476197104,
+                  0.9990482215818578
+                ],
+                "RightHandRing2": [
+                  -0.027988820980914014,
+                  8.400239636280531e-09,
+                  -0.033455595646897096,
+                  0.9990482215818578
+                ],
+                "RightHandPinky1": [
+                  0.010116048273824318,
+                  7.3960469676216e-08,
+                  -0.04243013831541134,
+                  0.9990482215818578
+                ],
+                "RightHandPinky2": [
+                  -0.0017185470426248552,
+                  1.8527826904748456e-07,
+                  -0.04358551914851178,
+                  0.9990482215818578
+                ]
+              },
+              "support_elbow_outward_weight": 0
+            },
+            "Reloading": {
+              "quaternion_xyzw": [
+                0.7322421073913574,
+                -0.1056462749838829,
+                0.10374462604522705,
+                0.6647537350654602
+              ],
+              "right_hand_quaternion_offset": [
+                -0.38173699378967285,
+                -0.07356905937194824,
+                -0.08215046674013138,
+                0.9176687002182007
+              ],
+              "release_support_hand": true,
+              "trigger_finger_ik": false
+            },
+            "RifleRun": {
+              "quaternion_xyzw": [
+                0.7322421073913574,
+                -0.1056462749838829,
+                0.10374462604522705,
+                0.6647537350654602
+              ],
+              "right_hand_quaternion_offset": [
+                -0.08913368731737137,
+                0.024237889796495438,
+                -0.16144120693206787,
+                0.9825500249862671
+              ]
+            }
+          }
+        },
+        "m870": {
+          "quaternion_xyzw": [
+            0.846933901309967,
+            -0.08941581100225449,
+            0.1990031599998474,
+            0.4848768711090088
+          ],
+          "right_hand_quaternion_offset": [
+            -0.17653650045394897,
+            -0.058116164058446884,
+            -0.043191272765398026,
+            0.9816272258758545
+          ],
+          "motions": {
+            "RifleIdle": {
+              "quaternion_xyzw": [
+                0.846933901309967,
+                -0.08941581100225449,
+                0.1990031599998474,
+                0.4848768711090088
+              ],
+              "right_hand_quaternion_offset": [
+                -0.17653650045394897,
+                -0.058116164058446884,
+                -0.043191272765398026,
+                0.9816272258758545
+              ],
+              "right_finger_directions_weapon": {
+                "Middle": [
+                  [
+                    -0.88,
+                    -0.45,
+                    0.16
+                  ],
+                  [
+                    -0.91,
+                    0.36,
+                    0.19
+                  ],
+                  [
+                    -0.25,
+                    0.95,
+                    0.18
+                  ]
+                ],
+                "Ring": [
+                  [
+                    -0.9,
+                    -0.35,
+                    0.2
+                  ],
+                  [
+                    -0.9,
+                    0.35,
+                    0.18
+                  ],
+                  [
+                    -0.45,
+                    0.88,
+                    0.15
+                  ]
+                ],
+                "Pinky": [
+                  [
+                    -0.94,
+                    -0.15,
+                    0.3
+                  ],
+                  [
+                    -0.88,
+                    0.45,
+                    0.15
+                  ],
+                  [
+                    -0.25,
+                    0.95,
+                    0.18
+                  ]
+                ],
+                "Thumb": [
+                  null,
+                  [
+                    -0.65,
+                    -0.25,
+                    -0.7
+                  ],
+                  [
+                    -0.25,
+                    -0.65,
+                    -0.72
+                  ]
+                ],
+                "Index": [
+                  null,
+                  null,
+                  null
+                ]
+              },
+              "left_hand_quaternion_weapon": [
+                0.5657749851159419,
+                0.3943809765711356,
+                -0.6726551956640181,
+                0.26813669414024904
+              ],
+              "right_hand_quaternion_weapon": [
+                -0.7699591534001201,
+                -0.16371312288383902,
+                -0.05779692354399529,
+                0.6140198926415741
+              ],
+              "right_palm_target_weapon": [
+                0.0139,
+                -0.047,
+                0.162
+              ],
+              "support_forearm_twist_weight": 0.75,
+              "support_upper_arm_twist_weight": 0.75,
+              "left_grip": [
+                0,
+                -0.063,
+                -0.17
+              ],
+              "right_thumb_max_swing_degrees": [
+                0,
+                35,
+                30
+              ]
+            },
+            "RifleAimingIdle": {
+              "quaternion_xyzw": [
+                0.8349400758743286,
+                -0.12629957497119904,
+                0.12139436602592468,
+                0.5217153429985046
+              ],
+              "right_hand_quaternion_offset": [
+                0.1726219207048416,
+                0.005768780130892992,
+                0.08109559118747711,
+                -0.9816271066665649
+              ],
+              "shoulder_contact": true,
+              "shoulder_pocket_drop_m": -0.025,
+              "shoulder_pocket_forward_m": 0.055,
+              "right_elbow_lift_ratio": -1,
+              "right_hand_quaternion_weapon": [
+                -0.4993020748993027,
+                0.3404242021651798,
+                0.006646036796591981,
+                0.7967211734453147
+              ],
+              "right_palm_target_weapon": [
+                0.0139,
+                -0.047,
+                0.162
+              ],
+              "right_finger_directions_weapon": {
+                "Middle": [
+                  [
+                    -0.88,
+                    -0.45,
+                    0.16
+                  ],
+                  [
+                    -0.91,
+                    0.36,
+                    0.19
+                  ],
+                  [
+                    -0.25,
+                    0.95,
+                    0.18
+                  ]
+                ],
+                "Ring": [
+                  [
+                    -0.9,
+                    -0.35,
+                    0.2
+                  ],
+                  [
+                    -0.9,
+                    0.35,
+                    0.18
+                  ],
+                  [
+                    -0.45,
+                    0.88,
+                    0.15
+                  ]
+                ],
+                "Pinky": [
+                  [
+                    -0.94,
+                    -0.15,
+                    0.3
+                  ],
+                  [
+                    -0.88,
+                    0.45,
+                    0.15
+                  ],
+                  [
+                    -0.25,
+                    0.95,
+                    0.18
+                  ]
+                ],
+                "Thumb": [
+                  null,
+                  [
+                    -0.65,
+                    -0.25,
+                    -0.7
+                  ],
+                  [
+                    -0.25,
+                    -0.65,
+                    -0.72
+                  ]
+                ],
+                "Index": [
+                  [
+                    -0.2,
+                    -0.08,
+                    -0.977
+                  ],
+                  [
+                    -0.1,
+                    -0.04,
+                    -0.994
+                  ],
+                  [
+                    -0.1,
+                    0,
+                    -0.995
+                  ]
+                ]
+              },
+              "support_forearm_twist_weight": 0.75,
+              "support_upper_arm_twist_weight": 0.75,
+              "left_grip": [
+                0,
+                -0.063,
+                -0.17
+              ],
+              "left_hand_quaternion_weapon": [
+                0.22377718290684476,
+                0.8325948544576478,
+                -0.4801755961999709,
+                0.16168167805083572
+              ],
+              "right_thumb_max_swing_degrees": [
+                0,
+                35,
+                30
+              ]
+            },
+            "FiringRifle": {
+              "quaternion_xyzw": [
+                0.8335416316986084,
+                -0.1301780641078949,
+                0.11838972568511963,
+                0.5236850380897522
+              ],
+              "right_hand_quaternion_offset": [
+                0.1715361624956131,
+                0.004552742000669241,
+                0.08344286680221558,
+                -0.9816272258758545
+              ],
+              "shoulder_contact": true,
+              "shoulder_pocket_drop_m": -0.025,
+              "shoulder_pocket_forward_m": 0.055,
+              "right_elbow_lift_ratio": -1,
+              "right_hand_quaternion_weapon": [
+                -0.4993020748993027,
+                0.3404242021651798,
+                0.006646036796591981,
+                0.7967211734453147
+              ],
+              "right_palm_target_weapon": [
+                0.0139,
+                -0.047,
+                0.162
+              ],
+              "right_finger_directions_weapon": {
+                "Middle": [
+                  [
+                    -0.88,
+                    -0.45,
+                    0.16
+                  ],
+                  [
+                    -0.91,
+                    0.36,
+                    0.19
+                  ],
+                  [
+                    -0.25,
+                    0.95,
+                    0.18
+                  ]
+                ],
+                "Ring": [
+                  [
+                    -0.9,
+                    -0.35,
+                    0.2
+                  ],
+                  [
+                    -0.9,
+                    0.35,
+                    0.18
+                  ],
+                  [
+                    -0.45,
+                    0.88,
+                    0.15
+                  ]
+                ],
+                "Pinky": [
+                  [
+                    -0.94,
+                    -0.15,
+                    0.3
+                  ],
+                  [
+                    -0.88,
+                    0.45,
+                    0.15
+                  ],
+                  [
+                    -0.25,
+                    0.95,
+                    0.18
+                  ]
+                ],
+                "Thumb": [
+                  null,
+                  [
+                    -0.65,
+                    -0.25,
+                    -0.7
+                  ],
+                  [
+                    -0.25,
+                    -0.65,
+                    -0.72
+                  ]
+                ],
+                "Index": [
+                  [
+                    -0.2,
+                    -0.08,
+                    -0.977
+                  ],
+                  [
+                    -0.1,
+                    -0.04,
+                    -0.994
+                  ],
+                  [
+                    -0.1,
+                    0,
+                    -0.995
+                  ]
+                ]
+              },
+              "support_forearm_twist_weight": 0.75,
+              "support_upper_arm_twist_weight": 0.75,
+              "left_grip": [
+                0,
+                -0.063,
+                -0.17
+              ],
+              "left_hand_quaternion_weapon": [
+                0.22377718290684476,
+                0.8325948544576478,
+                -0.4801755961999709,
+                0.16168167805083572
+              ],
+              "right_thumb_max_swing_degrees": [
+                0,
+                35,
+                30
+              ]
+            },
+            "RifleRun": {
+              "quaternion_xyzw": [
+                0.8371145129203796,
+                -0.029491033405065536,
+                0.17838719487190247,
+                0.5162826180458069
+              ],
+              "right_hand_quaternion_offset": [
+                -0.18901397287845612,
+                -0.025588059797883034,
+                -0.005202919244766235,
+                0.9816272258758545
+              ],
+              "right_finger_directions_weapon": {
+                "Middle": [
+                  [
+                    -0.88,
+                    -0.45,
+                    0.16
+                  ],
+                  [
+                    -0.91,
+                    0.36,
+                    0.19
+                  ],
+                  [
+                    -0.25,
+                    0.95,
+                    0.18
+                  ]
+                ],
+                "Ring": [
+                  [
+                    -0.9,
+                    -0.35,
+                    0.2
+                  ],
+                  [
+                    -0.9,
+                    0.35,
+                    0.18
+                  ],
+                  [
+                    -0.45,
+                    0.88,
+                    0.15
+                  ]
+                ],
+                "Pinky": [
+                  [
+                    -0.94,
+                    -0.15,
+                    0.3
+                  ],
+                  [
+                    -0.88,
+                    0.45,
+                    0.15
+                  ],
+                  [
+                    -0.25,
+                    0.95,
+                    0.18
+                  ]
+                ],
+                "Thumb": [
+                  null,
+                  [
+                    -0.65,
+                    -0.25,
+                    -0.7
+                  ],
+                  [
+                    -0.25,
+                    -0.65,
+                    -0.72
+                  ]
+                ],
+                "Index": [
+                  [
+                    -0.15,
+                    -0.1,
+                    -0.983
+                  ],
+                  [
+                    -0.1,
+                    -0.42,
+                    -0.902
+                  ],
+                  [
+                    -0.05,
+                    -0.72,
+                    -0.692
+                  ]
+                ]
+              },
+              "right_hand_quaternion_weapon": [
+                -0.8260917049888448,
+                -0.23948574077932405,
+                0.015340993695419115,
+                0.5098859933986892
+              ],
+              "right_palm_target_weapon": [
+                0.0139,
+                -0.047,
+                0.162
+              ],
+              "left_grip": [
+                0,
+                -0.06,
+                -0.1
+              ],
+              "support_forearm_twist_weight": 0.75,
+              "support_upper_arm_twist_weight": 0.75,
+              "left_hand_quaternion_weapon": [
+                0.19782792933466992,
+                0.4477555693275297,
+                -0.6337969546576628,
+                0.5988993807313678
+              ],
+              "right_thumb_max_swing_degrees": [
+                0,
+                35,
+                30
+              ]
+            },
+            "Reloading": {
+              "quaternion_xyzw": [
+                0.7303476333618164,
+                -0.11740098893642426,
+                0.2394101619720459,
+                0.6288817524909973
+              ],
+              "right_hand_quaternion_offset": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "left_grip": [
+                0,
+                -0.063,
+                -0.17
+              ],
+              "right_palm_target_weapon": [
+                0.0139,
+                -0.047,
+                0.162
+              ],
+              "right_finger_directions_weapon": {
+                "Thumb": [
+                  null,
+                  [
+                    -0.65,
+                    -0.25,
+                    -0.7
+                  ],
+                  [
+                    -0.25,
+                    -0.65,
+                    -0.72
+                  ]
+                ]
+              },
+              "right_thumb_max_swing_degrees": [
+                0,
+                35,
+                30
+              ]
+            },
+            "PistolIdle": {
+              "quaternion_xyzw": [
+                0.8369674682617188,
+                -0.01867484860122204,
+                0.18507537245750427,
+                0.5146686434745789
+              ],
+              "right_hand_quaternion_offset": [
+                0.18870574235916138,
+                0.027986330911517143,
+                -0.0038718171417713165,
+                -0.9816272258758545
+              ],
+              "left_grip": [
+                0,
+                -0.063,
+                -0.17
+              ],
+              "right_palm_target_weapon": [
+                0.0139,
+                -0.047,
+                0.162
+              ],
+              "support_forearm_twist_weight": 0.75,
+              "support_upper_arm_twist_weight": 0.75,
+              "right_finger_directions_weapon": {
+                "Thumb": [
+                  null,
+                  [
+                    -0.65,
+                    -0.25,
+                    -0.7
+                  ],
+                  [
+                    -0.25,
+                    -0.65,
+                    -0.72
+                  ]
+                ]
+              },
+              "right_thumb_max_swing_degrees": [
+                0,
+                35,
+                30
+              ]
+            },
+            "HanyangIdle2": {
+              "quaternion_xyzw": [
+                0.7328176816225451,
+                -0.14904668722719477,
+                -0.058012653214468884,
+                0.66136061463847
+              ],
+              "right_hand_quaternion_offset": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "right_hand_quaternion_weapon": [
+                -0.6397143101555552,
+                0.06589869323342128,
+                -0.029788897295418712,
+                0.7652029699434344
+              ],
+              "right_contact_offset_native": [
+                -0.0136422,
+                0.04502571,
+                -0.0048396
+              ],
+              "palm_offset_native": [
+                -0.022894051724946296,
+                0.05765050732642252,
+                -0.012592711110908384
+              ],
+              "right_palm_target_weapon": [
+                0.0139,
+                -0.047,
+                0.162
+              ],
+              "left_hand_quaternion_weapon": [
+                -0.3918806351215433,
+                -0.5751127901664456,
+                0.6916263186060976,
+                -0.19320424895710314
+              ],
+              "support_pose_weight": 1,
+              "support_forearm_twist_weight": 0.75,
+              "support_upper_arm_twist_weight": 0.75,
+              "right_elbow_lift_ratio": null,
+              "right_finger_directions_weapon": {
+                "Middle": [
+                  [
+                    -0.88,
+                    -0.45,
+                    0.16
+                  ],
+                  [
+                    -0.91,
+                    0.36,
+                    0.19
+                  ],
+                  [
+                    -0.25,
+                    0.95,
+                    0.18
+                  ]
+                ],
+                "Ring": [
+                  [
+                    -0.9,
+                    -0.35,
+                    0.2
+                  ],
+                  [
+                    -0.9,
+                    0.35,
+                    0.18
+                  ],
+                  [
+                    -0.45,
+                    0.88,
+                    0.15
+                  ]
+                ],
+                "Pinky": [
+                  [
+                    -0.94,
+                    -0.15,
+                    0.3
+                  ],
+                  [
+                    -0.88,
+                    0.45,
+                    0.15
+                  ],
+                  [
+                    -0.25,
+                    0.95,
+                    0.18
+                  ]
+                ],
+                "Thumb": [
+                  null,
+                  [
+                    -0.65,
+                    -0.25,
+                    -0.7
+                  ],
+                  [
+                    -0.25,
+                    -0.65,
+                    -0.72
+                  ]
+                ],
+                "Index": [
+                  null,
+                  null,
+                  null
+                ]
+              },
+              "left_grip": [
+                0,
+                -0.06,
+                -0.08
+              ],
+              "right_thumb_max_swing_degrees": [
+                0,
+                35,
+                30
+              ]
+            },
+            "HanyangWalk2": {
+              "quaternion_xyzw": [
+                0.7012244311810892,
+                -0.2674321310941079,
+                0.012859968149989217,
+                0.6607563647763091
+              ],
+              "right_hand_quaternion_offset": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "right_hand_quaternion_weapon": [
+                -0.6323522423747929,
+                -0.011861064977709432,
+                -0.0943096067206731,
+                0.7688274544924611
+              ],
+              "right_contact_offset_native": [
+                -0.0136422,
+                0.04502571,
+                -0.0048396
+              ],
+              "palm_offset_native": [
+                -0.019367086264231066,
+                0.057620952242006376,
+                -0.015501614345259731
+              ],
+              "right_palm_target_weapon": [
+                0.0139,
+                -0.047,
+                0.162
+              ],
+              "left_hand_quaternion_weapon": [
+                -0.3524624481129283,
+                -0.6157299357743191,
+                0.6609021342372369,
+                -0.24465330126989943
+              ],
+              "support_pose_weight": 1,
+              "support_forearm_twist_weight": 0.75,
+              "support_upper_arm_twist_weight": 0.75,
+              "right_elbow_lift_ratio": null,
+              "right_finger_directions_weapon": {
+                "Middle": [
+                  [
+                    -0.88,
+                    -0.45,
+                    0.16
+                  ],
+                  [
+                    -0.91,
+                    0.36,
+                    0.19
+                  ],
+                  [
+                    -0.25,
+                    0.95,
+                    0.18
+                  ]
+                ],
+                "Ring": [
+                  [
+                    -0.9,
+                    -0.35,
+                    0.2
+                  ],
+                  [
+                    -0.9,
+                    0.35,
+                    0.18
+                  ],
+                  [
+                    -0.45,
+                    0.88,
+                    0.15
+                  ]
+                ],
+                "Pinky": [
+                  [
+                    -0.94,
+                    -0.15,
+                    0.3
+                  ],
+                  [
+                    -0.88,
+                    0.45,
+                    0.15
+                  ],
+                  [
+                    -0.25,
+                    0.95,
+                    0.18
+                  ]
+                ],
+                "Thumb": [
+                  null,
+                  [
+                    -0.65,
+                    -0.25,
+                    -0.7
+                  ],
+                  [
+                    -0.25,
+                    -0.65,
+                    -0.72
+                  ]
+                ],
+                "Index": [
+                  null,
+                  null,
+                  null
+                ]
+              },
+              "left_grip": [
+                0,
+                -0.06,
+                -0.08
+              ],
+              "weapon_offset_body_m": [
+                0.1,
+                0.02,
+                0.05
+              ],
+              "right_thumb_max_swing_degrees": [
+                0,
+                35,
+                30
+              ]
+            }
+          },
+          "left_hand_quaternion_weapon": [
+            0.4209965467453003,
+            0.5462596416473389,
+            -0.5608924031257629,
+            0.4579978287220001
+          ],
+          "trigger_finger_ik": true,
+          "model_scale": 1,
+          "right_hand_quaternion_weapon": [
+            -0.8990694427,
+            0.0624833512,
+            -0.1322984812,
+            0.4126343143
+          ],
+          "right_contact_offset_native": [
+            -0.0136422,
+            0.04502571,
+            -0.0048396
+          ],
+          "support_pose_weight": 1,
+          "right_finger_pose_weight": 1,
+          "support_finger_pose_weight": 1,
+          "right_finger_directions_weapon": {
+            "Middle": [
+              [
+                -0.88,
+                -0.45,
+                0.16
+              ],
+              [
+                -0.91,
+                0.36,
+                0.19
+              ],
+              [
+                -0.25,
+                0.95,
+                0.18
+              ]
+            ],
+            "Ring": [
+              [
+                -0.9,
+                -0.35,
+                0.2
+              ],
+              [
+                -0.9,
+                0.35,
+                0.18
+              ],
+              [
+                -0.45,
+                0.88,
+                0.15
+              ]
+            ],
+            "Pinky": [
+              [
+                -0.94,
+                -0.15,
+                0.3
+              ],
+              [
+                -0.88,
+                0.45,
+                0.15
+              ],
+              [
+                -0.25,
+                0.95,
+                0.18
+              ]
+            ],
+            "Thumb": [
+              null,
+              [
+                -0.65,
+                -0.25,
+                -0.7
+              ],
+              [
+                -0.25,
+                -0.65,
+                -0.72
+              ]
+            ],
+            "Index": [
+              [
+                -0.3,
+                -0.2,
+                -0.93
+              ],
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                0.3,
+                -0.954
+              ]
+            ]
+          },
+          "grip_method": "physical palm surface + two-bone right arm IK; shoulder buttpad anchor for aim/fire",
+          "support_finger_directions_weapon": {
+            "Index": [
+              [
+                1,
+                -0.05,
+                0
+              ],
+              [
+                0.45,
+                0.893,
+                0
+              ],
+              [
+                -0.4,
+                0.916,
+                0
+              ]
+            ],
+            "Middle": [
+              [
+                1,
+                -0.05,
+                0
+              ],
+              [
+                0.45,
+                0.893,
+                0
+              ],
+              [
+                -0.4,
+                0.916,
+                0
+              ]
+            ],
+            "Ring": [
+              [
+                1,
+                -0.05,
+                0
+              ],
+              [
+                0.45,
+                0.893,
+                0
+              ],
+              [
+                -0.4,
+                0.916,
+                0
+              ]
+            ],
+            "Pinky": [
+              [
+                1,
+                -0.05,
+                0
+              ],
+              [
+                0.45,
+                0.893,
+                0
+              ],
+              [
+                -0.4,
+                0.916,
+                0
+              ]
+            ],
+            "Thumb": [
+              null,
+              [
+                1,
+                0.1,
+                0.2
+              ],
+              [
+                0.25,
+                0.2,
+                -0.947
+              ]
+            ]
+          },
+          "left_grip": [
+            0,
+            -0.063,
+            -0.17
+          ],
+          "right_palm_target_weapon": [
+            0.0139,
+            -0.047,
+            0.162
+          ],
+          "re4_mount": {
+            "quaternion_xyzw": [
+              0.6845517754554749,
+              -0.11646128445863724,
+              0.058092668652534485,
+              0.7172523736953735
+            ],
+            "right_hand_quaternion_offset": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "shoulder_contact": false,
+            "shoulder_pocket_drop_m": -0.025,
+            "shoulder_pocket_forward_m": 0.055,
+            "right_elbow_lift_ratio": null,
+            "right_hand_quaternion_weapon": [
+              -0.6845517754554749,
+              0.11646128445863724,
+              -0.058092668652534485,
+              0.7172523736953735
+            ],
+            "right_palm_target_weapon": [
+              0.0139,
+              -0.047,
+              0.162
+            ],
+            "right_finger_directions_weapon": {
+              "Middle": [
+                [
+                  -0.88,
+                  -0.45,
+                  0.16
+                ],
+                [
+                  -0.91,
+                  0.36,
+                  0.19
+                ],
+                [
+                  -0.25,
+                  0.95,
+                  0.18
+                ]
+              ],
+              "Ring": [
+                [
+                  -0.9,
+                  -0.35,
+                  0.2
+                ],
+                [
+                  -0.9,
+                  0.35,
+                  0.18
+                ],
+                [
+                  -0.45,
+                  0.88,
+                  0.15
+                ]
+              ],
+              "Pinky": [
+                [
+                  -0.94,
+                  -0.15,
+                  0.3
+                ],
+                [
+                  -0.88,
+                  0.45,
+                  0.15
+                ],
+                [
+                  -0.25,
+                  0.95,
+                  0.18
+                ]
+              ],
+              "Thumb": [
+                null,
+                [
+                  -0.65,
+                  -0.25,
+                  -0.7
+                ],
+                [
+                  -0.25,
+                  -0.65,
+                  -0.72
+                ]
+              ],
+              "Index": [
+                [
+                  -0.2,
+                  -0.08,
+                  -0.977
+                ],
+                [
+                  -0.1,
+                  -0.04,
+                  -0.994
+                ],
+                [
+                  -0.1,
+                  0,
+                  -0.995
+                ]
+              ]
+            },
+            "support_forearm_twist_weight": 0.75,
+            "support_upper_arm_twist_weight": 0.75,
+            "left_grip": [
+              0,
+              -0.063,
+              -0.17
+            ],
+            "left_hand_quaternion_weapon": [
+              0.22377718290684476,
+              0.8325948544576478,
+              -0.4801755961999709,
+              0.16168167805083572
+            ],
+            "weapon_offset_body_m": [
+              0,
+              0,
+              0
+            ],
+            "re4_shotgun": true,
+            "palm_offset_native": [
+              -0.0136422,
+              0.04502571,
+              -0.0048396
+            ],
+            "right_contact_offset_native": [
+              -0.0136422,
+              0.04502571,
+              -0.0048396
+            ],
+            "support_pose_weight": 1,
+            "trigger_finger_ik": true,
+            "right_thumb_max_swing_degrees": [
+              0,
+              35,
+              30
+            ]
+          },
+          "right_thumb_max_swing_degrees": [
+            0,
+            35,
+            30
+          ],
+          "adaptation_policy": "Retain original M97 body animation, hand world directions and digit poses; support palm translates down 30 mm for the thicker/lower M870 fore-end."
         }
       },
       "shoulder_assist_max_degrees": 8,
@@ -9215,7 +10199,9 @@
                 -0.07854755967855453,
                 0.28252193331718445,
                 0.8772981762886047
-              ]
+              ],
+              "release_support_hand": true,
+              "trigger_finger_ik": false
             },
             "PistolIdle": {
               "quaternion_xyzw": [
@@ -11519,6 +12505,36 @@
                 ]
               },
               "support_elbow_outward_weight": 0.2
+            },
+            "Reloading": {
+              "quaternion_xyzw": [
+                0.777650773525238,
+                0.1654985398054123,
+                -0.24178415536880493,
+                0.556246280670166
+              ],
+              "right_hand_quaternion_offset": [
+                -0.37994691729545593,
+                -0.07854755967855453,
+                0.28252193331718445,
+                0.8772981762886047
+              ],
+              "release_support_hand": true,
+              "trigger_finger_ik": false
+            },
+            "RifleRun": {
+              "quaternion_xyzw": [
+                0.777650773525238,
+                0.1654985398054123,
+                -0.24178415536880493,
+                0.556246280670166
+              ],
+              "right_hand_quaternion_offset": [
+                -0.2547677159309387,
+                0.04287305474281311,
+                0.02283501625061035,
+                0.9657815098762512
+              ]
             }
           }
         },
@@ -13328,1216 +14344,6 @@
             "fire_duration_s": 0.26666666666666666,
             "fire_peak_s": 0.05
           }
-        },
-        "winchester1897": {
-          "quaternion_xyzw": [
-            0.8750226497650146,
-            0.11885306984186172,
-            -0.17644216120243073,
-            0.43483060598373413
-          ],
-          "right_hand_quaternion_offset": [
-            -0.14898273348808289,
-            -0.054464489221572876,
-            0.10604633390903473,
-            0.9816272258758545
-          ],
-          "motions": {
-            "RifleIdle": {
-              "quaternion_xyzw": [
-                0.8750226497650146,
-                0.11885306984186172,
-                -0.17644216120243073,
-                0.43483060598373413
-              ],
-              "right_hand_quaternion_offset": [
-                -0.14898273348808289,
-                -0.054464489221572876,
-                0.10604633390903473,
-                0.9816272258758545
-              ],
-              "right_finger_directions_weapon": {
-                "Middle": [
-                  [
-                    -0.88,
-                    -0.45,
-                    0.16
-                  ],
-                  [
-                    -0.91,
-                    0.36,
-                    0.19
-                  ],
-                  [
-                    -0.25,
-                    0.95,
-                    0.18
-                  ]
-                ],
-                "Ring": [
-                  [
-                    -0.9,
-                    -0.35,
-                    0.2
-                  ],
-                  [
-                    -0.9,
-                    0.35,
-                    0.18
-                  ],
-                  [
-                    -0.45,
-                    0.88,
-                    0.15
-                  ]
-                ],
-                "Pinky": [
-                  [
-                    -0.94,
-                    -0.15,
-                    0.3
-                  ],
-                  [
-                    -0.88,
-                    0.45,
-                    0.15
-                  ],
-                  [
-                    -0.25,
-                    0.95,
-                    0.18
-                  ]
-                ],
-                "Thumb": [
-                  null,
-                  [
-                    -0.65,
-                    -0.25,
-                    -0.7
-                  ],
-                  [
-                    -0.25,
-                    -0.65,
-                    -0.72
-                  ]
-                ],
-                "Index": [
-                  null,
-                  null,
-                  null
-                ]
-              },
-              "left_hand_quaternion_weapon": [
-                0.5100700735341404,
-                0.2847304798819978,
-                -0.7245193607238254,
-                0.3658259186763982
-              ],
-              "support_forearm_twist_weight": 0.75,
-              "support_upper_arm_twist_weight": 0.75,
-              "left_grip": [
-                0,
-                -0.033,
-                -0.17
-              ],
-              "right_palm_target_weapon": [
-                0.0139,
-                -0.047,
-                0.162
-              ],
-              "right_thumb_max_swing_degrees": [
-                0,
-                35,
-                30
-              ]
-            },
-            "RifleAimingIdle": {
-              "quaternion_xyzw": [
-                0.8189990520477295,
-                0.10228803008794785,
-                -0.2533232271671295,
-                0.504584014415741
-              ],
-              "right_hand_quaternion_offset": [
-                0.1699741780757904,
-                0.002253755694255233,
-                -0.08667067438364029,
-                -0.9816272258758545
-              ],
-              "shoulder_contact": true,
-              "shoulder_pocket_drop_m": -0.025,
-              "shoulder_pocket_forward_m": 0.055,
-              "right_elbow_lift_ratio": -1,
-              "right_hand_quaternion_weapon": [
-                -0.23749988474653025,
-                -0.40112370885277676,
-                0.4069974840329883,
-                0.7855231568965932
-              ],
-              "right_palm_target_weapon": [
-                0.0139,
-                -0.047,
-                0.162
-              ],
-              "right_finger_directions_weapon": {
-                "Middle": [
-                  [
-                    -0.88,
-                    -0.45,
-                    0.16
-                  ],
-                  [
-                    -0.91,
-                    0.36,
-                    0.19
-                  ],
-                  [
-                    -0.25,
-                    0.95,
-                    0.18
-                  ]
-                ],
-                "Ring": [
-                  [
-                    -0.9,
-                    -0.35,
-                    0.2
-                  ],
-                  [
-                    -0.9,
-                    0.35,
-                    0.18
-                  ],
-                  [
-                    -0.45,
-                    0.88,
-                    0.15
-                  ]
-                ],
-                "Pinky": [
-                  [
-                    -0.94,
-                    -0.15,
-                    0.3
-                  ],
-                  [
-                    -0.88,
-                    0.45,
-                    0.15
-                  ],
-                  [
-                    -0.25,
-                    0.95,
-                    0.18
-                  ]
-                ],
-                "Thumb": [
-                  null,
-                  [
-                    -0.65,
-                    -0.25,
-                    -0.7
-                  ],
-                  [
-                    -0.25,
-                    -0.65,
-                    -0.72
-                  ]
-                ],
-                "Index": [
-                  [
-                    -0.2,
-                    -0.08,
-                    -0.977
-                  ],
-                  [
-                    -0.1,
-                    -0.04,
-                    -0.994
-                  ],
-                  [
-                    -0.1,
-                    0,
-                    -0.995
-                  ]
-                ]
-              },
-              "support_forearm_twist_weight": 0.75,
-              "support_upper_arm_twist_weight": 0.75,
-              "left_grip": [
-                0,
-                -0.033,
-                -0.17
-              ],
-              "left_hand_quaternion_weapon": [
-                0.2879258380413814,
-                0.79911926014646,
-                -0.5134793843176273,
-                0.12184364841870207
-              ],
-              "right_thumb_max_swing_degrees": [
-                0,
-                35,
-                30
-              ]
-            },
-            "FiringRifle": {
-              "quaternion_xyzw": [
-                0.8164150714874268,
-                0.0993841141462326,
-                -0.2558637261390686,
-                0.5080580711364746
-              ],
-              "right_hand_quaternion_offset": [
-                0.17090940475463867,
-                0.0009205393143929541,
-                -0.08483626693487167,
-                -0.9816271066665649
-              ],
-              "shoulder_contact": true,
-              "shoulder_pocket_drop_m": -0.025,
-              "shoulder_pocket_forward_m": 0.055,
-              "right_elbow_lift_ratio": -1,
-              "right_hand_quaternion_weapon": [
-                -0.23749988474653025,
-                -0.40112370885277676,
-                0.4069974840329883,
-                0.7855231568965932
-              ],
-              "right_palm_target_weapon": [
-                0.0139,
-                -0.047,
-                0.162
-              ],
-              "right_finger_directions_weapon": {
-                "Middle": [
-                  [
-                    -0.88,
-                    -0.45,
-                    0.16
-                  ],
-                  [
-                    -0.91,
-                    0.36,
-                    0.19
-                  ],
-                  [
-                    -0.25,
-                    0.95,
-                    0.18
-                  ]
-                ],
-                "Ring": [
-                  [
-                    -0.9,
-                    -0.35,
-                    0.2
-                  ],
-                  [
-                    -0.9,
-                    0.35,
-                    0.18
-                  ],
-                  [
-                    -0.45,
-                    0.88,
-                    0.15
-                  ]
-                ],
-                "Pinky": [
-                  [
-                    -0.94,
-                    -0.15,
-                    0.3
-                  ],
-                  [
-                    -0.88,
-                    0.45,
-                    0.15
-                  ],
-                  [
-                    -0.25,
-                    0.95,
-                    0.18
-                  ]
-                ],
-                "Thumb": [
-                  null,
-                  [
-                    -0.65,
-                    -0.25,
-                    -0.7
-                  ],
-                  [
-                    -0.25,
-                    -0.65,
-                    -0.72
-                  ]
-                ],
-                "Index": [
-                  [
-                    -0.2,
-                    -0.08,
-                    -0.977
-                  ],
-                  [
-                    -0.1,
-                    -0.04,
-                    -0.994
-                  ],
-                  [
-                    -0.1,
-                    0,
-                    -0.995
-                  ]
-                ]
-              },
-              "support_forearm_twist_weight": 0.75,
-              "support_upper_arm_twist_weight": 0.75,
-              "left_grip": [
-                0,
-                -0.033,
-                -0.17
-              ],
-              "left_hand_quaternion_weapon": [
-                0.2879258380413814,
-                0.79911926014646,
-                -0.5134793843176273,
-                0.12184364841870207
-              ],
-              "right_thumb_max_swing_degrees": [
-                0,
-                35,
-                30
-              ]
-            },
-            "RifleRun": {
-              "quaternion_xyzw": [
-                0.8353219032287598,
-                0.2096041440963745,
-                -0.1784098595380783,
-                0.475892037153244
-              ],
-              "right_hand_quaternion_offset": [
-                -0.13031291961669922,
-                -0.0306530874222517,
-                0.13596704602241516,
-                0.9816272854804993
-              ],
-              "right_finger_directions_weapon": {
-                "Middle": [
-                  [
-                    -0.88,
-                    -0.45,
-                    0.16
-                  ],
-                  [
-                    -0.91,
-                    0.36,
-                    0.19
-                  ],
-                  [
-                    -0.25,
-                    0.95,
-                    0.18
-                  ]
-                ],
-                "Ring": [
-                  [
-                    -0.9,
-                    -0.35,
-                    0.2
-                  ],
-                  [
-                    -0.9,
-                    0.35,
-                    0.18
-                  ],
-                  [
-                    -0.45,
-                    0.88,
-                    0.15
-                  ]
-                ],
-                "Pinky": [
-                  [
-                    -0.94,
-                    -0.15,
-                    0.3
-                  ],
-                  [
-                    -0.88,
-                    0.45,
-                    0.15
-                  ],
-                  [
-                    -0.25,
-                    0.95,
-                    0.18
-                  ]
-                ],
-                "Thumb": [
-                  null,
-                  [
-                    -0.65,
-                    -0.25,
-                    -0.7
-                  ],
-                  [
-                    -0.25,
-                    -0.65,
-                    -0.72
-                  ]
-                ],
-                "Index": [
-                  [
-                    -0.15,
-                    -0.1,
-                    -0.983
-                  ],
-                  [
-                    -0.1,
-                    -0.42,
-                    -0.902
-                  ],
-                  [
-                    -0.05,
-                    -0.72,
-                    -0.692
-                  ]
-                ]
-              },
-              "left_grip": [
-                0,
-                -0.03,
-                -0.1
-              ],
-              "right_palm_target_weapon": [
-                0.0139,
-                -0.047,
-                0.162
-              ],
-              "support_forearm_twist_weight": 0.75,
-              "support_upper_arm_twist_weight": 0.75,
-              "left_hand_quaternion_weapon": [
-                -0.022737185927773747,
-                0.15914913556830312,
-                -0.6715823691484035,
-                0.7232783194600902
-              ],
-              "right_hand_quaternion_weapon": [
-                -0.8337977640914641,
-                -0.2998060614530078,
-                0.16541850862549487,
-                0.4330523504203878
-              ],
-              "support_forearm_twist_reference_degrees": -180,
-              "right_thumb_max_swing_degrees": [
-                0,
-                35,
-                30
-              ]
-            },
-            "Reloading": {
-              "quaternion_xyzw": [
-                0.7911696434020996,
-                0.15949267148971558,
-                -0.09713760018348694,
-                0.5823890566825867
-              ],
-              "right_hand_quaternion_offset": [
-                0,
-                0,
-                0,
-                1
-              ],
-              "left_grip": [
-                0,
-                -0.033,
-                -0.17
-              ],
-              "right_palm_target_weapon": [
-                0.0139,
-                -0.047,
-                0.162
-              ],
-              "right_finger_directions_weapon": {
-                "Thumb": [
-                  null,
-                  [
-                    -0.65,
-                    -0.25,
-                    -0.7
-                  ],
-                  [
-                    -0.25,
-                    -0.65,
-                    -0.72
-                  ]
-                ]
-              },
-              "right_thumb_max_swing_degrees": [
-                0,
-                35,
-                30
-              ]
-            },
-            "PistolIdle": {
-              "quaternion_xyzw": [
-                0.8511962294578552,
-                0.20582415163516998,
-                -0.18665292859077454,
-                0.4452662467956543
-              ],
-              "right_hand_quaternion_offset": [
-                0.1255265176296234,
-                0.03126692399382591,
-                -0.1402624398469925,
-                -0.9816271662712097
-              ],
-              "left_grip": [
-                0,
-                -0.033,
-                -0.17
-              ],
-              "right_palm_target_weapon": [
-                0.0139,
-                -0.047,
-                0.162
-              ],
-              "support_forearm_twist_weight": 0.75,
-              "support_upper_arm_twist_weight": 0.75,
-              "right_finger_directions_weapon": {
-                "Thumb": [
-                  null,
-                  [
-                    -0.65,
-                    -0.25,
-                    -0.7
-                  ],
-                  [
-                    -0.25,
-                    -0.65,
-                    -0.72
-                  ]
-                ]
-              },
-              "right_thumb_max_swing_degrees": [
-                0,
-                35,
-                30
-              ]
-            },
-            "HanyangIdle2": {
-              "quaternion_xyzw": [
-                0.7028274261801194,
-                0.13695303040880033,
-                -0.33504951673851346,
-                0.6123881920842071
-              ],
-              "right_hand_quaternion_offset": [
-                0,
-                0,
-                0,
-                1
-              ],
-              "right_hand_quaternion_weapon": [
-                -0.657296309388594,
-                -0.24525307937618043,
-                0.2102323502681056,
-                0.6808926843647121
-              ],
-              "right_contact_offset_native": [
-                -0.01345005,
-                0.03768316,
-                0.00932432
-              ],
-              "palm_offset_native": [
-                -0.023770989648547805,
-                0.04873667380902204,
-                0.012051418062301335
-              ],
-              "right_palm_target_weapon": [
-                0.0139,
-                -0.047,
-                0.162
-              ],
-              "left_hand_quaternion_weapon": [
-                -0.28450839784579873,
-                -0.3992239869512664,
-                0.772978922801116,
-                -0.402714246958285
-              ],
-              "support_pose_weight": 1,
-              "support_forearm_twist_weight": 0.75,
-              "support_upper_arm_twist_weight": 0.75,
-              "right_elbow_lift_ratio": null,
-              "right_finger_directions_weapon": {
-                "Middle": [
-                  [
-                    -0.88,
-                    -0.45,
-                    0.16
-                  ],
-                  [
-                    -0.91,
-                    0.36,
-                    0.19
-                  ],
-                  [
-                    -0.25,
-                    0.95,
-                    0.18
-                  ]
-                ],
-                "Ring": [
-                  [
-                    -0.9,
-                    -0.35,
-                    0.2
-                  ],
-                  [
-                    -0.9,
-                    0.35,
-                    0.18
-                  ],
-                  [
-                    -0.45,
-                    0.88,
-                    0.15
-                  ]
-                ],
-                "Pinky": [
-                  [
-                    -0.94,
-                    -0.15,
-                    0.3
-                  ],
-                  [
-                    -0.88,
-                    0.45,
-                    0.15
-                  ],
-                  [
-                    -0.25,
-                    0.95,
-                    0.18
-                  ]
-                ],
-                "Thumb": [
-                  null,
-                  [
-                    -0.65,
-                    -0.25,
-                    -0.7
-                  ],
-                  [
-                    -0.25,
-                    -0.65,
-                    -0.72
-                  ]
-                ],
-                "Index": [
-                  null,
-                  null,
-                  null
-                ]
-              },
-              "left_grip": [
-                0,
-                -0.03,
-                -0.08
-              ],
-              "right_thumb_max_swing_degrees": [
-                0,
-                35,
-                30
-              ]
-            },
-            "HanyangWalk2": {
-              "quaternion_xyzw": [
-                0.6785149213275358,
-                0.04481686774527362,
-                -0.2741896476338969,
-                0.6800213136599398
-              ],
-              "right_hand_quaternion_offset": [
-                0,
-                0,
-                0,
-                1
-              ],
-              "right_hand_quaternion_weapon": [
-                -0.662492598958442,
-                -0.25898297853344676,
-                0.060334875670319754,
-                0.7002792842381389
-              ],
-              "right_contact_offset_native": [
-                -0.01345005,
-                0.03768316,
-                0.00932432
-              ],
-              "palm_offset_native": [
-                -0.02388372794565373,
-                0.04889192249687675,
-                0.008043291346298984
-              ],
-              "right_palm_target_weapon": [
-                0.0139,
-                -0.047,
-                0.162
-              ],
-              "left_hand_quaternion_weapon": [
-                -0.4866574785907849,
-                -0.5740180041922276,
-                0.620806081595287,
-                -0.21969897234429056
-              ],
-              "support_pose_weight": 1,
-              "support_forearm_twist_weight": 0.75,
-              "support_upper_arm_twist_weight": 0.75,
-              "right_elbow_lift_ratio": null,
-              "right_finger_directions_weapon": {
-                "Middle": [
-                  [
-                    -0.88,
-                    -0.45,
-                    0.16
-                  ],
-                  [
-                    -0.91,
-                    0.36,
-                    0.19
-                  ],
-                  [
-                    -0.25,
-                    0.95,
-                    0.18
-                  ]
-                ],
-                "Ring": [
-                  [
-                    -0.9,
-                    -0.35,
-                    0.2
-                  ],
-                  [
-                    -0.9,
-                    0.35,
-                    0.18
-                  ],
-                  [
-                    -0.45,
-                    0.88,
-                    0.15
-                  ]
-                ],
-                "Pinky": [
-                  [
-                    -0.94,
-                    -0.15,
-                    0.3
-                  ],
-                  [
-                    -0.88,
-                    0.45,
-                    0.15
-                  ],
-                  [
-                    -0.25,
-                    0.95,
-                    0.18
-                  ]
-                ],
-                "Thumb": [
-                  null,
-                  [
-                    -0.65,
-                    -0.25,
-                    -0.7
-                  ],
-                  [
-                    -0.25,
-                    -0.65,
-                    -0.72
-                  ]
-                ],
-                "Index": [
-                  null,
-                  null,
-                  null
-                ]
-              },
-              "left_grip": [
-                0,
-                -0.03,
-                -0.08
-              ],
-              "weapon_offset_body_m": [
-                0.1,
-                0.02,
-                0.05
-              ],
-              "right_thumb_max_swing_degrees": [
-                0,
-                35,
-                30
-              ]
-            }
-          },
-          "left_hand_quaternion_weapon": [
-            0.4008423686027527,
-            0.4249333143234253,
-            -0.5809804201126099,
-            0.5667615532875061
-          ],
-          "trigger_finger_ik": true,
-          "model_scale": 1,
-          "right_hand_quaternion_weapon": [
-            -0.8720655525,
-            -0.1186435121,
-            0.267794149,
-            0.3920608244
-          ],
-          "right_contact_offset_native": [
-            -0.01345005,
-            0.03768316,
-            0.00932432
-          ],
-          "support_pose_weight": 1,
-          "right_finger_pose_weight": 1,
-          "support_finger_pose_weight": 1,
-          "right_finger_directions_weapon": {
-            "Middle": [
-              [
-                -0.88,
-                -0.45,
-                0.16
-              ],
-              [
-                -0.91,
-                0.36,
-                0.19
-              ],
-              [
-                -0.25,
-                0.95,
-                0.18
-              ]
-            ],
-            "Ring": [
-              [
-                -0.9,
-                -0.35,
-                0.2
-              ],
-              [
-                -0.9,
-                0.35,
-                0.18
-              ],
-              [
-                -0.45,
-                0.88,
-                0.15
-              ]
-            ],
-            "Pinky": [
-              [
-                -0.94,
-                -0.15,
-                0.3
-              ],
-              [
-                -0.88,
-                0.45,
-                0.15
-              ],
-              [
-                -0.25,
-                0.95,
-                0.18
-              ]
-            ],
-            "Thumb": [
-              null,
-              [
-                -0.65,
-                -0.25,
-                -0.7
-              ],
-              [
-                -0.25,
-                -0.65,
-                -0.72
-              ]
-            ],
-            "Index": [
-              [
-                -0.3,
-                -0.2,
-                -0.93
-              ],
-              [
-                0,
-                0,
-                -1
-              ],
-              [
-                0,
-                0.3,
-                -0.954
-              ]
-            ]
-          },
-          "grip_method": "physical palm surface + two-bone right arm IK; shoulder buttpad anchor for aim/fire",
-          "support_finger_directions_weapon": {
-            "Index": [
-              [
-                1,
-                -0.05,
-                0
-              ],
-              [
-                0.45,
-                0.893,
-                0
-              ],
-              [
-                -0.4,
-                0.916,
-                0
-              ]
-            ],
-            "Middle": [
-              [
-                1,
-                -0.05,
-                0
-              ],
-              [
-                0.45,
-                0.893,
-                0
-              ],
-              [
-                -0.4,
-                0.916,
-                0
-              ]
-            ],
-            "Ring": [
-              [
-                1,
-                -0.05,
-                0
-              ],
-              [
-                0.45,
-                0.893,
-                0
-              ],
-              [
-                -0.4,
-                0.916,
-                0
-              ]
-            ],
-            "Pinky": [
-              [
-                1,
-                -0.05,
-                0
-              ],
-              [
-                0.45,
-                0.893,
-                0
-              ],
-              [
-                -0.4,
-                0.916,
-                0
-              ]
-            ],
-            "Thumb": [
-              null,
-              [
-                1,
-                0.1,
-                0.2
-              ],
-              [
-                0.25,
-                0.2,
-                -0.947
-              ]
-            ]
-          },
-          "left_grip": [
-            0,
-            -0.033,
-            -0.17
-          ],
-          "right_palm_target_weapon": [
-            0.0139,
-            -0.047,
-            0.162
-          ],
-          "re4_mount": {
-            "quaternion_xyzw": [
-              -0.6121032238006592,
-              -0.2434224933385849,
-              0.3553619980812073,
-              -0.6631690263748169
-            ],
-            "right_hand_quaternion_offset": [
-              0,
-              0,
-              0,
-              1
-            ],
-            "shoulder_contact": false,
-            "shoulder_pocket_drop_m": -0.025,
-            "shoulder_pocket_forward_m": 0.055,
-            "right_elbow_lift_ratio": null,
-            "right_hand_quaternion_weapon": [
-              0.6121032238006592,
-              0.2434224933385849,
-              -0.3553619980812073,
-              -0.6631690263748169
-            ],
-            "right_palm_target_weapon": [
-              0.0139,
-              -0.047,
-              0.162
-            ],
-            "right_finger_directions_weapon": {
-              "Middle": [
-                [
-                  -0.88,
-                  -0.45,
-                  0.16
-                ],
-                [
-                  -0.91,
-                  0.36,
-                  0.19
-                ],
-                [
-                  -0.25,
-                  0.95,
-                  0.18
-                ]
-              ],
-              "Ring": [
-                [
-                  -0.9,
-                  -0.35,
-                  0.2
-                ],
-                [
-                  -0.9,
-                  0.35,
-                  0.18
-                ],
-                [
-                  -0.45,
-                  0.88,
-                  0.15
-                ]
-              ],
-              "Pinky": [
-                [
-                  -0.94,
-                  -0.15,
-                  0.3
-                ],
-                [
-                  -0.88,
-                  0.45,
-                  0.15
-                ],
-                [
-                  -0.25,
-                  0.95,
-                  0.18
-                ]
-              ],
-              "Thumb": [
-                null,
-                [
-                  -0.65,
-                  -0.25,
-                  -0.7
-                ],
-                [
-                  -0.25,
-                  -0.65,
-                  -0.72
-                ]
-              ],
-              "Index": [
-                [
-                  -0.2,
-                  -0.08,
-                  -0.977
-                ],
-                [
-                  -0.1,
-                  -0.04,
-                  -0.994
-                ],
-                [
-                  -0.1,
-                  0,
-                  -0.995
-                ]
-              ]
-            },
-            "support_forearm_twist_weight": 0.75,
-            "support_upper_arm_twist_weight": 0.75,
-            "left_grip": [
-              0,
-              -0.033,
-              -0.17
-            ],
-            "left_hand_quaternion_weapon": [
-              0.2879258380413814,
-              0.79911926014646,
-              -0.5134793843176273,
-              0.12184364841870207
-            ],
-            "weapon_offset_body_m": [
-              0,
-              0,
-              0
-            ],
-            "re4_shotgun": true,
-            "palm_offset_native": [
-              -0.01345005,
-              0.03768316,
-              0.00932432
-            ],
-            "right_contact_offset_native": [
-              -0.01345005,
-              0.03768316,
-              0.00932432
-            ],
-            "support_pose_weight": 1,
-            "trigger_finger_ik": true,
-            "right_thumb_max_swing_degrees": [
-              0,
-              35,
-              30
-            ]
-          },
-          "right_thumb_max_swing_degrees": [
-            0,
-            35,
-            30
-          ]
         },
         "qcq171": {
           "quaternion_xyzw": [
@@ -21180,6 +20986,1568 @@
             -0.050917175813466616,
             0.2587949927191916
           ]
+        },
+        "type64": {
+          "quaternion_xyzw": [
+            0.777650773525238,
+            0.1654985398054123,
+            -0.24178415536880493,
+            0.556246280670166
+          ],
+          "right_hand_quaternion_offset": [
+            -0.021347470581531525,
+            0.027028709650039673,
+            -0.16835033893585205,
+            -0.9851253628730774
+          ],
+          "left_hand_quaternion_weapon": [
+            -0.4057784080505371,
+            -0.5859163999557495,
+            0.5618255138397217,
+            0.41999727487564087
+          ],
+          "motions": {
+            "PistolIdle": {
+              "quaternion_xyzw": [
+                0.777650773525238,
+                0.1654985398054123,
+                -0.24178415536880493,
+                0.556246280670166
+              ],
+              "right_hand_quaternion_offset": [
+                -0.021347470581531525,
+                0.027028709650039673,
+                -0.16835033893585205,
+                -0.9851253628730774
+              ],
+              "trigger_finger_ik": true,
+              "right_finger_pose_weight": 0.95,
+              "support_finger_pose_weight": 0.9,
+              "support_pose_weight": 0.98,
+              "right_finger_directions_weapon": {
+                "Middle": [
+                  [
+                    -0.91926488,
+                    -0.15987215,
+                    -0.35971235
+                  ],
+                  [
+                    -0.09997876,
+                    0.01999575,
+                    0.99478863
+                  ],
+                  [
+                    0.89977688,
+                    0.01999504,
+                    0.43589191
+                  ]
+                ],
+                "Ring": [
+                  [
+                    -0.90912539,
+                    -0.03996156,
+                    -0.41460114
+                  ],
+                  [
+                    -0.14995345,
+                    0,
+                    0.98869306
+                  ],
+                  [
+                    0.84990269,
+                    0,
+                    0.52693967
+                  ]
+                ],
+                "Pinky": [
+                  [
+                    -0.8,
+                    0,
+                    -0.6
+                  ],
+                  [
+                    0.19996001,
+                    0,
+                    0.97980406
+                  ],
+                  [
+                    0.8999568,
+                    0,
+                    0.43597907
+                  ]
+                ],
+                "Thumb": [
+                  null,
+                  [
+                    0.34991795,
+                    0,
+                    -0.93678035
+                  ],
+                  [
+                    0.02999249,
+                    0.03998998,
+                    -0.99874984
+                  ]
+                ]
+              },
+              "support_finger_directions_weapon": {
+                "Thumb": [
+                  null,
+                  [
+                    -0.2500689,
+                    0.45012403,
+                    -0.8572362
+                  ],
+                  [
+                    0,
+                    0.25005952,
+                    -0.96823047
+                  ]
+                ]
+              }
+            },
+            "LeonPistolIdle": {
+              "quaternion_xyzw": [
+                0.777650773525238,
+                0.1654985398054123,
+                -0.24178415536880493,
+                0.556246280670166
+              ],
+              "right_hand_quaternion_offset": [
+                -0.021347470581531525,
+                0.027028709650039673,
+                -0.16835033893585205,
+                -0.9851253628730774
+              ],
+              "trigger_finger_ik": false,
+              "right_finger_pose_weight": 1,
+              "support_finger_pose_weight": 0.95,
+              "support_pose_weight": 1,
+              "right_finger_directions_weapon": {},
+              "support_finger_directions_weapon": {},
+              "support_forearm_twist_weight": 0.75,
+              "support_upper_arm_twist_weight": 0.75,
+              "left_hand_quaternion_weapon": [
+                0.6372730919791153,
+                0.6251731916395757,
+                -0.4477835828854103,
+                0.05031251924590334
+              ],
+              "support_finger_quaternion_offsets": {},
+              "support_elbow_from_hand_weight": 0,
+              "palm_offset_native": [
+                -0.018643050649591465,
+                0.06576048683267313,
+                0.004488112791694812
+              ],
+              "right_contact_offset_native": [
+                -0.01345005,
+                0.03768316,
+                0.00932432
+              ],
+              "right_hand_quaternion_weapon": null,
+              "left_palm_offset_native": [
+                -0.01079,
+                0.05975,
+                -0.01218
+              ],
+              "weapon_offset_body_m": [
+                0,
+                0,
+                0
+              ],
+              "right_grip": [
+                0.00085,
+                -0.035,
+                0.0569
+              ],
+              "left_grip": [
+                0.00085,
+                -0.047,
+                0.0596
+              ],
+              "right_finger_quaternion_offsets": {
+                "RightHandMiddle1": [
+                  -0.07120715113893486,
+                  2.3398123511470972e-07,
+                  -0.05025599466570767,
+                  0.9961946980917455
+                ],
+                "RightHandMiddle2": [
+                  -0.08465180277232902,
+                  -5.0897605906564315e-08,
+                  -0.020741163336909618,
+                  0.9961946980917455
+                ],
+                "RightHandRing1": [
+                  -0.08097626340728753,
+                  2.5443297334223807e-07,
+                  -0.032233025256201975,
+                  0.9961946980917455
+                ],
+                "RightHandRing2": [
+                  -0.08688905564979188,
+                  7.039613935555067e-08,
+                  0.0068129106702035525,
+                  0.9961946980917455
+                ],
+                "RightHandPinky1": [
+                  -0.08687338275065842,
+                  2.7884393802848595e-07,
+                  -0.007009887784298814,
+                  0.9961946980917455
+                ],
+                "RightHandPinky2": [
+                  -0.0850751890785234,
+                  -5.98580998229778e-08,
+                  0.01892976114087234,
+                  0.9961946980917455
+                ]
+              },
+              "support_elbow_outward_weight": 0.2
+            },
+            "LeonPistolWalk": {
+              "quaternion_xyzw": [
+                0.777650773525238,
+                0.1654985398054123,
+                -0.24178415536880493,
+                0.556246280670166
+              ],
+              "right_hand_quaternion_offset": [
+                -0.021347470581531525,
+                0.027028709650039673,
+                -0.16835033893585205,
+                -0.9851253628730774
+              ],
+              "trigger_finger_ik": false,
+              "right_finger_pose_weight": 1,
+              "support_finger_pose_weight": 0.95,
+              "support_pose_weight": 1,
+              "right_finger_directions_weapon": {},
+              "support_finger_directions_weapon": {},
+              "support_forearm_twist_weight": 0.75,
+              "support_upper_arm_twist_weight": 0.75,
+              "left_hand_quaternion_weapon": [
+                0.6695631092249064,
+                0.6028230544666359,
+                -0.4251735145587776,
+                0.08670115504610283
+              ],
+              "support_finger_quaternion_offsets": {},
+              "support_elbow_from_hand_weight": 0.25,
+              "palm_offset_native": [
+                -0.018643050649591465,
+                0.06576048683267313,
+                0.004488112791694812
+              ],
+              "right_contact_offset_native": [
+                -0.01345005,
+                0.03768316,
+                0.00932432
+              ],
+              "right_hand_quaternion_weapon": null,
+              "left_palm_offset_native": [
+                -0.01079,
+                0.05975,
+                -0.01218
+              ],
+              "weapon_offset_body_m": [
+                0,
+                0,
+                0
+              ],
+              "right_grip": [
+                0.00085,
+                -0.035,
+                0.0569
+              ],
+              "left_grip": [
+                0.00085,
+                -0.047,
+                0.0596
+              ],
+              "right_finger_quaternion_offsets": {
+                "RightHandMiddle1": [
+                  -0.07120715113893486,
+                  2.3398123511470972e-07,
+                  -0.05025599466570767,
+                  0.9961946980917455
+                ],
+                "RightHandMiddle2": [
+                  -0.08465180277232902,
+                  -5.0897605906564315e-08,
+                  -0.020741163336909618,
+                  0.9961946980917455
+                ],
+                "RightHandRing1": [
+                  -0.08097626340728753,
+                  2.5443297334223807e-07,
+                  -0.032233025256201975,
+                  0.9961946980917455
+                ],
+                "RightHandRing2": [
+                  -0.08688905564979188,
+                  7.039613935555067e-08,
+                  0.0068129106702035525,
+                  0.9961946980917455
+                ],
+                "RightHandPinky1": [
+                  -0.08687338275065842,
+                  2.7884393802848595e-07,
+                  -0.007009887784298814,
+                  0.9961946980917455
+                ],
+                "RightHandPinky2": [
+                  -0.0850751890785234,
+                  -5.98580998229778e-08,
+                  0.01892976114087234,
+                  0.9961946980917455
+                ]
+              },
+              "support_elbow_outward_weight": 0.2
+            },
+            "Reloading": {
+              "quaternion_xyzw": [
+                0.777650773525238,
+                0.1654985398054123,
+                -0.24178415536880493,
+                0.556246280670166
+              ],
+              "right_hand_quaternion_offset": [
+                -0.37994691729545593,
+                -0.07854755967855453,
+                0.28252193331718445,
+                0.8772981762886047
+              ],
+              "release_support_hand": true,
+              "trigger_finger_ik": false
+            },
+            "RifleRun": {
+              "quaternion_xyzw": [
+                0.777650773525238,
+                0.1654985398054123,
+                -0.24178415536880493,
+                0.556246280670166
+              ],
+              "right_hand_quaternion_offset": [
+                -0.2547677159309387,
+                0.04287305474281311,
+                0.02283501625061035,
+                0.9657815098762512
+              ]
+            }
+          }
+        },
+        "m870": {
+          "quaternion_xyzw": [
+            0.8750226497650146,
+            0.11885306984186172,
+            -0.17644216120243073,
+            0.43483060598373413
+          ],
+          "right_hand_quaternion_offset": [
+            -0.14898273348808289,
+            -0.054464489221572876,
+            0.10604633390903473,
+            0.9816272258758545
+          ],
+          "motions": {
+            "RifleIdle": {
+              "quaternion_xyzw": [
+                0.8750226497650146,
+                0.11885306984186172,
+                -0.17644216120243073,
+                0.43483060598373413
+              ],
+              "right_hand_quaternion_offset": [
+                -0.14898273348808289,
+                -0.054464489221572876,
+                0.10604633390903473,
+                0.9816272258758545
+              ],
+              "right_finger_directions_weapon": {
+                "Middle": [
+                  [
+                    -0.88,
+                    -0.45,
+                    0.16
+                  ],
+                  [
+                    -0.91,
+                    0.36,
+                    0.19
+                  ],
+                  [
+                    -0.25,
+                    0.95,
+                    0.18
+                  ]
+                ],
+                "Ring": [
+                  [
+                    -0.9,
+                    -0.35,
+                    0.2
+                  ],
+                  [
+                    -0.9,
+                    0.35,
+                    0.18
+                  ],
+                  [
+                    -0.45,
+                    0.88,
+                    0.15
+                  ]
+                ],
+                "Pinky": [
+                  [
+                    -0.94,
+                    -0.15,
+                    0.3
+                  ],
+                  [
+                    -0.88,
+                    0.45,
+                    0.15
+                  ],
+                  [
+                    -0.25,
+                    0.95,
+                    0.18
+                  ]
+                ],
+                "Thumb": [
+                  null,
+                  [
+                    -0.65,
+                    -0.25,
+                    -0.7
+                  ],
+                  [
+                    -0.25,
+                    -0.65,
+                    -0.72
+                  ]
+                ],
+                "Index": [
+                  null,
+                  null,
+                  null
+                ]
+              },
+              "left_hand_quaternion_weapon": [
+                0.5100700735341404,
+                0.2847304798819978,
+                -0.7245193607238254,
+                0.3658259186763982
+              ],
+              "support_forearm_twist_weight": 0.75,
+              "support_upper_arm_twist_weight": 0.75,
+              "left_grip": [
+                0,
+                -0.063,
+                -0.17
+              ],
+              "right_palm_target_weapon": [
+                0.0139,
+                -0.047,
+                0.162
+              ],
+              "right_thumb_max_swing_degrees": [
+                0,
+                35,
+                30
+              ]
+            },
+            "RifleAimingIdle": {
+              "quaternion_xyzw": [
+                0.8189990520477295,
+                0.10228803008794785,
+                -0.2533232271671295,
+                0.504584014415741
+              ],
+              "right_hand_quaternion_offset": [
+                0.1699741780757904,
+                0.002253755694255233,
+                -0.08667067438364029,
+                -0.9816272258758545
+              ],
+              "shoulder_contact": true,
+              "shoulder_pocket_drop_m": -0.025,
+              "shoulder_pocket_forward_m": 0.055,
+              "right_elbow_lift_ratio": -1,
+              "right_hand_quaternion_weapon": [
+                -0.23749988474653025,
+                -0.40112370885277676,
+                0.4069974840329883,
+                0.7855231568965932
+              ],
+              "right_palm_target_weapon": [
+                0.0139,
+                -0.047,
+                0.162
+              ],
+              "right_finger_directions_weapon": {
+                "Middle": [
+                  [
+                    -0.88,
+                    -0.45,
+                    0.16
+                  ],
+                  [
+                    -0.91,
+                    0.36,
+                    0.19
+                  ],
+                  [
+                    -0.25,
+                    0.95,
+                    0.18
+                  ]
+                ],
+                "Ring": [
+                  [
+                    -0.9,
+                    -0.35,
+                    0.2
+                  ],
+                  [
+                    -0.9,
+                    0.35,
+                    0.18
+                  ],
+                  [
+                    -0.45,
+                    0.88,
+                    0.15
+                  ]
+                ],
+                "Pinky": [
+                  [
+                    -0.94,
+                    -0.15,
+                    0.3
+                  ],
+                  [
+                    -0.88,
+                    0.45,
+                    0.15
+                  ],
+                  [
+                    -0.25,
+                    0.95,
+                    0.18
+                  ]
+                ],
+                "Thumb": [
+                  null,
+                  [
+                    -0.65,
+                    -0.25,
+                    -0.7
+                  ],
+                  [
+                    -0.25,
+                    -0.65,
+                    -0.72
+                  ]
+                ],
+                "Index": [
+                  [
+                    -0.2,
+                    -0.08,
+                    -0.977
+                  ],
+                  [
+                    -0.1,
+                    -0.04,
+                    -0.994
+                  ],
+                  [
+                    -0.1,
+                    0,
+                    -0.995
+                  ]
+                ]
+              },
+              "support_forearm_twist_weight": 0.75,
+              "support_upper_arm_twist_weight": 0.75,
+              "left_grip": [
+                0,
+                -0.063,
+                -0.17
+              ],
+              "left_hand_quaternion_weapon": [
+                0.2879258380413814,
+                0.79911926014646,
+                -0.5134793843176273,
+                0.12184364841870207
+              ],
+              "right_thumb_max_swing_degrees": [
+                0,
+                35,
+                30
+              ]
+            },
+            "FiringRifle": {
+              "quaternion_xyzw": [
+                0.8164150714874268,
+                0.0993841141462326,
+                -0.2558637261390686,
+                0.5080580711364746
+              ],
+              "right_hand_quaternion_offset": [
+                0.17090940475463867,
+                0.0009205393143929541,
+                -0.08483626693487167,
+                -0.9816271066665649
+              ],
+              "shoulder_contact": true,
+              "shoulder_pocket_drop_m": -0.025,
+              "shoulder_pocket_forward_m": 0.055,
+              "right_elbow_lift_ratio": -1,
+              "right_hand_quaternion_weapon": [
+                -0.23749988474653025,
+                -0.40112370885277676,
+                0.4069974840329883,
+                0.7855231568965932
+              ],
+              "right_palm_target_weapon": [
+                0.0139,
+                -0.047,
+                0.162
+              ],
+              "right_finger_directions_weapon": {
+                "Middle": [
+                  [
+                    -0.88,
+                    -0.45,
+                    0.16
+                  ],
+                  [
+                    -0.91,
+                    0.36,
+                    0.19
+                  ],
+                  [
+                    -0.25,
+                    0.95,
+                    0.18
+                  ]
+                ],
+                "Ring": [
+                  [
+                    -0.9,
+                    -0.35,
+                    0.2
+                  ],
+                  [
+                    -0.9,
+                    0.35,
+                    0.18
+                  ],
+                  [
+                    -0.45,
+                    0.88,
+                    0.15
+                  ]
+                ],
+                "Pinky": [
+                  [
+                    -0.94,
+                    -0.15,
+                    0.3
+                  ],
+                  [
+                    -0.88,
+                    0.45,
+                    0.15
+                  ],
+                  [
+                    -0.25,
+                    0.95,
+                    0.18
+                  ]
+                ],
+                "Thumb": [
+                  null,
+                  [
+                    -0.65,
+                    -0.25,
+                    -0.7
+                  ],
+                  [
+                    -0.25,
+                    -0.65,
+                    -0.72
+                  ]
+                ],
+                "Index": [
+                  [
+                    -0.2,
+                    -0.08,
+                    -0.977
+                  ],
+                  [
+                    -0.1,
+                    -0.04,
+                    -0.994
+                  ],
+                  [
+                    -0.1,
+                    0,
+                    -0.995
+                  ]
+                ]
+              },
+              "support_forearm_twist_weight": 0.75,
+              "support_upper_arm_twist_weight": 0.75,
+              "left_grip": [
+                0,
+                -0.063,
+                -0.17
+              ],
+              "left_hand_quaternion_weapon": [
+                0.2879258380413814,
+                0.79911926014646,
+                -0.5134793843176273,
+                0.12184364841870207
+              ],
+              "right_thumb_max_swing_degrees": [
+                0,
+                35,
+                30
+              ]
+            },
+            "RifleRun": {
+              "quaternion_xyzw": [
+                0.8353219032287598,
+                0.2096041440963745,
+                -0.1784098595380783,
+                0.475892037153244
+              ],
+              "right_hand_quaternion_offset": [
+                -0.13031291961669922,
+                -0.0306530874222517,
+                0.13596704602241516,
+                0.9816272854804993
+              ],
+              "right_finger_directions_weapon": {
+                "Middle": [
+                  [
+                    -0.88,
+                    -0.45,
+                    0.16
+                  ],
+                  [
+                    -0.91,
+                    0.36,
+                    0.19
+                  ],
+                  [
+                    -0.25,
+                    0.95,
+                    0.18
+                  ]
+                ],
+                "Ring": [
+                  [
+                    -0.9,
+                    -0.35,
+                    0.2
+                  ],
+                  [
+                    -0.9,
+                    0.35,
+                    0.18
+                  ],
+                  [
+                    -0.45,
+                    0.88,
+                    0.15
+                  ]
+                ],
+                "Pinky": [
+                  [
+                    -0.94,
+                    -0.15,
+                    0.3
+                  ],
+                  [
+                    -0.88,
+                    0.45,
+                    0.15
+                  ],
+                  [
+                    -0.25,
+                    0.95,
+                    0.18
+                  ]
+                ],
+                "Thumb": [
+                  null,
+                  [
+                    -0.65,
+                    -0.25,
+                    -0.7
+                  ],
+                  [
+                    -0.25,
+                    -0.65,
+                    -0.72
+                  ]
+                ],
+                "Index": [
+                  [
+                    -0.15,
+                    -0.1,
+                    -0.983
+                  ],
+                  [
+                    -0.1,
+                    -0.42,
+                    -0.902
+                  ],
+                  [
+                    -0.05,
+                    -0.72,
+                    -0.692
+                  ]
+                ]
+              },
+              "left_grip": [
+                0,
+                -0.06,
+                -0.1
+              ],
+              "right_palm_target_weapon": [
+                0.0139,
+                -0.047,
+                0.162
+              ],
+              "support_forearm_twist_weight": 0.75,
+              "support_upper_arm_twist_weight": 0.75,
+              "left_hand_quaternion_weapon": [
+                -0.022737185927773747,
+                0.15914913556830312,
+                -0.6715823691484035,
+                0.7232783194600902
+              ],
+              "right_hand_quaternion_weapon": [
+                -0.8337977640914641,
+                -0.2998060614530078,
+                0.16541850862549487,
+                0.4330523504203878
+              ],
+              "support_forearm_twist_reference_degrees": -180,
+              "right_thumb_max_swing_degrees": [
+                0,
+                35,
+                30
+              ]
+            },
+            "Reloading": {
+              "quaternion_xyzw": [
+                0.7911696434020996,
+                0.15949267148971558,
+                -0.09713760018348694,
+                0.5823890566825867
+              ],
+              "right_hand_quaternion_offset": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "left_grip": [
+                0,
+                -0.063,
+                -0.17
+              ],
+              "right_palm_target_weapon": [
+                0.0139,
+                -0.047,
+                0.162
+              ],
+              "right_finger_directions_weapon": {
+                "Thumb": [
+                  null,
+                  [
+                    -0.65,
+                    -0.25,
+                    -0.7
+                  ],
+                  [
+                    -0.25,
+                    -0.65,
+                    -0.72
+                  ]
+                ]
+              },
+              "right_thumb_max_swing_degrees": [
+                0,
+                35,
+                30
+              ]
+            },
+            "PistolIdle": {
+              "quaternion_xyzw": [
+                0.8511962294578552,
+                0.20582415163516998,
+                -0.18665292859077454,
+                0.4452662467956543
+              ],
+              "right_hand_quaternion_offset": [
+                0.1255265176296234,
+                0.03126692399382591,
+                -0.1402624398469925,
+                -0.9816271662712097
+              ],
+              "left_grip": [
+                0,
+                -0.063,
+                -0.17
+              ],
+              "right_palm_target_weapon": [
+                0.0139,
+                -0.047,
+                0.162
+              ],
+              "support_forearm_twist_weight": 0.75,
+              "support_upper_arm_twist_weight": 0.75,
+              "right_finger_directions_weapon": {
+                "Thumb": [
+                  null,
+                  [
+                    -0.65,
+                    -0.25,
+                    -0.7
+                  ],
+                  [
+                    -0.25,
+                    -0.65,
+                    -0.72
+                  ]
+                ]
+              },
+              "right_thumb_max_swing_degrees": [
+                0,
+                35,
+                30
+              ]
+            },
+            "HanyangIdle2": {
+              "quaternion_xyzw": [
+                0.7028274261801194,
+                0.13695303040880033,
+                -0.33504951673851346,
+                0.6123881920842071
+              ],
+              "right_hand_quaternion_offset": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "right_hand_quaternion_weapon": [
+                -0.657296309388594,
+                -0.24525307937618043,
+                0.2102323502681056,
+                0.6808926843647121
+              ],
+              "right_contact_offset_native": [
+                -0.01345005,
+                0.03768316,
+                0.00932432
+              ],
+              "palm_offset_native": [
+                -0.023770989648547805,
+                0.04873667380902204,
+                0.012051418062301335
+              ],
+              "right_palm_target_weapon": [
+                0.0139,
+                -0.047,
+                0.162
+              ],
+              "left_hand_quaternion_weapon": [
+                -0.28450839784579873,
+                -0.3992239869512664,
+                0.772978922801116,
+                -0.402714246958285
+              ],
+              "support_pose_weight": 1,
+              "support_forearm_twist_weight": 0.75,
+              "support_upper_arm_twist_weight": 0.75,
+              "right_elbow_lift_ratio": null,
+              "right_finger_directions_weapon": {
+                "Middle": [
+                  [
+                    -0.88,
+                    -0.45,
+                    0.16
+                  ],
+                  [
+                    -0.91,
+                    0.36,
+                    0.19
+                  ],
+                  [
+                    -0.25,
+                    0.95,
+                    0.18
+                  ]
+                ],
+                "Ring": [
+                  [
+                    -0.9,
+                    -0.35,
+                    0.2
+                  ],
+                  [
+                    -0.9,
+                    0.35,
+                    0.18
+                  ],
+                  [
+                    -0.45,
+                    0.88,
+                    0.15
+                  ]
+                ],
+                "Pinky": [
+                  [
+                    -0.94,
+                    -0.15,
+                    0.3
+                  ],
+                  [
+                    -0.88,
+                    0.45,
+                    0.15
+                  ],
+                  [
+                    -0.25,
+                    0.95,
+                    0.18
+                  ]
+                ],
+                "Thumb": [
+                  null,
+                  [
+                    -0.65,
+                    -0.25,
+                    -0.7
+                  ],
+                  [
+                    -0.25,
+                    -0.65,
+                    -0.72
+                  ]
+                ],
+                "Index": [
+                  null,
+                  null,
+                  null
+                ]
+              },
+              "left_grip": [
+                0,
+                -0.06,
+                -0.08
+              ],
+              "right_thumb_max_swing_degrees": [
+                0,
+                35,
+                30
+              ]
+            },
+            "HanyangWalk2": {
+              "quaternion_xyzw": [
+                0.6785149213275358,
+                0.04481686774527362,
+                -0.2741896476338969,
+                0.6800213136599398
+              ],
+              "right_hand_quaternion_offset": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "right_hand_quaternion_weapon": [
+                -0.662492598958442,
+                -0.25898297853344676,
+                0.060334875670319754,
+                0.7002792842381389
+              ],
+              "right_contact_offset_native": [
+                -0.01345005,
+                0.03768316,
+                0.00932432
+              ],
+              "palm_offset_native": [
+                -0.02388372794565373,
+                0.04889192249687675,
+                0.008043291346298984
+              ],
+              "right_palm_target_weapon": [
+                0.0139,
+                -0.047,
+                0.162
+              ],
+              "left_hand_quaternion_weapon": [
+                -0.4866574785907849,
+                -0.5740180041922276,
+                0.620806081595287,
+                -0.21969897234429056
+              ],
+              "support_pose_weight": 1,
+              "support_forearm_twist_weight": 0.75,
+              "support_upper_arm_twist_weight": 0.75,
+              "right_elbow_lift_ratio": null,
+              "right_finger_directions_weapon": {
+                "Middle": [
+                  [
+                    -0.88,
+                    -0.45,
+                    0.16
+                  ],
+                  [
+                    -0.91,
+                    0.36,
+                    0.19
+                  ],
+                  [
+                    -0.25,
+                    0.95,
+                    0.18
+                  ]
+                ],
+                "Ring": [
+                  [
+                    -0.9,
+                    -0.35,
+                    0.2
+                  ],
+                  [
+                    -0.9,
+                    0.35,
+                    0.18
+                  ],
+                  [
+                    -0.45,
+                    0.88,
+                    0.15
+                  ]
+                ],
+                "Pinky": [
+                  [
+                    -0.94,
+                    -0.15,
+                    0.3
+                  ],
+                  [
+                    -0.88,
+                    0.45,
+                    0.15
+                  ],
+                  [
+                    -0.25,
+                    0.95,
+                    0.18
+                  ]
+                ],
+                "Thumb": [
+                  null,
+                  [
+                    -0.65,
+                    -0.25,
+                    -0.7
+                  ],
+                  [
+                    -0.25,
+                    -0.65,
+                    -0.72
+                  ]
+                ],
+                "Index": [
+                  null,
+                  null,
+                  null
+                ]
+              },
+              "left_grip": [
+                0,
+                -0.06,
+                -0.08
+              ],
+              "weapon_offset_body_m": [
+                0.1,
+                0.02,
+                0.05
+              ],
+              "right_thumb_max_swing_degrees": [
+                0,
+                35,
+                30
+              ]
+            }
+          },
+          "left_hand_quaternion_weapon": [
+            0.4008423686027527,
+            0.4249333143234253,
+            -0.5809804201126099,
+            0.5667615532875061
+          ],
+          "trigger_finger_ik": true,
+          "model_scale": 1,
+          "right_hand_quaternion_weapon": [
+            -0.8720655525,
+            -0.1186435121,
+            0.267794149,
+            0.3920608244
+          ],
+          "right_contact_offset_native": [
+            -0.01345005,
+            0.03768316,
+            0.00932432
+          ],
+          "support_pose_weight": 1,
+          "right_finger_pose_weight": 1,
+          "support_finger_pose_weight": 1,
+          "right_finger_directions_weapon": {
+            "Middle": [
+              [
+                -0.88,
+                -0.45,
+                0.16
+              ],
+              [
+                -0.91,
+                0.36,
+                0.19
+              ],
+              [
+                -0.25,
+                0.95,
+                0.18
+              ]
+            ],
+            "Ring": [
+              [
+                -0.9,
+                -0.35,
+                0.2
+              ],
+              [
+                -0.9,
+                0.35,
+                0.18
+              ],
+              [
+                -0.45,
+                0.88,
+                0.15
+              ]
+            ],
+            "Pinky": [
+              [
+                -0.94,
+                -0.15,
+                0.3
+              ],
+              [
+                -0.88,
+                0.45,
+                0.15
+              ],
+              [
+                -0.25,
+                0.95,
+                0.18
+              ]
+            ],
+            "Thumb": [
+              null,
+              [
+                -0.65,
+                -0.25,
+                -0.7
+              ],
+              [
+                -0.25,
+                -0.65,
+                -0.72
+              ]
+            ],
+            "Index": [
+              [
+                -0.3,
+                -0.2,
+                -0.93
+              ],
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                0.3,
+                -0.954
+              ]
+            ]
+          },
+          "grip_method": "physical palm surface + two-bone right arm IK; shoulder buttpad anchor for aim/fire",
+          "support_finger_directions_weapon": {
+            "Index": [
+              [
+                1,
+                -0.05,
+                0
+              ],
+              [
+                0.45,
+                0.893,
+                0
+              ],
+              [
+                -0.4,
+                0.916,
+                0
+              ]
+            ],
+            "Middle": [
+              [
+                1,
+                -0.05,
+                0
+              ],
+              [
+                0.45,
+                0.893,
+                0
+              ],
+              [
+                -0.4,
+                0.916,
+                0
+              ]
+            ],
+            "Ring": [
+              [
+                1,
+                -0.05,
+                0
+              ],
+              [
+                0.45,
+                0.893,
+                0
+              ],
+              [
+                -0.4,
+                0.916,
+                0
+              ]
+            ],
+            "Pinky": [
+              [
+                1,
+                -0.05,
+                0
+              ],
+              [
+                0.45,
+                0.893,
+                0
+              ],
+              [
+                -0.4,
+                0.916,
+                0
+              ]
+            ],
+            "Thumb": [
+              null,
+              [
+                1,
+                0.1,
+                0.2
+              ],
+              [
+                0.25,
+                0.2,
+                -0.947
+              ]
+            ]
+          },
+          "left_grip": [
+            0,
+            -0.063,
+            -0.17
+          ],
+          "right_palm_target_weapon": [
+            0.0139,
+            -0.047,
+            0.162
+          ],
+          "re4_mount": {
+            "quaternion_xyzw": [
+              -0.6121032238006592,
+              -0.2434224933385849,
+              0.3553619980812073,
+              -0.6631690263748169
+            ],
+            "right_hand_quaternion_offset": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "shoulder_contact": false,
+            "shoulder_pocket_drop_m": -0.025,
+            "shoulder_pocket_forward_m": 0.055,
+            "right_elbow_lift_ratio": null,
+            "right_hand_quaternion_weapon": [
+              0.6121032238006592,
+              0.2434224933385849,
+              -0.3553619980812073,
+              -0.6631690263748169
+            ],
+            "right_palm_target_weapon": [
+              0.0139,
+              -0.047,
+              0.162
+            ],
+            "right_finger_directions_weapon": {
+              "Middle": [
+                [
+                  -0.88,
+                  -0.45,
+                  0.16
+                ],
+                [
+                  -0.91,
+                  0.36,
+                  0.19
+                ],
+                [
+                  -0.25,
+                  0.95,
+                  0.18
+                ]
+              ],
+              "Ring": [
+                [
+                  -0.9,
+                  -0.35,
+                  0.2
+                ],
+                [
+                  -0.9,
+                  0.35,
+                  0.18
+                ],
+                [
+                  -0.45,
+                  0.88,
+                  0.15
+                ]
+              ],
+              "Pinky": [
+                [
+                  -0.94,
+                  -0.15,
+                  0.3
+                ],
+                [
+                  -0.88,
+                  0.45,
+                  0.15
+                ],
+                [
+                  -0.25,
+                  0.95,
+                  0.18
+                ]
+              ],
+              "Thumb": [
+                null,
+                [
+                  -0.65,
+                  -0.25,
+                  -0.7
+                ],
+                [
+                  -0.25,
+                  -0.65,
+                  -0.72
+                ]
+              ],
+              "Index": [
+                [
+                  -0.2,
+                  -0.08,
+                  -0.977
+                ],
+                [
+                  -0.1,
+                  -0.04,
+                  -0.994
+                ],
+                [
+                  -0.1,
+                  0,
+                  -0.995
+                ]
+              ]
+            },
+            "support_forearm_twist_weight": 0.75,
+            "support_upper_arm_twist_weight": 0.75,
+            "left_grip": [
+              0,
+              -0.063,
+              -0.17
+            ],
+            "left_hand_quaternion_weapon": [
+              0.2879258380413814,
+              0.79911926014646,
+              -0.5134793843176273,
+              0.12184364841870207
+            ],
+            "weapon_offset_body_m": [
+              0,
+              0,
+              0
+            ],
+            "re4_shotgun": true,
+            "palm_offset_native": [
+              -0.01345005,
+              0.03768316,
+              0.00932432
+            ],
+            "right_contact_offset_native": [
+              -0.01345005,
+              0.03768316,
+              0.00932432
+            ],
+            "support_pose_weight": 1,
+            "trigger_finger_ik": true,
+            "right_thumb_max_swing_degrees": [
+              0,
+              35,
+              30
+            ]
+          },
+          "right_thumb_max_swing_degrees": [
+            0,
+            35,
+            30
+          ],
+          "adaptation_policy": "Retain original M97 body animation, hand world directions and digit poses; support palm translates down 30 mm for the thicker/lower M870 fore-end."
         }
       },
       "shoulder_assist_max_degrees": 8,
@@ -21206,5 +22574,8 @@
       }
     }
   },
-  "revision": "R44"
+  "revision": "R44",
+  "legacy_weapon_aliases": {
+    "winchester1897": "m870"
+  }
 }

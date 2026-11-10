@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import { fixedGunMotionNames, applyFixedGunPose } from './fixed-machine-gun.js?v=weapons-r44';
+import { fixedGunMotionNames, applyFixedGunPose } from './fixed-machine-gun.js?v=natural-weapons-v6';
 import { rocketMotions, rocketSupportWeight, rocketCarryWeight, applyRocketPosePath, fitRocketCarryReach } from './rocket-motion.js?v=pf89-r40';
 import { ChestSkinningRelief } from './chest-skinning.js?v=grip-r31';
 import { refineC96Rotation } from './c96-dynamics.js?v=clothing-r23';
@@ -50,7 +50,11 @@ export class WeaponAttachment {
     for (const id of Object.keys(config.weapons)) {
       const root = new THREE.Group();
       root.name = 'Equipped_' + id;
-      root.add(weaponScenes.get(id).clone(true));
+      const visual = new THREE.Group();
+      visual.name = 'RefinedVisualRegistration_' + id;
+      visual.position.fromArray(config.weapons[id].visual_registration_translation_m || [0,0,0]);
+      visual.add(weaponScenes.get(id).clone(true));
+      root.add(visual);
       root.visible = false;
       root.traverse(object => {
         if (object.isMesh) {
@@ -62,8 +66,8 @@ export class WeaponAttachment {
       this.weapons.set(id, root);
     }
     this.pumpParts = [];
-    this.weapons.get('winchester1897')?.traverse(object => {
-      if (object.name.replaceAll('_', ' ') === 'm 97 add1') this.pumpParts.push({object, rest: object.position.clone()});
+    this.weapons.get('m870')?.traverse(object => {
+      if (config.weapons.m870?.pump_node_names?.includes(object.name)) this.pumpParts.push({object, rest: object.position.clone()});
     });
     this.type97PumpParts = [];
     this.weapons.get('type97hawk')?.traverse(object => {
@@ -96,6 +100,7 @@ export class WeaponAttachment {
   }
 
   setWeapon(id) {
+    if (id === 'winchester1897') id = 'm870';
     this.selectedWeapon = id;
     if (this.config.weapons[id].type === 'pistol') { this.lastPistol = id; return 'PistolIdle'; }
     this.lastRifle = id;
@@ -351,7 +356,7 @@ export class WeaponAttachment {
     }
     // The authored shotgun clips have their own hand-to-gun calibration.
     const actualClip = animation.activeClips?.find(c => c.weight > 0)?.name || this.state.actualClip;
-    if (id === 'winchester1897' && actualClip?.startsWith('Shotgun')) {
+    if (id === 'm870' && actualClip?.startsWith('Shotgun')) {
       Object.assign(mount, this.character.mounts[id].re4_mount);
       mount.release_support_hand = actualClip === 'ShotgunReload';
     }
@@ -436,7 +441,7 @@ export class WeaponAttachment {
       const pitch = THREE.MathUtils.clamp(animation.aimPitch || 0, -1, 1);
       pumpTravel = data.hybrid_upper_actions ? sample('Level') : THREE.MathUtils.lerp(sample('Level'), sample(pitch < 0 ? 'Down' : 'Up'), Math.abs(pitch));
     }
-    for (const part of (id === 'type97hawk' ? this.type97PumpParts : this.pumpParts)) {
+    for (const part of (id === 'type97hawk' ? this.type97PumpParts : id === 'm870' ? this.pumpParts : [])) {
       // The imported model has rotated ancestors; convert gun +Z into the pump parent's frame.
       const origin = part.object.parent.worldToLocal(gun.localToWorld(new THREE.Vector3()));
       const shifted = part.object.parent.worldToLocal(gun.localToWorld(new THREE.Vector3(0, 0, pumpTravel)));

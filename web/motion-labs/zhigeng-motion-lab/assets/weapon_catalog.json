@@ -373,5 +373,13 @@
     "AssetId": "type97hawk",
     "ModelPath": "res://assets/weapons/type97hawk.glb",
     "LengthMm": 800
+  },
+  {
+    "Id": "type64",
+    "DisplayName": "64式手枪",
+    "Category": 0,
+    "AssetId": "type64",
+    "ModelPath": "res://assets/weapons/type64.glb",
+    "LengthMm": 155
   }
 ]
