@@ -27,3 +27,5 @@
 恢复时先检出本分支并用 Git LFS 取得 ZIP；查看 `continued-progress.zip` 的 `MANIFEST.json` 和 `stages/`，按各阶段的说明恢复。外层包含的 Blender 工作文件可直接用于继续背心 M870 调整；其余可重建的临时导出 GLB 不包含在进度包中，原始模型与动作保留在仓库原有的 LFS 路径。
 
 后续阶段39：`stage39-vest-qbu85.zip` 保存背心 QBU85 待机右掌、手腕和手指的单角色修正及证据。Terra 检查首中末及多角度，相关动画与隔离检查通过。SHA-256 `196cf03018578ccefc704ec1332e3122c6539e5a1a607a85cf6d559094a4e289`。恢复时在 `continued-progress.zip` 对应内容之后覆盖阶段39；其他未完成项目以阶段38的清单及之后记录为准。
+
+后续阶段40：`stage40-vest-qbu85-walk.zip` 保存背心 QBU85 行走时双手与拇指的独立修正和首中末多视角证据，范围与拖动复核通过。SHA-256 `9919d4f374e66ed8297d957da5d35936b76bd8f7e8c3eedfa70ea7f3f7215518`。恢复时在阶段39之后覆盖阶段40；其余未完成问题仍需继续处理。
