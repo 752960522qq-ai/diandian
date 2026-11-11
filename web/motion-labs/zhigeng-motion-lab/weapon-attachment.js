@@ -1,8 +1,9 @@
+import { applyZhigengM870AimGrip } from './m870-aim-grip-retouch.js?v=zhigeng-m870-wrap';
 import { applyZhigeng97PumpElbow } from './type97-pump-elbow-retouch.js?v=zhigeng-pump-elbow16';
 import * as THREE from 'three';
 import { applyZhigengType97Firing } from './specific-retouches.js?v=zhigeng97-stage1';
 import { applyZhigengPf89Carry } from './pf89-carry-retouch.js?v=zhigeng-pf89-stage1';
-import { applyZhigengQjzIdle } from './qjz89-idle-retouch.js?v=zhigeng-qjz-stage1';
+import { applyZhigengQjzIdle } from './qjz89-idle-retouch.js?v=zhigeng-qjz-grip-final';
 import { applyZhigeng97PumpWrist } from './type97-pump-wrist-retouch.js?v=zhigeng97-pump-stage1';
 import { fixedGunMotionNames, applyFixedGunPose } from './fixed-machine-gun.js?v=natural-weapons-v6';
 import { rocketMotions, rocketSupportWeight, rocketCarryWeight, applyRocketPosePath, fitRocketCarryReach } from './rocket-motion.js?v=pf89-r40';
@@ -324,6 +325,7 @@ export class WeaponAttachment {
     applyZhigengQjzIdle(this, motion);
     applyZhigeng97PumpWrist(this, motion, time);
     applyZhigeng97PumpElbow(this, motion, time);
+    applyZhigengM870AimGrip(this, motion, time);
   }
 
   updateBeforeZhigengType97(motion, time = 0, animation = {}) {

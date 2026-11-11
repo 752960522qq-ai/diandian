@@ -1,0 +1,13 @@
+import * as THREE from 'three';
+// Authored in Blender for Zhigeng's M870 level aim; original gun/right arm remain fixed.
+const layers=[{"mixamorig:LeftArm":[-0.07224982231855392,-0.009109080769121647,-0.023718003183603287,0.9970629215240479],"mixamorig:LeftForeArm":[0.19473624229431152,-0.02878415957093239,-0.0969320684671402,0.9756298065185547],"mixamorig:LeftHand":[-0.07008568197488785,-0.04748927801847458,0.11962346732616425,0.989203155040741]},{"mixamorig:LeftHandPinky1":[-0.012559866532683372,0.00013728438352700323,-0.06234028935432434,0.9979758858680725],"mixamorig:LeftHandPinky2":[-0.05075482279062271,0.0001520942896604538,-0.03624541312456131,0.9980531930923462],"mixamorig:LeftHandPinky3":[-0.054058097302913666,8.043647540034726e-05,-0.03037836030125618,0.9980756044387817],"mixamorig:LeftHandThumb1":[-0.0014648844953626394,0.0064830719493329525,-0.045474059879779816,0.9989434480667114],"mixamorig:LeftHandThumb2":[0.04582568258047104,0.011589320376515388,-0.02850455977022648,0.9984754920005798],"mixamorig:LeftHandThumb3":[0.05484618991613388,7.465481758117676e-05,-0.03556995093822479,0.9978610873222351]},{"mixamorig:LeftHandIndex1":[0.22397492825984955,-1.1920928955078125e-07,0.4754704535007477,0.8507426977157593],"mixamorig:LeftHandIndex2":[0.021025625988841057,4.917382625535538e-07,0.011951325461268425,0.9997075200080872],"mixamorig:LeftHandIndex3":[0.27592942118644714,-1.884996663648053e-06,0.1195257306098938,0.9537172317504883],"mixamorig:LeftHandThumb2":[0.46886590123176575,2.1117739379405975e-06,-0.17368116974830627,0.8660252690315247],"mixamorig:LeftHandThumb3":[-0.26291653513908386,-1.4677646049676696e-06,0.14594224095344543,0.9537168145179749]}];
+export function applyZhigengM870AimGrip(attachment,motion,time){
+  if(attachment.characterId!=='zhigeng'||attachment.selectedWeapon!=='m870'||motion!=='ShotgunAimLevel'||!attachment.state.visible)return;
+  const hand=attachment.model.bones.get('mixamorig:LeftHand'),state=attachment.state;
+  const palm=state.leftPalmWorld?hand.worldToLocal(new THREE.Vector3().fromArray(state.leftPalmWorld)):null;
+  for(const deltas of layers)for(const [name,value] of Object.entries(deltas)){
+    const bone=attachment.model.bones.get(name);attachment.saveBone(bone);
+    bone.quaternion.multiply(new THREE.Quaternion().fromArray(value).normalize()).normalize();bone.updateMatrixWorld(true);
+  }
+  if(palm){state.leftPalmWorld=hand.localToWorld(palm).toArray();if(state.supportTargetWorld&&state.leftContactErrorM!==null)state.leftContactErrorM=new THREE.Vector3().fromArray(state.leftPalmWorld).distanceTo(new THREE.Vector3().fromArray(state.supportTargetWorld));}
+}
