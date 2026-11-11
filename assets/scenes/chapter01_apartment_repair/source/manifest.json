@@ -1,0 +1,88 @@
+{
+  "archive_name": "第一章_公寓与维修所_场景包.zip",
+  "parts": [
+    {
+      "part": 1,
+      "filename": "第一章_公寓与维修所_场景包.zip.001",
+      "bytes": 19922944,
+      "sha256": "b1839fd6bb6ae9e4e6b8a06a2ace60fc78a2acc4b7d155dccb590f9224358e84"
+    },
+    {
+      "part": 2,
+      "filename": "第一章_公寓与维修所_场景包.zip.002",
+      "bytes": 19922944,
+      "sha256": "d6c3f5cd169ae6d1d061065cdf4aacaba5083a6726d115ecea3abb0c9dc7a8c2"
+    },
+    {
+      "part": 3,
+      "filename": "第一章_公寓与维修所_场景包.zip.003",
+      "bytes": 19922944,
+      "sha256": "a5e0e41641c86f230007efec62293ee34fb023138abd0b48cbe41e6bb78277c2"
+    },
+    {
+      "part": 4,
+      "filename": "第一章_公寓与维修所_场景包.zip.004",
+      "bytes": 19922944,
+      "sha256": "6673c3851606ee29e8da7137d643511032d1fcadffb27686d2988b5f287dfbad"
+    },
+    {
+      "part": 5,
+      "filename": "第一章_公寓与维修所_场景包.zip.005",
+      "bytes": 19922944,
+      "sha256": "93e0aa991ab4eb6bb766d218bc28d78478206f8eabac07ae817fcebef7990d29"
+    },
+    {
+      "part": 6,
+      "filename": "第一章_公寓与维修所_场景包.zip.006",
+      "bytes": 19922944,
+      "sha256": "da1115825c929ddd326db38bbc625cb236a3c3bb96e70886a7f4f4685154cba6"
+    },
+    {
+      "part": 7,
+      "filename": "第一章_公寓与维修所_场景包.zip.007",
+      "bytes": 19922944,
+      "sha256": "e3a46b8ddd82fade8a5307993a80c908a74c745030b201d53489ef6487ed5f45"
+    },
+    {
+      "part": 8,
+      "filename": "第一章_公寓与维修所_场景包.zip.008",
+      "bytes": 19922944,
+      "sha256": "617a237974986b5ede744036d2f79e37df9249388463cc59537e825395bce9df"
+    },
+    {
+      "part": 9,
+      "filename": "第一章_公寓与维修所_场景包.zip.009",
+      "bytes": 19922944,
+      "sha256": "796590a46c2bcd8fa81aa2270bb3d45c7df326425c37886d363e754872dc73eb"
+    },
+    {
+      "part": 10,
+      "filename": "第一章_公寓与维修所_场景包.zip (1).010",
+      "bytes": 19922944,
+      "sha256": "713a5f8bb83ac918c673e8132b0dc8cd4e5757d8fe71c60653855fdec78bde35"
+    },
+    {
+      "part": 11,
+      "filename": "第一章_公寓与维修所_场景包.zip.011",
+      "bytes": 19922944,
+      "sha256": "bb56d9df583a744c86425a5d3d49a84eca95d5a12655476de714e82d93a5c566"
+    },
+    {
+      "part": 12,
+      "filename": "第一章_公寓与维修所_场景包.zip.012",
+      "bytes": 19922944,
+      "sha256": "47f24e8bbd8a55fdbc8e509d6cab8244de867afcd55d633b2cbac7eaf35507f9"
+    },
+    {
+      "part": 13,
+      "filename": "第一章_公寓与维修所_场景包.zip.013",
+      "bytes": 12268394,
+      "sha256": "31564fd20d0ea3172e76941ec340588b385d3f2c24f43b8c1d9927b0c7617889"
+    }
+  ],
+  "validation": {
+    "concatenated_zip_crc": "passed",
+    "entry_count": 40,
+    "uncompressed_bytes": 261614981
+  }
+}
