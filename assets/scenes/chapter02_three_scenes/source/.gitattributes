@@ -1,0 +1,2 @@
+*.00? filter=lfs diff=lfs merge=lfs -text
+*.01? filter=lfs diff=lfs merge=lfs -text

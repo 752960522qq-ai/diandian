@@ -1,0 +1,88 @@
+{
+  "archive_name": "第五六章_杜区损毁与泵站_运行整图.zip",
+  "parts": [
+    {
+      "part": 1,
+      "filename": "第五六章_杜区损毁与泵站_运行整图.zip.001",
+      "bytes": 19922944,
+      "sha256": "90c2456b24bcde3dad09dd706cd9cd7425fe7b0bb1ddd4574e7d4d92f4f34422"
+    },
+    {
+      "part": 2,
+      "filename": "第五六章_杜区损毁与泵站_运行整图.zip.002",
+      "bytes": 19922944,
+      "sha256": "ec0f15be44ea4a88d0928d20fe195704d2add5d872b9753ea66c4727f177c962"
+    },
+    {
+      "part": 3,
+      "filename": "第五六章_杜区损毁与泵站_运行整图.zip.003",
+      "bytes": 19922944,
+      "sha256": "62c2d686653ab59ed55e348daaa627d354d9dc23e9649b8c5cfaa83a3b140fe4"
+    },
+    {
+      "part": 4,
+      "filename": "第五六章_杜区损毁与泵站_运行整图.zip.004",
+      "bytes": 19922944,
+      "sha256": "61e77d4d2c4efc654ee01df9aa8b4f7a5aee5b4f06f843cf23fe91aeef80f5d0"
+    },
+    {
+      "part": 5,
+      "filename": "第五六章_杜区损毁与泵站_运行整图.zip.005",
+      "bytes": 19922944,
+      "sha256": "2212d91947cc974513e4ce29376adfcc83c55aa727a78edf776cbf53e8ec79bd"
+    },
+    {
+      "part": 6,
+      "filename": "第五六章_杜区损毁与泵站_运行整图.zip.006",
+      "bytes": 19922944,
+      "sha256": "9b94b8058fc4d394981b0c482cd1356a85a30b0fa03550e985900b2a6fa3619a"
+    },
+    {
+      "part": 7,
+      "filename": "第五六章_杜区损毁与泵站_运行整图.zip.007",
+      "bytes": 19922944,
+      "sha256": "419465b8dd62821796be1e5d3785947bf79ffa8c81669f323810d10a1675468c"
+    },
+    {
+      "part": 8,
+      "filename": "第五六章_杜区损毁与泵站_运行整图.zip.008",
+      "bytes": 19922944,
+      "sha256": "00d9a655b5e85675c30aeffc5a2a1eabd72e67dcb42e3fa01edd9ca3f2dcc6ec"
+    },
+    {
+      "part": 9,
+      "filename": "第五六章_杜区损毁与泵站_运行整图.zip.009",
+      "bytes": 19922944,
+      "sha256": "d7ad47b1d86f6907283335fa16e8bc2a45075a3fa4034af0d786615663088c86"
+    },
+    {
+      "part": 10,
+      "filename": "第五六章_杜区损毁与泵站_运行整图.zip.010",
+      "bytes": 19922944,
+      "sha256": "b18c03fc6733cd626755f27d14ddbed8b5c633661c2d8f475102d3b57ce77f7c"
+    },
+    {
+      "part": 11,
+      "filename": "第五六章_杜区损毁与泵站_运行整图.zip.011",
+      "bytes": 19922944,
+      "sha256": "a7137379473e5b0d435b07acda8ed73383eb86e27553798e00d16bf57297acce"
+    },
+    {
+      "part": 12,
+      "filename": "第五六章_杜区损毁与泵站_运行整图.zip.012",
+      "bytes": 19922944,
+      "sha256": "f2feb287c3b9b17bf8c14c5e33f4f0bd3d33ae644cb509b403826df9043c7bd4"
+    },
+    {
+      "part": 13,
+      "filename": "第五六章_杜区损毁与泵站_运行整图.zip.013",
+      "bytes": 50325,
+      "sha256": "7ed010d233635a7609ab59607aa74b1959c9fbdd63c0c54f83c429f2b5efdda2"
+    }
+  ],
+  "validation": {
+    "concatenated_zip_crc": "passed",
+    "entry_count": 35,
+    "uncompressed_bytes": 284110919
+  }
+}
