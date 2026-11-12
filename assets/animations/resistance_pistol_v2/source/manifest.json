@@ -1,0 +1,25 @@
+{
+  "files": [
+    {
+      "filename": "抵抗军手枪_v2_01_军装动作.zip",
+      "bytes": 2471108,
+      "sha256": "0bb435f36e25060bf2a1b2dc6a5c95f53c71ca1012222e8cb874c2738799fd5c",
+      "zip_entries": 3,
+      "crc": "passed"
+    },
+    {
+      "filename": "抵抗军手枪_v2_02_背心动作.zip",
+      "bytes": 2494517,
+      "sha256": "f1e89b43d0e47b52cd3a0051f27669f3481f463158ec1c48e6dd1ef597335af6",
+      "zip_entries": 3,
+      "crc": "passed"
+    },
+    {
+      "filename": "抵抗军手枪_v2_00_共同文件.zip",
+      "bytes": 1650297,
+      "sha256": "488230bfc5e8443044db9016b9a6223763db1ac8816ced07c565e2c478ed35e1",
+      "zip_entries": 7,
+      "crc": "passed"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "files": [
+    {
+      "filename": "Linxu_AllGuns_Upright_v3_05_Type97.zip",
+      "bytes": 590185,
+      "sha256": "2ec900f319f645dd5765ecaa3f9ff2d53402f81d9d4d13b6b24427138737e33b",
+      "zip_entries": 14,
+      "crc": "passed"
+    },
+    {
+      "filename": "Linxu_AllGuns_Upright_v3_06_M870.zip",
+      "bytes": 2392438,
+      "sha256": "d24bf9b167941fd948b35e6780c7450e01dd2611ed7c4647fed82214887546f1",
+      "zip_entries": 16,
+      "crc": "passed"
+    },
+    {
+      "filename": "Linxu_AllGuns_v4_04_Pistols.zip",
+      "bytes": 2782857,
+      "sha256": "aa945fca4c15e7a583403d0eb1ccc2a5829ad2ba885c0e473e25d2b4504a96cb",
+      "zip_entries": 18,
+      "crc": "passed"
+    },
+    {
+      "filename": "Linxu_AllGuns_Upright_v3_02_Type56.zip",
+      "bytes": 1936318,
+      "sha256": "1233bf009f734afc27a3a73eae6fdc3637adff9c9d7b464aeaceffe32b91414a",
+      "zip_entries": 9,
+      "crc": "passed"
+    },
+    {
+      "filename": "Linxu_AllGuns_Upright_v3_03_QBU85.zip",
+      "bytes": 1934691,
+      "sha256": "2b958a4712561c0ed3ec3ef13a481f75a2bdd3e76b889e565275bbf8c8008972",
+      "zip_entries": 11,
+      "crc": "passed"
+    },
+    {
+      "filename": "Linxu_AllGuns_Upright_v3_00_Shared.zip",
+      "bytes": 15578,
+      "sha256": "86368887c8b65a367107de1a5247e39c25cbceefaba07efdd21ca01a20f24a5d",
+      "zip_entries": 4,
+      "crc": "passed"
+    },
+    {
+      "filename": "Linxu_AllGuns_Upright_v3_01_QBZ95_QCQ171.zip",
+      "bytes": 1932012,
+      "sha256": "12a86ecff90effb256a3e2bfb7a62047caf264d7dc7af162371a994a67fa4170",
+      "zip_entries": 8,
+      "crc": "passed"
+    }
+  ]
+}
