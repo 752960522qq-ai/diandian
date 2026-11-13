@@ -1,0 +1,43 @@
+{
+  "files": [
+    {
+      "filename": "林叙_完整修改包_C16.zip.001",
+      "type": "part1",
+      "bytes": 29900000,
+      "sha256": "77eddf078728a369050e4b25b685384d53cb905fab7b23ee32a3fef168b6ac73"
+    },
+    {
+      "filename": "林叙_完整修改包_C16.zip.002",
+      "type": "part2",
+      "bytes": 28956757,
+      "sha256": "a7b34c941423477546bbb1281b59bb895333b10feda3acf32efbdf040af8d0c7"
+    },
+    {
+      "filename": "林叙_C16C96局部修复_续作检查点_未完全验收.zip",
+      "type": "checkpoint",
+      "bytes": 30666126,
+      "sha256": "d2fc316a72b24f0f91cad1adcdf37c1b4e93743abdb2ef6eb390ce41d4d38c33",
+      "zip_entries": 110,
+      "crc": "passed",
+      "acceptance_status": "未完全验收，续作检查点"
+    },
+    {
+      "filename": "林叙_C18汉阳自然持枪审阅包_适用完整C16.zip",
+      "type": "review",
+      "bytes": 19798627,
+      "sha256": "a4e01e1569b52de51be87e9c5f9b96bcc50baf592f407752abdfa497ce2f97fe",
+      "zip_entries": 32,
+      "crc": "passed",
+      "acceptance_status": "审阅包，不代表已验收",
+      "requires": "完整C16"
+    }
+  ],
+  "combined_archive_validation": {
+    "parts": [
+      "林叙_完整修改包_C16.zip.001",
+      "林叙_完整修改包_C16.zip.002"
+    ],
+    "crc": "passed",
+    "zip_entries": 129
+  }
+}
