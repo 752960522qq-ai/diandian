@@ -1,0 +1,62 @@
+{
+  "files": [
+    {
+      "filename": "合并_林叙完整包_C12.py",
+      "type": "script",
+      "bytes": 2038,
+      "sha256": "75903c82ff801bf46c48dbbb03b13e76991f3d5f7dd9866723b251e9a4795df9"
+    },
+    {
+      "filename": "背心抵抗军_四枪腕部审阅补丁_C05.zip",
+      "type": "zip",
+      "bytes": 7359332,
+      "sha256": "65311e65f879f2058c0a6b37d698508c15cc8623c663c621a1f149e3a895f99f",
+      "validation": "ZIP CRC passed",
+      "zip_entries": 26
+    },
+    {
+      "filename": "背心抵抗军_M870右食指最小补丁_C06.zip",
+      "type": "zip",
+      "bytes": 2482709,
+      "sha256": "51784e2dfd3c4fbb303f96e88f133456feceff955095f52fe334dc08f39c94e0",
+      "validation": "ZIP CRC passed",
+      "zip_entries": 4
+    },
+    {
+      "filename": "背心抵抗军56式_右手握持阶段修改包_v1.zip",
+      "type": "zip",
+      "bytes": 63322,
+      "sha256": "f8e906bc4fc9fd6b02dd5e6f78335fb0974b6de29ae3c71996311e2968c724ff",
+      "validation": "ZIP CRC passed",
+      "zip_entries": 7
+    },
+    {
+      "filename": "林叙_完整修改包_C12.zip.001",
+      "type": "part1",
+      "bytes": 29500000,
+      "sha256": "f7af5c10651edbb964bf5c392043c8a3ab5fdb27a88caaeeb291e3518dee21ab"
+    },
+    {
+      "filename": "背心抵抗军_95与97与M870审阅补丁_C04.zip",
+      "type": "zip",
+      "bytes": 4959043,
+      "sha256": "c6688c3a0f465060f18d6b49b9dbb395edf0e73e36c9c20d5b87525201e7a602",
+      "validation": "ZIP CRC passed",
+      "zip_entries": 15
+    },
+    {
+      "filename": "林叙_完整修改包_C12.zip.002",
+      "type": "part2",
+      "bytes": 29484760,
+      "sha256": "1d5276dfe1a7f53d7a7b764b28e3867fbb60dc2fc3d5868d058fee13e5c11385"
+    }
+  ],
+  "combined_archive_validation": {
+    "parts": [
+      "林叙_完整修改包_C12.zip.001",
+      "林叙_完整修改包_C12.zip.002"
+    ],
+    "crc": "passed",
+    "zip_entries": 124
+  }
+}
