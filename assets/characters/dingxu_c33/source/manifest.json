@@ -1,0 +1,18 @@
+{
+  "files": [
+    {
+      "filename": "定序军_C33_完整修改包_part01.zip",
+      "bytes": 17272716,
+      "sha256": "e38e4ca64c6c011e793174ff438f4d605a20f6e675003c25bde0272d76215f56",
+      "crc": "passed",
+      "zip_entries": 52
+    },
+    {
+      "filename": "定序军_C33_完整修改包_part02.zip",
+      "bytes": 26496681,
+      "sha256": "bf7a1d2443c3887e3226e7172144c3292077f740259862317575fdddd4ab8083",
+      "crc": "passed",
+      "zip_entries": 14
+    }
+  ]
+}
