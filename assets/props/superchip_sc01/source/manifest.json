@@ -1,0 +1,11 @@
+{
+  "files": [
+    {
+      "filename": "Superchip_SC01.glb",
+      "type": "superchip",
+      "bytes": 1448704,
+      "sha256": "5bf87aa5454441915bdd54d1d9475628bdd986c49c5d91e74c4ae3c21f223d6d",
+      "validation": "GLB 2.0 header, chunks and JSON passed"
+    }
+  ]
+}

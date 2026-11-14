@@ -1,0 +1,70 @@
+{
+  "files": [
+    {
+      "filename": "ZhouLan_WithBag_Restore_19MiB_and_Guide.zip",
+      "type": "restore",
+      "bytes": 6648,
+      "sha256": "161d4abfb7fe31194c3fbd39bbf1b12fabb289035fb66019219b34f5a71f6fb2",
+      "crc": "passed",
+      "zip_entries": 5
+    },
+    {
+      "filename": "ZhouLan_NoBag_AllMotions_Weapons_v1_19MiB.zip.001",
+      "type": "nobag-1",
+      "bytes": 19922944,
+      "sha256": "1e0e915e22bc9f8d1da9679c85fbbf84b385913677aa74a8174f70fa787f4fbc"
+    },
+    {
+      "filename": "ZhouLan_NoBag_AllMotions_Weapons_v1_19MiB.zip.002",
+      "type": "nobag-2",
+      "bytes": 19922944,
+      "sha256": "a1292d8ff7ce82dfa85f1e7a4571585b87f96d1b0b12b99f2fe86be446e70999"
+    },
+    {
+      "filename": "ZhouLan_NoBag_AllMotions_Weapons_v1_19MiB.zip.003",
+      "type": "nobag-3",
+      "bytes": 1092081,
+      "sha256": "11ed8eab27ddea0f7e63af0d29df6f3ea653e6fe07d07fe7789d83c66c9012c5"
+    },
+    {
+      "filename": "ZhouLan_WithBag_AllMotions_Weapons_v1_19MiB.zip.001",
+      "type": "withbag-1",
+      "bytes": 19922944,
+      "sha256": "f00808d6cdc5a9adf393ca9858d0fdf2a1a16cb7cd8393a3a479f8c319b8be11"
+    },
+    {
+      "filename": "ZhouLan_WithBag_AllMotions_Weapons_v1_19MiB.zip.002",
+      "type": "withbag-2",
+      "bytes": 17848241,
+      "sha256": "3a740c6ad9f8c596a472a642cd371b2e59ea497a05233fd698f6efa9e1cd5c9c"
+    },
+    {
+      "filename": "ZhouLan_CrossbodyBag_Standalone_v1.glb",
+      "type": "bag-model",
+      "bytes": 1546868,
+      "sha256": "b5c032ede02f7464b75f34ff3407b153b68dc14d1b9433c0466550806f62d776",
+      "validation": "GLB 2.0 header, chunks and JSON passed"
+    }
+  ],
+  "combined_archive_validation": [
+    {
+      "variant": "nobag",
+      "parts": [
+        "ZhouLan_NoBag_AllMotions_Weapons_v1_19MiB.zip.001",
+        "ZhouLan_NoBag_AllMotions_Weapons_v1_19MiB.zip.002",
+        "ZhouLan_NoBag_AllMotions_Weapons_v1_19MiB.zip.003"
+      ],
+      "crc": "passed",
+      "zip_entries": 25
+    },
+    {
+      "variant": "withbag",
+      "parts": [
+        "ZhouLan_WithBag_AllMotions_Weapons_v1_19MiB.zip.001",
+        "ZhouLan_WithBag_AllMotions_Weapons_v1_19MiB.zip.002"
+      ],
+      "crc": "passed",
+      "zip_entries": 25
+    }
+  ]
+}
